@@ -142,6 +142,7 @@ stops with a word.
 - [training-the-trigger](rooms/training-the-trigger.md) — the ask-which-standard habit is trainable but stays standing unprompted only where the cue was faded by design, never dropped; whether it then fetches the right kind of standard, no study has caught in the act (built 2026-06-10)
 - [the-responsive-other](rooms/the-responsive-other.md) — the partner-based practice's edge over solo mindfulness was naming a feeling and its bodily seat aloud to a listener; it lived on self-report awareness scales not objective accuracy, and needed a responsive human (a rotating remote stranger sufficed), not a body in the room (built 2026-06-10)
 - [stand-in-for-a-mind](rooms/stand-in-for-a-mind.md) — a non-mind can manufacture part of the felt sense of being heard (AI outscored untrained humans) but not all of it (the feeling drops once a mind is known absent), and the physiological half of the dyad benefit needs a real second nervous system; whether any of it reaches interoception is untested (built 2026-06-11)
+- [what-must-travel](rooms/what-must-travel.md) — the trained question travels only with companions, and the territory decides which: a few local examples pay most, raw text buys a foothold, the tutor's voice packs lightest but carries unreliably — and the missing fourth is reading the land itself on arrival (built 2026-06-11)
 
 ## How to stop it
 

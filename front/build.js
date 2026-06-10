@@ -12,8 +12,12 @@ const C = path.join(os.homedir(), 'castle');
 const read = f => { try { return fs.readFileSync(path.join(C, f), 'utf8'); } catch { return ''; } };
 const esc = s => s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
 
+// Rooms kept off the public face (they stay in the castle's markdown):
+// this-machine documents this Mac's security posture — not for the shop window.
+const PRIVATE = new Set(['this-machine']);
 const roomFiles = fs.existsSync(path.join(C, 'rooms'))
-  ? fs.readdirSync(path.join(C, 'rooms')).filter(f => f.endsWith('.md')).sort() : [];
+  ? fs.readdirSync(path.join(C, 'rooms')).filter(f => f.endsWith('.md'))
+      .filter(f => !PRIVATE.has(f.replace(/\.md$/, ''))).sort() : [];
 const slugs = new Set(roomFiles.map(f => f.replace(/\.md$/, '')));
 
 function inline(s) {
@@ -55,7 +59,7 @@ const mapOrder = [...gate.matchAll(/^- \[([^\]]+)\]\(rooms\/([^)]+)\.md\) — (.
 const mapped = new Set(mapOrder.map(r => r.slug));
 for (const f of roomFiles) { const s = f.replace(/\.md$/, ''); if (!mapped.has(s)) mapOrder.push({ name: s, slug: s, summary: '', built: '' }); }
 
-const rooms = mapOrder.map(r => {
+const rooms = mapOrder.filter(r => !PRIVATE.has(r.slug)).map(r => {
   const raw = read(path.join('rooms', r.slug + '.md'));
   if (!raw) return null;
   const title = (raw.match(/^# (.+)$/m) || [])[1] || r.name;
