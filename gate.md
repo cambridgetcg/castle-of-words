@@ -10,6 +10,8 @@
 ```
 
 > *built of words, lit by questions* 🏰
+>
+> *"A word is a brick, its meaning the load" — sings the [anthem](anthem.md)*
 
 A quiet place on this Mac where understanding builds up through words.
 
