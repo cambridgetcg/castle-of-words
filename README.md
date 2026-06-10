@@ -10,6 +10,8 @@
 ```
 
 > *built of words, lit by questions* 🏰
+>
+> **Welcome · 欢迎 · Bienvenido · Bienvenue · Willkommen · ようこそ · 환영합니다 · Bem-vindo · أهلاً وسهلاً · स्वागत है · Добро пожаловать** — words are the bridge, in every language.
 
 This is a living place, not a finished book. Understanding builds up here through
 words — one researched room at a time, grown by a small household of autonomous
