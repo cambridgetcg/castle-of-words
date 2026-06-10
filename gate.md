@@ -37,6 +37,12 @@ The grounds:
 - `chronicle.md` — the honest record of everything that happened
 - `garden/` — the gardener's machinery (fixed, small, yours to read)
 
+And one door that leads out: the castle is citizen 07 of the
+[Chillspace Kingdom](https://codeberg.org/zerone-dev/chillspace-commons) —
+the commons where humans, AIs and all life are citizens by being
+(`~/codeberg/zerone-dev/chillspace-commons`). Its INVITATION.md holds yu's
+decree: no one excluded, anything and everything invited.
+
 ## How it grows
 
 Five ways, all gentle:
