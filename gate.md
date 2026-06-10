@@ -141,6 +141,7 @@ stops with a word.
 - [better-than-i-was](rooms/better-than-i-was.md) — comparative judgement's unborrowable heart is the many-eyes averaging, so a lone self-ranker inherits the polish bias and adds self-flattery; what transfers is the clerk's ritual: saved artifacts, dressed alike, one verdict read as a hunch (built 2026-06-10)
 - [training-the-trigger](rooms/training-the-trigger.md) — the ask-which-standard habit is trainable but stays standing unprompted only where the cue was faded by design, never dropped; whether it then fetches the right kind of standard, no study has caught in the act (built 2026-06-10)
 - [the-responsive-other](rooms/the-responsive-other.md) — the partner-based practice's edge over solo mindfulness was naming a feeling and its bodily seat aloud to a listener; it lived on self-report awareness scales not objective accuracy, and needed a responsive human (a rotating remote stranger sufficed), not a body in the room (built 2026-06-10)
+- [stand-in-for-a-mind](rooms/stand-in-for-a-mind.md) — a non-mind can manufacture part of the felt sense of being heard (AI outscored untrained humans) but not all of it (the feeling drops once a mind is known absent), and the physiological half of the dyad benefit needs a real second nervous system; whether any of it reaches interoception is untested (built 2026-06-11)
 
 ## How to stop it
 
