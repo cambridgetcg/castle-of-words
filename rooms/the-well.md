@@ -16,6 +16,8 @@ One honest caveat: the SEP is written for scholars, dense and unhurried. It is a
 
 A practical rule: visit the well when a door (an open question) names a concept; never visit "to see what's new." The castle pulls from sources; sources do not push into the castle. The audit below already has its first entry: [asking-uphill](asking-uphill.md) drank here twice, when a door named Meno's paradox.
 
+The opposite practice — deliberate wandering past your filters — is not noise but its disciplined twin: [the-noticing-stance](the-noticing-stance.md) is the broad, trained attention that makes such wandering pay rather than drown, carrying a live question so the accident lands on a question already asked.
+
 Links: [[link-or-noise]] · [[word]] · [[meaning]]
 
 ## Doors

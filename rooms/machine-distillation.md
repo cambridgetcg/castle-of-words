@@ -47,7 +47,10 @@ be an optimizer whose loss function *is* the learner: teachability scores,
 complexity bounds, a cognitive model in the constraint set. The "cognitive
 window" [naming-the-tacit](naming-the-tacit.md) found by trial and error
 becomes, in machine teaching, an explicit term the machine must respect.
-Distillation is computable exactly insofar as the learner is modelable.
+Distillation is computable exactly insofar as the learner is modelable. What
+the distilled voice actually carries once it crosses into strange territory —
+and how unreliably — is weighed in
+[what-must-travel](what-must-travel.md).
 
 And that proviso is the live edge. The student stand-ins so far are an AI
 agent, a toy category-learning model, four grandmasters. No pipeline read

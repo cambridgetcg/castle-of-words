@@ -19,7 +19,10 @@ they decide no one is home behind them ([PubMed, read
 human empathy 57–62% of the time even while rating the machine's higher ([PMC,
 read 2026-06-11](https://pmc.ncbi.nlm.nih.gov/articles/PMC12872445/)). So "the
 felt sense of being heard" and "a mind that can attune" do not cleanly come
-apart; believing a mind is there is part of what makes the feeling.
+apart; believing a mind is there is part of what makes the feeling. This is the
+measurement [text-answers-back](text-answers-back.md)'s orphan-father door was
+reaching for: knowing no mind is home behind the words is itself part of what
+collapses the sense of being heard.
 
 Second, and narrower: interoception. Here a stand-in does some real work — a
 static photo of one's partner sharpened bodily accuracy in low starters, no live

@@ -55,7 +55,9 @@ inductees), and the broadened searchlight is the trainable part — minutes of
 practice move it. What converts the catch into value is the older, slower
 part: an open, wide-ranging mind, the live question
 [mining-the-noise](mining-the-noise.md) prescribed. Train the stance cheap;
-grow the openness long.
+grow the openness long. This is the discipline that lets
+[the-well](the-well.md)'s rule hold without drowning: pull from chosen
+sources, but keep the searchlight wide enough to catch what no door named.
 
 ## What stays uncertain
 

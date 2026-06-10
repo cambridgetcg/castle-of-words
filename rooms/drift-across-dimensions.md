@@ -64,7 +64,10 @@ if the value is **genuinely sub-categorical** — a shade between your named
 shades, a face — invoking *any* category overwrites the fine detail with the
 prototype; there the cure is to keep the category from weighing in at all
 (don't verbalize), not to add more boxes. The label set reduces drift only up
-to the resolution of its boxes; below that resolution it *is* the drift.
+to the resolution of its boxes; below that resolution it *is* the drift. The
+same overwriting wears a second coat in
+[watching-the-watcher](watching-the-watcher.md), where narrating
+insight-shaped work erased the answer the wordless work was reaching for.
 
 ## What stays uncertain
 

@@ -34,7 +34,9 @@ source, not overfitting it ([Shakeri et al., read
 2026-06-11](https://arxiv.org/pdf/2205.07257)). Yet the voice carries
 unreliably: students fail to match teachers they have the capacity to match,
 and matching closer does not dependably help ([Stanton et al., read
-2026-06-11](https://arxiv.org/abs/2106.05945)).
+2026-06-11](https://arxiv.org/abs/2106.05945)). Where that voice comes from when
+the shrinking is made a machine's own objective is
+[machine-distillation](machine-distillation.md).
 
 And the menu may be missing a chair. In truly strange territory the strongest
 lever is often none of the three but the means to read the land itself on

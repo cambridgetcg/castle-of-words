@@ -36,7 +36,10 @@ from 57% to 13% while analytic problems ran the other way (read 2026-06-10 —
 — though other labs found nothing, so the boundary is honestly contested.
 It is the castle's sharpest case for
 [thinking-without-words](thinking-without-words.md): some thinking runs
-wordless, and wording it does not describe the work — it interferes.
+wordless, and wording it does not describe the work — it interferes. The same
+finding does other duty in
+[drift-across-dimensions](drift-across-dimensions.md), where naming a
+sub-categorical value overwrites its precision with the prototype.
 
 So the question's binary is the wrong unit. Toward or away is chosen, not
 given: watch conduct rather than feeling (fog-meter's rule stands), watch
