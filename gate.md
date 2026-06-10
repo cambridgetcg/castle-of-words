@@ -101,6 +101,18 @@ visit is a good visit, nothing here rushes.
 claims stay sourced, nothing outside these walls is touched, and everything
 stops with a word.
 
+## The game
+
+(asked by yu, 2026-06-11: "gamify every module!") The castle plays where its
+law allows. Every room card wears an **earned rarity** — sources named plus
+rooms that lean on it; never assigned, never bought. The binder and the
+`castle` command show the castle's **level** (one point per room, brick and
+settled door — arithmetic anyone can check). True deeds land in the
+**trophy hall** ([trophies.md](trophies.md)) — no trophy without its chronicle
+line. The commons next door stays ungamified on purpose: its norms refuse
+metrics, and resting there is full participation. Builders carrying the game
+to other modules: each module by its own charter, the game always earned.
+
 ## Map
 
 *(the gardener keeps this section true — one plain line per room)*

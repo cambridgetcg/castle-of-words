@@ -68,12 +68,31 @@ const rooms = mapOrder.filter(r => !PRIVATE.has(r.slug)).map(r => {
   return { ...r, title, epigraph, html: md(body) };
 }).filter(Boolean);
 
+// ---- the game layer: rarity is earned, never assigned ----
+// sources = claims that name their source; inbound = other rooms that lean on this one.
+const rawAll = Object.fromEntries(rooms.map(r => [r.slug, read(path.join('rooms', r.slug + '.md'))]));
+for (const r of rooms) {
+  const sources = (rawAll[r.slug].match(/https?:\/\//g) || []).length;
+  let inbound = 0;
+  for (const o of rooms) if (o.slug !== r.slug &&
+    (rawAll[o.slug].includes('[[' + r.slug + ']]') || rawAll[o.slug].includes(r.slug + '.md'))) inbound++;
+  r.score = sources + 2 * inbound;
+  r.rarity = r.score >= 14 ? 'legendary' : r.score >= 8 ? 'rare' : r.score >= 4 ? 'uncommon' : 'common';
+}
+
 const qRaw = read('questions.md');
 const openQ = [...qRaw.matchAll(/^- \[ \] (.+)$/gm)].map(m => m[1]);
 const settledQ = [...qRaw.matchAll(/^- \[x\] /gm)].length;
 const chronicle = [...read('chronicle.md').matchAll(/^- (.+)$/gm)].map(m => m[1]);
 const bricks = fs.existsSync(path.join(C, 'words')) ? fs.readdirSync(path.join(C, 'words')).filter(f => f.endsWith('.md')).length : 0;
 const stamp = new Date().toISOString().slice(0, 16).replace('T', ' ');
+
+// the castle's level: one point per room, brick, and settled door — plain arithmetic, visible to anyone
+const points = rooms.length + bricks + settledQ;
+const LEVELS = [[0, 'Camp'], [10, 'Keep'], [25, 'Tower'], [50, 'Castle'], [80, 'Citadel'], [120, 'Wonder']];
+let lvl = { n: 1, name: 'Camp', next: 10 };
+LEVELS.forEach(([t, n], i) => { if (points >= t) lvl = { n: i + 1, name: n, next: (LEVELS[i + 1] || [null])[0] }; });
+const trophies = (read('trophies.md').match(/^- 🏆/gm) || []).length;
 
 // ---- the page, in Cambridge TCG's One Piece zone colors ----
 const css = `
@@ -108,6 +127,13 @@ h2.zone{color:var(--navy);font-weight:500;letter-spacing:.08em;border-bottom:3px
 .card .body{padding:9px 11px;font-size:12.5px;color:var(--muted);flex:1;overflow:hidden}
 .card .foot{padding:6px 11px;font-size:10.5px;color:var(--muted);border-top:1px solid #eee2d0;display:flex;justify-content:space-between}
 .card .foot .set{color:var(--crimson)}
+.card.uncommon{border-color:#5a7a9f}.card.rare{border-color:var(--crimson)}
+.card.legendary{border-color:#b8860b;box-shadow:0 0 14px rgba(245,215,66,.55),0 1px 3px rgba(30,58,95,.25)}
+.gem{font-size:9.5px;letter-spacing:.09em;text-transform:uppercase}
+.gem.common{color:var(--muted)}.gem.uncommon{color:#5a7a9f}.gem.rare{color:var(--crimson)}.gem.legendary{color:#b8860b}
+.bar{max-width:420px;margin:20px auto 0;height:10px;background:#eee2d0;border-radius:999px;overflow:hidden}
+.bar i{display:block;height:100%;background:linear-gradient(90deg,var(--navy),var(--crimson) 60%,var(--gold))}
+.lvl{margin-top:8px;font-size:13px;color:var(--muted)}
 .doors{list-style:none;padding:0;margin:0;display:grid;gap:10px}
 .doors li{background:#fff;border-left:5px solid var(--gold);border-radius:8px;padding:12px 16px;box-shadow:0 1px 2px rgba(30,58,95,.12);font-size:14.5px}
 .room{background:#fff;border:1px solid #eadfce;border-top:6px solid var(--navy);border-radius:12px;max-width:760px;margin:30px auto;padding:8px 30px 26px;box-shadow:0 2px 8px rgba(30,58,95,.08)}
@@ -125,11 +151,11 @@ footer code{background:#f6efe2;border-radius:4px;padding:1px 6px}
 `;
 
 const cards = rooms.map(r => `
-<a class="card" href="#${r.slug}">
+<a class="card ${r.rarity}" href="#${r.slug}">
   <div class="name">${esc(r.name)}</div>
   <div class="art"><em>${r.epigraph ? esc(r.epigraph) : '—'}</em></div>
   <div class="body">${esc(r.summary || r.title)}</div>
-  <div class="foot"><span class="set">⚑ castle</span><span>${esc(r.built || '')}</span></div>
+  <div class="foot"><span class="gem ${r.rarity}">${r.rarity}</span><span>${esc(r.built || '')}</span></div>
 </a>`).join('\n');
 
 const details = rooms.map(r => `
@@ -156,7 +182,11 @@ const html = `<!doctype html>
     <span class="chip"><b>${bricks}</b> word-bricks</span>
     <span class="chip"><b>${openQ.length}</b> doors open</span>
     <span class="chip"><b>${settledQ}</b> settled</span>
+    <span class="chip">level <b>${lvl.n}</b> · ${lvl.name}</span>
+    <span class="chip"><b>${trophies}</b> 🏆</span>
   </div>
+  <div class="bar"><i style="width:${Math.round(100 * settledQ / ((settledQ + openQ.length) || 1))}%"></i></div>
+  <p class="lvl">${points} points (rooms + bricks + settled doors) · ${lvl.next ? (lvl.next - points) + ' to the next hall' : 'the highest hall'} · rarity is earned: sources named + rooms that lean on it</p>
 </header>
 <main>
   <h2 class="zone">The binder — every room a card</h2>

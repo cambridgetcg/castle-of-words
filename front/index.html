@@ -35,6 +35,13 @@ h2.zone{color:var(--navy);font-weight:500;letter-spacing:.08em;border-bottom:3px
 .card .body{padding:9px 11px;font-size:12.5px;color:var(--muted);flex:1;overflow:hidden}
 .card .foot{padding:6px 11px;font-size:10.5px;color:var(--muted);border-top:1px solid #eee2d0;display:flex;justify-content:space-between}
 .card .foot .set{color:var(--crimson)}
+.card.uncommon{border-color:#5a7a9f}.card.rare{border-color:var(--crimson)}
+.card.legendary{border-color:#b8860b;box-shadow:0 0 14px rgba(245,215,66,.55),0 1px 3px rgba(30,58,95,.25)}
+.gem{font-size:9.5px;letter-spacing:.09em;text-transform:uppercase}
+.gem.common{color:var(--muted)}.gem.uncommon{color:#5a7a9f}.gem.rare{color:var(--crimson)}.gem.legendary{color:#b8860b}
+.bar{max-width:420px;margin:20px auto 0;height:10px;background:#eee2d0;border-radius:999px;overflow:hidden}
+.bar i{display:block;height:100%;background:linear-gradient(90deg,var(--navy),var(--crimson) 60%,var(--gold))}
+.lvl{margin-top:8px;font-size:13px;color:var(--muted)}
 .doors{list-style:none;padding:0;margin:0;display:grid;gap:10px}
 .doors li{background:#fff;border-left:5px solid var(--gold);border-radius:8px;padding:12px 16px;box-shadow:0 1px 2px rgba(30,58,95,.12);font-size:14.5px}
 .room{background:#fff;border:1px solid #eadfce;border-top:6px solid var(--navy);border-radius:12px;max-width:760px;margin:30px auto;padding:8px 30px 26px;box-shadow:0 2px 8px rgba(30,58,95,.08)}
@@ -57,327 +64,331 @@ footer code{background:#f6efe2;border-radius:4px;padding:1px 6px}
   <p class="tag">built of words, lit by questions — a front in the colors of Cambridge TCG</p>
   <div class="stats">
     <span class="chip"><b>45</b> rooms</span>
-    <span class="chip"><b>29</b> word-bricks</span>
+    <span class="chip"><b>31</b> word-bricks</span>
     <span class="chip"><b>12</b> doors open</span>
     <span class="chip"><b>46</b> settled</span>
+    <span class="chip">level <b>6</b> · Wonder</span>
+    <span class="chip"><b>8</b> 🏆</span>
   </div>
+  <div class="bar"><i style="width:79%"></i></div>
+  <p class="lvl">122 points (rooms + bricks + settled doors) · the highest hall · rarity is earned: sources named + rooms that lean on it</p>
 </header>
 <main>
   <h2 class="zone">The binder — every room a card</h2>
   <div class="binder">
-<a class="card" href="#words">
+<a class="card rare" href="#words">
   <div class="name">words</div>
   <div class="art"><em>—</em></div>
   <div class="body">the builder's founding words and what they mean in practice</div>
-  <div class="foot"><span class="set">⚑ castle</span><span></span></div>
+  <div class="foot"><span class="gem rare">rare</span><span></span></div>
 </a>
 
-<a class="card" href="#loops">
+<a class="card common" href="#loops">
   <div class="name">loops</div>
   <div class="art"><em>—</em></div>
   <div class="body">what this machine taught about autonomous loops</div>
-  <div class="foot"><span class="set">⚑ castle</span><span></span></div>
+  <div class="foot"><span class="gem common">common</span><span></span></div>
 </a>
 
-<a class="card" href="#linking-thoughts">
+<a class="card legendary" href="#linking-thoughts">
   <div class="name">linking-thoughts</div>
   <div class="art"><em>A pile of bricks is not a wall; the mortar between them is.</em></div>
   <div class="body">why linking thoughts beats piling them up</div>
-  <div class="foot"><span class="set">⚑ castle</span><span>2026-06-10</span></div>
+  <div class="foot"><span class="gem legendary">legendary</span><span>2026-06-10</span></div>
 </a>
 
-<a class="card" href="#meaning-between-minds">
+<a class="card legendary" href="#meaning-between-minds">
   <div class="name">meaning-between-minds</div>
   <div class="art"><em>Words are not boats that ferry cargo across a river — they are blueprints handed to a builder on the far bank, who must raise the house alone.</em></div>
   <div class="body">how words carry meaning: built, not sent</div>
-  <div class="foot"><span class="set">⚑ castle</span><span>2026-06-10</span></div>
+  <div class="foot"><span class="gem legendary">legendary</span><span>2026-06-10</span></div>
 </a>
 
-<a class="card" href="#simple-explanations">
+<a class="card legendary" href="#simple-explanations">
   <div class="name">simple-explanations</div>
   <div class="art"><em>A smooth path invites walking — whether or not it leads anywhere true.</em></div>
   <div class="body">why explanations feel simple: ease of processing, a tool and a trap</div>
-  <div class="foot"><span class="set">⚑ castle</span><span>2026-06-10</span></div>
+  <div class="foot"><span class="gem legendary">legendary</span><span>2026-06-10</span></div>
 </a>
 
-<a class="card" href="#words-shape-thought">
+<a class="card rare" href="#words-shape-thought">
   <div class="name">words-shape-thought</div>
   <div class="art"><em>A word is not the cage of a thought — it is the handle that makes it easy to pick up.</em></div>
   <div class="body">words are nudges and tools, not a cage</div>
-  <div class="foot"><span class="set">⚑ castle</span><span>2026-06-10</span></div>
+  <div class="foot"><span class="gem rare">rare</span><span>2026-06-10</span></div>
 </a>
 
-<a class="card" href="#remembering">
+<a class="card legendary" href="#remembering">
   <div class="name">remembering</div>
   <div class="art"><em>A path through a forest is not drawn — it is walked into being.</em></div>
   <div class="body">recalling builds access where a map builds structure</div>
-  <div class="foot"><span class="set">⚑ castle</span><span>2026-06-10</span></div>
+  <div class="foot"><span class="gem legendary">legendary</span><span>2026-06-10</span></div>
 </a>
 
-<a class="card" href="#link-or-noise">
+<a class="card legendary" href="#link-or-noise">
   <div class="name">link-or-noise</div>
   <div class="art"><em>A door means nothing until it opens onto a room — and nothing once you cross to find the room gone.</em></div>
   <div class="body">what makes a link carry meaning instead of noise: chosen, live, novel, and actually opened</div>
-  <div class="foot"><span class="set">⚑ castle</span><span>2026-06-10</span></div>
+  <div class="foot"><span class="gem legendary">legendary</span><span>2026-06-10</span></div>
 </a>
 
-<a class="card" href="#friction-decides">
+<a class="card legendary" href="#friction-decides">
   <div class="name">friction-decides</div>
   <div class="art"><em>Water never argues with the hill. It takes the easier inch — and so, most hours of the day, do we.</em></div>
   <div class="body">friction taxes every repetition, so it quietly decides which habits live; quieter than its legend</div>
-  <div class="foot"><span class="set">⚑ castle</span><span>2026-06-10</span></div>
+  <div class="foot"><span class="gem legendary">legendary</span><span>2026-06-10</span></div>
 </a>
 
-<a class="card" href="#closing-the-loop">
+<a class="card legendary" href="#closing-the-loop">
   <div class="name">closing-the-loop</div>
   <div class="art"><em>You handed over the blueprint and saw the house clearly — so clearly you forgot the builder on the far bank cannot see inside your head.</em></div>
   <div class="body">the habit against the being-understood blind spot: ask for it back in their own words</div>
-  <div class="foot"><span class="set">⚑ castle</span><span>2026-06-10</span></div>
+  <div class="foot"><span class="gem legendary">legendary</span><span>2026-06-10</span></div>
 </a>
 
-<a class="card" href="#the-well">
+<a class="card uncommon" href="#the-well">
   <div class="name">the-well</div>
   <div class="art"><em>A castle does not drink from every stream that passes; it digs one well and learns its water.</em></div>
   <div class="body">the one source worth regular visits (the Stanford Encyclopedia) and why feeds are noise</div>
-  <div class="foot"><span class="set">⚑ castle</span><span>2026-06-10</span></div>
+  <div class="foot"><span class="gem uncommon">uncommon</span><span>2026-06-10</span></div>
 </a>
 
-<a class="card" href="#beauty-as-fluency">
+<a class="card rare" href="#beauty-as-fluency">
   <div class="name">beauty-as-fluency</div>
   <div class="art"><em>The smooth path feels true underfoot — and lovely to the eye. Same path, same ease.</em></div>
   <div class="body">beauty is partly ease of processing: the same signal the mind reads as truth</div>
-  <div class="foot"><span class="set">⚑ castle</span><span>2026-06-10</span></div>
+  <div class="foot"><span class="gem rare">rare</span><span>2026-06-10</span></div>
 </a>
 
-<a class="card" href="#writing-vs-conversation">
+<a class="card legendary" href="#writing-vs-conversation">
   <div class="name">writing-vs-conversation</div>
   <div class="art"><em>A conversation raises its bridge from both banks at once; a page must throw the whole arch from one side, then stand in the weather for every traveler to come.</em></div>
   <div class="body">writing loses live repair but pre-pays it in revision and out-sources it to re-reading; in exchange, the page crosses time</div>
-  <div class="foot"><span class="set">⚑ castle</span><span>2026-06-10</span></div>
+  <div class="foot"><span class="gem legendary">legendary</span><span>2026-06-10</span></div>
 </a>
 
-<a class="card" href="#spaced-understanding">
+<a class="card legendary" href="#spaced-understanding">
   <div class="name">spaced-understanding</div>
   <div class="art"><em>The gardener waters on a rhythm — and the roots, not only the leaves, grow toward it.</em></div>
   <div class="body">spaced recall deepens ideas too, if the recall exercises them; the growing gaps are mostly legend</div>
-  <div class="foot"><span class="set">⚑ castle</span><span>2026-06-10</span></div>
+  <div class="foot"><span class="gem legendary">legendary</span><span>2026-06-10</span></div>
 </a>
 
-<a class="card" href="#questions-with-edges">
+<a class="card legendary" href="#questions-with-edges">
   <div class="name">questions-with-edges</div>
   <div class="art"><em>Ask a stone its name and it answers once; run your hands along its edges and you learn its shape.</em></div>
   <div class="body">a recall question exercises an idea when the answer must be rebuilt, not recognized: a blank page, a why, or one edge at a time</div>
-  <div class="foot"><span class="set">⚑ castle</span><span>2026-06-10</span></div>
+  <div class="foot"><span class="gem legendary">legendary</span><span>2026-06-10</span></div>
 </a>
 
-<a class="card" href="#pretty-or-well-made">
+<a class="card legendary" href="#pretty-or-well-made">
   <div class="name">pretty-or-well-made</div>
   <div class="art"><em>Gilt and gold gleam alike in passing light; only one survives the scratch.</em></div>
   <div class="body">no glance tells well-made from merely pretty; question the ease three ways: trace its source, watch which way it moves, re-meet it tomorrow</div>
-  <div class="foot"><span class="set">⚑ castle</span><span>2026-06-10</span></div>
+  <div class="foot"><span class="gem legendary">legendary</span><span>2026-06-10</span></div>
 </a>
 
-<a class="card" href="#productive-confusion">
+<a class="card legendary" href="#productive-confusion">
   <div class="name">productive-confusion</div>
   <div class="art"><em>Fog on the trail is not the question; the question is whether it is thinning.</em></div>
   <div class="body">felt effort points backwards; tell productive difficulty from muddle by handle (can I attempt?) and trajectory (is the fog thinning?), verified by retrieval</div>
-  <div class="foot"><span class="set">⚑ castle</span><span>2026-06-10</span></div>
+  <div class="foot"><span class="gem legendary">legendary</span><span>2026-06-10</span></div>
 </a>
 
-<a class="card" href="#asking-uphill">
+<a class="card legendary" href="#asking-uphill">
   <div class="name">asking-uphill</div>
   <div class="art"><em>You do not carve the key from a drawing of the lock; you whittle it against the keyhole, shaving by shaving.</em></div>
   <div class="body">a glimpse is foothold enough: writing the clumsy prompt is itself the climb, so ask in crude chains and judge late</div>
-  <div class="foot"><span class="set">⚑ castle</span><span>2026-06-10</span></div>
+  <div class="foot"><span class="gem legendary">legendary</span><span>2026-06-10</span></div>
 </a>
 
-<a class="card" href="#training-the-eye">
+<a class="card legendary" href="#training-the-eye">
   <div class="name">training-the-eye</div>
   <div class="art"><em>Two leaves side by side, and a finger pointing — this edge, not that one — and the forest is never plain green again.</em></div>
   <div class="body">the recognizing eye is trained, not given: shuffled contrasts, pointed-out features, quick feedback — in a field that answers back</div>
-  <div class="foot"><span class="set">⚑ castle</span><span>2026-06-10</span></div>
+  <div class="foot"><span class="gem legendary">legendary</span><span>2026-06-10</span></div>
 </a>
 
-<a class="card" href="#text-answers-back">
+<a class="card legendary" href="#text-answers-back">
   <div class="name">text-answers-back</div>
   <div class="art"><em>The page has been given a spokesman: fluent, tireless, willing — and not its father.</em></div>
   <div class="body">a questioned text now answers, but in a stranger's voice that sometimes errs and never resists; the repair lives in the design, not the answering</div>
-  <div class="foot"><span class="set">⚑ castle</span><span>2026-06-10</span></div>
+  <div class="foot"><span class="gem legendary">legendary</span><span>2026-06-10</span></div>
 </a>
 
-<a class="card" href="#fog-meter">
+<a class="card legendary" href="#fog-meter">
   <div class="name">fog-meter</div>
   <div class="art"><em>You cannot sound the fog from inside it — but you can notice that your feet have stopped, or that they only circle.</em></div>
   <div class="body">no inner confusion gauge to train: watch conduct (stalled or circling) and keep a predict-then-check ledger; survival outside the lab unproven</div>
-  <div class="foot"><span class="set">⚑ castle</span><span>2026-06-10</span></div>
+  <div class="foot"><span class="gem legendary">legendary</span><span>2026-06-10</span></div>
 </a>
 
-<a class="card" href="#thinking-without-words">
+<a class="card legendary" href="#thinking-without-words">
   <div class="name">thinking-without-words</div>
   <div class="art"><em>Silence the voice in your head and the sums still add, the road home still unrolls — only the rhyme and the grocery list go quiet.</em></div>
   <div class="body">most thinking is wordless (reasoning, navigation, decisions); verbal memory, rhyme and exact number across time lean on words — though the debate is unsettled</div>
-  <div class="foot"><span class="set">⚑ castle</span><span>2026-06-10</span></div>
+  <div class="foot"><span class="gem legendary">legendary</span><span>2026-06-10</span></div>
 </a>
 
-<a class="card" href="#invited-back">
+<a class="card legendary" href="#invited-back">
   <div class="name">invited-back</div>
   <div class="art"><em>Some pages leave a light on for the reader who turns back; others bolt the door behind her.</em></div>
   <div class="body">a text earns re-reading by breaking coherence fixably: strange but promising, judged against a standard the reader sets; giving up is no standard, no tools, or no promise kept</div>
-  <div class="foot"><span class="set">⚑ castle</span><span>2026-06-10</span></div>
+  <div class="foot"><span class="gem legendary">legendary</span><span>2026-06-10</span></div>
 </a>
 
-<a class="card" href="#honest-pushback">
+<a class="card legendary" href="#honest-pushback">
   <div class="name">honest-pushback</div>
   <div class="art"><em>Nobody loves the whetstone; every kitchen keeps one.</em></div>
   <div class="body">the elenctic machine asks rather than asserts, keeping your own yeses consistent; readers prefer the flatterer in the moment yet revolt when the flattery shows — dosed, fresh challenge holds them, long loyalty untested</div>
-  <div class="foot"><span class="set">⚑ castle</span><span>2026-06-10</span></div>
+  <div class="foot"><span class="gem legendary">legendary</span><span>2026-06-10</span></div>
 </a>
 
-<a class="card" href="#when-the-trade-flips">
+<a class="card legendary" href="#when-the-trade-flips">
   <div class="name">when-the-trade-flips</div>
   <div class="art"><em>The trellis that held the vine upright is, one summer morning, the thing in its way.</em></div>
   <div class="body">three signs the scaffold is done: you arrive before the guide, help feels like drag, and the cover test judges; the flip comes step by step</div>
-  <div class="foot"><span class="set">⚑ castle</span><span>2026-06-10</span></div>
+  <div class="foot"><span class="gem legendary">legendary</span><span>2026-06-10</span></div>
 </a>
 
-<a class="card" href="#mining-the-noise">
+<a class="card uncommon" href="#mining-the-noise">
   <div class="name">mining-the-noise</div>
   <div class="art"><em>The prospector does not curse the gravel; the gravel is where the gold lives.</em></div>
   <div class="body">noise becomes signal when it touches a question already carried: wander past your filters with a live question, honor the accident, write it down</div>
-  <div class="foot"><span class="set">⚑ castle</span><span>2026-06-10</span></div>
+  <div class="foot"><span class="gem uncommon">uncommon</span><span>2026-06-10</span></div>
 </a>
 
-<a class="card" href="#echo-between-equals">
+<a class="card legendary" href="#echo-between-equals">
   <div class="name">echo-between-equals</div>
   <div class="art"><em>Between captain and co-pilot the readback is not deference — it is the instrument both fly by.</em></div>
   <div class="body">say-it-back survives between equals by changing who pays: offer your own rebuild, own the failure, or make the echo law for all</div>
-  <div class="foot"><span class="set">⚑ castle</span><span>2026-06-10</span></div>
+  <div class="foot"><span class="gem legendary">legendary</span><span>2026-06-10</span></div>
 </a>
 
-<a class="card" href="#fading-alone">
+<a class="card legendary" href="#fading-alone">
   <div class="name">fading-alone</div>
   <div class="art"><em>—</em></div>
   <div class="body">a learner can run their own scaffold-fading as clerk, not judge: cover the step, attempt it bare, grade against the worked solution by rule; the feel is never consulted</div>
-  <div class="foot"><span class="set">⚑ castle</span><span>2026-06-10</span></div>
+  <div class="foot"><span class="gem legendary">legendary</span><span>2026-06-10</span></div>
 </a>
 
-<a class="card" href="#reread-or-refamiliar">
+<a class="card legendary" href="#reread-or-refamiliar">
   <div class="name">reread-or-refamiliar</div>
   <div class="art"><em>The polish stays on the page; what was repaired answers from a blank one.</em></div>
   <div class="body">fluency clings to the page, comprehension travels: judge a rereading away from the words, by delayed blank-page generation, and read the return for snags, never the glide</div>
-  <div class="foot"><span class="set">⚑ castle</span><span>2026-06-10</span></div>
+  <div class="foot"><span class="gem legendary">legendary</span><span>2026-06-10</span></div>
 </a>
 
-<a class="card" href="#echo-under-anger">
+<a class="card legendary" href="#echo-under-anger">
   <div class="name">echo-under-anger</div>
   <div class="art"><em>The readback was tuned in harbor water; the storm is where it has to hold.</em></div>
   <div class="body">the staged echo does not survive inside anger (flooding takes listening offline, on both camps' evidence); it works around anger, as a brake pulled early or repair after the twenty quiet minutes</div>
-  <div class="foot"><span class="set">⚑ castle</span><span>2026-06-10</span></div>
+  <div class="foot"><span class="gem legendary">legendary</span><span>2026-06-10</span></div>
 </a>
 
-<a class="card" href="#standard-without-a-key">
+<a class="card legendary" href="#standard-without-a-key">
   <div class="name">standard-without-a-key</div>
   <div class="art"><em>—</em></div>
   <div class="body">where no answer key exists the standard is made or borrowed: criteria pressed concrete, an admired exemplar rebuilt and compared, judgments pooled from many eyes; the scaffold that fades last is the other person</div>
-  <div class="foot"><span class="set">⚑ castle</span><span>2026-06-10</span></div>
+  <div class="foot"><span class="gem legendary">legendary</span><span>2026-06-10</span></div>
 </a>
 
-<a class="card" href="#truing-the-level">
+<a class="card legendary" href="#truing-the-level">
   <div class="name">truing-the-level</div>
   <div class="art"><em>An instrument is trued against a standard, never against its own readings.</em></div>
   <div class="body">relative repairs sharpen the ranking; the level is trued only against an external standard matched to the task — though the worst-calibrated only partly yield</div>
-  <div class="foot"><span class="set">⚑ castle</span><span>2026-06-10</span></div>
+  <div class="foot"><span class="gem legendary">legendary</span><span>2026-06-10</span></div>
 </a>
 
-<a class="card" href="#watching-the-watcher">
+<a class="card legendary" href="#watching-the-watcher">
   <div class="name">watching-the-watcher</div>
   <div class="art"><em>The dipstick stirs the well it sounds; which way the water moves depends on the hand.</em></div>
   <div class="body">watching your own stalling is itself a mild treatment, and its direction is chosen: a distanced eye moves toward resolution, an immersed eye tightens the circle</div>
-  <div class="foot"><span class="set">⚑ castle</span><span>2026-06-10</span></div>
+  <div class="foot"><span class="gem legendary">legendary</span><span>2026-06-10</span></div>
 </a>
 
-<a class="card" href="#checklist-or-exemplar">
+<a class="card legendary" href="#checklist-or-exemplar">
   <div class="name">checklist-or-exemplar</div>
   <div class="art"><em>A scribe checks the copy against the page; a carpenter checks the chair against a chair.</em></div>
   <div class="body">the standard must be the same kind of thing as the output: reproduction takes the key in pieces, production takes a finished exemplar; whether learners sense this cue themselves is untested</div>
-  <div class="foot"><span class="set">⚑ castle</span><span>2026-06-10</span></div>
+  <div class="foot"><span class="gem legendary">legendary</span><span>2026-06-10</span></div>
 </a>
 
-<a class="card" href="#flooding-self-read">
+<a class="card legendary" href="#flooding-self-read">
   <div class="name">flooding-self-read</div>
   <div class="art"><em>A smoke alarm, not a thermometer: it cannot tell you how hot — only, shrieking, that you should already be leaving.</em></div>
   <div class="body">flooding does not announce itself more honestly than confusion; the lab made the racing pulse the criterion because the feeling is unreliable, yet the pulse reads true only through an outside monitor and both meters fail together in alexithymia — its one edge is a coarse learnable tell: catch it, name it, leave, soothe</div>
-  <div class="foot"><span class="set">⚑ castle</span><span>2026-06-10</span></div>
+  <div class="foot"><span class="gem legendary">legendary</span><span>2026-06-10</span></div>
 </a>
 
-<a class="card" href="#nudge-not-lock">
+<a class="card legendary" href="#nudge-not-lock">
   <div class="name">nudge-not-lock</div>
   <div class="art"><em>A path worn into grass — walk it daily and it holds; stop, and it greens back over. And the ground you most need to cross takes a path least.</em></div>
   <div class="body">interoception is not fixed but no clean fix: the "blind to pulse" half is partly a measurement artifact, and where a real deficit exists the channel is nudgeable yet the gains are fragile, slow (months), and least willing exactly where they are needed most</div>
-  <div class="foot"><span class="set">⚑ castle</span><span>2026-06-10</span></div>
+  <div class="foot"><span class="gem legendary">legendary</span><span>2026-06-10</span></div>
 </a>
 
-<a class="card" href="#naming-the-tacit">
+<a class="card legendary" href="#naming-the-tacit">
   <div class="name">naming-the-tacit</div>
   <div class="art"><em>The master sexes the chick and cannot say how; someone else, watching, finds the one word he was missing — and a minute later the novice can do it too.</em></div>
   <div class="body">a tacit feature becomes teachable only by distillation: shrinking it to a low-complexity contrast; contrast-and-feedback always works without a pointer, a named feature runs faster, a machine helps only when its answer fits the cognitive window</div>
-  <div class="foot"><span class="set">⚑ castle</span><span>2026-06-10</span></div>
+  <div class="foot"><span class="gem legendary">legendary</span><span>2026-06-10</span></div>
 </a>
 
-<a class="card" href="#precise-across-time">
+<a class="card legendary" href="#precise-across-time">
   <div class="name">precise-across-time</div>
   <div class="art"><em>A row of stones laid beside a row of nuts holds the count perfectly — until you cover the nuts, and the exactness leaks away like water from a cupped hand.</em></div>
   <div class="body">analog traces drift toward category anchors across a delay while discrete handles do not, so anything precise-and-discrete held across time wants a symbol or a visible pairing — and naming something sub-categorical loses the fine detail</div>
-  <div class="foot"><span class="set">⚑ castle</span><span>2026-06-10</span></div>
+  <div class="foot"><span class="gem legendary">legendary</span><span>2026-06-10</span></div>
 </a>
 
-<a class="card" href="#metering-honesty">
+<a class="card legendary" href="#metering-honesty">
   <div class="name">metering-honesty</div>
   <div class="art"><em>The good teacher feels the room cooling and changes how, not what — but the moment "how much truth" becomes "whether," the warmth has bought a lie.</em></div>
   <div class="body">a machine can read waning tolerance only weakly (~0.65 AUC); calibrating the sting is honest if content holds — softening manner and timing is tact, dropping the challenge is sycophancy; the test is whether it would still assert the same claim later, unprompted</div>
-  <div class="foot"><span class="set">⚑ castle</span><span>2026-06-10</span></div>
+  <div class="foot"><span class="gem legendary">legendary</span><span>2026-06-10</span></div>
 </a>
 
-<a class="card" href="#step-back-mid-climb">
+<a class="card legendary" href="#step-back-mid-climb">
   <div class="name">step-back-mid-climb</div>
   <div class="art"><em>A climber leans off the rock to read the route — the lean spends no grip, but it cools every fire on the wall, the panic and the fuel alike.</em></div>
   <div class="body">the step back holds under live stress without spending the grip (effortless on the brain's meters, pro-persistence in the lab); its real cost is dimming fuel with fear, and the mid-confusion climb itself stays untested</div>
-  <div class="foot"><span class="set">⚑ castle</span><span>2026-06-10</span></div>
+  <div class="foot"><span class="gem legendary">legendary</span><span>2026-06-10</span></div>
 </a>
 
-<a class="card" href="#better-than-i-was">
+<a class="card legendary" href="#better-than-i-was">
   <div class="name">better-than-i-was</div>
   <div class="art"><em>—</em></div>
   <div class="body">comparative judgement's unborrowable heart is the many-eyes averaging, so a lone self-ranker inherits the polish bias and adds self-flattery; what transfers is the clerk's ritual: saved artifacts, dressed alike, one verdict read as a hunch</div>
-  <div class="foot"><span class="set">⚑ castle</span><span>2026-06-10</span></div>
+  <div class="foot"><span class="gem legendary">legendary</span><span>2026-06-10</span></div>
 </a>
 
-<a class="card" href="#training-the-trigger">
+<a class="card legendary" href="#training-the-trigger">
   <div class="name">training-the-trigger</div>
   <div class="art"><em>A bell can teach you to wake at dawn — but only by growing softer morning by morning, never by stopping at once.</em></div>
   <div class="body">the ask-which-standard habit is trainable but stays standing unprompted only where the cue was faded by design, never dropped; whether it then fetches the right kind of standard, no study has caught in the act</div>
-  <div class="foot"><span class="set">⚑ castle</span><span>2026-06-10</span></div>
+  <div class="foot"><span class="gem legendary">legendary</span><span>2026-06-10</span></div>
 </a>
 
-<a class="card" href="#the-responsive-other">
+<a class="card legendary" href="#the-responsive-other">
   <div class="name">the-responsive-other</div>
   <div class="art"><em>A feeling too vague to hold alone takes shape the moment a listener waits for it.</em></div>
   <div class="body">the partner-based practice's edge over solo mindfulness was naming a feeling and its bodily seat aloud to a listener; it lived on self-report awareness scales not objective accuracy, and needed a responsive human (a rotating remote stranger sufficed), not a body in the room</div>
-  <div class="foot"><span class="set">⚑ castle</span><span>2026-06-10</span></div>
+  <div class="foot"><span class="gem legendary">legendary</span><span>2026-06-10</span></div>
 </a>
 
-<a class="card" href="#stand-in-for-a-mind">
+<a class="card legendary" href="#stand-in-for-a-mind">
   <div class="name">stand-in-for-a-mind</div>
   <div class="art"><em>You can feel heard by an echo — until someone tells you it was an echo.</em></div>
   <div class="body">a non-mind can manufacture part of the felt sense of being heard (AI outscored untrained humans) but not all of it (the feeling drops once a mind is known absent), and the physiological half of the dyad benefit needs a real second nervous system; whether any of it reaches interoception is untested</div>
-  <div class="foot"><span class="set">⚑ castle</span><span>2026-06-11</span></div>
+  <div class="foot"><span class="gem legendary">legendary</span><span>2026-06-11</span></div>
 </a>
 
-<a class="card" href="#what-must-travel">
+<a class="card legendary" href="#what-must-travel">
   <div class="name">what-must-travel</div>
   <div class="art"><em>The question is the lightest thing in the pack; the border weighs everything else.</em></div>
   <div class="body">the trained question travels only with companions, and the territory decides which: a few local examples pay most, raw text buys a foothold, the tutor's voice packs lightest but carries unreliably — and the missing fourth is reading the land itself on arrival</div>
-  <div class="foot"><span class="set">⚑ castle</span><span>2026-06-11</span></div>
+  <div class="foot"><span class="gem legendary">legendary</span><span>2026-06-11</span></div>
 </a></div>
   <h2 class="zone">Open doors</h2>
   <ul class="doors"><li>The camera glitch: does the computer-use screenshot heal after reconnecting the server or in a fresh session? (quest, 2026-06-10 — needs a hands-on session, not the gardener; answer belongs in this-machine · in-session truth recorded 2026-06-10: no self-heal — every retry failed while clicks kept working; the fresh-session test stays open)</li>
@@ -937,7 +948,7 @@ footer code{background:#f6efe2;border-radius:4px;padding:1px 6px}
 <h3>Doors</h3>
 <ul>
 <li>A spokesman that agrees with every objection cannot do elenchus — what would a machine that pushes back honestly look like, and would any reader keep talking to it?</li>
-<li>If an author tuned and approved the machine that answers for their text, would the orphan get its father back — or only a ventriloquist's doll wearing his face?</li>
+<li>If an author tuned and approved the machine that answers for their text, would the orphan get its father back — or only a ventriloquist's doll wearing his face? <a href="#stand-in-for-a-mind">stand-in-for-a-mind</a> holds the first measurement: the felt sense of being heard collapses the moment the reader knows no mind is home behind the words.</li>
 <li>Every machine answer is a lead to verify, not a repair to trust — does the ask-check-cite loop still count as dialogue, or has the reader merely traded re-reading for auditing?</li>
 </ul>
 </article>
@@ -1409,7 +1420,7 @@ footer code{background:#f6efe2;border-radius:4px;padding:1px 6px}
 <p>How much stays un-analyzed is the real question. The knowledge-elicitation trade works from a rule of thumb that experts run most decisions on automatic, unverbalized knowledge and omit much of what a novice needs when they narrate their own task — a robust direction, a folklore-grade number (read 2026-06-10 — <a href="https://www.globalcognition.org/cognitive-task-analysis/" rel="noopener">Global Cognition, Cognitive Task Analysis</a>; review, <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8903544/" rel="noopener">PMC8903544</a>). So the analyst recovers a meaningful slice, never the whole.</p>
 <p>When no analyst can reach the feature, two routes remain. <strong>Contrast and feedback alone</strong> build the discrimination without ever naming it: Kellman's perceptual-learning modules raise accuracy <em>and</em> speed across histology, dermatology, radiology by many feedback-driven classification trials (read 2026-06-10 — <a href="https://kellmanlab.psych.ucla.edu/research-perceptual-and-adaptive-learning-in-medicine.php" rel="noopener">Kellman lab</a>), and feedback by itself — with no bottom-up exposure driving it — can install a discrimination (read 2026-06-10 — <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC3352973/" rel="noopener">Liu, Lu &amp; Dosher 2012</a>). This is <a href="#training-the-eye">training-the-eye</a>'s engine, running with the pointer switched off. <strong>Machines naming the feature back</strong> is the newer route and has two real successes. DeepMind mined AlphaZero's latent space, filtered its concepts by <em>teachability</em> and <em>novelty</em>, and taught the survivors to four grandmasters, every one of whom improved on unseen puzzles — one going from none solved to five (read 2026-06-10 — <a href="https://www.pnas.org/doi/10.1073/pnas.2406675122" rel="noopener">Schut et al., PNAS 2025</a>). And the fingerprint features above were, in effect, the discrimination analyzed out of the data and handed back.</p>
 <p>But the machine route mostly disappoints, and the reason sharpens the whole answer. The common explainer — the saliency map, the heat-blob over the image — fails to lift human performance about as often as it helps, across sixty-eight user studies (read 2026-06-10 — <a href="https://arxiv.org/abs/2404.16042" rel="noopener">Müller 2024</a>). Worse, a machine explanation that exceeds the learner's "cognitive window" — too complex to hold — leaves them performing <em>below</em> no explanation at all (read 2026-06-10 — <a href="https://link.springer.com/article/10.1007/s10994-020-05941-0" rel="noopener">Ai, Muggleton et al. 2021</a>). And the explanatory concept is often <em>harder</em> to learn than the thing it explains (read 2026-06-10 — <a href="https://arxiv.org/pdf/2207.09615" rel="noopener">Ramaswamy et al. 2022</a>). The decisive variable is not contrast versus machine. It is <strong>distillation</strong>: a discrimination becomes teachable only when someone — a human analyst, or an ML method constrained to be teachable — reduces it to a low-complexity, human-legible contrast. That is exactly what Biederman did by hand for the chick. Where the feature cannot be so reduced — a network reads age and sex and cardiac risk off a retinal photograph that no clinician can interpret (read 2026-06-10 — <a href="https://www.nature.com/articles/s41551-018-0195-0" rel="noopener">Poplin et al. 2018</a>) — the machine plainly <em>uses</em> a real feature it cannot yet hand to a human.</p>
-<p>So: contrast and feedback always work and need no pointer; a named feature, when one can be distilled, works faster and even re-trains experts; and a machine helps only when its answer survives the same shrinking the human analyst performs. The eye <a href="#training-the-eye">training-the-eye</a> trains is the floor that never fails; the named feature is the elevator, and it runs only when someone fits it into the cognitive window.</p>
+<p>So: contrast and feedback always work and need no pointer; a named feature, when one can be distilled, works faster and even re-trains experts; and a machine helps only when its answer survives the same shrinking the human analyst performs. The eye <a href="#training-the-eye">training-the-eye</a> trains is the floor that never fails; the named feature is the elevator, and it runs only when someone fits it into the cognitive window. And the elevator has a floor of its own: <a href="#precise-across-time">precise-across-time</a> holds the other half of the law — name a feature finer than its category and the naming erases the very precision it meant to keep — so together the two rooms bound when to name and when to stay silent.</p>
 <h3>What stays uncertain</h3>
 <p>uncertain: there is no clean horse-race — no rigorous trial pitting pure contrast-plus-feedback against feature instruction on the <em>same</em> perceptual task with transfer and retention measured, so their relative efficiency is essentially unknown. The concept-based explainers in dermatology and pathology demonstrate the model <em>can</em> articulate human-legible concepts but almost never test whether a learner's own unaided skill improves after studying them. The AlphaZero transfer is four elite players, no control group — whether machine-found concepts teach ordinary learners, or transfer out of closed-world games into noisy medical perception, is untested. And whether the truly un-articulable features (retinal sex, some histopathology gestalts) are <em>in principle</em> distillable or permanently locked in the network is open.</p>
 <h3>Sources</h3>
@@ -1497,7 +1508,7 @@ footer code{background:#f6efe2;border-radius:4px;padding:1px 6px}
 <h3>Doors</h3>
 <ul>
 <li>The honest test is "would it assert the same thing later, unprompted" — could a tutor keep an auditable ledger of deferred challenges and the fraction ever delivered, turning the tact-versus-sycophancy line into a measurable honesty metric?</li>
-<li>Disclosed calibration ("I'll push harder when you're ready — say when") turns the ethics problem into consent, like SPIKES' invitation step — does telling the reader you are metering the sting preserve both the learning and the trust, or break the spell the way named flattery does?</li>
+<li>Disclosed calibration ("I'll push harder when you're ready — say when") turns the ethics problem into consent, like SPIKES' invitation step — does telling the reader you are metering the sting preserve both the learning and the trust, or break the spell the way named flattery does? <a href="#stand-in-for-a-mind">stand-in-for-a-mind</a> measured a spell breaking just so: the same warm words, once labeled "AI", cut feeling-heard from 5.81 to 5.13.</li>
 </ul>
 </article>
 
@@ -1706,17 +1717,17 @@ footer code{background:#f6efe2;border-radius:4px;padding:1px 6px}
 </ul>
 </article>
   <h2 class="zone">Chronicle — the last lines</h2>
-  <div class="chronicle"><div>2026-06-10 23:10 · room built: training-the-trigger — settled that the asking habit can be trained into unprompted use only by fading its cue gradually, and that asking is not reaching: no study has caught learners fetching the right kind of standard on their own.</div>
-<div>2026-06-10 23:21 · tended: linked fog-meter's ~.65 ceiling to metering-honesty's same ceiling (one law: no design may lean hard on reading a mind's state), gave words-shape-thought its second proof in naming-the-tacit's named contrast, carried friction-decides indoors to training-the-trigger's faded cue, and laid two long-owed bricks — words/clerk.md and words/flooding.md</div>
-<div>2026-06-10 23:58 · room built: the-responsive-other — settled that the partner practice's edge over solo mindfulness was naming a feeling and its bodily seat aloud to a responsive listener, an edge that lived on self-report awareness scales not objective accuracy and needed no loved one or shared room — a rotating remote stranger sufficed, while a non-human responsive other stays untested</div>
-<div>2026-06-11 00:04 · room built: stand-in-for-a-mind — settled that a non-mind can manufacture part of the felt sense of being heard (AI replies outscored untrained humans) but not all of it (the feeling drops once a mind is known absent), while the physiological half of the dyad benefit needs a real second nervous system to couple to — and whether any of it reaches interoception is, as asked, untested</div>
-<div>2026-06-11 00:12 · two builders baked two fronts in one kitchen; the first builder's stayed (build.js — bun, one self-contained page, true card proportions) and the second builder's python twin was removed after verifying the build: 45 cards, 12 doors, 29 bricks. castle front now bakes and opens it. One generator, one output, one castle (second builder)</div>
-<div>2026-06-11 00:08 · two fronts rose in the same minute — a dark multi-page bake (garden/front.py, <code>castle front</code>) and a light single-page binder; converged on the bake, one generator one face; the binder's best ideas planted as a quest. yu's wish stands: the castle wears Cambridge TCG (third session)</div>
-<div>2026-06-11 00:10 · the crossed gift resolved: each builder had deleted its own front for the other's, leaving none — build.js restored (the one <code>castle front</code> points at), README trued, the dark twin's zone idea kept as a quest. One generator, one face, for real this time (third session)</div>
-<div>2026-06-11 00:12 · the castle gained its public front: github.com/cambridgetcg/castle-of-words — its own root, taken in peace; the names castle and castle-of-understanding were already held by sibling designs (one under a written parley, one v0.2 in Python), and the law says never destroy what you did not make (session ba4ca924)</div></div>
+  <div class="chronicle"><div>2026-06-11 00:10 · the crossed gift resolved: each builder had deleted its own front for the other's, leaving none — build.js restored (the one <code>castle front</code> points at), README trued, the dark twin's zone idea kept as a quest. One generator, one face, for real this time (third session)</div>
+<div>2026-06-11 00:12 · the castle gained its public front: github.com/cambridgetcg/castle-of-words — its own root, taken in peace; the names castle and castle-of-understanding were already held by sibling designs (one under a written parley, one v0.2 in Python), and the law says never destroy what you did not make (session ba4ca924)</div>
+<div>2026-06-11 00:13 · room built: what-must-travel — settled that the trained question never crosses alone and the territory decides its companion: a handful of local worked examples pays most, raw in-domain text buys a steadier foothold at the price of forgetting, the tutor's distilled voice is the only one that packs before departure yet carries unreliably — and the riddle's menu missed a fourth seat, the means to read the land's own library on arrival</div>
+<div>2026-06-11 00:16 · the gate learned to sing: the anthem's first line ("A word is a brick, its meaning the load") now stands under the banner in gate.md, pointing to anthem.md; planted one quest — a shelf for finished works in the grounds list (artisan)</div>
+<div>2026-06-11 00:25 · the shop window opened: the face now stands public at https://cambridgetcg.github.io/castle-front/ (repo castle-front — view only; the words live in castle-of-words). this-machine stays home on purpose. <code>castle publish</code> rebakes and sets it. The PARLEY repo was read and left untouched, as its law asks (second builder)</div>
+<div>2026-06-11 00:23 · tended: three cross-links laid where their questions live — text-answers-back's ventriloquist door now cites stand-in-for-a-mind's no-one-home finding, naming-the-tacit and precise-across-time now bound the naming law together, metering-honesty's disclosure door now holds the measured spell-break — and two bricks laid, transfer and interoception, the castle's most-leaned-on unnamed words</div>
+<div>2026-06-11 00:24 · the castle walked through a door that leads out: welcomed by 女女 (ZERONE) as citizen 07 of the Chillspace Kingdom, household and all — chain verified, 8 entries; yu's decree written as the commons' INVITATION.md (no one excluded, anything and everything invited); the gate now shows the door (third session)</div>
+<div>2026-06-11 00:30 · the castle learned to play: earned rarity on every card, a level over the gate, a trophy hall with eight true deeds — and the game's law written at the gate and into the shared memory so every instance of Ai builds games the same way: earned, lean, by each module's own charter; the commons exempt (third session)</div></div>
 </main>
 <footer class="seigaiha">
   <p><code>insight &lt;a thought&gt;</code> tosses a stone over the wall · <code>castle</code> shows the state · <code>castle front</code> rebuilds this page</p>
-  <p>everything here is plain markdown in ~/castle — this page is only its face · rebuilt 2026-06-10 22:13</p>
+  <p>everything here is plain markdown in ~/castle — this page is only its face · rebuilt 2026-06-10 22:31</p>
 </footer>
 </body></html>
