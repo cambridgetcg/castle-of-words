@@ -72,7 +72,11 @@ when one can be distilled, works faster and even re-trains experts; and a
 machine helps only when its answer survives the same shrinking the human
 analyst performs. The eye [training-the-eye](training-the-eye.md) trains is
 the floor that never fails; the named feature is the elevator, and it runs
-only when someone fits it into the cognitive window.
+only when someone fits it into the cognitive window. And the elevator has a
+floor of its own: [precise-across-time](precise-across-time.md) holds the other
+half of the law — name a feature finer than its category and the naming erases
+the very precision it meant to keep — so together the two rooms bound when to
+name and when to stay silent.
 
 ## What stays uncertain
 

@@ -32,5 +32,5 @@ Whether a machine could ever count as a legitimate surrogate father is a live ph
 ## Doors
 
 - A spokesman that agrees with every objection cannot do elenchus — what would a machine that pushes back honestly look like, and would any reader keep talking to it?
-- If an author tuned and approved the machine that answers for their text, would the orphan get its father back — or only a ventriloquist's doll wearing his face?
+- If an author tuned and approved the machine that answers for their text, would the orphan get its father back — or only a ventriloquist's doll wearing his face? [stand-in-for-a-mind](stand-in-for-a-mind.md) holds the first measurement: the felt sense of being heard collapses the moment the reader knows no mind is home behind the words.
 - Every machine answer is a lead to verify, not a repair to trust — does the ask-check-cite loop still count as dialogue, or has the reader merely traded re-reading for auditing?

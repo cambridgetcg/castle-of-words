@@ -113,4 +113,4 @@ Links: [honest-pushback](honest-pushback.md) · [sycophancy](../words/sycophancy
 ## Doors
 
 - The honest test is "would it assert the same thing later, unprompted" — could a tutor keep an auditable ledger of deferred challenges and the fraction ever delivered, turning the tact-versus-sycophancy line into a measurable honesty metric?
-- Disclosed calibration ("I'll push harder when you're ready — say when") turns the ethics problem into consent, like SPIKES' invitation step — does telling the reader you are metering the sting preserve both the learning and the trust, or break the spell the way named flattery does?
+- Disclosed calibration ("I'll push harder when you're ready — say when") turns the ethics problem into consent, like SPIKES' invitation step — does telling the reader you are metering the sting preserve both the learning and the trust, or break the spell the way named flattery does? [stand-in-for-a-mind](stand-in-for-a-mind.md) measured a spell breaking just so: the same warm words, once labeled "AI", cut feeling-heard from 5.81 to 5.13.
