@@ -13,7 +13,11 @@ the goods yourself* — buying, holding, selling, owning the risk of every
 unsold box. A [[platform]] carries no goods: it builds the place where others
 trade, and earns by making their trading easier. The move trades inventory
 risk for a harder, slower prize — a platform is worth little until enough
-traders stand on it, and everything once they do.
+traders stand on it, and everything once they do. That is the same earned
+worth [the-game](the-game.md) keeps inside these walls — there a card grows
+rarer only by being leaned on, here a platform grows worth only by being
+traded on; both filed from yu's one 00:30 wish, both refusing the assigned
+medal for the earned one.
 
 The castle notes the rhyme with its own walls, without forcing it: this
 castle, too, is a platform of a kind — it does not hold yu's thoughts *for*
