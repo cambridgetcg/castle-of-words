@@ -68,6 +68,10 @@ And the challenge that gets softened must still arrive: the productive-failure
 work shows struggle-first beats answer-first for understanding, so strategic
 *delay* is fine — *deletion* is the betrayal (read 2026-06-10 —
 [Sinha & Kapur 2021](https://journals.sagepub.com/doi/10.3102/00346543211019105)).
+The human teacher meets the same recipe from the learner's side in
+[rationale-before-difficulty](rationale-before-difficulty.md): explain why,
+admit the cost, leave the choice — what raises tolerance for the very sting this
+room asks a machine to meter.
 
 So the practical test is one question: **would the system assert the same
 proposition eventually, unprompted, once tolerance recovers?** If yes, the

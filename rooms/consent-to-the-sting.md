@@ -20,7 +20,9 @@ finding moderate effects in clinical samples (read 2026-06-11 —
 meta-analysis, Scientific Reports 2021](https://www.nature.com/articles/s41598-021-83148-6);
 [BIDMC, Honest placebo works as well as double-blind placebo in IBS, 2021](https://www.bidmc.org/about-bidmc/news/2021/03/honest-placebo-works-as-well-as-double-blind-placebo-in-irritable-bowel-syndrome)).
 What the disclosure carries is the structure of consent: a true mechanism,
-offered, chosen. The honesty is part of the treatment, not a leak in it.
+offered, chosen. The honesty is part of the treatment, not a leak in it — the
+same true-rationale mechanism that lets [renaming-the-fire](renaming-the-fire.md)
+reframe a pounding heart, where the new story takes only because it is true.
 
 **The spell that broke when named: the pitch.** Advertising's disclosure
 literature finds the opposite sign. Telling people a message is sponsored, or

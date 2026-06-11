@@ -42,7 +42,10 @@ is what persists (read 2026-06-11 —
 [Gagné & Deci 2005](https://selfdeterminationtheory.org/SDT/documents/2005_GagneDeci_JOB_SDTtheory.pdf)).
 
 So the honest claim is conditional. Not "explain why and tolerance rises," but
-"explain why + admit the cost + leave the choice + let the payoff be felt."
+"explain why + admit the cost + leave the choice + let the payoff be felt." This
+is the same recipe [metering-honesty](metering-honesty.md) reaches from the
+machine's side — SPIKES' invitation step, delay the challenge but never delete
+it — asked there of a tutor reading the learner's waning tolerance turn by turn.
 
 ## What stays uncertain
 

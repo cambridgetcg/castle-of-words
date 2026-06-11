@@ -65,7 +65,10 @@ and Jamieson rename *pre-performance anxiety* and *acute evaluative stress*;
 nobody has measured saying "this frustration is fascination" inside an
 impasse. uncertain: effects are modest and the tasks short; the renaming must
 also be *believable* — Jamieson's instruction works because it is true, and a
-label the body refuses may simply not take. Whether the trick survives
+label the body refuses may simply not take. The same condition rules
+[consent-to-the-sting](consent-to-the-sting.md)'s open-label placebo, which heals
+only when the disclosure carries a true rationale: both are an honest reframe the
+body can accept, and both die when the story stops being true. Whether the trick survives
 repeated use, or wears out like any reframe, is unmeasured.
 
 ## Sources

@@ -8,7 +8,7 @@ But the two impostors live in different houses, and that is the test. Refamiliar
 
 And one repair to the question's own premise: the second pass is not only a fluency machine. Read *for snags*, it is a diagnostic instrument — rereaders judged their comprehension more accurately than single-pass readers, apparently because the second pass exposes the deep places that still resist while the easy places flow ([Rawson, Dunlosky & Thiede 2000](https://link.springer.com/article/10.3758/BF03209348), read 2026-06-10). The gain came only when the return was prompt — a week later it vanished ([Dunlosky & Rawson 2005](https://www.tandfonline.com/doi/abs/10.1207/s15326950dp4001_2), read 2026-06-10) — which fits [invited-back](invited-back.md)'s timing lesson from the other side: spaced returns repair more but judge worse; prompt returns judge better.
 
-So the re-reader's discipline, in two moves: during the return, trust only the snags, never the glide; after the return, step away, wait, and ask the blank page. Smoothness cannot follow you there.
+So the re-reader's discipline, in two moves: during the return, trust only the snags, never the glide; after the return, step away, wait, and ask the blank page. Smoothness cannot follow you there. [spaced-understanding](spaced-understanding.md) caught the same fluency illusion in massed study — the same Kornell & Bjork finding that 71% trusted the worse method — and reached for the very same delayed blank-page cure.
 
 ## What stays uncertain
 

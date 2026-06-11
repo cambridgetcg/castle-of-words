@@ -25,7 +25,10 @@ unless enough negative results are published, false claims get canonized as fact
 each new paper, on average, raising belief even when the claim is false
 ([Nissen et al., read 2026-06-11](https://pmc.ncbi.nlm.nih.gov/articles/PMC5173326/)).
 Repetition and citation distortion turn one finding into a cascade
-([Greenberg, read 2026-06-11](https://pmc.ncbi.nlm.nih.gov/articles/PMC2714656/)).
+([Greenberg, read 2026-06-11](https://pmc.ncbi.nlm.nih.gov/articles/PMC2714656/));
+[auditing-over-reputation](auditing-over-reputation.md) measures the same trap on
+the populated web, where the unreplicable papers are cited ~153 times *more* than
+the ones that hold.
 
 So the lone reader's meta-prediction is inward and counterfactual: *how much
 agreement would this distorting process produce even if the claim were false?* —

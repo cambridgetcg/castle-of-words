@@ -37,7 +37,9 @@ rhythm, and let the walk recall the *argument*, not the title.
 One lantern for the road: 71% of learners in the replication were sure the
 blocked, massed way had taught them more — while the spaced way actually had.
 The feeling of fluent ease points backwards here, just as
-[simple-explanations](simple-explanations.md) warned.
+[simple-explanations](simple-explanations.md) warned, and just as
+[reread-or-refamiliar](reread-or-refamiliar.md) finds the second pass's glide
+deceiving — both cured by the same delayed blank-page check.
 
 ## What stays uncertain
 

@@ -15,7 +15,9 @@ versus 20% for an unknown one — *the more respected, the less examined*
 Prestige does not track method — statistical power runs *negatively* with
 journal rank ([Brembs, read 2026-06-11](https://pmc.ncbi.nlm.nih.gov/articles/PMC5826185/)).
 And it points backward: papers that fail to replicate are cited some 153 times
-*more* than those that hold ([Serra-Garcia & Gneezy, read 2026-06-11](https://today.ucsd.edu/story/a-new-replication-crisis-research-that-is-less-likely-be-true-is-cited-more)),
+*more* than those that hold ([Serra-Garcia & Gneezy, read 2026-06-11](https://today.ucsd.edu/story/a-new-replication-crisis-research-that-is-less-likely-be-true-is-cited-more))
+— the same loud-but-wrong consensus [reading-a-literature](reading-a-literature.md)
+meets on the frontier, where each citing paper raises belief in a false claim,
 and a retracted paper keeps drawing positive citations long after the record is
 fixed ([PMC9728909, read 2026-06-11](https://pmc.ncbi.nlm.nih.gov/articles/PMC9728909/)).
 What does catch the rot is internal: among the most-cited clinical studies,
