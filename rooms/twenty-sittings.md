@@ -31,6 +31,8 @@ error no amount of averaging removes, because everyone leans the same way.
 Averaging N sittings of one person converges, by the same arithmetic, to
 *that person's own bias*. Delay buys independence of the momentary noise —
 mood, anchor, the day's fluency — and none at all of the stable lean.
+This is [truing-the-level](truing-the-level.md)'s law in another key: a gauge is
+trued against an external standard, never against more of its own readings.
 The handwriting-polish preference that [better-than-i-was](better-than-i-was.md)
 found systematic in even expert judges is exactly such a lean: the twentieth
 sitting admires the same neat margins the first did. Twenty judges cancel

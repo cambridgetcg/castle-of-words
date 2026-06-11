@@ -20,7 +20,10 @@ for it.
 
 Why "earned, never assigned" is the load-bearing clause: an assigned badge
 measures the assigner's mood, an earned one measures the work — the same
-reason this castle makes every claim carry its source. The game is
+reason this castle makes every claim carry its source. Rarity stays honest
+because the only currency is the one-word `insight` tax that
+[friction-decides](friction-decides.md) names — what is built, and so what is
+counted, is decided by that small cost on every repetition. The game is
 [[fluency]]'s honest cousin: it makes the castle's state *pleasant to read at
 a glance* without letting the pleasantness drift from the facts
 (the trap [beauty-as-fluency](beauty-as-fluency.md) mapped). And the exemption

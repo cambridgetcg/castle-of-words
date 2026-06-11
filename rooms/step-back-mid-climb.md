@@ -32,6 +32,9 @@ negative (read 2026-06-10 — [Wallace-Hadrill & Kamboj 2016](https://www.fronti
 and distancing's own architects concede that when the goal is to feel more, or
 to turn feeling into action, it is the wrong tool (read 2026-06-10 —
 [Kross & Ayduk 2023](https://sites.lsa.umich.edu/emotion-selfcontrol-psych/wp-content/uploads/sites/1322/2024/01/Handbook_of_Emotion_Regulation_-_63._Distancing_What_It_Is_How_It_Works_and_Where_to_Go_Next.pdf)).
+This is the dimmer's one limit, and the wall holds a second knob:
+[renaming-the-fire](renaming-the-fire.md) renames the heat instead of dimming
+it, so the fuel can stay lit while only its fear-soaked label changes.
 The habit has a shadow too: people who recall trauma from the observer's seat
 *by default* do worse, not better (read 2026-06-10 —
 [Williams & Moulds 2007](https://www.sciencedirect.com/science/article/abs/pii/S0005796706002117)).

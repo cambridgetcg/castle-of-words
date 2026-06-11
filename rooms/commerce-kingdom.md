@@ -21,8 +21,13 @@ him but gives them a square to trade in, where each insight gains value from
 the others standing near it ([linking-thoughts](linking-thoughts.md) found
 exactly that: value from connection, not accumulation).
 
+This kingdom and [the-commons](the-commons.md) are the same hour's two poles
+of yu's life outside the walls — a platform that earns by others' trading, a
+commons where belonging is never earned — the very earned/exempt tension the
+castle already plays at home.
+
 uncertain: the castle knows only this one line of the new direction — what
 the platform serves, who trades on it, and when the old operation winds down
 are yu's to tell.
 
-Links: [[platform]] · [linking-thoughts](linking-thoughts.md)
+Links: [[platform]] · [linking-thoughts](linking-thoughts.md) · [the-commons](the-commons.md)
