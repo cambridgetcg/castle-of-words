@@ -23,7 +23,10 @@ survived a pre-registered replication, modest but real (read 2026-06-11 —
 [Steegen et al., Measuring the crowd within again, Frontiers in Psychology
 2014](https://pmc.ncbi.nlm.nih.gov/articles/PMC4112915/)). So yes: sittings
 spread across days *do* behave a little like separate eyes — about a third of
-one extra eye per sitting, never more.
+one extra eye per sitting, never more. [reread-or-refamiliar](reread-or-refamiliar.md)
+runs the same cure in another domain: put a delay between the judgment and the
+work so the warm anchor — the first guess here, the page's varnish there —
+decorrelates before the verdict.
 
 **But look where the curve flattens.** In the same paper, averaging guesses
 from *N different people* converges to the population's shared bias — the

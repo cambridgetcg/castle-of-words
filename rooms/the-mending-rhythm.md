@@ -25,7 +25,9 @@ relates to better outcome at **r=.29** (d=.62) across 11 studies, 1,314 patients
 In marriage, Gottman's "masters" turned *toward* each other's small bids ~86% of
 the time; "disasters," ~33% ([The Gottman Institute on bids](https://www.gottman.com/blog/want-to-improve-your-relationship-start-paying-more-attention-to-bids/), read 2026-06-11).
 Three domains, one tune: mending rupture — not constant harmony — is the
-repeated predictor of who thrives.
+repeated predictor of who thrives. The smallest such repair the castle holds
+is [closing-the-loop](closing-the-loop.md)'s say-it-back, which mends a wobble
+of understanding in real time — one rupture-and-mend in a single breath.
 
 But the slogans are softer than they sound. Teaching therapists to repair did
 *not* improve outcomes (r=.11, ns) — the signal is in *observed* repair, not in

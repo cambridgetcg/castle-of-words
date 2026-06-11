@@ -78,7 +78,10 @@ only when someone fits it into the cognitive window. And the elevator has a
 floor of its own: [precise-across-time](precise-across-time.md) holds the other
 half of the law — name a feature finer than its category and the naming erases
 the very precision it meant to keep — so together the two rooms bound when to
-name and when to stay silent.
+name and when to stay silent. And the silence is not willed:
+[choosing-not-to-name](choosing-not-to-name.md) finds the name fires on its own
+the moment one exists, so staying silent means starving the label, never
+ordering it quiet.
 
 ## What stays uncertain
 
