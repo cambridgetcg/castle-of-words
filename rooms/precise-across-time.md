@@ -70,7 +70,10 @@ So the principle, stated whole: **analog traces drift toward category anchors
 across time; discrete handles do not** — which is why anything that must be held
 precisely *and* discretely across a delay wants a symbol, and why pinning a
 symbol on something whose value is *sub-categorical* and continuous can lose the
-very precision you meant to keep.
+very precision you meant to keep. [drift-across-dimensions](drift-across-dimensions.md)
+walks through this room's first door and finds the colour drift is one law across
+length and duration too — a category pulls only when used, so a label helps a
+near-boundary value and harms a sub-categorical one.
 
 ## What stays uncertain
 

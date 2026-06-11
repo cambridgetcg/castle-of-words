@@ -53,6 +53,9 @@ higher dropout in the dyad arm ([PMC, read
 working dyad used a real, attentive human — whether a non-human responsive other
 (a journal, an imagined witness, an AI chatbot) would do the same is untested
 ([JMIR, read 2026-06-10](https://www.jmir.org/2023/1/e45027)).
+[stand-in-for-a-mind](stand-in-for-a-mind.md) chases this exact door and finds
+a stand-in can manufacture a thinner sense of being heard but not the
+physiological half, and that interoception specifically stays untested.
 
 ## Sources
 

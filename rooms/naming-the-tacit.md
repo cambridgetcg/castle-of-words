@@ -16,7 +16,9 @@ instruction sheet naming that contrast lifted novices about forty points, to
 near-expert on the lab images (read 2026-06-10 —
 [Biederman & Shiffrar 1987](https://www.sciepub.com/reference/17257)). The
 [tacit knowledge](../words/tacit-knowledge.md) was not locked; it was
-**un-analyzed**. The same move works on statistics no eye weights on its own:
+**un-analyzed**. This naming-nudge is the same law
+[words-shape-thought](words-shape-thought.md) found in the Russian-blue studies,
+read from a second literature — each room the other's strongest evidence. The same move works on statistics no eye weights on its own:
 a five-and-a-half-minute module on which fingerprint minutiae are *rare* — and
 so diagnostic — improved 551 people including fifty-two professional examiners
 (read 2026-06-10 — [Growns et al. 2022](https://pmc.ncbi.nlm.nih.gov/articles/PMC9288576/)).

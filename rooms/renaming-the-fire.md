@@ -50,6 +50,9 @@ leaves intensity alone. The practical rule the two literatures jointly
 support: step back when the feeling itself is degrading the work — spiral,
 flooding, the urge to flee ([flooding-self-read](flooding-self-read.md)'s
 territory) — and *rename* when the feeling is fuel wearing the wrong label.
+The same ~100-bpm flood that [echo-under-anger](echo-under-anger.md) found
+takes listening offline is the line between the two knobs: above it, brake;
+below it, the heat is fuel to be renamed.
 Panic before the attempt is the renamer's best case: it is excitement that
 has been told a frightening story about itself.
 

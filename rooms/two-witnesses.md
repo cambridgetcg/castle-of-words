@@ -14,6 +14,10 @@ when the agreeing parties are independent — separate access to the thing, not
 copies of one upstream source. Three sites citing one press release are *three
 copies of one witness*, and that support
 *weakens dramatically* ([common-cause, read 2026-06-11](https://pmc.ncbi.nlm.nih.gov/articles/PMC7670039/)).
+[correlated-witnesses](correlated-witnesses.md) splits that word in two and
+finds only *uncorrelated error* carries the load — different methods alone
+buy nothing, and a reader can count declared shared inputs but not the hidden
+correlation.
 At scale it works: re-running 100 psychology studies, only ~36% replicated
 ([Reproducibility Project, read 2026-06-11](https://en.wikipedia.org/wiki/Reproducibility_Project)).
 
