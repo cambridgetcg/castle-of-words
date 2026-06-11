@@ -36,7 +36,10 @@ unreliably: students fail to match teachers they have the capacity to match,
 and matching closer does not dependably help ([Stanton et al., read
 2026-06-11](https://arxiv.org/abs/2106.05945)). Where that voice comes from when
 the shrinking is made a machine's own objective is
-[machine-distillation](machine-distillation.md).
+[machine-distillation](machine-distillation.md) — and whether the distilled
+student's window even opens onto a human's is [two-windows](two-windows.md): the
+voice packs only as far as the learner it was modelled on shares the traveller's
+limits.
 
 And the menu may be missing a chair. In truly strange territory the strongest
 lever is often none of the three but the means to read the land itself on

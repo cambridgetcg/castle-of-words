@@ -12,7 +12,7 @@ So the re-reader's discipline, in two moves: during the return, trust only the s
 
 ## What stays uncertain
 
-uncertain: all these accuracy gains are *relative* — telling your better-understood passages from your worse — while the overall *level* of confidence can stay inflated even as the ranking sharpens; the meta-analysis measures ordering, not calibration ([Yang et al. 2023](https://journals.sagepub.com/doi/abs/10.3102/00346543221094083)). uncertain: the .57 ceiling still leaves much unexplained — even the best-tested check is a lantern, not daylight. And the lab's delays and generation tasks were assigned; whether a solo reader applies them honestly, unwatched, is the [fog-meter](fog-meter.md) worry again.
+uncertain: all these accuracy gains are *relative* — telling your better-understood passages from your worse — while the overall *level* of confidence can stay inflated even as the ranking sharpens; the meta-analysis measures ordering, not calibration ([Yang et al. 2023](https://journals.sagepub.com/doi/abs/10.3102/00346543221094083)) — what trues the level itself, against a key as fine as the answer's parts, is [truing-the-level](truing-the-level.md), leaning on the same .178 finding from the far side. uncertain: the .57 ceiling still leaves much unexplained — even the best-tested check is a lantern, not daylight. And the lab's delays and generation tasks were assigned; whether a solo reader applies them honestly, unwatched, is the [fog-meter](fog-meter.md) worry again.
 
 ## Sources
 

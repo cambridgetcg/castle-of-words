@@ -48,7 +48,10 @@ Worse, a true novice may be structurally unable to gauge their own orientation
 — though that Dunning-Kruger claim is itself partly a statistical artifact
 ([Gignac & Zajenkowski, read 2026-06-11](https://gwern.net/doc/iq/2020-gignac.pdf)).
 The honest verdict: the *habit* of leaving the page is real and teachable; the
-judgment it serves still leans on field knowledge.
+judgment it serves still leans on field knowledge. This is the cheap searchlight
+of [the-noticing-stance](the-noticing-stance.md)'s split; the slow other half —
+growing the openness that turns a catch into value — is the hard-won action facet
+of [growing-openness](growing-openness.md).
 
 ## Sources
 
