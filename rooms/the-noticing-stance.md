@@ -23,8 +23,8 @@ confirmation-bias objection has never been answered (read 2026-06-11 —
 [David Aldous's critique, UC Berkeley](https://www.stat.berkeley.edu/~aldous/Real-World/wiseman.html)).
 
 Second, the stance moves under training, on a hard behavioral test. A brief
-mindfulness induction — minutes, not months — reduced [[inattentional
-blindness]]: among 794 participants, those given the induction more often saw
+mindfulness induction — minutes, not months — reduced
+[[inattentional-blindness]]: among 794 participants, those given the induction more often saw
 an unexpected object cross a screen they were busy working on (read
 2026-06-11 — [Schofield, Creswell & Denson 2015, PubMed](https://pubmed.ncbi.nlm.nih.gov/26320867/);
 a small controlled pilot found the same direction in young neurosurgeons,
