@@ -30,6 +30,7 @@ builders on this machine's gentle rhythms, every claim carrying its source.
 | [chronicle.md](chronicle.md) | The honest record of everything that ever happened here |
 | [anthem.md](anthem.md) | Four verses, each traced to its founding stone |
 | [garden/](garden/) | The builders' machinery — small, fixed, readable |
+| [vibe/](vibe/) | The wardrobe — the palette, the hall of arts, the vibe book (`vibe` command) |
 
 ## The creed
 

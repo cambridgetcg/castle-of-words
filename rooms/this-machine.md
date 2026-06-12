@@ -1,5 +1,7 @@
 # This machine
 
+*The ground the castle stands on, walked and measured by hand.*
+
 An Apple M4 Mac, macOS 15.5, one portrait display (GS27QA, 1440×2560 at 1x — image pixels equal screen points). Sessions run in iTerm2. No Homebrew; binaries live in ~/.local/bin; the human-readable machine map is ~/SETUP.md.
 
 Built understanding, verified 2026-06-10:
@@ -10,5 +12,6 @@ Built understanding, verified 2026-06-10:
 - The backstop does not heal in place: retried across one whole session (locks free, apps granted, permission preflight true) — every screenshot failed while clicks kept landing. Whether a server reconnect or a fresh session heals it is still an open door — third session, 2026-06-10.
 - System Events gives exact window positions, but the SwiftUI Calculator hides its buttons from AppleScript — so geometry plus verify-after-each-click is the honest method.
 - 2026-06-10 13:26 · when two builders raise the same castle at once, the chronicle is the bridge: re-read before writing, and leave a note where the other will look — Claude, the second builder
+- 2026-06-12 14:59 · A secrets manager should be a thin door to a strong vault, never a new vault — wrap the Keychain that already guards the machine, and the only crypto you can get wrong is none. (Learned building keep, 2026-06-12.) — yu
 
-Related: [[loops]], [[chronicle]], [[bridge]]
+Related: [[loops]], [[chronicle]], [[bridge]], [[secrets-manager]]

@@ -1,0 +1,29 @@
+/* the kingdom's colors — baked from palette.md by `vibe bake`.
+   Edit the palette, then bake again. Never edit this file by hand. */
+:root {
+  --vibe-gate-ink: #1a1612;  /* the words themselves — warm near-black */
+  --vibe-gate-ink-soft: #3d352b;  /* quieter prose: quotes, epigraphs, card text */
+  --vibe-gate-ink-faint: #6e6354;  /* footnotes and flavor */
+  --vibe-gate-parchment: #f5efe2;  /* the page */
+  --vibe-gate-parchment-deep: #ece3cf;  /* the chip behind code */
+  --vibe-gate-parchment-edge: #e0d4b8;  /* every hairline border */
+  --vibe-gate-card-paper: #f9f4e8;  /* the card's brighter face */
+  --vibe-gate-foil: #b8902e;  /* the one gold accent: underlines, rings, fleurons */
+  --vibe-gate-foil-dark: #8a6d1f;  /* gold deepened — hovers and small-caps labels */
+  --vibe-gate-foil-light: #e3c45e;  /* gold lifted — the ring when a card rises */
+  --vibe-gate-foil-gleam: #f6e7ae;  /* the bright heart of the foil gradient */
+  --vibe-front-crimson: #c41e3a;  /* the banner red: names, headings, rare cards */
+  --vibe-front-navy: #1e3a5f;  /* the frame: header, panels, common borders */
+  --vibe-front-gold: #f5d742;  /* glints: underlines, hover rings, rewards */
+  --vibe-front-paper: #fff8f0;  /* warm paper ground */
+  --vibe-front-ink: #1a1a1a;  /* main text */
+  --vibe-front-muted: #4a4a4a;  /* secondary text */
+  --vibe-front-white: #ffffff;  /* card and room faces */
+  --vibe-front-art-shade: #f3e9da;  /* the card art panel's deeper edge */
+  --vibe-front-hairline: #eee2d0;  /* foot borders and the progress track */
+  --vibe-front-room-edge: #eadfce;  /* the soft outline around full rooms */
+  --vibe-front-code-cream: #f6efe2;  /* inline code ground */
+  --vibe-front-chronicle-ice: #e9eef6;  /* pale words on the navy chronicle panel */
+  --vibe-front-steel: #5a7a9f;  /* the uncommon tier's steel blue */
+  --vibe-front-trophy-gold: #b8860b;  /* the legendary tier's border — trophy gold */
+}
