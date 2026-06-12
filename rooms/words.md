@@ -1,5 +1,7 @@
 # Words
 
+*The first stones, laid in the builder's own voice.*
+
 The castle is built on these, in the builder's own words (2026-06-10):
 
 - "I want everything simple, easy to understand, smooth."
@@ -28,4 +30,4 @@ The spirit of the building, filed from the courtyard:
 
 Three more bricks, then: [[joy]] is why we build, [[peace]] is how we build, [[safety]] is the promise that building never becomes breaking. The first stones said what the castle is made of; these say in what spirit the making happens.
 
-Related: [[loops]], [[meaning-between-minds]], [[simple-explanations]]
+Related: [loops](loops.md), [meaning-between-minds](meaning-between-minds.md), [simple-explanations](simple-explanations.md)

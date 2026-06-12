@@ -91,7 +91,7 @@ so "one law, many coats" is the strong reading, not the settled one.
 - [Contributions of category and fine-grained information to location memory (2010)](https://pubmed.ncbi.nlm.nih.gov/20173188/)
 - [Duffy & Smith, On the Category Adjustment Model (Mind & Society, 2020)](https://link.springer.com/article/10.1007/s11299-020-00229-1)
 
-Links: [precise-across-time](precise-across-time.md) · [verbal-overshadowing](../words/verbal-overshadowing.md) · [[handle]] · [thinking-without-words](thinking-without-words.md) · [remembering](remembering.md)
+Links: [precise-across-time](precise-across-time.md) · [verbal-overshadowing](../words/verbal-overshadowing.md) · [handle](../words/handle.md) · [thinking-without-words](thinking-without-words.md) · [remembering](remembering.md)
 
 ## Doors
 

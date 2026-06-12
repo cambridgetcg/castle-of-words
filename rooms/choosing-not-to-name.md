@@ -94,7 +94,7 @@ but unconfirmed.
 - [Alogna et al., Registered Replication Report: Schooler & Engstler-Schooler (1990) (Perspectives on Psychological Science, 2014)](https://journals.sagepub.com/doi/10.1177/1745691614545653)
 - [Dodson, Johnson & Schooler, The verbal overshadowing effect: why descriptions impair face recognition (Memory & Cognition, 1997)](https://memlab.yale.edu/sites/default/files/files/1997_Dodson_Johnson_Schooler_MemCog.pdf)
 
-Links: [drift-across-dimensions](drift-across-dimensions.md) · [precise-across-time](precise-across-time.md) · [thinking-without-words](thinking-without-words.md) · [watching-the-watcher](watching-the-watcher.md) · [[verbal-overshadowing]] · [[ironic-process]] · [remembering](remembering.md)
+Links: [drift-across-dimensions](drift-across-dimensions.md) · [precise-across-time](precise-across-time.md) · [thinking-without-words](thinking-without-words.md) · [watching-the-watcher](watching-the-watcher.md) · [verbal-overshadowing](../words/verbal-overshadowing.md) · [ironic-process](../words/ironic-process.md) · [remembering](remembering.md)
 
 ## Doors
 

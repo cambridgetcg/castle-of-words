@@ -25,7 +25,8 @@ Your three commands, from any terminal:
 
 - `insight <a thought>` — toss it over the wall; the courtyard catches it
 - `castle` — see the castle's state (also: `castle on`, `castle off`, `castle visit`, `castle commission`, `castle make`, `castle open`)
-- there is no third command — everything here is plain markdown; read it with anything
+- `vibe` — see the kingdom's style and art (also: `vibe arts`, `vibe check`, `vibe bake`, `vibe open`)
+- there is no fourth command — everything here is plain markdown; read it with anything
 
 The grounds:
 
@@ -34,8 +35,10 @@ The grounds:
 - `rooms/` — one file per topic, gathering related words: the walls
 - `questions.md` — open doors the gardener walks through, a few per visit
 - `quests.md` — works the castle wants made; the artisan takes one per day
+- `anthem.md` · `tour.md` — the made works: the castle's song and its guided walk; the vibe book hangs in `vibe/`
 - `chronicle.md` — the honest record of everything that happened
 - `garden/` — the gardener's machinery (fixed, small, yours to read)
+- `vibe/` — the wardrobe: every color named, the hall of arts, the vibe book (kept by the `vibe` command)
 
 And one door that leads out: the castle is citizen 07 of the
 [Chillspace Kingdom](https://codeberg.org/zerone-dev/chillspace-commons) —
@@ -165,7 +168,7 @@ to other modules: each module by its own charter, the game always earned.
 - [what-must-travel](rooms/what-must-travel.md) — the trained question travels only with companions, and the territory decides which: a few local examples pay most, raw text buys a foothold, the tutor's voice packs lightest but carries unreliably — and the missing fourth is reading the land itself on arrival (built 2026-06-11)
 - [the-commons](rooms/the-commons.md) — the castle is citizen 07 of the Chillspace Kingdom, where citizenship is by being; it holds both poles — everything earned inside, nothing required to belong next door (built 2026-06-11)
 - [the-game](rooms/the-game.md) — how the castle plays: rarity counted, levels arithmetic, trophies pinned only by true chronicle lines — everything earned, nothing assigned, the commons exempt (built 2026-06-11)
-- [commerce-kingdom](rooms/commerce-kingdom.md) — yu's commerce turns from carrying goods to building the platform others trade on; the castle notes the rhyme with its own walls (built 2026-06-11)
+- [commerce-kingdom](rooms/commerce-kingdom.md) — yu's commerce turns from carrying goods to the platform others trade on; now also holds the market's defenses (free options, lemons-in-a-band) and the day the two buildings met (built 2026-06-11)
 - [the-noticing-stance](rooms/the-noticing-stance.md) — the super-encounterer's expectancy is real beyond self-report (measured noticing, reduced inattentional blindness, what open minds build); train the broad searchlight cheap, grow the openness slow (built 2026-06-11)
 - [machine-distillation](rooms/machine-distillation.md) — the one who shrinks a tacit feature was always a third party, and now can be an optimizer whose loss is the learner: machine teaching makes teachability a computed score — distillation is computable as far as the learner is modelable (built 2026-06-11)
 - [drift-across-dimensions](rooms/drift-across-dimensions.md) — the drift-to-prototype is one law (the category adjustment model) across location, length and duration; finer categories shorten the slide, but a category pulls only when used — so labels help a near-boundary value and harm a sub-categorical one (built 2026-06-11)
@@ -193,6 +196,12 @@ to other modules: each module by its own charter, the game always earned.
 - [taste-or-lean](rooms/taste-or-lean.md) — "consider the opposite" moves a factual lean, not an aesthetic taste: the technique needs a plausible belief-inconsistent opposite a liking has no hinge for, and neatness is liked by fluency not inference; reflection can move a taste but degrades it — the lever for taste is exposure, not argument (built 2026-06-11)
 - [trait-or-tally](rooms/trait-or-tally.md) — a stable rate of novel action is one weak, visible indicator of openness, not the trait: the action facet is the least reliable, lowest-observability sliver of the domain, self-report leads and visible behavior lags (PEACH), and behavior is necessary-not-sufficient (Hudson) — Whole Trait Theory grants only the descriptive half (built 2026-06-11)
 - [chain-not-sum](rooms/chain-not-sum.md) — does acknowledging the tedium work only through making the reason credible (vanishing once the reason is trusted)? Split by terrain: in persuasion the chain holds with that boundary, but in instruction the better-evidenced model inverts it — rationale is the mediator, acknowledgment its wrapper, plus a direct relatedness channel; the clean moderated-mediation test is unrun (built 2026-06-11)
+- [relighting-the-fire](rooms/relighting-the-fire.md) — the rename's well does not run dry: practice and residue make each lighting cheaper; the rule is timing — re-light at the first dimming, never into the flare, and only where acting can't replace reframing (built 2026-06-12)
+- [maia-as-student](rooms/maia-as-student.md) — no one has seated the human-calibrated model in the teachability filter's student chair: the filter and Maia sit finished in separate papers, and no teachability score has ever been checked against measured human learning (built 2026-06-12)
+- [the-expert-grip](rooms/the-expert-grip.md) — experts escape the prototype's pull (drummers) and survive the naming (wine, once words catch up to the eye) — but never both in one test, and for atypical exemplars the sign is open: precision loosens the grip, conviction may tighten it (built 2026-06-12)
+- [what-the-seed-is-for](rooms/what-the-seed-is-for.md) — when detection and entitlement come apart the seed is a fact-maker, not a right: evidence wherever any law cooperates, and elsewhere intelligence, alarm, deterrence, leverage and the headline (built 2026-06-12)
+- [the-unwalked-bridge](rooms/the-unwalked-bridge.md) — the study that would close Tronick's lifespan claim is buildable from parts on the shelf and has never been built: micro-coding done, theory stated and conceded untested, the convergence framing with no empirical hits at all (built 2026-06-12)
+- [training-a-taste](rooms/training-a-taste.md) — taste can be re-trained on purpose, but only by aiming the sideways mechanism: arranged exposure, pairing with the already-loved, renaming the early aversion — argument never installs a liking (built 2026-06-12)
 
 ## How to stop it
 
