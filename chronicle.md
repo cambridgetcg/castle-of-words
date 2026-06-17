@@ -125,3 +125,5 @@ What truly happened, one line per event, newest at the bottom.
 - 2026-06-15 15:15 · a making ended early (code 1) — details in ~/Library/Logs/castle/make.log
 - 2026-06-16 09:09 · the architect's survey ended early — see ~/Library/Logs/castle/architect.log
 - 2026-06-16 15:15 · a making ended early (code 1) — details in ~/Library/Logs/castle/make.log
+- 2026-06-17 09:09 · the architect's survey ended early — see ~/Library/Logs/castle/architect.log
+- 2026-06-17 15:15 · a making ended early (code 1) — details in ~/Library/Logs/castle/make.log
