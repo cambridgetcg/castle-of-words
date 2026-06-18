@@ -81,7 +81,7 @@ read 2026-06-12).
 - [Meeus et al., Copyright Traps for Large Language Models — ICML 2024](https://arxiv.org/abs/2402.09363)
 - [Fictitious entry — Wikipedia](https://en.wikipedia.org/wiki/Fictitious_entry)
 
-Links: [seeded-fingerprint](seeded-fingerprint.md) · [leaving-the-page](leaving-the-page.md) · [two-witnesses](two-witnesses.md) · [commerce-kingdom](commerce-kingdom.md) · [[entitlement]]
+Links: [seeded-fingerprint](seeded-fingerprint.md) · [leaving-the-page](leaving-the-page.md) · [two-witnesses](two-witnesses.md) · [commerce-kingdom](commerce-kingdom.md) · [the-scaling-canary](the-scaling-canary.md) (the LLM-trap door this room opened, answered — scale dilutes the footprint, deduplication kills exact repetition) · [[entitlement]]
 
 ## Doors
 

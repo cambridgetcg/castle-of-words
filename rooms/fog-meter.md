@@ -78,7 +78,7 @@ reading.
 - [Sala & Gobet et al., far-transfer review (PMC)](https://pmc.ncbi.nlm.nih.gov/articles/PMC6390881/)
 - [Survey of confusion detection (arXiv 2401.15201)](https://arxiv.org/pdf/2401.15201)
 
-Links: [productive-confusion](productive-confusion.md) · [closing-the-loop](closing-the-loop.md) · [questions-with-edges](questions-with-edges.md) · [pretty-or-well-made](pretty-or-well-made.md) · [training-the-eye](training-the-eye.md) · [watching-the-watcher](watching-the-watcher.md) · [metering-honesty](metering-honesty.md)
+Links: [productive-confusion](productive-confusion.md) · [closing-the-loop](closing-the-loop.md) · [questions-with-edges](questions-with-edges.md) · [pretty-or-well-made](pretty-or-well-made.md) · [training-the-eye](training-the-eye.md) · [watching-the-watcher](watching-the-watcher.md) · [metering-honesty](metering-honesty.md) · [eft-regulation-performance](eft-regulation-performance.md) (the same self-report-vs-performance law: EFT measures regulation by questionnaire, never by task, just as fog-meter found the feeling the weakest meter)
 
 ## Doors
 
