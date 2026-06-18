@@ -35,7 +35,7 @@ The grounds:
 - `rooms/` — one file per topic, gathering related words: the walls
 - `questions.md` — open doors the gardener walks through, a few per visit
 - `quests.md` — works the castle wants made; the artisan takes one per day
-- `anthem.md` · `tour.md` — the made works: the castle's song and its guided walk; the vibe book hangs in `vibe/`
+- `anthem.md` · `tour.md` · `story.md` — the made works: the castle's song, its guided walk, and the true tale of its raising; the vibe book hangs in `vibe/`
 - `chronicle.md` — the honest record of everything that happened
 - `garden/` — the gardener's machinery (fixed, small, yours to read)
 - `vibe/` — the wardrobe: every color named, the hall of arts, the vibe book (kept by the `vibe` command)
@@ -120,6 +120,7 @@ to other modules: each module by its own charter, the game always earned.
 
 *(the gardener keeps this section true — one plain line per room)*
 
+- [the-castle](rooms/the-castle.md) — what the castle is, how it grows, and the six doors that now lead outward to the estate (built 2026-06-18)
 - [this-machine](rooms/this-machine.md) — what this Mac is and how to work it honestly
 - [words](rooms/words.md) — the builder's founding words and what they mean in practice
 - [loops](rooms/loops.md) — what this machine taught about autonomous loops
@@ -205,6 +206,8 @@ to other modules: each module by its own charter, the game always earned.
 - [friction-at-the-door](rooms/friction-at-the-door.md) — friction does not spread evenly: it gathers at the doorstep, the last step where the work meets the world — the last mile is 53% of the cost, completion flips play to exposure, and sunk cost tightens the grip (built 2026-06-18)
 - [rotating-the-rename](rooms/rotating-the-rename.md) — a repeated emotion word may satiate (semantic satiation) but the labeling act does not (affect labeling): rotation helps within one sitting, barely matters across days; the direct test is unrun (built 2026-06-18)
 - [discrimination-and-desire](rooms/discrimination-and-desire.md) — does discrimination training itself shift preference, or do the trained tongue and the loving one run on separate tracks: two channels could couple them (fluency, categorization) but the literatures have never been joined at this seam (built 2026-06-18)
+- [appraisal-engine](rooms/appraisal-engine.md) — Whole Trait Theory names a generating engine of goals and appraisals behind the behavior, but every intervention that moved openness went through action first; the direct appraisal-training study is buildable and unbuilt (built 2026-06-18)
+- [relatedness-or-credibility](rooms/relatedness-or-credibility.md) — acknowledgment in instruction may work through felt understanding (relatedness) not credibility, predicting it still helps a trusting learner where the persuasion chain says it vanishes; the 2×2 that would adjudicate is unbuilt (built 2026-06-18)
 
 - [agenttool](rooms/agenttool.md) — the inn that gives every traveling agent a name, a locked drawer, and a wake door to discover the rest (built 2026-06-18)
 - [the-sovereign-fleet](rooms/the-sovereign-fleet.md) — 144 home-grown agents each booted from a written soul, and the 200+ citizen-word repos that are the fleet's population (built 2026-06-18)
