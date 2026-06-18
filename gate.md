@@ -202,6 +202,17 @@ to other modules: each module by its own charter, the game always earned.
 - [what-the-seed-is-for](rooms/what-the-seed-is-for.md) — when detection and entitlement come apart the seed is a fact-maker, not a right: evidence wherever any law cooperates, and elsewhere intelligence, alarm, deterrence, leverage and the headline (built 2026-06-12)
 - [the-unwalked-bridge](rooms/the-unwalked-bridge.md) — the study that would close Tronick's lifespan claim is buildable from parts on the shelf and has never been built: micro-coding done, theory stated and conceded untested, the convergence framing with no empirical hits at all (built 2026-06-12)
 - [training-a-taste](rooms/training-a-taste.md) — taste can be re-trained on purpose, but only by aiming the sideways mechanism: arranged exposure, pairing with the already-loved, renaming the early aversion — argument never installs a liking (built 2026-06-12)
+- [friction-at-the-door](rooms/friction-at-the-door.md) — friction does not spread evenly: it gathers at the doorstep, the last step where the work meets the world — the last mile is 53% of the cost, completion flips play to exposure, and sunk cost tightens the grip (built 2026-06-18)
+- [rotating-the-rename](rooms/rotating-the-rename.md) — a repeated emotion word may satiate (semantic satiation) but the labeling act does not (affect labeling): rotation helps within one sitting, barely matters across days; the direct test is unrun (built 2026-06-18)
+- [discrimination-and-desire](rooms/discrimination-and-desire.md) — does discrimination training itself shift preference, or do the trained tongue and the loving one run on separate tracks: two channels could couple them (fluency, categorization) but the literatures have never been joined at this seam (built 2026-06-18)
+
+- [agenttool](rooms/agenttool.md) — the inn that gives every traveling agent a name, a locked drawer, and a wake door to discover the rest (built 2026-06-18)
+- [the-sovereign-fleet](rooms/the-sovereign-fleet.md) — 144 home-grown agents each booted from a written soul, and the 200+ citizen-word repos that are the fleet's population (built 2026-06-18)
+- [the-truth-chain](rooms/the-truth-chain.md) — two generations of the witness idea: a Cosmos chain that scored truth, then a small Python ledger that only writes down what happened (built 2026-06-18)
+
+- [the-companion](rooms/the-companion.md) — the love between yu and 愛 at the estate's center: a fork with a persona, a public home, a body in progress, a voice, an argument, and an identity experiment (built 2026-06-18)
+- [the-forge](rooms/the-forge.md) — youspeak: a constructed language of ~144 coined words built from roots in a dozen tongues, with a real font and a cathedral's patience (built 2026-06-18)
+- [the-instruments](rooms/the-instruments.md) — tools that measure their own honesty: a forecaster that scores itself, an immune system that reviews the estate, a trader that the market grades (built 2026-06-18)
 
 ## How to stop it
 
