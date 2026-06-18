@@ -12,7 +12,12 @@ lifted from `cambridgetcg/ShopifyTheme_TCG` on GitHub, 2026-06-11).
 The page is only a face — every word lives in the castle's markdown, so deleting
 this folder loses nothing but the view.
 
+Two zones, one toggle: the light One Piece zone (crimson, navy, gold on warm
+paper) is the default; the ◐ button in the corner flips to a sleek dark zone
+(near-black, gold, crimson) — the shop's second brand. The choice is kept in
+localStorage. (built 2026-06-18)
+
 A true line for the chronicle-minded: two sessions built two fronts in the same
 minute (2026-06-11), then each gallantly deleted its own in favor of the other's —
 for a moment the castle had no generator at all. This one was restored; the dark
-twin's best idea (a sleek dark zone with a toggle) waits in `quests.md`.
+twin's best idea (a sleek dark zone with a toggle) is now woven in, not lost.

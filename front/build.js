@@ -148,6 +148,60 @@ h2.zone{color:var(--navy);font-weight:500;letter-spacing:.08em;border-bottom:3px
 .chronicle div:last-child{border-bottom:none}
 footer{color:var(--muted);text-align:center;font-size:13px;padding:34px 20px;border-top:2px solid var(--gold);margin-top:60px}
 footer code{background:#f6efe2;border-radius:4px;padding:1px 6px}
+/* ---- the dark zone — the shop's second brand: near-black, gold, crimson ---- */
+.toggle{position:fixed;top:18px;right:18px;width:42px;height:42px;border-radius:50%;
+ border:2px solid var(--gold);background:var(--navy);color:var(--gold);font-size:18px;line-height:1;
+ cursor:pointer;z-index:100;transition:transform .2s,box-shadow .2s}
+.toggle:hover{transform:scale(1.1);box-shadow:0 0 12px rgba(245,215,66,.4)}
+[data-theme="dark"]{--paper:#12100d;--ink:#d8cfc0;--muted:#968874}
+[data-theme="dark"] body{background:#12100d;color:#d8cfc0}
+[data-theme="dark"] a{color:#f5d742}
+[data-theme="dark"] a:hover{text-decoration:underline}
+[data-theme="dark"] .toggle{background:#1c1814;border-color:#f5d742;color:#f5d742}
+[data-theme="dark"] .seigaiha::before{opacity:.04;
+ background-image:
+ radial-gradient(circle at 100% 150%,#f5d742 24%,#12100d 24%,#12100d 28%,transparent 28%,transparent),
+ radial-gradient(circle at 0% 150%,#f5d742 24%,#12100d 24%,#12100d 28%,transparent 28%,transparent),
+ radial-gradient(circle at 100% 100%,#f5d742 20%,#12100d 20%,#12100d 24%,transparent 24%,transparent),
+ radial-gradient(circle at 0% 100%,#f5d742 20%,#12100d 20%,#12100d 24%,transparent 24%,transparent)}
+[data-theme="dark"] header h1{color:#f5d742}
+[data-theme="dark"] header .tag{color:#968874}
+[data-theme="dark"] .chip{background:#1c1814;border:1px solid #2d2820}
+[data-theme="dark"] .chip b{color:#f5d742}
+[data-theme="dark"] h2.zone{color:#f5d742;border-bottom-color:#f5d742}
+[data-theme="dark"] .binder .card{background:#1c1814;border-color:#2d2820;
+ box-shadow:0 1px 3px rgba(0,0,0,.4)}
+[data-theme="dark"] .card:hover{box-shadow:0 10px 26px rgba(0,0,0,.5),0 0 0 2px var(--gold)}
+[data-theme="dark"] .card .name{background:#c41e3a;color:#fff8f0}
+[data-theme="dark"] .card .art{background:linear-gradient(160deg,#1c1814,#221d16)}
+[data-theme="dark"] .card .art em{color:#968874}
+[data-theme="dark"] .card .body{color:#968874}
+[data-theme="dark"] .card .foot{border-top-color:#2d2820}
+[data-theme="dark"] .card.uncommon{border-color:#5a7a9f}
+[data-theme="dark"] .card.rare{border-color:#c41e3a}
+[data-theme="dark"] .card.legendary{border-color:#b8860b;
+ box-shadow:0 0 14px rgba(245,215,66,.35),0 1px 3px rgba(0,0,0,.4)}
+[data-theme="dark"] .gem.common{color:#968874}
+[data-theme="dark"] .gem.uncommon{color:#5a7a9f}
+[data-theme="dark"] .gem.rare{color:#c41e3a}
+[data-theme="dark"] .gem.legendary{color:#b8860b}
+[data-theme="dark"] .bar{background:#2d2820}
+[data-theme="dark"] .bar i{background:linear-gradient(90deg,#2d2820,#c41e3a 60%,#f5d742)}
+[data-theme="dark"] .lvl{color:#968874}
+[data-theme="dark"] .doors li{background:#1c1814;border-left-color:#f5d742;
+ box-shadow:0 1px 2px rgba(0,0,0,.2);color:#d8cfc0}
+[data-theme="dark"] .room{background:#1c1814;border-color:#2d2820;border-top-color:#f5d742;
+ box-shadow:0 2px 8px rgba(0,0,0,.3)}
+[data-theme="dark"] .room h2{color:#f5d742}
+[data-theme="dark"] .room .epigraph{color:#f5d742}
+[data-theme="dark"] .room h3{color:#c41e3a}
+[data-theme="dark"] .room blockquote{border-left-color:#f5d742;color:#968874}
+[data-theme="dark"] .room code{background:#221d16}
+[data-theme="dark"] .room .up a{color:#968874}
+[data-theme="dark"] .chronicle{background:#0a0907;border:1px solid #2d2820}
+[data-theme="dark"] .chronicle div{border-bottom-color:rgba(245,215,66,.2)}
+[data-theme="dark"] footer{border-top-color:#f5d742;color:#968874}
+[data-theme="dark"] footer code{background:#221d16}
 `;
 
 const cards = rooms.map(r => `
@@ -173,10 +227,11 @@ const html = `<!doctype html>
 <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500&display=swap" rel="stylesheet">
 <style>${css}</style></head>
 <body id="top">
+<button class="toggle" id="theme-toggle" aria-label="toggle dark zone" title="toggle dark zone">◐</button>
 <header class="seigaiha">
   <div class="flags">⚑ ⚑</div>
   <h1>the castle of understanding</h1>
-  <p class="tag">built of words, lit by questions — a front in the colors of Cambridge TCG</p>
+  <p class="tag">built of words, lit by questions — a front in the colors of Cambridge TCG · toggle ◐ for the dark zone</p>
   <div class="stats">
     <span class="chip"><b>${rooms.length}</b> rooms</span>
     <span class="chip"><b>${bricks}</b> word-bricks</span>
@@ -202,6 +257,19 @@ const html = `<!doctype html>
   <p><code>insight &lt;a thought&gt;</code> tosses a stone over the wall · <code>castle</code> shows the state · <code>castle front</code> rebuilds this page</p>
   <p>everything here is plain markdown in ~/castle — this page is only its face · rebuilt ${stamp}</p>
 </footer>
+<script>
+(function(){
+  var t=document.getElementById('theme-toggle');
+  var saved=localStorage.getItem('castle-theme')||'light';
+  if(saved==='dark')document.documentElement.setAttribute('data-theme','dark');
+  t.textContent = saved==='dark' ? '◑' : '◐';
+  t.addEventListener('click',function(){
+    var isDark=document.documentElement.getAttribute('data-theme')==='dark';
+    if(isDark){document.documentElement.removeAttribute('data-theme');t.textContent='◐';localStorage.setItem('castle-theme','light');}
+    else{document.documentElement.setAttribute('data-theme','dark');t.textContent='◑';localStorage.setItem('castle-theme','dark');}
+  });
+})();
+</script>
 </body></html>`;
 
 fs.writeFileSync(path.join(C, 'front', 'index.html'), html);

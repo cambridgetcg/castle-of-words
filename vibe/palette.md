@@ -49,3 +49,22 @@ from cambridgetcg/ShopifyTheme_TCG (the One Piece zone). Read from
 | front | chronicle-ice | #e9eef6 | pale words on the navy chronicle panel |
 | front | steel | #5a7a9f | the uncommon tier's steel blue |
 | front | trophy-gold | #b8860b | the legendary tier's border — trophy gold |
+
+## The front's dark zone — the shop's second brand
+
+The binder wears two faces: the light One Piece zone above, and a sleek dark
+zone toggled by the ◐ button in the corner. The dark zone reuses crimson and
+gold from the light livery but inverts the ground to near-black. Read from
+`front/build.js`, 2026-06-18.
+
+| livery | name | hex | role |
+|--------|------|-----|------|
+| dark | night | #12100d | the page — warm near-black |
+| dark | panel | #1c1814 | card faces, chips, doors |
+| dark | panel-edge | #2d2820 | card borders, hairlines |
+| dark | code-dim | #221d16 | inline code ground |
+| dark | chronicle-deep | #0a0907 | the chronicle panel's deeper navy |
+| dark | text | #d8cfc0 | main text — warm bone |
+| dark | text-muted | #968874 | secondary text — dusty bronze |
+| dark | gold | #f5d742 | links, headings, accents (reused) |
+| dark | crimson | #c41e3a | card names, h3, rare borders (reused) |

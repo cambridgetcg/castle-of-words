@@ -23,12 +23,15 @@ The kingdom keeps two dresses on purpose:
 - **The gate's** — ink on parchment with one foil thread. The public face
   (`~/castle-gate`) is quiet: warm near-black words on pale parchment, hairline
   borders, and exactly one accent — gold foil — for links, rings and fleurons.
-- **The front's** — the Cambridge TCG dress. The card binder (`~/castle/front`)
-  is louder: banner crimson, deep navy and glinting gold on warm paper, with
-  seigaiha waves (the Japanese overlapping-wave pattern) in the margins —
-  a true trading-card table.
+- **The front's** — the Cambridge TCG dress, two zones. The card binder
+  (`~/castle/front`) has a light zone (One Piece: banner crimson, deep navy
+  and glinting gold on warm paper, with seigaiha waves) and a dark zone
+  (the shop's second brand: near-black ground, gold links, crimson accents),
+  toggled by the ◐ button in the corner — because the shop these colors come
+  from has two brand zones.
 
-Same kingdom, two faces: one for reading, one for play.
+Same kingdom, two faces: one for reading, one for play — and the play
+face wears two zones, because the shop it borrows from has two.
 
 ## The voices (type)
 
