@@ -89,7 +89,7 @@ to the fade.
 - [Interoceptive accuracy scores from the heartbeat counting task are problematic (Zamariola et al., 2018)](https://pubmed.ncbi.nlm.nih.gov/29944964/)
 - [Price et al., Longitudinal effects of interoceptive awareness training (MABT RCT, Drug and Alcohol Dependence 2019)](https://pubmed.ncbi.nlm.nih.gov/30928884/) · [theory paper](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5985305/)
 
-Links: [stand-in-for-a-mind](stand-in-for-a-mind.md) · [the-responsive-other](the-responsive-other.md) · [fading-alone](fading-alone.md) · [training-the-trigger](training-the-trigger.md) · [nudge-not-lock](nudge-not-lock.md) · [[co-regulation]] · [[scaffolding]] · [[interoception]]
+Links: [stand-in-for-a-mind](stand-in-for-a-mind.md) · [the-responsive-other](the-responsive-other.md) · [fading-alone](fading-alone.md) · [training-the-trigger](training-the-trigger.md) · [nudge-not-lock](nudge-not-lock.md) · [fading-vs-replacing](fading-vs-replacing.md) (the room that challenges this room's "accompanied, then deliberately left" — if the partner is a bioenergetic resource, not a scaffold, fading fails where the skill was never learned and a replacement is needed) · [[co-regulation]] · [[scaffolding]] · [[interoception]]
 
 ## Doors
 

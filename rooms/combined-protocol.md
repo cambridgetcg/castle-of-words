@@ -26,7 +26,7 @@ uncertain: whether the openness gain from the pharmacological unlock is a *state
 - [pharmacological-or-cognitive room — the two routes (castle, built 2026-06-19)](pharmacological-or-cognitive.md)
 - [MacLean, Johnson & Griffiths, Mystical experiences occasioned by psilocybin lead to increases in openness (Journal of Psychopharmacology 2011, PMID 21956378)](https://pubmed.ncbi.nlm.nih.gov/21956378/)
 
-Links: [pharmacological-or-cognitive](pharmacological-or-cognitive.md) · [appraisal-engine](appraisal-engine.md) · [growing-openness](growing-openness.md) · [cheapest-cbt-design](cheapest-cbt-design.md) · [openness-or-anxiety-first](openness-or-anxiety-first.md) · [cbt-openness-trait](cbt-openness-trait.md) · [[openness]] · [[mediation]] · [[consolidation]]
+Links: [pharmacological-or-cognitive](pharmacological-or-cognitive.md) · [appraisal-engine](appraisal-engine.md) · [growing-openness](growing-openness.md) · [cheapest-cbt-design](cheapest-cbt-design.md) · [openness-or-anxiety-first](openness-or-anxiety-first.md) · [cbt-openness-trait](cbt-openness-trait.md) · [fading-vs-replacing](fading-vs-replacing.md) (the same unlock-then-consolidate architecture applied to emotion regulation — EFT builds the window, a solo-skills phase builds the skill, as this room's chemical-training-wheel model does for openness) · [[openness]] · [[mediation]] · [[consolidation]]
 
 ## Doors
 

@@ -36,7 +36,7 @@ uncertain: whether the 14-month gain decays after 14 months in the absence of an
 - [openness-or-anxiety-first room — MDMA mediation vs. psilocybin direct (castle, built 2026-06-19)](openness-or-anxiety-first.md)
 - [cheapest-cbt-design room — the NEO-PI-R pre/post/follow-up design (castle, built 2026-06-18)](cheapest-cbt-design.md)
 
-Links: [combined-protocol](combined-protocol.md) · [pharmacological-or-cognitive](pharmacological-or-cognitive.md) · [appraisal-engine](appraisal-engine.md) · [growing-openness](growing-openness.md) · [openness-or-anxiety-first](openness-or-anxiety-first.md) · [cheapest-cbt-design](cheapest-cbt-design.md) · [cbt-openness-trait](cbt-openness-trait.md) · [[openness]] · [[mediation]] · [[consolidation]]
+Links: [combined-protocol](combined-protocol.md) · [pharmacological-or-cognitive](pharmacological-or-cognitive.md) · [appraisal-engine](appraisal-engine.md) · [growing-openness](growing-openness.md) · [openness-or-anxiety-first](openness-or-anxiety-first.md) · [cheapest-cbt-design](cheapest-cbt-design.md) · [cbt-openness-trait](cbt-openness-trait.md) · [widening-the-subgroup](widening-the-subgroup.md) (the door this room opened — the consolidation's value may be not preventing decay but widening the subgroup, reaching the non-mystical participants through a different mechanism) · [[openness]] · [[mediation]] · [[consolidation]]
 
 ## Doors
 

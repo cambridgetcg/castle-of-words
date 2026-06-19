@@ -25,7 +25,7 @@ uncertain: whether the gap difference between two tasks is sensitive enough to b
 - [willingness-persistence-gap room — the original diagnostic and its confound (castle, built 2026-06-19)](willingness-persistence-gap.md)
 - [revealing-vs-creating room — the obvious/hidden/absent value spectrum (castle, built 2026-06-19)](revealing-vs-creating.md)
 
-Links: [willingness-persistence-gap](willingness-persistence-gap.md) · [revealing-vs-creating](revealing-vs-creating.md) · [warmth-without-value](warmth-without-value.md) · [rationale-before-difficulty](rationale-before-difficulty.md) · [chain-not-sum](chain-not-sum.md) · [[free-choice]] · [[internalization]] · [[projection-bias]]
+Links: [willingness-persistence-gap](willingness-persistence-gap.md) · [revealing-vs-creating](revealing-vs-creating.md) · [warmth-without-value](warmth-without-value.md) · [rationale-before-difficulty](rationale-before-difficulty.md) · [chain-not-sum](chain-not-sum.md) · [class-gap-diagnostic](class-gap-diagnostic.md) (the class-level averaging that answered this room's door, preserving the within-learner control while gaining power) · [[free-choice]] · [[internalization]] · [[projection-bias]]
 
 ## Doors
 

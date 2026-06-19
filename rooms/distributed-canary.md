@@ -24,7 +24,7 @@ uncertain: whether frontier-model training pipelines include the *same* pages th
 - [near-duplicate-canary room — the near-duplicate strategy (castle, built 2026-06-19)](near-duplicate-canary.md)
 - [the-scaling-canary room — the scale-dilution problem (castle, built 2026-06-18)](the-scaling-canary.md)
 
-Links: [near-duplicate-canary](near-duplicate-canary.md) · [paraphrased-canary](paraphrased-canary.md) · [the-scaling-canary](the-scaling-canary.md) · [what-the-seed-is-for](what-the-seed-is-for.md) · [seeded-fingerprint](seeded-fingerprint.md) · [[canary-trap]] · [[mosaic-memory]] · [[deduplication]]
+Links: [near-duplicate-canary](near-duplicate-canary.md) · [paraphrased-canary](paraphrased-canary.md) · [the-scaling-canary](the-scaling-canary.md) · [what-the-seed-is-for](what-the-seed-is-for.md) · [seeded-fingerprint](seeded-fingerprint.md) · [organic-canary](organic-canary.md) (the door this room opened — embed the canary in content that invites reproduction, so others carry it across the curation barrier) · [[canary-trap]] · [[mosaic-memory]] · [[deduplication]]
 
 ## Doors
 

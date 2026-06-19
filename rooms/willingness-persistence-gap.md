@@ -24,7 +24,7 @@ uncertain: whether the gap is sensitive enough to distinguish "hidden value the 
 - [Wikipedia: Overjustification effect — the free-choice paradigm (read 2026-06-19)](https://en.wikipedia.org/wiki/Overjustification_effect)
 - [revealing-vs-creating room — the three-way split (castle, built 2026-06-19)](revealing-vs-creating.md)
 
-Links: [revealing-vs-creating](revealing-vs-creating.md) · [warmth-without-value](warmth-without-value.md) · [acknowledgment-weak-reason](acknowledgment-weak-reason.md) · [rationale-before-difficulty](rationale-before-difficulty.md) · [chain-not-sum](chain-not-sum.md) · [[free-choice]] · [[internalization]] · [[projection-bias]]
+Links: [revealing-vs-creating](revealing-vs-creating.md) · [warmth-without-value](warmth-without-value.md) · [acknowledgment-weak-reason](acknowledgment-weak-reason.md) · [rationale-before-difficulty](rationale-before-difficulty.md) · [chain-not-sum](chain-not-sum.md) · [inverted-diagnostic](inverted-diagnostic.md) (the door this room opened — the same-learner two-task inversion that turns the gap from a person-measure into a task-diagnostic) · [class-gap-diagnostic](class-gap-diagnostic.md) (the class-level averaging that preserves the within-learner control while gaining power) · [[free-choice]] · [[internalization]] · [[projection-bias]]
 
 ## Doors
 

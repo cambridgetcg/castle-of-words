@@ -61,4 +61,4 @@ score has still never been checked against the only learner it was ever for.
 
 Links: [two-windows](two-windows.md) ·
 [machine-distillation](machine-distillation.md) · [[machine-teaching]] ·
-[[learner-model]] · [[transfer]]
+[[learner-model]] · [[transfer]] · [cheapest-teachability-validation](cheapest-teachability-validation.md) (the minimum design that would validate the teachability score maia-as-student says has never been checked) · [domain-matched-teachability](domain-matched-teachability.md) (the head-to-head this room's unwired Maia predicts would win) · [calibration-returns](calibration-returns.md) (the diminishing-returns question the domain-matched match raises)

@@ -26,7 +26,7 @@ uncertain: the mosaic memory paper showed that *naturally occurring* fuzzy dupli
 - [Watermarking Makes Language Models Radioactive (arXiv 2024)](https://arxiv.org/abs/2402.14904)
 - [SLIM: Stealthy Low-Coverage Black-Box Watermarking (ACL 2026)](https://arxiv.org/abs/2601.03242)
 
-Links: [the-scaling-canary](the-scaling-canary.md) · [what-the-seed-is-for](what-the-seed-is-for.md) · [seeded-fingerprint](seeded-fingerprint.md) · [[canary-trap]] · [[mosaic-memory]] · [[deduplication]]
+Links: [the-scaling-canary](the-scaling-canary.md) · [what-the-seed-is-for](what-the-seed-is-for.md) · [seeded-fingerprint](seeded-fingerprint.md) · [near-duplicate-canary](near-duplicate-canary.md) (the door this room opened — near-duplicates stay in the fuzzy-duplicate band the mosaic rewards without crossing into the brittleness band) · [distributed-canary](distributed-canary.md) (the many-small-clusters strategy that builds on the near-duplicate's survival) · [[canary-trap]] · [[mosaic-memory]] · [[deduplication]]
 
 ## Doors
 
