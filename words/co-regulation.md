@@ -10,4 +10,4 @@ taper. The risk the castle found is the borrowing that never ends — synchrony
 that feels good while the self-regulating muscle goes unexercised
 ([fading-the-other](../rooms/fading-the-other.md)).
 
-Links: [[interoception]] · [[scaffolding]] · [[repair]]
+Links: [[interoception]] · [[scaffolding]] · [[repair]] · [[social-baseline]]

@@ -8,4 +8,4 @@ What makes appreciation distinct from enjoyment: it is *effortful* pleasure, ear
 
 The castle's rooms that lean on it: [appreciation-vs-enjoyment](../rooms/appreciation-vs-enjoyment.md) names the conflict and its resolution (the question asked decides which wins), [consumption-vs-liking](../rooms/consumption-vs-liking.md) asks whether training shifts the *choice* toward the appreciated, and [discrimination-and-desire](../rooms/discrimination-and-desire.md) opens the question of whether the trained tongue and the loving one run on the same track.
 
-Links: [[fluency]] · [[reappraisal]] · [[mere-exposure]] · [[differentiation]]
+Links: [[fluency]] · [[interest]] · [[reappraisal]] · [[mere-exposure]] · [[differentiation]]

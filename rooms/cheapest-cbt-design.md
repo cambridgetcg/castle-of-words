@@ -20,7 +20,7 @@ uncertain: the Kennair study did not report openness-specific effect sizes (only
 - [Roberts et al., A systematic review of personality trait change through intervention (Psychological Bulletin 2017)](https://pubmed.ncbi.nlm.nih.gov/28054797/)
 - [Hengartner et al., Personality Traits and Psychopathology Over the Course of Six Months of Outpatient Psychotherapy (Frontiers in Psychology 2020, PMID 32116964)](https://pubmed.ncbi.nlm.nih.gov/32116964/)
 
-Links: [cbt-openness-trait](cbt-openness-trait.md) · [appraisal-engine](appraisal-engine.md) · [growing-openness](growing-openness.md) · [trait-or-tally](trait-or-tally.md) · [[openness]]
+Links: [cbt-openness-trait](cbt-openness-trait.md) · [appraisal-engine](appraisal-engine.md) · [growing-openness](growing-openness.md) · [trait-or-tally](trait-or-tally.md) · [openness-or-anxiety-first](openness-or-anxiety-first.md) (the door this room opened — does openness rise as a mediator of symptom change, or just as a fellow traveler?) · [pharmacological-or-cognitive](pharmacological-or-cognitive.md) (the mechanism question the Kennair finding raises — is the cognitive route a match for the pharmacological one?) · [[openness]] · [[mediation]]
 
 ## Doors
 

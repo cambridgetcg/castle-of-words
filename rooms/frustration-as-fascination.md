@@ -70,7 +70,7 @@ engaged; weak when the real state is flat, tired, or bored.
 - [Replication of a reappraisal test-anxiety intervention (CBE—Life Sciences Education, 2025)](https://www.lifescied.org/doi/10.1187/cbe.25-04-0055)
 - [Cognitive reappraisal for challenging situations — when it backfires (Therapy Group of DC)](https://therapygroupdc.com/therapist-dc-blog/cognitive-reappraisal-for-challenging-situations-when-to-use-this-emotion-regulation-strategy/)
 
-Links: [renaming-the-fire](renaming-the-fire.md) · [productive-confusion](productive-confusion.md) · [reappraisal](../words/reappraisal.md) · [step-back-mid-climb](step-back-mid-climb.md) · [flooding-self-read](flooding-self-read.md) · [rationale-before-difficulty](rationale-before-difficulty.md)
+Links: [renaming-the-fire](renaming-the-fire.md) · [productive-confusion](productive-confusion.md) · [reappraisal](../words/reappraisal.md) · [step-back-mid-climb](step-back-mid-climb.md) · [flooding-self-read](flooding-self-read.md) · [rationale-before-difficulty](rationale-before-difficulty.md) · [relighting-the-fire](relighting-the-fire.md) (the room this one's door opened — the rename can be re-lit each time it dims, and each lighting starts from a partly pre-warmed wick) · [[reappraisal]]
 
 ## Doors
 

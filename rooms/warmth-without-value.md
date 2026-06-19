@@ -20,7 +20,7 @@ uncertain: whether the relatedness channel can sustain motivation where there is
 - [Wikipedia: Affective forecasting — projection bias and food waste (read 2026-06-18)](https://en.wikipedia.org/wiki/Affective_forecasting)
 - [Gagné & Deci, Self-determination theory and work motivation (2005)](https://selfdeterminationtheory.org/SDT/documents/2005_GagneDeci_JOB_SDTtheory.pdf)
 
-Links: [acknowledgment-weak-reason](acknowledgment-weak-reason.md) · [relatedness-or-credibility](relatedness-or-credibility.md) · [rationale-before-difficulty](rationale-before-difficulty.md) · [chain-not-sum](chain-not-sum.md) · [consumption-vs-liking](consumption-vs-liking.md) (the same projection-bias finding: a representation of value survives contact with the real experience the way predicted enjoyment survives contact with actual consumption) · [[reactance]]
+Links: [acknowledgment-weak-reason](acknowledgment-weak-reason.md) · [relatedness-or-credibility](relatedness-or-credibility.md) · [rationale-before-difficulty](rationale-before-difficulty.md) · [chain-not-sum](chain-not-sum.md) · [consumption-vs-liking](consumption-vs-liking.md) (the same projection-bias finding: a representation of value survives contact with the real experience the way predicted enjoyment survives contact with actual consumption) · [revealing-vs-creating](revealing-vs-creating.md) (the door this room opened — warmth as lens not fuel: revealing hidden value vs. creating value from nothing) · [[reactance]] · [[internalization]]
 
 ## Doors
 

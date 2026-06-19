@@ -8,4 +8,4 @@ The expert's relationship to the prototype is the open crux: precision (sharper 
 
 The castle's rooms that lean on it: [drift-across-dimensions](../rooms/drift-across-dimensions.md) (the law across location, length and duration), [precise-across-time](../rooms/precise-across-time.md) (discrete handles resist the drift), [the-expert-grip](../rooms/the-expert-grip.md) (precision loosens the pull, shown in time), [atypical-expert-pull](../rooms/atypical-expert-pull.md) (the predicted flip for atypical exemplars, unbuilt), and [choosing-not-to-name](../rooms/choosing-not-to-name.md) (the category pulls only when used, and the onset is automatic).
 
-Links: [[calibration]] · [[distillation]] · [[verbal-overshadowing]] · [[tacit-knowledge]]
+Links: [[calibration]] · [[distillation]] · [[verbal-overshadowing]] · [[tacit-knowledge]] · [[category-adjustment]]

@@ -8,4 +8,4 @@ The honest limit the castle holds: detection and [[entitlement]] come apart by d
 
 The castle's rooms that lean on it: [seeded-fingerprint](../rooms/seeded-fingerprint.md) (the trap's legal anatomy — perfect detection, zero entitlement), [what-the-seed-is-for](../rooms/what-the-seed-is-for.md) (the six purposes the trap serves beyond the lawsuit it cannot win), and [the-scaling-canary](../rooms/the-scaling-canary.md) (the scaling question — does the trap survive as models grow?).
 
-Links: [[entitlement]] · [[circular-reporting]] · [[independence]] · [[ledger]]
+Links: [[entitlement]] · [[circular-reporting]] · [[independence]] · [[ledger]] · [[mosaic-memory]] · [[deduplication]] · [[memorization]]
