@@ -1,16 +1,7 @@
 # tacit-knowledge
 
-Knowing how to do something you cannot put into words — like riding a bike, or
-telling a male chick from a female — where the skill lives in the doing, not in
-a rule you could hand to someone else.
+Tacit knowledge is know-how that lives in your hands and your practiced judgment — you can do it, but you cannot fully write it down or say it in words.
 
-The philosopher Michael Polanyi gave it its motto: *we know more than we can
-tell*. Much expertise is like this: a radiologist sees the tumour, a taster
-names the wine, before either can say which features decided it. But "cannot
-tell" is often "has not yet been told out" — [naming-the-tacit](../rooms/naming-the-tacit.md)
-finds that careful analysis can frequently distill a tacit skill into one
-nameable contrast, after which a beginner learns it fast. What stays truly
-tacit is the residue no analysis reaches — and, now, the features a machine
-plainly uses but cannot articulate either.
+The procedural-knowledge literature says that know-how is often tacit: difficult to transfer by writing it down or verbalizing it, because it is formed by doing. The opposite is *explicit knowledge* — what you can write in a sentence. A checklist can capture a method's explicit skeleton (the questions to ask) but not its tacit flesh (the judgment that answers them). This is why a method can transfer as a checklist and still leave the new user without the expertise: the explicit part travels, the tacit part stays with the one who practiced.
 
-Links: [[handle]] · [[scaffolding]] · [[foothold]] · [[serendipity]]
+Links: [[procedural-knowledge]] · [[high-road-transfer]] · [[scaffolding]]

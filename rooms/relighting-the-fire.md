@@ -70,4 +70,4 @@ walked it.
 
 Links: [renaming-the-fire](renaming-the-fire.md) ·
 [frustration-as-fascination](frustration-as-fascination.md) ·
-[step-back-mid-climb](step-back-mid-climb.md) · [[reappraisal]] · [[flooding]]
+[step-back-mid-climb](step-back-mid-climb.md) · [[reappraisal]] · [[flooding]] · [rotating-the-rename](rotating-the-rename.md) (the repeated emotion word may satiate but the labeling act does not — the re-lighting rule meets the rotation question at the border of reappraisal and affect labeling)

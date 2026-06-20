@@ -75,7 +75,7 @@ remains the open half of the old room's last door.
 - [Chen et al., Near-Optimal Machine Teaching via Explanatory Teaching Sets (AISTATS, 2018)](http://proceedings.mlr.press/v84/chen18g/chen18g.pdf)
 - [Explanatory machine learning for sequential human teaching (arXiv, 2022)](https://arxiv.org/pdf/2205.10250)
 
-Links: [naming-the-tacit](naming-the-tacit.md) · [training-the-eye](training-the-eye.md) · [[machine-teaching]] · [[tacit-knowledge]] · [text-answers-back](text-answers-back.md)
+Links: [naming-the-tacit](naming-the-tacit.md) · [training-the-eye](training-the-eye.md) · [[machine-teaching]] · [[tacit-knowledge]] · [text-answers-back](text-answers-back.md) · [learning-curve-threshold](learning-curve-threshold.md) (the threshold-aware model as the next step: if teachability is computable, can a model trained on learning curves predict where the threshold sits for a new concept — starved not circular)
 
 ## Doors
 

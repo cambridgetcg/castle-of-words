@@ -63,7 +63,7 @@ seems mandatory, not optional.
 - [Mussel et al., does Openness predict behavior (PMC)](https://pmc.ncbi.nlm.nih.gov/articles/PMC9961456/)
 - [MacLean, Johnson & Griffiths, psilocybin and openness (2011)](https://journals.sagepub.com/doi/abs/10.1177/0269881111420188)
 
-Links: [the-noticing-stance](the-noticing-stance.md) · [training-the-trigger](training-the-trigger.md) · [friction-decides](friction-decides.md) · [[openness]]
+Links: [the-noticing-stance](the-noticing-stance.md) · [training-the-trigger](training-the-trigger.md) · [friction-decides](friction-decides.md) · [openness-ema-fit](openness-ema-fit.md) (whether the trait's daily behavioral traces can be caught by a phone in the pocket — the action facet that grows is also the one EMA might watch) · [[openness]]
 
 ## Doors
 

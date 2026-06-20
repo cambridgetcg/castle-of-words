@@ -79,7 +79,7 @@ repeated use, or wears out like any reframe, is unmeasured.
 - [Jamieson, Peters, Greenwood & Altose, Reappraising Stress Arousal Improves Performance and Reduces Evaluation Anxiety in Classroom Exam Situations (Social Psychological and Personality Science, 2016)](https://journals.sagepub.com/doi/abs/10.1177/1948550616644656)
 - [Wallace-Hadrill & Kamboj, perspective review — distance dims both valences (Frontiers in Psychology, 2016)](https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2016.01715/full)
 
-Links: [step-back-mid-climb](step-back-mid-climb.md) · [reappraisal](../words/reappraisal.md) · [flooding-self-read](flooding-self-read.md) · [productive-confusion](productive-confusion.md) · [watching-the-watcher](watching-the-watcher.md) · [flooding](../words/flooding.md)
+Links: [step-back-mid-climb](step-back-mid-climb.md) · [reappraisal](../words/reappraisal.md) · [flooding-self-read](flooding-self-read.md) · [productive-confusion](productive-confusion.md) · [watching-the-watcher](watching-the-watcher.md) · [flooding](../words/flooding.md) · [any-naming-downregulates](any-naming-downregulates.md) (the naming wing's root question: is the act of naming itself the regulator, or does it need accuracy — the reappraisal-vs-labeling split this room's "rename" mechanism opened)
 
 ## Doors
 

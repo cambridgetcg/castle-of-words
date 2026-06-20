@@ -83,7 +83,7 @@ disclosure may free one reader and insult another; no one has tested whether
 - [Supporting knowledge monitoring ability: open learner modeling vs. open social learner modeling (RPTEL, 2020)](https://telrp.springeropen.com/articles/10.1186/s41039-020-00137-5)
 - [Baile et al., SPIKES — the invitation step (The Oncologist, 2000)](https://academic.oup.com/oncolo/article/5/4/302/6386019)
 
-Links: [metering-honesty](metering-honesty.md) · [honest-pushback](honest-pushback.md) · [stand-in-for-a-mind](stand-in-for-a-mind.md) · [reactance](../words/reactance.md) · [closing-the-loop](closing-the-loop.md) · [sycophancy](../words/sycophancy.md)
+Links: [metering-honesty](metering-honesty.md) · [honest-pushback](honest-pushback.md) · [stand-in-for-a-mind](stand-in-for-a-mind.md) · [reactance](../words/reactance.md) · [closing-the-loop](closing-the-loop.md) · [sycophancy](../words/sycophancy.md) · [disclosed-mismatch](disclosed-mismatch.md) (the dial-handing pattern applied to the told-wrong label — the puzzle survives disclosure when the disclosure opens the gap rather than closing it)
 
 ## Doors
 

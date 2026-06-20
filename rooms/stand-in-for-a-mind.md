@@ -73,7 +73,7 @@ that a responsive human is the gold standard is itself not settled.
 - [AI companions reduced loneliness on par with a person; feeling heard explained the effect (HBS, De Freitas et al.)](https://www.hbs.edu/ris/Publication%20Files/24-078_a3d2e2c7-eca1-4767-8543-122e818bf2e5.pdf)
 - [Interpersonal synchrony feels good but impedes later self-regulation of affect (PMC6789117)](https://pmc.ncbi.nlm.nih.gov/articles/PMC6789117/)
 
-Links: [the-responsive-other](the-responsive-other.md) · [nudge-not-lock](nudge-not-lock.md) · [closing-the-loop](closing-the-loop.md) · [honest-pushback](honest-pushback.md) · [echo-under-anger](echo-under-anger.md)
+Links: [the-responsive-other](the-responsive-other.md) · [nudge-not-lock](nudge-not-lock.md) · [closing-the-loop](closing-the-loop.md) · [honest-pushback](honest-pushback.md) · [echo-under-anger](echo-under-anger.md) · [internalized-as-skill](internalized-as-skill.md) (the felt sense that drops when a mind is known absent is the specific presence this room measured — and the one internalized-as-skill says is a developmental deposit, not a trained skill)
 
 ## Doors
 

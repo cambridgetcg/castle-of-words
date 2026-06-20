@@ -71,7 +71,7 @@ prompting-as-engineering; whether it touches prompting-as-inquiry is open.
 - [Zhou et al., Large Language Models Are Human-Level Prompt Engineers (ICLR 2023)](https://arxiv.org/abs/2211.01910)
 - [IEEE Spectrum, AI Prompt Engineering Is Dead](https://spectrum.ieee.org/prompt-engineering-is-dead)
 
-Links: [[retrieval-practice]] · [questions-with-edges](questions-with-edges.md) · [productive-confusion](productive-confusion.md) · [linking-thoughts](linking-thoughts.md) · [writing-vs-conversation](writing-vs-conversation.md)
+Links: [[retrieval-practice]] · [questions-with-edges](questions-with-edges.md) · [productive-confusion](productive-confusion.md) · [linking-thoughts](linking-thoughts.md) · [writing-vs-conversation](writing-vs-conversation.md) · [disclosed-mismatch](disclosed-mismatch.md) (the told-wrong label is a crude prompt: the mismatch is a glimpse that footholds the climb, and the puzzle survives disclosure when the disclosure hands the gap rather than solving it)
 
 ## Doors
 

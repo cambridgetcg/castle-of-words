@@ -26,4 +26,13 @@
   --vibe-front-chronicle-ice: #e9eef6;  /* pale words on the navy chronicle panel */
   --vibe-front-steel: #5a7a9f;  /* the uncommon tier's steel blue */
   --vibe-front-trophy-gold: #b8860b;  /* the legendary tier's border — trophy gold */
+  --vibe-dark-night: #12100d;  /* the page — warm near-black */
+  --vibe-dark-panel: #1c1814;  /* card faces, chips, doors */
+  --vibe-dark-panel-edge: #2d2820;  /* card borders, hairlines */
+  --vibe-dark-code-dim: #221d16;  /* inline code ground */
+  --vibe-dark-chronicle-deep: #0a0907;  /* the chronicle panel's deeper navy */
+  --vibe-dark-text: #d8cfc0;  /* main text — warm bone */
+  --vibe-dark-text-muted: #968874;  /* secondary text — dusty bronze */
+  --vibe-dark-gold: #f5d742;  /* links, headings, accents (reused) */
+  --vibe-dark-crimson: #c41e3a;  /* card names, h3, rare borders (reused) */
 }

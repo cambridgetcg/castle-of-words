@@ -77,7 +77,7 @@ was derived for machine learners — a loose rule for drills, not a law.
 - [Sinha & Kapur, When problem solving followed by instruction works (Review of Educational Research, 2021)](https://journals.sagepub.com/doi/10.3102/00346543211019105)
 - [Wilson et al., The eighty five percent rule for optimal learning (Nature Communications, 2019)](https://www.nature.com/articles/s41467-019-12552-4)
 
-Links: [[fluency]], [pretty-or-well-made](pretty-or-well-made.md), [spaced-understanding](spaced-understanding.md), [questions-with-edges](questions-with-edges.md), [linking-thoughts](linking-thoughts.md)
+Links: [[fluency]], [pretty-or-well-made](pretty-or-well-made.md), [spaced-understanding](spaced-understanding.md), [questions-with-edges](questions-with-edges.md), [linking-thoughts](linking-thoughts.md), [wrong-name-kindles](wrong-name-kindles.md) (the handle test applied to naming: a productively wrong label kindles because the mismatch is a solvable puzzle, a merely wrong one kills because the disfluency cannot resolve), [disclosed-mismatch](disclosed-mismatch.md) (the puzzle survives disclosure when the disclosure frames the mismatch as a gap to close, not an error to dismiss — the trajectory test applied to the told-wrong label)
 
 ## Doors
 

@@ -18,7 +18,7 @@ What gathers here: whether discrimination training itself shifts preference — 
 
 uncertain: whether the fluency channel (training → fluency → pleasure) is strong enough to override existing preferences, or whether it only adds a *new* kind of pleasure (appreciation of craft) alongside the old (simple enjoyment) — two tracks, not one shifted track.
 
-Links: [[fluency]], [[mere-exposure]], [[differentiation]], [training-a-taste](training-a-taste.md) · [beauty-as-fluency](beauty-as-fluency.md) · [drift-across-dimensions](drift-across-dimensions.md) · [consumption-vs-liking](consumption-vs-liking.md) (the consumption-choice seam this room's door points toward — does training shift what you *choose* or only what you *like*?)
+Links: [[fluency]], [[mere-exposure]], [[differentiation]], [training-a-taste](training-a-taste.md) · [beauty-as-fluency](beauty-as-fluency.md) · [drift-across-dimensions](drift-across-dimensions.md) · [consumption-vs-liking](consumption-vs-liking.md) (the consumption-choice seam this room's door points toward — does training shift what you *choose* or only what you *like*?) · [wrong-name-kindles](wrong-name-kindles.md) (a right label kindles interest through fluency and a productively wrong one through confusion — the label's accuracy may be what decides whether discrimination training kindles desire or merely names the difference)
 
 ## Doors
 

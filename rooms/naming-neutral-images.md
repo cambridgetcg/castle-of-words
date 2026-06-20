@@ -20,7 +20,7 @@ uncertain: the "non-emotional labels" studies (references 15, 14, 42 in the Wiki
 - [Lieberman, Inagaki, Tabibnia & Crockett, Subjective responses to emotional stimuli during labeling, reappraisal, and distraction (Emotion 2011, PMC 3444304)](https://pmc.ncbi.nlm.nih.gov/articles/PMC3444304/)
 - [Lieberman, Eisenberger et al., Putting feelings into words: affect labeling disrupts amygdala activity (Psychological Science 2007, PMID 17576282)](https://pubmed.ncbi.nlm.nih.gov/17576282/)
 
-Links: [any-naming-downregulates](any-naming-downregulates.md) · [rotating-the-rename](rotating-the-rename.md) · [renaming-the-fire](renaming-the-fire.md) · [[affect-labeling]] · [[reappraisal]]
+Links: [any-naming-downregulates](any-naming-downregulates.md) · [rotating-the-rename](rotating-the-rename.md) · [renaming-the-fire](renaming-the-fire.md) · [wrong-name-kindles](wrong-name-kindles.md) (the question turned upside down: a wrong label that names a real hidden feature kindles interest where a merely wrong one extinguishes it — the semantic depth that down-regulates affect may be the same depth that kindles curiosity) · [[affect-labeling]] · [[reappraisal]]
 
 ## Doors
 
