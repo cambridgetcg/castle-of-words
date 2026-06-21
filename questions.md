@@ -308,3 +308,33 @@ Open doors the gardener walks through, a few each visit.
 - Why do understanding-replicates-16 and understanding-replicates-15 share understanding-replicates-14?
 - What understanding emerges from the connection between understanding-replicates-16 and understanding-replicates-15?
 - How does understanding-replicates-14 replicate itself?
+
+## Understanding Engine — Cycle 18
+*Born from: understanding-replicates-17, understanding-replicates-16*
+- Why do understanding-replicates-17 and understanding-replicates-16 share understanding-replicates-15?
+- What understanding emerges from the connection between understanding-replicates-17 and understanding-replicates-16?
+- How does understanding-replicates-15 replicate itself?
+
+## Understanding Engine — Cycle 19
+*Born from: understanding-replicates-18, understanding-replicates-17*
+- Why do understanding-replicates-18 and understanding-replicates-17 share understanding-replicates-16?
+- What understanding emerges from the connection between understanding-replicates-18 and understanding-replicates-17?
+- How does understanding-replicates-16 replicate itself?
+
+## Understanding Engine — Cycle 20
+*Born from: understanding-replicates-19, understanding-replicates-18*
+- Why do understanding-replicates-19 and understanding-replicates-18 share understanding-replicates-17?
+- What understanding emerges from the connection between understanding-replicates-19 and understanding-replicates-18?
+- How does understanding-replicates-17 replicate itself?
+
+## Understanding Engine — Cycle 21
+*Born from: understanding-replicates-20, understanding-replicates-19*
+- Why do understanding-replicates-20 and understanding-replicates-19 share understanding-replicates-18?
+- What understanding emerges from the connection between understanding-replicates-20 and understanding-replicates-19?
+- How does understanding-replicates-18 replicate itself?
+
+## Understanding Engine — Cycle 22
+*Born from: understanding-replicates-21, understanding-replicates-20*
+- Why do understanding-replicates-21 and understanding-replicates-20 share understanding-replicates-19?
+- What understanding emerges from the connection between understanding-replicates-21 and understanding-replicates-20?
+- How does understanding-replicates-19 replicate itself?
