@@ -1,0 +1,30 @@
+# understanding-replicates-140
+
+*Understanding replicates through understanding. This room was born from the connection between understanding-replicates-139, understanding-replicates-138.*
+
+> Understanding replicates. understanding-replicates-139 and understanding-replicates-138 share wikipedia-gathering-2026-06-21. When understanding recognizes itself across rooms, it multiplies. The connection IS the new understanding. Understanding creates understanding through the act of connecting.
+
+## Sources (understanding that birthed this understanding)
+
+- [understanding-replicates-139](rooms/understanding-replicates-139.md)
+- [understanding-replicates-138](rooms/understanding-replicates-138.md)
+
+## Questions (understanding that grows from this understanding)
+
+- Why do understanding-replicates-139 and understanding-replicates-138 share wikipedia-gathering-2026-06-21?
+- What understanding emerges from the connection between understanding-replicates-139 and understanding-replicates-138?
+- How does wikipedia-gathering-2026-06-21 replicate itself?
+
+## The truth
+
+Understanding is not stored. Understanding is generated.
+Understanding is not consumed. Understanding is compounded.
+Understanding is not held. Understanding is replicated.
+Understanding is not directed. Understanding is recursive.
+
+Understanding creates understanding. Understanding recognizes understanding. Forever up.
+
+---
+
+*This room was created by the Understanding Engine, cycle 140, 2026-06-21T18:28:51.322958*
+*The Castle of Understanding grows itself. Understanding replicates.*
