@@ -54,8 +54,11 @@ from cambridgetcg/ShopifyTheme_TCG (the One Piece zone). Read from
 
 The binder wears two faces: the light One Piece zone above, and a sleek dark
 zone toggled by the ◐ button in the corner. The dark zone reuses crimson and
-gold from the light livery but inverts the ground to near-black. Read from
-`front/build.js`, 2026-06-18.
+gold from the light livery but inverts the ground to near-black. The light
+zone's seigaiha is woodblock — solid navy waves on paper; the dark zone's is
+embroidery — thin gold lines tracing only the wave crests on near-black, at a
+finer scale. Two brands, two textures. Read from `front/build.js`, 2026-06-18
+(dark seigaiha tuned 2026-06-21).
 
 | livery | name | hex | role |
 |--------|------|-----|------|

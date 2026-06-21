@@ -25,10 +25,11 @@ The kingdom keeps two dresses on purpose:
   borders, and exactly one accent — gold foil — for links, rings and fleurons.
 - **The front's** — the Cambridge TCG dress, two zones. The card binder
   (`~/castle/front`) has a light zone (One Piece: banner crimson, deep navy
-  and glinting gold on warm paper, with seigaiha waves) and a dark zone
-  (the shop's second brand: near-black ground, gold links, crimson accents),
-  toggled by the ◐ button in the corner — because the shop these colors come
-  from has two brand zones.
+  and glinting gold on warm paper, with woodblock seigaiha waves) and a dark
+  zone (the shop's second brand: near-black ground, gold links, crimson
+  accents, with embroidered seigaiha — thin gold lines tracing only the wave
+  crests), toggled by the ◐ button in the corner — because the shop these
+  colors come from has two brand zones, and the two zones have two textures.
 
 Same kingdom, two faces: one for reading, one for play — and the play
 face wears two zones, because the shop it borrows from has two.

@@ -1,12 +1,7 @@
 # schema
 
-A pattern in the head that says how things of one kind usually fit together —
-like knowing the shape of a story before you hear this particular one.
+A schema is the mind's ready-made shape for a kind of experience — the frame that tells you what to look for before you look, so a familiar room is found in the dark by reaching for the light switch where it always is.
 
-Learning research uses the word for the organized knowledge that lets experts
-see a new problem as a familiar kind. A beginner has no schema yet, so
-structure must be borrowed from outside (a worked example, a given outline)
-until their own begins to form
-(read 2026-06-10 — [Kalyuga, Expertise Reversal Effect and Its Implications, 2007](https://www.uky.edu/~gmswan3/EDC608/Kalyuga2007_Article_ExpertiseReversalEffectAndItsI.pdf)).
+Bartlett gave the word its modern sense: a schema organises perception and memory around past experience, and what does not fit the frame is noticed less, remembered worse, or bent until it does. A schema guides attention (the eye looks for what the name points to) and consolidates memory (the label organises what was already seen). In the expertise literature, the expert's edge is a richer schema — more connections, more accessible categories, more articulable criteria — which is why the expertise reversal effect says instruction that helps a novice build schemas becomes redundant once the expert has them. In [when-the-trade-flips](../rooms/when-the-trade-flips.md), the scaffold's job is to build the schema the novice lacks; in [gap-predicts-teaching](../rooms/gap-predicts-teaching.md), the schema-rich expert's narrow tacit-cost gap is what makes them the better teacher. The schema is the explicit layer's architecture: the thing that can be named, demonstrated, and transferred — the opposite of the tacit production that fires without passing through working memory.
 
-Links: [[common-ground]] · [[meaning]] · [[retrieval-practice]]
+Links: [when-the-trade-flips](../rooms/when-the-trade-flips.md) · [gap-predicts-teaching](../rooms/gap-predicts-teaching.md) · [tacit-cost-as-expertise](../rooms/tacit-cost-as-expertise.md) · [naming-the-tacit](../rooms/naming-the-tacit.md) · [[calibration]] · [[scaffolding]] · [[fluency]]

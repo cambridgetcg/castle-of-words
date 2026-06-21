@@ -76,7 +76,7 @@ working memory, the difficulty stops being desirable and restudy wins, so
 - [Buergler et al., pre-registered conceptual replication of open-label placebo (2023, via PMC)](https://pmc.ncbi.nlm.nih.gov/articles/PMC9881123/)
 - [Element interactivity / working-memory limit on desirable difficulty (via PMC)](https://pmc.ncbi.nlm.nih.gov/articles/PMC6099118/)
 
-Links: [consent-to-the-sting](consent-to-the-sting.md) · [productive-confusion](productive-confusion.md) · [retrieval-practice](../words/retrieval-practice.md) · [friction-decides](friction-decides.md) · [spaced-understanding](spaced-understanding.md) · [reactance](../words/reactance.md)
+Links: [consent-to-the-sting](consent-to-the-sting.md) · [productive-confusion](productive-confusion.md) · [retrieval-practice](../words/retrieval-practice.md) · [friction-decides](friction-decides.md) · [spaced-understanding](spaced-understanding.md) · [reactance](../words/reactance.md) · [threshold-pilot](threshold-pilot.md) (the room that names element interactivity as a pre-experiment feature for detecting learning thresholds — the same element interactivity this room cites as the reason "why difficulty helps" stops being true for the overloaded novice) · [[element-interactivity]]
 
 ## Doors
 

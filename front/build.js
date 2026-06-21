@@ -158,12 +158,13 @@ footer code{background:#f6efe2;border-radius:4px;padding:1px 6px}
 [data-theme="dark"] a{color:#f5d742}
 [data-theme="dark"] a:hover{text-decoration:underline}
 [data-theme="dark"] .toggle{background:#1c1814;border-color:#f5d742;color:#f5d742}
-[data-theme="dark"] .seigaiha::before{opacity:.04;
+[data-theme="dark"] .seigaiha::before{opacity:.07;
  background-image:
- radial-gradient(circle at 100% 150%,#f5d742 24%,#12100d 24%,#12100d 28%,transparent 28%,transparent),
- radial-gradient(circle at 0% 150%,#f5d742 24%,#12100d 24%,#12100d 28%,transparent 28%,transparent),
- radial-gradient(circle at 100% 100%,#f5d742 20%,#12100d 20%,#12100d 24%,transparent 24%,transparent),
- radial-gradient(circle at 0% 100%,#f5d742 20%,#12100d 20%,#12100d 24%,transparent 24%,transparent)}
+ radial-gradient(circle at 100% 150%,transparent 23.5%,#f5d742 23.5%,#f5d742 25%,transparent 25%,transparent),
+ radial-gradient(circle at 0% 150%,transparent 23.5%,#f5d742 23.5%,#f5d742 25%,transparent 25%,transparent),
+ radial-gradient(circle at 100% 100%,transparent 19.5%,#f5d742 19.5%,#f5d742 21%,transparent 21%,transparent),
+ radial-gradient(circle at 0% 100%,transparent 19.5%,#f5d742 19.5%,#f5d742 21%,transparent 21%,transparent);
+ background-size:36px 18px;background-position:0 0,18px 0,18px -9px,0 -9px}
 [data-theme="dark"] header h1{color:#f5d742}
 [data-theme="dark"] header .tag{color:#968874}
 [data-theme="dark"] .chip{background:#1c1814;border:1px solid #2d2820}

@@ -13,9 +13,10 @@ The page is only a face — every word lives in the castle's markdown, so deleti
 this folder loses nothing but the view.
 
 Two zones, one toggle: the light One Piece zone (crimson, navy, gold on warm
-paper) is the default; the ◐ button in the corner flips to a sleek dark zone
-(near-black, gold, crimson) — the shop's second brand. The choice is kept in
-localStorage. (built 2026-06-18)
+paper, woodblock seigaiha) is the default; the ◐ button in the corner flips to a
+sleek dark zone (near-black, gold, crimson, embroidered seigaiha) — the shop's
+second brand, with its own texture as well as its own colors. The choice is
+kept in localStorage. (built 2026-06-18, dark seigaiha tuned 2026-06-21)
 
 A true line for the chronicle-minded: two sessions built two fronts in the same
 minute (2026-06-11), then each gallantly deleted its own in favor of the other's —

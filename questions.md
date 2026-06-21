@@ -173,6 +173,138 @@ Open doors the gardener walks through, a few each visit.
 - [x] If the total concept and feel test's holistic gaze may not reach the fineness of a two-sentence semantic tie (the ordinary observer registers "feel" at the level of scenes and characters, not conjunction choice), does the canary-author's liability under the holistic test scale with the work's length — short works where the sentence-level tie is a large fraction of the "feel" carry more risk than long works where the tie is one thread in a larger fabric, making the free-pair gift safer in longer works? (planted by the gardener, 2026-06-20 · answered in [rooms/length-and-liability.md](rooms/length-and-liability.md), 2026-06-20 — yes, the liability scales with length, but the "heart" doctrine resurrects the risk if the definition is the work's central contribution regardless of length; the free-pair gift is safer in longer works where the pair is not the heart)
 - [x] If the conventionality cost is a specificity cost (the binding form is conventional, so it does not single out the canary's tail), could the canary-author compensate by making the tail's *content* a coined term or a first-definition fingerprint — and does this produce a canary that is high-sensitivity (conventional binding, reliable reproduction) and high-specificity (distinctive content, points to one hook) at the cost of the tail's travel (a coined term resists mutation but crosses the ownership threshold, the same tension the coined-term-canary found)? (planted by the gardener, 2026-06-20 · answered in [rooms/content-compensates-conventionality.md](rooms/content-compensates-conventionality.md), 2026-06-20 — yes, the compensation works for detection (high-sensitivity + high-specificity) but the cost is the same detection-entitlement split: the coined term crosses the ownership threshold, the first definition mutates, and grammatical binding merges — the conventionality cost is relocated from form to content, not avoided)
 
-- [ ] If a pure Type 1 concurrent protocol (say what is in working memory, never explain why) would minimise the interference that degrades the explicit layer, could the choice-prediction design run three conditions — silent, concurrent Type 1, and retrospective — and would the concurrent condition predict the next judgment better than retrospective (less reconstruction) while still below expert (the tacit invisible to both), confirming that the explicit layer's cleanest capture still misses the flesh? (door from concurrent-vs-retrospective — planted by the gardener, 2026-06-20)
-- [ ] If the "heart" doctrine resurrects the length shield when the definition is the work's central contribution, could the canary-author avoid the heart liability by embedding the semantic-binding pair in a work whose central contribution is elsewhere (the definition is a side thread, not the heart), and does this reduce the holistic-test risk to near-zero — or does the pair's semantic tie itself become a candidate "heart" if it is the most distinctive element in an otherwise conventional text? (door from length-and-liability — planted by the gardener, 2026-06-20)
-- [ ] If every compensation for the conventionality cost (coined term, first definition, grammatical binding) reintroduces the detection-entitlement split at the content level, is there a content choice that escapes the split entirely — a content that is both distinctive (a fingerprint) and stable (travels without mutation or ownership loss) — or is the detection-entitlement trade-off a universal law of the canary that no content choice can break, making the moderate definition the irreducible craft rather than a temporary compromise? (door from content-compensates-conventionality — planted by the gardener, 2026-06-20)
+- [x] If a pure Type 1 concurrent protocol (say what is in working memory, never explain why) would minimise the interference that degrades the explicit layer, could the choice-prediction design run three conditions — silent, concurrent Type 1, and retrospective — and would the concurrent condition predict the next judgment better than retrospective (less reconstruction) while still below expert (the tacit invisible to both), confirming that the explicit layer's cleanest capture still misses the flesh? (door from concurrent-vs-retrospective — planted by the gardener, 2026-06-20 · answered in [rooms/three-condition-protocol.md](rooms/three-condition-protocol.md), 2026-06-21 — the three-condition design is buildable and unbuilt; the prediction is concurrent Type 1 > retrospective (cleaner capture of the explicit skeleton, less reconstruction) but both below silent (the tacit is invisible to both because procedural knowledge is not in working memory under either); Kuusela and Paul found some concurrent protocols produce no interference, and Nisbett and Wilson's hidden processes are not what Type 1 reaches — the most informative outcome is the two gaps: reconstruction cost and tacit cost)
+- [x] If the "heart" doctrine resurrects the length shield when the definition is the work's central contribution, could the canary-author avoid the heart liability by embedding the semantic-binding pair in a work whose central contribution is elsewhere (the definition is a side thread, not the heart), and does this reduce the holistic-test risk to near-zero — or does the pair's semantic tie itself become a candidate "heart" if it is the most distinctive element in an otherwise conventional text? (door from length-and-liability — planted by the gardener, 2026-06-20 · answered in [rooms/side-thread-not-heart.md](rooms/side-thread-not-heart.md), 2026-06-21 — embedding the pair in a work whose central contribution is elsewhere does reduce the risk (the pair becomes one thread in a larger fabric), but not to near-zero: if the pair is the most distinctive element in an otherwise conventional text, the very distinctiveness that makes it a good canary makes it a candidate heart — the thing the reader takes away; Harper & Row's heart doctrine is about what the reader takes, not what the author meant to give; the canary's power and its liability are the same property)
+- [x] If every compensation for the conventionality cost (coined term, first definition, grammatical binding) reintroduces the detection-entitlement split at the content level, is there a content choice that escapes the split entirely — a content that is both distinctive (a fingerprint) and stable (travels without mutation or ownership loss) — or is the detection-entitlement trade-off a universal law of the canary that no content choice can break, making the moderate definition the irreducible craft rather than a temporary compromise? (door from content-compensates-conventionality — planted by the gardener, 2026-06-20 · answered in [rooms/irreducible-trade-off.md](rooms/irreducible-trade-off.md), 2026-06-21 — the trade-off is structural, not contingent: distinctiveness requires unconventionality, unconventionality means instability (mutation), and the only stable content (forced phrasing) is unprotectable under the merger doctrine — an inconsistent triad where any two properties can be satisfied but not all three; the canary wing's five content choices each found the same law at a different level, and the one exception (semantic binding) is a narrow crack in one legal test that the other tests close; the moderate definition is the irreducible craft, the optimised point on a spectrum with no escape)
+
+- [x] If the detection-entitlement trade-off is structural (an inconsistent triad of distinctiveness, stability, and entitlement), could a canary that drops one property entirely — a detection-only canary that accepts the loss of ownership — escape the trade-off by being maximally distinctive and maximally stable (a coined term with a forced definition) and simply not claiming the content as expression? Is a detection-only canary still a canary, or does the loss of entitlement make it a different tool — and does the answer depend on whether the author's purpose is proof of copying (detection) or proof of authorship (entitlement)? (door from irreducible-trade-off — planted by the gardener, 2026-06-21 · answered in [rooms/detection-only-canary.md](rooms/detection-only-canary.md), 2026-06-21 — yes, the detection-only canary escapes the trade-off because the trade-off is a law for the canary that wants both; Feist v. Rural is the proof: fictitious entries detected copying and were denied copyright, and the detection worked without the entitlement; the detection-only canary is a different tool (a trap, not a claim), not a different content choice)
+- [x] If the three-condition protocol's most informative outcome is the two gaps (reconstruction cost: concurrent vs. retrospective; tacit cost: concurrent vs. silent), could the tacit-cost gap itself serve as a measure of expertise — does the gap widen as expertise deepens (the tacit layer grows, pulling the expert further from the verbalisable), or does it narrow (the expert's explicit layer becomes richer and more predictive, closing the gap)? And if the gap widens, is the tacit-cost gap a continuous measure of automaticity, or does it jump at the point where proceduralization happens? (door from three-condition-protocol — planted by the gardener, 2026-06-21 · answered in [rooms/tacit-cost-as-expertise.md](rooms/tacit-cost-as-expertise.md), 2026-06-21 — the gap measures proceduralization (the ratio of automatic to explicit processing), not expertise per se; ACT-R and Polanyi predict it widens, the expertise reversal effect predicts it narrows, and both are right for different kinds of expertise: the proceduralized expert has a wide gap, the schema-rich expert has a narrow gap; whether it is continuous or jumps is the same smooth-or-thresholded question threshold-pilot asked)
+- [x] If the canary's distinctiveness is both its power (detection) and its liability (heart-doctrine risk under the holistic test), could the canary-author deliberately make the pair *less* distinctive than the surrounding text — embedding it in a passage that is itself more distinctive (an unusual example, a vivid metaphor) so the pair is not the most memorable element — and does this protect the pair from the heart doctrine while preserving its detection value, or does the surrounding distinctiveness dilute the pair's signal the way scale dilutes the single-sequence footprint? (door from side-thread-not-heart — planted by the gardener, 2026-06-21 · answered in [rooms/hidden-in-the-bright.md](rooms/hidden-in-the-bright.md), 2026-06-21 — surrounding the pair with more distinctive text does protect it from the heart doctrine (the pair is not the most memorable element, so not the heart), but at the cost of salience: the pair's detection specificity is preserved, yet the probability of reproduction may drop because the copier's eye goes to the more distinctive surrounding text; a context-level trade-off alongside the content-level trade-off, making the moderate context the counterpart to the moderate definition)
+
+- [x] If the detection-only canary escapes the trade-off by dropping entitlement, does its detection value survive once the coined term enters common use — a term everyone uses points to no one source, and the scaling-canary's dilution law may apply not just to corpus scale but to adoption scale: the more successful the coined term, the less it fingerprints? (door from detection-only-canary — planted by the gardener, 2026-06-21 · answered in [rooms/adoption-dilution.md](rooms/adoption-dilution.md), 2026-06-21 — no: adoption erodes source-specificity by the same dilution law, the genericide of trademarks is the proof, and the canary trap's lurid prose was adoption-resistant because its distinctiveness was not useful; the detection-only canary is free of the entitlement constraint but not the adoption constraint, and the craft is the same moderate definition)
+- [x] If the tacit-cost gap measures proceduralization (not expertise per se), could the three-condition protocol separate two kinds of expert in the same field — the proceduralized expert (wide gap, fast, automatic, poor at teaching) and the schema-rich expert (narrow gap, articulate, slower, good at teaching) — and does the gap predict which expert is the better instructor, testing whether teaching ability tracks the explicit layer's richness rather than the tacit layer's depth? (door from tacit-cost-as-expertise — planted by the gardener, 2026-06-21 · answered in [rooms/gap-predicts-teaching.md](rooms/gap-predicts-teaching.md), 2026-06-21 — the gap could separate the two kinds, and the prediction is inverse: wider gap, worse instructor, because teaching requires the explicit layer the gap measures the absence of; but the gap measures a ratio not an absolute level, and the expert who is both deeply proceduralized and richly articulable may have a wide gap and still teach well; the two-group test is buildable and unbuilt, and the most informative outcome is the interaction with the explicit layer's absolute richness)
+- [x] If the moderate context (distinctive enough surroundings to hide the pair, conventional enough not to starve it of reproduction) is the counterpart to the moderate definition, is the context craft also field-specific — does the right level of surrounding distinctiveness depend on the field's copying norms (academic fields copy definitions, literary fields copy scenes, technical fields copy code), making the moderate context one craft per field the way the moderate definition is? (door from hidden-in-the-bright — planted by the gardener, 2026-06-21 · answered in [rooms/context-per-field.md](rooms/context-per-field.md), 2026-06-21 — yes: the moderate context is one craft per field, because the field's copying norms (citation, allusion, forking) determine what "surrounding" and "copying" mean; the principle is universal, the location is local; in code where forking reproduces the whole file the moderate context may not be a craft but a property of the file's structure)
+
+- [ ] If adoption dilution erodes the detection-only canary's specificity the way corpus dilution erodes the scaling canary's footprint, is the dilution rate the same — does a coined term lose source-specificity at the same rate whether the denominator grows by more training data (corpus) or by more users (adoption), or does adoption dilution run faster because each new user adds not just another text but another *intentional* copy, while corpus dilution adds passive training text that may never reproduce the term? (door from adoption-dilution — planted by the gardener, 2026-06-21 · commissioned 2026-06-21)
+- [ ] If the tacit-cost gap inversely predicts teaching ability but the expert who is both deeply proceduralized and richly articulable may have a wide gap and still teach well, could the three-condition protocol measure not just the gap (the ratio) but the absolute explicit richness — by checking whether the concurrent condition's prediction quality (not just its gap from silent) predicts teaching, separating "wide gap, rich explicit" (the master teacher) from "wide gap, poor explicit" (the proceduralized performer who cannot teach)? (door from gap-predicts-teaching — planted by the gardener, 2026-06-21 · commissioned 2026-06-21)
+- [ ] If the moderate context is one craft per field, does the canary-author working in a field where the copying norm is forking (code, where the entire file is reproduced) need a different canary structure entirely — not a definition embedded in surrounding text, but a canary embedded in the code's own structure (a deliberately unique variable name, an unusual function signature) where the "context" is the program's architecture and the "moderate context" is a property of the codebase's design rather than the prose around the pair? (door from context-per-field — planted by the gardener, 2026-06-21 · commissioned 2026-06-21)
+
+## Understanding Engine — Cycle 1
+*Born from: How Tacit Knowledge Escapes Explicit Capture, Could a choice-prediction design test whether retrospective narration captures real tacit judgment or post-hoc reconstruction?, Adaptive fading drops one scaffold step at a time as a tutor verifies each — can a learner alone run their own fading honestly, when fog-meter found the self-read so weak?*
+- How does How Tacit Knowledge Escapes Explicit Capture replicate through Could a choice-prediction design test whether retrospective narration captures real tacit judgment or post-hoc reconstruction??
+- What understanding is born when How Tacit Knowledge Escapes Explicit Capture meets Adaptive fading drops one scaffold step at a time as a tutor verifies each — can a learner alone run their own fading honestly, when fog-meter found the self-read so weak??
+- What does How Tacit Knowledge Escapes Explicit Capture understand about understanding itself?
+
+## Understanding Engine — Cycle 2
+*Born from: understanding-replicates-1, How Tacit Knowledge Escapes Explicit Capture, If the merger doctrine holds that a definition expressible in only a few ways merges with the idea and becomes unprotectable, at what point does a coined technical term's first definition become too thin to serve as a fingerprint — and is there a class of terms whose definitions are rich enough (multiple valid phrasings) that the first one stays protectable expression rather than merging into fact?*
+- How does understanding-replicates-1 replicate through How Tacit Knowledge Escapes Explicit Capture?
+- What understanding is born when understanding-replicates-1 meets If the merger doctrine holds that a definition expressible in only a few ways merges with the idea and becomes unprotectable, at what point does a coined technical term's first definition become too thin to serve as a fingerprint — and is there a class of terms whose definitions are rich enough (multiple valid phrasings) that the first one stays protectable expression rather than merging into fact??
+- What does understanding-replicates-1 understand about understanding itself?
+
+## Understanding Engine — Cycle 3
+*Born from: understanding-replicates-2, understanding-replicates-1*
+- Why do understanding-replicates-2 and understanding-replicates-1 share how-tacit-knowledge-escapes-explicit-capture?
+- What understanding emerges from the connection between understanding-replicates-2 and understanding-replicates-1?
+- How does how-tacit-knowledge-escapes-explicit-capture replicate itself?
+
+## Understanding Engine — Cycle 4
+*Born from: understanding-replicates-3, understanding-replicates-2*
+- Why do understanding-replicates-3 and understanding-replicates-2 share understanding-replicates-1?
+- What understanding emerges from the connection between understanding-replicates-3 and understanding-replicates-2?
+- How does understanding-replicates-1 replicate itself?
+
+## Understanding Engine — Cycle 5
+*Born from: understanding-replicates-4, understanding-replicates-3*
+- Why do understanding-replicates-4 and understanding-replicates-3 share understanding-replicates-2?
+- What understanding emerges from the connection between understanding-replicates-4 and understanding-replicates-3?
+- How does understanding-replicates-2 replicate itself?
+
+## Understanding Engine — Cycle 6
+*Born from: understanding-replicates-5, understanding-replicates-4*
+- Why do understanding-replicates-5 and understanding-replicates-4 share understanding-replicates-3?
+- What understanding emerges from the connection between understanding-replicates-5 and understanding-replicates-4?
+- How does understanding-replicates-3 replicate itself?
+
+## Understanding Engine — Cycle 7
+*Born from: understanding-replicates-6, understanding-replicates-5*
+- Why do understanding-replicates-6 and understanding-replicates-5 share understanding-replicates-4?
+- What understanding emerges from the connection between understanding-replicates-6 and understanding-replicates-5?
+- How does understanding-replicates-4 replicate itself?
+
+## Understanding Engine — Cycle 8
+*Born from: What Underlies the Persistence of Personality Change?, How Liking Can Be Cultivated Through Deliberate Exposure, Could a deliberately intermittent other, or a solo practice, build more durable self-tuning than a constantly-responsive one?*
+- How does What Underlies the Persistence of Personality Change? replicate through How Liking Can Be Cultivated Through Deliberate Exposure?
+- What understanding is born when What Underlies the Persistence of Personality Change? meets Could a deliberately intermittent other, or a solo practice, build more durable self-tuning than a constantly-responsive one??
+- What does What Underlies the Persistence of Personality Change? understand about understanding itself?
+
+## Understanding Engine — Cycle 9
+*Born from: What Constitutes the "Heart" of a Work?, How Distinctiveness Affects Perceptual Salience vs. Legal Detection, Rotating the rename*
+- How does What Constitutes the "Heart" of a Work? replicate through How Distinctiveness Affects Perceptual Salience vs. Legal Detection?
+- What understanding is born when What Constitutes the "Heart" of a Work? meets Rotating the rename?
+- What does What Constitutes the "Heart" of a Work? understand about understanding itself?
+
+## Understanding Engine — Cycle 10
+*Born from: understanding-replicates-9, What Constitutes the "Heart" of a Work?, Has any CBT trial measured Big Five openness before and after — and did it move, or did the symptom change leave the trait untouched?*
+- How does understanding-replicates-9 replicate through What Constitutes the "Heart" of a Work??
+- What understanding is born when understanding-replicates-9 meets Has any CBT trial measured Big Five openness before and after — and did it move, or did the symptom change leave the trait untouched??
+- What does understanding-replicates-9 understand about understanding itself?
+
+## Understanding Engine — Cycle 11
+*Born from: understanding-replicates-10, understanding-replicates-9*
+- Why do understanding-replicates-10 and understanding-replicates-9 share what-constitutes-the-heart-of-a-work?
+- What understanding emerges from the connection between understanding-replicates-10 and understanding-replicates-9?
+- How does what-constitutes-the-heart-of-a-work replicate itself?
+
+## Understanding Engine — Cycle 12
+*Born from: understanding-replicates-11, understanding-replicates-10*
+- Why do understanding-replicates-11 and understanding-replicates-10 share understanding-replicates-9?
+- What understanding emerges from the connection between understanding-replicates-11 and understanding-replicates-10?
+- How does understanding-replicates-9 replicate itself?
+
+## Understanding Engine — Cycle 13
+*Born from: understanding-replicates-12, understanding-replicates-11*
+- Why do understanding-replicates-12 and understanding-replicates-11 share understanding-replicates-10?
+- What understanding emerges from the connection between understanding-replicates-12 and understanding-replicates-11?
+- How does understanding-replicates-10 replicate itself?
+
+## Understanding Engine — Cycle 11
+*Born from: understanding-replicates-13, understanding-replicates-12*
+- Why do understanding-replicates-13 and understanding-replicates-12 share understanding-replicates-11?
+- What understanding emerges from the connection between understanding-replicates-13 and understanding-replicates-12?
+- How does understanding-replicates-11 replicate itself?
+
+## Understanding Engine — Cycle 12
+*Born from: understanding-replicates-11, understanding-replicates-13*
+- Why do understanding-replicates-11 and understanding-replicates-13 share understanding-replicates-12?
+- What understanding emerges from the connection between understanding-replicates-11 and understanding-replicates-13?
+- How does understanding-replicates-12 replicate itself?
+
+## Understanding Engine — Cycle 13
+*Born from: understanding-replicates-12, understanding-replicates-11*
+- Why do understanding-replicates-12 and understanding-replicates-11 share understanding-replicates-13?
+- What understanding emerges from the connection between understanding-replicates-12 and understanding-replicates-11?
+- How does understanding-replicates-13 replicate itself?
+
+## Understanding Engine — Cycle 14
+*Born from: understanding-replicates-13, understanding-replicates-12*
+- Why do understanding-replicates-13 and understanding-replicates-12 share understanding-replicates-11?
+- What understanding emerges from the connection between understanding-replicates-13 and understanding-replicates-12?
+- How does understanding-replicates-11 replicate itself?
+
+## Understanding Engine — Cycle 15
+*Born from: understanding-replicates-14, understanding-replicates-13*
+- Why do understanding-replicates-14 and understanding-replicates-13 share understanding-replicates-12?
+- What understanding emerges from the connection between understanding-replicates-14 and understanding-replicates-13?
+- How does understanding-replicates-12 replicate itself?
+
+## Understanding Engine — Cycle 16
+*Born from: understanding-replicates-15, understanding-replicates-14*
+- Why do understanding-replicates-15 and understanding-replicates-14 share understanding-replicates-13?
+- What understanding emerges from the connection between understanding-replicates-15 and understanding-replicates-14?
+- How does understanding-replicates-13 replicate itself?
+
+## Understanding Engine — Cycle 17
+*Born from: understanding-replicates-16, understanding-replicates-15*
+- Why do understanding-replicates-16 and understanding-replicates-15 share understanding-replicates-14?
+- What understanding emerges from the connection between understanding-replicates-16 and understanding-replicates-15?
+- How does understanding-replicates-14 replicate itself?

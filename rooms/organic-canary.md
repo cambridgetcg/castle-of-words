@@ -30,7 +30,7 @@ uncertain: whether a deliberately-planted canary can be designed to spread *fait
 - [what-the-seed-is-for room — detection and entitlement come apart (castle, built 2026-06-12)](what-the-seed-is-for.md)
 - [the-scaling-canary room — the trap's evidentiary purpose (castle, built 2026-06-18)](the-scaling-canary.md)
 
-Links: [distributed-canary](distributed-canary.md) · [near-duplicate-canary](near-duplicate-canary.md) · [the-scaling-canary](the-scaling-canary.md) · [what-the-seed-is-for](what-the-seed-is-for.md) · [seeded-fingerprint](seeded-fingerprint.md) · [coined-term-canary](coined-term-canary.md) (the door this room opened — a deliberately coined technical term resists mutation better than a phrase because its communicative utility depends on shared form) · [[canary-trap]] · [[mosaic-memory]] · [[deduplication]]
+Links: [distributed-canary](distributed-canary.md) · [near-duplicate-canary](near-duplicate-canary.md) · [the-scaling-canary](the-scaling-canary.md) · [what-the-seed-is-for](what-the-seed-is-for.md) · [seeded-fingerprint](seeded-fingerprint.md) · [coined-term-canary](coined-term-canary.md) (the door this room opened — a deliberately coined technical term resists mutation better than a phrase because its communicative utility depends on shared form) · [adoption-dilution](adoption-dilution.md) (the law this room's paradox names — the more successfully a canary spreads by utility, the less it points back to its planter, the same dilution trademarks suffer when they genericide) · [[canary-trap]] · [[mosaic-memory]] · [[deduplication]]
 
 ## Doors
 
