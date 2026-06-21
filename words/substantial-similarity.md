@@ -1,0 +1,9 @@
+# substantial-similarity
+
+When a court asks whether one work copied enough of another to count as infringement, it asks whether the two are *substantially similar* — and the word "substantial" does double duty: a large enough quantity, or a central enough quality (the "heart of the work"), either one can suffice even if the portion copied was small.
+
+The test splits in two: an **extrinsic** half (analytic dissection — experts dissect ideas from expression, decided as a matter of law) and an **intrinsic** half (the ordinary observer's "feel" — does the work as a whole feel copied? no expert testimony, jury decides). The two halves answer the same question differently: the extrinsic test counts phrasings and recognises grammatical independence; the intrinsic test sees the work whole and may register a semantic tie as part of the "feel" even when the merger doctrine says the pair is free. Learned Hand called the line between idea and expression "inevitably ad hoc" — and the two-stage test is the law's honest admission that the line is drawn differently depending on which eye is looking.
+
+The intrinsic test has been criticised for extending copyright into ideas (protecting the "feel" of a logical relation, not just expression), and the Ninth Circuit partially rescued the distinction by expanding the extrinsic test to include analysis of expression, not just ideas. But the rescue is partial and circuit-specific: the canary-author's free-pair gift (semantic binding, high detection, no entitlement cost under the merger doctrine) is safe under the merger doctrine but not guaranteed under the total concept and feel test.
+
+Links: [[merger-doctrine]] · [[idea-expression-divide]] · [[canary-trap]] · [[cohesion]] · [[sensitivity-and-specificity]] · [[detection-entitlement]]

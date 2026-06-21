@@ -1,0 +1,9 @@
+# heart-doctrine
+
+Even a small portion of a work can be the "heart" — the passage the reader takes away, the thing most worth copying — and the heart is what copyright protects regardless of how small the fraction is.
+
+In Harper & Row v. Nation Enterprises (1985), the Supreme Court found that The Nation's use of approximately 300 words from Gerald Ford's memoir was not fair use because those 300 words constituted the "heart of the work": the most important passage, the one the publisher had paid to be first to publish. The amount-and-substantiality factor weighed against fair use not because the portion was large but because it was central. The heart doctrine means the canary-author's distinctiveness is both a power and a liability: the more distinctive the pair (the better the canary), the more it stands out as a candidate heart — the thing the ordinary observer remembers, quotes, and carries — and what stands out is what the holistic test reads as the heart regardless of the author's central contribution.
+
+The canary wing traced the heart-doctrine risk through three faces: embedding the pair in a longer work reduces the risk (the pair is one thread in a larger fabric), surrounding it with more distinctive text hides it from the heart (but dilutes its reproduction probability), and the moderate context is the counterpart to the moderate definition — distinctive enough surroundings to hide the pair, conventional enough not to starve it of reproduction.
+
+Links: [[substantial-similarity]] · [[merger-doctrine]] · [[idea-expression-divide]] · [[canary-trap]] · [[detection-entitlement]] · [[sensitivity-and-specificity]]

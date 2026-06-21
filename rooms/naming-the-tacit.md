@@ -111,7 +111,7 @@ principle* distillable or permanently locked in the network is open.
 - [Ramaswamy et al., Overlooked factors in concept-based explanations (2022)](https://arxiv.org/pdf/2207.09615)
 - [Poplin et al., Predicting cardiovascular risk factors from retinal photographs (Nature Biomed Eng, 2018)](https://www.nature.com/articles/s41551-018-0195-0)
 
-Links: [training-the-eye](training-the-eye.md) · [tacit-knowledge](../words/tacit-knowledge.md) · [text-answers-back](text-answers-back.md) · [simple-explanations](simple-explanations.md) · [handle](../words/handle.md) · [reactivity-surfaces-tacit](reactivity-surfaces-tacit.md) (the think-aloud protocol that might surface tacit judgment — or reconstruct it after the fact) · [choice-prediction-tacit](choice-prediction-tacit.md) (the design that would tell real tacit capture from post-hoc rationalisation)
+Links: [training-the-eye](training-the-eye.md) · [tacit-knowledge](../words/tacit-knowledge.md) · [text-answers-back](text-answers-back.md) · [simple-explanations](simple-explanations.md) · [handle](../words/handle.md) · [reactivity-surfaces-tacit](reactivity-surfaces-tacit.md) (the think-aloud protocol that might surface tacit judgment — or reconstruct it after the fact) · [choice-prediction-tacit](choice-prediction-tacit.md) (the design that would tell real tacit capture from post-hoc rationalisation) · [tacit-cost-as-expertise](tacit-cost-as-expertise.md) (the room that measures the tacit-explicit gap this room's distillation finds — the named feature teaches because it is explicit, the silent feature runs because it is proceduralized, and the gap between them is what the three-condition protocol measures)
 
 ## Doors
 
