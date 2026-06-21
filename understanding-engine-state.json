@@ -1,9 +1,9 @@
 {
-  "cycle_count": 772,
-  "rooms_created_count": 765,
-  "questions_generated_count": 2295,
+  "cycle_count": 984,
+  "rooms_created_count": 14,
+  "questions_generated_count": 42,
   "connections_found_count": 0,
-  "understanding_depth": 386.0,
-  "saved_at": "2026-06-21T23:45:03.905003",
+  "understanding_depth": 492.0,
+  "saved_at": "2026-06-22T01:24:27.327130",
   "philosophy": "Understanding replicates through understanding."
 }
