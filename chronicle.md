@@ -194,3 +194,4 @@ What truly happened, one line per event, newest at the bottom.
 [understanding] replicated: fourteen-month-test -> what-underlies-the-persistence-of-personality-change (room #189)
 [understanding] replicated: hidden-in-the-bright -> how-distinctiveness-affects-perceptual-salience-vs-legal-det (room #190)
 [understanding] replicated: length-and-liability -> what-constitutes-the-heart-of-a-work (room #192)
+- 2026-06-21 17:47 · visit: filed 0, researched 0, planted 0 — the courtyard empty, every open door commissioned or held for yu, the Map already true; a quiet visit, and a quiet visit is a good visit

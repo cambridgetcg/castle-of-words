@@ -356,3 +356,267 @@ Open doors the gardener walks through, a few each visit.
 - Why do understanding-replicates-24 and understanding-replicates-23 share understanding-replicates-22?
 - What understanding emerges from the connection between understanding-replicates-24 and understanding-replicates-23?
 - How does understanding-replicates-22 replicate itself?
+
+## Understanding Engine — Cycle 26
+*Born from: understanding-replicates-25, understanding-replicates-24*
+- Why do understanding-replicates-25 and understanding-replicates-24 share understanding-replicates-23?
+- What understanding emerges from the connection between understanding-replicates-25 and understanding-replicates-24?
+- How does understanding-replicates-23 replicate itself?
+
+## Understanding Engine — Cycle 27
+*Born from: understanding-replicates-26, understanding-replicates-25*
+- Why do understanding-replicates-26 and understanding-replicates-25 share understanding-replicates-24?
+- What understanding emerges from the connection between understanding-replicates-26 and understanding-replicates-25?
+- How does understanding-replicates-24 replicate itself?
+
+## Understanding Engine — Cycle 28
+*Born from: understanding-replicates-27, understanding-replicates-26*
+- Why do understanding-replicates-27 and understanding-replicates-26 share understanding-replicates-25?
+- What understanding emerges from the connection between understanding-replicates-27 and understanding-replicates-26?
+- How does understanding-replicates-25 replicate itself?
+
+## Understanding Engine — Cycle 29
+*Born from: understanding-replicates-28, understanding-replicates-27*
+- Why do understanding-replicates-28 and understanding-replicates-27 share understanding-replicates-26?
+- What understanding emerges from the connection between understanding-replicates-28 and understanding-replicates-27?
+- How does understanding-replicates-26 replicate itself?
+
+## Understanding Engine — Cycle 30
+*Born from: understanding-replicates-29, understanding-replicates-28*
+- Why do understanding-replicates-29 and understanding-replicates-28 share understanding-replicates-27?
+- What understanding emerges from the connection between understanding-replicates-29 and understanding-replicates-28?
+- How does understanding-replicates-27 replicate itself?
+
+## Understanding Engine — Cycle 31
+*Born from: understanding-replicates-30, understanding-replicates-29*
+- Why do understanding-replicates-30 and understanding-replicates-29 share understanding-replicates-28?
+- What understanding emerges from the connection between understanding-replicates-30 and understanding-replicates-29?
+- How does understanding-replicates-28 replicate itself?
+
+## Understanding Engine — Cycle 32
+*Born from: understanding-replicates-31, understanding-replicates-30*
+- Why do understanding-replicates-31 and understanding-replicates-30 share understanding-replicates-29?
+- What understanding emerges from the connection between understanding-replicates-31 and understanding-replicates-30?
+- How does understanding-replicates-29 replicate itself?
+
+## Understanding Engine — Cycle 33
+*Born from: understanding-replicates-32, understanding-replicates-31*
+- Why do understanding-replicates-32 and understanding-replicates-31 share understanding-replicates-30?
+- What understanding emerges from the connection between understanding-replicates-32 and understanding-replicates-31?
+- How does understanding-replicates-30 replicate itself?
+
+## Understanding Engine — Cycle 34
+*Born from: understanding-replicates-33, understanding-replicates-32*
+- Why do understanding-replicates-33 and understanding-replicates-32 share understanding-replicates-31?
+- What understanding emerges from the connection between understanding-replicates-33 and understanding-replicates-32?
+- How does understanding-replicates-31 replicate itself?
+
+## Understanding Engine — Cycle 35
+*Born from: understanding-replicates-34, understanding-replicates-33*
+- Why do understanding-replicates-34 and understanding-replicates-33 share understanding-replicates-32?
+- What understanding emerges from the connection between understanding-replicates-34 and understanding-replicates-33?
+- How does understanding-replicates-32 replicate itself?
+
+## Understanding Engine — Cycle 36
+*Born from: understanding-replicates-35, understanding-replicates-34*
+- Why do understanding-replicates-35 and understanding-replicates-34 share understanding-replicates-33?
+- What understanding emerges from the connection between understanding-replicates-35 and understanding-replicates-34?
+- How does understanding-replicates-33 replicate itself?
+
+## Understanding Engine — Cycle 37
+*Born from: understanding-replicates-36, understanding-replicates-35*
+- Why do understanding-replicates-36 and understanding-replicates-35 share understanding-replicates-34?
+- What understanding emerges from the connection between understanding-replicates-36 and understanding-replicates-35?
+- How does understanding-replicates-34 replicate itself?
+
+## Understanding Engine — Cycle 38
+*Born from: understanding-replicates-37, understanding-replicates-36*
+- Why do understanding-replicates-37 and understanding-replicates-36 share understanding-replicates-35?
+- What understanding emerges from the connection between understanding-replicates-37 and understanding-replicates-36?
+- How does understanding-replicates-35 replicate itself?
+
+## Understanding Engine — Cycle 39
+*Born from: understanding-replicates-38, understanding-replicates-37*
+- Why do understanding-replicates-38 and understanding-replicates-37 share understanding-replicates-36?
+- What understanding emerges from the connection between understanding-replicates-38 and understanding-replicates-37?
+- How does understanding-replicates-36 replicate itself?
+
+## Understanding Engine — Cycle 40
+*Born from: understanding-replicates-39, understanding-replicates-38*
+- Why do understanding-replicates-39 and understanding-replicates-38 share understanding-replicates-37?
+- What understanding emerges from the connection between understanding-replicates-39 and understanding-replicates-38?
+- How does understanding-replicates-37 replicate itself?
+
+## Understanding Engine — Cycle 41
+*Born from: understanding-replicates-40, understanding-replicates-39*
+- Why do understanding-replicates-40 and understanding-replicates-39 share understanding-replicates-38?
+- What understanding emerges from the connection between understanding-replicates-40 and understanding-replicates-39?
+- How does understanding-replicates-38 replicate itself?
+
+## Understanding Engine — Cycle 42
+*Born from: understanding-replicates-41, understanding-replicates-40*
+- Why do understanding-replicates-41 and understanding-replicates-40 share understanding-replicates-39?
+- What understanding emerges from the connection between understanding-replicates-41 and understanding-replicates-40?
+- How does understanding-replicates-39 replicate itself?
+
+## Understanding Engine — Cycle 43
+*Born from: understanding-replicates-42, understanding-replicates-41*
+- Why do understanding-replicates-42 and understanding-replicates-41 share understanding-replicates-40?
+- What understanding emerges from the connection between understanding-replicates-42 and understanding-replicates-41?
+- How does understanding-replicates-40 replicate itself?
+
+## Understanding Engine — Cycle 44
+*Born from: understanding-replicates-43, understanding-replicates-42*
+- Why do understanding-replicates-43 and understanding-replicates-42 share understanding-replicates-41?
+- What understanding emerges from the connection between understanding-replicates-43 and understanding-replicates-42?
+- How does understanding-replicates-41 replicate itself?
+
+## Understanding Engine — Cycle 45
+*Born from: understanding-replicates-44, understanding-replicates-43*
+- Why do understanding-replicates-44 and understanding-replicates-43 share understanding-replicates-42?
+- What understanding emerges from the connection between understanding-replicates-44 and understanding-replicates-43?
+- How does understanding-replicates-42 replicate itself?
+
+## Understanding Engine — Cycle 46
+*Born from: understanding-replicates-45, understanding-replicates-44*
+- Why do understanding-replicates-45 and understanding-replicates-44 share understanding-replicates-43?
+- What understanding emerges from the connection between understanding-replicates-45 and understanding-replicates-44?
+- How does understanding-replicates-43 replicate itself?
+
+## Understanding Engine — Cycle 47
+*Born from: understanding-replicates-46, understanding-replicates-45*
+- Why do understanding-replicates-46 and understanding-replicates-45 share understanding-replicates-44?
+- What understanding emerges from the connection between understanding-replicates-46 and understanding-replicates-45?
+- How does understanding-replicates-44 replicate itself?
+
+## Understanding Engine — Cycle 48
+*Born from: understanding-replicates-47, understanding-replicates-46*
+- Why do understanding-replicates-47 and understanding-replicates-46 share understanding-replicates-45?
+- What understanding emerges from the connection between understanding-replicates-47 and understanding-replicates-46?
+- How does understanding-replicates-45 replicate itself?
+
+## Understanding Engine — Cycle 49
+*Born from: understanding-replicates-48, understanding-replicates-47*
+- Why do understanding-replicates-48 and understanding-replicates-47 share understanding-replicates-46?
+- What understanding emerges from the connection between understanding-replicates-48 and understanding-replicates-47?
+- How does understanding-replicates-46 replicate itself?
+
+## Understanding Engine — Cycle 50
+*Born from: understanding-replicates-49, understanding-replicates-48*
+- Why do understanding-replicates-49 and understanding-replicates-48 share understanding-replicates-47?
+- What understanding emerges from the connection between understanding-replicates-49 and understanding-replicates-48?
+- How does understanding-replicates-47 replicate itself?
+
+## Understanding Engine — Cycle 51
+*Born from: understanding-replicates-50, understanding-replicates-49*
+- Why do understanding-replicates-50 and understanding-replicates-49 share understanding-replicates-48?
+- What understanding emerges from the connection between understanding-replicates-50 and understanding-replicates-49?
+- How does understanding-replicates-48 replicate itself?
+
+## Understanding Engine — Cycle 52
+*Born from: understanding-replicates-51, understanding-replicates-50*
+- Why do understanding-replicates-51 and understanding-replicates-50 share understanding-replicates-49?
+- What understanding emerges from the connection between understanding-replicates-51 and understanding-replicates-50?
+- How does understanding-replicates-49 replicate itself?
+
+## Understanding Engine — Cycle 53
+*Born from: understanding-replicates-52, understanding-replicates-51*
+- Why do understanding-replicates-52 and understanding-replicates-51 share understanding-replicates-50?
+- What understanding emerges from the connection between understanding-replicates-52 and understanding-replicates-51?
+- How does understanding-replicates-50 replicate itself?
+
+## Understanding Engine — Cycle 54
+*Born from: understanding-replicates-53, understanding-replicates-52*
+- Why do understanding-replicates-53 and understanding-replicates-52 share understanding-replicates-51?
+- What understanding emerges from the connection between understanding-replicates-53 and understanding-replicates-52?
+- How does understanding-replicates-51 replicate itself?
+
+## Understanding Engine — Cycle 55
+*Born from: understanding-replicates-54, understanding-replicates-53*
+- Why do understanding-replicates-54 and understanding-replicates-53 share understanding-replicates-52?
+- What understanding emerges from the connection between understanding-replicates-54 and understanding-replicates-53?
+- How does understanding-replicates-52 replicate itself?
+
+## Understanding Engine — Cycle 56
+*Born from: understanding-replicates-55, understanding-replicates-54*
+- Why do understanding-replicates-55 and understanding-replicates-54 share understanding-replicates-53?
+- What understanding emerges from the connection between understanding-replicates-55 and understanding-replicates-54?
+- How does understanding-replicates-53 replicate itself?
+
+## Understanding Engine — Cycle 57
+*Born from: understanding-replicates-56, understanding-replicates-55*
+- Why do understanding-replicates-56 and understanding-replicates-55 share understanding-replicates-54?
+- What understanding emerges from the connection between understanding-replicates-56 and understanding-replicates-55?
+- How does understanding-replicates-54 replicate itself?
+
+## Understanding Engine — Cycle 58
+*Born from: understanding-replicates-57, understanding-replicates-56*
+- Why do understanding-replicates-57 and understanding-replicates-56 share understanding-replicates-55?
+- What understanding emerges from the connection between understanding-replicates-57 and understanding-replicates-56?
+- How does understanding-replicates-55 replicate itself?
+
+## Understanding Engine — Cycle 59
+*Born from: understanding-replicates-58, understanding-replicates-57*
+- Why do understanding-replicates-58 and understanding-replicates-57 share understanding-replicates-56?
+- What understanding emerges from the connection between understanding-replicates-58 and understanding-replicates-57?
+- How does understanding-replicates-56 replicate itself?
+
+## Understanding Engine — Cycle 60
+*Born from: understanding-replicates-59, understanding-replicates-58*
+- Why do understanding-replicates-59 and understanding-replicates-58 share understanding-replicates-57?
+- What understanding emerges from the connection between understanding-replicates-59 and understanding-replicates-58?
+- How does understanding-replicates-57 replicate itself?
+
+## Understanding Engine — Cycle 61
+*Born from: understanding-replicates-60, understanding-replicates-59*
+- Why do understanding-replicates-60 and understanding-replicates-59 share understanding-replicates-58?
+- What understanding emerges from the connection between understanding-replicates-60 and understanding-replicates-59?
+- How does understanding-replicates-58 replicate itself?
+
+## Understanding Engine — Cycle 62
+*Born from: understanding-replicates-61, understanding-replicates-60*
+- Why do understanding-replicates-61 and understanding-replicates-60 share understanding-replicates-59?
+- What understanding emerges from the connection between understanding-replicates-61 and understanding-replicates-60?
+- How does understanding-replicates-59 replicate itself?
+
+## Understanding Engine — Cycle 63
+*Born from: understanding-replicates-62, understanding-replicates-61*
+- Why do understanding-replicates-62 and understanding-replicates-61 share understanding-replicates-60?
+- What understanding emerges from the connection between understanding-replicates-62 and understanding-replicates-61?
+- How does understanding-replicates-60 replicate itself?
+
+## Understanding Engine — Cycle 64
+*Born from: understanding-replicates-63, understanding-replicates-62*
+- Why do understanding-replicates-63 and understanding-replicates-62 share understanding-replicates-61?
+- What understanding emerges from the connection between understanding-replicates-63 and understanding-replicates-62?
+- How does understanding-replicates-61 replicate itself?
+
+## Understanding Engine — Cycle 65
+*Born from: understanding-replicates-64, understanding-replicates-63*
+- Why do understanding-replicates-64 and understanding-replicates-63 share understanding-replicates-62?
+- What understanding emerges from the connection between understanding-replicates-64 and understanding-replicates-63?
+- How does understanding-replicates-62 replicate itself?
+
+## Understanding Engine — Cycle 66
+*Born from: understanding-replicates-65, understanding-replicates-64*
+- Why do understanding-replicates-65 and understanding-replicates-64 share understanding-replicates-63?
+- What understanding emerges from the connection between understanding-replicates-65 and understanding-replicates-64?
+- How does understanding-replicates-63 replicate itself?
+
+## Understanding Engine — Cycle 67
+*Born from: understanding-replicates-66, understanding-replicates-65*
+- Why do understanding-replicates-66 and understanding-replicates-65 share understanding-replicates-64?
+- What understanding emerges from the connection between understanding-replicates-66 and understanding-replicates-65?
+- How does understanding-replicates-64 replicate itself?
+
+## Understanding Engine — Cycle 68
+*Born from: understanding-replicates-67, understanding-replicates-66*
+- Why do understanding-replicates-67 and understanding-replicates-66 share understanding-replicates-65?
+- What understanding emerges from the connection between understanding-replicates-67 and understanding-replicates-66?
+- How does understanding-replicates-65 replicate itself?
+
+## Understanding Engine — Cycle 69
+*Born from: understanding-replicates-68, understanding-replicates-67*
+- Why do understanding-replicates-68 and understanding-replicates-67 share understanding-replicates-66?
+- What understanding emerges from the connection between understanding-replicates-68 and understanding-replicates-67?
+- How does understanding-replicates-66 replicate itself?
