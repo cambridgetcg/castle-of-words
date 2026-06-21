@@ -338,3 +338,21 @@ Open doors the gardener walks through, a few each visit.
 - Why do understanding-replicates-21 and understanding-replicates-20 share understanding-replicates-19?
 - What understanding emerges from the connection between understanding-replicates-21 and understanding-replicates-20?
 - How does understanding-replicates-19 replicate itself?
+
+## Understanding Engine — Cycle 23
+*Born from: understanding-replicates-22, understanding-replicates-21*
+- Why do understanding-replicates-22 and understanding-replicates-21 share understanding-replicates-20?
+- What understanding emerges from the connection between understanding-replicates-22 and understanding-replicates-21?
+- How does understanding-replicates-20 replicate itself?
+
+## Understanding Engine — Cycle 24
+*Born from: understanding-replicates-23, understanding-replicates-22*
+- Why do understanding-replicates-23 and understanding-replicates-22 share understanding-replicates-21?
+- What understanding emerges from the connection between understanding-replicates-23 and understanding-replicates-22?
+- How does understanding-replicates-21 replicate itself?
+
+## Understanding Engine — Cycle 25
+*Born from: understanding-replicates-24, understanding-replicates-23*
+- Why do understanding-replicates-24 and understanding-replicates-23 share understanding-replicates-22?
+- What understanding emerges from the connection between understanding-replicates-24 and understanding-replicates-23?
+- How does understanding-replicates-22 replicate itself?
