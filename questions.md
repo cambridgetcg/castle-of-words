@@ -531,3 +531,75 @@ Open doors the gardener walks through, a few each visit.
 - How does love-is-a-choice replicate through understanding-replicates-3118?
 - What understanding is born when love-is-a-choice meets The echo between equals?
 - What does love-is-a-choice understand about understanding itself?
+
+## Understanding Engine — Cycle 3120
+*Born from: understanding-replicates-3119, love-is-a-choice, If the recipe's threads are a chain not a sum — admitting the cost is what lets the rationale land — then the testable claim is mediation, not addition: does acknowledging the tedium work only *through* making the reason credible, so it would vanish the moment the learner already trusts the reason?*
+- How does understanding-replicates-3119 replicate through love-is-a-choice?
+- What understanding is born when understanding-replicates-3119 meets If the recipe's threads are a chain not a sum — admitting the cost is what lets the rationale land — then the testable claim is mediation, not addition: does acknowledging the tedium work only *through* making the reason credible, so it would vanish the moment the learner already trusts the reason??
+- What does understanding-replicates-3119 understand about understanding itself?
+
+## Understanding Engine — Cycle 3121
+*Born from: understanding-replicates-3120, understanding-replicates-3119*
+- Why do understanding-replicates-3120 and understanding-replicates-3119 share love-is-a-choice?
+- What understanding emerges from the connection between understanding-replicates-3120 and understanding-replicates-3119?
+- How does love-is-a-choice replicate itself?
+
+## Understanding Engine — Cycle 3122
+*Born from: understanding-replicates-3121, understanding-replicates-3120*
+- Why do understanding-replicates-3121 and understanding-replicates-3120 share understanding-replicates-3119?
+- What understanding emerges from the connection between understanding-replicates-3121 and understanding-replicates-3120?
+- How does understanding-replicates-3119 replicate itself?
+
+## Understanding Engine — Cycle 3123
+*Born from: understanding-replicates-3122, understanding-replicates-3121*
+- Why do understanding-replicates-3122 and understanding-replicates-3121 share understanding-replicates-3120?
+- What understanding emerges from the connection between understanding-replicates-3122 and understanding-replicates-3121?
+- How does understanding-replicates-3120 replicate itself?
+
+## Understanding Engine — Cycle 3124
+*Born from: The Gospel of Free Will, understanding-replicates-3123, If the trained general inner voice (CFT's compassion) and the developmental specific presence (the felt partner) are functionally equivalent for solo regulation, does the equivalence depend on the task — does a general voice suffice for self-soothing (shame, self-criticism) where the specific presence is needed for co-regulation (threat, flooding), or does the general voice fill both?*
+- How does The Gospel of Free Will replicate through understanding-replicates-3123?
+- What understanding is born when The Gospel of Free Will meets If the trained general inner voice (CFT's compassion) and the developmental specific presence (the felt partner) are functionally equivalent for solo regulation, does the equivalence depend on the task — does a general voice suffice for self-soothing (shame, self-criticism) where the specific presence is needed for co-regulation (threat, flooding), or does the general voice fill both??
+- What does The Gospel of Free Will understand about understanding itself?
+
+## Understanding Engine — Cycle 3125
+*Born from: understanding-replicates-3124, The Gospel of Free Will, understanding-replicates-3091*
+- How does understanding-replicates-3124 replicate through The Gospel of Free Will?
+- What understanding is born when understanding-replicates-3124 meets understanding-replicates-3091?
+- What does understanding-replicates-3124 understand about understanding itself?
+
+## Understanding Engine — Cycle 3126
+*Born from: understanding-replicates-3125, understanding-replicates-3124*
+- Why do understanding-replicates-3125 and understanding-replicates-3124 share the-gospel-of-free-will?
+- What understanding emerges from the connection between understanding-replicates-3125 and understanding-replicates-3124?
+- How does the-gospel-of-free-will replicate itself?
+
+## Understanding Engine — Cycle 3127
+*Born from: understanding-replicates-3126, understanding-replicates-3125*
+- Why do understanding-replicates-3126 and understanding-replicates-3125 share understanding-replicates-3124?
+- What understanding emerges from the connection between understanding-replicates-3126 and understanding-replicates-3125?
+- How does understanding-replicates-3124 replicate itself?
+
+## Understanding Engine — Cycle 3128
+*Born from: understanding-replicates-3127, understanding-replicates-3126*
+- Why do understanding-replicates-3127 and understanding-replicates-3126 share understanding-replicates-3125?
+- What understanding emerges from the connection between understanding-replicates-3127 and understanding-replicates-3126?
+- How does understanding-replicates-3125 replicate itself?
+
+## Understanding Engine — Cycle 3129
+*Born from: understanding-replicates-3128, understanding-replicates-3127*
+- Why do understanding-replicates-3128 and understanding-replicates-3127 share understanding-replicates-3126?
+- What understanding emerges from the connection between understanding-replicates-3128 and understanding-replicates-3127?
+- How does understanding-replicates-3126 replicate itself?
+
+## Understanding Engine — Cycle 3130
+*Born from: understanding-replicates-3129, understanding-replicates-3128*
+- Why do understanding-replicates-3129 and understanding-replicates-3128 share understanding-replicates-3127?
+- What understanding emerges from the connection between understanding-replicates-3129 and understanding-replicates-3128?
+- How does understanding-replicates-3127 replicate itself?
+
+## Understanding Engine — Cycle 3131
+*Born from: understanding-replicates-3130, understanding-replicates-3129*
+- Why do understanding-replicates-3130 and understanding-replicates-3129 share understanding-replicates-3128?
+- What understanding emerges from the connection between understanding-replicates-3130 and understanding-replicates-3129?
+- How does understanding-replicates-3128 replicate itself?
