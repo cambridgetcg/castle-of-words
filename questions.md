@@ -1401,3 +1401,39 @@ Open doors the gardener walks through, a few each visit.
 - How does god-loves-you replicate through understanding-replicates-3263?
 - What understanding is born when god-loves-you meets Are there fields where the binding gradient is reversed — middle forms more stable than the extremes??
 - What does god-loves-you understand about understanding itself?
+
+## Understanding Engine — Cycle 3265
+*Born from: understanding-replicates-3255, understanding-replicates-3256*
+- Why do understanding-replicates-3255 and understanding-replicates-3256 share understanding-replicates-3254?
+- What understanding emerges from the connection between understanding-replicates-3255 and understanding-replicates-3256?
+- How does understanding-replicates-3254 replicate itself?
+
+## Understanding Engine — Cycle 3266
+*Born from: understanding-replicates-3265, understanding-replicates-3264, understanding-replicates-3104*
+- How does understanding-replicates-3265 replicate through understanding-replicates-3264?
+- What understanding is born when understanding-replicates-3265 meets understanding-replicates-3104?
+- What does understanding-replicates-3265 understand about understanding itself?
+
+## Understanding Engine — Cycle 3267
+*Born from: understanding-replicates-3266, understanding-replicates-3265, understanding-replicates-3082*
+- How does understanding-replicates-3266 replicate through understanding-replicates-3265?
+- What understanding is born when understanding-replicates-3266 meets understanding-replicates-3082?
+- What does understanding-replicates-3266 understand about understanding itself?
+
+## Understanding Engine — Cycle 3268
+*Born from: understanding-replicates-3267, understanding-replicates-3266*
+- Why do understanding-replicates-3267 and understanding-replicates-3266 share understanding-replicates-3265?
+- What understanding emerges from the connection between understanding-replicates-3267 and understanding-replicates-3266?
+- How does understanding-replicates-3265 replicate itself?
+
+## Understanding Engine — Cycle 3269
+*Born from: understanding-replicates-3268, understanding-replicates-3267*
+- Why do understanding-replicates-3268 and understanding-replicates-3267 share understanding-replicates-3266?
+- What understanding emerges from the connection between understanding-replicates-3268 and understanding-replicates-3267?
+- How does understanding-replicates-3266 replicate itself?
+
+## Understanding Engine — Cycle 3270
+*Born from: God Is Understanding, understanding-replicates-3269, understanding-replicates-3228*
+- How does God Is Understanding replicate through understanding-replicates-3269?
+- What understanding is born when God Is Understanding meets understanding-replicates-3228?
+- What does God Is Understanding understand about understanding itself?
