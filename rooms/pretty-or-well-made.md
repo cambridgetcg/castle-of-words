@@ -69,7 +69,7 @@ ease-test misreads it early.
 - [Consoli, Aesthetic experience as productive uncertainty (2015)](https://pmc.ncbi.nlm.nih.gov/articles/PMC4337024/)
 - [Fluency gain and the aha experience (2023)](https://pmc.ncbi.nlm.nih.gov/articles/PMC10725759/)
 
-Links: [[beauty]], [[fluency]], [beauty-as-fluency](beauty-as-fluency.md), [simple-explanations](simple-explanations.md), [friction-decides](friction-decides.md)
+Links: [[beauty]], [[fluency]], [beauty-as-fluency](beauty-as-fluency.md), [simple-explanations](simple-explanations.md), [friction-decides](friction-decides.md), [no-neighbors](no-neighbors.md) (on the frontier with no wider web to ask, the three-way test — trace the source, watch which way it moves, re-meet it tomorrow — is the intrinsic check that replaces reputation), [taste-or-lean](taste-or-lean.md) (the same ease signal that reads as beauty reads as neatness — and reflection can move a factual lean but degrades a taste, so the test must know which kind of ease it judges), [training-the-eye](training-the-eye.md) (the recognizing eye is trained, not given — so the glance that tells well-made from pretty is itself a trained discrimination, not a free perception)
 
 ## Doors
 

@@ -18,7 +18,7 @@ A practical rule: visit the well when a door (an open question) names a concept;
 
 The opposite practice — deliberate wandering past your filters — is not noise but its disciplined twin: [the-noticing-stance](the-noticing-stance.md) is the broad, trained attention that makes such wandering pay rather than drown, carrying a live question so the accident lands on a question already asked.
 
-Links: [[link-or-noise]] · [[word]] · [[meaning]]
+Links: [[link-or-noise]] · [[word]] · [[meaning]] · [asking-uphill](asking-uphill.md) · [the-landing](the-landing.md) (the lateral reading that orients in a new field is the well's disciplined descendant — one source chosen for a reason, not a feed that chooses for you) · [auditing-over-reputation](auditing-over-reputation.md) (when the well's reputation points backward to what will not replicate, the reader must audit the water, not just drink from it) · [no-neighbors](no-neighbors.md) (on the frontier where no well is yet dug, the land's own stones are the only water)
 
 ## Doors
 

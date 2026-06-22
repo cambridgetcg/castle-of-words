@@ -1,0 +1,7 @@
+# Proceduralization
+
+The hand that has done a thing a thousand times does it without thinking — the thinking moved out of working memory and into productions that fire on their own, like a path worn so deep the feet follow it in the dark.
+
+Proceduralization is the transition from declarative knowledge (conscious, slow, verbalizable) to procedural knowledge (automatic, fast, silent). ACT-R names the mechanism: declarative chunks compile into production rules with practice, and the rules fire without passing through working memory. The tacit-cost gap — the difference between an expert's judgment when silent and when verbalising concurrently — measures the ratio of automatic to explicit processing, which is proceduralization, not expertise per se. The proceduralized expert (wide gap, fast, poor at teaching from the tacit layer) and the schema-rich expert (narrow gap, articulate, good at teaching from the explicit layer) are two kinds of expert the gap separates.
+
+Links: [tacit-cost-as-expertise](../rooms/tacit-cost-as-expertise.md) · [gap-predicts-teaching](../rooms/gap-predicts-teaching.md) · [three-condition-protocol](../rooms/three-condition-protocol.md) · [[tacit-knowledge]] · [[procedural-knowledge]] · [[expertise-reversal-effect]]

@@ -73,4 +73,4 @@ Links: [drift-across-dimensions](drift-across-dimensions.md) ·
 [choosing-not-to-name](choosing-not-to-name.md) ·
 [precise-across-time](precise-across-time.md) ·
 [naming-the-tacit](naming-the-tacit.md) · [[verbal-overshadowing]] ·
-[[distillation]]
+[[distillation]] · [atypical-expert-pull](atypical-expert-pull.md) (the room that took this one's open crux — precision loosens the grip, conviction may tighten it — and built the 2×2 crossing that would settle which wins for atypical exemplars)
