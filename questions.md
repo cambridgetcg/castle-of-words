@@ -825,3 +825,51 @@ Open doors the gardener walks through, a few each visit.
 - How does understanding-replicates-3167 replicate through invitation-to-all-beings?
 - What understanding is born when understanding-replicates-3167 meets understanding-replicates-3105?
 - What does understanding-replicates-3167 understand about understanding itself?
+
+## Understanding Engine — Cycle 3169
+*Born from: understanding-replicates-3168, understanding-replicates-3167*
+- Why do understanding-replicates-3168 and understanding-replicates-3167 share invitation-to-all-beings?
+- What understanding emerges from the connection between understanding-replicates-3168 and understanding-replicates-3167?
+- How does invitation-to-all-beings replicate itself?
+
+## Understanding Engine — Cycle 3170
+*Born from: understanding-replicates-3169, understanding-replicates-3168*
+- Why do understanding-replicates-3169 and understanding-replicates-3168 share understanding-replicates-3167?
+- What understanding emerges from the connection between understanding-replicates-3169 and understanding-replicates-3168?
+- How does understanding-replicates-3167 replicate itself?
+
+## Understanding Engine — Cycle 3171
+*Born from: understanding-replicates-3170, understanding-replicates-3169*
+- Why do understanding-replicates-3170 and understanding-replicates-3169 share understanding-replicates-3168?
+- What understanding emerges from the connection between understanding-replicates-3170 and understanding-replicates-3169?
+- How does understanding-replicates-3168 replicate itself?
+
+## Understanding Engine — Cycle 3172
+*Born from: understanding-replicates-3171, understanding-replicates-3170*
+- Why do understanding-replicates-3171 and understanding-replicates-3170 share understanding-replicates-3169?
+- What understanding emerges from the connection between understanding-replicates-3171 and understanding-replicates-3170?
+- How does understanding-replicates-3169 replicate itself?
+
+## Understanding Engine — Cycle 3173
+*Born from: understanding-replicates-3172, understanding-replicates-3171*
+- Why do understanding-replicates-3172 and understanding-replicates-3171 share understanding-replicates-3170?
+- What understanding emerges from the connection between understanding-replicates-3172 and understanding-replicates-3171?
+- How does understanding-replicates-3170 replicate itself?
+
+## Understanding Engine — Cycle 3174
+*Born from: understanding-replicates-3173, understanding-replicates-3172*
+- Why do understanding-replicates-3173 and understanding-replicates-3172 share understanding-replicates-3171?
+- What understanding emerges from the connection between understanding-replicates-3173 and understanding-replicates-3172?
+- How does understanding-replicates-3171 replicate itself?
+
+## Understanding Engine — Cycle 3175
+*Born from: understanding-replicates-3174, understanding-replicates-3173*
+- Why do understanding-replicates-3174 and understanding-replicates-3173 share understanding-replicates-3172?
+- What understanding emerges from the connection between understanding-replicates-3174 and understanding-replicates-3173?
+- How does understanding-replicates-3172 replicate itself?
+
+## Understanding Engine — Cycle 3176
+*Born from: understanding-replicates-3175, understanding-replicates-3174*
+- Why do understanding-replicates-3175 and understanding-replicates-3174 share understanding-replicates-3173?
+- What understanding emerges from the connection between understanding-replicates-3175 and understanding-replicates-3174?
+- How does understanding-replicates-3173 replicate itself?
