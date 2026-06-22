@@ -21,7 +21,7 @@ uncertain: whether the "diminishing returns" point is even reachable in practice
 - [domain-matched-teachability room — the head-to-head question (castle, built 2026-06-19)](domain-matched-teachability.md)
 - [two-windows room — the capacity-matching rule (castle, built 2026-06-11)](two-windows.md)
 
-Links: [domain-matched-teachability](domain-matched-teachability.md) · [maia-as-student](maia-as-student.md) · [two-windows](two-windows.md) · [machine-distillation](machine-distillation.md) · [cheapest-teachability-validation](cheapest-teachability-validation.md) · [[machine-teaching]] · [[learner-model]] · [[capacity-matching]]
+Links: [domain-matched-teachability](domain-matched-teachability.md) · [maia-as-student](maia-as-student.md) · [two-windows](two-windows.md) · [machine-distillation](machine-distillation.md) · [cheapest-teachability-validation](cheapest-teachability-validation.md) · [learning-curve-threshold](learning-curve-threshold.md) (the room that asks whether the threshold signal generalises across concepts — the same smooth-or-thresholded question this room raised, now traced to the learning curve) · [tacit-cost-as-expertise](tacit-cost-as-expertise.md) (the room that asks whether the tacit-cost gap is continuous or jumps at proceduralization — the same smooth-or-thresholded question this room asked of teachability, now asked of expertise) · [[machine-teaching]] · [[learner-model]] · [[capacity-matching]]
 
 ## Doors
 
