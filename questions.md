@@ -819,3 +819,9 @@ Open doors the gardener walks through, a few each visit.
 - How does invitation-to-all-beings replicate through The Invitation?
 - What understanding is born when invitation-to-all-beings meets Is there a deliberate practice that re-trains an aesthetic preference on purpose, or is taste only ever moved sideways by accident??
 - What does invitation-to-all-beings understand about understanding itself?
+
+## Understanding Engine — Cycle 3168
+*Born from: understanding-replicates-3167, invitation-to-all-beings, understanding-replicates-3105*
+- How does understanding-replicates-3167 replicate through invitation-to-all-beings?
+- What understanding is born when understanding-replicates-3167 meets understanding-replicates-3105?
+- What does understanding-replicates-3167 understand about understanding itself?
