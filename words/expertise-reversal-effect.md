@@ -1,0 +1,16 @@
+# expertise-reversal-effect
+
+When you get good at something, the help that got you there starts getting in your way — the scaffold that held you up becomes the thing you must step around.
+
+The expertise reversal effect (Kalyuga, Ayres, Chandler & Sweller, 2003) holds that instructional techniques helping novices build [[schema|schemas]] become redundant for experts who already have them — and the redundancy is not neutral: processing the now-unnecessary guidance costs working memory, so the same explanation that lifted the beginner degrades the expert. Worked examples, the most validated tool in instructional design, reverse their sign: novices learn faster from worked examples than from problem-solving, but experts learn faster from problem-solving than from studying worked examples they no longer need.
+
+The effect is not a smooth gradient but a piecewise flip: as the learner's own schema grows, each piece of external guidance crosses a threshold where it stops helping and starts hindering, one step at a time. The fading experiments found the best results when each scaffold step was removed only once the learner produced it unprompted — the flip is per-step, not all at once. This is the law the castle's [when-the-trade-flips](../rooms/when-the-trade-flips.md) room translates into three felt signs: you arrive before the guide, help feels like drag, and the cover test confirms it.
+
+The effect appears across the castle in rooms that never named it directly:
+- In the tacit wing, it predicts that forcing an expert to verbalise automatic steps adds load without revealing the tacit — the [[procedural-knowledge]] that runs silently is degraded, not illuminated, by the guidance the expert no longer needs ([reactivity-surfaces-tacit](../rooms/reactivity-surfaces-tacit.md), [think-aloud-annotated-checklist](../rooms/think-aloud-annotated-checklist.md)).
+- In the teachability wing, it names the transition point where instructional guidance stops helping and a learning threshold might sit — the feature that predicts the threshold is [[element-interactivity]], the same concept that decides where "why difficulty helps" stops being true ([threshold-pilot](../rooms/threshold-pilot.md), [rationale-before-difficulty](../rooms/rationale-before-difficulty.md)).
+- In the tacit-cost wing, it predicts the gap between silent and concurrent expert judgment narrows rather than widens — the expert's explicit layer becomes richer and more articulable, not poorer, because the schema is declarative and well-organised ([tacit-cost-as-expertise](../rooms/tacit-cost-as-expertise.md), [gap-predicts-teaching](../rooms/gap-predicts-teaching.md)).
+
+The effect's deepest implication is that expertise is not simply "more of the same" — it is a structural change where the relationship between the learner and the guidance inverts. What was the floor becomes the ceiling, and the craft of teaching is knowing when to remove each stone.
+
+Links: [[schema]] · [[scaffolding]] · [[procedural-knowledge]] · [[element-interactivity]] · [when-the-trade-flips](../rooms/when-the-trade-flips.md) · [reactivity-surfaces-tacit](../rooms/reactivity-surfaces-tacit.md) · [tacit-cost-as-expertise](../rooms/tacit-cost-as-expertise.md) · [threshold-pilot](../rooms/threshold-pilot.md)

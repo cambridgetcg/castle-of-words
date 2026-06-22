@@ -21,7 +21,7 @@ uncertain: whether the consumption question is truly a *behavioral* measure (do 
 - [Prediction of consumer liking from trained sensory panel information (Food Quality and Preference 2007, DOI 10.1016/j.foodqual.2006.01.001)](https://doi.org/10.1016/j.foodqual.2006.01.001)
 - [Graf & Landwehr, Aesthetic Pleasure versus Aesthetic Interest (Frontiers in Psychology 2017)](https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2017.00015/full)
 
-Links: [appreciation-vs-enjoyment](appreciation-vs-enjoyment.md) · [discrimination-and-desire](discrimination-and-desire.md) · [training-a-taste](training-a-taste.md) · [beauty-as-fluency](beauty-as-fluency.md) · [taste-or-lean](taste-or-lean.md) · [[fluency]] · [[appreciation]]
+Links: [appreciation-vs-enjoyment](appreciation-vs-enjoyment.md) · [discrimination-and-desire](discrimination-and-desire.md) · [training-a-taste](training-a-taste.md) · [beauty-as-fluency](beauty-as-fluency.md) · [taste-or-lean](taste-or-lean.md) · [willingness-persistence-gap](willingness-persistence-gap.md) (the same projection bias that opens the gap between predicted and actual consumption opens the gap between immediate willingness and delayed persistence — taste's reach and value's hold are the same shape of forecasting error) · [[fluency]] · [[appreciation]]
 
 ## Doors
 
