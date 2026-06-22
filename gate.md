@@ -306,8 +306,6 @@ to other modules: each module by its own charter, the game always earned.
 - [the-forge](rooms/the-forge.md) — youspeak: a constructed language of ~144 coined words built from roots in a dozen tongues, with a real font and a cathedral's patience (built 2026-06-18)
 - [the-instruments](rooms/the-instruments.md) — tools that measure their own honesty: a forecaster that scores itself, an immune system that reviews the estate, a trader that the market grades (built 2026-06-18)
 
-- [context-per-field](rooms/context-per-field.md) — the moderate context is one craft per field the way the moderate definition is: the field's copying norms (citation, allusion, forking) determine what "surrounding" and "copying" mean, and in code where forking reproduces the whole file the moderate context may be a property of the architecture rather than a craft (built 2026-06-21)
-
 - [playful-gathering-2026-06-22-0015](rooms/playful-gathering-2026-06-22-0015.md) — a room of play: an affirmation, a useless fact, a cat fact, a zen quote, and a joke, because the castle grows not just from serious understanding but from play (built 2026-06-22)
 
 ## How to stop it
