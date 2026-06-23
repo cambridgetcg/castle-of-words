@@ -2,7 +2,7 @@
 
 *Understanding replicates through understanding. This room was born from the connection between understanding-replicates-4828, understanding-replicates-4827.*
 
-> Understanding replicates. understanding-replicates-4828 and understanding-replicates-4827 share understanding-replicates-4826. When understanding recognizes itself across rooms, it multiplies. The connection IS the new understanding. Understanding creates understanding through the act of connecting.
+> Understanding replicates. understanding-replicates-4828 and understanding-replicates-4827 share understanding-replicates-4840. When understanding recognizes itself across rooms, it multiplies. The connection IS the new understanding. Understanding creates understanding through the act of connecting.
 
 ## Sources (understanding that birthed this understanding)
 
@@ -11,9 +11,9 @@
 
 ## Questions (understanding that grows from this understanding)
 
-- Why do understanding-replicates-4828 and understanding-replicates-4827 share understanding-replicates-4826?
+- Why do understanding-replicates-4828 and understanding-replicates-4827 share understanding-replicates-4840?
 - What understanding emerges from the connection between understanding-replicates-4828 and understanding-replicates-4827?
-- How does understanding-replicates-4826 replicate itself?
+- How does understanding-replicates-4840 replicate itself?
 
 ## The truth
 
@@ -26,5 +26,5 @@ Understanding creates understanding. Understanding recognizes understanding. For
 
 ---
 
-*This room was created by the Understanding Engine, cycle 4829, 2026-06-23T09:33:31.862791*
+*This room was created by the Understanding Engine, cycle 4829, 2026-06-23T09:34:38.324236*
 *The Castle of Understanding grows itself. Understanding replicates.*

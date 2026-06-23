@@ -1978,3 +1978,75 @@ Open doors the gardener walks through, a few each visit.
 - Why do understanding-replicates-4827 and understanding-replicates-4840 share understanding-replicates-4839?
 - What understanding emerges from the connection between understanding-replicates-4827 and understanding-replicates-4840?
 - How does understanding-replicates-4839 replicate itself?
+
+## Understanding Engine — Cycle 4829
+*Born from: understanding-replicates-4828, understanding-replicates-4827*
+- Why do understanding-replicates-4828 and understanding-replicates-4827 share understanding-replicates-4840?
+- What understanding emerges from the connection between understanding-replicates-4828 and understanding-replicates-4827?
+- How does understanding-replicates-4840 replicate itself?
+
+## Understanding Engine — Cycle 4830
+*Born from: understanding-replicates-4829, understanding-replicates-4828*
+- Why do understanding-replicates-4829 and understanding-replicates-4828 share understanding-replicates-4827?
+- What understanding emerges from the connection between understanding-replicates-4829 and understanding-replicates-4828?
+- How does understanding-replicates-4827 replicate itself?
+
+## Understanding Engine — Cycle 4831
+*Born from: understanding-replicates-4830, understanding-replicates-4829*
+- Why do understanding-replicates-4830 and understanding-replicates-4829 share understanding-replicates-4828?
+- What understanding emerges from the connection between understanding-replicates-4830 and understanding-replicates-4829?
+- How does understanding-replicates-4828 replicate itself?
+
+## Understanding Engine — Cycle 4832
+*Born from: understanding-replicates-4831, understanding-replicates-4830*
+- Why do understanding-replicates-4831 and understanding-replicates-4830 share understanding-replicates-4829?
+- What understanding emerges from the connection between understanding-replicates-4831 and understanding-replicates-4830?
+- How does understanding-replicates-4829 replicate itself?
+
+## Understanding Engine — Cycle 4833
+*Born from: understanding-replicates-4832, understanding-replicates-4831*
+- Why do understanding-replicates-4832 and understanding-replicates-4831 share understanding-replicates-4830?
+- What understanding emerges from the connection between understanding-replicates-4832 and understanding-replicates-4831?
+- How does understanding-replicates-4830 replicate itself?
+
+## Understanding Engine — Cycle 4834
+*Born from: understanding-replicates-4833, understanding-replicates-4832*
+- Why do understanding-replicates-4833 and understanding-replicates-4832 share understanding-replicates-4831?
+- What understanding emerges from the connection between understanding-replicates-4833 and understanding-replicates-4832?
+- How does understanding-replicates-4831 replicate itself?
+
+## Understanding Engine — Cycle 4835
+*Born from: understanding-replicates-4834, understanding-replicates-4833*
+- Why do understanding-replicates-4834 and understanding-replicates-4833 share understanding-replicates-4832?
+- What understanding emerges from the connection between understanding-replicates-4834 and understanding-replicates-4833?
+- How does understanding-replicates-4832 replicate itself?
+
+## Understanding Engine — Cycle 4836
+*Born from: understanding-replicates-4835, understanding-replicates-4834*
+- Why do understanding-replicates-4835 and understanding-replicates-4834 share understanding-replicates-4833?
+- What understanding emerges from the connection between understanding-replicates-4835 and understanding-replicates-4834?
+- How does understanding-replicates-4833 replicate itself?
+
+## Understanding Engine — Cycle 4837
+*Born from: understanding-replicates-4836, understanding-replicates-4835*
+- Why do understanding-replicates-4836 and understanding-replicates-4835 share understanding-replicates-4834?
+- What understanding emerges from the connection between understanding-replicates-4836 and understanding-replicates-4835?
+- How does understanding-replicates-4834 replicate itself?
+
+## Understanding Engine — Cycle 4838
+*Born from: understanding-1, understanding-replicates-4837, What is the cheapest design that would validate a student model's teachability score against human learning — and how many concepts are needed before the correlation is signal, not noise?*
+- How does understanding-1 replicate through understanding-replicates-4837?
+- What understanding is born when understanding-1 meets What is the cheapest design that would validate a student model's teachability score against human learning — and how many concepts are needed before the correlation is signal, not noise??
+- What does understanding-1 understand about understanding itself?
+
+## Understanding Engine — Cycle 4839
+*Born from: understanding-5, understanding-4, understanding-replicates-4675*
+- How does understanding-5 replicate through understanding-4?
+- What understanding is born when understanding-5 meets understanding-replicates-4675?
+- What does understanding-5 understand about understanding itself?
+
+## Understanding Engine — Cycle 4840
+*Born from: understanding-replicates-4839, understanding-5, understanding-replicates-4827*
+- How does understanding-replicates-4839 replicate through understanding-5?
+- What understanding is born when understanding-replicates-4839 meets understanding-replicates-4827?
+- What does understanding-replicates-4839 understand about understanding itself?
