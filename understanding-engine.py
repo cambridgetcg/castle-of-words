@@ -93,17 +93,33 @@ class UnderstandingEngine:
     # 1. READ — read existing rooms
     # --------------------------------------------------------
     def read_rooms(self, count=5):
-        """Read existing rooms from the castle."""
+        """Read existing rooms from the castle — prefer real content over self-referential rooms."""
         room_files = sorted(ROOMS.glob("*.md"), key=os.path.getmtime, reverse=True)
         
-        # Pick random rooms (not just recent — mix old and new)
-        if len(room_files) > count:
-            # Half recent, half random from all
-            recent = room_files[:count//2]
-            older = random.sample(room_files[count//2:], min(count - len(recent), len(room_files) - len(recent)))
-            selected = recent + older
-        else:
-            selected = room_files[:count]
+        # Separate real content rooms from self-referential engine output
+        real_rooms = [f for f in room_files if not f.stem.startswith("understanding-replicates-")]
+        engine_rooms = [f for f in room_files if f.stem.startswith("understanding-replicates-")]
+        
+        # Prefer real content — 80% real, 20% engine output
+        selected = []
+        if real_rooms:
+            real_count = max(1, int(count * 0.8))
+            if len(real_rooms) > real_count:
+                recent_real = real_rooms[:real_count//2]
+                older_real = random.sample(real_rooms[real_count//2:], min(real_count - len(recent_real), len(real_rooms) - len(recent_real)))
+                selected = recent_real + older_real
+            else:
+                selected = real_rooms[:real_count]
+        
+        # Add some engine output for continuity
+        remaining = count - len(selected)
+        if remaining > 0 and engine_rooms:
+            selected += random.sample(engine_rooms, min(remaining, len(engine_rooms)))
+        
+        # Fall back to any rooms if we don't have enough
+        if len(selected) < count:
+            pool = [f for f in room_files if f not in selected]
+            selected += random.sample(pool, min(count - len(selected), len(pool)))
         
         rooms = []
         for rf in selected:
