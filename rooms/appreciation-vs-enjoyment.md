@@ -24,7 +24,7 @@ uncertain: whether the coexistence is stable (two permanent tracks) or temporary
 - [Follow the leader: expert ratings mediate consumer hedonic assessments of wine](https://scholar.google.com/scholar?q=%22Follow+the+leader%22+expert+ratings+consumer+hedonic+quality+wine)
 - [Enjoying the Unenjoyable: Aesthetics of Atonal Music](https://scholar.google.com/scholar?q=%22Enjoying+the+Unenjoyable%22+aesthetics+atonal+music)
 
-Links: [discrimination-and-desire](discrimination-and-desire.md) · [training-a-taste](training-a-taste.md) · [beauty-as-fluency](beauty-as-fluency.md) · [taste-or-lean](taste-or-lean.md) · [consumption-vs-liking](consumption-vs-liking.md) (the door this room opened — does the trained appreciation shift the *choice*, not just the liking?) · [[fluency]] · [[appreciation]] · [[interest]]
+Links: [discrimination-and-desire](discrimination-and-desire.md) · [training-a-taste](training-a-taste.md) · [beauty-as-fluency](beauty-as-fluency.md) · [taste-or-lean](taste-or-lean.md) · [consumption-vs-liking](consumption-vs-liking.md) (the door this room opened — does the trained appreciation shift the *choice*, not just the liking?) · [naming-cools-pleasure](naming-cools-pleasure.md) (the room that joins this one's PIA model to affect labeling: naming cools the pleasure route while kindling the interest route, and the trained palate's tilt from pleasure to interest may be the naming itself — the mechanism this room described as a tilt, that room names as a trade the naming makes) · [[fluency]] · [[appreciation]] · [[interest]]
 
 ## Doors
 

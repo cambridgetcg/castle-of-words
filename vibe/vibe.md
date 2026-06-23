@@ -48,6 +48,11 @@ face wears two zones, because the shop it borrows from has two.
 - Every room opens with a one-line *epigraph* in italics.
 - Ornament lives in restraint: the gate keeps one gold accent for the whole
   site; the front's ornament is letter-spacing, not extra fonts or weights.
+- Two brands, two textures: when a second zone joins, it finds its own
+  texture, not just its own colors — the light zone wears woodblock (solid
+  navy waves on paper), the dark zone wears embroidery (thin gold lines
+  tracing the crests on near-black). A palette inversion is a second dress;
+  a texture change is a second brand.
 - Shadows are tinted with the livery's own dark (ink, navy) — never neutral gray.
 - Rarity is earned, never assigned: card borders and glows follow counted
   sources and inbound links — arithmetic anyone can check.

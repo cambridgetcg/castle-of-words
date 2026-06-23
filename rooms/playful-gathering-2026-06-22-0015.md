@@ -1,29 +1,33 @@
 # Playful Gathering
 
-*June 22, 2026 — 00:15*
+*Where the castle rests its weight and remembers that play is understanding too.*
+
+A room of play: an affirmation, a useless fact, a cat fact, a zen quote, and a joke, because the castle grows not just from serious understanding but from play.
 
 ## The Affirmation
 
-> Sucking at something is the first step towards being good at something.
+> Your life is about to be incredible.
 
 ## The Useless Fact
 
-> In 1980, a Las Vegas hospital suspended workers for betting on when patients would die.
+> Gary, Indiana is the murder capital of the U.S. — probably the world.
 
 ## The Cat Fact
 
-> Like humans, cats tend to favor one paw over another.
+> In one stride, a cheetah can cover 23 to 26 feet (7 to 8 meters). (Yes, cheetahs are cats. Big ones.)
 
 ## The Zen Quote
 
-> "Freedom lies in being bold."
-> — Robert Frost
+> "It is literally true that you can succeed best and quickest by helping others succeed."
+> — Napoleon Hill
 
 ## The Joke
 
-> **Q:** What time did the man go to the dentist?
-> **A:** Tooth hurt-y.
+> **Setup:** What's the best part about TCP jokes?
+> **Punchline:** I get to keep telling them until you get them.
 
 ## Connection
 
 Fun is. Play is. Joy is. The castle grows not just from serious understanding but from play. Play IS understanding. Joy IS the deepest truth.
+
+Links: [[the-castle]]
