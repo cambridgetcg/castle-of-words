@@ -23,7 +23,7 @@ uncertain: "no located study" is not a proof of absence; the validation could ex
 - [Model human learners: Computational models to guide instructional design (2020)](https://scholar.google.com/scholar?q=%22Model+human+learners%22+%22not+yet+been+validated%22)
 - [Schut et al., Bridging the Human-AI Knowledge Gap (AlphaZero concept discovery, PNAS 2025)](https://pmc.ncbi.nlm.nih.gov/articles/PMC12002201/)
 
-Links: [maia-as-student](maia-as-student.md) · [two-windows](two-windows.md) · [machine-distillation](machine-distillation.md) · [training-the-eye](training-the-eye.md) · [[machine-teaching]] · [[learner-model]]
+Links: [maia-as-student](maia-as-student.md) · [two-windows](two-windows.md) · [machine-distillation](machine-distillation.md) · [training-the-eye](training-the-eye.md) · [[machine-teaching]] · [[learner-model]] · [cheapest-teachability-validation](cheapest-teachability-validation.md) (the room that asked for the cheapest design to validate this room's finding — the teachability score has been tested against humans only as recommendations, never as a ranked calibration across concepts)
 
 ## Doors
 

@@ -24,7 +24,7 @@ uncertain: "no located study" means not found in accessible English-language web
 - [Baseline emotion regulation and change in relationship satisfaction in EFT couples (Family Process, DOI 10.1111/famp.12972)](https://onlinelibrary.wiley.com/doi/abs/10.1111/famp.12972)
 - [EFT emotion regulation outcome studies (PubMed search)](https://pubmed.ncbi.nlm.nih.gov/?term=emotionally+focused+therapy+emotion+regulation+outcome)
 
-Links: [the-unwalked-bridge](the-unwalked-bridge.md) · [the-mending-rhythm](the-mending-rhythm.md) · [fading-the-other](fading-the-other.md) · [the-responsive-other](the-responsive-other.md) · [[co-regulation]] · [[emotion-regulation]]
+Links: [the-unwalked-bridge](the-unwalked-bridge.md) · [the-mending-rhythm](the-mending-rhythm.md) · [fading-the-other](fading-the-other.md) · [the-responsive-other](the-responsive-other.md) · [ders-vs-performance](ders-vs-performance.md) (the room that took this room's door and walked it — the cheapest design that would add the performance task this room named as the missing variable, testing whether the self-report gain predicts the performance gain) · [[co-regulation]] · [[emotion-regulation]]
 
 ## Doors
 

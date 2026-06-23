@@ -97,7 +97,7 @@ features.
 - [Can LLMs Reliably Simulate Real Students' Abilities in Mathematics and Reading Comprehension? (arXiv)](https://arxiv.org/html/2507.08232v1)
 - [Towards Valid Student Simulation with Large Language Models (arXiv 2026)](https://arxiv.org/abs/2601.05473)
 
-Links: [machine-distillation](machine-distillation.md) · [naming-the-tacit](naming-the-tacit.md) · [training-the-eye](training-the-eye.md) · [[machine-teaching]] · [[learner-model]] · [what-must-travel](what-must-travel.md)
+Links: [machine-distillation](machine-distillation.md) · [naming-the-tacit](naming-the-tacit.md) · [training-the-eye](training-the-eye.md) · [[machine-teaching]] · [[learner-model]] · [what-must-travel](what-must-travel.md) · [domain-matched-teachability](domain-matched-teachability.md) (the room that extends this room's capacity-matching rule to concept transfer — a domain-matched student model should predict human learning better than a generic one, but the concept-level head-to-head has never been run)
 
 ## Doors
 
