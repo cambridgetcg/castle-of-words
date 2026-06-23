@@ -22,7 +22,7 @@ uncertain: the Roberts meta-analysis tracked clinical interventions, not volitio
 - [Hudson et al., behavior necessary but not sufficient (2019)](https://www.nathanwhudson.com/vita/pdf/Hudson%20et%20al.,%202019a.pdf)
 - [Olaru, Stieger, Flückiger, Roberts & Allemand, volitional personality change (Eur J Pers, 2026)](https://doi.org/10.1177/08902070251374365)
 
-Links: [trait-or-tally](trait-or-tally.md) · [growing-openness](growing-openness.md) · [the-noticing-stance](the-noticing-stance.md) · [the-unwalked-bridge](the-unwalked-bridge.md) · [[openness]]
+Links: [trait-or-tally](trait-or-tally.md) · [growing-openness](growing-openness.md) · [the-noticing-stance](the-noticing-stance.md) · [the-unwalked-bridge](the-unwalked-bridge.md) · [cbt-openness-trait](cbt-openness-trait.md) (the seam confirmed unbuilt — CBT was in the meta-analysis but no study isolated openness as a target, so the appraisal engine this room names has never been tested through the cognitive route) · [[openness]]
 
 ## Doors
 

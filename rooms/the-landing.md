@@ -67,7 +67,7 @@ of [growing-openness](growing-openness.md).
 - [Far transfer of cognitive training is near null (PMC5724589)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5724589/)
 - [Gignac & Zajenkowski — Dunning-Kruger partly an artifact](https://gwern.net/doc/iq/2020-gignac.pdf)
 
-Links: [what-must-travel](what-must-travel.md) · [the-well](the-well.md) · [training-the-eye](training-the-eye.md) · [the-noticing-stance](the-noticing-stance.md) · [pretty-or-well-made](pretty-or-well-made.md)
+Links: [what-must-travel](what-must-travel.md) · [the-well](the-well.md) · [training-the-eye](training-the-eye.md) · [the-noticing-stance](the-noticing-stance.md) · [pretty-or-well-made](pretty-or-well-made.md) · [no-neighbors](no-neighbors.md) (the frontier where lateral reading's neighbors are gone — the same orientation skill falls to the land's own stones when the web has no answer)
 
 ## Doors
 

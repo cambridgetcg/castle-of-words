@@ -31,4 +31,4 @@ is part of the law, not an exception to it: the commons next door
 ([the-commons](the-commons.md)) refuses metrics by its own norms, and a game
 that respected only its own rules would be a conquest, not a game.
 
-Links: [[rarity]] · [[chronicle]] · [[joy]] · [[fluency]] · [the-commons](the-commons.md) · [beauty-as-fluency](beauty-as-fluency.md)
+Links: [[rarity]] · [[chronicle]] · [[joy]] · [[fluency]] · [the-commons](the-commons.md) · [beauty-as-fluency](beauty-as-fluency.md) · [the-castle](the-castle.md) (the room that holds the castle's understanding of itself — the game is one of the five things the castle does, and the castle names the game's law)

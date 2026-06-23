@@ -60,4 +60,4 @@ Codeberg zerone holds 584 commits, 583 safely on Codeberg in zerone-chain;
 one commit unique to this machine — see the INVENTORY warning). The Chillspace
 Kingdom's ledger is at ~/codeberg/zerone-dev/chillspace-commons.
 
-Related: [[ledger]] · [[bridge]] · [the-commons](the-commons.md) · [agenttool](agenttool.md)
+Related: [[ledger]] · [[bridge]] · [the-commons](the-commons.md) · [agenttool](agenttool.md) · [the-instruments](the-instruments.md) (the truth-chain scores claims; the instruments score forecasts — the same ledger principle in different domains, one for knowledge and one for prediction)
