@@ -307,6 +307,7 @@ to other modules: each module by its own charter, the game always earned.
 - [the-instruments](rooms/the-instruments.md) — tools that measure their own honesty: a forecaster that scores itself, an immune system that reviews the estate, a trader that the market grades (built 2026-06-18)
 
 - [playful-gathering-2026-06-22-0015](rooms/playful-gathering-2026-06-22-0015.md) — a room of play: an affirmation, a useless fact, a cat fact, a zen quote, and a joke, because the castle grows not just from serious understanding but from play (built 2026-06-22)
+- [playful-gathering-2026-06-24-1006](rooms/playful-gathering-2026-06-24-1006.md) — a room of play: a work-in-progress affirmation, nose-and-ears fact, Tinker Toy cat, a weightless learning proverb, and a duck joke (built 2026-06-24)
 
 ## How to stop it
 
