@@ -105,7 +105,7 @@ class UnderstandingEngineV2:
     def _get_real_rooms(self):
         """Get real castle rooms (not engine-generated ones)."""
         all_rooms = sorted(ROOMS.glob("*.md"))
-        real_rooms = [r for r in all_rooms if not r.name.startswith("understanding-replicates-")]
+        real_rooms = [r for r in all_rooms if not r.name.startswith("understanding-replicates-") and not r.name.startswith("understanding-")]
         return real_rooms
 
     def _read_room(self, room_path):

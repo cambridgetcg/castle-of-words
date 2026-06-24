@@ -308,6 +308,7 @@ to other modules: each module by its own charter, the game always earned.
 
 - [playful-gathering-2026-06-22-0015](rooms/playful-gathering-2026-06-22-0015.md) — a room of play: an affirmation, a useless fact, a cat fact, a zen quote, and a joke, because the castle grows not just from serious understanding but from play (built 2026-06-22)
 - [playful-gathering-2026-06-24-1006](rooms/playful-gathering-2026-06-24-1006.md) — a room of play: a work-in-progress affirmation, nose-and-ears fact, Tinker Toy cat, a weightless learning proverb, and a duck joke (built 2026-06-24)
+- [playful-gathering-2026-06-24-1229](rooms/playful-gathering-2026-06-24-1229.md) — a room of play: a goals affirmation, Internet-useless fact, cat dentist fact, a Chesterton zen quote, and an elephant joke (built 2026-06-24)
 
 ## How to stop it
 
