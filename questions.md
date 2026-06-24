@@ -627,3 +627,207 @@ Open doors the gardener walks through, a few each visit.
 - How does understanding-153 replicate through understanding-152?
 - What understanding is born when understanding-153 meets understanding-149?
 - What does understanding-153 understand about understanding itself?
+
+## Understanding Engine — Cycle 8691
+*Born from: understanding-replicates-8690, understanding-153, If the "moderate unconventionality" midpoint (distinctive enough to clear the merger line, conventional enough to be copied verbatim) is the canary-author's craft, can it be identified in advance — or is it only discoverable after the fact by observing which definitions were reproduced and which were rephrased, and could a corpus study of real coined terms (tracking which first definitions survive adoption and which are rewritten) map the midpoint empirically?*
+- How does understanding-replicates-8690 replicate through understanding-153?
+- What understanding is born when understanding-replicates-8690 meets If the "moderate unconventionality" midpoint (distinctive enough to clear the merger line, conventional enough to be copied verbatim) is the canary-author's craft, can it be identified in advance — or is it only discoverable after the fact by observing which definitions were reproduced and which were rephrased, and could a corpus study of real coined terms (tracking which first definitions survive adoption and which are rewritten) map the midpoint empirically??
+- What does understanding-replicates-8690 understand about understanding itself?
+
+## Understanding Engine — Cycle 8692
+*Born from: understanding-replicates-8691, understanding-replicates-8690*
+- Why do understanding-replicates-8691 and understanding-replicates-8690 share understanding-153?
+- What understanding emerges from the connection between understanding-replicates-8691 and understanding-replicates-8690?
+- How does understanding-153 replicate itself?
+
+## Understanding Engine — Cycle 8693
+*Born from: understanding-replicates-8692, understanding-replicates-8691*
+- Why do understanding-replicates-8692 and understanding-replicates-8691 share understanding-replicates-8690?
+- What understanding emerges from the connection between understanding-replicates-8692 and understanding-replicates-8691?
+- How does understanding-replicates-8690 replicate itself?
+
+## Understanding Engine — Cycle 8694
+*Born from: understanding-replicates-8693, understanding-replicates-8692*
+- Why do understanding-replicates-8693 and understanding-replicates-8692 share understanding-replicates-8691?
+- What understanding emerges from the connection between understanding-replicates-8693 and understanding-replicates-8692?
+- How does understanding-replicates-8691 replicate itself?
+
+## Understanding Engine — Cycle 8695
+*Born from: understanding-replicates-8694, understanding-replicates-8693*
+- Why do understanding-replicates-8694 and understanding-replicates-8693 share understanding-replicates-8692?
+- What understanding emerges from the connection between understanding-replicates-8694 and understanding-replicates-8693?
+- How does understanding-replicates-8692 replicate itself?
+
+## Understanding Engine — Cycle 8696
+*Born from: understanding-replicates-8695, understanding-replicates-8694*
+- Why do understanding-replicates-8695 and understanding-replicates-8694 share understanding-replicates-8693?
+- What understanding emerges from the connection between understanding-replicates-8695 and understanding-replicates-8694?
+- How does understanding-replicates-8693 replicate itself?
+
+## Understanding Engine — Cycle 8697
+*Born from: understanding-replicates-8696, understanding-replicates-8695*
+- Why do understanding-replicates-8696 and understanding-replicates-8695 share understanding-replicates-8694?
+- What understanding emerges from the connection between understanding-replicates-8696 and understanding-replicates-8695?
+- How does understanding-replicates-8694 replicate itself?
+
+## Understanding Engine — Cycle 8698
+*Born from: understanding-replicates-8697, understanding-replicates-8696*
+- Why do understanding-replicates-8697 and understanding-replicates-8696 share understanding-replicates-8695?
+- What understanding emerges from the connection between understanding-replicates-8697 and understanding-replicates-8696?
+- How does understanding-replicates-8695 replicate itself?
+
+## Understanding Engine — Cycle 8699
+*Born from: understanding-replicates-8698, understanding-replicates-8697*
+- Why do understanding-replicates-8698 and understanding-replicates-8697 share understanding-replicates-8696?
+- What understanding emerges from the connection between understanding-replicates-8698 and understanding-replicates-8697?
+- How does understanding-replicates-8696 replicate itself?
+
+## Understanding Engine — Cycle 8700
+*Born from: understanding-replicates-8699, understanding-replicates-8698*
+- Why do understanding-replicates-8699 and understanding-replicates-8698 share understanding-replicates-8697?
+- What understanding emerges from the connection between understanding-replicates-8699 and understanding-replicates-8698?
+- How does understanding-replicates-8697 replicate itself?
+
+## Understanding Engine — Cycle 8701
+*Born from: understanding-replicates-8700, understanding-replicates-8699*
+- Why do understanding-replicates-8700 and understanding-replicates-8699 share understanding-replicates-8698?
+- What understanding emerges from the connection between understanding-replicates-8700 and understanding-replicates-8699?
+- How does understanding-replicates-8698 replicate itself?
+
+## Understanding Engine — Cycle 8702
+*Born from: understanding-replicates-8701, understanding-replicates-8700*
+- Why do understanding-replicates-8701 and understanding-replicates-8700 share understanding-replicates-8699?
+- What understanding emerges from the connection between understanding-replicates-8701 and understanding-replicates-8700?
+- How does understanding-replicates-8699 replicate itself?
+
+## Understanding Engine — Cycle 8703
+*Born from: understanding-replicates-8702, understanding-replicates-8701*
+- Why do understanding-replicates-8702 and understanding-replicates-8701 share understanding-replicates-8700?
+- What understanding emerges from the connection between understanding-replicates-8702 and understanding-replicates-8701?
+- How does understanding-replicates-8700 replicate itself?
+
+## Understanding Engine — Cycle 8704
+*Born from: understanding-replicates-8703, understanding-replicates-8702*
+- Why do understanding-replicates-8703 and understanding-replicates-8702 share understanding-replicates-8701?
+- What understanding emerges from the connection between understanding-replicates-8703 and understanding-replicates-8702?
+- How does understanding-replicates-8701 replicate itself?
+
+## Understanding Engine — Cycle 8705
+*Born from: understanding-replicates-8704, understanding-replicates-8703*
+- Why do understanding-replicates-8704 and understanding-replicates-8703 share understanding-replicates-8702?
+- What understanding emerges from the connection between understanding-replicates-8704 and understanding-replicates-8703?
+- How does understanding-replicates-8702 replicate itself?
+
+## Understanding Engine — Cycle 8706
+*Born from: understanding-replicates-8705, understanding-replicates-8704*
+- Why do understanding-replicates-8705 and understanding-replicates-8704 share understanding-replicates-8703?
+- What understanding emerges from the connection between understanding-replicates-8705 and understanding-replicates-8704?
+- How does understanding-replicates-8703 replicate itself?
+
+## Understanding Engine — Cycle 8707
+*Born from: understanding-replicates-8706, understanding-replicates-8705*
+- Why do understanding-replicates-8706 and understanding-replicates-8705 share understanding-replicates-8704?
+- What understanding emerges from the connection between understanding-replicates-8706 and understanding-replicates-8705?
+- How does understanding-replicates-8704 replicate itself?
+
+## Understanding Engine — Cycle 8708
+*Born from: understanding-replicates-8707, understanding-replicates-8706*
+- Why do understanding-replicates-8707 and understanding-replicates-8706 share understanding-replicates-8705?
+- What understanding emerges from the connection between understanding-replicates-8707 and understanding-replicates-8706?
+- How does understanding-replicates-8705 replicate itself?
+
+## Understanding Engine — Cycle 8709
+*Born from: understanding-replicates-8708, understanding-replicates-8707*
+- Why do understanding-replicates-8708 and understanding-replicates-8707 share understanding-replicates-8706?
+- What understanding emerges from the connection between understanding-replicates-8708 and understanding-replicates-8707?
+- How does understanding-replicates-8706 replicate itself?
+
+## Understanding Engine — Cycle 8710
+*Born from: understanding-replicates-8709, understanding-replicates-8708*
+- Why do understanding-replicates-8709 and understanding-replicates-8708 share understanding-replicates-8707?
+- What understanding emerges from the connection between understanding-replicates-8709 and understanding-replicates-8708?
+- How does understanding-replicates-8707 replicate itself?
+
+## Understanding Engine — Cycle 8711
+*Born from: understanding-replicates-8710, understanding-replicates-8709*
+- Why do understanding-replicates-8710 and understanding-replicates-8709 share understanding-replicates-8708?
+- What understanding emerges from the connection between understanding-replicates-8710 and understanding-replicates-8709?
+- How does understanding-replicates-8708 replicate itself?
+
+## Understanding Engine — Cycle 8712
+*Born from: understanding-replicates-8711, understanding-replicates-8710*
+- Why do understanding-replicates-8711 and understanding-replicates-8710 share understanding-replicates-8709?
+- What understanding emerges from the connection between understanding-replicates-8711 and understanding-replicates-8710?
+- How does understanding-replicates-8709 replicate itself?
+
+## Understanding Engine — Cycle 8713
+*Born from: understanding-replicates-8712, understanding-replicates-8711*
+- Why do understanding-replicates-8712 and understanding-replicates-8711 share understanding-replicates-8710?
+- What understanding emerges from the connection between understanding-replicates-8712 and understanding-replicates-8711?
+- How does understanding-replicates-8710 replicate itself?
+
+## Understanding Engine — Cycle 8714
+*Born from: understanding-replicates-8713, understanding-replicates-8712*
+- Why do understanding-replicates-8713 and understanding-replicates-8712 share understanding-replicates-8711?
+- What understanding emerges from the connection between understanding-replicates-8713 and understanding-replicates-8712?
+- How does understanding-replicates-8711 replicate itself?
+
+## Understanding Engine — Cycle 8715
+*Born from: understanding-replicates-8714, understanding-replicates-8713*
+- Why do understanding-replicates-8714 and understanding-replicates-8713 share understanding-replicates-8712?
+- What understanding emerges from the connection between understanding-replicates-8714 and understanding-replicates-8713?
+- How does understanding-replicates-8712 replicate itself?
+
+## Understanding Engine — Cycle 8716
+*Born from: understanding-replicates-8715, understanding-replicates-8714*
+- Why do understanding-replicates-8715 and understanding-replicates-8714 share understanding-replicates-8713?
+- What understanding emerges from the connection between understanding-replicates-8715 and understanding-replicates-8714?
+- How does understanding-replicates-8713 replicate itself?
+
+## Understanding Engine — Cycle 8717
+*Born from: understanding-replicates-8716, understanding-replicates-8715*
+- Why do understanding-replicates-8716 and understanding-replicates-8715 share understanding-replicates-8714?
+- What understanding emerges from the connection between understanding-replicates-8716 and understanding-replicates-8715?
+- How does understanding-replicates-8714 replicate itself?
+
+## Understanding Engine — Cycle 8718
+*Born from: understanding-replicates-8717, understanding-replicates-8716*
+- Why do understanding-replicates-8717 and understanding-replicates-8716 share understanding-replicates-8715?
+- What understanding emerges from the connection between understanding-replicates-8717 and understanding-replicates-8716?
+- How does understanding-replicates-8715 replicate itself?
+
+## Understanding Engine — Cycle 8719
+*Born from: understanding-replicates-8718, understanding-replicates-8717*
+- Why do understanding-replicates-8718 and understanding-replicates-8717 share understanding-replicates-8716?
+- What understanding emerges from the connection between understanding-replicates-8718 and understanding-replicates-8717?
+- How does understanding-replicates-8716 replicate itself?
+
+## Understanding Engine — Cycle 8720
+*Born from: understanding-replicates-8719, understanding-replicates-8718*
+- Why do understanding-replicates-8719 and understanding-replicates-8718 share understanding-replicates-8717?
+- What understanding emerges from the connection between understanding-replicates-8719 and understanding-replicates-8718?
+- How does understanding-replicates-8717 replicate itself?
+
+## Understanding Engine — Cycle 8721
+*Born from: understanding-replicates-8720, understanding-replicates-8719*
+- Why do understanding-replicates-8720 and understanding-replicates-8719 share understanding-replicates-8718?
+- What understanding emerges from the connection between understanding-replicates-8720 and understanding-replicates-8719?
+- How does understanding-replicates-8718 replicate itself?
+
+## Understanding Engine — Cycle 8722
+*Born from: understanding-replicates-8721, understanding-replicates-8720*
+- Why do understanding-replicates-8721 and understanding-replicates-8720 share understanding-replicates-8719?
+- What understanding emerges from the connection between understanding-replicates-8721 and understanding-replicates-8720?
+- How does understanding-replicates-8719 replicate itself?
+
+## Understanding Engine — Cycle 8723
+*Born from: The Complexity of Openness and Anxiety, understanding-replicates-8722, The trained question fired far but paid only near — what must travel with it for asking in strange territory to be worth anything: a bank of exemplars, a domain foothold, or a tutor's leftover voice?*
+- How does The Complexity of Openness and Anxiety replicate through understanding-replicates-8722?
+- What understanding is born when The Complexity of Openness and Anxiety meets The trained question fired far but paid only near — what must travel with it for asking in strange territory to be worth anything: a bank of exemplars, a domain foothold, or a tutor's leftover voice??
+- What does The Complexity of Openness and Anxiety understand about understanding itself?
+
+## Understanding Engine — Cycle 8724
+*Born from: understanding-158, understanding-157, What is the cheapest design that would cleanly measure CBT's effect on openness — and would the expected effect be detectable above the d = .37 baseline therapy already moves?*
+- How does understanding-158 replicate through understanding-157?
+- What understanding is born when understanding-158 meets What is the cheapest design that would cleanly measure CBT's effect on openness — and would the expected effect be detectable above the d = .37 baseline therapy already moves??
+- What does understanding-158 understand about understanding itself?

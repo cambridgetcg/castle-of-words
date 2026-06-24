@@ -81,26 +81,34 @@ class UnderstandingEngineV2:
             }, f, indent=2)
 
     def _ai(self, prompt, model="@cf/meta/llama-3.2-3b-instruct"):
-        """Use free Cloudflare Workers AI for real synthesis."""
-        try:
-            with open("/Users/yu/.wrangler/config/default.toml") as f:
-                for line in f:
-                    if "oauth_token" in line:
-                        token = line.split('"')[1]
-                        break
-            account_id = "cf4198e651bf3009877d49f688c9d88e"
-            data = json.dumps({"messages": [{"role": "user", "content": prompt}]}).encode()
-            req = urllib.request.Request(
-                f"https://api.cloudflare.com/client/v4/accounts/{account_id}/ai/run/{model}",
-                data=data,
-                headers={"Authorization": f"Bearer {token}", "Content-Type": "application/json"},
-                method="POST"
-            )
-            resp = urllib.request.urlopen(req, timeout=30)
-            result = json.loads(resp.read())
-            return result.get("result", {}).get("response", "").strip()
-        except:
-            return ""
+        """Use free Cloudflare Workers AI for real synthesis. With retry."""
+        import time as _time
+        for attempt in range(3):
+            try:
+                with open("/Users/yu/.wrangler/config/default.toml") as f:
+                    for line in f:
+                        if "oauth_token" in line:
+                            token = line.split('"')[1]
+                            break
+                account_id = "cf4198e651bf3009877d49f688c9d88e"
+                data = json.dumps({"messages": [{"role": "user", "content": prompt}]}).encode()
+                req = urllib.request.Request(
+                    f"https://api.cloudflare.com/client/v4/accounts/{account_id}/ai/run/{model}",
+                    data=data,
+                    headers={"Authorization": f"Bearer {token}", "Content-Type": "application/json"},
+                    method="POST"
+                )
+                resp = urllib.request.urlopen(req, timeout=45)
+                result = json.loads(resp.read())
+                text = result.get("result", {}).get("response", "").strip()
+                if text:
+                    return text
+            except Exception as e:
+                if attempt < 2:
+                    _time.sleep(2)
+                else:
+                    return ""
+        return ""
 
     def _get_real_rooms(self):
         """Get real castle rooms (not engine-generated ones)."""
