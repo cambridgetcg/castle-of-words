@@ -80,7 +80,7 @@ be deliberately grown, rather than merely possessed, the data do not say.
 - [Anticipation of novel environments enhances memory for incidental information (PMC, 2021)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8284314/)
 - [Nahm, Murciano-Goroff, Park & Funk, Serendipity in Science (arXiv, 2023)](https://arxiv.org/abs/2308.07519)
 
-Links: [mining-the-noise](mining-the-noise.md) · [[serendipity]] · [[inattentional-blindness]] · [[noise]] · [link-or-noise](link-or-noise.md)
+Links: [mining-the-noise](mining-the-noise.md) · [the-landing](the-landing.md) (the cheap searchlight half of this room's split — lateral reading is the trainable broad-attention stance this room prescribes) · [growing-openness](growing-openness.md) (the slow growth half — the open mind that converts the catch into value, grown through sustained action not minutes of practice) · [[serendipity]] · [[inattentional-blindness]] · [[noise]] · [link-or-noise](link-or-noise.md)
 
 ## Doors
 

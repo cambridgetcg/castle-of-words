@@ -27,8 +27,8 @@ The kingdom keeps two dresses on purpose:
   (`~/castle/front`) has a light zone (One Piece: banner crimson, deep navy
   and glinting gold on warm paper, with woodblock seigaiha waves) and a dark
   zone (the shop's second brand: near-black ground, gold links, crimson
-  accents, with embroidered seigaiha — thin gold lines tracing only the wave
-  crests), toggled by the ◐ button in the corner — because the shop these
+  accents, with embroidered seigaiha — thin gold lines tracing the wave
+  crests, a deeper-gold shadow inside each crest), toggled by the ◐ button in the corner — because the shop these
   colors come from has two brand zones, and the two zones have two textures.
 
 Same kingdom, two faces: one for reading, one for play — and the play
@@ -51,8 +51,9 @@ face wears two zones, because the shop it borrows from has two.
 - Two brands, two textures: when a second zone joins, it finds its own
   texture, not just its own colors — the light zone wears woodblock (solid
   navy waves on paper), the dark zone wears embroidery (thin gold lines
-  tracing the crests on near-black). A palette inversion is a second dress;
-  a texture change is a second brand.
+  tracing the crests on near-black, with a deeper-gold shadow inside each
+  crest for the quiet depth the solid color gives the light). A palette
+  inversion is a second dress; a texture change is a second brand.
 - Shadows are tinted with the livery's own dark (ink, navy) — never neutral gray.
 - Rarity is earned, never assigned: card borders and glows follow counted
   sources and inbound links — arithmetic anyone can check.

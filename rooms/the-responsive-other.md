@@ -68,7 +68,7 @@ physiological half, and that interoception specifically stays untested.
 - [Meditation not tied to better cardiac accuracy; counting tracks belief, not sensation (PMC6982546)](https://pmc.ncbi.nlm.nih.gov/articles/PMC6982546/)
 - [Whether an AI 'responsive other' would deliver the same benefit is untested (JMIR)](https://www.jmir.org/2023/1/e45027)
 
-Links: [nudge-not-lock](nudge-not-lock.md) · [flooding-self-read](flooding-self-read.md) · [fog-meter](fog-meter.md) · [echo-under-anger](echo-under-anger.md) · [closing-the-loop](closing-the-loop.md) · [internalized-as-skill](internalized-as-skill.md) (the responsive listener whose edge this room named is the partner whose internalization — the felt regulating presence carried inside — internalized-as-skill tests as developmental deposit vs. trained skill)
+Links: [nudge-not-lock](nudge-not-lock.md) · [flooding-self-read](flooding-self-read.md) · [fog-meter](fog-meter.md) · [echo-under-anger](echo-under-anger.md) · [closing-the-loop](closing-the-loop.md) · [fading-the-other](fading-the-other.md) (the room that asks whether the responsive other should be faded — this room's finding that a responsive human, not a body, is the active ingredient is the premise fading-the-other tests) · [alone-or-accompanied](alone-or-accompanied.md) (the three-condition design that would separate co-regulation from self-regulation — this room's responsive-listener edge is the variable the alone condition removes) · [internalized-as-skill](internalized-as-skill.md) (the responsive listener whose edge this room named is the partner whose internalization — the felt regulating presence carried inside — internalized-as-skill tests as developmental deposit vs. trained skill)
 
 ## Doors
 

@@ -1,0 +1,7 @@
+# statistical-power
+
+The chance an experiment catches a real effect if one is there — the net's mesh size: too coarse and the fish swims through, too fine and you drown in effort.
+
+Power is the question that decides whether a design is worth running at all. The free-choice gap diagnostic wing asks whether the two-unrewarded-tasks gap (predicted d ≈ 0.20–0.35) is large enough to detect at a feasible class size ([minimum-class-size](../rooms/minimum-class-size.md)), and the teachability validation asks whether 10–12 concepts × 15–20 learners gives enough signal to test a ranked calibration ([cheapest-teachability-validation](../rooms/cheapest-teachability-validation.md)). The trap is symmetric: too little power and you miss a real effect (a false negative), too much and you detect an effect too small to matter (a trivially true positive). The honest path the castle's design rooms follow is to run the simplest version first to estimate the effect size, then power the full study to the measured gap — because guessing the effect size from a benchmark built for a different question is the wrong comparison ([two-task-effect-size](../rooms/two-task-effect-size.md)).
+
+Links: [[effect-size]] · [[within-subject]] · [[free-choice]]

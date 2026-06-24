@@ -57,8 +57,11 @@ zone toggled by the ◐ button in the corner. The dark zone reuses crimson and
 gold from the light livery but inverts the ground to near-black. The light
 zone's seigaiha is woodblock — solid navy waves on paper; the dark zone's is
 embroidery — thin gold lines tracing only the wave crests on near-black, at a
-finer scale. Two brands, two textures. Read from `front/build.js`, 2026-06-18
-(dark seigaiha tuned 2026-06-21).
+finer scale, with a deeper-gold shadow inside each crest (a wider, fainter
+band of trophy-gold behind the bright thread) that gives the wave substance
+rather than mere outline. Two brands, two textures; the dark wave now has the
+quiet depth the light wave gets from solid color. Read from `front/build.js`,
+2026-06-18 (dark seigaiha tuned 2026-06-21, depth added 2026-06-24).
 
 | livery | name | hex | role |
 |--------|------|-----|------|
@@ -71,3 +74,4 @@ finer scale. Two brands, two textures. Read from `front/build.js`, 2026-06-18
 | dark | text-muted | #968874 | secondary text — dusty bronze |
 | dark | gold | #f5d742 | links, headings, accents (reused) |
 | dark | crimson | #c41e3a | card names, h3, rare borders (reused) |
+| dark | gold-shadow | #b8860b | the deeper-gold band inside the wave crest (reused from trophy-gold) |

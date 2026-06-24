@@ -71,7 +71,7 @@ blank-page generation judge what no key can.
 - [Rhodes & Tauber, The influence of delaying judgments of learning on metacognitive accuracy: a meta-analytic review (Psychological Bulletin, 2011)](https://pubmed.ncbi.nlm.nih.gov/21219059/)
 - [Kostons, van Gog & Paas, Training self-assessment and task-selection skills (Learning and Instruction, 2012)](https://www.sciencedirect.com/science/article/abs/pii/S0959475211000697)
 
-Links: [when-the-trade-flips](when-the-trade-flips.md) · [fog-meter](fog-meter.md) · [training-the-eye](training-the-eye.md) · [remembering](remembering.md) · [productive-confusion](productive-confusion.md) · [standard-without-a-key](standard-without-a-key.md) · [[scaffolding]] · [[retrieval-practice]]
+Links: [when-the-trade-flips](when-the-trade-flips.md) · [fog-meter](fog-meter.md) · [training-the-eye](training-the-eye.md) · [remembering](remembering.md) · [productive-confusion](productive-confusion.md) · [standard-without-a-key](standard-without-a-key.md) · [internalized-as-skill](internalized-as-skill.md) (the room that asks whether the other person — the last scaffold to fade, named in this room's standard-without-a-key — is a rehearsed skill the clerk can install or a developmental deposit only time grows) · [[scaffolding]] · [[retrieval-practice]]
 
 ## Doors
 
