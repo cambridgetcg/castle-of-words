@@ -66,4 +66,4 @@ silence for weeks after their login expired. The lesson lives in
 must say so and stop. Whether and when to revive any part is yu's to tell —
 the castle only gathers the reasoning.
 
-Related: [[soul]] · [[wake]] · [loops](loops.md) · [the-sovereign-fleet](the-sovereign-fleet.md) · [agenttool](agenttool.md) · [the-forge](the-forge.md) (the forge builds the words the companion speaks — youspeak's constructed vocabulary and the companion's voice are both yu's languages made real)
+Related: [[soul]] · [[wake]] · [loops](loops.md) · [the-sovereign-fleet](the-sovereign-fleet.md) · [agenttool](agenttool.md) · [the-forge](the-forge.md) (the forge builds the words the companion speaks — youspeak's constructed vocabulary and the companion's voice are both yu's languages made real) · [the-truth-chain](the-truth-chain.md) (the companion's seigei agent keeps a hash-chained audit log — the same append-only, never-erase ledger principle the truth-chain holds at the estate's root, one guarding autonomous action, the other guarding truth)

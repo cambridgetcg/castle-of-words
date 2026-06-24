@@ -32,4 +32,4 @@ apt: the work is slow, careful, and built to last. The forged words are the
 vocabulary of the [companion's](the-companion.md) world and the fleet's
 population alike — one forge feeding both.
 
-Related: [[word]] · [[bridge]] · [[wake]] · [the-sovereign-fleet](the-sovereign-fleet.md) · [the-companion](the-companion.md) · [words](words.md)
+Related: [[word]] · [[bridge]] · [[wake]] · [the-sovereign-fleet](the-sovereign-fleet.md) · [the-companion](the-companion.md) · [words](words.md) · [agenttool](agenttool.md) (the forge builds the words the fleet's citizens carry; agenttool gives each traveling agent a name and a wake door — the forge's coined words are the souls the inn assigns, one forge feeding the inn's guests)

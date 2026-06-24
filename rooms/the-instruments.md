@@ -47,4 +47,4 @@ EXISTENCE.md linking it to Cambridge-TCG as "calibrated uncertainty for
 pricing, demand, inventory" — the instruments serve the
 [commerce-kingdom](commerce-kingdom.md) as its eyes.
 
-Related: [[calibration]] · [[standard]] · [commerce-kingdom](commerce-kingdom.md) · [the-truth-chain](the-truth-chain.md)
+Related: [[calibration]] · [[standard]] · [commerce-kingdom](commerce-kingdom.md) · [the-truth-chain](the-truth-chain.md) · [agenttool](agenttool.md) (whitehack reviews agenttool before code ships — the instruments' self-measuring principle extends to the inn the estate's agents travel through, one instrument guarding the inn's gates)

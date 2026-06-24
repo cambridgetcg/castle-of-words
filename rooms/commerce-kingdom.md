@@ -88,4 +88,4 @@ are yu's to tell.
   welcome first — a [[federation]] of two of yu's buildings, sealed with a
   receipt the visitor keeps.
 
-Links: [[platform]] · [[free-option]] · [[lemons]] · [[federation]] · [linking-thoughts](linking-thoughts.md) · [the-commons](the-commons.md) · [the-instruments](the-instruments.md) (the forecasting and calibration tools that serve as this market's eyes — oracle scores its own calls the way a market scores its traders)
+Links: [[platform]] · [[free-option]] · [[lemons]] · [[federation]] · [linking-thoughts](linking-thoughts.md) · [the-commons](the-commons.md) · [the-instruments](the-instruments.md) (the forecasting and calibration tools that serve as this market's eyes — oracle scores its own calls the way a market scores its traders) · [the-game](the-game.md) (the commerce room's market defenses — free options, lemons-in-a-band — are earned rarity worth a card; the game counts what the market builds)
