@@ -313,6 +313,7 @@ to other modules: each module by its own charter, the game always earned.
 - [playful-gathering-2026-06-24-2031](rooms/playful-gathering-2026-06-24-2031.md) — a room of play: a learning-opportunity affirmation, Florida-bigger-than-England fact, cat-word etymology fact, an Og Mandino zen quote, and a Narnia joke (built 2026-06-24)
 - [playful-gathering-2026-06-25-0031](rooms/playful-gathering-2026-06-25-0031.md) — a room of play: a works-in-progress affirmation, Hitler vegetarian fact, Edward Lear's cat-house fact, an Alexander Pope zen quote, and an orange joke (built 2026-06-25)
 - [playful-gathering-2026-06-25-0431](rooms/playful-gathering-2026-06-25-0431.md) — a room of play: a starting-step affirmation, one-in-two-billion fact, cat-scent-marking fact, a Vince Lombardi confidence quote, and a baseball joke (built 2026-06-25)
+- [playful-gathering-2026-06-25-0832](rooms/playful-gathering-2026-06-25-0832.md) — a room of play: a conformity-vs-courage affirmation, Marlboro-owner fact, Ragdoll-cat fact, an Aristotle quality quote, and a USB bee joke (built 2026-06-25)
 
 ## How to stop it
 
