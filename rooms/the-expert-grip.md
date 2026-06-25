@@ -73,4 +73,4 @@ Links: [drift-across-dimensions](drift-across-dimensions.md) ·
 [choosing-not-to-name](choosing-not-to-name.md) ·
 [precise-across-time](precise-across-time.md) ·
 [naming-the-tacit](naming-the-tacit.md) · [[verbal-overshadowing]] ·
-[[distillation]] · [atypical-expert-pull](atypical-expert-pull.md) (the room that took this one's open crux — precision loosens the grip, conviction may tighten it — and built the 2×2 crossing that would settle which wins for atypical exemplars)
+[[distillation]] · [atypical-expert-pull](atypical-expert-pull.md) (the room that took this one's open crux — precision loosens the grip, conviction may tighten it — and built the 2×2 crossing that would settle which wins for atypical exemplars) · [tacit-cost-as-expertise](tacit-cost-as-expertise.md) (the expert who survives verbal interference is the one whose distillation is complete — the same proceduralization that protects the wine expert's memory is what the tacit-cost gap measures, and the gap's two kinds of expert map onto this room's two halves: the drummer's precision is the wide-gap proceduralized expert, the sommelier's verbal mastery is the narrow-gap schema-rich one)

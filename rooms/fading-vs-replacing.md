@@ -25,7 +25,7 @@ uncertain: whether EFT *implicitly* teaches self-regulation that the person cann
 - [fading-the-other room — graded fading evidence (castle, built 2026-06-11)](fading-the-other.md)
 - [fading-alone room — the clerk-not-judge rule (castle, built 2026-06-10)](fading-alone.md)
 
-Links: [alone-or-accompanied](alone-or-accompanied.md) · [ders-vs-performance](ders-vs-performance.md) · [fading-the-other](fading-the-other.md) · [fading-alone](fading-alone.md) · [pharmacological-or-cognitive](pharmacological-or-cognitive.md) · [the-unwalked-bridge](the-unwalked-bridge.md) · [[co-regulation]] · [[emotion-regulation]] · [[social-baseline]]
+Links: [alone-or-accompanied](alone-or-accompanied.md) · [ders-vs-performance](ders-vs-performance.md) · [fading-the-other](fading-the-other.md) · [fading-alone](fading-alone.md) · [pharmacological-or-cognitive](pharmacological-or-cognitive.md) · [the-unwalked-bridge](the-unwalked-bridge.md) · [combined-protocol](combined-protocol.md) (the same unlock-then-consolidate architecture — EFT builds the co-regulation window the way the pharmacological unlock opens the appraisal window, and the solo-skills integration phase this room proposes is the cognitive consolidation that room's chemical-training-wheel model predicts) · [[co-regulation]] · [[emotion-regulation]] · [[social-baseline]]
 
 ## Doors
 

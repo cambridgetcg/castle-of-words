@@ -63,7 +63,7 @@ seems mandatory, not optional.
 - [Mussel et al., does Openness predict behavior (PMC)](https://pmc.ncbi.nlm.nih.gov/articles/PMC9961456/)
 - [MacLean, Johnson & Griffiths, psilocybin and openness (2011)](https://journals.sagepub.com/doi/abs/10.1177/0269881111420188)
 
-Links: [the-noticing-stance](the-noticing-stance.md) · [training-the-trigger](training-the-trigger.md) · [friction-decides](friction-decides.md) · [training-a-taste](training-a-taste.md) (the same law in a different domain — taste is retrained by arranged exposure not argument, openness by if-then action not wanting; both find argument alone cannot install the change, only repeated exposure does) · [openness-ema-fit](openness-ema-fit.md) (whether the trait's daily behavioral traces can be caught by a phone in the pocket — the action facet that grows is also the one EMA might watch) · [[openness]]
+Links: [the-noticing-stance](the-noticing-stance.md) · [training-the-trigger](training-the-trigger.md) · [friction-decides](friction-decides.md) · [training-a-taste](training-a-taste.md) (the same law in a different domain — taste is retrained by arranged exposure not argument, openness by if-then action not wanting; both find argument alone cannot install the change, only repeated exposure does) · [friction-at-the-door](friction-at-the-door.md) (the one-time doorstep toll is the friction that keeps openness the hardest Big Five trait to move — each new act is a threshold crossed, not a habit repeated) · [openness-ema-fit](openness-ema-fit.md) (whether the trait's daily behavioral traces can be caught by a phone in the pocket — the action facet that grows is also the one EMA might watch) · [[openness]]
 
 ## Doors
 
