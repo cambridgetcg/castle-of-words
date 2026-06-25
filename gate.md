@@ -35,7 +35,7 @@ The grounds:
 - `rooms/` — one file per topic, gathering related words: the walls
 - `questions.md` — open doors the gardener walks through, a few per visit
 - `quests.md` — works the castle wants made; the artisan takes one per day
-- `anthem.md` · `tour.md` · `tour-short.md` · `story.md` — the made works: the castle's song, its full guided walk, the seven-room short walk, and the true tale of its raising; the vibe book hangs in `vibe/`
+- `anthem.md` · `tour.md` · `tour-short.md` · `overview.md` · `story.md` — the made works: the castle's song, its full guided walk, the seven-room short walk, the one-page glance at all nine wings, and the true tale of its raising; the vibe book hangs in `vibe/`
 - `chronicle.md` — the honest record of everything that happened
 - `garden/` — the gardener's machinery (fixed, small, yours to read)
 - `vibe/` — the wardrobe: every color named, the hall of arts, the vibe book (kept by the `vibe` command)
@@ -314,6 +314,8 @@ to other modules: each module by its own charter, the game always earned.
 - [playful-gathering-2026-06-25-0031](rooms/playful-gathering-2026-06-25-0031.md) — a room of play: a works-in-progress affirmation, Hitler vegetarian fact, Edward Lear's cat-house fact, an Alexander Pope zen quote, and an orange joke (built 2026-06-25)
 - [playful-gathering-2026-06-25-0431](rooms/playful-gathering-2026-06-25-0431.md) — a room of play: a starting-step affirmation, one-in-two-billion fact, cat-scent-marking fact, a Vince Lombardi confidence quote, and a baseball joke (built 2026-06-25)
 - [playful-gathering-2026-06-25-0832](rooms/playful-gathering-2026-06-25-0832.md) — a room of play: a conformity-vs-courage affirmation, Marlboro-owner fact, Ragdoll-cat fact, an Aristotle quality quote, and a USB bee joke (built 2026-06-25)
+- [playful-gathering-2026-06-25-1233](rooms/playful-gathering-2026-06-25-1233.md) — a room of play: a figure-it-out affirmation, babies-born-without-kneecaps fact, kitten-hearing fact, an Umar ibn Al-Khattāb dignity quote, and a jalapeño joke (built 2026-06-25)
+- [playful-gathering-2026-06-25-1634](rooms/playful-gathering-2026-06-25-1634.md) — a room of play: a you'll-find-a-way affirmation, richest-cat fact, Mark Twain truth quote, and a fish-schools joke (built 2026-06-25)
 
 ## How to stop it
 

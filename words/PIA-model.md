@@ -1,0 +1,9 @@
+# PIA model
+
+The Pleasure–Interest Model of Aesthetic Liking says we like things through two separate routes: one that runs on ease (pleasure) and one that runs on challenge (interest) — and the two can pull in opposite directions.
+
+Graf & Landwehr (2015, 2017) formally separated *aesthetic pleasure* (driven by processing fluency — the smooth, effortless, gut-level liking of what is easy to process) from *aesthetic interest* (driven by processing effort — the attention-grabbing, curiosity-kindling response to what is novel, complex, or surprising). The two are distinct positive responses, not endpoints of one scale: a highly fluent stimulus produces pleasure but little interest; a disfluent (challenging) stimulus produces interest but little pleasure. Overall "liking" depends on which route the perceiver weights, and expertise shifts the weighting — trained viewers rely more on the interest route (appreciation of craft), novices more on the pleasure route (enjoyment of ease). The model predicts that for simple stimuli pleasure dominates liking; for complex stimuli interest can override pleasure and carry liking on its back.
+
+The model matters beyond aesthetics because the two routes name a tension the castle keeps returning to: naming a thing cools the pleasure route (disfluency is resolved, the gut response fades) while kindling the interest route (the label guides the eye to features that reward attention). The trained palate's tilt from pleasure to interest — beer, coffee, atonal music, difficult cinema — is the lived signature of the two routes separating, and the PIA model is the formal name for that separation.
+
+Links: [[fluency]] · [[appreciation]] · [[interest]] · [[processing-fluency]] · [[affect-labeling]] · [[exposure]]
