@@ -78,7 +78,7 @@ meta-analyses read it as null.
 - [Varied examples, not repeated ones, buy generalization](https://www.structural-learning.com/post/transfer-learning-complete-guide-teachers)
 - [Hug and bridge — combine context-rehearsal with principle-reflection](https://bns.institute/behavioural-sciences/transfer-of-learning-in-education/)
 
-Links: [training-the-trigger](training-the-trigger.md) · [linking-thoughts](linking-thoughts.md) · [asking-uphill](asking-uphill.md) · [training-the-eye](training-the-eye.md) · [when-the-trade-flips](when-the-trade-flips.md) · [two-windows](two-windows.md) (the distilled voice packs only as far as the learner is modelable — the AI student's learnability has never been correlated with a human's, and the two windows part where the model's limits diverge from the learner's)
+Links: [training-the-trigger](training-the-trigger.md) · [linking-thoughts](linking-thoughts.md) · [asking-uphill](asking-uphill.md) · [training-the-eye](training-the-eye.md) · [when-the-trade-flips](when-the-trade-flips.md)
 
 ## Doors
 
