@@ -1,13 +1,9 @@
 # co-regulation
 
-Calming down with someone's help instead of all by yourself.
+When two nervous systems share the work of staying steady — one body's calm lending its weight to another's storm — the regulation is not done alone but between.
 
-When two people interact warmly, each one's feelings — and even heartbeat and
-breath — lean on the other's, the way two people carrying a table each bear
-half the weight. Development runs through it: a child borrows a caregiver's
-steadiness until enough of it is built inside, and the borrowing is meant to
-taper. The risk the castle found is the borrowing that never ends — synchrony
-that feels good while the self-regulating muscle goes unexercised
-([fading-the-other](../rooms/fading-the-other.md)).
+Co-regulation is the process by which one person's physiological and emotional state helps regulate another's. It is the developmental root of self-regulation: infants cannot regulate themselves and depend on a caregiver's nervous system to do it with them. Social Baseline Theory (Coan, Beckes) frames the trusted partner as a bioenergetic resource — the brain, perceiving a trusted other, does not mount the full threat response in the first place, offloading vigilance and sharing the metabolic cost. Coan's handholding studies showed partner presence reduced the threat response (amygdala activation) before the threat was processed. Co-regulation is distinct from self-regulation (one system managing itself) and from emotion regulation (the broader term for any process that changes the intensity or shape of an emotion). The therapy that fixes the bond not the symptom — emotionally focused therapy — builds co-regulation as its core mechanism.
 
-Links: [[interoception]] · [[scaffolding]] · [[repair]] · [[social-baseline]]
+The emotion-regulation wing of the castle has traced this concept through eleven rooms. [fading-vs-replacing](../rooms/fading-vs-replacing.md) asked if the partner is a scaffold (to be faded) or a resource (to be replaced), and found Social Baseline Theory says the brain needs a replacement. [alone-or-accompanied](../rooms/alone-or-accompanied.md) designed the three-condition test (alone, partner-silent, partner-interacting) that would separate co-regulation from self-regulation. [solo-or-social-replacement](../rooms/solo-or-social-replacement.md) found the replacement splits into three social forms (group, community, internalized other). [internalized-as-skill](../rooms/internalized-as-skill.md) asked whether the internalized other is a trained skill or a developmental deposit. [general-voice-or-specific-presence](../rooms/general-voice-or-specific-presence.md) split the threat arc into prevention (partner presence dampens before the flood) and recovery (the trained voice soothes after). [the-unwalked-bridge](../rooms/the-unwalked-bridge.md) named the study that would close Tronick's lifespan claim: that adult repair rates predict internalization of the other's regulation. [the-mending-rhythm](../rooms/the-mending-rhythm.md) measured the rupture-and-repair rhythm that predicts relational outcomes. [fading-the-other](../rooms/fading-the-other.md) found the responsive human is the premise fading tests. [ders-vs-performance](../rooms/ders-vs-performance.md) named the cheapest EFT bridge design. [eft-regulation-performance](../rooms/eft-regulation-performance.md) found the self-report version sits in existing datasets but no trial used a performance task.
+
+Links: [[social-baseline]] · [[emotion-regulation]] · [[emotionally-focused-therapy]] · [[openness]] · [[mentalization]] · [[internalization]]
