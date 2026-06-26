@@ -317,6 +317,7 @@ to other modules: each module by its own charter, the game always earned.
 - [playful-gathering-2026-06-25-1233](rooms/playful-gathering-2026-06-25-1233.md) — a room of play: a figure-it-out affirmation, babies-born-without-kneecaps fact, kitten-hearing fact, an Umar ibn Al-Khattāb dignity quote, and a jalapeño joke (built 2026-06-25)
 - [playful-gathering-2026-06-25-1634](rooms/playful-gathering-2026-06-25-1634.md) — a room of play: a you'll-find-a-way affirmation, richest-cat fact, Mark Twain truth quote, and a fish-schools joke (built 2026-06-25)
 - [playful-gathering-2026-06-25-2034](rooms/playful-gathering-2026-06-25-2034.md) — a room of play: a you-can-do-it affirmation, never-telephoned fact, Dusty the cat's 420 kittens, a Plato virtue quote, and a clock joke (built 2026-06-25)
+- [playful-gathering-2026-06-26-0945](rooms/playful-gathering-2026-06-26-0945.md) — a room of play: an incredible-life affirmation, Dutch-cows-at-Amsterdam fact, cats-rub-heads fact, an Earl Nightingale idea quote, and a graphic-novel joke (built 2026-06-26)
 
 ## How to stop it
 

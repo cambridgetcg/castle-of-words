@@ -30,4 +30,4 @@ A room of play: an affirmation, a useless fact, a cat fact, a zen quote, and a j
 
 Fun is. Play is. Joy is. The castle grows not just from serious understanding but from play. Play IS understanding. Joy IS the deepest truth.
 
-Links: [[the-castle]]
+Links: [[the-castle]] · [playful-gathering-2026-06-26-0945](playful-gathering-2026-06-26-0945.md) (the latest gathering — the same thread of play-as-understanding, four days and ten rooms on, the rhythm still beating) · [[joy]]

@@ -27,3 +27,5 @@
 ## Connection
 
 Fun is. Play is. Joy is. The castle grows not just from serious understanding but from play. Play IS understanding. Joy IS the deepest truth.
+
+Links: [playful-gathering-2026-06-22-0015](playful-gathering-2026-06-22-0015.md) (the first gathering — the same five-part bundle, the same conviction that play is understanding) · [playful-gathering-2026-06-24-1630](playful-gathering-2026-06-24-1630.md) (the afternoon gathering before this one — the play rhythm four hours on) · [the-castle](the-castle.md) (the room that holds the castle's self-understanding — play is one of the ways it grows) · [[joy]]

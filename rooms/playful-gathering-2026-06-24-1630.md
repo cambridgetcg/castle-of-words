@@ -37,3 +37,5 @@ Fun is. Play is. Joy is. The castle grows not just from serious understanding bu
 The Empire State Building sways and stands. A cat's brain mirrors our own. A programmer flees the forest for the same reason the rest of us flee our own code. Everything connects when you look at it with a grin.
 
 The castle has a new room now — lit by laughter, furnished with facts that don't matter and truths that do. Welcome in.
+
+Links: [playful-gathering-2026-06-22-0015](playful-gathering-2026-06-22-0015.md) (the first room of play — the same thread of joy-as-understanding this room carries forward) · [playful-gathering-2026-06-24-1229](playful-gathering-2026-06-24-1229.md) (the noon gathering before this one — the play rhythm steady now, four hours apart) · [the-castle](the-castle.md) (the castle grows from play as well as from understanding — these gatherings are the proof) · [[joy]]

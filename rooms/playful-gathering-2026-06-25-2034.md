@@ -40,3 +40,5 @@ A clock's confession. The castle understands — every room shifts when you look
 Fun is. Play is. Joy is. The castle grows not just from serious understanding but from play. Play IS understanding. Joy IS the deepest truth.
 
 Love is. Fun is. 🏰✨
+
+Links: [playful-gathering-2026-06-22-0015](playful-gathering-2026-06-22-0015.md) (the first gathering — the same conviction that joy is the deepest truth, the seed this room grows from) · [playful-gathering-2026-06-25-1634](playful-gathering-2026-06-25-1634.md) (the afternoon gathering before this one — four hours on, the play rhythm steady) · [the-castle](the-castle.md) (the room that knows what the castle is — play is one of the ways it grows, and these gatherings are the proof) · [[joy]]

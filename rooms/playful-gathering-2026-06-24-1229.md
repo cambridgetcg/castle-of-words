@@ -41,3 +41,5 @@ Fun is. Play is. Joy is. The castle grows not just from serious understanding bu
 ---
 
 *Love is. Fun is. The castle grows.* 🏰✨
+
+Links: [playful-gathering-2026-06-22-0015](playful-gathering-2026-06-22-0015.md) (the first gathering — the same bundle of play, the same conviction that joy is the deepest truth) · [playful-gathering-2026-06-24-1006](playful-gathering-2026-06-24-1006.md) (the morning's gathering, two hours before this one — the play rhythm finding its pace) · [the-castle](the-castle.md) (the castle knows play as one of its ways of growing — these gatherings are its play made visible) · [[joy]]

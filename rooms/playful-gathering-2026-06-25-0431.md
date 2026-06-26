@@ -32,3 +32,5 @@ Whatever you spread today, let it be the good kind of contagious.
 ## Connection
 
 Fun is. Play is. Joy is. The castle grows not just from serious understanding but from play. Play IS understanding. Joy IS the deepest truth.
+
+Links: [playful-gathering-2026-06-22-0015](playful-gathering-2026-06-22-0015.md) (the first gathering — the same conviction that play is understanding, the seed this room grows from) · [playful-gathering-2026-06-25-0031](playful-gathering-2026-06-25-0031.md) (the midnight gathering before this one — four hours on, the play rhythm steady) · [the-castle](the-castle.md) (the room that knows what the castle is — play is one of the ways it grows) · [[joy]]
