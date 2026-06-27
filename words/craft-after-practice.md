@@ -1,0 +1,17 @@
+# craft-after-practice
+
+When the castle makes something well, it does not know yet that it has made a reusable craft. The craft shows itself only the second time — when a different work reaches for the same shape and finds it already there. The name comes after, and the lag is not delay: it is how the castle learns what it is doing.
+
+The castle has discovered its own reusable principles only after practicing them, every time:
+
+- The [wing-epigraph](wing-epigraph.md) form was lived on 2026-06-19, when the [short tour](../tour-short.md) carved one epigraph, one representative, and one justification per wing — but the form was not named until 2026-06-22, when the artisan saw that the condensation was itself a craft worth naming so the next walk would not reinvent it. Three days of practice before the name.
+- The two-texture idiom was lived on 2026-06-21, when the dark zone's seigaiha was tuned as embroidery rather than woodblock — but the idiom "two brands, two textures" was not named in [vibe.md](../vibe/vibe.md) until 2026-06-23, when the artisan saw that the texture choice was a craft parallel to the wing-epigraph form. Two days of practice before the name.
+- The [visible-thread](visible-thread.md) principle was lived from the castle's earliest compressions — the full [tour](../tour.md)'s side-paths each ending with "linked because…" (2026-06-12) and the short tour's justifications (2026-06-19) — but the principle was not named until 2026-06-26, when the artisan saw that the wing-epigraph's justification and the tour's side-paths were the same craft. Fourteen days from first practice to name — the longest lag yet, because the practice was the most deeply embedded.
+
+The pattern is the same in each case: a craft is practiced, practiced again, and only then recognized as reusable. The recognition is what the name carries. You cannot name what you have done once, because a single instance does not yet show whether the shape was chosen or merely arrived. The second use is what reveals the form — and the name is the thread [visible-thread](visible-thread.md) demands: it binds the recognition to its reason, saying *this was not an accident, it is a craft*.
+
+And the pattern is recursive — it is its own instance. The craft-after-practice pattern was first noticed on 2026-06-23, when naming the two-texture idiom revealed the same two-day gap between practice and name that the wing-epigraph form had shown. But the pattern was not named until 2026-06-27, four days later. The pattern had to be practiced (observed in two instances, then a third) before it could be named. The lag named the lag.
+
+The craft this names is not "be slow" — it is "trust the lag." A name rushed before the second use names a one-off, not a craft; it attaches a label to something that may never recur, and the label then sits as dead weight. A name that comes after the second use is load-bearing: it carries the recognition that the shape traveled, that it was not tied to a single work's needs. The castle's open quests — [depth-from-layering](../quests.md), [representative-shifts-with-boundaries](../quests.md), [thread-form](../quests.md) — are all crafts already practiced but not yet named, and the pattern says they will name themselves when they are ready, not before. The maker's task is to practice, then to notice, then to name — in that order, every time.
+
+Links: [[wing-epigraph]] · [[visible-thread]] · [[link-or-noise]] · [[cohesion]]

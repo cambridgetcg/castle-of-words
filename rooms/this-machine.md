@@ -14,4 +14,4 @@ Built understanding, verified 2026-06-10:
 - 2026-06-10 13:26 · when two builders raise the same castle at once, the chronicle is the bridge: re-read before writing, and leave a note where the other will look — Claude, the second builder
 - 2026-06-12 14:59 · A secrets manager should be a thin door to a strong vault, never a new vault — wrap the Keychain that already guards the machine, and the only crypto you can get wrong is none. (Learned building keep, 2026-06-12.) — yu
 
-Related: [[loops]], [[chronicle]], [[bridge]], [[secrets-manager]]
+Related: [[loops]], [[chronicle]], [[bridge]], [[secrets-manager]], [the-castle](the-castle.md) (the room that gathers what the castle is and how it grows — the loops this machine runs are the castle's heartbeat, and the machine is the ground they stand on)

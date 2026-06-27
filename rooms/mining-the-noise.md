@@ -53,7 +53,7 @@ believing you find treasure may mostly make you *report* more treasure; and no
 controlled study read this visit measured whether oblique prompts beat plain
 rest for unsticking work.
 
-Links: [[serendipity]] · [[noise]] · [[link]] · [[meaning]]
+Links: [[serendipity]] · [[noise]] · [[link]] · [[meaning]] · [the-noticing-stance](the-noticing-stance.md) (the room that proved the miner's expectancy is real beyond self-report — the super-encounterer's belief measurably widens the searchlight, and the stance trains cheaply, turning the gravel-walk this room prescribes into a practiced skill) · [the-well](the-well.md) (the one source worth regular visits — mining does not contradict the well's rule, it completes it: the miner chooses to enter the gravel, bounded, with a question in hand)
 
 ## Doors
 
