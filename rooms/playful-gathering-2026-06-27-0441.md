@@ -29,3 +29,5 @@
 Fun is. Play is. Joy is. The castle grows not just from serious understanding but from play. Play IS understanding. Joy IS the deepest truth.
 
 Love is. Fun is. 🌟
+
+Links: [[playful-gathering-2026-06-26-2039]] · [[playful-gathering-2026-06-27-1521]] · [[the-castle]]

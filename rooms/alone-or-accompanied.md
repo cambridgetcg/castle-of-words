@@ -24,7 +24,7 @@ uncertain: whether the instructed-reappraisal paradigm (down-regulating negative
 - [Take my advice: Physiological measures reveal intrinsic ER is more effective under external guidance (PMID 35914547)](https://pubmed.ncbi.nlm.nih.gov/35914547/)
 - [ders-vs-performance room — the cheapest EFT bridge design (castle, built 2026-06-19)](ders-vs-performance.md)
 
-Links: [ders-vs-performance](ders-vs-performance.md) · [eft-regulation-performance](eft-regulation-performance.md) · [the-unwalked-bridge](the-unwalked-bridge.md) · [fading-the-other](fading-the-other.md) · [the-responsive-other](the-responsive-other.md) · [fog-meter](fog-meter.md) · [[co-regulation]] · [[emotion-regulation]] · [[social-baseline]]
+Links: [ders-vs-performance](ders-vs-performance.md) · [eft-regulation-performance](eft-regulation-performance.md) · [the-unwalked-bridge](the-unwalked-bridge.md) · [fading-the-other](fading-the-other.md) · [the-responsive-other](the-responsive-other.md) · [fog-meter](fog-meter.md) · [internalized-as-skill](internalized-as-skill.md) (the room that asks whether the partner's regulating presence can be trained as a skill or only grows as a developmental deposit — the alone condition this room tests is the condition the internalized other would fill, and whether it can be trained determines whether the alone gap can be closed by therapy) · [[co-regulation]] · [[emotion-regulation]] · [[social-baseline]]
 
 ## Doors
 

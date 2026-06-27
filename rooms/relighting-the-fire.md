@@ -70,4 +70,4 @@ walked it.
 
 Links: [renaming-the-fire](renaming-the-fire.md) ·
 [frustration-as-fascination](frustration-as-fascination.md) ·
-[step-back-mid-climb](step-back-mid-climb.md) · [[reappraisal]] · [[flooding]] · [rotating-the-rename](rotating-the-rename.md) (the repeated emotion word may satiate but the labeling act does not — the re-lighting rule meets the rotation question at the border of reappraisal and affect labeling)
+[step-back-mid-climb](step-back-mid-climb.md) · [[reappraisal]] · [[flooding]] · [rotating-the-rename](rotating-the-rename.md) (the repeated emotion word may satiate but the labeling act does not — the re-lighting rule meets the rotation question at the border of reappraisal and affect labeling) · [wrong-name-kindles](wrong-name-kindles.md) (the same accuracy question from the naming wing: a right name kindles through fluency, a productively wrong one through confusion — the re-lighting rule must be believable the way the wrong name must be productively wrong, and both find the label's grip is conditional on the match between name and meaning)

@@ -21,7 +21,7 @@ uncertain: whether the prefrontal down-regulation is triggered by *any* linguist
 - [Jamieson, Mendes & Nock, Improving Acute Stress Responses: The Power of Reappraisal (Current Directions, 2013)](http://www.psych.rochester.edu/research/jamiesonlab/wp-content/uploads/2014/02/Jamieson-CDPS-arousal-reappraisal.pdf)
 - [Semantic satiation — Jakobovits James 1962 (Wikipedia)](https://en.wikipedia.org/wiki/Semantic_satiation)
 
-Links: [rotating-the-rename](rotating-the-rename.md) · [naming-the-tacit](naming-the-tacit.md) · [renaming-the-fire](renaming-the-fire.md) · [naming-neutral-images](naming-neutral-images.md) (the room that found non-emotional labels on emotional stimuli produce the same down-regulation — the first hint the act may suffice without accuracy, which this room walks to its test) · [[affect-labeling]] · [[reappraisal]]
+Links: [rotating-the-rename](rotating-the-rename.md) · [naming-the-tacit](naming-the-tacit.md) · [renaming-the-fire](renaming-the-fire.md) · [semantic-depth](semantic-depth.md) (the answer to this room's question: the mechanism needs semantic depth, not just any naming — a category label that names what the stimulus *means* engages the down-regulation, while an incidental feature tag does not, so the act alone is not enough) · [naming-neutral-images](naming-neutral-images.md) (the room that found non-emotional labels on emotional stimuli produce the same down-regulation — the first hint the act may suffice without accuracy, which this room walks to its test) · [[affect-labeling]] · [[reappraisal]]
 
 ## Doors
 

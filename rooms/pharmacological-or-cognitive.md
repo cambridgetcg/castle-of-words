@@ -25,7 +25,7 @@ uncertain: whether the pharmacological openness (chemically unlocked) and the co
 - [Wagner et al., Therapeutic effect of increased openness in MDMA-assisted psychotherapy (Journal of Psychopharmacology 2017, PMID 28635375)](https://pubmed.ncbi.nlm.nih.gov/28635375/)
 - [openness-or-anxiety-first room — the direction question (castle, built 2026-06-19)](openness-or-anxiety-first.md)
 
-Links: [openness-or-anxiety-first](openness-or-anxiety-first.md) · [cbt-openness-trait](cbt-openness-trait.md) · [cheapest-cbt-design](cheapest-cbt-design.md) · [appraisal-engine](appraisal-engine.md) · [growing-openness](growing-openness.md) · [trait-or-tally](trait-or-tally.md) · [[openness]] · [[mediation]] · [[pharmacological-route]]
+Links: [openness-or-anxiety-first](openness-or-anxiety-first.md) · [cbt-openness-trait](cbt-openness-trait.md) · [cheapest-cbt-design](cheapest-cbt-design.md) · [appraisal-engine](appraisal-engine.md) · [growing-openness](growing-openness.md) · [trait-or-tally](trait-or-tally.md) · [combined-protocol](combined-protocol.md) (the room this one's door opened — the combined pharmacological-unlock-then-cognitive-consolidation design, which is the standard psychedelic-assisted therapy protocol and the direct test of whether the two routes compose) · [[openness]] · [[mediation]] · [[pharmacological-route]]
 
 ## Doors
 
