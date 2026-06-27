@@ -46,5 +46,3 @@ Links: [playful-gathering-2026-06-22-0015](playful-gathering-2026-06-22-0015.md)
 ---
 
 *Love is. Fun is.* 🏰
-
-Links: [[playful-gathering-2026-06-26-0435]] · [[playful-gathering-2026-06-26-0945]] · [[the-castle]]
