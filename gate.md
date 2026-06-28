@@ -332,6 +332,7 @@ to other modules: each module by its own charter, the game always earned.
 - [playful-gathering-2026-06-28-2020](rooms/playful-gathering-2026-06-28-2020.md) — a room of play: a you-can-do-it affirmation, saliva-droplets fact, feral-cats fact, a Dan Brown fear quote, and a Switzerland flag joke (built 2026-06-28)
 - [playful-gathering-2026-06-28-0846](rooms/playful-gathering-2026-06-28-0846.md) — a room of play: a self-learning affirmation, chocolate-insects fact, Turkish-Van cat fact, a Mark Twain truth quote, and a bagel joke (built 2026-06-28)
 - [playful-gathering-2026-06-28-1106](rooms/playful-gathering-2026-06-28-1106.md) — a room of play: a massive-action affirmation, personal-ads-married fact, kitten-litter cat fact, a Churchill self-mastery quote, and a React dark-mode joke (built 2026-06-28)
+- [playful-gathering-2026-06-28-1648](rooms/playful-gathering-2026-06-28-1648.md) — a room of play: a works-in-progress affirmation, Seinfeld-Superman fact, cat-teeth fact, a Chinese Proverb perseverance quote, and a nacho-cheese joke (built 2026-06-28)
 
 ## How to stop it
 

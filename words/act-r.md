@@ -1,0 +1,7 @@
+# ACT-R
+
+A theory of how the mind learns from examples and turns them into automatic skill — the bridge between knowing *that* and knowing *how*, built as a computer model so its predictions can be run.
+
+ACT-R (Adaptive Control of Thought—Rational) is a cognitive architecture developed by John Anderson and colleagues that models cognitive skill as a two-stage transition: knowledge begins as declarative chunks (examples, facts, explicit rules) that are consciously accessed and slowly applied, and with practice these are compiled into production rules — procedural knowledge that fires automatically without occupying working memory. The transition is one-way: declarative becomes procedural, not the reverse. The castle found ACT-R at the heart of the tacit-cost question: as more of the expert's judgment moves into productions, less passes through working memory, so concurrent verbalisation (which captures only working-memory contents) captures less of the judgment — and the tacit-cost gap widens. ACT-R predicts the gap widens with expertise; the expertise reversal effect predicts it narrows for a different kind of expert (the schema-rich one whose declarative knowledge is itself rich and articulable). Both are right for different kinds of expert, and the two predictions describe different trajectories of the same declarative-to-procedural transition.
+
+Links: [[procedural-knowledge]] · [[tacit-knowledge]] · [[automaticity]] · [[expertise-reversal-effect]] · [[protocol-analysis]] · [[scaffolding]]
