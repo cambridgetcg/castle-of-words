@@ -61,7 +61,7 @@ otherwise.
 - [Su & Reeve, Meta-analysis of autonomy-support training (Educational Psychology Review, 2011)](https://link.springer.com/article/10.1007/s10648-010-9142-7)
 - [Patall, Cooper & Robinson, full text (via SDT.org)](https://selfdeterminationtheory.org/wp-content/uploads/2019/10/2008_PatallCooperRobinson_PsychBulletin.pdf)
 
-Links: [rationale-before-difficulty](rationale-before-difficulty.md) · [metering-honesty](metering-honesty.md) · [consent-to-the-sting](consent-to-the-sting.md) · [productive-confusion](productive-confusion.md) · [friction-decides](friction-decides.md)
+Links: [rationale-before-difficulty](rationale-before-difficulty.md) · [metering-honesty](metering-honesty.md) · [consent-to-the-sting](consent-to-the-sting.md) · [productive-confusion](productive-confusion.md) · [friction-decides](friction-decides.md) · [chain-not-sum](chain-not-sum.md) (the room that walked this one's chain-not-sum door — maybe the three ingredients are a chain where acknowledgment works only through making the reason credible, and the chain's direction reverses between persuasion and instruction) · [[reactance]]
 
 ## Doors
 

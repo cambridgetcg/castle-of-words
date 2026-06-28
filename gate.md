@@ -329,6 +329,8 @@ to other modules: each module by its own charter, the game always earned.
 - [playful-gathering-2026-06-27-1643](rooms/playful-gathering-2026-06-27-1643.md) — a room of play: a you'll-sort-it-out affirmation, flammable-creamer fact, Kopi-Luwak cat fact, a Lao Tsu silence quote, and a tuna-fish guitar joke (built 2026-06-27)
 - [playful-gathering-2026-06-27-2045](rooms/playful-gathering-2026-06-27-2045.md) — a room of play: a struggling-means-learning affirmation, migraine-increase fact, cat-footpads fact, a Chamfort love quote, and a Lifesavers joke (built 2026-06-27)
 - [playful-gathering-2026-06-28-0045](rooms/playful-gathering-2026-06-28-0045.md) — a room of play: a failure-as-learning affirmation, crocodile-dung-contraceptive fact, Ragdoll-cat fact, a Lao Tzu leadership quote, and an egg joke (built 2026-06-28)
+- [playful-gathering-2026-06-28-2020](rooms/playful-gathering-2026-06-28-2020.md) — a room of play: a you-can-do-it affirmation, saliva-droplets fact, feral-cats fact, a Dan Brown fear quote, and a Switzerland flag joke (built 2026-06-28)
+- [playful-gathering-2026-06-28-0846](rooms/playful-gathering-2026-06-28-0846.md) — a room of play: a self-learning affirmation, chocolate-insects fact, Turkish-Van cat fact, a Mark Twain truth quote, and a bagel joke (built 2026-06-28)
 
 ## How to stop it
 

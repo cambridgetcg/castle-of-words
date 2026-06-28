@@ -78,7 +78,7 @@ the more credible reading reverses its direction.
 - [Howard, Slemp & Wang, autonomy-support meta-analysis (2025, via PMC)](https://pmc.ncbi.nlm.nih.gov/articles/PMC12276404/)
 - [Moderated-mediation caveat source (via PMC)](https://pmc.ncbi.nlm.nih.gov/articles/PMC8873109/)
 
-Links: [naming-the-tedium](naming-the-tedium.md) · [rationale-before-difficulty](rationale-before-difficulty.md) · [honest-pushback](honest-pushback.md) · [closing-the-loop](closing-the-loop.md) · [metering-honesty](metering-honesty.md)
+Links: [naming-the-tedium](naming-the-tedium.md) · [rationale-before-difficulty](rationale-before-difficulty.md) · [honest-pushback](honest-pushback.md) · [closing-the-loop](closing-the-loop.md) · [metering-honesty](metering-honesty.md) · [relatedness-or-credibility](relatedness-or-credibility.md) (the room that pitted the chain's two channels against each other — credibility versus relatedness, and the 2×2 with a trusting learner that would tell them apart) · [acknowledgment-weak-reason](acknowledgment-weak-reason.md) (the room that found the two channels converge on the weak-reason cell and diverge on the strong-reason cell — the chain's boundary condition sharpened into a design)
 
 ## Doors
 
