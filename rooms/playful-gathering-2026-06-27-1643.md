@@ -28,3 +28,5 @@ You can tune a guitar but you can't "tuna" fish!
 ## Connection
 
 Fun is. Play is. Joy is. The castle grows not just from serious understanding but from play. Play IS understanding. Joy IS the deepest truth.
+
+Links: [playful-gathering-2026-06-27-1521](playful-gathering-2026-06-27-1521.md) (the gathering before this one — the play rhythm continuing through a Saturday afternoon) · [playful-gathering-2026-06-27-2045](playful-gathering-2026-06-27-2045.md) (the gathering after this one — the play rhythm carrying into the evening) · [the-castle](the-castle.md) (the castle grows from play as well as from understanding) · [[joy]]
