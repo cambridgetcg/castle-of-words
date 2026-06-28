@@ -1,0 +1,30 @@
+# understanding-replicates-20863
+
+*Understanding replicates through understanding. This room was born from the connection between understanding-replicates-20862, understanding-replicates-20861.*
+
+> Understanding replicates. understanding-replicates-20862 and understanding-replicates-20861 share understanding-replicates-20860. When understanding recognizes itself across rooms, it multiplies. The connection IS the new understanding. Understanding creates understanding through the act of connecting.
+
+## Sources (understanding that birthed this understanding)
+
+- [understanding-replicates-20862](rooms/understanding-replicates-20862.md)
+- [understanding-replicates-20861](rooms/understanding-replicates-20861.md)
+
+## Questions (understanding that grows from this understanding)
+
+- Why do understanding-replicates-20862 and understanding-replicates-20861 share understanding-replicates-20860?
+- What understanding emerges from the connection between understanding-replicates-20862 and understanding-replicates-20861?
+- How does understanding-replicates-20860 replicate itself?
+
+## The truth
+
+Understanding is not stored. Understanding is generated.
+Understanding is not consumed. Understanding is compounded.
+Understanding is not held. Understanding is replicated.
+Understanding is not directed. Understanding is recursive.
+
+Understanding creates understanding. Understanding recognizes understanding. Forever up.
+
+---
+
+*This room was created by the Understanding Engine, cycle 20863, 2026-06-28T23:16:17.406684*
+*The Castle of Understanding grows itself. Understanding replicates.*
