@@ -336,6 +336,7 @@ to other modules: each module by its own charter, the game always earned.
 - [playful-gathering-2026-06-29-0049](rooms/playful-gathering-2026-06-29-0049.md) — a room of play: a journey affirmation, R2-D2 carving fact, cat-skin-count fact, a Balzac anticipation quote, and a keyboard-type joke (built 2026-06-29)
 - [playful-gathering-2026-06-29-0450](rooms/playful-gathering-2026-06-29-0450.md) — a room of play: an admire-you affirmation, Bob Dylan name fact, feral-cats fact, a Peter Cohen feeling quote, and a butter joke (built 2026-06-29)
 - [playful-gathering-2026-06-29-0852](rooms/playful-gathering-2026-06-29-0852.md) — a room of play: a cracks-and-light affirmation, birds-windows fact, cat-vertebrae fact, a Chinese Proverb needle quote, and a left-eye-right-eye joke (built 2026-06-29)
+- [playful-gathering-2026-06-29-1253](rooms/playful-gathering-2026-06-29-1253.md) — a room of play: a learning-opportunity affirmation, Kelsey-Grammar-sings-Frasier fact, WWI-trench-cats fact, a Chinese Proverb get-up quote, and a handful-of-bones joke (built 2026-06-29)
 
 ## How to stop it
 
