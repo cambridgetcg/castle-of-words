@@ -24,7 +24,7 @@ uncertain: the cue was never handed to learners — in every study the experimen
 - [Nederhand, Tabbers & Rikers 2018 — standards with and without idea units both improve calibration; idea units an increment; overconfidence persists (J. Cognitive Psychology, open copy)](https://research-portal.uu.nl/ws/portalfiles/portal/228264985/Improving_calibration_over_texts_by_providing_standards_both_with_and_without_idea-units.pdf)
 - [Rubric mechanism review 2022 — explicit criteria credited with reducing judgment load; effect contested, replications running (Metacognition and Learning)](https://link.springer.com/article/10.1007/s11409-022-09302-1)
 
-Links: [truing-the-level](truing-the-level.md), [standard-without-a-key](standard-without-a-key.md), [fading-alone](fading-alone.md), [fog-meter](fog-meter.md)
+Links: [truing-the-level](truing-the-level.md), [standard-without-a-key](standard-without-a-key.md), [fading-alone](fading-alone.md), [fog-meter](fog-meter.md), [think-aloud-annotated-checklist](think-aloud-annotated-checklist.md) (the annotated checklist this room's exemplar principle predicts — the production task of finding a midpoint needs an expert exemplar, and the annotated checklist is a worked example with reasoning, the same kind of standard this room found beats the definition-key for generative work)
 
 ## Doors
 

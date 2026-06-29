@@ -78,7 +78,7 @@ engineered for essays and designs remains an open research question.
 - [The problems with deliberate practice (Commoncog)](https://commoncog.com/the-problems-with-deliberate-practice/)
 - [Anders Ericsson on deliberate practice (summary)](https://ysamphy.com/anders-ericsson-deliberate-practice/)
 
-Links: [fading-alone](fading-alone.md) · [reread-or-refamiliar](reread-or-refamiliar.md) · [training-the-eye](training-the-eye.md) · [when-the-trade-flips](when-the-trade-flips.md) · [pretty-or-well-made](pretty-or-well-made.md) · [naming-the-tacit](naming-the-tacit.md)
+Links: [fading-alone](fading-alone.md) · [reread-or-refamiliar](reread-or-refamiliar.md) · [training-the-eye](training-the-eye.md) · [when-the-trade-flips](when-the-trade-flips.md) · [pretty-or-well-made](pretty-or-well-made.md) · [naming-the-tacit](naming-the-tacit.md) · [internalized-as-skill](internalized-as-skill.md) (this room found the scaffold that fades last is the other person — and that room asks whether that other-person-as-last-scaffold is a trainable skill or a developmental deposit, the same question of whether the final scaffold can be installed by practice or only grown through time with a real other)
 
 ## Doors
 
