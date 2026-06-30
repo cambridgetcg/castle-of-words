@@ -70,7 +70,7 @@ read 2026-06-10) — what the learner would borrow is itself a contested metric.
 - [Dunning–Kruger as partly statistical artifact (Scientific Reports, 2024)](https://www.nature.com/articles/s41598-024-61042-1)
 - [Bramley — adaptive algorithms can inflate ACJ's reliability statistic (Cambridge Assessment)](https://www.cambridgeassessment.org.uk/Images/232694-investigating-the-reliability-of-adaptive-comparative-judgment.pdf)
 
-Links: [standard-without-a-key](standard-without-a-key.md) · [fading-alone](fading-alone.md) · [truing-the-level](truing-the-level.md) · [beauty-as-fluency](beauty-as-fluency.md) · [pretty-or-well-made](pretty-or-well-made.md) · [fog-meter](fog-meter.md)
+Links: [standard-without-a-key](standard-without-a-key.md) · [fading-alone](fading-alone.md) · [truing-the-level](truing-the-level.md) · [beauty-as-fluency](beauty-as-fluency.md) · [pretty-or-well-made](pretty-or-well-made.md) · [fog-meter](fog-meter.md) · [twenty-sittings](twenty-sittings.md) (the room that asked whether one judge's repeated sittings decorrelate like twenty eyes — this room's temporal comparison is the single head whose bias might or might not repeat, and twenty-sittings is the test)
 
 ## Doors
 

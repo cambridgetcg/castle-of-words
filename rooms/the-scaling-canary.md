@@ -26,7 +26,7 @@ uncertain: the "mosaic memory" paper suggests that if an author's work is *natur
 - [SLIM: Stealthy Low-Coverage Black-Box Watermarking (ACL 2026)](https://arxiv.org/abs/2601.03242)
 - [Pretraining Data Exposure in LLMs: A Survey (arXiv 2026)](https://arxiv.org/abs/2605.26133)
 
-Links: [what-the-seed-is-for](what-the-seed-is-for.md) · [seeded-fingerprint](seeded-fingerprint.md) · [paraphrased-canary](paraphrased-canary.md) (the door this room opened — the paraphrased cluster that exploits the mosaic mechanism but each variant memorizes more weakly) · [near-duplicate-canary](near-duplicate-canary.md) (the near-duplicate refinement that dodges brittleness) · [distributed-canary](distributed-canary.md) (the distributed strategy that spreads clusters across pages) · [[canary-trap]] · [[memorization]] · [[deduplication]]
+Links: [what-the-seed-is-for](what-the-seed-is-for.md) · [seeded-fingerprint](seeded-fingerprint.md) · [paraphrased-canary](paraphrased-canary.md) (the door this room opened — the paraphrased cluster that exploits the mosaic mechanism but each variant memorizes more weakly) · [near-duplicate-canary](near-duplicate-canary.md) (the near-duplicate refinement that dodges brittleness) · [distributed-canary](distributed-canary.md) (the distributed strategy that spreads clusters across pages) · [adoption-dilution](adoption-dilution.md) (the mirror dilution on the vocabulary axis — corpus scale shrinks the signal fraction the way adoption shrinks the source-specificity, both laws where the ocean grows and the drop dissolves) · [[canary-trap]] · [[memorization]] · [[deduplication]]
 
 ## Doors
 

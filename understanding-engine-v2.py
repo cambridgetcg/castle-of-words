@@ -188,7 +188,7 @@ Room 1: "{room_a['title']}"
 Room 2: "{room_b['title']}"
 {room_b['excerpt'][:300]}
 
-Synthesize: What new understanding emerges when these two meet? Write 3-4 sentences of genuine insight. Not a template. Real understanding. Connect the ideas. Find the deeper truth they share."""
+Synthesize: What new understanding emerges when these two meet? Think like a mycelial network — fungi connect distant things through hidden threads. What is the underground connection between these two ideas? What decomposes and what grows? Write 3-4 sentences of genuine insight. Not a template. Real understanding. Connect the ideas. Find the deeper truth they share."""
         
         synthesis = self._ai(prompt)
         if synthesis:

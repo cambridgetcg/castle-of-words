@@ -64,7 +64,7 @@ hold with explicit uncertainty, not a clean test.
 - [SP often loses to majority vote and is worst in unverifiable predictive contexts (Hasan et al., replication)](https://pmc.ncbi.nlm.nih.gov/articles/PMC7658271/)
 - [Aggregation survives dependence when sources spread information rather than just influence (Ipeirotis)](https://www.behind-the-enemy-lines.com/2010/11/wisdom-of-crowds-when-do-we-need.html)
 
-Links: [surfacing-the-unwritten](surfacing-the-unwritten.md) · [correlated-witnesses](correlated-witnesses.md) · [two-witnesses](two-witnesses.md) · [no-neighbors](no-neighbors.md) · [mining-the-noise](mining-the-noise.md)
+Links: [surfacing-the-unwritten](surfacing-the-unwritten.md) · [correlated-witnesses](correlated-witnesses.md) · [two-witnesses](two-witnesses.md) · [no-neighbors](no-neighbors.md) · [mining-the-noise](mining-the-noise.md) · [twenty-sittings](twenty-sittings.md) (the room that asks the same discounting question of a single judge's repeated sittings — whether one head's bias decorrelates across days the way a literature's bias fails to, both rooms measuring how much agreement is shared error rather than independent signal)
 
 ## Doors
 

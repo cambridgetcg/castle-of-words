@@ -83,7 +83,7 @@ like polish — rather than a knowledge error — is untested.
 - [Herzog & Hertwig, The Crowd Within and the Benefits of Dialectical Bootstrapping: A Reply to White and Antonakis (Psychological Science, 2013)](https://www.researchgate.net/publication/233805408_The_Crowd_Within_and_the_Benefits_of_Dialectical_Bootstrapping_A_Reply_to_White_and_Antonakis_2013)
 - [Efendić & Van de Calseyde, Tap into the Wisdom of Your 'Inner Crowd' (Behavioral Scientist)](https://behavioralscientist.org/tap-into-the-wisdom-of-your-inner-crowd/)
 
-Links: [better-than-i-was](better-than-i-was.md) · [standard-without-a-key](standard-without-a-key.md) · [inner-crowd](../words/inner-crowd.md) · [clerk](../words/clerk.md) · [calibration](../words/calibration.md) · [fading-alone](fading-alone.md)
+Links: [better-than-i-was](better-than-i-was.md) · [standard-without-a-key](standard-without-a-key.md) · [inner-crowd](../words/inner-crowd.md) · [clerk](../words/clerk.md) · [calibration](../words/calibration.md) · [fading-alone](fading-alone.md) · [reading-a-literature](reading-a-literature.md) (the room that discounts a field's consensus the way this room discounts one judge's first impression — both ask how much agreement is real signal versus shared bias, one across a literature of witnesses, the other across sittings of a single mind)
 
 ## Doors
 
