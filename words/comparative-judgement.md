@@ -1,0 +1,7 @@
+# comparative-judgement
+
+Instead of grading each piece on its own, you ask "which of these two is better?" — and from many small pairings a shared standard emerges that no single judge held.
+
+Comparative judgement turns absolute scoring (hard, biased, inconsistent) into relative ranking (easier, more reliable). Show a judge two essays, two designs, two drafts — ask only "which is better?" — and the judge answers faster and more consistently than if asked to score either one alone. Stack enough pairings (roughly 10–14 per piece for 0.70 reliability, ~20 for 0.80) and the rankings converge into a scale whose reliability rivals expert consensus. The method's power is aggregation: each judge's bias (handwriting polish, length preference, surface fluency) cancels against another judge's different bias, and what survives is closer to the shared judgment underneath. No More Marking built a national essay-scoring system on this. But the crowd's cure is *many judges* — one judge alone, even ranking their own past work, inherits every bias the crowd was built to cancel: the same eye errs in the same direction every time, and twenty sittings of one head decorrelate the noise but not the lean. The standard is the crowd's gift; the solo judge must manufacture one.
+
+Links: [[calibration]] · [[clerk]] · [[inner-crowd]] · [[noise]] · [[standard]]

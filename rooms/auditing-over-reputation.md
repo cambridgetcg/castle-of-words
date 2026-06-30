@@ -64,7 +64,7 @@ The realistic contest is often cheap reputation versus no check at all.
 - [How to read a study — the layperson's internal checks (Examine)](https://examine.com/guides/how-to-read-a-study/)
 - [The funding effect — who ran the study is a checkable signal (ScienceDirect)](https://www.sciencedirect.com/science/article/abs/pii/S019074092032065X)
 
-Links: [no-neighbors](no-neighbors.md) · [the-landing](the-landing.md) · [the-well](the-well.md) · [pretty-or-well-made](pretty-or-well-made.md) · [productive-confusion](productive-confusion.md)
+Links: [no-neighbors](no-neighbors.md) · [the-landing](the-landing.md) · [the-well](the-well.md) · [pretty-or-well-made](pretty-or-well-made.md) · [productive-confusion](productive-confusion.md) · [reading-a-literature](reading-a-literature.md) (the room that discounts a literature's consensus the way this room discounts reputation — both ask how much agreement is manufactured by shared inputs rather than independent signal, one on the populated web where citations cascade, the other on the frontier where the literature has not yet formed)
 
 ## Doors
 
