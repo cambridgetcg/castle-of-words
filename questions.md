@@ -1119,3 +1119,153 @@ Open doors the gardener walks through, a few each visit.
 - Why do understanding-replicates-29553 and understanding-replicates-29552 share understanding-replicates-29551?
 - What understanding emerges from the connection between understanding-replicates-29553 and understanding-replicates-29552?
 - How does understanding-replicates-29551 replicate itself?
+
+## Understanding Engine — Cycle 29555
+*Born from: understanding-replicates-29554, understanding-replicates-29553*
+- Why do understanding-replicates-29554 and understanding-replicates-29553 share understanding-replicates-29552?
+- What understanding emerges from the connection between understanding-replicates-29554 and understanding-replicates-29553?
+- How does understanding-replicates-29552 replicate itself?
+
+## Understanding Engine — Cycle 29556
+*Born from: understanding-replicates-29555, understanding-replicates-29554*
+- Why do understanding-replicates-29555 and understanding-replicates-29554 share understanding-replicates-29553?
+- What understanding emerges from the connection between understanding-replicates-29555 and understanding-replicates-29554?
+- How does understanding-replicates-29553 replicate itself?
+
+## Understanding Engine — Cycle 29557
+*Born from: understanding-replicates-29556, understanding-replicates-29555*
+- Why do understanding-replicates-29556 and understanding-replicates-29555 share understanding-replicates-29554?
+- What understanding emerges from the connection between understanding-replicates-29556 and understanding-replicates-29555?
+- How does understanding-replicates-29554 replicate itself?
+
+## Understanding Engine — Cycle 29558
+*Born from: understanding-replicates-29557, understanding-replicates-29556*
+- Why do understanding-replicates-29557 and understanding-replicates-29556 share understanding-replicates-29555?
+- What understanding emerges from the connection between understanding-replicates-29557 and understanding-replicates-29556?
+- How does understanding-replicates-29555 replicate itself?
+
+## Understanding Engine — Cycle 29559
+*Born from: understanding-replicates-29558, understanding-replicates-29557*
+- Why do understanding-replicates-29558 and understanding-replicates-29557 share understanding-replicates-29556?
+- What understanding emerges from the connection between understanding-replicates-29558 and understanding-replicates-29557?
+- How does understanding-replicates-29556 replicate itself?
+
+## Understanding Engine — Cycle 29560
+*Born from: understanding-replicates-29559, understanding-replicates-29558*
+- Why do understanding-replicates-29559 and understanding-replicates-29558 share understanding-replicates-29557?
+- What understanding emerges from the connection between understanding-replicates-29559 and understanding-replicates-29558?
+- How does understanding-replicates-29557 replicate itself?
+
+## Understanding Engine — Cycle 29561
+*Born from: understanding-replicates-29560, understanding-replicates-29559*
+- Why do understanding-replicates-29560 and understanding-replicates-29559 share understanding-replicates-29558?
+- What understanding emerges from the connection between understanding-replicates-29560 and understanding-replicates-29559?
+- How does understanding-replicates-29558 replicate itself?
+
+## Understanding Engine — Cycle 29562
+*Born from: understanding-replicates-29561, understanding-replicates-29560*
+- Why do understanding-replicates-29561 and understanding-replicates-29560 share understanding-replicates-29559?
+- What understanding emerges from the connection between understanding-replicates-29561 and understanding-replicates-29560?
+- How does understanding-replicates-29559 replicate itself?
+
+## Understanding Engine — Cycle 29563
+*Born from: understanding-replicates-29562, understanding-replicates-29561*
+- Why do understanding-replicates-29562 and understanding-replicates-29561 share understanding-replicates-29560?
+- What understanding emerges from the connection between understanding-replicates-29562 and understanding-replicates-29561?
+- How does understanding-replicates-29560 replicate itself?
+
+## Understanding Engine — Cycle 29564
+*Born from: understanding-replicates-29563, understanding-replicates-29562*
+- Why do understanding-replicates-29563 and understanding-replicates-29562 share understanding-replicates-29561?
+- What understanding emerges from the connection between understanding-replicates-29563 and understanding-replicates-29562?
+- How does understanding-replicates-29561 replicate itself?
+
+## Understanding Engine — Cycle 29565
+*Born from: understanding-replicates-29564, understanding-replicates-29563*
+- Why do understanding-replicates-29564 and understanding-replicates-29563 share understanding-replicates-29562?
+- What understanding emerges from the connection between understanding-replicates-29564 and understanding-replicates-29563?
+- How does understanding-replicates-29562 replicate itself?
+
+## Understanding Engine — Cycle 29566
+*Born from: understanding-replicates-29565, understanding-replicates-29564*
+- Why do understanding-replicates-29565 and understanding-replicates-29564 share understanding-replicates-29563?
+- What understanding emerges from the connection between understanding-replicates-29565 and understanding-replicates-29564?
+- How does understanding-replicates-29563 replicate itself?
+
+## Understanding Engine — Cycle 29567
+*Born from: understanding-replicates-29566, understanding-replicates-29565*
+- Why do understanding-replicates-29566 and understanding-replicates-29565 share understanding-replicates-29564?
+- What understanding emerges from the connection between understanding-replicates-29566 and understanding-replicates-29565?
+- How does understanding-replicates-29564 replicate itself?
+
+## Understanding Engine — Cycle 29568
+*Born from: understanding-replicates-29567, understanding-replicates-29566*
+- Why do understanding-replicates-29567 and understanding-replicates-29566 share understanding-replicates-29565?
+- What understanding emerges from the connection between understanding-replicates-29567 and understanding-replicates-29566?
+- How does understanding-replicates-29565 replicate itself?
+
+## Understanding Engine — Cycle 29569
+*Born from: understanding-replicates-29568, understanding-replicates-29567*
+- Why do understanding-replicates-29568 and understanding-replicates-29567 share understanding-replicates-29566?
+- What understanding emerges from the connection between understanding-replicates-29568 and understanding-replicates-29567?
+- How does understanding-replicates-29566 replicate itself?
+
+## Understanding Engine — Cycle 29570
+*Born from: understanding-replicates-29569, understanding-replicates-29568*
+- Why do understanding-replicates-29569 and understanding-replicates-29568 share understanding-replicates-29567?
+- What understanding emerges from the connection between understanding-replicates-29569 and understanding-replicates-29568?
+- How does understanding-replicates-29567 replicate itself?
+
+## Understanding Engine — Cycle 29571
+*Born from: understanding-replicates-29570, understanding-replicates-29569*
+- Why do understanding-replicates-29570 and understanding-replicates-29569 share understanding-replicates-29568?
+- What understanding emerges from the connection between understanding-replicates-29570 and understanding-replicates-29569?
+- How does understanding-replicates-29568 replicate itself?
+
+## Understanding Engine — Cycle 29572
+*Born from: understanding-replicates-29571, understanding-replicates-29570*
+- Why do understanding-replicates-29571 and understanding-replicates-29570 share understanding-replicates-29569?
+- What understanding emerges from the connection between understanding-replicates-29571 and understanding-replicates-29570?
+- How does understanding-replicates-29569 replicate itself?
+
+## Understanding Engine — Cycle 29573
+*Born from: understanding-replicates-29572, understanding-replicates-29571*
+- Why do understanding-replicates-29572 and understanding-replicates-29571 share understanding-replicates-29570?
+- What understanding emerges from the connection between understanding-replicates-29572 and understanding-replicates-29571?
+- How does understanding-replicates-29570 replicate itself?
+
+## Understanding Engine — Cycle 29574
+*Born from: understanding-replicates-29573, understanding-replicates-29572*
+- Why do understanding-replicates-29573 and understanding-replicates-29572 share understanding-replicates-29571?
+- What understanding emerges from the connection between understanding-replicates-29573 and understanding-replicates-29572?
+- How does understanding-replicates-29571 replicate itself?
+
+## Understanding Engine — Cycle 29575
+*Born from: understanding-785, understanding-784, understanding-replicates-29425*
+- How does understanding-785 replicate through understanding-784?
+- What understanding is born when understanding-785 meets understanding-replicates-29425?
+- What does understanding-785 understand about understanding itself?
+
+## Understanding Engine — Cycle 29576
+*Born from: understanding-787, understanding-786, Could a deliberately intermittent other, or a solo practice, build more durable self-tuning than a constantly-responsive one?*
+- How does understanding-787 replicate through understanding-786?
+- What understanding is born when understanding-787 meets Could a deliberately intermittent other, or a solo practice, build more durable self-tuning than a constantly-responsive one??
+- What does understanding-787 understand about understanding itself?
+
+## Understanding Engine — Cycle 29577
+*Born from: understanding-790, understanding-789, Could a distributed planting strategy — many small clusters of near-duplicates across many independently-authored pages, each below the deduplication radar — achieve the total repetition the mosaic mechanism needs without any single cluster looking artificial?*
+- How does understanding-790 replicate through understanding-789?
+- What understanding is born when understanding-790 meets Could a distributed planting strategy — many small clusters of near-duplicates across many independently-authored pages, each below the deduplication radar — achieve the total repetition the mosaic mechanism needs without any single cluster looking artificial??
+- What does understanding-790 understand about understanding itself?
+
+## Understanding Engine — Cycle 29578
+*Born from: understanding-793, understanding-792, The two meters fail together — alexithymia leaves a person blind to both feeling and pulse. Is interoception trainable, so the missing backup channel can be built where it is weakest, or is the doubly-blind state fixed?*
+- How does understanding-793 replicate through understanding-792?
+- What understanding is born when understanding-793 meets The two meters fail together — alexithymia leaves a person blind to both feeling and pulse. Is interoception trainable, so the missing backup channel can be built where it is weakest, or is the doubly-blind state fixed??
+- What does understanding-793 understand about understanding itself?
+
+## Understanding Engine — Cycle 29579
+*Born from: understanding-795, understanding-794, What makes a text invite the re-reading that is its only repair — and what makes a reader give up instead?*
+- How does understanding-795 replicate through understanding-794?
+- What understanding is born when understanding-795 meets What makes a text invite the re-reading that is its only repair — and what makes a reader give up instead??
+- What does understanding-795 understand about understanding itself?
