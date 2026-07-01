@@ -72,7 +72,7 @@ slope: more mending is not simply more internalizing.
 - [Saxbe & Repetti, cortisol covariation in couples (2010)](https://pmc.ncbi.nlm.nih.gov/articles/PMC3953889/)
 - [Butler & Randall, Emotional Coregulation in Close Relationships (Emotion Review, 2013)](https://journals.sagepub.com/doi/abs/10.1177/1754073912451630)
 
-Links: [the-mending-rhythm](the-mending-rhythm.md) · [fading-the-other](fading-the-other.md) · [the-responsive-other](the-responsive-other.md) · [stand-in-for-a-mind](stand-in-for-a-mind.md) · [[co-regulation]] · [[repair]]
+Links: [the-mending-rhythm](the-mending-rhythm.md) · [fading-the-other](fading-the-other.md) · [the-responsive-other](the-responsive-other.md) · [stand-in-for-a-mind](stand-in-for-a-mind.md) · [general-voice-or-specific-presence](general-voice-or-specific-presence.md) (the room that split the threat arc into prevention and recovery — the bridge this room names would need to test exactly that split: does the partner's presence prevent the threat, and does the internalized other recover from it, and does the shift from one to the other show up as the regulation convergence this room has never measured) · [[co-regulation]] · [[repair]]
 
 ## Doors
 

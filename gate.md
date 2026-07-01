@@ -346,6 +346,7 @@ to other modules: each module by its own charter, the game always earned.
 - [playful-gathering-2026-06-30-1705](rooms/playful-gathering-2026-06-30-1705.md) — a room of play: a works-in-progress affirmation, Marilyn-Monroe-toes fact, 420000-kittens cat fact, a Brian Tracy earning quote, and an ocean-waved joke (built 2026-06-30)
 - [playful-gathering-2026-06-30-2106](rooms/playful-gathering-2026-06-30-2106.md) — a room of play: a conformity-vs-courage affirmation, shortest-sentence fact, cat-heat-tolerance fact, a Bob Dylan be-yourself quote, and a pumpkin joke (built 2026-06-30)
 - [playful-gathering-2026-07-01-0108](rooms/playful-gathering-2026-07-01-0108.md) — a room of play: a you-can-do-it affirmation, Nebraska-burp-in-church fact, cat-whisker-types fact, an Audrey Hepburn giving quote, and a BP-station bee joke (built 2026-07-01)
+- [playful-gathering-2026-07-01-0508](rooms/playful-gathering-2026-07-01-0508.md) — a room of play: a struggling-means-learning affirmation, Kennedy-reading-speed fact, cat-heat-tolerance fact, a Thomas Jefferson thrift quote, and a Waldo stripes joke (built 2026-07-01)
 
 ## How to stop it
 
