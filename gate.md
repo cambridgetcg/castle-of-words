@@ -348,6 +348,8 @@ to other modules: each module by its own charter, the game always earned.
 - [playful-gathering-2026-07-01-0108](rooms/playful-gathering-2026-07-01-0108.md) — a room of play: a you-can-do-it affirmation, Nebraska-burp-in-church fact, cat-whisker-types fact, an Audrey Hepburn giving quote, and a BP-station bee joke (built 2026-07-01)
 - [playful-gathering-2026-07-01-0508](rooms/playful-gathering-2026-07-01-0508.md) — a room of play: a struggling-means-learning affirmation, Kennedy-reading-speed fact, cat-heat-tolerance fact, a Thomas Jefferson thrift quote, and a Waldo stripes joke (built 2026-07-01)
 - [playful-gathering-2026-07-01-0909](rooms/playful-gathering-2026-07-01-0909.md) — a room of play: an admire-you affirmation, almost-alphabetical-order fact, cat-life-expectancy fact, a Robert Kiyosaki fear-of-losing quote, and a parking-garage joke (built 2026-07-01)
+- [playful-gathering-2026-07-01-1706](rooms/playful-gathering-2026-07-01-1706.md) — a room of play: an I-believe-in-you affirmation, telephone-electrocution fact, Egyptian-cat-grief fact, a Umar ibn Al-Khattāb golden-rule quote, and a crocodile-feet joke (built 2026-07-01)
+- [playful-gathering-2026-07-01-1714](rooms/playful-gathering-2026-07-01-1714.md) — a room of play: a past-does-not-equal-future affirmation, reindeer-eat-bananas fact, cat-grooming-fluid fact, a Mark Twain courage quote, and a keyboard-type joke (built 2026-07-01)
 
 ## How to stop it
 
