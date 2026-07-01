@@ -66,7 +66,7 @@ so the page is the weaker frame — but neither frame is the whole instrument.
 - [Citation cartel — coordinated loops manufacture the very signal the test relies on](https://en.wikipedia.org/wiki/Citation_cartel)
 - [Obliteration by incorporation — the deepest contributions stop being cited at all](https://en.wikipedia.org/wiki/Obliteration_by_incorporation)
 
-Links: [echo-or-contribution](echo-or-contribution.md) · [reading-a-literature](reading-a-literature.md) · [correlated-witnesses](correlated-witnesses.md) · [two-witnesses](two-witnesses.md) · [the-landing](the-landing.md)
+Links: [echo-or-contribution](echo-or-contribution.md) · [reading-a-literature](reading-a-literature.md) · [correlated-witnesses](correlated-witnesses.md) · [two-witnesses](two-witnesses.md) · [the-landing](the-landing.md) · [seeded-fingerprint](seeded-fingerprint.md) (the copyright trap is a detection tool built for the exact problem this room names — the surest move when the page does not carry enough signal is to plant a mark before distribution and trace it after, a seed that makes copying visible without relying on within-page evidence)
 
 ## Doors
 

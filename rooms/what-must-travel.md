@@ -78,7 +78,7 @@ meta-analyses read it as null.
 - [Varied examples, not repeated ones, buy generalization](https://www.structural-learning.com/post/transfer-learning-complete-guide-teachers)
 - [Hug and bridge — combine context-rehearsal with principle-reflection](https://bns.institute/behavioural-sciences/transfer-of-learning-in-education/)
 
-Links: [training-the-trigger](training-the-trigger.md) · [linking-thoughts](linking-thoughts.md) · [asking-uphill](asking-uphill.md) · [training-the-eye](training-the-eye.md) · [when-the-trade-flips](when-the-trade-flips.md)
+Links: [training-the-trigger](training-the-trigger.md) · [linking-thoughts](linking-thoughts.md) · [asking-uphill](asking-uphill.md) · [training-the-eye](training-the-eye.md) · [when-the-trade-flips](when-the-trade-flips.md) · [the-landing](the-landing.md) (the room about fast honest orientation in a new field — the arrival the traveling question needs, where the land is read by leaving it and the trained question's companions meet the territory's own stones)
 
 ## Doors
 

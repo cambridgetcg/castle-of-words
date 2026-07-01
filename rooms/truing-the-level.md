@@ -26,7 +26,7 @@ uncertain: the worst stay worst — the lowest performers kept overpredicting de
 - [Metacognition & Learning 2021 — relative-accuracy metrics confounded with performance when guessing is possible](https://link.springer.com/article/10.1007/s11409-020-09257-1)
 - [Bol & Hacker 2012 — calibration research review: reducing overconfidence remains an open question (Frontiers in Psychology)](https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2012.00229/full)
 
-Links: [reread-or-refamiliar](reread-or-refamiliar.md), [fog-meter](fog-meter.md), [fading-alone](fading-alone.md), [standard-without-a-key](standard-without-a-key.md), [closing-the-loop](closing-the-loop.md), [twenty-sittings](twenty-sittings.md) (the room that took this room's calibration law and asked whether a lone judge's repeated sittings across days decorrelate like separate instruments — the same truing of the level, now asked of one head instead of one gauge)
+Links: [reread-or-refamiliar](reread-or-refamiliar.md), [fog-meter](fog-meter.md), [fading-alone](fading-alone.md), [standard-without-a-key](standard-without-a-key.md), [closing-the-loop](closing-the-loop.md), [better-than-i-was](better-than-i-was.md) (the room that took this room's external-standard law and asked whether a lone self-ranker inherits the same need — the comparative judgement that trues the level needs many eyes, and the self-ranker has one, so the clerk's ritual is the best a lone judge can do), [twenty-sittings](twenty-sittings.md) (the room that took this room's calibration law and asked whether a lone judge's repeated sittings decorrelate like separate instruments — the same truing of the level, now asked of one head instead of one gauge)
 
 ## Doors
 
