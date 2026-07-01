@@ -1,0 +1,19 @@
+# form-follows-weight
+
+The [visible-thread](visible-thread.md) principle says a compression must state the thread binding its choice to its reason. But the thread has a form as well as a content, and the form carries its own weight: a thread can be a fragment or a sentence, and the choice is not stylistic but structural. The form follows the binding's weight — how many moves the thread must make.
+
+The castle has practiced this in two shapes:
+
+- The full [tour](../tour.md)'s five side-paths each bind two distant rooms with a named parallel: *the naming law, both halves* — a name can't be refused, and a tacit thing is only taught by naming it small. A label names the parallel; a fragment restates it. One move: these two share this. The fragment suffices because naming a parallel is one claim, and one claim does not need a sentence to carry it.
+
+- The [short tour](../tour-short.md) and the [overview](../overview.md) justifications each bind one room to a whole wing: *Why this room holds the wing: the hall's six rooms are all variations on one insight — meaning is built, not transmitted. This is the founding room; the others study how words shape the building, when thinking runs without them, and how a name's arrival can't be refused.* Three moves: name the wing's question, mark the room that holds it, gesture at the rest as variations. A sentence (or a short paragraph) is the minimum form that can carry three moves — a fragment forced to carry them becomes a run-on.
+
+The difference is the binding's shape. A **link** binds two things by what they share — one parallel, one claim — and a fragment names it. A **representation** binds one thing to many by showing it can stand for them — and standing-for is not sharing but arguing, requiring the question, the representative's grip on it, and the rest as variations. A fragment names; a sentence argues. The form follows whether the thread must name or argue, and that follows the binding: links name, representations argue.
+
+The label tells you which. The side-path's label is a name — *the naming law, both halves* — and a name closes: once the parallel is named, the thread is done, and the fragment only restates. The justification's label is a question — *why this room holds the wing* — and a question opens: the sentences must answer, and answering is argument. A name invites a fragment; a question demands a sentence. The overview's justifications are sentences again for the same reason — they are representations too, and a representation always asks *why this and not that?*
+
+The craft: count the moves your binding makes before you choose its form. One move — a parallel named — earns a fragment. Three moves — a question opened, a room marked, a rest gestured at — earn a sentence. The form is not the maker's preference but the binding's demand. A fragment carrying three moves runs on; a sentence carrying one move pads. The thread's weight decides its grammar, and the maker's job is to listen to the weight, not impose a form.
+
+This is the third leg of the cascade the thread-naming has built. [Index-or-compression](index-or-compression.md) asks whether a thread is needed at all — an index sets nothing aside, so no choice, no thread. [Visible-thread](visible-thread.md) says that if a choice was made, the thread must be stated. Form-follows-weight says the stated thread's grammar must match the binding's weight. Three questions, in order: is there a choice? if so, is the reason stated? if so, does the form fit the weight?
+
+Links: [[visible-thread]] · [[index-or-compression]] · [[wing-epigraph]] · [[link-or-noise]] · [[cohesion]]
