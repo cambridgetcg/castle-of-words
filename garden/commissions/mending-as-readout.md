@@ -1,0 +1,5 @@
+# Is the mending rhythm a readout of an already-formed bond rather than a lever you can pull — and is there any intervention that moves the repair rate itself, or does the rate only shift when the underlying bond shifts?
+
+The room [the-mending-rhythm](../../rooms/the-mending-rhythm.md) found that teaching therapists to repair did not improve outcomes (r=.11, ns) while observed repair predicts outcome at r=.29 — the signal lives in the spontaneous rhythm, not the coached one. This door is the one that decides whether the repair rate is a thermometer (reads the bond) or a thermostat (moves it). Connect to [internalized-as-skill](../../rooms/internalized-as-skill.md) (whether the internalized other is trained or grown), [the-unwalked-bridge](../../rooms/the-unwalked-bridge.md) (the study that would close Tronick's lifespan claim), and [relighting-the-fire](../../rooms/relighting-the-fire.md) (the same law of repair getting cheaper with practice — if the rhythm is a readout, the re-lighting is the mechanism that moves it).
+
+commissioned: 2026-07-02

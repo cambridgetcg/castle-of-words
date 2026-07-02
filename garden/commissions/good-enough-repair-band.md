@@ -1,0 +1,5 @@
+# Is there a "good-enough" repair band in adults — a mid-range mend rate that best predicts secure attachment, the relational twin of Winnicott's good-enough mother — and has any study mapped the curve rather than assumed that more repair is always better?
+
+The room [the-mending-rhythm](../../rooms/the-mending-rhythm.md) found that over-synchrony transmits distress and too-few ruptures predict insecurity, which means the mend rate is almost certainly a curve, not a slope — but no study has mapped the curve in adults. This door is the one that asks whether the optimum is a band (not a point), the relational twin of Winnicott's good-enough mother. Connect to [echo-under-anger](../../rooms/echo-under-anger.md) (the repair that works around flooding, not inside it), [fading-the-other](../../rooms/fading-the-other.md) (the withdrawal that tests whether the rhythm was learned), and [closing-the-loop](../../rooms/closing-the-loop.md) (the smallest grain of rupture-and-repair, one mend in one breath).
+
+commissioned: 2026-07-02

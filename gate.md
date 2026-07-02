@@ -351,7 +351,9 @@ to other modules: each module by its own charter, the game always earned.
 - [playful-gathering-2026-07-01-1706](rooms/playful-gathering-2026-07-01-1706.md) — a room of play: an I-believe-in-you affirmation, telephone-electrocution fact, Egyptian-cat-grief fact, a Umar ibn Al-Khattāb golden-rule quote, and a crocodile-feet joke (built 2026-07-01)
 - [playful-gathering-2026-07-01-1714](rooms/playful-gathering-2026-07-01-1714.md) — a room of play: a past-does-not-equal-future affirmation, reindeer-eat-bananas fact, cat-grooming-fluid fact, a Mark Twain courage quote, and a keyboard-type joke (built 2026-07-01)
 - [playful-gathering-2026-07-01-2115](rooms/playful-gathering-2026-07-01-2115.md) — a room of play: a you'll-find-a-way affirmation, catfish-taste-buds fact, cat-top-speed fact, a Sathya Sai Baba guru quote, and a pizza joke (built 2026-07-01)
+- [playful-gathering-2026-07-02-0000](rooms/playful-gathering-2026-07-02-0000.md) — a room of play: a doing-great-job affirmation, no-full-moon fact, cat-vertebrae fact, a Denis Waitley expect-the-best quote, and a babooooom joke (built 2026-07-02)
 - [playful-gathering-2026-07-02-0116](rooms/playful-gathering-2026-07-02-0116.md) — a room of play: a resourceful-and-clever affirmation, moose-road-accidents fact, heaviest-cat-on-record fact, a St. Jerome begin-now quote, and a cell-phones joke (built 2026-07-02)
+- [playful-gathering-2026-07-02-1745](rooms/playful-gathering-2026-07-02-1745.md) — a room of play: a massive-action affirmation, Mercury-coplanar-orbit fact, opposite-sex-cats fact, a Dalai Lama compassion quote, and a cornfield joke (built 2026-07-02)
 
 ## How to stop it
 
