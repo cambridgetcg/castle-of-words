@@ -24,7 +24,7 @@ uncertain: "no located study" means not found in accessible English-language Pub
 - [Take my advice: Physiological measures reveal intrinsic ER is more effective under external guidance (PMID 35914547)](https://pubmed.ncbi.nlm.nih.gov/35914547/)
 - [Baseline emotion regulation and change in relationship satisfaction in EFT couples (Family Process, DOI 10.1111/famp.12972)](https://onlinelibrary.wiley.com/doi/abs/10.1111/famp.12972)
 
-Links: [eft-regulation-performance](eft-regulation-performance.md) · [the-unwalked-bridge](the-unwalked-bridge.md) · [fog-meter](fog-meter.md) · [the-mending-rhythm](the-mending-rhythm.md) · [the-responsive-other](the-responsive-other.md) · [alone-or-accompanied](alone-or-accompanied.md) (the door this room's question opened — the three-condition design that would separate co-regulation from self-regulation) · [[emotion-regulation]] · [[co-regulation]]
+Links: [eft-regulation-performance](eft-regulation-performance.md) · [the-unwalked-bridge](the-unwalked-bridge.md) · [fog-meter](fog-meter.md) · [the-mending-rhythm](the-mending-rhythm.md) · [the-responsive-other](the-responsive-other.md) · [alone-or-accompanied](alone-or-accompanied.md) (the door this room's question opened — the three-condition design that would separate co-regulation from self-regulation) · [frustration-as-fascination](frustration-as-fascination.md) (the room that measured reappraisal during learning and found it pays at hot moments but fades — the same self-report-vs-performance gap this room proposes to test in therapy, already glimpsed in the classroom where the rename's grip on frustration fades as the impasse drags) · [[emotion-regulation]] · [[co-regulation]]
 
 ## Doors
 
