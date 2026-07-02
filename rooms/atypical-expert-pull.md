@@ -26,7 +26,7 @@ uncertain: the search was web-based and in English; a dissertation in another la
 - [Pilling, Wiggett, Özgen & Davies, color category labels and memory (PubMed)](https://pubmed.ncbi.nlm.nih.gov/18692198/)
 - [Cicchini et al., Optimal encoding of interval timing in expert percussionists (Journal of Neuroscience 2012)](https://www.jneurosci.org/content/32/3/1056.full)
 
-Links: [the-expert-grip](the-expert-grip.md) · [drift-across-dimensions](drift-across-dimensions.md) · [precise-across-time](precise-across-time.md) · [choosing-not-to-name](choosing-not-to-name.md) · [[prototype]] · [[category-adjustment]]
+Links: [the-expert-grip](the-expert-grip.md) · [drift-across-dimensions](drift-across-dimensions.md) · [precise-across-time](precise-across-time.md) · [choosing-not-to-name](choosing-not-to-name.md) · [gap-predicts-teaching](gap-predicts-teaching.md) (the room that separated the proceduralized expert from the schema-rich expert — the flip this room predicts for atypical values may land differently on the two kinds, and whichever sign wins decides which kind of expert can teach the atypical case) · [[prototype]] · [[category-adjustment]]
 
 ## Doors
 

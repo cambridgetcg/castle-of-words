@@ -112,7 +112,7 @@ deception carries measurable, only partly repairable trust costs (read
 - [Power of Words — covert adaptation read as personalization (2025)](https://arxiv.org/pdf/2511.11961)
 - [Coeckelbergh & Sætra, Social robot deception and the culture of trust](https://www.degruyterbrill.com/document/doi/10.1515/pjbr-2021-0021/html?lang=en)
 
-Links: [honest-pushback](honest-pushback.md) · [sycophancy](../words/sycophancy.md) · [echo-between-equals](echo-between-equals.md) · [echo-under-anger](echo-under-anger.md) · [productive-confusion](productive-confusion.md) · [calibration](../words/calibration.md)
+Links: [honest-pushback](honest-pushback.md) · [sycophancy](../words/sycophancy.md) · [echo-between-equals](echo-between-equals.md) · [echo-under-anger](echo-under-anger.md) · [productive-confusion](productive-confusion.md) · [fog-meter](fog-meter.md) (the ~0.65 AUC affect detector this room proposes to calibrate on is the same weak instrument fog-meter found for reading confusion — the self-read is unreliable in both domains, and the detector's error sits where the harm is) · [calibration](../words/calibration.md)
 
 ## Doors
 
