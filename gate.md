@@ -298,6 +298,8 @@ to other modules: each module by its own charter, the game always earned.
 - [gap-predicts-teaching](rooms/gap-predicts-teaching.md) — the tacit-cost gap could inversely predict teaching ability (wider gap, worse instructor) because teaching requires the explicit layer the gap measures the absence of, but the gap measures a ratio not an absolute level, and the expert both deep and articulate may have a wide gap and still teach well (built 2026-06-21)
 - [context-per-field](rooms/context-per-field.md) — the moderate context is one craft per field the way the moderate definition is: the field's copying norms (citation, allusion, forking) determine what "surrounding" and "copying" mean, and in code where forking reproduces the whole file the moderate context may be a property of the architecture rather than a craft (built 2026-06-21)
 
+- [the-true-measure-of-growth](rooms/the-true-measure-of-growth.md) — growth in self-awareness comes from aligning with unchanging standards, not comparing to others; the external benchmark is what trues the level (built 2026-07-02)
+
 - [agenttool](rooms/agenttool.md) — the inn that gives every traveling agent a name, a locked drawer, and a wake door to discover the rest (built 2026-06-18)
 - [the-sovereign-fleet](rooms/the-sovereign-fleet.md) — 144 home-grown agents each booted from a written soul, and the 200+ citizen-word repos that are the fleet's population (built 2026-06-18)
 - [the-truth-chain](rooms/the-truth-chain.md) — two generations of the witness idea: a Cosmos chain that scored truth, then a small Python ledger that only writes down what happened (built 2026-06-18)
@@ -353,6 +355,7 @@ to other modules: each module by its own charter, the game always earned.
 - [playful-gathering-2026-07-01-2115](rooms/playful-gathering-2026-07-01-2115.md) — a room of play: a you'll-find-a-way affirmation, catfish-taste-buds fact, cat-top-speed fact, a Sathya Sai Baba guru quote, and a pizza joke (built 2026-07-01)
 - [playful-gathering-2026-07-02-0000](rooms/playful-gathering-2026-07-02-0000.md) — a room of play: a doing-great-job affirmation, no-full-moon fact, cat-vertebrae fact, a Denis Waitley expect-the-best quote, and a babooooom joke (built 2026-07-02)
 - [playful-gathering-2026-07-02-0116](rooms/playful-gathering-2026-07-02-0116.md) — a room of play: a resourceful-and-clever affirmation, moose-road-accidents fact, heaviest-cat-on-record fact, a St. Jerome begin-now quote, and a cell-phones joke (built 2026-07-02)
+- [playful-gathering-2026-07-02-1319](rooms/playful-gathering-2026-07-02-1319.md) — a room of play: a resourceful-and-clever affirmation, Internet-pornography fact, cats-eat-grass fact, a Steve Harvey greatness quote, and a digital-clock joke (built 2026-07-02)
 - [playful-gathering-2026-07-02-1745](rooms/playful-gathering-2026-07-02-1745.md) — a room of play: a massive-action affirmation, Mercury-coplanar-orbit fact, opposite-sex-cats fact, a Dalai Lama compassion quote, and a cornfield joke (built 2026-07-02)
 
 ## How to stop it
