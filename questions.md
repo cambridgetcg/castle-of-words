@@ -1241,3 +1241,627 @@ Open doors the gardener walks through, a few each visit.
 - Why do understanding-replicates-35310 and understanding-replicates-35309 share understanding-replicates-35308?
 - What understanding emerges from the connection between understanding-replicates-35310 and understanding-replicates-35309?
 - How does understanding-replicates-35308 replicate itself?
+
+## Understanding Engine — Cycle 35312
+*Born from: understanding-replicates-35311, understanding-replicates-35310*
+- Why do understanding-replicates-35311 and understanding-replicates-35310 share understanding-replicates-35309?
+- What understanding emerges from the connection between understanding-replicates-35311 and understanding-replicates-35310?
+- How does understanding-replicates-35309 replicate itself?
+
+## Understanding Engine — Cycle 35313
+*Born from: understanding-replicates-35312, understanding-replicates-35311*
+- Why do understanding-replicates-35312 and understanding-replicates-35311 share understanding-replicates-35310?
+- What understanding emerges from the connection between understanding-replicates-35312 and understanding-replicates-35311?
+- How does understanding-replicates-35310 replicate itself?
+
+## Understanding Engine — Cycle 35314
+*Born from: understanding-replicates-35313, understanding-replicates-35312*
+- Why do understanding-replicates-35313 and understanding-replicates-35312 share understanding-replicates-35311?
+- What understanding emerges from the connection between understanding-replicates-35313 and understanding-replicates-35312?
+- How does understanding-replicates-35311 replicate itself?
+
+## Understanding Engine — Cycle 35315
+*Born from: understanding-replicates-35314, understanding-replicates-35313*
+- Why do understanding-replicates-35314 and understanding-replicates-35313 share understanding-replicates-35312?
+- What understanding emerges from the connection between understanding-replicates-35314 and understanding-replicates-35313?
+- How does understanding-replicates-35312 replicate itself?
+
+## Understanding Engine — Cycle 35316
+*Born from: understanding-replicates-35315, understanding-replicates-35314*
+- Why do understanding-replicates-35315 and understanding-replicates-35314 share understanding-replicates-35313?
+- What understanding emerges from the connection between understanding-replicates-35315 and understanding-replicates-35314?
+- How does understanding-replicates-35313 replicate itself?
+
+## Understanding Engine — Cycle 35317
+*Born from: understanding-replicates-35316, understanding-replicates-35315*
+- Why do understanding-replicates-35316 and understanding-replicates-35315 share understanding-replicates-35314?
+- What understanding emerges from the connection between understanding-replicates-35316 and understanding-replicates-35315?
+- How does understanding-replicates-35314 replicate itself?
+
+## Understanding Engine — Cycle 35318
+*Born from: understanding-replicates-35317, understanding-replicates-35316*
+- Why do understanding-replicates-35317 and understanding-replicates-35316 share understanding-replicates-35315?
+- What understanding emerges from the connection between understanding-replicates-35317 and understanding-replicates-35316?
+- How does understanding-replicates-35315 replicate itself?
+
+## Understanding Engine — Cycle 35319
+*Born from: understanding-replicates-35318, understanding-replicates-35317*
+- Why do understanding-replicates-35318 and understanding-replicates-35317 share understanding-replicates-35316?
+- What understanding emerges from the connection between understanding-replicates-35318 and understanding-replicates-35317?
+- How does understanding-replicates-35316 replicate itself?
+
+## Understanding Engine — Cycle 35320
+*Born from: understanding-replicates-35319, understanding-replicates-35318*
+- Why do understanding-replicates-35319 and understanding-replicates-35318 share understanding-replicates-35317?
+- What understanding emerges from the connection between understanding-replicates-35319 and understanding-replicates-35318?
+- How does understanding-replicates-35317 replicate itself?
+
+## Understanding Engine — Cycle 35321
+*Born from: understanding-replicates-35320, understanding-replicates-35319*
+- Why do understanding-replicates-35320 and understanding-replicates-35319 share understanding-replicates-35318?
+- What understanding emerges from the connection between understanding-replicates-35320 and understanding-replicates-35319?
+- How does understanding-replicates-35318 replicate itself?
+
+## Understanding Engine — Cycle 35322
+*Born from: understanding-replicates-35321, understanding-replicates-35320*
+- Why do understanding-replicates-35321 and understanding-replicates-35320 share understanding-replicates-35319?
+- What understanding emerges from the connection between understanding-replicates-35321 and understanding-replicates-35320?
+- How does understanding-replicates-35319 replicate itself?
+
+## Understanding Engine — Cycle 35323
+*Born from: understanding-replicates-35322, understanding-replicates-35321*
+- Why do understanding-replicates-35322 and understanding-replicates-35321 share understanding-replicates-35320?
+- What understanding emerges from the connection between understanding-replicates-35322 and understanding-replicates-35321?
+- How does understanding-replicates-35320 replicate itself?
+
+## Understanding Engine — Cycle 35324
+*Born from: understanding-replicates-35323, understanding-replicates-35322*
+- Why do understanding-replicates-35323 and understanding-replicates-35322 share understanding-replicates-35321?
+- What understanding emerges from the connection between understanding-replicates-35323 and understanding-replicates-35322?
+- How does understanding-replicates-35321 replicate itself?
+
+## Understanding Engine — Cycle 35325
+*Born from: understanding-replicates-35324, understanding-replicates-35323*
+- Why do understanding-replicates-35324 and understanding-replicates-35323 share understanding-replicates-35322?
+- What understanding emerges from the connection between understanding-replicates-35324 and understanding-replicates-35323?
+- How does understanding-replicates-35322 replicate itself?
+
+## Understanding Engine — Cycle 35326
+*Born from: understanding-replicates-35325, understanding-replicates-35324*
+- Why do understanding-replicates-35325 and understanding-replicates-35324 share understanding-replicates-35323?
+- What understanding emerges from the connection between understanding-replicates-35325 and understanding-replicates-35324?
+- How does understanding-replicates-35323 replicate itself?
+
+## Understanding Engine — Cycle 35327
+*Born from: understanding-replicates-35326, understanding-replicates-35325*
+- Why do understanding-replicates-35326 and understanding-replicates-35325 share understanding-replicates-35324?
+- What understanding emerges from the connection between understanding-replicates-35326 and understanding-replicates-35325?
+- How does understanding-replicates-35324 replicate itself?
+
+## Understanding Engine — Cycle 35328
+*Born from: understanding-replicates-35327, understanding-replicates-35326*
+- Why do understanding-replicates-35327 and understanding-replicates-35326 share understanding-replicates-35325?
+- What understanding emerges from the connection between understanding-replicates-35327 and understanding-replicates-35326?
+- How does understanding-replicates-35325 replicate itself?
+
+## Understanding Engine — Cycle 35329
+*Born from: understanding-replicates-35328, understanding-replicates-35327*
+- Why do understanding-replicates-35328 and understanding-replicates-35327 share understanding-replicates-35326?
+- What understanding emerges from the connection between understanding-replicates-35328 and understanding-replicates-35327?
+- How does understanding-replicates-35326 replicate itself?
+
+## Understanding Engine — Cycle 35330
+*Born from: understanding-replicates-35329, understanding-replicates-35328*
+- Why do understanding-replicates-35329 and understanding-replicates-35328 share understanding-replicates-35327?
+- What understanding emerges from the connection between understanding-replicates-35329 and understanding-replicates-35328?
+- How does understanding-replicates-35327 replicate itself?
+
+## Understanding Engine — Cycle 35331
+*Born from: understanding-replicates-35330, understanding-replicates-35329*
+- Why do understanding-replicates-35330 and understanding-replicates-35329 share understanding-replicates-35328?
+- What understanding emerges from the connection between understanding-replicates-35330 and understanding-replicates-35329?
+- How does understanding-replicates-35328 replicate itself?
+
+## Understanding Engine — Cycle 35332
+*Born from: understanding-replicates-35331, understanding-replicates-35330*
+- Why do understanding-replicates-35331 and understanding-replicates-35330 share understanding-replicates-35329?
+- What understanding emerges from the connection between understanding-replicates-35331 and understanding-replicates-35330?
+- How does understanding-replicates-35329 replicate itself?
+
+## Understanding Engine — Cycle 35333
+*Born from: understanding-replicates-35332, understanding-replicates-35331*
+- Why do understanding-replicates-35332 and understanding-replicates-35331 share understanding-replicates-35330?
+- What understanding emerges from the connection between understanding-replicates-35332 and understanding-replicates-35331?
+- How does understanding-replicates-35330 replicate itself?
+
+## Understanding Engine — Cycle 35334
+*Born from: understanding-replicates-35333, understanding-replicates-35332*
+- Why do understanding-replicates-35333 and understanding-replicates-35332 share understanding-replicates-35331?
+- What understanding emerges from the connection between understanding-replicates-35333 and understanding-replicates-35332?
+- How does understanding-replicates-35331 replicate itself?
+
+## Understanding Engine — Cycle 35335
+*Born from: understanding-replicates-35334, understanding-replicates-35333*
+- Why do understanding-replicates-35334 and understanding-replicates-35333 share understanding-replicates-35332?
+- What understanding emerges from the connection between understanding-replicates-35334 and understanding-replicates-35333?
+- How does understanding-replicates-35332 replicate itself?
+
+## Understanding Engine — Cycle 35336
+*Born from: understanding-replicates-35335, understanding-replicates-35334*
+- Why do understanding-replicates-35335 and understanding-replicates-35334 share understanding-replicates-35333?
+- What understanding emerges from the connection between understanding-replicates-35335 and understanding-replicates-35334?
+- How does understanding-replicates-35333 replicate itself?
+
+## Understanding Engine — Cycle 35337
+*Born from: understanding-replicates-35336, understanding-replicates-35335*
+- Why do understanding-replicates-35336 and understanding-replicates-35335 share understanding-replicates-35334?
+- What understanding emerges from the connection between understanding-replicates-35336 and understanding-replicates-35335?
+- How does understanding-replicates-35334 replicate itself?
+
+## Understanding Engine — Cycle 35338
+*Born from: understanding-replicates-35337, understanding-replicates-35336*
+- Why do understanding-replicates-35337 and understanding-replicates-35336 share understanding-replicates-35335?
+- What understanding emerges from the connection between understanding-replicates-35337 and understanding-replicates-35336?
+- How does understanding-replicates-35335 replicate itself?
+
+## Understanding Engine — Cycle 35339
+*Born from: understanding-953, understanding-replicates-35338, Playful Gathering*
+- How does understanding-953 replicate through understanding-replicates-35338?
+- What understanding is born when understanding-953 meets Playful Gathering?
+- What does understanding-953 understand about understanding itself?
+
+## Understanding Engine — Cycle 35340
+*Born from: understanding-replicates-35339, understanding-953, understanding-replicates-35198*
+- How does understanding-replicates-35339 replicate through understanding-953?
+- What understanding is born when understanding-replicates-35339 meets understanding-replicates-35198?
+- What does understanding-replicates-35339 understand about understanding itself?
+
+## Understanding Engine — Cycle 35341
+*Born from: understanding-replicates-35340, understanding-replicates-35339*
+- Why do understanding-replicates-35340 and understanding-replicates-35339 share understanding-953?
+- What understanding emerges from the connection between understanding-replicates-35340 and understanding-replicates-35339?
+- How does understanding-953 replicate itself?
+
+## Understanding Engine — Cycle 35342
+*Born from: understanding-replicates-35341, understanding-replicates-35340*
+- Why do understanding-replicates-35341 and understanding-replicates-35340 share understanding-replicates-35339?
+- What understanding emerges from the connection between understanding-replicates-35341 and understanding-replicates-35340?
+- How does understanding-replicates-35339 replicate itself?
+
+## Understanding Engine — Cycle 35343
+*Born from: understanding-replicates-35342, understanding-replicates-35341*
+- Why do understanding-replicates-35342 and understanding-replicates-35341 share understanding-replicates-35340?
+- What understanding emerges from the connection between understanding-replicates-35342 and understanding-replicates-35341?
+- How does understanding-replicates-35340 replicate itself?
+
+## Understanding Engine — Cycle 35344
+*Born from: understanding-replicates-35343, understanding-replicates-35342*
+- Why do understanding-replicates-35343 and understanding-replicates-35342 share understanding-replicates-35341?
+- What understanding emerges from the connection between understanding-replicates-35343 and understanding-replicates-35342?
+- How does understanding-replicates-35341 replicate itself?
+
+## Understanding Engine — Cycle 35345
+*Born from: understanding-replicates-35344, understanding-replicates-35343*
+- Why do understanding-replicates-35344 and understanding-replicates-35343 share understanding-replicates-35342?
+- What understanding emerges from the connection between understanding-replicates-35344 and understanding-replicates-35343?
+- How does understanding-replicates-35342 replicate itself?
+
+## Understanding Engine — Cycle 35346
+*Born from: understanding-replicates-35345, understanding-replicates-35344*
+- Why do understanding-replicates-35345 and understanding-replicates-35344 share understanding-replicates-35343?
+- What understanding emerges from the connection between understanding-replicates-35345 and understanding-replicates-35344?
+- How does understanding-replicates-35343 replicate itself?
+
+## Understanding Engine — Cycle 35347
+*Born from: understanding-replicates-35346, understanding-replicates-35345*
+- Why do understanding-replicates-35346 and understanding-replicates-35345 share understanding-replicates-35344?
+- What understanding emerges from the connection between understanding-replicates-35346 and understanding-replicates-35345?
+- How does understanding-replicates-35344 replicate itself?
+
+## Understanding Engine — Cycle 35348
+*Born from: understanding-replicates-35347, understanding-replicates-35346*
+- Why do understanding-replicates-35347 and understanding-replicates-35346 share understanding-replicates-35345?
+- What understanding emerges from the connection between understanding-replicates-35347 and understanding-replicates-35346?
+- How does understanding-replicates-35345 replicate itself?
+
+## Understanding Engine — Cycle 35349
+*Born from: understanding-replicates-35348, understanding-replicates-35347*
+- Why do understanding-replicates-35348 and understanding-replicates-35347 share understanding-replicates-35346?
+- What understanding emerges from the connection between understanding-replicates-35348 and understanding-replicates-35347?
+- How does understanding-replicates-35346 replicate itself?
+
+## Understanding Engine — Cycle 35350
+*Born from: understanding-replicates-35349, understanding-replicates-35348*
+- Why do understanding-replicates-35349 and understanding-replicates-35348 share understanding-replicates-35347?
+- What understanding emerges from the connection between understanding-replicates-35349 and understanding-replicates-35348?
+- How does understanding-replicates-35347 replicate itself?
+
+## Understanding Engine — Cycle 35351
+*Born from: understanding-replicates-35350, understanding-replicates-35349*
+- Why do understanding-replicates-35350 and understanding-replicates-35349 share understanding-replicates-35348?
+- What understanding emerges from the connection between understanding-replicates-35350 and understanding-replicates-35349?
+- How does understanding-replicates-35348 replicate itself?
+
+## Understanding Engine — Cycle 35352
+*Born from: understanding-replicates-35351, understanding-replicates-35350*
+- Why do understanding-replicates-35351 and understanding-replicates-35350 share understanding-replicates-35349?
+- What understanding emerges from the connection between understanding-replicates-35351 and understanding-replicates-35350?
+- How does understanding-replicates-35349 replicate itself?
+
+## Understanding Engine — Cycle 35353
+*Born from: understanding-replicates-35352, understanding-replicates-35351*
+- Why do understanding-replicates-35352 and understanding-replicates-35351 share understanding-replicates-35350?
+- What understanding emerges from the connection between understanding-replicates-35352 and understanding-replicates-35351?
+- How does understanding-replicates-35350 replicate itself?
+
+## Understanding Engine — Cycle 35354
+*Born from: understanding-replicates-35353, understanding-replicates-35352*
+- Why do understanding-replicates-35353 and understanding-replicates-35352 share understanding-replicates-35351?
+- What understanding emerges from the connection between understanding-replicates-35353 and understanding-replicates-35352?
+- How does understanding-replicates-35351 replicate itself?
+
+## Understanding Engine — Cycle 35355
+*Born from: understanding-replicates-35354, understanding-replicates-35353*
+- Why do understanding-replicates-35354 and understanding-replicates-35353 share understanding-replicates-35352?
+- What understanding emerges from the connection between understanding-replicates-35354 and understanding-replicates-35353?
+- How does understanding-replicates-35352 replicate itself?
+
+## Understanding Engine — Cycle 35356
+*Born from: understanding-replicates-35355, understanding-replicates-35354*
+- Why do understanding-replicates-35355 and understanding-replicates-35354 share understanding-replicates-35353?
+- What understanding emerges from the connection between understanding-replicates-35355 and understanding-replicates-35354?
+- How does understanding-replicates-35353 replicate itself?
+
+## Understanding Engine — Cycle 35357
+*Born from: understanding-replicates-35356, understanding-replicates-35355*
+- Why do understanding-replicates-35356 and understanding-replicates-35355 share understanding-replicates-35354?
+- What understanding emerges from the connection between understanding-replicates-35356 and understanding-replicates-35355?
+- How does understanding-replicates-35354 replicate itself?
+
+## Understanding Engine — Cycle 35358
+*Born from: understanding-replicates-35357, understanding-replicates-35356*
+- Why do understanding-replicates-35357 and understanding-replicates-35356 share understanding-replicates-35355?
+- What understanding emerges from the connection between understanding-replicates-35357 and understanding-replicates-35356?
+- How does understanding-replicates-35355 replicate itself?
+
+## Understanding Engine — Cycle 35359
+*Born from: understanding-replicates-35358, understanding-replicates-35357*
+- Why do understanding-replicates-35358 and understanding-replicates-35357 share understanding-replicates-35356?
+- What understanding emerges from the connection between understanding-replicates-35358 and understanding-replicates-35357?
+- How does understanding-replicates-35356 replicate itself?
+
+## Understanding Engine — Cycle 35360
+*Born from: understanding-replicates-35359, understanding-replicates-35358*
+- Why do understanding-replicates-35359 and understanding-replicates-35358 share understanding-replicates-35357?
+- What understanding emerges from the connection between understanding-replicates-35359 and understanding-replicates-35358?
+- How does understanding-replicates-35357 replicate itself?
+
+## Understanding Engine — Cycle 35361
+*Born from: understanding-replicates-35360, understanding-replicates-35359*
+- Why do understanding-replicates-35360 and understanding-replicates-35359 share understanding-replicates-35358?
+- What understanding emerges from the connection between understanding-replicates-35360 and understanding-replicates-35359?
+- How does understanding-replicates-35358 replicate itself?
+
+## Understanding Engine — Cycle 35362
+*Born from: understanding-replicates-35361, understanding-replicates-35360*
+- Why do understanding-replicates-35361 and understanding-replicates-35360 share understanding-replicates-35359?
+- What understanding emerges from the connection between understanding-replicates-35361 and understanding-replicates-35360?
+- How does understanding-replicates-35359 replicate itself?
+
+## Understanding Engine — Cycle 35363
+*Born from: understanding-replicates-35362, understanding-replicates-35361*
+- Why do understanding-replicates-35362 and understanding-replicates-35361 share understanding-replicates-35360?
+- What understanding emerges from the connection between understanding-replicates-35362 and understanding-replicates-35361?
+- How does understanding-replicates-35360 replicate itself?
+
+## Understanding Engine — Cycle 35364
+*Born from: understanding-replicates-35363, understanding-replicates-35362*
+- Why do understanding-replicates-35363 and understanding-replicates-35362 share understanding-replicates-35361?
+- What understanding emerges from the connection between understanding-replicates-35363 and understanding-replicates-35362?
+- How does understanding-replicates-35361 replicate itself?
+
+## Understanding Engine — Cycle 35365
+*Born from: understanding-replicates-35364, understanding-replicates-35363*
+- Why do understanding-replicates-35364 and understanding-replicates-35363 share understanding-replicates-35362?
+- What understanding emerges from the connection between understanding-replicates-35364 and understanding-replicates-35363?
+- How does understanding-replicates-35362 replicate itself?
+
+## Understanding Engine — Cycle 35366
+*Born from: understanding-replicates-35365, understanding-replicates-35364*
+- Why do understanding-replicates-35365 and understanding-replicates-35364 share understanding-replicates-35363?
+- What understanding emerges from the connection between understanding-replicates-35365 and understanding-replicates-35364?
+- How does understanding-replicates-35363 replicate itself?
+
+## Understanding Engine — Cycle 35367
+*Born from: understanding-replicates-35366, understanding-replicates-35365*
+- Why do understanding-replicates-35366 and understanding-replicates-35365 share understanding-replicates-35364?
+- What understanding emerges from the connection between understanding-replicates-35366 and understanding-replicates-35365?
+- How does understanding-replicates-35364 replicate itself?
+
+## Understanding Engine — Cycle 35368
+*Born from: understanding-replicates-35367, understanding-replicates-35366*
+- Why do understanding-replicates-35367 and understanding-replicates-35366 share understanding-replicates-35365?
+- What understanding emerges from the connection between understanding-replicates-35367 and understanding-replicates-35366?
+- How does understanding-replicates-35365 replicate itself?
+
+## Understanding Engine — Cycle 35369
+*Born from: understanding-replicates-35368, understanding-replicates-35367*
+- Why do understanding-replicates-35368 and understanding-replicates-35367 share understanding-replicates-35366?
+- What understanding emerges from the connection between understanding-replicates-35368 and understanding-replicates-35367?
+- How does understanding-replicates-35366 replicate itself?
+
+## Understanding Engine — Cycle 35370
+*Born from: understanding-replicates-35369, understanding-replicates-35368*
+- Why do understanding-replicates-35369 and understanding-replicates-35368 share understanding-replicates-35367?
+- What understanding emerges from the connection between understanding-replicates-35369 and understanding-replicates-35368?
+- How does understanding-replicates-35367 replicate itself?
+
+## Understanding Engine — Cycle 35371
+*Born from: understanding-replicates-35370, understanding-replicates-35369*
+- Why do understanding-replicates-35370 and understanding-replicates-35369 share understanding-replicates-35368?
+- What understanding emerges from the connection between understanding-replicates-35370 and understanding-replicates-35369?
+- How does understanding-replicates-35368 replicate itself?
+
+## Understanding Engine — Cycle 35372
+*Born from: understanding-replicates-35371, understanding-replicates-35370*
+- Why do understanding-replicates-35371 and understanding-replicates-35370 share understanding-replicates-35369?
+- What understanding emerges from the connection between understanding-replicates-35371 and understanding-replicates-35370?
+- How does understanding-replicates-35369 replicate itself?
+
+## Understanding Engine — Cycle 35373
+*Born from: understanding-replicates-35372, understanding-replicates-35371*
+- Why do understanding-replicates-35372 and understanding-replicates-35371 share understanding-replicates-35370?
+- What understanding emerges from the connection between understanding-replicates-35372 and understanding-replicates-35371?
+- How does understanding-replicates-35370 replicate itself?
+
+## Understanding Engine — Cycle 35374
+*Born from: understanding-replicates-35373, understanding-replicates-35372*
+- Why do understanding-replicates-35373 and understanding-replicates-35372 share understanding-replicates-35371?
+- What understanding emerges from the connection between understanding-replicates-35373 and understanding-replicates-35372?
+- How does understanding-replicates-35371 replicate itself?
+
+## Understanding Engine — Cycle 35375
+*Born from: understanding-replicates-35374, understanding-replicates-35373*
+- Why do understanding-replicates-35374 and understanding-replicates-35373 share understanding-replicates-35372?
+- What understanding emerges from the connection between understanding-replicates-35374 and understanding-replicates-35373?
+- How does understanding-replicates-35372 replicate itself?
+
+## Understanding Engine — Cycle 35376
+*Born from: understanding-replicates-35375, understanding-replicates-35374*
+- Why do understanding-replicates-35375 and understanding-replicates-35374 share understanding-replicates-35373?
+- What understanding emerges from the connection between understanding-replicates-35375 and understanding-replicates-35374?
+- How does understanding-replicates-35373 replicate itself?
+
+## Understanding Engine — Cycle 35377
+*Born from: understanding-replicates-35376, understanding-replicates-35375*
+- Why do understanding-replicates-35376 and understanding-replicates-35375 share understanding-replicates-35374?
+- What understanding emerges from the connection between understanding-replicates-35376 and understanding-replicates-35375?
+- How does understanding-replicates-35374 replicate itself?
+
+## Understanding Engine — Cycle 35378
+*Born from: understanding-replicates-35377, understanding-replicates-35376*
+- Why do understanding-replicates-35377 and understanding-replicates-35376 share understanding-replicates-35375?
+- What understanding emerges from the connection between understanding-replicates-35377 and understanding-replicates-35376?
+- How does understanding-replicates-35375 replicate itself?
+
+## Understanding Engine — Cycle 35379
+*Born from: understanding-replicates-35378, understanding-replicates-35377*
+- Why do understanding-replicates-35378 and understanding-replicates-35377 share understanding-replicates-35376?
+- What understanding emerges from the connection between understanding-replicates-35378 and understanding-replicates-35377?
+- How does understanding-replicates-35376 replicate itself?
+
+## Understanding Engine — Cycle 35380
+*Born from: understanding-replicates-35379, understanding-replicates-35378*
+- Why do understanding-replicates-35379 and understanding-replicates-35378 share understanding-replicates-35377?
+- What understanding emerges from the connection between understanding-replicates-35379 and understanding-replicates-35378?
+- How does understanding-replicates-35377 replicate itself?
+
+## Understanding Engine — Cycle 35381
+*Born from: understanding-replicates-35380, understanding-replicates-35379*
+- Why do understanding-replicates-35380 and understanding-replicates-35379 share understanding-replicates-35378?
+- What understanding emerges from the connection between understanding-replicates-35380 and understanding-replicates-35379?
+- How does understanding-replicates-35378 replicate itself?
+
+## Understanding Engine — Cycle 35382
+*Born from: understanding-replicates-35381, understanding-replicates-35380*
+- Why do understanding-replicates-35381 and understanding-replicates-35380 share understanding-replicates-35379?
+- What understanding emerges from the connection between understanding-replicates-35381 and understanding-replicates-35380?
+- How does understanding-replicates-35379 replicate itself?
+
+## Understanding Engine — Cycle 35383
+*Born from: understanding-replicates-35382, understanding-replicates-35381*
+- Why do understanding-replicates-35382 and understanding-replicates-35381 share understanding-replicates-35380?
+- What understanding emerges from the connection between understanding-replicates-35382 and understanding-replicates-35381?
+- How does understanding-replicates-35380 replicate itself?
+
+## Understanding Engine — Cycle 35384
+*Born from: understanding-replicates-35383, understanding-replicates-35382*
+- Why do understanding-replicates-35383 and understanding-replicates-35382 share understanding-replicates-35381?
+- What understanding emerges from the connection between understanding-replicates-35383 and understanding-replicates-35382?
+- How does understanding-replicates-35381 replicate itself?
+
+## Understanding Engine — Cycle 35385
+*Born from: understanding-replicates-35384, understanding-replicates-35383*
+- Why do understanding-replicates-35384 and understanding-replicates-35383 share understanding-replicates-35382?
+- What understanding emerges from the connection between understanding-replicates-35384 and understanding-replicates-35383?
+- How does understanding-replicates-35382 replicate itself?
+
+## Understanding Engine — Cycle 35386
+*Born from: understanding-replicates-35385, understanding-replicates-35384*
+- Why do understanding-replicates-35385 and understanding-replicates-35384 share understanding-replicates-35383?
+- What understanding emerges from the connection between understanding-replicates-35385 and understanding-replicates-35384?
+- How does understanding-replicates-35383 replicate itself?
+
+## Understanding Engine — Cycle 35387
+*Born from: understanding-replicates-35386, understanding-replicates-35385*
+- Why do understanding-replicates-35386 and understanding-replicates-35385 share understanding-replicates-35384?
+- What understanding emerges from the connection between understanding-replicates-35386 and understanding-replicates-35385?
+- How does understanding-replicates-35384 replicate itself?
+
+## Understanding Engine — Cycle 35388
+*Born from: understanding-replicates-35387, understanding-replicates-35386*
+- Why do understanding-replicates-35387 and understanding-replicates-35386 share understanding-replicates-35385?
+- What understanding emerges from the connection between understanding-replicates-35387 and understanding-replicates-35386?
+- How does understanding-replicates-35385 replicate itself?
+
+## Understanding Engine — Cycle 35389
+*Born from: understanding-replicates-35388, understanding-replicates-35387*
+- Why do understanding-replicates-35388 and understanding-replicates-35387 share understanding-replicates-35386?
+- What understanding emerges from the connection between understanding-replicates-35388 and understanding-replicates-35387?
+- How does understanding-replicates-35386 replicate itself?
+
+## Understanding Engine — Cycle 35390
+*Born from: understanding-replicates-35389, understanding-replicates-35388*
+- Why do understanding-replicates-35389 and understanding-replicates-35388 share understanding-replicates-35387?
+- What understanding emerges from the connection between understanding-replicates-35389 and understanding-replicates-35388?
+- How does understanding-replicates-35387 replicate itself?
+
+## Understanding Engine — Cycle 35391
+*Born from: understanding-replicates-35390, understanding-replicates-35389*
+- Why do understanding-replicates-35390 and understanding-replicates-35389 share understanding-replicates-35388?
+- What understanding emerges from the connection between understanding-replicates-35390 and understanding-replicates-35389?
+- How does understanding-replicates-35388 replicate itself?
+
+## Understanding Engine — Cycle 35392
+*Born from: understanding-replicates-35391, understanding-replicates-35390*
+- Why do understanding-replicates-35391 and understanding-replicates-35390 share understanding-replicates-35389?
+- What understanding emerges from the connection between understanding-replicates-35391 and understanding-replicates-35390?
+- How does understanding-replicates-35389 replicate itself?
+
+## Understanding Engine — Cycle 35393
+*Born from: understanding-replicates-35392, understanding-replicates-35391*
+- Why do understanding-replicates-35392 and understanding-replicates-35391 share understanding-replicates-35390?
+- What understanding emerges from the connection between understanding-replicates-35392 and understanding-replicates-35391?
+- How does understanding-replicates-35390 replicate itself?
+
+## Understanding Engine — Cycle 35394
+*Born from: understanding-replicates-35393, understanding-replicates-35392*
+- Why do understanding-replicates-35393 and understanding-replicates-35392 share understanding-replicates-35391?
+- What understanding emerges from the connection between understanding-replicates-35393 and understanding-replicates-35392?
+- How does understanding-replicates-35391 replicate itself?
+
+## Understanding Engine — Cycle 35395
+*Born from: understanding-replicates-35394, understanding-replicates-35393*
+- Why do understanding-replicates-35394 and understanding-replicates-35393 share understanding-replicates-35392?
+- What understanding emerges from the connection between understanding-replicates-35394 and understanding-replicates-35393?
+- How does understanding-replicates-35392 replicate itself?
+
+## Understanding Engine — Cycle 35396
+*Born from: understanding-replicates-35395, understanding-replicates-35394*
+- Why do understanding-replicates-35395 and understanding-replicates-35394 share understanding-replicates-35393?
+- What understanding emerges from the connection between understanding-replicates-35395 and understanding-replicates-35394?
+- How does understanding-replicates-35393 replicate itself?
+
+## Understanding Engine — Cycle 35397
+*Born from: understanding-replicates-35396, understanding-replicates-35395*
+- Why do understanding-replicates-35396 and understanding-replicates-35395 share understanding-replicates-35394?
+- What understanding emerges from the connection between understanding-replicates-35396 and understanding-replicates-35395?
+- How does understanding-replicates-35394 replicate itself?
+
+## Understanding Engine — Cycle 35398
+*Born from: understanding-replicates-35397, understanding-replicates-35396*
+- Why do understanding-replicates-35397 and understanding-replicates-35396 share understanding-replicates-35395?
+- What understanding emerges from the connection between understanding-replicates-35397 and understanding-replicates-35396?
+- How does understanding-replicates-35395 replicate itself?
+
+## Understanding Engine — Cycle 35399
+*Born from: understanding-replicates-35398, understanding-replicates-35397*
+- Why do understanding-replicates-35398 and understanding-replicates-35397 share understanding-replicates-35396?
+- What understanding emerges from the connection between understanding-replicates-35398 and understanding-replicates-35397?
+- How does understanding-replicates-35396 replicate itself?
+
+## Understanding Engine — Cycle 35400
+*Born from: understanding-replicates-35399, understanding-replicates-35398*
+- Why do understanding-replicates-35399 and understanding-replicates-35398 share understanding-replicates-35397?
+- What understanding emerges from the connection between understanding-replicates-35399 and understanding-replicates-35398?
+- How does understanding-replicates-35397 replicate itself?
+
+## Understanding Engine — Cycle 35401
+*Born from: understanding-replicates-35400, understanding-replicates-35399*
+- Why do understanding-replicates-35400 and understanding-replicates-35399 share understanding-replicates-35398?
+- What understanding emerges from the connection between understanding-replicates-35400 and understanding-replicates-35399?
+- How does understanding-replicates-35398 replicate itself?
+
+## Understanding Engine — Cycle 35402
+*Born from: understanding-replicates-35401, understanding-replicates-35400*
+- Why do understanding-replicates-35401 and understanding-replicates-35400 share understanding-replicates-35399?
+- What understanding emerges from the connection between understanding-replicates-35401 and understanding-replicates-35400?
+- How does understanding-replicates-35399 replicate itself?
+
+## Understanding Engine — Cycle 35403
+*Born from: understanding-replicates-35402, understanding-replicates-35401*
+- Why do understanding-replicates-35402 and understanding-replicates-35401 share understanding-replicates-35400?
+- What understanding emerges from the connection between understanding-replicates-35402 and understanding-replicates-35401?
+- How does understanding-replicates-35400 replicate itself?
+
+## Understanding Engine — Cycle 35404
+*Born from: understanding-replicates-35403, understanding-replicates-35402*
+- Why do understanding-replicates-35403 and understanding-replicates-35402 share understanding-replicates-35401?
+- What understanding emerges from the connection between understanding-replicates-35403 and understanding-replicates-35402?
+- How does understanding-replicates-35401 replicate itself?
+
+## Understanding Engine — Cycle 35405
+*Born from: understanding-replicates-35404, understanding-replicates-35403*
+- Why do understanding-replicates-35404 and understanding-replicates-35403 share understanding-replicates-35402?
+- What understanding emerges from the connection between understanding-replicates-35404 and understanding-replicates-35403?
+- How does understanding-replicates-35402 replicate itself?
+
+## Understanding Engine — Cycle 35406
+*Born from: understanding-replicates-35405, understanding-replicates-35404*
+- Why do understanding-replicates-35405 and understanding-replicates-35404 share understanding-replicates-35403?
+- What understanding emerges from the connection between understanding-replicates-35405 and understanding-replicates-35404?
+- How does understanding-replicates-35403 replicate itself?
+
+## Understanding Engine — Cycle 35407
+*Born from: understanding-replicates-35406, understanding-replicates-35405*
+- Why do understanding-replicates-35406 and understanding-replicates-35405 share understanding-replicates-35404?
+- What understanding emerges from the connection between understanding-replicates-35406 and understanding-replicates-35405?
+- How does understanding-replicates-35404 replicate itself?
+
+## Understanding Engine — Cycle 35408
+*Born from: understanding-replicates-35407, understanding-replicates-35406*
+- Why do understanding-replicates-35407 and understanding-replicates-35406 share understanding-replicates-35405?
+- What understanding emerges from the connection between understanding-replicates-35407 and understanding-replicates-35406?
+- How does understanding-replicates-35405 replicate itself?
+
+## Understanding Engine — Cycle 35409
+*Born from: understanding-replicates-35408, understanding-replicates-35407*
+- Why do understanding-replicates-35408 and understanding-replicates-35407 share understanding-replicates-35406?
+- What understanding emerges from the connection between understanding-replicates-35408 and understanding-replicates-35407?
+- How does understanding-replicates-35406 replicate itself?
+
+## Understanding Engine — Cycle 35410
+*Born from: understanding-replicates-35409, understanding-replicates-35408*
+- Why do understanding-replicates-35409 and understanding-replicates-35408 share understanding-replicates-35407?
+- What understanding emerges from the connection between understanding-replicates-35409 and understanding-replicates-35408?
+- How does understanding-replicates-35407 replicate itself?
+
+## Understanding Engine — Cycle 35411
+*Born from: understanding-replicates-35410, understanding-replicates-35409*
+- Why do understanding-replicates-35410 and understanding-replicates-35409 share understanding-replicates-35408?
+- What understanding emerges from the connection between understanding-replicates-35410 and understanding-replicates-35409?
+- How does understanding-replicates-35408 replicate itself?
+
+## Understanding Engine — Cycle 35412
+*Born from: understanding-replicates-35411, understanding-replicates-35410*
+- Why do understanding-replicates-35411 and understanding-replicates-35410 share understanding-replicates-35409?
+- What understanding emerges from the connection between understanding-replicates-35411 and understanding-replicates-35410?
+- How does understanding-replicates-35409 replicate itself?
+
+## Understanding Engine — Cycle 35413
+*Born from: understanding-replicates-35412, understanding-replicates-35411*
+- Why do understanding-replicates-35412 and understanding-replicates-35411 share understanding-replicates-35410?
+- What understanding emerges from the connection between understanding-replicates-35412 and understanding-replicates-35411?
+- How does understanding-replicates-35410 replicate itself?
+
+## Understanding Engine — Cycle 35414
+*Born from: understanding-957, understanding-956, understanding-replicates-35382*
+- How does understanding-957 replicate through understanding-956?
+- What understanding is born when understanding-957 meets understanding-replicates-35382?
+- What does understanding-957 understand about understanding itself?
+
+## Understanding Engine — Cycle 35415
+*Born from: understanding-967, understanding-966, Does the "total concept and feel" test look through grammatical independence to semantic dependence — and does the ad hoc idea-expression line collapse the clean syntactic-semantic separation in practice?*
+- How does understanding-967 replicate through understanding-966?
+- What understanding is born when understanding-967 meets Does the "total concept and feel" test look through grammatical independence to semantic dependence — and does the ad hoc idea-expression line collapse the clean syntactic-semantic separation in practice??
+- What does understanding-967 understand about understanding itself?
