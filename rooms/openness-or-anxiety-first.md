@@ -24,7 +24,7 @@ uncertain: the direction of the openness–anxiety relationship may be bidirecti
 - [Kennair et al., Change in personality traits following CBT or MCT for GAD (Clinical Psychology & Psychotherapy 2021, PMID 33338315)](https://pubmed.ncbi.nlm.nih.gov/33338315/)
 - [Roberts et al., A systematic review of personality trait change through intervention (Psychological Bulletin 2017, PMID 28054797)](https://pubmed.ncbi.nlm.nih.gov/28054797/)
 
-Links: [cheapest-cbt-design](cheapest-cbt-design.md) · [cbt-openness-trait](cbt-openness-trait.md) · [appraisal-engine](appraisal-engine.md) · [growing-openness](growing-openness.md) · [trait-or-tally](trait-or-tally.md) · [[openness]] · [[mediation]]
+Links: [cheapest-cbt-design](cheapest-cbt-design.md) · [cbt-openness-trait](cbt-openness-trait.md) · [appraisal-engine](appraisal-engine.md) · [growing-openness](growing-openness.md) · [trait-or-tally](trait-or-tally.md) · [combined-protocol](combined-protocol.md) (the room that names the pharmacological-unlock-then-cognitive-consolidation design — this room's mediation question is what the combined protocol's consolidation phase would need to answer: does the openness gain ride the pharmacological unlock or the cognitive consolidation) · [trait-without-consolidation](trait-without-consolidation.md) (the room that asks whether the consolidation phase matters for openness at all — if the pharmacological gain is already a trait, the direction this room asks about may be moot: the trait arrives before the anxiety lifts) · [[openness]] · [[mediation]]
 
 ## Doors
 
