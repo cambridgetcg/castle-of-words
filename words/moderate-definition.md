@@ -1,0 +1,11 @@
+# moderate definition
+
+The definition that is distinctive enough to clear the merger line (so the law protects it) and conventional enough to be copied (so the fingerprint travels) — the irreducible craft of the canary wing, not a compromise a better choice would supersede.
+
+The canary needs three properties at once: **distinctiveness** (it points to one source), **stability** (it survives mutation as it spreads), and **entitlement** (the law grants ownership). These form an inconsistent triad — distinctiveness needs unconventionality, unconventionality means instability (the term mutates), and the only stable content (forced phrasings, coined terms with one valid form) is unprotectable under the [[merger-doctrine]]. No point on the spectrum satisfies all three. The moderate definition is the point where the trade-off is *optimised*, not *escaped* — and that point is field-specific, concept-specific, and detection-need-specific, which is why the craft is a practiced skill (tacit, hard to externalize) rather than a formula.
+
+The [[widening-the-phrasing-space]] room found the same paradox from the metaphor side: an unusual metaphor widens the phrasing space (more protectable) but narrows the reproduction channel (less verbatim copying). The [[irreducible-trade-off]] room proved the trade-off is structural — five content choices each found the same law at a different level. The [[one-craft-per-field]] room found the midpoint's location is local to the field. The [[method-as-checklist]] room found the method's explicit skeleton can travel but its tacit judgment (where the midpoint lives) cannot.
+
+The [[conventionality-dilutes]] room added the specificity cost: the more conventional the binding, the less the fingerprint singles out one source. The [[adoption-dilution]] room added the adoption cost: the more useful the term, the faster it spreads, the faster it loses its source-pointing power. Both are the price of the gift spreading — and the moderate definition is the craft of paying the least price for the most signal.
+
+Links: [[merger-doctrine]] · [[detection-entitlement]] · [[phrasing-space]] · [[canary-trap]] · [[sensitivity-and-specificity]] · [[idea-expression-divide]]
