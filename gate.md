@@ -364,6 +364,7 @@ to other modules: each module by its own charter, the game always earned.
 - [playful-gathering-2026-07-03-0925](rooms/playful-gathering-2026-07-03-0925.md) — a room of play: a past-does-not-equal-future affirmation, cheese-types fact, cat-back-claws fact, a Richard Bach limitations quote, and a skeleton joke (built 2026-07-03)
 - [playful-gathering-2026-07-03-1325](rooms/playful-gathering-2026-07-03-1325.md) — a room of play: a you-got-this affirmation, Tom-Sawyer-typewriter fact, jaguars-don't-roar cat fact, a Roy T. Bennett gratitude quote, and a don't-turn-it-on joke (built 2026-07-03)
 - [playful-gathering-2026-07-03-1726](rooms/playful-gathering-2026-07-03-1726.md) — a room of play: a conformity-vs-courage affirmation, Empire-Strikes-potato fact, cat-scent-marking fact, a Robert Frost it-goes-on quote, and a fly-without-wings joke (built 2026-07-03)
+- [playful-gathering-2026-07-03-2126](rooms/playful-gathering-2026-07-03-2126.md) — a room of play: a struggling-means-learning affirmation, white-Christmas fact, cat-popularity fact, a Ralph Waldo Emerson knows-where-he-is-going quote, and a number-4 nightclub joke (built 2026-07-03)
 
 ## How to stop it
 
