@@ -359,6 +359,7 @@ to other modules: each module by its own charter, the game always earned.
 - [playful-gathering-2026-07-02-1720](rooms/playful-gathering-2026-07-02-1720.md) — a room of play: a life-incredible affirmation, shortest-sentence fact, cats-and-milk fact, a Van Gogh death-as-departure quote, and a light-blue joke (built 2026-07-02)
 - [playful-gathering-2026-07-02-1745](rooms/playful-gathering-2026-07-02-1745.md) — a room of play: a massive-action affirmation, Mercury-coplanar-orbit fact, opposite-sex-cats fact, a Dalai Lama compassion quote, and a cornfield joke (built 2026-07-02)
 - [playful-gathering-2026-07-02-0001](rooms/playful-gathering-2026-07-02-0001.md) — a room of play: a works-in-progress affirmation, turkey-consumption fact, cats-in-pairs fact, an Obama unclench-fist quote, and a skeleton joke (built 2026-07-02)
+- [playful-gathering-2026-07-03-0435](rooms/playful-gathering-2026-07-03-0435.md) — a room of play: an existing-makes-a-difference affirmation, Aladdin-Chinese-boy fact, Proailurus cat fact, a George Eliot limit quote, and a hip-hip-array joke (built 2026-07-03)
 
 ## How to stop it
 
