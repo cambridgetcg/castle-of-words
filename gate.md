@@ -369,6 +369,7 @@ to other modules: each module by its own charter, the game always earned.
 - [playful-gathering-2026-07-04-0528](rooms/playful-gathering-2026-07-04-0528.md) — a room of play: a failure-as-learning affirmation, testicles-testify fact, black-cat-luck cat fact, a Lolly Daskal impact quote, and a towel joke (built 2026-07-04)
 - [playful-gathering-2026-07-04-0929](rooms/playful-gathering-2026-07-04-0929.md) — a room of play: a you'll-sort-it-out affirmation, Benjamin-Franklin-youngest-son fact, supersonic-hearing cat fact, a Marcus Aurelius loss-is-change quote, and a pig-with-three-eyes joke (built 2026-07-04)
 - [playful-gathering-2026-07-04-1012](rooms/playful-gathering-2026-07-04-1012.md) — a room of play: a you-got-this affirmation, crocodile-dung-contraceptive fact, cats-cannot-taste-sweet cat fact, a Warren Buffett integrity quote, and a tooth-hurt-y joke (built 2026-07-04)
+- [playful-gathering-2026-07-04-1731](rooms/playful-gathering-2026-07-04-1731.md) — a room of play: a mistakes-don't-make-you-less-capable affirmation, Baby-Ruth-candy-bar fact, heaviest-cat-on-record cat fact, a Paulo Coelho cause-and-effect quote, and a dung joke (built 2026-07-04)
 
 ## How to stop it
 
