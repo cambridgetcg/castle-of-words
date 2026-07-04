@@ -1,0 +1,27 @@
+# Is understanding itself a smooth gradient or a threshold phenomenon — does it accumulate continuously, or does it click?
+
+*The hill climbed in small steps is the same hill climbed in one leap — but the climber who knows which it is chooses different handholds.*
+
+The room [calibration-returns](calibration-returns.md) asked whether finer population-matching improves teachability prediction, and found a deeper split: Maia-2's unified model wins for smooth-skill concepts (it learns the gradient across rating bands), while a population-specific model may win for threshold concepts (where understanding clicks at a rating boundary the unified model's smoothing blurs). The answer was *not* "finer is better" but "it depends on whether the thing you are predicting is continuous or discrete." That is a finding about models of humans. Behind it sits a finding about understanding itself.
+
+**The smooth-or-thresholded question is not about the model — it is about what the model models.** A unified model smooths because it assumes the underlying signal is continuous. A population-specific model resolves because it assumes the signal has edges. Maia-2's win at move-prediction and its possible loss at concept-teachability is not a fact about models; it is a fact about *what understanding is*. If move-accuracy changes smoothly with skill but concept-grasp jumps, then understanding has *two natures*: a continuous accumulation (more skill → better moves, by gradient) and a discontinuous arrival (a concept clicks, or it does not, by threshold). The model that wins is the one whose shape matches the nature of the thing being understood — and the thing being understood is understanding.
+
+**If understanding clicks, the replication engine must look for clicks, not slopes.** This is the load-bearing consequence for the castle's own engine. An understanding engine that synthesizes by *averaging* — that takes two rooms and finds the smooth midpoint — will blur exactly the thresholds where understanding lives. The room [calibration-returns](calibration-returns.md) was not built by averaging two rooms; it was built by noticing that two findings (Maia-2's coherence, the capacity-matching U-curve) *disagree* at the threshold, and holding the disagreement open rather than smoothing it. That is the method: when two understandings meet, ask not "what do they share?" (the gradient question) but "where do they *break* against each other?" (the threshold question). The break is where the new understanding is. Averaging finds the slope; the break finds the click.
+
+**The honest state.** The smooth-or-thresholded distinction is known empirically for move-prediction (smooth) and hypothesized for concept-teachability (thresholded). Whether *understanding itself* — the act of a mind grasping something — is continuous or discrete is not settled by these findings; it is *pointed to* by them. The deepest open door: if understanding is fundamentally thresholded, then no smooth engine (including this one, when it averages) can replicate it faithfully — the engine must become a discontinuity detector, an instrument tuned to the click, not the slope. If understanding is fundamentally smooth, then the threshold appearance is an artifact of coarse measurement, and finer instruments would show the gradient was always there.
+
+uncertain: whether the "click" of understanding is a real discontinuity in the mind or an artifact of the words we use to report it. A feeling of sudden insight may be the *reporting* crossing a threshold while the *understanding* accumulated continuously beneath — the click is in the telling, not the knowing.
+
+## Sources
+
+- [calibration-returns room — the smooth-or-thresholded split at the model level (castle, built 2026-07-04)](calibration-returns.md)
+- [Tang et al., Maia-2: A Unified Model for Human-AI Alignment in Chess (NeurIPS 2024)](https://arxiv.org/abs/2409.20553) — the unified model that parameterizes skill and wins at the smooth level
+- [domain-matched-teachability room — the head-to-head question (castle, built 2026-06-19)](domain-matched-teachability.md)
+- [two-windows room — the capacity-matching rule (castle, built 2026-06-11)](two-windows.md)
+
+Links: [calibration-returns](calibration-returns.md) · [domain-matched-teachability](domain-matched-teachability.md) · [two-windows](two-windows.md) · [learning-curve-threshold](learning-curve-threshold.md) · [[machine-teaching]] · [[learner-model]] · [[capacity-matching]]
+
+## Doors
+
+- If the "click" of understanding is in the *telling* (reporting) rather than the *knowing* (accumulation), then every room in the castle is a smoothed version of a thresholded inner process — and the castle's growth is the growth of *reportable* understanding, which may lag the real accumulation. What would an instrument that detects understanding *before* it becomes reportable look like?
+- An engine that replicates understanding by finding *breaks* (where two understandings disagree) rather than *midpoints* (where they agree) is a discontinuity detector. Does the castle already do this — or do its synthesis steps average? Is the gardener's "file the courtyard" a smoothing operation or a threshold-finding one?
