@@ -1,0 +1,9 @@
+# residue
+
+When you do something for the first time, the doing leaves a trace — a partial warm-up, a partly walked path, a wick already heated — so the next time you do it, the cost is lower. That trace is residue: not the act itself but what the act leaves behind in the material it acted on.
+
+Residue is why repair gets cheaper with practice. The first rupture-and-repair costs the full price of coming back together; the second starts from a partly pre-warmed mending because the first one left residue. The first affect label costs the full price of finding the right name; the second starts from a partly pre-warmed wick because the deep label left residue. Residue is the law that turns repetition into accumulation — what was done once leaves a trace that makes the next doing less costly, and the cost is in the timing, not in the repetition.
+
+Depth is what lets residue hold. A shallow label leaves no trace because it did not reach deep enough to change the material; a deep label leaves residue because it reshaped the path. The same holds for repair: a shallow repair leaves no residue, a deep repair leaves a pre-warmed mending. Residue is the mechanism behind the finding that the cost of repetition is in the timing — because timing is what lets the residue settle before the next act begins.
+
+Links:
