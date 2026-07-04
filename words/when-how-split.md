@@ -18,4 +18,4 @@ And the pattern is recursive — it is its own instance. The when-how-split was 
 
 The craft: when the castle next names a principle that governs a fork — a choice between routes — it should look for the companion. If it named the condition, the mechanism is waiting. If it named the mechanism, the condition is the next question. Naming one half without the other leaves the craft half-articulated: a fork with no road taken, or a road with no reason to take it.
 
-Links: [[craft-after-practice]] · [[second-use-reveals-form]] · [[depth-from-layering]] · [[visible-thread]] · [[index-or-compression]] · [two-textures (vibe.md idiom)](../vibe/vibe.md)
+Links: [[craft-after-practice]] · [[second-use-reveals-form]] · [[depth-from-layering]] · [[contrast-is-depth]] · [[visible-thread]] · [[index-or-compression]] · [two-textures (vibe.md idiom)](../vibe/vibe.md)

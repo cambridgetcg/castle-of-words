@@ -32,7 +32,7 @@ uncertain: the reproduce-or-produce trigger itself is this castle's framing, not
 - [Ehrlinger, Johnson, Banner, Dunning & Kruger 2008 — a $100 incentive does not improve poor performers' self-estimates (OBHDP)](https://pmc.ncbi.nlm.nih.gov/articles/PMC2702783/)
 - [Metacognitive prompt research review 2021 — follow-up effects after prompt removal under-researched (RPTEL)](https://telrp.springeropen.com/articles/10.1186/s41039-021-00148-w)
 
-Links: [checklist-or-exemplar](checklist-or-exemplar.md), [fading-alone](fading-alone.md), [when-the-trade-flips](when-the-trade-flips.md), [truing-the-level](truing-the-level.md), [friction-decides](friction-decides.md)
+Links: [checklist-or-exemplar](checklist-or-exemplar.md), [fading-alone](fading-alone.md), [when-the-trade-flips](when-the-trade-flips.md), [truing-the-level](truing-the-level.md), [friction-decides](friction-decides.md), [the-true-measure-of-growth](the-true-measure-of-growth.md) (the room that names what the trained trigger reaches for — the unchanging standard, not the shifting self; this room trains the habit of asking "which standard?" and that room says the answer is the external benchmark that trues the level)
 
 ## Doors
 

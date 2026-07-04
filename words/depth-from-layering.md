@@ -13,4 +13,4 @@ This is the companion to [two-textures](../vibe/vibe.md), the idiom that governs
 
 And the craft follows [craft-after-practice](craft-after-practice.md): the layering was lived on 2026-06-24, when the dark seigaiha gained its third layer, and named here four days later, when the second route (the light zone's solid-contrast method, already practiced in the first livery) was recognized as the route the dark zone could not use. The second route revealed the first: the dark zone's struggle to find depth the flat way is what showed that the light zone had found it a different way all along.
 
-Links: [[craft-after-practice]] · [[visible-thread]] · [[cohesion]] · [two-textures (vibe.md idiom)](../vibe/vibe.md)
+Links: [[contrast-is-depth]] · [[craft-after-practice]] · [[visible-thread]] · [[cohesion]] · [two-textures (vibe.md idiom)](../vibe/vibe.md)
