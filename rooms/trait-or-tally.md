@@ -60,7 +60,7 @@ on PEACH's own caution, unproven.
 - [Hudson & Fraley, behavior mediates intention to change (2015)](https://www.nathanwhudson.com/vita/pdf/Hudson%20&%20Fraley,%202015.pdf)
 - [Rauthmann, personality is more than the Big Five (2024)](https://journals.sagepub.com/doi/full/10.1177/08902070231221853)
 
-Links: [growing-openness](growing-openness.md) · [the-noticing-stance](the-noticing-stance.md) · [thinking-without-words](thinking-without-words.md) · [[openness]]
+Links: [growing-openness](growing-openness.md) · [the-noticing-stance](the-noticing-stance.md) · [appraisal-engine](appraisal-engine.md) (the room that took this room's Door and asked whether the generating engine behind the behavior distribution can be trained head-on — the appraisal engine is the explanatory heart this room's descriptive half leaves in shadow) · [thinking-without-words](thinking-without-words.md) · [[openness]]
 
 ## Doors
 
