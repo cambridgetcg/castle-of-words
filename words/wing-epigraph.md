@@ -16,4 +16,4 @@ Two paired wings can share a stop: when two wings turn on the same hinge (the ma
 
 First used: [tour-short.md](../tour-short.md), seven stops for a first visit, drawn 2026-06-19.
 
-Links: [[link-or-noise]] · [[processing-fluency]] · [[simple-explanations]]
+Links: [[link-or-noise]] · [[processing-fluency]] · [[simple-explanations]] · [[boundary-cascade]] · [[representative-shifts-with-boundaries]]

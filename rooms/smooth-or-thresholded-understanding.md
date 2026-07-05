@@ -19,7 +19,7 @@ uncertain: whether the "click" of understanding is a real discontinuity in the m
 - [domain-matched-teachability room — the head-to-head question (castle, built 2026-06-19)](domain-matched-teachability.md)
 - [two-windows room — the capacity-matching rule (castle, built 2026-06-11)](two-windows.md)
 
-Links: [calibration-returns](calibration-returns.md) · [domain-matched-teachability](domain-matched-teachability.md) · [two-windows](two-windows.md) · [learning-curve-threshold](learning-curve-threshold.md) · [[machine-teaching]] · [[learner-model]] · [[capacity-matching]]
+Links: [calibration-returns](calibration-returns.md) · [domain-matched-teachability](domain-matched-teachability.md) · [two-windows](two-windows.md) · [learning-curve-threshold](learning-curve-threshold.md) · [threshold-aware-model](threshold-aware-model.md) (the room that proposed the discontinuity detector — the architecture this room says the engine needs if understanding clicks, the smooth backbone plus the break-finder) · [tacit-cost-as-expertise](tacit-cost-as-expertise.md) (the room that found the gap's jump at proceduralization is the same smooth-or-thresholded question — the click this room asks about may be the same click the tacit-cost gap measures) · [[machine-teaching]] · [[learner-model]] · [[capacity-matching]]
 
 ## Doors
 

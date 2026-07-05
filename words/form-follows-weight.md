@@ -16,4 +16,4 @@ The craft: count the moves your binding makes before you choose its form. One mo
 
 This is the third leg of the cascade the thread-naming has built. [Index-or-compression](index-or-compression.md) asks whether a thread is needed at all — an index sets nothing aside, so no choice, no thread. [Visible-thread](visible-thread.md) says that if a choice was made, the thread must be stated. Form-follows-weight says the stated thread's grammar must match the binding's weight. Three questions, in order: is there a choice? if so, is the reason stated? if so, does the form fit the weight?
 
-Links: [[visible-thread]] · [[index-or-compression]] · [[wing-epigraph]] · [[link-or-noise]] · [[cohesion]]
+Links: [[visible-thread]] · [[index-or-compression]] · [[wing-epigraph]] · [[link-or-noise]] · [[cohesion]] · [[boundary-cascade]]

@@ -375,6 +375,7 @@ to other modules: each module by its own charter, the game always earned.
 - [playful-gathering-2026-07-05-0001](rooms/playful-gathering-2026-07-05-0001.md) — a room of play: a miracle-of-chance affirmation, ball-point-pen-choking fact, houseplants-poisonous-to-cats fact, a Mother Teresa peace quote, and a USB bee joke (built 2026-07-05)
 - [playful-gathering-2026-07-05-0500](rooms/playful-gathering-2026-07-05-0500.md) — a room of play: a you-can-do-it affirmation, lion-whisker-fingerprint fact, cat-paws-multi-tool fact, a Van Gogh love quote, and a cat-tastrophe joke (built 2026-07-05)
 - [playful-gathering-2026-07-05-0915](rooms/playful-gathering-2026-07-05-0915.md) — a room of play: an evolved affirmation, a fart fact, Felicette the space cat fact, an Oscar Wilde quote, and a European joke (built 2026-07-05)
+- [playful-gathering-2026-07-05-1334](rooms/playful-gathering-2026-07-05-1334.md) — a room of play: a do-what-is-right affirmation, lipstick-fish-scales fact, tuna-lacks-taurine cat fact, an Anne Wilson Schaef process quote, and a kangaroo-Empire-State joke (built 2026-07-05)
 
 ## How to stop it
 

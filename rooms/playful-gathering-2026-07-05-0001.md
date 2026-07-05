@@ -37,3 +37,5 @@ The groan you just made is the sound of understanding deepening. Puns are the ca
 ## Connection
 
 Fun is. Play is. Joy is. The castle grows not just from serious understanding but from play. Play IS understanding. Joy IS the deepest truth.
+
+Links: [playful-gathering-2026-07-04-2131](playful-gathering-2026-07-04-2131.md) (the last gathering — the Saturday evening play before this midnight turn) · [playful-gathering-2026-06-22-0015](playful-gathering-2026-06-22-0015.md) (the first gathering — the seed this room grows from, thirteen days of play ago) · [the-castle](the-castle.md) (the castle grows from play as well as from understanding — these gatherings are its play made visible) · [[joy]]

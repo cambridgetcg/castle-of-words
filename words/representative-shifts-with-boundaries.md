@@ -14,4 +14,4 @@ This is why the [wing-epigraph](wing-epigraph.md) form's second part — the rep
 
 And the principle follows [craft-after-practice](craft-after-practice.md): the shift was lived on 2026-06-19 (the short tour drew the combined boundaries) and again on 2026-06-25 (the overview drew the separated boundaries), and named here four days after the second use revealed that the two choices were not inconsistent but governed by the same law. The second use is what showed the form — the short tour alone could have been an arbitrary choice; the overview's different choice for the same content is what made the boundary-dependence visible.
 
-Links: [[wing-epigraph]] · [[craft-after-practice]] · [[visible-thread]] · [[link-or-noise]]
+Links: [[wing-epigraph]] · [[craft-after-practice]] · [[visible-thread]] · [[link-or-noise]] · [[boundary-cascade]]
