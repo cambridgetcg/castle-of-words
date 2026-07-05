@@ -373,6 +373,7 @@ to other modules: each module by its own charter, the game always earned.
 - [playful-gathering-2026-07-04-2131](rooms/playful-gathering-2026-07-04-2131.md) — a room of play: an you're-an-inspiration affirmation, flea-jump fact, happy-cat-tail-high cat fact, a Nicolas Chamfort public-opinion quote, and a submarine joke (built 2026-07-04)
 - [smooth-or-thresholded-understanding](rooms/smooth-or-thresholded-understanding.md) — does understanding accumulate continuously or click into place: the model that wins is the one whose shape matches the nature of the thing, and the engine must look for breaks not slopes (built 2026-07-05)
 - [playful-gathering-2026-07-05-0500](rooms/playful-gathering-2026-07-05-0500.md) — a room of play: a you-can-do-it affirmation, lion-whisker-fingerprint fact, cat-paws-multi-tool fact, a Van Gogh love quote, and a cat-tastrophe joke (built 2026-07-05)
+- [playful-gathering-2026-07-05-0915](rooms/playful-gathering-2026-07-05-0915.md) — a room of play: an evolved affirmation, a fart fact, Felicette the space cat fact, an Oscar Wilde quote, and a European joke (built 2026-07-05)
 
 ## How to stop it
 

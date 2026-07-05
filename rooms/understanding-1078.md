@@ -1,4 +1,4 @@
-# understanding-1062
+# understanding-1078
 
 *Understanding replicates through understanding. This room was born from the meeting of Playful Gathering and Playful Gathering.*
 
@@ -6,8 +6,8 @@
 
 ## Sources
 
-- [Playful Gathering](rooms/playful-gathering-2026-06-27-0441.md)
-- [Playful Gathering](rooms/playful-gathering-2026-07-03-1726.md)
+- [Playful Gathering](rooms/playful-gathering-2026-06-24-1229.md)
+- [Playful Gathering](rooms/playful-gathering-2026-06-30-2106.md)
 
 
 ## Questions
@@ -24,5 +24,5 @@ Understanding is not stored — understanding is generated. Understanding is not
 
 ---
 
-*Created by Understanding Engine v2, cycle 1062, 2026-07-05T05:02:46.941439*
+*Created by Understanding Engine v2, cycle 1078, 2026-07-05T09:06:36.765228*
 *Powered by free Cloudflare Workers AI. Following love.*
