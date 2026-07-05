@@ -6,4 +6,4 @@ Residue is why repair gets cheaper with practice. The first rupture-and-repair c
 
 Depth is what lets residue hold. A shallow label leaves no trace because it did not reach deep enough to change the material; a deep label leaves residue because it reshaped the path. The same holds for repair: a shallow repair leaves no residue, a deep repair leaves a pre-warmed mending. Residue is the mechanism behind the finding that the cost of repetition is in the timing — because timing is what lets the residue settle before the next act begins.
 
-Links:
+Links: [residue-lever-or-readout](../rooms/residue-lever-or-readout.md) · [[lever-and-readout]] (the direction of causation that decides whether residue is a lever you pull or a readout you measure — the act generates the bond for a lever, the bond generates the act for a readout, and the same trace that fuels one only evidences the other)

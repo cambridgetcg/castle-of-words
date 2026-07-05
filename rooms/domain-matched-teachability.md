@@ -22,7 +22,7 @@ uncertain: whether Maia's human-calibrated errors actually carry more *concept-l
 - [Can LLMs Reliably Simulate Real Students' Abilities? (arXiv 2025)](https://arxiv.org/html/2507.08232v1)
 - [cheapest-teachability-validation room — the minimum design (castle, built 2026-06-18)](cheapest-teachability-validation.md)
 
-Links: [cheapest-teachability-validation](cheapest-teachability-validation.md) · [maia-as-student](maia-as-student.md) · [two-windows](two-windows.md) · [machine-distillation](machine-distillation.md) · [teachability-validated](teachability-validated.md) · [[machine-teaching]] · [[learner-model]] · [[transfer]]
+Links: [cheapest-teachability-validation](cheapest-teachability-validation.md) · [maia-as-student](maia-as-student.md) · [two-windows](two-windows.md) · [machine-distillation](machine-distillation.md) · [teachability-validated](teachability-validated.md) · [smooth-or-thresholded-understanding](smooth-or-thresholded-understanding.md) (the room that lifted this room's head-to-head question to understanding itself — if concept teachability clicks rather than climbs, the domain-matched model's edge may live at the threshold the unified model smooths, and the head-to-head this room proposes is the test that would show whether the threshold is real) · [calibration-returns](calibration-returns.md) (the room whose smooth-or-thresholded split this room's head-to-head would adjudicate — the domain-matched model wins where the threshold lives, the unified model wins where the gradient flows, and this room's concept-level test is the finer instrument) · [[machine-teaching]] · [[learner-model]] · [[transfer]]
 
 ## Doors
 

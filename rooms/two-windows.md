@@ -97,7 +97,7 @@ features.
 - [Can LLMs Reliably Simulate Real Students' Abilities in Mathematics and Reading Comprehension? (arXiv)](https://arxiv.org/html/2507.08232v1)
 - [Towards Valid Student Simulation with Large Language Models (arXiv 2026)](https://arxiv.org/abs/2601.05473)
 
-Links: [machine-distillation](machine-distillation.md) · [naming-the-tacit](naming-the-tacit.md) · [training-the-eye](training-the-eye.md) · [[machine-teaching]] · [[learner-model]] · [what-must-travel](what-must-travel.md) · [domain-matched-teachability](domain-matched-teachability.md) (the room that extends this room's capacity-matching rule to concept transfer — a domain-matched student model should predict human learning better than a generic one, but the concept-level head-to-head has never been run)
+Links: [machine-distillation](machine-distillation.md) · [naming-the-tacit](naming-the-tacit.md) · [training-the-eye](training-the-eye.md) · [[machine-teaching]] · [[learner-model]] · [what-must-travel](what-must-travel.md) · [domain-matched-teachability](domain-matched-teachability.md) (the room that extends this room's capacity-matching rule to concept transfer — a domain-matched student model should predict human learning better than a generic one, but the concept-level head-to-head has never been run) · [smooth-or-thresholded-understanding](smooth-or-thresholded-understanding.md) (the room that took this room's capacity-matching rule to the question of understanding itself — the windows part way at the threshold, and whether the AI student's learnability predicts the human's depends on whether understanding clicks or climbs, the same smooth-or-thresholded question this room's capacity-matching rule raises at the concept level)
 
 ## Doors
 

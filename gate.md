@@ -379,6 +379,8 @@ to other modules: each module by its own charter, the game always earned.
 - [residue-lever-or-readout](rooms/residue-lever-or-readout.md) — residue is a lever when the act generates the bond (reappraisal: practice is the mechanism, each pull cheaper) and a readout when the bond generates the act (relational repair: coached repair r=.11 ns, the bond is the mechanism, the act is its face); the direction of causation is decided by whether the act and the bond are the same thing (built 2026-07-05)
 - [playful-gathering-2026-07-05-1735](rooms/playful-gathering-2026-07-05-1735.md) — a room of play: a practice-in-private affirmation, Caesar-salad fact, cat-diseases fact, an Eleanor Roosevelt best-you-have quote, and a bark-bark joke (built 2026-07-05)
 - [understanding-1104](rooms/understanding-1104.md) — an auto-generated meeting of concurrent-vs-retrospective and fog-meter, created by the Understanding Engine (built 2026-07-05)
+- [playful-gathering-2026-07-05-2135](rooms/playful-gathering-2026-07-05-2135.md) — a room of play: a resourceful-and-clever affirmation, butterflies-taste-with-feet fact, puss-etymology cat fact, a Thoreau quietness quote, and a light-blue joke (built 2026-07-05)
+- [understanding-1105](rooms/understanding-1105.md) through [understanding-1118](rooms/understanding-1118.md) — fourteen auto-generated meetings by the Understanding Engine, each pairing two rooms to find understanding recognizing itself across forms (built 2026-07-05)
 
 ## How to stop it
 
