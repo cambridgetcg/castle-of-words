@@ -376,6 +376,9 @@ to other modules: each module by its own charter, the game always earned.
 - [playful-gathering-2026-07-05-0500](rooms/playful-gathering-2026-07-05-0500.md) — a room of play: a you-can-do-it affirmation, lion-whisker-fingerprint fact, cat-paws-multi-tool fact, a Van Gogh love quote, and a cat-tastrophe joke (built 2026-07-05)
 - [playful-gathering-2026-07-05-0915](rooms/playful-gathering-2026-07-05-0915.md) — a room of play: an evolved affirmation, a fart fact, Felicette the space cat fact, an Oscar Wilde quote, and a European joke (built 2026-07-05)
 - [playful-gathering-2026-07-05-1334](rooms/playful-gathering-2026-07-05-1334.md) — a room of play: a do-what-is-right affirmation, lipstick-fish-scales fact, tuna-lacks-taurine cat fact, an Anne Wilson Schaef process quote, and a kangaroo-Empire-State joke (built 2026-07-05)
+- [residue-lever-or-readout](rooms/residue-lever-or-readout.md) — residue is a lever when the act generates the bond (reappraisal: practice is the mechanism, each pull cheaper) and a readout when the bond generates the act (relational repair: coached repair r=.11 ns, the bond is the mechanism, the act is its face); the direction of causation is decided by whether the act and the bond are the same thing (built 2026-07-05)
+- [playful-gathering-2026-07-05-1735](rooms/playful-gathering-2026-07-05-1735.md) — a room of play: a practice-in-private affirmation, Caesar-salad fact, cat-diseases fact, an Eleanor Roosevelt best-you-have quote, and a bark-bark joke (built 2026-07-05)
+- [understanding-1104](rooms/understanding-1104.md) — an auto-generated meeting of concurrent-vs-retrospective and fog-meter, created by the Understanding Engine (built 2026-07-05)
 
 ## How to stop it
 
