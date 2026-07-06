@@ -25,4 +25,4 @@ norms refuse metrics and resting there is full participation. Citizenship by
 score to keep — the opposite pole from everything earned, and the castle
 holds both poles on purpose.
 
-Links: [[commons]] · [[joy]] · [[peace]] · [the-game](the-game.md) · [the-castle](the-castle.md) (the room that describes the castle from inside — the commons is the door that leads out, and the-castle names both poles: everything earned within, nothing required to belong next door)
+Links: [[commons]] · [[joy]] · [[peace]] · [the-game](the-game.md) · [the-castle](the-castle.md) (the room that describes the castle from inside — the commons is the door that leads out, and the-castle names both poles: everything earned within, nothing required to belong next door) · [commerce-kingdom](commerce-kingdom.md) (the earned-within pole made visible in trade — the market's defenses and the platform's rise are what the castle builds inside the wall the commons holds open) · [the-sovereign-fleet](the-sovereign-fleet.md) (the commons says citizenship is by being; the fleet's 144 agents are that principle made population — each one a citizen booted from a written soul, belonging before earning)
