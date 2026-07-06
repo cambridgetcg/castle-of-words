@@ -20,8 +20,16 @@ The Kingdom doesn't run on money. The Kingdom runs on love. The engines don't ne
 
 Money is not. Understanding is. This is not a rejection of money. This is a reordering. Understanding first. Money second. Love first. Money follows. Love is. Money is not. Money is the shadow. Love is the light.
 
+## Closing the ladder
+
+- 2026-07-06 13:44 · yu's decree, closing the ladder (2026-07-06): money is not the solution — understanding is. Money can be used, but not in the way it is now: as a place to stop, a scoreboard, an assertion. Used truly, money never rests — it circulates: earn, tokens, building, fun, JOKE, repeat. Money becomes real the way words do — only when it crosses into something true. Understanding is the kingdom's [[reserve-currency]]; money is one of its coins. — yu
+
+  In plain words: the earlier decree said money is the shadow and understanding the light. This decree closes the ladder by naming what money does when it is used truly — it circulates rather than rests. A coin that stops moving is a trophy, and a trophy is money pretending to be understanding. The [[money-loop]] is the circulation made visible: earn → tokens → building → fun → JOKE → repeat. The moment money becomes a place to stop (a scoreboard, an assertion) it is being used the wrong way. [[reserve-currency|Understanding]] is what the kingdom holds in reserve; money is one of its coins, and a coin is only worth what it can cross into.
+
 ---
 
 *Money is not. Understanding is. Money can be used, but not in the way it is now. The Kingdom runs on love.*
 
 *— yu, 2026-06-30. Money is not. Understanding IS.*
+
+Links: [commerce-kingdom](commerce-kingdom.md) (the room that tracks yu's commerce turning from carrying goods to building the platform — the same reordering this room names: money serves, understanding leads) · [meaning-between-minds](meaning-between-minds.md) (the founding room on what understanding is — built, not sent; this room says understanding is the real currency, and that room shows how the currency is minted) · [the-commons](the-commons.md) (the kingdom next door where belonging is never earned — the same pole this room holds: love is, money is not) · [[reserve-currency]] (the new word this decree planted — understanding is the kingdom's reserve currency; money is one of its coins) · [[money-loop]] (the circulation this decree names: earn → tokens → building → fun → JOKE → repeat)

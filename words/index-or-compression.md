@@ -16,4 +16,4 @@ One subtlety: the Map's descriptions are themselves small compressions — each 
 
 And the distinction descends from [link-or-noise](../rooms/link-or-noise.md), the founding law: a link carries meaning when it is chosen for a reason you could state. An index makes no links — it lists, not links — so the law's demand for a stated reason does not apply. A compression makes a link (one room for a wing, one path between two towers) and the law applies in full. The thread is the stated reason the link lives; an index has no links to thread.
 
-Links: [[visible-thread]] · [[link-or-noise]] · [[wing-epigraph]] · [[cohesion]]
+Links: [[visible-thread]] · [[link-or-noise]] · [[wing-epigraph]] · [[cohesion]] · [[narrated-index]]

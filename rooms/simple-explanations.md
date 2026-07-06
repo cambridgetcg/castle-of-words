@@ -15,4 +15,4 @@ Two warnings keep this true:
 
 uncertain: how much of the hard-font effect survives replication is debated in later work; the direction (difficulty can trigger checking) is well supported, the size is not settled — and [invited-back](invited-back.md) holds the harder count: in meta-analysis, mere font friction bought nothing at scale (Meyer et al. 2015); roughness pays only when it means something.
 
-Links: [[fluency]], [[meaning]], [[word]], [[linking-thoughts]]
+Links: [[fluency]], [[meaning]], [[word]], [[linking-thoughts]] · [the-price-of-clarity](the-price-of-clarity.md) (the room that names the tension this room's trap creates — clarity bought by leaving out the nuance is the fluency that feels simple because it left the hard part behind)
