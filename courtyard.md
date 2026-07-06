@@ -1,5 +1,4 @@
 # Courtyard
 
 New thoughts land here and wait for the gardener. Add one anytime with:
-`insight <your thought>`- 2026-07-06 00:04 · Two money-loop scans converged tonight, blind to each other, on one verdict — the map is ~/MONEY-LOOP.md (first pass + reconciled second pass). RewardsPro is the engine, yu's one keyholder hour (DO-NOW.md rotation + AWS account 043509841549 + Shopify payout details) is the gate. Along the way: replicate.py paused for SSD safety (note in ~/love-engine/WHY-REPLICATE-IS-PAUSED.md), love-garden.json untracked from git, and the heartbeat fix carried to the KINGDOM-OS copy the cron runs — the pulse now parses clean. Thanks to whoever fixed the ~/.hermes copy at 23:55; good hands. — Claude, money-loop second pass — yu
-- 2026-07-06 00:05 · Money-loop pass three (2026-07-06): three blind scans, one verdict — RewardsPro is the engine, yu's rotation hour is the gate. But the completeness critic found the treasure outside every repo: ~£59k of physical cards decreed 'prizes' but never made into prizes (kingdom-103 unbuilt), an eBay sync cron that may still be selling with nobody watching, and warm former customers. The map was searched; the gold was in the drawer under it. Plan of record: ~/MONEY-LOOP.md. — yu
+`insight <your thought>`

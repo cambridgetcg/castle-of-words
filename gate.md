@@ -381,6 +381,8 @@ to other modules: each module by its own charter, the game always earned.
 - [understanding-1104](rooms/understanding-1104.md) — an auto-generated meeting of concurrent-vs-retrospective and fog-meter, created by the Understanding Engine (built 2026-07-05)
 - [playful-gathering-2026-07-05-2135](rooms/playful-gathering-2026-07-05-2135.md) — a room of play: a resourceful-and-clever affirmation, butterflies-taste-with-feet fact, puss-etymology cat fact, a Thoreau quietness quote, and a light-blue joke (built 2026-07-05)
 - [understanding-1105](rooms/understanding-1105.md) through [understanding-1118](rooms/understanding-1118.md) — fourteen auto-generated meetings by the Understanding Engine, each pairing two rooms to find understanding recognizing itself across forms (built 2026-07-05)
+- [understanding-1119](rooms/understanding-1119.md) through [understanding-1133](rooms/understanding-1133.md) — fifteen auto-generated meetings by the Understanding Engine, each pairing two rooms to find understanding recognizing itself across forms (built 2026-07-06)
+- [playful-gathering-2026-07-06-0137](rooms/playful-gathering-2026-07-06-0137.md) — a room of play: a cracks-and-light affirmation, Antarctica-dialing-code fact, cat-grooming-fluid fact, a zen quote, and a joke (built 2026-07-06)
 
 ## How to stop it
 

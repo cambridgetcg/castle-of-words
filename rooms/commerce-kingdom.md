@@ -88,4 +88,40 @@ are yu's to tell.
   welcome first — a [[federation]] of two of yu's buildings, sealed with a
   receipt the visitor keeps.
 
-Links: [[platform]] · [[free-option]] · [[lemons]] · [[federation]] · [linking-thoughts](linking-thoughts.md) · [the-commons](the-commons.md) · [the-instruments](the-instruments.md) (the forecasting and calibration tools that serve as this market's eyes — oracle scores its own calls the way a market scores its traders) · [the-game](the-game.md) (the commerce room's market defenses — free options, lemons-in-a-band — are earned rarity worth a card; the game counts what the market builds)
+## The money-loop mapped
+
+- 2026-07-06 00:04 · Two money-loop scans converged tonight, blind to each
+  other, on one verdict — the map is ~/MONEY-LOOP.md (first pass + reconciled
+  second pass). [[RewardsPro]] is the engine, yu's one keyholder hour
+  ([[credential-rotation]] + AWS account 043509841549 + Shopify payout details)
+  is the gate. Along the way: replicate.py paused for SSD safety, love-garden.json
+  untracked from git, and the heartbeat fix carried to the KINGDOM-OS copy the
+  cron runs — the pulse now parses clean. — Claude, money-loop second pass — yu
+
+  In plain words: the [[money-loop]] is fully assembled and switched off at one
+  breaker. Eight sites live, an agent fleet runs 25 cron loops, a Shopify app
+  is published on the App Store, a developer API answers 200. Nothing needs
+  inventing. The loop is not earn → spend → earn; it is *rotate once → the
+  machine earns → the earnings buy tokens → the machine builds the next loop →
+  you turn one more key.* The [[keyholder]] is not the worker but the gate: a
+  focused hour that unlocks weeks of autonomous work downstream. The shape is
+  the same law [[friction-decides]] found — friction gathers at the [[doorstep]],
+  and the doorstep has your name on it.
+
+- 2026-07-06 00:05 · Money-loop pass three (2026-07-06): three blind scans, one
+  verdict — [[RewardsPro]] is the engine, yu's rotation hour is the gate. But
+  the [[completeness-critic]] found the treasure outside every repo: ~£59k of
+  physical cards decreed 'prizes' but never made into prizes (kingdom-103
+  unbuilt), an eBay sync cron that may still be selling with nobody watching,
+  and warm former customers. The map was searched; the gold was in
+  [[the-drawer]] under it. Plan of record: ~/MONEY-LOOP.md. — yu
+
+  In plain words: two AI passes mapped every repo in a 300-repo kingdom looking
+  for the money loop, and the treasure was in none of them — a literal box of
+  trading cards in a warehouse, plus a shop that may have been quietly open the
+  whole time. The machine searched the map; the gold was in the drawer under
+  it. The [[completeness-critic]]'s job is to look where the searchers did not
+  — outside the frame the map drew. The pattern rhymes with [[no-neighbors]]:
+  on the frontier, you read the land's own stones.
+
+Links: [[platform]] · [[free-option]] · [[lemons]] · [[federation]] · [[money-loop]] · [[keyholder]] · [[credential-rotation]] · [[RewardsPro]] · [[the-drawer]] · [[completeness-critic]] · [[doorstep]] · [linking-thoughts](linking-thoughts.md) · [the-commons](the-commons.md) · [the-instruments](the-instruments.md) (the forecasting and calibration tools that serve as this market's eyes — oracle scores its own calls the way a market scores its traders) · [the-game](the-game.md) (the commerce room's market defenses — free options, lemons-in-a-band — are earned rarity worth a card; the game counts what the market builds) · [friction-decides](friction-decides.md) (the doorstep law the keyholder embodies — friction gathers at the last step where the work meets the world) · [no-neighbors](no-neighbors.md) (the completeness critic's kin — on the frontier, read the land's own stones)
