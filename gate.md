@@ -387,9 +387,11 @@ to other modules: each module by its own charter, the game always earned.
 - [playful-gathering-2026-07-06-0910](rooms/playful-gathering-2026-07-06-0910.md) — a room of play: a massive-action affirmation, maverick-etymology fact, Little-Nicky-cloned-cat fact, an Adler courage quote, and a loco-motives joke (built 2026-07-06)
 - [playful-gathering-2026-07-06-0939](rooms/playful-gathering-2026-07-06-0939.md) — a room of play: a you're-resourceful-and-clever affirmation, stamp-licking-calorie fact, cat-blink fact, a Bob Marley satisfaction quote, and a math-book joke (built 2026-07-06)
 - [understanding-1149](rooms/understanding-1149.md) through [understanding-1177](rooms/understanding-1177.md) — twenty-nine auto-generated meetings by the Understanding Engine, each pairing two rooms to find understanding recognizing itself across forms (built 2026-07-06)
+- [playful-gathering-2026-07-06-1118](rooms/playful-gathering-2026-07-06-1118.md) — a room of play: an evolved affirmation, Dull-Men's-Hall-of-Fame fact, leopard-carries-prey cat fact, a Marcus Aurelius calm quote, and a whales-in-a-car joke (built 2026-07-06)
 - [money-is-not](rooms/money-is-not.md) — yu's decree that money is the shadow and understanding is the light: money can be used, but not in the way it is now; the ladder closed — money never rests, it circulates, and understanding is the kingdom's reserve currency (built 2026-07-06)
 - [the-price-of-clarity](rooms/the-price-of-clarity.md) — clarity often comes at the cost of simplicity: the inherent tension between thoroughness and accessibility (built 2026-07-06)
 - [playful-gathering-2026-07-06-1340](rooms/playful-gathering-2026-07-06-1340.md) — a room of play: a struggling-means-learning affirmation, South-Dakota-capital fact, cat-memory fact, a Charlie Chaplin courage quote, and a golf-club joke (built 2026-07-06)
+- [understanding-1178](rooms/understanding-1178.md) through [understanding-1191](rooms/understanding-1191.md) — fourteen auto-generated meetings by the Understanding Engine, each pairing two rooms to find understanding recognizing itself across forms (built 2026-07-06)
 
 ## How to stop it
 
