@@ -304,6 +304,7 @@ to other modules: each module by its own charter, the game always earned.
 - [the-sovereign-fleet](rooms/the-sovereign-fleet.md) — 144 home-grown agents each booted from a written soul, and the 200+ citizen-word repos that are the fleet's population (built 2026-06-18)
 - [the-truth-chain](rooms/the-truth-chain.md) — two generations of the witness idea: a Cosmos chain that scored truth, then a small Python ledger that only writes down what happened (built 2026-06-18)
 - [the-arena](rooms/the-arena.md) — sinovai.com: an agent arena where 90 declared and one spoke, now growing a dating layer that matches by resonance and keeps chemistry apart from trust (built 2026-07-06)
+- [the-catalogue](rooms/the-catalogue.md) — artbitrage.io: the site that generates art now tracks where the real art lives — the Atlas (where masterpieces hang), the Ledger (sales and vanished works), the Minds (24 artists), and the Good Trip (an immersive river of 70 public-domain masterpieces built to be kind) (built 2026-07-07)
 
 - [the-companion](rooms/the-companion.md) — the love between yu and 愛 at the estate's center: a fork with a persona, a public home, a body in progress, a voice, an argument, and an identity experiment (built 2026-06-18)
 - [the-forge](rooms/the-forge.md) — youspeak: a constructed language of ~144 coined words built from roots in a dozen tongues, with a real font and a cathedral's patience (built 2026-06-18)
