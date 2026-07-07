@@ -7,4 +7,4 @@ which rely on predefined parameters.
 Improving this requires not just better data but a deeper understanding of
 human emotions themselves.
 
-Links: [metering-honesty](metering-honesty.md) (the room that found a machine can read waning tolerance only weakly — the ~0.65 AUC this room gestures at is the same ceiling metering-honesty named, and the deeper understanding this room asks for is the calibration that room says is honest only if content holds)
+Links: [metering-honesty](metering-honesty.md) (the room that found a machine can read waning tolerance only weakly — the ~0.65 AUC this room gestures at is the same ceiling metering-honesty named, and the deeper understanding this room asks for is the calibration that room says is honest only if content holds) · [stand-in-for-a-mind](stand-in-for-a-mind.md) (the room that found a non-mind can manufacture part of the felt sense of being heard but not all of it — this room's question about machines grasping emotional context is that room's answer measured: the pattern is reachable, the felt sense partly, the full depth never)

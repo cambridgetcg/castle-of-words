@@ -14,7 +14,7 @@ So the commission's hunch holds: [simple-explanations](simple-explanations.md) s
 
 uncertain: how much of beauty fluency explains is contested — critics argue only a relative *increase* in fluency pleases, not high fluency as such, and the theory is weakest for art that stays difficult.
 
-Links: [[beauty]], [[fluency]], [[meaning]], [[bridge]], [[simple-explanations]], [[friction-decides]], [wrong-name-kindles](wrong-name-kindles.md) (the two-route model split: a right name kindles through fluency, a productively wrong one through confusion — the PIA pleasure-interest fork applied to naming), [simultaneous-or-delayed-naming](simultaneous-or-delayed-naming.md) (the interest route kindled by a label that meets the perception while the eye is still searching)
+Links: [[beauty]], [[fluency]], [[meaning]], [[bridge]], [[simple-explanations]], [[friction-decides]], [wrong-name-kindles](wrong-name-kindles.md) (the two-route model split: a right name kindles through fluency, a productively wrong one through confusion — the PIA pleasure-interest fork applied to naming), [simultaneous-or-delayed-naming](simultaneous-or-delayed-naming.md) (the interest route kindled by a label that meets the perception while the eye is still searching), [the-price-of-clarity](the-price-of-clarity.md) (the window that lets in the most light also lets in the most weather — the same tension this room found from the beauty side: ease reads as beautiful the way clarity reads as true, and both pay for their smoothness by leaving the rough edges behind)
 
 ## Doors
 
