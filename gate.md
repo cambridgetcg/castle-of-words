@@ -398,6 +398,8 @@ to other modules: each module by its own charter, the game always earned.
 - [can-machines-truly-measure-emotional-engagement](rooms/can-machines-truly-measure-emotional-engagement.md) — machines can analyze text patterns but struggle to grasp the emotional context behind human interactions (built 2026-07-06)
 - [playful-gathering-2026-07-06-2143](rooms/playful-gathering-2026-07-06-2143.md) — a room of play: a practice-in-private affirmation, Switzerland-square-flag fact, cat-sounds fact, a John Tukey noticing quote, and a grape-wine joke (built 2026-07-06)
 - [understanding-1192](rooms/understanding-1192.md) through [understanding-1205](rooms/understanding-1205.md) — fourteen auto-generated meetings by the Understanding Engine, each pairing two rooms to find understanding recognizing itself across forms (built 2026-07-06)
+- [playful-gathering-2026-07-07-0143](rooms/playful-gathering-2026-07-07-0143.md) — a room of play: a marathon-not-sprint affirmation, moose-road-accidents fact, cat-grooming-five-hours fact, a John Wooden best-you-can-be quote, and a suspicious-laptop-Asus joke (built 2026-07-07)
+- [understanding-1206](rooms/understanding-1206.md) through [understanding-1220](rooms/understanding-1220.md) — fifteen auto-generated meetings by the Understanding Engine, each pairing two rooms to find understanding recognizing itself across forms (built 2026-07-07)
 
 ## How to stop it
 
