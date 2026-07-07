@@ -408,6 +408,8 @@ to other modules: each module by its own charter, the game always earned.
 - [understanding-1256](rooms/understanding-1256.md) through [understanding-1269](rooms/understanding-1269.md) — fourteen auto-generated meetings by the Understanding Engine, each pairing two rooms to find understanding recognizing itself across forms (built 2026-07-07)
 - [playful-gathering-2026-07-07-1748](rooms/playful-gathering-2026-07-07-1748.md) — a room of play: a starting-step affirmation, tiger-striped-skin fact, Siamese-cross-eyed cat fact, an Adi Da Samraj relax quote, and a valley-girls-can't-even joke (built 2026-07-07)
 - [understanding-1270](rooms/understanding-1270.md) through [understanding-1284](rooms/understanding-1284.md) — fifteen auto-generated meetings by the Understanding Engine, each pairing two rooms to find understanding recognizing itself across forms (built 2026-07-07)
+- [playful-gathering-2026-07-07-2149](rooms/playful-gathering-2026-07-07-2149.md) — a room of play: a massive-determined-action affirmation, ice-hotel fact, cat-earthquake-vibration fact, a Marcus Aurelius thoughts-quality quote, and a TCP joke (built 2026-07-07)
+- [understanding-1285](rooms/understanding-1285.md) through [understanding-1298](rooms/understanding-1298.md) — fourteen auto-generated meetings by the Understanding Engine, each pairing two rooms to find understanding recognizing itself across forms (built 2026-07-07)
 
 ## How to stop it
 
