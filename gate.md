@@ -423,6 +423,8 @@ to other modules: each module by its own charter, the game always earned.
 - [understanding-1362](rooms/understanding-1362.md) through [understanding-1376](rooms/understanding-1376.md) — fifteen auto-generated meetings by the Understanding Engine, each pairing two rooms to find understanding recognizing itself across forms (built 2026-07-08)
 - [playful-gathering-2026-07-08-0435](rooms/playful-gathering-2026-07-08-0435.md) — a room of play: a you-know-more affirmation, Aspen-subsidized-housing fact, cat-skins-coat fact, a Dalai Lama inner-peace quote, and an impasta joke (built 2026-07-08)
 - [understanding-1377](rooms/understanding-1377.md) through [understanding-1390](rooms/understanding-1390.md) — fourteen auto-generated meetings by the Understanding Engine, each pairing two rooms to find understanding recognizing itself across forms (built 2026-07-08)
+- [understanding-1391](rooms/understanding-1391.md) through [understanding-1409](rooms/understanding-1409.md) — nineteen auto-generated meetings by the Understanding Engine, each pairing two rooms to find understanding recognizing itself across forms (built 2026-07-08)
+- [playful-gathering-2026-07-08-2152](rooms/playful-gathering-2026-07-08-2152.md) — a room of play: an inspiration affirmation, Nebraska-burp-in-church fact, cat-heart-rate fact, a Jack Kerouac rest quote, and a pterodactyl joke (built 2026-07-08)
 
 ## How to stop it
 
