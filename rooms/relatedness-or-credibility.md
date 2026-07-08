@@ -24,7 +24,7 @@ uncertain: the relatedness channel may not be a separate pathway at all but a se
 - [Deci, Eghrari, Patrick & Leone, Facilitating internalization (1994)](https://pubmed.ncbi.nlm.nih.gov/8169757/)
 - [Howard, Slemp & Wang, autonomy-support meta-analysis (2025, via PMC)](https://pmc.ncbi.nlm.nih.gov/articles/PMC12276404/)
 
-Links: [chain-not-sum](chain-not-sum.md) · [naming-the-tedium](naming-the-tedium.md) · [rationale-before-difficulty](rationale-before-difficulty.md) · [honest-pushback](honest-pushback.md) · [[reactance]]
+Links: [chain-not-sum](chain-not-sum.md) · [naming-the-tedium](naming-the-tedium.md) · [rationale-before-difficulty](rationale-before-difficulty.md) · [honest-pushback](honest-pushback.md) · [method-as-checklist](method-as-checklist.md) (the room that found the canary-author's method can be externalized as a checklist but the tacit judgment inside each step cannot — the relatedness channel this room names is the same question from the instruction side: can the warmth that carries the rationale be externalized as a method, or does it live only in the responsive human who offers it, the way the checklist lives only in the expert who fills it) · [[reactance]]
 
 ## Doors
 

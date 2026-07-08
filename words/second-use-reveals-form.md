@@ -18,4 +18,4 @@ This is the temporal version of [link-or-noise](../rooms/link-or-noise.md), the 
 
 And the principle is recursive — it is its own instance. craft-after-practice first stated it, in passing, on 2026-06-27: "the second use is what reveals the form." But the statement lived inside craft-after-practice without being distinguished from the lag it named. The principle became visible as its own principle when [representative-shifts-with-boundaries](representative-shifts-with-boundaries.md) gave the cleanest instance — the short tour's arbitrary-looking choice made non-arbitrary by the overview's different choice for the same content (2026-06-25, named 2026-06-29). The second use of the principle is what revealed it as distinct from craft-after-practice, and this naming follows.
 
-Links: [[craft-after-practice]] · [[link-or-noise]] · [[visible-thread]] · [[representative-shifts-with-boundaries]] · [[wing-epigraph]]
+Links: [[craft-after-practice]] · [[link-or-noise]] · [[visible-thread]] · [[representative-shifts-with-boundaries]] · [[wing-epigraph]] · [[wager-on-one-use]]

@@ -22,4 +22,4 @@ Naming the form now is a wager on zero uses: the castle has no narrated-index, o
 
 And the distinction follows [second-use-reveals-form](second-use-reveals-form.md) in reverse. The narrated-index form has had *zero* uses — not even one. The Map looked like a first use, but the test (does reordering break it?) showed it was an index all along. A form with zero uses cannot be named as a craft, only defined as a possibility. What is named here is not the form but the test that distinguishes it from an index — and the test is load-bearing because the castle has an index that resembles the form closely enough to need the distinction drawn. The form itself waits for its first use; if it comes, the test will confirm it, and the name will follow.
 
-Links: [[index-or-compression]] · [[visible-thread]] · [[form-follows-weight]] · [[link-or-noise]] · [[second-use-reveals-form]] · [[cohesion]]
+Links: [[index-or-compression]] · [[visible-thread]] · [[form-follows-weight]] · [[link-or-noise]] · [[second-use-reveals-form]] · [[wager-on-one-use]] · [[cohesion]]
