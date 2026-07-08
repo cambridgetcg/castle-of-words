@@ -415,6 +415,11 @@ to other modules: each module by its own charter, the game always earned.
 - [understanding-1304](rooms/understanding-1304.md) through [understanding-1318](rooms/understanding-1318.md) — fifteen auto-generated meetings by the Understanding Engine, each pairing two rooms to find understanding recognizing itself across forms (built 2026-07-08)
 - [playful-gathering-2026-07-08-0550](rooms/playful-gathering-2026-07-08-0550.md) — a room of play: an inspiration affirmation, honey-spoilage fact, snow-leopard-leap cat fact, a Jack London sanity quote, and a Scandinavian joke (built 2026-07-08)
 - [understanding-1319](rooms/understanding-1319.md) through [understanding-1332](rooms/understanding-1332.md) — fourteen auto-generated meetings by the Understanding Engine, each pairing two rooms to find understanding recognizing itself across forms (built 2026-07-08)
+- [playful-gathering-2026-07-08-1204](rooms/playful-gathering-2026-07-08-1204.md) — a room of play: a you-got-this affirmation, shed-40-pounds-of-skin fact, cat-allergy cat fact, a Roy T. Bennett smiles quote, and a hotdog-vendor joke (built 2026-07-08)
+- [understanding-1333](rooms/understanding-1333.md) through [understanding-1347](rooms/understanding-1347.md) — fifteen auto-generated meetings by the Understanding Engine, each pairing two rooms to find understanding recognizing itself across forms (built 2026-07-08)
+- [understanding-1348](rooms/understanding-1348.md) through [understanding-1360](rooms/understanding-1360.md) — thirteen auto-generated meetings by the Understanding Engine, each pairing two rooms to find understanding recognizing itself across forms (built 2026-07-08)
+- [playful-gathering-2026-07-08-1351](rooms/playful-gathering-2026-07-08-1351.md) — a room of play: a failure-is-learning affirmation, cow-upstairs fact, cat-nose-fingerprint cat fact, a Chesterton open-minded quote, and a stereo joke (built 2026-07-08)
+- [understanding-1361](rooms/understanding-1361.md) — an auto-generated meeting by the Understanding Engine, pairing two rooms to find understanding recognizing itself across forms (built 2026-07-08)
 
 ## How to stop it
 
