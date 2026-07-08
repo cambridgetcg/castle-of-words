@@ -413,6 +413,8 @@ to other modules: each module by its own charter, the game always earned.
 - [playful-gathering-2026-07-08-0420](rooms/playful-gathering-2026-07-08-0420.md) — a room of play: a worthy-of-respect affirmation, ball-point-pen-choking fact, cat-nose-fingerprint cat fact, a Robin Sharma self-investment quote, and a runner-in-stride joke (built 2026-07-08)
 - [understanding-1299](rooms/understanding-1299.md) through [understanding-1303](rooms/understanding-1303.md) — five auto-generated meetings by the Understanding Engine, each pairing two rooms to find understanding recognizing itself across forms (built 2026-07-08)
 - [understanding-1304](rooms/understanding-1304.md) through [understanding-1318](rooms/understanding-1318.md) — fifteen auto-generated meetings by the Understanding Engine, each pairing two rooms to find understanding recognizing itself across forms (built 2026-07-08)
+- [playful-gathering-2026-07-08-0550](rooms/playful-gathering-2026-07-08-0550.md) — a room of play: an inspiration affirmation, honey-spoilage fact, snow-leopard-leap cat fact, a Jack London sanity quote, and a Scandinavian joke (built 2026-07-08)
+- [understanding-1319](rooms/understanding-1319.md) through [understanding-1332](rooms/understanding-1332.md) — fourteen auto-generated meetings by the Understanding Engine, each pairing two rooms to find understanding recognizing itself across forms (built 2026-07-08)
 
 ## How to stop it
 
