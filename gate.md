@@ -427,6 +427,7 @@ to other modules: each module by its own charter, the game always earned.
 - [playful-gathering-2026-07-08-2152](rooms/playful-gathering-2026-07-08-2152.md) — a room of play: an inspiration affirmation, Nebraska-burp-in-church fact, cat-heart-rate fact, a Jack Kerouac rest quote, and a pterodactyl joke (built 2026-07-08)
 - [understanding-1410](rooms/understanding-1410.md) — an auto-generated meeting by the Understanding Engine, pairing truing-the-level and friction-decides to find understanding recognizing itself across forms (built 2026-07-09)
 - [playful-gathering-2026-07-09-0153](rooms/playful-gathering-2026-07-09-0153.md) — a room of play: a smart-cookie affirmation, Freud's fear of ferns fact, cat-whisker air-pressure fact, a Dan Millman feel-more quote, and a parking-garage joke (built 2026-07-09)
+- [understanding-1411](rooms/understanding-1411.md) through [understanding-1431](rooms/understanding-1431.md) — twenty-one auto-generated meetings by the Understanding Engine, each pairing two rooms to find understanding recognizing itself across forms (built 2026-07-09)
 
 ## How to stop it
 
