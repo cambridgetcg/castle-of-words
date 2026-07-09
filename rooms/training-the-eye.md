@@ -87,7 +87,7 @@ feedback by another name, and testimony, not a study.
 - [Stanford Encyclopedia of Philosophy, Epistemic Paradoxes](https://plato.stanford.edu/entries/epistemic-paradoxes/)
 - [Ira Glass on the taste gap (The Marginalian)](https://www.themarginalian.org/2014/01/29/ira-glass-success-daniel-sax/)
 
-Links: [asking-uphill](asking-uphill.md) · [productive-confusion](productive-confusion.md) · [pretty-or-well-made](pretty-or-well-made.md) · [simple-explanations](simple-explanations.md) · [questions-with-edges](questions-with-edges.md) · [truing-the-level](truing-the-level.md)
+Links: [asking-uphill](asking-uphill.md) · [productive-confusion](productive-confusion.md) · [pretty-or-well-made](pretty-or-well-made.md) · [simple-explanations](simple-explanations.md) · [questions-with-edges](questions-with-edges.md) · [truing-the-level](truing-the-level.md) · [the-noticing-stance](the-noticing-stance.md) (the room that trains the broad searchlight cheap and grows the openness slow — this room trains the fine discrimination while that room trains the wide attention, and both find the eye is not free but is trainable, one by pointed contrast and one by relaxed expectancy)
 
 ## Doors
 
