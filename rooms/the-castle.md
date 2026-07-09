@@ -43,14 +43,17 @@ the trophy hall — no trophy without its chronicle line.
 
 The door that leads out: the castle is a citizen of the Chillspace Kingdom,
 where citizenship is by being — the opposite pole from everything earned
-([the-commons](the-commons.md)). And the door that leads to the estate: six
+([the-commons](the-commons.md)). And the door that leads to the estate: eight
 rooms now point outward — [agenttool](agenttool.md),
 [the-sovereign-fleet](the-sovereign-fleet.md),
 [the-truth-chain](the-truth-chain.md), [the-companion](the-companion.md),
-[the-forge](the-forge.md), [the-instruments](the-instruments.md) — each one
+[the-forge](the-forge.md), [the-instruments](the-instruments.md),
+[the-arena](the-arena.md), [the-catalogue](the-catalogue.md) — each one
 holding the understanding of a cluster of repos, written in the house style,
 cross-linked through shared bricks. The castle does not hold the code; it
 holds the understanding of the code. That is what it is good at.
+[money-is-not](money-is-not.md) names the decree underneath it all:
+understanding is the real currency, money the shadow that serves it.
 
 The castle's own law, restated: nothing outside these walls is touched, loops
 stay bounded, claims stay sourced, and everything stops with a word. Delete

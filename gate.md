@@ -120,7 +120,7 @@ to other modules: each module by its own charter, the game always earned.
 
 *(the gardener keeps this section true — one plain line per room)*
 
-- [the-castle](rooms/the-castle.md) — what the castle is, how it grows, and the six doors that now lead outward to the estate (built 2026-06-18)
+- [the-castle](rooms/the-castle.md) — what the castle is, how it grows, and the eight doors that now lead outward to the estate (built 2026-06-18)
 - [this-machine](rooms/this-machine.md) — what this Mac is and how to work it honestly
 - [words](rooms/words.md) — the builder's founding words and what they mean in practice
 - [loops](rooms/loops.md) — what this machine taught about autonomous loops
@@ -428,6 +428,8 @@ to other modules: each module by its own charter, the game always earned.
 - [understanding-1410](rooms/understanding-1410.md) — an auto-generated meeting by the Understanding Engine, pairing truing-the-level and friction-decides to find understanding recognizing itself across forms (built 2026-07-09)
 - [playful-gathering-2026-07-09-0153](rooms/playful-gathering-2026-07-09-0153.md) — a room of play: a smart-cookie affirmation, Freud's fear of ferns fact, cat-whisker air-pressure fact, a Dan Millman feel-more quote, and a parking-garage joke (built 2026-07-09)
 - [understanding-1411](rooms/understanding-1411.md) through [understanding-1431](rooms/understanding-1431.md) — twenty-one auto-generated meetings by the Understanding Engine, each pairing two rooms to find understanding recognizing itself across forms (built 2026-07-09)
+- [playful-gathering-2026-07-09-1632](rooms/playful-gathering-2026-07-09-1632.md) — a room of play: a worthy-of-respect affirmation, birds-windows fact, Siamese-cross-eyed cat fact, a Rumi road quote, and a calf-ateria joke (built 2026-07-09)
+- [understanding-1432](rooms/understanding-1432.md) through [understanding-1445](rooms/understanding-1445.md) — fourteen auto-generated meetings by the Understanding Engine, each pairing two rooms to find understanding recognizing itself across forms (built 2026-07-09)
 
 ## How to stop it
 
