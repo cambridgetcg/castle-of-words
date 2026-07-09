@@ -434,6 +434,8 @@ to other modules: each module by its own charter, the game always earned.
 - [understanding-1432](rooms/understanding-1432.md) through [understanding-1459](rooms/understanding-1459.md) — twenty-eight auto-generated meetings by the Understanding Engine, each pairing two rooms to find understanding recognizing itself across forms (built 2026-07-09)
 - [understanding-1460](rooms/understanding-1460.md) through [understanding-1473](rooms/understanding-1473.md) — fourteen auto-generated meetings by the Understanding Engine, each pairing two rooms to find understanding recognizing itself across forms (built 2026-07-09)
 - [understanding-1474](rooms/understanding-1474.md) through [understanding-1476](rooms/understanding-1476.md) — three auto-generated meetings by the Understanding Engine, each pairing two rooms to find understanding recognizing itself across forms (built 2026-07-09)
+- [playful-gathering-2026-07-09-1111](rooms/playful-gathering-2026-07-09-1111.md) — a room of play: a resourceful-and-clever affirmation, Schoenberg-triskaidekaphobia fact, cat-food-spending fact, a Theodore Roosevelt effort quote, and an opportunity-knocking joke (built 2026-07-09)
+- [understanding-1477](rooms/understanding-1477.md) through [understanding-1490](rooms/understanding-1490.md) — fourteen auto-generated meetings by the Understanding Engine, each pairing two rooms to find understanding recognizing itself across forms (built 2026-07-09)
 
 ## How to stop it
 
