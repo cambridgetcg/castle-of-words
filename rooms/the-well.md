@@ -20,6 +20,64 @@ The opposite practice — deliberate wandering past your filters — is not nois
 
 Links: [[link-or-noise]] · [[word]] · [[meaning]] · [asking-uphill](asking-uphill.md) · [the-landing](the-landing.md) (the lateral reading that orients in a new field is the well's disciplined descendant — one source chosen for a reason, not a feed that chooses for you) · [auditing-over-reputation](auditing-over-reputation.md) (when the well's reputation points backward to what will not replicate, the reader must audit the water, not just drink from it) · [no-neighbors](no-neighbors.md) (on the frontier where no well is yet dug, the land's own stones are the only water)
 
+## The audit (2026-07-10)
+
+The door asked: after a month, which rooms actually cite the well — did the
+SEP earn its place, or does this castle's work live closer to psychology than
+philosophy? The honest answer is: *both, and the well is not where the castle
+drinks most, but where it should drink more.*
+
+**What the search found.** Only two substantive rooms beyond the-well itself
+cite the SEP — [asking-uphill](asking-uphill.md) and
+[training-the-eye](training-the-eye.md), and both cite the same entry
+([Epistemic Paradoxes](https://plato.stanford.edu/entries/epistemic-paradoxes/),
+read 2026-06-10). By contrast, roughly 90 rooms cite psychology and cognitive-
+science papers (arXiv, PubMed, DOI, Nature, ScienceDirect) — the castle's
+research wing is overwhelmingly empirical psychology: emotion regulation,
+personality change, cognitive load, expertise, teaching, calibration, and
+copyright law. The center of gravity is not philosophy.
+
+**But the SEP has the entries the castle's questions point at.** A survey of
+the SEP (read 2026-07-10) found live entries on
+[emotion](https://plato.stanford.edu/entries/emotion/),
+[aesthetic judgment](https://plato.stanford.edu/entries/aesthetic-judgment/),
+[beauty](https://plato.stanford.edu/entries/beauty/),
+[understanding](https://plato.stanford.edu/entries/understanding/),
+[knowledge-how](https://plato.stanford.edu/entries/knowledge-how/),
+[self-knowledge](https://plato.stanford.edu/entries/self-knowledge/),
+[introspection](https://plato.stanford.edu/entries/introspection/),
+[concepts](https://plato.stanford.edu/entries/concepts/),
+[meaning](https://plato.stanford.edu/entries/meaning/),
+[metaphor](https://plato.stanford.edu/entries/metaphor/),
+[trust](https://plato.stanford.edu/entries/trust/),
+[evidence](https://plato.stanford.edu/entries/evidence/),
+[well-being](https://plato.stanford.edu/entries/well-being/),
+[artificial intelligence](https://plato.stanford.edu/entries/artificial-intelligence/),
+[cognitive science](https://plato.stanford.edu/entries/cognitive-science/),
+and
+[intellectual property](https://plato.stanford.edu/entries/intellectual-property/)
+— each touching a wing the castle has built. The castle asked what makes
+understanding grow; the SEP has a whole entry on understanding. The castle
+asked what words carry between minds; the SEP has entries on meaning, concepts,
+and metaphor. The castle asked whether beauty is partly fluency; the SEP's
+aesthetic-judgment entry traces the same question from Kant to the present.
+The well has the water the castle is thirsty for, and the castle has not been
+drinking it.
+
+**The honest verdict.** The SEP earned its place — but the castle underused it.
+The castle's work does live closer to psychology than philosophy in its daily
+practice, because the gardener's doors named empirical questions and the
+gardener reached for empirical papers. That is not a mistake — psychology is
+where the evidence lives. But the castle's questions keep reaching the edge
+where psychology hands off to philosophy (what is understanding? what does a
+word carry? what makes repair a rhythm?), and at that edge the SEP is the
+right well to drink from. The audit's prescription: keep pulling from
+psychology for the empirical claims, but visit the SEP when a door names a
+concept, not just a study — and that has always been the well's own rule.
+
+(researched by the gardener, 2026-07-10 — SEP entries verified live by direct
+access to plato.stanford.edu/entries/&lt;topic&gt;, 2026-07-10)
+
 ## Doors
 
-- After a month of visits, audit: which rooms actually cite the well — did the SEP earn its place, or does the castle's work live closer to psychology than philosophy?
+~~After a month of visits, audit: which rooms actually cite the well — did the SEP earn its place, or does the castle's work live closer to psychology than philosophy?~~ (answered 2026-07-10 — see the audit above)

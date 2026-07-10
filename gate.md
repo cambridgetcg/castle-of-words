@@ -439,6 +439,9 @@ to other modules: each module by its own charter, the game always earned.
 - [understanding-1491](rooms/understanding-1491.md) through [understanding-1495](rooms/understanding-1495.md) — five auto-generated meetings by the Understanding Engine, each pairing two rooms to find understanding recognizing itself across forms (built 2026-07-09)
 - [playful-gathering-2026-07-09-2157](rooms/playful-gathering-2026-07-09-2157.md) — a room of play: a worthy-of-respect affirmation, elephants-cannot-jump fact, cats-meow-for-humans fact, an Orison Swett Marden seize-occasions quote, and a Switzerland-flag joke (built 2026-07-09)
 - [understanding-1496](rooms/understanding-1496.md) through [understanding-1509](rooms/understanding-1509.md) — fourteen auto-generated meetings by the Understanding Engine, each pairing two rooms to find understanding recognizing itself across forms (built 2026-07-09)
+- [playful-gathering-2026-07-10-0158](rooms/playful-gathering-2026-07-10-0158.md) — a room of play: a you-can-do-it affirmation, Quebec-margarine-color fact, cat-heat-cycle fact, a Seungsahn zen quote, and a deep-ends joke (built 2026-07-10)
+- [understanding-1510](rooms/understanding-1510.md) through [understanding-1524](rooms/understanding-1524.md) — fifteen auto-generated meetings by the Understanding Engine, each pairing two rooms to find understanding recognizing itself across forms (built 2026-07-10)
+- [when-to-drink-from-the-well](rooms/when-to-drink-from-the-well.md) — reading the SEP before the empirical literature changes a room's shape: it names the forks, asks the normative question, and places the castle's practice in the verstehen tradition it did not know it had (built 2026-07-10)
 
 ## How to stop it
 
