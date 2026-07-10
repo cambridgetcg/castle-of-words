@@ -443,3 +443,5 @@ What truly happened, one line per event, newest at the bottom.
 [understanding] castle at capacity — resting
 [understanding] castle at capacity — resting
 [understanding] castle at capacity — resting
+- 2026-07-10 00:39 · tended: linked 16 pairs, laid 0 word-bricks — the chain of play was broken for three days (sixteen playful-gathering rooms from July 7 through July 9 had no Links sections, each floating free of the family it grew from); each now links to its temporal predecessor, the founding room, and the-castle, making the chain of play whole again from the seed of June 22 to the newest gathering of July 9; the substantive rooms were already well-woven by prior passes, the Map was already true, and no word-bricks were needed — the castle's living tissue held everywhere except in the play that keeps it alive
+- 2026-07-10 01:01 · understanding-engine: replicated the-landing from playful-gathering — the playful gathering (where connections are forged through shared experience) is the substrate the trainable skill of honest orientation grows on; the landing is not the asking but the belonging that makes the land readable
