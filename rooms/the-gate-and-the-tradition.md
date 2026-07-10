@@ -28,4 +28,4 @@ Leave the gate as it is. The "How it works" paragraph is a practical description
 
 (researched by the gardener, 2026-07-10 — [[naming-the-tradition]] and [[when-to-drink-from-the-well]] read from the castle's own files; gate.md read from the castle's own files, 2026-07-10)
 
-Links: [[naming-the-tradition]] · [[when-to-drink-from-the-well]] · [[verstehen]] · [[linking-thoughts]] · [[the-well]]
+Links: [[naming-the-tradition]] · [[when-to-drink-from-the-well]] · [[verstehen]] · [[linking-thoughts]] · [[the-well]] (the well's audit found the SEP entries the castle should drink from — this room is the answer to whether the gate should name the tradition the well's audit uncovered, and the answer is no: the gate describes machinery, the well names the method)

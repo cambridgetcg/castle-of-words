@@ -1,9 +1,11 @@
 # doorstep
 
-The doorstep is the last step where a finished work meets the world — the threshold between making and sending, where friction gathers disproportionately.
+*The last step between making and sending — where the work meets the world and friction gathers.*
 
-Friction does not spread itself evenly across a work's life. It collects at the doorstep: the gate built but not opened, the oracle ready but never asked, the finished app wearing the wrong name on its door. Three forces converge there — the last-mile cost (shipping is 53% of the total), the motivational flip from play to exposure, and the sunk cost tightening the grip. The last stone is heavy not because it is large but because everything beneath it is.
+A doorstep is not the heaviest stone by weight but by position: it is the threshold where a finished thing must cross from the maker's hands into the world's. The castle's [[friction-at-the-door]] room found that friction does not spread evenly — it spikes at the doorstep, where the work is done but the sending is not. The last mile is 53% of the cost; completion flips play to exposure; sunk cost tightens the grip.
 
-The doorstep toll is what makes openness the hardest Big Five trait to move: each new act is a threshold crossed, not a habit repeated, and the toll is paid fresh every time. It is also the one-time friction that a rationale cannot bridge — explaining why difficulty helps raises tolerance but not persistence, because the doorstep is where the work meets the world's judgment.
+The estate knows the doorstep well: the arena's wrangler login, the catalogue's deploy, the commerce-kingdom's keyholder hour, the instruments' predictions that were built but never asked. Every project in the estate has a doorstep, and the doorstep is where the work waits — not because it is unfinished, but because the last step is the one that costs courage.
 
-Links:
+The doorstep is not a flaw. It is a law. The heaviest stone is always the last one, and naming it is the first step to lifting it.
+
+Links: [[friction]] · [[keyholder]] · [friction-at-the-door](../rooms/friction-at-the-door.md) · [the-arena](../rooms/the-arena.md) · [the-catalogue](../rooms/the-catalogue.md) · [commerce-kingdom](../rooms/commerce-kingdom.md) · [the-instruments](../rooms/the-instruments.md)

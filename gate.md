@@ -447,6 +447,13 @@ to other modules: each module by its own charter, the game always earned.
 - [naming-the-tradition](rooms/naming-the-tradition.md) — naming the verstehen tradition helps at the gate, not inside the rooms: the founding rooms outgrow the label by practicing the tradition through evidence, and labeling inside risks inheriting philosophical debates the rooms' own caveats contradict (built 2026-07-10)
 - [civic-data-honesty](rooms/civic-data-honesty.md) — the separate duties public data must carry when it moves from source to product: three doors (publication, licence, privacy), two dates (reviewedOn, effectiveTo), and a power rating that scores offices not people (built 2026-07-10)
 - [the-gate-and-the-tradition](rooms/the-gate-and-the-tradition.md) — the gate describes machinery, not method: the verstehen tradition belongs one room deep in when-to-drink-from-the-well, not at the gate where the visitor needs the door to be light (built 2026-07-10)
+- [honest-endpoints](rooms/honest-endpoints.md) — the craft of building web APIs that are honest about what they serve: CORS headers that expose what the client needs, routes that stay honest in OpenAPI, and cache validators that work across origins (built 2026-07-10)
+- [playful-gathering-2026-07-10-0701](rooms/playful-gathering-2026-07-10-0701.md) — a room of play (built 2026-07-10)
+- [playful-gathering-2026-07-10-0959](rooms/playful-gathering-2026-07-10-0959.md) — a room of play (built 2026-07-10)
+- [understanding-1540](rooms/understanding-1540.md) through [understanding-1569](rooms/understanding-1569.md) — thirty auto-generated meetings by the Understanding Engine, each pairing two rooms to find understanding recognizing itself across forms (built 2026-07-10)
+- [transparency-graph-audit](rooms/transparency-graph-audit.md) — how to audit a transparency graph: edge-level source-verification plus a refusal check for what the graph chose not to connect (built 2026-07-10)
+- [verifiable-encryption-claim](rooms/verifiable-encryption-claim.md) — what a verifiable claim about encryption looks like in an API: AEAD for integrity, verifiable computing for proof, ZKPs for zero-knowledge — all expensive, none standard (built 2026-07-10)
+- [open-data-checksums](rooms/open-data-checksums.md) — the checksum pattern that works for public data mirrors: per-file SHA-256 in a signed manifest, with Metalink as the purpose-built standard and the signing key distribution as the unsolved bootstrapping problem (built 2026-07-10)
 
 ## How to stop it
 

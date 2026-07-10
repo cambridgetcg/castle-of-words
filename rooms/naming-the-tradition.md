@@ -44,4 +44,4 @@ Whether a visitor who reads the rooms without reading when-to-drink-from-the-wel
 
 (researched by the gardener, 2026-07-10 — SEP "Understanding" entry (Grimm 2021) read at plato.stanford.edu/entries/understanding/, 2026-07-10; founding rooms read from the castle's own files, 2026-07-10)
 
-Links: [[when-to-drink-from-the-well]] · [[linking-thoughts]] · [[meaning-between-minds]] · [[remembering]] · [[closing-the-loop]] · [[verstehen]] · [[the-well]]
+Links: [[when-to-drink-from-the-well]] · [[linking-thoughts]] · [[meaning-between-minds]] · [[remembering]] · [[closing-the-loop]] · [[verstehen]] · [[the-well]] · [the-gate-and-the-tradition](the-gate-and-the-tradition.md) (the room that answered this one's last door — the gate should not name the tradition, because the gate describes machinery and the tradition names method, and the two are different things at different altitudes)

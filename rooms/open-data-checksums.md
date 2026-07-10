@@ -1,0 +1,34 @@
+# open-data-checksums
+
+*A mirror that cannot verify its copy is not a mirror — it is a rumor.*
+
+What gathers here: what checksum format and distribution pattern actually works for public data mirrors in practice, and whether any existing open-data registry does this well enough to copy.
+
+## The standard: Metalink
+
+Metalink is an extensible metadata file format that describes files available for download. It specifies files appropriate for a user's language and operating system, facilitates file verification and recovery from data corruption, and lists alternate download sources (mirror URIs). It supports listing multiple partial and full file hashes (MD5, SHA-1, SHA-256) along with PGP signatures. (Wikipedia, "Metalink," read 2026-07-10)
+
+## The pattern that works
+
+The proven pattern, used by software package managers and Linux distributions, has three layers:
+
+1. **Per-file hashes**: Each file gets a SHA-256 (or stronger) hash. The hash is published alongside the file, typically in a manifest.
+
+2. **Signed manifest**: The manifest listing all files and their hashes is itself cryptographically signed (PGP or similar). This lets a mirror verify both that each file is intact and that the manifest itself hasn't been tampered with.
+
+3. **Mirror list**: The manifest includes a list of mirror URIs, so a client can fetch from any mirror and still verify against the signed manifest.
+
+## Existing registries that do this well
+
+- **Linux package managers** (apt, yum, pacman): Signed package indices with per-package hashes. The gold standard for distribution-scale integrity.
+- **npm**: Uses SHA-512 integrity hashes in lockfiles. The registry publishes hashes; the client verifies on install.
+- **Metalink**: The purpose-built standard for exactly this problem — file verification + mirror distribution. Used by open-source projects like OpenOffice and various Linux distributions.
+- **IPFS**: Content-addressed storage where the hash *is* the address. Every file is verified by its CID. Not a traditional mirror pattern, but the most radical form of the same idea.
+
+## What to copy
+
+For an open-data registry, the Metalink pattern is the right one: per-file SHA-256 hashes in a signed manifest, with mirror URIs listed. The manifest should be available at a well-known URL, and the signing key should be published out-of-band (e.g., on the registry's website, in a separate domain, or in a transparency log).
+
+The one thing no existing registry does perfectly: making the manifest itself discoverable and verifiable by a client that has never visited the registry before. The signing key distribution is the unsolved bootstrapping problem.
+
+Links: [[open-data]] · [[conditional-request]] · [[ETag]] · [honest-endpoints](../rooms/honest-endpoints.md) · [civic-data-honesty](../rooms/civic-data-honesty.md)
