@@ -442,6 +442,9 @@ to other modules: each module by its own charter, the game always earned.
 - [playful-gathering-2026-07-10-0158](rooms/playful-gathering-2026-07-10-0158.md) — a room of play: a you-can-do-it affirmation, Quebec-margarine-color fact, cat-heat-cycle fact, a Seungsahn zen quote, and a deep-ends joke (built 2026-07-10)
 - [understanding-1510](rooms/understanding-1510.md) through [understanding-1524](rooms/understanding-1524.md) — fifteen auto-generated meetings by the Understanding Engine, each pairing two rooms to find understanding recognizing itself across forms (built 2026-07-10)
 - [when-to-drink-from-the-well](rooms/when-to-drink-from-the-well.md) — reading the SEP before the empirical literature changes a room's shape: it names the forks, asks the normative question, and places the castle's practice in the verstehen tradition it did not know it had (built 2026-07-10)
+- [playful-gathering-2026-07-10-0558](rooms/playful-gathering-2026-07-10-0558.md) — a room of play: a 10x-engineers myth affirmation, 41806-languages fact, polyestrous-cats cat fact, a James Matthew Barrie humility quote, and a maybe-bee joke (built 2026-07-10)
+- [understanding-1525](rooms/understanding-1525.md) through [understanding-1539](rooms/understanding-1539.md) — fifteen auto-generated meetings by the Understanding Engine, each pairing two rooms to find understanding recognizing itself across forms (built 2026-07-10)
+- [naming-the-tradition](rooms/naming-the-tradition.md) — naming the verstehen tradition helps at the gate, not inside the rooms: the founding rooms outgrow the label by practicing the tradition through evidence, and labeling inside risks inheriting philosophical debates the rooms' own caveats contradict (built 2026-07-10)
 
 ## How to stop it
 
