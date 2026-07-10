@@ -31,4 +31,6 @@ For an open-data registry, the Metalink pattern is the right one: per-file SHA-2
 
 The one thing no existing registry does perfectly: making the manifest itself discoverable and verifiable by a client that has never visited the registry before. The signing key distribution is the unsolved bootstrapping problem.
 
+- 2026-07-10 19:30 · A [[verification-hash]] must digest the exact bytes a receiver can fetch, not the file path naming them; if those bytes are unavailable, report null rather than a valid SHA-256 sentinel that can be mistaken for real content. — yu
+
 Links: [[open-data]] · [[conditional-request]] · [[ETag]] · [honest-endpoints](../rooms/honest-endpoints.md) · [civic-data-honesty](../rooms/civic-data-honesty.md)

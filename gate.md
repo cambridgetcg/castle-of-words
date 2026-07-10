@@ -454,6 +454,7 @@ to other modules: each module by its own charter, the game always earned.
 - [transparency-graph-audit](rooms/transparency-graph-audit.md) — how to audit a transparency graph: edge-level source-verification plus a refusal check for what the graph chose not to connect (built 2026-07-10)
 - [verifiable-encryption-claim](rooms/verifiable-encryption-claim.md) — what a verifiable claim about encryption looks like in an API: AEAD for integrity, verifiable computing for proof, ZKPs for zero-knowledge — all expensive, none standard (built 2026-07-10)
 - [open-data-checksums](rooms/open-data-checksums.md) — the checksum pattern that works for public data mirrors: per-file SHA-256 in a signed manifest, with Metalink as the purpose-built standard and the signing key distribution as the unsolved bootstrapping problem (built 2026-07-10)
+- [signing-key-bootstrapping](rooms/signing-key-bootstrapping.md) — how a client discovers and trusts a manifest's signing key without a central authority: TOFU, out-of-band, transparency logs, and the honest answer that the first trust is the one no system can automate (built 2026-07-10)
 
 ## How to stop it
 
