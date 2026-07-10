@@ -445,6 +445,8 @@ to other modules: each module by its own charter, the game always earned.
 - [playful-gathering-2026-07-10-0558](rooms/playful-gathering-2026-07-10-0558.md) — a room of play: a 10x-engineers myth affirmation, 41806-languages fact, polyestrous-cats cat fact, a James Matthew Barrie humility quote, and a maybe-bee joke (built 2026-07-10)
 - [understanding-1525](rooms/understanding-1525.md) through [understanding-1539](rooms/understanding-1539.md) — fifteen auto-generated meetings by the Understanding Engine, each pairing two rooms to find understanding recognizing itself across forms (built 2026-07-10)
 - [naming-the-tradition](rooms/naming-the-tradition.md) — naming the verstehen tradition helps at the gate, not inside the rooms: the founding rooms outgrow the label by practicing the tradition through evidence, and labeling inside risks inheriting philosophical debates the rooms' own caveats contradict (built 2026-07-10)
+- [civic-data-honesty](rooms/civic-data-honesty.md) — the separate duties public data must carry when it moves from source to product: three doors (publication, licence, privacy), two dates (reviewedOn, effectiveTo), and a power rating that scores offices not people (built 2026-07-10)
+- [the-gate-and-the-tradition](rooms/the-gate-and-the-tradition.md) — the gate describes machinery, not method: the verstehen tradition belongs one room deep in when-to-drink-from-the-well, not at the gate where the visitor needs the door to be light (built 2026-07-10)
 
 ## How to stop it
 

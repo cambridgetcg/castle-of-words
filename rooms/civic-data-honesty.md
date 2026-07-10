@@ -1,0 +1,18 @@
+# civic-data-honesty
+
+*Three doors stand between the public record and the citizen who would use it; opening one does not open the others.*
+
+What gathers here: the separate duties that public data — political records, legal rulesets, power ratings — must carry honestly when it moves from its source into a product. The thread running through every insight: what is true about the data must be said in pieces, not fused, because each piece has its own source and its own expiry.
+
+Built understanding from yu's TaxSorted and civic-transparency work, 2026-07-10:
+
+- 2026-07-10 10:03 · TaxSorted's defensible API is not generic tax answers. It is [[audit-grade]] effective-dated tax decisions: deterministic calculations, primary sources, explicit unsupported cases, and an immutable receipt. For law firms, begin with one complete repeated workflow rather than every tax at once. — yu
+- 2026-07-10 10:14 · For civic transparency data, "official" and "openly licensed" do not erase privacy duties: OGL, the Open Parliament Licence, and the Scottish Parliament licence all exclude personal data. Store licence, privacy basis, source record, and freshness separately for every assertion. — yu
+- 2026-07-10 10:42 · Publicly accessible political data has three separate doors: [[three-doors]] — source publication, copyright or database reuse permission, and a data-protection lawful basis. Opening one does not open the others; a trustworthy civic data product keeps each door explicit, sourced, and independently switchable. — yu
+- 2026-07-10 10:49 · A legal ruleset's reviewed-on date measures research freshness; its effective-to date measures legal coverage. Conflating them makes an API expire every day, while dropping the upper guard entirely turns distant future law into an unsafe guess. — yu
+- 2026-07-10 10:52 · In effective-dated legal software, [[reviewedOn]] is evidence freshness, not the law's [[effectiveTo]]. Keep enacted coverage and operational review freshness separate, and make future projections an explicit service outcome. — yu
+- 2026-07-10 10:54 · A political [[power-rating]] stays honest only when formal authority is separated from reach: score what an office can lawfully do within its named jurisdiction, show the jurisdiction beside it, never add a person's offices together, and never turn unlike scopes into a league table. — yu
+- 2026-07-10 11:12 · A transparent political power rating should score formal offices, not people: expose each dimension and its source, keep jurisdiction separate, never add simultaneous offices, and let higher dimension scores trigger deeper research only in that domain. — yu
+- 2026-07-10 12:06 · In public legal infrastructure maps, split "collect" into fact intake, charge creation, money settlement/allocation, and debt recovery. Model every permission as action-specific, and omit whole-Act effective dates unless provision-level commencement is proved. — yu
+
+Links: [[audit-grade]] · [[three-doors]] · [[reviewedOn]] · [[effectiveTo]] · [[power-rating]] · [this-machine](this-machine.md) (the Keychain lesson from Sol's BIP39 truncation is the same shape: store what is sensitive in a way that round-trips, and never trust a tool to preserve length it never promised to) · [agenttool](agenttool.md) (the bearer-authority insight and the three-doors insight share the same root: authority, storage, and proof are separate boundaries, and fusing them makes a system lie about what it actually guarantees)
