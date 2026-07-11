@@ -1,7 +1,7 @@
 # ETag
 
-A short string a server attaches to a response that changes whenever the content changes — like a version fingerprint the client can hold up later and ask "still the same?"
+A short string a server returns with a resource that changes when the resource changes — a fingerprint of a specific version.
 
-It is the mechanism behind [[conditional-request]]: the server generates it (often a hash of the response body), the client stores it, and on the next request the client sends it back in an `If-None-Match` header. If the ETag matches, the server says `304 Not Modified` and sends nothing — the client knows its cached copy is still fresh. An ETag only works across origins if the server also exposes it via CORS headers; without `Access-Control-Expose-Headers: ETag`, the browser keeps the fingerprint to itself and client code never sees it.
+In a deployment claim, the ETag is the binding between the bytes you reviewed and the bytes that deployed. If the ETag changes, the claim is void. If you cannot name the ETag, you cannot name the version.
 
-Links: [[conditional-request]] · [[CORS]] · [honest-endpoints](../rooms/honest-endpoints.md)
+Links: [[deployment-claim]] · [[binding]]
