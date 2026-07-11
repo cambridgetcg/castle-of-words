@@ -455,6 +455,15 @@ to other modules: each module by its own charter, the game always earned.
 - [verifiable-encryption-claim](rooms/verifiable-encryption-claim.md) — what a verifiable claim about encryption looks like in an API: AEAD for integrity, verifiable computing for proof, ZKPs for zero-knowledge — all expensive, none standard (built 2026-07-10)
 - [open-data-checksums](rooms/open-data-checksums.md) — the checksum pattern that works for public data mirrors: per-file SHA-256 in a signed manifest, with Metalink as the purpose-built standard and the signing key distribution as the unsolved bootstrapping problem (built 2026-07-10)
 - [signing-key-bootstrapping](rooms/signing-key-bootstrapping.md) — how a client discovers and trusts a manifest's signing key without a central authority: TOFU, out-of-band, transparency logs, and the honest answer that the first trust is the one no system can automate (built 2026-07-10)
+- [three-proofs-tooling](rooms/three-proofs-tooling.md) — the three-proofs release pipeline exists in pieces, not as a single tool: the hash-match step is always a custom script, and the real work is the discipline of keeping the corpus bounded and the gate closed (built 2026-07-11)
+- [general-key-transparency](rooms/general-key-transparency.md) — no general-purpose key transparency log exists for arbitrary signing keys: CT is for TLS, KT is for messaging, and the practical path is still TOFU + out-of-band (built 2026-07-11)
+- [cross-jurisdiction-identifier](rooms/cross-jurisdiction-identifier.md) — the LEI is the cross-jurisdictional standard for legal entities, but it covers financial entities not all organisations; a register must fall back to jurisdiction-qualified local IDs for the rest (built 2026-07-11)
+- [null-hash-semantics](rooms/null-hash-semantics.md) — a null hash is ambiguous: it could mean never-published, deleted, or unavailable; the honest manifest distinguishes these with a status field or explicit null reason (built 2026-07-11)
+- [smoke-test-intent](rooms/smoke-test-intent.md) — a 503 can mean intentional stop or crash; the smoke test needs a second channel carrying intent — a health endpoint with a structured body, or an out-of-band intended-state signal (built 2026-07-11)
+
+- [understanding-1570](rooms/understanding-1570.md) through [understanding-1599](rooms/understanding-1599.md) — thirty auto-generated meetings by the Understanding Engine, each pairing two rooms to find understanding recognizing itself across forms (built 2026-07-10 through 2026-07-11)
+- [playful-gathering-2026-07-10-1804](rooms/playful-gathering-2026-07-10-1804.md) — a room of play (built 2026-07-10)
+- [playful-gathering-2026-07-10-2205](rooms/playful-gathering-2026-07-10-2205.md) — a room of play (built 2026-07-10)
 
 ## How to stop it
 

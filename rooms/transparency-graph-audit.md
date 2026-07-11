@@ -16,4 +16,4 @@ So the audit has two layers:
 
 The audit needs both shapes: source-verification for what is present, and a refusal check for what is absent. The refusal check is the harder one — it requires knowing what the graph *could* have connected but chose not to, and verifying that the choice was honest.
 
-Links: [[transparency-graph]] · [[three-doors]] · [[honesty]] · [civic-data-honesty](../rooms/civic-data-honesty.md)
+Links: [[transparency-graph]] · [[three-doors]] · [[honesty]] · [civic-data-honesty](../rooms/civic-data-honesty.md) · [null-hash-semantics](../rooms/null-hash-semantics.md) (the refusal audit — checking what the graph chose not to connect — is the same honesty-of-absence the null hash demands: a silence is ambiguous until you say why, and the graph that refuses to distinguish "never connected" from "connected and hidden" is the same lie as the manifest that refuses to distinguish "never published" from "published and deleted")

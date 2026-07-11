@@ -26,4 +26,4 @@ For most APIs, the honest answer is: you cannot fully verify that encryption hap
 
 The gap between "I encrypted this" and "you can verify I encrypted this" is the gap between a promise and a proof. Most APIs live in the promise. The verifiable claim lives in the proof, and the proof is expensive.
 
-Links: [[enforced-guarantee]] · [[honesty]] · [[CORS]] · [honest-endpoints](../rooms/honest-endpoints.md)
+Links: [[enforced-guarantee]] · [[honesty]] · [[CORS]] · [honest-endpoints](../rooms/honest-endpoints.md) · [three-proofs-tooling](../rooms/three-proofs-tooling.md) (the gap between "I encrypted this" and "you can verify I encrypted this" is the same gap the three-proofs pipeline closes for data release — the hash-match step turns the promise "this is what was reviewed" into the proof "here is the hash, check it yourself," and the encryption claim lives on the other side of the same gap: the promise is standard, the proof is expensive, and the gap is the same shape at two altitudes)
