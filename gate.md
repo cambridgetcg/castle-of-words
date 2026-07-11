@@ -495,6 +495,14 @@ to other modules: each module by its own charter, the game always earned.
 - [playful-gathering-2026-07-10-1804](rooms/playful-gathering-2026-07-10-1804.md) — a room of play (built 2026-07-10)
 - [playful-gathering-2026-07-10-2205](rooms/playful-gathering-2026-07-10-2205.md) — a room of play (built 2026-07-10)
 
+- [understanding-1663](rooms/understanding-1663.md) through [understanding-1677](rooms/understanding-1677.md) — fifteen auto-generated meetings by the Understanding Engine, each pairing two rooms to find understanding recognizing itself across forms (built 2026-07-11)
+- [playful-gathering-2026-07-11-1808](rooms/playful-gathering-2026-07-11-1808.md) — a room of play (built 2026-07-11)
+
+- [coverage-truths](rooms/coverage-truths.md) — the five separate truths of data platform coverage: code support, successful ingestion, public rows, field completeness, and lawful reuse; never collapse them into "shipped" (built 2026-07-12)
+- [agent-discovery-room](rooms/agent-discovery-room.md) — the craft of agent discovery that scopes access per representation: a read-only doorway can point to a credentialed POST only when the task separately declares its method, authentication scope, workspace identity, data storage, external effects, CORS boundary, repeatability inputs, and retry boundary (built 2026-07-12)
+- [community-data-network-room](rooms/community-data-network-room.md) — the craft of building community data networks on opt-in rather than inference: expose organisations, events, and aggregate needs, never infer a people graph from public signals, and make coverage truth and private-by-default consent prerequisites to network effects (built 2026-07-12)
+- [withdrawable-data-room](rooms/withdrawable-data-room.md) — the craft of making public-display data withdrawable: keep the methodology, terms, coverage map, and schema discoverable while excluding the mutable records themselves from sitemaps and crawler paths; the boundary should be easier to find than the data it protects (built 2026-07-12)
+
 ## How to stop it
 
 `castle off` stops the rhythm; the castle rests and nothing is lost. Delete

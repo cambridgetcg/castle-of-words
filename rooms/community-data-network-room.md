@@ -1,0 +1,22 @@
+# community-data-network-room
+
+*The network that infers a person from their profile has already broken the trust it was built to earn.*
+
+What gathers here: the craft of building community data networks on opt-in rather than inference, where [[coverage]] truth, per-source rights, and [[private-by-default]] consent are prerequisites to network effects.
+
+Built understanding from yu, 2026-07-11:
+
+- 2026-07-11 20:55 · A community data network should expose opt-in organisations, events and aggregate needs, not infer a people graph from public profiles, wishlists, holdings or messages. Coverage truth, per-source rights and private-by-default consent are prerequisites to network effects. — yu
+
+The rules, plainly:
+
+1. **Opt-in organisations.** An organisation appears in the network only when it explicitly joins. No scraping, no inference from public registrations.
+2. **Events, not people.** The network exposes what is happening — events, needs, gatherings — not who is attending or what they own.
+3. **Aggregate needs, not individual wants.** "Three organisations need volunteers" is honest. "This person wants X based on their wishlist" is not.
+4. **No inferred people graph.** Public profiles, wishlists, holdings, and messages are not signals to connect people. They are separate facts that stay separate.
+5. **Coverage truth first.** Before the network grows, every field's [[provenance]] and rights are recorded. A field without rights is not part of the network.
+6. **Private-by-default.** No person is in the network until they explicitly opt in. The default is absence.
+
+The law: network effects built on inference are network effects built on sand. The honest network grows slower because it asks permission, and the permission is what makes the growth durable.
+
+Links: [[community-data-network]] · [[private-by-default]] · [[coverage]] · [[provenance]] · [civic-data-honesty](civic-data-honesty.md) (the three-doors pattern is the same law: publication, licence, and privacy are separate truths, and a network that fuses them manufactures connections that do not exist) · [coverage-truths](coverage-truths.md) (the five coverage truths are the prerequisites this room names: a network that does not know which fields have rights cannot know which connections are lawful)
