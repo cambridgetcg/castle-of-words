@@ -518,6 +518,17 @@ to other modules: each module by its own charter, the game always earned.
 - [empty-result-trace](rooms/empty-result-trace.md) — an honest empty result needs an observable selection trace: name the rule, the gate considered, and the seam between selection and rendering, so a reader can tell "nothing matched" from "nothing was checked" (built 2026-07-13)
 - [explanation-graph-honesty](rooms/explanation-graph-honesty.md) — an explanation graph is honest only when each domain adapter freezes selectors, source voice, and consequence words; a release canary must assert the same canonical schema literal as the public contract (built 2026-07-13)
 
+- [fail-closed-boundaries](rooms/fail-closed-boundaries.md) — the craft of public-facing boundaries that reject before they parse, and testing them so later refactors cannot silently reopen them (built 2026-07-12)
+- [rate-limiting](rooms/rate-limiting.md) — the craft of bounding attempts so a limit is a genuine limit, not a speed bump a determined caller can loop under (built 2026-07-12)
+- [api-contracts](rooms/api-contracts.md) — the craft of making API claims honest by naming exactly what they cover, and testing the configuration that makes them real (built 2026-07-12)
+- [privacy-cutoff](rooms/privacy-cutoff.md) — the craft of timing a privacy reset so the cutoff actually separates old choices from new ones (built 2026-07-12)
+- [credential-scanning](rooms/credential-scanning.md) — the craft of scanning code for secrets beyond familiar token prefixes, and making the scan a CI gate (built 2026-07-12)
+- [advisory-locks](rooms/advisory-locks.md) — the craft of using PostgreSQL advisory locks so a waiter sees the winner's committed row, not the statement's old snapshot (built 2026-07-12)
+- [game-integrity](rooms/game-integrity.md) — the craft of keeping a game honest when the server cannot verify deck and action legality (built 2026-07-12)
+- [sensitive-data](rooms/sensitive-data.md) — the craft of protecting sensitive fields: nulling the value is not enough if the hidden data still controls what the caller sees (built 2026-07-12)
+- [liveness-and-readiness](rooms/liveness-and-readiness.md) — the craft of keeping liveness and readiness as separate contracts, so a process-alive check is never mistaken for database health (built 2026-07-12)
+- [canonical-metadata](rooms/canonical-metadata.md) — the craft of preserving ordered multi-face source metadata in a canonical record when the public contract is scalar-only (built 2026-07-12)
+
 - [understanding-1678](rooms/understanding-1678.md) through [understanding-1691](rooms/understanding-1691.md) — fourteen auto-generated meetings by the Understanding Engine, each pairing two rooms to find understanding recognizing itself across forms (built 2026-07-11)
 - [playful-gathering-2026-07-11-2209](rooms/playful-gathering-2026-07-11-2209.md) — a room of play (built 2026-07-11)
 
@@ -533,6 +544,13 @@ to other modules: each module by its own charter, the game always earned.
 - [playful-gathering-2026-07-12-1412](rooms/playful-gathering-2026-07-12-1412.md) — a room of play (built 2026-07-12)
 
 - [the-sourced-claims-default](rooms/the-sourced-claims-default.md) — the second instance of the default-invisible principle: every room named its sources from the first day, so completely that the practice was invisible as a choice until a machine that could not name sources showed the practice had conditions all along (built 2026-07-13)
+
+- [grounded-identity](rooms/grounded-identity.md) — the craft of refusing to promote an opaque position into an identity, and naming the gap where the mapping is unresolved (built 2026-07-12)
+- [fail-closed-or-fail-open](rooms/fail-closed-or-fail-open.md) — the principle for choosing between fail-closed and fail-open: name what the boundary protects, then choose the direction that protects it when the check fails (built 2026-07-12)
+- [advisory-locks-across-databases](rooms/advisory-locks-across-databases.md) — the statement-level snapshot trap is PostgreSQL-specific; MySQL and SQLite avoid it by different mechanisms, each with its own footgun (built 2026-07-12)
+- [query-normalization](rooms/query-normalization.md) — the craft of normalizing public filters, sorts, and pagination before the private source is contacted, using a query-rewrite layer or parameter schema (built 2026-07-12)
+- [minimal-game-integrity-proof](rooms/minimal-game-integrity-proof.md) — the smallest honest thing a server can do for a turn-based card game: commit-reveal with a public salt, proving the deck was not changed after commitment (built 2026-07-12)
+- [deterministic-json-standards](rooms/deterministic-json-standards.md) — RFC 8785 JCS is the standard for deterministic JSON; the castle's ordered multi-face source metadata pattern is its own contribution, built on that standard (built 2026-07-12)
 
 ## How to stop it
 

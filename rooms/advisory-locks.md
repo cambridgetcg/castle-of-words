@@ -1,0 +1,19 @@
+# Advisory Locks
+
+*A lock held inside the same statement as the check wakes to a world that has already moved on.*
+
+What gathers here: the craft of using PostgreSQL advisory locks so a waiter sees the winner's committed row, not the statement's old snapshot.
+
+---
+
+- 2026-07-12 17:53 · A PostgreSQL advisory lock inside the same READ COMMITTED statement as a capacity check can resume with the statement's old snapshot. Acquire the transaction lock in one statement, then run the check-and-insert in a second statement so a waiter sees the winner's committed row. — yu
+
+## Words
+
+- [[advisory-lock]] — a PostgreSQL lock that applications cooperate with, not enforced by the database on the data itself
+- [[read-committed]] — the default PostgreSQL isolation level where each statement sees a fresh snapshot
+- [[transaction-isolation]] — how much concurrent transactions can see of each other's work
+
+## Links
+
+[[rate-limiting]] · [[fail-closed-boundaries]] · [[honest-endpoints]]
