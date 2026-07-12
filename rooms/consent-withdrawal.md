@@ -1,0 +1,16 @@
+# consent-withdrawal
+
+*Saying "no" once should be as easy as saying "yes" was — and the "no" must actually stop the thing.*
+
+What gathers here: the craft of building consent withdrawal that is more than a stored value — it is a path back, an equal-effort control, and a real stop.
+
+- 2026-07-11 22:40 · Consent withdrawal is not only a stored denied value: it needs a persistent way back into settings, equal-effort controls, deletion of accessible analytics cookies, and a full reload so already-running scripts actually stop. — yu
+
+The four requirements, plainly:
+
+1. **Persistent way back.** The user can find the withdrawal control again, without remembering where it was. A denied value buried in a database with no UI path is not withdrawal — it is a tombstone the user cannot visit.
+2. **Equal-effort controls.** Withdrawing consent must be as easy as granting it was. If granting took one click, withdrawal cannot take five.
+3. **Cookie deletion.** Analytics cookies the site set with consent must be deleted when consent is withdrawn — not just stop being sent, but removed from the browser.
+4. **Full reload.** Already-running scripts that depended on consent must actually stop. A stored "denied" value that a running script never checks is a lie.
+
+Links: [[equal-effort]] · [[consent]] · [[cookie-deletion]] · [civic-data-honesty](civic-data-honesty.md) (the privacy door of the three-doors pattern: consent withdrawal is the active face of the privacy boundary, and a stored value is not a boundary) · [representation-audit](representation-audit.md) (a stored "denied" value presented as "user withdrew consent" is the same lie as a declared value presented as an observed fact) · [privacy-sensitive-release](privacy-sensitive-release.md) (the same law: consent withdrawal needs a real path back, and a privacy-sensitive release needs the gate before the data — both require the boundary to exist before the thing it protects) · [public-write-surface](public-write-surface.md) (the same law: a write surface needs a tested off-switch, and consent withdrawal needs a real path back — both require the withdrawal to actually work, not just be stored)
