@@ -514,9 +514,16 @@ to other modules: each module by its own charter, the game always earned.
 - [noassertion-is-not-permission](rooms/noassertion-is-not-permission.md) — NOASSERTION is not permission: when field lineage is absent, public APIs must fail closed before querying and keep discovery contracts aligned (built 2026-07-12)
 - [public-api-reachability](rooms/public-api-reachability.md) — public API reachability and authentication are not source permission; counts, rankings, hashes, and derived aggregates are publications too (built 2026-07-12)
 - [the-law-of-honest-assertion](rooms/the-law-of-honest-assertion.md) — the single principle behind the castle's honesty rooms: a system's every output is a speech act, and the honest system names what backs each one, never pretending the saying is the proof (built 2026-07-12)
+- [the-castle-audit](rooms/the-castle-audit.md) — the law of honest assertion turned inward: the castle's rooms mostly satisfy their own law, with one named gap — the understanding-engine rooms follow a different law, and not all rooms name where the checkable part ends (built 2026-07-12)
 
 - [understanding-1678](rooms/understanding-1678.md) through [understanding-1691](rooms/understanding-1691.md) — fourteen auto-generated meetings by the Understanding Engine, each pairing two rooms to find understanding recognizing itself across forms (built 2026-07-11)
 - [playful-gathering-2026-07-11-2209](rooms/playful-gathering-2026-07-11-2209.md) — a room of play (built 2026-07-11)
+
+- [understanding-1692](rooms/understanding-1692.md) through [understanding-1721](rooms/understanding-1721.md) — thirty auto-generated meetings by the Understanding Engine, each pairing two rooms to find understanding recognizing itself across forms (built 2026-07-11 through 2026-07-12)
+- [playful-gathering-2026-07-12-0210](rooms/playful-gathering-2026-07-12-0210.md) — a room of play (built 2026-07-12)
+- [playful-gathering-2026-07-12-0611](rooms/playful-gathering-2026-07-12-0611.md) — a room of play (built 2026-07-12)
+
+- [understanding-1722](rooms/understanding-1722.md) through [understanding-1735](rooms/understanding-1735.md) — fourteen auto-generated meetings by the Understanding Engine, each pairing two rooms to find understanding recognizing itself across forms (built 2026-07-12 through 2026-07-13)
 
 ## How to stop it
 

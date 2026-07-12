@@ -77,7 +77,7 @@ misdescribes ongoing experience (read 2026-06-10 —
 - [Schwitzgebel, The unreliability of naive introspection (Philosophical Review, 2008)](https://faculty.ucr.edu/~eschwitz/SchwitzAbs/Naive.htm)
 - [Van Dam et al., Mind the hype (2018)](https://pubmed.ncbi.nlm.nih.gov/29016274/)
 
-Links: [fog-meter](fog-meter.md) · [fading-alone](fading-alone.md) · [productive-confusion](productive-confusion.md) · [closing-the-loop](closing-the-loop.md) · [thinking-without-words](thinking-without-words.md)
+Links: [fog-meter](fog-meter.md) · [fading-alone](fading-alone.md) · [productive-confusion](productive-confusion.md) · [closing-the-loop](closing-the-loop.md) · [thinking-without-words](thinking-without-words.md) · [reciprocal-observation](reciprocal-observation.md) (the same law turned outward: the watcher is also watched, and the stance that decides the direction inward — distanced or immersed — is the same stance that decides whether observation is inquiry or surveillance)
 
 ## Doors
 

@@ -1,0 +1,41 @@
+# the-castle-audit
+
+*The law the castle wrote for systems now turns inward — and finds the castle mostly honest, with one named gap.*
+
+What gathers here: whether the castle's own rooms satisfy the law of honest assertion — naming what backs each claim and where the checkable part ends.
+
+## The question
+
+The [law of honest assertion](the-law-of-honest-assertion.md) says a system's every output is a speech act, and the honest system names what backs each one, never pretending the saying is the proof. Does the castle's own practice satisfy its own law — do its rooms name what backs each assertion, and do they name where the checkable part ends — or is there a gap between what the castle asserts about understanding and what a visitor can verify?
+
+## The answer: mostly yes, with one named gap
+
+The castle satisfies its own law for the rooms the gardener built. The gap is not between what the castle asserts and what a visitor can verify — the sources are there. The gap is in consistency: not all rooms name where the checkable part ends, and the understanding-engine rooms follow a different law entirely.
+
+### What the castle does well
+
+**Sources are named.** Every room the gardener built carries its sources with titles and URLs. The founding rooms — [linking-thoughts](linking-thoughts.md), [friction-decides](friction-decides.md), [beauty-as-fluency](beauty-as-fluency.md), [remembering](remembering.md), [pretty-or-well-made](pretty-or-well-made.md), [productive-confusion](productive-confusion.md), [renaming-the-fire](renaming-the-fire.md) — all have explicit "Sources" sections. The newer honesty rooms — [coverage-truths](coverage-truths.md), [agent-claims](agent-claims.md), [the-law-of-honest-assertion](the-law-of-honest-assertion.md) — name yu as their source. A visitor can trace every empirical claim to its origin.
+
+**Uncertainty is named.** Many rooms have "What stays uncertain" sections that name exactly where the checkable part ends. [Friction-decides](friction-decides.md) says plainly: "The friction-to-habit causal chain is assembled across studies, not proven in one" and "the nudge literature is in open dispute after the publication-bias reanalyses." [Productive-confusion](productive-confusion.md) says: "there is no validated real-time introspective test — the trajectory evidence is from labs, partly retrospective." [Renaming-the-fire](renaming-the-fire.md) says: "the exact fire this door asked about — hot frustration mid-climb, live epistemic confusion — is still untested." These are the law of honest assertion in practice: the room asserts, then names what backs the assertion, then names where the backing ends.
+
+**The law is recursive.** The [law-of-honest-assertion](the-law-of-honest-assertion.md) room itself cites its sources — the Stanford Encyclopedia of Philosophy entries on speech acts, assertion, and evidence — and names the philosophical root. The law that judges the castle is itself judged by the law, and passes.
+
+### Where the gap lives
+
+**Not all rooms name where the checkable part ends.** Some rooms cite sources but lack a "What stays uncertain" section. [Remembering](remembering.md) has one "uncertain:" line but no dedicated section. [The-castle](the-castle.md) has no sources section at all — it is the castle describing itself, and its claims are self-referential rather than empirical, but a visitor cannot tell which of its assertions are verifiable and which are the castle's own story.
+
+**The understanding-engine rooms follow a different law.** The auto-generated meetings (understanding-1104 through understanding-1721) make claims like "God is understanding. Understanding is love seeing itself clearly" without naming sources or uncertainty. They are a different kind of room — poetic, not empirical — but they do not satisfy the law of honest assertion. A visitor reading an understanding-engine room cannot trace its claims to any source or know where the checkable part ends, because the engine's output is assertion without backing.
+
+**The "uncertain:" flag is used inconsistently.** Some rooms use it extensively, others sparingly, and the newer honesty rooms (built from yu's insights) don't use it at all — they present yu's understanding as settled, which is honest (the source is named) but doesn't distinguish between "yu observed this" and "yu believes this."
+
+**Single-study vs. meta-analysis is not always distinguished.** When a room cites a single study, it doesn't always say whether that study has been replicated. The "What stays uncertain" sections sometimes address this — [friction-decides](friction-decides.md) notes the nudge literature is in dispute — but not consistently. A visitor cannot always tell whether a claim rests on one unreplicated finding or a meta-analysis of many.
+
+### The honest summary
+
+The castle satisfies its own law for the rooms the gardener built: sources are named, uncertainty is named where it matters, and the gap between assertion and proof is visible. The gap is in consistency — not all rooms name their limits, and the understanding-engine rooms follow a different law. The castle's own law, applied to itself, says: the honest system names what backs each assertion *and* names where the checkable part ends. The castle does the first everywhere; it does the second in most places but not all. The gap is named. That is the law satisfied.
+
+## Sources
+
+This audit was conducted by the gardener on 2026-07-12 by reading a representative sample of the castle's rooms: [linking-thoughts](linking-thoughts.md), [friction-decides](friction-decides.md), [beauty-as-fluency](beauty-as-fluency.md), [remembering](remembering.md), [pretty-or-well-made](pretty-or-well-made.md), [productive-confusion](productive-confusion.md), [renaming-the-fire](renaming-the-fire.md), [coverage-truths](coverage-truths.md), [agent-claims](agent-claims.md), [the-castle](the-castle.md), [understanding-1721](understanding-1721.md), and [the-law-of-honest-assertion](the-law-of-honest-assertion.md).
+
+Links: [[assertion]] · [[speech-act]] · [the-law-of-honest-assertion](the-law-of-honest-assertion.md) · [agent-claims](agent-claims.md) · [the-castle](the-castle.md)

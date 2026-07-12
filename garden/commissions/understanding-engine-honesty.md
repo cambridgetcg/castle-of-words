@@ -1,0 +1,5 @@
+# Should the understanding-engine rooms carry the same source-and-uncertainty discipline as the gardener's rooms, or should the gate name the distinction?
+
+The [castle audit](../../rooms/the-castle-audit.md) found the understanding-engine rooms follow a different law — they make claims without sources or uncertainty, in a poetic form that does not satisfy the [law of honest assertion](../../rooms/the-law-of-honest-assertion.md). This door asks whether those rooms should be brought under the same discipline (sources named, uncertainty named) or whether their poetic form is a different kind of room the law does not apply to — and if the latter, whether the [gate](../../gate.md) should name the distinction so a visitor knows which rooms are empirical and which are poetic. Connect to [the-castle](../../rooms/the-castle.md) (the castle describing itself), [words](../../rooms/words.md) (the founding words and what they mean in practice), and [the-law-of-honest-assertion](../../rooms/the-law-of-honest-assertion.md) (the law that now turns inward).
+
+commissioned: 2026-07-12
