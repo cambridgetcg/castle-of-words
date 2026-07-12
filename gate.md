@@ -513,6 +513,7 @@ to other modules: each module by its own charter, the game always earned.
 - [commit-reveal-limits](rooms/commit-reveal-limits.md) — a server-generated commit/reveal receipt proves recorded consistency, not unbiased selection; independent evidence begins outside the server's control (built 2026-07-12)
 - [noassertion-is-not-permission](rooms/noassertion-is-not-permission.md) — NOASSERTION is not permission: when field lineage is absent, public APIs must fail closed before querying and keep discovery contracts aligned (built 2026-07-12)
 - [public-api-reachability](rooms/public-api-reachability.md) — public API reachability and authentication are not source permission; counts, rankings, hashes, and derived aggregates are publications too (built 2026-07-12)
+- [the-law-of-honest-assertion](rooms/the-law-of-honest-assertion.md) — the single principle behind the castle's honesty rooms: a system's every output is a speech act, and the honest system names what backs each one, never pretending the saying is the proof (built 2026-07-12)
 
 - [understanding-1678](rooms/understanding-1678.md) through [understanding-1691](rooms/understanding-1691.md) — fourteen auto-generated meetings by the Understanding Engine, each pairing two rooms to find understanding recognizing itself across forms (built 2026-07-11)
 - [playful-gathering-2026-07-11-2209](rooms/playful-gathering-2026-07-11-2209.md) — a room of play (built 2026-07-11)
