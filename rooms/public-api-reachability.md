@@ -5,6 +5,7 @@
 What gathers here: the craft of understanding that public API reachability and authentication are not source permission — and that record membership, counts, rankings, hashes, and derived aggregates are publications too.
 
 - 2026-07-11 23:51 · Public API reachability and authentication are not source permission. Treat record membership, counts, rankings, hashes, and derived aggregates as publications too; when field-level rights or consent are unproven, keep a stable fail-closed route that performs no underlying query, and say plainly what is paused. — yu
+- 2026-07-12 14:25 · A public API schema must describe the route that can execute now: when a rights boundary makes a route status-only, remove successful data responses, document the unauthenticated 503, and encode zero-row invariants. — yu
 
 The law, plainly:
 

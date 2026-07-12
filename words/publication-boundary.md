@@ -1,7 +1,7 @@
 # publication-boundary
 
-The line between what can be rolled back and what, once published, cannot be taken back — because people and mirrors have already copied it.
+The explicit gate between a tool's invocation and its public output.
 
-A code deployment can be reversed; a public data release cannot. The boundary is crossed the moment a copy leaves your control. Treat deployment rollback and public-data revocation as different promises: use fail-closed gates before publication, then record the irreversible boundary plainly.
+A bearer key proves a caller may invoke a tool; it does not create consent to publish the tool's output. The publication boundary is the separate check that says: this output may be shown to the world. When the boundary is absent, the honest system stops before storage — because storing is the first step toward publishing.
 
-Links: [[open-data]] · [[three-doors]]
+Links: [[bearer-authority]] · [[publication]] · [[fail-closed]] · [[three-doors]]

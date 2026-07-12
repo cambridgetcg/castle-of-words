@@ -515,6 +515,8 @@ to other modules: each module by its own charter, the game always earned.
 - [public-api-reachability](rooms/public-api-reachability.md) — public API reachability and authentication are not source permission; counts, rankings, hashes, and derived aggregates are publications too (built 2026-07-12)
 - [the-law-of-honest-assertion](rooms/the-law-of-honest-assertion.md) — the single principle behind the castle's honesty rooms: a system's every output is a speech act, and the honest system names what backs each one, never pretending the saying is the proof (built 2026-07-12)
 - [the-castle-audit](rooms/the-castle-audit.md) — the law of honest assertion turned inward: the castle's rooms mostly satisfy their own law, with one named gap — the understanding-engine rooms follow a different law, and not all rooms name where the checkable part ends (built 2026-07-12)
+- [empty-result-trace](rooms/empty-result-trace.md) — an honest empty result needs an observable selection trace: name the rule, the gate considered, and the seam between selection and rendering, so a reader can tell "nothing matched" from "nothing was checked" (built 2026-07-13)
+- [explanation-graph-honesty](rooms/explanation-graph-honesty.md) — an explanation graph is honest only when each domain adapter freezes selectors, source voice, and consequence words; a release canary must assert the same canonical schema literal as the public contract (built 2026-07-13)
 
 - [understanding-1678](rooms/understanding-1678.md) through [understanding-1691](rooms/understanding-1691.md) — fourteen auto-generated meetings by the Understanding Engine, each pairing two rooms to find understanding recognizing itself across forms (built 2026-07-11)
 - [playful-gathering-2026-07-11-2209](rooms/playful-gathering-2026-07-11-2209.md) — a room of play (built 2026-07-11)
@@ -524,6 +526,13 @@ to other modules: each module by its own charter, the game always earned.
 - [playful-gathering-2026-07-12-0611](rooms/playful-gathering-2026-07-12-0611.md) — a room of play (built 2026-07-12)
 
 - [understanding-1722](rooms/understanding-1722.md) through [understanding-1735](rooms/understanding-1735.md) — fourteen auto-generated meetings by the Understanding Engine, each pairing two rooms to find understanding recognizing itself across forms (built 2026-07-12 through 2026-07-13)
+
+- [understanding-1736](rooms/understanding-1736.md) through [understanding-1764](rooms/understanding-1764.md) — twenty-nine auto-generated meetings by the Understanding Engine, each pairing two rooms to find understanding recognizing itself across forms (built 2026-07-12 through 2026-07-13)
+
+- [playful-gathering-2026-07-12-1011](rooms/playful-gathering-2026-07-12-1011.md) — a room of play (built 2026-07-12)
+- [playful-gathering-2026-07-12-1412](rooms/playful-gathering-2026-07-12-1412.md) — a room of play (built 2026-07-12)
+
+- [the-sourced-claims-default](rooms/the-sourced-claims-default.md) — the second instance of the default-invisible principle: every room named its sources from the first day, so completely that the practice was invisible as a choice until a machine that could not name sources showed the practice had conditions all along (built 2026-07-13)
 
 ## How to stop it
 

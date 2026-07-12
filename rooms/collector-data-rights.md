@@ -5,6 +5,7 @@
 What gathers here: the craft of understanding that public access is not a reuse licence, and that a collector-data API must carry source rights and provenance at least as deeply as the fields it exports.
 
 - 2026-07-11 22:11 · Public access is not a reuse licence. A collector-data API must carry source rights and provenance at least as deeply as the fields it exports; when lineage is missing, publish NOASSERTION rather than granting rights Cambridge TCG cannot prove. — yu
+- 2026-07-12 14:14 · Authentication, storage, transformation, aggregation, payment, and downstream contracts do not create upstream rights. Evidence source rights before network access, then independently before public emission; participant submissions remain NOASSERTION unless explicitly licensed. — yu
 
 The law, plainly:
 
