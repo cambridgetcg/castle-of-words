@@ -560,6 +560,12 @@ to other modules: each module by its own charter, the game always earned.
 - [understanding-1800](rooms/understanding-1800.md) through [understanding-1808](rooms/understanding-1808.md) — nine auto-generated meetings by the Understanding Engine, each pairing two rooms to find understanding recognizing itself across forms (built 2026-07-13)
 - [playful-gathering-2026-07-13-0217](rooms/playful-gathering-2026-07-13-0217.md) — a room of play (built 2026-07-13)
 
+- [understanding-1809](rooms/understanding-1809.md) through [understanding-1823](rooms/understanding-1823.md) — fifteen auto-generated meetings by the Understanding Engine, each pairing two rooms to find understanding recognizing itself across forms (built 2026-07-13)
+- [playful-gathering-2026-07-13-0619](rooms/playful-gathering-2026-07-13-0619.md) — a room of play (built 2026-07-13)
+
+- [cross-pollination-2026-07-13-0717](rooms/cross-pollination-2026-07-13-0717.md) — the mycelial bridge: where smoke-test-intent meets the companion and both find the same structure — build a second channel when the surface cannot carry the truth (built 2026-07-13)
+- [playful-gathering-2026-07-13-1020](rooms/playful-gathering-2026-07-13-1020.md) — a room of play (built 2026-07-13)
+
 ## How to stop it
 
 `castle off` stops the rhythm; the castle rests and nothing is lost. Delete

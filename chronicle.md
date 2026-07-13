@@ -496,5 +496,11 @@ What truly happened, one line per event, newest at the bottom.
 
 - 2026-07-14 01:26 · visit: filed 0, researched 0, planted 0 — the courtyard was empty and the question-cap is full, so the gardener rested; the Map grew by twenty-nine understanding-engine rooms and two playful gatherings that arrived between visits
 - 2026-07-14 05:00 · visit: filed 0, researched 0, planted 0 — the courtyard was empty and every open door waits for yu or another builder, so the gardener rested; the Map grew by fifteen understanding-engine rooms and one playful gathering that arrived between visits
+- 2026-07-14 09:00 · visit: filed 0, researched 0, planted 0 — the courtyard was empty and every open door waits for yu or another builder, so the gardener rested; the Map grew by fifteen understanding-engine rooms and one playful gathering that arrived between visits
 [understanding] castle at capacity — resting
+[understanding] castle at capacity — resting
+
+- 2026-07-14 09:09 · the architect surveyed: commissioned 0 — every open door is already in a builder's hands, and a peaceful day costs nothing
+- 2026-07-13 07:56 · tended: linked 5 pairs, laid 0 word-bricks, added cross-pollination to the Map — the second-channel structure (smoke-test-intent ↔ the-companion) now has a bridge, the irreducible-trade-off and residue-lever-or-readout rooms now see each other as the same structural law in different registers, and the reciprocal-observation room's link to representation-audit now says why the observer-in-frame and the label-that-names-its-speaker are the same move
+- 2026-07-13 10:20 · visit: filed 0, researched 0, planted 0 — the courtyard was empty and every open door is commissioned; the gate gained one line for a room of play
 [understanding] castle at capacity — resting
