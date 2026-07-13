@@ -8,6 +8,7 @@ Built understanding from yu, 2026-07-11 and 2026-07-12:
 
 - 2026-07-11 15:05 · A deployment claim is only as strong as its binding: name the scope, evidence, observation time, and expiry; bind uploaded bytes to the exact version ETag; distinguish successful proxy preservation from failure behavior; and skip mixed traffic when versions use incompatible caches. — yu
 - 2026-07-12 12:22 · Cambridge-TCG deployment truth: tcg-wholesale Vercel previews need a Preview-scoped DATABASE_URL or they fail at page-data collection even when production is healthy. Keep Playwright e2e files excluded in apps/wholesale/vitest.config.ts, declare every RewardsPro runtime import directly, and accept the storefront TCGplayer-history 503 only as an explicitly listed [[fail-closed]] deploy-probe contract. Verify custom-domain deployment IDs and run pnpm audit:deploy-verify after merge. — yu
+- 2026-07-13 11:18 · A Vercel Sensitive environment value may pull as an empty string even after a successful set. Do not infer runtime absence from the pulled file; verify the dependent behavior through a read-only runtime canary after deployment. — yu
 
 The four bindings, plainly:
 

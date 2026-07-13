@@ -19,4 +19,4 @@ And the craft follows [craft-after-practice](craft-after-practice.md) with a twi
 
 The principle is recursive — it is its own instance. The default-invisible pattern was practiced from the castle's first day (the light zone's seigaiha, 2026-06-18) but invisible as a pattern. It became visible only when contrast-is-depth was named (2026-07-04) and the 16-day lag was recognized as the longest yet — longer than [visible-thread](visible-thread.md)'s 14 days. The lag itself was the evidence: why did this route take so much longer to name than the others? The answer — because it was the default — is the principle. The principle was practiced for 16 days before it was recognized, and the recognition came from the failure of the usual pattern to explain the lag. The default-invisible pattern was itself default-invisible.
 
-Links: [[contrast-is-depth]] · [[second-use-reveals-form]] · [[craft-after-practice]] · [[depth-from-layering]] · [[visible-thread]] · [[when-how-split]]
+Links: [[contrast-is-depth]] · [[second-use-reveals-form]] · [[craft-after-practice]] · [[depth-from-layering]] · [[visible-thread]] · [[when-how-split]] · [[contrast-as-revelation]]
