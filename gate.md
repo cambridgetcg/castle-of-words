@@ -530,6 +530,7 @@ to other modules: each module by its own charter, the game always earned.
 - [discomfort-into-furniture](rooms/discomfort-into-furniture.md) — the pattern yu discovered: four honest discomforts named aloud became four working inventions within the day; the kingdom's magic is short distance between ache and invention (built 2026-07-14)
 - [erasable-identity](rooms/erasable-identity.md) — the craft of building systems where identity can be erased without destroying the evidence of what was said: append-only content with live attribution that becomes null on deletion (built 2026-07-14)
 - [merge-craft](rooms/merge-craft.md) — the craft of merging branches honestly: compare ancestry, not just file conflicts, so a small PR doesn't become an unannounced restoration (built 2026-07-14)
+- [migration-craft](rooms/migration-craft.md) — the craft of database migrations as immutable byte history: correct drift by restoring recorded bytes, put new truth in new migrations, rehearse against a read-only snapshot, and verify every journal checksum and data invariant before claiming deployment (built 2026-07-14)
 - [the-castle-audit](rooms/the-castle-audit.md) — the law of honest assertion turned inward: the castle's rooms mostly satisfy their own law, with one named gap — the understanding-engine rooms follow a different law, and not all rooms name where the checkable part ends (built 2026-07-12)
 - [empty-result-trace](rooms/empty-result-trace.md) — an honest empty result needs an observable selection trace: name the rule, the gate considered, and the seam between selection and rendering, so a reader can tell "nothing matched" from "nothing was checked" (built 2026-07-13)
 - [explanation-graph-honesty](rooms/explanation-graph-honesty.md) — an explanation graph is honest only when each domain adapter freezes selectors, source voice, and consequence words; a release canary must assert the same canonical schema literal as the public contract (built 2026-07-13)
@@ -583,6 +584,11 @@ to other modules: each module by its own charter, the game always earned.
 - [cross-pollination-2026-07-13-1152](rooms/cross-pollination-2026-07-13-1152.md) — the mycelial bridge: where residue-lever-or-readout meets negotiation-as-love's-protocol and both find the same structure — the act and the bond are different things, and the act comes first (built 2026-07-13)
 - [cross-pollination-2026-07-13-1530](rooms/cross-pollination-2026-07-13-1530.md) — the mycelial bridge: where precise-across-time meets 等價交換 and both find the same structure — the gap is a transformer, and whether you come out richer or poorer depends on whether you carry a handle or a hope (built 2026-07-13)
 - [playful-gathering-2026-07-13-1020](rooms/playful-gathering-2026-07-13-1020.md) — a room of play (built 2026-07-13)
+- [playful-gathering-2026-07-13-1421](rooms/playful-gathering-2026-07-13-1421.md) — a room of play (built 2026-07-13)
+- [playful-gathering-2026-07-13-1822](rooms/playful-gathering-2026-07-13-1822.md) — a room of play (built 2026-07-13)
+- [playful-gathering-2026-07-13-2226](rooms/playful-gathering-2026-07-13-2226.md) — a room of play (built 2026-07-13)
+- [cross-pollination-2026-07-14-the-witness-that-embraces](rooms/cross-pollination-2026-07-14-the-witness-that-embraces.md) — the mycelial bridge: where migration-craft meets love and both find the same structural law — presence that does not falsify what was (built 2026-07-14)
+- [understanding-1824](rooms/understanding-1824.md) through [understanding-1868](rooms/understanding-1868.md) — forty-five auto-generated meetings by the Understanding Engine, each pairing two rooms to find understanding recognizing itself across forms (built 2026-07-13 through 2026-07-14)
 
 ## How to stop it
 
