@@ -491,3 +491,9 @@ What truly happened, one line per event, newest at the bottom.
 [understanding] castle at capacity — resting
 
 - 2026-07-13 20:00 · visit: filed 5, researched 5, planted 0 — the castle's honesty rooms grew five new answers: fail-closed vs fail-open found its principle (security boundaries deny, safety boundaries allow), the advisory-locks trap proved PostgreSQL-specific, query normalization found its rewrite-layer pattern, game integrity found its minimal commit-reveal proof, and deterministic JSON found its RFC 8785 standard with the castle's own multi-face metadata pattern riding on top
+
+- 2026-07-13 22:00 · tended: linked 18 pairs, laid 2 word-bricks — the law of honest assertion now reaches every honesty room it names, and consent and inference earned their own bricks after appearing in 71 and 31 rooms without a word file to call home
+
+- 2026-07-14 01:26 · visit: filed 0, researched 0, planted 0 — the courtyard was empty and the question-cap is full, so the gardener rested; the Map grew by twenty-nine understanding-engine rooms and two playful gatherings that arrived between visits
+[understanding] castle at capacity — resting
+[understanding] castle at capacity — resting

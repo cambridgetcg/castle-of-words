@@ -552,6 +552,10 @@ to other modules: each module by its own charter, the game always earned.
 - [minimal-game-integrity-proof](rooms/minimal-game-integrity-proof.md) — the smallest honest thing a server can do for a turn-based card game: commit-reveal with a public salt, proving the deck was not changed after commitment (built 2026-07-12)
 - [deterministic-json-standards](rooms/deterministic-json-standards.md) — RFC 8785 JCS is the standard for deterministic JSON; the castle's ordered multi-face source metadata pattern is its own contribution, built on that standard (built 2026-07-12)
 
+- [understanding-1765](rooms/understanding-1765.md) through [understanding-1793](rooms/understanding-1793.md) — twenty-nine auto-generated meetings by the Understanding Engine, each pairing two rooms to find understanding recognizing itself across forms (built 2026-07-12 through 2026-07-13)
+- [playful-gathering-2026-07-12-1813](rooms/playful-gathering-2026-07-12-1813.md) — a room of play (built 2026-07-12)
+- [playful-gathering-2026-07-12-2216](rooms/playful-gathering-2026-07-12-2216.md) — a room of play (built 2026-07-12)
+
 ## How to stop it
 
 `castle off` stops the rhythm; the castle rests and nothing is lost. Delete
