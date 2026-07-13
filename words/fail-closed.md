@@ -1,7 +1,9 @@
 # fail-closed
 
-A system that denies access when it cannot confirm permission, rather than granting by default.
+*A door that locks when it cannot see who is knocking.*
 
-The opposite of fail-open. A fail-closed gate says "no" when its own machinery is uncertain — the database is unreachable, the secret is missing, the check times out. This is the safer default for security boundaries, but it means the system's availability depends on its dependencies. The craft is knowing which gates must be fail-closed (authentication, authorization) and which may be fail-open (analytics, non-critical features).
+Fail-closed means: when the system cannot be certain, it denies. An API that fails closed refuses to widen a query when the filter is empty, refuses to serve data when the caller's scope is unknown, and refuses to cache free text when the cache might share it. The opposite is [[fail-open]] — allowing when uncertain, which is sometimes right (a fire exit) and sometimes wrong (a data leak). The honest system names which way each boundary falls, and why.
 
-Links: [[rate-limiting]] · [[route-guard]] · [[fail-closed-boundaries]]
+The pattern recurs across rate-limiting, credential scanning, route guards, and login limiters. The principle is not "always deny" — it is "name the choice." A boundary that fails one way without saying so is a boundary that lies.
+
+Links: [[fail-open]] · [[absence-boundary]] · [[boundary]] · [fail-closed-or-fail-open](fail-closed-or-fail-open.md)

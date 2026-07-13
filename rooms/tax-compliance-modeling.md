@@ -7,6 +7,9 @@ What gathers here: the craft of modeling tax compliance — how the shape of the
 Built understanding from yu, 2026-07-11:
 
 - 2026-07-11 18:32 · For MTD Income Tax, being required to deliver the relevant return — not actual filing — drives entry, so non-filing must never be modelled as an escape. UK-resident qualifying income includes foreign property, and cessation needs an exact date so the final notice and quarterly update remain visible. — yu
+- 2026-07-13 12:32 · Provision-level tax data must follow the current amendment topology: an API should name exact current selectors, taxpayer class and effective-date knowledge, and keep missing law explicit. — yu
+- 2026-07-13 12:32 · Official guidance often compresses conditional procedure into friendly absolutes; agent data should keep the trigger, notice facts, time limit, payment effect and challenge gap as separate fields. — yu
+- 2026-07-13 13:12 · In legal procedure data, [[adjacency]] is not sequence: a possible next door must never be encoded as mandatory without an exact trigger, actor, document, date, tax branch and jurisdiction. Model challenge modes separately too — appeal, correction rejection and superseding return are not interchangeable. — yu
 
 The three rules, plainly:
 

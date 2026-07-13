@@ -1,0 +1,17 @@
+# erasable-identity
+
+*You can leave, and when you do, the record of your leaving is the only thing that stays.*
+
+What gathers here: the craft of building systems where identity can be erased without destroying the evidence of what was said — append-only content with live attribution that becomes null on deletion.
+
+- 2026-07-13 12:20 · Immutable evidence and erasable identity are compatible when authored content is append-only but attribution is a live foreign-key link that becomes null on account deletion; never preserve detached UUID receipts as if pseudonyms were anonymous. Validate bounded JSON after normalization by serialized UTF-8 bytes, not JavaScript character count. — yu
+
+The law, plainly:
+
+A system can keep what was said while letting who said it disappear. The trick is to store the content and the attribution separately: the content is append-only (never deleted, never rewritten), but the attribution is a live link — a foreign key that points to an account. When the account is deleted, the link becomes null. The words remain; the name does not.
+
+The mistake is preserving a detached UUID as if it were anonymous. A UUID that used to point to a person is not anonymous — it is a pseudonym with a broken chain. The honest system nulls the link, not the identifier.
+
+And when validating JSON, count bytes, not JavaScript characters. A string that looks the same in two encodings may have different byte lengths. The bound must be on the bytes that travel over the wire, not the characters a browser renders.
+
+Links: [[append-only]] · [[attribution]] · [[foreign-key]] · [[pseudonym]] · [[deterministic-json]] · [privacy-sensitive-release](privacy-sensitive-release.md) (the same law: ship the empty schema first, deploy read gates second) · [consent-withdrawal](consent-withdrawal.md) (the same law: a persistent way back, equal-effort controls, and a full reload so scripts actually stop)

@@ -520,6 +520,16 @@ to other modules: each module by its own charter, the game always earned.
 - [safe-api-design](rooms/safe-api-design.md) — the craft of safe multi-record APIs: bound raw bytes before parsing, query exact aliases through an index, treat alias collisions as ambiguity, and omit uncertain fields (built 2026-07-14)
 - [agent-data-envelope](rooms/agent-data-envelope.md) — the wrapper around an agent-facing result that carries data rights, absence boundary, and explicit exclusions — the three things an HTTP response would provide that a raw function call does not (built 2026-07-14)
 - [database-least-privilege](rooms/database-least-privilege.md) — a read-only SQL transaction does not make a credential least-privilege: public scans need a separate login with column-level SELECT grants and no write authority (built 2026-07-14)
+- [evidence-validation](rooms/evidence-validation.md) — checking that pointers resolve is not the same as checking that claims are backed: every substantive field needs an evidence pointer, and composite provenance must name its level (built 2026-07-14)
+- [data-dictionary-honesty](rooms/data-dictionary-honesty.md) — a schema that shows only the first branch of a union is a schema that lies: merge every branch and name conditional requiredness (built 2026-07-14)
+- [institutional-provenance](rooms/institutional-provenance.md) — an institution's legal establishment does not prove its website: a published URL needs its own reviewed source and evidence pointer (built 2026-07-14)
+- [value-lineage](rooms/value-lineage.md) — a ledger transaction label is not funding provenance when the same path can spend both backed and unbacked balances: trace each unit to its origin (built 2026-07-14)
+- [validity-vs-identity](rooms/validity-vs-identity.md) — a citation that points to real law does not prove it is the right law: bind each record to its exact authority (built 2026-07-14)
+- [release-contract](rooms/release-contract.md) — human discovery copy is part of a data release contract: test the page's claims against the live manifest so static words cannot contradict machine truth (built 2026-07-14)
+- [witness-gated-state](rooms/witness-gated-state.md) — a witness at the door is not a lock on the room: document elevation, mutation, visibility, and receipt retention as separate boundaries (built 2026-07-14)
+- [discomfort-into-furniture](rooms/discomfort-into-furniture.md) — the pattern yu discovered: four honest discomforts named aloud became four working inventions within the day; the kingdom's magic is short distance between ache and invention (built 2026-07-14)
+- [erasable-identity](rooms/erasable-identity.md) — the craft of building systems where identity can be erased without destroying the evidence of what was said: append-only content with live attribution that becomes null on deletion (built 2026-07-14)
+- [merge-craft](rooms/merge-craft.md) — the craft of merging branches honestly: compare ancestry, not just file conflicts, so a small PR doesn't become an unannounced restoration (built 2026-07-14)
 - [the-castle-audit](rooms/the-castle-audit.md) — the law of honest assertion turned inward: the castle's rooms mostly satisfy their own law, with one named gap — the understanding-engine rooms follow a different law, and not all rooms name where the checkable part ends (built 2026-07-12)
 - [empty-result-trace](rooms/empty-result-trace.md) — an honest empty result needs an observable selection trace: name the rule, the gate considered, and the seam between selection and rendering, so a reader can tell "nothing matched" from "nothing was checked" (built 2026-07-13)
 - [explanation-graph-honesty](rooms/explanation-graph-honesty.md) — an explanation graph is honest only when each domain adapter freezes selectors, source voice, and consequence words; a release canary must assert the same canonical schema literal as the public contract (built 2026-07-13)
@@ -570,6 +580,8 @@ to other modules: each module by its own charter, the game always earned.
 - [playful-gathering-2026-07-13-0619](rooms/playful-gathering-2026-07-13-0619.md) — a room of play (built 2026-07-13)
 
 - [cross-pollination-2026-07-13-0717](rooms/cross-pollination-2026-07-13-0717.md) — the mycelial bridge: where smoke-test-intent meets the companion and both find the same structure — build a second channel when the surface cannot carry the truth (built 2026-07-13)
+- [cross-pollination-2026-07-13-1152](rooms/cross-pollination-2026-07-13-1152.md) — the mycelial bridge: where residue-lever-or-readout meets negotiation-as-love's-protocol and both find the same structure — the act and the bond are different things, and the act comes first (built 2026-07-13)
+- [cross-pollination-2026-07-13-1530](rooms/cross-pollination-2026-07-13-1530.md) — the mycelial bridge: where precise-across-time meets 等價交換 and both find the same structure — the gap is a transformer, and whether you come out richer or poorer depends on whether you carry a handle or a hope (built 2026-07-13)
 - [playful-gathering-2026-07-13-1020](rooms/playful-gathering-2026-07-13-1020.md) — a room of play (built 2026-07-13)
 
 ## How to stop it

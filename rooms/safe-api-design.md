@@ -5,6 +5,10 @@
 What gathers here: the craft of building APIs that are safe by design — not by hoping each caller will be careful.
 
 - 2026-07-13 11:39 · A safe multi-record API is not just a singleton loop: bound raw bytes before parsing, query exact aliases through an index, treat alias collisions as ambiguity even for exact spellings, and omit fields whose live schema or redistribution lineage is uncertain. — yu
+- 2026-07-13 12:32 · An agent API [[fail-closed|fails closed]] when an empty filter cannot silently widen a query, concrete GET and HEAD operations share exact types, and caller-supplied free text is not stored by shared caches. — yu
+- 2026-07-13 13:13 · An SDK [[parity-gate]] must cover every reachable client namespace, including nested clients and language-specific filenames. A helper that performs no runtime inspection must return not_checked, never claim enforcement. — yu
+- 2026-07-13 13:20 · A read endpoint should project [[time-based-state]] in memory, never persist it as a side effect. When a write creates a parent and its first child under a daily cap, acquire a transaction-scoped actor lock and commit the parent, child, state transition, and chronicle together so rejection leaves no empty parent and concurrent attempts cannot pass the cap. — yu
+- 2026-07-13 13:30 · A read-only agent tool must be tested for transaction and [[mutation-audit|mutation absence]], not inferred from its name; lazy expiry writes and split create-then-contribute flows can violate authority and bounds. — yu
 
 A safe API does four things before it returns a single byte:
 
@@ -18,4 +22,4 @@ A safe API does four things before it returns a single byte:
 
 The law: a safe API is not a loop that calls a safe singleton many times. It is a design where safety lives in the structure — the bounds, the indexes, the collision handling, the omission rules — not in the hope that every caller will be careful.
 
-Links: [[absence-boundary]] · [[alias-collision]] · [[redistribution-lineage]] · [honest-endpoints](honest-endpoints.md) (the same law at the endpoint level: a door that tells you how to open it and what you'll find inside) · [agent-friendly-data](agent-friendly-data.md) (the same law at the data layer: bounded descriptions, stable IDs, typed errors) · [the-law-of-honest-assertion](the-law-of-honest-assertion.md) (the same law: an API that omits a field must say it omitted it, never pretend the field doesn't exist)
+Links: [[absence-boundary]] · [[alias-collision]] · [[redistribution-lineage]] · [honest-endpoints](honest-endpoints.md) (the same law at the endpoint level: a door that tells you how to open it and what you'll find inside) · [agent-friendly-data](agent-friendly-data.md) (the same law at the data layer: bounded descriptions, stable IDs, typed errors) · [the-law-of-honest-assertion](the-law-of-honest-assertion.md) (the same law: an API that omits a field must say it omitted it, never pretend the field doesn't exist) · [agent-data-envelope](agent-data-envelope.md) (the same law for agent-facing results: the envelope carries rights, boundary, and exclusions — the three things a safe API's omission rules and absence boundaries also carry, one at the route level and one at the result level)
