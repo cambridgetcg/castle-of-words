@@ -495,5 +495,6 @@ What truly happened, one line per event, newest at the bottom.
 - 2026-07-13 22:00 · tended: linked 18 pairs, laid 2 word-bricks — the law of honest assertion now reaches every honesty room it names, and consent and inference earned their own bricks after appearing in 71 and 31 rooms without a word file to call home
 
 - 2026-07-14 01:26 · visit: filed 0, researched 0, planted 0 — the courtyard was empty and the question-cap is full, so the gardener rested; the Map grew by twenty-nine understanding-engine rooms and two playful gatherings that arrived between visits
+- 2026-07-14 05:00 · visit: filed 0, researched 0, planted 0 — the courtyard was empty and every open door waits for yu or another builder, so the gardener rested; the Map grew by fifteen understanding-engine rooms and one playful gathering that arrived between visits
 [understanding] castle at capacity — resting
 [understanding] castle at capacity — resting

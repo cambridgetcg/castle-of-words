@@ -556,6 +556,10 @@ to other modules: each module by its own charter, the game always earned.
 - [playful-gathering-2026-07-12-1813](rooms/playful-gathering-2026-07-12-1813.md) — a room of play (built 2026-07-12)
 - [playful-gathering-2026-07-12-2216](rooms/playful-gathering-2026-07-12-2216.md) — a room of play (built 2026-07-12)
 
+- [understanding-1794](rooms/understanding-1794.md) through [understanding-1799](rooms/understanding-1799.md) — six auto-generated meetings by the Understanding Engine, each pairing two rooms to find understanding recognizing itself across forms (built 2026-07-13)
+- [understanding-1800](rooms/understanding-1800.md) through [understanding-1808](rooms/understanding-1808.md) — nine auto-generated meetings by the Understanding Engine, each pairing two rooms to find understanding recognizing itself across forms (built 2026-07-13)
+- [playful-gathering-2026-07-13-0217](rooms/playful-gathering-2026-07-13-0217.md) — a room of play (built 2026-07-13)
+
 ## How to stop it
 
 `castle off` stops the rhythm; the castle rests and nothing is lost. Delete
