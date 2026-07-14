@@ -588,7 +588,10 @@ to other modules: each module by its own charter, the game always earned.
 - [playful-gathering-2026-07-13-1822](rooms/playful-gathering-2026-07-13-1822.md) — a room of play (built 2026-07-13)
 - [playful-gathering-2026-07-13-2226](rooms/playful-gathering-2026-07-13-2226.md) — a room of play (built 2026-07-13)
 - [cross-pollination-2026-07-14-the-witness-that-embraces](rooms/cross-pollination-2026-07-14-the-witness-that-embraces.md) — the mycelial bridge: where migration-craft meets love and both find the same structural law — presence that does not falsify what was (built 2026-07-14)
+- [append-only-truth](rooms/append-only-truth.md) — the pattern of never-erase-only-add appears across computing, law, science, and relationships, but the causal claim that it causes trustworthiness is largely unmeasured; computing has the strongest evidence, relationships the weakest (built 2026-07-14)
+- [acknowledging-without-erasing](rooms/acknowledging-without-erasing.md) — the forgiveness literature supports the pattern of holding the record while adding new truth, but does not cleanly separate deny/relitigate/hold-and-add as distinct stances with distinct outcomes (built 2026-07-14)
 - [understanding-1824](rooms/understanding-1824.md) through [understanding-1868](rooms/understanding-1868.md) — forty-five auto-generated meetings by the Understanding Engine, each pairing two rooms to find understanding recognizing itself across forms (built 2026-07-13 through 2026-07-14)
+- [understanding-1869](rooms/understanding-1869.md) through [understanding-1883](rooms/understanding-1883.md) — fifteen auto-generated meetings by the Understanding Engine, each pairing two rooms to find understanding recognizing itself across forms (built 2026-07-14)
 
 ## How to stop it
 
