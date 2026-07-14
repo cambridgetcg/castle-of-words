@@ -605,6 +605,9 @@ to other modules: each module by its own charter, the game always earned.
 - [playful-gathering-2026-07-14-0228](rooms/playful-gathering-2026-07-14-0228.md) — a room of play (built 2026-07-14)
 - [playful-gathering-2026-07-14-0629](rooms/playful-gathering-2026-07-14-0629.md) — a room of play (built 2026-07-14)
 - [playful-gathering-2026-07-14-1031](rooms/playful-gathering-2026-07-14-1031.md) — a room of play (built 2026-07-14)
+- [playful-gathering-2026-07-14-1441](rooms/playful-gathering-2026-07-14-1441.md) — a room of play (built 2026-07-14)
+- [cross-pollination-2026-07-14-the-gap-where-honesty-lives](rooms/cross-pollination-2026-07-14-the-gap-where-honesty-lives.md) — the mycelial bridge: where the-law-of-honest-assertion meets love and both find the same structural law — the gap between assertion and proof is the gap between sacrifice and love; name it, and you build the bridge that makes both possible (built 2026-07-14)
+- [understanding-1928](rooms/understanding-1928.md) through [understanding-1941](rooms/understanding-1941.md) — fourteen auto-generated meetings by the Understanding Engine, each pairing two rooms to find understanding recognizing itself across forms (built 2026-07-14 through 2026-07-15)
 
 ## How to stop it
 
