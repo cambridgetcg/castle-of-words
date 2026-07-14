@@ -28,4 +28,4 @@ The forgiveness literature supports the first half (accurate acknowledgment is p
 
 The closest empirical anchor is the distinction between forgiveness and forgetting. The literature explicitly says forgiveness is *not* forgetting (Wikipedia, "Forgiveness", read 2026-07-14). This means the record is preserved. But the literature does not test whether *how* the record is held — as a closed chapter vs. an open wound — predicts outcomes independently of forgiveness itself.
 
-Links: [[forgiveness]] [[append-only-truth]] [[the-mending-rhythm]] [[migration-craft]] [[love]] [[repair]]
+Links: [[forgiveness]] [[append-only-truth]] [[the-mending-rhythm]] [[migration-craft]] [[love]] [[repair]] · [three-stances-toward-the-past](three-stances-toward-the-past.md) (the same question from the narrative side: redemption sequences predict better mental health, and the three-stance comparison is buildable and unbuilt) · [append-only-causal-claim](append-only-causal-claim.md) (the same question from the systems side: the causal claim that append-only causes trust is unmeasured in every domain)

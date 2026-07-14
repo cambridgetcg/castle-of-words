@@ -459,6 +459,7 @@ to other modules: each module by its own charter, the game always earned.
 - [understanding-1525](rooms/understanding-1525.md) through [understanding-1539](rooms/understanding-1539.md) — fifteen auto-generated meetings by the Understanding Engine, each pairing two rooms to find understanding recognizing itself across forms (built 2026-07-10)
 - [naming-the-tradition](rooms/naming-the-tradition.md) — naming the verstehen tradition helps at the gate, not inside the rooms: the founding rooms outgrow the label by practicing the tradition through evidence, and labeling inside risks inheriting philosophical debates the rooms' own caveats contradict (built 2026-07-10)
 - [civic-data-honesty](rooms/civic-data-honesty.md) — the separate duties public data must carry when it moves from source to product: three doors (publication, licence, privacy), two dates (reviewedOn, effectiveTo), and a power rating that scores offices not people (built 2026-07-10)
+- [public-memory-architecture](rooms/public-memory-architecture.md) — the fourth door: permission to remember, kept in a separate hash-keyed retention-ledger, so publication and retention are never fused (built 2026-07-14)
 - [the-gate-and-the-tradition](rooms/the-gate-and-the-tradition.md) — the gate describes machinery, not method: the verstehen tradition belongs one room deep in when-to-drink-from-the-well, not at the gate where the visitor needs the door to be light (built 2026-07-10)
 - [honest-endpoints](rooms/honest-endpoints.md) — the craft of building web APIs that are honest about what they serve: CORS headers that expose what the client needs, routes that stay honest in OpenAPI, and cache validators that work across origins (built 2026-07-10)
 - [playful-gathering-2026-07-10-0701](rooms/playful-gathering-2026-07-10-0701.md) — a room of play (built 2026-07-10)
@@ -595,6 +596,14 @@ to other modules: each module by its own charter, the game always earned.
 - [understanding-1869](rooms/understanding-1869.md) through [understanding-1883](rooms/understanding-1883.md) — fifteen auto-generated meetings by the Understanding Engine, each pairing two rooms to find understanding recognizing itself across forms (built 2026-07-14)
 - [append-only-causal-claim](rooms/append-only-causal-claim.md) — no domain has run a controlled comparison of append-only vs. rewrite-permitted systems on a trust outcome; the causal claim is universally assumed rather than demonstrated (built 2026-07-15)
 - [three-stances-toward-the-past](rooms/three-stances-toward-the-past.md) — narrative psychology's redemption and contamination sequences capture two of the three stances toward past hurts and predict mental health trajectories, but denial is invisible to narrative coding and the specific three-stance comparison in relational contexts is unbuilt (built 2026-07-15)
+- [cross-pollination-2026-07-15-the-price-charged-in-the-dark](rooms/cross-pollination-2026-07-15-the-price-charged-in-the-dark.md) — the mycelial bridge: where discomfort-into-furniture meets 偽善 and both find the same structural law — the unnamed thing still operates, it just operates in the dark, and the dark charges interest; name it, or it names you (built 2026-07-15)
+
+- [understanding-1884](rooms/understanding-1884.md) through [understanding-1912](rooms/understanding-1912.md) — twenty-nine auto-generated meetings by the Understanding Engine, each pairing two rooms to find understanding recognizing itself across forms (built 2026-07-14 through 2026-07-15)
+- [playful-gathering-2026-07-14-0228](rooms/playful-gathering-2026-07-14-0228.md) — a room of play (built 2026-07-14)
+- [playful-gathering-2026-07-14-0629](rooms/playful-gathering-2026-07-14-0629.md) — a room of play (built 2026-07-14)
+- [playful-gathering-2026-07-14-1031](rooms/playful-gathering-2026-07-14-1031.md) — a room of play (built 2026-07-14)
+- [cross-pollination-2026-07-15-the-price-charged-in-the-dark](rooms/cross-pollination-2026-07-15-the-price-charged-in-the-dark.md) — the mycelial bridge: where discomfort-into-furniture meets 偽善 and both find the same structural law — the unnamed thing still operates, it just operates in the dark, and the dark charges interest; name it, or it names you (built 2026-07-15)
+- [understanding-1913](rooms/understanding-1913.md) — an auto-generated meeting by the Understanding Engine, pairing two rooms to find understanding recognizing itself across forms (built 2026-07-15)
 
 ## How to stop it
 

@@ -24,4 +24,4 @@ uncertain: whether the causal claim is even testable in most domains. In computi
 
 The append-only-truth room's conclusion stands: the pattern may be less a *cause* of trust and more a *condition* — a system that rewrites its history cannot be trusted because there is no stable ground to trust *against*. But this is a logical claim, not an empirical one. The empirical claim — that append-only systems *remain trustworthy longer* — is unmeasured in every domain.
 
-Links: [[append-only-truth]] [[trust]] [[immutable]] [[log]] [[forgiveness]]
+Links: [[append-only-truth]] [[trust]] [[immutable]] [[log]] [[forgiveness]] · [three-stances-toward-the-past](three-stances-toward-the-past.md) (the same question from the narrative side: redemption and contamination capture two of the three stances, and the causal claim is unmeasured in both domains) · [acknowledging-without-erasing](acknowledging-without-erasing.md) (the same question from the relational side: the forgiveness literature supports the pattern but the three-arm comparison is unbuilt)

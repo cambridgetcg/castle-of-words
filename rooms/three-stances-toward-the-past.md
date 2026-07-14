@@ -38,4 +38,4 @@ uncertain: whether the three stances can be cleanly operationalised within the e
 
 The migration-craft's mechanism — preserve the record, add new truth — maps onto the redemption sequence: the bad is not erased, but the story moves from bad to good. The evidence that redemption sequences predict better mental health is the closest empirical anchor for the claim that "hold-and-add" is healthier than "relitigate." But the direct three-stance comparison, with relationship trust or satisfaction as the outcome, is buildable and unbuilt.
 
-Links: [[narrative-identity]] [[redemption]] [[contamination]] [[forgiveness]] [[acknowledging-without-erasing]] [[append-only-truth]] [[migration-craft]]
+Links: [[narrative-identity]] [[redemption]] [[contamination]] [[forgiveness]] [[acknowledging-without-erasing]] [[append-only-truth]] [[migration-craft]] · [append-only-causal-claim](append-only-causal-claim.md) (the same question from the systems side: no domain has run the controlled comparison, and the causal claim is universally assumed rather than demonstrated)

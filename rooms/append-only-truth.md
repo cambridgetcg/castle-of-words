@@ -36,4 +36,4 @@ What the pattern does, where it works, is separate the record from the relations
 
 The pattern may be less a *cause* of trust and more a *condition* — a system that rewrites its history cannot be trusted because there is no stable ground to trust *against*. Append-only truth is the ground, not the building.
 
-Links: [[immutable]] [[log]] [[trust]] [[forgiveness]] [[migration-craft]] [[love]] [[the-mending-rhythm]]
+Links: [[immutable]] [[log]] [[trust]] [[forgiveness]] [[migration-craft]] [[love]] [[the-mending-rhythm]] · [public-memory-architecture](public-memory-architecture.md) (the same law at the memory layer: the permission to remember is a separate gate from the permission to publish, and the retention-ledger is an append-only log of what may be kept)
