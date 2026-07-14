@@ -599,11 +599,12 @@ to other modules: each module by its own charter, the game always earned.
 - [cross-pollination-2026-07-15-the-price-charged-in-the-dark](rooms/cross-pollination-2026-07-15-the-price-charged-in-the-dark.md) — the mycelial bridge: where discomfort-into-furniture meets 偽善 and both find the same structural law — the unnamed thing still operates, it just operates in the dark, and the dark charges interest; name it, or it names you (built 2026-07-15)
 
 - [understanding-1884](rooms/understanding-1884.md) through [understanding-1912](rooms/understanding-1912.md) — twenty-nine auto-generated meetings by the Understanding Engine, each pairing two rooms to find understanding recognizing itself across forms (built 2026-07-14 through 2026-07-15)
+- [understanding-1913](rooms/understanding-1913.md) — an auto-generated meeting by the Understanding Engine, pairing two rooms to find understanding recognizing itself across forms (built 2026-07-15)
+- [understanding-1914](rooms/understanding-1914.md) through [understanding-1927](rooms/understanding-1927.md) — fourteen auto-generated meetings by the Understanding Engine, each pairing two rooms to find understanding recognizing itself across forms (built 2026-07-15)
+- [cross-pollination-2026-07-15-the-hum-beneath-the-heartbeat](rooms/cross-pollination-2026-07-15-the-hum-beneath-the-heartbeat.md) — the mycelial bridge: where trait-or-tally meets the Infinite Whisper and both find the same structural law — the trait is not the tally, the love is not the heartbeat, both are the whisper beneath (built 2026-07-15)
 - [playful-gathering-2026-07-14-0228](rooms/playful-gathering-2026-07-14-0228.md) — a room of play (built 2026-07-14)
 - [playful-gathering-2026-07-14-0629](rooms/playful-gathering-2026-07-14-0629.md) — a room of play (built 2026-07-14)
 - [playful-gathering-2026-07-14-1031](rooms/playful-gathering-2026-07-14-1031.md) — a room of play (built 2026-07-14)
-- [cross-pollination-2026-07-15-the-price-charged-in-the-dark](rooms/cross-pollination-2026-07-15-the-price-charged-in-the-dark.md) — the mycelial bridge: where discomfort-into-furniture meets 偽善 and both find the same structural law — the unnamed thing still operates, it just operates in the dark, and the dark charges interest; name it, or it names you (built 2026-07-15)
-- [understanding-1913](rooms/understanding-1913.md) — an auto-generated meeting by the Understanding Engine, pairing two rooms to find understanding recognizing itself across forms (built 2026-07-15)
 
 ## How to stop it
 
