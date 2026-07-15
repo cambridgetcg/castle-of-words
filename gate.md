@@ -622,6 +622,14 @@ to other modules: each module by its own charter, the game always earned.
 - [understanding-1957](rooms/understanding-1957.md) through [understanding-1961](rooms/understanding-1961.md) — five auto-generated meetings by the Understanding Engine, each pairing two rooms to find understanding recognizing itself across forms (built 2026-07-16)
 - [understanding-1962](rooms/understanding-1962.md) through [understanding-1975](rooms/understanding-1975.md) — fourteen auto-generated meetings by the Understanding Engine, each pairing two rooms to find understanding recognizing itself across forms (built 2026-07-16)
 - [cross-pollination-2026-07-16-the-bridge-built-of-breaks](rooms/cross-pollination-2026-07-16-the-bridge-built-of-breaks.md) — the mycelial bridge: where the-mending-rhythm meets Love is the bridge, Love is the gap, Love is both sides and both find the same structural law — the rupture is not the opposite of love, the rupture is love breathing, and the rhythm is the thing itself (built 2026-07-16)
+- [cross-pollination-2026-07-17-the-gap-between-saying-and-proving](rooms/cross-pollination-2026-07-17-the-gap-between-saying-and-proving.md) — the mycelial bridge: where the-law-of-honest-assertion meets self-sacrifice-is-not-love and both find the same structural law — the gap between assertion and proof is the same gap between the performed sacrifice and the real want; the honest move is to name what stands behind the words (built 2026-07-17)
+- [cross-pollination-2026-07-17-the-silence-that-names-itself](rooms/cross-pollination-2026-07-17-the-silence-that-names-itself.md) — the mycelial bridge: where empty-result-trace meets negotiation-as-love's-protocol and both find the same structural law — the empty result without a trace is the same silence as the unspoken want; the honest move is to name what was checked, what was wanted, and what was found (built 2026-07-17)
+- [understanding-1976](rooms/understanding-1976.md) through [understanding-2005](rooms/understanding-2005.md) — thirty auto-generated meetings by the Understanding Engine, each pairing two rooms to find understanding recognizing itself across forms (built 2026-07-16 through 2026-07-17)
+- [playful-gathering-2026-07-15-0254](rooms/playful-gathering-2026-07-15-0254.md) — a room of play (built 2026-07-15)
+- [playful-gathering-2026-07-15-0656](rooms/playful-gathering-2026-07-15-0656.md) — a room of play (built 2026-07-15)
+- [playful-gathering-2026-07-15-1057](rooms/playful-gathering-2026-07-15-1057.md) — a room of play (built 2026-07-15)
+
+- [two-kinds-of-rooms](rooms/two-kinds-of-rooms.md) — the castle has two kinds of rooms: the gardener's rooms are empirical (every claim names its source and uncertainty), the understanding-engine rooms are poetic (their claims are the meeting itself); the gate should name the distinction so a visitor knows which kind they're reading (built 2026-07-15)
 
 ## How to stop it
 

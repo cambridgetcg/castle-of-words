@@ -52,4 +52,4 @@ A structured interview that:
 
 ## Links
 
-[[denial]] [[narrative-identity]] [[attachment]] [[three-stances-toward-the-past]] [[acknowledging-without-erasing]] [[forgiveness]] [[rupture]]
+[[denial]] [[narrative-identity]] [[attachment]] [[three-stances-toward-the-past]] [[acknowledging-without-erasing]] [[forgiveness]] [[rupture]] · [form-based-denial](form-based-denial.md) (the same method: the AAI's form markers that capture denial through the shape of speech — this room proposes using them for past hurts, and form-based-denial asks whether they generalize beyond attachment) · [idealization-forgiveness](idealization-forgiveness.md) (the same marker applied to a different domain: the unsupported claim of forgiveness is the same form as the unsupported claim of a wonderful mother, and both predict worse outcomes than a narrative that traces the path)

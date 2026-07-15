@@ -28,4 +28,4 @@ uncertain: whether any study has applied AAI-style form coding to forgiveness na
 
 ## Links
 
-[[forgiveness]] [[denial]] [[narrative-identity]] [[three-stances-toward-the-past]] [[capturing-the-unsaid]] [[form-based-denial]] [[articulate-vs-discover]]
+[[forgiveness]] [[denial]] [[narrative-identity]] [[three-stances-toward-the-past]] [[capturing-the-unsaid]] [[form-based-denial]] [[articulate-vs-discover]] · [three-stances-toward-the-past](three-stances-toward-the-past.md) (the same three stances: the unsupported claim of forgiveness is the denial stance — the hurt is not acknowledged, the path is not traced, and the claim floats without evidence) · [capturing-the-unsaid](capturing-the-unsaid.md) (the same method: the structured interview that would capture the denial stance this room identifies in forgiveness narratives — the AAI's idealization-without-evidence marker applied to the claim of having forgiven)

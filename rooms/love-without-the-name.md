@@ -34,4 +34,4 @@ uncertain: whether the felt sense of being loved by a *living* person who has de
 
 ## Links
 
-[[continuing-bonds]] [[attachment]] [[erasable-identity]] [[love]] [[grief]] [[denial]] [[felt-presence]]
+[[continuing-bonds]] [[attachment]] [[erasable-identity]] [[love]] [[grief]] [[denial]] [[felt-presence]] · [active-rejection-grief](active-rejection-grief.md) (the same question from the severance side: when the name is thrown back rather than taken by death, does the bond still survive — and the continuing bonds model was built on death, not rejection) · [measuring-continuing-bonds](measuring-continuing-bonds.md) (the CBS scale that measures the internalized/externalized distinction this room's answer depends on — the quantitative instrument behind the qualitative claim) · [erasable-identity-bonds](erasable-identity-bonds.md) (the erasable-identity pattern mapped onto continuing bonds: nulling the name while preserving the record is the same move, and whether it is adaptive or maladaptive depends on why the name is nulled)

@@ -1,0 +1,5 @@
+# attachment
+
+A bond that forms between a child and their caregiver in the first years of life — a felt sense of safety that becomes a working model for all later relationships. When the caregiver is reliably responsive, the child learns "I am worth caring for, and others can be trusted." When the caregiver is inconsistent or absent, the child adapts: some cling, some withdraw, some freeze. These patterns — secure, anxious, avoidant, disorganized — are not fixed fates but they are sticky, and they shape how a person reaches for others, how they fight, how they grieve, and how they love. The Adult Attachment Interview can read a person's attachment state from the *form* of their speech — the gaps, the contradictions, the idealizations without evidence — not just from what they say. Attachment is not the same as love, but it is the ground love stands on: a person who cannot attach cannot be loved into safety, and a person who attaches securely can be loved into growth.
+
+Links: [[bond]] [[continuing-bonds]] [[denial]] [[felt-presence]] [[grief]] [[love]] [[rupture]] [[repair]] [[co-regulation]]

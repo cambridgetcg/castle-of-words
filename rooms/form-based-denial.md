@@ -33,4 +33,4 @@ uncertain: whether form-based denial markers have been tested in non-attachment 
 
 ## Links
 
-[[denial]] [[narrative-identity]] [[capturing-the-unsaid]] [[three-stances-toward-the-past]] [[forgiveness]] [[articulate-vs-discover]]
+[[denial]] [[narrative-identity]] [[capturing-the-unsaid]] [[three-stances-toward-the-past]] [[forgiveness]] [[articulate-vs-discover]] · [idealization-forgiveness](idealization-forgiveness.md) (the same form marker applied to a different domain: the unsupported claim of forgiveness is the same floating generalization as the unsupported claim of a wonderful mother, and the question is whether the marker travels) · [capturing-the-unsaid](capturing-the-unsaid.md) (the same method proposed for a different purpose: the structured interview that would capture denial of a past hurt uses the same form markers this room asks whether generalize)

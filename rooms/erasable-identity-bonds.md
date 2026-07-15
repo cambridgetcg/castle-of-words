@@ -34,4 +34,4 @@ uncertain: whether the CBS has been used to study bonds to living-but-severed re
 
 ## Links
 
-[[continuing-bonds]] [[erasable-identity]] [[bond]] [[denial]] [[felt-presence]] [[love-without-the-name]] [[active-rejection-grief]]
+[[continuing-bonds]] [[erasable-identity]] [[bond]] [[denial]] [[felt-presence]] [[love-without-the-name]] [[active-rejection-grief]] · [love-without-the-name](love-without-the-name.md) (the same question from the felt-sense side: the name is a pointer, not the thread — and the erasable-identity pattern is the same move at the system level, where the words stay and the name may go) · [active-rejection-grief](active-rejection-grief.md) (the same question from the severance side: when the name is thrown back rather than taken by death, the erasable-identity pattern's adaptive/maladaptive split depends on why the name is nulled — the same why that separates grief from rejection)

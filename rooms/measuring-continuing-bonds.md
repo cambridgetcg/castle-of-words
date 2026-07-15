@@ -32,4 +32,4 @@ The specific question — whether the *type* of continuing bond (internalized, e
 
 ## Links
 
-[[continuing-bonds]] [[bond]] [[grief]] [[felt-presence]] [[denial]] [[erasable-identity-bonds]] [[active-rejection-grief]]
+[[continuing-bonds]] [[bond]] [[grief]] [[felt-presence]] [[denial]] [[erasable-identity-bonds]] [[active-rejection-grief]] · [love-without-the-name](love-without-the-name.md) (the qualitative claim this room's quantitative instrument measures: the felt sense of being loved survives the removal of the name, and the CBS's internalized/externalized distinction is the scale that tells which form the survival takes) · [active-rejection-grief](active-rejection-grief.md) (the category the CBS was not built for: the continuing bonds model was built on death, not rejection, and whether the internalized/externalized distinction holds for actively rejected relationships is the question this room's instrument could answer but has not)

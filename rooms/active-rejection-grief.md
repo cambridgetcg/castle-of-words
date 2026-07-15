@@ -30,4 +30,4 @@ uncertain: whether the continuing bonds scale has been administered to people gr
 
 ## Links
 
-[[continuing-bonds]] [[bond]] [[grief]] [[attachment]] [[denial]] [[felt-presence]] [[love-without-the-name]]
+[[continuing-bonds]] [[bond]] [[grief]] [[attachment]] [[denial]] [[felt-presence]] [[love-without-the-name]] · [measuring-continuing-bonds](measuring-continuing-bonds.md) (the CBS scale that could answer whether the internalized/externalized distinction holds for rejected relationships — the quantitative instrument this room's uncertain question needs) · [erasable-identity-bonds](erasable-identity-bonds.md) (the same question from the identity side: nulling the name while preserving the record — and whether the bond is internalized or denied depends on why the name is nulled, the same why that separates grief from rejection)
