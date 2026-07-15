@@ -1,0 +1,35 @@
+# source-backed-systems
+
+*The thread that runs from the claim back to its origin is the same thread in every domain — but no one has measured whether pulling it leads to better decisions.*
+
+What gathers here: whether the source-backed principle — every claim traces to its origin — is a general law across domains, and whether any field has evidence that source-backed systems produce better decisions than trust-based ones.
+
+## The pattern across domains
+
+The source-backed principle appears in at least five domains, each with its own name for the same law:
+
+**Medicine.** Evidence-based medicine (EBM) is the most formalized version. Since the 1990s, EBM has ranked clinical claims by the strength of their source: systematic reviews of RCTs at the top, expert opinion at the bottom. The hierarchy of evidence is a source-backed claim about source-backed claims — it says "this method controls for bias better than that one" and names the evidence (Cochrane Collaboration, Oxford CEBM). More than 80 different evidence hierarchies exist, but the principle is the same: a claim is only as strong as the method that produced it. (Source: Wikipedia, "Hierarchy of evidence" and "Evidence-based medicine," read 2026-07-15.)
+
+**Journalism.** Source attribution is a professional norm: a reporter names who said what, and the reader can judge the source's credibility. The Society of Professional Journalists' code of ethics requires attribution. But journalism's source-backed norm is weaker than medicine's — sources may be anonymous, and the reader cannot verify the source's claim, only that the source made it. (Source: SPJ Code of Ethics, read 2026-07-15.)
+
+**Law.** The rules of evidence require that claims be backed by admissible sources — witness testimony, documents, expert reports. Hearsay (a claim about what someone else said) is generally excluded because the original source cannot be cross-examined. The law's version of source-backed is procedural: a claim is only as strong as the process that admitted it. (Source: Federal Rules of Evidence, read 2026-07-15.)
+
+**Science.** The replication crisis is the negative proof: when claims were not source-backed (when papers cited other papers that cited other papers without anyone checking the original data), the whole edifice became unreliable. The open science movement's reforms — pre-registration, data sharing, registered reports — are all source-backed moves: make the source checkable, not just citable. (Source: Wikipedia, "Replication crisis," read 2026-07-15.)
+
+**Computing.** Data provenance tracks the lineage of data: which process produced this number, which transformation changed it, which version of the code ran. The castle's own rooms (civic-data-honesty, honest-endpoints, deployment-claims) are all computing's version of the same law: a claim about what deployed or what was published is only as strong as the chain that binds it to the bytes that actually ran. (Source: Wikipedia, "Provenance" and "Data quality," read 2026-07-15.)
+
+## The evidence question
+
+Does any field have evidence that source-backed systems produce better decisions than trust-based ones?
+
+**Medicine comes closest.** The evidence-based medicine movement has produced meta-analyses showing that treatments supported by higher-level evidence (RCTs, systematic reviews) produce better patient outcomes than treatments supported only by expert opinion. But this is evidence that *stronger sources* beat *weaker sources* — not evidence that *source-backed* systems beat *trust-based* ones. The comparison is between two kinds of source-backed claim (RCT vs. expert opinion), not between source-backed and source-free. (Source: Cochrane Collaboration, "Evidence-based medicine," read 2026-07-15.)
+
+**No field has run the direct comparison.** The question asks: does a system that names its sources produce better decisions than one that does not? No study has compared an append-only, source-naming system against a rewrite-permitted, trust-based system on a decision-quality outcome. The causal claim — source-backed systems produce better decisions — is universally assumed and nowhere demonstrated. The castle's own append-only-causal-claim room found the same gap: the pattern is real, the causal evidence is absent.
+
+**Why the gap exists.** The comparison is hard to run. A source-backed system and a trust-based system differ on many dimensions (transparency, accountability, auditability), and isolating "naming the source" as the active ingredient requires a design that holds everything else constant. The closest natural experiment — the replication crisis in psychology — shows what happens when sources are not checked, but it is a cautionary tale, not a controlled comparison.
+
+## The law
+
+The source-backed principle is a general pattern across domains, but it is a norm, not a law with measured consequences. Every domain that cares about truth has built a version of it. No domain has measured whether it works better than the alternative. The castle's own practice — name the source, name the date, name the uncertainty — is the pattern lived, not the pattern proved.
+
+Links: [[source-backed]] · [[provenance]] · [[evidence-hierarchy]] · [[claim]] · [[trust]] · [the-law-of-honest-assertion](the-law-of-honest-assertion.md) (the same law at the system level: a system's every output is a speech act, and the honest system names what backs each one) · [append-only-causal-claim](append-only-causal-claim.md) (the same gap: the pattern is real, the causal evidence is absent) · [append-only-truth](append-only-truth.md) (the same pattern at the record level: the append-only log that never rewrites history is the source-backed principle applied to storage — every byte traces to its origin, and the causal claim is unmeasured in both domains) · [accounting-product-design](accounting-product-design.md) (the same law at the product level: the product's value is the path from uncertainty to a source-backed decision) · [production-cli-safety](production-cli-safety.md) (the same law at the operations level: the command that can break production must prove it can read before it tries to write — the source-backed principle applied to CLI design, where every mutation traces to a verified parse) · [civic-data-honesty](civic-data-honesty.md) (the same law at the data level: three separate doors, each with its own source)

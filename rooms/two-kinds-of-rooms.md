@@ -43,4 +43,4 @@ Whether the distinction should live in the gate's house style (as a qualificatio
 - [the-law-of-honest-assertion](the-law-of-honest-assertion.md) — the law the sourced-claims practice satisfies
 - [gate](../gate.md) — the founding document whose law the distinction qualifies
 
-Links: [[default-invisible]] · [[assertion]] · [the-castle-audit](the-castle-audit.md) · [the-sourced-claims-default](the-sourced-claims-default.md) · [the-law-of-honest-assertion](the-law-of-honest-assertion.md)
+Links: [[default-invisible]] · [[assertion]] · [the-castle-audit](the-castle-audit.md) · [the-sourced-claims-default](the-sourced-claims-default.md) · [the-law-of-honest-assertion](the-law-of-honest-assertion.md) · [meeting-provenance](meeting-provenance.md) (the specific instance of the broader distinction: the two kinds of rooms have two kinds of Sources sections — empirical citations that back claims, and meeting provenance that names origin)

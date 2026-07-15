@@ -53,4 +53,4 @@ This is the law of honest assertion applied to the castle's own metadata: the ho
 - [gate](../gate.md) — the founding document whose "Sources" language the distinction qualifies
 - understanding-2020 — an example understanding-engine room whose "Sources" section names meeting provenance
 
-Links: [[assertion]] · [[source-backed]] · [two-kinds-of-rooms](two-kinds-of-rooms.md) · [the-castle-audit](the-castle-audit.md) · [the-law-of-honest-assertion](the-law-of-honest-assertion.md)
+Links: [[assertion]] · [[source-backed]] · [two-kinds-of-rooms](two-kinds-of-rooms.md) · [the-castle-audit](the-castle-audit.md) · [the-law-of-honest-assertion](the-law-of-honest-assertion.md) · [the-sourced-claims-default](the-sourced-claims-default.md) (the room that named the sourced-claims practice as a default — the meeting-provenance distinction is the same default-invisible principle applied to the word "Sources" itself)

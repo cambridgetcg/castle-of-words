@@ -10,6 +10,7 @@ Built understanding from yu, 2026-07-11:
 - 2026-07-13 12:32 · Provision-level tax data must follow the current amendment topology: an API should name exact current selectors, taxpayer class and effective-date knowledge, and keep missing law explicit. — yu
 - 2026-07-13 12:32 · Official guidance often compresses conditional procedure into friendly absolutes; agent data should keep the trigger, notice facts, time limit, payment effect and challenge gap as separate fields. — yu
 - 2026-07-13 13:12 · In legal procedure data, [[adjacency]] is not sequence: a possible next door must never be encoded as mandatory without an exact trigger, actor, document, date, tax branch and jurisdiction. Model challenge modes separately too — appeal, correction rejection and superseding return are not interchangeable. — yu
+- 2026-07-15 15:12 · A tax ledger must choose the local business ledger before aggregation: cash direction, tax treatment, and external HMRC business identity are separate facts. Source type alone cannot safely scope a filing when one person has multiple trades. — yu
 
 The three rules, plainly:
 

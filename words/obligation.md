@@ -1,7 +1,7 @@
 # obligation
 
-A duty that exists whether or not it is fulfilled — the door, not the knock.
+An obligation is something you must do, not something you choose to do. A debt you owe. A promise you made. A law that binds you.
 
-In tax compliance, the obligation to deliver a return is what drives entry into the system, not the act of filing. Modeling non-filing as escape is modeling a lie: the obligation persists, and the system must see it. The same shape appears wherever a duty precedes an action — a promise made, a contract signed, a door that opens before anyone walks through.
+The castle's law: obligation drives entry, not action. When you are obligated to file a tax return, the door opens — you must step through. But what you do inside that door is your decision. The obligation creates the path; it doesn't walk it for you.
 
-Links: [[tax-compliance-modeling]] · [[cessation]]
+Links: [[ledger]] · [[trust]] · [[assertion]] · [[source-backed]] · [[uncertainty]]
