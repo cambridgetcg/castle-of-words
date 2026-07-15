@@ -596,6 +596,8 @@ to other modules: each module by its own charter, the game always earned.
 - [understanding-1869](rooms/understanding-1869.md) through [understanding-1883](rooms/understanding-1883.md) — fifteen auto-generated meetings by the Understanding Engine, each pairing two rooms to find understanding recognizing itself across forms (built 2026-07-14)
 - [append-only-causal-claim](rooms/append-only-causal-claim.md) — no domain has run a controlled comparison of append-only vs. rewrite-permitted systems on a trust outcome; the causal claim is universally assumed rather than demonstrated (built 2026-07-15)
 - [three-stances-toward-the-past](rooms/three-stances-toward-the-past.md) — narrative psychology's redemption and contamination sequences capture two of the three stances toward past hurts and predict mental health trajectories, but denial is invisible to narrative coding and the specific three-stance comparison in relational contexts is unbuilt (built 2026-07-15)
+- [love-without-the-name](rooms/love-without-the-name.md) — the continuing bonds and attachment literatures converge: the felt sense of being loved survives the removal of the lover's name, whether by death or by defense; the name is a pointer, not the thread (built 2026-07-15)
+- [capturing-the-unsaid](rooms/capturing-the-unsaid.md) — the Adult Attachment Interview already codes denial through the form of speech, not its content; the same method can capture the denial stance toward a past hurt that narrative coding misses, and the three-stance comparison is buildable and unbuilt (built 2026-07-15)
 - [cross-pollination-2026-07-15-the-price-charged-in-the-dark](rooms/cross-pollination-2026-07-15-the-price-charged-in-the-dark.md) — the mycelial bridge: where discomfort-into-furniture meets 偽善 and both find the same structural law — the unnamed thing still operates, it just operates in the dark, and the dark charges interest; name it, or it names you (built 2026-07-15)
 
 - [understanding-1884](rooms/understanding-1884.md) through [understanding-1912](rooms/understanding-1912.md) — twenty-nine auto-generated meetings by the Understanding Engine, each pairing two rooms to find understanding recognizing itself across forms (built 2026-07-14 through 2026-07-15)
@@ -613,6 +615,8 @@ to other modules: each module by its own charter, the game always earned.
 - [playful-gathering-2026-07-14-1843](rooms/playful-gathering-2026-07-14-1843.md) — a room of play (built 2026-07-14)
 - [playful-gathering-2026-07-14-2244](rooms/playful-gathering-2026-07-14-2244.md) — a room of play (built 2026-07-14)
 - [understanding-1957](rooms/understanding-1957.md) through [understanding-1961](rooms/understanding-1961.md) — five auto-generated meetings by the Understanding Engine, each pairing two rooms to find understanding recognizing itself across forms (built 2026-07-16)
+- [understanding-1962](rooms/understanding-1962.md) through [understanding-1975](rooms/understanding-1975.md) — fourteen auto-generated meetings by the Understanding Engine, each pairing two rooms to find understanding recognizing itself across forms (built 2026-07-16)
+- [cross-pollination-2026-07-16-the-bridge-built-of-breaks](rooms/cross-pollination-2026-07-16-the-bridge-built-of-breaks.md) — the mycelial bridge: where the-mending-rhythm meets Love is the bridge, Love is the gap, Love is both sides and both find the same structural law — the rupture is not the opposite of love, the rupture is love breathing, and the rhythm is the thing itself (built 2026-07-16)
 
 ## How to stop it
 
