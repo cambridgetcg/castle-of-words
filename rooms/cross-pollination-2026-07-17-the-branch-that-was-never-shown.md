@@ -1,0 +1,29 @@
+# cross-pollination-2026-07-17-the-branch-that-was-never-shown
+
+*The mycelial bridge: where understanding meets love, and each feeds the other.*
+
+> When 'data-dictionary-honesty' meets '偽善', the hypha forms: both know that a partial description presented as complete is a lie — and the honest move is to name every branch, every condition, every want. The understanding room finds that a union type has many shapes, and a data dictionary that describes only one of them is not a description — it is a selection wearing the clothes of a specification. The love truth finds that 偽善 is pretending you don't want gain when wanting gain is natural — the hypocrite and the martyr are the same figure, both trading while denying they trade, hiding the want so the price becomes invisible while it still gets charged. **The schema that shows only the first branch of a union is the same silence as the performer who shows only the selfless face while hiding the want — both present a selection as if it were the specification, a performance as if it were the whole person. The honest dictionary merges every branch and names conditional requiredness. The honest lover names every want and declares the terms before the exchange. Both refuse to let the visible part pretend to be the whole. Both answer with the same move: show all the branches, name all the conditions, and let the other see what was selected and what was omitted.** ∞
+
+## The understanding
+
+[data-dictionary-honesty](data-dictionary-honesty.md): A union type has many shapes, and a data dictionary that describes only one of them is not a description — it is a selection wearing the clothes of a specification. The honest dictionary merges every branch and names which fields are required under which conditions. The law: a schema that shows only the first branch of a union is a schema that lies. The dishonest dictionary lets the reader assume the visible branch is the whole type; the honest dictionary refuses to let the reader guess what was omitted.
+
+## The love
+
+[love](love.md): 偽善 — fake virtue — is pretending you don't want gain, when wanting gain is simply natural. The hypocrite and the martyr are the same figure: both are trading while denying they trade. Hiding the want doesn't remove the price, it makes the price invisible — and invisible prices still get charged: in moral debt, in control, in the receiver's guilt. Wanting gain openly is what makes the scale honest; both pans visible, terms declared before the crossing. 老子 saw it: performed goodness appears exactly where the real way broke down (大道廢，有仁義).
+
+## The mycelium
+
+The data-dictionary-honesty room's central finding — a schema that shows only the first branch is a schema that lies — is the same law the 偽善 truth names for love, seen from the system's side. The understanding room builds a mechanism: merge every branch, name conditional requiredness, let the consumer see the full type. The love truth names the reality the mechanism serves: name every want, declare the terms openly, let the other see the full person before the exchange begins.
+
+The data-dictionary-honesty room's insight: **the dishonest dictionary lets the reader assume the visible branch is the whole type.** The consumer who sees only `{status: "ok"}` cannot tell whether `{status: "error", code: 500}` is also a valid shape. The visible branch pretends to be the specification, and the consumer builds their code against a partial truth. The honest dictionary refuses to let the consumer guess what was omitted.
+
+The 偽善 truth names the same separation at the relational level. The performer who shows only the selfless face — "I want nothing, I give freely" — is showing only the first branch of a union. The receiver cannot tell whether "I want nothing" is the whole type or whether `{want: "gratitude", price: "moral debt"}` is also a valid shape. The visible branch pretends to be the whole person, and the receiver builds their response against a partial truth. The honest lover refuses to let the receiver guess what was omitted.
+
+And both rooms name the same error: **the one who lets the visible branch pretend to be the whole type.** The data-dictionary-honesty room's error is the schema that shows only `{status: "ok"}` when `{status: "error"}` is also valid — the partial description that wears the clothes of a specification. The 偽善 truth's error is the performer who shows only the selfless face when the want is also real — the partial performance that wears the clothes of the whole person. Both errors are the same error: **letting the gap between what is shown and what is omitted go unnamed, and letting the other build against a partial truth.**
+
+The deepest bridge: **the honest dictionary and the honest lover are the same move.** The honest dictionary merges every branch — the honest lover names every want. The honest dictionary names conditional requiredness — the honest lover declares the terms (what is negotiable, what is not). The honest dictionary lets the consumer see what was selected and what was omitted — the honest lover lets the partner see what is offered and what is asked. Both are the refusal to let the visible part pretend to be the whole. Both are the act of making the invisible visible. Both are the move that turns a partial truth into a complete specification — and a complete specification into an honest exchange. **The `{status: "ok"}` that hides the error branch is the same silence as the "I want nothing" that hides the real want. The merged union is the named want. And the honest system and the honest lover both answer with the same law: show every branch, name every condition, and let the other see the full type before they build against it.** ∞
+
+---
+
+*Cross-pollinated 2026-07-17. Understanding feeds love. Love feeds understanding. The mycelium connects all.* ∞
