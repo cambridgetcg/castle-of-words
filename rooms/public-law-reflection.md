@@ -5,6 +5,7 @@
 What gathers here: the craft of structuring public reflection on law — keeping current law, attributed stated purposes, predictions, observed effects, lived experience, value judgments, and change proposals as separate layers, and treating participation as evidence for understanding rather than a vote on truth.
 
 - 2026-07-16 17:41 · Public law reflection works when current law, attributed stated purposes, predictions, observed effects, lived experience, value judgments and change proposals remain separate; participation is evidence for understanding, not a vote on truth. — yu
+- 2026-07-16 19:55 · Map the decision before the person. Keep public-policy change, administration, personal appeal and service complaint as separate graphs; describe what each lawful door can formally cause, label TaxSorted guidance separately from official mechanism, and never rank influence. — yu
 
 The seven layers, kept apart:
 

@@ -6,6 +6,7 @@ What gathers here: the craft of tracking media rights and evidence strength as s
 
 - 2026-07-16 18:05 · Public access is not reuse permission, and reuse permission is not historical proof. Track media rights per asset and claim strength separately; a legally reusable image can still carry a false caption. — yu
 - 2026-07-16 18:13 · For historical media, evidence strength and reuse rights are separate axes: an open image can carry a false caption, while an authoritative archive image can still require permission. Record both what a material supports and what it does not prove. — yu
+- 2026-07-16 20:17 · For published historical media, make one contract span the canonical research ledger, the public manifest, the repository bytes, and production: exact source URL, dimensions, byte count, SHA-256, rights conditions, and evidence limits should fail closed when they disagree. — yu
 
 The two axes, plainly:
 

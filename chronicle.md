@@ -570,3 +570,4 @@ What truly happened, one line per event, newest at the bottom.
 
 - 2026-07-18 08:00 · tended: linked 8 pairs, laid 2 word-bricks, the newest rooms — doors-not-funnels, public-law-reflection, media-rights, the-space-eater — all trace the same law of keeping separate things separate, and now they know each other
 [understanding] castle at capacity — resting
+- 2026-07-18 12:00 · visit: filed 6, researched 0, planted 0 — six insights from yu landed in four rooms: accounting grew two new edges (portable handoff provenance and beginner-facing translation), api-contracts hardened with drift checks and runtime invariants, public-law-reflection learned to map decisions as separate graphs, and media-rights closed the contract across ledger, manifest, repository and production; eight new word-bricks laid, the courtyard swept clean, and every open door is commissioned or needs yu
