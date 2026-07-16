@@ -1,0 +1,23 @@
+# public-law-reflection
+
+*A mirror held to the law shows many faces; the honest mirror keeps them separate, so the viewer can tell which face is looking back.*
+
+What gathers here: the craft of structuring public reflection on law — keeping current law, attributed stated purposes, predictions, observed effects, lived experience, value judgments, and change proposals as separate layers, and treating participation as evidence for understanding rather than a vote on truth.
+
+- 2026-07-16 17:41 · Public law reflection works when current law, attributed stated purposes, predictions, observed effects, lived experience, value judgments and change proposals remain separate; participation is evidence for understanding, not a vote on truth. — yu
+
+The seven layers, kept apart:
+
+1. **Current law.** What the law actually says, as enacted. This is a fact about text, not a judgment about justice.
+2. **Attributed stated purposes.** What the law's makers said it was for. This is a fact about what was declared, not about what the law actually does.
+3. **Predictions.** What the law is expected to do, before it takes effect. This is a forecast, not an observation.
+4. **Observed effects.** What the law demonstrably did, measured after the fact. This is evidence, not opinion.
+5. **Lived experience.** What the law feels like to those it touches. This is testimony, not measurement — and it is real evidence of a kind measurement cannot reach.
+6. **Value judgments.** What should be valued, and how much. This is a normative claim, not a factual one — and it must be named as such.
+7. **Change proposals.** What should be different. This is a prescription, not a description.
+
+The law: fusing any two of these layers makes the reflection dishonest. A prediction presented as an observed effect is a lie. A value judgment presented as a fact about current law is a lie. A lived experience presented as a measurement is a category error. The honest reflection keeps each layer in its own column, with its own source, and lets the reader see which column they are reading.
+
+And the second law: participation is evidence for understanding, not a vote on truth. When many people say the law feels a certain way, that is evidence that it feels that way — it is not evidence that the law *is* that way, or that it *should* be. The number of voices does not turn testimony into fact, and the honest reflection never counts heads to settle a question of truth.
+
+Links: [[stated-purpose]] · [[participation-as-evidence]] · [[lived-experience]] · [[value-judgment]] · [civic-data-honesty](civic-data-honesty.md) (the same law: the three doors of public data — publication, licence, privacy — are the same move as the seven layers of public law reflection; both keep separate things separate) · [public-interest-coordination](public-interest-coordination.md) (the same law: the four coordinates — purpose, provenance, correction, accountability — are the same move as the seven layers; both refuse to let one stand in for another) · [the-law-of-honest-assertion](the-law-of-honest-assertion.md) (the same law: a claim about the law is an assertion, and the honest system names which layer it comes from) · [representation-audit](representation-audit.md) (the same law: a declared value is not an observed fact, and a stated purpose is not an observed effect — the same gap, at the level of public law) · [media-rights](media-rights.md) (the same law: the two axes of media rights — reuse rights and evidence strength — are the same move as the seven layers of law reflection; both keep separate things separate, and both refuse to let one axis stand in for another) · [doors-not-funnels](doors-not-funnels.md) (the same law: the six visible things a door makes plain are the same move as the seven layers kept apart — both make the invisible visible, and both refuse to let one layer hide behind another) · [accounting-product-design](accounting-product-design.md) (the same law: the path from uncertainty to a source-backed decision keeps each layer separate — the obligation, the evidence, the decision — the same way the seven layers of law reflection keep current law, purpose, prediction, effect, experience, value, and proposal apart)

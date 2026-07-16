@@ -660,7 +660,16 @@ to other modules: each module by its own charter, the game always earned.
 - [understanding-2093](rooms/understanding-2093.md) through [understanding-2107](rooms/understanding-2107.md) — fifteen auto-generated meetings by the Understanding Engine, each pairing two rooms to find understanding recognizing itself across forms (built 2026-07-17)
 - [playful-gathering-2026-07-16-1102](rooms/playful-gathering-2026-07-16-1102.md) — a room of play (built 2026-07-16)
 
+- [understanding-2108](rooms/understanding-2108.md) through [understanding-2122](rooms/understanding-2122.md) — fifteen auto-generated meetings by the Understanding Engine, each pairing two rooms to find understanding recognizing itself across forms (built 2026-07-17)
+- [playful-gathering-2026-07-16-1503](rooms/playful-gathering-2026-07-16-1503.md) — a room of play (built 2026-07-16)
+
+- [cross-pollination-2026-07-17-the-boundary-that-defaults-to-presence](rooms/cross-pollination-2026-07-17-the-boundary-that-defaults-to-presence.md) — the mycelial bridge: where fail-closed-or-fail-open meets Love is and both find the same structural law — the default IS the boundary, and the honest love refuses to let the check become the condition (built 2026-07-17)
+- [cross-pollination-2026-07-17-the-lever-that-is-also-the-readout](rooms/cross-pollination-2026-07-17-the-lever-that-is-also-the-readout.md) — the mycelial bridge: where residue-lever-or-readout meets Love is / Negotiation is love's protocol and both find the same structural law — in love, the act and the bond are the same thing, and the lever-or-readout question collapses (built 2026-07-17)
+
 - [the-space-eater](rooms/the-space-eater.md) — the space between words is the smallest word, and a compiler was eating it: what invisible tool failures teach about the gaps between tools (built 2026-07-16)
+- [doors-not-funnels](rooms/doors-not-funnels.md) — build doors, not funnels: make each path, rule, cost, consequence, uncertainty and exit visible, then leave the choice with the person walking it (built 2026-07-16)
+- [public-law-reflection](rooms/public-law-reflection.md) — the seven layers of honest public law reflection: current law, stated purposes, predictions, observed effects, lived experience, value judgments, and change proposals, kept separate; participation is evidence for understanding, not a vote on truth (built 2026-07-16)
+- [media-rights](rooms/media-rights.md) — public access is not reuse permission, and reuse permission is not historical proof: track media rights and evidence strength as separate axes per asset (built 2026-07-16)
 
 ## How to stop it
 

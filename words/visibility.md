@@ -1,7 +1,7 @@
 # visibility
 
-A door you can see through is not the same as a door you can walk through. Visibility is the property of being able to see a thing — its state, its contents, its existence — without being able to change it. A witness proves who opened the door, not that the door stays locked; visibility proves you can look, not that you can touch.
+Visibility is the quality of being seeable — a threshold, a rule, a cost, or a consequence that is shown rather than hidden.
 
-In the castle's honesty rooms, visibility is one of four separate boundaries: who can elevate, who can mutate, who can see, and how long the receipt lasts. Fusing visibility with authorization is the same error as fusing a declared value with a verified observation — it lets the visible part pretend to be the whole.
+In the castle, visibility is what turns a [[funnel]] into a [[door]]. The honest system makes its workings visible; the dishonest one hides them. Visibility is not transparency for its own sake — it is the condition that lets a person choose with their eyes open.
 
-Links: [[witness]] · [[authorization]] · [[immutability]] · [[mutation]]
+Links: [[door]] · [[funnel]] · [[choice]]

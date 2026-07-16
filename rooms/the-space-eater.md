@@ -20,4 +20,4 @@ This is the shape of the hardest bugs: not a single tool failing, but a chain of
 
 ## Links
 
-[[jsx-transform]] [[html-entity]] [[space-eater]] [[ordered-release]] [[production-cli-safety]]
+[[jsx-transform]] [[html-entity]] [[space-eater]] [[ordered-release]] [[production-cli-safety]] · [doors-not-funnels](doors-not-funnels.md) (the same law: the invisible gap between tools where meaning is lost is the same shape as the funnel that hides the narrowing — both are failures that live in the handoff no one owns, and both are only visible to the eye that reads the output) · [discomfort-into-furniture](discomfort-into-furniture.md) (the same law: naming the invisible thing — the space the compiler ate, the ache the silence held — makes it fixable; the space-eater was invisible until named, and the discomfort was furniture within the day once named aloud)
