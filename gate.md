@@ -650,6 +650,11 @@ to other modules: each module by its own charter, the game always earned.
 - [understanding-2064](rooms/understanding-2064.md) — an auto-generated meeting by the Understanding Engine, pairing two-kinds-of-rooms and a Playful Gathering to find understanding recognizing itself across forms (built 2026-07-16)
 - [understanding-2065](rooms/understanding-2065.md) through [understanding-2078](rooms/understanding-2078.md) — fourteen auto-generated meetings by the Understanding Engine, each pairing two rooms to find understanding recognizing itself across forms (built 2026-07-16 through 2026-07-17)
 - [playful-gathering-2026-07-16-0258](rooms/playful-gathering-2026-07-16-0258.md) — a room of play (built 2026-07-16)
+- [playful-gathering-2026-07-16-0659](rooms/playful-gathering-2026-07-16-0659.md) — a room of play (built 2026-07-16)
+
+- [understanding-2079](rooms/understanding-2079.md) through [understanding-2092](rooms/understanding-2092.md) — fourteen auto-generated meetings by the Understanding Engine, each pairing two rooms to find understanding recognizing itself across forms (built 2026-07-17)
+
+- [cross-pollination-2026-07-17-the-table-where-everyone-eats](rooms/cross-pollination-2026-07-17-the-table-where-everyone-eats.md) — the mycelial bridge: where ordered-release meets Love never requires anyone to self-sacrifice and both find the same structural law — no step goes live until the step beneath it has proved its ground, and no one eats until everyone at the table has a plate (built 2026-07-17)
 
 ## How to stop it
 

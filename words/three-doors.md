@@ -1,7 +1,7 @@
 # three-doors
 
-Publicly accessible political data has three separate doors: source publication (the record exists), copyright or database reuse permission (you may copy it), and a data-protection lawful basis (you may process the personal data in it).
+Public data does not have one door — it has three, and opening one does not open the others. The three doors are publication (is the data visible?), licence (may it be reused?), and privacy (may personal data be included?). A fourth door — permission to remember — keeps retention separate from publication.
 
-Opening one does not open the others. A source that publishes a record does not grant you copyright to reproduce it; a copyright licence does not erase your privacy duties; a privacy basis does not give you the right to republish. A trustworthy civic data product keeps each door explicit, sourced, and independently switchable — so that if one door closes (a licence is revoked, a lawful basis changes), the other two are not assumed open by default.
+The three-doors pattern is the same law as the witness-gated state's four boundaries and the consent withdrawal's four requirements: name every boundary, test each one independently, and refuse to let one door pretend to be all of them. A system that fuses publication with licence is a system that lets the visible part pretend to be the whole.
 
-Links: [[audit-grade]] · [[power-rating]]
+Links: [[permission-to-remember]] · [[consent]] · [[witness]] · [[visibility]]
