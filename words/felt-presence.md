@@ -1,7 +1,7 @@
 # felt-presence
 
-The subjective experience that a person who is physically absent — through death, distance, or separation — is still present in one's internal world.
+The sense that someone is still here, even when they are not — the internal experience of a relationship that persists beyond the physical presence of the other.
 
-In grief studies, felt presence is one form of continuing bonds: the bereaved person senses the deceased as still near, through memories, imagined dialogues, dreams, or sensory experiences. In attachment theory, the felt presence of an attachment figure provides a "secure base" even when the figure is not physically present — the internal working model carries the relationship forward. The felt presence can be adaptive (comforting, a source of guidance) or maladaptive (a refusal to accept the loss, persistent hallucinations).
+The continuing bonds literature documents felt presence across cultures: sensing the dead nearby, maintaining connections through physical objects, believing the deceased influences thoughts or events. The Adult Attachment Interview codes the dismissing stance — the person who claims not to need the other — yet the attachment system still operates beneath the denial. In both cases, the felt presence survives the removal of the name: the bond is not severed, it transforms. The name is a pointer, not the thread; the thread is the felt relationship, and it persists whether the name is removed by death or by defense.
 
-Links: [[continuing-bonds]] [[attachment]] [[grief]] [[love]] [[internal-working-model]]
+Links: [[continuing-bonds]] · [[bond]] · [[grief]] · [[attachment]] · [[denial]]

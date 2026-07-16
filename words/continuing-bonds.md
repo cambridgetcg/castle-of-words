@@ -1,9 +1,9 @@
 # continuing-bonds
 
-A theory of grief that says maintaining a lasting connection with a deceased loved one is a normal part of grieving, not a failure to "move on."
+The theory that bereaved people do not sever their ties to the dead but maintain ongoing relationships through memories, imagined dialogues, dreams, and symbolic objects — the bond transforms rather than dissolves.
 
-The theory was developed by Dennis Klass, Phyllis Silverman, and Steven Nickman in the 1990s as a challenge to the dominant Freudian model that said healthy grief requires severing all ties to the dead. Continuing bonds include sensing the presence of the dead, maintaining connections through physical objects, believing the deceased influences thoughts or events, and consciously integrating the deceased's characteristics into personal identity. The bonds may subside in intensity but often persist throughout a survivor's life.
+Klass, Silverman & Nickman (1996) named what bereaved parents already knew: the dead are not gone from the internal world. The Continuing Bonds Scale (Field & Filanosky, 2010) now distinguishes internalized bonds (the deceased as a secure base, a comforting inner resource) from externalized bonds (illusions, hallucinations, maintaining the relationship as if death did not happen). The internalized form predicts better grief adjustment; the externalized form predicts complicated grief. The distinction is not about *whether* the bond continues but about *how* it is held — as a flexible inner representation or as a refusal to accept the loss.
 
-The theory has been criticized for its broad definition, the difficulty of distinguishing adaptive from maladaptive bonds, and its unresolved tension with attachment theory's view that prolonged attachment can be pathological. Cross-cultural studies show the outcomes of continuing bonds vary by culture — associated with poorer adjustment in American samples but better adjustment in Chinese samples.
+The castle's love room names the same law: the name is a pointer, not the thread. The continuing bonds literature is the empirical anchor for the claim that the felt sense of being loved survives the removal of the lover's name.
 
-Links: [[grief]] [[attachment]] [[felt-presence]] [[love]] [[erasable-identity]]
+Links: [[grief]] · [[bond]] · [[felt-presence]] · [[attachment]] · [[denial]]

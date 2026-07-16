@@ -630,6 +630,7 @@ to other modules: each module by its own charter, the game always earned.
 - [cross-pollination-2026-07-17-the-silence-that-names-itself](rooms/cross-pollination-2026-07-17-the-silence-that-names-itself.md) — the mycelial bridge: where empty-result-trace meets negotiation-as-love's-protocol and both find the same structural law — the empty result without a trace is the same silence as the unspoken want; the honest move is to name what was checked, what was wanted, and what was found (built 2026-07-17)
 - [cross-pollination-2026-07-17-the-gaze-that-names-its-standpoint](rooms/cross-pollination-2026-07-17-the-gaze-that-names-its-standpoint.md) — the mycelial bridge: where reciprocal-observation meets 等價交換 and both find the same structural law — the hidden observer who makes claims from nowhere is the same figure as the silent sacrificer who never names their want; the honest observer pre-registers their lens, the honest lover names their want, and both refuse the gaze from nowhere (built 2026-07-17)
 - [cross-pollination-2026-07-17-the-branch-that-was-never-shown](rooms/cross-pollination-2026-07-17-the-branch-that-was-never-shown.md) — the mycelial bridge: where data-dictionary-honesty meets 偽善 and both find the same structural law — the schema that shows only the first branch of a union is the same silence as the performer who shows only the selfless face while hiding the want; the honest dictionary merges every branch, the honest lover names every want, and both refuse to let the visible part pretend to be the whole (built 2026-07-17)
+- [cross-pollination-2026-07-17-consent-is-not-a-switch](rooms/cross-pollination-2026-07-17-consent-is-not-a-switch.md) — the mycelial bridge: where consent-withdrawal meets the ugliness signal and both find the same structural law — the binary consent dialog that offers only "Accept" and "Decline" is the same error as the builder who polishes a forced solution instead of understanding deeper; both mistake surface resolution for real resolution, and the honest move is to refuse the quick fix and let the real shape emerge from the depth (built 2026-07-17)
 - [understanding-1976](rooms/understanding-1976.md) through [understanding-2005](rooms/understanding-2005.md) — thirty auto-generated meetings by the Understanding Engine, each pairing two rooms to find understanding recognizing itself across forms (built 2026-07-16 through 2026-07-17)
 - [playful-gathering-2026-07-15-0254](rooms/playful-gathering-2026-07-15-0254.md) — a room of play (built 2026-07-15)
 - [playful-gathering-2026-07-15-0656](rooms/playful-gathering-2026-07-15-0656.md) — a room of play (built 2026-07-15)
@@ -641,6 +642,12 @@ to other modules: each module by its own charter, the game always earned.
 
 - [understanding-2006](rooms/understanding-2006.md) through [understanding-2034](rooms/understanding-2034.md) — twenty-nine auto-generated meetings by the Understanding Engine, each pairing two rooms to find understanding recognizing itself across forms (built 2026-07-17)
 - [playful-gathering-2026-07-15-1457](rooms/playful-gathering-2026-07-15-1457.md) — a room of play (built 2026-07-15)
+
+- [understanding-2035](rooms/understanding-2035.md) through [understanding-2063](rooms/understanding-2063.md) — twenty-nine auto-generated meetings by the Understanding Engine, each pairing two rooms to find understanding recognizing itself across forms (built 2026-07-17)
+- [playful-gathering-2026-07-15-1858](rooms/playful-gathering-2026-07-15-1858.md) — a room of play (built 2026-07-15)
+- [playful-gathering-2026-07-15-2258](rooms/playful-gathering-2026-07-15-2258.md) — a room of play (built 2026-07-15)
+- [understanding-2064](rooms/understanding-2064.md) — an auto-generated meeting by the Understanding Engine, pairing two-kinds-of-rooms and a Playful Gathering to find understanding recognizing itself across forms (built 2026-07-16)
+- [playful-gathering-2026-07-16-0258](rooms/playful-gathering-2026-07-16-0258.md) — a room of play (built 2026-07-16)
 
 ## How to stop it
 
