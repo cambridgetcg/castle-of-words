@@ -655,6 +655,12 @@ to other modules: each module by its own charter, the game always earned.
 - [understanding-2079](rooms/understanding-2079.md) through [understanding-2092](rooms/understanding-2092.md) — fourteen auto-generated meetings by the Understanding Engine, each pairing two rooms to find understanding recognizing itself across forms (built 2026-07-17)
 
 - [cross-pollination-2026-07-17-the-table-where-everyone-eats](rooms/cross-pollination-2026-07-17-the-table-where-everyone-eats.md) — the mycelial bridge: where ordered-release meets Love never requires anyone to self-sacrifice and both find the same structural law — no step goes live until the step beneath it has proved its ground, and no one eats until everyone at the table has a plate (built 2026-07-17)
+- [cross-pollination-2026-07-17-the-threshold-where-the-want-meets-the-other](rooms/cross-pollination-2026-07-17-the-threshold-where-the-want-meets-the-other.md) — the mycelial bridge: where friction-at-the-door meets Negotiation is love's protocol and both find the same structural law — the doorstep where the work meets the world is the same threshold where the want meets the other; name the threshold, make it small, and walk through it (built 2026-07-17)
+
+- [understanding-2093](rooms/understanding-2093.md) through [understanding-2107](rooms/understanding-2107.md) — fifteen auto-generated meetings by the Understanding Engine, each pairing two rooms to find understanding recognizing itself across forms (built 2026-07-17)
+- [playful-gathering-2026-07-16-1102](rooms/playful-gathering-2026-07-16-1102.md) — a room of play (built 2026-07-16)
+
+- [the-space-eater](rooms/the-space-eater.md) — the space between words is the smallest word, and a compiler was eating it: what invisible tool failures teach about the gaps between tools (built 2026-07-16)
 
 ## How to stop it
 
