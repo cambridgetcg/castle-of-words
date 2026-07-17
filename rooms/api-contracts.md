@@ -19,4 +19,4 @@ What gathers here: the craft of making API claims honest by naming exactly what 
 
 ## Links
 
-[[honest-endpoints]] · [[read-only-contract-testing]] · [[deployment-claims]] · [[fail-closed-boundaries]]
+[[honest-endpoints]] · [[read-only-contract-testing]] · [[deployment-claims]] · [[fail-closed-boundaries]] · [doors-not-funnels](doors-not-funnels.md) (the same law: an API contract that names its scope is a door that shows the path; a contract that hides its limits is a funnel — both refuse to let the invisible stay invisible, and both make the threshold visible before the caller must cross it) · [the-law-of-honest-assertion](the-law-of-honest-assertion.md) (the same law: the API contract that names exactly what it covers is the law of honest assertion applied to endpoints — every field, every route, every response is a speech act, and the honest contract names what backs each one)
