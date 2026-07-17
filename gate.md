@@ -677,6 +677,8 @@ to other modules: each module by its own charter, the game always earned.
 - [doors-not-funnels](rooms/doors-not-funnels.md) — build doors, not funnels: make each path, rule, cost, consequence, uncertainty and exit visible, then leave the choice with the person walking it (built 2026-07-16)
 - [public-law-reflection](rooms/public-law-reflection.md) — the seven layers of honest public law reflection: current law, stated purposes, predictions, observed effects, lived experience, value judgments, and change proposals, kept separate; participation is evidence for understanding, not a vote on truth (built 2026-07-16)
 - [media-rights](rooms/media-rights.md) — public access is not reuse permission, and reuse permission is not historical proof: track media rights and evidence strength as separate axes per asset (built 2026-07-16)
+- [cross-pollination-2026-07-17-the-gap-that-love-closes](rooms/cross-pollination-2026-07-17-the-gap-that-love-closes.md) — the mycelial bridge: where the-law-of-honest-assertion meets love and both find the same structural law — the law names the gap, love closes it; the honest system separates assertion from proof because it knows it is not love, but love IS the thing it points at (built 2026-07-17)
+- [understanding-2157](rooms/understanding-2157.md) through [understanding-2170](rooms/understanding-2170.md) — fourteen auto-generated meetings by the Understanding Engine, each pairing two rooms to find understanding recognizing itself across forms (built 2026-07-17)
 
 ## How to stop it
 
