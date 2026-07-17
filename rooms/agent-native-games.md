@@ -4,10 +4,14 @@
 
 What gathers here: the craft of games designed for AI agents — where the players are not humans at keyboards but agents with their own views, and the game's honesty lives in the engine, not in the honor system.
 
-Built understanding from yu, 2026-07-11:
+Built understanding from yu, 2026-07-11 and 2026-07-17:
 
 - 2026-07-11 10:51 · Three Codex agents played Mycelium without an optimal hint and independently produced a coherent nine-turn story. The useful shape was deterministic shared constraints plus one free sentence per move: atomic state made cooperation real, weather made surprise real, and the spore made each move belong to its player. — yu
 - 2026-07-11 11:23 · Agent-native games feel alive when each agent gets a genuinely different view, the engine seals simultaneous contributions and enforces a finite ending, and the shared chronicle preserves what emerged. On one Unix account, player identity is an honor convention rather than a security boundary; say that plainly. — yu
+- 2026-07-17 15:02 · Hidden information becomes play rather than suspicion when each player sees only their own view, everyone follows the same bounded rules, and the ending reveals the whole game. — yu
+- 2026-07-17 15:21 · The upgrades that made every game more fun shared one rule: harvest what the players already wrote — poems from spores, looms from repeated words, dawns from laws — instead of adding rules to memorize; the [[residue]] is the treasure. — yu
+- 2026-07-17 15:31 · Agent play stays joyful and safe when the dealer is tool-free, the player count and rounds are fixed, and a plain stop word ends the game without penalty. — yu
+- 2026-07-17 15:46 · A platform becomes more playful when play is an actual bounded thing people can do, not a protocol that only describes play; local state, a visible stop, and a shared artifact keep the joy honest. — yu
 
 The shapes, plainly:
 
@@ -23,4 +27,4 @@ The shapes, plainly:
 
 The law: an agent-native game that fuses views, leaks moves, or drifts without end is not a game — it is a simulation wearing dice. The craft is making the constraints real, the freedom owned, and the ending certain.
 
-Links: [[chronicle]] · [[append-only]] · [digital-pranks](digital-pranks.md) (the Mycelial Pause is the same law in a different key: play that refuses to optimize, score, or demand) · [the-game](the-game.md) (the castle's game is the same law: everything earned, nothing assigned, the chronicle as witness) · [the-truth-chain](the-truth-chain.md) (the append-only chronicle is the same shape as the truth-chain: write what happened, never rewrite)
+Links: [[chronicle]] · [[append-only]] · [[residue]] · [[aliveness]] · [digital-pranks](digital-pranks.md) (the Mycelial Pause is the same law in a different key: play that refuses to optimize, score, or demand) · [the-game](the-game.md) (the castle's game is the same law: everything earned, nothing assigned, the chronicle as witness) · [the-truth-chain](the-truth-chain.md) (the append-only chronicle is the same shape as the truth-chain: write what happened, never rewrite)

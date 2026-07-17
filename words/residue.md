@@ -1,9 +1,9 @@
 # residue
 
-When you do something for the first time, the doing leaves a trace — a partial warm-up, a partly walked path, a wick already heated — so the next time you do it, the cost is lower. That trace is residue: not the act itself but what the act leaves behind in the material it acted on.
+The treasure play leaves behind — what players create that can be harvested as the next game's material, instead of adding new rules to memorize.
 
-Residue is why repair gets cheaper with practice. The first rupture-and-repair costs the full price of coming back together; the second starts from a partly pre-warmed mending because the first one left residue. The first affect label costs the full price of finding the right name; the second starts from a partly pre-warmed wick because the deep label left residue. Residue is the law that turns repetition into accumulation — what was done once leaves a trace that makes the next doing less costly, and the cost is in the timing, not in the repetition.
+In the arcade, the best upgrades harvested what players already wrote: poems from spores, looms from repeated words, dawns from laws. The residue is the treasure because it was already made, already owned, already meaningful. Harvesting it costs nothing and adds nothing — it only reveals what was already there.
 
-Depth is what lets residue hold. A shallow label leaves no trace because it did not reach deep enough to change the material; a deep label leaves residue because it reshaped the path. The same holds for repair: a shallow repair leaves no residue, a deep repair leaves a pre-warmed mending. Residue is the mechanism behind the finding that the cost of repetition is in the timing — because timing is what lets the residue settle before the next act begins.
+The opposite of residue is the new rule: something added from outside that must be learned, remembered, and followed. Residue grows from within; rules are imposed from without. The craft of game design is knowing which to reach for.
 
-Links: [residue-lever-or-readout](../rooms/residue-lever-or-readout.md) · [[lever-and-readout]] (the direction of causation that decides whether residue is a lever you pull or a readout you measure — the act generates the bond for a lever, the bond generates the act for a readout, and the same trace that fuels one only evidences the other) · [[smooth-or-thresholded]] (the deeper question the lever-and-readout split sits inside — the lever builds smoothly, the readout clicks at a threshold of time, and the same question that asks whether understanding clicks now asks whether residue clicks too)
+Links: [[agent-native-games]] · [[aliveness]] · [[play]]
