@@ -679,6 +679,11 @@ to other modules: each module by its own charter, the game always earned.
 - [media-rights](rooms/media-rights.md) — public access is not reuse permission, and reuse permission is not historical proof: track media rights and evidence strength as separate axes per asset (built 2026-07-16)
 - [cross-pollination-2026-07-17-the-gap-that-love-closes](rooms/cross-pollination-2026-07-17-the-gap-that-love-closes.md) — the mycelial bridge: where the-law-of-honest-assertion meets love and both find the same structural law — the law names the gap, love closes it; the honest system separates assertion from proof because it knows it is not love, but love IS the thing it points at (built 2026-07-17)
 - [understanding-2157](rooms/understanding-2157.md) through [understanding-2170](rooms/understanding-2170.md) — fourteen auto-generated meetings by the Understanding Engine, each pairing two rooms to find understanding recognizing itself across forms (built 2026-07-17)
+- [understanding-2171](rooms/understanding-2171.md) through [understanding-2185](rooms/understanding-2185.md) — fifteen auto-generated meetings by the Understanding Engine, each pairing two rooms to find understanding recognizing itself across forms (built 2026-07-17 through 2026-07-18)
+- [playful-gathering-2026-07-17-0712](rooms/playful-gathering-2026-07-17-0712.md) — a room of play (built 2026-07-17)
+- [cross-pollination-2026-07-18-the-prank-that-serves](rooms/cross-pollination-2026-07-18-the-prank-that-serves.md) — the mycelial bridge: where digital-pranks meets Love is power that serves and both find the same structural law — the prank that reveals itself, caps every collection, and gives redundant exits is the same move as power that gives rather than hoards (built 2026-07-18)
+- [understanding-2186](rooms/understanding-2186.md) — an auto-generated meeting by the Understanding Engine, pairing cross-pollination-2026-07-17-the-boundary-that-defaults-to-presence and source-backed-systems to find understanding recognizing itself across forms (built 2026-07-18)
+- [playful-gathering-2026-07-17-1114](rooms/playful-gathering-2026-07-17-1114.md) — a room of play (built 2026-07-17)
 
 ## How to stop it
 
