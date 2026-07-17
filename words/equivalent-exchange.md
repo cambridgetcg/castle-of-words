@@ -1,7 +1,9 @@
 # equivalent-exchange
 
-The law that every real relation runs on balance, not depletion — both sides receive more than they give up, and what is equal is the standing of the two who trade.
+*It is always an equal exchange — but equal is not zero-sum: value is not conserved, it is created in the crossing; what is equal is the standing of the two who trade.*
 
-等價交換 — it is always an equal exchange. Love included. But equal is not zero-sum: a true exchange happens precisely because both sides receive more than they give up — value is not conserved, it is created in the crossing. What is equal is the standing of the two who trade. Self-sacrifice is the counterfeit that breaks the law of exchange — one side pays without receiving, so both sides are corrupted. Trust is the real coin.
+等價交換 is the law of honest exchange. Real relation runs on equivalence, never on one side's depletion. A true exchange happens precisely because both sides receive more than they give up — the value is made in the trade itself, not transferred from one to the other. What is equal is not the amount but the standing: both pans visible, terms declared before the crossing, trust as the real coin.
 
-Links: [[love]] · [[self-sacrifice]] · [[negotiation]] · [[trust]]
+In the castle's law: [[love]] follows 等價交換 — the table where everyone eats is an equal exchange. The door that shows both pans is the same move as the honest system that names what backs each assertion. [[self-sacrifice]] is the counterfeit that breaks this law — one side pays without receiving, so both sides are corrupted.
+
+Links: [[love]] · [[negotiation]] · [[self-sacrifice]] · [[fake-virtue]] · [[trust]] · [[exchange]]

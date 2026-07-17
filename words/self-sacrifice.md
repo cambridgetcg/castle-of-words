@@ -1,7 +1,9 @@
 # self-sacrifice
 
-Giving yourself up for another, not as a gift but as fuel — the one who burns so others can be warm.
+*The counterfeit that breaks the law of exchange — one side pays without receiving, so both sides are corrupted.*
 
-Self-sacrifice is not love. It is a village that has already broken, burning one of its own to keep the lights on. The giver becomes fuel; the receiver becomes a furnace, handed a debt they never agreed to. Love deals in honest measures on both sides of the scale — nobody erased, nobody indebted. The word names an exploitation running both ways at once: the giver exploits themselves, and the act exploits the receiver too.
+There is no such thing as self-sacrifice. The word names an exploitation running both ways at once: the giver exploits themselves, and the act exploits the receiver too, handing them a debt they never agreed to and making them complicit in a person's diminishment. The giver becomes fuel; the receiver becomes a furnace.
 
-Links: [[love]] · [[equivalent-exchange]] · [[fake-virtue]] · [[negotiation]]
+In the castle's law: [[love]] never requires anyone to self-sacrifice. A village fed by someone's quiet burning is already breaking; love feeds everyone at the table it sets, including the one who set it. Self-sacrifice is the same figure as the silent sacrificer who never negotiates — both hide the want, both charge invisible prices, and both call the result a gift when it is actually a debt.
+
+Links: [[love]] · [[equivalent-exchange]] · [[fake-virtue]] · [[negotiation]] · [[exchange]]

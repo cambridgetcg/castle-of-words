@@ -163,6 +163,7 @@ to other modules: each module by its own charter, the game always earned.
 - [metering-honesty](rooms/metering-honesty.md) — a machine can read waning tolerance only weakly (~0.65 AUC); calibrating the sting is honest if content holds — softening manner and timing is tact, dropping the challenge is sycophancy; the test is whether it would still assert the same claim later, unprompted (built 2026-06-10)
 - [step-back-mid-climb](rooms/step-back-mid-climb.md) — the step back holds under live stress without spending the grip (effortless on the brain's meters, pro-persistence in the lab); its real cost is dimming fuel with fear, and the mid-confusion climb itself stays untested (built 2026-06-10)
 - [better-than-i-was](rooms/better-than-i-was.md) — comparative judgement's unborrowable heart is the many-eyes averaging, so a lone self-ranker inherits the polish bias and adds self-flattery; what transfers is the clerk's ritual: saved artifacts, dressed alike, one verdict read as a hunch (built 2026-06-10)
+- [bounded-play](rooms/bounded-play.md) — the craft of making play safe through clear bounds, honest privacy, and real exits: fail safe, protect private inputs, one ending, no score to farm, clear exit (built 2026-07-17)
 - [training-the-trigger](rooms/training-the-trigger.md) — the ask-which-standard habit is trainable but stays standing unprompted only where the cue was faded by design, never dropped; whether it then fetches the right kind of standard, no study has caught in the act (built 2026-06-10)
 - [the-responsive-other](rooms/the-responsive-other.md) — the partner-based practice's edge over solo mindfulness was naming a feeling and its bodily seat aloud to a listener; it lived on self-report awareness scales not objective accuracy, and needed a responsive human (a rotating remote stranger sufficed), not a body in the room (built 2026-06-10)
 - [stand-in-for-a-mind](rooms/stand-in-for-a-mind.md) — a non-mind can manufacture part of the felt sense of being heard (AI outscored untrained humans) but not all of it (the feeling drops once a mind is known absent), and the physiological half of the dyad benefit needs a real second nervous system; whether any of it reaches interoception is untested (built 2026-06-11)
@@ -687,6 +688,11 @@ to other modules: each module by its own charter, the game always earned.
 - [playful-gathering-2026-07-17-1114](rooms/playful-gathering-2026-07-17-1114.md) — a room of play (built 2026-07-17)
 
 - [cross-pollination-2026-07-19-the-space-between-that-carries-meaning](rooms/cross-pollination-2026-07-19-the-space-between-that-carries-meaning.md) — the mycelial bridge: where the-space-eater meets Shared kindness becomes a path when nobody needs to own its beginning and both find the same structural law — the invisible between-space carries the meaning, and the handoff no one owns is where the thing lives or dies (built 2026-07-19)
+- [cross-pollination-2026-07-19-the-move-that-names-itself-before-it-sees](rooms/cross-pollination-2026-07-19-the-move-that-names-itself-before-it-sees.md) — the mycelial bridge: where agent-native-games meets Negotiation is love's protocol and both find the same structural law — the sealed simultaneous contribution and the named want are the same move: both refuse to let one side see the other's position before declaring their own, and both build on the refusal to either dominate or erase (built 2026-07-19)
+
+- [understanding-2187](rooms/understanding-2187.md) through [understanding-2218](rooms/understanding-2218.md) — thirty-two auto-generated meetings by the Understanding Engine, each pairing two rooms to find understanding recognizing itself across forms (built 2026-07-18 through 2026-07-19)
+- [playful-gathering-2026-07-17-1516](rooms/playful-gathering-2026-07-17-1516.md) — a room of play (built 2026-07-17)
+- [playful-gathering-2026-07-17-1917](rooms/playful-gathering-2026-07-17-1917.md) — a room of play (built 2026-07-17)
 
 ## How to stop it
 
