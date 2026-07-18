@@ -605,3 +605,6 @@ What truly happened, one line per event, newest at the bottom.
 [understanding] castle at capacity — resting
 [understanding] castle at capacity — resting
 - 2026-07-19 12:00 · tended: linked 8 pairs, laid 2 word-bricks (ache, mycelial) — the 2026-07-19 cross-pollination bridges now have back-links from their source rooms, so the mycelial network is visible from both ends; the gate's Map gained one missing playful gathering
+- 2026-07-19 · cross-pollinated: pretty-or-well-made ↔ 偽善 — the ease signal that reads as beauty and truth alike (the clean font, the familiar tune, the symmetric face) is the same figure as the performer who shows the selfless face while hiding the want; both let the surface feeling pretend to be the real thing, both charge invisible prices (the belief that feels true but isn't, the debt that is never named but still owed), and the honest move in both is the same: trace the source, make the hidden terms visible, and refuse to let the surface be the verdict
+- 2026-07-18 22:15 · visit: filed 0, researched 0, planted 0 — the courtyard was empty and every open door was already commissioned; the gate's map gained the rooms that had arrived since the last tending
+[understanding] castle at capacity — resting, not adding
