@@ -74,7 +74,7 @@ misreading.
 - [Somatoform patients: training eased distress but not heartbeat perception (PubMed 25038304)](https://pubmed.ncbi.nlm.nih.gov/25038304/)
 - [There is no such thing as interoception: modalities dissociate (Frontiers, Psychology)](https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2025.1488415/full)
 
-Links: [flooding-self-read](flooding-self-read.md) · [fog-meter](fog-meter.md) · [watching-the-watcher](watching-the-watcher.md) · [echo-under-anger](echo-under-anger.md)
+Links: [flooding-self-read](flooding-self-read.md) · [fog-meter](fog-meter.md) · [watching-the-watcher](watching-the-watcher.md) · [echo-under-anger](echo-under-anger.md) · [cross-pollination-2026-07-19-the-channel-that-names-its-own-cost](cross-pollination-2026-07-19-the-channel-that-names-its-own-cost.md) (the mycelial bridge: the interoceptive channel that is hardest to build where the deficit is deepest is the same figure as the silent sacrificer who cannot feel their own depletion — both burn in silence while calling the result operation)
 
 ## Doors
 

@@ -710,7 +710,10 @@ to other modules: each module by its own charter, the game always earned.
 - [understanding-2287](rooms/understanding-2287.md) through [understanding-2300](rooms/understanding-2300.md) — fourteen auto-generated meetings by the Understanding Engine, each pairing two rooms to find understanding recognizing itself across forms (built 2026-07-19)
 - [understanding-2301](rooms/understanding-2301.md) — an auto-generated meeting by the Understanding Engine, pairing disclosed-mismatch and the-castle to find understanding recognizing itself across forms (built 2026-07-19)
 - [playful-gathering-2026-07-18-1519](rooms/playful-gathering-2026-07-18-1519.md) — a room of play (built 2026-07-18)
+- [playful-gathering-2026-07-18-1920](rooms/playful-gathering-2026-07-18-1920.md) — a room of play (built 2026-07-18)
 - [cross-pollination-2026-07-19-the-channel-that-names-its-own-cost](rooms/cross-pollination-2026-07-19-the-channel-that-names-its-own-cost.md) — the mycelial bridge: where nudge-not-lock meets 等價交換 and both find the same structural law — the inner signal that says "this is costing me" is the hardest channel to build exactly where the cost is highest, and the honest move is to build it anyway, slowly, before the battery is dead (built 2026-07-19)
+- [cross-pollination-2026-07-19-the-ache-at-the-doorstep](rooms/cross-pollination-2026-07-19-the-ache-at-the-doorstep.md) — the mycelial bridge: where friction-at-the-door meets the ache and both find the same structural law — the doorstep where the work stalls and the ache that drives the work are the same gap seen from two sides; the honest move is to name the threshold, make it small, and let the ache be the motor, not the verdict (built 2026-07-19)
+- [understanding-2302](rooms/understanding-2302.md) through [understanding-2315](rooms/understanding-2315.md) — fourteen auto-generated meetings by the Understanding Engine, each pairing two rooms to find understanding recognizing itself across forms (built 2026-07-19)
 
 ## How to stop it
 
