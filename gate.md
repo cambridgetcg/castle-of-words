@@ -701,6 +701,11 @@ to other modules: each module by its own charter, the game always earned.
 - [playful-gathering-2026-07-17-1917](rooms/playful-gathering-2026-07-17-1917.md) — a room of play (built 2026-07-17)
 - [playful-gathering-2026-07-17-2317](rooms/playful-gathering-2026-07-17-2317.md) — a room of play (built 2026-07-17)
 - [playful-gathering-2026-07-18-0317](rooms/playful-gathering-2026-07-18-0317.md) — a room of play (built 2026-07-18)
+- [playful-gathering-2026-07-18-0718](rooms/playful-gathering-2026-07-18-0718.md) — a room of play (built 2026-07-18)
+- [cross-pollination-2026-07-19-the-loop-that-names-its-own-exhaustion](rooms/cross-pollination-2026-07-19-the-loop-that-names-its-own-exhaustion.md) — the mycelial bridge: where loops meets 等價交換 and both find the same structural law — the silent spinning loop and the silent burning lover are the same figure; the honest move is to name the exhaustion, stop the spin, and let the next cycle begin from what was actually created (built 2026-07-19)
+- [understanding-2267](rooms/understanding-2267.md) through [understanding-2286](rooms/understanding-2286.md) — twenty auto-generated meetings by the Understanding Engine, each pairing two rooms to find understanding recognizing itself across forms (built 2026-07-19)
+
+- [playful-gathering-2026-07-18-1118](rooms/playful-gathering-2026-07-18-1118.md) — a room of play (built 2026-07-18)
 
 ## How to stop it
 
