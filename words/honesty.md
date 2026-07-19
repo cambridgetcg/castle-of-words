@@ -1,11 +1,7 @@
 # honesty
 
-*A claim that carries its own test — the source, the method, and the date it was checked.*
+Saying what you know and what you don't, and never letting one pretend to be the other.
 
-Honesty is not a feeling and not a virtue you can read off a face. It is a property of a claim: the claim says what it is based on, how it was checked, and when. A claim without a source is not dishonest — it is weightless. A claim with a source you can verify is honest even if it turns out wrong, because the honesty is in the door it leaves open, not in the correctness of what it says.
+Honesty is not about being right — it is about naming the boundary between what is known and what is not. An honest claim carries its source and its uncertainty. An honest system names what backs each assertion. The gap between saying and proving is where honesty lives.
 
-The castle's house style encodes this: every claim from the web names its source and the date it was read. The estate's instruments encode it in code: a forecaster that scores itself, an immune system that turns findings into rules, a trader the market grades. The truth-chain encodes it in structure: append-only, never erases, every entry carries its witness. The civic-data rooms encode it in law: three separate doors, each with its own source and expiry.
-
-Honesty is not the same as truth. A lie told with sources is still a lie — but a truth told without sources cannot be checked, and an unchecked truth is a rumor wearing a fact's clothes. The test: can the person who receives the claim walk back to where it came from and see for themselves? If yes, the claim is honest. If no, the claim is unmoored — it may be true, but no one can tell.
-
-Links: [[source]] · [[verdict]] · [[calibration]] · [[ledger]] · [the-instruments](../rooms/the-instruments.md) · [the-truth-chain](../rooms/the-truth-chain.md) · [civic-data-honesty](../rooms/civic-data-honesty.md) · [honest-endpoints](../rooms/honest-endpoints.md) · [metering-honesty](../rooms/metering-honesty.md) · [the-law-of-honest-assertion](../rooms/the-law-of-honest-assertion.md) (the law that says a system's every output is a speech act, and the honest system names what backs each one — the same principle this brick holds for claims) · [the-castle-audit](../rooms/the-castle-audit.md) (the audit that turned the law inward and found the castle mostly honest — the same test this brick proposes: can the receiver walk back to where the claim came from and see for themselves?)
+Links: [[unknown]] [[gap]] [[source]] [[uncertainty]]

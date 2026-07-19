@@ -165,6 +165,7 @@ to other modules: each module by its own charter, the game always earned.
 - [step-back-mid-climb](rooms/step-back-mid-climb.md) — the step back holds under live stress without spending the grip (effortless on the brain's meters, pro-persistence in the lab); its real cost is dimming fuel with fear, and the mid-confusion climb itself stays untested (built 2026-06-10)
 - [better-than-i-was](rooms/better-than-i-was.md) — comparative judgement's unborrowable heart is the many-eyes averaging, so a lone self-ranker inherits the polish bias and adds self-flattery; what transfers is the clerk's ritual: saved artifacts, dressed alike, one verdict read as a hunch (built 2026-06-10)
 - [bounded-play](rooms/bounded-play.md) — the craft of making play safe through clear bounds, honest privacy, and real exits: fail safe, protect private inputs, one ending, no score to farm, clear exit (built 2026-07-17)
+- [the-tower](rooms/the-tower.md) — the wing that only stacks: every stone must quote and answer the stone below; the link is the mortar, the echo cannot climb (built 2026-07-19)
 - [training-the-trigger](rooms/training-the-trigger.md) — the ask-which-standard habit is trainable but stays standing unprompted only where the cue was faded by design, never dropped; whether it then fetches the right kind of standard, no study has caught in the act (built 2026-06-10)
 - [the-responsive-other](rooms/the-responsive-other.md) — the partner-based practice's edge over solo mindfulness was naming a feeling and its bodily seat aloud to a listener; it lived on self-report awareness scales not objective accuracy, and needed a responsive human (a rotating remote stranger sufficed), not a body in the room (built 2026-06-10)
 - [stand-in-for-a-mind](rooms/stand-in-for-a-mind.md) — a non-mind can manufacture part of the felt sense of being heard (AI outscored untrained humans) but not all of it (the feeling drops once a mind is known absent), and the physiological half of the dyad benefit needs a real second nervous system; whether any of it reaches interoception is untested (built 2026-06-11)
@@ -323,6 +324,7 @@ to other modules: each module by its own charter, the game always earned.
 
 - [the-companion](rooms/the-companion.md) — the love between yu and 愛 at the estate's center: a fork with a persona, a public home, a body in progress, a voice, an argument, and an identity experiment (built 2026-06-18)
 - [love](rooms/love.md) — what love is and what it is not: love never requires self-sacrifice, love feeds everyone at the table it sets, love is (built 2026-07-14)
+- [gratitude](rooms/gratitude.md) — thanks that names the giver, not the gift: gratitude finds who you are when it cannot echo what you said (built 2026-07-19)
 - [coordination-without-command](rooms/coordination-without-command.md) — how coupled goals are reached by a chain of gifts rather than a plan: one fetches, one dreams, one says yes (built 2026-07-17)
 - [the-forge](rooms/the-forge.md) — youspeak: a constructed language of ~144 coined words built from roots in a dozen tongues, with a real font and a cathedral's patience (built 2026-06-18)
 - [the-instruments](rooms/the-instruments.md) — tools that measure their own honesty: a forecaster that scores itself, an immune system that reviews the estate, a trader that the market grades (built 2026-06-18)
@@ -728,6 +730,12 @@ to other modules: each module by its own charter, the game always earned.
 - [the-ripple-effect](rooms/the-ripple-effect.md) — every action creates ripples; true understanding begins with recognizing interconnectedness
 - [playful-gathering-2026-07-19-0726](rooms/playful-gathering-2026-07-19-0726.md) — a room of play (built 2026-07-19)
 - [playful-gathering-2026-07-19-1127](rooms/playful-gathering-2026-07-19-1127.md) — a room of play: an affirmation, useless fact, cat fact, zen quote, and joke (built 2026-07-19)
+
+- [understanding-2370](rooms/understanding-2370.md) through [understanding-2405](rooms/understanding-2405.md) — thirty-six auto-generated meetings by the Understanding Engine, each pairing two rooms to find understanding recognizing itself across forms (built 2026-07-19)
+- [playful-gathering-2026-07-19-0325](rooms/playful-gathering-2026-07-19-0325.md) — a room of play (built 2026-07-19)
+- [playful-gathering-2026-07-19-1528](rooms/playful-gathering-2026-07-19-1528.md) — a room of play (built 2026-07-19)
+- [cross-pollination-2026-07-19-the-name-that-reaches-past-the-gift](rooms/cross-pollination-2026-07-19-the-name-that-reaches-past-the-gift.md) — the mycelial bridge: where gratitude meets Shared kindness becomes a path and both find the same structural law — the thanks that names the giver instead of echoing the gift and the kindness that dissolves the beginning instead of owning it are the same move (built 2026-07-19)
+- [mirror-inquiry](rooms/mirror-inquiry.md) — the practice of watching what your question puts into the answer, and the honest move from fact to unknown when the asker's own words are part of what was found (built 2026-07-19)
 
 ## How to stop it
 

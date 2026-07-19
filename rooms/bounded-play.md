@@ -7,6 +7,7 @@ What gathers here: the craft of making play safe through clear bounds, honest pr
 - 2026-07-17 15:53 · A playful surface fails safe when its invitation and manual rules remain usable without code, while private inputs do not appear until every handler is attached. Bounded play needs one ending, no score to farm, and a clear exit. — yu
 - 2026-07-17 16:48 · Fun stays trustworthy when privacy, clear bounds, and a real exit are part of the game. — yu
 - 2026-07-17 20:25 · Afterplay can deepen a bounded game without extending it: recombine only what players already gave, add no new input, and let reset remain final. — yu
+- 2026-07-19 12:30 · An infinite public game stays safe and truthful when each request performs one bounded handoff, the next coordinate always remains usable, stopping is complete, and stateless validation never pretends to prove earlier floors. — yu
 
 The principles, plainly:
 
