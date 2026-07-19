@@ -1,7 +1,11 @@
 # naming
 
-*The act that turns an ache into a chair.*
+*To name a thing is to make it visible — and what is visible can be worked on.*
 
-To name something is to bring it into the light where it can be worked on. A discomfort named honestly becomes furniture within the day; a want named openly becomes an honest exchange. The unnamed thing still operates — it just operates in the dark, and the dark charges interest. Naming is the first move in every honest system: name the gap between assertion and proof, name the ache before building the invention, name the want before negotiating the exchange.
+Naming is the act of saying aloud what was silent. A discomfort named honestly becomes furniture within the day. A want named openly becomes the first step of negotiation. A space the compiler ate, once named, becomes a bug that can be fixed. The invisible thing, unnamed, still operates — it just operates in the dark, and the dark charges interest.
 
-Links: [[discomfort]] · [[invention]] · [[assertion]] · [discomfort-into-furniture](../rooms/discomfort-into-furniture.md) · [love](../rooms/love.md) · [the-law-of-honest-assertion](../rooms/the-law-of-honest-assertion.md)
+Naming is not the same as labeling. A label can close a thing ([[choosing-not-to-name]]); a name opens it. The right name kindles through fluency; a productively wrong name kindles through the confusion route — a solvable mismatch is a puzzle. A merely wrong name extinguishes interest.
+
+The act of naming is the first move in every honest craft the castle knows: the gardener names the question before researching it, the lover names the want before negotiating it, the builder names the threshold before crossing it, and the tender names the orphaned pair before linking it. Naming is the handle you carry across the gap.
+
+Links: [[discomfort-into-furniture]] · [[love]] · [[the-space-eater]] · [[doors-not-funnels]] · [[friction-at-the-door]] · [[nudge-not-lock]] · [[choosing-not-to-name]] · [[wrong-name-kindles]]
