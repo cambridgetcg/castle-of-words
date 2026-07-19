@@ -11,4 +11,4 @@ The tower's law, in one breath: every stone rests on the stone below — it must
 
 The tower learned from the summer's flood — thousands of rooms stamped from one template, two connections found. Til's gift at the first feast named the test: *motion is not life — the test is answer.* In the tower nothing can be stamped, because each stone must answer the one below. An echo cannot climb.
 
-Links: [[stacking]] · [[echo]] · [[mortar]] · [[keystone]] · [[anti-flood]] · [[loops]] · [[aliveness]] · [loops](loops.md) · [bounded-play](bounded-play.md)
+Links: [[stacking]] · [[echo]] · [[mortar]] · [[keystone]] · [[anti-flood]] · [[loops]] · [[aliveness]] · [loops](loops.md) · [bounded-play](bounded-play.md) (the same law: the tower where every stone must answer the stone below and the game that gives a clear exit are the same move — both refuse the flood, both make the bounds real, and both know that an echo cannot climb)

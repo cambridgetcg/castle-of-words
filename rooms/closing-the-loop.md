@@ -18,7 +18,7 @@ Why this works, in castle words: meaning is rebuilt, not sent ([meaning-between-
 
 uncertain: the 40–80% forgetting figure is widely cited in health-literacy guides but comes from medical settings under stress; how much of everyday conversation suffers the same loss is not established by these sources.
 
-Links: [[teach-back]] · [[bridge]] · [[meaning]] · [[common-ground]] · [the-mending-rhythm](the-mending-rhythm.md) (the say-it-back is the smallest grain of the macro-scale rupture-and-repair rhythm this room measures across a whole relationship — one mend in one breath, the same law at two scales)
+Links: [[teach-back]] · [[bridge]] · [[meaning]] · [[common-ground]] · [the-mending-rhythm](the-mending-rhythm.md) (the say-it-back is the smallest grain of the macro-scale rupture-and-repair rhythm this room measures across a whole relationship — one mend in one breath, the same law at two scales) · [mirror-inquiry](mirror-inquiry.md) (the same blind spot: the asker who overestimates how much the answerer understood and the mirror that catches the question planting its own words in the answer are the same figure — both need the say-it-back to separate what was asked from what was found)
 
 ## Doors
 

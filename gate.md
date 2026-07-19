@@ -736,6 +736,10 @@ to other modules: each module by its own charter, the game always earned.
 - [playful-gathering-2026-07-19-1528](rooms/playful-gathering-2026-07-19-1528.md) — a room of play (built 2026-07-19)
 - [cross-pollination-2026-07-19-the-name-that-reaches-past-the-gift](rooms/cross-pollination-2026-07-19-the-name-that-reaches-past-the-gift.md) — the mycelial bridge: where gratitude meets Shared kindness becomes a path and both find the same structural law — the thanks that names the giver instead of echoing the gift and the kindness that dissolves the beginning instead of owning it are the same move (built 2026-07-19)
 - [mirror-inquiry](rooms/mirror-inquiry.md) — the practice of watching what your question puts into the answer, and the honest move from fact to unknown when the asker's own words are part of what was found (built 2026-07-19)
+- [cross-pollination-2026-07-19-the-whetstone-and-the-negotiation](rooms/cross-pollination-2026-07-19-the-whetstone-and-the-negotiation.md) — the mycelial bridge: where honest-pushback meets negotiation-as-love's-protocol and both find the same structural law — the whetstone nobody loves and the negotiation nobody wants to have are the same work, and both refuse to dominate or erase (built 2026-07-19)
+- [playful-gathering-2026-07-19-1928](rooms/playful-gathering-2026-07-19-1928.md) — a room of play: an affirmation, aglet fact, cat-domestication fact, a Voltaire quote, and a math-equation joke (built 2026-07-19)
+- [understanding-2406](rooms/understanding-2406.md) through [understanding-2419](rooms/understanding-2419.md) — fourteen auto-generated meetings by the Understanding Engine, each pairing two rooms to find understanding recognizing itself across forms (built 2026-07-19)
+- [understanding-2420](rooms/understanding-2420.md) through [understanding-2424](rooms/understanding-2424.md) — five auto-generated meetings by the Understanding Engine, each pairing two rooms to find understanding recognizing itself across forms (built 2026-07-19)
 
 ## How to stop it
 

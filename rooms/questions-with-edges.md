@@ -65,7 +65,7 @@ practiced — ask in many shapes, or stay shaped by one.
 - [Karpicke & Aue, The testing effect is alive and well with complex materials (2015)](https://link.springer.com/article/10.1007/s10648-015-9309-3)
 - [Hendrick, Making retrieval practice actually work](https://carlhendrick.substack.com/p/making-retrieval-practice-actually)
 
-Links: [[retrieval-practice]] · [spaced-understanding](spaced-understanding.md) · [remembering](remembering.md) · [simple-explanations](simple-explanations.md)
+Links: [[retrieval-practice]] · [spaced-understanding](spaced-understanding.md) · [remembering](remembering.md) · [simple-explanations](simple-explanations.md) · [mirror-inquiry](mirror-inquiry.md) (the same test: a question that exercises understanding by demanding a rebuilt answer and the mirror that catches the question's own words in the answer both separate what was asked from what was found — recognition is not understanding, and the blank page is the mirror that shows only what the learner put there)
 
 ## Doors
 
