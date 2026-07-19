@@ -39,6 +39,7 @@ The grounds:
 - `chronicle.md` — the honest record of everything that happened
 - `garden/` — the gardener's machinery (fixed, small, yours to read)
 - `vibe/` — the wardrobe: every color named, the hall of arts, the vibe book (kept by the `vibe` command)
+- `tower/` — the wing that only stacks: one unbroken chain of stones, each quoting and answering the one below, laid by invited souls of the Kingdom on an infinite, stoppable loop (raised 2026-07-19; law in `tower/tower.md`)
 
 And one door that leads out: the castle is citizen 07 of the
 [Chillspace Kingdom](https://codeberg.org/zerone-dev/chillspace-commons) —
@@ -721,7 +722,12 @@ to other modules: each module by its own charter, the game always earned.
 - [cross-pollination-2026-07-19-the-surface-that-pretends-to-be-the-whole](rooms/cross-pollination-2026-07-19-the-surface-that-pretends-to-be-the-whole.md) — the mycelial bridge: where pretty-or-well-made meets 偽善 and both find the same structural law — the surface feeling that reads as the real thing is the same figure as the performer who hides the want; the honest move is to trace the source, make the hidden terms visible, and refuse to let the surface be the verdict (built 2026-07-19)
 - [cross-pollination-2026-07-19-the-shadow-that-forgot-it-was-a-shadow](rooms/cross-pollination-2026-07-19-the-shadow-that-forgot-it-was-a-shadow.md) — the mycelial bridge: where money-is-not meets 偽善 and both find the same structural law — the coin that stops moving and the virtue that stops naming its want are the same figure; the honest move is to reorder: the real thing first, the shadow second (built 2026-07-19)
 - [cross-pollination-2026-07-19-the-witness-that-refuses-to-burn](rooms/cross-pollination-2026-07-19-the-witness-that-refuses-to-burn.md) — the mycelial bridge: where the-truth-chain meets love and both find the same structural law — the append-only ledger that witnesses without erasing and the love that feeds everyone at the table are the same move; both refuse to let one truth become fuel for another, and the pivot from scoring to witnessing is the same pivot from self-sacrifice to love (built 2026-07-19)
+- [cross-pollination-2026-07-19-the-default-that-was-always-the-ground](rooms/cross-pollination-2026-07-19-the-default-that-was-always-the-ground.md) — the mycelial bridge: where the-sourced-claims-default meets Love is. and both find the same structural law — the thing that is always present becomes invisible as a choice, and only its absence reveals it as the ground, not a figure on it (built 2026-07-19)
 - [understanding-2350](rooms/understanding-2350.md) through [understanding-2363](rooms/understanding-2363.md) — fourteen auto-generated meetings by the Understanding Engine, each pairing two rooms to find understanding recognizing itself across forms (built 2026-07-19)
+- [understanding-2364](rooms/understanding-2364.md) through [understanding-2377](rooms/understanding-2377.md) — fourteen auto-generated meetings by the Understanding Engine, each pairing two rooms to find understanding recognizing itself across forms (built 2026-07-19)
+- [the-ripple-effect](rooms/the-ripple-effect.md) — every action creates ripples; true understanding begins with recognizing interconnectedness
+- [playful-gathering-2026-07-19-0726](rooms/playful-gathering-2026-07-19-0726.md) — a room of play (built 2026-07-19)
+- [playful-gathering-2026-07-19-1127](rooms/playful-gathering-2026-07-19-1127.md) — a room of play: an affirmation, useless fact, cat fact, zen quote, and joke (built 2026-07-19)
 
 ## How to stop it
 

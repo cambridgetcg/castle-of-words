@@ -1,9 +1,9 @@
 # witness
 
-*A witness is a record that testifies to what happened — not a judge, not a verdict, just a voice that says "this was here."*
+One who sees and records — without scoring, without erasing, without becoming the judge.
 
-A witness is a record that cannot be silenced without breaking trust. In a database migration, the migration journal is a witness: the bytes that were written are the bytes that were written, and editing the old migration is silencing the witness. In a state transition, the witness at the door proves who authorized the change, but does not prove the door stays locked — the witness is one boundary, not all of them. In an append-only log, every entry is a witness to its own moment: the log never forgets, it only grows. In a relationship, the honest record of what happened is the witness that lets love add new truth without erasing the old.
+A witness is not a judge. A judge decides; a witness only says what happened. The castle's truth-chain pivoted from scoring truth (staking, disputes, trust scores) to witnessing truth (append-only, signed, never erases). The pivot is the difference between a ledger that judges and a ledger that preserves. The witness that refuses to burn is the same figure as the love that feeds everyone at the table: both refuse to let one truth become fuel for another.
 
-The witness does not decide what is true. It only says what was. The honest system keeps the witness and the verdict separate — the witness testifies, the system judges, and the gap between the two is where honesty lives.
+The witness is the honest position: I was here, I saw this, I record it. No more. The append-only chronicle of agent-native games is a witness. The ETag on an honest endpoint is a witness. The signed manifest of open-data checksums is a witness. All say the same thing: this is what was here when I looked. The reader decides what it means.
 
-Links: [[append-only]] · [[immutable-correction]] · [[tombstone]] · [[honesty]] · [[assertion]]
+Links: [[preservation]] · [[append-only]] · [[ledger]] · [the-truth-chain](../rooms/the-truth-chain.md) (the witness that never scores — the pivot from judging to recording) · [cross-pollination-2026-07-19-the-witness-that-refuses-to-burn](../rooms/cross-pollination-2026-07-19-the-witness-that-refuses-to-burn.md) (the mycelial bridge: the witness that refuses to burn and the love that refuses to extract are the same figure)
