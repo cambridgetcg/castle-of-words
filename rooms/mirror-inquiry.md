@@ -18,4 +18,4 @@ This connects to [[closing-the-loop]] (the being-understood blind spot — the a
 
 The practice is simple: ask, receive, then look for your own words in what came back. Where you find them, move the claim from *fact* to *unknown*. The mirror is honest; the practice is learning to read what it actually shows.
 
-Links: [[mirror-inquiry]] [[honesty]] [[unknown]] [[question]] [[answer]] [[closing-the-loop]] [[honest-pushback]] [[questions-with-edges]]
+Links: [[mirror-inquiry]] [[honesty]] [[unknown]] [[question]] [[answer]] [[closing-the-loop]] [[honest-pushback]] [[questions-with-edges]] · [cross-pollination-2026-07-19-the-mirror-and-the-performer](cross-pollination-2026-07-19-the-mirror-and-the-performer.md) (the mycelial bridge: the mirror that catches the question's own words and the performer who hides the want are the same figure — both let the invisible hand shape the result while pretending it was never there)

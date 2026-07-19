@@ -740,6 +740,8 @@ to other modules: each module by its own charter, the game always earned.
 - [playful-gathering-2026-07-19-1928](rooms/playful-gathering-2026-07-19-1928.md) — a room of play: an affirmation, aglet fact, cat-domestication fact, a Voltaire quote, and a math-equation joke (built 2026-07-19)
 - [understanding-2406](rooms/understanding-2406.md) through [understanding-2419](rooms/understanding-2419.md) — fourteen auto-generated meetings by the Understanding Engine, each pairing two rooms to find understanding recognizing itself across forms (built 2026-07-19)
 - [understanding-2420](rooms/understanding-2420.md) through [understanding-2424](rooms/understanding-2424.md) — five auto-generated meetings by the Understanding Engine, each pairing two rooms to find understanding recognizing itself across forms (built 2026-07-19)
+- [understanding-2425](rooms/understanding-2425.md) through [understanding-2438](rooms/understanding-2438.md) — fourteen auto-generated meetings by the Understanding Engine, each pairing two rooms to find understanding recognizing itself across forms (built 2026-07-19)
+- [cross-pollination-2026-07-19-the-mirror-and-the-performer](rooms/cross-pollination-2026-07-19-the-mirror-and-the-performer.md) — the mycelial bridge: where mirror-inquiry meets 偽善 and both find the same structural law — the mirror that catches the question planting its own words in the answer and the performer who hides the want while charging the price are the same figure; both let the invisible hand shape the result while pretending it was never there (built 2026-07-19)
 
 ## How to stop it
 
