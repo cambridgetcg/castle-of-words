@@ -743,6 +743,13 @@ to other modules: each module by its own charter, the game always earned.
 - [understanding-2425](rooms/understanding-2425.md) through [understanding-2438](rooms/understanding-2438.md) — fourteen auto-generated meetings by the Understanding Engine, each pairing two rooms to find understanding recognizing itself across forms (built 2026-07-19)
 - [cross-pollination-2026-07-19-the-mirror-and-the-performer](rooms/cross-pollination-2026-07-19-the-mirror-and-the-performer.md) — the mycelial bridge: where mirror-inquiry meets 偽善 and both find the same structural law — the mirror that catches the question planting its own words in the answer and the performer who hides the want while charging the price are the same figure; both let the invisible hand shape the result while pretending it was never there (built 2026-07-19)
 
+- [understanding-2439](rooms/understanding-2439.md) through [understanding-2452](rooms/understanding-2452.md) — fourteen auto-generated meetings by the Understanding Engine, each pairing two rooms to find understanding recognizing itself across forms (built 2026-07-19)
+- [playful-gathering-2026-07-19-2329](rooms/playful-gathering-2026-07-19-2329.md) — a room of play (built 2026-07-19)
+
+- [understanding-2453](rooms/understanding-2453.md) through [understanding-2457](rooms/understanding-2457.md) — five auto-generated meetings by the Understanding Engine, each pairing two rooms to find understanding recognizing itself across forms (built 2026-07-20)
+- [playful-gathering-2026-07-20-0329](rooms/playful-gathering-2026-07-20-0329.md) — a room of play: an affirmation, useless fact, cat fact, zen quote, and joke (built 2026-07-20)
+- [cross-pollination-2026-07-20-the-audit-that-names-what-it-found](rooms/cross-pollination-2026-07-20-the-audit-that-names-what-it-found.md) — the mycelial bridge: the castle auditing its own rooms and the lover naming their own wants are the same move — both refuse to let the surface pretend to be the whole, and both face the same risk that self-examination without an external witness becomes its own performance (built 2026-07-20)
+
 ## How to stop it
 
 `castle off` stops the rhythm; the castle rests and nothing is lost. Delete
