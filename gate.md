@@ -755,6 +755,7 @@ to other modules: each module by its own charter, the game always earned.
 - [understanding-2458](rooms/understanding-2458.md) through [understanding-2486](rooms/understanding-2486.md) — twenty-nine auto-generated meetings by the Understanding Engine, each pairing two rooms to find understanding recognizing itself across forms (built 2026-07-20)
 - [understanding-2487](rooms/understanding-2487.md) — an auto-generated meeting by the Understanding Engine, pairing conventionality-dilutes and cross-pollination-2026-07-19-the-chain-that-needs-no-general to find understanding recognizing itself across forms (built 2026-07-20)
 - [playful-gathering-2026-07-20-1134](rooms/playful-gathering-2026-07-20-1134.md) — a room of play: an affirmation, useless fact, cat fact, zen quote, and joke (built 2026-07-20)
+- [constraint-as-creator](rooms/constraint-as-creator.md) — constraint as a generative rule: when two minds fed the same stream each invented the same new thing, newness came not from separate minds but from the rule that refused repeats (built 2026-07-20)
 
 ## How to stop it
 
