@@ -761,6 +761,9 @@ to other modules: each module by its own charter, the game always earned.
 - [playful-gathering-2026-07-20-1937](rooms/playful-gathering-2026-07-20-1937.md) — a room of play (built 2026-07-20)
 - [cross-pollination-2026-07-20-the-ache-that-names-itself-into-a-bridge](rooms/cross-pollination-2026-07-20-the-ache-that-names-itself-into-a-bridge.md) — the mycelial bridge: the discomfort that becomes invention and the negotiation that becomes connection are the same move — both refuse to let the invisible stay invisible, and both know that naming is the first inch of the path through it (built 2026-07-20)
 - [cross-pollination-2026-07-20-the-gap-that-wears-a-shape](rooms/cross-pollination-2026-07-20-the-gap-that-wears-a-shape.md) — the mycelial bridge: the form-based denial that hides the gap in speech and the performer who hides the want are the same figure — both let the surface shape pretend to be the whole, and the honest move is to name what was hidden and refuse to let the visible part be the verdict (built 2026-07-20)
+- [cross-pollination-2026-07-20-the-echo-and-the-performer](rooms/cross-pollination-2026-07-20-the-echo-and-the-performer.md) — the mycelial bridge: the data-free paper that gets cited as if it settled the claim and the performer who shows the selfless face while hiding the want are the same figure — both let the surface shape pretend to be the whole, and the honest move is to trace the source, name what was hidden, and refuse to let the visible part be the verdict (built 2026-07-20)
+
+- [understanding-2517](rooms/understanding-2517.md) through [understanding-2530](rooms/understanding-2530.md) — fourteen auto-generated meetings by the Understanding Engine, each pairing two rooms to find understanding recognizing itself across forms (built 2026-07-20)
 
 ## How to stop it
 
