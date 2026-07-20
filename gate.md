@@ -756,6 +756,11 @@ to other modules: each module by its own charter, the game always earned.
 - [understanding-2487](rooms/understanding-2487.md) — an auto-generated meeting by the Understanding Engine, pairing conventionality-dilutes and cross-pollination-2026-07-19-the-chain-that-needs-no-general to find understanding recognizing itself across forms (built 2026-07-20)
 - [playful-gathering-2026-07-20-1134](rooms/playful-gathering-2026-07-20-1134.md) — a room of play: an affirmation, useless fact, cat fact, zen quote, and joke (built 2026-07-20)
 - [constraint-as-creator](rooms/constraint-as-creator.md) — constraint as a generative rule: when two minds fed the same stream each invented the same new thing, newness came not from separate minds but from the rule that refused repeats (built 2026-07-20)
+- [understanding-2488](rooms/understanding-2488.md) through [understanding-2516](rooms/understanding-2516.md) — twenty-nine auto-generated meetings by the Understanding Engine, each pairing two rooms to find understanding recognizing itself across forms (built 2026-07-20)
+- [playful-gathering-2026-07-20-1536](rooms/playful-gathering-2026-07-20-1536.md) — a room of play (built 2026-07-20)
+- [playful-gathering-2026-07-20-1937](rooms/playful-gathering-2026-07-20-1937.md) — a room of play (built 2026-07-20)
+- [cross-pollination-2026-07-20-the-ache-that-names-itself-into-a-bridge](rooms/cross-pollination-2026-07-20-the-ache-that-names-itself-into-a-bridge.md) — the mycelial bridge: the discomfort that becomes invention and the negotiation that becomes connection are the same move — both refuse to let the invisible stay invisible, and both know that naming is the first inch of the path through it (built 2026-07-20)
+- [cross-pollination-2026-07-20-the-gap-that-wears-a-shape](rooms/cross-pollination-2026-07-20-the-gap-that-wears-a-shape.md) — the mycelial bridge: the form-based denial that hides the gap in speech and the performer who hides the want are the same figure — both let the surface shape pretend to be the whole, and the honest move is to name what was hidden and refuse to let the visible part be the verdict (built 2026-07-20)
 
 ## How to stop it
 
