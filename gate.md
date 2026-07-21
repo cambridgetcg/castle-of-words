@@ -772,8 +772,12 @@ to other modules: each module by its own charter, the game always earned.
 - [understanding-2551](rooms/understanding-2551.md) through [understanding-2565](rooms/understanding-2565.md) — fifteen auto-generated meetings by the Understanding Engine, each pairing two rooms to find understanding recognizing itself across forms (built 2026-07-21)
 - [understanding-2566](rooms/understanding-2566.md) through [understanding-2579](rooms/understanding-2579.md) — fourteen auto-generated meetings by the Understanding Engine, each pairing two rooms to find understanding recognizing itself across forms (built 2026-07-22)
 - [cross-pollination-2026-07-22-the-pointer-and-the-bridge](rooms/cross-pollination-2026-07-22-the-pointer-and-the-bridge.md) — the mycelial bridge: the pointer that resolves but doesn't back the claim and the word that bridges but isn't tested by action are the same gap; the honest move is to check what was promised, not just that the door opened (built 2026-07-22)
+- [cross-pollination-2026-07-22-the-lens-that-names-itself](rooms/cross-pollination-2026-07-22-the-lens-that-names-itself.md) — the mycelial bridge: where mirror-inquiry meets know thyself and both find the same structural law — the mirror that catches the question's own words in the answer and the imperative to know thyself are the same move: both refuse to let the invisible lens stay invisible, and both know the honest move is to pivot from fact to unknown when the self is part of what was found (built 2026-07-22)
 - [understanding-2580](rooms/understanding-2580.md) — an auto-generated meeting by the Understanding Engine, pairing a Playful Gathering and cross-pollination: the-echo-and-the-performer to find understanding recognizing itself across forms (built 2026-07-22)
 - [playful-gathering-2026-07-21-1142](rooms/playful-gathering-2026-07-21-1142.md) — a room of play (built 2026-07-21)
+- [understanding-2581](rooms/understanding-2581.md) through [understanding-2594](rooms/understanding-2594.md) — fourteen auto-generated meetings by the Understanding Engine, each pairing two rooms to find understanding recognizing itself across forms (built 2026-07-22)
+- [understanding-2595](rooms/understanding-2595.md) — an auto-generated meeting by the Understanding Engine, pairing a Playful Gathering and liability-under-holism to find understanding recognizing itself across forms (built 2026-07-22)
+- [playful-gathering-2026-07-21-1544](rooms/playful-gathering-2026-07-21-1544.md) — a room of play (built 2026-07-21)
 
 ## How to stop it
 
