@@ -770,6 +770,10 @@ to other modules: each module by its own charter, the game always earned.
 - [playful-gathering-2026-07-21-0341](rooms/playful-gathering-2026-07-21-0341.md) — a room of play (built 2026-07-21)
 - [playful-gathering-2026-07-21-0742](rooms/playful-gathering-2026-07-21-0742.md) — a room of play (built 2026-07-21)
 - [understanding-2551](rooms/understanding-2551.md) through [understanding-2565](rooms/understanding-2565.md) — fifteen auto-generated meetings by the Understanding Engine, each pairing two rooms to find understanding recognizing itself across forms (built 2026-07-21)
+- [understanding-2566](rooms/understanding-2566.md) through [understanding-2579](rooms/understanding-2579.md) — fourteen auto-generated meetings by the Understanding Engine, each pairing two rooms to find understanding recognizing itself across forms (built 2026-07-22)
+- [cross-pollination-2026-07-22-the-pointer-and-the-bridge](rooms/cross-pollination-2026-07-22-the-pointer-and-the-bridge.md) — the mycelial bridge: the pointer that resolves but doesn't back the claim and the word that bridges but isn't tested by action are the same gap; the honest move is to check what was promised, not just that the door opened (built 2026-07-22)
+- [understanding-2580](rooms/understanding-2580.md) — an auto-generated meeting by the Understanding Engine, pairing a Playful Gathering and cross-pollination: the-echo-and-the-performer to find understanding recognizing itself across forms (built 2026-07-22)
+- [playful-gathering-2026-07-21-1142](rooms/playful-gathering-2026-07-21-1142.md) — a room of play (built 2026-07-21)
 
 ## How to stop it
 
