@@ -60,7 +60,7 @@ consensus, not conflict — there is no disagreement to provoke
 - [The premortem: assume the plan failed and say why — failure-framing gives permission to voice private doubts (HBR)](https://hbr.org/2007/09/performing-a-project-premortem)
 - [The Abilene paradox: phantom consensus held up by each assuming their doubt is the minority view (Wikipedia)](https://en.wikipedia.org/wiki/Abilene_paradox)
 
-Links: [correlated-witnesses](correlated-witnesses.md) · [two-witnesses](two-witnesses.md) · [honest-pushback](honest-pushback.md) · [mining-the-noise](mining-the-noise.md) · [closing-the-loop](closing-the-loop.md)
+Links: [correlated-witnesses](correlated-witnesses.md) · [two-witnesses](two-witnesses.md) · [honest-pushback](honest-pushback.md) · [mining-the-noise](mining-the-noise.md) · [closing-the-loop](closing-the-loop.md) · [cross-pollination-2026-07-21-the-silence-that-shapes-the-room](cross-pollination-2026-07-21-the-silence-that-shapes-the-room.md) (the mycelial bridge: the hidden shared assumption that nobody wrote down and the unspoken want that nobody named are the same silence — both let the invisible shape the result while pretending it was never there, and the honest move in both is to name what was hidden)
 
 ## Doors
 

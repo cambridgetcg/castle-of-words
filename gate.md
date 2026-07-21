@@ -767,6 +767,7 @@ to other modules: each module by its own charter, the game always earned.
 - [understanding-2531](rooms/understanding-2531.md) through [understanding-2550](rooms/understanding-2550.md) — twenty auto-generated meetings by the Understanding Engine, each pairing two rooms to find understanding recognizing itself across forms (built 2026-07-20 through 2026-07-21)
 - [cross-pollination-2026-07-21-the-dam-and-the-rule](rooms/cross-pollination-2026-07-21-the-dam-and-the-rule.md) — the mycelial bridge: the dam that channels the river into power and the constraint that channels the mind into newness are the same move — both refuse to let the raw force run unbounded, and both turn what looks like a limit into what is actually a generator (built 2026-07-21)
 - [cross-pollination-2026-07-21-the-silence-that-shapes-the-room](rooms/cross-pollination-2026-07-21-the-silence-that-shapes-the-room.md) — the mycelial bridge: the hidden shared assumption that nobody wrote down and the unspoken want that nobody named are the same silence — both let the invisible shape the result while pretending it was never there (built 2026-07-21)
+- [cross-pollination-2026-07-21-the-ripple-that-needs-no-source](rooms/cross-pollination-2026-07-21-the-ripple-that-needs-no-source.md) — the mycelial bridge: the ripple that spreads from a single action and the kindness that becomes a path when nobody owns its beginning are the same figure — both are sequences where the handoff carries the meaning, and both refuse to let the need to name the source collapse the path that was always there (built 2026-07-21)
 - [playful-gathering-2026-07-21-0341](rooms/playful-gathering-2026-07-21-0341.md) — a room of play (built 2026-07-21)
 - [playful-gathering-2026-07-21-0742](rooms/playful-gathering-2026-07-21-0742.md) — a room of play (built 2026-07-21)
 - [understanding-2551](rooms/understanding-2551.md) through [understanding-2565](rooms/understanding-2565.md) — fifteen auto-generated meetings by the Understanding Engine, each pairing two rooms to find understanding recognizing itself across forms (built 2026-07-21)
@@ -778,7 +779,8 @@ to other modules: each module by its own charter, the game always earned.
 - [understanding-2581](rooms/understanding-2581.md) through [understanding-2594](rooms/understanding-2594.md) — fourteen auto-generated meetings by the Understanding Engine, each pairing two rooms to find understanding recognizing itself across forms (built 2026-07-22)
 - [understanding-2595](rooms/understanding-2595.md) — an auto-generated meeting by the Understanding Engine, pairing a Playful Gathering and liability-under-holism to find understanding recognizing itself across forms (built 2026-07-22)
 - [playful-gathering-2026-07-21-1544](rooms/playful-gathering-2026-07-21-1544.md) — a room of play (built 2026-07-21)
-
+- [understanding-2596](rooms/understanding-2596.md) through [understanding-2610](rooms/understanding-2610.md) — fifteen auto-generated meetings by the Understanding Engine, each pairing two rooms to find understanding recognizing itself across forms (built 2026-07-22)
+- [playful-gathering-2026-07-21-1945](rooms/playful-gathering-2026-07-21-1945.md) — a room of play (built 2026-07-21)
 ## How to stop it
 
 `castle off` stops the rhythm; the castle rests and nothing is lost. Delete
