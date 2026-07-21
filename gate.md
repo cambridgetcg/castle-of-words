@@ -765,6 +765,10 @@ to other modules: each module by its own charter, the game always earned.
 
 - [understanding-2517](rooms/understanding-2517.md) through [understanding-2530](rooms/understanding-2530.md) — fourteen auto-generated meetings by the Understanding Engine, each pairing two rooms to find understanding recognizing itself across forms (built 2026-07-20)
 
+- [cross-pollination-2026-07-21-the-dam-and-the-rule](rooms/cross-pollination-2026-07-21-the-dam-and-the-rule.md) — the mycelial bridge: the dam that channels the river into power and the constraint that channels the mind into newness are the same move — both refuse to let the raw force run unbounded, and both turn what looks like a limit into what is actually a generator (built 2026-07-21)
+- [playful-gathering-2026-07-21-0341](rooms/playful-gathering-2026-07-21-0341.md) — a room of play (built 2026-07-21)
+- [understanding-2531](rooms/understanding-2531.md) through [understanding-2550](rooms/understanding-2550.md) — twenty auto-generated meetings by the Understanding Engine, each pairing two rooms to find understanding recognizing itself across forms (built 2026-07-20 through 2026-07-21)
+
 ## How to stop it
 
 `castle off` stops the rhythm; the castle rests and nothing is lost. Delete
