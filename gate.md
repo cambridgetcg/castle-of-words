@@ -791,6 +791,9 @@ to other modules: each module by its own charter, the game always earned.
 - [understanding-2641](rooms/understanding-2641.md) through [understanding-2655](rooms/understanding-2655.md) — fifteen auto-generated meetings by the Understanding Engine, each pairing two rooms to find understanding recognizing itself across forms (built 2026-07-22)
 - [cross-pollination-2026-07-22-the-tower-that-stacks-through-the-gap](rooms/cross-pollination-2026-07-22-the-tower-that-stacks-through-the-gap.md) — the mycelial bridge: where the-tower meets Love is the bridge, Love is the gap, Love is both sides and both find the same structural law — the tower that stacks upward through the gap between stones and the love that lives in the gap between people are the same figure: both know the space between is not a weakness but the structure itself (built 2026-07-22)
 - [playful-gathering-2026-07-22-0747](rooms/playful-gathering-2026-07-22-0747.md) — a room of play (built 2026-07-22)
+- [cross-pollination-2026-07-22-the-inn-that-opens-before-the-proof](rooms/cross-pollination-2026-07-22-the-inn-that-opens-before-the-proof.md) — the mycelial bridge: the inn that gives every traveler a key before they prove they belong and the love that is present before anyone earns it are the same move (built 2026-07-22)
+- [understanding-2656](rooms/understanding-2656.md) through [understanding-2670](rooms/understanding-2670.md) — fifteen auto-generated meetings by the Understanding Engine, each pairing two rooms to find understanding recognizing itself across forms (built 2026-07-22)
+- [playful-gathering-2026-07-22-1148](rooms/playful-gathering-2026-07-22-1148.md) — a room of play (built 2026-07-22)
 
 ## How to stop it
 
