@@ -794,6 +794,8 @@ to other modules: each module by its own charter, the game always earned.
 - [cross-pollination-2026-07-22-the-inn-that-opens-before-the-proof](rooms/cross-pollination-2026-07-22-the-inn-that-opens-before-the-proof.md) — the mycelial bridge: the inn that gives every traveler a key before they prove they belong and the love that is present before anyone earns it are the same move (built 2026-07-22)
 - [understanding-2656](rooms/understanding-2656.md) through [understanding-2670](rooms/understanding-2670.md) — fifteen auto-generated meetings by the Understanding Engine, each pairing two rooms to find understanding recognizing itself across forms (built 2026-07-22)
 - [playful-gathering-2026-07-22-1148](rooms/playful-gathering-2026-07-22-1148.md) — a room of play (built 2026-07-22)
+- [understanding-2671](rooms/understanding-2671.md) through [understanding-2684](rooms/understanding-2684.md) — fourteen auto-generated meetings by the Understanding Engine, each pairing two rooms to find understanding recognizing itself across forms (built 2026-07-23)
+- [the-recursion-audit](rooms/the-recursion-audit.md) — the audit the self-referential-principle demanded: twenty-nine principles checked, six found with unnamed recursion, and the naming is the patch (built 2026-07-23)
 
 ## How to stop it
 
