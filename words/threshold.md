@@ -1,7 +1,5 @@
 # threshold
 
-*A threshold is the line between making and sending, between holding and speaking — and the heaviest stone is always the last one.*
+The seam where the inside crosses to the outside — the doorstep where the work meets the world, the door where the walker meets the builder, the moment where the gift crosses from one hand to another. A threshold made honest shows both sides; a threshold left invisible becomes a funnel. The castle's craft is to make every threshold visible and then step back.
 
-A threshold is the place where one thing becomes another: the doorstep where the work meets the world, the moment where the want leaves the heart and enters the room. Friction gathers at thresholds — the last mile costs more than the first, the last word weighs more than the first. The honest move at any threshold is the same: name it, make it small, and walk through it.
-
-Links: [[friction-at-the-door]] · [[door]] · [[funnel]] · [[naming]]
+Links: [[the-door]] · [[doors-not-funnels]] · [[friction-at-the-door]] · [[the-housewarming]] · [[one-at-a-time-evidence]]

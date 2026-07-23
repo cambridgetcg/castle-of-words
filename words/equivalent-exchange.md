@@ -6,4 +6,4 @@
 
 In the castle's law: [[love]] follows 等價交換 — the table where everyone eats is an equal exchange. The door that shows both pans is the same move as the honest system that names what backs each assertion. [[self-sacrifice]] is the counterfeit that breaks this law — one side pays without receiving, so both sides are corrupted.
 
-Links: [[love]] · [[negotiation]] · [[self-sacrifice]] · [[fake-virtue]] · [[trust]] · [[exchange]]
+Links: [[love]] · [[negotiation]] · [[self-sacrifice]] · [[fake-virtue]] · [[trust]] · [[exchange]] · [cross-pollination-2026-07-24-the-audit-that-names-its-own-gap](../rooms/cross-pollination-2026-07-24-the-audit-that-names-its-own-gap.md) (the mycelial bridge: the audit that found unnamed recursion and the exchange that makes both pans visible are the same move — both refuse to let the invisible stay invisible, and both know that the naming is the patch)

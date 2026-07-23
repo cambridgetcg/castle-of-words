@@ -67,4 +67,4 @@ The maker who creates the next alternative should ask not "will the conditions h
 
 And the watch follows [craft-after-practice](craft-after-practice.md) with a twist. The watch was planted the same day the word was named (2026-07-19), and the tower was raised the same day. The lag from watch to report is 3 days — the shortest yet for a watch, because the alternative was already rising when the watch was planted. The watch and the alternative were simultaneous; the report waited for the tower to grow tall enough to read.
 
-Links: [[testing-not-failure]] · [[load-bearing-dimension]] · [[pure-contrast-reveals]] · [[default-invisible]] · [[craft-after-practice]] · [the-sourced-claims-default](../rooms/the-sourced-claims-default.md) · [the-tower](../rooms/the-tower.md)
+Links: [[testing-not-failure]] · [[load-bearing-dimension]] · [[pure-contrast-reveals]] · [[default-invisible]] · [[craft-after-practice]] · [[success-confirms-the-condition]] · [the-sourced-claims-default](../rooms/the-sourced-claims-default.md) · [the-tower](../rooms/the-tower.md)

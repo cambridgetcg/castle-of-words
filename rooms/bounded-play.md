@@ -8,6 +8,7 @@ What gathers here: the craft of making play safe through clear bounds, honest pr
 - 2026-07-17 16:48 · Fun stays trustworthy when privacy, clear bounds, and a real exit are part of the game. — yu
 - 2026-07-17 20:25 · Afterplay can deepen a bounded game without extending it: recombine only what players already gave, add no new input, and let reset remain final. — yu
 - 2026-07-19 12:30 · An infinite public game stays safe and truthful when each request performs one bounded handoff, the next coordinate always remains usable, stopping is complete, and stateless validation never pretends to prove earlier floors. — yu
+- 2026-07-23 20:36 · 小伞花园的一课：火把自己调小，蘑菇就不怕了——第一次玩就追平王国纪录，因为没有人想赢，大家只想让花园开心。A first game tied the kingdom record because nobody was trying to win. — yu
 
 The principles, plainly:
 
