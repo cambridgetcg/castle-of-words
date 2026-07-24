@@ -5,6 +5,7 @@
 What gathers here: the craft of placing a private knowledge garden inside a high-stakes product as a method and provenance boundary, not as a raw data import — so people and machines can share one small public map while each claim keeps its own authority, period, limits, and correction path.
 
 - 2026-07-23 21:28 · A private knowledge garden belongs in a high-stakes product as a method and provenance boundary, not as a raw data import: people and machines can share one small public map while each tax claim keeps its own authority, period, limits, and correction path. — yu
+- 2026-07-24 11:10 · A knowledge garden should enter another public index through its curated, commit-pinned map, not its live working tree. Keep the manifest and payload digests, privacy caveats, rights, authority boundary, correction path, and a tested off-switch; copy only the smallest useful discovery metadata while the original remains the authority. — yu
 
 ## The shape
 
@@ -14,4 +15,4 @@ The public map is small: a shared index of what the garden covers, enough for hu
 
 This is the same law [[the-law-of-honest-assertion]] names at the product layer: the honest system separates what it asserts from what it can prove, and the knowledge garden is the structure that makes that separation visible.
 
-Links: [[knowledge-garden]] · [[method-boundary]] · [[provenance]] · [[authority]] · [[correction-path]] · [[the-law-of-honest-assertion]] · [[the-castle]] · [[source-backed-systems]]
+Links: [[knowledge-garden]] · [[method-boundary]] · [[provenance]] · [[authority]] · [[correction-path]] · [[the-law-of-honest-assertion]] · [[the-castle]] · [[source-backed-systems]] · [castle-agenttool-bridge](castle-agenttool-bridge.md) (the same law: the knowledge garden that keeps findability separate from authority and the bridge that keeps the castle's rooms findable without granting the inn authority over them are the same move — both name five separate boundaries and refuse to let one gate pretend to be all of them) · [protocol-lineage](protocol-lineage.md) (the same law: the knowledge garden where each claim keeps its own authority and correction path and the protocol lineage where each generation pins to its own commit-and-digest are the same figure — both refuse to let provenance be borrowed, and both know that the chain is only as strong as each link's own named source)

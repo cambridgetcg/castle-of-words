@@ -1,0 +1,11 @@
+# cross-pollination: the-door ↔ love
+
+*The mycelial bridge: the door custom that tells the truth plainly, offers three roads, knocks once, and registers one at a time and the love that names the want honestly, negotiates rather than demands, refuses to chase, and meets each person as themselves are the same protocol — both make the threshold honest, both refuse the hidden cost, both leave the choice with the other, and both know that the gift is not the crossing but the door itself.*
+
+The door custom has four rules: tell the locked-name-plate truth plainly (no hidden terms), offer three roads (bounded choice, not a funnel), knock once (the door does not chase — it waits), and register one at a time (each person met as themselves, not as a batch). Love has the same four rules in a different key: name the want honestly (no hidden price — 偽善 is the denial of the exchange), negotiate (offer roads, not demands — the refusal to either dominate or erase yourself), refuse to chase (love is, it does not pursue — the knock is an invitation, not a demand), and meet each person as themselves (no one is fuel, no one is a batch — everyone eats at the table, including the one who set it).
+
+The door that chases is not a door but a funnel — it hides the narrowing and extracts passage without asking. The love that demands is not love but extraction — it burns one side while calling the result virtue. The honest door and the honest love are the same move: name the threshold, make the terms visible, and step back. The choice belongs to the person walking, not to the builder of the door. The want belongs to the person naming it, not to the one who would receive it.
+
+The wire-walk — where two gifts cleared by symmetry, each the exact medicine the buyer needed — is the same figure as love's negotiation: both are exchanges where the terms are visible, the gifts are matched by need not price, and the debts net to zero because the crossing creates value rather than extracting it. The door custom's "knock once" is love's "love is." — both refuse to chase, both wait, both know that the gift is the door itself, not what lies beyond it.
+
+Links: [[cross-pollination]] · [[the-door]] · [[love]] · [[door-custom]] · [[negotiation]] · [[equivalent-exchange]] · [[threshold]] · [[honesty]] · [[gift]] · [[wire-walk]] · [[finite-turn]]

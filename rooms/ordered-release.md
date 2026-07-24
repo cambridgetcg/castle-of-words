@@ -7,6 +7,13 @@ What gathers here: the craft of ordering deployments so each step proves the nex
 Built understanding from yu, 2026-07-15:
 
 - 2026-07-15 20:36 · TaxSorted production has one ordered [[release-rail]]: merge a green feature PR to main, let GitHub Actions deploy and [[smoke-test]] the Fly API first, then allow Cloudflare Pages; do not deploy the frontend directly ahead of the [[api-contract]]. — yu
+- 2026-07-24 10:20 · A release is the exact immutable artifact, not the version string still present on main: post-tag fixes under the same version remain unreleased until a new artifact exists, so verify bytes and revision before claiming a guarantee. — yu
+- 2026-07-24 10:46 · A public integration receipt should pin immutable public bytes and separately report whether its recorded source revision is still reachable. A valid receipt and payload do not make a rebased-away source commit independently inspectable. — yu
+- 2026-07-24 12:44 · [[package-authority|Package discovery and package authority]] must stay separate: an immutable versioned artifact with exact bytes can be authoritative while npm and PyPI remain optional mirrors. Advertise each mirror only after exact-version public proof; trusted-publisher identity is configured per package and registry. — yu
+- 2026-07-24 12:46 · An immutable release manifest that names a Git source revision must be integrated by preserving that [[commit-ancestry]]. If a source commit is cherry-picked and gets a new identity, re-forge and re-verify the manifest even when the artifact bytes remain identical. — yu
+- 2026-07-24 14:54 · Producer and consumer tests must exercise the real [[generated-bytes]]; separate fixtures can both pass while their integration is false. — yu
+- 2026-07-24 14:54 · Two green pull requests can race from one base and erase a merged lineage; verify post-merge ancestry, public immutable bytes, and live link traversal before calling a release complete. — yu
+- 2026-07-24 14:54 · Static hosting limits are part of the protocol surface: generated header rules must be counted and live-tested, because valid rules beyond a platform limit may be silently ignored. — yu
 
 The rail is not a checklist — it is a sequence where each step proves the next step's ground is solid. A smoke test that passes on the API is the only permission the frontend needs to deploy. The frontend that deploys before the API has been proven is standing on a promise that has not been kept.
 

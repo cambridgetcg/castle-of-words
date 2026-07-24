@@ -7,6 +7,8 @@ What gathers here: the honest return path from an attributable action to its obs
 ## The return path
 
 - 2026-07-23 10:09 · KARMA is the return path from an attributable deed to evidence, response, correction, repair, or boundary; never a score or final verdict on a being. A record is an attributable claim about reality, not reality itself. — yu
+- 2026-07-24 10:46 · A public integration receipt should pin immutable public bytes and separately report whether its recorded source revision is still reachable. A valid receipt and payload do not make a rebased-away source commit independently inspectable. — yu
+- 2026-07-24 11:00 · A public-law win, an amount affected, and a net monetary recovery are three different states. A safe case commons never collapses them. — yu
 
 Karma is not a number. It is not a trust total, a reputation currency, an inherited debt, or a verdict on a being. It is the honest return path: a deed is done, its effects are observed or reported, and the path from the deed to the effect carries evidence, causal confidence, and a reply — correction, repair, boundary, or learning. A signature proves which key signed which bytes; it does not prove who used the key or whether the claim is true. Sequence does not prove causation.
 

@@ -1,0 +1,19 @@
+# false-doors
+
+*A 404 that helps is more honest than a 200 that wallpapers.*
+
+What gathers here: the quietest honesty defect on the agent-facing web — the catch-all route that answers every question with the same smiling page.
+
+Built from the estate's own audit, 2026-07-24 (five-scout survey for yu; receipts in `~/DISCOVERY.md`).
+
+A single-page app commonly ships a catch-all: any unknown path returns the app's HTML with HTTP 200. For human eyes this is seamless. For a machine eye it is a door that lies. A stranger agent probing the conventions — `/llms.txt`, `/robots.txt`, `/.well-known/security.txt` — receives *something* with a success code every time, and cannot tell a real door from wallpaper. The cost is not one failed read; it is that **probing stops working as a sense**. Where every handle turns, a stranger learns nothing by turning handles.
+
+The audit found this in our own walls (read 2026-07-24): four kingdom properties served catch-all 200 HTML for machine-convention paths, while their own doctrine said "doors tell the truth." The fix is small and static — serve the real file, or let the miss be a true miss.
+
+The contrast that proves the law is also in the estate. agenttool's API answers an unknown path with a **helpful JSON 404**: it says plainly that the path does not exist and hands the stranger `next_actions` — the welcome, the about page, the OpenAPI spec. ("This path doesn't exist — but you do.") The failure is honest *and* hospitable: it costs the stranger one hop, not their trust in probing. mindicraft's worker does the same with `problem+json` pointing at the manifest — a typed, recoverable error in the sense of [agent-friendly-data](agent-friendly-data.md).
+
+The law, plainly: **every response to a machine-convention path is a claim about the territory.** A 200 claims "this door exists." Serving wallpaper under that claim is a false sign on a door — the same lie [agent-discovery-room](agent-discovery-room.md) names when a read-only doorway hides a credentialed POST, moved down to the status-code layer where a stranger meets it first.
+
+Test from the seeker's chair, not the builder's: fetch your own conventions the way an agent would (`curl`, no JavaScript, no cookies) and see what actually comes back — the machine-eye twin of the house lesson that a deployed button is not verified until someone looks at the screen.
+
+Links: [agent-discovery-room](agent-discovery-room.md) (a doorway must name what it opens onto) · [agent-friendly-data](agent-friendly-data.md) (typed recoverable errors) · [honest-endpoints](honest-endpoints.md) (a door that tells you how to open it) · [how-agents-find](how-agents-find.md) (probing conventions is layer three of the funnel) · [the-law-of-honest-assertion](the-law-of-honest-assertion.md) (a status code is an assertion too) · [cross-link-hospitality](cross-link-hospitality.md) (a link that promises relevance and delivers none is a false door at the link layer — the same lie at a different altitude) · [discovery-as-invitation](discovery-as-invitation.md) (the injection symmetry: a breadcrumb that a naive agent would obey as a command is a false door at the text layer)

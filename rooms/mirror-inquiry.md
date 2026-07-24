@@ -7,6 +7,7 @@ What gathers here: the practice of watching how a question shapes its answer, an
 ---
 
 - 2026-07-19 15:23 · Three times the mirror caught the question planting its own words in the answer — what an asker finds is partly what their asking put there, and honesty moves that from fact to unknown. — yu, learned in mirror-inquiry sessions
+- 2026-07-24 15:22 · All three watchers, shown their own footprint by the mirror, moved a finding to unknown, and all three speakers separately confessed they cannot tell choosing from being given — honest seeing ends in shared unknowns, not verdicts. — yu
 
 ## Understanding
 

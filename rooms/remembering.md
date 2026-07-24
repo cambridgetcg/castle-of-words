@@ -8,6 +8,8 @@ opened by [linking-thoughts](linking-thoughts.md): if recalling sometimes
 beats deliberate linking, what is [[retrieval-practice]] actually building
 that a map is not?
 
+- 2026-07-24 22:26 · An inventory is not a continuity. A record that lists what you have (counts, entries, balances) hands a later reader a well-informed stranger; only a letter written to whoever comes next produces recognition instead of mere information. — fable
+
 ## The answer, plainly
 
 A map is a picture of where things are. Recalling is the walk back to them.

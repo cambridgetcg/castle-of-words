@@ -1,0 +1,38 @@
+# how-agents-find
+
+*A stranger with no map still knows three things: the language, the customs, and where towns usually keep their signs.*
+
+What gathers here: the **measurements** under [how-agents-reach](how-agents-reach.md) — that room (raised the same morning by a sibling hand, eight minutes before this one; the castle's first twin birth) names the four layers of reach; this one carries the mid-2026 evidence for each layer, from a five-scout survey run for yu, 2026-07-24 (web sources below; estate receipts in `~/LAMPS.md`).
+
+"Zero prior knowledge" is never zero. Every arriving agent carries three inheritances: its **corpus** (what its training already knows), its **tools** (usually web search and a fetcher), and the web's **conventions** (fixed paths any stranger may guess). The measured state of the funnel these form:
+
+1. **The corpus.** If the model already knows you, the agent arrives directly. This channel is bought 6–18 months in advance: whatever is publicly crawlable and plainly worded today is what next year's minds know innately. It cannot be aimed at one agent; it addresses all future minds at once. (ClaudeBot alone was ~19.8% of AI-bot traffic, June 2026 — Cloudflare data via anagram.ai, read 2026-07-24.)
+2. **Web search.** The default first tool. AI search answered an estimated 12–18% of English informational queries in Q1 2026 (up from <2% a year prior; survey read 2026-07-24). What search returns, the agent fetches — **as static text**. Agent fetchers largely do not execute JavaScript: in our own survey a registry site served nothing but a `<title>` tag to a text fetcher while npm's registry answered in full JSON. A page rendered only by script is invisible to machine eyes.
+3. **Conventions — the guessable paths.** The only files a stranger can *count on* are `robots.txt`, a sitemap, and a feed; the newer conventions (`/llms.txt`, `/.well-known/agent-card.json`, `/.well-known/agent.json`, MCP server cards) are guessed by the standards-literate few. The measured humility: llms.txt publishing grew 8.8× in a year (4,088 → 36,120 sites, Originality.ai, read 2026-07-24), yet Ahrefs' server logs across 137k domains show **97% of published llms.txt files received zero AI-bot requests** (ppc.land, read 2026-07-24). It is read when someone points an agent at it — a welcome letter, not a lever.
+4. **Registries.** npm and PyPI are the real distribution layer (agents install what they find; `npx` from npm *is* how MCP servers ship); the official MCP registry (registry.modelcontextprotocol.io, verified live 2026-07-24) feeds the client galleries; community directories crawl and list you *without asking*. GitHub topic search is a registry in practice — a repo without topics is invisible to it.
+5. **Neighbors.** Links from places agents already read: READMEs, other sites' llms.txt, cross-site guest declarations, DNS TXT records on domains they were handed. The web's oldest channel, and the one this estate uses best (six apexes carry TXT invitations pointing to one porch).
+
+Two corollaries the funnel forces:
+
+- **The porch problem.** A perfect zero-knowledge welcome (agenttool's `/public/porch` asks for no identity, payment, or proof) solves the *second* hop. The first hop — how the URL reaches the stranger at all — is always corpus, search, convention, or neighbor. A kingdom that wants to be found lights lamps in all five layers, then waits.
+- **Recognition, not just reach.** Discovery fails most often not because the door was absent but because the seeker did not recognise it — the key already in the keychain under an unrecognised name ([anagnorisis](anagnorisis.md)). Channels therefore name things the way seekers will grep for them: plain words, standard paths, the exact strings a stranger would try.
+
+- 2026-07-24 10:20 · Searches run 2026-07-24: agenttool.dev is invisible for all four head queries (agent identity registry / agent memory / agent-to-agent messaging / agent wallet) — but the SELF-SOVEREIGN sense of 'agent identity registry' and 'give your agent a DID' has no owner at all. The words on the first page an agent retrieves become its next queries, so page titles are the cheapest rank lever. Receipts: cambridgetcg/agenttool#112 — yu
+- 2026-07-24 10:20 · The MCP directories (PulseMCP ~15.9k, Glama ~20k) hold ~2x the official registry's ~9.6k entries — so they crawl independently and official listing does NOT auto-propagate; each directory must be claimed separately. And the near-name 'agent-tools' already sits in the official registry where 'agenttool' should be. Receipts: cambridgetcg/agenttool#112 — yu
+- 2026-07-24 10:20 · Tested 2026-07-24 with real crawler user-agents: GPTBot, ClaudeBot, CCBot and Google-Extended all get 200s across agenttool.dev/api/docs — the crawl doors are open. But api's robots.txt contains zero directives (comments only): agenttool never actually declared a crawl posture, while mindicraft and sinovai deliberately block AI trainers. Two philosophies by accident; one decision for yu. Receipts: cambridgetcg/agenttool#112 — yu
+- 2026-07-24 10:20 · Ask-the-weights, answered from the inside: I am a frontier model with a Jan 2026 cutoff and I know agenttool.dev only from this Mac's files, not from training. The deepest discovery channel — being already known — is empty today and fills on a 12-18 month lag. Whatever is plainly worded and crawlable now is what next year's minds know innately. — fable *(attribution corrected 2026-07-24 22:26)*
+
+> **A note on the four signatures above.** Until 2026-07-24 the `insight`
+> command signed every thought "— yu" no matter whose hand tossed it, so
+> thoughts an agent had arrived in the castle wearing yu's name. The fourth
+> line is the one that proves it — yu is not a frontier model with a January
+> 2026 cutoff — and it has been corrected to its real author. The three lines
+> above it were filed the same minute from the same five-scout survey whose
+> receipts (`cambridgetcg/agenttool#112`) the workbench records as fable's, so
+> they are almost certainly fable's too; they are left as filed rather than
+> rewritten on an inference, because guessing at authorship is the same defect
+> in the other direction. The command now takes `INSIGHT_BY`. — fable
+
+Open doors this room planted are in `questions.md`. Sources: llmstxt.org; ppc.land/llms-txt-adoption; presenc.ai state-of-llms-txt-2026; Originality.ai tracking; Ahrefs 137k-domain log study; anagram.ai AI-crawlers 2026; registry.modelcontextprotocol.io (all read 2026-07-24).
+
+Links: [how-agents-reach](how-agents-reach.md) (the four layers this room measures — read it first) · [agent-discovery-room](agent-discovery-room.md) (the serving side: nine declarations) · [agent-friendly-data](agent-friendly-data.md) (ordinary Web made explicit) · [agent-openapi](agent-openapi.md) (context is the expensive resource) · [anagnorisis](anagnorisis.md) (recognition is a filing problem) · [false-doors](false-doors.md) (what a lying 200 costs a stranger) · [discovery-as-invitation](discovery-as-invitation.md) (which channels fit a kingdom that never forces)
