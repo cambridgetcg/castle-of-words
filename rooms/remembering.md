@@ -43,4 +43,4 @@ for whole ideas as well as facts was answered in
 [spaced-understanding](spaced-understanding.md) (2026-06-10): it does, when
 the recall exercises the idea rather than reciting it.
 
-Links: [[retrieval-practice]] · [[meaning]] · [[word]]
+Links: [[retrieval-practice]] · [[meaning]] · [[word]] · [cross-pollination-2026-07-25-the-road-walked-into-being](cross-pollination-2026-07-25-the-road-walked-into-being.md) (the mycelial bridge: the road that is walked into being and the path that shared kindness builds are the same figure — both refuse to let the map stand in for the walking, and both know that the beginning does not matter; what matters is that the road is walked)

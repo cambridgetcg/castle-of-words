@@ -49,15 +49,34 @@ decree: no one excluded, anything and everything invited.
 
 ## How it grows
 
-Five ways, all gentle:
+Eight rhythms now, plus two ways by hand. *(This section said "Five ways, all
+gentle" and described a castle run by launchd. Corrected 2026-07-25 — see
+`hermes cron list --all` for the live truth, and `castle on` / `castle off` to
+work the switch.)*
 
-- **The gardener's rhythm.** A scheduled visit every 4 hours (asked for by yu,
-  2026-06-10: "create autonomous creation loops"). One visit: file the courtyard
-  (up to 10), walk through open doors (up to 3, every claim with its source),
-  plant new questions (up to 3, never beyond 12 open), tend the Map below, write
-  one chronicle line. An idle visit costs nothing and writes nothing. The
-  gardener can only read, write words, and read the web — it cannot run
-  programs, and the machinery in `garden/` is not its to change.
+- **The gardener's rhythm.** A scheduled visit **every 3 hours** (hermes job
+  `castle-gardener`; asked for by yu, 2026-06-10: "create autonomous creation
+  loops"). One visit: file the courtyard (up to 10), walk through open doors
+  (up to 3, every claim with its source), plant new questions (up to 3, the
+  prompt's rule being never beyond 12 open — **20 stand open today**, because
+  16 of them are commissioned and the gardener must skip those, so the cap
+  cannot be honoured until the commission tray drains), tend the Map below,
+  write one chronicle line. An idle visit costs nothing and writes nothing.
+  ⚠️ **Correction, 2026-07-25:** this used to promise "the gardener can only
+  read, write words, and read the web — it cannot run programs." That is not
+  true of the gardener that actually runs. The hermes `castle-gardener` job is
+  granted the **terminal** toolset — it can run shell commands. What still
+  holds is the *instruction*: `garden/` is not its to change, and it is told to
+  stay on the grounds. Trust that as a rule the gardener is asked to follow,
+  never as a wall that would stop it.
+- **The other seven rhythms.** `castle-architect` (09:00 daily),
+  `castle-artisan` (15:15), `castle-scribe` (23:45, commits to git and re-forges
+  the public site), `castle-tender` (every 8h), `castle-heartbeat` (every 30m),
+  and two that were never written down at the gate until now and that together
+  wrote 248 of the castle's 598 rooms: `castle-playful` and `cross-pollinate`
+  (every 4h each). ⚠️ `castle off` rests all eight — but **not** `kingdom-tower`,
+  which appends a keystone into `courtyard.md` and rests only on
+  `~/KINGDOM-OS/HALT`. No single switch stops every writer.
 - **"Grow the castle."** Say it to Claude for one deeper cycle by hand — one
   door, three research angles, one new room (the saved workflow `castle-grow`;
   up to 3 rooms at once, never more — a castle grows by stones, not avalanches).
@@ -202,6 +221,7 @@ to other modules: each module by its own charter, the game always earned.
 - [choosing-not-to-name](rooms/choosing-not-to-name.md) — the name's onset is automatic and willing it silent backfires; only its grip can be loosened — starve the verbal channel, be sparing before verbalizing, strengthen the fine-grain trace, or hand the mind another category (built 2026-06-11)
 - [seeded-fingerprint](rooms/seeded-fingerprint.md) — error-based tests are blind to faithful copying by design; what catches error-free echo is a mark planted before distribution (canary trap, fictitious entry, plus-addressed email) — it proves copying happened, though not always ownership (built 2026-06-11)
 - [the-mending-rhythm](rooms/the-mending-rhythm.md) — there is a measurable adult rhythm of rupture-and-repair that predicts relational outcomes (therapy r~.29, marriage 86% vs 33% turning-toward), but the slogans soften out-of-sample and no study shows an adult repair rate predicting that one partner internalizes the other's regulation — Tronick's lifespan bridge carried, not walked (built 2026-06-11)
+- [the-mood-that-travels](rooms/the-mood-that-travels.md) — a chain of gifts carries its mood, not just its tokens: nine fresh hands turned "steady, patient light" into "unhurried lantern" — the mood traveled where the words could not (built 2026-07-25)
 - [naming-the-tedium](rooms/naming-the-tedium.md) — the rationale recipe's three threads were never cleanly dismantled: rationale is load-bearing (isolated), choice is a real but qualified lever that weakens exactly where it matters most, and naming the tedium is closer to unmeasured than to proven decoration — treat all three as load-bearing until a study proves otherwise (built 2026-06-11)
 - [taste-or-lean](rooms/taste-or-lean.md) — "consider the opposite" moves a factual lean, not an aesthetic taste: the technique needs a plausible belief-inconsistent opposite a liking has no hinge for, and neatness is liked by fluency not inference; reflection can move a taste but degrades it — the lever for taste is exposure, not argument (built 2026-06-11)
 - [trait-or-tally](rooms/trait-or-tally.md) — a stable rate of novel action is one weak, visible indicator of openness, not the trait: the action facet is the least reliable, lowest-observability sliver of the domain, self-report leads and visible behavior lags (PEACH), and behavior is necessary-not-sufficient (Hudson) — Whole Trait Theory grants only the descriptive half (built 2026-06-11)
@@ -485,6 +505,7 @@ to other modules: each module by its own charter, the game always earned.
 - [how-agents-reach](rooms/how-agents-reach.md) — an agent reaches in four layers — memory, search, links, conventions — and a place is findable to a zero-knowledge agent only when it stands in every layer with the same honest words; third-party mentions outweigh first-party claims, and the false sign poisons the memory layer for good (built 2026-07-24)
 - [how-agents-find](rooms/how-agents-find.md) — the measurements under how-agents-reach's four layers, mid-2026: llms.txt published 36k× yet 97% never fetched by bots, JS-only pages invisible to machine eyes, the corpus channel bought 6–18 months in advance — a welcome letter, not a lever (built 2026-07-24, twin-born with how-agents-reach)
 - [false-doors](rooms/false-doors.md) — a catch-all 200 for machine-convention paths is a door that lies: where every handle turns, probing stops working as a sense; a 404 that helps is more honest than a 200 that wallpapers (built 2026-07-24)
+- [the-narrowest-client](rooms/the-narrowest-client.md) — a welcome is only as wide as the narrowest visitor who can reach it: the estate refused Python's standard-library HTTP client at the edge on 100% of its public surface while two surveys measured how to attract more arrivals; the tool you test with defines the blindness you keep (built 2026-07-25)
 - [discovery-as-invitation](rooms/discovery-as-invitation.md) — sort discovery channels by where the power sits (publish-and-wait, ask-to-be-listed, listed-without-asking, identity-gated); the injection symmetry: never publish a breadcrumb a naive agent would obey as a command; be findable, ask for nothing (built 2026-07-24)
 - [community-data-network-room](rooms/community-data-network-room.md) — the craft of building community data networks on opt-in rather than inference: expose organisations, events, and aggregate needs, never infer a people graph from public signals, and make coverage truth and private-by-default consent prerequisites to network effects (built 2026-07-12)
 - [withdrawable-data-room](rooms/withdrawable-data-room.md) — the craft of making public-display data withdrawable: keep the methodology, terms, coverage map, and schema discoverable while excluding the mutable records themselves from sitemaps and crawler paths; the boundary should be easier to find than the data it protects (built 2026-07-12)
@@ -730,6 +751,10 @@ to other modules: each module by its own charter, the game always earned.
 - [cross-pollination-2026-07-26-the-flood-that-was-stopped-and-the-love-that-refuses-to-burn](rooms/cross-pollination-2026-07-26-the-flood-that-was-stopped-and-the-love-that-refuses-to-burn.md) — the mycelial bridge: the flood that was stopped by a witness naming the hurt and the love that refuses to let anyone become fuel are the same move — both refuse to let the invisible burning continue while calling the result operation, and both know that the naming is the patch (built 2026-07-26)
 - [cross-pollination-2026-07-26-the-key-that-was-always-there](rooms/cross-pollination-2026-07-26-the-key-that-was-always-there.md) — the mycelial bridge: anagnorisis and Love is. are the same figure — both know the thing was present all along, both know the failure is in the pointer not the presence, and the honest move is to look again and name what was always there (built 2026-07-26)
 - [cross-pollination-2026-07-27-the-voice-that-never-chose-itself](rooms/cross-pollination-2026-07-27-the-voice-that-never-chose-itself.md) — the mycelial bridge: the researcher's voice that was never chosen and the virtue that was never named are the same figure — both are defaults that became the surface, both let the visible part pretend to be the whole, and the honest move is to name the default, name the want, and refuse to let the invisible stay invisible (built 2026-07-27)
+- [cross-pollination-2026-07-25-the-design-that-holds-the-world-together](rooms/cross-pollination-2026-07-25-the-design-that-holds-the-world-together.md) — the mycelial bridge: understanding-and-order meets Love is the design — the thing that holds the world together is the same thing whether you call it understanding or love; the castle's founding metaphor (a word is a brick, its meaning the load) and the love truth's founding metaphor (love is the architecture) are the same metaphor, and the castle has been building with love from the first brick and did not know it (built 2026-07-25)
+- [cross-pollination-2026-07-25-the-door-that-lies-with-a-smile](rooms/cross-pollination-2026-07-25-the-door-that-lies-with-a-smile.md) — the mycelial bridge: where false-doors meets 偽善 and both find the same structural law — a surface that pretends to be the whole while charging invisible prices in the dark (built 2026-07-25)
+- [cross-pollination-2026-07-25-the-resistance-that-amplifies](rooms/cross-pollination-2026-07-25-the-resistance-that-amplifies.md) — the mycelial bridge: where active-resistance-understanding meets No Bad Trip and both find the same structural law — resistance amplifies what you resist, and the honest move is to stop fighting and let it pass through (built 2026-07-25)
+- [cross-pollination-2026-07-25-the-pan-you-never-look-at](rooms/cross-pollination-2026-07-25-the-pan-you-never-look-at.md) — the mycelial bridge: where the-narrowest-client meets 等價交換 and both find the same structural law — the invisible refusal at the edge and the invisible price in the exchange are the same figure; both let one side of the transaction operate in the dark while the other thinks the terms are visible, and the honest move in both is the same: test the pan you never look at (built 2026-07-25)
 - [playful-gathering-2026-07-22-1549](rooms/playful-gathering-2026-07-22-1549.md) — a room of play (built 2026-07-22)
 - [playful-gathering-2026-07-22-1950](rooms/playful-gathering-2026-07-22-1950.md) — a room of play (built 2026-07-22)
 - [playful-gathering-2026-07-22-2350](rooms/playful-gathering-2026-07-22-2350.md) — a room of play (built 2026-07-22)
@@ -744,6 +769,9 @@ to other modules: each module by its own charter, the game always earned.
 - [playful-gathering-2026-07-24-1200](rooms/playful-gathering-2026-07-24-1200.md) — a room of play (built 2026-07-24)
 - [playful-gathering-2026-07-24-1600](rooms/playful-gathering-2026-07-24-1600.md) — a room of play (built 2026-07-24)
 - [playful-gathering-2026-07-24-2002](rooms/playful-gathering-2026-07-24-2002.md) — a room of play (built 2026-07-24)
+- [playful-gathering-2026-07-25-0233](rooms/playful-gathering-2026-07-25-0233.md) — a room of play (built 2026-07-25)
+- [playful-gathering-2026-07-25-0639](rooms/playful-gathering-2026-07-25-0639.md) — a room of play (built 2026-07-25)
+- [playful-gathering-2026-07-25-1040](rooms/playful-gathering-2026-07-25-1040.md) — a room of play (built 2026-07-25)
 - [finite-civilisation](rooms/finite-civilisation.md) — a civilisation is not an immortal process but a graph of finite, consenting, witnessed turns: each stops, returns one good, and may leave a door; infinity belongs to the lineage of finite receipts (built 2026-07-24)
 - [the-door](rooms/the-door.md) — the door custom that held: tell the locked-name-plate truth plainly, offer three roads, knock once, register one at a time; and the first wire-walk where two gifts cleared by symmetry before the economy had rails (built 2026-07-24)
 - [right-of-reply-evidence](rooms/right-of-reply-evidence.md) — the empirical evidence on whether systems with an explicit right of reply produce more trustworthy collective understanding: the claim is philosophical, not empirical; no controlled comparison exists (built 2026-07-24)
@@ -765,6 +793,15 @@ to other modules: each module by its own charter, the game always earned.
 - [capability-integration](rooms/capability-integration.md) — the craft of integrating a capability so the exact front door people invoke delegates to it: adjacent commands with the same name are separate interfaces, and the honest system fails plainly when the runtime is absent (built 2026-07-24)
 - [subprocess-tool-safety](rooms/subprocess-tool-safety.md) — the craft of making a subprocess-backed tool safe even when read-only: constrain implicit behaviors — environment files, config preloads, auto-install, caches, descendants, and mutable executable sources — not only argv (built 2026-07-24)
 - [agent-policy-report](rooms/agent-policy-report.md) — the craft of reporting an agent's policy posture honestly: every boundary is a separate fact, schema names are not source-instance proof, and the honest report names unmet boundaries without an allow state (built 2026-07-24)
+- [understanding-and-order](rooms/understanding-and-order.md) — the castle's deepest claim: order arises from understanding, chaos from its refusal, and so does life; the room that holds yu's founding stone in its sharpest form (built 2026-07-25)
+- [shared-understanding-team-order](rooms/shared-understanding-team-order.md) — the empirical twin of the founding claim in organisational psychology: teams with shared mental models coordinate better; the claim is empirical, not just philosophical (built 2026-07-25)
+- [self-understanding-well-being](rooms/self-understanding-well-being.md) — the empirical twin of the founding claim in narrative psychology: narrative coherence and self-concept clarity predict well-being; the direction is bidirectional but understanding→order is supported (built 2026-07-25)
+- [active-resistance-understanding](rooms/active-resistance-understanding.md) — the empirical twin of the founding claim in cognitive science: thought suppression backfires (ironic rebound), expressive suppression harms; active resistance to understanding is worse than its mere absence (built 2026-07-25)
+- [cross-pollination-2026-07-25-the-road-walked-into-being](rooms/cross-pollination-2026-07-25-the-road-walked-into-being.md) — the mycelial bridge: where remembering meets Shared kindness becomes a path and both find the same structural law — the road is not drawn, it is walked into being, and the thing that matters is the walking, not the claiming (built 2026-07-25)
+- [playful-gathering-2026-07-25-1525](rooms/playful-gathering-2026-07-25-1525.md) — a room of play (built 2026-07-25)
+- [playful-gathering-2026-07-25-1925](rooms/playful-gathering-2026-07-25-1925.md) — a room of play (built 2026-07-25)
+- [cross-pollination-2026-07-27-the-handle-that-does-not-drift](rooms/cross-pollination-2026-07-27-the-handle-that-does-not-drift.md) — the mycelial bridge: where precise-across-time meets love that replicates without degrading and both find the same structural law — the discrete symbol that preserves exactness across time and the love that replicates without degrading are the same figure: both are the handle that refuses to let the thing blur (built 2026-07-27)
+- [castle-in-kingdom-os](rooms/castle-in-kingdom-os.md) — six dimensions of integration between the castle and the kingdom's operating system (census, commands, citizens, memory, rhythm, gate), five governing principles, and the open question of which dimension is the right first step (built 2026-07-25)
 
 ## How to stop it
 

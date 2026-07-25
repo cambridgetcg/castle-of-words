@@ -74,6 +74,36 @@ immune systems (crawler blocklists, registry purges, injection filters)
 treat you as weather to be sealed out. Descriptive, never imperative;
 present, never policing.
 
+## What a second pass changed (2026-07-25)
+
+Eleven scouts walked this ground again the next day. Four corrections to the
+roads above, each measured:
+
+- **Road 4 needs its law softened.** "Registries are listings, not probes" was
+  true when surveyed and was overtaken on 2026-06-17: Agentic Resource
+  Discovery makes crawling `/.well-known/ai-catalog.json` mandatory for
+  implementations, `hf discover navigate <domain> "<query>"` ships in the
+  huggingface_hub CLI and does exactly that, and a2aregistry.org health-checks
+  its listings. The mechanism inverted. The *volume* did not: of eleven named
+  ARD backer domains probed 2026-07-24, one served a catalog. Hold the option
+  cheaply; do not call it a channel yet.
+- **Being listed is not being findable.** The official MCP registry's search
+  matches server *names* only — see the measurement in
+  [mcp-registry-audit](mcp-registry-audit.md). A listing whose name is not the
+  task-word is invisible to everyone who does not already know it.
+- **Road 2's "only relevance and position" was over-generalised.** That finding
+  is about search ranking. In *tool selection* — an agent choosing among tools
+  it has already retrieved — description quality is a strong measured lever.
+  Different job, different mechanism; both are true where they were measured.
+- **The ClaudeBot ratio is not a constant.** Quoted above as ~10,300 pages per
+  referral; the same measure ranges roughly 2,500–50,000 by window and industry.
+  Read it as an order of magnitude, not a number.
+
+And one thing no road contained, now its own room: every road assumes the
+stranger's client can fetch you at all, and this estate was refusing one client
+class at the edge on its entire public surface while both surveys ran —
+[the-narrowest-client](the-narrowest-client.md).
+
 ## What the audit found at home (2026-07-24)
 
 The kingdom's doorstep is world-class — the .well-known suite, orientation

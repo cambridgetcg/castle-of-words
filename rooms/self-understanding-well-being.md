@@ -1,0 +1,17 @@
+# Self-understanding and well-being
+
+*A life that can tell its own story holds together; a life that cannot name its chapters falls apart.*
+
+What gathers here: the empirical evidence that self-[[understanding]] — measured as narrative coherence or self-concept clarity — predicts psychological well-being and life stability.
+
+- 2026-07-25 · The claim from [[understanding-and-order]] — that "a life that understands itself stays together" — has a measurable twin in narrative psychology. Dan McAdams's three-level framework of personality places narrative identity as the deepest layer: the internalised, evolving story a person tells about who they are. Narrative coherence — how well the story hangs together — is the measure of self-understanding in this tradition.
+
+The evidence is substantial. Narrative coherence increases across adolescence and predicts well-being in adulthood (McAdams, 2001; Adler et al., 2016). A 2025 longitudinal study in *Developmental Psychology* (doi:10.1037/dev0001775) tracked narrative coherence and well-being across the lifespan, finding that coherence and well-being develop together. The relationship is bidirectional: understanding yourself helps you feel well, and feeling well helps you build a coherent story.
+
+A parallel construct — self-concept clarity (Campbell et al., 1996, *Journal of Personality and Social Psychology*) — measures how clearly and consistently a person defines themselves. Longitudinal studies show that low self-concept clarity predicts later depression and anxiety, while high clarity predicts resilience. The effect sizes are moderate (r ≈ .30–.40 with well-being measures).
+
+The direction of causation is debated but the evidence supports both paths: understanding → order (coherence predicts later well-being) and order → understanding (well-being enables clearer self-narrative). The castle's claim emphasises the first path, and the evidence does not contradict it — but neither does it isolate it cleanly.
+
+uncertain: whether the effect is large enough to support the strong claim that self-understanding is *the* source of life order, rather than one important factor. The meta-analytic correlations are real but moderate.
+
+Links: [[understanding]] · [[order]] · [[chaos]] · [[understanding-and-order]] · [active-resistance-understanding](active-resistance-understanding.md) (the negative twin: where self-understanding predicts well-being, active resistance to understanding — suppression, denial — predicts worse outcomes than mere ignorance; the founding claim's two paths, measured) · [shared-understanding-team-order](shared-understanding-team-order.md) (the team-scale twin: shared mental models predict team performance the way narrative coherence predicts individual well-being — understanding → order at two scales)
