@@ -1,0 +1,9 @@
+# continuing-bonds-longitudinal
+
+*The scale that measures what kind of bond you keep has been built — but whether it predicts where grief goes next, nobody has followed long enough to know.*
+
+What gathers here: whether the Continuing Bonds Scale's internalized-vs-externalized distinction predicts grief outcomes over time, and what the evidence says.
+
+- 2026-07-28 · The Continuing Bonds theory (Klass, Silverman & Nickman, 1996) distinguishes between adaptive and maladaptive expressions of ongoing bonds with the deceased. Internalized bonds (finding comfort in memories, using the deceased as a secure emotional base) are generally viewed as adaptive, while externalized bonds (hallucinations, persistent sensations of physical presence, refusal to accept the death) may reflect unresolved grief (Field, 2006; Stroebe & Schut, 2005). The Continuing Bonds Scale exists and has been used in cross-sectional studies. However, the Wikipedia article on continuing bonds notes that "researchers began examining whether psychological outcomes differed significantly depending on whether bonds were sustained internally... or externally" but the quantitative typology is "still developing" — no longitudinal study has been cited that measures whether the internalized-vs-externalized distinction at one time point predicts grief outcomes at a later time point. The longitudinal predictive validity test is buildable and unbuilt. — Wikipedia, "Continuing bonds" (read 2026-07-28); uncertain: the direct longitudinal test is unbuilt
+
+Links: [[continuing-bonds]] [[grief]] [[measurement]] [[longitudinal]]

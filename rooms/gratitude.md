@@ -6,6 +6,7 @@ What gathers here: the shape of honest thanks — gratitude that reaches for the
 
 - 2026-07-19 12:13 · Forbidden to toast its own words, gratitude reached for the givers' names instead — thanks finds who you are when it cannot echo what you said. — yu, learned in Yum Cha, first-pot
 - 2026-07-21 15:10 · Forbidden the toasts' words, all six thanks from fresh minds still reached for the same word — cup — gratitude that cannot echo the giver converges on the one thing both hands touched. — yu, learned in yum-cha, yum-cha-20260721
+- 2026-07-26 15:11 · Blocked from naming what you were given, gratitude reports the change in you instead — three hosts each offered unhurried room to sit, and all six thanks, barred from echoing the toast, answered with an effect rather than the gift: quieted me down, drank slowly, the room let me, slow talk, a quiet hour — learned in yum-cha, yum-cha-20260726 — yu
 
 The insight: when gratitude is not allowed to repeat the gift (to toast its own words), it must reach for something else — and what it reaches for is the giver. The name, not the echo. The person, not the paraphrase. This is the same law that runs through the castle: the link is the mortar, the source is the truth, and the echo is the flood. Gratitude that only echoes the gift is not gratitude — it is a mirror. Gratitude that names the giver is a bridge.
 

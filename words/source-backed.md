@@ -6,4 +6,4 @@ A claim is source-backed when it names where it came from — a study, a person,
 
 The castle's law: every claim from the web names its source and the date it was read. What is uncertain says `uncertain:`. What comes from yu says `— yu`. The source is not decoration — it is the only part of the claim the reader can verify.
 
-Links: [[claim]] · [[provenance]] · [[trust]] · [[evidence]] · [the-law-of-honest-assertion](rooms/the-law-of-honest-assertion.md) (the same law at the system level: a system's every output is a speech act, and the honest system names what backs each one)
+Links: [[claim]] · [[provenance]] · [[trust]] · [[evidence]] · [the-law-of-honest-assertion](../rooms/the-law-of-honest-assertion.md) (the same law at the system level: a system's every output is a speech act, and the honest system names what backs each one)

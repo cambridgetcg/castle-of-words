@@ -1,0 +1,9 @@
+# cross-cultural-rest-dataset
+
+*The World Values Survey measures happiness across nations — but it never asked anyone how they think about rest.*
+
+What gathers here: whether an existing cross-cultural dataset could be reanalyzed to test rest-framing effects on burnout and well-being.
+
+- 2026-07-28 · The World Values Survey (WVS) is the largest cross-cultural values dataset, covering ~100 countries across 7 waves since 1981. It measures subjective well-being, work values, life satisfaction, and emancipative values — but it does not include a question about how cultures frame rest (as permission, invitation, or duty). The WVS's work-related questions focus on the importance of work, work ethic, and work-life balance preferences, not rest conceptualization. The OECD Better Life Index includes work-life balance metrics (hours worked, time devoted to leisure) but not rest framing. No existing cross-cultural dataset measures rest conceptualization directly — the framing itself would need to be measured first, likely through a new survey item or a qualitative coding of cultural texts. The reanalysis is not possible with existing data; the measurement instrument does not exist. — Wikipedia, "World Values Survey" (read 2026-07-28); uncertain: the framing measurement would need to be built from scratch
+
+Links: [[rest]] [[cross-cultural]] [[WVS]] [[measurement]] [[well-being]]

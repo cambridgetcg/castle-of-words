@@ -6,4 +6,4 @@ Fail-closed means: when the system cannot be certain, it denies. An API that fai
 
 The pattern recurs across rate-limiting, credential scanning, route guards, and login limiters. The principle is not "always deny" — it is "name the choice." A boundary that fails one way without saying so is a boundary that lies.
 
-Links: [[fail-open]] · [[absence-boundary]] · [[boundary]] · [fail-closed-or-fail-open](fail-closed-or-fail-open.md)
+Links: [[fail-open]] · [[absence-boundary]] · [[boundary]] · [fail-closed-or-fail-open](../rooms/fail-closed-or-fail-open.md)

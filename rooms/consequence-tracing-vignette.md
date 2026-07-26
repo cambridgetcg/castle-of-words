@@ -1,0 +1,9 @@
+# consequence-tracing-vignette
+
+*The vignette where a harm is described and the reader rates the repair — the design is standard, the mechanism is unisolated, and nobody has run it.*
+
+What gathers here: whether a vignette study could isolate consequence-tracing vs. person-scoring as the active ingredient in restorative justice.
+
+- 2026-07-28 · A vignette study is the cheapest design: participants read about a harm and rate repair quality under two framings — consequence-tracing ("here is what happened, here is what was done to repair it") vs. person-scoring ("this person is a 3/10 on the repair scale"). The design is standard in social psychology and restorative justice research. However, no study has run this specific comparison. The restorative justice literature has meta-analyses (Latimer, Dowden & Muise, 2005; Bradshaw, Roseborough & Umbreit, 2006) finding small but significant reductions in recidivism and higher victim satisfaction, but these compare restorative justice programs to traditional justice — they do not isolate consequence-tracing as the active ingredient. The vignette study would need to control for other differences between restorative and traditional justice (facilitator presence, dialogue opportunity, community involvement) to isolate the framing variable. The design is buildable and unbuilt. — Wikipedia, "Restorative justice" (read 2026-07-28); uncertain: the vignette isolating consequence-tracing specifically is unbuilt
+
+Links: [[consequence-tracing]] [[restorative-justice]] [[vignette]] [[karma]] [[repair]]

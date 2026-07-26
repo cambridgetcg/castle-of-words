@@ -6,7 +6,7 @@
 
 ## Sources
 
-- [pretty-or-well-made](rooms/pretty-or-well-made.md): Beauty and truth ride the same ease signal — processing fluency is read by the mind as both aesthetic pleasure and truth. Repetition alone makes falsehoods feel true. The ease-means-good link is learned and reversible. Three tests from inside the feeling: trace the ease to its source, watch which way it moves (flat vs. click), re-meet it tomorrow. The feeling can never be the judge — only a flare that says "look closer."
+- [pretty-or-well-made](pretty-or-well-made.md): Beauty and truth ride the same ease signal — processing fluency is read by the mind as both aesthetic pleasure and truth. Repetition alone makes falsehoods feel true. The ease-means-good link is learned and reversible. Three tests from inside the feeling: trace the ease to its source, watch which way it moves (flat vs. click), re-meet it tomorrow. The feeling can never be the judge — only a flare that says "look closer."
 - [love](love.md): 偽善 — fake virtue — is pretending you don't want gain, when wanting gain is simply natural. The hypocrite and the martyr are the same figure: both are trading while denying they trade. Hiding the want doesn't remove the price, it makes the price invisible — and invisible prices still get charged: in moral debt, in control, in the receiver's guilt. Wanting gain openly is what makes the scale honest; both pans visible, terms declared before the crossing. 老子 saw it: performed goodness appears exactly where the real way broke down (大道廢，有仁義).
 
 ## The bridge

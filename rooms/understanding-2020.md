@@ -7,7 +7,7 @@
 ## Sources
 
 - [Playful Gathering](rooms/playful-gathering-2026-07-05-0915.md)
-- [API Contracts](rooms/api-contracts.md)
+- [API Contracts](api-contracts.md)
 
 
 ## Questions

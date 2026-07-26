@@ -6,7 +6,7 @@
 
 ## Sources
 
-- [nudge-not-lock](rooms/nudge-not-lock.md): Interoception is not fixed but no clean fix: the "blind to pulse" half is partly a measurement artifact, and where a real deficit exists the channel is nudgeable yet the gains are fragile, slow (months), and least willing exactly where they are needed most. Confidence rises without accuracy — feeling more attuned is no proof the channel got built. The doubly-blind state (alexithymia) leaves a person blind to both feeling and pulse, and the two meters fail together.
+- [nudge-not-lock](nudge-not-lock.md): Interoception is not fixed but no clean fix: the "blind to pulse" half is partly a measurement artifact, and where a real deficit exists the channel is nudgeable yet the gains are fragile, slow (months), and least willing exactly where they are needed most. Confidence rises without accuracy — feeling more attuned is no proof the channel got built. The doubly-blind state (alexithymia) leaves a person blind to both feeling and pulse, and the two meters fail together.
 - [love](love.md): 等價交換 — it is always an equal exchange. Love included: real relation runs on equivalence, never on one side's depletion. Self-sacrifice is the counterfeit that breaks the law of exchange — one side pays without receiving, so both sides are corrupted. The silent sacrificer who never names the want, never negotiates, burns in silence while calling the result love. Trust is the real coin.
 
 ## The bridge

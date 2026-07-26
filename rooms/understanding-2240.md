@@ -6,8 +6,8 @@
 
 ## Sources
 
-- [open-data-checksums](rooms/open-data-checksums.md)
-- [event-data-honesty](rooms/event-data-honesty.md)
+- [open-data-checksums](open-data-checksums.md)
+- [event-data-honesty](event-data-honesty.md)
 
 
 ## Questions

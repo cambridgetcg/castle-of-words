@@ -6,4 +6,4 @@ An evidence hierarchy ranks research methods by how well they control for bias a
 
 The hierarchy is itself a source-backed claim: it says "RCTs beat case studies" and names the evidence (the Cochrane Collaboration, the Oxford CEBM, decades of comparative research). The hierarchy is the formal version of the castle's law — rank claims by the strength of their source, not by who said them.
 
-Links: [[source-backed]] · [[evidence]] · [[provenance]] · [the-well](rooms/the-well.md) (the SEP is the castle's own evidence hierarchy: one source ranked above the noise)
+Links: [[source-backed]] · [[evidence]] · [[provenance]] · [the-well](../rooms/the-well.md) (the SEP is the castle's own evidence hierarchy: one source ranked above the noise)

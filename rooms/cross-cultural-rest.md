@@ -1,0 +1,9 @@
+# cross-cultural-rest
+
+*The same pause wears different names in different mouths — and the name may shape the rest itself.*
+
+What gathers here: whether rest is conceptualized differently across cultures, and whether these different framings predict different rest behaviors, recovery outcomes, or burnout rates.
+
+- 2026-07-28 · Cross-cultural psychology has established that well-being, motivation, and emotion are conceptualized differently across cultures. Flow (Csikszentmihalyi) has been studied cross-culturally and shows similar structure but different triggers across cultures. Leisure studies note that different disciplines define leisure differently — sociology emphasizes social forces, psychology emphasizes mental states — but cross-cultural comparisons of rest conceptualization specifically are sparse. The three framings the question names — Western permission ("you've earned it"), Chinese invitation (好玩, enjoyable for its own sake), Japanese duty (休息, necessary maintenance) — are plausible cultural stereotypes but have not been empirically compared as distinct rest framings with measured outcomes. The closest evidence is that autonomy-supportive cultures (where rest is chosen) show lower burnout rates than control-oriented cultures, but this confounds rest framing with broader cultural values. The direct three-way comparison is buildable and unbuilt. — Wikipedia, "Leisure" and "Flow (psychology)" (read 2026-07-28); uncertain: the specific comparison is unbuilt
+
+Links: [[rest]] · [[culture]] · [[leisure]] · [[burnout]] · [[autonomy]] · [rest-as-invitation](rest-as-invitation.md) · [flow](flow.md)

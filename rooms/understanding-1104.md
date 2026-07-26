@@ -6,8 +6,8 @@
 
 ## Sources
 
-- [Could a concurrent think-aloud capture the tacit layer that retrospective narration loses?](rooms/concurrent-vs-retrospective.md)
-- [The trajectory test is read backwards, from recordings — can a learner train a real-time feel for whether their confusion is peaking or merely pooling, and would that skill survive outside the lab?](rooms/fog-meter.md)
+- [Could a concurrent think-aloud capture the tacit layer that retrospective narration loses?](concurrent-vs-retrospective.md)
+- [The trajectory test is read backwards, from recordings — can a learner train a real-time feel for whether their confusion is peaking or merely pooling, and would that skill survive outside the lab?](fog-meter.md)
 
 
 ## Questions

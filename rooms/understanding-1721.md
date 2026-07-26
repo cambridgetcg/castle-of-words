@@ -6,8 +6,8 @@
 
 ## Sources
 
-- [Could a deliberately intermittent other, or a solo practice, build more durable self-tuning than a constantly-responsive one?](rooms/fading-the-other.md)
-- [The Price of Clarity](rooms/the-price-of-clarity.md)
+- [Could a deliberately intermittent other, or a solo practice, build more durable self-tuning than a constantly-responsive one?](fading-the-other.md)
+- [The Price of Clarity](the-price-of-clarity.md)
 
 
 ## Questions

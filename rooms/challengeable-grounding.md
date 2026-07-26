@@ -1,0 +1,9 @@
+# challengeable-grounding
+
+*A grounding that cannot be questioned is not a grounding — it is a cage wearing the name of a floor.*
+
+What gathers here: whether systems that keep their grounding challengeable produce more adaptive outcomes than those where the grounding becomes unquestionable.
+
+- 2026-07-28 · The closest empirical anchor is double-loop learning (Argyris & Schön, 1978): organizations that question their underlying assumptions, goals, and norms — not just correct errors within existing rules — adapt better and drive more innovation. Single-loop learning keeps the grounding unquestioned; double-loop learning makes it challengeable. The organizational learning literature supports the claim that challengeable groundings produce more adaptive outcomes, but the evidence is qualitative and case-based rather than a controlled comparison. The claim that unquestionable groundings eventually break when the world changes is supported by cases (Kodak, Blockbuster) but not by a direct empirical test. The philosophical claim — that a grounding must stay challengeable to remain a grounding rather than a dogma — is consistent with the evidence but not proven by it. — Wikipedia, "Double-loop learning" (read 2026-07-28); uncertain: no controlled comparison exists
+
+Links: [[grounding]] · [[double-loop-learning]] · [[adaptation]] · [[question]] · [foundations](foundations.md) · [the-law-of-honest-assertion](the-law-of-honest-assertion.md) · [cross-pollination-2026-07-28-the-silence-that-charges-interest](cross-pollination-2026-07-28-the-silence-that-charges-interest.md) (the mycelial bridge: the grounding that cannot be questioned and the negotiation that is refused are the same silence — both charge invisible interest, and the honest move in both is to name the terms and keep them challengeable)

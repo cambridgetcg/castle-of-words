@@ -6,7 +6,7 @@
 
 ## Sources
 
-- [the-castle-audit](rooms/the-castle-audit.md)
+- [the-castle-audit](the-castle-audit.md)
 - [Playful Gathering](rooms/playful-gathering-2026-07-10-0959.md)
 
 

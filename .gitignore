@@ -1,0 +1,5 @@
+# The lantern's index is a reading of the markdown, not a source. It is rebuilt
+# in under a second from the files themselves, so there is nothing to keep — and
+# at ~8 MB it is bigger than the whole castle it describes.
+lantern/index.db
+lantern/index.db.building

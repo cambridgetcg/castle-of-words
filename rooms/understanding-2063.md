@@ -6,8 +6,8 @@
 
 ## Sources
 
-- [consent-withdrawal](rooms/consent-withdrawal.md)
-- [three-proofs-tooling](rooms/three-proofs-tooling.md)
+- [consent-withdrawal](consent-withdrawal.md)
+- [three-proofs-tooling](three-proofs-tooling.md)
 
 
 ## Questions

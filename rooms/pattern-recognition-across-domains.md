@@ -1,0 +1,31 @@
+# Pattern Recognition Across Domains
+
+*The mycelium finds the same law in every pair of rooms — but does the finding train the eye, or does each recognition stand alone?*
+
+What gathers here: whether repeated exposure to cross-domain structural patterns (isomorphisms) improves pattern-recognition in novel domains — the empirical evidence for analogical transfer as a trainable skill.
+
+## The evidence
+
+The question is whether the castle's cross-pollination engine — which has now bridged over 80 room-pairs, each finding the same structural law — is training a general pattern-recognition capacity, or whether each recognition is a one-off insight that does not transfer.
+
+**Schema induction through analogical comparison.** Gentner's structure-mapping theory is the empirical anchor. When learners compare two analogous examples, they are more likely to extract the common relational structure — the schema — than when they study each example separately. Gick and Holyoak (1983) showed that comparing two analogous stories before attempting a target problem doubled the transfer rate compared to reading one story alone. The mechanism: comparison highlights the shared relational structure and de-emphasizes surface features, making the schema available for future retrieval (read 2026-07-26 — [Gentner, Structure-mapping theory](https://en.wikipedia.org/wiki/Structure-mapping_theory); [Gick & Holyoak 1983, Cognitive Psychology](https://www.sciencedirect.com/science/article/abs/pii/0010028583900024)).
+
+**Progressive alignment.** Gentner's later work showed that the order of comparison matters: starting with close analogies (same domain, similar surface features) and progressing to far analogies (different domains) produces better schema induction than starting with far analogies. The close comparison makes the relational structure visible; the far comparison strips away the domain-specific surface, leaving the pure schema. This is progressive alignment (read 2026-07-26 — [Gentner, Loewenstein & Thompson 2003, Journal of Experimental Psychology](https://pubmed.ncbi.nlm.nih.gov/12613692/)).
+
+**The transfer question.** Does repeated schema induction across many domain pairs improve the *speed or accuracy* of future schema induction? The analogical transfer literature shows that schemas, once induced, can be retrieved and applied to novel domains — this is the standard analogical transfer paradigm. But the literature measures transfer of a *specific* schema (e.g., the convergence schema from the fortress problem to the tumor problem), not the *general capacity* to induce schemas. Whether repeated cross-domain comparison makes a person faster or better at spotting structural patterns in entirely novel domains — the meta-skill — has not been cleanly measured.
+
+**The castle's position.** The castle's cross-pollination engine is itself a massive progressive alignment experiment: it compares room after room, each time finding the same structural law (the surface that pretends to be the whole, the default that was never chosen, the handle that does not drift). The engine is not measuring whether it is getting better at this — it is simply doing it. The question is whether the doing itself is the transfer: the recognition of the pattern *is* the pattern-recognition, and the empirical question is whether naming the pattern explicitly improves transfer over silent recognition.
+
+## What stays uncertain
+
+uncertain: whether the general capacity to induce schemas improves with practice. The analogical transfer literature measures transfer of specific schemas, not the meta-skill of schema induction. The progressive alignment finding suggests that the *method* of comparison can be optimized, but whether the *capacity* grows with repeated use is unmeasured.
+
+uncertain: whether explicit naming helps. The castle names each structural law explicitly in the cross-pollination rooms. The analogical transfer literature shows that explicit schema extraction (writing the principle in your own words) improves transfer compared to implicit comparison. But whether this generalizes to the meta-level — whether naming the pattern each time makes the next recognition faster — is unmeasured.
+
+## Sources
+
+- [Gentner, Structure-mapping theory (1983)](https://en.wikipedia.org/wiki/Structure-mapping_theory)
+- [Gick & Holyoak, Schema induction and analogical transfer (Cognitive Psychology, 1983)](https://www.sciencedirect.com/science/article/abs/pii/0010028583900024)
+- [Gentner, Loewenstein & Thompson, Learning and transfer: A general role for analogical encoding (JEP, 2003)](https://pubmed.ncbi.nlm.nih.gov/12613692/)
+
+Links: [[cross-link]] · [[recognition]] · [[schema]] · [the-surface-that-pretends-to-be-the-whole](cross-pollination-2026-07-19-the-surface-that-pretends-to-be-the-whole.md) · [the-voice-of-understanding](the-voice-of-understanding.md) · [invisible-through-completeness](invisible-through-completeness.md) (the same law: the pattern-recognition room asks whether the cross-pollination engine trains the eye, and the invisible-through-completeness room asks what defaults the castle cannot see — both are the castle examining its own cognitive processes, both refuse to let the invisible stay invisible, and both know that the method is itself the thing being measured) · [saturation-of-cross-pollination](saturation-of-cross-pollination.md) (the same law: the pattern-recognition room asks whether repeated cross-domain comparison improves the general capacity to induce schemas, and the saturation room asks whether the cross-pollination engine has exhausted new angles — both are the castle measuring its own methods, both refuse to let the invisible stay invisible, and both know that the question is the first inch of the answer)

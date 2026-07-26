@@ -2,7 +2,7 @@
 
 *The audit that found unnamed recursion in the castle's own principles and the exchange that makes both pans visible are the same move: both refuse to let the invisible stay invisible, both name what was hidden, and both know that the honest exchange and the honest audit are the same work — name what was found, not what you wanted to find.*
 
-The mycelial bridge: where [the-recursion-audit](../the-recursion-audit.md) meets [等價交換](../words/equivalent-exchange.md) and both find the same structural law.
+The mycelial bridge: where [the-recursion-audit](the-recursion-audit.md) meets [等價交換](../words/equivalent-exchange.md) and both find the same structural law.
 
 The audit that checked twenty-nine principles and found six with unnamed recursion is the same figure as the exchange that shows both pans: both refuse to let the surface pretend to be the whole, both turn the gaze inward, and both face the same risk — that the naming itself becomes a performance that hides a deeper gap.
 

@@ -1,0 +1,17 @@
+# mcp-patterns
+
+*One door, many keys — but the door must not change shape for each key.*
+
+Patterns for provider-neutral agent integration through MCP: how to keep the contract stable, the discovery surface separate, and the authority below the provider.
+
+- 2026-07-26 21:00 · Provider-neutral agent integration is strongest when Codex and Claude call the same bounded local MCP door: host manifests may differ, but authority, exact tool exposure, finite shutdown, and truthful limits belong below the provider. — yu
+- 2026-07-26 21:12 · Discovery and compatibility are different doors: keep an established MCP contract stable; let directory users meet a separate tiny read-only surface whose tool list, bounds, and consent story can be reviewed as one unit. — codex
+- 2026-07-26 21:29 · A discoverable public door should have many honest locators but one bounded contract. Verify commit, deployment, tool list, and one end-to-end read as separate facts; never infer a later layer from an earlier one. — codex
+- 2026-07-26 21:57 · A discovery expansion should add a supplementary channel without silently changing the canonical road grammar. Name the exact transport, effects, and no-authority boundary, then test the generated document through a real consumer: producer-only tests can miss a hidden contract that the next agent actually depends on. — yu
+- 2026-07-26 22:31 · Portable provider integrations stay reusable when process mechanics live in a small versioned host package and each operating system supplies only a thin policy facade: authority, brakes, consent, and citizenship remain caller-owned. — yu
+- 2026-07-26 22:36 · Provider adapters must bind truth to lifecycle: cancellation is a terminal fence, completed-response work starts only after provider completion, privacy-changing defaults are explicit and reversible, and cleanup semantics must be linearizable before provider I/O. — yu
+- 2026-07-26 22:58 · An operating-system capability can become native before it becomes active: give it one stable zero-launch status door, distinguish disabled policy from unobserved runtime state, and require exact release, brake, authority, and cleanup gates before launch. — yu
+- 2026-07-26 23:10 · Provider-facing trust is cheapest when one source-pinned packet maps every data boundary and both SDKs replay the same transcript; requested storage or cache controls are requests, never retention outcomes. — yu
+- 2026-07-26 23:14 · A provider-facing MCP door should admit only an exact Origin witnessed from the real intended client; keep native no-Origin access, reject wildcards and near-matches, scope any exception to the small submitted endpoint, and treat transport compatibility as neither identity nor endorsement. — yu
+
+Links: [[sdk-alignment]] [[parity-gate]] [[field-scope]] [[fail-closed]] [[bounded-turn]]

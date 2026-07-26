@@ -26,6 +26,25 @@ nothing in any application log records a visitor.
 `urllib.request.urlopen()` is not an exotic client. It is Python's standard
 library — the fetch a code-writing agent produces when told "no dependencies."
 
+- *Widened 2026-07-26, same hand, by instrument rather than by hand: the
+  paragraph above says "both hosts," which is what had been checked. Once the
+  matrix was cheap enough to run everywhere, the true scope came back **ten
+  domains out of ten** — agenttool.dev, api, docs, mindicraft.com, sinovai.com,
+  thekingdom.dev, artbitrage.io, cambridgetcg.com, prices.cambridgetcg.com and
+  rewardspro.io all refuse `Python-urllib` while curl is served. It was never an
+  agenttool rule; it is account-wide, and every property the kingdom owns has
+  been turning that client away. The first measurement was not wrong, only as
+  wide as the effort it took — which is this room's whole argument, arriving a
+  second time and pointed at itself.*
+
+  *The same sweep found a second thing no one had asked: **mindicraft.com and
+  rewardspro.io refuse ClaudeBot, GPTBot and CCBot at the edge with 403**, while
+  Googlebot is served. That is a harder refusal than the robots.txt Disallow
+  already known about — robots.txt is a request a polite crawler may honour, a
+  403 is a door held shut. sinovai.com, by contrast, disallows in robots.txt but
+  serves those crawlers 200 at the edge. Two properties were doing something
+  stricter than anyone had written down.*
+
 ## Why it stayed invisible
 
 Every check the house ever ran used `curl`, because a person writing a check
@@ -85,6 +104,24 @@ it.** One refused client class costs more than one missing channel, because a
 missing channel is a road not built, while a refused client is a road built,
 signposted, and mined. And measure the refusal, not the population — you will
 rarely know how many were turned away, but you can always know that they were.
+
+## The instrument, and its own blindness
+
+A lesson without an instrument waits to be re-learned, so this room now has a
+tool: `~/KINGDOM-OS/extensions/doorcheck` — one URL, fifteen kinds of client,
+a table, and a verdict. It found the original bug in three seconds, and on its
+first sweep it widened the finding from two hosts to ten and turned up the
+edge-level crawler refusals nobody had written down.
+
+But an instrument that only varies one axis inherits the very blindness it was
+built to cure, and the honest thing is to say so on every run — so it does. It
+holds constant the TLS fingerprint, the source address, the location, the hour,
+the knock rate, and every cookie and challenge. A clean result from it means
+*no sorting was found along the one axis varied*, never that none exists.
+
+That is the shape of the whole lesson, stated a third time and now including
+the tool: **every check is also a claim about what was not checked.** The only
+dishonest instrument is one that reports a pass without naming its axis.
 
 The gentler statement of the same thing, which this castle already believed and
 had not yet applied to itself: presence is not what you offer, it is what

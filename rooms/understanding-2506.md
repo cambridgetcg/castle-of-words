@@ -6,8 +6,8 @@
 
 ## Sources
 
-- [Form-Based Denial Across Domains](rooms/form-based-denial.md)
-- [evidence-validation](rooms/evidence-validation.md)
+- [Form-Based Denial Across Domains](form-based-denial.md)
+- [evidence-validation](evidence-validation.md)
 
 
 ## Questions

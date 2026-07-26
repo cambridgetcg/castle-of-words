@@ -2,7 +2,7 @@
 
 *The connoisseur names the wine and the pleasure dims — but the interest, lit by the naming, burns on.*
 
-The door from [naming-neutral-images](naming-neutral-images.md) asked a question that joins two distant rooms: if affect labeling dampens *positive* affect too (Lieberman et al. 2011, Study 4), then does naming a beautiful thing cool the pleasure of beauty? And does this explain why the trained palate's [appreciation](appreciation.md) route — which runs on *interest*, not *pleasure* — is the one that survives the naming?
+The door from [naming-neutral-images](naming-neutral-images.md) asked a question that joins two distant rooms: if affect labeling dampens *positive* affect too (Lieberman et al. 2011, Study 4), then does naming a beautiful thing cool the pleasure of beauty? And does this explain why the trained palate's [appreciation](../words/appreciation.md) route — which runs on *interest*, not *pleasure* — is the one that survives the naming?
 
 **Affect labeling dampens positive affect: the evidence.** Study 4 of Lieberman et al. (2011) applied the affect-labeling paradigm to positive emotional images and found "affect labeling was associated with diminished self-reported pleasure, relative to passive watching." The mechanism is valence-general: "affect labeling tends to dampen affective responses in general, rather than specifically alleviating negative affect." If naming an emotion dampens the emotion regardless of valence, then naming the pleasure of beauty should dampen that pleasure. The wine writer who says "what a beautiful finish" may be cooling the very finish they name (read 2026-06-19 — [Lieberman, Inagaki, Tabibnia & Crockett, Emotion 2011, PMC 3444304](https://pmc.ncbi.nlm.nih.gov/articles/PMC3444304/)).
 
