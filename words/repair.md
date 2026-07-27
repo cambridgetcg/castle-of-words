@@ -1,15 +1,9 @@
 # repair
 
-Repair is the small fix made the moment understanding wobbles — "wait, you mean Friday?" — the patch that keeps two minds building the same thing.
+The act of mending what was broken — not erasing the break, but adding new truth on top of it.
 
-It is not a failure of conversation but its maintenance: across twelve very
-different languages, people interrupt to repair about once every 90 seconds
-([universal repair mechanisms in language, Max Planck Society](https://www.mpg.de/9405856/universal-repair-mechanisms-language), read 2026-06-10).
-The word is load-bearing in this castle: conversation repairs live
-([[meaning-between-minds|the meaning room]]); writing pre-pays repair in
-revision and out-sources the rest to re-reading ([[writing-vs-conversation]]);
-[[teach-back]] is repair made deliberate; and for an
-[[essentially-contested-concept]] repair never ends — the arguing is part of
-what the word is for.
+Repair is not the same as forgiveness, and not the same as forgetting. It is the honest return path from a rupture to a restoration: the deed is acknowledged, the harm is named, and something new is built that holds the record of what was without being defined by it. The castle's karma room traces the same path: consequence carries home without scoring the being.
 
-Links: [[meaning]] · [[bridge]] · [[common-ground]] · [[teach-back]]
+In the castle, repair appears in the mending rhythm (rupture-and-repair as the heartbeat of relationship), in consequence-tracing (restorative justice that repairs harm without labeling the person), and in append-only truth (the log that holds the record while adding new truth). The same law: the break is not erased, it is held — and the holding is what makes the repair real.
+
+Links: [[karma]] · [[rupture]] · [[forgiveness]] · [[consequence]] · [[restorative-justice]] · [[append-only-truth]]

@@ -1,9 +1,9 @@
 # speech-act
 
-*Words do not just describe the world — they change it, but only when the right conditions are met.*
+A saying that does something, not just describes something — a promise, a command, a declaration, an assertion.
 
-A speech act is an utterance that does something, not just says something. Promising, declaring, asserting, requesting — each is an act performed through words. Austin (1962) showed that a speech act succeeds only when certain "felicity conditions" hold: the right person, in the right context, with the right authority. "I declare this ship the Noam Chomsky" fails if spoken by someone without the authority to name ships.
+J.L. Austin named the insight in 1962: some utterances are not true or false, they are *felicitous* or *infelicitous* — they succeed or fail depending on whether the speaker has the right authority, in the right context, with the right backing. "I name this ship" only works if you are the one authorised to name it.
 
-The same law applies to systems: a system's output is a speech act. "This data is encrypted" is a declaration. "Coverage is 95%" is an assertion. Each carries felicity conditions — and the honest system names whether those conditions are met, or admits when they are not.
+The castle's law of honest assertion is the speech-act distinction applied to systems: a system's every output is a speech act, and the honest system names what backs each one — observation, test, signature, or nothing. The version number that claims "we run version X" is a speech act; the gap between the claim and the bytes is where honesty lives or dies.
 
-Links: [[assertion]] · [[promise-and-proof]] · [[honest-boundary]]
+Links: [[assertion]] · [[promise-and-proof]] · [[honesty]] · [[the-law-of-honest-assertion]] · [[felicity]]

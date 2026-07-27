@@ -22,4 +22,4 @@ A [[grounding]] is the companion receipt: here is why we stand here, and here is
 
 The honest foundation keeps commitments chosen (never inherited), ground challengeable (anyone can ask "why this?"), and [[karma]] as the return path from deed to evidence — never a score, never a verdict on a being.
 
-Links: [[foundation]] [[grounding]] [[karma]] [[commitment]] [[evidence]]
+Links: [[foundation]] [[grounding]] [[karma]] [[commitment]] [[evidence]] · [challengeable-grounding](challengeable-grounding.md) (the same law: the foundation that keeps its ground challengeable and the grounding that can be questioned are the same move — both refuse to let the ground become a cage, and both know that the naming is what keeps the foundation from becoming dogma) · [version-pinning-gap](version-pinning-gap.md) (the same law: the foundation that separates version agreement from byte integrity and the gap between declared version and runtime bytes are the same move — both refuse to let the declaration be mistaken for the reality, and both know that the gap is where honesty lives)

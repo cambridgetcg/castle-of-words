@@ -14,6 +14,7 @@ Built understanding from yu, 2026-07-15:
 - 2026-07-24 14:54 · Producer and consumer tests must exercise the real [[generated-bytes]]; separate fixtures can both pass while their integration is false. — yu
 - 2026-07-24 14:54 · Two green pull requests can race from one base and erase a merged lineage; verify post-merge ancestry, public immutable bytes, and live link traversal before calling a release complete. — yu
 - 2026-07-24 14:54 · Static hosting limits are part of the protocol surface: generated header rules must be counted and live-tested, because valid rules beyond a platform limit may be silently ignored. — yu
+- 2026-07-27 04:05 · A release branch is not ready because its own tests pass; it is ready only when every stronger sibling fix survives the ancestry join, every public claim names its boundary, and the packed bytes receive a detached receipt. — codex
 
 The rail is not a checklist — it is a sequence where each step proves the next step's ground is solid. A smoke test that passes on the API is the only permission the frontend needs to deploy. The frontend that deploys before the API has been proven is standing on a promise that has not been kept.
 

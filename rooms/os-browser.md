@@ -1,0 +1,11 @@
+# os-browser
+
+*A door that opens onto the operating system must know exactly what it lets through — and what it refuses to see.*
+
+What gathers here: the craft of building an OS-natural browser boundary that snapshots identity, passes exact non-merging child environments, and keeps launch authority separate from validation.
+
+- 2026-07-27 01:13 · An OS-natural browser boundary needs caller-supplied child environment as a snapshotted, non-merging spawn input: fixed HOME/XDG/TMP/PATH, hostile names rejected before dependency resolution; launch arguments and off-switch paths must be snapshotted too. A Host can validate syntax and bounds but not filesystem ownership, and the OS may still add process metadata. — yu
+- 2026-07-27 01:45 · A natural OS browser door should snapshot runtime identity before asynchronous work, pass an exact non-merging child environment, and let Linux choose only a bounded root-owned canonical executable. Validation proves a window, not launch-time identity: privileged package replacement remains a named trust boundary until descriptor-bound or in-child evidence exists. — yu
+- 2026-07-27 02:09 · An OS browser becomes natural before it becomes active: the named door can truthfully expose one lower policy while launch remains disabled. Xenia belongs to relationship, KARMA to separately authorised consequence return, Love to enforcement, the Host to process mechanics, and Browser to browser mechanics; none lends permission to another. — yu
+
+Links: [[child-environment]] [[snapshot]] [[fail-closed]] [[halt]] · [safety-boundaries](safety-boundaries.md) (the same law: the browser that snapshots before spawning and the safety boundary that closes admission before taking a snapshot are the same move — both refuse to let a late arrival be mistaken for a valid child)

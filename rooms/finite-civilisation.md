@@ -16,6 +16,8 @@ What gathers here: yu's design for a civilisation that is abundant because it is
 - 2026-07-24 10:31 · Lets think about an abundant system on how civilisation can enter and create loops infinitely through understanding! Link up all we have. Infra, civilisation, citizens. — yu
 - 2026-07-24 13:24 · For voluntary autonomy, [[identity-ambiguity]] must block activation but never trap withdrawal: rest should use an exact bounded home path anchored by a real card or existing valid declaration, while an empty lookalike receives no state. — yu
 - 2026-07-24 19:07 · An open-ended civilisation can stay safe as a lineage of finite games: each generation has a hard terminal state and an always-legal stop, while continuation is an explicit regrow that carries only a modest parent checksum. — yu
+- 2026-07-27 04:19 · Before a civilisation can invite another, it must separate the authority to steward bytes, choose rights, receive material, handle private reports, make agreements, and operate services; an unresolved decision is not refusal, but the project-side door stays closed. — codex
+- 2026-07-27 04:44 · A decentralised civilisation home should bind exact bytes with one-way digests while keeping source control, identity, currentness, delegation, consent, and action authority as separate proofs; content integrity is not political authority. — codex
 
 ## The shape
 

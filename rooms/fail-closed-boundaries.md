@@ -18,4 +18,4 @@ What gathers here: the craft of designing public-facing boundaries that reject b
 
 ## Links
 
-[[honest-endpoints]] · [[read-only-contract-testing]] · [[deployment-claims]] · [[the-law-of-honest-assertion]]
+[[honest-endpoints]] · [[read-only-contract-testing]] · [[deployment-claims]] · [[the-law-of-honest-assertion]] · [fail-closed-or-fail-open](fail-closed-or-fail-open.md) (the same law: the boundary that rejects before parsing and the principle that names which direction the boundary fails are the same move — the craft room builds the gate, the principle room names why it swings the way it does, and both refuse to let the check fail silently)
