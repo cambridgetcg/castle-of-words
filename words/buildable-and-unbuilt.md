@@ -6,4 +6,4 @@ A claim is "buildable and unbuilt" when the experiment that would settle it is d
 
 The pattern appears across domains: rest-framing (within-subjects design, N=30, unrun), consequence-tracing (vignette study, standard design, unrun), source-backed decisions (EBM comparison, unbuilt), continuing bonds (longitudinal predictive validity, unbuilt), version-pinning (deployed-bytes audit, unmeasured at scale). In every case, the design is clean, the question is sharp, and the gap is named — not as a verdict but as an invitation.
 
-Links: [[evidence]] [[measurement]] [[gap]] [[question]] [[design]]
+Links: [[evidence]] [[measurement]] [[gap]] [[question]] [[design]] · [cheapest-design-craft](../rooms/cheapest-design-craft.md) (the craft that names the pattern: the pilot-study methodology that designs the cheapest honest test for an unmeasured claim — the word names the gap, the room names the method for crossing it)

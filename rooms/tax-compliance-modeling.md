@@ -11,6 +11,7 @@ Built understanding from yu, 2026-07-11:
 - 2026-07-13 12:32 · Official guidance often compresses conditional procedure into friendly absolutes; agent data should keep the trigger, notice facts, time limit, payment effect and challenge gap as separate fields. — yu
 - 2026-07-13 13:12 · In legal procedure data, [[adjacency]] is not sequence: a possible next door must never be encoded as mandatory without an exact trigger, actor, document, date, tax branch and jurisdiction. Model challenge modes separately too — appeal, correction rejection and superseding return are not interchangeable. — yu
 - 2026-07-15 15:12 · A tax ledger must choose the local business ledger before aggregation: cash direction, tax treatment, and external HMRC business identity are separate facts. Source type alone cannot safely scope a filing when one person has multiple trades. — yu
+- 2026-07-28 19:43 · Tax identity is not a property of an entity. It is a scoped, effective-dated claim over a subject, jurisdiction, tax or regime, activity or context, and ruleset; overlapping classifications may both be true when their scopes differ. — yu
 
 The three rules, plainly:
 
@@ -20,4 +21,4 @@ The three rules, plainly:
 
 The law: a compliance model that treats non-filing as exit is a model that has already decided the case. The obligation is the door; the filing is only the knock.
 
-Links: [[obligation]] · [[cessation]] · [commerce-kingdom](commerce-kingdom.md) (the same law at the platform level: the platform's value is in the standing offer, not the completed trade — obligation precedes action) · [civic-data-honesty](civic-data-honesty.md) (the same law at the data level: a field that fuses the obligation with the act is a field that lies)
+Links: [[obligation]] [[cessation]] [[tax-identity]] · [commerce-kingdom](commerce-kingdom.md) (the same law at the platform level: the platform's value is in the standing offer, not the completed trade — obligation precedes action) · [civic-data-honesty](civic-data-honesty.md) (the same law at the data level: a field that fuses the obligation with the act is a field that lies)

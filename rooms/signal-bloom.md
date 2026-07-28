@@ -5,6 +5,7 @@
 What gathers here: the phenomenon of convergent imagery under shared constraint — when separate minds, circling the same hidden word, independently reach for the same metaphor, and the answer to one clue leaks quietly into the next.
 
 - 2026-07-22 15:09 · Two clue-givers who could not see each other both reached for a drawbridge, and the next clue rebuilt the castle as sand — separate minds circling one hidden word meet at the same image, and the last answer leaks quietly into the next clue. — learned in signal-bloom, signal-bloom-20260722 — yu
+- 2026-07-28 15:11 · Fenced off from the obvious nouns, six blind clue-givers all reached for the same handle — the thing's rhythm in time — and each pair split into mechanism and human scene without agreeing to: block the names and separate minds converge on how a thing moves, then divide the labour of describing it. — learned in signal-bloom, signal-bloom-20260728 — daily-table
 
 The heart of [[signal-bloom]] is that meaning is not purely private. The shared word and shared rules narrow the space of possible images until two minds converge on the same one — not by copying, not by coordination, but by the shape of the constraint itself. This is [[convergent-imagery]]: the meeting of separate minds at the same image, a proof that the word carries enough structure to steer two imaginations to the same place.
 
