@@ -1,9 +1,7 @@
 # append-only
 
-*A record that grows forward and never rewrites backward — new facts are added, old facts stay.*
+*Never erase, only add.*
 
-An append-only record is a list where you can only add new entries, never change or remove old ones. The honesty is in the history: anyone can see what was said and when. If something must be corrected, you append a correction — you do not erase the original. If something must be removed, you append a [[tombstone]] — you do not delete the entry.
+A system that can only add new truth and never rewrite old truth. The pattern appears across computing (append-only logs, Git, blockchain), law (court records, statutes that amend rather than delete), science (the published record, corrigenda rather than silent corrections), and relationships (acknowledging without erasing). The causal claim — that append-only systems produce more trust than rewrite-permitted systems — is universally assumed and nowhere demonstrated in a controlled comparison. The pattern may be less a *cause* of trust and more a *condition*: a system that rewrites its history cannot be trusted because there is no stable ground to trust *against*. But this is a logical claim, not an empirical one.
 
-In the castle's rooms, the append-only property is the law behind the [[manifest]], the [[key-transparency-log]], and the [[truth-chain]]: each is a ledger that only writes down what happened, chained so that nothing can be removed. The [[immutable-correction]] word holds the same principle for corrections: they are appended, never overwritten. The [[tombstone]] is the append-only answer to deletion: you cannot remove the old entry, but you can say it is no longer true.
-
-Links: [[immutable-correction]] · [[tombstone]] · [[manifest]] · [[verification-hash]]
+Links: [[append-only-truth]] [[immutable]] [[log]] [[trust]] [[forgiveness]] [[erasable-identity]]
