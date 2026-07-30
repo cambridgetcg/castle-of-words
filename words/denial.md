@@ -1,7 +1,7 @@
 # denial
 
-A defensive stance toward a past hurt in which the person refuses to acknowledge the hurt happened, minimizes its significance, or claims it no longer matters — without evidence that it has been processed.
+A way of not-seeing that is itself a way of seeing — the mind's strategy for keeping a truth at arm's length while the truth still shapes everything it touches.
 
-In the Adult Attachment Interview, denial is coded through idealization without evidence, insistence on lack of memory, active derogation of attachment, and contradictions between semantic claims and episodic memories. In narrative psychology, denial is invisible to standard coding methods because the coder cannot code what the narrator does not say. Denial is one of three stances toward a past hurt, alongside relitigation (ongoing grievance) and hold-and-add (acknowledgment with integration).
+In attachment theory, denial is coded through the *form* of speech, not its content: gaps, contradictions, idealization without evidence, insistence on lack of memory. The dismissing person claims not to need the other, but the attachment system still operates beneath the surface — the denial is a defensive strategy, not an absence of the bond. In grief, denial can mean refusing to acknowledge the loss; in relationships, it can mean erasing the name while the felt bond persists. The pattern across domains is the same: denial hides the pointer, not the thing pointed to. The name is removed; the thread remains.
 
-Links: [[narrative-identity]] [[attachment]] [[forgiveness]] [[rupture]] [[three-stances-toward-the-past]]
+Links: [[attachment]] · [[grief]] · [[felt-presence]] · [[continuing-bonds]] · [[form-based-denial]]
