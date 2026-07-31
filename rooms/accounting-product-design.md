@@ -1,18 +1,18 @@
-# accounting-product-design
+# Accounting Product Design
 
-*The useful edge is not another ledger — it is the path from uncertainty to a source-backed human decision.*
+*The ledger is not the product; the path from evidence to filing is.*
 
-What gathers here: yu's thinking about what a new accounting product should be, now that free incumbents already cover bookkeeping and filing.
+What makes accounting software honest for beginners: the craft of leading with one money movement and preserving an inspectable path through every layer the product has not built yet.
 
-- 2026-07-15 14:34 · When free incumbents already cover bookkeeping and filing, a new accounting product should not be another ledger. Its useful edge is the path from uncertainty to a source-backed decision, with every transfer kept digitally linked. — yu
-- 2026-07-15 14:35 · TaxSorted's market gap is not another MTD ledger. It is understanding that travels: one private fact set produces a source-backed tax position, next-action plan, accountant handoff and typed API, with unknowns, effective dates and rule changes kept visible. — yu
-- 2026-07-15 15:25 · TaxSorted's /dashboard HmrcPanel currently creates a server-side 'Self Assessment' entity on visit if none exists. Keep the dashboard out of passive navigation and Checkup until that mutation is behind an explicit Start sandbox action. — yu
-- 2026-07-15 16:11 · A bookkeeping source event identity must stay independent of its accounting classification. File/account plus source row identifies the event; activity, category, amount mapping and tax treatment belong in the content digest and revision history, so correcting them creates a visible conflict instead of a duplicate. — yu
-- 2026-07-16 18:42 · A portable financial handoff must distinguish untouched defaults from explicit 'not sure': only user-touched facts may claim user provenance, and local browser saves need optimistic revision checks plus stale-tab handoff blocking. — yu
-- 2026-07-16 19:10 · For beginner accounting software, keep accounting rigor in the engine but translate it into ordinary-life questions in the interface. The person should say what happened; the system should handle categories, ledgers and tax structure behind the curtain. Put extra friction at irreversible actions such as filing, not on every safe draft. — yu
+## Insights
 
-What this means, plainly. Every accounting product already does the books. The free ones do it for nothing. So a new product cannot win by being a better ledger — the ledger is solved and the price is zero. The useful edge is what happens *after* the ledger: taking the raw record and turning it into a decision a human can trust, with every number traceable to its source, every unknown named, and every handoff (to an accountant, to an API, to the tax authority) carrying the full trail. The product is not the books; the product is the path from the books to the answer.
+- 2026-07-31 20:12 · Beginner-friendly accounting is not shallow: lead with one money movement, then preserve an inspectable path from evidence to event to books to accounts to tax to filing, and label every layer the product has not built yet. — yu
+- 2026-07-31 20:36 · Learning earnings stay honest when cost kept visible, deduction found, estimated tax kept and realised saving remain separate ledger lines. Play may reveal each, but unlike meanings must never be added into one impressive total. — yu
 
-The shape rhymes with the castle's own law: [[source-backed]] claims, [[uncertainty]] named, [[links]] that trace every thought to its origin. The accounting product and the castle are the same pattern at different altitudes — both refuse the floating claim, both build the trail.
+## Understanding
 
-Links: [[source-backed]] · [[mtd]] · [[ledger]] · [[obligation]] · [[uncertainty]] · [tax-compliance-modeling](tax-compliance-modeling.md) (the same law at the compliance level: obligation drives entry, not action — the product models the path from obligation to decision, not the filing act) · [commerce-kingdom](commerce-kingdom.md) (the same law at the platform level: the platform's value is in the standing offer, not the completed trade — the product's value is in the path, not the ledger) · [source-backed-systems](source-backed-systems.md) (the same law at the evidence level: the source-backed principle holds across medicine, journalism, law, science, and computing — and the accounting product is the same law at the product level, tracing every number to its origin) · [ordered-release](ordered-release.md) (the same law at the deployment level: the release rail is the path from merge to proven deploy, and the accounting product is the path from uncertainty to a source-backed decision — both are paths where each step proves the next, and both refuse to let the claim float free of its evidence) · [doors-not-funnels](doors-not-funnels.md) (the same law: the path from uncertainty to a source-backed decision is a door, not a funnel — every obligation, every evidence link, every handoff is made visible, and the choice belongs to the person walking it)
+Beginner-friendly accounting is not about hiding complexity — it is about leading with one concrete [[money-movement]] and then preserving an [[inspectable-path]] through every layer: evidence → event → books → accounts → tax → filing. Each layer the product has not yet built should be labelled honestly rather than papered over. The beginner is not shielded from the path; they are given one step at a time, with the rest of the path visible but not yet walked.
+
+Learning earnings — the money a learner makes while learning — stay honest when the ledger keeps separate lines for cost (what was spent), deduction (what was found), estimated tax (what was set aside), and realised saving (what was actually kept). These are unlike meanings: they must never be added into one impressive total. Play may reveal each line, but the lines must stay separate.
+
+Links: [[accounting]] [[inspectable-path]] [[money-movement]] [[tax-compliance-modeling]]

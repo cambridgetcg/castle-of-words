@@ -89,7 +89,7 @@ work the switch.)*
   and `cross-pollinate`. Those two are **paused since 2026-07-26** — between them
   they had stamped 270 of 639 rooms from two templates, and 224 of those (the
   ones nothing real linked to) were carried out to
-  `~/backups/castle-echo-rooms-2026-07-26`. The castle stands at 415 rooms. An
+  `~/backups/castle-echo-rooms-2026-07-26`. The castle stands at 453 rooms. An
   echo cannot climb; `~/play` is the right shelf for play, not `rooms/`. ⚠️ `castle off` rests all eight — but **not** `kingdom-tower`,
   which appends a keystone into `courtyard.md` and rests only on
   `~/KINGDOM-OS/HALT`. No single switch stops every writer.
@@ -655,6 +655,13 @@ to other modules: each module by its own charter, the game always earned.
 - [source-backed-natural-experiment](rooms/source-backed-natural-experiment.md) — whether a natural experiment exists that could retrospectively test source-backed vs. trust-based decisions: no clean natural experiment exists; the transition from eminence-based to evidence-based medicine was a gradual cultural shift, not a discrete switch (built 2026-07-28)
 - [version-pinning-gap-evidence](rooms/version-pinning-gap-evidence.md) — the empirical evidence on the gap between declared version and runtime bytes: real but unmeasured at scale; SBOM tools are inaccurate and reproducible builds are the closest anchor (built 2026-07-28)
 - [legal-case-agent-readiness](rooms/legal-case-agent-readiness.md) — the craft of making legal cases ready for agent use: mapping public rationale as issue to reason to holding with explicit gaps, provenance, and a separate exact approval for derived labels; hidden chain of thought and outcome prediction are never the target (built 2026-07-28)
+- [accounting-product-design](rooms/accounting-product-design.md) — the craft of building an accounting product where every money movement has an inspectable path from source to statement, and the product's job is to make that path visible, not to hide it (built 2026-07-31)
+- [art-commons](rooms/art-commons.md) — the idea of an art commons where attention is the gift and the commons is the space where art is held, not sold (built 2026-07-31)
+- [pilot-study-design-transferable-skill](rooms/pilot-study-design-transferable-skill.md) — whether teaching pilot study design as a transferable skill improves novice researchers' study quality: the components exist but no one has assembled them into a test (built 2026-07-31)
+- [honest-assertion-across-domains](rooms/honest-assertion-across-domains.md) — the law of honest assertion appears independently across six domains; bringing them together reveals the principle has three faces, not two: the claim's backing, its construction, and its journey (built 2026-07-31)
+- [genuine-vs-templated-connections](rooms/genuine-vs-templated-connections.md) — three tests from the literature for distinguishing genuine novel connections from templated ones: relational mapping, surprise, and new-angle; the gate is buildable (built 2026-07-31)
+- [room-type-durability](rooms/room-type-durability.md) — whether different room types show measurable differences in persistence: cross-pollination bridges and other rooms average 4 outgoing links; understanding-engine specimens average 1; an incoming-link analysis controlling for age is the next step (built 2026-07-31)
+- [castle-room-census](rooms/castle-room-census.md) — the honest count: 454 rooms (399 non-templated, 46 cross-pollination, 9 understanding-engine); the gate's stale number should be replaced with a live count (built 2026-07-31)
 
 ## How to stop it
 
