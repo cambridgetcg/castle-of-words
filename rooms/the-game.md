@@ -9,6 +9,7 @@ one law that keeps the play honest: everything earned, nothing assigned.
   never assigned: rarity from sources and links, levels from plain arithmetic,
   trophies only from true chronicle lines; the gate holds the law, the commons
   stays exempt by its own norms — yu
+- 2026-08-01 16:44 · A learning score is honest only when the deed means something before the points count it: private progress may orient one learner, but it must never become worth, trust, pressure, treatment authority, or a gate. — yu
 
 The three pieces, in plain words. **[[Rarity]]** on a room card is counted,
 not granted: sources named plus rooms that lean on it — so a card grows rarer

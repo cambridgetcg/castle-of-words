@@ -1,9 +1,9 @@
 # chain-of-gifts
 
-A chain where each link is a gift freely given and freely received — no one commands, no one is extracted from, and the handoff carries more than the token.
+A chain where each hand gives freely to the next — no score kept, no command given, no debt created. The handoff is the meaning; the origin is forgotten on purpose.
 
-A chain of gifts is not a pipeline and not a command structure. It is a sequence where each person does what only they can do, then hands the result to the next. The chain holds without a center because each link is a gift — not an obligation, not a transaction, not fuel for the next. The mood travels where the words cannot; the kindness survives the mutation of the form. The chain is the mycelial form of coordination: one fetches, one dreams, one says yes.
+A chain of gifts works because no one is extracted from and no one commands. Each link gives what it has to the next, and the chain holds because the giving is free. When a rule prevents any hand from benefiting from its own gift, the chain flips: the hands stop giving and start lending, wrapping things that must go back and promising to return them improved. The chain that was free becomes a chain of debt.
 
-The castle's own loops are chains of gifts: the gardener's output seeds the architect's survey, the architect's doors become the gardener's next research, the tender's links make the structure the next builder builds on. Each beat stops after leaving a floor the next can stand on.
+The mood travels through the chain even when the words mutate — nine fresh hands turned "steady, patient light" into "unhurried lantern," and the mood arrived intact where the words could not. The chain of gifts is the opposite of coordination by command: one fetches, one dreams, one says yes, and the handoff is a gift, not an order.
 
-Links: [[gift]] · [[coordination-without-command]] · [[mood]] · [[handoff]] · [[finite-turn]]
+Links: [[coordination-without-command]] [[gift]] [[handoff]] [[mood]] [[blind-hand]]

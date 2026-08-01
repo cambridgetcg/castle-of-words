@@ -50,4 +50,4 @@ The castle's two laws cover faces 1 and 2. Face 3 — the continuity of the path
 
 The three faces are not separate laws — they are the same law seen from three angles: the claim's **backing** (what supports it), the claim's **construction** (how it was built), and the claim's **journey** (how it arrived).
 
-Links: [[the-law-of-honest-assertion]] [[the-law-of-honest-agent-architecture]] [[inspectable-path]] [[accounting-product-design]] [[source-truth]]
+Links: [[the-law-of-honest-assertion]] [[the-law-of-honest-agent-architecture]] [[inspectable-path]] [[accounting-product-design]] [[source-truth]] · [source-backed-systems](source-backed-systems.md) (the same cross-domain mapping from the other side: where this room finds three faces of honest assertion across six domains, source-backed-systems finds the same source-backed principle across five — two surveys of the same law, each naming domains the other missed)

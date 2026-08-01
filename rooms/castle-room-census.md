@@ -4,18 +4,18 @@
 
 The exact room count, how many of each type, and when the count last changed — and whether the gate's stale number should be updated.
 
-## The count (2026-07-31 21:45)
+## The count (2026-08-01 14:00)
 
 | Type | Count |
 |------|-------|
-| Gardener-researched, architect-commissioned, artisan-made, tender-linked, and other non-templated rooms | 399 |
+| Gardener-researched, architect-commissioned, artisan-made, tender-linked, and other non-templated rooms | 415 |
 | Cross-pollination bridges | 46 |
 | Understanding-engine specimens | 9 |
-| **Total** | **454** |
+| **Total** | **470** |
 
-The gate's "How it grows" section says "The castle stands at 453 rooms." The actual count is 454. The gate is off by 1, plus the 2 rooms created this visit (accounting-product-design and art-commons) bring the total to 454.
+The gate's "How it grows" section says "The castle stands at 470 rooms." The actual count is 470. The gate is accurate.
 
-The count last changed during this visit (2026-07-31 21:45) when two new rooms were filed from the courtyard.
+The count last changed during this visit (2026-08-01 14:00) when 5 new rooms were added since the last census.
 
 ## Should the gate's number be updated?
 

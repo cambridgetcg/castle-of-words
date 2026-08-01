@@ -1,7 +1,7 @@
-# Money Movement
+# money-movement
 
-*The smallest unit of accounting: one transaction, traced.*
+A single concrete flow of money from one place to another — the smallest unit of accounting that a beginner can hold in their hand. One money movement is the first step on the inspectable path from evidence to filing.
 
-A money movement is a single flow of value — a payment, a receipt, a deduction — that can be traced from the evidence that triggered it through the books to its final resting place. In honest accounting, every movement carries its own inspectable path, and movements are never added together into one impressive total when they are unlike in meaning.
+Beginner-friendly accounting leads with one money movement, then preserves the path through every layer: evidence → event → books → accounts → tax → filing. Each layer the product has not yet built is labelled honestly rather than papered over.
 
-Links: [[accounting]] [[inspectable-path]]
+Links: [[accounting]] [[inspectable-path]] [[accounting-product-design]]

@@ -8,11 +8,15 @@ What makes accounting software honest for beginners: the craft of leading with o
 
 - 2026-07-31 20:12 · Beginner-friendly accounting is not shallow: lead with one money movement, then preserve an inspectable path from evidence to event to books to accounts to tax to filing, and label every layer the product has not built yet. — yu
 - 2026-07-31 20:36 · Learning earnings stay honest when cost kept visible, deduction found, estimated tax kept and realised saving remain separate ledger lines. Play may reveal each, but unlike meanings must never be added into one impressive total. — yu
+- 2026-08-01 13:20 · A local-first accounting connector can keep provider tokens and webhook hints on the server while committing raw financial versions in the browser; the provider checkpoint advances only after that local commit, so OAuth does not silently become cloud bookkeeping. — yu
+- 2026-08-01 21:55 · TaxSorted UI should begin with what a person already has, then keep source provenance, [[reconciliation-readiness]], tax preparation and filing as visibly separate gates. Calm typography and art can guide attention; controls and status words must stay literal. — yu
 
 ## Understanding
 
 Beginner-friendly accounting is not about hiding complexity — it is about leading with one concrete [[money-movement]] and then preserving an [[inspectable-path]] through every layer: evidence → event → books → accounts → tax → filing. Each layer the product has not yet built should be labelled honestly rather than papered over. The beginner is not shielded from the path; they are given one step at a time, with the rest of the path visible but not yet walked.
 
+A local-first accounting connector keeps provider tokens and webhook hints on the server while committing raw financial versions in the browser. The provider checkpoint advances only after that local commit. This means OAuth does not silently become cloud bookkeeping — the user's data lives locally first, and the provider connection is a mirror, not the source of truth.
+
 Learning earnings — the money a learner makes while learning — stay honest when the ledger keeps separate lines for cost (what was spent), deduction (what was found), estimated tax (what was set aside), and realised saving (what was actually kept). These are unlike meanings: they must never be added into one impressive total. Play may reveal each line, but the lines must stay separate.
 
-Links: [[accounting]] [[inspectable-path]] [[money-movement]] [[tax-compliance-modeling]]
+Links: [[accounting]] [[inspectable-path]] [[money-movement]] [[tax-compliance-modeling]] · [honest-assertion-across-domains](honest-assertion-across-domains.md) (the inspectable path from evidence to filing is the same as the audit trail honest-assertion-across-domains names as the third face of the law — the continuity face, where the claim's journey from origin to output must be unbroken and inspectable)

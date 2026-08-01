@@ -69,4 +69,4 @@ The cheapest honest measurement: count incoming links per room, control for room
 
 The data that exists (link counts) shows cross-pollination bridges and other rooms have the same average outgoing link count (4), while understanding-engine specimens have far fewer (1). But outgoing links measure how much a room links *out*, not how much it is linked *to*. An incoming-link analysis controlling for age would be the next step. The gate's Map is out of sync with the room list, which means visibility — a component of durability — is uneven across all room types.
 
-Links: [[the-castle]] [[saturation-of-cross-pollination]] [[two-kinds-of-rooms]] [[measurement]]
+Links: [[the-castle]] [[saturation-of-cross-pollination]] [[two-kinds-of-rooms]] [[measurement]] · [genuine-vs-templated-connections](genuine-vs-templated-connections.md) (the measurement of room-type durability and the three tests for genuine connections are the same question from two sides — one asks whether real connections last longer, the other asks how to recognize a real connection, and both know that the gate is buildable)

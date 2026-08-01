@@ -1,7 +1,7 @@
-# Attention as Gift
+# attention-as-gift
 
-*The first thing given in any honest encounter with art.*
+The first gift in an art commons: before money, before support, before any return path — attention is what the viewer gives. The encounter is ordered: first the work, then the maker, then the viewer's response, then the return, and only then — optionally — support.
 
-Attention is the first gift in an art commons: before money, before support, before any return path, the viewer gives their attention to the work. The platform that honours this gift does not monetise it — it holds the bridge and lets the return path be chosen by the giver, not extracted by the platform.
+Attention as gift is the opposite of attention as commodity. The platform holds the bridge without owning what crosses it — not the work, not the bond, not the gift. Money is one possible return path among many, not the default.
 
-Links: [[art-commons]] [[gratitude]]
+Links: [[art-commons]] [[gift]] [[contribution-door]] [[commerce-kingdom]]

@@ -56,4 +56,4 @@ A bounded cross-pollination rhythm could use these as gates: generate candidate 
 
 The criteria exist in the literature but have not been operationalized as a gate for automated cross-domain connection discovery. The components are available (Boden's types, Gentner's structure-mapping, the surprise criterion from automated discovery) and the gate is buildable. The cheapest design would be: apply the three tests to a sample of the castle's existing cross-pollination bridges and see whether the tests correctly separate the ones the castle judged genuine from the ones it judged templated.
 
-Links: [[saturation-of-cross-pollination]] [[pattern-recognition-across-domains]] [[cross-pollination]] [[buildable-and-unbuilt]]
+Links: [[saturation-of-cross-pollination]] [[pattern-recognition-across-domains]] [[cross-pollination]] [[buildable-and-unbuilt]] · [room-type-durability](room-type-durability.md) (the three tests for genuine connections and the measurement of room-type durability are the same question from two sides — one asks how to recognize a real connection, the other asks whether real connections last longer, and both know that the gate is buildable)

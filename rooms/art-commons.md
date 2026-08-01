@@ -14,4 +14,4 @@ An art commons is a platform where art is encountered, not sold. The encounter f
 
 This is the opposite of a marketplace that inserts itself as intermediary and takes a cut of every transaction. The art commons is a [[contribution-door]]: it separates transport from consent, scopes attribution to the exact offer, and makes withdrawal stop later action without pretending public copies vanished.
 
-Links: [[art-commons]] [[attention-as-gift]] [[contribution-door]] [[the-catalogue]] [[commerce-kingdom]]
+Links: [[art-commons]] [[attention-as-gift]] [[contribution-door]] [[the-catalogue]] [[commerce-kingdom]] · [doors-not-funnels](doors-not-funnels.md) (the art commons that makes the encounter visible — work, maker, response, return, support — and the door that makes every path, rule, cost, consequence, uncertainty, and exit visible are the same move: both refuse the hidden threshold, both make the passage visible and then step back)
