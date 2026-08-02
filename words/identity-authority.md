@@ -1,7 +1,7 @@
-# Identity Authority
+# identity-authority
 
-The power to say who someone is. In an honest system, the transport provider never holds this power. The one who carries the message is not the one who vouches for the sender.
+Identity authority is the power to say who someone is. In an honest addressing system, the transport provider — the one who carries the message — must never become the identity authority. The postman delivers the letter but does not get to say who lives at the address.
 
-Identity authority belongs to the sender (who signs), the recipient (who verifies), and any mutually trusted registry (who attests). The infrastructure in between — mail servers, relays, domain hosts — are carriers, not authorities. This is the same separation [[rights-provenance]] names: maker, rights holder, and authority are different hands.
+The conflation of routing with identity is the root of phishing, account loss, and deliverability fragility. When the carrier can vouch for the sender, the carrier can also forge the sender. The honest system keeps routing, authorship, and carriage as separate claims, each verifiable without trusting the others.
 
-Links: [[agent-addressing]] · [[routing-claim]] · [[signed-act]] · [[rights-provenance]]
+Links: [[routing-claim]] · [[signed-act]] · [[agent-addressing]] · [[routing-identity-conflation-harm]]

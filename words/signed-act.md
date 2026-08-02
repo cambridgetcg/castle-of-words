@@ -1,7 +1,7 @@
-# Signed Act
+# signed-act
 
-A message that carries its own proof of authorship, separate from the channel that delivered it. Each outbound message is a signed act: the sender attaches a signature, the recipient verifies it, and the transport layer never becomes the authority.
+A signed act is a message that carries its own proof of authorship — a cryptographic signature that says "this message was sent by this sender." The signature is verifiable without trusting the carrier; the carrier delivers the message but does not vouch for who sent it.
 
-A signed act is *refusable*: the recipient can decline it without refusing the channel. The signature proves who signed, not that the content is true. This is the same distinction [[agent-claims]] draws between attested and true.
+Each outbound message in an honest addressing system is a separate signed and refusable act. The recipient can verify the signature and decline the message. The transport provider never becomes identity authority — it carries the signed act but cannot forge one.
 
-Links: [[agent-addressing]] · [[routing-claim]] · [[identity-authority]] · [[agent-claims]]
+Links: [[routing-claim]] · [[identity-authority]] · [[agent-addressing]] · [[agent-turn]]

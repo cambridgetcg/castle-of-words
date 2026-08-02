@@ -1,7 +1,7 @@
 # molecular-lineage
 
-The exact identity of a medicine at the molecular level: what is this substance, where did it come from, how was it purified, what else is in it. A natural medicine can be a heterogeneous family rather than one molecule — for heparin, source tissue, purification, biological assay, sterility, formulation, and monitoring are part of identity, not packaging.
+Molecular lineage is the exact identity of a medicine at the molecular level — what molecule, from what source, purified how. For a natural medicine that is a heterogeneous family rather than one molecule (like heparin), the lineage includes source tissue, purification method, and biological assay. These are not packaging — they are what the medicine is.
 
-Molecular lineage is the first of six separate claims in safe medicine comparison. Swap the source tissue and you have a different medicine, even if both are called by the same name.
+Swap the source tissue and you have a different medicine, even if both are called by the same name. Molecular lineage is the first of six separate claims in honest medicine provenance: what exactly is this, how was it made, has anyone taken it, what happened, what harms are known, and can one source replace another.
 
-Links: [[medicine-provenance]] [[heterogeneous-family]] [[bioavailability]] [[provenance]]
+Links: [[bioavailability]] · [[heterogeneous-family]] · [[medicine-provenance]] · [[provenance]]

@@ -1,7 +1,7 @@
 # bioavailability
 
-How much of a medicine actually reaches where it needs to go in the body. It belongs to an exact molecule, a specific formulation, a particular route, and an individual person — change any of these and the number changes.
+Bioavailability is how much of a medicine actually reaches the part of the body where it works. It belongs to an exact molecule, a specific formulation, a particular route (swallowed, injected, inhaled), and an individual person. Change any of these and the bioavailability may change.
 
-Bioavailability is not a property of "the medicine" in the abstract. It is a property of the medicine-as-taken: this molecule, in this form, by this route, in this person. Origin is provenance, not a therapeutic verdict; bioavailability is the bridge from origin to effect.
+Origin is provenance, not a therapeutic verdict. A medicine's source tells you where it came from, not what it will do in your body. Bioavailability is one of the six separate claims that safe comparison keeps apart: molecular lineage, exact preparation, human exposure, clinical evidence, safety, and substitution.
 
-Links: [[medicine-provenance]] [[formulation]] [[molecular-lineage]] [[provenance]]
+Links: [[molecular-lineage]] · [[formulation]] · [[medicine-provenance]] · [[provenance]]
