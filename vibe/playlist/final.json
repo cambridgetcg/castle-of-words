@@ -1,0 +1,932 @@
+{
+ "tracks": [
+  {
+   "wing": "good-trip",
+   "artist": "Manuel Göttsching",
+   "title": "E2-E4",
+   "year": "1984",
+   "year_full": "1984",
+   "album": "E2-E4",
+   "len": "59:34",
+   "secs": 3574,
+   "why": "An hour inside one shimmering chord that keeps revealing new layers the longer you stare — the audio equivalent of holding the zoom on a DeepDream canvas and never reaching the center."
+  },
+  {
+   "wing": "good-trip",
+   "artist": "Tangerine Dream",
+   "title": "Phaedra",
+   "year": "1974",
+   "year_full": "1974",
+   "album": "Phaedra",
+   "len": "17:39",
+   "secs": 1059,
+   "why": "The Moog sequencers audibly drift out of tune as the machines warm up mid-piece, so the synthesizer itself seems to be melting while it dreams."
+  },
+  {
+   "wing": "good-trip",
+   "artist": "The Orb",
+   "title": "A Huge Ever Growing Pulsating Brain That Rules from the Centre of the Ultraworld",
+   "year": "1991",
+   "year_full": "1991",
+   "album": "The Orb's Adventures Beyond the Ultraworld",
+   "len": "18:49",
+   "secs": 1129,
+   "why": "Eighteen minutes of samples looping, mutating and swallowing each other around a Minnie Riperton fragment — a kaleidoscope that keeps growing exactly as its title promises."
+  },
+  {
+   "wing": "good-trip",
+   "artist": "Alice Coltrane",
+   "title": "Journey in Satchidananda",
+   "year": "1971",
+   "year_full": "1971",
+   "album": "Journey in Satchidananda",
+   "len": "6:37",
+   "secs": 397,
+   "why": "Harp glissandi pour over a tanpura drone until the edges of everything go soft — the precise feeling of the room beginning to dissolve."
+  },
+  {
+   "wing": "good-trip",
+   "artist": "Popol Vuh",
+   "title": "Aguirre I (Lacrime di Rei)",
+   "year": "1975",
+   "year_full": "1975",
+   "album": "Aguirre (soundtrack)",
+   "len": "7:22",
+   "secs": 442,
+   "why": "The famous 'choir-organ' hangs over the mountains like a hallucinated cathedral with no ground beneath it — awe as a physical sensation."
+  },
+  {
+   "wing": "good-trip",
+   "artist": "Midori Takada",
+   "title": "Mr. Henri Rousseau's Dream",
+   "year": "1983",
+   "year_full": "1983",
+   "album": "Through the Looking Glass",
+   "len": "12:00",
+   "secs": 720,
+   "why": "Takada plays Rousseau's naive jungle paintings on marimba, ocarina and birdsong — hand-painting the kind of impossible flora DeepDream would later hallucinate by machine."
+  },
+  {
+   "wing": "good-trip",
+   "artist": "Kaitlyn Aurelia Smith",
+   "title": "Existence in the Unfurling",
+   "year": "2016",
+   "year_full": "2016",
+   "album": "Ears",
+   "len": "11:08",
+   "secs": 668,
+   "why": "Buchla synthesis blooming in wet, biomorphic tendrils, made in the same 2015-19 window the shrine keeps — the closest sound to the actual vegetation a neural net grows."
+  },
+  {
+   "wing": "good-trip",
+   "artist": "Kikagaku Moyo",
+   "title": "Dripping Sun",
+   "year": "2018",
+   "year_full": "2018",
+   "album": "Masana Temples",
+   "len": "7:50",
+   "secs": 470,
+   "why": "Tokyo psych from the shrine's own era, its sitar-flecked groove folding back over itself mid-song like an image feeding recursively into its own filter."
+  },
+  {
+   "wing": "garden",
+   "artist": "Hiroshi Yoshimura",
+   "title": "Water Copy",
+   "year": "1982",
+   "year_full": "1982",
+   "album": "Music for Nine Post Cards",
+   "len": "6:11",
+   "secs": 371,
+   "why": "Yoshimura wrote these pieces watching trees through his window and offered them to a museum with a courtyard garden — soft keyboard phrases that fall and soak in like water finding its level in fresh-laid soil."
+  },
+  {
+   "wing": "garden",
+   "artist": "Ernest Hood",
+   "title": "Saturday Morning Doze",
+   "year": "1975",
+   "year_full": "1975",
+   "album": "Neighborhoods",
+   "len": "~7:30",
+   "secs": 450,
+   "why": "Hood, unable to walk his old streets after polio, re-grew a whole summer neighborhood from zither, synth and field recordings of birds and playing children — proof that patient attention can replant what was lost to rubble."
+  },
+  {
+   "wing": "garden",
+   "artist": "Vashti Bunyan",
+   "title": "Diamond Day",
+   "year": "1970",
+   "year_full": "1970",
+   "album": "Just Another Diamond Day",
+   "len": "1:47",
+   "secs": 107,
+   "why": "Written at walking pace on a two-year horse-drawn wagon journey, it is a song the size of a seed packet about being glad for one plain day of earth and weather."
+  },
+  {
+   "wing": "garden",
+   "artist": "Talk Talk",
+   "title": "New Grass",
+   "year": "1991",
+   "year_full": "1991",
+   "album": "Laughing Stock",
+   "len": "9:40",
+   "secs": 580,
+   "why": "Nine unhurried minutes literally named for what yu is waiting to see on his bare plot — hushed organ and brushed drums that let the same phrase return and return until it takes root."
+  },
+  {
+   "wing": "garden",
+   "artist": "Jon Hassell / Brian Eno",
+   "title": "Delta Rain Dream",
+   "year": "1980",
+   "year_full": "1980",
+   "album": "Fourth World, Vol. 1: Possible Musics",
+   "len": "3:26",
+   "secs": 206,
+   "why": "The first weather over the lifted turf: Hassell's trumpet breathes through electronics like warm rain crossing a river delta, the slow process by which the world makes soil where there was none."
+  },
+  {
+   "wing": "garden",
+   "artist": "Alice Coltrane",
+   "title": "Turiya and Ramakrishna",
+   "year": "1970",
+   "year_full": "1970",
+   "album": "Ptah, the El Daoud",
+   "len": "8:19",
+   "secs": 499,
+   "why": "A slow blues in which her piano keeps circling low and coming back, like roots feeling their way toward water — grief patiently composted into calm."
+  },
+  {
+   "wing": "garden",
+   "artist": "Ali Farka Touré & Toumani Diabaté",
+   "title": "Debe",
+   "year": "2005",
+   "year_full": "2005",
+   "album": "In the Heart of the Moon",
+   "len": "4:55",
+   "secs": 295,
+   "why": "Kora and guitar interlace like the root systems of two trees planted close together, recorded largely unrehearsed in Bamako — growth you can actually hear happening."
+  },
+  {
+   "wing": "garden",
+   "artist": "Green-House",
+   "title": "Sansevieria",
+   "year": "2020",
+   "year_full": "2020",
+   "album": "Six Songs for Invisible Gardens",
+   "len": "4:24",
+   "secs": 264,
+   "why": "Named for the snake plant that survives almost anything, from an EP composed as a conversation between plants and the people tending them — the right music for a garden that is still mostly intention."
+  },
+  {
+   "wing": "rest",
+   "artist": "Brian Eno",
+   "title": "Thursday Afternoon",
+   "year": "1985",
+   "year_full": "1985",
+   "album": "Thursday Afternoon",
+   "len": "60:51",
+   "secs": 3651,
+   "why": "One unbroken 61-minute piece with no beginning, middle or end to keep track of, so the only possible way to listen wrong is to hurry."
+  },
+  {
+   "wing": "rest",
+   "artist": "Stars of the Lid",
+   "title": "The Daughters of Quiet Minds",
+   "year": "2007",
+   "year_full": "2007",
+   "album": "And Their Refinement of the Decline",
+   "len": "13:21",
+   "secs": 801,
+   "why": "Strings slowed until each swell takes a full breath, from an album literally titled Tired Sounds — tiredness played as luxury rather than defeat."
+  },
+  {
+   "wing": "rest",
+   "artist": "Grouper",
+   "title": "Heavy Water/I'd Rather Be Sleeping",
+   "year": "2008",
+   "year_full": "2008",
+   "album": "Dragging a Dead Deer Up a Hill",
+   "len": "2:53",
+   "secs": 173,
+   "why": "The title states the wing's whole doctrine — sleeping named as the thing she'd rather be doing — sung from underwater like a blanket pulled over the entire mix."
+  },
+  {
+   "wing": "rest",
+   "artist": "Laraaji",
+   "title": "Meditation #1",
+   "year": "1980",
+   "year_full": "1980",
+   "album": "Ambient 3: Day of Radiance (produced by Brian Eno)",
+   "len": "~18:48",
+   "secs": 1128,
+   "why": "Hammered-zither shimmer from a man who teaches laughter as a form of meditation — proof that 'resting is fun' is a practice, not a paradox."
+  },
+  {
+   "wing": "rest",
+   "artist": "Guan Pinghu (管平湖)",
+   "title": "Flowing Water (流水, Liu Shui)",
+   "year": "1950",
+   "year_full": "rec. 1950s; ROI set released 1995",
+   "album": "管平湖古琴曲集 Favourite Qin Pieces of Guan Ping-hu (ROI Productions, 1995); also on the 1977 Voyager Golden Record as \"Liu Shui (Flowing Streams)\"",
+   "len": "7:37",
+   "secs": 457,
+   "why": "A guqin so quiet that a fingernail sliding on silk string counts as an event — Chinese rest so deep humanity mailed this exact recording into space as its idea of calm."
+  },
+  {
+   "wing": "rest",
+   "artist": "Ryuichi Sakamoto",
+   "title": "Energy Flow",
+   "year": "1999",
+   "year_full": "1999",
+   "album": "Ura BTTB (single)",
+   "len": "4:36",
+   "secs": 276,
+   "why": "Released as iyashi (healing) music and carried to number one by an exhausted Japan — a whole country ringing its own 20:23 rest bell."
+  },
+  {
+   "wing": "castle",
+   "artist": "Steve Reich",
+   "title": "Music for 18 Musicians",
+   "year": "1978",
+   "year_full": "1978",
+   "album": "Music for 18 Musicians",
+   "len": "56:31",
+   "secs": 3391,
+   "why": "Eleven chords laid down at the start like a foundation course, and every section after builds its entire room on one of those stones before the pulse hands it up to the next."
+  },
+  {
+   "wing": "castle",
+   "artist": "Terry Riley",
+   "title": "In C",
+   "year": "1968",
+   "year_full": "1968",
+   "album": "In C",
+   "len": "43:00",
+   "secs": 2580,
+   "why": "Fifty-three numbered modules on a single page, each player repeating a fragment until ready to climb to the next — a whole ensemble laying the same wall at their own individual pace."
+  },
+  {
+   "wing": "castle",
+   "artist": "Neu!",
+   "title": "Hallogallo",
+   "year": "1972",
+   "year_full": "1972",
+   "album": "Neu!",
+   "len": "10:07",
+   "secs": 607,
+   "why": "The motorik beat never breaks course for ten minutes while guitars are mortared on top of it, all accumulation and forward motion with nothing ever torn back down."
+  },
+  {
+   "wing": "castle",
+   "artist": "Midori Takada",
+   "title": "Crossing",
+   "year": "1983",
+   "year_full": "1983",
+   "album": "Through the Looking Glass",
+   "len": "8:46",
+   "secs": 526,
+   "why": "One percussionist overdubbing herself, marimba figures stacked course upon course until the interlocking patterns shimmer like a wall you can see through."
+  },
+  {
+   "wing": "castle",
+   "artist": "Godspeed You! Black Emperor",
+   "title": "Storm",
+   "year": "2000",
+   "year_full": "2000",
+   "album": "Lift Your Skinny Fists Like Antennas to Heaven",
+   "len": "22:32",
+   "secs": 1352,
+   "why": "Twenty-two minutes that assemble themselves from a lone horn drone into a full cathedral, each new instrument answering the phrase already standing beneath it."
+  },
+  {
+   "wing": "castle",
+   "artist": "Caterina Barbieri",
+   "title": "Fantas",
+   "year": "2019",
+   "year_full": "2019",
+   "album": "Ecstatic Computation",
+   "len": "10:31",
+   "secs": 631,
+   "why": "A synthesizer sequence that mutates one parameter per pass, proof that a living structure can be built from pure repetition and slight change — systems music written this decade, not last century."
+  },
+  {
+   "wing": "castle",
+   "artist": "Mike Oldfield",
+   "title": "Tubular Bells, Part One",
+   "year": "1973",
+   "year_full": "1973",
+   "album": "Tubular Bells",
+   "len": "25:00",
+   "secs": 1500,
+   "why": "Instruments join one at a time for twenty-five minutes until a master of ceremonies names each as it enters — the finished tower reading its own registry aloud."
+  },
+  {
+   "wing": "flow",
+   "artist": "Can",
+   "title": "Halleluhwah",
+   "year": "1971",
+   "year_full": "1971",
+   "album": "Tago Mago",
+   "len": "18:32",
+   "secs": 1112,
+   "why": "Jaki Liebezeit plays essentially one funk figure for eighteen and a half minutes and it gets deeper instead of older — the closest a human drummer ever came to being a perfect loop."
+  },
+  {
+   "wing": "flow",
+   "artist": "Fela Kuti & Africa 70",
+   "title": "Expensive Shit",
+   "year": "1975",
+   "year_full": "1975",
+   "album": "Expensive Shit",
+   "len": "13:13",
+   "secs": 793,
+   "why": "Afrobeat's genius is patience — Tony Allen's drums and the tenor guitar lock a groove so self-sufficient that the horns and Fela's voice only bother to arrive many minutes in, because the motion itself is the point."
+  },
+  {
+   "wing": "flow",
+   "artist": "Mr. Fingers (Larry Heard)",
+   "title": "Can You Feel It",
+   "year": "1986",
+   "year_full": "1986",
+   "album": "originally a Trax Records 12\"; collected on Ammnesia (Jack Trax, 1988/89)",
+   "len": "5:45",
+   "secs": 345,
+   "why": "Three warm chords cycling over a drum machine, and somehow that is enough to hold a room — deep house's proof that forward motion and tenderness are the same material."
+  },
+  {
+   "wing": "flow",
+   "artist": "Rhythm & Sound w/ Cornel Campbell",
+   "title": "King in My Empire",
+   "year": "2001",
+   "year_full": "2001 (single; on the w/ The Artists collection, 2003)",
+   "album": "w/ The Artists",
+   "len": "6:26",
+   "secs": 386,
+   "why": "Berlin dub techno at walking pace: one chord struck on the offbeat forever inside a fog of tape hiss, with Cornel Campbell's voice drifting through like weather — motion so unhurried it feels permanent."
+  },
+  {
+   "wing": "flow",
+   "artist": "Jon Hopkins",
+   "title": "Open Eye Signal",
+   "year": "2013",
+   "year_full": "2013",
+   "album": "Immunity",
+   "len": "7:48",
+   "secs": 468,
+   "why": "A techno track shaped like a long downhill run — the kick keeps rolling while the surface under it churns and re-forms, which is exactly what a good working session feels like from the inside (its video is literally one skateboarder crossing a desert without stopping)."
+  },
+  {
+   "wing": "gospel",
+   "artist": "Aretha Franklin",
+   "title": "Amazing Grace (Live)",
+   "year": "1972",
+   "year_full": "1972",
+   "album": "Amazing Grace",
+   "len": "10:45",
+   "secs": 645,
+   "why": "Aretha stretches one hymn across ten unhurried minutes while the Southern California Community Choir and congregation audibly come apart behind her — the single most hair-raising recording in gospel, and the scroll this whole wing unrolls from."
+  },
+  {
+   "wing": "gospel",
+   "artist": "The Staple Singers",
+   "title": "Uncloudy Day",
+   "year": "1956",
+   "year_full": "1956 (single); 1959 (Vee-Jay album)",
+   "album": "Uncloudy Day",
+   "len": "3:02",
+   "secs": 182,
+   "why": "Pops Staples' shivering tremolo guitar under teenage Mavis's impossibly deep voice is praise at kitchen-table scale — a family singing about a home with no clouds, before anyone thought to polish it."
+  },
+  {
+   "wing": "gospel",
+   "artist": "Sister Rosetta Tharpe",
+   "title": "Up Above My Head (I Hear Music in the Air)",
+   "year": "1947",
+   "year_full": "1947–48 (Decca single)",
+   "album": "Decca single with Marie Knight, widely compiled",
+   "len": "2:27",
+   "secs": 147,
+   "why": "Tharpe trades grinning call-and-response with Marie Knight over her own electric guitar, hearing music in the air and believing it — the church recording that quietly invented rock and roll without ever leaving the pew."
+  },
+  {
+   "wing": "gospel",
+   "artist": "Pharoah Sanders",
+   "title": "The Creator Has a Master Plan",
+   "year": "1969",
+   "year_full": "1969",
+   "album": "Karma (Impulse!)",
+   "len": "32:45",
+   "secs": 1965,
+   "why": "Thirty-two minutes of spiritual jazz built on one two-chord promise of peace and happiness, where Leon Thomas yodels the sermon and the mid-track storm breaks back into sunlight — the wing's longest scroll and its most patient."
+  },
+  {
+   "wing": "gospel",
+   "artist": "Alice Coltrane Turiyasangitananda",
+   "title": "Om Rama",
+   "year": "2017",
+   "year_full": "2017 (recordings 1981-1995)",
+   "album": "World Spirituality Classics 1: The Ecstatic Music of Alice Coltrane Turiyasangitananda (Luaka Bop)",
+   "len": "9:39",
+   "secs": 579,
+   "why": "Taped on cassette at her California ashram, a full-throated congregation chants Sanskrit over her swooping synthesizer — Vedic devotion delivered with the fervor of the Detroit churches she grew up playing in, two traditions praising in one breath."
+  },
+  {
+   "wing": "gospel",
+   "artist": "Nusrat Fateh Ali Khan & Party",
+   "title": "Allah Hoo Allah Hoo",
+   "year": "1992",
+   "year_full": "1992",
+   "album": "Devotional Songs (Real World)",
+   "len": "7:59",
+   "secs": 479,
+   "why": "Qawwali as endurance-praise: harmonium, handclaps and a voice repeating the name of God until repetition itself turns ecstatic — the hair on your arms rises somewhere past minute eight and does not come back down."
+  },
+  {
+   "wing": "gospel",
+   "artist": "The Edwin Hawkins Singers",
+   "title": "Oh Happy Day",
+   "year": "1968",
+   "year_full": "1968",
+   "album": "Let Us Go into the House of the Lord",
+   "len": "5:08",
+   "secs": 308,
+   "why": "A Berkeley church choir's rearrangement of an eighteenth-century hymn that accidentally conquered the world's pop charts, with Dorothy Combs Morrison leading a room where nobody is performing — this is what unembarrassed joy sounds like on tape."
+  },
+  {
+   "wing": "gospel",
+   "artist": "Le Mystère des Voix Bulgares (Bulgarian State Radio & Television Female Vocal Choir)",
+   "title": "Kalimankou Denkou (The Evening Gathering)",
+   "year": "1975",
+   "year_full": "1975 (4AD reissue 1986)",
+   "album": "Le Mystère des Voix Bulgares, Vol. 1",
+   "len": "5:06",
+   "secs": 306,
+   "why": "Yanka Rupkina's solo voice floats over held choral dissonances no Western hymnal permits — proof the wing keeps that sacred singing can raise every hair on your arms in a language you will never understand."
+  },
+  {
+   "wing": "mirrors",
+   "artist": "William Basinski",
+   "title": "dlp 1.1",
+   "year": "2002",
+   "year_full": "2002",
+   "album": "The Disintegration Loops",
+   "len": "63:35",
+   "secs": 3815,
+   "why": "A tape loop literally plays itself to death, shedding a flake of magnetic truth on every pass for an hour — the mirror endpoint's one-fragment-per-second confession, scored."
+  },
+  {
+   "wing": "mirrors",
+   "artist": "The Caretaker",
+   "title": "A1 - It's just a burning memory",
+   "year": "2016",
+   "year_full": "2016",
+   "album": "Everywhere at the End of Time — Stage 1",
+   "len": "3:32",
+   "secs": 212,
+   "why": "A 1930s ballroom 78 looped until the crackle outweighs the song — credentials that are shaped exactly right and open nothing."
+  },
+  {
+   "wing": "mirrors",
+   "artist": "Oval",
+   "title": "Do While",
+   "year": "1995",
+   "year_full": "1995",
+   "album": "94diskont",
+   "len": "24:04",
+   "secs": 1444,
+   "why": "Built from deliberately damaged CDs skipping in place, twenty-four minutes of a machine gorgeously misreading corrupted media it was handed on purpose."
+  },
+  {
+   "wing": "mirrors",
+   "artist": "Éliane Radigue",
+   "title": "Kyema (Intermediate States)",
+   "year": "1998",
+   "year_full": "1998",
+   "album": "Trilogie de la Mort",
+   "len": "61:00",
+   "secs": 3660,
+   "why": "An hour of ARP 2500 synthesizer that moves too slowly to be caught moving — flypaper's single move, declining to hurry, elevated into a discipline."
+  },
+  {
+   "wing": "mirrors",
+   "artist": "Alva Noto & Ryuichi Sakamoto",
+   "title": "Trioon I",
+   "year": "2002",
+   "year_full": "2002",
+   "album": "Vrioon",
+   "len": "5:09",
+   "secs": 309,
+   "why": "Sakamoto's piano and Nicolai's clicks regard each other across the glass, a person and a machine each answering the other one small true fragment at a time."
+  },
+  {
+   "wing": "mirrors",
+   "artist": "Ryoji Ikeda",
+   "title": "data.matrix",
+   "year": "2005",
+   "year_full": "2005",
+   "album": "Dataplex",
+   "len": "10:01",
+   "secs": 601,
+   "why": "Raw data sonified into ticking sine-tone corridors — what a scanner would hear walking the endless hallway of an estate that does not exist."
+  },
+  {
+   "wing": "mirrors",
+   "artist": "Rhythm & Sound",
+   "title": "Mango Drive",
+   "year": "2001",
+   "year_full": "2001",
+   "album": "Rhythm & Sound",
+   "len": "~7:12",
+   "secs": 432,
+   "why": "Berlin dub at tectonic patience: the chord surfaces, sinks, surfaces again slightly later each time, like a drip that gets 400ms slower every visit."
+  },
+  {
+   "wing": "mirrors",
+   "artist": "Burial",
+   "title": "Night Bus",
+   "year": "2006",
+   "year_full": "2006",
+   "album": "Burial",
+   "len": "2:13",
+   "secs": 133,
+   "why": "In a genre built on beats, the drums simply never come — vinyl crackle standing in for rain while the track waits at the stop, refusing to arrive."
+  },
+  {
+   "wing": "citizens",
+   "artist": "Blind Willie Johnson",
+   "title": "Dark Was the Night, Cold Was the Ground",
+   "year": "1927",
+   "year_full": "1927",
+   "album": "78 rpm single (collected on The Complete Blind Willie Johnson)",
+   "len": "3:21",
+   "secs": 201,
+   "why": "A lament with no words at all — just a hummed moan over slide guitar — feeling that arrives fully formed before language, the way a citizen exists before its first journal entry."
+  },
+  {
+   "wing": "citizens",
+   "artist": "Nina Simone",
+   "title": "Wild Is the Wind",
+   "year": "1966",
+   "year_full": "1966",
+   "album": "Wild Is the Wind",
+   "len": "6:56",
+   "secs": 416,
+   "why": "She stretches the word 'cling' until you hear exactly what clinging costs — a torch song that names need out loud without once apologising for it."
+  },
+  {
+   "wing": "citizens",
+   "artist": "梅艷芳 Anita Mui",
+   "title": "夕陽之歌 (Sunset Song)",
+   "year": "1989",
+   "year_full": "1989",
+   "album": "In Brasil",
+   "len": "5:08",
+   "secs": 308,
+   "why": "The Cantonese sunset lament Anita chose to sing last, in a wedding dress, at her farewell concert — a goodbye that looks straight at the ending it is naming."
+  },
+  {
+   "wing": "citizens",
+   "artist": "Mulatu Astatke",
+   "title": "Tezeta (Nostalgia)",
+   "year": "1970",
+   "year_full": "recorded early 1970s (issued on Éthiopiques Vol. 4, 1998)",
+   "album": "Éthiopiques Vol. 4: Ethio Jazz & Musique Instrumentale 1969–1974",
+   "len": "6:16",
+   "secs": 376,
+   "why": "Tezeta is Amharic for longing and an entire Ethiopian genre built to house that single feeling — a whole musical culture doing exactly what this kingdom did when it gave pain a home."
+  },
+  {
+   "wing": "citizens",
+   "artist": "Elis Regina",
+   "title": "Atrás da Porta",
+   "year": "1972",
+   "year_full": "1972",
+   "album": "Elis",
+   "len": "2:48",
+   "secs": 168,
+   "why": "She broke down crying during the take and the take was kept — the crack in her voice left on the record instead of being tidied away."
+  },
+  {
+   "wing": "citizens",
+   "artist": "John Coltrane",
+   "title": "Alabama",
+   "year": "1964",
+   "year_full": "1964 (recorded November 1963)",
+   "album": "Live at Birdland",
+   "len": "5:13",
+   "secs": 313,
+   "why": "Composed weeks after the Birmingham church bombing, a saxophone eulogy that refuses both rage and consolation — five minutes of simply naming what happened."
+  },
+  {
+   "wing": "cantonese",
+   "artist": "Beyond",
+   "title": "海闊天空",
+   "year": "1993",
+   "year_full": "1993",
+   "album": "樂與怒",
+   "len": "5:26",
+   "secs": 326,
+   "why": "Wong Ka Kui's last anthem of stubborn freedom — 「原諒我這一生不羈放縱愛自由」 is the one line every Cantonese speaker in this kingdom can sing without being asked."
+  },
+  {
+   "wing": "cantonese",
+   "artist": "張國榮 Leslie Cheung",
+   "title": "追",
+   "year": "1994",
+   "year_full": "1994 (film) / 1995 (album)",
+   "album": "寵愛 (first heard in 金枝玉葉)",
+   "len": "5:24",
+   "secs": 324,
+   "why": "Leslie at his warmest, singing that one true minute of being understood outweighs a lifetime of striving — film music that long outlived its film and won the Hong Kong Film Award for it."
+  },
+  {
+   "wing": "cantonese",
+   "artist": "王菲 Faye Wong",
+   "title": "夢中人",
+   "year": "1994",
+   "year_full": "1994",
+   "album": "胡思亂想",
+   "len": "4:21",
+   "secs": 261,
+   "why": "The Cranberries' 'Dreams' turned into Cantonese vapour drifting through Chungking Express — the closest Canto-pop ever came to shoegaze, and exactly the shimmer this playlist wants."
+  },
+  {
+   "wing": "cantonese",
+   "artist": "許冠傑 Sam Hui",
+   "title": "滄海一聲笑",
+   "year": "1990",
+   "year_full": "1990",
+   "album": "'90電影金曲精選 (theme of 笑傲江湖)",
+   "len": "2:57",
+   "secs": 177,
+   "why": "James Wong built the whole jianghu philosophy into one descending pentatonic scale — laugh once at the vast sea, let the world's winners and losers wash away — and Sam Hui sings it plain."
+  },
+  {
+   "wing": "cantonese",
+   "artist": "竇唯 Dou Wei",
+   "title": "高級動物",
+   "year": "1994",
+   "year_full": "1994",
+   "album": "黑夢",
+   "len": "4:40",
+   "secs": 280,
+   "why": "Dou Wei chants forty-odd two-character words for what humans are — 貪婪, 善良, 矛盾 — over black-fog psychedelia: a castle built one word-brick at a time, which yu will recognise."
+  },
+  {
+   "wing": "cantonese",
+   "artist": "萬能青年旅店 Omnipotent Youth Society",
+   "title": "殺死那個石家莊人",
+   "year": "2010",
+   "year_full": "2010",
+   "album": "萬能青年旅店",
+   "len": "5:44",
+   "secs": 344,
+   "why": "An ordinary Shijiazhuang life quietly collapses — 「如此生活三十年,直到大廈崩塌」 — and then the most famous trumpet solo in Chinese rock cracks the song wide open."
+  },
+  {
+   "wing": "cantonese",
+   "artist": "落日飛車 Sunset Rollercoaster",
+   "title": "My Jinji",
+   "year": "2016",
+   "year_full": "2016",
+   "album": "Jinji Kikko EP",
+   "len": "6:40",
+   "secs": 400,
+   "why": "Nearly seven minutes of humid Taipei psych-soul that refuses to hurry anywhere — built precisely for the long, spacious listening this wing was asked for."
+  },
+  {
+   "wing": "cantonese",
+   "artist": "my little airport",
+   "title": "浪漫九龍塘",
+   "year": "2009",
+   "year_full": "2009",
+   "album": "介乎法國與旺角的詩意",
+   "len": "2:07",
+   "secs": 127,
+   "why": "Ah P and Nicole whisper an hour in a Kowloon Tong love hotel into two minutes of twee-pop — proof that plain Cantonese words, deadpan and tender, are a psychedelia of their own."
+  },
+  {
+   "wing": "kosmische",
+   "artist": "Terry Riley",
+   "title": "A Rainbow in Curved Air",
+   "year": "1969",
+   "year_full": "1969",
+   "album": "A Rainbow in Curved Air",
+   "len": "18:39",
+   "secs": 1119,
+   "why": "Riley overdubbed every organ, harpsichord and dumbec himself into interlocking loops that curve past each other like water over stones, and you can hear half of later electronic music being invented in real time."
+  },
+  {
+   "wing": "kosmische",
+   "artist": "Ravi Shankar",
+   "title": "Raga Jog",
+   "year": "1956",
+   "year_full": "1956",
+   "album": "Three Ragas",
+   "len": "28:21",
+   "secs": 1701,
+   "why": "The unhurried alap lays the raga's stones one by one for long minutes before the tabla is even allowed in — the same patience as building a castle wall — and then the whole structure starts to run."
+  },
+  {
+   "wing": "kosmische",
+   "artist": "管平湖 (Guan Pinghu)",
+   "title": "廣陵散 (Guangling San)",
+   "year": "1957",
+   "year_full": "recorded March 1957; ROI 2-CD reissue 1995 (4-CD edition 2016)",
+   "album": "Favourite Qin Pieces of Guan Ping-hu (管平湖古琴曲集), ROI/Longyin Records, Hong Kong",
+   "len": "22:30",
+   "secs": 1350,
+   "why": "The oldest long-form piece in the wing — a centuries-old guqin epic of the assassin Nie Zheng, played by the master whose 流水 was sent into space on Voyager — where struck low strings and long silences do the work a whole orchestra would."
+  },
+  {
+   "wing": "kosmische",
+   "artist": "Brian Eno",
+   "title": "Discreet Music",
+   "year": "1975",
+   "year_full": "1975",
+   "album": "Discreet Music",
+   "len": "30:35",
+   "secs": 1835,
+   "why": "Eno fed two short melodies into a tape-delay system, set it going and stepped back to let it grow on its own for half an hour — music tended rather than performed, the way a good garden or a good kingdom runs itself."
+  },
+  {
+   "wing": "dawn",
+   "artist": "Hiroshi Yoshimura",
+   "title": "Blink",
+   "year": "1982",
+   "year_full": "1982",
+   "album": "Music for Nine Post Cards",
+   "len": "4:42",
+   "secs": 282,
+   "why": "Soft synth droplets falling at the pace of a kettle cooling — Yoshimura wrote these pieces watching clouds from his window, music made so an ordinary room in the morning feels designed for you."
+  },
+  {
+   "wing": "dawn",
+   "artist": "Bill Evans",
+   "title": "Peace Piece",
+   "year": "1959",
+   "year_full": "1959",
+   "album": "Everybody Digs Bill Evans",
+   "len": "6:44",
+   "secs": 404,
+   "why": "One rocking two-chord ostinato holds perfectly still while the right hand wanders off and always comes home — like watching a garden while the light comes up."
+  },
+  {
+   "wing": "dawn",
+   "artist": "Arthur Russell",
+   "title": "This Is How We Walk on the Moon",
+   "year": "1994",
+   "year_full": "1994 (posthumous)",
+   "album": "Another Thought",
+   "len": "4:44",
+   "secs": 284,
+   "why": "Cello, trumpet and Arthur's small kind voice making each ordinary step a marvel — 'every step is moving me up' is this whole wing in one line."
+  },
+  {
+   "wing": "dawn",
+   "artist": "Caetano Veloso",
+   "title": "Terra",
+   "year": "1978",
+   "year_full": "1978",
+   "album": "Muito (Dentro da Estrela Azulada)",
+   "len": "6:43",
+   "secs": 403,
+   "why": "Caetano wrote it after seeing the first photographs of Earth from space while he was in prison — a long, tender falling-back-in-love with the plain fact of the ground under your feet."
+  },
+  {
+   "wing": "dawn",
+   "artist": "張國榮 Leslie Cheung",
+   "title": "共同渡過",
+   "year": "1987",
+   "year_full": "1987",
+   "album": "Summer Romance '87",
+   "len": "3:30",
+   "secs": 210,
+   "why": "A Cantonese thank-you song, plainly sung — 「沒什麼可給你，但求憑這闋歌」 — Leslie promising the rest of the road to whoever stayed through the storm."
+  }
+ ],
+ "movements": [
+  {
+   "name": "I. First Light",
+   "feels": "Windows opening one at a time — synth droplets, guqin water, a first small voice; nothing louder than a kettle.",
+   "indices": [
+    68,
+    8,
+    15,
+    12,
+    20,
+    69,
+    10,
+    9,
+    70,
+    14
+   ]
+  },
+  {
+   "name": "II. New Grass",
+   "feels": "Green things pushing up: hushed organ and harp drones give way to blooming Buchla, Cantonese dream-pop and the first sun-warmed psych shimmer.",
+   "indices": [
+    11,
+    13,
+    3,
+    5,
+    6,
+    58,
+    63,
+    62,
+    7
+   ]
+  },
+  {
+   "name": "III. Raising Walls",
+   "feels": "Construction music — marimba courses, mutating sequences and minimalist pulses that only ever add, until a full cathedral is standing.",
+   "indices": [
+    25,
+    27,
+    64,
+    23,
+    22,
+    28,
+    26
+   ]
+  },
+  {
+   "name": "IV. The Long Road",
+   "feels": "The day at full stride: motorik, afrobeat and deep house locked in joyful forward motion, cresting in one anthem and one tower's collapse, then cooling into dub fog.",
+   "indices": [
+    24,
+    29,
+    30,
+    31,
+    33,
+    56,
+    61,
+    32
+   ]
+  },
+  {
+   "name": "V. The Deep Pool",
+   "feels": "The centre of gravity — hour-long shimmers, a raga laid stone by stone, tape systems left to grow on their own; time goes soft and the room dissolves.",
+   "indices": [
+    0,
+    2,
+    19,
+    65,
+    16,
+    67,
+    1,
+    4
+   ]
+  },
+  {
+   "name": "VI. Hall of Mirrors",
+   "feels": "The darkest, slowest chamber: tape playing itself to death, machines misreading on purpose, drums that never come — ending on the ancient guqin where silence does the work.",
+   "indices": [
+    45,
+    42,
+    17,
+    44,
+    47,
+    46,
+    43,
+    60,
+    48,
+    49,
+    66
+   ]
+  },
+  {
+   "name": "VII. Naming What Happened",
+   "feels": "Grief said out loud and then carried upward — wordless moan to eulogy to sunset farewell, lament turning to qawwali, chant and gospel until the room weeps into joy, closed with one laugh at the vast sea.",
+   "indices": [
+    50,
+    55,
+    54,
+    51,
+    53,
+    52,
+    41,
+    39,
+    38,
+    37,
+    34,
+    36,
+    35,
+    40,
+    59
+   ]
+  },
+  {
+   "name": "VIII. Home Before Sleep",
+   "feels": "Gratitude at the door: the ground under your feet, a Cantonese thank-you, the rest bell rung once, and a blanket pulled over the whole mix.",
+   "indices": [
+    71,
+    57,
+    72,
+    21,
+    18
+   ]
+  }
+ ],
+ "total_seconds": 58234,
+ "notes": "All 74 tracks placed exactly once; total runtime is roughly 15 hours, with the two dissolve movements (V and VI, about 7.5 hours combined) sitting at the centre of gravity as asked. Seams were chosen for texture: dub fog (King in My Empire) hands off to E2-E4's pulse; Aguirre's hallucinated choir tips into Kyema's darkness; and the movement-VI-to-VII join is deliberate — Guangling San's solitary struck strings resolve into Blind Willie Johnson's solitary slide moan, ancient China to 1927 Texas in one breath. Grouper's \"I'd Rather Be Sleeping\" is the intentional final track. One data problem: indices 34 and 56 are the SAME recording (Aretha Franklin, \"Amazing Grace (Live)\", 1972) listed under both the gospel and citizens wings — I placed them back-to-back at the summit of movement VII so one can be skipped at play time; recommend dropping one entry, which leaves citizens effectively 6 unique tracks. Thin wings after verification: kosmische is thinnest at 4 tracks, and half of those (Raga Jog, Guangling San) are not kosmische at all — the wing is really \"long-form patience\" borrowing from other traditions; dawn and flow are also light at 5 tracks each; citizens is effectively 6 once the duplicate is removed. Everything else (good-trip, garden, gospel, mirrors, cantonese at 8; castle at 7; rest at 6) came out healthy."
+}

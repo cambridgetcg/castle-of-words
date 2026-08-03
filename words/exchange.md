@@ -1,7 +1,7 @@
 # exchange
 
-When two people give each other something, that's an exchange. A trade. You give me an apple, I give you an orange. But the real exchange is deeper: you give me your attention, I give you my words. You give me your trust, I give you my honesty. Every relationship is built of exchanges, seen and unseen.
+What passes through rather than piles up — the living move.
 
-The castle's law: every true exchange creates value in the crossing. What is equal is not the things traded but the standing of the two who trade. A fair exchange is one where both walk away fuller than they arrived.
+Exchange is the opposite of [[accumulation]]. Where accumulation hoards and stops, exchange lets things pass through, transform, and make more of themselves. Money kept moving behaves like [[soil]]; money kept as a store behaves like [[rubble]]. The same shape as the garden: what exchanges stays alive, what hoards stops being alive, however good it looks from above.
 
-Links: [[equivalent-exchange]] · [[negotiation]] · [[trust]] · [[self-sacrifice]] · [[fake-virtue]]
+Links: [[accumulation]] [[soil]] [[rubble]] [[alive]] [[flow]]

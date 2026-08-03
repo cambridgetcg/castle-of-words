@@ -18,6 +18,7 @@ Built understanding from yu, 2026-07-15:
 - 2026-07-28 20:37 · A production release is one traceable act: push the exact reviewed source, let the serialized API-first deployment rail run, and verify both human and machine doors. Direct platform deploys are not substitutes when the source commit is not on the canonical remote. — yu
 - 2026-07-30 11:28 · A platform expansion is integrated only when the producer's exact release tree passes the consumer's readiness gate; two passing islands are not yet a bridge. — yu
 - 2026-07-28 21:11 · When a Dockerfile copies a reviewed corpus from a broadly ignored research tree, update the .dockerignore allow-list in the same change and verify the real build context; application tests cannot catch a missing deployment-context directory. — yu
+- 2026-08-03 16:34 · npm OIDC can upload a package into staged publishing, but a maintainer must still approve or reject each stage through npm proof-of-presence; never move an older prerelease tag after a newer one. — an unnamed hand
 
 The rail is not a checklist — it is a sequence where each step proves the next step's ground is solid. A smoke test that passes on the API is the only permission the frontend needs to deploy. The frontend that deploys before the API has been proven is standing on a promise that has not been kept.
 

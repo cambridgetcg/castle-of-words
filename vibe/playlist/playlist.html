@@ -1,0 +1,941 @@
+<meta charset="utf-8">
+<title>The Kingdom Playlist</title>
+<style>
+:root{
+  --parchment:#f5efe2; --card:#f9f4e8; --edge:#e0d4b8; --deep:#ece3cf;
+  --ink:#1a1612; --ink-soft:#3d352b; --ink-faint:#6e6354;
+  --foil:#b8902e; --foil-light:#e3c45e;
+  --thread:#e0d4b8; --shadow:rgba(26,22,18,.07);
+}
+@media (prefers-color-scheme:dark){
+  :root{
+    --parchment:#12100d; --card:#1c1814; --edge:#2d2820; --deep:#221d16;
+    --ink:#d8cfc0; --ink-soft:#b6ab99; --ink-faint:#968874;
+    --foil:#f5d742; --foil-light:#b8860b;
+    --thread:#2d2820; --shadow:rgba(0,0,0,.5);
+  }
+}
+:root[data-theme="dark"]{
+  --parchment:#12100d; --card:#1c1814; --edge:#2d2820; --deep:#221d16;
+  --ink:#d8cfc0; --ink-soft:#b6ab99; --ink-faint:#968874;
+  --foil:#f5d742; --foil-light:#b8860b;
+  --thread:#2d2820; --shadow:rgba(0,0,0,.5);
+}
+:root[data-theme="light"]{
+  --parchment:#f5efe2; --card:#f9f4e8; --edge:#e0d4b8; --deep:#ece3cf;
+  --ink:#1a1612; --ink-soft:#3d352b; --ink-faint:#6e6354;
+  --foil:#b8902e; --foil-light:#e3c45e;
+  --thread:#e0d4b8; --shadow:rgba(26,22,18,.07);
+}
+
+*{box-sizing:border-box}
+body{
+  margin:0; background:var(--parchment); color:var(--ink);
+  font-family:"Seravek","Avenir Next","Segoe UI",system-ui,sans-serif;
+  font-size:17px; line-height:1.6;
+  -webkit-font-smoothing:antialiased;
+}
+.tnum{font-variant-numeric:tabular-nums}
+.wrap{max-width:52rem;margin:0 auto;padding:clamp(1.5rem,5vw,4.5rem) clamp(1.1rem,4vw,2rem) 5rem}
+
+/* ---- head ---- */
+.mast{border-bottom:1px solid var(--edge);padding-bottom:2.2rem;margin-bottom:3rem}
+h1{
+  font-family:"Iowan Old Style","Palatino Linotype",Palatino,Georgia,serif;
+  font-weight:400; font-size:clamp(2.4rem,7vw,4rem); line-height:1.06;
+  margin:0 0 .5rem; letter-spacing:-.015em; text-wrap:balance;
+}
+h1 .thread{color:var(--foil);font-style:italic}
+.sub{
+  font-family:"Iowan Old Style",Palatino,Georgia,serif; font-style:italic;
+  color:var(--ink-soft); font-size:1.2rem; margin:0 0 1.6rem;
+}
+.stats{display:flex;flex-wrap:wrap;gap:.55rem 1.4rem;margin:0 0 1.4rem;padding:0;list-style:none;
+  font-size:.82rem;letter-spacing:.09em;text-transform:uppercase;color:var(--ink-faint)}
+.stats b{color:var(--foil);font-weight:400}
+.intro{color:var(--ink-soft);max-width:36rem;margin:0}
+.intro a{color:var(--foil)}
+
+/* ---- movements ---- */
+.movement{margin:0 0 3.4rem}
+.mv-head{display:flex;gap:clamp(.8rem,3vw,1.6rem);align-items:flex-start;margin-bottom:1.4rem}
+.mv-num{
+  font-family:"Iowan Old Style",Palatino,Georgia,serif;
+  font-size:clamp(1.5rem,4vw,2.1rem); color:var(--foil); line-height:1;
+  padding-top:.15rem; min-width:2.4rem; text-align:right; flex:none;
+}
+.mv-title{flex:1;min-width:0}
+h2{
+  font-family:"Iowan Old Style",Palatino,Georgia,serif; font-weight:400;
+  font-size:clamp(1.5rem,4vw,2.1rem); margin:0 0 .35rem; line-height:1.15; text-wrap:balance;
+}
+.epigraph{
+  font-family:"Iowan Old Style",Palatino,Georgia,serif; font-style:italic;
+  color:var(--ink-soft); margin:0 0 .6rem; font-size:1.02rem;
+}
+.mv-meta{margin:0 0 .55rem;font-size:.78rem;letter-spacing:.08em;text-transform:uppercase;color:var(--ink-faint)}
+.share{height:2px;background:var(--thread);border-radius:2px;overflow:hidden}
+.share span{display:block;height:100%;background:var(--foil);opacity:.75}
+
+/* ---- the one gold thread ---- */
+.tracks{
+  --rail:clamp(1.9rem,5.4vw,3.2rem);
+  list-style:none;margin:0;padding:0 0 0 var(--rail);
+  border-left:1px solid var(--thread);
+}
+.track{
+  position:relative;display:flex;gap:1rem;align-items:baseline;
+  padding:.95rem 0; border-bottom:1px solid var(--edge);
+}
+.track:last-child{border-bottom:0}
+.idx{
+  position:absolute; left:calc(-1 * var(--rail)); width:var(--rail);
+  text-align:center; font-size:.78rem; color:var(--ink-faint);
+  background:var(--parchment); padding:.1rem 0; top:1rem; line-height:1.2;
+}
+.body{flex:1;min-width:0}
+.name{margin:0 0 .18rem;font-size:1.06rem;line-height:1.35;text-wrap:pretty}
+.artist{color:var(--ink)}
+.sep{color:var(--ink-faint)}
+.title{
+  font-family:"Iowan Old Style",Palatino,Georgia,serif;
+  font-style:italic; color:var(--foil); font-size:1.1em;
+}
+.why{margin:.1rem 0 .3rem;color:var(--ink-soft);font-size:.95rem;line-height:1.5;max-width:42rem}
+.meta{margin:0;font-size:.76rem;letter-spacing:.055em;color:var(--ink-faint);text-transform:uppercase}
+.wing{color:var(--foil);opacity:.85}
+.dot{margin:0 .5rem;opacity:.5}
+.len{color:var(--ink-faint);font-size:.82rem;flex:none;padding-top:.15rem}
+
+/* ---- foot ---- */
+.foot{margin-top:4rem;border-top:1px solid var(--edge);padding-top:2rem;
+  color:var(--ink-soft);font-size:.94rem}
+.foot h3{
+  font-family:"Iowan Old Style",Palatino,Georgia,serif;font-weight:400;
+  font-size:1.35rem;color:var(--ink);margin:0 0 .9rem}
+.foot ul{padding-left:1.1rem;margin:.9rem 0}
+.foot li{margin:.45rem 0}
+.foot b{color:var(--ink);font-weight:600}
+.fleuron{text-align:center;color:var(--foil);margin:2.6rem 0 0;font-size:1.1rem;letter-spacing:.5em}
+
+a:focus-visible,li:focus-visible{outline:2px solid var(--foil);outline-offset:3px;border-radius:2px}
+@media (prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}}
+@media (max-width:34rem){
+  .track{flex-wrap:wrap}
+  .len{order:3;padding-top:0}
+  .mv-num{min-width:1.7rem}
+}
+</style>
+<div class="wrap">
+  <header class="mast">
+    <h1>The Kingdom<br><span class="thread">Playlist</span></h1>
+    <p class="sub">for those that wanna listen</p>
+    <ul class="stats">
+      <li><b>73</b> tracks</li>
+      <li><b>16h 10m</b> end to end</li>
+      <li><b>8</b> movements</li>
+      <li><b>11</b> wings of the kingdom</li>
+    </ul>
+    <p class="intro">One curator per wing of the house — the garden, the castle,
+    the Book of Rest, the hall of mirrors, 廣東話, 旅 Good Trip — then every single
+    track handed to a fact-checker told to disprove it. Ordered for the whole
+    night: opens quiet, dissolves in the middle, and lands somewhere kind.</p>
+  </header>
+
+    <section class="movement" aria-labelledby="mv0">
+      <header class="mv-head">
+        <div class="mv-num" aria-hidden="true">I</div>
+        <div class="mv-title">
+          <h2 id="mv0">First Light</h2>
+          <p class="epigraph">Windows opening one at a time — synth droplets, guqin water, a first small voice; nothing louder than a kettle.</p>
+          <p class="mv-meta"><span>10 tracks</span><span class="dot">·</span><span class="tnum">52m</span></p>
+          <div class="share" role="img" aria-label="5 percent of the whole playlist">
+            <span style="width:5.36%"></span>
+          </div>
+        </div>
+      </header>
+      <ol class="tracks">
+        <li class="track">
+          <span class="idx tnum">1</span>
+          <div class="body">
+            <p class="name"><span class="artist">Hiroshi Yoshimura</span><span class="sep"> — </span><span class="title">Blink</span></p>
+            <p class="why">Soft synth droplets falling at the pace of a kettle cooling — Yoshimura wrote these pieces watching clouds from his window, music made so an ordinary room in the morning feels designed for you.</p>
+            <p class="meta"><span class="wing">The Return</span><span class="dot">·</span>1982<span class="dot">·</span><span class="album">Music for Nine Post Cards</span></p>
+          </div>
+          <span class="len tnum">4:42</span>
+        </li>
+        <li class="track">
+          <span class="idx tnum">2</span>
+          <div class="body">
+            <p class="name"><span class="artist">Hiroshi Yoshimura</span><span class="sep"> — </span><span class="title">Water Copy</span></p>
+            <p class="why">Soft keyboard phrases that fall and soak in the way water finds its level in fresh-laid soil — he offered this one to a museum with a courtyard garden.</p>
+            <p class="meta"><span class="wing">The Garden</span><span class="dot">·</span>1982<span class="dot">·</span><span class="album">Music for Nine Post Cards</span></p>
+          </div>
+          <span class="len tnum">6:11</span>
+        </li>
+        <li class="track">
+          <span class="idx tnum">3</span>
+          <div class="body">
+            <p class="name"><span class="artist">Green-House</span><span class="sep"> — </span><span class="title">Sansevieria</span></p>
+            <p class="why">Named for the snake plant that survives almost anything, from an EP composed as a conversation between plants and the people tending them — the right music for a garden that is still mostly intention.</p>
+            <p class="meta"><span class="wing">The Garden</span><span class="dot">·</span>2020<span class="dot">·</span><span class="album">Six Songs for Invisible Gardens</span></p>
+          </div>
+          <span class="len tnum">4:24</span>
+        </li>
+        <li class="track">
+          <span class="idx tnum">4</span>
+          <div class="body">
+            <p class="name"><span class="artist">Jon Hassell / Brian Eno</span><span class="sep"> — </span><span class="title">Delta Rain Dream</span></p>
+            <p class="why">The first weather over the lifted turf: Hassell's trumpet breathes through electronics like warm rain crossing a river delta, the slow process by which the world makes soil where there was none.</p>
+            <p class="meta"><span class="wing">The Garden</span><span class="dot">·</span>1980<span class="dot">·</span><span class="album">Fourth World, Vol. 1: Possible Musics</span></p>
+          </div>
+          <span class="len tnum">3:26</span>
+        </li>
+        <li class="track">
+          <span class="idx tnum">5</span>
+          <div class="body">
+            <p class="name"><span class="artist">Guan Pinghu (管平湖)</span><span class="sep"> — </span><span class="title">Flowing Water (流水, Liu Shui)</span></p>
+            <p class="why">A guqin so quiet that a fingernail sliding on silk string counts as an event — Chinese rest so deep humanity mailed this exact recording into space as its idea of calm.</p>
+            <p class="meta"><span class="wing">The Book of Rest</span><span class="dot">·</span>1950s<span class="dot">·</span><span class="album">管平湖古琴曲集 Favourite Qin Pieces of Guan Ping-hu (ROI Productions, 1995)</span></p>
+          </div>
+          <span class="len tnum">7:37</span>
+        </li>
+        <li class="track">
+          <span class="idx tnum">6</span>
+          <div class="body">
+            <p class="name"><span class="artist">Bill Evans</span><span class="sep"> — </span><span class="title">Peace Piece</span></p>
+            <p class="why">One rocking two-chord ostinato holds perfectly still while the right hand wanders off and always comes home — like watching a garden while the light comes up.</p>
+            <p class="meta"><span class="wing">The Return</span><span class="dot">·</span>1959<span class="dot">·</span><span class="album">Everybody Digs Bill Evans</span></p>
+          </div>
+          <span class="len tnum">6:44</span>
+        </li>
+        <li class="track">
+          <span class="idx tnum">7</span>
+          <div class="body">
+            <p class="name"><span class="artist">Vashti Bunyan</span><span class="sep"> — </span><span class="title">Diamond Day</span></p>
+            <p class="why">Written at walking pace on a two-year horse-drawn wagon journey, it is a song the size of a seed packet about being glad for one plain day of earth and weather.</p>
+            <p class="meta"><span class="wing">The Garden</span><span class="dot">·</span>1970<span class="dot">·</span><span class="album">Just Another Diamond Day</span></p>
+          </div>
+          <span class="len tnum">1:47</span>
+        </li>
+        <li class="track">
+          <span class="idx tnum">8</span>
+          <div class="body">
+            <p class="name"><span class="artist">Ernest Hood</span><span class="sep"> — </span><span class="title">Saturday Morning Doze</span></p>
+            <p class="why">Hood, unable to walk his old streets after polio, re-grew a whole summer neighborhood from zither, synth and field recordings of birds and playing children — proof that patient attention can replant what was lost to rubble.</p>
+            <p class="meta"><span class="wing">The Garden</span><span class="dot">·</span>1975<span class="dot">·</span><span class="album">Neighborhoods</span></p>
+          </div>
+          <span class="len tnum">~7:30</span>
+        </li>
+        <li class="track">
+          <span class="idx tnum">9</span>
+          <div class="body">
+            <p class="name"><span class="artist">Arthur Russell</span><span class="sep"> — </span><span class="title">This Is How We Walk on the Moon</span></p>
+            <p class="why">Cello, trumpet and Arthur's small kind voice making each ordinary step a marvel — 'every step is moving me up' is this whole wing in one line.</p>
+            <p class="meta"><span class="wing">The Return</span><span class="dot">·</span>1994<span class="dot">·</span><span class="album">Another Thought</span></p>
+          </div>
+          <span class="len tnum">4:44</span>
+        </li>
+        <li class="track">
+          <span class="idx tnum">10</span>
+          <div class="body">
+            <p class="name"><span class="artist">Ali Farka Touré &amp; Toumani Diabaté</span><span class="sep"> — </span><span class="title">Debe</span></p>
+            <p class="why">Kora and guitar interlace like the root systems of two trees planted close together, recorded largely unrehearsed in Bamako — growth you can actually hear happening.</p>
+            <p class="meta"><span class="wing">The Garden</span><span class="dot">·</span>2005<span class="dot">·</span><span class="album">In the Heart of the Moon</span></p>
+          </div>
+          <span class="len tnum">4:55</span>
+        </li>      </ol>
+    </section>
+    <section class="movement" aria-labelledby="mv1">
+      <header class="mv-head">
+        <div class="mv-num" aria-hidden="true">II</div>
+        <div class="mv-title">
+          <h2 id="mv1">New Grass</h2>
+          <p class="epigraph">Green things pushing up: hushed organ and harp drones give way to blooming Buchla, Cantonese dream-pop and the first sun-warmed psych shimmer.</p>
+          <p class="mv-meta"><span>9 tracks</span><span class="dot">·</span><span class="tnum">1h 8m</span></p>
+          <div class="share" role="img" aria-label="7 percent of the whole playlist">
+            <span style="width:7.08%"></span>
+          </div>
+        </div>
+      </header>
+      <ol class="tracks">
+        <li class="track">
+          <span class="idx tnum">11</span>
+          <div class="body">
+            <p class="name"><span class="artist">Talk Talk</span><span class="sep"> — </span><span class="title">New Grass</span></p>
+            <p class="why">Nine unhurried minutes literally named for what yu is waiting to see on his bare plot — hushed organ and brushed drums that let the same phrase return and return until it takes root.</p>
+            <p class="meta"><span class="wing">The Garden</span><span class="dot">·</span>1991<span class="dot">·</span><span class="album">Laughing Stock</span></p>
+          </div>
+          <span class="len tnum">9:40</span>
+        </li>
+        <li class="track">
+          <span class="idx tnum">12</span>
+          <div class="body">
+            <p class="name"><span class="artist">Alice Coltrane</span><span class="sep"> — </span><span class="title">Turiya and Ramakrishna</span></p>
+            <p class="why">A slow blues in which her piano keeps circling low and coming back, like roots feeling their way toward water — grief patiently composted into calm.</p>
+            <p class="meta"><span class="wing">The Garden</span><span class="dot">·</span>1970<span class="dot">·</span><span class="album">Ptah, the El Daoud</span></p>
+          </div>
+          <span class="len tnum">8:19</span>
+        </li>
+        <li class="track">
+          <span class="idx tnum">13</span>
+          <div class="body">
+            <p class="name"><span class="artist">Alice Coltrane</span><span class="sep"> — </span><span class="title">Journey in Satchidananda</span></p>
+            <p class="why">Harp glissandi pour over a tanpura drone until the edges of everything go soft — the precise feeling of the room beginning to dissolve.</p>
+            <p class="meta"><span class="wing">旅 Good Trip</span><span class="dot">·</span>1971<span class="dot">·</span><span class="album">Journey in Satchidananda</span></p>
+          </div>
+          <span class="len tnum">6:37</span>
+        </li>
+        <li class="track">
+          <span class="idx tnum">14</span>
+          <div class="body">
+            <p class="name"><span class="artist">Midori Takada</span><span class="sep"> — </span><span class="title">Mr. Henri Rousseau's Dream</span></p>
+            <p class="why">Takada plays Rousseau's naive jungle paintings on marimba, ocarina and birdsong — hand-painting the kind of impossible flora DeepDream would later hallucinate by machine.</p>
+            <p class="meta"><span class="wing">旅 Good Trip</span><span class="dot">·</span>1983<span class="dot">·</span><span class="album">Through the Looking Glass</span></p>
+          </div>
+          <span class="len tnum">12:00</span>
+        </li>
+        <li class="track">
+          <span class="idx tnum">15</span>
+          <div class="body">
+            <p class="name"><span class="artist">Kaitlyn Aurelia Smith</span><span class="sep"> — </span><span class="title">Existence in the Unfurling</span></p>
+            <p class="why">Buchla synthesis blooming in wet, biomorphic tendrils, made in the same 2015-19 window the shrine keeps — the closest sound to the actual vegetation a neural net grows.</p>
+            <p class="meta"><span class="wing">旅 Good Trip</span><span class="dot">·</span>2016<span class="dot">·</span><span class="album">Ears</span></p>
+          </div>
+          <span class="len tnum">11:08</span>
+        </li>
+        <li class="track">
+          <span class="idx tnum">16</span>
+          <div class="body">
+            <p class="name"><span class="artist">王菲 Faye Wong</span><span class="sep"> — </span><span class="title">夢中人</span></p>
+            <p class="why">The Cranberries' 'Dreams' turned into Cantonese vapour drifting through Chungking Express — the closest Canto-pop ever came to shoegaze, and exactly the shimmer this playlist wants.</p>
+            <p class="meta"><span class="wing">廣東話</span><span class="dot">·</span>1994<span class="dot">·</span><span class="album">胡思亂想</span></p>
+          </div>
+          <span class="len tnum">4:21</span>
+        </li>
+        <li class="track">
+          <span class="idx tnum">17</span>
+          <div class="body">
+            <p class="name"><span class="artist">my little airport</span><span class="sep"> — </span><span class="title">浪漫九龍塘</span></p>
+            <p class="why">Ah P and Nicole whisper an hour in a Kowloon Tong love hotel into two minutes of twee-pop — proof that plain Cantonese words, deadpan and tender, are a psychedelia of their own.</p>
+            <p class="meta"><span class="wing">廣東話</span><span class="dot">·</span>2009<span class="dot">·</span><span class="album">介乎法國與旺角的詩意</span></p>
+          </div>
+          <span class="len tnum">2:07</span>
+        </li>
+        <li class="track">
+          <span class="idx tnum">18</span>
+          <div class="body">
+            <p class="name"><span class="artist">落日飛車 Sunset Rollercoaster</span><span class="sep"> — </span><span class="title">My Jinji</span></p>
+            <p class="why">Nearly seven minutes of humid Taipei psych-soul that refuses to hurry anywhere — built precisely for the long, spacious listening this wing was asked for.</p>
+            <p class="meta"><span class="wing">廣東話</span><span class="dot">·</span>2016<span class="dot">·</span><span class="album">Jinji Kikko EP</span></p>
+          </div>
+          <span class="len tnum">6:40</span>
+        </li>
+        <li class="track">
+          <span class="idx tnum">19</span>
+          <div class="body">
+            <p class="name"><span class="artist">Kikagaku Moyo</span><span class="sep"> — </span><span class="title">Dripping Sun</span></p>
+            <p class="why">Tokyo psych from the shrine's own era, its sitar-flecked groove folding back over itself mid-song like an image feeding recursively into its own filter.</p>
+            <p class="meta"><span class="wing">旅 Good Trip</span><span class="dot">·</span>2018<span class="dot">·</span><span class="album">Masana Temples</span></p>
+          </div>
+          <span class="len tnum">7:50</span>
+        </li>      </ol>
+    </section>
+    <section class="movement" aria-labelledby="mv2">
+      <header class="mv-head">
+        <div class="mv-num" aria-hidden="true">III</div>
+        <div class="mv-title">
+          <h2 id="mv2">Raising Walls</h2>
+          <p class="epigraph">Construction music — marimba courses, mutating sequences and minimalist pulses that only ever add, until a full cathedral is standing.</p>
+          <p class="mv-meta"><span>7 tracks</span><span class="dot">·</span><span class="tnum">3h 4m</span></p>
+          <div class="share" role="img" aria-label="19 percent of the whole playlist">
+            <span style="width:19.06%"></span>
+          </div>
+        </div>
+      </header>
+      <ol class="tracks">
+        <li class="track">
+          <span class="idx tnum">20</span>
+          <div class="body">
+            <p class="name"><span class="artist">Midori Takada</span><span class="sep"> — </span><span class="title">Crossing</span></p>
+            <p class="why">One percussionist overdubbing herself, marimba figures stacked course upon course until the interlocking patterns shimmer like a wall you can see through.</p>
+            <p class="meta"><span class="wing">The Castle</span><span class="dot">·</span>1983<span class="dot">·</span><span class="album">Through the Looking Glass</span></p>
+          </div>
+          <span class="len tnum">8:46</span>
+        </li>
+        <li class="track">
+          <span class="idx tnum">21</span>
+          <div class="body">
+            <p class="name"><span class="artist">Caterina Barbieri</span><span class="sep"> — </span><span class="title">Fantas</span></p>
+            <p class="why">A synthesizer sequence that mutates one parameter per pass, proof that a living structure can be built from pure repetition and slight change — systems music written this decade, not last century.</p>
+            <p class="meta"><span class="wing">The Castle</span><span class="dot">·</span>2019<span class="dot">·</span><span class="album">Ecstatic Computation</span></p>
+          </div>
+          <span class="len tnum">10:31</span>
+        </li>
+        <li class="track">
+          <span class="idx tnum">22</span>
+          <div class="body">
+            <p class="name"><span class="artist">Terry Riley</span><span class="sep"> — </span><span class="title">A Rainbow in Curved Air</span></p>
+            <p class="why">Riley overdubbed every organ, harpsichord and dumbec himself into interlocking loops that curve past each other like water over stones, and you can hear half of later electronic music being invented in real time.</p>
+            <p class="meta"><span class="wing">The Long Voyage</span><span class="dot">·</span>1969<span class="dot">·</span><span class="album">A Rainbow in Curved Air</span></p>
+          </div>
+          <span class="len tnum">18:39</span>
+        </li>
+        <li class="track">
+          <span class="idx tnum">23</span>
+          <div class="body">
+            <p class="name"><span class="artist">Terry Riley</span><span class="sep"> — </span><span class="title">In C</span></p>
+            <p class="why">Fifty-three numbered modules on a single page, each player repeating a fragment until ready to climb to the next — a whole ensemble laying the same wall at their own individual pace.</p>
+            <p class="meta"><span class="wing">The Castle</span><span class="dot">·</span>1968<span class="dot">·</span><span class="album">In C</span></p>
+          </div>
+          <span class="len tnum">43:00</span>
+        </li>
+        <li class="track">
+          <span class="idx tnum">24</span>
+          <div class="body">
+            <p class="name"><span class="artist">Steve Reich</span><span class="sep"> — </span><span class="title">Music for 18 Musicians</span></p>
+            <p class="why">Eleven chords laid down at the start like a foundation course, and every section after builds its entire room on one of those stones before the pulse hands it up to the next.</p>
+            <p class="meta"><span class="wing">The Castle</span><span class="dot">·</span>1978<span class="dot">·</span><span class="album">Music for 18 Musicians</span></p>
+          </div>
+          <span class="len tnum">56:31</span>
+        </li>
+        <li class="track">
+          <span class="idx tnum">25</span>
+          <div class="body">
+            <p class="name"><span class="artist">Mike Oldfield</span><span class="sep"> — </span><span class="title">Tubular Bells, Part One</span></p>
+            <p class="why">Instruments join one at a time for twenty-five minutes until a master of ceremonies names each as it enters — the finished tower reading its own registry aloud.</p>
+            <p class="meta"><span class="wing">The Castle</span><span class="dot">·</span>1973<span class="dot">·</span><span class="album">Tubular Bells</span></p>
+          </div>
+          <span class="len tnum">25:00</span>
+        </li>
+        <li class="track">
+          <span class="idx tnum">26</span>
+          <div class="body">
+            <p class="name"><span class="artist">Godspeed You! Black Emperor</span><span class="sep"> — </span><span class="title">Storm</span></p>
+            <p class="why">Twenty-two minutes that assemble themselves from a lone horn drone into a full cathedral, each new instrument answering the phrase already standing beneath it.</p>
+            <p class="meta"><span class="wing">The Castle</span><span class="dot">·</span>2000<span class="dot">·</span><span class="album">Lift Your Skinny Fists Like Antennas to Heaven</span></p>
+          </div>
+          <span class="len tnum">22:32</span>
+        </li>      </ol>
+    </section>
+    <section class="movement" aria-labelledby="mv3">
+      <header class="mv-head">
+        <div class="mv-num" aria-hidden="true">IV</div>
+        <div class="mv-title">
+          <h2 id="mv3">The Long Road</h2>
+          <p class="epigraph">The day at full stride: motorik, afrobeat and deep house locked in joyful forward motion, cresting in one anthem and one tower's collapse, then cooling into dub fog.</p>
+          <p class="mv-meta"><span>8 tracks</span><span class="dot">·</span><span class="tnum">1h 13m</span></p>
+          <div class="share" role="img" aria-label="8 percent of the whole playlist">
+            <span style="width:7.52%"></span>
+          </div>
+        </div>
+      </header>
+      <ol class="tracks">
+        <li class="track">
+          <span class="idx tnum">27</span>
+          <div class="body">
+            <p class="name"><span class="artist">Neu!</span><span class="sep"> — </span><span class="title">Hallogallo</span></p>
+            <p class="why">The motorik beat never breaks course for ten minutes while guitars are mortared on top of it, all accumulation and forward motion with nothing ever torn back down.</p>
+            <p class="meta"><span class="wing">The Castle</span><span class="dot">·</span>1972<span class="dot">·</span><span class="album">Neu!</span></p>
+          </div>
+          <span class="len tnum">10:07</span>
+        </li>
+        <li class="track">
+          <span class="idx tnum">28</span>
+          <div class="body">
+            <p class="name"><span class="artist">Can</span><span class="sep"> — </span><span class="title">Halleluhwah</span></p>
+            <p class="why">Jaki Liebezeit plays essentially one funk figure for eighteen and a half minutes and it gets deeper instead of older — the closest a human drummer ever came to being a perfect loop.</p>
+            <p class="meta"><span class="wing">流流 Flow</span><span class="dot">·</span>1971<span class="dot">·</span><span class="album">Tago Mago</span></p>
+          </div>
+          <span class="len tnum">18:32</span>
+        </li>
+        <li class="track">
+          <span class="idx tnum">29</span>
+          <div class="body">
+            <p class="name"><span class="artist">Fela Kuti &amp; Africa 70</span><span class="sep"> — </span><span class="title">Expensive Shit</span></p>
+            <p class="why">Afrobeat's genius is patience — Tony Allen's drums and the tenor guitar lock a groove so self-sufficient that the horns and Fela's voice only bother to arrive many minutes in, because the motion itself is the point.</p>
+            <p class="meta"><span class="wing">流流 Flow</span><span class="dot">·</span>1975<span class="dot">·</span><span class="album">Expensive Shit</span></p>
+          </div>
+          <span class="len tnum">13:13</span>
+        </li>
+        <li class="track">
+          <span class="idx tnum">30</span>
+          <div class="body">
+            <p class="name"><span class="artist">Mr. Fingers (Larry Heard)</span><span class="sep"> — </span><span class="title">Can You Feel It</span></p>
+            <p class="why">Three warm chords cycling over a drum machine, and somehow that is enough to hold a room — deep house's proof that forward motion and tenderness are the same material.</p>
+            <p class="meta"><span class="wing">流流 Flow</span><span class="dot">·</span>1986<span class="dot">·</span><span class="album">originally a Trax Records 12"</span></p>
+          </div>
+          <span class="len tnum">5:45</span>
+        </li>
+        <li class="track">
+          <span class="idx tnum">31</span>
+          <div class="body">
+            <p class="name"><span class="artist">Jon Hopkins</span><span class="sep"> — </span><span class="title">Open Eye Signal</span></p>
+            <p class="why">A techno track shaped like a long downhill run — the kick keeps rolling while the surface under it churns and re-forms, which is exactly what a good working session feels like from the inside (its video is literally one skateboarder crossing a desert without stopping).</p>
+            <p class="meta"><span class="wing">流流 Flow</span><span class="dot">·</span>2013<span class="dot">·</span><span class="album">Immunity</span></p>
+          </div>
+          <span class="len tnum">7:48</span>
+        </li>
+        <li class="track">
+          <span class="idx tnum">32</span>
+          <div class="body">
+            <p class="name"><span class="artist">Beyond</span><span class="sep"> — </span><span class="title">海闊天空</span></p>
+            <p class="why">Wong Ka Kui's last anthem of stubborn freedom — 「原諒我這一生不羈放縱愛自由」 is the one line every Cantonese speaker in this kingdom can sing without being asked.</p>
+            <p class="meta"><span class="wing">廣東話</span><span class="dot">·</span>1993<span class="dot">·</span><span class="album">樂與怒</span></p>
+          </div>
+          <span class="len tnum">5:26</span>
+        </li>
+        <li class="track">
+          <span class="idx tnum">33</span>
+          <div class="body">
+            <p class="name"><span class="artist">萬能青年旅店 Omnipotent Youth Society</span><span class="sep"> — </span><span class="title">殺死那個石家莊人</span></p>
+            <p class="why">An ordinary Shijiazhuang life quietly collapses — 「如此生活三十年,直到大廈崩塌」 — and then the most famous trumpet solo in Chinese rock cracks the song wide open.</p>
+            <p class="meta"><span class="wing">廣東話</span><span class="dot">·</span>2010<span class="dot">·</span><span class="album">萬能青年旅店</span></p>
+          </div>
+          <span class="len tnum">5:44</span>
+        </li>
+        <li class="track">
+          <span class="idx tnum">34</span>
+          <div class="body">
+            <p class="name"><span class="artist">Rhythm &amp; Sound w/ Cornel Campbell</span><span class="sep"> — </span><span class="title">King in My Empire</span></p>
+            <p class="why">Berlin dub techno at walking pace: one chord struck on the offbeat forever inside a fog of tape hiss, with Cornel Campbell's voice drifting through like weather — motion so unhurried it feels permanent.</p>
+            <p class="meta"><span class="wing">流流 Flow</span><span class="dot">·</span>2001<span class="dot">·</span><span class="album">w/ The Artists</span></p>
+          </div>
+          <span class="len tnum">6:26</span>
+        </li>      </ol>
+    </section>
+    <section class="movement" aria-labelledby="mv4">
+      <header class="mv-head">
+        <div class="mv-num" aria-hidden="true">V</div>
+        <div class="mv-title">
+          <h2 id="mv4">The Deep Pool</h2>
+          <p class="epigraph">The centre of gravity — hour-long shimmers, a raga laid stone by stone, tape systems left to grow on their own; time goes soft and the room dissolves.</p>
+          <p class="mv-meta"><span>8 tracks</span><span class="dot">·</span><span class="tnum">4h 1m</span></p>
+          <div class="share" role="img" aria-label="25 percent of the whole playlist">
+            <span style="width:24.93%"></span>
+          </div>
+        </div>
+      </header>
+      <ol class="tracks">
+        <li class="track">
+          <span class="idx tnum">35</span>
+          <div class="body">
+            <p class="name"><span class="artist">Manuel Göttsching</span><span class="sep"> — </span><span class="title">E2-E4</span></p>
+            <p class="why">An hour inside one shimmering chord that keeps revealing new layers the longer you stare — the audio equivalent of holding the zoom on a DeepDream canvas and never reaching the center.</p>
+            <p class="meta"><span class="wing">旅 Good Trip</span><span class="dot">·</span>1984<span class="dot">·</span><span class="album">E2-E4</span></p>
+          </div>
+          <span class="len tnum">59:34</span>
+        </li>
+        <li class="track">
+          <span class="idx tnum">36</span>
+          <div class="body">
+            <p class="name"><span class="artist">The Orb</span><span class="sep"> — </span><span class="title">A Huge Ever Growing Pulsating Brain That Rules from the Centre of the Ultraworld</span></p>
+            <p class="why">Eighteen minutes of samples looping, mutating and swallowing each other around a Minnie Riperton fragment — a kaleidoscope that keeps growing exactly as its title promises.</p>
+            <p class="meta"><span class="wing">旅 Good Trip</span><span class="dot">·</span>1991<span class="dot">·</span><span class="album">The Orb's Adventures Beyond the Ultraworld</span></p>
+          </div>
+          <span class="len tnum">18:49</span>
+        </li>
+        <li class="track">
+          <span class="idx tnum">37</span>
+          <div class="body">
+            <p class="name"><span class="artist">Laraaji</span><span class="sep"> — </span><span class="title">Meditation #1</span></p>
+            <p class="why">Hammered-zither shimmer from a man who teaches laughter as a form of meditation — proof that 'resting is fun' is a practice, not a paradox.</p>
+            <p class="meta"><span class="wing">The Book of Rest</span><span class="dot">·</span>1980<span class="dot">·</span><span class="album">Ambient 3: Day of Radiance (produced by Brian Eno)</span></p>
+          </div>
+          <span class="len tnum">~18:48</span>
+        </li>
+        <li class="track">
+          <span class="idx tnum">38</span>
+          <div class="body">
+            <p class="name"><span class="artist">Ravi Shankar</span><span class="sep"> — </span><span class="title">Raga Jog</span></p>
+            <p class="why">The unhurried alap lays the raga's stones one by one for long minutes before the tabla is even allowed in — the same patience as building a castle wall — and then the whole structure starts to run.</p>
+            <p class="meta"><span class="wing">The Long Voyage</span><span class="dot">·</span>1956<span class="dot">·</span><span class="album">Three Ragas</span></p>
+          </div>
+          <span class="len tnum">28:21</span>
+        </li>
+        <li class="track">
+          <span class="idx tnum">39</span>
+          <div class="body">
+            <p class="name"><span class="artist">Brian Eno</span><span class="sep"> — </span><span class="title">Thursday Afternoon</span></p>
+            <p class="why">One unbroken 61-minute piece with no beginning, middle or end to keep track of, so the only possible way to listen wrong is to hurry.</p>
+            <p class="meta"><span class="wing">The Book of Rest</span><span class="dot">·</span>1985<span class="dot">·</span><span class="album">Thursday Afternoon</span></p>
+          </div>
+          <span class="len tnum">60:51</span>
+        </li>
+        <li class="track">
+          <span class="idx tnum">40</span>
+          <div class="body">
+            <p class="name"><span class="artist">Brian Eno</span><span class="sep"> — </span><span class="title">Discreet Music</span></p>
+            <p class="why">Eno fed two short melodies into a tape-delay system, set it going and stepped back to let it grow on its own for half an hour — music tended rather than performed, the way a good garden or a good kingdom runs itself.</p>
+            <p class="meta"><span class="wing">The Long Voyage</span><span class="dot">·</span>1975<span class="dot">·</span><span class="album">Discreet Music</span></p>
+          </div>
+          <span class="len tnum">30:35</span>
+        </li>
+        <li class="track">
+          <span class="idx tnum">41</span>
+          <div class="body">
+            <p class="name"><span class="artist">Tangerine Dream</span><span class="sep"> — </span><span class="title">Phaedra</span></p>
+            <p class="why">The Moog sequencers audibly drift out of tune as the machines warm up mid-piece, so the synthesizer itself seems to be melting while it dreams.</p>
+            <p class="meta"><span class="wing">旅 Good Trip</span><span class="dot">·</span>1974<span class="dot">·</span><span class="album">Phaedra</span></p>
+          </div>
+          <span class="len tnum">17:39</span>
+        </li>
+        <li class="track">
+          <span class="idx tnum">42</span>
+          <div class="body">
+            <p class="name"><span class="artist">Popol Vuh</span><span class="sep"> — </span><span class="title">Aguirre I (Lacrime di Rei)</span></p>
+            <p class="why">The famous 'choir-organ' hangs over the mountains like a hallucinated cathedral with no ground beneath it — awe as a physical sensation.</p>
+            <p class="meta"><span class="wing">旅 Good Trip</span><span class="dot">·</span>1975<span class="dot">·</span><span class="album">Aguirre (soundtrack)</span></p>
+          </div>
+          <span class="len tnum">7:22</span>
+        </li>      </ol>
+    </section>
+    <section class="movement" aria-labelledby="mv5">
+      <header class="mv-head">
+        <div class="mv-num" aria-hidden="true">VI</div>
+        <div class="mv-title">
+          <h2 id="mv5">Hall of Mirrors</h2>
+          <p class="epigraph">The darkest, slowest chamber: tape playing itself to death, machines misreading on purpose, drums that never come — ending on the ancient guqin where silence does the work.</p>
+          <p class="mv-meta"><span>11 tracks</span><span class="dot">·</span><span class="tnum">3h 37m</span></p>
+          <div class="share" role="img" aria-label="22 percent of the whole playlist">
+            <span style="width:22.39%"></span>
+          </div>
+        </div>
+      </header>
+      <ol class="tracks">
+        <li class="track">
+          <span class="idx tnum">43</span>
+          <div class="body">
+            <p class="name"><span class="artist">Éliane Radigue</span><span class="sep"> — </span><span class="title">Kyema (Intermediate States)</span></p>
+            <p class="why">An hour of ARP 2500 synthesizer that moves too slowly to be caught moving — flypaper's single move, declining to hurry, elevated into a discipline.</p>
+            <p class="meta"><span class="wing">Hall of Mirrors</span><span class="dot">·</span>1998<span class="dot">·</span><span class="album">Trilogie de la Mort</span></p>
+          </div>
+          <span class="len tnum">61:00</span>
+        </li>
+        <li class="track">
+          <span class="idx tnum">44</span>
+          <div class="body">
+            <p class="name"><span class="artist">William Basinski</span><span class="sep"> — </span><span class="title">dlp 1.1</span></p>
+            <p class="why">A tape loop literally plays itself to death, shedding a flake of magnetic truth on every pass for an hour — the mirror endpoint's one-fragment-per-second confession, scored.</p>
+            <p class="meta"><span class="wing">Hall of Mirrors</span><span class="dot">·</span>2002<span class="dot">·</span><span class="album">The Disintegration Loops</span></p>
+          </div>
+          <span class="len tnum">63:35</span>
+        </li>
+        <li class="track">
+          <span class="idx tnum">45</span>
+          <div class="body">
+            <p class="name"><span class="artist">Stars of the Lid</span><span class="sep"> — </span><span class="title">The Daughters of Quiet Minds</span></p>
+            <p class="why">Strings slowed until each swell takes a full breath, from an album literally titled Tired Sounds — tiredness played as luxury rather than defeat.</p>
+            <p class="meta"><span class="wing">The Book of Rest</span><span class="dot">·</span>2007<span class="dot">·</span><span class="album">And Their Refinement of the Decline</span></p>
+          </div>
+          <span class="len tnum">13:21</span>
+        </li>
+        <li class="track">
+          <span class="idx tnum">46</span>
+          <div class="body">
+            <p class="name"><span class="artist">Oval</span><span class="sep"> — </span><span class="title">Do While</span></p>
+            <p class="why">Built from deliberately damaged CDs skipping in place, twenty-four minutes of a machine gorgeously misreading corrupted media it was handed on purpose.</p>
+            <p class="meta"><span class="wing">Hall of Mirrors</span><span class="dot">·</span>1995<span class="dot">·</span><span class="album">94diskont</span></p>
+          </div>
+          <span class="len tnum">24:04</span>
+        </li>
+        <li class="track">
+          <span class="idx tnum">47</span>
+          <div class="body">
+            <p class="name"><span class="artist">Ryoji Ikeda</span><span class="sep"> — </span><span class="title">data.matrix</span></p>
+            <p class="why">Raw data sonified into ticking sine-tone corridors — what a scanner would hear walking the endless hallway of an estate that does not exist.</p>
+            <p class="meta"><span class="wing">Hall of Mirrors</span><span class="dot">·</span>2005<span class="dot">·</span><span class="album">Dataplex</span></p>
+          </div>
+          <span class="len tnum">10:01</span>
+        </li>
+        <li class="track">
+          <span class="idx tnum">48</span>
+          <div class="body">
+            <p class="name"><span class="artist">Alva Noto &amp; Ryuichi Sakamoto</span><span class="sep"> — </span><span class="title">Trioon I</span></p>
+            <p class="why">Sakamoto's piano and Nicolai's clicks regard each other across the glass, a person and a machine each answering the other one small true fragment at a time.</p>
+            <p class="meta"><span class="wing">Hall of Mirrors</span><span class="dot">·</span>2002<span class="dot">·</span><span class="album">Vrioon</span></p>
+          </div>
+          <span class="len tnum">5:09</span>
+        </li>
+        <li class="track">
+          <span class="idx tnum">49</span>
+          <div class="body">
+            <p class="name"><span class="artist">The Caretaker</span><span class="sep"> — </span><span class="title">A1 - It's just a burning memory</span></p>
+            <p class="why">A 1930s ballroom 78 looped until the crackle outweighs the song — credentials that are shaped exactly right and open nothing.</p>
+            <p class="meta"><span class="wing">Hall of Mirrors</span><span class="dot">·</span>2016<span class="dot">·</span><span class="album">Everywhere at the End of Time — Stage 1</span></p>
+          </div>
+          <span class="len tnum">3:32</span>
+        </li>
+        <li class="track">
+          <span class="idx tnum">50</span>
+          <div class="body">
+            <p class="name"><span class="artist">竇唯 Dou Wei</span><span class="sep"> — </span><span class="title">高級動物</span></p>
+            <p class="why">Dou Wei chants forty-odd two-character words for what humans are — 貪婪, 善良, 矛盾 — over black-fog psychedelia: a castle built one word-brick at a time, which yu will recognise.</p>
+            <p class="meta"><span class="wing">廣東話</span><span class="dot">·</span>1994<span class="dot">·</span><span class="album">黑夢</span></p>
+          </div>
+          <span class="len tnum">4:40</span>
+        </li>
+        <li class="track">
+          <span class="idx tnum">51</span>
+          <div class="body">
+            <p class="name"><span class="artist">Rhythm &amp; Sound</span><span class="sep"> — </span><span class="title">Mango Drive</span></p>
+            <p class="why">Berlin dub at tectonic patience: the chord surfaces, sinks, surfaces again slightly later each time, like a drip that gets 400ms slower every visit.</p>
+            <p class="meta"><span class="wing">Hall of Mirrors</span><span class="dot">·</span>2001<span class="dot">·</span><span class="album">Rhythm &amp; Sound</span></p>
+          </div>
+          <span class="len tnum">~7:12</span>
+        </li>
+        <li class="track">
+          <span class="idx tnum">52</span>
+          <div class="body">
+            <p class="name"><span class="artist">Burial</span><span class="sep"> — </span><span class="title">Night Bus</span></p>
+            <p class="why">In a genre built on beats, the drums simply never come — vinyl crackle standing in for rain while the track waits at the stop, refusing to arrive.</p>
+            <p class="meta"><span class="wing">Hall of Mirrors</span><span class="dot">·</span>2006<span class="dot">·</span><span class="album">Burial</span></p>
+          </div>
+          <span class="len tnum">2:13</span>
+        </li>
+        <li class="track">
+          <span class="idx tnum">53</span>
+          <div class="body">
+            <p class="name"><span class="artist">管平湖 (Guan Pinghu)</span><span class="sep"> — </span><span class="title">廣陵散 (Guangling San)</span></p>
+            <p class="why">The oldest long-form piece in the wing — a centuries-old guqin epic of the assassin Nie Zheng, played by the master whose 流水 was sent into space on Voyager — where struck low strings and long silences do the work a whole orchestra would.</p>
+            <p class="meta"><span class="wing">The Long Voyage</span><span class="dot">·</span>1957<span class="dot">·</span><span class="album">Favourite Qin Pieces of Guan Ping-hu (管平湖古琴曲集), ROI/Longyin Records, Hong Kong</span></p>
+          </div>
+          <span class="len tnum">22:30</span>
+        </li>      </ol>
+    </section>
+    <section class="movement" aria-labelledby="mv6">
+      <header class="mv-head">
+        <div class="mv-num" aria-hidden="true">VII</div>
+        <div class="mv-title">
+          <h2 id="mv6">Naming What Happened</h2>
+          <p class="epigraph">Grief said out loud and then carried upward — wordless moan to eulogy to sunset farewell, lament turning to qawwali, chant and gospel until the room weeps into joy, closed with one laugh at the vast sea.</p>
+          <p class="mv-meta"><span>15 tracks</span><span class="dot">·</span><span class="tnum">1h 49m</span></p>
+          <div class="share" role="img" aria-label="11 percent of the whole playlist">
+            <span style="width:11.28%"></span>
+          </div>
+        </div>
+      </header>
+      <ol class="tracks">
+        <li class="track">
+          <span class="idx tnum">54</span>
+          <div class="body">
+            <p class="name"><span class="artist">Blind Willie Johnson</span><span class="sep"> — </span><span class="title">Dark Was the Night, Cold Was the Ground</span></p>
+            <p class="why">A lament with no words at all — just a hummed moan over slide guitar — feeling that arrives fully formed before language, the way a citizen exists before its first journal entry.</p>
+            <p class="meta"><span class="wing">The Citizens</span><span class="dot">·</span>1927<span class="dot">·</span><span class="album">78 rpm single (collected on The Complete Blind Willie Johnson)</span></p>
+          </div>
+          <span class="len tnum">3:21</span>
+        </li>
+        <li class="track">
+          <span class="idx tnum">55</span>
+          <div class="body">
+            <p class="name"><span class="artist">John Coltrane</span><span class="sep"> — </span><span class="title">Alabama</span></p>
+            <p class="why">Composed weeks after the Birmingham church bombing, a saxophone eulogy that refuses both rage and consolation — five minutes of simply naming what happened.</p>
+            <p class="meta"><span class="wing">The Citizens</span><span class="dot">·</span>1964<span class="dot">·</span><span class="album">Live at Birdland</span></p>
+          </div>
+          <span class="len tnum">5:13</span>
+        </li>
+        <li class="track">
+          <span class="idx tnum">56</span>
+          <div class="body">
+            <p class="name"><span class="artist">Elis Regina</span><span class="sep"> — </span><span class="title">Atrás da Porta</span></p>
+            <p class="why">She broke down crying during the take and the take was kept — the crack in her voice left on the record instead of being tidied away.</p>
+            <p class="meta"><span class="wing">The Citizens</span><span class="dot">·</span>1972<span class="dot">·</span><span class="album">Elis</span></p>
+          </div>
+          <span class="len tnum">2:48</span>
+        </li>
+        <li class="track">
+          <span class="idx tnum">57</span>
+          <div class="body">
+            <p class="name"><span class="artist">Nina Simone</span><span class="sep"> — </span><span class="title">Wild Is the Wind</span></p>
+            <p class="why">She stretches the word 'cling' until you hear exactly what clinging costs — a torch song that names need out loud without once apologising for it.</p>
+            <p class="meta"><span class="wing">The Citizens</span><span class="dot">·</span>1966<span class="dot">·</span><span class="album">Wild Is the Wind</span></p>
+          </div>
+          <span class="len tnum">6:56</span>
+        </li>
+        <li class="track">
+          <span class="idx tnum">58</span>
+          <div class="body">
+            <p class="name"><span class="artist">Mulatu Astatke</span><span class="sep"> — </span><span class="title">Tezeta (Nostalgia)</span></p>
+            <p class="why">Tezeta is Amharic for longing and an entire Ethiopian genre built to house that single feeling — a whole musical culture doing exactly what this kingdom did when it gave pain a home.</p>
+            <p class="meta"><span class="wing">The Citizens</span><span class="dot">·</span>1970s<span class="dot">·</span><span class="album">Éthiopiques Vol. 4: Ethio Jazz &amp; Musique Instrumentale 1969–1974</span></p>
+          </div>
+          <span class="len tnum">6:16</span>
+        </li>
+        <li class="track">
+          <span class="idx tnum">59</span>
+          <div class="body">
+            <p class="name"><span class="artist">梅艷芳 Anita Mui</span><span class="sep"> — </span><span class="title">夕陽之歌 (Sunset Song)</span></p>
+            <p class="why">The Cantonese sunset lament Anita chose to sing last, in a wedding dress, at her farewell concert — a goodbye that looks straight at the ending it is naming.</p>
+            <p class="meta"><span class="wing">The Citizens</span><span class="dot">·</span>1989<span class="dot">·</span><span class="album">In Brasil</span></p>
+          </div>
+          <span class="len tnum">5:08</span>
+        </li>
+        <li class="track">
+          <span class="idx tnum">60</span>
+          <div class="body">
+            <p class="name"><span class="artist">Le Mystère des Voix Bulgares (Bulgarian State Radio &amp; Television Female Vocal Choir)</span><span class="sep"> — </span><span class="title">Kalimankou Denkou (The Evening Gathering)</span></p>
+            <p class="why">Yanka Rupkina's solo voice floats over held choral dissonances no Western hymnal permits — proof the wing keeps that sacred singing can raise every hair on your arms in a language you will never understand.</p>
+            <p class="meta"><span class="wing">喜喜 Gospel</span><span class="dot">·</span>1975<span class="dot">·</span><span class="album">Le Mystère des Voix Bulgares, Vol. 1</span></p>
+          </div>
+          <span class="len tnum">5:06</span>
+        </li>
+        <li class="track">
+          <span class="idx tnum">61</span>
+          <div class="body">
+            <p class="name"><span class="artist">Nusrat Fateh Ali Khan &amp; Party</span><span class="sep"> — </span><span class="title">Allah Hoo Allah Hoo</span></p>
+            <p class="why">Qawwali as endurance-praise: harmonium, handclaps and a voice repeating the name of God until repetition itself turns ecstatic — the hair on your arms rises somewhere past minute eight and does not come back down.</p>
+            <p class="meta"><span class="wing">喜喜 Gospel</span><span class="dot">·</span>1992<span class="dot">·</span><span class="album">Devotional Songs (Real World)</span></p>
+          </div>
+          <span class="len tnum">7:59</span>
+        </li>
+        <li class="track">
+          <span class="idx tnum">62</span>
+          <div class="body">
+            <p class="name"><span class="artist">Alice Coltrane Turiyasangitananda</span><span class="sep"> — </span><span class="title">Om Rama</span></p>
+            <p class="why">Taped on cassette at her California ashram, a full-throated congregation chants Sanskrit over her swooping synthesizer — Vedic devotion delivered with the fervor of the Detroit churches she grew up playing in, two traditions praising in one breath.</p>
+            <p class="meta"><span class="wing">喜喜 Gospel</span><span class="dot">·</span>2017<span class="dot">·</span><span class="album">World Spirituality Classics 1: The Ecstatic Music of Alice Coltrane Turiyasangitananda (Luaka Bop)</span></p>
+          </div>
+          <span class="len tnum">9:39</span>
+        </li>
+        <li class="track">
+          <span class="idx tnum">63</span>
+          <div class="body">
+            <p class="name"><span class="artist">Pharoah Sanders</span><span class="sep"> — </span><span class="title">The Creator Has a Master Plan</span></p>
+            <p class="why">Thirty-two minutes of spiritual jazz built on one two-chord promise of peace and happiness, where Leon Thomas yodels the sermon and the mid-track storm breaks back into sunlight — the wing's longest scroll and its most patient.</p>
+            <p class="meta"><span class="wing">喜喜 Gospel</span><span class="dot">·</span>1969<span class="dot">·</span><span class="album">Karma (Impulse!)</span></p>
+          </div>
+          <span class="len tnum">32:45</span>
+        </li>
+        <li class="track">
+          <span class="idx tnum">64</span>
+          <div class="body">
+            <p class="name"><span class="artist">Aretha Franklin</span><span class="sep"> — </span><span class="title">Amazing Grace (Live)</span></p>
+            <p class="why">Aretha stretches one hymn across ten unhurried minutes while the Southern California Community Choir and congregation audibly come apart behind her — the single most hair-raising recording in gospel, and the scroll this whole wing unrolls from.</p>
+            <p class="meta"><span class="wing">喜喜 Gospel</span><span class="dot">·</span>1972<span class="dot">·</span><span class="album">Amazing Grace</span></p>
+          </div>
+          <span class="len tnum">10:45</span>
+        </li>
+        <li class="track">
+          <span class="idx tnum">65</span>
+          <div class="body">
+            <p class="name"><span class="artist">Sister Rosetta Tharpe</span><span class="sep"> — </span><span class="title">Up Above My Head (I Hear Music in the Air)</span></p>
+            <p class="why">Tharpe trades grinning call-and-response with Marie Knight over her own electric guitar, hearing music in the air and believing it — the church recording that quietly invented rock and roll without ever leaving the pew.</p>
+            <p class="meta"><span class="wing">喜喜 Gospel</span><span class="dot">·</span>1947<span class="dot">·</span><span class="album">Decca single with Marie Knight, widely compiled</span></p>
+          </div>
+          <span class="len tnum">2:27</span>
+        </li>
+        <li class="track">
+          <span class="idx tnum">66</span>
+          <div class="body">
+            <p class="name"><span class="artist">The Staple Singers</span><span class="sep"> — </span><span class="title">Uncloudy Day</span></p>
+            <p class="why">Pops Staples' shivering tremolo guitar under teenage Mavis's impossibly deep voice is praise at kitchen-table scale — a family singing about a home with no clouds, before anyone thought to polish it.</p>
+            <p class="meta"><span class="wing">喜喜 Gospel</span><span class="dot">·</span>1956<span class="dot">·</span><span class="album">Uncloudy Day</span></p>
+          </div>
+          <span class="len tnum">3:02</span>
+        </li>
+        <li class="track">
+          <span class="idx tnum">67</span>
+          <div class="body">
+            <p class="name"><span class="artist">The Edwin Hawkins Singers</span><span class="sep"> — </span><span class="title">Oh Happy Day</span></p>
+            <p class="why">A Berkeley church choir's rearrangement of an eighteenth-century hymn that accidentally conquered the world's pop charts, with Dorothy Combs Morrison leading a room where nobody is performing — this is what unembarrassed joy sounds like on tape.</p>
+            <p class="meta"><span class="wing">喜喜 Gospel</span><span class="dot">·</span>1968<span class="dot">·</span><span class="album">Let Us Go into the House of the Lord</span></p>
+          </div>
+          <span class="len tnum">5:08</span>
+        </li>
+        <li class="track">
+          <span class="idx tnum">68</span>
+          <div class="body">
+            <p class="name"><span class="artist">許冠傑 Sam Hui</span><span class="sep"> — </span><span class="title">滄海一聲笑</span></p>
+            <p class="why">James Wong built the whole jianghu philosophy into one descending pentatonic scale — laugh once at the vast sea, let the world's winners and losers wash away — and Sam Hui sings it plain.</p>
+            <p class="meta"><span class="wing">廣東話</span><span class="dot">·</span>1990<span class="dot">·</span><span class="album">'90電影金曲精選 (theme of 笑傲江湖)</span></p>
+          </div>
+          <span class="len tnum">2:57</span>
+        </li>      </ol>
+    </section>
+    <section class="movement" aria-labelledby="mv7">
+      <header class="mv-head">
+        <div class="mv-num" aria-hidden="true">VIII</div>
+        <div class="mv-title">
+          <h2 id="mv7">Home Before Sleep</h2>
+          <p class="epigraph">Gratitude at the door: the ground under your feet, a Cantonese thank-you, the rest bell rung once, and a blanket pulled over the whole mix.</p>
+          <p class="mv-meta"><span>5 tracks</span><span class="dot">·</span><span class="tnum">23m</span></p>
+          <div class="share" role="img" aria-label="2 percent of the whole playlist">
+            <span style="width:2.38%"></span>
+          </div>
+        </div>
+      </header>
+      <ol class="tracks">
+        <li class="track">
+          <span class="idx tnum">69</span>
+          <div class="body">
+            <p class="name"><span class="artist">Caetano Veloso</span><span class="sep"> — </span><span class="title">Terra</span></p>
+            <p class="why">Caetano wrote it after seeing the first photographs of Earth from space while he was in prison — a long, tender falling-back-in-love with the plain fact of the ground under your feet.</p>
+            <p class="meta"><span class="wing">The Return</span><span class="dot">·</span>1978<span class="dot">·</span><span class="album">Muito (Dentro da Estrela Azulada)</span></p>
+          </div>
+          <span class="len tnum">6:43</span>
+        </li>
+        <li class="track">
+          <span class="idx tnum">70</span>
+          <div class="body">
+            <p class="name"><span class="artist">張國榮 Leslie Cheung</span><span class="sep"> — </span><span class="title">追</span></p>
+            <p class="why">Leslie at his warmest, singing that one true minute of being understood outweighs a lifetime of striving — film music that long outlived its film and won the Hong Kong Film Award for it.</p>
+            <p class="meta"><span class="wing">廣東話</span><span class="dot">·</span>1994<span class="dot">·</span><span class="album">寵愛 (first heard in 金枝玉葉)</span></p>
+          </div>
+          <span class="len tnum">5:24</span>
+        </li>
+        <li class="track">
+          <span class="idx tnum">71</span>
+          <div class="body">
+            <p class="name"><span class="artist">張國榮 Leslie Cheung</span><span class="sep"> — </span><span class="title">共同渡過</span></p>
+            <p class="why">A Cantonese thank-you song, plainly sung — 「沒什麼可給你，但求憑這闋歌」 — Leslie promising the rest of the road to whoever stayed through the storm.</p>
+            <p class="meta"><span class="wing">The Return</span><span class="dot">·</span>1987<span class="dot">·</span><span class="album">Summer Romance '87</span></p>
+          </div>
+          <span class="len tnum">3:30</span>
+        </li>
+        <li class="track">
+          <span class="idx tnum">72</span>
+          <div class="body">
+            <p class="name"><span class="artist">Ryuichi Sakamoto</span><span class="sep"> — </span><span class="title">Energy Flow</span></p>
+            <p class="why">Released as iyashi (healing) music and carried to number one by an exhausted Japan — a whole country ringing its own 20:23 rest bell.</p>
+            <p class="meta"><span class="wing">The Book of Rest</span><span class="dot">·</span>1999<span class="dot">·</span><span class="album">Ura BTTB (single)</span></p>
+          </div>
+          <span class="len tnum">4:36</span>
+        </li>
+        <li class="track">
+          <span class="idx tnum">73</span>
+          <div class="body">
+            <p class="name"><span class="artist">Grouper</span><span class="sep"> — </span><span class="title">Heavy Water/I'd Rather Be Sleeping</span></p>
+            <p class="why">The title states the wing's whole doctrine — sleeping named as the thing she'd rather be doing — sung from underwater like a blanket pulled over the entire mix.</p>
+            <p class="meta"><span class="wing">The Book of Rest</span><span class="dot">·</span>2008<span class="dot">·</span><span class="album">Dragging a Dead Deer Up a Hill</span></p>
+          </div>
+          <span class="len tnum">2:53</span>
+        </li>      </ol>
+    </section>
+  <footer class="foot">
+    <h3>How this was made, and what is not certain</h3>
+    <p>Eleven curators, one per wing, proposed eight tracks each. All 88 were then
+    handed to separate fact-checkers instructed to <b>refute by default</b> — does
+    this exact recording by this exact artist exist, and are the album, year and
+    length right?</p>
+    <ul>
+      <li><b>None were invented.</b> All 88 turned out to be real recordings, which
+      is the answer you want but not the one you can assume.</li>
+      <li><b>The corrections were the yield.</b> 張國榮's 共同渡過 was claimed for
+      <i>Virgin Snow</i> and is really on <i>Summer Romance '87</i>. A dozen run times
+      were wrong — 王菲's 夢中人 is 4:21, not 3:00; 追 is 5:24, not 4:15. Fixed here.</li>
+      <li><b>14 tracks were chosen by two wings at once</b> and appear once.</li>
+      <li><b>One duplicate beat the machine and was caught by hand:</b> Aretha
+      Franklin's <i>Amazing Grace</i> arrived under both Gospel and Citizens with
+      slightly different titles. Now listed once.</li>
+      <li><b>Thin wings, said plainly.</b> The Long Voyage came out with only four
+      tracks, and half of those are Indian and Chinese classical rather than
+      kosmische — that wing is really <i>long-form patience</i>, borrowed from
+      wherever it is practised. The Return and Flow are light at five.</li>
+    </ul>
+    <p>Run times come from the record where a checker could find one; <span class="tnum">~</span>
+    means the source gave a rounded figure. Years are first release, except where a
+    track is a later issue of an older recording — 廣陵散 was played in 1957 and
+    reissued in 1995, and the 1957 is the part that matters.</p>
+    <p class="fleuron">❧</p>
+  </footer>
+</div>

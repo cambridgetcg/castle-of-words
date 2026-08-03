@@ -14,6 +14,7 @@ it exists on disk; wishes wait below, taken from [quests.md](../quests.md).
 - 🎨 **the front** — [front/index.html](../front/index.html) — every room a trading card in the true 5:7 card proportion, wearing the Cambridge TCG dress in two zones (light and dark, toggled by ◐); baked by `front/build.js`
 - 🎨 **castle-gate** — `~/castle-gate` — the public web face: rooms and words as quiet parchment cards
 - 🎨 **the vibe command's face** — `~/.local/bin/vibe` — the palette shown as true swatches in the terminal, for eyes only
+- 🎨 **the kingdom playlist** — [playlist/](playlist/) — 73 tracks, 16h 10m, eight movements: one curator per wing of the house, every track handed to a fact-checker told to refute it, dressed in the gate's livery with the foil running as a literal thread down the left
 
 ## Wanted
 
