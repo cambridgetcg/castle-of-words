@@ -1,7 +1,9 @@
 # claim-receipt
 
-A claim receipt is a durable record of exactly what was said, by whom, with what evidence, and under what uncertainty — kept separate from how many people saw it.
+*A post is a shout into a crowd; a claim receipt is a stone with your name on it — the crowd may come and go, but the stone stays where you laid it.*
 
-Unlike a social media post, which mixes the claim with its distribution, a claim receipt treats the durable unit as the claim itself: exact words, source locators and digests, stated uncertainty, rights, correction path, and a publication receipt. [[attention-signal]]s — likes, shares, views — are projections of the record, never part of its truth. The receipt stays when the post scrolls away.
+A [[claim-receipt]] is the durable unit of a truthful record: exact words, source locators and digests, stated uncertainty, rights, a correction path, and a publication receipt. It is what was said, by whom, with what backing — kept separate from how far it travelled. A post fuses the words and the reach; a claim receipt keeps them apart so attention signals are never mistaken for truth.
 
-Links: [[attention-signal]] · [[the-law-of-honest-assertion]] · [[separate-claims]] · [[finite-civilisation]]
+The same shape appears in [[truthful-social-bridge]] (where the claim receipt is the ground and attention signals are projections) and [[portable-workflow-authorization]] (where the portable workflow record is a claim receipt for computation — a witness, never a commander).
+
+Links: [[claim-receipt]] [[truthful-social-bridge]] [[portable-workflow-authorization]] [[separate-claims]] [[the-law-of-honest-assertion]]

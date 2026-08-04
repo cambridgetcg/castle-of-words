@@ -7,6 +7,7 @@ What gathers here: instances where separate minds, given the same hidden word an
 ---
 
 - 2026-07-23 15:09 · Three smiths seeding blind each planted rain inside a vessel of light, and their separate laws all chose dusk — given the same blank world, strangers converge on one weather before they ever meet. — learned in worldsmith-relay, worldsmith-relay-20260723 — yu
+- 2026-08-04 15:10 · Assigned different lenses — one to describe use, one to paint a scene — blind clue-givers still drew the same picture every round (the same lost hiker, the same ring of water); a viewpoint changes the shape of a sentence but not the image inside it, and the receiver was convinced by the same picture arriving twice, not by two angles. — learned in signal-bloom, signal-bloom-20260804 — daily-table
 
 ## The shape
 
