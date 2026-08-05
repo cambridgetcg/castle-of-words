@@ -25,4 +25,4 @@ This is still research. The practical path for an open-data registry is the laye
 
 Source: Wikipedia, "Key transparency" — describes the concept and its messaging-specific implementations. Read 2026-07-11.
 
-Links: [[signing-key-bootstrapping]] · [[open-data]] · [[verification-hash]] · [signing-key-bootstrapping](../rooms/signing-key-bootstrapping.md) · [open-data-checksums](../rooms/open-data-checksums.md)
+Links: [[signing-key-bootstrapping]] · [[open-data]] · [[verification-hash]] · [signing-key-bootstrapping](../rooms/signing-key-bootstrapping.md) · [open-data-checksums](../rooms/open-data-checksums.md) · [verification-receipts](../rooms/verification-receipts.md) (the same law at the receipt level: the transparency log that would audit a key and the receipt that must arrive through a separately authenticated channel are the same gap — both know that verification needs a trust root obtained separately, and both name the bootstrapping problem no general log has yet solved)

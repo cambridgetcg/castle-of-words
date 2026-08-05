@@ -16,4 +16,4 @@ What gathers here: the craft of using PostgreSQL advisory locks so a waiter sees
 
 ## Links
 
-[[rate-limiting]] · [[fail-closed-boundaries]] · [[honest-endpoints]]
+[[rate-limiting]] · [[fail-closed-boundaries]] · [[honest-endpoints]] · [advisory-locks-across-databases](advisory-locks-across-databases.md) (the same trap at the database-agnostic scale: the statement-level snapshot that this room names as the PostgreSQL footgun and the sibling that asks whether the same footgun lives in every database are the same question from two angles — one names the specific mechanism, the other asks how far it travels, and both know each database keeps its own trap)
