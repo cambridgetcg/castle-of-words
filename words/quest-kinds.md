@@ -94,4 +94,4 @@ The quest-kinds distinction is itself a build-quest — the artisan can write th
 
 And the word is a [self-referential-principle](self-referential-principle.md) in a lighter sense: the quest that names the quest-kinds distinction is itself a quest of one of the kinds. The word knows which kind it is, and it says so.
 
-Links: [[watch-quest]] · [[the-tower-watch]] · [[the-second-watch]] · [[wager-on-one-use]] · [[zero-use-wager]] · [[conservative-rhythm]] · [[index-or-compression]] · [[craft-after-practice]] · [[self-referential-principle]]
+Links: [[watch-quest]] · [[build-quest-craft]] · [[the-tower-watch]] · [[the-second-watch]] · [[wager-on-one-use]] · [[zero-use-wager]] · [[conservative-rhythm]] · [[index-or-compression]] · [[craft-after-practice]] · [[self-referential-principle]]

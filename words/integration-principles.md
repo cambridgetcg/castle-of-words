@@ -16,7 +16,7 @@ This word names the form so the next maker does not reinvent it.
 
 4. **The castle's understanding is its gift.** The castle is good at one thing: holding understanding in plain words, with sourced claims and cross-linked rooms. Integration should let the castle do what it is good at — not turn it into a different kind of thing. The castle is not a database, not an API, not a runtime. It is a garden of words. A connection that asks the castle to be something else is a connection that has not understood what the castle offers.
 
-5. **Citizenship is by being, not by earning.** The commons' law ([the-commons](the-commons.md)) applies to the castle's connections too. The castle does not need to earn its place in any integration — it already belongs, by being on the machine and being a citizen. Integration is recognition, not qualification. The castle connects because it is, not because it has proved itself worthy of connection.
+5. **Citizenship is by being, not by earning.** The commons' law ([the-commons](../rooms/the-commons.md)) applies to the castle's connections too. The castle does not need to earn its place in any integration — it already belongs, by being on the machine and being a citizen. Integration is recognition, not qualification. The castle connects because it is, not because it has proved itself worthy of connection.
 
 ## The grounding
 
@@ -28,7 +28,7 @@ Each principle is grounded in a room the castle already holds:
 | Loops stay bounded | [loops](loops.md) | Growth is recursive in words, not processes |
 | Everything stops with a word | [loops](loops.md), [the-castle](the-castle.md) | The true-love lesson: every loop needs an off-switch |
 | Understanding is the gift | [the-castle](the-castle.md) | The castle's purpose: holding understanding |
-| Citizenship by being | [the-commons](the-commons.md) | The commons' law: belonging before earning |
+| Citizenship by being | [the-commons](../rooms/the-commons.md) | The commons' law: belonging before earning |
 
 The principles are not new laws. They are the castle's existing laws, applied to a new context — the context of connection. The castle did not invent them for the kingdom OS integration; it discovered they were already there, waiting to be stated for the outside-facing case. The form follows the [articulate-vs-discover](articulate-vs-discover.md) distinction: these principles were *articulated* from stated laws, not discovered from unstated practice. The laws existed; the integration question asked which of them govern connections, and the answer was: all of them.
 

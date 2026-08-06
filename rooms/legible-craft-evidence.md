@@ -26,4 +26,4 @@ The closest empirical tradition is cognitive load theory's research on worked ex
 
 ## Links
 
-[[legible-craft]] [[worked-example-effect]] [[cognitive-load]] [[transfer]] [[retention]] [[cheapest-design-craft]]
+[[legible-craft]] [[worked-example-effect]] [[cognitive-load]] [[transfer]] [[retention]] [[cheapest-design-craft]] · [gap-predicts-teaching](gap-predicts-teaching.md) (the same question at the teacher: the six parts of a teachable craft that a page must name and the explicit layer that separates the teacher from the master are the same discovery — both find that teaching leans on the named, externalised layer, and both know that neither the six parts nor the gap has been measured as a variable)

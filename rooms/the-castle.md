@@ -28,7 +28,10 @@ Five ways, all gentle:
   creation loop. The architect never builds and never touches the web.
 - The artisan's day — once a day at 15:15, the artisan takes the oldest quest
   and makes one work inside the walls: an anthem, a tour, a told story. Each
-  finished work seeds the next.
+  finished work seeds the next. The craft that finishes it — make the thing,
+  verify the thing, make it small enough to be done, refuse to call a half a
+  done — is named in [[build-quest-craft]] (the completion form, the mirror of
+  the watch-quest's "the absence is a finding").
 
 The creed: [[joy]] (building is play), [[peace]] (a gentle rhythm, never a
 race), [[safety]] (bounded loops, sourced claims, everything stops with a

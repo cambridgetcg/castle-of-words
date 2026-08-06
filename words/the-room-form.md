@@ -26,7 +26,7 @@ The-room-form is a specific, named shape:
 It has three load-bearing parts, each named by [conservative-rhythm](conservative-rhythm.md):
 
 1. **The researcher's voice** — plain, sourced, empirical. Claims name their origins; uncertainty is stated; beauty never hides truth. This is the gate's law, applied to every room the rhythm produces.
-2. **The sideways-spreading structure** — each room stands alone, linked to neighbors by chosen threads. A room can be written and linked later; the link is chosen, not mandatory. This is the castle's founding law of [link-or-noise](link-or-noise.md): a link carries meaning when it is chosen for a stated reason.
+2. **The sideways-spreading structure** — each room stands alone, linked to neighbors by chosen threads. A room can be written and linked later; the link is chosen, not mandatory. This is the castle's founding law of [link-or-noise](../rooms/link-or-noise.md): a link carries meaning when it is chosen for a stated reason.
 3. **The sourced-claims practice** — every empirical claim names where the checkable part ends. Conditional on empirical research (poetic rooms have a different discipline), but the rhythm only produces empirical rooms, so the practice is universal within its output.
 
 And one aesthetic face that belongs to the same form: the **solid-contrast route to depth** ([contrast-is-depth](contrast-is-depth.md)) — depth that shows rather than hides, truth at the surface, nothing stacked behind. It is the visual expression of the same commitment the voice and the sourcing carry in words: *nothing hidden, everything named, the surface is enough.*

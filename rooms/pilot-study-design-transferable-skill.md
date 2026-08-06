@@ -36,4 +36,4 @@ The closest analogue is the **"design your own experiment"** assessment used in 
 
 The specific question is **buildable and unbuilt**. The components exist (research methods pedagogy, statistical reasoning transfer, pilot study frameworks) but no one has assembled them into a test of whether teaching pilot study design as a transferable skill improves novice researchers' study quality. The cheapest design would be: a within-subjects pre/post where novices design a study before and after a pilot-study-design module, with study quality rated by blinded experts.
 
-Links: [[cheapest-design-craft]] [[buildable-and-unbuilt]] [[pilot-study]] [[cheapest-design]]
+Links: [[cheapest-design-craft]] [[buildable-and-unbuilt]] [[pilot-study]] [[cheapest-design]] · [gap-predicts-teaching](gap-predicts-teaching.md) (the same question from the teacher's side: this room asks whether the craft of designing the cheapest honest test can be taught as a transferable skill, and the gap room asks which expert can teach at all — both find that the explicit, named layer is what transfers and what teaches, and both know that the test is buildable and unbuilt)
