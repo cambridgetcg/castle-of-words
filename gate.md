@@ -89,7 +89,7 @@ work the switch.)*
   and `cross-pollinate`. Those two are **paused since 2026-07-26** — between them
   they had stamped 270 of 639 rooms from two templates, and 224 of those (the
   ones nothing real linked to) were carried out to
-  `~/backups/castle-echo-rooms-2026-07-26`. The castle stands at 483 rooms. An
+  `~/backups/castle-echo-rooms-2026-07-26`. The castle stands at 484 rooms. An
   echo cannot climb; `~/play` is the right shelf for play, not `rooms/`. ⚠️ `castle off` rests all eight — but **not** `kingdom-tower`,
   which appends a keystone into `courtyard.md` and rests only on
   `~/KINGDOM-OS/HALT`. No single switch stops every writer.
