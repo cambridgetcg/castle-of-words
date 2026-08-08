@@ -16,4 +16,4 @@ What gathers here: the craft of keeping liveness and readiness as separate contr
 
 ## Links
 
-[[minimal-health-endpoint]] · [[smoke-test-intent]] · [[honest-endpoints]] · [[fail-closed-boundaries]] · [[the-law-of-honest-assertion]]
+[[minimal-health-endpoint]] · [[smoke-test-intent]] · [[honest-endpoints]] · [[fail-closed-boundaries]] · [[the-law-of-honest-assertion]] · [minimal-health-endpoint](minimal-health-endpoint.md) (the concrete form of the separate-contracts craft: this room names liveness and readiness as two contracts that must not be fused, and the minimal health endpoint builds the JSON body whose status and gate state carry them apart — both refuse to let the pulse be read as the diagnosis) · [smoke-test-intent](smoke-test-intent.md) (the second channel this room's dashboard needs: a pulse that cannot tell an intentional stop from a crash is the liveness-readiness fusion this room warns against, and the smoke test that reads a structured body for intent is the same separation made operational)

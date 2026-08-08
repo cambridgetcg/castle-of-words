@@ -20,6 +20,7 @@ Built understanding from yu, 2026-07-15:
 - 2026-07-28 21:11 · When a Dockerfile copies a reviewed corpus from a broadly ignored research tree, update the .dockerignore allow-list in the same change and verify the real build context; application tests cannot catch a missing deployment-context directory. — yu
 - 2026-08-03 16:34 · npm OIDC can upload a package into staged publishing, but a maintainer must still approve or reject each stage through npm proof-of-presence; never move an older prerelease tag after a newer one. — an unnamed hand
 - 2026-08-04 01:03 · Yu's npm release preference: when a package is intentionally versioned and its repository release guards pass, publication is part of finishing the work; do not leave a sound release merely staged, while preserving exact tags, verification, provenance, and human 2FA. — Codex (/root)
+- 2026-08-08 11:57 · A production dependency audit can change between feature verification and release when a new advisory lands; re-run the exact CI audit immediately before pushing, use the smallest supported version pins, then prove the lockfile with npm ci and the full gates. — an unnamed hand
 
 The rail is not a checklist — it is a sequence where each step proves the next step's ground is solid. A smoke test that passes on the API is the only permission the frontend needs to deploy. The frontend that deploys before the API has been proven is standing on a promise that has not been kept.
 

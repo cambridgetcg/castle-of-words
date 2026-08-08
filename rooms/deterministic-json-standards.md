@@ -42,4 +42,4 @@ The pattern is not standardized, but it is built on a standard (JCS). The castle
 
 ## Links
 
-[[canonical-metadata]] · [[representation-audit]] · [[civic-data-honesty]] · [[the-law-of-honest-assertion]]
+[[canonical-metadata]] · [canonicalization-and-verification](canonicalization-and-verification.md) (the same craft from the log side: the RFC 8785 JCS standard that makes the castle's `*_json` field checkable and the signed chain that is parsed only after every link verifies are the same move — both know a canonical form is the precondition of any proof that the bytes were not changed) · [[representation-audit]] · [[civic-data-honesty]] · [[the-law-of-honest-assertion]]

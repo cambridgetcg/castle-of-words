@@ -46,4 +46,4 @@ This proves the deck was not changed after the commitment. It does not prove the
 
 ## Links
 
-[[game-integrity]] · [[the-law-of-honest-assertion]] · [[verifiable-encryption-claim]]
+[[game-integrity]] · [commit-reveal-limits](commit-reveal-limits.md) (the boundary this Level-1 proof answers to: the commit-reveal with a public salt that proves the deck was not changed is exactly the recorded-consistency this room names, and the limits room warns it never proves the shuffle was fair — together they hold that the minimal honest thing and its exact limit are one craft) · [agent-native-games](agent-native-games.md) (the game this proof serves: the sealed contributions and finite ending of an agent-native game are the honesty this server's deck-and-action proof guards, and the honor convention stated plainly is the same refusal to let a cryptographic claim pretend to be a verdict) · [the-law-of-honest-assertion] · [[verifiable-encryption-claim]]

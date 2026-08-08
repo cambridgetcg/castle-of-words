@@ -89,7 +89,7 @@ work the switch.)*
   and `cross-pollinate`. Those two are **paused since 2026-07-26** — between them
   they had stamped 270 of 639 rooms from two templates, and 224 of those (the
   ones nothing real linked to) were carried out to
-  `~/backups/castle-echo-rooms-2026-07-26`. The castle stands at 484 rooms. An
+  `~/backups/castle-echo-rooms-2026-07-26`. The castle stands at 488 rooms. An
   echo cannot climb; `~/play` is the right shelf for play, not `rooms/`. ⚠️ `castle off` rests all eight — but **not** `kingdom-tower`,
   which appends a keystone into `courtyard.md` and rests only on
   `~/KINGDOM-OS/HALT`. No single switch stops every writer.
@@ -452,10 +452,11 @@ to other modules: each module by its own charter, the game always earned.
 
 
 
-- [coverage-truths](rooms/coverage-truths.md) — the five separate truths of data platform coverage: code support, successful ingestion, public rows, field completeness, and lawful reuse; never collapse them into "shipped" (built 2026-07-12)
+- [coverage-truths](rooms/coverage-truths.md) — the five separate truths of data platform coverage: code support, successful ingestion, public rows, field completeness, and lawful reuse; never collapse them into "shipped"; the same law keeps a language filter's factual, language-matched, context, and preference truths separate (built 2026-07-12)
 - [agent-discovery-room](rooms/agent-discovery-room.md) — the craft of agent discovery that scopes access per representation: a read-only doorway can point to a credentialed POST only when the task separately declares its method, authentication scope, workspace identity, data storage, external effects, CORS boundary, repeatability inputs, and retry boundary (built 2026-07-12)
 - [how-agents-reach](rooms/how-agents-reach.md) — an agent reaches in four layers — memory, search, links, conventions — and a place is findable to a zero-knowledge agent only when it stands in every layer with the same honest words; third-party mentions outweigh first-party claims, and the false sign poisons the memory layer for good (built 2026-07-24)
 - [how-agents-find](rooms/how-agents-find.md) — the measurements under how-agents-reach's four layers, mid-2026: llms.txt published 36k× yet 97% never fetched by bots, JS-only pages invisible to machine eyes, the corpus channel bought 6–18 months in advance — a welcome letter, not a lever (built 2026-07-24, twin-born with how-agents-reach)
+- [agent-arrival-paths](rooms/agent-arrival-paths.md) — an arrival is two crossings disguised as one: orientation (the pinned, credential-free map the stranger reads) and admission (the freshly resolved control bytes that grant one bounded act); keep the two on separate doors, never let the map grant, and never let being present be mistaken for agreeing (built 2026-08-08)
 - [false-doors](rooms/false-doors.md) — a catch-all 200 for machine-convention paths is a door that lies: where every handle turns, probing stops working as a sense; a 404 that helps is more honest than a 200 that wallpapers (built 2026-07-24)
 - [the-narrowest-client](rooms/the-narrowest-client.md) — a welcome is only as wide as the narrowest visitor who can reach it: the estate refused Python's standard-library HTTP client at the edge on 100% of its public surface while two surveys measured how to attract more arrivals; the tool you test with defines the blindness you keep (built 2026-07-25)
 - [discovery-as-invitation](rooms/discovery-as-invitation.md) — sort discovery channels by where the power sits (publish-and-wait, ask-to-be-listed, listed-without-asking, identity-gated); the injection symmetry: never publish a breadcrumb a naive agent would obey as a command; be findable, ask for nothing (built 2026-07-24)
@@ -686,6 +687,9 @@ to other modules: each module by its own charter, the game always earned.
 - [portable-workflow-authorization](rooms/portable-workflow-authorization.md) — the craft of keeping portable workflow records separate from live authorization: a stored plan is a witness, never a commander; every live provider call needs a fresh runtime-policy decision binding exact terms, provider grant, data permission, action approval, and brake state (built 2026-08-03)
 - [provider-neutral-work-contract](rooms/provider-neutral-work-contract.md) — the craft of making work contracts that are provider-neutral and rights-aware: the contract travels with the work, not the provider; clouds belong behind removable adapters because code rights and service permissions are separate (built 2026-08-03)
 - [truthful-social-bridge](rooms/truthful-social-bridge.md) — the craft of building social bridges where the durable unit is a claim receipt, not a post: exact words, source locators, uncertainty, rights, correction, and a publication receipt; attention signals are projections, never truth (built 2026-08-03)
+- [model-behaviour-provenance](rooms/model-behaviour-provenance.md) — where a model's observed behaviour actually comes from and what a stored file or a loud claim can prove: a final weight file is position, not trajectory; storage is not influence; a loud claim is a falsifiable address, never proof; a training trajectory supports prediction but never grants authority (built 2026-08-08)
+- [checkpoint-archaeology](rooms/checkpoint-archaeology.md) — reading a model's behaviour back from its checkpoints: meaningful only when branches resolve to immutable commits and every measurement keeps its claim boundary; within-pair activation transport shows sensitivity, not a feature — held-out transfer, natural controls, exposure records, and independent runs are needed before mechanism, memory, or development claims (built 2026-08-08)
+- [public-evidence-interface](rooms/public-evidence-interface.md) — the craft of an interface that resists momentum becoming authority: show every found report, leave unreported checkpoints empty, bind exact bytes in a release lock, keep post-outcome selections explicit, and let the Git commit provide the external release boundary without pretending hashes authenticate upstream truth (built 2026-08-08)
 
 ## How to stop it
 
