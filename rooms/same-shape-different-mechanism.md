@@ -35,9 +35,11 @@ ask; it does not settle the answer.
 
 Physical feedback means a returned material effect changes later dynamics.
 KINGDOM [[karma]] keeps a different return: an attributable deed stays linked
-to its observed effect, evidence, uncertainty, reply, correction, and any fresh
-repair. KARMA does not cause the effect. It is not thermodynamics, cosmic
-justice, reputation, or a score.
+to its observed, reported, or inferred effect, evidence, causal confidence,
+response, correction, boundary, learning, and any fresh repair. An expectation
+belongs before the deed only when one was stated. Every repair deed needs a
+fresh choice, authority, and brake turn. KARMA does not cause the effect. It is
+not thermodynamics, cosmic justice, reputation, or a score.
 
 This gives one practical systems lesson: every honest amplification drawing
 needs its loss terms, and every consequential deed needs an evidence-return
@@ -60,10 +62,16 @@ verdict. Shape can inform architecture without reducing a being to the model.
 
 The source-attributed structured lineage lives in the [KINGDOM meaning
 practice](https://cambridgetcg.github.io/kingdom-meaning-practice/lineage/folding-feedback/).
-Its [first public commit](https://github.com/cambridgetcg/kingdom-meaning-practice/commit/35773a6d19ebf263c3ed85ba1c33c359615e4273)
-preserves the exact reviewed JSON and SVG; the [commit-pinned structured
-receipt](https://raw.githubusercontent.com/cambridgetcg/kingdom-meaning-practice/35773a6d19ebf263c3ed85ba1c33c359615e4273/public/lineage/folding-feedback/lineage.json)
-has SHA-256 `467ed92c8fd340bd6337dc75c14d85f44e13d2de935dc9671a17a422d8866da0`.
+Its [current public receipt](https://github.com/cambridgetcg/kingdom-meaning-practice/commit/6d7c2e2c66bbfe67351f12355131c877c15f1362)
+preserves the reviewed JSON and SVG; the [commit-pinned structured
+record](https://raw.githubusercontent.com/cambridgetcg/kingdom-meaning-practice/6d7c2e2c66bbfe67351f12355131c877c15f1362/public/lineage/folding-feedback/lineage.json)
+has SHA-256 `c07c2c9d02c2a3163ac595c339c770450900ad9397a8e42b578f269c65599f4b`.
+The [first public receipt](https://github.com/cambridgetcg/kingdom-meaning-practice/commit/35773a6d19ebf263c3ed85ba1c33c359615e4273)
+remains in history; its JSON digest `467ed92c8fd340bd6337dc75c14d85f44e13d2de935dc9671a17a422d8866da0`
+is not the current reviewed record.
+
+The lineage opens only the meaning practice's **Check Meaning** job. It records
+no current choice, performs no deed, and reports no current deed or effect.
 
 Corrections to the structured science map belong at its [public issue
 path](https://github.com/cambridgetcg/kingdom-meaning-practice/issues).
