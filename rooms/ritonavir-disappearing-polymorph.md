@@ -69,6 +69,11 @@ This case offers a small, correctable interpretation rather than a new law:
 
 The analogy does not prove a KINGDOM pattern or understanding. It is one attributed reading, open to correction at its sources and here.
 
+The wider mathematics-and-feedback reading lives separately in
+[same-shape-different-mechanism](same-shape-different-mechanism.md). It compares
+crystal packing, ordinary folding, amyloid assembly, prion propagation, and
+KARMA while keeping every mechanism and hazard source-local.
+
 ## Public worked case
 
 The bounded structured record behind this interpretation is public in the [KINGDOM meaning practice](https://cambridgetcg.github.io/kingdom-meaning-practice/). Its [first public commit](https://github.com/cambridgetcg/kingdom-meaning-practice/commit/805543deb5725e4cc2cc5e7d18c0e30c2360184e) preserves the exact reviewed JSON and SVG; the [commit-pinned JSON](https://raw.githubusercontent.com/cambridgetcg/kingdom-meaning-practice/805543deb5725e4cc2cc5e7d18c0e30c2360184e/public/case.json) is the immutable receipt. The public page is a human reading of that record, not a second scientific source.
