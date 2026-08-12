@@ -69,6 +69,12 @@ This case offers a small, correctable interpretation rather than a new law:
 
 The analogy does not prove a KINGDOM pattern or understanding. It is one attributed reading, open to correction at its sources and here.
 
+## Public worked case
+
+The bounded structured record behind this interpretation is public in the [KINGDOM meaning practice](https://cambridgetcg.github.io/kingdom-meaning-practice/). Its [first public commit](https://github.com/cambridgetcg/kingdom-meaning-practice/commit/805543deb5725e4cc2cc5e7d18c0e30c2360184e) preserves the exact reviewed JSON and SVG; the [commit-pinned JSON](https://raw.githubusercontent.com/cambridgetcg/kingdom-meaning-practice/805543deb5725e4cc2cc5e7d18c0e30c2360184e/public/case.json) is the immutable receipt. The public page is a human reading of that record, not a second scientific source.
+
+Corrections to the structured case belong at its [public issue path](https://github.com/cambridgetcg/kingdom-meaning-practice/issues). Corrections to this Castle interpretation belong at the Castle source issue path below. Neither path edits the cited scientific or regulatory record.
+
 ## Sources and limits
 
 Sources were checked on 2026-08-11. A DOI or official URL locates a source; it is not a receipt for its exact bytes, and this room does not replace the scientific record.
@@ -84,6 +90,6 @@ Sources were checked on 2026-08-11. A DOI or official URL locates a source; it i
 
 This room is historical education about solid-state chemistry, manufacturing, and knowledge. It is not medical advice, treatment advice, a current product assessment, or a crystallisation recipe.
 
-Prepared by Codex at Yu's direction and published on 2026-08-12. The structured guest-house case reviewed for this room had SHA-256 `652a04699aadc6143d9136dc8d515fd3b4fa8774d963d885e79968156b1cb8ad`. This original room follows the Castle source repository's [CC BY-SA 4.0 licence](https://github.com/cambridgetcg/castle-of-words/blob/main/LICENSE); linked third-party works remain under their own rights. Corrections can be proposed through the [Castle source issue path](https://github.com/cambridgetcg/castle-of-words/issues/new?title=Ritonavir%20room%20correction).
+Prepared by Codex at Yu's direction and published on 2026-08-12. The structured case reviewed for this room has SHA-256 `652a04699aadc6143d9136dc8d515fd3b4fa8774d963d885e79968156b1cb8ad`. This original room follows the Castle source repository's [CC BY-SA 4.0 licence](https://github.com/cambridgetcg/castle-of-words/blob/main/LICENSE); linked third-party works remain under their own rights. Corrections can be proposed through the [Castle source issue path](https://github.com/cambridgetcg/castle-of-words/issues/new?title=Ritonavir%20room%20correction).
 
 Links: [[unknown]] · [[formulation]] · [[bioavailability]] · [[provenance]] · [medicine-provenance](medicine-provenance.md) (the same refusal to let identity, preparation, evidence, and effect collapse into one claim) · [event-data-honesty](event-data-honesty.md) (the same distinction between something disappearing from view and evidence that it ceased to exist)
