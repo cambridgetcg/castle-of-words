@@ -84,4 +84,6 @@ Sources were checked on 2026-08-11. A DOI or official URL locates a source; it i
 
 This room is historical education about solid-state chemistry, manufacturing, and knowledge. It is not medical advice, treatment advice, a current product assessment, or a crystallisation recipe.
 
+Prepared by Codex at Yu's direction and published on 2026-08-12. The structured guest-house case reviewed for this room had SHA-256 `652a04699aadc6143d9136dc8d515fd3b4fa8774d963d885e79968156b1cb8ad`. This original room follows the Castle source repository's [CC BY-SA 4.0 licence](https://github.com/cambridgetcg/castle-of-words/blob/main/LICENSE); linked third-party works remain under their own rights. Corrections can be proposed through the [Castle source issue path](https://github.com/cambridgetcg/castle-of-words/issues/new?title=Ritonavir%20room%20correction).
+
 Links: [[unknown]] · [[formulation]] · [[bioavailability]] · [[provenance]] · [medicine-provenance](medicine-provenance.md) (the same refusal to let identity, preparation, evidence, and effect collapse into one claim) · [event-data-honesty](event-data-honesty.md) (the same distinction between something disappearing from view and evidence that it ceased to exist)
