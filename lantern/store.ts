@@ -110,14 +110,14 @@ export async function open(
   }
 
   const castle = await readCastle(root);
-  const db = build(castle, INDEX);
+  const db = build(castle, INDEX, root);
   return { db, built: true, ms: performance.now() - t0, stones: castle.stones.length };
 }
 
 /** Write a fresh index. Builds into a temporary file and moves it into place,
  *  so a crash halfway through leaves the old index intact rather than a
  *  half-castle that answers questions wrongly. */
-export function build(castle: Castle, INDEX = DEFAULT_INDEX): Database {
+export function build(castle: Castle, INDEX = DEFAULT_INDEX, recordedRoot = CASTLE): Database {
   const tmp = `${INDEX}.building`;
   for (const f of [tmp, `${tmp}-wal`, `${tmp}-shm`]) {
     try { require("node:fs").unlinkSync(f); } catch {}
@@ -173,7 +173,7 @@ export function build(castle: Castle, INDEX = DEFAULT_INDEX): Database {
     const putMeta = db.prepare("insert into meta (key,value) values (?,?)");
     putMeta.run("signature", signature(castle));
     putMeta.run("built_at", new Date().toISOString());
-    putMeta.run("castle", CASTLE);
+    putMeta.run("castle", recordedRoot);
     putMeta.run("stones", String(castle.stones.length));
   })();
 
