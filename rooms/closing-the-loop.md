@@ -23,3 +23,4 @@ Links: [[teach-back]] · [[bridge]] · [[meaning]] · [[common-ground]] · [the-
 ## Doors
 
 - ~~Does the say-it-back habit survive between equals — colleagues, spouses — where asking for an echo can read as condescension, or does it need a softer form?~~ → answered in [echo-between-equals](echo-between-equals.md) (2026-06-10): it survives by changing who pays — flip the arrow, own the failure, or make it the house rule
+ · [the-bridge-of-understanding](the-bridge-of-understanding.md) (the same habit as architecture: the say-it-back three steps — say it, get it back in their own words, correct and ask again — and the bridge's four moves of offer, echo, compare-correction and return-and-rest are the same crossing; the echo is never the proof but always the material the proof is checked against)

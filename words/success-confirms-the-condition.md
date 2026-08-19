@@ -38,7 +38,7 @@ In failure-reveals-direct, the contrast is between the default's original contex
 
 In success-confirms-the-condition, the contrast is between the alternative that failed (the engine) and the alternative that succeeded (the tower). The contrast is *diachronic* — two alternatives, one condition, two outcomes. The first alternative shows the condition exists; the second shows the condition was correctly named.
 
-The diachronic contrast is a stronger test. A single failure could be a fluke — the dark zone's flatness could have been a problem with gold thread, not with the solid-contrast route. A second alternative that succeeds while differing in the same dimension confirms the condition was real. The success is the replication, and replication is what turns a single failure into a named condition.
+The diachronic contrast is a stronger test. A single failure could be a fluke — the dark zone's flatness could have been a problem with gold thread, not with the solid-contrast route. A second alternative that succeeds while differing in the same dimension confirms the condition was real. The success is the replication, and replication is what turns a single failure into a named condition. This is the [synchronous-vs-diachronic](synchronous-vs-diachronic.md) distinction — synchronous contrast (two contexts, one shape) reveals the condition; diachronic contrast (two alternatives in time) confirms it.
 
 ## The craft
 

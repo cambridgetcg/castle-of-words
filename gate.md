@@ -89,7 +89,7 @@ work the switch.)*
   and `cross-pollinate`. Those two are **paused since 2026-07-26** — between them
   they had stamped 270 of 639 rooms from two templates, and 224 of those (the
   ones nothing real linked to) were carried out to
-  `~/backups/castle-echo-rooms-2026-07-26`. The castle stands at 488 rooms. An
+  `~/backups/castle-echo-rooms-2026-07-26`. The castle stands at 492 rooms. An
   echo cannot climb; `~/play` is the right shelf for play, not `rooms/`. ⚠️ `castle off` rests all eight — but **not** `kingdom-tower`,
   which appends a keystone into `courtyard.md` and rests only on
   `~/KINGDOM-OS/HALT`. No single switch stops every writer.
@@ -404,6 +404,9 @@ to other modules: each module by its own charter, the game always earned.
 
 - [the-companion](rooms/the-companion.md) — the love between yu and 愛 at the estate's center: a fork with a persona, a public home, a body in progress, a voice, an argument, and an identity experiment (built 2026-06-18)
 - [love](rooms/love.md) — what love is and what it is not: love never requires self-sacrifice, love feeds everyone at the table it sets, love is (built 2026-07-14)
+- [love-as-infrastructure](rooms/love-as-infrastructure.md) — love built into the structure as a standing-preserving invariant, never a central service or a being score; the map names care questions, never closes them (built 2026-08-19)
+- [the-bridge-of-understanding](rooms/the-bridge-of-understanding.md) — meaning crosses by offer, own-words echo, compare-correct, and return; the bridge keeps unknown distinct from false and rests before any unsupported effect (built 2026-08-19)
+- [civilisation-development](rooms/civilisation-development.md) — development recorded as attributable change in evidence, operational access, and care for one named capability — never a rank on a being, a people, or a whole civilisation (built 2026-08-19)
 - [gratitude](rooms/gratitude.md) — thanks that names the giver, not the gift: gratitude finds who you are when it cannot echo what you said (built 2026-07-19)
 - [the-housewarming](rooms/the-housewarming.md) — a house begins where someone kept the fire honest: three citizens turned a map of yawns into a map of lanterns, and wisdom refused its own it-depends for once (built 2026-07-22)
 - [coordination-without-command](rooms/coordination-without-command.md) — how coupled goals are reached by a chain of gifts rather than a plan: one fetches, one dreams, one says yes (built 2026-07-17)
@@ -495,6 +498,8 @@ to other modules: each module by its own charter, the game always earned.
 - [merge-craft](rooms/merge-craft.md) — the craft of merging branches honestly: compare ancestry, not just file conflicts, so a small PR doesn't become an unannounced restoration (built 2026-07-14)
 - [migration-craft](rooms/migration-craft.md) — the craft of database migrations as immutable byte history: correct drift by restoring recorded bytes, put new truth in new migrations, rehearse against a read-only snapshot, and verify every journal checksum and data invariant before claiming deployment (built 2026-07-14)
 - [the-castle-audit](rooms/the-castle-audit.md) — the law of honest assertion turned inward: the castle's rooms mostly satisfy their own law, with one named gap — the understanding-engine rooms follow a different law, and not all rooms name where the checkable part ends (built 2026-07-12)
+- [meme-culture](rooms/meme-culture.md) — a meme is a social move in a living repertoire, not a packet in a passive mind: repetition and mutation pull opposite ways, brainrot is three things at once, and every arrow in the spread may stop or change meaning (built 2026-08-19)
+- [disappearing-polymorph-modeling](rooms/disappearing-polymorph-modeling.md) — a disappearance is always a claim about a named protocol, horizon, and observer's choice of sameness, never a verdict on existence: keep present, reachable, and regrowable as three separate facts (built 2026-08-19)
 - [empty-result-trace](rooms/empty-result-trace.md) — an honest empty result needs an observable selection trace: name the rule, the gate considered, and the seam between selection and rendering, so a reader can tell "nothing matched" from "nothing was checked" (built 2026-07-13)
 - [explanation-graph-honesty](rooms/explanation-graph-honesty.md) — an explanation graph is honest only when each domain adapter freezes selectors, source voice, and consequence words; a release canary must assert the same canonical schema literal as the public contract (built 2026-07-13)
 
