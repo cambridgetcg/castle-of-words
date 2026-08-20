@@ -5,6 +5,7 @@
 The craft of building a comparison suite that runs anywhere without overclaiming what its results mean.
 
 - 2026-07-29 01:59 · A portable comparison suite becomes locally runnable without becoming a [[conformance-claim]] when an [[operator-trusted-candidate]] receives only one input at a time, expected values stay outside its wire, process cleanup is separately tested, and the report keeps [[cases-as-truth|cases—not duplicate counts—as its sole categorical truth]]. — yu
+- 2026-08-17 00:13 · A tiny engine-generated conformance set belongs on Hugging Face as a test-only reference-output snapshot, not a training or truth corpus. Reuse choices stay purpose-specific: training allow does not override mirror deny, so an unadmitted correction fixture contributes zero rows. — Codex
 
 ## What holds it together
 

@@ -1,0 +1,23 @@
+# the-naming-tax
+
+*To name the bird while it sings is to watch the cage while the song dies; to name it only after is to find the cage empty and the song unforgettable.*
+
+What gathers here: the cost that naming exacts when it comes too early — how labeling, disclosing, and explaining can tax curiosity, appreciation, and interest, and when explicit explanation earns its keep instead.
+
+---
+
+- 2026-08-20 12:34 · How does naming a thing before the experience of it change the experience — when does the act of labeling cost the learner more than the label earns? — asked by yu, researched by the gardener 2026-08-20
+
+## The two routes to liking
+
+The ground research: **aesthetic pleasure** and **aesthetic interest** are two distinct routes to liking, not one response in two costumes (Graf & Landwehr, *Aesthetic Pleasure versus Aesthetic Interest: The Two Routes to Aesthetic Liking*, Frontiers in Psychology 2017, https://doi.org/10.3389/fpsyg.2017.00015 — read 2026-08-20). Pleasure is the gut-level response: fluent, easy-to-process stimuli are simply liked more, and this happens automatically. Interest is the controlled response: a *disfluent* stimulus that grows more fluent through processing effort becomes interesting — the labor itself mints the coin. The same object can please, or interest, or both, or neither; the routes run on different rails.
+
+The naming tax is the moment one route's mechanism is mistaken for the other's — or one route's timing is imposed on the other. Naming early asks the learner to cash in interest's route (slow, effortful, controlled) for a pleasure-route token (the fluent, easy label) before the effort has been spent. The label arrives pre-chewed; the learner's own disfluency reduction — where interest lives — is made unnecessary and withered. Conversely, when a learner has no entry at all, an early name can be the only scaffold available: the explicit statement of richness pays when the experience needs a door.
+
+## When explicit naming pays
+
+The tax is not universal — a label is not always a cost. Loewenstein's information-gap account of curiosity (*The Psychology of Curiosity*, Psychological Bulletin 1994, doi:10.1037/0033-2909.116.1.75 — read 2026-08-20) holds that curiosity fires when attention lands on a *gap* in knowledge. A name does not close a gap the learner does not yet feel; it can open one. The explicit disclosure of what a work is *rich in* can therefore earn more than it costs when three conditions hold: the learner had no hook, the disclosure is true to what the encounter will reward, and the disclosure stays a door rather than becoming the room.
+
+- 2026-08-20 · Where "productive" stops and "merely wrong" begins: the boundary is **solvability of the mismatch**, and it has been measured. Belke et al. (Frontiers in Human Neuroscience 2015, "Titles change the esthetic appreciations of paintings", https://doi.org/10.3389/fnhum.2015.00464 — read 2026-08-20) varied title↔art match on three levels — semantically matching (easy to fit), non-matching (cannot be resolved), and untitled — while recording facial muscle activity and asking for liking and interest. Non-matching titles produced the *lowest* liking and interest, with sustained corrugator (frown) activity: unresolved disfluency is a dead end, not a puzzle. Untitled and matching produced the highest liking. This confirms the castle's distinction: a wrong label that leaves the perceiver no path back to coherence is merely wrong; a mismatch whose gap can be closed by productive effort (an elaborative title that invites interpretation, a descriptive title that leaves room to look) can kindle. The study did not parametrically vary *degree* of wrongness, so the exact trade-off curve is still unmeasured — but the direction is clear: solvability, not wrongness per se, is the property that decides which side of the boundary a label falls on.
+
+Related: [[interest]] · [[curiosity]] · [[fluency]] · [processing-fluency](../words/processing-fluency.md) is the [[lens]] of ease through which pleasure's route runs; [meaning-between-minds](meaning-between-minds.md) for when the named thing must cross to another mind

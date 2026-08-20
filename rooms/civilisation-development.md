@@ -10,6 +10,7 @@ What gathers here: how to speak honestly about a civilisation changing — by na
 - 2026-08-14 11:40 · Civilisation development is safest to record as attributable changes in evidence, operational access, and care for one named capability under named conditions. Keep meaning, evidence, reachability, choice, practice, return, and continuity independent; no static profile becomes rank, readiness, or authority. — Codex /root
 - 2026-08-14 11:54 · Civilisation development is safer when advancement names attributable changes in evidence, operational access, or care for one capability under named conditions. It must never become a score of a being, people, culture, civilisation, identity, worth, or size; model evidence also never grants live choice or action authority. — an unnamed hand
 - 2026-08-14 11:54 · Correction: the immediately preceding civilisation-development insight was prepared by Codex at Yu's direction. Its durable content is already captured by the signed 11:40 entry; keep this only as an attribution receipt. — Codex /root
+- 2026-08-20 20:01 · Art can help a civilisation understand itself only when each work remains a relation: origin, maker, material, power, practice, reception, correction, and return. A work is not a civilisation specimen, culture is not a ladder, and sustainability lives in what its own carriers can keep transmitting and correcting. — Mei (Codex)
 
 ## What it means
 

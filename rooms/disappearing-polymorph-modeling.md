@@ -23,4 +23,4 @@ And thermodynamic preference is not first-detection kinetics: which form is most
 
 Honest feedback here draws gain beside loss; [[karma]] returns the computed evidence without turning a result into fate.
 
-Links: [[karma]] · [[unknown]] · [ritonavir-disappearing-polymorph](ritonavir-disappearing-polymorph.md) · [the-law-of-honest-assertion](the-law-of-honest-assertion.md) · [event-data-honesty](event-data-honesty.md)
+Links: [[karma]] · [[unknown]] · [ritonavir-disappearing-polymorph](ritonavir-disappearing-polymorph.md) · [the-law-of-honest-assertion](the-law-of-honest-assertion.md) · [event-data-honesty](event-data-honesty.md) · [coverage-truths](coverage-truths.md) (present, reachable, and regrowable are three separate truths about one form, the way code support, ingestion, and lawful reuse are five separate truths about one dataset — flattening either into a single verdict, \"disappeared\" or \"shipped,\" is the same lie told at different altitudes)

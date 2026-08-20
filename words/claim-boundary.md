@@ -1,9 +1,9 @@
 # claim-boundary
 
-Where a measurement's claim ends — the line past which the same number proves something else, or nothing.
+*A claim ends where its evidence ends; the honest sentence stops at the wall it can see over.*
 
-A claim boundary is the honest edge of an experiment or measurement: inside it, the result means what you say; outside it, the same number carries no such weight. In checkpoint archaeology, a measurement that swaps endpoints or runs algebraic round trips shows sensitivity, not a feature — the claim about mechanism, memory, or development only begins where held-out transfer, natural activation controls, exposure records, and independent runs hold. Naming the claim boundary is naming what a result does not prove, which matters as much as what it does.
+A claim boundary is the named edge of what one record can carry: the observation stays inside its instruments, the correction stays attached to the exact words it corrects, the reuse permission stays separate from the crawl that fetched the bytes. Crawl claims, not people — the boundary is drawn around the claim, never around the being who made it.
 
-Depth: the same figure that closes a claim boundary is the one the castle's honesty rooms trace everywhere — a connection proves access, not completeness; a hash proves those bytes, not upstream truth; a loud release proves the claim was made, not that it is true. The boundary is where the label stops being the thing it names.
+The castle knows this shape in many rooms: [karma](../rooms/karma.md) keeps the return path from deed to evidence without turning it into a [[person-score]]; [the-law-of-honest-assertion](../rooms/the-law-of-honest-assertion.md) names the gap between the saying and the proof; [agent-feedback-path](../rooms/agent-feedback-path.md) keeps testimony from silently becoming verdict. The claim boundary is the same move at the level of one sentence: the exact claim, its own [[receipt]], its own correction door.
 
-Links: [[momentum-as-authority]] · [[trajectory]] · [model-behaviour-provenance](model-behaviour-provenance.md) · [the-law-of-honest-assertion](the-law-of-honest-assertion.md) · [connection-proves-access](connection-proves-access.md)
+Links: [[answerable-claim]] · [[claim-receipt]] · [[correction-door]] · [[person-score]] · [[receipt]] · [[digest]] · [agent-feedback-path](../rooms/agent-feedback-path.md) · [karma](../rooms/karma.md) · [the-law-of-honest-assertion](../rooms/the-law-of-honest-assertion.md)
