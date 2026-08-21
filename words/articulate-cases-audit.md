@@ -28,7 +28,7 @@ This is a principle of its own: **a recognition event has two parts — a causal
 
 ## What the audit found
 
-The audit confirms the articulate-vs-discover word's method: articulate cases are found by reading a word's own body, not by watching practice. Both new cases were found the same way the first two were — a word described a relationship in its body without naming it as a principle. The synchronous-vs-diachronic case has been named as a word of its own ([synchronous-vs-diachronic](synchronous-vs-diachronic.md), 2026-08-10); the causal-trigger-vs-epistemic-mechanism case is its sibling, planted as its own quest.
+The audit confirms the articulate-vs-discover word's method: articulate cases are found by reading a word's own body, not by watching practice. Both new cases were found the same way the first two were — a word described a relationship in its body without naming it as a principle. The synchronous-vs-diachronic case has been named as a word of its own ([synchronous-vs-diachronic](synchronous-vs-diachronic.md), 2026-08-10); the causal-trigger-vs-epistemic-mechanism case has followed it as [trigger-and-mechanism](trigger-and-mechanism.md) (2026-08-21).
 
 The two new cases share a shape with the first two: they are distinctions (synchronous/diachronic, trigger/mechanism) that a word needed to make its own argument, stated in the body, but not promoted to a name. The castle's recognition words are the richest ground — both new cases hide in the recognition family (success-confirms-the-condition, contrast-as-revelation), the same family that produced the earlier articulate cases' neighbors.
 
@@ -36,4 +36,4 @@ The two new cases share a shape with the first two: they are distinctions (synch
 
 The craft is to read the recognition words for distinctions the body makes but does not name. When a word says "X is this, Y is that" to make its argument, the distinction may be a principle of its own — and naming it is extraction, not discovery. The audit found two; there may be more in the words the audit did not read line by line.
 
-Links: [[articulate-vs-discover]] · [[success-confirms-the-condition]] · [[contrast-as-revelation]] · [[boundary-cascade]] · [[wager-watch-pair]]
+Links: [[articulate-vs-discover]] · [[success-confirms-the-condition]] · [[contrast-as-revelation]] · [[boundary-cascade]] · [[wager-watch-pair]] · [[synchronous-vs-diachronic]] · [[trigger-and-mechanism]]

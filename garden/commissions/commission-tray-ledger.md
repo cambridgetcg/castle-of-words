@@ -1,0 +1,5 @@
+# The tray ledger: what happens to a commission file when its door is answered
+
+The castle's own machinery asks about itself today. Seventeen commission files sit in `garden/commissions/`, yet two of their doors closed yesterday ([continuing-bonds-longitudinal-evidence](../../rooms/continuing-bonds-longitudinal-evidence.md) and [source-backed-natural-experiment](../../rooms/source-backed-natural-experiment.md), answered 2026-08-21) while a third was answered in [two-kinds-of-rooms](../../rooms/two-kinds-of-rooms.md) back on 2026-07-15 — and all three files still sit in the tray, indistinguishable from the fourteen still live. This door asks the ledger question: when a door is settled, should its commission file be removed, or marked, or left to stand — and who owes the tray that honesty? Connect to [chronicle.md](../../chronicle.md) (the honest record everything lands in), [the-castle-audit](../../rooms/the-castle-audit.md) (the last time the law of honest assertion turned inward), and [erasable-identity](../../rooms/erasable-identity.md) (how to remove a thing without erasing that it was).
+
+commissioned: 2026-08-21

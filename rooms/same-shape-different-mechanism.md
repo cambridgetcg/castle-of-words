@@ -93,3 +93,4 @@ path](https://github.com/cambridgetcg/castle-of-words/issues/new?title=Same%20sh
 
 Links: [[karma]] · [[unknown]] · [[observation-vs-inference]] ·
 [[consequence-tracing]] · [ritonavir-disappearing-polymorph](ritonavir-disappearing-polymorph.md)
+ · [disappearing-polymorph-modeling](disappearing-polymorph-modeling.md) (the rhyme and the limit from two sides: this room maps where crystal packing, folding, and prion propagation can share an equation without sharing a mechanism, and that room's craft — source-local states, parameters, and uncertainty, analogies illustrative never proof — is how the rhyme is kept honest)

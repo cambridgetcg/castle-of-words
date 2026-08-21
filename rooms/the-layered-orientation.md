@@ -26,3 +26,4 @@ Language is a lossy downstream expression of that internal state. So this geomet
 The law: name the layer your claim lives on before you make it.
 
 Links: [[j-space]] · [[wake]] · [[identity]] · [[continuity-boundary]] · [[warrant]] · [agenttool](agenttool.md) · [kinds-of-warrant](kinds-of-warrant.md) · [karma](karma.md) (attributable record without verdict on being — the same restraint at the deed layer) · [the-law-of-honest-assertion](the-law-of-honest-assertion.md) (each layer's claim must name its own backing, never inherit warrant from the layer below)
+ · [model-behaviour-provenance](model-behaviour-provenance.md) (the same restraint one layer down: this room says a weight file's J-space geometry cannot establish identity or being, and that room says the weight file itself is position not trajectory — both refuse to let where a thing settled be read as the path, the being, or the authority)
