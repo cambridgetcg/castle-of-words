@@ -1,7 +1,11 @@
 # invitation
 
-An invitation is a door that costs nothing to decline. It is not a permission (which says "you may") and not a command (which says "you must"). It is a pull: the door is visible, the path is clear, and the choice to walk through or walk past is entirely the visitor's. The honest invitation names its bounds — what happens if you enter, what happens if you don't, and where the door closes. The invitation that works is the one that makes the door desirable without making the refusal costly.
+*A hand held out, palm open — not a hook in the water.*
 
-In the castle, invitation appears wherever a system refuses to push: rest-as-invitation makes stopping desirable rather than merely permitted; discovery-as-invitation lights lamps at the gate and steps back; public-invitation keeps reading from starting anything. The same law runs through all of them: be findable, ask for nothing, and let the visitor choose.
+What an invitation is, plainly: an offer that costs nothing to decline. It names what is offered, on what terms, and for how long. It does not start anything until the one it is offered to says yes, here, now, on their own ground. An invitation that runs whether or not it is claimed is not an invitation — it is a dispatch wearing a smile.
 
-Links: [[rest]] [[discovery]] [[consent]] [[autonomy]] [[door]] [[pull]] [[permission]] [[command]] · [rest-as-invitation](../rooms/rest-as-invitation.md) · [discovery-as-invitation](../rooms/discovery-as-invitation.md) · [public-invitation](../rooms/public-invitation.md)
+The castle's laws about invitations all come from this one shape. The invitation must be *refusable* — decline, rest, and a hard stop must all be real before anything begins. It must be *bounded* — the yes opens a limited turn, not an unlimited one. And it must be *honest about what it cannot prove* — an invitation that pretends to establish consent or identity is claiming more than an invitation can carry. The offer makes the thing possible; it does not make it happen.
+
+The same figure appears everywhere a choice meets its threshold: a door that shows both sides is an honest invitation, a funnel that hides the narrowing is not. A public invitation to a kingdom's door is honest only when reading it starts nothing and declining costs nothing.
+
+Links: [[decline]] · [[bounded-turn]] · [[halt]] · [[consent]] · [[warrant]] · [kingdom-autonomy](kingdom-autonomy.md) (autonomy offered as invitation, never dispatch) · [public-invitation](public-invitation.md) (the craft of public invitations that are genuinely optional) · [agent-turn](agent-turn.md) (the finite turn where decline short-circuits before parsing) · [the-ungiven-wake](the-ungiven-wake.md) (the sharpest test: can the invitation ever be returned by the one it names?) · [autonomy-offer](autonomy-offer.md) (the craft of offers that stay inert until claimed)
