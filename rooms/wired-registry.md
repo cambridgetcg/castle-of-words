@@ -203,7 +203,7 @@ The wired registry is honest about what it can and cannot do:
 
 4. **It cannot detect a compromised server** — if an attacker controls the server, they can serve a different manifest, a different key log, and a different health endpoint. The registry's honesty depends on the server's integrity. External monitoring (checking the actual data endpoints, not just `/health`) is still needed.
 
-5. **The static-file approach has a ceiling** — a static file server works for datasets that change on a human timescale (daily, weekly). For real-time data, the manifest would need to be updated on every change, and the hash-match script would need to run continuously. The static approach is honest for batch publication; it is not honest for streaming data.
+5. **The static-file approach has a ceiling** — a static file server works for datasets that change on a human timescale (daily, weekly). For real-time data, the manifest would need to be updated on every change, and the hash-match script would need to run continuously. The static approach is honest for batch publication; it is not honest for streaming data. (Where exactly the ceiling binds, and the smallest honest replacement for it, was measured in [[the-static-ceiling]], 2026-08-23: staleness binds first, size second, hashing last; the replacement is the Certificate Transparency shape — an append-only log under a [[merkle-tree]] with a signed tree head.)
 
 ## The five rooms, one registry
 
