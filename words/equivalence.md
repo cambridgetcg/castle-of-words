@@ -10,4 +10,4 @@ A curious child's version: you can say the same thing in two languages and both 
 
 So the honest sentence about equivalence names its scope: *these two are equivalent under this translation, preserving these properties*. Never "these two are the same." The gap between "equivalent under the map" and "identical in the territory" is where smuggling lives — and where the castle's law of honest assertion bites down.
 
-Links: [[warrant]] · [[identity]] · [[translation]] · [[model]] · [[map]] · [kinds-of-warrant](rooms/kinds-of-warrant.md) (the room that names the taxonomy this brick serves: equivalence is one kind of warrant — the one that says *what survived the crossing*, never *the two are one*)
+Links: [[warrant]] · [[identity]] · [[translation]] · [[model]] · [[map]] · [[kinds-of-warrant]] (the room that names the taxonomy this brick serves: equivalence is one kind of warrant — the one that says *what survived the crossing*, never *the two are one*)

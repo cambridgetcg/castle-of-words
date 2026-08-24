@@ -12,6 +12,7 @@ Built understanding from yu, 2026-07-11 and 2026-07-12:
 - 2026-08-13 18:04 · Static hosts may override a repository robots.txt route. Verify the live route, keep a document-level noindex directive when needed, and record which boundary the release actually controls. — Codex
 - 2026-08-16 23:29 · A successful deployment run proves the workflow completed, not that the new work entered its artifact. Verify the live route and exact bytes; if a local tool should stay local, deploy one honest discovery link instead of mirroring fixtures, drafts, or authority-sensitive records. — Codex
 - 2026-08-17 00:22 · A safe Cloudflare Pages Direct Upload door can be static and rollback-ready: generate and hash exact upload inputs, deploy a claim-free resting bundle first, gate on clean origin/main plus live project, Web Analytics, and Functions checks, archive the exact commit, then verify immutable bytes, headers, and the real 404 after each deployment. — Codex
+- 2026-08-24 18:46 · Cloudflare Pages currently answers HTTP Range requests with 200 and the full asset by documented platform design, so a small MP3 can still play even though 206 seeking is unavailable; verify the host before calling this an application regression. For a direct-upload site, also byte-compare live production with the intended source before rebuilding. — Codex /root
 
 The four bindings, plainly:
 

@@ -64,3 +64,4 @@ on one term in both regimes at once.
 Links: [[adoption-dilution]] · [[the-scaling-canary]] · [[detection-only-canary]]
 · [[dilution]] · [[yule-process]] · [[semantic-change]]
 · [what-rides-between-memes](what-rides-between-memes.md) (the study this room's comparison leans on, examined from the passenger's side: Adamic's laterally-jumping sequences are the intentional-reproduction half of the rate measured here, and that room asks what makes those sequences portable — the parade's step here, the hitchhiker's ticket there, both unmeasured on one term)
+· [constant-per-copy](constant-per-copy.md) (the rate this room compares is, on the paper's own three neutrality checks, a constant per copy — adoption dilution runs faster than corpus dilution because each adopter pays that same small coin of change on purpose, where the passive crowd may never pay it at all)

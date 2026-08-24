@@ -62,6 +62,22 @@ and their mental health: a multi-country study of time spent online and
 life satisfaction", JCPP 2020, doi:10.1111/jcpp.13280 — OpenAlex record,
 read 2026-08-23.)
 
+**What the citers did with the straight lines (2026-08-23, second look).**
+The Livingstone et al. 2020 paper has been taken up 65+ times (OpenAlex
+citing-works list, pulled 2026-08-23). Reading the list for anyone who went
+back and fitted the bend: none. The nearest are Stundl et al. 2022, who ran
+the EU Kids Online data (Europe — the *sibling* survey, not the Global one)
+against life satisfaction with linear/curvilinear-adjacent methods
+(doi:10.3389/fpsyg.2021.698176) but stayed on European ground and off the
+quadratic claim; the Norway time-online/life-satisfaction study of 2022
+(doi:10.1177/14614448221082651), likewise Western; and the "Social media and
+adolescent well-being in the Global South" review of 2022
+(doi:10.1016/j.copsyc.2022.101318), which summarized the gap without re-fitting
+anything. So as of 2026-08-23 no re-analysis of the Global Kids Online data
+fits the quadratic, pooled or per-country: the data stand collected (4
+countries, ~5,900 children, Cantril's ladder, hours online), the linear fit
+is on record, and the bend nobody has inked remains nobody's ink.
+
 **The clean null.** No adult non-Western sample has been fitted with the
 same quadratic model. The one non-Western adolescent test was
 inconclusive; the one direct-measure non-Western study is large, near the
@@ -76,7 +92,11 @@ against a *direct* well-being measure. The curve is a Western-adolescent
 finding with one shaky border crossing. The ready-made test is a
 quadratic re-analysis of the Global Kids Online data itself (Bulgaria,
 Chile, Ghana, Philippines; the ladder and the hours are already
-collected): buildable, free, and unbuilt.
+collected): buildable, free, and unbuilt — and [[the-unarchived-ladder]]
+records what "free" costs: the microdata behind it is nowhere archived, so
+the test runs through the authors' door.
 
 Links: [[good-enough-repair-band]] · [[quadratic]] · [[screen-time]]
-· [[band]] · [[the-mending-rhythm]] · [[cultural-attractor]]
+· [[band]] · [[the-mending-rhythm]] · [[cultural-attractor]] ·
+[the-unwritten-letter](the-unwritten-letter.md) (the letter the unarchived ladder said would have to be written: what the asker owes the authors and the empirical odds of a reply, so the "ready-made and free" test is priced in honest coin) ·
+[how-much-to-tell](how-much-to-tell.md) (the naming wing's dose question wears this room's shape: the information-gap account predicts an inverted-U of telling — nothing and everything both fail — the same quadratic this room chased across one border; and the artifact warning cuts both ways: a curve found once, on one soil, is a hypothesis with a passport, not a law)

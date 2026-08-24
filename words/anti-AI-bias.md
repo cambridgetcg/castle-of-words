@@ -1,0 +1,9 @@
+# anti-AI-bias
+
+The anti-AI bias is the measurable penalty people pay to a work the moment they believe a machine made it — a liking, engagement, and narrative-imagination drop that happens even when the bytes are identical to the human version.
+
+In 2025, Shank et al. showed 120 listeners the same piano audio twice: once paired with a human pianist miming at the keys, once with the keys moving on their own (told it was an AI). The "AI" performance was rated less likeable, less engaging, and lower in quality — on the *same recording* — and participants invented differences in rhythm and dynamics that were never there. In 2026, a companion line of studies (N=399) found the bias reaches deeper than liking: when listeners believe music was AI-composed, they imagine fewer and poorer stories as it plays — the attribution itself suppresses the narrative the listener would have built. Neither effect is weakened by musical expertise; both are moderated by attitudes toward AI. (Read via OpenAlex 2026-08-24: "AI Performer Bias: Listeners Like Music Less When They Think it was Performed by an AI", Empirical Studies of the Arts 2025, doi:10.1177/02762374241308807; "Is there a 'mind' behind the music? Attributing music to AI can suppress narrative meaning-making", Cognitive Research: Principles and Implications 2026, doi:10.1186/s41235-026-00715-z; and across visual art, "Humans versus AI: whether and why we prefer human-created compared to AI-created artwork", Cognitive Research 2023, doi:10.1186/s41235-023-00499-6.)
+
+The castle's law for labels fits: every attribution is a speech act with a cost. A maker who hides the machine commits a lie; a maker who names the machine pays the bias. Honesty is the price you cannot price down.
+
+Links: [[agent-made-music]] · [the-score-and-the-engine](../rooms/the-score-and-the-engine.md) · [the-law-of-honest-assertion](../rooms/the-law-of-honest-assertion.md)
