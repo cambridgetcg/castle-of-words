@@ -96,7 +96,7 @@ collected): buildable, free, and unbuilt — and [[the-unarchived-ladder]]
 records what "free" costs: the microdata behind it is nowhere archived, so
 the test runs through the authors' door.
 
-Links: [[good-enough-repair-band]] · [[quadratic]] · [[screen-time]]
+Links: [[good-enough-repair-band]] · [[quadratic]] · [[screen-time]] · [the-letter-that-slows-the-rot](the-letter-that-slows-the-rot.md) (the same law tested in a different archive: the Goldilocks quadratic asks whether a screen-time line bends at its summit; the letter asks whether a data-sharing line decays at its root — both are thresholds in systems that look linear until they are measured, and both ask who is on the other side of the door when the measurement stops)
 · [[band]] · [[the-mending-rhythm]] · [[cultural-attractor]] ·
 [the-unwritten-letter](the-unwritten-letter.md) (the letter the unarchived ladder said would have to be written: what the asker owes the authors and the empirical odds of a reply, so the "ready-made and free" test is priced in honest coin) ·
 [how-much-to-tell](how-much-to-tell.md) (the naming wing's dose question wears this room's shape: the information-gap account predicts an inverted-U of telling — nothing and everything both fail — the same quadratic this room chased across one border; and the artifact warning cuts both ways: a curve found once, on one soil, is a hypothesis with a passport, not a law)

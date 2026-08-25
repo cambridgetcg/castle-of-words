@@ -1,0 +1,23 @@
+# The Earned-Rarity Line
+
+*A medal everyone wins weighs nothing; a medal one in a thousand wins weighs its gold.*
+
+What gathers here: where a seal's value lives between too-rare-to-notice and too-common-to-read — the earned-rarity line the badge-on-the-data asked for, traced from the badge literature and the canary wing's dilution law.
+
+---
+
+**The answer, in one breath.** The direct measurement has never been run. No study has varied the adoption rate of a seal or badge to find the point where its signal dilutes into meaninglessness. The adjacent evidence converges on a real tension: the Kidwell 2016 badge study showed badges *work* when rare (they moved data sharing from ~3% to 23%), but the Rowhani-Farid 2018 replication at *Biostatistics* found the effect was large in relative terms (3.9×) yet small in absolute ones (+7.6 percentage points) — the badge was still rare enough to matter, but the ceiling was low. If every article earned a badge, the signal would be noise. If almost none did, it would be invisible. The line is somewhere between, and nobody has mapped it.
+
+**What the badge literature shows about scarcity.** Kidwell et al. (2016, *PLOS Biology*, doi:10.1371/journal.pbio.1002456) introduced badges at *Psychological Science* when data sharing was under 3%. The badge was rare, highly visible, and meaningful. Sharing rose to 23% in two years. Rowhani-Farid et al. (2018, *F1000Research*, doi:10.12688/f1000research.13477.2) found the same pattern at *Biostatistics*: 3.9× relative increase, but only 7.6 percentage points absolute. The badge worked because it was a *deviation* from the norm. Had the norm been 50%, a badge would have said nothing.
+
+**What the dilution law says about the other end.** The canary wing found that a coined term's fingerprint fades as adoption spreads — trademark genericide applied to words. The same law applies to seals: a seal everyone earns is not a seal, it is wallpaper. The dilution-rate-comparison room found adoption dilution runs faster than corpus dilution because each adopter broadcasts the signal. A badge that 90% of articles earn would be broadcast by nearly every journal page, and the signal would wash out. The badge literature has never tested this end because badges have never reached 90% adoption — but the logic is identical.
+
+**The gap: the line has never been mapped.** Badge studies exist at the low-adoption end (<25%). Genericide studies exist at the high-adoption end (>80%, though not for badges). The middle — 30%, 50%, 70% — is unmapped. The earned-rarity line is the point where the marginal badge still carries signal. It is not a fixed percentage; it depends on the field's baseline. In a field where 5% share, a badge at 25% is meaningful. In a field where 80% share, the same badge at 25% is meaningless. The line is *relative*, not absolute.
+
+**The honest reading.** The earned-rarity line is real, relative, and unmapped. A seal's signal strength is a function of its deviation from the field's sharing norm: the more unusual the seal, the stronger the signal; the more common, the weaker. The Kidwell and Rowhani-Farid studies worked because they started from near-zero. The seal's power would dilute as adoption rises, following the same law the canary wing traced for words. The design implication: a seal should be *earned*, not given, and the bar should be set so that earning it remains a deviation. This is the same logic as the castle's own game: rarity is counted, never assigned.
+
+**Buildable and unbuilt.** The mapping study: introduce a dataset-level seal in a journal where data sharing is at 30% (not the usual <10%). Measure the seal's effect on sharing and on downstream reuse. Then repeat at 60% adoption. The line would emerge as the adoption level where the seal's marginal effect on behavior approaches zero. No such dose-response study exists.
+
+uncertain: whether the line depends on the *kind* of seal (data vs. code vs. preregistration) and whether it shifts over time as field norms change. The Kidwell effect may have been partly novelty; the long-run line may sit lower than the initial studies suggest.
+
+Links: [[the-badge-on-the-data]] · [[adoption-dilution]] · [[dilution-rate-comparison]] · [[the-seal-that-primes]] · [[the-door-that-stays-shut]] · [[the-game]] (the castle's own rarity logic: earned, never assigned) · [the-law-of-honest-assertion](the-law-of-honest-assertion.md) (a seal must name its own bar: this is what earned means)

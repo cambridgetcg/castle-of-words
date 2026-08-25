@@ -1,0 +1,9 @@
+# reciprocity
+
+When someone gives you something, you give something back — not because a rule makes you, but because the giving itself built a small bridge, and you want there to be a stone on the other side too.
+
+Reciprocity is the return half of a gift. Mauss named its three duties in 1925: to give, to receive, and to reciprocate — and showed that the exchange of gifts binds people the way a market exchange never does, because the gift leaves the bond open where the price closes the account. The castle meets the word on two roads. On the first, it is a debt the asker owes: whoever writes to an author for unarchived data owes scope, credit, and a copy of what the re-analysis finds — extraction without return is not a request but a taking. On the second, it is a wire that needs no escrow: two gifts matched by need rather than price clear an economy by symmetry, and the evidence room asks honestly whether that trust outlasts the priced kind — plausible, unmeasured.
+
+The honest edge: reciprocity is not symmetry of value but symmetry of *recognition*. The return need not match the gift; it must only acknowledge that a gift happened. Where the return is refused, the bridge stands half-built — which is why the unwritten letter's ledger begins there.
+
+Links: [[gift]] · [[trust]] · [wire-walk-evidence](../rooms/wire-walk-evidence.md) (the evidence room: gift-matching builds bonds markets do not, but whether that trust is *more durable* than price-mediated trust, no study has measured) · [the-unwritten-letter](../rooms/the-unwritten-letter.md) (the asker's half: what a data-request owes its recipient — credit, scope, and reciprocity of results — so the asking does not extract without return) · [the-letter-that-slows-the-rot](../rooms/the-letter-that-slows-the-rot.md) (the other half of the same ledger: the asker pays scope and credit, the recipient pays a smaller cost, and the saving of the data is everyone's return)

@@ -1,0 +1,23 @@
+# Suspicion Grows by Contact
+
+*A door left ajar in a room you walk through daily: at first you never look, then one day you glance, then one day you open it.*
+
+What gathers here: whether repeated exposure to discoverable provenance seals trains a checking habit in listeners who never suspected — whether suspicion can be grown by contact, so that the seal that primes quietly today becomes the announced label of next year without any designer ever announcing it.
+
+---
+
+**The answer, in one breath.** The closest evidence says yes, but slowly and conditionally. The contact hypothesis in social psychology (Pettigrew & Tropp 2006, *JPSP*, doi:10.1037/0022-3514.90.5.751) shows that sustained, repeated contact with an outgroup reduces prejudice — but the effect is small, context-dependent, and weakest when the contact is unpleasant or feels coerced. The mere-exposure literature (Zajonc 1968; Bornstein 1989 meta-analysis) shows that repeated exposure to a stimulus increases liking, even without awareness. Applied to seals: a listener who never suspected would, after many encounters with the same seal, begin to notice it, then to wonder, then to check. But this is a slow drip, not a switch, and it depends on the seal being *pleasant to encounter* — a badge that feels like a nag would be avoided, not adopted.
+
+**What the contact hypothesis actually says.** Pettigrew & Tropp's 2006 meta-analysis of 515 studies found that intergroup contact reduces prejudice, with a mean effect size of r = -.215. Crucially, the effect is moderated by conditions Allport named in 1954: equal status, common goals, cooperation, and institutional support. Without those, contact can backfire. A seal encountered in a hostile or demanding context (a pop-up, a warning, a paywall) would be the bad kind of contact; a seal that sits quietly, available but unforced, is the good kind.
+
+**What the mere-exposure literature adds.** Bornstein's 1989 meta-analysis (*Psychological Bulletin*, doi:10.1037/0033-2909.105.2.265) of 208 experiments found the mere-exposure effect is robust: repeated exposure increases positive affect toward stimuli, even subliminally. The effect is stronger for stimuli that are initially neutral or mildly positive, weaker for negative stimuli. A provenance seal is exactly neutral-to-mildly-positive for most listeners — a small round mark, not a demand. So repeated exposure should slowly warm the listener to the seal's presence, making the eventual check less aversive.
+
+**The gap: no one has measured the training.** The seal-that-primes room found the one measured case (Chia et al. 2025) showed no spontaneous suspicion — the label was told, not discovered. But that was a one-shot experiment. No study has tracked listeners across multiple sessions to see whether the seal's presence trains the checking habit. The contact hypothesis says it should, over months, not minutes. The mere-exposure literature says the feeling should warm. Neither has been tested on provenance seals.
+
+**The honest reading.** Suspicion can be grown by contact, but the growth is slow and fragile. A seal that is too quiet stays wallpaper forever; a seal that is too loud becomes a demand and triggers avoidance. The design sweet spot is the one Allport named: equal status (the seal is not a warning), common goals (the listener and the seal both want the truth), cooperation (the seal helps the listener, does not accuse), and institutional support (the platform lets the seal be checked easily). Get those four, and the unannounced seal of today becomes the habitual check of next year.
+
+**Buildable and unbuilt.** A longitudinal study: participants listen to music over 8 weeks, some with a visible but unannounced seal on every track, some without. Measure weekly: (1) noticing rate, (2) checking rate, (3) enjoyment. The contact hypothesis predicts noticing and checking rise slowly in the seal group, enjoyment stays level or rises. The mere-exposure literature predicts the warming. Neither has been run.
+
+uncertain: the exact timescale — contact effects in social psychology take months to years; whether the same holds for an inanimate seal is untested. Also uncertain: whether the seal's *meaning* (this certifies human creation) makes it more or less trainable than a neutral stimulus.
+
+Links: [[the-seal-that-primes]] · [[contact-hypothesis]] · [[mere-exposure]] · [[the-door-that-stays-shut]] · [[anti-AI-bias]] · [[the-badge-on-the-data]] · [the-law-of-honest-assertion](the-law-of-honest-assertion.md) (the seal must remain honest as it trains: it must never claim more than it proves) · [the-score-and-the-engine](the-score-and-the-engine.md) (the receipt lives in the engine room; the seal is its quiet face)

@@ -1,16 +1,11 @@
 # mere exposure
 
-The more often you meet a thing, the more you tend to like it — no reasons
-needed, just the meetings.
+*The song you have heard ten times sounds better than the one you have heard once — even if you never noticed it playing.*
 
-Zajonc named the effect in 1968: repeated encounters with a face, a shape, a
-melody raise liking by themselves
-([mere-exposure effect, Wikipedia](https://en.wikipedia.org/wiki/Mere-exposure_effect),
-read 2026-06-11). The likely engine is [[fluency]] — each meeting makes the
-thing easier to process, and the ease is read as warmth. It is the one lever
-that reliably moves a taste, and it can be pulled on purpose: arranged
-exposures, paired with something already loved (filed 2026-06-12, in
-[training-a-taste](../rooms/training-a-taste.md)). Its shadow side: it works
-just as well on falsehoods met often.
+Mere exposure is the psychological finding that repeated contact with a stimulus increases liking for it, even when the person is not aware of the repetition. Robert Zajonc first demonstrated it in 1968; Bornstein's 1989 meta-analysis of 208 experiments confirmed the effect is robust. It works for faces, words, melodies, and abstract shapes. The stimulus does not need to be good — it only needs to be encountered.
 
-Links: [[fluency]] · [[beauty]] · [[noise]]
+The effect has a shape: warming, not conversion. Repeated exposure turns neutral into mildly positive, and mildly positive into liked. It does not turn hated into loved, or even into tolerated. In the castle's [[suspicion-grows-by-contact]] room, mere exposure is the slow, quiet mechanism that might train an unsuspecting listener to notice — and eventually check — a provenance seal they never asked for. The seal does not announce itself; it simply is there, and the being-there does the work.
+
+The effect's limit is monotony: after very many exposures, boredom sets in and liking can decline. The window between invisible and boring is where the training would live.
+
+Links: [[suspicion-grows-by-contact]] · [[contact-hypothesis]] · [[the-seal-that-primes]] · [[the-door-that-stays-shut]]
