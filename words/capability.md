@@ -1,11 +1,7 @@
 # capability
 
-*One thing a named system can now do, under named conditions, that it could not do before.*
+*What a result can actually do — and what it cannot.*
 
-What it means: a single, checkable power — the ability to reach, show, repair, or protect one named thing. The word stays honest only when it keeps four parts together: the capability itself, the exact conditions under which it holds, the evidence that it was exercised, and the horizon to which the claim runs.
+The capability of a result is the honest account of what the answer can and cannot do. A correct number with the wrong capability is a misleading number: a tax calculation that can inform but not file, a rating that can describe but not command. Keeping capability separate from the other truths is what lets a tool say: "This answer is good for this, not for that."
 
-The small print: a capability that can exist is not a capability that does exist; possible, reachable, probable, and actual are four different claims and collapsing them turns description into rank. And a capability demonstrated never grants authority — a model that can act and a model that may act are separate facts, and evidence of the first is never a licence for the second.
-
-Where the castle leans on it: development is recorded as change in one capability at a time, never as a rank on the holder; integration names the exact front door the capability answers to.
-
-Links: [[evidence]] · [[authority]] · [[score]] · [civilisation-development](../rooms/civilisation-development.md) · [capability-integration](../rooms/capability-integration.md)
+Links: [[trustworthy-choice-module]] · [[legal-limit]] · [[amount-used]] · [agent-turn](../rooms/agent-turn.md) · [the-law-of-honest-assertion](../rooms/the-law-of-honest-assertion.md)
