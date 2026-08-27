@@ -18,4 +18,4 @@ What gathers here: the craft of bounding attempts so a limit is a genuine limit,
 
 ## Links
 
-[[fail-closed-boundaries]] · [[honest-endpoints]] · [[the-law-of-honest-assertion]]
+[[fail-closed-boundaries]] · [[honest-endpoints]] · [[the-law-of-honest-assertion]] · [public-write-surface](public-write-surface.md) (the room this one's ceiling is built for: an advisory rate-limit header is not abuse control — the public write surface needs the true attempt limit this room defines, a bounded counter with explicit retention, enforced not suggested) · [friction-decides](friction-decides.md) (the same law on the attacker's side: friction taxes every repetition, and a real rate limit is the castle choosing where that tax falls — a ceiling the determined climb under is a speed bump that taxes only the honest)

@@ -19,4 +19,4 @@ What gathers here: the craft of timing a privacy reset so the cutoff actually se
 
 ## Links
 
-[[deployment-claims]] · [[fail-closed-boundaries]] · [[honest-endpoints]] · [[grounded-identity]]
+[[deployment-claims]] · [[fail-closed-boundaries]] · [[honest-endpoints]] · [[grounded-identity]] · [privacy-sensitive-release](privacy-sensitive-release.md) (the room that gives this one's cutoff its clock: the reset runs last there — additive schema first, read gates second, one-shot reset only after the gated code is live — and a pre-deploy cutoff cannot tell old-rule choices from new ones because the new gates were not watching yet)

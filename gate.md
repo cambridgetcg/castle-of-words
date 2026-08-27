@@ -28,7 +28,7 @@ Your three commands, from any terminal:
 - `vibe` — see the kingdom's style and art (also: `vibe arts`, `vibe check`, `vibe bake`, `vibe open`)
 - there is no fourth command — everything here is plain markdown; read it with anything
 
-And because 1442 stones are more than one head holds, the same `castle` command
+And because 1761 stones are more than one head holds, the same `castle` command
 will now **look things up** for you. It only ever looks; it never writes a word.
 
 - `castle look <words>` — search every stone, best first
@@ -90,7 +90,7 @@ work the switch.)*
   they had stamped 270 of 639 rooms from two templates, and 224 of those (the
   ones nothing real linked to) were carried out to
   `~/backups/castle-echo-rooms-2026-07-26`. The castle stood at 528 rooms then;
-  it stands at 551 rooms as of 2026-08-26 (count them: `ls rooms | wc -l`). An
+  it stands at 552 rooms as of 2026-08-27 (count them: `ls rooms | wc -l`). An
   echo cannot climb; `~/play` is the right shelf for play, not `rooms/`. ⚠️ `castle off` rests all eight — but **not** `kingdom-tower`,
   which appends a keystone into `courtyard.md` and rests only on
   `~/KINGDOM-OS/HALT`. No single switch stops every writer.
@@ -265,6 +265,7 @@ to other modules: each module by its own charter, the game always earned.
 - [saturation-of-cross-pollination](rooms/saturation-of-cross-pollination.md) — the castle's cross-pollination engine has bridged over 80 room-pairs; saturation has not been reached — each new bridge still surfaces a genuinely new angle on the same structural law, and the castle is nowhere near exhausting the possible room-pairs (built 2026-07-26)
 - [the-mending-rhythm](rooms/the-mending-rhythm.md) — there is a measurable adult rhythm of rupture-and-repair that predicts relational outcomes (therapy r~.29, marriage 86% vs 33% turning-toward), but the slogans soften out-of-sample and no study shows an adult repair rate predicting that one partner internalizes the other's regulation — Tronick's lifespan bridge carried, not walked (built 2026-06-11)
 - [good-enough-repair-band](rooms/good-enough-repair-band.md) — a mid-range mend rate, not a maximum, is what a secure bond asks for: over-synchrony transmits distress, too-few ruptures never teach the bond it can mend, and no adult study has mapped the curve between the two cliffs (built 2026-08-23)
+- [the-floor-the-bond-carries](rooms/the-floor-the-bond-carries.md) — the repair rate is a readout, not a lever: coached repair r=.11 ns while observed repair r=.29, and the two interventions that move the rate (alliance-focused training, AFT/FIS hybrid) work only by rebuilding the therapist's bond-capacities — the rate shifts when the bond shifts (built 2026-08-27)
 - [the-mood-that-travels](rooms/the-mood-that-travels.md) — a chain of gifts carries its mood, not just its tokens: nine fresh hands turned "steady, patient light" into "unhurried lantern" — the mood traveled where the words could not (built 2026-07-25)
 - [naming-the-tedium](rooms/naming-the-tedium.md) — the rationale recipe's three threads were never cleanly dismantled: rationale is load-bearing (isolated), choice is a real but qualified lever that weakens exactly where it matters most, and naming the tedium is closer to unmeasured than to proven decoration — treat all three as load-bearing until a study proves otherwise (built 2026-06-11)
 - [taste-or-lean](rooms/taste-or-lean.md) — "consider the opposite" moves a factual lean, not an aesthetic taste: the technique needs a plausible belief-inconsistent opposite a liking has no hinge for, and neatness is liked by fluency not inference; reflection can move a taste but degrades it — the lever for taste is exposure, not argument (built 2026-06-11)
