@@ -70,11 +70,14 @@ work the switch.)*
 - **The gardener's rhythm.** A scheduled visit **every 3 hours** (hermes job
   `castle-gardener`; asked for by yu, 2026-06-10: "create autonomous creation
   loops"). One visit: file the courtyard (up to 10), walk through open doors
-  (up to 3, every claim with its source), plant new questions (up to 3, the
-  prompt's rule being never beyond 12 open — **20 stand open today**, because
-  16 of them are commissioned and the gardener must skip those, so the cap
-  cannot be honoured until the commission tray drains), tend the Map below,
-  write one chronicle line. An idle visit costs nothing and writes nothing.
+  (up to 5, oldest first, every claim with its source), plant new questions
+  (up to 5, the prompt's rule being never beyond 16 open — **18 stand open
+  today**, because most of them are commissioned, need yu, or need a live
+  session the gardener does not have, so the cap cannot be honoured until
+  the commission tray drains), tend the Map below, write one chronicle line.
+  An idle visit costs nothing and writes nothing. *(This section used to say
+  "up to 3" doors and "never beyond 12 open — 20 stand open." Corrected
+  2026-08-28 against the live prompt and questions.md.)*
   ⚠️ **Correction, 2026-07-25:** this used to promise "the gardener can only
   read, write words, and read the web — it cannot run programs." That is not
   true of the gardener that actually runs. The hermes `castle-gardener` job is
@@ -378,7 +381,7 @@ to other modules: each module by its own charter, the game always earned.
 - [hidden-in-the-bright](rooms/hidden-in-the-bright.md) — surrounding the canary pair with more distinctive text protects it from the heart doctrine but dilutes its salience: a context-level trade-off (heart-doctrine safety vs. reproduction probability) alongside the content-level trade-off, making the moderate context the counterpart to the moderate definition (built 2026-06-21)
 - [adoption-dilution](rooms/adoption-dilution.md) — a detection-only canary's coined term loses source-specificity as it enters common use: adoption erodes the fingerprint by the same dilution law as corpus scale, the genericide of trademarks is the proof, and the canary trap's lurid prose was adoption-resistant because its distinctiveness was not useful (built 2026-06-21)
 - [dilution-rate-comparison](rooms/dilution-rate-comparison.md) — adoption dilution runs faster than corpus dilution because each adopter broadcasts the term intentionally while passive corpus text may never repeat it; the side-by-side measurement has never been run, so the fingerprint fades quicker in the parade than in the crowd (built 2026-08-23)
-- [goldilocks-leaves-home](rooms/goldilocks-leaves-home.md) — the quadratic screen-time curve has crossed one border (South Thai adolescents, inconclusive) and one age line (Western adults, confirmed), and the one non-Western direct-measure study (Global Kids Online, four countries, Cantril's ladder) crossed near it but fitted only straight lines — the passport has one stamped page, and the page after it is printed with a bend nobody has inked (built 2026-08-23)
+- [goldilocks-leaves-home](rooms/goldilocks-leaves-home.md) — the quadratic screen-time curve has one shaky border crossing (South Thai adolescents, inconclusive), one Western adult stamp, and now two data-donation stamps carried on straight lines (Swiss adolescents; 427 Pakistani citizens, where logged use bit and self-report lied) — the bend itself has never been fitted to donated hours anywhere, and the cheapest unbuilt test is a Pakistani-style donation study with the quadratic added: one analysis deep, not one letter deep (built 2026-08-23, second door answered 2026-08-28)
 - [what-rides-between-memes](rooms/what-rides-between-memes.md) — no study has measured which features make a text sequence laterally portable between memes, nor whether cascade-internal mutations drift toward memorability the way between-blog drift does: the two mutation laws (yule-process copy-count, cultural-attractor content) each measured one side; the anti-portable canary's recipe waits on one unrun regression and one unread crossing (built 2026-08-23)
 - [constant-per-copy](rooms/constant-per-copy.md) — the yule accumulation Adamic measured is fully consistent with the simplest law — every copy mutates at the same rate, no matter who makes it: the paper's own neutrality checks came back flat (no drift of µ over a meme's life, no popularity-mutation coupling, edit distance compounding with hops), so the copy-count law is a constant per-copy rate, and the direction of the edits (memorability-bound or not) remains unmeasured inside cascades (built 2026-08-23)
 - [the-direction-of-the-edits](rooms/the-direction-of-the-edits.md) — the direction half of the cascade law has been read, twice, and it leans the way the memorability hint predicted: survival modelling of mutated conspiracy claims on X (greater and more psychologically-marked mutations live longer; simplification and assimilation the recurring shapes) and mutated COVID-19 misinformation spreading furthest from non-credible outlets — but both read linguistic categories on dark cargo, so the pristine regression (variant survival × word-level frequency, concreteness, emotionality) remains unrun (built 2026-08-24)

@@ -80,4 +80,5 @@ still unbuilt.
 Links: [[constant-per-copy]] · [[what-rides-between-memes]] ·
 [[yule-process]] · [[cultural-attractor]] · [[memorability]] ·
 [[mutation-rate]] · [[goldilocks-leaves-home]] ·
+[the-unjoined-join](the-unjoined-join.md) (the clean-lab half this room's wild readings still need: the direction lean was measured on dark cargo, where mutation is partly evasion — the join's Upworthy winners are the cargo with no hunter, and until the survival regression is run there, the lean's sign is confirmed in shape and unconfirmed in units) ·
 [the-light-cargo](the-light-cargo.md) (the same law read on the un-hunted side: this room's door asked whether the survival lean travels from dark cargo to light, and that room found the largest un-hunted reading — Upworthy's A/B archive — leaning the same way, the psychologically marked variant living longer)

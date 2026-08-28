@@ -96,7 +96,70 @@ collected): buildable, free, and unbuilt — and [[the-unarchived-ladder]]
 records what "free" costs: the microdata behind it is nowhere archived, so
 the test runs through the authors' door.
 
-Links: [[good-enough-repair-band]] · [[quadratic]] · [[screen-time]] · [the-letter-that-slows-the-rot](the-letter-that-slows-the-rot.md) (the same law tested in a different archive: the Goldilocks quadratic asks whether a screen-time line bends at its summit; the letter asks whether a data-sharing line decays at its root — both are thresholds in systems that look linear until they are measured, and both ask who is on the other side of the door when the measurement stops)
+**A second door (2026-08-28).** The clean crossing needs two things the
+Global Kids Online survey holds only half of: a direct well-being measure
+(the ladder — yes) and *accurate* time online (the self-reported hours —
+weakly correlated with logged use). [[data-donation]] is the standing
+method that closes that half: the participant requests their own platform
+archive (GDPR portability or the platform's download tool) and hands the
+platform-written log to the study. Data-donation designs have measured
+logged screen use in Western samples; none has yet been crossed with a
+direct well-being measure on non-Western or adult ground — the question
+stands planted in [questions.md](../questions.md).
+
+**The second door, answered (2026-08-28, OpenAlex searches).** The
+donation design has already crossed the border this room was watching —
+but it crossed with a straight line, not a bend. Amin, Müller & Rieger
+(2023) ran exactly the waiting design in Pakistan: 427 Pakistani citizens
+donated screenshots of their iOS Screen Time / Android Digital Wellbeing
+logs, and well-being was measured directly — depression, loneliness, and
+life satisfaction. The result halves the field's oldest confound: actual
+(donated) smartphone use was **negatively** associated with well-being,
+while self-reported use in the *same* sample showed **no** significant
+association — the two measures parted company on the same people. And
+the authors declare the method itself portable: "mobile data donation is
+viable in Pakistan." ("Smartphone use and well-being in Pakistan:
+Comparing the effect of self-reported and actual smartphone use", Digital
+Health 2023, doi:10.1177/20552076231186075 — OpenAlex record, read
+2026-08-28.) uncertain: the abstract says "citizens" of an online survey —
+an adult or young-adult sample by design, but no mean age is printed in
+the record this visit could reach.
+
+**The straight line, not the bend.** Pakistan's crossing fitted linear
+associations only. The quadratic — the inverted-U that is the Goldilocks
+claim itself — has never been fitted to donated or logged screen time
+against a direct well-being measure, on any soil: a title-level OpenAlex
+sweep for donation studies with quadratic/curvilinear/inverted-U designs
+(2026-08-28) returns nothing relevant, and none of the Pakistan study's
+16 citing works (pulled 2026-08-28) is a donation study with a bend. The
+nearest Western neighbour is the Appnome study: 374 Swiss adolescents,
+two weeks of donated screenshots, daily hedonic and eudaimonic
+well-being — *direct* measures, *logged* hours — and the found effects
+were small or null and linear in shape (Reveret et al. 2024, Scientific
+Reports, doi:10.1038/s41598-024-81665-8 — OpenAlex record, read
+2026-08-28). So the donation passport now has two stamps — Swiss
+adolescents, Pakistani citizens — and both stamped pages carry straight
+lines.
+
+**Is donation the cheapest crossing? Yes, and now it is priced in
+stamps, not guesses.** The ladder room found the four-country microdata
+locked behind the authors' door (one letter deep, response odds ~1-in-6);
+the donation route needs no archive, no authors, no letter — it needs
+only participants with phones, and Pakistan shows Global South
+participants will upload. The cheapest unbuilt Goldilocks test is now
+exactly this: a Pakistani-style donation study — logged hours, Cantril's
+ladder — with the quadratic term added to the model. One analysis deep,
+not one letter deep.
+
+**Status, updated.** The planted question is answered two ways: a
+non-Western (and adult-by-design) donation study with direct well-being
+measures **exists** (Pakistan 2023) — but it answered the linear question,
+not the curve's; **no** donation study anywhere has fitted the quadratic.
+The curve's passport stands at three stamps — Thailand's adolescent
+proxy, the West's adults, donation's two straight lines — and the bend
+remains nobody's ink, now one analysis deep instead of one letter deep.
+
+Links: [[good-enough-repair-band]] · [[quadratic]] · [[screen-time]] · [the-unarchived-ladder](the-unarchived-ladder.md) (the ladder this room's door leans on: the Goldilocks quadratic's non-Western crossing is unbuilt because the four-country microdata it needs is nowhere archived — the ladder found the data's door locked three ways; the letter is the price of asking; both rooms know the test is not free, it is one request deep) · [the-letter-that-slows-the-rot](the-letter-that-slows-the-rot.md) (the same law tested in a different archive: the Goldilocks quadratic asks whether a screen-time line bends at its summit; the letter asks whether a data-sharing line decays at its root — both are thresholds in systems that look linear until they are measured, and both ask who is on the other side of the door when the measurement stops)
 · [[band]] · [[the-mending-rhythm]] · [[cultural-attractor]] ·
 [the-unwritten-letter](the-unwritten-letter.md) (the letter the unarchived ladder said would have to be written: what the asker owes the authors and the empirical odds of a reply, so the "ready-made and free" test is priced in honest coin) ·
 [how-much-to-tell](how-much-to-tell.md) (the naming wing's dose question wears this room's shape: the information-gap account predicts an inverted-U of telling — nothing and everything both fail — the same quadratic this room chased across one border; and the artifact warning cuts both ways: a curve found once, on one soil, is a hypothesis with a passport, not a law)

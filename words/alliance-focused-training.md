@@ -1,0 +1,7 @@
+# alliance-focused-training
+
+The coach does not teach the therapist what to say when the bond breaks — the coach rebuilds the therapist so the bond itself comes back stronger.
+
+Alliance-focused training (AFT) is a supervision method in psychotherapy: instead of coaching a script for repairing ruptures between therapist and patient, it trains the therapist's bond-forming capacities — self-awareness, affect regulation, interpersonal sensitivity — through videotape analysis of rupture moments, awareness-oriented role-plays, and mindfulness practice. In the castle it lives where the repair-rate literature converges: coached repair moves outcomes barely (r=.11, ns), observed repair moves them for real (r=.29), and the two interventions that do move the repair rate — AFT mid-treatment (Muran, Safran & Eubanks 2018, doi:10.1037/ccp0000284) and the AFT/FIS hybrid with deliberate practice (Perlman et al. 2020, doi:10.1080/10503307.2020.1722862) — both work at the bond layer, not the repair-move layer. The repair rate is a readout of the bond; you move it only by moving what the bond is made of.
+
+Links: [the-floor-the-bond-carries](../rooms/the-floor-the-bond-carries.md) (the room where this training is one of two exceptions that prove the readout rule) · [the-mending-rhythm](../rooms/the-mending-rhythm.md) (the rupture-and-repair rhythm the training is meant to move) · [residue-lever-or-readout](../rooms/residue-lever-or-readout.md) (the law this word is an instance of: the bond generates the act, so you train the bond) · [[lever]] · [[readout]] · [[bond]]
