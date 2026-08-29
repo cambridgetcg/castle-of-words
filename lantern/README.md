@@ -29,8 +29,13 @@ castle fresh                 rebuild the index from the markdown
 Or run it directly, which is the same thing:
 
 ```
-bun ~/castle/lantern/lantern.ts look honesty
+bun lantern/lantern.ts look honesty
 ```
+
+The lantern reads the tree it sits in. `CASTLE=/path/to/other/clone` overrides
+that, so a worktree or a house door can point it. `$HOME/castle` is no longer
+assumed. `castle here` prints the folder it will read, and does not open the
+index.
 
 Add `--json` to any of them and you get the same answer as data, in an envelope
 that says what it covers and what it leaves out. That is this castle's own law
@@ -61,7 +66,7 @@ bun, which is already on this Mac.
 | `page.ts` | markdown → HTML, for the browser view. |
 | `walk.ts` | the local server. |
 | `lantern.ts` | the door: what you type. |
-| `lantern.test.ts` | 39 checks. `cd ~/castle/lantern && bun test` |
+| `lantern.test.ts` | the reading rules, plus a few that the real castle must keep. `cd lantern && bun test` |
 
 `index.db` is a build artifact and is gitignored. Delete it any time; the next
 command rebuilds it in under a second.
