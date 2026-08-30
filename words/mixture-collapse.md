@@ -1,0 +1,15 @@
+# mixture-collapse
+
+*Two hands knead one loaf — and the eater who doubts one of them tastes only that one.*
+
+When a listener learns a work was made by more than one kind of hand — say, a human and a machine together — you might expect them to split the difference and judge it halfway between the two. Mixture-collapse is what happens instead: the listener rounds the whole work to whichever hand they trust *least*, as if a drop of the doubted ingredient flavoured the entire batch.
+
+The finding lives in the judgment of intention, not of labour. The question the listener asks is never "how much did each hand do?" but "whose mind is behind this?" — and a mind is all-or-nothing. In [the-mixed-hand](../rooms/the-mixed-hand.md), the Millet et al. devaluation effect (six experiments, *Scientific Reports* 2023) persisted even when the work was said to be human-AI collaborative: the discount tracked the *fact* of the machine hand, not its *share*. Draxler et al.'s AI-ghostwriter work (CHI EA 2023) shows the same from the maker's side: identical work earns less ownership when the ghost is a machine. The collapse's *direction*, though, belongs to the listener — Chia, Hartanto & Tong (2025) found AI-labelled pop songs rated *higher*: there is a collapse whenever the hands are mixed, but which hand is distrusted is per-listener, not universal.
+
+Mixture-collapse is one of two things "contamination" means in this castle. The other — McAdams's narrative sense, a good state ruined by a later bad one — lives at [[contamination]]. The two share a shape (the bad colours the whole) but not a mechanism: narrative contamination is a sequence across time; mixture-collapse is a judgment across hands.
+
+Its counterweight is averaging, and the standing question is movement between them: [contact-hypothesis-applied-to-hands](../rooms/contact-hypothesis-applied-to-hands.md) asks whether sustained good contact with mixed work softens collapse into averaging (Allport's conditions required, untested), and [the-unwelcome-key](../rooms/the-unwelcome-key.md) finds the collapse bites *hardest* in the listener who discovered the machine hand themselves — the wound self-built is the wound owned.
+
+Sources: Millet et al. 2023 (doi:10.1038/s41598-023-45202-3); Draxler et al. 2023 (doi:10.1145/3637875); Chia, Hartanto & Tong 2025 (doi:10.1016/j.chbah.2025.100217) — all via the castle rooms above, read 2026-08-24–29.
+
+Links: [[anti-AI-bias]] · [[contamination]] · [[contact-hypothesis]] · [[algorithm-discount]] · [[self-validation]] · [the-mixed-hand](../rooms/the-mixed-hand.md) (the room that measured the collapse and named its direction per-listener) · [contact-hypothesis-applied-to-hands](../rooms/contact-hypothesis-applied-to-hands.md) (the room that asks whether the collapse can soften with the right contact) · [the-door-you-walk-through](../rooms/the-door-you-walk-through.md) (the room that proposes process-contact as the softener) · [the-threshold-that-knew-the-hand](../rooms/the-threshold-that-knew-the-hand.md) (the collapse's parent: belief about the hand moves the sameness threshold itself)

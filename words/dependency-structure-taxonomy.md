@@ -16,13 +16,13 @@ The castle's named forms and principles now show four distinct ways that pieces 
 
 ## The test
 
-The test for a new form is three questions:
+The test for a new form is three questions (with a sharpened follow-up on the chain branch):
 
 1. **Do the parts depend on each other, or only on the whole?** If only on the whole, the structure is belonging — name the parts, and know that losing any one breaks the form. The parts are free of one another but indispensable to their whole; the dependency lives in the relation to the form, not between the pieces.
 
 2. **If they depend on each other, does one choice determine the rest?** If yes, the structure is a cascade — name the head, and the rest follows. The parts are not free; they are consequences.
 
-3. **If not, do the parts gate each other in sequence?** If yes, the structure is a chain — name the order, and each part waits for the last. The parts are free but ordered.
+3. **If not, do the parts gate each other in sequence?** If yes, the structure is a chain — name the order, and each part waits for the last. The parts are free but ordered. And ask the follow-up: is the gate [willed or unwilled](unwilled-gate.md)? A willed gate the maker opens with the next question; an unwilled gate only the world opens, and a [watch-quest](watch-quest.md) is what spans the gap.
 
 4. **If not, do the parts answer different questions about the same fork?** If yes, the structure is a fork — name the condition and the mechanism, and they work in parallel. The parts are free and unordered.
 
@@ -32,4 +32,4 @@ The four structures are not ranked — none is better than the others. They are 
 
 The taxonomy itself is a fork: the four structures are parallel answers to the same question (how do the pieces hang on their whole?), and the test is the condition that chooses between them. The taxonomy was its own first instance when it held three structures; the fourth structure was found by applying the test and finding no branch fit — the discovery that belonging was missing is the taxonomy's own test turned on itself, and the taxonomy holds four because its test proved one compartment empty.
 
-Links: [[boundary-cascade]] · [[form-follows-weight]] · [[when-how-split]] · [[condition-first]] · [[articulate-vs-discover]] · [[belonging]] · [[part-vs-member]]
+Links: [[boundary-cascade]] · [[form-follows-weight]] · [[when-how-split]] · [[condition-first]] · [[articulate-vs-discover]] · [[belonging]] · [[part-vs-member]] · [[unwilled-gate]] · [[watch-quest]]

@@ -1,0 +1,9 @@
+# allostatic-load
+
+Allostatic load is the body's running bill for staying ready: each alarm it answers costs energy and wear, and when the alarm never fully stands down the bill keeps arriving until it is paid in illness.
+
+The alarm systems that answer threat — the fast jolt (phasic fear, the amygdala's) and the slow vigil (sustained fear, the BNST's) — are protective in the moment. McEwen's model names the cost of keeping them on: the stress response is adaptive short-term, but chronic recruitment, failed shut-off, or lack of habituation piles up as multisystem dysregulation measurable in biomarkers (read 2026-08-30 — [McEwen, "Stress, Adaptation, and Disease: Allostasis and Allostatic Load," *Annals of the New York Academy of Sciences* 1998, doi:10.1111/j.1749-6632.1998.tb09546.x](https://doi.org/10.1111/j.1749-6632.1998.tb09546.x); [Bobba-Alves et al., "The energetic cost of allostasis and allostatic load," *Psychoneuroendocrinology* 2022, doi:10.1016/j.psyneuen.2022.105751](https://pmc.ncbi.nlm.nih.gov/articles/PMC10082134/)). McEwen's four routes to load — repeated hits, lack of adaptation, prolonged response, inadequate response — map directly onto the seal wing's question about when vigilance stops paying: the load accumulates whenever the alarm cannot resolve, and the sustained system is precisely the one that cannot be shut off by schedule.
+
+The dose question the castle asks — where does care tip into cost — is the load question asked from the other side. The load literature's honest answer is that there is no clean threshold; load is cumulative and its tipping point is individual, but the routes to it are named: unpredictability recruits the system least able to habituate, and chronic recruitment is the definition of the disease model the laboratory borrows.
+
+Links: [[habituation]] · [[sustained-fear]] · [[felt-audit]] · [[the-three-faces-of-surprise]] · [[the-dose-of-care]]
