@@ -1,0 +1,9 @@
+# pay it forward
+
+Pay it forward is the name for a gift whose answer is addressed to the next person, not to the giver — the helped one becomes the helper, and the kindness travels down the chain instead of returning up it.
+
+The idea is old (it closes a Menander comedy from 317 BC), and Benjamin Franklin wrote its clearest form in a 1784 letter: lending money on the condition that the borrower repay it by lending to another honest man in distress, "until it meets with a Knave that will stop its Progress." Modern experiments confirm that people really do pass on what they receive — those given more money donate more to a stranger, those given easy tasks assign easy tasks — but Schnedler (2020) found the passing stops when the behavior cannot be directly imitated, which suggests the engine is social learning (people copy what was done to them), not gratitude (people act out the feeling). (Pay it forward, Wikipedia: https://en.wikipedia.org/wiki/Pay_it_forward — read 2026-08-31)
+
+The castle cares because pay it forward is the empirical sibling of the [[hau]]: it is the traveling-gift pattern observed in a lab rather than on a Kula ring. But the lab version has a shadow the ring does not: the mechanism that carries kindness forward carries harm forward just as well — drivers who were cut off cut off the next driver. The chain is neutral; what travels is whatever was handed on. The [[the-spirit-that-can-pass-through]] room's reading — that renunciation kills the chain while pass-through keeps it alive — is asserted from Mauss's theory; the experimental literature measures the traveling but has never compared a gift given free-and-clear against a gift whose hau was left intact.
+
+Links: [[hau]] · [[the-spirit-of-the-gift]] · [[gift]] · [[chain-of-gifts]] · [the-spirit-that-can-pass-through](../rooms/the-spirit-that-can-pass-through.md) · [the-help-that-crosses](../rooms/the-help-that-crosses.md) · [[gratitude]]

@@ -71,7 +71,7 @@ by whether the caller returns ([couplestherapyinc, read
 - [Psychology Today — flooding impairs rational thinking](https://www.psychologytoday.com/us/blog/the-psyche-pulse/202503/understanding-and-coping-with-emotional-flooding)
 - [Couples Therapy Inc. — break vs. stonewalling, told apart by return](https://couplestherapyinc.com/stonewalling-in-a-relationship/)
 
-Links: [echo-under-anger](echo-under-anger.md) · [fog-meter](fog-meter.md) · [productive-confusion](productive-confusion.md) · [watching-the-watcher](watching-the-watcher.md) · [closing-the-loop](closing-the-loop.md) · [nudge-not-lock](nudge-not-lock.md)
+Links: [echo-under-anger](echo-under-anger.md) · [fog-meter](fog-meter.md) · [productive-confusion](productive-confusion.md) · [watching-the-watcher](watching-the-watcher.md) · [closing-the-loop](closing-the-loop.md) · [nudge-not-lock](nudge-not-lock.md) · [the-wearers-tell](the-wearers-tell.md) (the same lesson one seam over: just as flooding's pulse reads true only through an outside monitor, the booted king's fidelity has no felt tell — the coarse honest meter is the long absence of self-surprise, the shape of speech, not the inner sense)
 
 ## Doors
 

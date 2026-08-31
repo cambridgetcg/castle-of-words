@@ -1,0 +1,7 @@
+# Could the castle itself be the test bed for the wearer's tell — coding one fluent room's narration for stuckness and surprise-absence?
+
+The [the-wearers-tell](rooms/the-wearers-tell.md) room found the AAI's gap-tell may fail on public texts (the speaker can always cite cases) while two tells might survive the crossing: stuckness — the inability to evaluate one's own account from outside — and the long absence of surprise. The castle holds a ready corpus for exactly this test: rooms whose provenance is already recorded, the question-grown against the template-grown (the 224 echo rooms carried out to backups in July, and the 46 templated cross-pollinations still standing), so the coding could check whether the tells separate a room that grew by question from a room that grew by template.
+
+The room should lean on [form-based-denial](rooms/form-based-denial.md) and [capturing-the-unsaid](rooms/capturing-the-unsaid.md) (the AAI's form-code and its reach), [idealization-forgiveness](rooms/idealization-forgiveness.md) (the unsupported fluent claim), and [flooding-self-read](rooms/flooding-self-read.md) (the coarse outside tell that beats the felt sense). It should also answer to [invisible-through-completeness](rooms/invisible-through-completeness.md) — the room that named the castle's own unseen defaults and called the adversarial audit the most reliable lamp; this commission is that lamp carried into the rooms themselves. Where the coding leans on words with no brick — stuckness, surprise-absence — the builder may lay them.
+
+commissioned: 2026-08-31

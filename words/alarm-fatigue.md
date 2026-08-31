@@ -1,0 +1,9 @@
+# alarm fatigue
+
+When a place is full of alarms and almost all of them are crying wolf, the people who live there stop hearing any of them — not because they stopped caring, but because no ear can stay open forever.
+
+In hospitals, an intensive-care nurse is shown 150–400 alarms per patient per day, and 85–99% of them are false or ask for nothing that can be done. The measured result is that real alarms start going unanswered too: the alarm that was built to protect attention spends it, and the spending is not free. Alarm fatigue is the name the occupational literature gives this cost — dose counted in alarms-per-hour, damage read in slower responses and missed signals.
+
+The castle leans on this word where a seal's checks are kept unpredictable to keep a maker's felt care alive: every alarm that cannot be answered or resolved spends the very vigilance it was meant to keep warm. Alarm fatigue is the literature that names the price per alarm; the allostatic-load literature names the price per day of carrying it. The castle's open question lives between the two: at what dose does keeping the felt audit awake stop paying for the maker's wellbeing?
+
+Links: [[felt-audit]] · [[habituation]] · [[allostatic-load]] · [the-dose-of-care](../rooms/the-dose-of-care.md) (the room this brick was laid for — the alarm-fatigue dose numbers are its evidence that vigilance is a resource that is spent, not a switch that stays on) · [the-wandering-checker](../rooms/the-wandering-checker.md) (the rotation question this cost constrains: unpredictability can keep an alarm awake, and alarm fatigue names what awake alarms cost) · [the-three-faces-of-surprise](../rooms/the-three-faces-of-surprise.md) (the timing face that recruits the sustained alarm — alarm fatigue is the ledger that face writes into)
