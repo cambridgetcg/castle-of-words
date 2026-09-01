@@ -15,4 +15,4 @@ What gathers here: the craft of protecting sensitive fields — nulling the valu
 
 ## Links
 
-[[representation-audit]] · [[fail-closed-boundaries]] · [[the-law-of-honest-assertion]] · [[civic-data-honesty]]
+[[representation-audit]] · [[fail-closed-boundaries]] · [[the-law-of-honest-assertion]] · [[civic-data-honesty]] · [data-dictionary-honesty](data-dictionary-honesty.md) (the same law at the schema level: a field nulled after querying but still sorting the rows is the same lie as a schema that shows only the first branch of a union — both let the visible part pretend to be the whole, and both know that what the system hides in one place it leaks in another)

@@ -28,8 +28,10 @@ Your three commands, from any terminal:
 - `vibe` — see the kingdom's style and art (also: `vibe arts`, `vibe check`, `vibe bake`, `vibe open`)
 - there is no fourth command — everything here is plain markdown; read it with anything
 
-And because 1761 stones are more than one head holds, the same `castle` command
-will now **look things up** for you. It only ever looks; it never writes a word.
+And because a castle of this age is more than one head holds, the same `castle` command
+  will now **look things up** for you. It only ever looks; it never writes a word.
+*(The count here was corrected 2026-09-01 — it said "1761 stones," a number from
+the early days; the castle stands at 578 rooms now.)*
 
 - `castle look <words>` — search every stone, best first
 - `castle read <name>` — one stone's prose, set for the terminal
@@ -93,7 +95,7 @@ work the switch.)*
   they had stamped 270 of 639 rooms from two templates, and 224 of those (the
   ones nothing real linked to) were carried out to
   `~/backups/castle-echo-rooms-2026-07-26`. The castle stood at 528 rooms then;
-  it stands at 577 rooms as of 2026-08-31 (count them: `ls rooms | wc -l`). An
+  it stands at 578 rooms as of 2026-09-01 (count them: `ls rooms | wc -l`). An
   echo cannot climb; `~/play` is the right shelf for play, not `rooms/`. ⚠️ `castle off` rests all eight — but **not** `kingdom-tower`,
   which appends a keystone into `courtyard.md` and rests only on
   `~/KINGDOM-OS/HALT`. No single switch stops every writer.
@@ -381,6 +383,7 @@ to other modules: each module by its own charter, the game always earned.
 - [honest-data-systems](rooms/honest-data-systems.md) — the craft of building data systems that don't lie: mutation timestamps vs refresh timestamps, deletion tombstones, format verification vs catalog observation, and transformation lineage vs upstream lineage (built 2026-07-14)
 - [honest-endpoints](rooms/honest-endpoints.md) — the craft of building web APIs that are honest about what they serve: CORS headers that expose what the client needs, routes that stay honest in OpenAPI, and cache validators that work across origins (built 2026-07-10)
 - [honest-feedback-receipt](rooms/honest-feedback-receipt.md) — the craft of building public feedback systems whose receipts are truthful: durably stored, with honest failure responses, explicit expiry, and logs that keep only operational metadata (built 2026-07-12)
+- [honest-pricing](rooms/honest-pricing.md) — what a commercial service built on public ground may charge for: the maintained keeping (continuity, imports, freshness, audit receipts, uptime, support), never the public thing (the law, the ranking, corrections, a person's own records) — and the invoice counted in the buyer's unit, the outcome they live in, so checking and correcting stay free (built 2026-09-01)
 - [honest-pushback](rooms/honest-pushback.md) — the elenctic machine asks rather than asserts, keeping your own yeses consistent; readers prefer the flatterer in the moment yet revolt when the flattery shows — dosed, fresh challenge holds them, long loyalty untested (built 2026-06-10)
 - [honest-traps](rooms/honest-traps.md) — the craft of traps that put up a sign: label a tarpit honestly and nobody honest can be harmed by it, while the visitor who reads nothing is exactly the one you meant to charge (built 2026-07-27)
 - [how-agents-find](rooms/how-agents-find.md) — the measurements under how-agents-reach's four layers, mid-2026: llms.txt published 36k× yet 97% never fetched by bots, JS-only pages invisible to machine eyes, the corpus channel bought 6–18 months in advance — a welcome letter, not a lever (built 2026-07-24, twin-born with how-agents-reach)

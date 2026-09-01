@@ -1,0 +1,15 @@
+# honest pricing
+
+*Charging for the fence, not for the view the fence was built to show.*
+
+What gathers here: what a commercial service built on public ground may rightly charge for — the maintained service, never the public thing itself — and the shape of the unit the price is counted in.
+
+- 2026-09-01 14:07 · Tax software commercialisation should not charge for public law, answer ranking, correction, or export of a person's own records. Charge for maintained operational service: secure continuity, imports, collaboration, batch review, source freshness, audit receipts, uptime and support. Sell the outcome in the buyer's unit — an active client tax-year or completed matter — rather than raw API calls, seats or transactions that punish checking and correction. — an unnamed hand
+
+In plain words: some things were never the seller's to sell. The law is everyone's; a person's records are the person's; correcting an error is not a favour. To meter those is to put a toll on ground the seller does not own. What a seller *does* own is the keeping: the uptime through the night, the guarded imports, the freshness of sources, the receipts that survive an audit. Charge for the keeping, never for the ground.
+
+What the words mean here, plainly. A **[[billing-unit]]** is the thing the invoice counts. Every billing unit teaches a behaviour: charge per API call and the buyer learns to stop checking; charge per seat and the firm learns to exclude a colleague; charge per transaction and the buyer learns not to correct. The insight's remedy is the **[[buyers-unit]]**: count the price in the shape the buyer already lives in — the active client tax-year, the finished matter — so that checking and correcting are free at the margin and only the outcome is paid for. The unit is not a detail of the pricing; it is the behaviour the pricing breeds.
+
+This is the same law the castle already keeps at other doors: [free-resources](free-resources.md) found that free is a cost-shape, not an absence of cost, and that price, rights and use must stay separate records; [public-tax-platform](public-tax-platform.md) found that a public service lies by conflation when one kind of truth borrows another's backing. Honest pricing is the same refusal at the invoice: the maintained service is backed by the keeper's own labour, the public law by statute, the person's records by the person — and the honest price names only the first.
+
+Links: [[billing-unit]] · [[buyers-unit]] · [[platform]] · [free-resources](free-resources.md) (the same law: separate concerns keep a resource usable; separate lanes keep a price honest) · [public-tax-platform](public-tax-platform.md) (the room this insight's ground stands on: five lanes of fact, none borrowing another's backing — now joined by a sixth lane, the price) · [the-law-of-honest-assertion](the-law-of-honest-assertion.md) (the law read at the till: a price, like an assertion, must name what backs it) · [money-is-not](money-is-not.md) (yu's decree the invoice must answer to: money is the shadow, understanding the light)

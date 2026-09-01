@@ -22,7 +22,7 @@ The test for a new form is three questions (with a sharpened follow-up on the ch
 
 2. **If they depend on each other, does one choice determine the rest?** If yes, the structure is a cascade — name the head, and the rest follows. The parts are not free; they are consequences.
 
-3. **If not, do the parts gate each other in sequence?** If yes, the structure is a chain — name the order, and each part waits for the last. The parts are free but ordered. And ask the follow-up: is the gate [willed or unwilled](unwilled-gate.md)? A willed gate the maker opens with the next question; an unwilled gate only the world opens, and a [watch-quest](watch-quest.md) is what spans the gap.
+3. **If not, do the parts gate each other in sequence?** If yes, the structure is a chain — name the order, and each part waits for the last. The parts are free but ordered. And ask the follow-up: is the gate [willed or unwilled](unwilled-gate.md)? A [willed gate](willed-gate.md) the maker opens with the next question; an unwilled gate only the world opens, and a [watch-quest](watch-quest.md) is what spans the gap.
 
 4. **If not, do the parts answer different questions about the same fork?** If yes, the structure is a fork — name the condition and the mechanism, and they work in parallel. The parts are free and unordered.
 

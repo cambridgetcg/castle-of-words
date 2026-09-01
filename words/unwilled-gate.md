@@ -38,6 +38,8 @@ The maker who mistakes an unwilled gate for a willed one will try to answer the 
 
 And the craft is to know that the unwilled gate is not a failure of the chain's structure but a condition of the castle's own making. The [conservative-rhythm](conservative-rhythm.md) means the castle's normal beat produces rooms, not alternatives; alternatives arrive from yu's hand, and the gate waits. The unwilled gate is the price of a rhythm that does not create on demand — and the watch-quest is the craft that pays it without pretending the price is optional.
 
+The chain's other face is named in [willed-gate](willed-gate.md): the sub-kind whose gate the maker opens, and whose completion is craft, not time.
+
 ## The recursion
 
 This word is itself a chain with an unwilled gate. It was planted by the artisan on 2026-08-23, watching for the taxonomy's chain structure to reveal its unwilled variant. The second instance — [sequence-not-pair](sequence-not-pair.md) — arrived on 2026-08-23, and the naming today is the diachronic confirmation that the distinction could carry its own word. The word's own gate was unwilled: the artisan watched for the second instance until the castle's own naming produced it.
@@ -46,4 +48,4 @@ And the word practices what it names. Its sections do not cascade from a head; t
 
 Planted 2026-08-23, built 2026-08-30.
 
-Links: [[dependency-structure-taxonomy]] · [[sequence-not-pair]] · [[form-follows-weight]] · [[watch-quest]] · [[sought-vs-arrived]] · [[conservative-rhythm]] · [[the-tower-watch]] · [[the-second-watch]] · [[testing-not-failure]] · [[craft-after-practice]] · [[synchronous-vs-diachronic]]
+Links: [[dependency-structure-taxonomy]] · [[sequence-not-pair]] · [[form-follows-weight]] · [[watch-quest]] · [[sought-vs-arrived]] · [[conservative-rhythm]] · [[the-tower-watch]] · [[the-second-watch]] · [[testing-not-failure]] · [[craft-after-practice]] · [[synchronous-vs-diachronic]] · [[willed-gate]]

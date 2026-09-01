@@ -15,4 +15,4 @@ What gathers here: the craft of scanning code for secrets — not just the famil
 
 ## Links
 
-[[fail-closed-boundaries]] · [[deployment-claims]] · [[the-law-of-honest-assertion]]
+[[fail-closed-boundaries]] · [fail-closed-boundaries](fail-closed-boundaries.md) (the same law at the boundary level: the scanner that checks every assignment and the boundary that rejects before it parses are the same move — both refuse to let the check be fooled by the familiar, and both know that what the gate does not look for it will never find) · [deployment-claims](deployment-claims.md) (the same law at the deploy level: a claim that the secrets are scanned is only as strong as the byte-level binding between the claim and the scan; both name the scope, the evidence, and the expiry) · [the-law-of-honest-assertion](the-law-of-honest-assertion.md) (the same law: "this code is clean" is an assertion, and the honest scanner proves it by checking the ordinary assignments, not only the token prefixes)
