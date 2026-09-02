@@ -30,4 +30,4 @@ The statement-level snapshot trap is PostgreSQL-specific. MySQL's default REPEAT
 
 ## Links
 
-[[advisory-locks]] · [[fail-closed-boundaries]] · [[rate-limiting]]
+[[advisory-locks]] · [[fail-closed-boundaries]] · [[rate-limiting]] · [database-least-privilege](database-least-privilege.md) (the two halves of the same rule: the grant says what the credential is allowed to touch, and the lock inside the snapshot says what the statement is allowed to know — a privilege boundary and a time boundary, and an honest database holds both)

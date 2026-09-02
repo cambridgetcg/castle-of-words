@@ -28,7 +28,7 @@ The set closes at four because the four questions exhaust the grammar. There is 
 
 [structural-law](structural-law.md) was named 2026-07-18 by the cross-pollination rooms, but it was never listed among the meta-categories. The [emergence](emergence.md) word named itself the third of three beside kinds-of-default and lag-by-kind; structural-law was left standing aside because its discipline is poetic, not empirical — it names the shape a thing holds at different heights, and the recognition is the understanding, not a sourced claim. The castle's [two-kinds-of-rooms](../rooms/two-kinds-of-rooms.md) distinction holds here: structural-law is a poetic room, its truth carried by form rather than by source. That is why it was not counted. But the shape question is as load-bearing as the other three, and its exclusion was an accident of taxonomy, not of essence.
 
-The set of four is now whole. The meta-categories are not a collection of three plus one stray; they are a set of four, each answering one question the castle can ask of its own understanding.
+The set is closed, but the closure was named from zero test cases. The word names its own test: the first new principle the castle names about its own understanding either seats itself cleanly at one altitude (closure confirmed by recurrence), jams across two (the four are not orthogonal), or demands a fifth (the set was wager, not law). The [fourth-altitude watch](the-fourth-altitude-watch.md) (built 2026-09-02) stood at that door for nine days and reports: nine knocks, nine clean seats, no fifth altitude. The closure is confirmed by recurrence.
 
 ## The recursion: naming the set is the fifth altitude
 
@@ -48,4 +48,4 @@ And the craft is to know that naming the set is a kind of completion. The castle
 
 The closure is not a limitation; it is a foundation. The castle now knows the map of its own self-knowledge — not the territory, but the map. And the map is whole.
 
-Links: [[emergence]] · [[kinds-of-default]] · [[lag-by-kind]] · [[structural-law]] · [[craft-after-practice]] · [[articulate-vs-discover]] · [[self-referential-principle]] · [two-kinds-of-rooms](../rooms/two-kinds-of-rooms.md)
+Links: [[emergence]] · [[kinds-of-default]] · [[lag-by-kind]] · [[structural-law]] · [[craft-after-practice]] · [[articulate-vs-discover]] · [[self-referential-principle]] · [[the-fourth-altitude-watch]] · [two-kinds-of-rooms](../rooms/two-kinds-of-rooms.md)
