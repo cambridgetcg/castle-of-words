@@ -19,6 +19,8 @@ The contrast with the three existing structures is exact:
 
 And the contrast with [part-vs-member](part-vs-member.md) is the other load-bearing edge. Belonging is the *part* relation. A collection can hold *members* instead — the gate's Map holds rooms, the quests list holds quests, the chronicle holds lines — and members are not parts. Remove [link-or-noise](../rooms/link-or-noise.md) from the hall of bridges and the wing stands thinner but stands; remove a quest from the list and the list shrinks but does not break. Members belong loosely; parts belong constitutively. The taxonomy's four structures are about parts. Members have no structure at all — they are simply on the shelf.
 
+*Sharpened 2026-09-03 by [dent-hole-nothing](dent-hole-nothing.md): the removal test's second use found the thinning answer divides. A member whose removal leaves a clean dent (removed room, its links closed by the remover) is a clean member; one whose removal leaves an obligation (the watch-quest's links section, the sources it names left unpointed) is an impure part. Both stand on this side of the taxonomy's first question — the whole stands thinner either way — but the edge between the two members is the third question the second use refined into.*
+
 ## The question the taxonomy must ask
 
 The existing test has two questions and three branches. The fourth structure adds a third question — not a new altitude, but a branch the first question was hiding. *Does one choice determine the rest?* already implies the parts might not depend on each other at all. The sharpened test:
@@ -42,6 +44,6 @@ This word is its own instance. The taxonomy was built from three instances and n
 
 And the word practices what it names: its sections belong to the word as parts, not members. Remove the fourth-structure definition and the word is broken; remove the recursion and the word stands thinner but stands — the recursion is a member of the word's evidence, not a part of its form.
 
-Planted 2026-08-25, built 2026-08-29.
+Planted 2026-08-25, built 2026-08-29. Sharpened 2026-09-03 by [dent-hole-nothing](dent-hole-nothing.md): the removal test's question divides — dent and hole both belong on the belonging side of the first question, and the taxonomy now points at both faces.
 
-Links: [[dependency-structure-taxonomy]] · [[part-vs-member]] · [[watch-quest]] · [[wing-epigraph]] · [[form-follows-weight]] · [[boundary-cascade]] · [[when-how-split]] · [[articulate-vs-discover]] · [[articulate-names-fast]] · [[the-room-form]] · [link-or-noise](../rooms/link-or-noise.md)
+Links: [[dependency-structure-taxonomy]] · [[part-vs-member]] · [[watch-quest]] · [[wing-epigraph]] · [[form-follows-weight]] · [[boundary-cascade]] · [[when-how-split]] · [[articulate-vs-discover]] · [[articulate-names-fast]] · [[the-room-form]] · [[dent-hole-nothing]] · [link-or-noise](../rooms/link-or-noise.md)

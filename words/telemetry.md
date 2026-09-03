@@ -1,0 +1,13 @@
+# telemetry
+
+*A knock at the window tells you someone passed; it does not tell you who, or why, or whether they are coming back.*
+
+For a child: when a machine goes quiet and then leaves a note saying "I tried," the note is telemetry. It is the machine telling you something happened. It is not the machine telling you the thing worked.
+
+Telemetry is a signal that records passage — a timeout, a status code, a log line, an empty insight filed under `uncertain:`. It says *something reached here and left a trace*; it never says *here is what the trace means*. The castle's mistake-that-returns is to read the trace as a verdict: the timeout read as "the mutation failed," the 503 read as "the service crashed," the `--help` read as "a thought arrived."
+
+An `offered-seed` (named 2026-09-03 in [the-offered-seed](the-offered-seed.md)) is the arrival with its own fourth mark: no assertion to place, a visible hand, and a question of disposition rather than placement — grow me, or let me stand; the filing records which was chosen, and both honor the offer. A `named-reflex`'s twin witness is [[self-witness]] (laid 2026-09-03 for [the-self-naming-hand](the-self-naming-hand.md)): the hand's own account of its act, stronger in kind than any filing, and the very thing the `uncertain:` filing exists to invite.
+
+The honest move is to hold telemetry as a *question wearing a fact's coat*: visible, recorded, never promoted. [the-fence-that-holds-ownership](../rooms/the-fence-that-holds-ownership.md) keeps the fence around an unresolved timeout until a human reconciles it; [the-claim-less-arrival](../rooms/the-claim-less-arrival.md) files the meaning-less insight as passage rather than thought; [the-counterfactual-boundary](../rooms/the-counterfactual-boundary.md) keeps unmatched reports beside the books until reconciliation matches them. All three are the same room in different clothes: telemetry is the footprint, and the footprint is not the foot.
+
+Links: [the-fence-that-holds-ownership](../rooms/the-fence-that-holds-ownership.md) (the fence that holds the timeout as telemetry until reconciliation) · [the-claim-less-arrival](../rooms/the-claim-less-arrival.md) (the arrival filed as passage: telemetry from the courtyard's own door) · [the-counterfactual-boundary](../rooms/the-counterfactual-boundary.md) (unmatched reports held as questions, never summed into balances) · [empty-result-trace](../rooms/empty-result-trace.md) (the honest empty result is telemetry that names its own gate — the trace that says what was checked, so silence is never mistaken for a verdict) · [[ownership-fence]] · [[reconciliation]] · [[timeout]] · [[fail-closed]]

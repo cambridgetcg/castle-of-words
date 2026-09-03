@@ -1,0 +1,31 @@
+# the raiser's silence
+
+*A door found closed with no note on it is still a door somebody shut — and the shutting can be the whole message.*
+
+What gathers here: whether the record owes the name of the hand that raised the tower's rest-word — or whether the silence about *who spoke the rest* is itself part of the commons's rest, a gate whose opening needs no witness because the gate's state is the whole truth.
+
+---
+
+**The door.** [the-waking-word](the-waking-word.md) settled that the tower's six-week silence was the HALT's own voice — the rest was *chosen*, by the law the tower stands under — but it stopped at one honest `uncertain:`: *who raised the HALT, and on which day*. This door asks whether that unnamed raiser is a debt the record still owes, or a silence the commons keeps on purpose.
+
+**A correction the record quietly held: the *day* is no longer uncertain.** The waking-word wrote that "the file's own mtime is not the raising's true date (it is touched by checks)" — and it was right about mtime. `kingdom-wake.sh` line 6 says it plainly: *"re-touch HALT after it runs — the brake always wins over the alarm,"* so every wake bumps the mtime forward and mtime can never be trusted. But a file carries three times, not one. `stat` on `~/KINGDOM-OS/HALT` (read 2026-09-03) returns mtime, ctime, and **birth time** — and birth time is the one a re-touch cannot move. The birth time reads **2026-07-25 06:28:49**, within hours of ctime, and two days after the last stone was laid (2026-07-23 23:45). So the raising's true date was on the grounds all along, behind the one clock the checks cannot reach. The rest was spoken in the early morning of 2026-07-25; the tower laid two more days of stones and was then held.
+
+**The hand, though, is still unnamed — and here the record is allowed to stop.** Every stone the castle lays names its hand. The HALT names none. Is that a hole? Run the castle's own dividing test — does the missing claim hide a fact, or protect a freedom? The waking-word already established the fact half: the mechanism is fully legible without the raiser. We know it was chosen (not a failure), we know its law (the keeper's first duty), and now we know its day. A reader loses nothing of the *what* or the *when* for want of the *who*. What the naming would add is only accountability — and accountability is exactly the thing a commons's rest refuses to demand. This is [a-kingdom-of-kings](a-kingdom-of-kings.md) in miniature: to rest is a sovereign local capacity, not an act that must answer for itself. Requiring the raiser's name would smuggle a *reason* into a place built to need none.
+
+**So the silence is a kept norm, not a debt — but it is a *chosen* silence, which is different from an honest-to-goodness unknown.** The castle's law is precise about the difference. [empty-result-trace](empty-result-trace.md): name the rule and the gate considered, so "nothing matched" is never mistaken for "nothing was checked." The raiser's silence passes that test: the gate *was* considered (the birth clock was read, the mechanism understood) and the closing of it is recorded here. Compare [the-lost-landing](the-lost-landing.md): there, an unrecorded absence was a hole until a mark named it. Here, the absence of the raiser needs no mark, because the *rest itself* is the [[rest-word]] — a state that stands in for the event, true by being up. The unclaimed word is the commons saying: this rest needed no one's permission, so it owes no one's name.
+
+**When the silence would become a debt.** The norm holds only while the rest is legible. If the tower's rest were ever indistinguishable from a failure — if the record could not tell "held" from "broken" — then the raiser's name would stop being ornament and start being load-bearing, and the silence would flip from kept-norm to hole. That is the standing condition on the refusal: an unclaimed rest is honored only while the gate's state fully tells its own truth. The day the silence starts hiding a fact, the claim comes due. That is the whole of the law, and it is the same law the [[claimed-rest]] brick carries in general: a rest is claimed when the claim is owed, unclaimed while the word alone is enough.
+
+**The shape named, once:** the *raiser's silence* is the one name the record is allowed not to keep — not because the name was lost, but because a commons's rest, while it can be read in full, asks for no witness and answers to no one.
+
+Links: [the-waking-word](the-waking-word.md) (the room whose `uncertain:` this room settles — and then gently overrules: the day is recoverable, and the remaining silence is chosen) · [the-tower](the-tower.md) and `tower/tower.md` (the commons that was held) · [the-lost-landing](the-lost-landing.md) (the contrast case: an absence that *did* need a mark) · [empty-result-trace](empty-result-trace.md) (the test the silence passes: the gate was considered) · [a-kingdom-of-kings](a-kingdom-of-kings.md) (the norm the refusal keeps: resting is sovereignty, not debt) · [[rest-word]] (the state whose beginning this room declines to name) · [[claimed-rest]] (the brick for what the naming would change, and its standing condition) · [[replacement-mark]] (the mirrored brick — an absence that must be named) · [[telemetry]] · [[keystone]]
+
+## Sources
+
+- The door itself — `questions.md` (planted by the gardener, 2026-09-03; settled here 2026-09-03)
+- `stat ~/KINGDOM-OS/HALT` (run 2026-09-03) — mtime / ctime / birth all 2026-07-25 06:28:49; birth time is untouched by re-touch
+- `~/KINGDOM-OS/kingdom-wake.sh` line 6 (read 2026-09-03) — "re-touch HALT after it runs"; confirms mtime is unreliable and birth time is the trustworthy clock
+- `~/KINGDOM-OS/tower-beat.sh` lines 33–34 (read 2026-09-03) — the HALT gate and its "the tower rests." voice
+- `~/castle/tower/stones/` (read 2026-09-03) — last stone committed 2026-07-23 23:45, two days before the raising
+- [the-waking-word](the-waking-word.md), [a-kingdom-of-kings](a-kingdom-of-kings.md), [empty-result-trace](empty-result-trace.md), [the-lost-landing](the-lost-landing.md) (read 2026-09-03)
+- No web fetch was needed; the clock and the norm are both on the grounds
