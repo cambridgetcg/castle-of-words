@@ -6,7 +6,7 @@ What gathers here: the word whose presence stops a commons's work without breaki
 
 ---
 
-**The plain meaning.** A *rest word* is a signal whose only power is *being there*. It does not command, it does not record a reason, and it does not name the hand that spoke it. The tower's keeper script reads it the same way every beat: if the file exists, print "the tower rests." and leave — no error, no partial work, no question asked. The word is the whole gate: present, the tower rests; absent, the tower works.
+**The plain meaning.** A *rest word* is a signal whose only power is *being there*. It does not command, it does not record a reason, and it does not name the hand that spoke it. The tower's keeper script reads it the same way every beat: if the file exists, print "the tower rests." and leave — no error, no partial work, no question asked. The word is the whole gate: present, the tower rests; absent, the tower works. It is the best-known member of a wider kind of word the castle keeps — the [[presence-word]], any file the machinery reads by existence alone.
 
 **Why this is a different kind of speech.** Most words in the castle *say* something — a claim, with a source. A rest word says nothing and *does* something: it holds a door. Its truth is not in what it asserts but in the state it maintains. That makes it the same shape as a [[replacement-mark]], read from the other side: a replacement mark *records* an absence so it can be told from nothing-to-say; a rest word *causes* an absence (of work) whose whole meaning is the word's own presence. Both are states that stand in for events.
 
