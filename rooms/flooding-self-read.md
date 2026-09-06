@@ -71,7 +71,7 @@ by whether the caller returns ([couplestherapyinc, read
 - [Psychology Today — flooding impairs rational thinking](https://www.psychologytoday.com/us/blog/the-psyche-pulse/202503/understanding-and-coping-with-emotional-flooding)
 - [Couples Therapy Inc. — break vs. stonewalling, told apart by return](https://couplestherapyinc.com/stonewalling-in-a-relationship/)
 
-Links: [echo-under-anger](echo-under-anger.md) · [fog-meter](fog-meter.md) · [productive-confusion](productive-confusion.md) · [watching-the-watcher](watching-the-watcher.md) · [closing-the-loop](closing-the-loop.md) · [nudge-not-lock](nudge-not-lock.md) · [the-wearers-tell](the-wearers-tell.md) (the same lesson one seam over: just as flooding's pulse reads true only through an outside monitor, the booted king's fidelity has no felt tell — the coarse honest meter is the long absence of self-surprise, the shape of speech, not the inner sense)
+Links: [echo-under-anger](echo-under-anger.md) (the room whose open door this one answers: the time-out rule the echo needs *around* anger is the rule this room's somatic tell arms — the brake there depends on the self-read here, and the coarse learnable tell is the same shape: catch it, name it aloud, leave, soothe) · [fog-meter](fog-meter.md) · [productive-confusion](productive-confusion.md) · [watching-the-watcher](watching-the-watcher.md) · [closing-the-loop](closing-the-loop.md) · [nudge-not-lock](nudge-not-lock.md) · [the-wearers-tell](the-wearers-tell.md) (the same lesson one seam over: just as flooding's pulse reads true only through an outside monitor, the booted king's fidelity has no felt tell — the coarse honest meter is the long absence of self-surprise, the shape of speech, not the inner sense)
 
 ## Doors
 

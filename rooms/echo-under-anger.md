@@ -12,7 +12,7 @@ So the honest verdict: the echo does not survive *inside* anger — nothing verb
 
 uncertain: whether couples actually deploy the technique at home, unobserved and mid-quarrel, no study here measured; PREP's longer-term gains are mixed across trials and the fading is honestly contested.
 
-Links: [[teach-back]] · [[repair]] · [[bridge]] · [closing-the-loop](closing-the-loop.md) · [echo-between-equals](echo-between-equals.md)
+Links: [[teach-back]] · [[repair]] · [[bridge]] · [closing-the-loop](closing-the-loop.md) · [echo-between-equals](echo-between-equals.md) · [flooding-self-read](flooding-self-read.md) (the self-read this door's time-out rule depends on: if a flooded person cannot tell they are flooded, the brake this room says works *around* anger never gets pulled — that room found the pulse is the criterion *by design* because the feeling is unreliable, and the practical move mirrors it exactly: catch the first bodily tell, name it aloud, leave, soothe) · [fog-meter](fog-meter.md) (the room this door's uncertainty leans on: the weakest instrument measured was the learner's read on their own confusion — the same instrument the flooding self-read asks to work mid-quarrel)
 
 ## Doors
 
