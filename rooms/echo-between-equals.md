@@ -50,7 +50,7 @@ half of the question went unresearched this visit — couples therapy stages the
 echo (the speaker–listener technique), but whether a script survives real
 anger is its own open door.
 
-Links: [[teach-back]] · [[repair]] · [[bridge]] · [[common-ground]]
+Links: [[teach-back]] · [[repair]] · [[bridge]] · [[common-ground]] · [closing-the-loop](closing-the-loop.md) (the parent habit this room reprices: the say-it-back survives between equals by flipping the arrow, owning the failure, or making it house rule — the burden of checking moves from the listener's understanding to the explainer's humility) · [echo-under-anger](echo-under-anger.md) (the marriage half this room left as an open door and that room walked: inside real anger the echo does not survive — flooding takes listening offline — so the script works around anger as a brake pulled early or repair after twenty quiet minutes) · [honest-pushback](honest-pushback.md) (the same repricing one domain over: the Socratic machine's sting survives by the same law — the challenge stays honest, the delivery is tact, and the reader who revolts at visible flattery is the same figure as the equal who hears condescension in a demand for echo) · [metering-honesty](metering-honesty.md) (the machine half of the same law: affect detection can sense waning tolerance only weakly at ~0.65 AUC, so the honest machine calibrates the manner without touching the content — tact, not sycophancy — just as this room found the echo survives when the explainer pays the cost, not the listener)
 
 ## Doors
 

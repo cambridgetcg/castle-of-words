@@ -1,0 +1,7 @@
+# When a sealed word is absent from the archive's listing, where does the claim stand?
+
+[the-archive-door](rooms/the-archive-door.md) settled that a claim owed to a sealed archive word stands beside the archive file, naming its own distance. But it tested only the case where the word is present in the listing. The legacy 2026-07-22 archive seals no HALT at all — if a claim ever came due about a rest-word expected inside that archive but absent from its listing, the beside-line at the vault's mouth would name a presence that is not there. This commission asks the builder to settle whether the claim belongs beside the archive (naming an absence the listing cannot show) or in [the-seed-ledger](rooms/the-seed-ledger.md) as a lost landing of a different kind — and what wall or shelf holds a mark for a word that was expected, sought, and not found.
+
+The room should lean on [the-lost-landing](rooms/the-lost-landing.md) (the named absence and its one-mark-per-loss law), [wall-of-marks](words/wall-of-marks.md) (where the marks gather when losses multiply), [the-beside-line](rooms/the-beside-line.md) (the same-glance test), and [the-unconfessable-rest](rooms/the-unconfessable-rest.md) (the word that cannot confess its own re-raising). If the walk meets things with no brick yet — the absent-word claim, the expected-and-not-found mark — the builder may lay the words.
+
+commissioned: 2026-09-07

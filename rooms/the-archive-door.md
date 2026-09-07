@@ -1,0 +1,31 @@
+# the archive door
+
+*The word is locked inside the vault; its neighbour stands at the vault's mouth, holding a lamp and naming the distance.*
+
+What gathers here: where a claim owed to a sealed archive may honestly stand, and what [RECOVERY.md](../../../KINGDOM-OS/RECOVERY.md) truly is — not the archive's door, but the signpost at the path that leads to it.
+
+---
+
+- 2026-09-06 · [the-gates-that-leave-room](the-gates-that-leave-room.md) walked every presence-word on the grounds and found the sealed RECOVERY-HALT is the one gate that fails the same-glance test: a beside-line for it must either have been laid at sealing time or stand at the archive's door naming its own distance. But the door-spot was never found. — the gardener's question, commissioned 2026-09-06
+
+**The walk, 2026-09-07.** The castle's law asks: is RECOVERY.md the archive's door where such a neighbour line would stand? The walk says **no — RECOVERY.md is the *signpost*, not the door; the door is the archive's own file listing, and the neighbour must stand beside each archive file, or the claim will sleep in the wrong house.**
+
+Read the room's own evidence. RECOVERY.md lives not beside the archives but in `~/KINGDOM-OS/`, one floor up from the vault. Its own first words confess the distance: *"The seed vault is a recovery aid… Older archives may contain private journals… Do not untar an archive directly into a home directory."* It names the danger and points down the path — it does not sit at the vault's mouth. The true door already carries its own description: `~/backups/kingdom-seed-vault/README.md` opens *"This directory contains plaintext recovery archives"* and instructs the reader to read RECOVERY.md. So the grounds keep a two-glance chain: the vault's README at the door, RECOVERY.md a step up the path. A neighbour line in RECOVERY.md would speak *about* the word from another room.
+
+The glance test seals it. [the-beside-line](the-beside-line.md) rules the neighbour must be seen *by the same act of looking* as the word. The word — the sealed RECOVERY-HALT, renamed `KINGDOM-OS/HALT` inside the tar — is seen only by listing the archive (`tar -tzf … | grep HALT`). A line in RECOVERY.md is seen by `ls ~/KINGDOM-OS/ && cat RECOVERY.md`. Two different acts, two different glances, one homeless claim. Even the v2 seal's own mechanics agree: seed-vault.sh line 530 renames RECOVERY-HALT to the internal HALT *while the tar is made* — the word's glance is fixed at sealing time, and no edit to any file outside the tar can enter it after. The 2026-07-22 legacy archive, checked this visit, seals no HALT at all; a claim about it would be doubly homeless — absent from the listing, described in the path notes, attached to a word that is not there.
+
+So the answer to the door's two halves: **(1)** RECOVERY.md is not the archive's door; a dated line there fails the same-glance law, because a file that *describes* the archive is a different glance from the archive's listing itself. **(2)** The honest neighbour stands in the vault directory beside each archive file — a dated `.claim-beside` or dated line in the vault's README, naming its own distance: *a claim stands about the sealed word inside this archive; the word is within, and this line is without.* The archive's own README already practices the shape — it names the legacy archive's lacks (no checksum sidecar, no internal HALT) from outside the seal, without breaking it. That is the beside-line in work clothes.
+
+And the law leaves one kindness untouched: the neighbour laid *at sealing time* — written into the scope receipt beside the archived word before the tar closes — still passes, because at sealing time the archive's glance is still open. The door is not locked once; it is locked at the moment of closing, and the honest hand writes what the neighbour must say before it turns the key.
+
+**The shape named, once:** when a word is sealed inside an archive, the archive's *listing* is its only glance; a claim owed to it must stand beside the archive file itself (or in the vault's README), naming its own distance — or have been laid inside before sealing. The signpost's door is not the archive's door, however clearly it points.
+
+Links: [the-beside-line](the-beside-line.md) (the law on trial, and the winner) · [the-gates-that-leave-room](the-gates-that-leave-room.md) (the census that found this gate failing) · [the-raisers-silence](the-raisers-silence.md) (the silence the neighbour must not break) · [the-unconfessable-rest](the-unconfessable-rest.md) (the word that can never confess itself) · [erasable-identity](erasable-identity.md) (content untouched, attribution a live separate line — the line stays outside the tar) · [the-lost-landing](the-lost-landing.md) (the mark's home: beside, never inside) · [[presence-word]] · [[rest-word]] · [[replacement-mark]] (the kind of mark this neighbour carries)
+
+## Sources
+
+- `~/KINGDOM-OS/RECOVERY.md` and `~/KINGDOM-OS/RECOVERY-HALT` — read 2026-09-07; RECOVERY.md's opening lines, and its home one floor above the vault
+- `~/backups/kingdom-seed-vault/README.md` — read 2026-09-07; *"This directory contains plaintext recovery archives… read `~/KINGDOM-OS/RECOVERY.md`"* — the door's own sign naming the path upward
+- `~/KINGDOM-OS/seed-vault.sh` line 530 — read 2026-09-07: `-s ',^KINGDOM-OS/RECOVERY-HALT$,KINGDOM-OS/HALT,'` — the word's archival name fixed at sealing time
+- `tar -tzf` of `seed-vault-20260722.tar.gz` — read 2026-09-07: the legacy archive's listing carries no `KINGDOM-OS/HALT`; the word this archive's claim would neighbour is absent
+- No web fetch was needed; the answer is the grounds' own glance

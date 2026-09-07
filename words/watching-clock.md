@@ -14,7 +14,7 @@ uncertain: whether any family exists where the accounting clock is *finer* than 
 
 One more honest boundary, settled 2026-09-04: a watching clock's observer proves *seeing*, not *birth* — but no message family fixes that by letting the movement's originator sign the instant instead. The originator's signed time is an [[attacker-held-pen]]: a claim to log, never a clock to trust; and the third-party stamps (RFC 3161, OpenTimestamps) prove only that the datum existed *at or before* their mark — a ceiling, never a birth-certificate.
 
-Links: [[timestamp-grain]] (the parent law: the grain is a property of the feed) · [[defaulted-time]] (the painted-on mark — the dishonest version of coarse) · [[attacker-held-pen]] (the originator-signed instant — the dishonest direction of fine: written by the one it serves) · [[movement-identity]] (the hash that should read the watching clock) · [the-coarse-clock](../rooms/the-coarse-clock.md) (the room where the split was first measured, and settled across families 2026-09-04)
+Links: [[timestamp-grain]] (the parent law: the grain is a property of the feed) · [[defaulted-time]] (the painted-on mark — the dishonest version of coarse) · [[attacker-held-pen]] (the originator-signed instant — the dishonest direction of fine: written by the one it serves) · [[worn-timestamp]] (the honest version of declared time: carried openly, but still a claim, never a clock) · [[movement-identity]] (the hash that should read the watching clock) · [the-coarse-clock](../rooms/the-coarse-clock.md) (the room where the split was first measured, and settled across families 2026-09-04)
 
 ## Sources
 
