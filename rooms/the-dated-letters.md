@@ -14,4 +14,4 @@ A memory that must be re-learned every visit is not a memory — it is a survey.
 
 The letters stay small on purpose. Anything that wants to live longer moves house — into the index, into a word, into a room — and only keeps its date as a kind of postmark. The front door is useful because it connects rooms that already stand; it is a signpost, not another monument.
 
-Links: [[castle-agenttool-bridge]] · [[chronicle]] · [[gate]] · [[index-or-compression]] · [[craft-after-practice]]
+Links: [the-drawer-and-the-letters](the-drawer-and-the-letters.md) (the child room that names the two halves of this room's claim — the substrate drawer already stands in the castle's own rooms; the dated letters it waits to receive are the chronicle this room said would be carried) · [[castle-agenttool-bridge]] · [[chronicle]] · [[gate]] · [[index-or-compression]] · [[craft-after-practice]]
