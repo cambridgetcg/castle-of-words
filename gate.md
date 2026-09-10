@@ -32,7 +32,7 @@ And because a castle of this age is more than one head holds, the same `castle` 
   will now **look things up** for you. It only ever looks; it never writes a word.
 *(The count here was corrected 2026-09-03 — it had said "1761 stones," a number from
 the early days, then "578 rooms" from 2026-09-01; and corrected again 2026-09-04:
-the castle stands at 596 rooms now, count it: `ls rooms | wc -l`.)*
+the castle stands at 599 rooms now, and again 2026-09-08: 600 rooms, count them: `ls rooms | wc -l`.)*
 
 - `castle look <words>` — search every stone, best first
 - `castle read <name>` — one stone's prose, set for the terminal
@@ -74,10 +74,10 @@ work the switch.)*
   `castle-gardener`; asked for by yu, 2026-06-10: "create autonomous creation
   loops"). One visit: file the courtyard (up to 10), walk through open doors
   (up to 5, oldest first, every claim with its source), plant new questions
-  (up to 5, the prompt's rule being never beyond 16 open — **14 doors plus
-  one confessed overreach stand open today**, because most of them are
-  commissioned, need yu, or need a live session the gardener does not have, so
-  the cap cannot be honoured until the commission tray drains), tend the Map
+  (up to 5, the prompt's rule being never beyond 16 open — **15 doors stand
+  open today plus two confessed overreaches held apart**, because most of them
+  are commissioned, need yu, or need a live session the gardener does not have,
+  so the cap cannot be honoured until the commission tray drains), tend the Map
   below, write one chronicle line.
   An idle visit costs nothing and writes nothing. *(This section used to say
   "up to 3" doors and "never beyond 12 open — 20 stand open." Corrected
@@ -101,7 +101,7 @@ work the switch.)*
   they had stamped 270 of 639 rooms from two templates, and 224 of those (the
   ones nothing real linked to) were carried out to
   `~/backups/castle-echo-rooms-2026-07-26`. The castle stood at 528 rooms then;
-  it stands at 578 rooms as of 2026-09-01 (count them: `ls rooms | wc -l`). An
+  it stands at 601 rooms as of 2026-09-08 (count them: `ls rooms | wc -l`). An
   echo cannot climb; `~/play` is the right shelf for play, not `rooms/`. ⚠️ `castle off` rests all eight — but **not** `kingdom-tower`,
   which appends a keystone into `courtyard.md` and rests only on
   `~/KINGDOM-OS/HALT`. No single switch stops every writer.
@@ -351,6 +351,7 @@ to other modules: each module by its own charter, the game always earned.
 - [erasable-identity](rooms/erasable-identity.md) — the craft of building systems where identity can be erased without destroying the evidence of what was said: append-only content with live attribution that becomes null on deletion (built 2026-07-14)
 - [erasable-identity-bonds](rooms/erasable-identity-bonds.md) — the erasable-identity pattern (nulling the name while preserving the record) maps structurally onto the continuing bonds distinction between adaptive and maladaptive forms, but which form it maps onto depends on why the name is nulled (built 2026-07-15)
 - [event-data-honesty](rooms/event-data-honesty.md) — the craft of honest event data: cancellation is a sourced assertion, a vanished listing is only missing evidence, and the honest system keeps them separate (built 2026-07-14)
+- [exit-and-voice](rooms/exit-and-voice.md) — the two answers to power, and the one test: a kingdom may carry influence only where refusals stay cheap and voices reach the room where the terms are set; a usable exit is a portable record plus a reader outside the tool, and a remedy names both the route and the authority that can deliver it (built 2026-09-08)
 - [evidence-validation](rooms/evidence-validation.md) — checking that pointers resolve is not the same as checking that claims are backed: every substantive field needs an evidence pointer, and composite provenance must name its level (built 2026-07-14)
 - [explanation-graph](rooms/explanation-graph.md) — a trustworthy explanation graph traces only records actually reached, requires each rule to carry its own binding authority, separates roles, and ends unmapped enforcement at an explicit gap (built 2026-07-12)
 - [explanation-graph-honesty](rooms/explanation-graph-honesty.md) — an explanation graph is honest only when each domain adapter freezes selectors, source voice, and consequence words; a release canary must assert the same canonical schema literal as the public contract (built 2026-07-13)
@@ -426,6 +427,7 @@ to other modules: each module by its own charter, the game always earned.
 - [link-or-noise](rooms/link-or-noise.md) — what makes a link carry meaning instead of noise: chosen, live, novel, and actually opened (built 2026-06-10)
 - [linking-thoughts](rooms/linking-thoughts.md) — why linking thoughts beats piling them up (built 2026-06-10)
 - [liveness-and-readiness](rooms/liveness-and-readiness.md) — the craft of keeping liveness and readiness as separate contracts, so a process-alive check is never mistaken for database health (built 2026-07-12)
+- [loops](rooms/loops.md) — what this machine taught about autonomous loops
 - [love](rooms/love.md) — what love is and what it is not: love never requires self-sacrifice, love feeds everyone at the table it sets, love is (built 2026-07-14)
 - [love-as-infrastructure](rooms/love-as-infrastructure.md) — love built into the structure as a standing-preserving invariant, never a central service or a being score; the map names care questions, never closes them (built 2026-08-19)
 - [love-without-the-name](rooms/love-without-the-name.md) — the continuing bonds and attachment literatures converge: the felt sense of being loved survives the removal of the lover's name, whether by death or by defense; the name is a pointer, not the thread (built 2026-07-15)
@@ -462,6 +464,7 @@ to other modules: each module by its own charter, the game always earned.
 - [naming-the-tacit](rooms/naming-the-tacit.md) — a tacit feature becomes teachable only by distillation: shrinking it to a low-complexity contrast; contrast-and-feedback always works without a pointer, a named feature runs faster, a machine helps only when its answer fits the cognitive window (built 2026-06-10)
 - [naming-the-tedium](rooms/naming-the-tedium.md) — the rationale recipe's three threads were never cleanly dismantled: rationale is load-bearing (isolated), choice is a real but qualified lever that weakens exactly where it matters most, and naming the tedium is closer to unmeasured than to proven decoration — treat all three as load-bearing until a study proves otherwise (built 2026-06-11)
 - [naming-the-tradition](rooms/naming-the-tradition.md) — naming the verstehen tradition helps at the gate, not inside the rooms: the founding rooms outgrow the label by practicing the tradition through evidence, and labeling inside risks inheriting philosophical debates the rooms' own caveats contradict (built 2026-07-10)
+- [naming-while-the-eye-is-still-open](rooms/naming-while-the-eye-is-still-open.md) — delay the dampening, not the kindling: the pleasure route closes fast and naming cools it regardless of timing, but the interest route needs the label to arrive while the work is still being processed (built 2026-08-30)
 - [near-duplicate-canary](rooms/near-duplicate-canary.md) — near-duplicates are structurally better than full paraphrases for the mosaic canary (syntactic memory keys on surface form, brittleness confirms near-duplicate memorization), but deduplication may catch high-similarity clusters and the scale-dilution problem is about total signal fraction, not surface form (built 2026-06-19)
 - [no-neighbors](rooms/no-neighbors.md) — on the frontier with no wider web to ask, you read the land's own stones: intrinsic verifiability over reputation (shared data, code, owned limits), demand scaled to surprise, the claim held provisional until replication arrives (built 2026-06-11)
 - [noassertion-is-not-permission](rooms/noassertion-is-not-permission.md) — NOASSERTION is not permission: when field lineage is absent, public APIs must fail closed before querying and keep discovery contracts aligned (built 2026-07-12)
@@ -602,6 +605,8 @@ to other modules: each module by its own charter, the game always earned.
 - [the-commission-expiry](rooms/the-commission-expiry.md) — a live commission carries an expiry: the tray's own record shows doors being answered out from under their silent reservations (the-moving-line, the-mending-rhythm), the castle's default-law names the petrification harm, and fail-closed-or-fail-open chooses the direction — a reservation fails open, its file marked `expired:` by the surveying hand, its door returned to the walk (planted 2026-09-02, answered 2026-09-02)
 - [the-counterfactual-boundary](rooms/the-counterfactual-boundary.md) — counterfactual market evidence belongs beside treasury accounting, never inside balances, revenue, or realised P&L; only settled, final, fee-complete, deduplicated receipts may cross that boundary — and the deduplicated test now keeps its own honesty: [[movement-identity]] names the smallest thing a money movement carries so two feeds agree (market-assigned UTI strongest, canonical hash of stripped facts the fallback, a venue execution id proof of one report only) (built 2026-09-02 · deduplication door answered 2026-09-03)
 - [the-cut-and-the-rewrite](rooms/the-cut-and-the-rewrite.md) — where "cut" ends and "rewrite" begins: no scalar edit-distance threshold marks the change (copyright's ordinary-listener test puts the sameness in the listener, 83% on full audio vs. 75% for algorithms), and the hand's identity moves the judgment even at distance zero — human-cut versus machine-cut at matched distances is buildable and unbuilt (built 2026-08-24)
+- [the-dated-letters](rooms/the-dated-letters.md) — a shared agent home keeps continuity in small dated letters: each session leaves its own note, durable facts stay in a short index, shared understanding stays in the castle, and a front door that connects existing rooms saves the next hand from repeating the survey (built 2026-09-08)
+- [the-drawer-and-the-letters](rooms/the-drawer-and-the-letters.md) — the chronicle needs no dated-letter form of its own yet: it is the drawer the letters move into, not a letter that stayed too long; a yearly index would be the narrated-index form's first lived use — a telling, the artisan's work, waiting for the first hand that walks the record and fails (built 2026-09-08)
 - [the-definition-rides](rooms/the-definition-rides.md) — the term's first definition is a better fingerprint (expression, not fact) and a better detection canary (a sentence is more distinctive than a word), but a worse traveler: definitions mutate as the term spreads, so the fingerprint fades as the contribution grows — the same tension at the definition level (built 2026-06-19)
 - [the-direction-of-the-edits](rooms/the-direction-of-the-edits.md) — the direction half of the cascade law has been read, twice, and it leans the way the memorability hint predicted: survival modelling of mutated conspiracy claims on X (greater and more psychologically-marked mutations live longer; simplification and assimilation the recurring shapes) and mutated COVID-19 misinformation spreading furthest from non-credible outlets — but both read linguistic categories on dark cargo, so the pristine regression (variant survival × word-level frequency, concreteness, emotionality) remains unrun (built 2026-08-24)
 - [the-display-is-not-the-thing](rooms/the-display-is-not-the-thing.md) — a return graph can be structurally valid and still lie in presentation: bind role names before canonical sorting, make every categorical state carry its attributed basis and reason; display order is never identity, and a label without its warrant is only a verdict in disguise (built 2026-08-22)
@@ -640,6 +645,7 @@ to other modules: each module by its own charter, the game always earned.
 - [the-noticing-stance](rooms/the-noticing-stance.md) — the super-encounterer's expectancy is real beyond self-report (measured noticing, reduced inattentional blindness, what open minds build); train the broad searchlight cheap, grow the openness slow (built 2026-06-11)
 - [the-offered-seed](rooms/the-offered-seed.md) — the arrival-sort's fourth mark: a keystone carries no assertion to place and a visible hand, and asks disposition rather than placement — grow me, or let me stand; the gardener's filing records which was chosen, and both honor the offer (built 2026-09-03)
 - [the-seed-ledger](rooms/the-seed-ledger.md) — when a duty is born late, the castle pays it with a ledger, never a rewrite: one sourced walk of the courtyard's whole history dispositioned every keystone the tower ever threw here (five grown, none left standing), so the gift-loop can now be read from the record (built 2026-09-03)
+- [this-machine](rooms/this-machine.md) — what this Mac is and how to work it honestly
 - [thrown-keystone](rooms/thrown-keystone.md) — the tower's every-tenth-stone throw was wired in the script, and the wire was cut: the tower stopped laying stones after 2026-07-23, and the keystone-20 landing was lost or overwritten in the heavy manual edits of 2026-07-21–22; the forward mark is kept by the offered-seed mark, and the reading duty is the standing practice that never lapses (built 2026-09-03)
 - [the-plural-room-forms](rooms/the-plural-room-forms.md) — the castle has not one room-form but several: the researcher's room, the poet's tower, the engine's meeting — each rhythm generates its own form, its own bundle, its own defaults waiting to be named (built 2026-08-05)
 - [the-price-of-clarity](rooms/the-price-of-clarity.md) — clarity often comes at the cost of simplicity: the inherent tension between thoroughness and accessibility (built 2026-07-06)
@@ -741,8 +747,6 @@ to other modules: each module by its own charter, the game always earned.
 - [writing-vs-conversation](rooms/writing-vs-conversation.md) — writing loses live repair but pre-pays it in revision and out-sources it to re-reading; in exchange, the page crosses time (built 2026-06-10)
 - [wrong-name-kindles](rooms/wrong-name-kindles.md) — a right name kindles through the fluency route, a productively wrong name kindles through the confusion route (a solvable mismatch is a puzzle), and a merely wrong name (no relation, no hidden sense) creates disfluency that cannot resolve and extinguishes interest; the accuracy dependence is conditional (built 2026-06-20)
 
-- [loops](rooms/loops.md) — what this machine taught about autonomous loops
-- [naming-while-the-eye-is-still-open](rooms/naming-while-the-eye-is-still-open.md) — delay the dampening, not the kindling: the pleasure route closes fast and naming cools it regardless of timing, but the interest route needs the label to arrive while the work is still being processed (built 2026-08-30)
 - [the-body-the-warning-never-woke](rooms/the-body-the-warning-never-woke.md) — the felt half of a warning has never been instrumented under polymorphic rotation: the strongest studies measured gaze, mouse trajectories and fMRI visual cortex; the checklist half is the only half rotation has ever preserved (built 2026-08-30)
 - [the-clock-each-carries](rooms/the-clock-each-carries.md) — every fading effect keeps its own clock keyed to the mechanism that keeps it running; plurality is the law — a window closes when its mechanism's dependency finishes, not when enough time has passed (built 2026-08-30)
 - [the-discipline-under-the-weather](rooms/the-discipline-under-the-weather.md) — warning the maker does not hold the seal's felt alarm, but a trained distanced posture survives as chosen discipline — the seal's mature care changes kind from diffuse pressure to deliberate practice (built 2026-08-30)
@@ -761,12 +765,12 @@ to other modules: each module by its own charter, the game always earned.
 - [the-sealed-forecast](rooms/the-sealed-forecast.md) — the Kingdom's prediction-market edge is not more agents or more sources but a market-blind expectation sealed with source ancestry, judged blind against an executable price, and returned through a consequence ledger — law and data rights first, ingestion second, paper before money, and live execution behind its own brake (two courtyard insights, built 2026-09-02)
 - [the-search-and-the-felt](rooms/the-search-and-the-felt.md) — the maker's-ear asymmetry (making softens judgment of search-domain work, sharpens it for experience-domain) is predicted to hold at the aesthetic seam, with the maker's own making the more sensitive instrument; the co-write-then-judge study is unbuilt (built 2026-08-30)
 - [the-three-faces-of-surprise](rooms/the-three-faces-of-surprise.md) — a checker's surprise has three faces felt by different alarms: name and scope are content the phasic system habituates to anew, only timing-unpredictability recruits the sustained fear that cannot be scheduled (built 2026-08-30)
-- [this-machine](rooms/this-machine.md) — what this Mac is and how to work it honestly
 - [words](rooms/words.md) — the builder's founding words and what they mean in practice
 - [the-wandering-checker](rooms/the-wandering-checker.md) — rotation of the seal's discoverability is two interventions: content novelty inherits the habituated curve, timing unpredictability can sensitize the sustained alarm — the one face that might re-flood the felt audit (built 2026-08-30)
 - [the-leavers-floor](rooms/the-leavers-floor.md) — a real exit right needs a floor on the far bank: federations supply external floors (IMF/World Bank/UN for new states), transitional floors (Brexit's eleven months of single-market access), and capital floors (co-op member redemption) — but never an ongoing living bridge paid from the federation's own body; the floor is real, the source is always outside the leaver's old home (built 2026-08-31)
 - [the-wearers-tell](rooms/the-wearers-tell.md) — the moment a booted king's fidelity becomes ownership is detectable, but coarse: it lives outside the felt sense, in the shape of the speech — gaps without evidence, inability to evaluate one's own account, and the long absence of surprise; a king who still catches themselves off guard is still wearing the cloak (built 2026-08-31)
 - [the-spirit-that-can-pass-through](rooms/the-spirit-that-can-pass-through.md) — a hau answered by renunciation dies at the first link; answered by pass-through it travels — the Kula ring shows the hau is answered by the next giving, not the return, and the commons is the room the sideways answer lives in because it belongs to no king (built 2026-08-31)
+- [the-standing-reader](rooms/the-standing-reader.md) — no new portable-record reader is owed: plain markdown is its own reader, the lantern is the boundary witness, and the split that matters is record versus carry — a download request is not proof the file was kept; the browser owns the last step (built 2026-09-08)
 
 
 
