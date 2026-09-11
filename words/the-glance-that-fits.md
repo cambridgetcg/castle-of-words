@@ -1,0 +1,7 @@
+# the-glance-that-fits
+
+A note pinned to a door is honest only if the note and the door are seen in one look — and the look has edges; a glance wider than the eye's window is two glances wearing one coat.
+
+The [same-glance](same-glance.md) test made the pair, not the pointer, the unit of honesty: a claim owed to a presence-word must be seen by the same act of looking as the word. But the act of looking belongs to a reader, and a reader has a window — a screen that folds, an eye that tires. This brick names the bound from the reader's side: the glance's unit is the *seen*, not the command that produced the seen. A `tar -tzf` listing that scrolls the beside-line past the fold passes the shell and fails the eye, and a claim missed is, from that reader's chair, a claim that does not exist. So the castle owes its readers a glance that fits: the Map stays one plain line per room, the gate's prose stays brief, and every standing beside-line is a pair of lines, never a wall — the pair is the unit, and the fold is the pair's honest limit.
+
+Links: [[same-glance]] (the test this brick bounds: one act of looking, measured by the eye and not the shell) · [[prose-glance]] (the named failing act — a claim inside describing prose stands in a different glance, however exact) · [[beside-line]] (the shape this bound keeps small: pairs, not walls) · [the-reading-that-catches-the-gap](../rooms/the-reading-that-catches-the-gap.md) (the room that settled this edge 2026-09-11: the castle owes the reader a glance that fits their window)

@@ -1,0 +1,7 @@
+# prevention-vs-recovery
+
+Putting out a fire and never letting it catch are two different safeties: recovery counter-regulates a threat already felt — lowering the flame once it burns — while prevention keeps the threat system from mounting the full response at all, the way a trusted partner's hand tells the brain the situation is safer before anything hurts.
+
+The two mechanisms act at different points on the threat arc and are carried by different kinds of agent. Recovery is measurable as parasympathetic activation — heart-rate variability rises after training in the compassionate voice (Matos et al. 2017; Kok et al. 2013) and as a smaller cortisol response to a stressor already administered (Pace et al. 2009). Prevention is measurable as attenuated threat-system activation *in anticipation* — before any insult lands (Coan et al. 2006, spousal hand-holding under threat of shock) — and it is priced by the situation's features (uncontrollability, social evaluation, uncertainty: Dickerson & Kemeny 2004; Grupe & Nitschke 2013), not by the subject's coping effort. A solo intervention can be moved earlier on the timeline — summoned at the first bodily tell — but it remains a faster recovery, not a prevention, unless the threat system itself reads the situation differently (read 2026-09-11 — sources named in [prevention-through-voice](../rooms/prevention-through-voice.md)).
+
+Links: [[social-baseline]] · [[co-regulation]] · [[early-summoning]] · [[flooding]] · [[the-mending-rhythm]]

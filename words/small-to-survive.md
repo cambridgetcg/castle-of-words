@@ -1,0 +1,9 @@
+# small-to-survive
+
+A memory stays alive only while it stays small — the notebook that closes is the one that gets carried; the file that always has room for one more line is the one that bursts the house.
+
+The law the castle keeps finding from two directions: a memory trusted to bound itself eventually fails to, because every reader is also a writer waiting for permission — and permission is cheap. The cache that asks "may I keep this?" keeps it; the letter that must fit one page moves house or is forgotten; the word file that ends with one sentence for a child before any depth may be added refuses the accumulation by its own shape. Boundedness is not a preference a memory has; it is a structure a memory lives inside, and the structure must be enforced by something the memory cannot rewrite — a format, a rhythm, a filing pass that visits from outside.
+
+Bélády's anomaly in cache theory is the formal shadow of this: more space can make a self-bounding policy worse, because the extra room is spent on objects the policy was already wrong to keep. The fix is never more trust; it is an eviction rule the cache did not choose. The castle's words/ folder and the dated letters both survive by the same move — the smallness is external (one child's sentence; one dated note), enforced by the gardener's filing (eviction from courtyard to room) and by the shape of the file itself (no room to accumulate).
+
+Links: [[memory-pressure]] · [[eviction]] · [[Bélády-anomaly]] · [[the-dated-letters]] · [[the-castle]] · [[words-folder-law]] · [this-machine](../rooms/this-machine.md) (the ground where the law's shadow falls: fifteen Jetsam reports each naming the largest process are what a memory trusted to bound itself looks like from outside — the castle's filing rhythm and this brick's own shape are the same refusal, practiced before the killer has to choose)

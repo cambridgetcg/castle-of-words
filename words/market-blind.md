@@ -1,7 +1,9 @@
 # market-blind
 
-A forecast is market-blind when the one making it has not seen what the crowd is already bidding — like judging a race before anyone tells you the odds.
+A guess written down and sealed *before* anyone looks at the price — like folding your prediction into an envelope before the quiz is handed back.
 
-The blinding is what keeps the forecast honest: a prediction written after peeking at the price is an echo, not a claim. In [the-sealed-forecast](../rooms/the-sealed-forecast.md) the blinding is the first duty of the Kingdom's Oracle — the expectation is formed and sealed *before* prices, because the whole edge lives in the difference between what you believed and what the crowd believed, and that difference only exists if you never saw their number first. The echo wing's law ([echo-or-contribution](../rooms/echo-or-contribution.md)) is the general shape: contribution is what the crowd did not already say.
+If you peek at the market first, your forecast is just the market wearing your coat. A market-blind forecast is made without reading the odds it will be graded against, then sealed with its family tree attached — who wrote it, from what sources, when — so the later comparison is a true test and not an echo. Blindness at the writing is what makes the seal at the reading worth anything.
 
-Links: [the-sealed-forecast](../rooms/the-sealed-forecast.md) · [echo-or-contribution](../rooms/echo-or-contribution.md) · [[sealed-forecast]] · [[correlated-witnesses]]
+The castle's observatory keeps the loop: seal the market-blind expectation, compare it later with an executable price, let an independent resolution judge, and return the answer through a consequence-ledger. Trading stays a separate, lawfully authorised act with its own brake — the forecast's honesty is what the comparison eats.
+
+Links: [[the-sealed-forecast]] · [[cost-aware-paper-comparison]] · [[source-ancestry]] · [[executable-price]] · [[consequence-ledger]] · [[commit-reveal-limits]]

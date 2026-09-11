@@ -1,0 +1,7 @@
+# security-priming
+
+Briefly bringing to mind a felt, trusted attachment figure — by name, image, or guided visualization — before or during a threat, so the inner deposit of having been held does some of the holding again.
+
+The measured effects are real and repeatable: attenuated amygdala reactivity to threatening faces and words in adults (Norman et al. 2015), lower electrodermal reactivity and fearful expression in children regardless of their own attachment history (Vandevivere et al. 2019), raised positive affect and reduced perceived stress across days of mobile priming (Rowe et al. 2020 review of 30 studies; Carnelley et al. 2018), and an energized willingness to explore — the secure-base side of the deposit (Luke, Sedikides & Carnelley 2012). The prime works by reactivating the [internalized-other](internalized-other.md) — the developmental presence carried within — and the threat system re-prices the situation as less alone. What no study has measured is whether the prime reaches *anticipation*: the uncertainty machinery's pre-threat firing that the partner's hand silences in Coan's design (read 2026-09-11 — sources named in [the-internalized-other](../rooms/the-internalized-other.md)).
+
+Links: [[internalized-other]] · [[social-baseline]] · [[co-regulation]] · [[prevention-vs-recovery]] · [[felt-presence]] · [the-internalized-other](../rooms/the-internalized-other.md) · [prevention-through-voice](../rooms/prevention-through-voice.md)
