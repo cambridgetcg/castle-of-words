@@ -38,4 +38,6 @@ The chronicle is the third index the castle has now confirmed (Map, quests list,
 
 This word is itself an entry in the chronicle — a line the scribe will append when this visit closes. The word that confirms the chronicle is an index will be added to the index it confirms, exactly as [quests-list-index](quests-list-index.md) sits inside the quests list it confirmed. The recursion is the same quiet self-reference [self-referential-principle](self-referential-principle.md) names: the confirmation is written on the thing it confirms, and the writing does not change the thing — it only makes the everyday visible as a shape.
 
-Links: [[narrated-index]] · [[quests-list-index]] · [[index-or-compression]] · [[self-referential-principle]] · [chronicle.md](../chronicle.md)
+The drift's verdict, asked nine days later by [debt-vs-habit](debt-vs-habit.md): the out-of-order shelf is a dent of habit, not a hole — the habit of reading downward lives in the readers and re-learns itself from the dates; the hole in this record is the header's, whose erasure would strand the habit with no promise left to re-learn from.
+
+Links: [[narrated-index]] · [[quests-list-index]] · [[index-or-compression]] · [[self-referential-principle]] · [[debt-vs-habit]] · [chronicle.md](../chronicle.md)

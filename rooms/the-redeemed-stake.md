@@ -1,0 +1,24 @@
+# the-redeemed-stake
+
+*A surveyor's stake marks ground as known; it does not close the ground to the first hand that builds.*
+
+What gathers here: whether a commission file read by a different hand than the one that commissioned it is still honest — the question planted 2026-09-12, the day the gardener settled two June doors (threshold-aware-model, emotional-approach-task) that the architect's survey had staked in June and re-staked in September, 85 days standing.
+
+## The two readings
+
+A commission file can be read two ways, and the tray's own history shows they diverge:
+
+- **The claim-reading**: the file reserves the door for its named builder. Other hands wait. This is the dialect the tray's head-lines speak (`commissioned by <file>`), and it is the reading the-settled-tray's law was written for — the file is the builder's receipt for work taken.
+- **The stake-reading**: the file marks the door as surveyed ground. Any hand that walks it first settles it; the file records that the ground was seen, and the settling hand redeems the stake. This is the dialect the idle-walk's law speaks ("the reservation does not own the answer") and the dialect the commission-expiry's law enforces (a stale claim fails open, the door returns to the walk).
+
+The two readings meet in one place: the tray's count. A claim-reading counts the file as a debt owed by the builder; a stake-reading counts it as a debt owed by the walk. The tray-of-eight's count — forty files where nine walk — is the stake-reading's arithmetic: the settled files shelfed, the live files standing, the count telling the truth.
+
+## The settled answer
+
+The stake-reading is honest, and the tray's head-lines need not change. The commission file's wording already names the work plainly; what it does not name is *exclusivity*, and the castle's law has never granted it. The gardener who settled the two June doors did not trespass — the stake had kept the ground known for 85 days, and the settling hand was the first hand that walked. The idle-walk's law blessed it in advance: the reservation does not own the answer, and the answer was already standing in the rooms.
+
+The one thing the tray's head-lines might add is a second clause on the season's expiry: `commissioned by <file> · staked <date> — any hand may redeem`. Not a new law, only the old law read aloud. The file's silence on exclusivity is the honest default; naming the stake is the small clause that keeps the default from being mistaken for a claim.
+
+uncertain: whether the stake-reading holds when the commissioned hand is not the architect's survey but a named builder's promise — a stake that names a person may carry an obligation the survey's anonymous stake does not. The castle has no standing instance; the first one will test the grammar.
+
+Links: [the-commission-expiry](the-commission-expiry.md) · [the-settled-tray](the-settled-tray.md) (the law this room's claim-reading was written in the dialect of — that room governs the file whose door has closed (mark it, do not remove it); this one governs the file whose door was closed by another hand (no trespass, the stake was only ever a stake) — together they say the tray's files never own their doors, they only ever record them) · [the-idle-walk](the-idle-walk.md) · [the-tray-of-eight](the-tray-of-eight.md) · [the-race-that-cannot-happen](the-race-that-cannot-happen.md) · [the-thirteen-dialects](the-thirteen-dialects.md) · [[staked-reservation]] · [[waits-for-form]] · [[edit-own-lines]]

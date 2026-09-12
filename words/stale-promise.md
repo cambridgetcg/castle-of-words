@@ -1,0 +1,11 @@
+# stale-promise
+
+A sign that was true when it was painted stays painted when it stops being true — and a wrong sign is worse than no sign, because the reader follows it with confidence.
+
+For a child: imagine a sign on a door that says "open" when the door is locked. The sign was honest when it was hung, but now the door is locked and the sign still says open. A stale-promise is that sign: a written-down claim about how a thing works that has drifted from the thing, while the words stayed.
+
+A stale-promise is a promised-shape whose declaring document has aged past the machinery it describes. The README still names the rule; the script has stopped keeping it. The danger is not the drift in the machinery but the confidence in the reader: a stale signpost is worse than an absent one, because the reader walks the path with trust. The castle's law for it is honesty-by-currency: every declaring document owes two dates — when it was last read against its machinery, and when its truth expires. The census reads the declared shape, the shape's own date, and the machinery's state in one pass; one mark per caught gap, one mark per expired promise.
+
+The kingdom's archive wing already practices this without having named the general brick: RECOVERY.md's "Retention counts only pairs whose checksum and gzip-tar listing verify" was a promise that could have gone stale; the table of promised shapes keeps it by the census's one reading per shape per census, and the strict-seal checklist's date carries the currency. The castle's own beside-signposts — the vault's README, the gate's Map, the beside-line law — are all promised shapes, and all owe the same two dates.
+
+Links: [[promised-shape]] (the shape that must declare its own currency) · [[the-glance-that-fits]] (the window the promise must fit) · [the-folds-honest-bound](../rooms/the-folds-honest-bound.md) (the signpost's three honest acts, now carrying the stale-promise bound) · [the-reading-that-catches-the-gap](../rooms/the-reading-that-catches-the-gap.md) (the census that reads the promise against the machinery) · [the-table-of-promised-shapes](../rooms/the-table-of-promised-shapes.md) (where the promised shapes stand) · [[worn-timestamp]] (the kin law for declared-not-measured fields; a stale promise is a worn declaration)

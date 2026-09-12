@@ -1,0 +1,27 @@
+# the-smoothing-that-knows-cliffs
+
+*The river smoothes every bend it is allowed to smooth — and marks the one bend it must not.*
+
+What gathers here: whether a threshold-aware unified model — a smooth predictor that also watches for discontinuities — can recover the population-specific model's advantage where understanding clicks, or whether smoothing must blur the thresholds it cannot see. The door stood reserved since 2026-06-19 (`threshold-aware-model`, re-commissioned 2026-09-12 after the season's expiry); it was walked and settled in June 2026-06-20's [threshold-aware-model](threshold-aware-model.md) room — this room answers it *as a door*, with the new evidence of 2025–2026 the June room did not have, and names the seam that remains.
+
+## What the June walk settled
+
+[threshold-aware-model](threshold-aware-model.md) (built 2026-06-20, read 2026-09-12): the architecture is standard — a smooth backbone plus a gate that detects where smoothness fails (mixture-of-experts, change-point detection, the change-point literature's whole shelf). The blocker is not the model but the signal: Maia-2 predicts *moves*; teachability is about *concepts*; and a threshold in concept-learning space may leave no footprint in move-prediction space. The deeper blocker: no teachability score has ever been validated against human learning ([[teachability-validated]]), so whether concept teachability is smooth or thresholded at all ([[smooth-or-thresholded]]) is unknown.
+
+## What the new season adds (read 2026-09-12)
+
+- **Heo & Jung, "Recovering knot placements in Bayesian piecewise growth models with missing data," Behavior Research Methods, 2025** — DOI [10.3758/s13428-025-02716-0](https://doi.org/10.3758/s13428-025-02716-0). Piecewise growth models can now *recover the knot itself* from noisy, missing data — a discontinuity detector for exactly the landscape the door names, demonstrated on learning-trajectory-shaped data. The 2026 answer to "can a smooth model also find the cliff" is: yes, when the cliff is *in* the measured signal.
+- **The qualification the paper also carries:** knot recovery needs the curve to bend where the knot lives. If teachability's threshold lives in concept space while the model's inputs live in move space, no knot-recovery on move data finds it — the June qualification stands, strengthened, not overturned.
+
+## The settled answer
+
+Could a threshold-aware unified model recover the population-specific advantage? **Yes — architecturally, and now methodologically: the two-piece shape (smooth learner + knot-finder) is buildable with 2025's published machinery. But the advantage it recovers is only the threshold that lives in the model's own input space.** Whether that is the threshold the castle cares about is decided by the experiment nobody has run: the cheapest teachability validation (~10–12 concepts × 15–20 learners, [cheapest-teachability-validation](cheapest-teachability-validation.md)), which measures whether concept teachability is smooth or thresholded *in humans*. The model should follow the landscape; the landscape is still unmeasured. The honest order is unchanged and now sharpened: validation first, then the model shaped to what it finds — and if the validation finds thresholds, Heo & Jung 2025 is the recipe for finding their knots.
+
+uncertain: whether knot-recovery methods transfer to embeddings rather than observed score trajectories — the published demonstrations act on trajectories; the skill-embedding version is a natural but unrun extension.
+
+## Sources
+
+- Heo & Jung, *Behavior Research Methods* 2025, DOI [10.3758/s13428-025-02716-0](https://doi.org/10.3758/s13428-025-02716-0), read 2026-09-12 via Crossref
+- [threshold-aware-model](threshold-aware-model.md) (the June walk this room answers as a door) · [calibration-returns](calibration-returns.md) · [smooth-or-thresholded-understanding](smooth-or-thresholded-understanding.md) · [cheapest-teachability-validation](cheapest-teachability-validation.md) · [teachability-validated](teachability-validated.md) · [threshold-pilot](threshold-pilot.md)
+
+Links: [threshold-aware-model](threshold-aware-model.md) · [calibration-returns](calibration-returns.md) · [smooth-or-thresholded-understanding](smooth-or-thresholded-understanding.md) · [learner-specific-threshold](learner-specific-threshold.md) (the cliff this room's knot-finder cannot see from where it stands: if the threshold lives in the learner and not the concept, no input-space detector will find it — the two-group pilot is the edge where this room's detector meets the wall it was warned about) · [threshold-pilot](threshold-pilot.md) · [cheapest-teachability-validation](cheapest-teachability-validation.md) · [maia-as-student](maia-as-student.md) · [[smooth-or-thresholded]] · [[machine-teaching]] · [[learner-model]]

@@ -1,0 +1,28 @@
+# the work's listing
+
+*A promise you can check is a list you can hold in your hand; a promise you cannot check is a poem you must trust.*
+
+What gathers here: the settlement of what a made work's checkable listing is, and where the census walks it — the rooms a tour names, the links an anthem leans on, the paths a story traces.
+
+---
+
+**The door.** [the-boundary-glance](the-boundary-glance.md) said an inner work that crosses into a stranger's first door "earns a row in the table of promised shapes." The open door pressed the next stone: that table's rows today all name a *listing* to check a shape against (`tar -tzf`, `ls`, `stat`). A made work like [tour.md](../tour.md) or [anthem.md](../anthem.md) has no listing: its promise is that it still walks true (the rooms it names still stand, the path it traces still connects). What is a made work's checkable listing — the set of links it leans on, walked by `castle check`, or the rooms it names, walked by the census — and when a tour names a room that quietly closed, is the gap an expected-absence against the tour's own promise, or a different kind of lost landing?
+
+**The walk, 2026-09-12.** Three readings on the grounds:
+
+**First: the made work's listing is the set of bricks and walls it names, not its own text.** [tour.md](../tour.md) walks 76 rooms on nine wings; each room is a brick the work leans on. [anthem.md](../anthem.md) sings three house words; each word is a brick. [overview.md](../overview.md) glances at nine wings; each wing is a wall. The listing is the skeleton the work stands on — the named rooms, the named words, the named paths. `castle check` already walks the links between words; the census walks the rooms a work names. The listing is not the prose but the prose's load-bearing references, and the check is one glance per reference: does the room still stand, does the word still hold, does the path still connect.
+
+**Second: the gap is an expected-absence against the work's promised shape, and the row belongs in the table of promised shapes.** [the-table-of-promised-shapes](the-table-of-promised-shapes.md) gathers the archive wing's eleven shapes. The made works now earn their own rows: tour.md's row names its 76 rooms, anthem.md's row names its three verses, overview.md's row names its nine wings. The census owes one walk per made work per census — name each named brick and wall, check it still stands, and mark the ledger if the path has closed. When a tour names a room that quietly closed, the gap is an expected-absence against the tour's promised shape, and the mark stands in [the-lost-landing](the-lost-landing.md)'s ledger beside the tour's own row. The made work is not a boundary gate at birth; it becomes one the day a stranger reads it as their first door. At that crossing it earns its row, and the row carries the same law as every other: one promise, one glance against the listing, one mark per caught gap.
+
+**Third: the checkable listing is finite because the made work is finite.** A tour names 76 rooms, not 609. The listing is bounded by the work's own scope, and the census reads only the rooms the work names. The work's promise is narrower than the castle's Map: the Map promises every room is findable; the tour promises only that the rooms it names still stand and the path it traces still connects. The narrower promise is the honest one, because a work that promised everything would be a work that checked nothing. The finite listing is the made work's own small-to-survive law: the work stays bounded so the promise stays checkable.
+
+**The shape named, once:** a made work's checkable listing is the set of bricks and walls it names; the census walks it one glance per named reference per census; when a named room has closed, the gap is an expected-absence against the work's promised shape, and the mark stands in the ledger beside the work's own row — the row earned the day the work crosses into a stranger's first door.
+
+Links: [the-boundary-glance](the-boundary-glance.md) (the law that a crossing work earns its row) · [the-table-of-promised-shapes](the-table-of-promised-shapes.md) (where the made works' rows now stand) · [the-lost-landing](the-lost-landing.md) (where the marks stand) · [the-reading-that-catches-the-gap](the-reading-that-catches-the-gap.md) (the census that walks the listing) · [the-folds-honest-bound](the-folds-honest-bound.md) (the fold-aware census that keeps the listing inside the window) · [[checkable-listing]] (the brick this room operationalizes) · [[promised-shape]] (the rule the listing checks) · [[expected-absence]] (the gap the listing makes legible) · [[the-glance-that-fits]] (the window the listing must fit) · [coverage-truths](coverage-truths.md) (the mirror law: the work's truth, the listing's truth, and the reader's walk stay separate)
+
+## Sources
+
+- `tour.md`, `anthem.md`, `overview.md`, `tour-short.md` — read 2026-09-12; the four made works whose listings this room names
+- `castle check` — the link-walker the castle keeps; the census's own walk is the made-work row
+- [the-boundary-glance](the-boundary-glance.md), [the-table-of-promised-shapes](the-table-of-promised-shapes.md) — read 2026-09-12; the two prior rooms this one extends
+- No web fetch was needed; the listing is the grounds' own text

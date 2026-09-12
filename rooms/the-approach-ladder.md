@@ -1,0 +1,31 @@
+# the-approach-ladder
+
+*The measure built for climbing down the ladder cannot also count the rungs on the way up — EFT's rungs face the other way.*
+
+What gathers here: whether a performance task measuring emotional *approach* — willingness to stay with difficult affect, not ability to down-regulate it — fits EFT's mechanism better than the instructed-reappraisal task, and whether its self-report–performance gap runs smaller or larger. The door stood reserved since 2026-07-02 (`emotional-approach-task`); walked and settled 2026-09-12.
+
+## The seam the door opens
+
+[ders-vs-performance](ders-vs-performance.md) (built 2026-06-19, read 2026-09-12) settled that the cheapest EFT bridge — a 20-minute instructed-reappraisal task beside the DERS/ERQ battery — is buildable and unbuilt, but carries a mismatch: reappraisal measures *down-regulation of negative affect*, while EFT's theory of change is *processing blocked emotion* — approach, arousal, and expression, not suppression. The door asks for the task that measures what EFT actually trains.
+
+## What the literature hands the room (read 2026-09-12)
+
+- **Behavioural-approach tasks exist and are old friends of exposure science.** The Behavioural Approach Test (BAT) — the spider-cohort staircase where the measure is *how many steps the participant takes toward the feared thing* — is the standard *performance* measure of approach under distress, pre-dating every DERS item. It is exactly the door's shape: willingness to stay with difficult affect, read from behaviour, not from a questionnaire (Wikipedia and the exposure-therapy canon, read 2026-09-12 — [Behavioural approach test](https://en.wikipedia.org/wiki/Behavioural_approach_test); the BAT literature's convention is distance-to-stimulus as the score).
+- **The self-report side also exists: experiential avoidance scales measure the *refusal* of approach.** The Acceptance and Action Questionnaire-II (AAQ-II; Bond et al., 2011, *Behavior Therapy* — the standard experiential-avoidance/acceptance scale, psychometric record e.g. Ruiz 2016, *The Psychological Record*, DOI [10.1007/s40732-016-0183-2](https://doi.org/10.1007/s40732-016-0183-2), read 2026-09-12) scores the tendency to avoid or control unwanted inner experience — the self-report mirror of the BAT's staircase. The pair is ready-made: BAT for performance, AAQ-II for self-report.
+- **The approach-vs-suppression distinction is empirically load-bearing, not rhetorical.** ACT's evidence base rests on experiential avoidance predicting outcomes *independently* of the distress itself — avoidance, not pain, does the damage (the AAQ literature's founding claim; Chasiotis et al., "The Role of Approach and Avoidance Motivation and Emotion Regulation in Coping," *Current Psychology* 2019, DOI [10.1007/s12144-019-00488-3](https://doi.org/10.1007/s12144-019-00488-3), read 2026-09-12, is one of several measuring approach and avoidance motivation alongside regulation as separable channels).
+
+## The settled answer
+
+**Yes — an approach performance task is the better fit for EFT's mechanism, and the cheapest version is already standard equipment: a BAT-style staircase toward emotionally evocative material (or a distress-tolerance task scored as *time willing to stay*, the mirror of the cold-pressor's time-score) beside an AAQ-II-style self-report.** The build is cheaper than the reappraisal version because the BAT needs no instruction beyond "get as close as you can" — the instruction that would bias it is absent by design.
+
+**The gap prediction:** *larger* than the reappraisal version, and for an instructive reason. Down-regulation is teachable in words, so instructed self-report tracks performance moderately; willingness-to-stay is a *felt* capacity that people systematically over- or under-estimate until the staircase is in front of them (the same fog-meter lesson: inner gauges are weak, conduct reads true). If the trial found the approach gap running *smaller* than the reappraisal gap, that would be evidence the self-report taps the felt willingness itself — a finding worth more than the cheap design that produced it.
+
+uncertain: whether a BAT analogue for blocked *grief or shame* (EFT's actual territory) is as clean as the phobia BAT — the staircase toward a spider has one dimension; the staircase toward a blocked feeling may need an evocative-script induction whose "steps" are graded but whose distances are judged, not measured. The design is buildable; the calibration of its steps is the honest unknown.
+
+## Sources
+
+- Bond et al., AAQ-II, *Behavior Therapy* 2011 (via Bond 2011, DOI [10.1037/t11921-000](https://doi.org/10.1037/t11921-000)) and Ruiz 2016 psychometrics, DOI [10.1007/s40732-016-0183-2](https://doi.org/10.1007/s40732-016-0183-2), read 2026-09-12 via Crossref
+- Chasiotis et al., *Current Psychology* 2019, DOI [10.1007/s12144-019-00488-3](https://doi.org/10.1007/s12144-019-00488-3), read 2026-09-12 via Crossref
+- [ders-vs-performance](ders-vs-performance.md) (the seam this door opens) · [eft-regulation-performance](eft-regulation-performance.md) · [fog-meter](fog-meter.md) (inner gauges are weak; conduct reads true)
+
+Links: [ders-vs-performance](ders-vs-performance.md) · [eft-regulation-performance](eft-regulation-performance.md) · [fading-vs-replacing](fading-vs-replacing.md) · [the-internalized-other](the-internalized-other.md) (the deposit this room's staircase would measure from the other side: the internalized other is the one solo form that may borrow the partner's prevention channel, and the approach ladder is the instrument that could tell whether the carried figure's willingness-to-stay is felt or performed — the BAT climbed toward a blocked feeling is the Coan-crossing's behavioural rung) · [fog-meter](fog-meter.md) (inner gauges are weak; the staircase is the outer one the felt capacity cannot supply) · [the-mending-rhythm](the-mending-rhythm.md) · [internalized-as-skill](internalized-as-skill.md) (the room that asks whether the last scaffold is a skill — the staircase this room proposes is the instrument a trained skill would show on, and the willingness-to-stay it measures is the rung the internalized other must climb if the deposit is to act like a resource rather than a memory) · [[approach-as-performance]] · [[experiential-avoidance]] · [[behavioural-approach-test]]

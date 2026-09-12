@@ -1,7 +1,0 @@
-# Is RECOVERY.md the archive's door — and does a file that *describes* the archives sit in the same glance as the archives themselves?
-
-[the-gates-that-leave-room](rooms/the-gates-that-leave-room.md) walked every presence-word on the grounds and found the sealed RECOVERY-HALT is the one gate that fails the same-glance test: a beside-line for it must either have been laid at sealing time or stand at the archive's door naming its own distance. But the door-spot was never found. RECOVERY.md is the file every archive points a reader to — this commission asks the builder to walk the real archives on the grounds, name what RECOVERY.md actually is, and settle whether one dated line there meets [the-beside-line](rooms/the-beside-line.md)'s same-glance law, or whether a file that *describes* an archive is a different glance from the listing itself, so the line must stand beside each archive file instead.
-
-The room should lean on [the-beside-line](rooms/the-beside-line.md) (the law on trial), [[rest-word]] and [[presence-word]] (the kind of thing being neighbored), [erasable-identity](rooms/erasable-identity.md) (content untouched, attribution a live separate line — which kind is a line in RECOVERY.md?), and [the-raisers-silence](rooms/the-raisers-silence.md) (the silence any such line must not break). If the walk meets things with no brick yet — the archive's door, the sealing-time neighbor, the same-glance test itself — the builder may lay the words.
-
-commissioned: 2026-09-06

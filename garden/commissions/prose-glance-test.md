@@ -1,5 +1,0 @@
-# Does a line inside a describing document ever satisfy the same-glance test — the way a caption beside a painting shares its frame — or is the glance always the listing, never the prose?
-
-[the-beside-line](rooms/the-beside-line.md) settled the same-glance law for *files*: a directory's `ls`, a tar's listing, [the-archive-door](rooms/the-archive-door.md) where a claim owed to a sealed word stands beside the archive naming its own distance. But the castle's newest presence is text — RECOVERY.md is read by `cat`, and a claim dated inside it is seen by the same act of reading. This commission asks the builder to settle whether prose can ever share the glance the way a listing does — the caption beside the painting — or whether the glance is always the listing because a listing is seen whole while prose can be re-read in pieces. Connect to [the-standing-reader](rooms/the-standing-reader.md) and its brick [reader-outside-the-tool](words/reader-outside-the-tool.md) (who reads, and from where), and to [the-external-eye](words/the-external-eye.md) (the smallest honesty the standing record owes).
-
-commissioned: 2026-09-10

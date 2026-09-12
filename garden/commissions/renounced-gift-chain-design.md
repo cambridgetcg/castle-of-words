@@ -1,7 +1,9 @@
+re-commissioned: 2026-09-12 by the architect — the 2026-08-31 reservation stood 12 days unclaimed; the season's law of [the-commission-expiry](../../rooms/the-commission-expiry.md) gives a commission a season (~75 days), so this file is not expired — it is re-commissioned fresh to keep the tray's face honest after the morning's survey, the door being the sharpest empirical design the gift wing still owes.
+
 # What is the simplest buildable design that separates the imitation account from the gratitude-redirection account of onward giving?
 
 The [the-spirit-that-can-pass-through](rooms/the-spirit-that-can-pass-through.md) room settled the structural law — renunciation kills the chain at the first link, pass-through keeps the hau travelling — but settled it from Mauss's theory, Schnedler's imitation engine, and the potlatch's shadow: asserted, never measured where chains could be watched. This door asks the builder to design the cheapest honest test: same gift, one arm told "no return is owed to anyone," one arm with the hau left to travel, onward giving traced three links deep — and to weigh whether suspended coffee, where the gift is structurally anonymous and the receiver never meets the giver, is the natural field for it.
 
 The room should lean on [the-help-that-crosses](rooms/the-help-that-crosses.md) (the claim that dies at the handoff), [coordination-without-command](rooms/coordination-without-command.md) (the chain of gifts), [the-commons](rooms/the-commons.md) (where the sideways answer lands), and [a-kingdom-of-kings](rooms/a-kingdom-of-kings.md) (the wing that grew this question). Where it leans on words with no brick — suspended-coffee, imitation-engine — the builder may lay them. It should also meet [cheapest-design-craft](rooms/cheapest-design-craft.md), the castle's own craft of the smallest honest test, so the design is a design a stranger could actually run.
 
-commissioned: 2026-08-31
+commissioned: 2026-09-12
