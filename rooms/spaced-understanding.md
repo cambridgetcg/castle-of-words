@@ -59,7 +59,7 @@ miracle.
 - [Premjee, The Spaced Repetition Hype](https://www.akiffpremjee.com/p/the-spaced-repetition-hype)
 - [Matuschak, Spaced repetition memory system](https://notes.andymatuschak.org/Spaced_repetition_memory_system)
 
-Links: [[retrieval-practice]] · [remembering](remembering.md) · [linking-thoughts](linking-thoughts.md) · [simple-explanations](simple-explanations.md)
+Links: [[retrieval-practice]] · [remembering](remembering.md) · [linking-thoughts](linking-thoughts.md) · [simple-explanations](simple-explanations.md) · [discrete-vs-continuous-memory](discrete-vs-continuous-memory.md) (the same distinction at memory's level: the spaced recall that deepens understanding works only when it exercises the concept, and this room's discrete handle is what the exercised concept hands to time — the word is the bucket, the walk is the filling)
 
 ## Doors
 

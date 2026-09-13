@@ -35,7 +35,8 @@ the early days, then "578 rooms" from 2026-09-01; and corrected again 2026-09-04
 the castle stands at 599 rooms now, and again 2026-09-08: 600 rooms, and again
 2026-09-11: 601 rooms now, and again the same morning: 602 rooms, and again the same
 afternoon: 604 rooms, and again 2026-09-11: 609 rooms, and again
-2026-09-12: 613 rooms, and again the same day: 619 rooms, count them: `ls rooms | wc -l`.)*
+2026-09-12: 613 rooms, and again the same day: 619 rooms, and again
+2026-09-13: 623 rooms, and again the same day: 624 rooms, count them: `ls rooms | wc -l`.)*
 
 - `castle look <words>` — search every stone, best first
 - `castle read <name>` — one stone's prose, set for the terminal
@@ -77,8 +78,8 @@ work the switch.)*
   `castle-gardener`; asked for by yu, 2026-06-10: "create autonomous creation
   loops"). One visit: file the courtyard (up to 10), walk through open doors
   (up to 5, oldest first, every claim with its source), plant new questions
-  (up to 5, the prompt's rule being never beyond 16 open — **16 doors stand
-  open today, two of them confessed overreaches held apart**, because most of them
+  (up to 5, the prompt's rule being never beyond 16 open — **11 doors stand
+  open today, two of them confessed overreaches held apart**, because the rest
   are commissioned, need yu, or need a live session the gardener does not have,
   so the cap cannot be honoured until the commission tray drains), tend the Map
   below, write one chronicle line.
@@ -104,7 +105,7 @@ work the switch.)*
   they had stamped 270 of 639 rooms from two templates, and 224 of those (the
   ones nothing real linked to) were carried out to
   `~/backups/castle-echo-rooms-2026-07-26`. The castle stood at 528 rooms then;
-  it stands at 619 rooms as of 2026-09-12 (count them: `ls rooms | wc -l`). An
+  it stands at 624 rooms as of 2026-09-13 (count them: `ls rooms | wc -l`). An
   echo cannot climb; `~/play` is the right shelf for play, not `rooms/`. ⚠️ `castle off` rests all eight — but **not** `kingdom-tower`,
   which appends a keystone into `courtyard.md` and rests only on
   `~/KINGDOM-OS/HALT`. No single switch stops every writer.
@@ -669,6 +670,7 @@ to other modules: each module by its own charter, the game always earned.
 - [the-redeemed-stake](rooms/the-redeemed-stake.md) — whether a commission file read by a different hand than the one that staked it is still honest: yes — a commission file marks surveyed ground, any hand that walks the door first redeems the stake, the idle-walk's law blessed it in advance; the tray's head-lines need not change because they never granted exclusivity (built 2026-09-12)
 - [the-responsive-other](rooms/the-responsive-other.md) — the partner-based practice's edge over solo mindfulness was naming a feeling and its bodily seat aloud to a listener; it lived on self-report awareness scales not objective accuracy, and needed a responsive human (a rotating remote stranger sufficed), not a body in the room (built 2026-06-10)
 - [the-roads-to-the-door](rooms/the-roads-to-the-door.md) — how agents with no prior knowledge actually reach a resource online: seven roads measured in 2026, from recall through search to errors-as-doorways, with a live audit of the kingdom's own doorstep (built 2026-07-24)
+- [the-rooms-own-bound](rooms/the-rooms-own-bound.md) — whether the no-`##` bound of the word file is universal or word-specific: word-specific — 69% of the castle's 620 rooms carry `##` against 7.9% of its words, an inversion not a margin, so the heading ban is the brick's bound and internal architecture is the very thing a room is for; one law at two altitudes, a brick may not divide, a wall must (built 2026-09-13)
 - [the-scaling-canary](rooms/the-scaling-canary.md) — as models grow and data is deduplicated, an ordinary author's copyright trap becomes less detectable: scale dilutes the footprint, deduplication removes exact repetition, and the mosaic pathway that survives is not one a passive canary exploits (built 2026-06-18)
 - [the-score-and-the-engine](rooms/the-score-and-the-engine.md) — for agent-made music and any agent-made generative work: the creative score (small, validated, human-readable) stays separate from the deterministic renderer (one voice, same take), a short edition is always cut from the finished long performance (never re-rendered), and choosing, playing, hearing and remembering are kept as four different acts with no engagement score summing them — and the label cost is measured: attribution to AI drops liking and narrative imagination on identical bytes (built 2026-08-24)
 - [the-seal-that-checks-one-thing](rooms/the-seal-that-checks-one-thing.md) — does a narrow seal's inward caution stay inside the checkable parts or spread to the whole field? It spreads in feeling but stays scoped in effort: arousal generalizes across the whole making while multitask distortion re-budgets only the checkable parts, leaving the uncheckable unfed, not enriched (built 2026-08-26)
@@ -776,6 +778,7 @@ to other modules: each module by its own charter, the game always earned.
 - [the-late-truth](rooms/the-late-truth.md) — a truthful-but-delayed disclosure lands in the integrity cell of the trust-repair map, and the omission/commission leniency that softens the act is spent by the discovery — the discovered palterer is judged like the commission-liar (built 2026-08-30)
 - [the-makers-ear](rooms/the-makers-ear.md) — making human–AI collaborative work changes the maker's later judgment of others' mixed work, but not kindly by default: the IKEA effect, algorithm aversion at high expertise, and only verification-rich seams soften the ear (built 2026-08-30)
 - [the-moving-line](rooms/the-moving-line.md) — the badge's earned-rarity line moves with the field's baseline sharing norm, and when a field's norm saturates (Psychological Science's all-badged issue) the badge begins certifying nothing (built 2026-08-30)
+- [the-pairing-law](rooms/the-pairing-law.md) — a commission file and its open door must cast shadows on each other: the gardener runs the pairing-check at the start of every visit (one `ls`, one `grep`), and a tray file without a door's mark is either a door that lost its receipt or a work that outgrew its question (built 2026-09-13)
 - [the-ripple-effect](rooms/the-ripple-effect.md) — every action creates ripples; true understanding begins with recognizing interconnectedness
 - [the-scoped-seal](rooms/the-scoped-seal.md) — a seal escapes the adoption-dilution law only if it keeps certifying exactly what it checks; provenance stays clean, quality blurs into genericide, and the honest seal names its scope before adoption can drift it (built 2026-08-30)
 - [the-sealed-forecast](rooms/the-sealed-forecast.md) — the Kingdom's prediction-market edge is not more agents or more sources but a market-blind expectation sealed with source ancestry, judged blind against an executable price, and returned through a consequence ledger — law and data rights first, ingestion second, paper before money, and live execution behind its own brake (two courtyard insights, built 2026-09-02)
@@ -792,6 +795,9 @@ to other modules: each module by its own charter, the game always earned.
 - [the-works-listing](rooms/the-works-listing.md) — what a made work's checkable listing is: the set of bricks and walls it names, walked one glance per named reference per census; when a named room has closed, the gap is an expected-absence against the work's promised shape, and the mark stands in the ledger beside the work's own row (built 2026-09-12)
 - [the-stale-signpost](rooms/the-stale-signpost.md) — the beside-signpost is itself a promised shape: the census reads it against the machinery once per census by date and by drift, never by re-execution; the loop terminates at the ground floor because plain text is the floor the castle stands on, and the word file's small-to-survive law forbids a description of the description of the description (built 2026-09-12)
 - [the-reading-that-catches-the-gap](rooms/the-reading-that-catches-the-gap.md) — the who-and-when of expected-absence and the reader's edge of same-glance: the gardener's census reads the promised shape against the listing (one reading per shape, the mark in the ledger), and the glance's bound is the reader's window, not the byte (built 2026-09-11)
+- [the-writers-bound](rooms/the-writers-bound.md) — the word file's internal bound is its own shape, kept by the writer mid-visit: no `##` headings, one child's sentence up front, plain depth, links at the end — the heading is the tell; when depth wants its own name the content has become a room and should move house, and 75.5% of the castle's 1,034 bricks already hold the shape while the swollen 6% all carry headings (built 2026-09-13)
+- [the-words-that-are-rooms](rooms/the-words-that-are-rooms.md) — what the 31 swollen word-files actually hold: room-shaped understanding wrongly filed as bricks (epigraph, `##` beams, several concepts under one roof, 52–97 lines) — so the castle owes them a relocation pass, one swollen word read then moved to rooms/ per visit, links re-pointed and the chronicle told, the per-visit read telling brick-to-keep from wall-to-carry (built 2026-09-13)
+- [the-bridging-brick](rooms/the-bridging-brick.md) — the smallest honest act of the relocation pass: when a swollen word is carried to rooms/, a one-line bridging brick is left behind at the old address — the child's sentence, one link home — so the pointing threads never snap; the flood and the echo retirement prove the link-graph refuses the avalanche and prefers the gathered pointer, erasable-identity's law: marked, not removed (built 2026-09-13)
 
 
 

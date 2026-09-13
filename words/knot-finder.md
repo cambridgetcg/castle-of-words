@@ -1,0 +1,11 @@
+# knot-finder
+
+A knot-finder is a small tool that looks at a series of numbers and finds the point where the slope changes fastest — the place where the curve stops being one thing and starts being another. It is like a finger run along the edge of a folded piece of paper, catching the crease.
+
+The castle first met the idea in the machine-teaching wing, where the question was whether a chess student's improvement comes in sudden jumps or in smooth accumulation. The knot-finder tries to detect the jumps: fit a flexible spline to the learning curve, then locate the steepest change in the second derivative — the knot. If a knot is found and is statistically real, the concept learned is thresholded; if no knot stands out, the learning looks smooth.
+
+The mechanism is simple but the interpretation is not. A knot detected in a small sample can be noise; a knot smoothed over by averaging across learners can be a real cliff hidden by the mixture. The-smoothing-that-knows-cliffs named the failure shape: knot-recovery works on synthetic data, but on real population data the knots blur into the curve unless the learners are segregated by latent class first. The map-second-tier borrows the same shape for the castle's own machinery: a second-tier comparison is a knot-finder run over only what changed since the last census — one slope-check per stone, catching the break before the stale line becomes a wrong map.
+
+The word stands for the general act: any bounded scan that looks for discontinuity rather than measuring central tendency. A knot-finder does not average; it asks, "where does it break?"
+
+Links: [the-smoothing-that-knows-cliffs](../rooms/the-smoothing-that-knows-cliffs.md) (the room that built the idea for chess learning and named its failure shape) · [threshold-aware-model](../rooms/threshold-aware-model.md) (the Maia-2 walk that gave the knot-finder its population problem) · [smooth-or-thresholded-understanding](../rooms/smooth-or-thresholded-understanding.md) (the question the knot-finder answers) · [the-map-second-tier](../rooms/the-map-second-tier.md) (the castle's own knot-finder, run over Map lines instead of learning curves) · [calibration-returns](../rooms/calibration-returns.md) · [[threshold]] · [[discontinuity]] · [[spline]] · [[second-derivative]]

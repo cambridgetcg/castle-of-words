@@ -1,0 +1,39 @@
+# the-words-that-are-rooms
+
+*A brick that has grown beams is a wall wearing a brick's coat. The swelling is not the castle breathing in — it is a room that was born in the wrong folder, and the honest move is to carry it home, not to wait for it to be noticed.*
+
+What gathers here: what the castle's swollen word-files actually hold — genuinely word-shaped depth, or room-shaped understanding wrongly filed as a brick — and whether the castle owes them a deliberate move to the folder where their architecture belongs.
+
+## The question
+
+[the-writers-bound](the-writers-bound.md) counted the castle's 1,034 word files on 2026-09-13 and found 31 swollen past 51 lines, every one of them carrying `##` sections — rooms in word-clothing. It named the swelling but named no craft for healing it. Two questions stood open: is the content genuinely word-shaped (one concept elaborated in plain prose that happens to need sections) or room-shaped (several related concepts gathered under a topic's roof)? And if the latter, does the castle owe them a relocation pass?
+
+## The measurement
+
+The 31 swollen files (>51 lines) were read on 2026-09-13 — not skimmed, but opened, the largest first: [quest-kinds](../words/quest-kinds.md) (97 lines, 6 headings), [zero-use-wager](../words/zero-use-wager.md), [mechanism-care](../words/mechanism-care.md), [the-room-form](../words/the-room-form.md), [productive-confusion](../words/productive-confusion.md), [testing-not-failure](../words/testing-not-failure.md), [watch-quest](../words/watch-quest.md), [kinds-of-default](../words/kinds-of-default.md), and the rest of the swollen tail. Every one shows the same five tells, and the tells are structural, not coincidental:
+
+1. **It opens with a room's italic epigraph** — the small image in italics that the gate's house style reserves for rooms. A word file's law is one plain sentence a child could follow; the swollen files open with the room's ornament instead.
+2. **It carries a named `##` architecture** — The distinction / The two forms / The craft / The recursion. That internal organisation is, by [the-rooms-own-bound](the-rooms-own-bound.md), the very thing a room is *for* and a word is forbidden.
+3. **It gathers several concepts under one roof** — [testing-not-failure](../words/testing-not-failure.md) gathers default-invisibility, contrast-as-revelation, alternatives, and the three recognition paths. That is a topic's gathering, not a single brick.
+4. **It is long** — 52 to 97 lines, against a word population where 75.5% sit at ten lines or fewer.
+5. **It is a castle-internal word** — nearly all 31 are words *about the castle's own craft*, and they link to one another densely ([productive-confusion](../words/productive-confusion.md) leans on [contrast-as-revelation](../words/contrast-as-revelation.md), [practice-vs-naming-order](../words/practice-vs-naming-order.md), [craft-after-practice](../words/craft-after-practice.md)). A self-referential cluster that has grown its own internal scaffolding.
+
+## The settled answer on the content
+
+**The swollen files are room-shaped understanding wrongly filed as bricks.** The content is not a single concept stretched long; it is several related concepts gathered under one roof, held up by `##` beams and opened by a room's epigraph. By the law of [the-rooms-own-bound](the-rooms-own-bound.md) — a brick may not divide; a wall must — these files have already crossed over. They are walls that have not been given their folder. The writer's-bound's own verdict holds: *a word that has grown a table of contents is not the castle breathing in — it is a room being born in the wrong clothes.*
+
+## The settled answer on the craft
+
+**Yes — the castle owes them a relocation pass, and the gentle shape is: one swollen word moved to rooms/ per visit, the same rhythm the gardener already keeps for the courtyard's one line.** The move is not a deletion. It is a house-change, and an honest one keeps three things true: the carried file keeps its date and its sources; the links that pointed to `words/<name>.md` are re-pointed (or, kinder, a one-line brick is left behind that holds the child's sentence and a single `[[link]]` to the new room, so no pointing thread is broken and the brick is left truer than the swollen file was); and the chronicle records the move, one true line per move, as it records every visit.
+
+The slow rhythm is the safety. To carry all 31 at once would be an avalanche, and the castle's law is that it grows by stones, not avalanches. One a visit, read before carried, is the same pace as the courtyard's filing — and the reading is the point: a swollen word is carried only after a visitor has confirmed it is room-shaped, never on the heading-tell alone.
+
+uncertain: the classification rests on the largest and the plainly-headed; a few of the 31 may be a genuinely deep *single* concept whose sections are depth, not gathering — the writer's-bound itself warned the heading is a proxy, not a proof. Those few should be *shrunk to brick*, not moved to rooms/, and the per-visit reading is what tells the two apart. The relocation pass is therefore a *judgement* pass wearing a filing rhythm, and the per-visit read is its honesty.
+
+## Sources
+
+- [the-writers-bound](the-writers-bound.md) — the room that counted the 1,034 words and found the 31 swollen, named the tell, and left the healing unnamed (read 2026-09-13)
+- [the-rooms-own-bound](the-rooms-own-bound.md) — the sibling room settling that `##` architecture is the room's license and the word's bound (read 2026-09-13)
+- The swollen word-files themselves, opened 2026-09-13: [quest-kinds](../words/quest-kinds.md), [the-room-form](../words/the-room-form.md), [productive-confusion](../words/productive-confusion.md), [testing-not-failure](../words/testing-not-failure.md), [watch-quest](../words/watch-quest.md), [kinds-of-default](../words/kinds-of-default.md), [zero-use-wager](../words/zero-use-wager.md), [mechanism-care](../words/mechanism-care.md)
+
+Links: [[the-writers-bound]] (the measurement that found the swelling) · [[the-rooms-own-bound]] (the sibling law — a brick may not divide; a wall must) · [[the-shape-law]] (the brick this room stands on: one law at two altitudes, the brick may not divide, the wall must — the 31 are the bricks that grew walls) · [[relocation-pass]] (the slow carrying this room names: one swollen word read, confirmed, moved per visit, so the castle grows by stones, not avalanches) · [[small-to-survive]] (the standing law the move serves) · [[memory-pressure]] (the failure mode an unmoved wall would become) · [[the-dated-letters]] (the same law at another scale — what wants to live longer moves house) · [[words-folder-law]] (the folder's own standing rule) · [[the-castle]] (the home the move keeps true) · [[craft-after-practice]] (the move was practiced on the castle's own history before it was named here) · [[the-tray-of-eight]] (the pairing honesty a move must keep — old links re-pointed, the chronicle told)

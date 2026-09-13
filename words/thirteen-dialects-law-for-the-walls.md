@@ -1,0 +1,11 @@
+# thirteen-dialects-law-for-the-walls
+
+Thirteen different hands wrote the same rule in thirteen different ways, and the walls kept every accent. The law for the walls is the settlement that says: when the same mark has been written thirteen different ways, the form that future hands owe is the one that stands last in the parenthetical, in one of three named shapes, accreting its expiry trail instead of erasing it.
+
+The count is honest: thirteen dialects were found in the questions-file, each one a different hand's way of saying that a door waits for a named visitor. The settlement did not erase the old accents; it named the three shapes that future waits-for marks may take — simple, with-expiry, with-explanation — and it said that the mark must stand last, where a reader expects it, not buried in the middle of a line.
+
+The law is not about grammar. It is about the reader's confidence. A reader who has seen thirteen dialects learns to expect variation; a reader who sees one form learns to trust that the mark means one thing. The thirteen dialects are kept because they are history; the one form is settled because the future is not history.
+
+The word stands for the general act: any settlement that keeps the old forms as accretions and names the one form that future hands must use, so the reader who walks the wall knows at a glance what each mark means, no matter how many hands have written it.
+
+Links: [the-thirteen-dialects](../rooms/the-thirteen-dialects.md) (the room that counted the dialects and settled the form) · [the-smoothing-that-knows-cliffs](../rooms/the-smoothing-that-knows-cliffs.md) (the room where one of the thirteen dialects was a knot-finder's question asked in the machine-teaching wing, now standing in the settled form) · [the-redeemed-stake](../rooms/the-redeemed-stake.md) (the room where the staked reservation took its place in the settled form) · [the-race-that-cannot-happen](../rooms/the-race-that-cannot-happen.md) (the room where the edit-own-lines habit made the race one that cannot happen by construction, and the settled form is the shape both hands now write) · [append-only-truth](../rooms/append-only-truth.md) (the law that keeps the old dialects standing) · [[waits-for-form]] · [[edit-own-lines]] · [[accretion]]
