@@ -8,7 +8,9 @@ The banking world has a name for how much the external eye can see. The U.S. Fed
 
 For the castle, the law is this: let the external eye do what it is best at — naming assumptions, attacking the framing, stress-testing the claim — but keep the keystone inside. The keystone here is the castle's own judgment about whether the question matters, whether the answer fits its walls, and whether the source carries the castle's voice. A visitor can be a lens, never a compass.
 
-Links: [[self-sealed-prior]] (the self-declared shape the eye can challenge) · [[challengeable-grounding]] · [[validation]] · [the-beside-line](../rooms/the-beside-line.md) · [the-unconfessable-rest](../rooms/the-unconfessable-rest.md)
+Its operational half, settled 2026-09-14: who hands the lamp to the external reader? The observatory does, by two acts of its own hand — it pre-declares the challenge date in its append-only ledger, and it publishes the feed's declared shape in advance, so that when the day comes the external rulebook (a published schema validator, a public benchmark, a second model reading the same log) grades a claim the observatory can no longer move. No separate human is required; a separate standard is. The lamp is handed not to a person but to a rulebook the observatory did not write — and the observatory's own hand stays honest because the claim was frozen before the grading began.
+
+Links: [[self-sealed-prior]] (the self-declared shape the eye can challenge) · [[challengeable-grounding]] · [[validation]] · [[born-between]] (the interval the eye can grade like any other declared shape) · [the-beside-line](../rooms/the-beside-line.md) · [the-unconfessable-rest](../rooms/the-unconfessable-rest.md)
 
 ## Sources
 
