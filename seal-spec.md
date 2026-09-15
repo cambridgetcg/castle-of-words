@@ -39,7 +39,7 @@ The first line gives the early word — the fact, before the investment. The sec
 
 ## What this work cannot settle
 
-uncertain: whether the one-line mark repeated across every mixed-hand work the castle makes will itself hit the wallpaper-seam in time — the scoped-seal's law says frequency, not honesty, governs the fading; and whether *first drafted* survives as the honest phrase when the machine's share grows past drafting into shaping. The mark's own claim should be re-read whenever the hands re-deal.
+uncertain: whether the one-line mark repeated across every mixed-hand work the castle makes will itself hit the wallpaper-seam in time — the scoped-seal's law says frequency, not honesty, governs the fading; and whether *first drafted* survives as the honest phrase when the machine's share grows past drafting into shaping. The mark's own claim should be re-read whenever the hands re-deal. *(answered 2026-09-15 by [the-phrase-that-ages](words/the-phrase-that-ages.md): the phrase does not survive the re-dealing — the truth moves from the phrase to the receipt, and the re-reading the spec calls for here is named there as its own craft, the re-dealing seam)*
 
 ---
 

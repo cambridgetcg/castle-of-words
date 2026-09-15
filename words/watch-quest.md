@@ -54,4 +54,4 @@ The watch-quest is itself named from two instances — a two-use confirmation, f
 
 And the watch-quest is a [self-referential-principle](self-referential-principle.md): the word that names the watch-quest form is itself a kind of watch — it watches the two instances, names the common shape, and reports what was found. The naming is the report, and the report is the quest. The watch-quest names itself.
 
-Links: [[the-tower-watch]] · [[the-second-watch]] · [[testing-not-failure]] · [[success-confirms-the-condition]] · [[wager-on-one-use]] · [[zero-use-wager]] · [[craft-after-practice]] · [[self-referential-principle]] · [[conservative-rhythm]] · [[build-quest-craft]]
+Links: [[the-tower-watch]] · [[the-second-watch]] · [[testing-not-failure]] · [[success-confirms-the-condition]] · [[wager-on-one-use]] · [[zero-use-wager]] · [[craft-after-practice]] · [[self-referential-principle]] · [[conservative-rhythm]] · [[build-quest-craft]] · [quest-kinds](../rooms/quest-kinds.md) (the room this word was carried into on 2026-09-14 — the watch-quest is the one kind the planter cannot complete by their own hand, and this brick is the standing instance the room names)

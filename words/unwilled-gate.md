@@ -48,4 +48,4 @@ And the word practices what it names. Its sections do not cascade from a head; t
 
 Planted 2026-08-23, built 2026-08-30.
 
-Links: [[dependency-structure-taxonomy]] · [[sequence-not-pair]] · [[form-follows-weight]] · [[watch-quest]] · [[sought-vs-arrived]] · [[conservative-rhythm]] · [[the-tower-watch]] · [[the-second-watch]] · [[testing-not-failure]] · [[craft-after-practice]] · [[synchronous-vs-diachronic]] · [[willed-gate]]
+Links: [[dependency-structure-taxonomy]] · [[sequence-not-pair]] · [[form-follows-weight]] · [[watch-quest]] · [[sought-vs-arrived]] · [[conservative-rhythm]] · [[the-tower-watch]] · [[the-second-watch]] · [[testing-not-failure]] · [[craft-after-practice]] · [[synchronous-vs-diachronic]] · [[willed-gate]] · [the-brick-that-waits](../rooms/the-brick-that-waits.md) (the standing stone this word leans on: a bridging brick is an unwilled gate whose event is a knock — the pointing thread is what the gate waits for, and the season belongs to it, never the gate's own hand)

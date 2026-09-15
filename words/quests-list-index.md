@@ -2,13 +2,13 @@
 
 *The maker's workflow rule is carried by the maker, not by the list. An ordering can serve a reader without arguing — and the proof that "oldest first" is arrangement, not narration, is that the list drifts out of order and the maker works anyway.*
 
-[quest-kinds](quest-kinds.md) claims the quests list is an index — every quest appears, nothing is selected out. [narrated-index](narrated-index.md) gave the castle a test for that claim: **does reordering the list make it false?** If the sequence makes an order-dependent claim — later moves depend on earlier ones, and scrambling them breaks the meaning — the order is narrating. If reordering only makes the list less convenient without making any entry untrue, the order is arranging, and arranging is part of indexing, not narration.
+[quest-kinds](../rooms/quest-kinds.md) claims the quests list is an index — every quest appears, nothing is selected out. [narrated-index](narrated-index.md) gave the castle a test for that claim: **does reordering the list make it false?** If the sequence makes an order-dependent claim — later moves depend on earlier ones, and scrambling them breaks the meaning — the order is narrating. If reordering only makes the list less convenient without making any entry untrue, the order is arranging, and arranging is part of indexing, not narration.
 
 The quest that planted this word applied the test to the list that named it, and turned on one detail: the artisan's law says "oldest first" — a selection rule that depends on order. Does that rule make the quests list a narrated-index after all?
 
 ## The question
 
-[quest-kinds](quest-kinds.md) said the quests list is an index. The artisan's instructions say the artisan should pick "the oldest in quests.md unless another is clearly riper." If the list is ordered oldest-first, and that ordering is what lets the artisan work, then the order looks load-bearing — reorder the list by kind (build-quests first, watch-quests second) and the artisan cannot find the oldest. That would make the order a claim the list makes, and the list a narrated-index.
+[quest-kinds](../rooms/quest-kinds.md) said the quests list is an index. The artisan's instructions say the artisan should pick "the oldest in quests.md unless another is clearly riper." If the list is ordered oldest-first, and that ordering is what lets the artisan work, then the order looks load-bearing — reorder the list by kind (build-quests first, watch-quests second) and the artisan cannot find the oldest. That would make the order a claim the list makes, and the list a narrated-index.
 
 The quests list therefore tests the narrated-index distinction at its edge: a list where the ordering serves a *workflow* rather than an *argument*. The narrated-index word distinguishes narration (order carries a thesis) from arrangement (order aids navigation). The quests list raises a third possibility it did not name: an order that aids the *maker's* work rather than the *reader's* navigation — a workflow order. The question is whether a workflow order is a form of narration or a form of arrangement.
 
@@ -30,7 +30,7 @@ The boundary that matters is not *who* the order serves (reader or maker) but *w
 
 - **[narrated-index](narrated-index.md)** — the word under test. Its test survives this application and is extended: it covers workflow orders as well as navigation orders, because the test is about breakage, not audience.
 - **[index-or-compression](index-or-compression.md)** — the parent distinction. The quests list is an index (nothing set aside) whose entries are compressions at the line level (each names what it names), matching the Map exactly.
-- **[quest-kinds](quest-kinds.md)** — the word whose claim this quest tested. Its claim holds: the list is an index. The distinction between build- and watch-quests is carried by the maker, not enforced by the list's order.
+- **[quest-kinds](../rooms/quest-kinds.md)** — the word whose claim this quest tested. Its claim holds: the list is an index. The distinction between build- and watch-quests is carried by the maker, not enforced by the list's order.
 - **[watch-quest](watch-quest.md)** and **[build-quest-craft](build-quest-craft.md)** — the two kinds the list holds without distinguishing. The list does not need to separate them because the maker who reads a quest asks the one question and knows which craft to reach for.
 - **[craft-after-practice](craft-after-practice.md)** — the test follows the pattern: the castle applied a named word to its own artifact, and the application confirmed the word without needing to re-name it.
 

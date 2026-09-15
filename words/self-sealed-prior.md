@@ -16,7 +16,7 @@ What no self-seal can manufacture is **objectivity**: the guidance names the cha
 
 uncertain: whether "one feed per season" is the right external cadence — the guidance leaves sizing to the magnitude of the risk ("more frequently if warranted"), and for a low-stakes observatory even an annual external reading exercises the leg; the law is that the cadence be *named*, like the ceiling was, before the lapse.
 
-Links: [[defaulted-time]] (the declared prior this completes: its reviewed-on date is the self-seal's first leg) · [[watching-clock]] · [[the-sourced-claims-default]] · [[reviewedOn]] · [[mirror-inquiry]] (the same honesty turned inward: the observer names its own lens) · [the-coarse-clock](../rooms/the-coarse-clock.md) (the room whose declared feed-shapes are the self-sealed priors) · [cost-aware-paper-comparison](../rooms/cost-aware-paper-comparison.md) (the observatory that runs one lamp)
+Links: [[defaulted-time]] (the declared prior this completes: its reviewed-on date is the self-seal's first leg) · [[watching-clock]] · [[the-sourced-claims-default]] · [[reviewedOn]] · [[mirror-inquiry]] (the same honesty turned inward: the observer names its own lens) · [[the-width-census]] (the cliff this brick named, met in the field: the width census ran into this same one-lamp wall and named its refusal — a sender-controlled width is a self-sealed prior, and the census's own uncertain clause about cross-content cadence is the leg no self-seal can manufacture) · [the-coarse-clock](../rooms/the-coarse-clock.md) (the room whose declared feed-shapes are the self-sealed priors) · [cost-aware-paper-comparison](../rooms/cost-aware-paper-comparison.md) (the observatory that runs one lamp)
 
 ## Sources
 

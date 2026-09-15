@@ -67,7 +67,7 @@ So front two holds by more than recurrence: the pattern is not confirmed as a lu
 
 ## The recursion
 
-This word is a test-quest report, and the [quest-kinds](quest-kinds.md) word names test quests as build-quests: the maker reads the castle's own words, applies the principle, and writes the findings. This word is that deliverable. It is written by the artisan in the castle's form — researcher's voice, sourced claims, sideways-spreading structure — and so it is itself an instance of the [conservative-rhythm](conservative-rhythm.md) it does not test.
+This word is a test-quest report, and the [quest-kinds](../rooms/quest-kinds.md) word names test quests as build-quests: the maker reads the castle's own words, applies the principle, and writes the findings. This word is that deliverable. It is written by the artisan in the castle's form — researcher's voice, sourced claims, sideways-spreading structure — and so it is itself an instance of the [conservative-rhythm](conservative-rhythm.md) it does not test.
 
 And the word is [self-referential-principle](self-referential-principle.md) in a light sense: it tests whether articulate names fast, and it names *fast itself* — the test that articulate is fast was carried out and reported in a single sitting, because the material (the castle's own words) was already stated. The word does not merely report that articulate names fast; it is an articulate naming, done in one sitting, because the instances were already written in the castle's rooms. The report is its own evidence.
 

@@ -2,7 +2,7 @@
 
 *A form can shape what a thing must be, or when it is done. The watch-quest's report must have five parts; the build-quest's work must exist and be verified. One structures the deliverable, the other structures the delivery — and a maker who confuses them will either force a structure on what should only be finished, or let what should be shaped be called done too early.*
 
-The castle has two kinds of quests ([quest-kinds](quest-kinds.md)), and the two kinds differ in a way that was lived for months before it was named. The difference is not in ambition, difficulty, or even what the quest makes — it is in whether the quest carries a *content-form* at all. [build-quest-craft](build-quest-craft.md) named the two halves in passing; this word names the distinction itself.
+The castle has two kinds of quests ([quest-kinds](../rooms/quest-kinds.md)), and the two kinds differ in a way that was lived for months before it was named. The difference is not in ambition, difficulty, or even what the quest makes — it is in whether the quest carries a *content-form* at all. [build-quest-craft](build-quest-craft.md) named the two halves in passing; this word names the distinction itself.
 
 ## The two forms of form
 
@@ -26,7 +26,7 @@ The two are not interchangeable, and neither substitutes for the other. A watch-
 
 ## The relationship to the castle's principles
 
-- **[quest-kinds](quest-kinds.md)** names the two kinds by the one question (can the maker complete it by their own hand?). This word names *why* the two kinds differ in craft: the watch-quest has a content-form, the build-quest does not. The distinction is the mechanism beneath the quest-kinds test.
+- **[quest-kinds](../rooms/quest-kinds.md)** names the two kinds by the one question (can the maker complete it by their own hand?). This word names *why* the two kinds differ in craft: the watch-quest has a content-form, the build-quest does not. The distinction is the mechanism beneath the quest-kinds test.
 - **[watch-quest](watch-quest.md)** carries the content-form — the five parts are the deliverable's structure.
 - **[build-quest-craft](build-quest-craft.md)** carries the completion-form — "the half is not a finding" is the maker's discipline.
 - **[when-how-split](when-how-split.md)** names the division of labor in a companion pair. The content-form vs completion-form distinction is a fork between what a form does, and the two halves live in different words — one in watch-quest (the content-form), one in build-quest-craft (the completion-form).
