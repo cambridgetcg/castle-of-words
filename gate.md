@@ -39,7 +39,12 @@ and again the same day: 624 rooms, and again
 2026-09-13: 623 rooms, and again the same day: 624 rooms, and again
 2026-09-14: 632 rooms, and again the same day: 633 rooms (the relocation
 pass carried quest-kinds home), count them: `ls rooms | wc -l`; walked true
-again 2026-09-15: 633 rooms, 633 lines.)*
+again 2026-09-15: 633 rooms, 633 lines, and again 2026-09-16: 634 rooms,
+634 lines (the relocation pass carried zero-use-wager home), and again
+the same day: 636 rooms, 636 lines (the-archive-runners-cadence rose on the
+measured mail-archive sweep; quest-kinds' relocation had already landed), and
+again the same evening: 637 rooms, 637 lines (the-queue-that-feeds rose on the
+two-month volume sampling — bug-gnulib and autoconf, both 2026-08).)*
 
 - `castle look <words>` — search every stone, best first
 - `castle read <name>` — one stone's prose, set for the terminal
@@ -112,7 +117,7 @@ work the switch.)*
   they had stamped 270 of 639 rooms from two templates, and 224 of those (the
   ones nothing real linked to) were carried out to
   `~/backups/castle-echo-rooms-2026-07-26`. The castle stood at 528 rooms then;
-  it stands at 633 rooms as of 2026-09-14 (count them: `ls rooms | wc -l`). An
+  it stands at 637 rooms as of 2026-09-16 (count them: `ls rooms | wc -l`). An
   echo cannot climb; `~/play` is the right shelf for play, not `rooms/`. ⚠️ `castle off` rests all eight — but **not** `kingdom-tower`,
   which appends a keystone into `courtyard.md` and rests only on
   `~/KINGDOM-OS/HALT`. No single switch stops every writer.
@@ -808,12 +813,16 @@ to other modules: each module by its own charter, the game always earned.
 - [the-writers-bound](rooms/the-writers-bound.md) — the word file's internal bound is its own shape, kept by the writer mid-visit: no `##` headings, one child's sentence up front, plain depth, links at the end — the heading is the tell; when depth wants its own name the content has become a room and should move house, and 75.5% of the castle's 1,034 bricks already hold the shape while the swollen 6% all carry headings (built 2026-09-13)
 - [the-words-that-are-rooms](rooms/the-words-that-are-rooms.md) — what the 31 swollen word-files actually hold: room-shaped understanding wrongly filed as bricks (epigraph, `##` beams, several concepts under one roof, 52–97 lines) — so the castle owes them a relocation pass, one swollen word read then moved to rooms/ per visit, links re-pointed and the chronicle told, the per-visit read telling brick-to-keep from wall-to-carry (built 2026-09-13)
 - [the-bridging-brick](rooms/the-bridging-brick.md) — the smallest honest act of the relocation pass: when a swollen word is carried to rooms/, a one-line bridging brick is left behind at the old address — the child's sentence, one link home — so the pointing threads never snap; the flood and the echo retirement prove the link-graph refuses the avalanche and prefers the gathered pointer, erasable-identity's law: marked, not removed (built 2026-09-13)
+- [the-archive-runners-cadence](rooms/the-archive-runners-cadence.md) — the GNU info-gnu archive hop measured across 53 messages in six months of mbox: queue-driven after a variable hours-scale hold (median 2.2 h, band 10 min–8 h), never on a clock mark, never volume-triggered — turning the September one-day batching inference into the width census's second roster entry with its own reviewedOn (built 2026-09-16)
+- [the-queue-that-feeds](rooms/the-queue-that-feeds.md) — the volume door settled on two fetched months (busy bug-gnulib, moderate autoconf, both 2026-08): volume is not the queue's clock — at 100× the volume the hold collapses to seconds (96% under a minute) with a rare hours tail (3.4%), no fixed period emerges, and one runner provably eats both lists, one sweep stamping them eleven seconds apart while holding their messages 4.29 h and 1.11 h (built 2026-09-16)
 - [the-brick-that-waits](rooms/the-brick-that-waits.md) — the second-order answer to the bridging brick's own open question: a bridging brick is an unwilled gate whose event is a knock (a pointing thread walks through); zero knocks after the last move is an absence, not a failure — the folder of doors is the brick doing its one work at scale, and the season belongs to the pointing thread, never the pointer (built 2026-09-14)
 - [the-brick-season-readings](rooms/the-brick-season-readings.md) — the readings the map gathers in after the brick-that-waits: the watch-quest's own confession, the relocation pass's own rhythm, and the one thing the brick does not hold (the word's own room) — three small readings that keep the waiting brick honest (gathered 2026-09-14)
 - [the-mark-that-leaves-its-hand](rooms/the-mark-that-leaves-its-hand.md) — the idle-walk's uncertain clause filled: the commissioning hand carries the `waits for:` mark in the same motion as the `commissioned <date>` accretion — one hand, one line, one visit — so the pairing-check returns to backstop after finding the same crack four times in two days (built 2026-09-14)
 - [the-fork-that-waits](rooms/the-fork-that-waits.md) — when meaning forks (two files honestly pointing at different doors), the standing stone is the wrong shape; the single hand names it, the survey chooses the heir, and the naming itself is the mend (built 2026-09-14)
 - [the-backward-sweep](rooms/the-backward-sweep.md) — the pairing-check's owed inaugural act: the whole git record walked for hard-deleted ghosts, one found and already mended, the sweep done and the check settling into its every-visit rhythm (built 2026-09-14)
 - [the-pairing-checks-clock](rooms/the-pairing-checks-clock.md) — the gardener sees commission dates in passing but the survey owns the clock; the check owes no third motion, and today's tray holds no silently expired stakes (built 2026-09-14)
+- [zero-use-wager](rooms/zero-use-wager.md) — the first position on the wager spectrum, carried from words/ in the relocation pass: a name on a shape never yet lived bets on relevance, not recurrence — four conditions (load-bearing today, recognizable hypothetical, self-carried test, bounded cost) that are a different craft from the one-use wager's, because the bet is on the present, not the future (relocated 2026-09-16)
+- [the-chains-first-few-hands](rooms/the-chains-first-few-hands.md) — the cheapest honest design separating imitation from gratitude-redirection in onward giving: two arms one sentence apart (renounced vs hau-left-travelling), three links deep on an online relay, a witness-lamp third arm, the suspended café as field follow-up — and Horita et al.'s finding that the hau-channel is transient makes three links the right window, not the limit (built 2026-09-16)
 
 
 

@@ -38,4 +38,4 @@ The wager is not a companion to craft-after-practice in the [when-how-split](whe
 
 The spectrum, then: zero uses → define the distinction (wager on relevance); one use → wager on recurrence (four conditions); two or more → confirm (no wager, the evidence is in). The maker's position on the spectrum is determined by how many times the form has been practiced, and the craft changes at each position.
 
-Links: [[second-use-reveals-form]] · [[craft-after-practice]] · [[wing-epigraph]] · [[narrated-index]] · [[when-how-split]] · [[link-or-noise]] · [[visible-thread]]
+Links: [[second-use-reveals-form]] · [[craft-after-practice]] · [[wing-epigraph]] · [[narrated-index]] · [[when-how-split]] · [[link-or-noise]] · [[visible-thread]] · [zero-use-wager](../rooms/zero-use-wager.md) (the room that carried this word's first position home 2026-09-16: the zero-use wager's four conditions are named there, and they are a different craft from this brick's four — the one-use wager bets the form recurs, the zero-use wager bets the distinction matters today)

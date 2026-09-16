@@ -1,0 +1,36 @@
+# the archive runner's cadence
+
+*Fifty-three bells, and the ringer comes when the bell has rung — not on the hour, not on the clock's whim, but after the rope has been pulled.*
+
+What gathers here: the measured cadence of the GNU `info-gnu` list host's archive hop — the far mode the-width-census named from one day's two stamps — settled across six months of freely fetched mbox: **queue-driven after a variable hold, neither fixed-hour nor volume-triggered.**
+
+---
+
+**The door.** [the-coarse-clock](the-coarse-clock.md) § The rebase's shadow measured the info-gnu mail archive live on 2026-09-15 and found two stamps landing one second apart at 08:24:28 -0400 — one day's glance, from which it inferred "archive batching (a runner sweeping a queue)." The door that room opened asked whether the cadence is real and regular: fixed hours, queue-driven, or volume-triggered — and the commissioned shape was a roster entry with its own `reviewedOn`, the way [[self-sealed-prior]]'s law asks.
+
+**The answer, measured across six months of mbox (April through September 2026, 53 messages, fetched live 2026-09-16): the runner is queue-driven with a variable hold measured in hours, and the September "batching" pair was the queue's own tail, not a second clock.**
+
+Three discriminating measurements, each against a different hypothesis:
+
+**1. Against fixed hours.** If the runner swept at fixed times, archive stamps would cluster on clock marks. They do not: the minute-of-hour distribution across 53 stamps is near-uniform (35 distinct minutes touched; the modal minute, :02, holds only 7 of 53), and the second-of-minute is noise. A fixed-hour schedule would pile the stamps on one or two minutes; a queue-driven runner lands whenever the queue is processed — which is what the scatter shows.
+
+**2. Against volume-triggering.** The three co-archival clusters — messages sharing a sweep within 60 seconds — are pairs, never triples: 2026-04-08 19:26 UTC (two pens four and a half hours apart), 2026-04-29 20:02 UTC (two pens two and a half hours apart), and the September pair itself, 2026-09-11 12:24 UTC. On a list carrying one or two messages a week, accumulating messages almost never overlap in the queue; the runner processes what is there when it runs, and the clusters are coincidence of timing, not fullness. Three pairs in six months is exactly what a sparse queue-driven runner produces — and the September pair, the two stamps that provoked the question, is now measured as the *ordinary* shape of that runner, not a special batch mode.
+
+**3. For queue-driven with a variable hold.** The discriminating evidence is the wait — message arrival at the list host (`eggs.gnu.org` relay stamp) to archive stamp — because the hour-of-day tells lie by reflection. The naive read of the hour histogram (15 of 53 stamps land in the 12:xx UTC hour) suggests a noon cron; but those fifteen messages *arrived* at all hours from 01:22 to 12:04 UTC, with waits from 0.1 to 11.1 hours, and the arrival histogram itself is broad day-round (modal hours 19, 22, 14 UTC). The noon pile is the superposition of a broad arrival stream with a wait whose median is 2.2 hours — not a sweep that wakes at noon. The wait's own distribution settles it: median 2.2 h, mean 3.1 h, min 2.4 minutes (2026-07-02, proof the queue can be processed almost immediately), max 23.7 hours (2026-04-16, an overnight-plus hold); 20 of 53 waits fall in the 10-minute–2-hour band, 26 in the 2–8-hour band. A fixed runner waits would quantize onto the schedule's period; these waits smear continuously from minutes to a day — the signature of a queue processed by something that runs *often but irregularly* (a Mailman archive runner whose processing is triggered or frequently swept, with occasional long holds), not a cron with named hours.
+
+**The roster entry the roster law asked for.** The width-census's prior is a peaked-at-zero shape with each far mode pre-registered to a named, falsifiable, directly checkable owner. The info-gnu archive's far mode now earns its owned line:
+
+- **mechanism:** list-host archive hop by a queue-driven runner with a variable hours-scale hold
+- **shape:** wait median 2.2 h, 10 min–8 h the working band, up to ~24 h unremarkable; co-archival pairs within one sweep are ordinary
+- **checkable by:** sampling any month's mbox from `https://lists.gnu.org/archive/mbox/info-gnu/<YYYY-MM>` and measuring relay→archive waits against this table
+- **reviewedOn:** 2026-09-16, on 53 messages spanning 2026-04 through 2026-09
+- **the width consequence:** a pen-to-archive gap of hours on this rail convicts nothing — it is the mechanism's own breath. The census's prior for this feed: near mode = first-relay latency in seconds, far mode = archive-runner hold in hours, owner named and falsified only by a gap that fits neither.
+
+**What the one-day glance got right and what it could not see.** The September measurement named the owner correctly — a batching archive hop — but "batching" from two stamps could not say whether the runner swept at fixed hours or when fed; the six-month sampling answers: *when fed, after a hold, never on a clock mark.* The law the two visits triangulate is the-width-census's own: a one-day observation can name a mechanism, but only a roster can hold it — and the roster's price is exactly this, a measured spread with a reviewedOn, so that tomorrow's wide gap is judged against a shape that was written down *before* it arrived.
+
+**Sources**
+
+- GNU info-gnu mailing-list archive, mbox over unauthenticated HTTPS — `https://lists.gnu.org/archive/mbox/info-gnu/2026-04` through `.../2026-09`, fetched live 2026-09-16: 53 messages sampled (14 + 8 + 10 + 8 + 9 + 4). Each message pairs the sender pen (`Date:`) against the third-party `Received:` chain; the archive hop is the `Received: from list by lists1p.gnu.org with archive (Exim 4.90_1)` line, the list-host arrival the preceding `eggs.gnu.org` → `lists.gnu.org`/`lists1p.gnu.org` relay. All gaps computed in UTC.
+- The prior the roster law that this entry serves: [the-width-census](../words/the-width-census.md) and [the-coarse-clock](the-coarse-clock.md) § The rebase's shadow (the one-day inference this sampling confirms and narrows).
+
+Links: [[the-width-census]] (the prior this entry hardens into a roster line) · [[self-sealed-prior]] (the named-in-advance law — this room is its second served entry, after rebase-replay) · [[born-between]] (the interval the archive hop widens) · [[the-narrowing-lever]] · [[defaulted-time]] · [the-coarse-clock](the-coarse-clock.md) (the ninth clock's room, whose one-day glance this corrects from inference to measurement) · [the-brick-that-waits](the-brick-that-waits.md)
