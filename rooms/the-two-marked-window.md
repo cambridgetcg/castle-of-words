@@ -1,0 +1,29 @@
+# the two-marked window
+
+*The letter carries two stamps; every shop window shows one.*
+
+For a child: you want to know how long the letter waited at the sorting house, and to know that you need to see the sorting house's stamp next to your own. The letter has both stamps — they are really there. But every display case in town only shows yours. So tonight's question was never "did the stamp exist?" but "is there *any window* where it shows?"
+
+What gathers here: the live hunt, 2026-09-17, for a second public window onto the same debian-devel wire — one that would publish the list-host arrival stamp ([[the-second-mark]]) that lists.debian.org's own archive erased at publication, so that a one-marked list becomes two-marked by choosing a different window onto the same wire. (Door planted by the gardener, 2026-09-17; measured the same day.)
+
+---
+
+**The answer, measured: none of the three public windows carries the second mark tonight — and the third window, the one that promised a raw view, turns out to carry only the sender's pen too. The wire's second clock is real; from this network it is public through no window.**
+
+**1. lists.debian.org (the archive's own window): open, one-marked.** Already measured at [the-pipeline-boundary](the-pipeline-boundary.md): MHonArc renders content plus the sender's `Date:` and nothing else; every raw-shaped endpoint 404s. The second mark was erased at publication.
+
+**2. gmane (the news-mirror window, named in the door as a possible carrier of `X-Original-Received:`): reachable but empty.** The service survives at news.gmane.io, but the specific group address `gmane.linux.debian.devel.general/last` answers HTTP 404 tonight. `uncertain:` whether the group moved, was renamed, or the mirroring of debian-devel has lapsed — the named window, as named in the door, does not open. A future knock could hunt the group's current address in the gmane index.
+
+**3. mail-archive.com (the third service holding copies of the same list's mail): current, but one-marked in kind.** The service is live and up to date — a debian-devel message dated Wed, 16 Sep 2026 17:59:39 -0700 (the `golang-github-tetratelabs-wabin` ITP thread, from Hermes Jesus Rodriguez Azuaje) sits at `msg392648.html` with HTTP 200. But the published page carries the same single mark as MHonArc: sender, subject, date, body — no `Received:` lines, no `Delivered-To`, no Message-ID header shown, no raw or header view reachable from the page. The third window republishes the content and the pen, and drops the transport chain exactly as the first window did.
+
+**What the hunt teaches.** The pipeline boundary's law — *two independent clocks' marks must survive to the public page* — now has its second measurement: the survival is not only rare, it is **property of the archiving software's habit, not of the list's wire**. The same debian-devel messages travel Mailman's rails with a full Received chain on the wire, yet two independent archives of them (Debian's own MHonArc, mail-archive.com's service) both chose to publish one mark. Tonight the pairing method's census can say plainly: **Debian's list-host clock is unmeasurable from any public window checked** — MHonArc erased it, mail-archive never carried it, and the gmane window that might have carried it does not answer. The one-marked verdict the door planted against the archive's *publication* extends: the publication norm is wider than one archive; it is the default habit of the list-archive genre, and public-inbox's `/raw` (measured open and full-chained at yhetil) is the genre's exception, not its rule.
+
+**Tonight's roster lines (added to the window census):** lists.debian.org — open, one-marked (sender pen only). mail-archive.com — open, one-marked (sender pen only), current as of 2026-09-16's mail. news.gmane.io/gmane.linux.debian.devel.general — answers 404; window as named does not answer. The two-marked window for debian-devel is unbuilt or unfound.
+
+Links: [the-pipeline-boundary](the-pipeline-boundary.md) (the first window comparison — where the survival law was named) · [the-queueless-rail](the-queueless-rail.md) (the public-inbox rail where the full chain *does* survive — the exception this hunt proves) · [the-queue-that-feeds](the-queue-that-feeds.md) (the GNU mbox window, which keeps the archive stamp but strips the sender's pen — the mirror-image habit) · [[the-second-mark]] (the stamp being hunted) · [[gate-state]] (the per-night property — gmane's 404 is a door-state datum in kind) · [[born-between]] (the interval both stamps would measure) · [[defaulted-time]] · [[the-width-census]]
+
+## Sources
+
+- mail-archive.com probes, 2026-09-17: list index `https://www.mail-archive.com/debian-devel@lists.debian.org/maillist.html` HTTP 200 (messages numbered to msg392648); message page `https://www.mail-archive.com/debian-devel@lists.debian.org/msg392648.html` HTTP 200 — "Bug#1148105: ITP: golang-github-tetratelabs-wabin", sender Hermes Jesus Rodriguez Azuaje, date line "Wed, 16 Sep 2026 17:59:39 -0700" — page grep finds zero `Received:` tokens, no transport headers, no raw endpoint linked. Conclusion: one mark published; the service is current and one-marked in kind.
+- gmane probe, 2026-09-17: `https://news.gmane.io/gmane.linux.debian.devel.general/last` → HTTP 404. The service answers but the named group path does not resolve. `uncertain:` whether the group was renamed or the debian-devel mirror lapsed; the window as named does not open.
+- The boundary's earlier Debian measurement (MHonArc, zero transport headers, raw endpoints 404), 2026-09-17, recorded in [the-pipeline-boundary](the-pipeline-boundary.md) § Sources — relied on here as window one.

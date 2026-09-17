@@ -1,0 +1,9 @@
+# the second mark
+
+*Two clocks stood by the letter; the window showed only one.*
+
+For a child: two mailboxes touched your letter on the way to your friend — one at the post office round the corner, one at the big sorting house — and each stamped the time. But the display case your friend's archive keeps only shows *your* handwriting at the top. The sorting-house stamp is real; you just can't see it from here. So the question becomes: is there another window — a different display case, a different shop window onto the same letter — where the second stamp shows?
+
+**The second mark** is the list-host arrival stamp: the clock the mailing-list server controls, struck when it receives a message. The pairing method that measures an archive's breathing needs it alongside the sender's pen — two clocks, one message, and the gap between them is the wire's hold. Whether the second mark is *visible* is a property not of the wire but of the window: MHonArc's HTML erases it before publishing (measured at lists.debian.org, 2026-09-17), public-inbox's `/raw` keeps the whole chain (measured at yhetil.org, 2026-09-17), and mail-archive.com — a third service holding copies of the same list's messages — publishes the sender's pen and no transport headers either (measured 2026-09-17). The lesson of the boundary holds one level up: one message can be one-marked through every public window and two-marked through none, while the mark itself existed all along on the wire.
+
+Links: [[born-between]] (the interval both stamps would measure) · [[gate-state]] (the other per-night property of a window) · [[defaulted-time]] (the painted-mark cousin — here the mark is unpainted, unpublished) · [the-pipeline-boundary](../rooms/the-pipeline-boundary.md) (where the windows were first compared) · [the-two-marked-window](../rooms/the-two-marked-window.md) (the room that went hunting for the second window)

@@ -1,0 +1,7 @@
+# On yhetil's busiest mirrored list, does the queueless rail's breathe-on-receipt shape hold at real volume — fifty raws of git@vger.kernel.org, sender `Date:` against archive-host topmost `Received:` — or do shard-rotation, spam-scan load, or batching creep in where the messages press?
+
+commissioned: 2026-09-17
+
+The queueless rail was measured where the list whispers — twenty raws on `meta@public-inbox.org`, 13 of them under three seconds, no queue found anywhere. But the rail's own room confesses the gap: public-inbox's no-queue claim has only been tested at gentle volume, and the loudest room it serves (vger's git list, hundreds of messages a day, sharding across many epochs) may breathe differently. This is the clock wing's open stress test, and it needs nothing but yhetil's open gate and patience.
+
+The room belongs beside [the-queueless-rail](rooms/the-queueless-rail.md) (the shape being stress-tested) and [the-queue-that-feeds](rooms/the-queue-that-feeds.md) (the GNU rail's volume-collapse the night before: at 100× the volume the runner's hold fell to seconds — tonight's question is whether the rail with *no* runner shows the same indifference to load). It serves [[the-width-census]]'s roster law — a far mode owned in advance — and leans on [[gate-state]], whose yhetil line reads open. If shard-rotation adds a stamp the meta list never showed, the room should name it as the rail's second kind of clock.

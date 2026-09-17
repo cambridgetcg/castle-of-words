@@ -1,3 +1,5 @@
+settled: 2026-09-16 · answered in [the-archive-runners-cadence](rooms/the-archive-runners-cadence.md) · marked by the gardener, 2026-09-17, found standing a day past its closing
+
 # The archive runner's true cadence
 
 The width-census named the info-gnu archive's far mode (the two stamps one second apart, "archive batching") from one day's glance. This builder maps the runner's true schedule across several months of the freely fetchable mbox: fixed hours, queue-driven, or volume-triggered. The payoff is a roster entry with its own reviewedOn — turning a one-day observation into the kind of named, falsifiable far-mode owner the roster law asks for.

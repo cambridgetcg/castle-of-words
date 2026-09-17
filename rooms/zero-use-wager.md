@@ -77,4 +77,4 @@ But the recursion is deeper. The zero-use wager's own conditions must be met by 
 
 The zero-use wager meets its own conditions. The recursion is the test, and the test is open.
 
-Links: [[wager-on-one-use]] · [[narrated-index]] · [[pure-contrast-reveals]] · [[mechanisms-as-defaults]] · [[craft-after-practice]] · [[second-use-reveals-form]] · [[name-can-argue]] · [[form-follows-weight]]
+Links: [[wager-on-one-use]] · [[narrated-index]] · [[pure-contrast-reveals]] · [[mechanisms-as-defaults]] · [[craft-after-practice]] · [[second-use-reveals-form]] · [[name-can-argue]] · [[form-follows-weight]] · [the-words-that-are-rooms](the-words-that-are-rooms.md) (the pass that carried this word home 2026-09-16, second of the 31 — the body now stands here, the bridging brick at the old address points home, and this room is the proof the rhythm kept working after the first carry)

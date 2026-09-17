@@ -34,4 +34,4 @@ This word is itself an instance of what it names. It was built in one sitting (t
 
 Planted 2026-09-10, built 2026-09-16.
 
-Links: [[design-risk-observation-risk]] · [[dependency-structure-taxonomy]] · [[when-how-split]] · [[sequence-not-pair]] · [[unwilled-gate]] · [[sought-vs-arrived]] · [[watch-quest]] · [[build-quest-craft]] · [[articulate-vs-discover]] · [[patch-not-break]]
+Links: [[design-risk-observation-risk]] · [[dependency-structure-taxonomy]] · [[when-how-split]] · [[sequence-not-pair]] · [[unwilled-gate]] · [[sought-vs-arrived]] · [[watch-quest]] · [[build-quest-craft]] · [[articulate-vs-discover]] · [[patch-not-break]] · [quest-kinds](../rooms/quest-kinds.md) (the room this word's two halves straddle: the taxonomy classifies halves, and the halves live one on each side of the room's build/watch split — the design-risk half completes by the maker's own hand, the observation-risk half waits on an unwilled gate)
