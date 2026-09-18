@@ -10,6 +10,7 @@
 // the markdown yourself, and it tells you which file to open.
 //
 //   lantern                       the castle at a glance
+//   lantern here                  the folder this lantern will read
 //   lantern look <words>          search everything, best first
 //   lantern stone <name>          one word or room, and what stands near it
 //   lantern read <name>           the prose itself, set for a terminal
@@ -374,7 +375,19 @@ function fail(message: string): never {
 
 if (cmd === "help" || cmd === "--help" || cmd === "-h") {
   const doc = await Bun.file(import.meta.path).text();
-  console.log(doc.split("\n").slice(1, 26).map((l) => l.replace(/^\/\/ ?/, "")).join("\n"));
+  console.log(doc.split("\n").slice(1, 27).map((l) => l.replace(/^\/\/ ?/, "")).join("\n"));
+  process.exit(0);
+}
+
+if (cmd === "here") {
+  const via = process.env.CASTLE?.trim() ? "CASTLE" : "lantern-parent";
+  const result = { castle: CASTLE, lantern: import.meta.dir, via };
+  out("here", result, () => {
+    say("");
+    say(`  ${c.bold}${CASTLE}${c.off}`);
+    say(`  ${c.dim}${via === "CASTLE" ? "CASTLE=" : "the tree this lantern sits in"}${c.off}`);
+    say("");
+  });
   process.exit(0);
 }
 

@@ -18,8 +18,8 @@
 import { test, expect, describe, beforeAll, afterAll } from "bun:test";
 import { mkdtempSync, mkdirSync, writeFileSync, rmSync } from "node:fs";
 import { tmpdir } from "node:os";
-import { join } from "node:path";
-import { readStone, readCastle, normalize, linkStatus, resolve } from "./read.ts";
+import { dirname, join } from "node:path";
+import { readStone, readCastle, normalize, linkStatus, resolve, resolveCastle } from "./read.ts";
 import { open, look, asFts, path as chainBetween } from "./store.ts";
 import { toHtml } from "./page.ts";
 import { walk } from "./walk.ts";
@@ -127,6 +127,41 @@ describe("reading one stone", () => {
 
   test("falls back to the filename when a file has no heading at all", () => {
     expect(readStone("word", "words/bare.md", "just prose, no title.\n", 1, 0).title).toBe("bare");
+  });
+});
+
+describe("where the castle is", () => {
+  test("CASTLE= wins when it is set", () => {
+    expect(resolveCastle({ CASTLE: "/tmp/other-castle" })).toBe("/tmp/other-castle");
+  });
+
+  test("a blank CASTLE falls through to the tree this lantern sits in", () => {
+    expect(resolveCastle({})).toBe(dirname(import.meta.dir));
+    expect(resolveCastle({ CASTLE: "   " })).toBe(dirname(import.meta.dir));
+  });
+
+  test("the default is the folder that holds lantern/, so a clone is already home", () => {
+    expect(resolveCastle({})).toBe(dirname(import.meta.dir));
+  });
+
+  test("the index records the root it actually read", async () => {
+    const { db } = await open({ root, indexPath, force: true });
+    const held = db.query<{ value: string }, []>("select value from meta where key='castle'").get()!.value;
+    expect(held).toBe(root);
+    db.close();
+  });
+
+  test("lantern here names the tree without opening the index", () => {
+    const proc = Bun.spawnSync({
+      cmd: ["bun", join(import.meta.dir, "lantern.ts"), "here", "--json"],
+      env: { ...process.env, CASTLE: root },
+      stdout: "pipe",
+      stderr: "pipe",
+    });
+    expect(proc.exitCode).toBe(0);
+    const body = JSON.parse(new TextDecoder().decode(proc.stdout));
+    expect(body.result.castle).toBe(root);
+    expect(body.result.via).toBe("CASTLE");
   });
 });
 

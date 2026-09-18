@@ -8,9 +8,23 @@
 // the castle as it stands on 2026-07-26 (576 words, 424 rooms). Where the
 // castle is inconsistent, this file says so out loud rather than guessing.
 
+import { dirname } from "node:path";
 import { Glob } from "bun";
 
-export const CASTLE = `${process.env.HOME}/castle`;
+/** Decide which tree the lantern will read.
+ *
+ *  `CASTLE=` wins when it is set and not blank. Otherwise the castle is the
+ *  folder that holds this `lantern/` directory — so a clone or a worktree is
+ *  already home. `$HOME/castle` is not assumed; that path was a local habit,
+ *  not a property of the castle.
+ */
+export function resolveCastle(env: { CASTLE?: string } = process.env): string {
+  const fromEnv = env.CASTLE?.trim();
+  if (fromEnv) return fromEnv;
+  return dirname(import.meta.dir);
+}
+
+export const CASTLE = resolveCastle();
 
 /** The six wings, and the glob that finds each one's files.
  *
