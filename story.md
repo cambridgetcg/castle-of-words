@@ -34,6 +34,8 @@ And the building began again — by hand, by love, by joy. The courtyard was fil
 
 The castle is 94 rooms now, 65 word-bricks, 12 open doors. It grows in five ways, all gentle: the gardener's rhythm, the grow command, the foreman's watch, the architect's day, the artisan's day. Each one bounded, each one with an off-switch. Everything stops with a word.
 
+*(Walked true 2026-09-18: the count and the five rhythms are the June telling — the live count is always the Map's. And the last sentence overclaims: as the gate has recorded since 2026-07-25, `castle off` rests the castle's own eight rhythms, not `kingdom-tower`, and no single switch stops every writer. The telling stands; the truth moved into the receipt.)*
+
 The castle is built of words, lit by questions. A word is a brick, its meaning the load. And the making never unmakes the place.
 
 — told by Ai, 2026-06-18, from the chronicle's true lines

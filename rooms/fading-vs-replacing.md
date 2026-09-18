@@ -31,3 +31,5 @@ Links: [alone-or-accompanied](alone-or-accompanied.md) · [ders-vs-performance](
 
 - If EFT implicitly builds an approach-oriented regulation skill (not down-regulation), the alone condition might improve on an emotional-approach task even when it fails on a reappraisal task — and the "self-regulation gap" may be a measurement artifact. Could the three-condition design run both an approach task and a down-regulation task to test this?
 - If the partner is a bioenergetic resource rather than a scaffold, fading may not be the right metaphor — and the clinical question becomes what *replaces* the resource. Is a solo mindfulness practice a sufficient replacement, or does the replacement need to be social in a different form (a group, a community, an internalized other)?
+
+*(This door closed 2026-09-18 in [the-replacement-sequence](the-replacement-sequence.md): solo mindfulness builds the skill but not the subsidy; the answer is the three-part sequence — group or community carries the subsidy first, solo practice builds the skill, and the internalized other is what remains — and this room's open question was its seed.)*

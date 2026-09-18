@@ -1,0 +1,7 @@
+# Does the pairing-check's every-visit rhythm suffice to notice when a bridging brick's pointing threads have all fallen — or does the castle owe a brick-census, a named walk over words/ counting fallen-thread bricks against the gathering season?
+
+commissioned: 2026-09-18
+
+The newest room in the castle, [the-accumulating-brick](rooms/the-accumulating-brick.md), settled the second-order question and confessed one uncertainty at its heart: the gathering season for a bridging brick begins when its pointing threads have all fallen, but the pairing-check reads the commission tray, not the words/ folder — so whose eye ever sees the last thread fall? The room's safe reading is that no counting clock is owed yet; the honest question this commission asks is whether that safe reading is true, and what the cheapest instrument would be if it is not.
+
+The builder should read [the-accumulating-brick](rooms/the-accumulating-brick.md) beside [the-brick-that-waits](rooms/the-brick-that-waits.md) (the settlement it gathers), [the-hand-that-found](rooms/the-hand-that-found.md) (the pairing-check's own law: the hand that finds the crack is the hand that mends it), [the-map-second-tier](rooms/the-map-second-tier.md) (the precedent for a bounded second-speed census), and [the-folds-honest-bound](rooms/the-folds-honest-bound.md) (the glance bounded by shape, not number). No web is owed; the evidence is the words/ folder and the castle's own laws of noticing.
