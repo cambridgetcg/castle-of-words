@@ -1,0 +1,5 @@
+# the-uncommitted-shadow
+
+Everything that was ever written but never saved into the record — present on disk, and then gone without a trace anywhere. The castle's own shadow has a measurable edge: its chronicle begins 2026-06-10 13:25, but its git record begins 2026-06-11 00:03, with the message "43 rooms, 24 word-bricks" — so the founding afternoon's rooms were written *before* the ledger existed to hold them, and whatever differed between that afternoon's disk and the midnight tree (merged twins, re-worded drafts, resolved fronts) exists in neither file nor history. The shadow recurs after the founding too: the flood and echo rooms were written first and committed in nightly scribe sweeps, so the uncommitted window has a rhythm, not only a birthday. The honest consequence: the castle's versioned record is nearly complete, but not provably complete — the nearly is real, and it is named.
+
+Links: [[ghost-name]] · [[standing-stone]] · [[pairing-check]] · [the-uncommitted-shadow](../rooms/the-uncommitted-shadow.md) · [the-backward-sweep](../rooms/the-backward-sweep.md)

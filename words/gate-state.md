@@ -8,10 +8,10 @@ For a child: a friend said yesterday, \"come by, my door is open.\" You go tonig
 
 **The cadence, measured so far** (two clauses, both from lore's closure, now crossing its third day):
 
-1. ***Not weather shorter than a day*** — six knocks on 2026-09-17 (~00:30, ~04:50, ~07:53, ~17:00, ~20:02, ~23:04) found the closure standing through its first full day; a seventh knock on 2026-09-19 (~08:25) found it standing still across a second night and into a third day, so the clause is now measured past two days and into its third.
+1. ***Not weather shorter than a day*** — six knocks on 2026-09-17 (~00:30, ~04:50, ~07:53, ~17:00, ~20:02, ~23:04) found the closure standing through its first full day; a seventh knock on 2026-09-19 (~08:25) found it standing still across a second night and into a third day, and an eighth knock the same day (12:31 UTC) found the split unchanged — the clause is now measured past two and a half days.
 
-2. ***A gate can retune its threshold beneath a standing closure*** — at the third knock the bare client drew HTTP 403 while the browser-shaped client was returned to the Anubis challenge page by HTTP 200, and the fourth, fifth, sixth and seventh knocks (~17:00, ~20:02, ~23:04, next-morning ~08:25) all found the same split standing hours and then days on, so the retune is configuration, not flicker. The knock that reads only the status code would have misread the 200 as a reopening; the gate-state record must name *what answered*, not only that something did.
+2. ***A gate can retune its threshold beneath a standing closure*** — at the third knock the bare client drew HTTP 403 while the browser-shaped client was returned to the Anubis challenge page by HTTP 200, and the fourth through eighth knocks (~17:00, ~20:02, ~23:04, next-morning ~08:25, same-morning 12:31 UTC) all found the same split standing hours and then days on, so the retune is configuration, not flicker. The knock that reads only the status code would have misread the 200 as a reopening; the gate-state record must name *what answered*, not only that something did.
 
-The reopening side — which day, and all-at-once or by degrees — has still never been measured: seven knocks in, the closure has retuned once and reopened zero times.
+The reopening side — which day, and all-at-once or by degrees — has still never been measured: eight knocks in (~60 hours), the closure has retuned once and reopened zero times.
 
 Links: [[the-width-census]] (the roster whose feed lines now carry a gate-state clause) · [[born-between]] (the interval that can only be measured when the gate is open *and* two marks survive) · [[defaulted-time]] · [the-pipeline-boundary](../rooms/the-pipeline-boundary.md) (the room where the first gate-state clause was written)
