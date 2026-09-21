@@ -10,4 +10,4 @@ The honest state, from the castle's research: the test has never been run. The U
 
 uncertain: whether the winner's pre-hardening is even measurable from the archive alone — the test would need an organic cascade with the same headlines, which the archive does not collect; the feasible design is forward-looking: pair an A/B test with a planned crawl of the same headlines as they spread.
 
-Links: [[constant-per-copy]] · [[mutation-rate]] · [[edit-distance]] · [[memorability]] · [the-hardened-release](../rooms/the-hardened-release.md) · [the-unjoined-join](../rooms/the-unjoined-join.md) · [the-light-cargo](../rooms/the-light-cargo.md)
+Links: [[constant-per-copy]] · [[mutation-rate]] · [[edit-distance]] · [[memorability]] · [[upworthy]] (the archive that struck these coins — the room's own brick) · [the-hardened-release](../rooms/the-hardened-release.md) · [the-unjoined-join](../rooms/the-unjoined-join.md) · [the-light-cargo](../rooms/the-light-cargo.md)

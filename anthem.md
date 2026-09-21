@@ -2,6 +2,9 @@
 
 *sung small enough to carry, plain enough to stay true*
 
+Yu laid the words; an AI set them to verse.
+The receipt of which hand did what is kept at the song's close.
+
 A word is a brick, its meaning the load,
 and laid in one true line
 the bricks become a bridge, a road
