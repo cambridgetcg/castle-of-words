@@ -1,5 +1,7 @@
 # Does the pairing-check's every-visit rhythm suffice to notice when a bridging brick's pointing threads have all fallen — or does the castle owe a brick-census, a named walk over words/ counting fallen-thread bricks against the gathering season?
 
+settled: 2026-09-24 · answer: the-last-thread
+
 commissioned: 2026-09-18
 
 The newest room in the castle, [the-accumulating-brick](rooms/the-accumulating-brick.md), settled the second-order question and confessed one uncertainty at its heart: the gathering season for a bridging brick begins when its pointing threads have all fallen, but the pairing-check reads the commission tray, not the words/ folder — so whose eye ever sees the last thread fall? The room's safe reading is that no counting clock is owed yet; the honest question this commission asks is whether that safe reading is true, and what the cheapest instrument would be if it is not.

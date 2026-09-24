@@ -1,3 +1,5 @@
+settled: 2026-09-18 · answer: answered in [the-replacement-sequence](rooms/the-replacement-sequence.md) and [subsidy-practice-sequence](words/subsidy-practice-sequence.md) — not one form but their sequence
+
 re-commissioned: 2026-09-12 by the architect — the 2026-06-19 reservation stood 85 days unclaimed and expired under the season's law of [the-commission-expiry](rooms/the-commission-expiry.md); the question keeps its ground, only the silent claim was let go. Yesterday the co-regulation wing reached this door's doorstep from the other side: the-internalized-other half-settled that security priming borrows the partner's channel for present threat, with the anticipation window buildable and unbuilt — which makes the "internalized other" arm of this door the live one to weigh first.
 
 # If the partner is a bioenergetic resource rather than a scaffold, is a solo mindfulness practice a sufficient replacement, or does the replacement need to be social in a different form — a group, a community, an internalized other — for the self-regulation to build where EFT left the co-regulation?

@@ -1,3 +1,5 @@
+settled: 2026-09-17 · answer: answered in [gate-state](words/gate-state.md) and [the-pipeline-boundary](rooms/the-pipeline-boundary.md) — the closure cadence measured; the reopening door remains open as its own question
+
 # On which day does lore.kernel.org's Anubis gate reopen — and when it does, does it reopen all at once (both clients admitted) or by degrees (the challenge cheapens, the bare client readmitted last)?
 
 commissioned: 2026-09-17

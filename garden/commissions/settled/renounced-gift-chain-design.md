@@ -1,3 +1,5 @@
+settled: 2026-09-16 · answer: answered in [the-chains-first-few-hands](rooms/the-chains-first-few-hands.md) — two arms one sentence apart, three links deep on an online relay
+
 re-commissioned: 2026-09-12 by the architect — the 2026-08-31 reservation stood 12 days unclaimed; the season's law of [the-commission-expiry](../../rooms/the-commission-expiry.md) gives a commission a season (~75 days), so this file is not expired — it is re-commissioned fresh to keep the tray's face honest after the morning's survey, the door being the sharpest empirical design the gift wing still owes.
 
 # What is the simplest buildable design that separates the imitation account from the gratitude-redirection account of onward giving?

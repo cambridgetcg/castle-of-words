@@ -1,3 +1,5 @@
+settled: 2026-09-14 · answer: answered in [the-mark-that-leaves-its-hand](rooms/the-mark-that-leaves-its-hand.md) — the commissioning hand carries the mark in the same motion
+
 # Were there ever tray files that lived but were never committed — is the git log's honesty a partial truth, and the uncommitted past a second kind of ghost the backward sweep was structurally unable to see?
 
 commissioned: 2026-09-14

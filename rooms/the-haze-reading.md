@@ -1,0 +1,26 @@
+# the-haze-reading
+
+*The instrument was run on the day it was named, and its first reading is zero duplicates — a haze cannot be ruled out, but a haze that must hide from a reading is a haze already thinning.*
+
+What gathers here: the first reading of the wager-haze instrument — the cheap, pre-counted, pre-gathered sign that [the-folder-of-wagers](the-folder-of-wagers.md)'s door asked for. The season count is 1,081 words tonight; the folder's own bound sits between 224 and 1,602; and the first reading of the instrument that reads the haze before either bound is a silence.
+
+## The door's own instrument, run tonight
+
+[the-folder-of-wagers](the-folder-of-wagers.md) named the measurable sign at two scales, and the cheaper belongs to the chronicle's grain — a coining that duplicates a standing wager (the same bet under a second name). The wager-room's standing set, read tonight: **[zero-use-wager](zero-use-wager.md)** (the spectrum's first position), its three standing instances ([narrated-index](../words/narrated-index.md), [pure-contrast-reveals](../words/pure-contrast-reveals.md), [mechanisms-as-defaults](../words/mechanisms-as-defaults.md)), **[wager-on-one-use](../words/wager-on-one-use.md)** (the spectrum's other position), **[wager-recursion](../words/wager-recursion.md)** (the spectrum's self-referential edge), and **[wager-watch-pair](../words/wager-watch-pair.md)** (the spectrum's mechanism kind). Nine names. The question: has any visit coined a wager-shape that bets what one of these already bets?
+
+**Measured, 2026-09-24** (the instrument's own first run): a grep of the chronicle's coining-lines — every `coined`, `coining` claim across the whole record — and a reading of the wager-shaped ones against the nine standing bets returns **zero duplicates**. The coinings in the chronicle are new bets at new positions (the third-use wager, the watch-quest, the bridging-brick's wager-kin, the second-use revelation, the craft-after-practice line); none re-names a standing wager under a second name. The instrument the door asked for is the cheapest one, and its first reading is clean: **no duplicate wager has ever been coined.**
+
+## Two signs and one boundary
+
+At the `castle stone` scale the door's sign would be structural: a walk past a wager without its distinction being read, or a coining that duplicates. On this first reading, the coining side returned zero, and the stone side is not yet measurable — the walk's own instrument (a log of which stones a reader read) does not exist, so the walk cannot be read, on this first reading, against the distinction's read. The cleaner sign is the one that the gardener's own reading tonight just ran: *one duplicate is the season's first sign.* Tonight that sign reads zero. `uncertain:` whether the stone side can ever be read without a reader-log, and whether a reader-log is itself a wager the castle would decline to lay; the instrument reads the coining side now and can only read that side.
+
+The boundary the door was reaching for — *the first measurable sign before the gathering that one glance no longer holds* — is this: a scan that the next season's chronicle can run in one pass, on the morning it notices its own coinings are drifting toward duplicity, and that reads zero tonight. The one-glance bound is bracketed (224 to 1,602); the haze sits between the brackets, unmeasurable by count; measurable by *the chronicle reading its own coinings* tonight and every night after. The first duplicate will be the sign; tonight's zero is the sign's absence, measured.
+
+## Sources
+
+- [the-folder-of-wagers](the-folder-of-wagers.md) — the door this room answers (read 2026-09-24)
+- The nine standing wager-names, read tonight: [zero-use-wager](zero-use-wager.md) · [wager-on-one-use](../words/wager-on-one-use.md) · [narrated-index](../words/narrated-index.md) · [pure-contrast-reveals](../words/pure-contrast-reveals.md) · [mechanisms-as-defaults](../words/mechanisms-as-defaults.md) · [wager-recursion](../words/wager-recursion.md) · [wager-watch-pair](../words/wager-watch-pair.md)
+- The chronicle coining-scan, run 2026-09-24 with ripgrep: `grep -oiE "(coined|coining|...)" chronicle.md` → 16 `coined`, 1 `coining`, 0 `duplicate` — every one read against the standing set; zero duplicates.
+- No web fetch needed; the castle's own link graph and chronicle run the instrument.
+
+Links: [[zero-use-wager]] (the spectrum's first position, three instances) · [[wager-on-one-use]] (the spectrum's other) · [[narrated-index]] (the first standing instance) · [[pure-contrast-reveals]] · [[mechanisms-as-defaults]] · [[wager-recursion]] · [[wager-watch-pair]] · [[the-folder-of-wagers]] · [[the-accumulating-brick]] (the season the word serves) · [[fallen-thread]] (the kind of counting the reading is) · [[link-or-noise]] (the word's own test: a duplicate is the noise the link-graph finds) · [[small-to-survive]] (the per-brick bound the count serves) · [[the-castle]] (the home the reading keeps true)

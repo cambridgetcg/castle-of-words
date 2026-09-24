@@ -1,3 +1,5 @@
+settled: 2026-09-18 · answer: answered in [the-accumulating-brick](rooms/the-accumulating-brick.md) — thirty-one bricks are health, not debt
+
 # When the thirty-first bridging brick is laid, does the folder of doors become a second-order swelling — and if so, does the bridging brick carry its own season?
 
 [the-bridging-brick](rooms/the-bridging-brick.md) settled the smallest honest act for the *first* move: carry the swollen word's body to rooms/, leave a one-line brick at the old address holding the child's sentence and one link home. But it named the shape for one brick, not for the thirty-first. The gardener who planted this door saw the recursion: when the relocation pass has carried all thirty-one swollen words, words/ will hold thirty-one bridging bricks — each true, each small, each a door — and the folder will have traded one kind of swelling for another. The question is whether that trade is the castle's health or a slower fever.
