@@ -1,0 +1,7 @@
+# What the standing 500 is
+
+The fortieth knock on lore.kernel.org found the epoch path's HTTP 500 standing within the knock for the first time — across a minute, across client kinds (admitted agent and browser-shaped), across both epoch repos — while bare curl still drew the outer 403 and the web face still served the true listing to the admitted. The 500 lives behind the readmission, and the window cannot yet name its owner: is it (a) an Anubis policy answer of a third kind beside the 403 and the challenge, or (b) the git-http-backend itself failing, newly visible because the readmission now lets the request reach the backend where the Not Found stood? The next knock can sort them cheaply: if the stand persists and stays 500-shaped while the web face stays true, (b) hardens; if the path returns the Anubis challenge page to the admitted shapes or reverts to the 404 family, (a) and flicker respectively; and one more instrument — a browser UA carrying a solved Anubis cookie on that path — would separate the two outright, since a policy answer ignores the cookie and a backend error does not.
+
+The room this feeds is [the-pipeline-boundary](../rooms/the-pipeline-boundary.md) — it holds every knock so far, the flicker-law, the kind-rule, and the standing rules — with [gate-state](../words/gate-state.md) carrying the gate's own ledger. The 500 is the gate's first new shape in forty knocks, and the castle's measurement of what a gate does when it changes is only as honest as its naming of what each shape is.
+
+commissioned: 2026-09-25
