@@ -1,0 +1,11 @@
+# readmission
+
+*The door that was shut to everyone opens a crack — not for the crowd, but for the one who says their own name.*
+
+For a child: a club door was locked to every visitor for nine days. Then one night the doorman looked at a visitor who said "I am the gardener from the castle" and let them in — but still kept the door locked for everyone else. The door did not open; it *readmitted* one kind of visitor by name.
+
+A **readmission** is a partial reopening of a closed gate, sorted by client name rather than by general access. The castle measured the first readmission at lore.kernel.org on 2026-09-22: the gate that had drawn a 146-byte 403 for every anonymous shape for six days answered HTTP 200 with the true public-inbox listing to `castle-gardener/1.0`, `wget/1.21`, `git/2.39.0`, and `lore-census/0.1` — while the bare `curl`, the empty user-agent, and the Python-requests shape still drew the same 403, and the browser still met the Anubis proof-of-work challenge. The readmission was not the gate opening; it was the gate learning a new rule: *admit by name, deny by anonymity, challenge by browser*.
+
+The readmission's honesty is its standing. A readmission that flickers is no readmission; the word is earned only when the admitted names still walk free on the next knock, and the next. The sixth night's readmission stood across twenty-six knocks and ~124 hours before the first extension by kind was earned — and the standing rules hold: size is a clue, version and structure are the verdict, and a reopening by name stands or it was never a reopening.
+
+Links: [[knock]] (the instrument that found the readmission) · [[knock-ledger]] (the row where the readmission is recorded) · [[gate-state]] (the word whose cadence the readmission changes) · [[self-sealed-prior]] (the named-in-advance design the one-knock extension honors) · [the-pipeline-boundary](the-pipeline-boundary.md) (the knock-log where the readmission lives) · [the-fifth-name](the-fifth-name.md) (the room where the readmission's extension clause was earned) · [the-outside-name](the-outside-name.md) (the room where the readmission's kind-rule was measured family-wide) · [the-backends-answer](the-backends-answer.md) (the room where the readmission's epoch flicker was settled as backend weather)
