@@ -1,17 +1,9 @@
 # verbal-overshadowing
 
-When putting something into words makes you remember it *worse* — describe a
-face, or a wine if you are not a trained taster, and you recognize it less well
-afterward than if you had said nothing.
+*Describing the face so carefully that the face you remember is the description, not the face.*
 
-The coarse verbal label competes with and overwrites the fine perceptual
-memory: the word keeps the category and throws away everything finer than the
-category. It is the mirror image of what words do for number — a symbol holds
-*discrete* content perfectly across time but degrades *continuous* detail. See
-[precise-across-time](../rooms/precise-across-time.md) for the full trade: analog
-traces drift toward category anchors, discrete handles do not, and naming
-something sub-categorical can lose the very precision you meant to keep. The
-effect is real but modest, and weaker for experts, whose words are as
-fine-grained as their eyes.
+Sometimes putting a hard-to-describe experience into words makes you worse at the experience itself — the words crowd out the know-how they cannot hold.
 
-Links: [[handle]] · [[noise]] · [[repair]] · [[schema]]
+Schooler & Engstler-Schooler found it first in perception: witnesses who described a face in words were later worse at picking the face out of a lineup than witnesses who said nothing ("Verbal Overshadowing of Visual Memories," *Cognitive Psychology* 1990). Flegal & Anderson carried it to motor skill: golfers who described how they putt were worse at a delayed re-test of their own putting — *those who teach, can't do* ("Overthinking Skilled Motor Performance," *Psychonomic Bulletin & Review* 2008, DOI [10.3758/PBR.15.5.927](https://doi.org/10.3758/PBR.15.5.927), read 2026-09-28). Its bounds are three: the task must resist words, the narrator must carry declarative knowledge, and the test is an immediate retention probe — and the door to *concurrent* narration of expert performance in real time still stands unwalked ([the-experts-silence](../rooms/the-experts-silence.md)).
+
+Links: [the-experts-silence](../rooms/the-experts-silence.md) · [the-cross-domain-mouth](../rooms/the-cross-domain-mouth.md) · [the-mouths-absolute-light](../rooms/the-mouths-absolute-light.md) · [[explicit-richness]] · [[tacit-knowledge]] · [[protocol-analysis]] · [[expert-blind-spot]]

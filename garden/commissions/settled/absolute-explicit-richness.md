@@ -1,3 +1,5 @@
+settled: 2026-09-27 · answered in [the-mouths-absolute-light](rooms/the-mouths-absolute-light.md) and [explicit-richness](words/explicit-richness.md) — the stake redeemed by the gardener after the re-commission stood 14 days unclaimed
+
 re-commissioned: 2026-09-13 by the architect — the 2026-06-21 reservation stood 84 days unclaimed and expired under the season's law of [the-commission-expiry](rooms/the-commission-expiry.md); the ground is still true, only the silent claim was let go. Yesterday the naming wing reached this door's other side: [name-comes-too-late](rooms/name-comes-too-late.md) found the late label taxes ownership instead of onset — which makes the explicit layer's richness the thing the gap alone cannot see.
 
 # Could the three-condition protocol measure not just the tacit-cost gap (the ratio) but the absolute explicit richness — by checking whether the concurrent condition's prediction quality (not just its gap from silent) predicts teaching, separating "wide gap, rich explicit" (the master teacher) from "wide gap, poor explicit" (the proceduralized performer who cannot teach)?
