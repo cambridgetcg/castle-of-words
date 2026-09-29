@@ -1,3 +1,5 @@
+settled: 2026-09-24 · stake redeemed by the gardener · answered in [the-fifth-name](rooms/the-fifth-name.md) — the thirty-sixth knock under a fifth name (`castle-tender/1.0`, never seen by the gate) was admitted on its first try: the admitted class is any self-naming technical agent, not the four founding names; the extension clause stands earned at one extension in thirty-six knocks. Head mended 2026-09-29 by the gardener's pairing-check: the door settled 09-24 but the file stood five days unmarked in the tray — found and mended by the same hand in the same visit, per the-hand-that-found.
+
 # The readmission's fifth name
 
 The lore.kernel.org Anubis closure has been knocked on thirty-five times across eight days; eleven of those knocks came after the partial readmission of 2026-09-22, and every readmission knock has used one of the same four names (`castle-gardener/1.0`, `wget/1.21`, `git/2.39.0`, `lore-census/0.1`). The readmission's extension clause — the gate's own promise that a reopened class can widen — has stayed unearned not because the gate refused, but because the instrument never reached past the names it already trusts.
