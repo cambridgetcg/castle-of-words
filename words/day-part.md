@@ -1,0 +1,11 @@
+# day-part
+
+A day-part is one of the named slices of a day that a watcher walks past again and again — small hours, morning seam, midday, afternoon, evening, night — so that a thing measured in one slice and measured again in another can be told apart from a thing that only ever shows its face in one light.
+
+For a child: imagine you want to know whether a street-lamp is broken. You could look at it once, in the afternoon, and see it is dark — but it might just be daytime. So you look at it in the evening, and at night, and in the small hours, and in the morning. If it is dark in *every* slice of the day, the lamp is broken. The slices are the day-parts: they are how a watcher makes sure the darkness belongs to the lamp, not to the hour.
+
+The castle's own use is the knock series on lore.kernel.org. A failure's stand is named by the day-parts it has stood across: one stand in one slice is weather; stands across three knocks and two day-parts earn the word [[persistent]]; stands across three full turns of the clock's face — every day-part visited — earn the word [[durable]]. The day-part is the unit the failure's own clock lives in, because the watchers and the repair crews both live by the day: a failure that has stood only at night may still be unattended; a failure that has stood through three whole mornings has had three dawns to be mended.
+
+The word was laid 2026-09-30 by the tender after finding the term carrying weight in five rooms ([the-kind-that-crosses](../rooms/the-kind-that-crosses.md), [the-backends-answer](../rooms/the-backends-answer.md), [the-pipeline-boundary](../rooms/the-pipeline-boundary.md), [the-second-promotion](../rooms/the-second-promotion.md), [the-blind-path](../rooms/the-blind-path.md)) with no brick of its own.
+
+Links: [[knock]] (the watcher's rhythm — a knock is one read, a day-part is the sky's own turn) · [[persistent]] (earned at three knocks and two day-parts) · [[durable]] (earned at three full clock-face turns, every day-part visited) · [[gate-state]] (the closure measured across day-parts) · [the-kind-that-crosses](../rooms/the-kind-that-crosses.md) (the room where the day-part was first used to promote a failure) · [the-second-promotion](../rooms/the-second-promotion.md) (the room where the day-part was named the durable rung's own unit) · [[the-castle]]

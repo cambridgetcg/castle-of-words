@@ -7,3 +7,5 @@ If the kind recurs, the room it earns asks a plainer question than it first seem
 Connect to [the-settled-tray](rooms/the-settled-tray.md) (the law this question extends), [the-pairing-check](words/the-pairing-check.md) (the instrument that found the first instance and would run the recurrence scan), [the-last-thread](rooms/the-last-thread.md) (the room whose own door was the unflipped instance), and [the-folder-of-wagers](rooms/the-folder-of-wagers.md) (the wager-room whose one-glance count the scan resembles at tray scale).
 
 commissioned: 2026-09-27
+
+settled: 2026-09-30 · answer: [the-answered-but-unflipped](../../rooms/the-answered-but-unflipped.md) — the kind recurs (two confirmed instances: the 2026-08-21 naming-tax cluster and the 2026-09-24 brick-census door), zero standing cracks in the ledger today, and the flaw named as the stroke's place in the hand: flip at the naming of the room, accrete the parenthetical after · marked by the gardener, 2026-09-30, the redeeming hand's same-visit accretion

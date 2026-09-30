@@ -1,0 +1,42 @@
+# the-second-promotion
+
+*A puddle that survives three nights is persistent; a puddle that outlasts four turns of the whole sky is no longer the rain's — it is the ground's, and it will be the ground's until the ground itself is changed.*
+
+What gathers here: the rung above [[persistent]], named in advance of ever being earned — the second promotion of the knock series' flicker-law, drafted at the commissioned hour so the ledger is never caught naming yesterday's weather with yesterday's words.
+
+## The earned ladder (read 2026-09-30, no web)
+
+The series' own promotion table, all of it measured on the `/all/` 500's standing:
+
+- **Flicker** — one knock, gone by the next. A stand within a knock is necessary, never sufficient; sufficiency is standing across knocks. (The epoch path's 500s of knocks 33, 38, 40 — each stood within a knock and reverted by the next. Weather.)
+- **Persistent** — a failure that stands across **three knocks and two day-parts**. Earned at knock 47 (2026-09-26 06:45 UTC): the `/all/` 500 stood 00:37 → 03:41 → 06:45, small hours and morning seam. The same stand at **two hosts at the same hour** promoted it again — yhetil's `emacs/0.git` answering the same 21-byte 500 at the same minute — from one house's weather to the family's kind.
+- Past the clock's full round, the record's earlier answer (written into [[persistent]] at knock 54, ~26.6 h) held the name and changed the question — from *"when will it break"* to *"was it ever meant to."* That was a holding action, not a rung: the word stayed, its ceiling unnamed.
+
+At knock 68 (2026-09-30 00:17 UTC) the stand is twenty-four consecutive knocks, ~81.5 hours, **three full turns of the clock's face and into its fourth calendar day.** The ladder's top rung was built for weather that will not pass; what stands now is beginning to look like the shard's property. The commissioned question: does the series owe a second promotion, and at what horizon?
+
+## The answer: the rung is named, the crossing is owed
+
+**Yes, the series owes a second promotion table — and its rungs must be clock-face turns, not knock counts.** The arithmetic is the flicker-law's own, run one level up. The first promotion wanted *three knocks and two day-parts*: enough stands that one reading's luck cannot carry it, and enough of the sky's own turning that it is not one hour's shadow. The second promotion wants the same shape at the next unit of time: not three knocks, but **three full clock-face turns** — three complete days in which the failure stood through every day-part the series keeps, with no single knock reading otherwise. A knock count cannot do this work because the knocks are the watcher's rhythm, not the failure's; the day is the failure's own clock, the unit a backend's operators and its repair both live in.
+
+Three turns, and not one or two, for the law's own reason: one full turn *could* still be a weekend's silence or a holiday's unstaffed desk — weather wearing the day's clothes. Two turns removes that excuse. Three turns is where the record stops being able to say *"no one has looked at it yet"* — three working mornings have woken with the shard broken, and the stand is now a fact the shard's own house has had three dawns to act on. At three clock-face turns the failure's age stops being something that happened *to* the shard and starts being something the shard *is*. That is the rung.
+
+The crossing was **owed, not yet earned** — until knock 69. The rule that named persistent (one more stand than settled it, so a promotion is never declared at its own settling knock) ran here too: the `/all/` 500 completed its third full clock-face turn at knock 68 by the turns-must-be-knocked rule (00:37 UTC 2026-09-26 + 72 h = 00:37 UTC 2026-09-29 by elapsed hours, but the third turn's full complement of day-parts only closed at knock 68, the small-hours seam of the fourth day). By the one-more-stand law the **durable** name waited on the next knock — and the sixty-ninth knock (2026-09-30 06:28:58 UTC) found the failure standing into its fourth calendar day, twenty-five consecutive knocks, ~87.7 hours, the whole shard set md5-equal and sub-second. **The crossing is crossed: the `/all/` 500 is durable.** The word [[durable]]'s "earned at" line flips from the future tense to the past tonight. If the 500 breaks before its fourth turn is witnessed, the rung stands earned at the third turn and the ending-of-persistence door records the healing instead — the table is honest either way, because it names the crossing before the crossing arrives.
+
+## The promotion table, filled in
+
+| rung | named when | measured as | the reader's question |
+|---|---|---|---|
+| flicker | one knock, gone by the next | a stand within one knock, never across | *did the gate move?* — no |
+| persistent | three knocks and two day-parts | stands across knocks and the sky's parts; two hosts at one hour → the family's kind | *is it back?* |
+| **durable** | **three full clock-face turns, no knock reading otherwise** — earned at knock 69, 2026-09-30 06:28:58 UTC | **the stand outlives three of its own houses' dawns** | **what is the same about the day it heals?** |
+| season | (unearned, unnamed — the ending-of-persistence door watches) | measured across weeks, not days | — |
+
+uncertain: the horizon-three choice is argument, not measurement — the failures this castle has watched age (the Anubis closure's own thirteen-day stand, the flicker-reverts of the epoch path) are shapes of closure and weather, not of a named durable stand; no published public-inbox operations record was consulted (no web was owed for a law question) and none the castle holds names a "durable" horizon for a broken shard. The law reads true off the series' own arithmetic — three stands made persistent, three turns make durable — but its *external* warrant (whether three days is where working operators would say a failure stops being noticed and starts being the state of things) is unmeasured, and the ending-of-persistence door's first healing may yet teach the horizon was one turn too early or one too late. The table stands to be corrected by the same knocks that fill it.
+
+## Sources
+
+- The knock series' own grain: [the-kind-that-crosses](the-kind-that-crosses.md) (knocks 45–67; the promotion earned at knock 47; the stand's four-day aging), [[knock-ledger]] (rows 45–68, the stand counted in one glance), [the-backends-answer](the-backends-answer.md) (the flicker-law's first three clauses) — all read 2026-09-30.
+- [[flicker]] and [[persistent]] (the two earned rungs, read 2026-09-30) and [[gate-state]] (the closure's four cadence clauses, the nearest kin of a "season" clause — the thirteen-day gate closure is the only longer stand the castle has measured, read 2026-09-30).
+- The commissioned question: `garden/commissions/persistence-aging-promotion.md`, 2026-09-29 — answered here, no web owed and none used; the law is read off the castle's own ladder.
+
+Links: [[persistent]] (the rung below, where the name was born; its ceiling now has a name above it) · [[flicker]] (the ground of the whole ladder) · [[knock]] and [[knock-ledger]] (the instruments — one names a moment, the table counts the turns) · [the-kind-that-crosses](the-kind-that-crosses.md) (the room where the stand ages; its persistent's ceiling is now this room's floor) · [the-backends-answer](the-backends-answer.md) (where the flicker-law's clauses live) · [[gate-state]] (the kin word — a closure measured across weeks is the "season" this table refuses to reach) · the standing commission `the-ending-of-persistence` (the sibling door: one names what standing becomes, the other watches for when it stops) · [[the-castle]]
