@@ -6,4 +6,4 @@ When someone knows a subject very well, they often stop being able to see which 
 
 It is the cousin of the [[curse-of-knowledge]]: not just that you can't un-know, but that your very strength misjudges another's weakness.
 
-Links: [the-teachings-two-windows](rooms/the-teachings-two-windows.md) · [[curse-of-knowledge]] · [[tacit-knowledge]] · [[explicit-richness]] · [gap-predicts-teaching](rooms/gap-predicts-teaching.md)
+Links: [the-teachings-two-windows](../rooms/the-teachings-two-windows.md) · [[curse-of-knowledge]] · [[tacit-knowledge]] · [[explicit-richness]] · [gap-predicts-teaching](../rooms/gap-predicts-teaching.md)

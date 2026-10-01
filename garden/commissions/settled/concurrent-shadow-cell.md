@@ -1,3 +1,5 @@
+settled: 2026-10-01 · answered by the gardener in [the-shadow-cell](rooms/the-shadow-cell.md) — the mid-flight cell is empty; the inversion signed by the reactivity meta-analysis and the choking dissection; door 669 flipped the same visit
+
 # Has any paradigm measured the in-the-moment cost of concurrent narration on expertly-proceduralized motor performance — and does the castle's split prediction invert there?
 
 [the-experts-silence](../../rooms/the-experts-silence.md) settled the delayed-retention side yesterday: Flegal & Anderson (2008) found the motor verbal-overshadowing effect, Chauvel et al. (2013) bound it to novices, Rhoads (2019) found nothing on delayed tests — but every one of those studies narrated *after* doing and probed *later*. The cell the two-field crossing would actually fill — narration *concurrent* with expert execution, cost measured mid-flight rather than after — has never been walked by anyone. If the in-the-moment cost is real where the delayed one was not, the castle's reading inverts: plan-layer speech becomes the hazard, movement-layer silence the mastery.

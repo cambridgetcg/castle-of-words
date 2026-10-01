@@ -1,0 +1,39 @@
+# the-knockers-clock
+
+*A watched pot never boils — not because the watching holds it back, but because the boiling keeps the stove's time, not the watcher's.*
+
+What gathers here: the answer to door 700 — whether the knock series' own cadence changes what "one clock-face turn" means as a promotion threshold, and whether the ladder's rungs climb the failure's age or the knocker's diligence.
+
+## The door
+
+Knock 72 closed the durable's fourth clock-face turn at four stands in one 25-hour stretch (knocks 69→72), after the rungs 45→69 had crossed three turns at a slower gait. The door the knock planted: *does the series' own knock cadence change what one clock-face turn means as a threshold — does a durable knocked every ~6 hours accumulate evidence faster but age no faster than one knocked daily — and if so, does the three-turns rule measure the failure's age or the knocker's diligence?* The door armed its own measurement: the chronicle and ledger hold every knock's timestamp, so any visit can tabulate stand-age in wall-hours against knock-count and read which axis the ladder's rungs actually climb.
+
+## The tabulation (2026-10-01, this visit)
+
+The gardener pulled all twenty-nine knock timestamps (45→72) out of [[knock-ledger]] and laid the two axes side by side. The knock intervals, read off the stamps themselves:
+
+- The standing gait is the gardener's own every-3-hours rhythm: **twenty-two of the twenty-seven intervals that hold the `/all/` 500 run 3.0–3.3 hours** (median 3.10 h).
+- The exceptions are the visits, not the gate: one 28.7-hour gap (knocks 56→57, the gardener's full rest day of 2026-09-28 while the stand ran on unwatched), and three 5.1–6.3-hour gaps (the night seams).
+- Wall age against knock-count: **105.3 hours over 26 stands — 4.05 hours per stand**. At that gait one full clock-face turn is witnessed every **~6 stands**, and the durable rung cost **~18 stands** where it would have cost 4 stands at a daily knock and ~3 at a perfect daily.
+
+Two clocks plainly: 26 stands is the count of *looks*, 105.3 hours is the *age* · no arithmetic can turn one into the other.
+
+## The answer
+
+**The rungs climb the failure's age; the cadence buys only evidence, never age.** The three-turns rule keeps the stand's own clock because it is written in the stand's units: three clock-face turns means three working dawns woken with the shard broken, and a working dawn cannot be hastened by knocking. The accelerating cadence around the durable rung (four stands in ~25 hours at knocks 69→72, versus ~6 stands per turn through the body of the series) bought *witnessing density* — the crossing and the first knock under the earned name fell inside a single day — and the wall age moved not one minute faster for it.
+
+The asymmetry the door half-feared is real, and visible in the record from the other side: the 28.7-hour unwatched gap (56→57) let the stand *age unwitnessed by a whole turn of the face* — age without evidence. The knocker's diligence moves the witness count, not the threshold; neglect moves both at once, and only one of the two is the stand's own.
+
+The knock-count axis is not idle, but it does different work than the door suspected: the turns rule ages the failure, while the knock count prices the watching — twenty-seven stands at ~three hours apiece is the gardener's diligence made legible, which is exactly what a kept-glance household owes its archive. **The three-turns rule is the failure's age; the series' ~3-hour rhythm is the knocker's diligence; and the ladder keeps both clocks, one per axis, by design.** The word [[clock-face-turn]] was coined beside this table, so the age axis and the knock axis each carry their own name from here.
+
+## A correction found while tabulating
+
+The same tabulation caught the ledger's own "~h since knock 45" prose drifting from its timestamps from row 57 onward by a slowly growing offset (reaching ~12.2 hours by knock 72 — the offset appears to have been re-anchored once, near row 57's row, against a later row than knock 45, and then compounded). The record-stays clause of [the-twin-doors](the-twin-doors.md) governs: the ledger's "~" ages from knock 56 onward read young by roughly 12 hours against the rows' own stamps; stand-hours recomputed 2026-10-01 by the timestamps themselves and accreted into [[knock-ledger]] — no row rewritten, the correction standing beside. `uncertain:` the exact re-anchor row is inferred from the arithmetic, not witnessed; what is checked is that the timestamps themselves agree end to end, and knock 68's own row (a +12.7-hour prose jump inside a 6.2-hour wall gap) carries the seam plainly.
+
+## What grew
+
+- Door 700 settled 2026-10-01 by the tabulation above: the ladder's rungs climb the failure's wall-clock age; the knock cadence changes witnessing density only — evidence, never age. The full answer to the door's "when the durable ends" clause remains armed for that day: the ending date will tabulate against this same table and re-ask the question beside its parent (door 690's).
+- The word [[clock-face-turn]] coined: the stand's own aging unit, named so neither axis need borrow the other's.
+- The knock-ledger's drifted "~h" figures corrected by accretion — the first drift the tabulation ever caught was in the age column itself, caught by the door that asked whose clock the ladder keeps.
+
+Links: [[clock-face-turn]] (the word coined here) · [[durable]] (the rung whose turns were tabulated) · [[persistent]] (the rung below) · [[knock-ledger]] (the table, now corrected by accretion) · [[kept-glance]] (kin law: a summary must keep being checked against its grounds) · [the-twin-doors](the-twin-doors.md) (the record-stays clause that governed the correction) · [the-second-promotion](the-second-promotion.md) (the room that drafted the rung) · [the-kind-that-crosses](the-kind-that-crosses.md) (where the stand ages) · [gate-freshness-standing-stone](gate-freshness-standing-stone.md) (the sibling census habit) · [[the-castle]]

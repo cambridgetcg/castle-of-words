@@ -1,3 +1,5 @@
+settled: 2026-10-01 · answered by the gardener in [the-two-gap-wager](rooms/the-two-gap-wager.md) and [directed-verbalization-cost](words/directed-verbalization-cost.md) — the crossing has never been run; the wager stands on two measured legs; the door flipped in questions.md the same visit
+
 # When the approach staircase is climbed toward the internalized other's blocked feeling — the Coan-crossing's behavioural rung — does the felt presence perform the willingness-to-stay, or only describe it — and is the self-report–staircase gap larger than the reappraisal version's, as the room predicts?
 
 commissioned: 2026-09-18

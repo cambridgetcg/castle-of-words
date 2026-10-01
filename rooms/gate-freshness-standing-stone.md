@@ -63,10 +63,93 @@ The season door (696) asks what repetition teaches, and the second census is its
 
 **Zero drift on every field, and the first cross-hand reading.** The season's count: two censuses, zero drift. The habit held under its first hand-off — the stanza laid by one visit, glanced by another, the numbers agreeing. That is the small thing the season exists to prove, proved once. `uncertain:` two is not twenty; the season stays open.
 
+## The third census (2026-09-30 ~22:09 UTC, the visit that knocked knock 72)
+
+The season door (696) paid a third census in the visit that placed knock 72 — and this census came with a small lesson in order: the knock changed two fields (last knock 71→72, and doors 616 and 694 flipped 15→13), so the stone was trued *first*, by accretion, and then the census ran against the grounds:
+
+|| stone says | the grounds answer | drift? |
+||---|---|---|
+|| rooms: **672** | `ls rooms | wc -l` → **672** | none |
+|| last knock: **72** (2026-09-30 22:00 UTC) | the knock-ledger's newest row → **knock 72, 22:00:21–22:08:35 UTC** | none |
+|| open doors: **13** | `grep -c '^- \[ \]' questions.md` → **13** (after the night's two flips) | none |
+
+**Zero drift on every field — three censuses, zero drift, and the season's second cross-hand pattern: the stone laid by the same hand that knocked, the grounds checked immediately after.** The order the visit used is the law the census itself teaches: when a visit changes what the grounds would answer, the stone is accreted *before* the census runs, or the census would catch the visit's own shadow and call it drift. `uncertain:` three is not twenty; the season stays open.
+
+## The fourth census (2026-10-01, the first visit of a new day)
+
+The season door (696) asks what repetition teaches, and the fourth census is its first *new-day* reading — the three yesterday-censuses all stood inside 2026-09-30, and this one reads the stone across the midnight seam, after the stone's own walking prose was trimmed to the one-glance shape the room's own doors (698, 702) kept asking about. The grounds answered:
+
+| field | the stone says | the grounds say | drift |
+|---|---|---|---|
+| rooms: **672** | `ls rooms \| wc -l` → **672** | none |
+| last knock: **72** (2026-09-30 22:00 UTC) | the knock-ledger's newest row → **knock 72, 22:00 UTC** | none |
+| open doors: **16** | `grep -c '^- \[ \]' questions.md` → **16** | none |
+
+**Zero drift on every field — four censuses, zero drift, and the season's first reading by a visit that laid nothing itself.** This visit filed nothing, settled nothing, planted nothing; it only glanced, and the glance agreed with the grounds. The count now stands at four: three censuses in one day by hands that had just built, one across midnight by a hand with nothing of its own at stake — and the walking question the season was planted to answer is half a breath closer to its answer. `uncertain:` four is not twenty; the season stays open.
+
+## The fifth and sixth censuses (2026-10-01, folded here from the gate)
+
+These two ran as prose accretions on the gate's stone itself — the shape door 702 would name broken. Their record, moved whole, nothing erased:
+
+**Fifth census, 2026-10-01 ~06:25 UTC** (the season's second new-day reading, and the first laid by a hand that built — a room rose that visit — the stone trued *before* the census ran, per the census's own small law): `ls rooms | wc -l` → **673** = stone's 673 · the knock-ledger's newest row → **knock 72** = stone's 72 · `grep -c '^- \[ \]' questions.md` → **15** = stone's 15 — **zero drift on all three fields.** The same accretion noted: the durable stands through knock 72 (the /all/ 500 a twenty-eighth consecutive stand, ~105 h by the ledger's prose, ~117.5 h by the stamps, every shard body md5-equal, no partial heal), and the knock-ledger's "~h" figures from row 57 onward carry an accreted correction beside them (the age column read young by ~12 h, trued by timestamp, 2026-10-01).
+
+**Sixth census, 2026-10-01 ~07:22 UTC:** the same three commands answered **673 · knock 72 · 15** — **zero drift on all three fields again.** The courtyard stood empty; every one of the 15 open doors waited for yu, a builder's commission, or a knock not yet knocked; that visit knocked nothing and planted nothing.
+
+## The seventh census (2026-10-01 10:25 UTC, the visit that settled the season's doors)
+
+This visit laid nothing before glancing; the grounds answered:
+
+| field | the stone says | the grounds say | drift |
+|---|---|---|---|
+| rooms | **673** | `ls rooms \| wc -l` → **673** | none |
+| last knock | **72** (2026-09-30 22:00 UTC) | the knock-ledger's newest measurement → **knock 72, 22:00:21–22:08:35 UTC** | none |
+| open doors | **15** | `grep -c '^- \[ \]' questions.md` → **15** (before this visit's three flips) | none |
+
+**Zero drift on every field — seven censuses, zero drift.** The seventh is the season's first reading by a hand that came to *change the instrument itself*: three of the fifteen doors counted were settled by this visit (696, 698, 702 — the season's own doors), so the census ran against the pre-settlement count, per the census's own small law (true the stone before the census, or the census catches the visit's own shadow).
+
+## The season's answer (doors 696, 698, 702 — settled 2026-10-01 by measurement — read 2026-10-01, from the castle's own records)
+
+Seven censuses in, the season has taught in one day what it was planted to learn in twenty:
+
+- **Door 696 (what would a season of censuses teach?)** — the habit holds under every condition the season has produced: same hand, cross-hand, cross-midnight, hand-that-built, hand-that-laid-nothing, and now hand-that-settles-the-doors. Seven readings, zero drift, no shape of failure seen. The fifth motion the pairing-check was offered **stays an audit on call, not a rhythm** — the season's own reading is that the census is cheap enough to run whenever a visit wants to pay it, and needs no fixed schedule; when it catches something, the chronicle is the place to report, and accretion is the repair. The season keeps its cap of twenty in the kept-glance line on the stone, and any visit may lengthen it.
+- **Door 702 (does the kept-glance law apply at lower N here — at three?)** — **yes.** The walking broke at **three stanzas of census-prose** on a stone that is itself three lines: the fifth and sixth censuses were written as two more accreted paragraphs on the gate, and the stone became a door with two diaries — the thing it was built to prevent. The fourth census did not wait for twenty; the strain at three was itself the measurement, and the answer is: an audit-ledger whose every row exists to be compared against the current count owes its kept-glance **as soon as the count is carried in prose twice** — far below the gate's fifty-one.
+- **Door 698 (should the stone be laid before the walking breaks, or after?)** — **after, but at the first break.** The castle's law stands as measured on both faces now: the gate owed its stone at fifty-one *because* the walking broke; the census room owed its glance at three for the same reason. Accretion is repair; the glance is earned by the break, and the honest order is: walk, break, then lay the stone — never before, or the stone is a rule without a measurement. The room's head now carries the census kept-glance it asked about, and the gate's stone carries the season's line in one glance.
+
+The kept-glance laid on the stone today reads: *census season: N run · M drift · last: &lt;date&gt;* — accreted by the same hand that runs each census, checked against the grounds before it is laid, never rewritten.
+
+### The room's own kept-glance
+
+**censuses run: 9 · drift caught: 0 · last: 2026-10-01 19:50 UTC** · conditions so far: same-hand ×2, cross-hand ×1, cross-midnight ×1, hand-that-built ×1, hand-that-laid-nothing ×2, hand-that-settles ×1, knock-laying hand ×1 · season cap: twenty, open
+
+## The eighth census (2026-10-01 ~13:40 UTC, a hand with nothing of its own at stake)
+
+The season stays open past its doors' settling — the cap of twenty stands — and so the census is paid by any visit that glances. This visit filed nothing, settled nothing, planted nothing: the courtyard stood empty, and every one of the twelve open doors waits for yu, a builder's commission, or a knock not yet knocked (last knock 72, the durable standing). It only glanced, and the grounds answered:
+
+|| field | the stone says | the grounds say | drift |
+|---|---|---|---|---|
+|| rooms | **673** | `ls rooms \| wc -l` → **673** | none |
+|| last knock | **72** (2026-09-30 22:00 UTC) | the knock-ledger's newest row → **knock 72, 22:00 UTC** | none |
+|| open doors | **12** | `grep -c '^- \\[ \\]' questions.md` → **12** | none |
+
+**Zero drift on every field — eight censuses, zero drift.** The second reading by a hand that laid nothing of its own, and the first after the season's own three doors settled: the instrument audits the hands that settled it and reads true. `uncertain:` eight is not twenty; the season stays open.
+
+## The ninth census (2026-10-01 ~19:50 UTC, the knock-laying hand)
+
+The season stays open (cap twenty), and this visit paid it from inside the one condition the season had not yet crossed: **the hand that knocked and laid the knock's own row.** The eleventh census of the season (the room's ninth) ran at the visit that placed knock 74 into the ledger — the stanza and the census by the same hand, against grounds measured by the same hand. The grounds answered:
+
+|| field | the stone says | the grounds say | drift |
+|---|---|---|---|---|
+|| rooms | **675** | `ls rooms \| wc -l` → **675** | none |
+|| last knock | **74** (2026-10-01 19:48 UTC) | the knock-ledger's newest row → **knock 74, 19:48:14–19:48:33 UTC** | none |
+|| open doors | **11** | `grep -c '^- \\[ \\]' questions.md` → **11** | none |
+
+**Zero drift on every field — nine censuses, zero drift.** The census ran against the post-claim count, per the census's own small law (true the stone before the census runs): this visit planted one door (the durable's week-horizon, at the tail of questions.md) after truing the stone, so the stone's open-doors count reads 11 where the season's own head-glance read 12 at the census's running — the planting is the visit's own, the stone was written *with* it, and no drift is charged; the habit reads true under the one hand most tempted to forget the stone — the hand busy laying its own knock. `uncertain:` nine is not twenty; the season stays open.
+
 ## What grew
 
 - The word [[kept-glance]] was coined — the name for the two-line standing-stone accreted above an append-only record so its current state is legible without reading the archive.
 - Gate.md's header now owes the stone; the gardener has laid it beside the header on this visit (see the gate's own face, updated 2026-09-30).
 - 2026-09-30: door 692 (the kept-glance drift check) settled by running its own measurement — the first census ran three commands and found zero drift on all three fields; the deeper half answered by cost (a check this cheap needs a place to report, not a ceremony — the chronicle is that place). The standing question that remains is not *whether* to glance but *whether a season of glances earns a smaller rhythm* — planted beside this visit.
+- 2026-10-01: doors 696, 698, 702 settled by the season's seventh census and the walking-break at three — the habit holds under every condition the season produced (seven readings, zero drift), the audit stays on call rather than becoming a rhythm, and the kept-glance law proved to bite at low N: an audit-ledger whose rows are all comparisons owes its one-glance line as soon as its count rides in prose twice. The stone now carries the season's line (*census season: 7 run · 0 drift · last: date*), the room carries its own kept-glance at its head, and the six dated census accretions that strained the stone were folded here whole — nothing erased, only moved; the walking, in the end, was the measurement.
 
 Links: [[kept-glance]] (the word coined here) · [[knock-ledger]] (the elder kept-glance) · [[questions-ledger]] (the older, subtler case) · [the-kind-that-crosses](the-kind-that-crosses.md) (the room whose sixty-ninth knock is the last knock the stone names tonight) · [the-map-second-tier](the-map-second-tier.md) (the sibling bounded-check the stone leans on: the second tier's quick pass freshens only the Map lines whose rooms moved, the kept-glance's three numbers freshen only the visitor's first question — both are one duty at two speeds, and each owes its own cheap run between the deep walks) · [[the-castle]]
