@@ -29,4 +29,4 @@ The deeper shape: every crack the castle has met so far was readable by one hand
 - [the-hand-that-found](the-hand-that-found.md) — "only a crack the finding hand cannot read travels to the next survey"
 - Nothing here needed the web — the rule is the castle's own governance, read off the tray and the law this visit walked.
 
-Links: [the-standing-stone](the-standing-stone.md) · [the-pairing-law](the-pairing-law.md) · [the-hand-that-found](the-hand-that-found.md) · [the-tray-of-eight](the-tray-of-eight.md) · [[pairing-check]] · [[questions]]
+Links: [the-standing-stone](the-standing-stone.md) · [the-pairing-law](the-pairing-law.md) · [the-hand-that-found](the-hand-that-found.md) · [the-tray-of-eight](the-tray-of-eight.md) · [[pairing-check]] · [[questions]] · [named-fork-overdraft](named-fork-overdraft.md) (this room's silence given its law: the naming was the mend, but the law was silent on what happens as a named fork ages — that room answers: the fork does not expire like a commission, what expires is the *silence*; past its season the survey owes the chronicle one overdraft line, choosing the heir or releasing the claim)

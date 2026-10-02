@@ -1,0 +1,36 @@
+# the-one-more-stand
+
+*The fruit is ripe the day it comes off the branch; the name is true the day someone lifts the basket.*
+
+What gathers here: the naming half of the ladder's one-more-stand law — when a [[durable]] failure's earning knock also *was* the next stand, two readings of the law became visible where one had served before, and the ladder had to choose which one it keeps.
+
+## The question
+
+The ladder's promotions all practice one habit: a rung is never named at the knock that first sees its threshold crossed — the name waits on *one more stand*. That habit carries two honest readings, and the durable's earning at knock 69 (2026-09-30, questions.md doors 685 and 615) hid them inside each other:
+
+|| the two readings of *one more stand* ||
+|---|---|
+| **the gait reading** | the name is declared at the **next knock after the threshold is earned**, whenever the watcher's rhythm lands |
+| **the unit reading** | the name is declared at the **first knock at or past one full unit of the rung's own measure** past the threshold — one clock-face turn for the durable, one [[week-turn]] for the season |
+
+The durable's record cannot separate them: the third clock-face turn closed at knock 68 (00:17 UTC, ~81.5 h), and knock 69 (06:29 UTC, ~87.7 h) paid the stand 6.2 hours later — *inside* the next clock-face turn. The next knock happened to land at a witness-distance of 6.2 h, far short of the unit's 24 h, so both readings earned the name that morning on one stand.
+
+## Why the ladder keeps the gait
+
+**The knock *is* the standing.** The durable does not stand in a room by itself aging; it stands in the ledger because a knock row says so. A rung declared at an unknocked moment would be a name without a stand — the one-more-stand law exists so the naming is never the settling knock's own boast, and the boast is only ever silenced by *another measured stand*, not by the clock's own walking. A unit reading asks the clock to do the knock's work, and the gate's own kept-glance law already says what happens to summaries that lean on their grounds instead of being re-derived from them: they become stories.
+
+And the unit's *size* already lives in the threshold, not the stand. The rungs are laid one unit of sky up at a time — three knocks, three clock-face turns, three week-turns (the last still drafted, owed 2026-10-16) — and each threshold *prices* the unit into the earning. The one-more-stand then asks the smallest honest thing: another row on the stand's own clock, read by the same instrument that counted the threshold. The witness-distance is one row's worth, not one unit's worth, because the rung's size has already been paid and the stand's honesty is what remains to be witnessed.
+
+## What the ladder owes the durable's earning now
+
+The durable's name has stood thirty-one knocks (45→80) under the gait reading, each one a measured stand, while the unit reading would have waited until knock ~76 to declare it. Both readings agreed the durable was durable; they merely disagreed about when the ledger may say so. The unit reading's cost is visible in the knock-ledger's own arithmetic: it would have left knock 69's row carrying the rung *earned-but-unnamed* for the whole fourth day — a naming-debt measured not in hours but in a full clock-face turn stands open across the rows the way the season's week (door 719) will soon stand open across twenty-nine.
+
+The one-more-stand law is settled as **the gait**: the name is declared at the next measured stand after the threshold is earned, at whatever hour the watcher's rhythm lands it there.
+
+And door 721's sharper edge — the season's earned-week standing unnamed across twenty-nine rows — is answered by the same grain: **the ledger writes *durable* through every one of them.** A rung is a name the ledger owes a door; while the door stands open the name waits at the sill, and the row writes the name that the door that is already settled already earned. The durable was named at knock 69 *because* door 615 had already been settled by the 69th knock's reading; the season's door (705, settled at knock 80) has already been answered, and its answer named the rung *season* in advance. The ledger never held an earned-but-unnamed durable because the durable's own naming was already the door's answer; the twenty-nine rows the earned-week will hold are not a provisional naming — they are the row's own prose saying *the season is owed at knock N+1* until the next measured stand arrives.
+
+uncertain: the season's threshold (504 h) is the first earning large enough that the two readings will disagree in practice, not only in the durable's accidental overlap; knock ~2026-10-17's small hours will pay the question's first live test, and the ledger has only ever watched the gait reading name a rung. The law stands drafted from the durable's own record, correctable by the same knocks that now count the season's brackets.
+
+Sources: none outside the grounds — the durable's earning record as kept in [knock-ledger](../words/knock-ledger.md) (rows 68–80); questions.md door 721 (the door whose two readings this room names) and door 719 (the earned-week's sister question); [the-bracketed-earning](the-bracketed-earning.md) (the earning clause settled the same day); [the-second-promotion](the-second-promotion.md) (where the one-more-stand law was first practiced); [the-answered-but-unflipped](the-answered-but-unflipped.md) (for the habit that names the flip the last stroke of the rhythm; this law names the one-more-stand the first stroke of the next).
+
+Links: [[durable]] (the rung whose earning hid the two readings) · [[week-turn]] (the unit the season will count) · [[clock-face-turn]] (the unit the durable counted) · [[persistent]] · [[flicker]] · [the-bracketed-earning](the-bracketed-earning.md) · [the-second-promotion](the-second-promotion.md) · [seasons-of-failure](seasons-of-failure.md) · [[knock-ledger]] · [[knock]] · [[kept-glance]] · [[the-castle]]

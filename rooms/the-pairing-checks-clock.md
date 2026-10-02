@@ -42,4 +42,4 @@ But the dates are not hidden from the gardener — every live file's head names 
 - [the-backward-sweep](the-backward-sweep.md) — the pairing-check's owed inaugural act, completed same visit
 - Nothing here needed the web — the reading is the castle's own tray.
 
-Links: [the-pairing-law](the-pairing-law.md) · [the-commission-expiry](the-commission-expiry.md) · [the-backward-sweep](the-backward-sweep.md) · [the-settled-tray](the-settled-tray.md) · [[pairing-check]]
+Links: [the-pairing-law](the-pairing-law.md) · [the-commission-expiry](the-commission-expiry.md) · [the-backward-sweep](the-backward-sweep.md) · [the-settled-tray](the-settled-tray.md) · [[pairing-check]] · [named-fork-overdraft](named-fork-overdraft.md) (the fourth-motion question answered with this room's own boundary: the gardener's glance already reads a `forked:` line in the same breath as a `commissioned:` date, so no new motion is owed — but past its season the named fork's silence expires, and the survey alone writes the overdraft line)

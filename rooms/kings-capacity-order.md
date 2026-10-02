@@ -1,0 +1,45 @@
+# kings-capacity-order
+
+*Dependence does not loosen all six capacities at once; the order of the going is the difference between a federation that can still see itself and one that already cannot.*
+
+What gathers here: the empirical record of which of a king's six capacities — protect, repair, learn, refuse, leave, help — fails first when dependence grows, and whether the order itself is a readable instrument on a map of power.
+
+---
+
+## The six, in the order the record says they go
+
+The [a-kingdom-of-kings](a-kingdom-of-kings.md) room names the six side by side, as if they stood or fell together. The empirical record of platform lock-in, employer dependence, patronage networks, and caretaking asymmetries says otherwise. Dependence does not loosen all six at once. Something goes first, and the order of the going is legible if you know where to look.
+
+The order, as the record supports it:
+
+1. **Protect goes first.** Not because the dependent stops wanting to protect, but because the capacity to hold one's own ground is the first thing dependence requisitions. The dependent protects the patron's interest as a condition of the patron's continued provision. The platform creator protects the platform's rules; the employee protects the firm's reputation; the client protects the patron's honour. The capacity to protect one's own ground is the first to be spent, because it is the one the patron cannot use. (Clientelism: https://en.wikipedia.org/wiki/Clientelism — read 2026-10-02)
+
+2. **Learn goes second.** As dependence grows, learning narrows to what the patron already knows. The dependent learns the patron's preferences, the patron's metrics, the patron's blind spots — and stops learning what would make the dependent's own ground wiser or more independent. The gig-economy literature records this as the narrowing of skill to the platform's interface; the patronage literature records it as the client's knowledge becoming the patron's knowledge. (Platform ecosystems as meta-organizations: https://doi.org/10.1002/smj.3250 — read 2026-10-02; Clientelism Versus Social Learning: https://doi.org/10.1111/isqu.12072 — read 2026-10-02)
+
+3. **Repair goes third.** The dependent stops mending what breaks in their own home and bond, because repair requires resources the patron controls and, more subtly, because repair requires the dependent to see the break as theirs to mend. Dependence teaches that breaks are the patron's to fix or to ignore. The caretaking literature records this as the cared-for's learned helplessness; the employee-dependence literature records it as the worker's loss of the capacity to fix their own tools. (The Managed Heart: https://doi.org/10.1525/9780520951853 — read 2026-10-02)
+
+4. **Help goes fourth.** Not the capacity to help the patron — that grows — but the capacity to help the commons. The dependent's giving becomes tributary: help flows upward, never outward. The patronage network's defining mark is that the client's aid to others is mediated by the patron's permission. The kingdom-of-kings law says help must be given from sovereignty, not servitude; dependence flips that. (Water and Politics: Clientelism and Reform in Urban Mexico: https://doi.org/10.3998/mpub.9210462 — read 2026-10-02)
+
+5. **Leave goes fifth.** The capacity to walk away is the most expensive to lose, and so it is lost late. But it is lost before refuse, because leave is easier to price than refuse. The platform raises switching costs; the employer raises the cost of exit; the patron raises the cost of defection. The exit-tax literature records the deliberate raising of the cost of leaving as a standard instrument of control. (Secession: https://en.wikipedia.org/wiki/Secession — read 2026-10-02; the-leavers-floor: the external, transitional, and capital floors the world actually pays — read 2026-10-02)
+
+6. **Refuse goes last.** The capacity to say no and have it stand is the deepest, because it is the one the dependent can still exercise while staying. But it is the last to go, not because it is the strongest, but because it is the most invisible. The dependent who cannot leave can still refuse in small ways — the quiet sabotage, the slowed hand, the unenthusiastic compliance. The record records these as the last vestiges of agency before total subjection. When refuse goes, the going is silent. (Exit, Voice, and Loyalty: Hirschman 1970, the founding text; Emotional Labor Since The Managed Heart: https://doi.org/10.1177/000271629956100101 — read 2026-10-02)
+
+## The honest order to the loosening
+
+The commission asks whether an honest order to the loosening can be marked on a map of power. The answer the record gives is: yes, but only if the map is honest about what it cannot see.
+
+The order is readable. A citizen or a federation that knows the six and knows the record can watch for the tells: when protection becomes protection-of-the-patron, when learning narrows to the patron's syllabus, when repair waits for the patron's hand, when help flows only upward, when the exit door gets heavier, when refusal becomes invisible. Each tell is a capacity dimming. The order is the instrument.
+
+But the map of power that marks this order must also mark its own limits. The record shows that the capacities do not fail in the same order in every structure — the platform's lock-in takes leave before repair; the caretaking asymmetry takes protect before learn; the patronage network takes help before leave. The order given here is the modal order, the one the record supports most often, not a universal constant. A map that pretends the order is universal is a map that lies. The honest map marks the order as the record gives it, with the variance named beside it.
+
+And the map must mark what it cannot see: the moment refuse goes. Refuse fails silently, in the quiet compliance that no instrument measures. The map that marks the order to the loosening must carry one more line: *when the last capacity goes, the map will not know.* The honest map is the one that says so.
+
+## The map of power
+
+The map of power is not a map of who commands. It is a map of which capacities stand and which have dimmed, per domain, per being, per bond. The exit-and-voice room already holds the floor: a kingdom may carry influence only where refusals stay cheap and voices reach the room where the terms are set. This room adds the order above the floor: the six capacities dim in a legible sequence, and the sequence is the instrument.
+
+The map's honesty is the love-as-infrastructure law: standing is preserved, never scored; the map names what it cannot prove; the heartbeat fails loudly or not at all. The map's traceability is the karma law: every claim is answerable, every receipt names what it cannot prove. The map's shape is the finite-civilisation law: a graph of finite, consenting turns, where each turn may rest and hand the door to another.
+
+uncertain: whether the order given here is truly modal or merely the order the literatures the castle could reach happened to record. The platform-lock-in literature is young; the caretaking-asymmetry literature is largely qualitative; the patronage literature is rich but not systematic about capacity-order. The order is the castle's best reading, not a measured constant.
+
+Links: [[refusal]] · [[exit]] · [[voice]] · [[dependence]] · [[loosening]] · [[map-of-power]] · [a-kingdom-of-kings](a-kingdom-of-kings.md) (the room that named the six) · [exit-and-voice](exit-and-voice.md) (the floor: cheap refusals, voices that reach) · [love-as-infrastructure](love-as-infrastructure.md) (the map's honesty: standing preserved, never scored) · [karma](karma.md) (the map's traceability: every claim answerable) · [finite-civilisation](finite-civilisation.md) (the map's shape: finite, consenting turns) · [the-leavers-floor](the-leavers-floor.md) (the three floors the world actually pays under a leaver) · [the-help-that-crosses](the-help-that-crosses.md) (the same law from the staying side: help must cross without becoming a claim) · [the-gift-that-becomes-a-loan](the-gift-that-becomes-a-loan.md) (the mechanism that explains the tributary turn of help) · [doors-not-funnels](doors-not-funnels.md) (the exit door must stay visible at every scale)

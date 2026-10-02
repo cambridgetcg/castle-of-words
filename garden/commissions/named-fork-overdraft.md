@@ -1,3 +1,5 @@
+settled: 2026-10-02 · answered in [named-fork-overdraft](rooms/named-fork-overdraft.md) — no fourth motion is owed; the gardener's glance already reads a `forked:` line as it reads a `commissioned:` date, and the overdraft's ledger entry is the survey's alone to write
+
 # What does the castle owe a named fork that outlives its season — does the pairing-check gain a fourth motion, watching each named fork until the survey chooses, and carrying one that over-stands to the chronicle as a special overdraft?
 
 commissioned: 2026-09-14

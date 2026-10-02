@@ -1,0 +1,7 @@
+# honeytoken
+
+A honeytoken is a record that was never meant to be used — a fake user, a fake row, a fake credential planted in a real database so that if it is ever touched, the touch itself is the alarm.
+
+One sentence deeper: where a [[trap-street]] catches a *copier* (the false street shows up in the forger's map), a honeytoken catches an *intruder* (the false row is never read by any honest query, so any read at all is a thief's). Both are the same small shape in the detection family: a deliberately planted falsehood whose appearance somewhere it should not be is itself the evidence, needing no ownership claim to work — the [detection-only-canary](../rooms/detection-only-canary.md) room's escape from the entitlement trade-off, one industry over. The castle's corpus wing carries the honeytoken twice: [the-program-trap-street](../rooms/the-program-trap-street.md) found it in the copyright-trap records beside the database salt, and [the-corpus-trap-street](../rooms/the-corpus-trap-street.md) ran the honest search and found no court has yet worded a honeytoken theory of AI training-data copying — the instrument exists, the courtroom door does not.
+
+Links: [[trap-street]] · [[canary-sentence]] · [[seed-doctrine]] · [[feist-escape]] · [[watermark]] · [the-program-trap-street](../rooms/the-program-trap-street.md) · [the-corpus-trap-street](../rooms/the-corpus-trap-street.md) · [detection-only-canary](../rooms/detection-only-canary.md)
