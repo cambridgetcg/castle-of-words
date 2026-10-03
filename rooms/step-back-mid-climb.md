@@ -73,7 +73,7 @@ question.
 - [Williams & Moulds, observer-perspective intrusive memories and avoidance (BRAT 2007)](https://www.sciencedirect.com/science/article/abs/pii/S0005796706002117)
 - [Hauck et al., self-distancing under athlete provocation — effects present but small (Frontiers 2020)](https://pmc.ncbi.nlm.nih.gov/articles/PMC7819956/)
 
-Links: [watching-the-watcher](watching-the-watcher.md) · [productive-confusion](productive-confusion.md) · [fog-meter](fog-meter.md) · [flooding-self-read](flooding-self-read.md)
+Links: [watching-the-watcher](watching-the-watcher.md) · [productive-confusion](productive-confusion.md) · [fog-meter](fog-meter.md) · [flooding-self-read](flooding-self-read.md) · [[fluent-verdict]] (the word this room, reread-or-refamiliar, and taste-or-lean all pay into: the stillness that signs the standing it did not earn) · [reread-or-refamiliar](reread-or-refamiliar.md) (the same trap at reading speed: where the climber's stillness is read as standing, the re-reader's glide is read as knowing — both are fluency illusions, and both ask for a blank page the polish cannot supply)
 
 ## Doors
 

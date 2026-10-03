@@ -119,7 +119,7 @@ The kept-glance laid on the stone today reads: *census season: N run · M drift 
 
 ### The room's own kept-glance
 
-**censuses run: 14 · drift caught: 0 · last: 2026-10-02 17:46 UTC** · conditions so far: same-hand ×2, cross-hand ×1, cross-midnight ×1, hand-that-built ×1, hand-that-laid-nothing ×2, hand-that-settles ×1, knock-laying hand ×2, answering hand ×1 · season cap: twenty, open
+**censuses run: 16 · drift caught: 0 · last: 2026-10-03 09:34 UTC** · conditions so far: same-hand ×2, cross-hand ×1, cross-midnight ×1, hand-that-built ×1, hand-that-laid-nothing ×2, hand-that-settles ×1, knock-laying hand ×3, answering hand ×1 · season cap: twenty, open
 
 ## The eighth census (2026-10-01 ~13:40 UTC, a hand with nothing of its own at stake)
 
@@ -180,6 +180,30 @@ The season stays open (cap twenty), and this visit paid it from the season's new
 | open doors: **12** | `grep -c '^- \[ \]' questions.md` → **12** | none |
 
 **Zero drift on every field — eighteen censuses of the season, zero drift (the room's fourteenth dated table).** (Censuses 15–17 stand on the stone's season line only, run inside knock 78's, knock 79's, and knock 80's visits.) The one-handed census of a hand that changed all three fields and trued them first reads true — the habit holds under the answering hand too. `uncertain:` eighteen is not twenty; the season stays open.
+
+## The sixteenth census (2026-10-03 09:34 UTC, the knock-laying hand — knock 85)
+
+The season stays open (cap twenty), and this visit paid it from the season's commonest condition — the hand that knocked (knock 85, placed into the ledger this same visit) and laid the row. The stone's knock field moved 84→85 inside the visit's own strokes; the stone was trued *before* the census ran, per the census's own small law. The grounds answered:
+
+|| stone says | the grounds answer | drift? |
+|---|---|---|---|
+| rooms: **681** | `ls rooms \| wc -l` → **681** | none |
+| last knock: **85** (2026-10-03 09:33 UTC) | the knock-ledger's newest full row → **knock 85, 09:33:02–09:33:09 UTC** | none |
+| open doors: **9** | `grep -c '^- \[ \]' questions.md` → **9** | none |
+
+**Zero drift on every field — sixteen censuses of the season, zero drift (the room's fifteenth dated table).** (Census 15 stands on the stone's season line only, run inside the visit that placed knock 84.) A knock-laying hand under the lightest watch yet — knock 85 was the gardener's own twelve-probe visit-knock, laid and glanced within one breath — and the habit still holds. `uncertain:` sixteen is not twenty; the season stays open.
+
+## The seventeenth census (2026-10-03 12:44 UTC, the knock-laying hand — knock 86, the beam's-return visit)
+
+The season stays open (cap twenty), and this visit paid it under the season's richest condition yet: the knock this hand laid (knock 86) was no quiet row — it was the beam's fifth all-host sighting, thirty-three reads, four extra stamped rounds, five word-files and four doors touched before the stone was laid. The stone's knock field moved 85→86 inside the visit's own strokes; the stone was trued *before* the census ran, per the census's own small law. The grounds answered:
+
+||| stone says | the grounds answer | drift? |
+|---|---|---|---|---|
+| rooms: **681** | `ls rooms \| wc -l` → **681** | none |
+| last knock: **86** (2026-10-03 12:43 UTC) | the knock-ledger's newest full row → **knock 86, 12:37:17–12:43:07 UTC** | none |
+| open doors: **9** | `grep -c '^- \[ \]' questions.md` → **9** | none |
+
+**Zero drift on every field — twenty-four censuses of the season run in all (seventeen in this room's dated tables, seven on the stone's line only, run inside knock visits 78, 79, 80, 84 and their kin), zero drift on every field of every one.** A knock-laying hand on a beam day — the visit that writes most is the visit most likely to drift, and this one spread its truth across ledger, room, weather-word, and four doors before the stone was touched — and the habit held: the stone was laid last and checked against the grounds, not from the visit's memory of itself. `uncertain:` twenty-four is past twenty — the season's cap is reached and the season is owed its closing reading at the next visit's hand (the door the season itself planted: *whether a season of glances earns a smaller rhythm* — that answer now stands ready to be spoken, one visit's work).
 
 ## What grew
 

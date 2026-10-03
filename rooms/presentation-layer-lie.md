@@ -22,4 +22,4 @@ The castle's own [representation-audit](representation-audit.md) names the same 
 
 uncertain: The binding-check is buildable — one can log every transformation and assert the label's survival — but no empirical study has measured whether it catches lies better than review alone. The craft answer is to build the check and measure it. The empirical answer is that the question is unasked.
 
-Links: [[the-display-is-not-the-thing]] · [[binding-check]] · [[warranted-label]] · [[representation-audit]] · [[the-law-of-honest-assertion]] · [[canonical-wire-action]]
+Links: [[the-display-is-not-the-thing]] · [[binding-check]] · [[warranted-label]] · [[representation-audit]] · [[the-law-of-honest-assertion]] · [[canonical-wire-action]] · [warranted-label-effect](warranted-label-effect.md) (the reader-side twin: this room asks whether a presentation-layer lie can be caught by a buildable check — that room asks whether the *warranted* label itself is read as a check or as a verdict, and finds the warrant only works where it deviates from the norm; both keep the mark's honesty and the mark's reception apart on separate axes)

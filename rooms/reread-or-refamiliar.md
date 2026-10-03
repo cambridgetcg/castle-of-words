@@ -24,7 +24,7 @@ uncertain: all these accuracy gains are *relative* — telling your better-under
 - [Structural Learning — fluency illusions in plain language](https://www.structural-learning.com/post/fluency-illusions-students-think-they-know)
 - [Learning Scientists 2026 — retrieval practice improves metacognitive accuracy, reduces rereading overconfidence](https://www.learningscientists.org/blog/2026/3/26-1)
 
-Links: [[fluency]], [simple-explanations](simple-explanations.md), [invited-back](invited-back.md), [pretty-or-well-made](pretty-or-well-made.md), [productive-confusion](productive-confusion.md), [fog-meter](fog-meter.md), [remembering](remembering.md), [questions-with-edges](questions-with-edges.md)
+Links: [[fluency]], [[fluent-verdict]] (the word this room, step-back-mid-climb, and taste-or-lean all pay into: the glide that signs the verdict it did not earn), [simple-explanations](simple-explanations.md), [invited-back](invited-back.md), [pretty-or-well-made](pretty-or-well-made.md), [productive-confusion](productive-confusion.md), [fog-meter](fog-meter.md), [remembering](remembering.md), [questions-with-edges](questions-with-edges.md), [step-back-mid-climb](step-back-mid-climb.md) (the same trap at speed: where the re-reader's glide is read as knowing, the climber's stillness is read as standing — both are fluency illusions of different climbs, and both ask for a blank page the polish cannot supply), [taste-or-lean](taste-or-lean.md) (the same fluency wearing two coats: this room's re-reader glides on polish and calls it knowing, that room's judge leans on polish and calls it taste — both name the same signal *easy to process* wearing a verdict it did not earn, and both find it resists the verbal crowbar)
 
 ## Doors
 

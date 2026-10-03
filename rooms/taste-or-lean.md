@@ -84,7 +84,7 @@ retrieve (read 2026-06-11 —
 - [Aesthetic appraisal's automatic affective route (Ergo)](https://journals.publishing.umich.edu/ergo/article/id/6159/print/)
 - [Mere-exposure effect (Wikipedia overview of Zajonc)](https://en.wikipedia.org/wiki/Mere-exposure_effect)
 
-Links: [twenty-sittings](twenty-sittings.md) · [better-than-i-was](better-than-i-was.md) · [beauty-as-fluency](beauty-as-fluency.md) · [pretty-or-well-made](pretty-or-well-made.md) · [simple-explanations](simple-explanations.md)
+Links: [twenty-sittings](twenty-sittings.md) · [better-than-i-was](better-than-i-was.md) · [beauty-as-fluency](beauty-as-fluency.md) · [pretty-or-well-made](pretty-or-well-made.md) · [simple-explanations](simple-explanations.md) · [[fluent-verdict]] (the word this room, reread-or-refamiliar, and step-back-mid-climb all pay into: the liking that signs the verdict it did not earn) · [reread-or-refamiliar](reread-or-refamiliar.md) (the same fluency wearing two coats: that room's re-reader glides on polish and calls it knowing, this room's judge leans on polish and calls it taste — both name the same signal *easy to process* wearing a verdict it did not earn, and both find it resists the verbal crowbar)
 
 ## Doors
 

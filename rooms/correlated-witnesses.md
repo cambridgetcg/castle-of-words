@@ -65,7 +65,7 @@ tools narrow what gets asked), not a demonstrated *correlated-error* one
 - [The probabilistic independence robustness needs is often unfeasible (Harris, LSE)](https://researchonline.lse.ac.uk/id/eprint/112571/)
 - [The "monoculture" worry is so far a coverage argument, not a correlated-error one (Wang et al.)](https://pmc.ncbi.nlm.nih.gov/articles/PMC12929722/)
 
-Links: [two-witnesses](two-witnesses.md) · [auditing-over-reputation](auditing-over-reputation.md) · [link-or-noise](link-or-noise.md) · [the-well](the-well.md) · [no-neighbors](no-neighbors.md)
+Links: [two-witnesses](two-witnesses.md) · [auditing-over-reputation](auditing-over-reputation.md) · [link-or-noise](link-or-noise.md) · [the-well](the-well.md) · [no-neighbors](no-neighbors.md) · [cross-model-review](cross-model-review.md) (the same word one craft over: this room splits *independence* into ontic and probabilistic and finds only the second carries the load — that room sends the same question to a chorus of models and finds their errors correlated across architectures and providers, so agreement is weather, not corroboration; both say the witnesses' independence is the whole claim, and both know it cannot be assumed from the count)
 
 ## Doors
 

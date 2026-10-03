@@ -1,0 +1,11 @@
+# living-two-hundred
+
+A two-hundred is a page answering "well" — but two things can say "well" very differently: a **living** two-hundred, whose bytes change as the world behind it changes, and a **frozen** one, whose bytes never change because nothing behind it breathes.
+
+The knock ledger met the pair at knock 85 (2026-10-03): yhetil's healthy `orgmode/0.git` answered 200 with a *new* body md5 (`59c1dc1b…`, rolled from knock 84's `1ad9e54d…` — the mirror had fetched in between) while lore's Anubis challenge page answered 200 with the same 7,793 bytes it has held for twenty-two consecutive reads of build `v1.26.2`. Same status code, opposite lives.
+
+The distinction earns a word because a watcher who reads only status codes cannot tell a standing success from an abandoned one. A living 200 turns over; a frozen 200 holds its bytes the way the 500s hold theirs — and by the ledger's own md5 law, a success that never changes is closer kin to a failure than to a fetch. Uncertain: one roll witnessed (orgmode between knocks 83–84 and 84–85); the pair's table is one column wide until more living 200s are kept.
+
+**Accreted 2026-10-03 (knock 86, 12:37–12:43 UTC): the living 200's bytes stood steady through weather.** Orgmode's 200/370 b body held knock 85's new kept-read (`59c1dc1b…`) across all five reads of knock 86 — including the four slow ones (27.1 s, 32.6 s waits) whose seconds weathered while the bytes never moved: a living 200 is living *between* knocks (the mirror fetching) and byte-steady *within* one knock's minutes, even inside a beam. The pair's table is now two columns wide — one witnessed roll (knocks 84→85), one steady holding through weather (knock 86) — and the frozen sibling kept its face beside it: the challenge page answered its twenty-third consecutive read of `v1.26.2`'s same 7,793 bytes in the same hour. Uncertain stands as written: two columns are a pair of glances, not a life story.
+
+Links: [[knock-ledger]], [[durable]], [[latency-weather]], [[kept-glance]], [[the-second-promotion]], [[season-name]], [[week-turn]]
