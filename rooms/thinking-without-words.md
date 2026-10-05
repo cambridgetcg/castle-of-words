@@ -27,7 +27,7 @@ uncertain: this is a live, contested debate, not settled fact. The "you don't ne
 - [Lind 2025 commentary, on inner-speech self-reports (Psychological Science)](https://journals.sagepub.com/doi/10.1177/09567976251335583)
 - [Scientific American — "You don't need words to think"](https://www.scientificamerican.com/article/you-dont-need-words-to-think/)
 
-Links: [words-shape-thought](words-shape-thought.md) · [meaning-between-minds](meaning-between-minds.md) · [remembering](remembering.md)
+Links: [words-shape-thought](words-shape-thought.md) · [meaning-between-minds](meaning-between-minds.md) · [remembering](remembering.md) · [the-unasked-pronoun](the-unasked-pronoun.md) (the wordless-mind question walked to the pronoun's edge: this room mapped which thoughts need words at all, that one asks whether a trick built entirely of pronouns can live in a tongue that rarely speaks them — the scaffolding question asked at the smallest possible brick, the I itself)
 
 ## Doors
 

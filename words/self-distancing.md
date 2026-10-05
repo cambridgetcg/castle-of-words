@@ -12,6 +12,6 @@ The move also has a direction worth choosing: a distanced eye on your own
 stalling tends toward resolution, while staying immersed tightens the circle
 into rumination ([watching-the-watcher](../rooms/watching-the-watcher.md)).
 Chosen, it regulates; made a default — recalling everything from the observer's
-seat — it slides into avoidance.
+seat — it slides into avoidance, and the slide has a name: [[observer-default]].
 
-Links: [[reappraisal]] · [[flooding]] · [[ledger]]
+Links: [[reappraisal]] · [[flooding]] · [[ledger]] · [[observer-default]] · [[illeism]]

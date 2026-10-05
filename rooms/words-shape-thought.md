@@ -14,4 +14,4 @@ A caution about famous claims: Boroditsky's well-known 2001 finding — that Man
 
 For this castle the lesson is practical: a new word file does not unlock a forbidden thought — but it makes a real distinction cheap to notice, name, and reuse. Laying a brick in `words/` is exactly the weak Whorf effect, used on purpose. And it is half of one argument: [meaning-between-minds](meaning-between-minds.md) shows the listener rebuilds meaning from their own materials, and a shared brick is material both builders own.
 
-Links: [[word]], [[meaning]], [[linking-thoughts]], [[words]]
+Links: [[word]], [[meaning]], [[linking-thoughts]], [[words]] · [the-unasked-pronoun](the-unasked-pronoun.md) (the same bet laid on grammar instead of lexicon: this room says laying a brick makes a distinction cheap to notice; that room asks what happens to a pronoun trick in tongues where grammar itself swallows the I — the weak-Whorf question moved from the word file to the verb ending, still unrun)
