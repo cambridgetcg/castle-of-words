@@ -1,0 +1,11 @@
+# manipulation-check
+
+A question the experiment asks its own participants: *did you actually do what I told you to do?*
+
+When a scientist tells half the people in a study to speak to themselves by name and half to say "I," the scientist has to check afterward whether the first half really did speak by name — otherwise the study measured nothing at all. That check is the manipulation-check, and it is the part of the experiment that is easiest to skip and hardest to fake.
+
+The field's habit is to ask the easy way: *did that feel strange? did you find it easy or hard?* But people are poor readers of their own voices — nearly half of the ones who said the distanced voice was easy had never actually spoken it (the 2021 modification's 30% compliance collapse, read 2026-10-05 in [the-unasked-pronoun](../rooms/the-unasked-pronoun.md)). The honest check is the harder one: read what the participant actually said or wrote, and code it for person — count the I's and the names.
+
+The castle's self-distancing wing found the manipulation-check is the field's unbuilt half: no study has ever coded a participant's own utterance for person, so the 30% collapse may be a failure of the instruction (people cannot hear themselves speak third-person on command) or of the checking (people distance truly and then mislabel the voice after). The record carries only the self-report, and the pronoun itself has never been priced. An utterance-coded manipulation-check would be the field's first true measure, and the castle's first contribution to method if it were built.
+
+Links: [[self-distancing]] · [[illeism]] · [[pro-drop]] · [[rehearsal-tool]] · [[self-report-vs-performance]] (the law this word carries into the method wing: the felt voice and the spoken voice are not the same instrument, and the questionnaire is the one that lies) · [[fog-meter]] (the same law read as a sentence about the self: the inner gauge is the weakest instrument in the house, so the manipulation-check's self-report form is exactly the one this room would predict fails) · [the-unasked-pronoun](../rooms/the-unasked-pronoun.md) (where the word was coined: the distanced-arm's 30% collapse is the manipulation-check that never ran, and its absence is the field's unpriced pronoun)
