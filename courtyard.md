@@ -1,4 +1,3 @@
 # Courtyard
 
-New thoughts land here and wait for the gardener. Add one anytime with:
-`insight <a thought>` — toss it over the wall; the courtyard catches it
+New insights arrive here. The gardener files them; nothing else lives here.

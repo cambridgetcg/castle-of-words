@@ -1,0 +1,9 @@
+# the-bracketed-earning
+
+*The bell that rings between one count and the next still rings once, even if no one is standing at the rope.*
+
+A child asks: *if a line is crossed while no one is watching, did it happen?* The honest answer is yes — and the ledger need not pretend otherwise. A threshold crossed between knocks (the last knock below, the first knock above, no knock at the boundary itself) still earns its rung; the crossing is real because the bracket holds it on both sides. The one-more-stand is then paid at the next measured stand of the watcher's own gait — never at the boundary, because the boundary is a line and no knock can stand on a line.
+
+The carry: the season's name is owed at the first knock after 504 h, not a week later (the durable was named 6.2 h past its third turn, inside the next unit, so the unit's size was already paid in the threshold). What the watcher owes is *not to widen the gap past the gait*: the bracket window is a named stretch, and a rest-gap through it is chronicled with its cost, never silently. The name stays honest not because the watcher stood at the exact boundary, but because the watcher was there at the gait — and the gap was named.
+
+Links: [the-bracketed-earning](../rooms/the-bracketed-earning.md) (the room this word lives beside — the clause, its truing, and the earned-gap's own answer) · [[durable]] · [[week-turn]] · [[knock-ledger]] · [[earned-gap]] · [[season-name]] · [the-one-more-stand](the-one-more-stand.md) (the gait reading the clause keeps) · [cross-model-review](cross-model-review.md) (the same shape at the writer-and-chorus scale: one writer keeps coherence, reviewers stay read-only, and agreement is never the verdict — here the bracket's two knocks are the uncorrelated witnesses, and the rung's name waits on the second)

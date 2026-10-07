@@ -71,7 +71,7 @@ be priced not at the mouth (cannot hear the pronoun) nor at the check
 (mislabels the voice afterward) but at the *valence of the adopting* —
 the instruction asks for a move whose own processing difficulty marks it
 negative, one flight lower than the metacognitive failure the room first
-named ([[fog-meter]]'s self-read being the weakest instrument, the voice
+named ([[fog-meter]]'s finding that a self-read is the weakest instrument — now coined at [the word](../words/fog-meter.md) beside [its room](fog-meter.md); the voice
 unheard), the marking law offering a *mechanism* under the description.
 
 The evidence in the wing carries the crossing only partway, honestly so.
