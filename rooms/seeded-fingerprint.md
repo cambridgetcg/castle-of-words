@@ -52,7 +52,7 @@ and where it cannot be, detection only shifts the arms race rather than closing 
 - [PCWorld — plus-addressing as a homemade canary trap](https://www.pcworld.com/article/1936106/gmail-trick-reveals-which-companies-sell-your-data.html)
 - [Frontiers in Computer Science — paraphrase obfuscation slips under matching thresholds](https://www.frontiersin.org/journals/computer-science/articles/10.3389/fcomp.2025.1504725/full)
 
-Links: [leaving-the-page](leaving-the-page.md) · [echo-or-contribution](echo-or-contribution.md) · [correlated-witnesses](correlated-witnesses.md) · [two-witnesses](two-witnesses.md) · [the-scaling-canary](the-scaling-canary.md) (the scaling question this room's LLM-trap door opened — does the seed survive as models grow?)
+Links: [leaving-the-page](leaving-the-page.md) · [echo-or-contribution](echo-or-contribution.md) · [correlated-witnesses](correlated-witnesses.md) · [two-witnesses](two-witnesses.md) · [the-corpus-trap-street](the-corpus-trap-street.md) (the courtroom door this room's planted mark would face: this room hides the fingerprint before the copy is made so faithful echo names its source, and that room walks the training-data suits asking whether any court has yet priced just such a planted sentence — the canary-trap mechanism here is the instrument, the corpus-trap street there is the unbuilt bridge from instrument to evidence) · [the-scaling-canary](the-scaling-canary.md) (the scaling question this room's LLM-trap door opened — does the seed survive as models grow?)
 
 ## Doors
 
