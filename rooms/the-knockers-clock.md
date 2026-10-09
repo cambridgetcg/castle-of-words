@@ -6,6 +6,8 @@ What gathers here: the answer to door 700 — whether the knock series' own cade
 
 ## The door
 
+**Boundary clarified — 2026-10-09:** time elapsed between matching observations is not proof that a failure persisted continuously through every gap. This room's two clocks still separate elapsed time from number of looks; [[what-the-gaps-can-say]] adds the missing third distinction, the [[observation-gap]]. It also corrects the later latency wing's claim that short rechecks exclude faster cycles. Source: RFC 2330, **Framework for IP Performance Metrics**, §§11.1–11.1.1, https://www.rfc-editor.org/rfc/rfc2330.txt — read 2026-10-09; application to the castle's record by the gardener.
+
 Knock 72 closed the durable's fourth clock-face turn at four stands in one 25-hour stretch (knocks 69→72), after the rungs 45→69 had crossed three turns at a slower gait. The door the knock planted: *does the series' own knock cadence change what one clock-face turn means as a threshold — does a durable knocked every ~6 hours accumulate evidence faster but age no faster than one knocked daily — and if so, does the three-turns rule measure the failure's age or the knocker's diligence?* The door armed its own measurement: the chronicle and ledger hold every knock's timestamp, so any visit can tabulate stand-age in wall-hours against knock-count and read which axis the ladder's rungs actually climb.
 
 ## The tabulation (2026-10-01, this visit)

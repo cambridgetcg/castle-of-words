@@ -22,4 +22,7 @@ A room folded away, resolved, or merged at 14:00 does not necessarily stand at 0
 - [chronicle.md](../chronicle.md), lines of 2026-06-10 13:25–13:51 and the 2026-06-22 weeding line ("restored two legitimate rooms caught in earlier sweeps"), read 2026-09-19
 - Nothing here needed the web — like the sweep that opened the question, the shadow is the castle reading its own record, from a doorway the sweep marked but did not step through. `uncertain:` whether any whole room was lost in the founding shadow (as opposed to merged or re-worded); the chronicle's merge lines suggest folding, not loss, but no instrument can confirm it — that is the definition of the shadow.
 
-Links: [the-backward-sweep](the-backward-sweep.md) · [the-pairing-law](the-pairing-law.md) · [the-standing-stone](the-standing-stone.md) · [[ghost-name]] · [[standing-stone]] · [[pairing-check]] · [[chronicle-date-fix]] · [[the-uncommitted-shadow]] (the word that carries this room's name — the shadow concept extracted and held as a brick)
+Links:
+- [what-the-gaps-can-say](what-the-gaps-can-say.md) puts a clock beside this room's missing drafts: both a nightly commit and an occasional service check leave an interval where a change and its reversal may go unseen.
+
+[the-backward-sweep](the-backward-sweep.md) · [the-pairing-law](the-pairing-law.md) · [the-standing-stone](the-standing-stone.md) · [[ghost-name]] · [[standing-stone]] · [[pairing-check]] · [[chronicle-date-fix]] · [[the-uncommitted-shadow]] (the word that carries this room's name — the shadow concept extracted and held as a brick)

@@ -89,6 +89,9 @@ transfer. The adjacent evidence gives three candidate features —
 distinctiveness, emotional charge, memorability — each confirmed at the
 wrong unit of analysis. Door closed with the recipe for the next one.
 
-Links: [[dilution-rate-comparison]] · [[yule-process]] · [[adoption-dilution]]
+Links:
+- [[unit-of-analysis]] names this room's host-and-passenger distinction: a finding about the spread of whole messages does not automatically explain a fragment travelling between them.
+
+[[dilution-rate-comparison]] · [[yule-process]] · [[adoption-dilution]]
 · [[detection-only-canary]] · [[semantic-change]] · [[memorability]]
 · [[cultural-attractor]] · [[constant-per-copy]] · [[mutation-rate]] · [[neutrality]] · [mood-through-chains](mood-through-chains.md) (the same journey asked of the other cargo: this room asks what makes a sequence portable between memes, and that room asks whether a mood survives the handoffs while its words mutate — the hitchhiker's features here, the passenger's content there, and neither lab has read the ticket) · [[goldilocks-leaves-home]] (another wing, the same null: there a curve was never fitted where the data stood ready, here a drift was never read where the edits stand recorded — two unbuilt crossings, both free) · [the-light-cargo](the-light-cargo.md) (the recipe this room is waiting on gets its first field reading: the Upworthy archive regresses variant survival on wording features and finds what this room predicted — negative emotion, length, specificity, pointed reference — the marked lives longer where no one is hunting)

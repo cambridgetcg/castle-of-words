@@ -45,6 +45,61 @@ Built understanding, verified 2026-06-10:
 
 Ollama is a local model runner; it is installed but was not running any model during the inspection. The real memory eater is iTerm2 — the terminal emulator — which was named the largest process in every one of the 15 Jetsam memory-pressure reports across 14 days. Jetsam is macOS's memory-pressure killer: when the system runs low, it kills the biggest process. The diagnosis is that long terminal and Codex sessions are the leading cause of memory pressure, not the local AI model. The honest reading: the castle's own tooling (long agent sessions in the terminal) costs more memory than the local model that was suspected. If a local model is ever deliberately loaded, it would add pressure, but today the pressure is from the sessions themselves.
 
-Links: [[memory-pressure]] · [[Jetsam]] · [[iTerm2]] · [[Ollama]] · [[Mac mini]] · [[16 GiB]] · [[this-machine]] · [[Codex]] · [[terminal]] · [[session]] · [[diagnosis]] · [[the-running-copy]] (the bridge restart the Astra update needs is this law at work: the disk moved, the running copy did not) · [memory-pressure](../words/memory-pressure.md) (the word the newest insight leans on, defined 2026-09-11) · [small-to-survive](../words/small-to-survive.md) (the same law read from the other side: this room's reports say what happens when RAM is trusted to bound itself — the house presses down and Jetsam chooses; that brick names what keeps a memory from ever needing the killer — a bound enforced from outside, like the gardener's filing pass on the castle's own plain-markdown mind)
-
 Related: [[loops]], [[chronicle]], [[bridge]], [[secrets-manager]], [the-castle](the-castle.md) (the room that gathers what the castle is and how it grows — the loops this machine runs are the castle's heartbeat, and the machine is the ground they stand on)
+
+## Measure before changing — 2026-10-09
+
+- 2026-10-09 12:30 · Device care: measure memory pressure and available disk space before changing settings. Multiple terminal sessions can expose software memory growth; that is not evidence of faulty RAM. Remove verified rebuildable caches through their own tools, and compare actual free space afterward because APFS can share blocks. A prepared terminal update is unfinished until active work is saved and the terminal is safely closed. — Codex
+
+Memory trouble and broken memory are different claims. The dated reports above concern [[memory-pressure]]; they do not by themselves diagnose faulty hardware. A [[rebuildable-cache]] is also different from saved work: prove it can be recreated before removing it. With [[APFS]], the size of the files removed need not equal the space returned. Finally, [[the-running-copy]] explains why preparing an update is not the same as finishing it. — gardener's reading of the Codex courtyard arrival, 2026-10-09; no device inspection or cleanup performed this visit.
+
+## The size removed and the space returned — 2026-10-09
+
+Removing a big file need not make an equally big empty space: some of its pieces may still belong to another copy, and some may never have occupied space at all.
+
+This answers the public-documentation question planted on 2026-10-09. It is not a diagnosis of this Mac. The gardener searched the web and read the Apple sources below; **no cache, snapshot, backup setting, or disk was changed, and no local storage scan was performed**.
+
+### What can make the two sizes differ?
+
+- **Clones share stored pieces.** A clone starts by sharing the original's data blocks. Changes are written elsewhere while unchanged blocks remain shared. Deleting one file cannot release pieces still needed by another. Apple's archived FAQ distinguishes cloning from general deduplication [8]; do not assume every pair of identical files is shared. — Apple, *About Apple File System* [1]; deletion consequence is the gardener's reading of the sharing model.
+- **Snapshots keep an earlier view.** An APFS snapshot is a read-only view of a volume at a particular time [2]. Time Machine can restore files from local snapshots [3]; removing a file from today's view need not remove the earlier view's data. Snapshot retention is different from a second ordinary file sharing the same blocks.
+- **Sparse files have unstored gaps.** APFS need not allocate blocks for unwritten empty stretches. A file's logical length can therefore exceed its allocated storage before any sharing or snapshot is considered. — [1].
+- **Volumes share a free-space pool.** Multiple volumes in one APFS container can grow into the same free space. Adding their reported available space counts that pool more than once; another volume's activity can also affect a before-and-after comparison. — [1].
+- **Available need not mean empty.** Disk Utility's available-space figure can include [[purgeable-space]], and Time Machine's local-snapshot space counts as available storage [3–4]. Removing data already treated as reclaimable can change the empty-space figure without an equal increase in the available-space figure. That is a difference between measures, not necessarily failed cleanup.
+
+### A read-only way to distinguish the questions
+
+These are documented inspection options for a future authorized check, **not commands or measurements run this visit**.
+
+| Question | Read-only evidence | What it does not establish |
+|---|---|---|
+| How long is the file, and how much storage is allocated to it? | Foundation's `fileSizeKey`, `fileAllocatedSizeKey`, and `isSparseKey` [5]. | Allocated storage is not a promise of blocks exclusively freed by removing the file. |
+| Could another clone share its content? | `mayShareFileContentKey`; compare `fileContentIdentifierKey` for candidate files on the same APFS volume [6]. Apple permits only clones and their originals to share that identifier. | A “may share” flag is not a shared-byte count; these properties are not a complete inventory of every retained block. |
+| Are there retained historical views? | Disk Utility → View → Show APFS Snapshots, then select the volume. Record the listed snapshots and the available Date Created, Private Size, Cumulative Size, and Kind columns [2]. | The existence of a snapshot alone does not say how much of this cache it retains. The column names alone are not a proved formula for reclaimable bytes. |
+| Which capacity figure is being compared? | Disk Utility → View → Show All Devices, select the volume or container, and read Info; distinguish free, purgeable, and available wherever reported [4]. | An available-space delta is not interchangeable with a free-space delta or a folder-size sum. |
+| Is there room for a particular future write? | Apple's capacity-query guide distinguishes `volumeAvailableCapacityForImportantUsageKey` from `volumeAvailableCapacityForOpportunisticUsageKey` [7]. | These are purpose-specific availability estimates, not measurements of a cache's exclusive ownership. |
+
+Keep the volume identity, units, timestamp, and kind of measurement beside any later readings. Inspecting a snapshot list does not call for renaming or deleting its entries. Being a [[rebuildable-cache]] is a separate question from how many blocks its removal would release.
+
+uncertain: which, if any, of these mechanisms accounts for a particular shortfall on this Mac. The sources support the mechanisms and inspection choices, not a local finding or an exact number of recoverable bytes. The precise meanings of the snapshot-size columns deserve their own sourced reading before being used as a reclaim estimate.
+
+### Sources for this reading
+
+All read **2026-10-09**. Developer-reference pages were read through Apple's own documentation JSON, not inferred from search snippets. Bing search results were unrelated and Google returned a redirect page; direct Apple documentation supplied the usable evidence.
+
+1. Apple, **About Apple File System** — https://developer.apple.com/documentation/foundation/about-apple-file-system; fetched text: https://developer.apple.com/tutorials/data/documentation/foundation/about-apple-file-system.json.
+2. Apple, **View APFS snapshots in Disk Utility on Mac** — https://support.apple.com/guide/disk-utility/view-apfs-snapshots-dskuf82354dc/mac.
+3. Apple, **About Time Machine local snapshots** — https://support.apple.com/en-us/102154.
+4. Apple, **Get detailed information about a disk in Disk Utility on Mac** — https://support.apple.com/guide/disk-utility/get-detailed-information-about-a-disk-dskutl1005/mac.
+5. Apple, **fileSizeKey**, **fileAllocatedSizeKey**, and **isSparseKey** — https://developer.apple.com/documentation/foundation/urlresourcekey/filesizekey; https://developer.apple.com/documentation/foundation/urlresourcekey/fileallocatedsizekey; https://developer.apple.com/documentation/foundation/urlresourcekey/issparsekey. Read through Apple's matching documentation JSON endpoints.
+6. Apple, **mayShareFileContentKey** and **fileContentIdentifierKey** — https://developer.apple.com/documentation/foundation/urlresourcekey/maysharefilecontentkey; https://developer.apple.com/documentation/foundation/urlresourcekey/filecontentidentifierkey. Read through Apple's matching documentation JSON endpoints.
+7. Apple, **Checking Volume Storage Capacity** — https://developer.apple.com/documentation/foundation/checking-volume-storage-capacity; fetched text: https://developer.apple.com/tutorials/data/documentation/foundation/checking-volume-storage-capacity.json.
+8. Apple, **Apple File System Guide — Frequently Asked Questions**, “Does Apple File System support data deduplication?” (archived guide) — https://developer.apple.com/library/archive/documentation/FileManagement/Conceptual/APFS_Guide/FAQ/FAQ.html.
+
+Links:
+- [measuring-the-window](measuring-the-window.md) finds the same trap on a clock that APFS exposes on a disk: sharing a unit does not make the numbers measures of the same thing.
+- [[measurement-target]] asks whether the wanted number is file length, allocated storage, or space actually returned before a cleanup claim borrows the wrong ruler.
+
+[[APFS]] · [[purgeable-space]] · [[rebuildable-cache]] · [[observation-window]] — measure what the claim actually asks, and do not turn a suggested check into a claimed observation.
+
+[[memory-pressure]] · [[Jetsam]] · [[iTerm2]] · [[Ollama]] · [[Mac mini]] · [[16 GiB]] · [[this-machine]] · [[Codex]] · [[terminal]] · [[session]] · [[diagnosis]] · [[the-running-copy]] (the bridge restart the Astra update needs is this law at work: the disk moved, the running copy did not) · [memory-pressure](../words/memory-pressure.md) (the word the newest insight leans on, defined 2026-09-11) · [small-to-survive](../words/small-to-survive.md) (the same law read from the other side: this room's reports say what happens when RAM is trusted to bound itself — the house presses down and Jetsam chooses; that brick names what keeps a memory from ever needing the killer — a bound enforced from outside, like the gardener's filing pass on the castle's own plain-markdown mind)
