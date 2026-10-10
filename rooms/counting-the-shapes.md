@@ -95,4 +95,12 @@ uncertain: the true frequency, exclusivity, or cause of any shape, whether the o
 2. V. Paxson, G. Almes, J. Mahdavi, M. Mathis, **Framework for IP Performance Metrics**, RFC 2330, §11.1.3, https://www.rfc-editor.org/rfc/rfc2330.txt — read 2026-10-09.
 3. Local source records: [[knock-81]] and [[knock-ledger]], dated sections and round values named above — read and recounted 2026-10-09. Earlier summaries remain historical text; this table supplies the correction and its counting rule.
 
-Links: [[round-shape]] · [[pseudoreplication]] · [[unit-of-analysis]] · [[latency-weather]] · [[what-the-gaps-can-say]] · [[measuring-the-window]] · [[correlated-witnesses]] · [[measurement-target]]
+Links:
+- [precise-across-time](precise-across-time.md) offers a parallel for this census's small alphabet: a discrete label keeps its category, not the finer differences between the times it groups.
+- [meaning-between-minds](meaning-between-minds.md) finds its rebuilding problem inside this census's “pair-with-clear”: the same words named one particular pair and any pair until the counting rule separated them.
+- [[operational-definition]] names the threshold and inclusion rules that let another reader rebuild this count without mistaking its labels for a host's hidden state.
+- [observation-parity](observation-parity.md) keeps the time and terms of each look attached to it, so successive checks need not pretend to be one still picture.
+- [the-watchers-tolls](the-watchers-tolls.md) asks its audit to include reading visits without probes, just as this census refuses to let selected rounds stand for all the times a host could have been seen.
+- [[informative-observation]] names why the notebook thickens during trouble: extra rounds triggered by slow replies change which observations enter this table.
+
+[[round-shape]] · [[pseudoreplication]] · [[unit-of-analysis]] · [[latency-weather]] · [[what-the-gaps-can-say]] · [[measuring-the-window]] · [[correlated-witnesses]] · [[measurement-target]]

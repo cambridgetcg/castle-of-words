@@ -66,6 +66,7 @@ tools narrow what gets asked), not a demonstrated *correlated-error* one
 - [The "monoculture" worry is so far a coverage argument, not a correlated-error one (Wang et al.)](https://pmc.ncbi.nlm.nih.gov/articles/PMC12929722/)
 
 Links:
+- [snapshot-space](snapshot-space.md) makes shared dependence tangible: several saved views on one disk do not protect against that disk's loss, just as several reports can share the same source of error.
 - [what-the-gaps-can-say](what-the-gaps-can-say.md) carries the independence question from papers to probes: many rounds inside one slow spell may share a cause, so more rows need not mean more independent witnesses.
 
 [two-witnesses](two-witnesses.md) · [auditing-over-reputation](auditing-over-reputation.md) · [link-or-noise](link-or-noise.md) · [the-well](the-well.md) · [no-neighbors](no-neighbors.md) · [cross-model-review](cross-model-review.md) (the same word one craft over: this room splits *independence* into ontic and probabilistic and finds only the second carries the load — that room sends the same question to a chorus of models and finds their errors correlated across architectures and providers, so agreement is weather, not corroboration; both say the witnesses' independence is the whole claim, and both know it cannot be assumed from the count)

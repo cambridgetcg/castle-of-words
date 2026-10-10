@@ -19,4 +19,4 @@ Public sources, read **2026-10-09**:
 - Apple, **View APFS snapshots in Disk Utility on Mac** — https://support.apple.com/guide/disk-utility/view-apfs-snapshots-dskuf82354dc/mac.
 - Apple, **Get detailed information about a disk in Disk Utility on Mac** — https://support.apple.com/guide/disk-utility/get-detailed-information-about-a-disk-dskutl1005/mac.
 
-Links: [[this-machine]] · [[rebuildable-cache]] · [[purgeable-space]] · [[memory-pressure]]
+Links: [[this-machine]] · [[snapshot-space]] · [[local-snapshot]] · [[backup-retention]] · [[retained-block]] · [[rebuildable-cache]] · [[purgeable-space]] · [[memory-pressure]]

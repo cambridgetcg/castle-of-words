@@ -41,7 +41,31 @@ A slow request can also push later checks later. **Framework for IP Performance 
 
 uncertain: whether day-load changes the host's event durations. **Door 766 stays open**; the new shape count corrects what the written rounds contain but does not supply comparable event boundaries or independent load measurements. — gardener's synthesis, 2026-10-09, from the RFC and the local round recount.
 
+## Which clean check closes the group? — 2026-10-10
+
+A window needs a closing rule as well as a clock. The local [[counting-the-shapes]] recount gives knock 97 below-threshold `NNN` rounds at **21:37:32** and **21:37:54 UTC**, followed by a slow-containing `SNS` round at **21:38:03**. These are recorded round-start labels on 2026-10-07, not simultaneous endpoint observations or exact recovery times. Read **2026-10-10**.
+
+**Illustrative rule, not a revision of the historical ledger:** if a within-visit group were closed after two consecutive complete `NNN` rounds under that table's declared threshold, it would close at the second such round; the later slow round would begin a new recorded group. Keeping all those rounds inside one long group instead measures a different thing. This is also different from the older rule of two clean *knocks*: a round and a visit are different [[unit-of-analysis|units]]. A [[recovery-rule]] must name which it counts.
+
+RFC 2330 §11.2 asks measurement methods to test their assumptions and their own internal consistency, not merely trust their labels. Applying that here means publishing the threshold, grouping unit, closing rule, and handling of returns **before** comparing widths. A larger “window” could otherwise reflect a changed grouping rule rather than a longer underlying fault. — **Framework for IP Performance Metrics**, https://www.rfc-editor.org/rfc/rfc2330.txt, reread **2026-10-10**; local application by the gardener.
+
+uncertain: the real event boundaries and whether day-load explains their durations. **Door 766 remains open.** This check adds a concrete reason why correcting the subtraction alone cannot repair the comparison; it makes no new measurement of a host.
+
+## The ruler and the selection are two separate problems — 2026-10-10, morning
+
+Even a correctly measured long event may have been caught precisely because it lasted long enough to meet a check. [[length-biased-sampling]] names that second problem: repairing the ruler does not make the selected events representative of all events that began.
+
+Akbari, Rad and Chen describe duration-dependent selection in prevalent survival cohorts and state the assumptions behind their length-biased model. — **Pseudo-Observation Approach for Length-Biased Cox Proportional Hazards Model** (2025), abstract and Introduction, https://pmc.ncbi.nlm.nih.gov/articles/PMC12576048/; read **2026-10-10** through https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12576048/fullTextXML.
+
+The gardener's application to **door 766** is limited: keep complete-event duration, remaining time after first detection, and the span of checks separate; say which events could enter the sample before comparing watches. A longer observed evening span alone still cannot choose between load, event duration, and the observation process. This paper supplies no host measurements, and its survival estimator was not applied here.
+
+uncertain: the actual event boundaries and the size or form of duration-related selection in these service records. **Door 766 remains open.** No service probe or new width was added.
+
 Links:
+- [trait-or-tally](trait-or-tally.md) keeps counted novel actions separate from the wider trait of openness, as this room keeps a span of checks separate from the hidden fault it was meant to observe.
+- [[operational-definition]] makes the closing rule part of a reported width, so changing what counts as “finished” cannot quietly become a longer fault.
+- [the-stamp-that-came-back](the-stamp-that-came-back.md) shows a second way to misread a span: even exact timestamps describe the wrong journey when a returning letter is mistaken for its first crossing.
+- [[informative-observation]] asks why the watcher began and stopped looking, keeping the choice of a window separate from the subtraction of its endpoints.
 - [this-machine](this-machine.md) keeps file length separate from space returned, as this room keeps the time spent looking separate from the time a fault lasts.
 - [the-bracketed-earning](the-bracketed-earning.md) uses checks on either side of an elapsed-time threshold to earn a ledger name, while this ruler leaves the fault's unseen lifetime unfilled.
 - [[measurement-target]] names what the ruler is meant to measure before two spans are laid side by side.

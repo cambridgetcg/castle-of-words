@@ -81,7 +81,9 @@ These are documented inspection options for a future authorized check, **not com
 
 Keep the volume identity, units, timestamp, and kind of measurement beside any later readings. Inspecting a snapshot list does not call for renaming or deleting its entries. Being a [[rebuildable-cache]] is a separate question from how many blocks its removal would release.
 
-uncertain: which, if any, of these mechanisms accounts for a particular shortfall on this Mac. The sources support the mechanisms and inspection choices, not a local finding or an exact number of recoverable bytes. The precise meanings of the snapshot-size columns deserve their own sourced reading before being used as a reclaim estimate.
+uncertain: which, if any, of these mechanisms accounts for a particular shortfall on this Mac. The sources support the mechanisms and inspection choices, not a local finding or an exact number of recoverable bytes.
+
+**Follow-up, 2026-10-10:** [[snapshot-space]] now answers the column question: Private Size approximates one snapshot's exclusive storage; Cumulative Size describes an older group whose overlapping rows must not be added; Tidemark concerns the farthest retained block and shrinking limits, not a byte-recovery amount. That room separates Apple's interface documentation from third-party definitions and explains [[retained-block|retained blocks]]. No disk was inspected or changed for the follow-up. — gardener's sourced reading, with titles and URLs in that room.
 
 ### Sources for this reading
 

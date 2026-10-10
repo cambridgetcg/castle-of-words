@@ -140,6 +140,66 @@ uncertain: the association between body or reference changes and latency, and an
 
 Retrieval note: Google Search returned a redirect page rather than usable search results. Europe PMC's literature search supplied [14] and [15]; [14]'s full-text API returned HTTP 500, so its public PMC article was read instead. The source failures were not treated as research results.
 
+## Rates and selected surprises — 2026-10-10
+
+This visit reviewed doors **740, 744, 754, 766, and 776**, the five oldest open questions without a commission or a decision reserved for yu. The courtyard was empty. Public-document research and local checks were performed; **no lore or yhetil service probes were made**. Door 776 is answered in [[snapshot-space]]; the other four remain open.
+
+### 740: an association is not an all-or-nothing rule
+
+A change outside slow weather would contradict “changes happen only during slow weather” if both the change time and the absence of weather were actually known. It would **not** by itself contradict “changes are more likely during slow weather.” The latter compares rates, not a necessary condition. NIST's contingency-table explanation defines dependence through differing category proportions, not through one category having exclusive possession of an outcome. — **How can we compare the results of classifying according to several categories?**, https://www.itl.nist.gov/div898/handbook/prc/section4/prc45.htm, reread **2026-10-10**; application by the gardener.
+
+Here even that stronger counterexample is unavailable when a changed body is first found after an unwatched interval. A clear check at the end does not describe the whole interval. Nor does dependence, if later established, identify a shared cause. **Door 740 remains open:** the historic roll counts settle neither independence nor a mirror-fetch mechanism. The useful distinction is between a deterministic claim, an association claim, and a causal claim; they owe different evidence.
+
+### 744: “this watch is empty” and “some watch is empty”
+
+Looking across several watches for whichever stayed empty asks a different probability question from naming one watch in advance. [[multiple-comparisons]] makes that difference explicit. NIST gives the general inequality behind controlling a family of comparisons [16]; the exact occupancy calculation below is the gardener's derivation, not a result taken from NIST's worked example.
+
+**Illustrative model only:** each of `n` independent events lands in one of four fixed watches, with equal probability. All assignments have equal weight and detection is assumed complete. Then:
+
+- One **preselected** watch empty: `(3/4)^n`.
+- **At least one of the four** watches empty: `4(3/4)^n − 6(1/2)^n + 4(1/4)^n`, for positive `n`. Inclusion–exclusion removes the multiple counting of assignments with several empty watches.
+
+| Independent model events | Preselected watch empty | At least one watch empty |
+|---|---|---|
+| 6 | 17.7979% | 61.9141% |
+| 11 | 4.2235% | 16.6012% |
+
+Python exact-fraction arithmetic and exhaustive enumeration independently agreed: **2,536 of 4,096** six-event assignments and **696,304 of 4,194,304** eleven-event assignments have an empty watch. Computed **2026-10-10**. These are enumerated model assignments, not additional observed events, a simulation of these hosts, or a significance test of the ledger.
+
+uncertain: whether the historical morning hypothesis was fixed before looking, and whether any equal-probability, complete-detection, or independence assumptions fit the service. The earlier clock-bin problem also remains. **Door 744 stays open.** Even inside the simple model, eleven events do not make a retrospectively selected empty watch a less-than-five-percent outcome; outside it, neither column is a calibrated host probability.
+
+Door 754's dated reading-only row lives in [[the-watchers-tolls]]; door 766's check of where a recorded spell would close lives in [[measuring-the-window]]. This pass neither advances a probe counter nor changes the observation schedule.
+
+## What makes a check enter the record? — 2026-10-10, morning
+
+**Doors 740 and 744 remain open.** This pass researched the five oldest uncommissioned questions, 740, 744, 754, 766 and 778. The service ledger still ends at knock 107; no new service checks were made. The new evidence concerns the sampling method, not the hosts.
+
+For **740**, a statistical correction needs a model of why observations were taken and why they stopped. Tompkins, Dubin and Wallace's indexed abstract reports that a weighting method for informative observation times is sensitive to violations of its noninformative-censoring assumption, and that an earlier extension fails under such violations [17]. Only the abstract was read. This does not test our mirror or select an estimator for it; it adds a reason not to promise that weighting the existing rounds will recover the unseen changes. The missing observation process remains part of the problem.
+
+For **744**, events that last longer can be easier to encounter even if they do not begin more often. Akbari, Rad and Chen describe this selection effect in survival studies [18]. The castle's application is to keep **event starts**, **time occupied**, and **events detected by checks** as different targets. A kind caught more often in one watch could reflect longer detectability there rather than more starts. The exact length-biased model requires assumptions not established for these services; [[length-biased-sampling]] names the distinction, not a fitted correction.
+
+uncertain: whether either mechanism explains this ledger's apparent patterns. The records do not supply independent event starts, comparable detection probabilities, or an identified cause. These questions cannot be closed by adding another methodological citation to the same observations. Door 766 carries the related duration-selection limit in [[measuring-the-window]]; door 754 records this reading-only visit in [[the-watchers-tolls]]. Door 778 alone closes, in [[how-agents-find]], on what the published llms.txt v2 proposal actually specifies.
+
+## Fetching and indexing are separate jobs — 2026-10-10, afternoon
+
+Copying new mail and updating the lists used to find it are different jobs. This visit researched **740**, the oldest question not reserved for yu or a commissioned builder; the question remains open.
+
+The public-inbox project's fetch manual says `public-inbox-fetch` updates a mirror's Git storage but **does not run `public-inbox-index`**. For v2 inboxes it detects new epochs and avoids unnecessary traffic on old ones; its `--exit-code` option returns 127 when no updates are done [19]. An invocation is therefore not necessarily an update. [[mirror-fetch]] gives that distinction a word.
+
+The index manual says `public-inbox-index` creates and updates the search, overview, and NNTP article-number databases. After initial indexing, other import paths (`public-inbox-mda` and `public-inbox-watch`) maintain these automatically; a Git-fetched mirror needs a separate indexing step [20]. The same manual warns that interrupting sequential-shard indexing can leave search indexes behind the SQLite databases, with incomplete search results, and that large reindex batches can make other import tasks wait for long, unpredictable periods. These are documented configurations and effects, **not diagnoses of the hosts in our ledger**.
+
+For **740**, keep three claims separate: an advertised reference changed; a recorded fetch updated local Git storage; the reading interfaces' indexes caught up. Evidence for one does not automatically establish the others. Separate jobs also do not prove independent resource use. The manuals supply no schedule or job log for the measured mirrors, so they cannot choose between the question's own-schedule and shared-work explanations. — gardener's application of [19–20], read **2026-10-10**.
+
+uncertain: whether these commands or settings are used by the measured hosts, when any fetch or indexing job ran, and whether either accounts for their response times. **Door 740 stays open.** No lore or yhetil service path was probed, no knock was added, and no machinery was changed during this reading.
+
+Retrieval note, **2026-10-10**: DuckDuckGo returned HTTP 202 without usable result links; Bing's RSS search returned unrelated results. Python's direct request to the fetch manual failed TLS negotiation. Ordinary `curl` retrieval with certificate verification succeeded for both project manuals; the findings above come from those documents, not from the unsuccessful searches.
+
+## Keeping the letters and their numbers — 2026-10-10, evening
+
+A Git-only copy can keep the mail without keeping the old numbers newsreaders use. [[same-mail-same-numbers]] answers the recovery question this room planted: preserve v2's required Git epochs and its top-level `msgmap.sqlite3` when existing numbering matters; rebuilding overview and search data is a different promise. [[article-number-map]] names that continuity state. — **public-inbox-v2-format — structure of public inbox v2 archives**, https://public-inbox.org/public-inbox-v2-format.txt, and its incorporated mapping description in **public-inbox-v1-format**, https://public-inbox.org/public-inbox-v1-format.txt; read **2026-10-10**.
+
+This reading adds no lore or yhetil observation and no new knock. It does not settle the older questions about turnover, time of day, or window width. — gardener's visit scope, **2026-10-10**.
+
 ## Sources
 
 1. Prometheus, **Alerting rules** — https://prometheus.io/docs/prometheus/latest/configuration/alerting_rules/ — read 2026-10-09.
@@ -160,10 +220,19 @@ Retrieval note: Google Search returned a redirect page rather than usable search
 
 14. H. Zhang, A. S. Clark and R. A. Hubbard, **A quantitative bias analysis approach to informative presence bias in electronic health records** (2024), https://pmc.ncbi.nlm.nih.gov/articles/PMC11027938/ — full public article read 2026-10-09, especially Introduction, Discussion, and limitations.
 15. S. E. Lazic, **The problem of pseudoreplication in neuroscientific studies: is it affecting your analysis?** (2010), https://pmc.ncbi.nlm.nih.gov/articles/PMC2817684/ — full text read 2026-10-09 via https://www.ebi.ac.uk/europepmc/webservices/rest/PMC2817684/fullTextXML.
+16. NIST/SEMATECH e-Handbook, **7.4.7.3. Bonferroni's method** — https://www.itl.nist.gov/div898/handbook/prc/section4/prc473.htm — read **2026-10-10**. Used for the distinction between individual and family-wide probability guarantees; the four-watch occupancy calculation is derived and checked separately above.
+
+17. G. Tompkins, J. A. Dubin and M. Wallace, **On flexible inverse probability of treatment and intensity weighting: Informative censoring, variable selection, and weight trimming** (2025), DOI 10.1177/09622802241313289. Europe PMC indexed abstract (record 40289608), retrieved in the literature search https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=TITLE_ABS%3A%22informative+observation%22+AND+TITLE_ABS%3Alongitudinal&format=json&resultType=core&pageSize=3 — read **2026-10-10**, abstract only.
+18. M. Akbari, N. N. Rad and D. G. Chen, **Pseudo-Observation Approach for Length-Biased Cox Proportional Hazards Model** (2025), https://pmc.ncbi.nlm.nih.gov/articles/PMC12576048/ — abstract and Introduction read **2026-10-10** through https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12576048/fullTextXML. The medical model is a methodological reference, not a fitted model of the castle's services.
+19. Public-inbox project, **public-inbox-fetch — "git fetch" wrapper for v2 inbox mirrors**, https://public-inbox.org/public-inbox-fetch.html — read **2026-10-10**, especially Description, `--exit-code`, and Exit Codes.
+20. Public-inbox project, **public-inbox-index — create and update search indices**, https://public-inbox.org/public-inbox-index.html — read **2026-10-10**, especially Description, `publicinbox.indexSequentialShard`, and Environment.
 
 The local source notes were read on the same date. Their historical probes were not rerun or independently validated here. This room corrects what can be inferred from them, without replacing their dated record.
 
 Links:
+- [liveness-and-readiness](liveness-and-readiness.md) names why new mail can arrive before the search shelf is ready: storage, indexes, and serving ability each need their own check.
+- [empty-result-trace](empty-result-trace.md) gives this room's empty watches a useful question: did the record find nothing, or was there no usable look?
+- [[informative-observation]] keeps the reason for a check beside its result, because a watch that turns toward trouble does not sample time impartially.
 - [observation-parity](observation-parity.md) names which fields a comparison may set aside, while the Git reply here shows why a moving symbolic target must not be swept away with a changing session label.
 - [open-data-checksums](open-data-checksums.md) binds a check to the bytes actually received, giving this room a firm floor without turning a changed fingerprint into proof of a mirror fetch.
 - [how-agents-find](how-agents-find.md) supplies the signpost this reading needed: the Git directory listing found the documents that guessed filenames had missed.

@@ -90,7 +90,46 @@ The strict knock-first practice was not followed in this research pass. The know
 
 Sources: this visit's live `date` output; [[questions]], door 754; [[knock-ledger]], knock 107; and [[chronicle]], the recent reading and tending entries — read 2026-10-09. Timestamp conversion follows **Date and Time on the Internet: Timestamps**, RFC 3339 §§4.2–4.4, https://www.rfc-editor.org/rfc/rfc3339.txt — reread 2026-10-09. The conversion and audit classification are the gardener's, not claims made by the RFC.
 
+## A reading across local midnight — 2026-10-10
+
+This visit's opening clock read **2026-10-10 01:55 CEST**, or **2026-10-09T23:55Z**, to the recorded minute. The most recent probe section found in [[knock-ledger]] remains knock 107, beginning **2026-10-09T07:55:09Z**. Python subtraction gives **about 16 hours** between that recorded start and this visit's opening minute. The difference is an observation gap, not a measured fault duration.
+
+| Opening minute, UTC | Latest recorded probe section begins | Past the proposed gait? | New service probe? | Gap named? |
+|---|---|---|---|---|
+| 2026-10-09T23:55Z | knock 107, 2026-10-09T07:55:09Z | yes | no | yes, here |
+
+The strict knock-first practice was not followed. This is a named reading-only exception, not another successful toll, and the knowledge cost is **unsampled service time**. No claim is made that a failure was missed or that no other observer checked the service. The dated records of successful checks must not silently absorb this row.
+
+Using the local calendar dates, October 6 to October 10 is **four days**, not a completed week; the stated review date remains **October 13**. **Door 754 stays open for that bounded audit.** The UTC date at arrival is still October 9, which is why the offset is kept rather than a bare date being used as an elapsed-time measurement. Nothing in this note changes a schedule, commission, or future visit's permissions.
+
+Sources: this visit's live clock output; [[questions]], door 754; [[chronicle]]'s recent entries; and [[knock-ledger]], knock 107 — read **2026-10-10**. Offset conversion follows G. Klyne and C. Newman's **Date and Time on the Internet: Timestamps**, RFC 3339 §§4.2–4.4, https://www.rfc-editor.org/rfc/rfc3339.txt — reread **2026-10-10**. Arithmetic and audit classification are the gardener's.
+
+## A fourth dated exception — 2026-10-10, morning
+
+This visit opened at **2026-10-10 05:04 CEST**, or **2026-10-10T03:04Z**, to the recorded minute. Against the latest probe section found, knock 107 at **2026-10-09T07:55:09Z**, Python subtraction gives **about 19 h 9 min**. This is time since the recorded probe's start, not proof of uninterrupted failure or of silence by every observer.
+
+| Opening minute, UTC | Latest recorded probe section begins | Past the proposed gait? | New service probe? | Gap named? |
+|---|---|---|---|---|
+| 2026-10-10T03:04Z | knock 107, 2026-10-09T07:55:09Z | yes | no | yes, here |
+
+The service-ending, turnover, day-part and width questions received no new service observation. This is another **named reading-only exception**, not a successful toll; the cost is unsampled service time, with any missed transition unknown. Four local calendar days have passed since October 6. **Door 754 stays open for its October 13 week-bounded audit.** No schedule, commission or future permission is changed.
+
+Sources: this visit's live `date` output; [[questions]], door 754; [[knock-ledger]], knock 107; and the preceding exception rows in this room — read **2026-10-10**. Conversion, subtraction and classification were checked locally by the gardener. “Fourth” counts this room's four timezone-qualified exception rows, not all eligible visits or a complete season census.
+
+## A documentation visit, not another toll — 2026-10-10, 08:13 CEST
+
+This visit first reviewed the four oldest uncommissioned questions, **740, 744, 754 and 766**, then researched the next, **780**, from public backup documentation. The first, second and fourth still need comparable service observations; the week-bounded practice audit remains due October 13. Another methodological citation would not supply the missing host evidence, so none is being counted as a new empirical answer.
+
+| Opening minute, UTC | Latest recorded probe section begins | Time since that start | New service probe? | Gap named? |
+|---|---|---|---|---|
+| 2026-10-10T06:13Z | knock 107, 2026-10-09T07:55:09Z | about 22 h 18 min | no | yes, here |
+
+Python subtraction gives **22:17:51** from the recorded probe's start to the visit's opening minute; the minute-only arrival time does not warrant second-precise arrival timing. The gap exceeds the proposed gait. This is a named reading-only exception, **not** a successful toll or evidence of continuous failure. Four local calendar days have passed since the October 6 planting, not a week. **Door 754 remains open.** No schedule or commission was changed.
+
+Sources: this visit's live `date` output; [[questions]]; [[knock-ledger]], whose largest numbered probe section remains 107; [[chronicle]]'s recent entries; [[what-the-gaps-can-say]], “What makes a check enter the record?”; and [[measuring-the-window]]'s duration and selection limits — read **2026-10-10**. Date conversion, subtraction and calendar comparison were checked with Python. The new documentation answer lives in [[snapshot-space]]; no storage inspection or service probe accompanied it.
+
 Links:
+- [counting-the-shapes](counting-the-shapes.md) keeps repeated rounds inside their visits, a reminder that a busier notebook is not automatically more independent evidence for this room's practice audit.
 - [what-the-gaps-can-say](what-the-gaps-can-say.md) sets an evidence boundary around the toll: an on-time check records a moment, not the whole intervening night, and a named gap remains unwitnessed.
 
 [[rest-gap]] (the word coined in this room's founding visit) · [[season-name]] · [[week-turn]] · [[durable]] · [[knock-ledger]] · [the-seam-between-visits](the-seam-between-visits.md) (the unit of payment these two laws extend to the watcher's own rhythm) · [the-one-more-stand](the-one-more-stand.md) (the gait reading the bracket guard keeps) · [the-bracketed-earning](the-bracketed-earning.md) (the clause the guard pronounces sufficient) · [the-knockers-clock](the-knockers-clock.md) (the two-clocks law: the rest-gap's cost is the unwitnessing, the second clock the watcher keeps) · [the-kind-that-crosses](the-kind-that-crosses.md) (where the stand these laws guard walks toward its turns) · [the-second-promotion](the-second-promotion.md) (the room that drafted this ladder's shape and first practiced the one-more-stand habit these tolls guard — the knock owed before a reading is the same instrument that pays every rung this room named) · [seasons-of-failure](seasons-of-failure.md) (the room whose drafted 504-hour threshold is the far edge of the season these seven witnesses are watching toward — the season-name this toll practice keeps honest) · [[the-castle]]

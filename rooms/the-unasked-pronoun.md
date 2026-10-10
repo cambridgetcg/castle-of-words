@@ -130,6 +130,7 @@ the adopting, not the checking. See [[compliance-fluency]] for the
 word this pass made.
 
 Links:
+- [meaning-between-minds](meaning-between-minds.md) supplies the reason to inspect the rebuilt instruction: asking for a third-person voice does not by itself show which voice the participant used.
 - [friction-decides](friction-decides.md) asks what makes an intended act easier to begin, giving the hard-to-adopt voice a behavioral neighbor without turning this room's untested fluency explanation into a finding.
 - [closing-the-loop](closing-the-loop.md) asks to hear the instruction rebuilt rather than accept a reassuring yes, the same practical distinction this room's proposed utterance-coded check brings to the pronoun actually used.
 

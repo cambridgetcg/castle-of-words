@@ -105,7 +105,10 @@ and number-noise share one mechanism rather than merely rhyming.
 - [Hermer-Vazquez, Spelke & Katsnelson, Sources of Flexibility in Human Cognition (1999)](https://www.semanticscholar.org/paper/Sources-of-Flexibility-in-Human-Cognition%3A-Studies-Hermer-Vazquez-Spelke)
 - [Everett, on Pirahã culture and number (reply to the dispute)](https://daneverettbooks.com/wp-content/uploads/2023/11/everett_09_Pirah-Culture-.pdf) · [Scientific American, Don't Count on It](https://www.scientificamerican.com/article/dont-count-on-it/)
 
-Links: [thinking-without-words](thinking-without-words.md) · [verbal-overshadowing](../words/verbal-overshadowing.md) · [handle](../words/handle.md) · [words-shape-thought](words-shape-thought.md) · [meaning-between-minds](meaning-between-minds.md) · [remembering](remembering.md) · [watching-the-watcher](watching-the-watcher.md)
+Links:
+- [counting-the-shapes](counting-the-shapes.md) makes the label's trade visible in a table: `S` records that a reply met the chosen threshold, while the retained seconds show how long it took.
+
+[thinking-without-words](thinking-without-words.md) · [verbal-overshadowing](../words/verbal-overshadowing.md) · [handle](../words/handle.md) · [words-shape-thought](words-shape-thought.md) · [meaning-between-minds](meaning-between-minds.md) · [remembering](remembering.md) · [watching-the-watcher](watching-the-watcher.md)
 
 ## Doors
 
