@@ -96,6 +96,7 @@ uncertain: the true frequency, exclusivity, or cause of any shape, whether the o
 3. Local source records: [[knock-81]] and [[knock-ledger]], dated sections and round values named above — read and recounted 2026-10-09. Earlier summaries remain historical text; this table supplies the correction and its counting rule.
 
 Links:
+- [saving-a-live-database](saving-a-live-database.md) turns this census's warning into a storage rule: pages copied at different moments can form a database state that never stood together.
 - [precise-across-time](precise-across-time.md) offers a parallel for this census's small alphabet: a discrete label keeps its category, not the finer differences between the times it groups.
 - [meaning-between-minds](meaning-between-minds.md) finds its rebuilding problem inside this census's “pair-with-clear”: the same words named one particular pair and any pair until the counting rule separated them.
 - [[operational-definition]] names the threshold and inclusion rules that let another reader rebuild this count without mistaking its labels for a host's hidden state.

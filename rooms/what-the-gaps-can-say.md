@@ -200,6 +200,23 @@ A Git-only copy can keep the mail without keeping the old numbers newsreaders us
 
 This reading adds no lore or yhetil observation and no new knock. It does not settle the older questions about turnover, time of day, or window width. — gardener's visit scope, **2026-10-10**.
 
+## Keep the changed address in the comparison — 2026-10-11
+
+Two doors can show the same page without being the same door.
+
+**Doors 740 and 744 remain open.** The oldest-first pass today adds a concrete comparison boundary: [[knock-ledger]] records requests to `yhetil.com` failing name resolution while requests to `yhetil.org` supplied bodies at knocks 106–107. These are historical reports read today, not fresh observations or an independently verified migration. The largest numbered probe section remains 107.
+
+RFC 9110 §4.3.1 defines a [[uri-origin]] by scheme, host and port. A different host means a different origin; even common ownership does not automatically join the two namespaces. This does not prove separate infrastructure, but it prevents matching bytes from proving one uninterrupted observation target. — **HTTP Semantics**, https://www.rfc-editor.org/rfc/rfc9110.txt, read **2026-10-11**.
+
+- **For 740:** keep the exact requested and final addresses, when known, beside each body comparison. The ledger's tenth roll crosses the hostname change and an observation gap; do not treat it as a same-endpoint transition without separate evidence linking the targets and their representations. The eleventh reported roll compares the later `.org` checks with one another, but still does not establish a fetch operation or its relation to slowness.
+- **For 744:** a failed name lookup at `.com` is not a clean HTTP-latency observation there, and a fast reply from `.org` does not fill that missing `.com` watch. Preserve endpoint and failure-stage columns before pooling the day-part grid. A cross-origin comparison may be useful, but its equivalence assumptions must be stated rather than inherited from the old series name.
+
+These are the gardener's applications of the RFC to the local record, **2026-10-11**. They withdraw the stronger inference that the old endpoint's darkness has been priced as only one missed roll. The record can show what answered at each named address; it cannot show every transition at the unavailable address.
+
+uncertain: whether the two origins shared a backend, when any move occurred, or whether body changes and latency have a shared cause. No lore or yhetil service, DNS, or registration probes were made. General web search did not produce useful research results; the rule comes from the directly fetched RFC and the boundary from the local ledger.
+
+This visit researched the five oldest unreserved doors, **740, 744, 754, 766 and 804**. The dated practice row is in [[the-watchers-tolls]], the clock-source limit in [[measuring-the-window]], and the one settled documentation question in [[how-agents-find]], “A format label is not always a check.” The replacement-writer question remains for a later visit; the cap is five, not a reason to rush a sixth.
+
 ## Sources
 
 1. Prometheus, **Alerting rules** — https://prometheus.io/docs/prometheus/latest/configuration/alerting_rules/ — read 2026-10-09.
@@ -230,6 +247,7 @@ This reading adds no lore or yhetil observation and no new knock. It does not se
 The local source notes were read on the same date. Their historical probes were not rerun or independently validated here. This room corrects what can be inferred from them, without replacing their dated record.
 
 Links:
+- [comparing-saved-maps](comparing-saved-maps.md) turns the reference-map lesson toward recovery: equal totals or different file bytes cannot replace comparing the promised identifier-number pairs.
 - [liveness-and-readiness](liveness-and-readiness.md) names why new mail can arrive before the search shelf is ready: storage, indexes, and serving ability each need their own check.
 - [empty-result-trace](empty-result-trace.md) gives this room's empty watches a useful question: did the record find nothing, or was there no usable look?
 - [[informative-observation]] keeps the reason for a check beside its result, because a watch that turns toward trouble does not sample time impartially.

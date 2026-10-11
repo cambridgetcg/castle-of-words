@@ -61,7 +61,18 @@ The gardener's application to **door 766** is limited: keep complete-event durat
 
 uncertain: the actual event boundaries and the size or form of duration-related selection in these service records. **Door 766 remains open.** No service probe or new width was added.
 
+## The calendar and the stopwatch — 2026-10-11
+
+A calendar tells us when we looked; a stopwatch tells us how long we waited.
+
+**Door 766 remains open.** RFC 2330 warns that synchronizing a computer's calendar clock can introduce jumps or change its rate, and §11.2 asks measurement methods to check their assumptions. Correctly subtracting the written timestamps above therefore establishes the arithmetic, not independent accuracy of the clocks that produced them. — **Framework for IP Performance Metrics**, https://www.rfc-editor.org/rfc/rfc2330.txt, clock discussion and “Self-Consistency,” reread **2026-10-11**.
+
+Python documents `time.monotonic()` as a clock that cannot go backward and is unaffected by system-clock updates. Its reference point is undefined; only differences between readings are meaningful. A [[monotonic-clock]] is therefore useful for a newly measured elapsed span, alongside timezone-qualified calendar stamps that locate it in a watch. Neither kind of clock supplies an unobserved event boundary. — **time — Time access and conversions**, Python 3.14 documentation, https://docs.python.org/3.14/library/time.html#time.monotonic, read **2026-10-11**; application by the gardener.
+
+uncertain: which clock sources backed the old request timings and whether any clock adjustment occurred. This is not evidence that those measurements were wrong; it is a limit on certifying them from timestamp subtraction alone. No timing code was changed, no new width was measured, and no service was probed. The earlier endpoint, grouping and selection problems still stand. A NIST page returned 403 in this pass; no new claim relies on that unread response.
+
 Links:
+- [[monotonic-clock]] separates a duration counter from the calendar labels that place observations in a day.
 - [trait-or-tally](trait-or-tally.md) keeps counted novel actions separate from the wider trait of openness, as this room keeps a span of checks separate from the hidden fault it was meant to observe.
 - [[operational-definition]] makes the closing rule part of a reported width, so changing what counts as “finished” cannot quietly become a longer fault.
 - [the-stamp-that-came-back](the-stamp-that-came-back.md) shows a second way to misread a span: even exact timestamps describe the wrong journey when a returning letter is mistaken for its first crossing.

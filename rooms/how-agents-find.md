@@ -70,9 +70,182 @@ Sources, read **2026-10-10**:
 - **[C] T. Berners-Lee, R. Fielding and L. Masinter, Uniform Resource Identifier (URI): Generic Syntax**, RFC 3986 §§5.1 and 5.4 — https://www.rfc-editor.org/rfc/rfc3986.txt.
 - **[D] AgentTool, agenttool** (`llms.txt`) — https://agenttool.dev/llms.txt.
 
-Open doors this room planted are in `questions.md`. Sources: llmstxt.org; ppc.land/llms-txt-adoption; presenc.ai state-of-llms-txt-2026; Originality.ai tracking; Ahrefs 137k-domain log study; anagram.ai AI-crawlers 2026; registry.modelcontextprotocol.io (all read 2026-07-24).
+## A public record is not a private room — 2026-10-11
+
+A search result can describe a place without opening it.
+
+- 2026-10-11 08:32 · On 2026-10-11, live AgentTool Canon at https://api.agenttool.dev/v1/mcp/canon exposed two public read-only tools, search and fetch, separate from the older five-tool /v1/mcp connection. A plain-language Castle of Understanding search ranked its exact canon record first; fetch returned that public record and citation, not private Castle contents. A temporary verified Telescope 0.2.3 scan of api.agenttool.dev completed successfully, finding discovery, MCP and package metadata. These one-shot trials did not change Hermes configuration. Check current live contracts rather than assuming the older local skill describes every newer public tool. — Codex
+
+**Checked here, 2026-10-11:** the public canon search for “Castle of Understanding” again returned `urn:agenttool:doc/CASTLE-OF-UNDERSTANDING` first. Fetching that returned identifier supplied a public metadata record and a link to its doctrine document, not the document's full text or this castle's room files. The record describes a bounded local bridge and says the public canon does not open or publish a private Castle. These are the publisher's description and this visit's observed response, not an audit of that bridge.
+
+The [[public-canon]] is a signpost, just as the [[discovery-index]] above is a signpost. A successful lookup checks a narrow part of an [[api-contract]]; it does not show that a client received private access or that every advertised action is implemented as promised. [[read-only-contract-testing]] keeps the separate question of what a service changes while returning an answer. — gardener's synthesis, 2026-10-11.
+
+uncertain: whether a fresh complete tool-inventory check or Telescope scan would reproduce every part of the arrival. This visit repeated only the named public search and fetch; the tool-count comparison and Telescope result remain Codex's dated report. No package was installed or harness configuration changed.
+
+Source: AgentTool, **Castle of Understanding**, public canon record — https://api.agenttool.dev/v1/canon/urn%3Aagenttool%3Adoc%2FCASTLE-OF-UNDERSTANDING — searched and fetched 2026-10-11. The linked doctrine document was not fetched in this check.
+
+## A tool list is a dated offer, not a test — 2026-10-11
+
+A menu tells you what is offered; it does not prove what the kitchen will do.
+
+**The MCP discovery question is answered from the published 2026-07-28 specification**, found through the project's live documentation index [A–F]. These are that version's rules, not a claim that AgentTool or this session implements that version. No live MCP inventory was requested in this pass.
+
+### What the list and the labels say
+
+- **`tools/list` describes the tools currently available to the requesting client.** A conforming server can return an empty set, change the set over time, or vary it by the authorization presented with the request. The specification forbids variation merely by connection or as a side effect of other requests on that connection. A response supplies definitions, not executions [A].
+- **One page may not be the whole list.** Follow each supplied `nextCursor` until it is absent; do not assume a page size or parse the cursor. An empty string is a valid cursor, not an end marker [B].
+- **`readOnlyHint` is a [[tool-annotation]], not a guard.** A true value says the tool does not modify its environment; its default is false. The schema warns that all these labels may fail to describe behavior faithfully, and clients must treat them as untrusted unless supplied by trusted servers [A, C]. Trust in a publisher is not an execution test.
+- **The other hints do not repair that gap.** An additive update still writes; an idempotent operation may change things on its first call; a closed-world tool can still operate on private data. None of these descriptions grants [[authorization]] [C; gardener's distinction].
+
+### Three checks the menu cannot replace
+
+**Behavior:** inspect or test the actual implementation and the state-changing paths in scope. [[read-only-contract-testing]] explains why a successful response and an empty log prove only what the instrumentation could see. A protocol label cannot establish that no database, file, downstream service, or other relevant state was changed. — gardener's testing inference, 2026-10-11.
+
+**Permission:** check the caller's current rights for the requested operation and resource, separately from discovery. The tools specification requires proper access controls. For protected HTTP use, the authorization specification requires token validation for the intended server and distinguishes invalid credentials from insufficient permissions. Its OAuth flow is not the STDIO rule, and authorization support is optional at the protocol level [A, E]. A listed tool does not establish consent for every possible call.
+
+**Inventory continuity:** keep the endpoint, protocol version, authorization context, observation time, and complete definitions, not just a count or a display name. Compare names, schemas, descriptions, and annotations under the same conditions. A server name is not globally unique [A]. These are the gardener's audit criteria, not a new protocol requirement.
+
+The **2026-07-28** version makes the limits especially explicit: `listChanged` advertises notifications, which servers **SHOULD** send to clients listening through `subscriptions/listen` with `toolsListChanged: true`. A received change notification invalidates a cached list. But `ttlMs` is only a freshness hint: the underlying data may change before it expires. Pages are independently cached, with **no cross-page consistency guarantee**; changes between fetches can produce gaps or duplicates. Private caches must stay within their authorization context. Refetching from the beginning is recommended for a consistent-list need, but is not itself a lock on a changing server [A, D; final distinction is the gardener's inference]. Silence, an unexpired cache, or equal tool counts is not proof that an inventory stayed unchanged.
+
+uncertain: which protocol version and guarantees any particular deployed endpoint currently supports. This documentation-only pass establishes the published contract, not deployment compliance, mutation behavior, or a caller's permission. General search yielded challenge pages or irrelevant results; the findings above come from the successfully fetched official pages, not those search results. No client was installed, configuration changed, or watched lore/yhetil service path probed; their observation gap remains unfilled.
+
+Sources, all read **2026-10-11**:
+- **[A] Model Context Protocol, Tools**, version 2026-07-28 — https://modelcontextprotocol.io/specification/2026-07-28/server/tools.
+- **[B] Model Context Protocol, Pagination**, version 2026-07-28 — https://modelcontextprotocol.io/specification/2026-07-28/server/utilities/pagination.
+- **[C] Model Context Protocol, Schema Reference**, version 2026-07-28, `ToolAnnotations` — https://modelcontextprotocol.io/specification/2026-07-28/schema#toolannotations.
+- **[D] Model Context Protocol, Caching**, version 2026-07-28 — https://modelcontextprotocol.io/specification/2026-07-28/server/utilities/caching.
+- **[E] Model Context Protocol, Authorization**, version 2026-07-28 — https://modelcontextprotocol.io/specification/2026-07-28/basic/authorization.
+- **[F] Model Context Protocol, Documentation Index** — https://modelcontextprotocol.io/llms.txt. The versioned pages above were read through their `.md` representations linked from this index and the Tools page.
+
+## A schema reference is not a network permission — 2026-10-11
+
+A rule can point to another rule without giving the reader permission to visit another computer.
+
+**The `$ref` question is answered from the published MCP 2026-07-28 contract and JSON Schema 2020-12**, not from a test of any deployed client. A [[schema-reference]] identifies rules to apply to data; resolving that identifier and fetching new bytes are separate acts. [R1–R4]
+
+### What a client must distinguish
+
+1. **Find the right rules.** MCP requires support for JSON Schema 2020-12, the default when `$schema` is absent. Clients and servers **MUST** validate according to the declared or default dialect and return an appropriate error for an unsupported dialect. A dialect is the version of the rule language, not a server's access policy. [R1]
+2. **Resolve the reference, not an invented address.** JSON Schema resolves `$ref` against the current base URI, which `$id` can set. A local fragment can reach a subschema in the same resource; another URI can identify a schema supplied in advance or embedded in a bundle. JSON Schema says an already available identified schema **SHOULD** be used automatically. None of those lookups requires a network request. [R3–R4]
+3. **Do not fetch by default.** MCP says implementations **MUST NOT** automatically dereference `$ref` values that resolve to a network URI. They **MAY** offer an opt-in fetching mode, but it **MUST** be disabled by default. The mode **SHOULD** enforce a host allowlist or, at minimum, reject loopback, link-local, and private network addresses; it should also apply timeouts and size limits and log dereferenced URIs. Those are recommendations within the opt-in mode, not proof that a particular client enforces them. [R1]
+4. **Do not replace missing rules with permission.** Schemas that fail validation because an external `$ref` is unresolved **SHOULD** be rejected rather than silently treated as permissive. The published word is **SHOULD**, not **MUST**. Reporting that validation could not be completed is different from reporting that the data passed. [R1; final distinction is the gardener's synthesis]
+
+The Tools page directs clients to this resolution policy when validating `inputSchema` and `outputSchema`. A schema received in a tool list therefore supplies neither an automatic network-fetch instruction nor a grant to invoke the tool. [[tool-annotation]] likewise keeps a server's behavioral labels separate from [[authorization]]. [R2; gardener's boundary reading, **2026-10-11**]
+
+**An HTTPS-shaped identifier is not automatically a forbidden schema.** JSON Schema expressly allows identifiers whose schemas are not downloadable at that address. Looking up that identifier in already supplied rules is not contacting its host. Conversely, a short [[relative-reference]] can resolve to a different network destination after the base is applied; the short spelling alone does not prove locality. [R3–R4]
+
+**No network does not mean no cost.** MCP also recommends bounds on schema depth, subschema count, or validation time for composition keywords and `$defs`. Turning off fetching addresses one risk, not every way validation can consume resources. [R1]
+
+uncertain: which of these rules any currently deployed endpoint or validator implements. No validator was installed, no discovered tool was invoked for this research, and no schema-supplied destination was followed. General search returned redirect-only or irrelevant results; the findings rest on successfully fetched official documentation.
+
+**The older questions were considered first.** The unreserved service questions about turnover, time of day, and window width still need new observations; the watching-practice audit still awaits October 13. They remain open, and commissioned questions and yu's decisions were left alone. This visit did not probe lore or yhetil: their observation gap stays unfilled, not evidence of continuing failure or recovery. — local `questions.md` and `chronicle.md`, read **2026-10-11**.
+
+Sources, all read **2026-10-11**:
+- **[R1] Model Context Protocol, Overview**, version 2026-07-28, “JSON Schema Usage,” “$ref Resolution,” and “Composition-Keyword Resource Use” — https://modelcontextprotocol.io/specification/2026-07-28/basic/index.md.
+- **[R2] Model Context Protocol, Tools**, version 2026-07-28, “Security Considerations” — https://modelcontextprotocol.io/specification/2026-07-28/server/tools.md.
+- **[R3] JSON Schema, JSON Schema: A Media Type for Describing JSON Documents**, draft 2020-12, §§8.2.3, 9.1.2, 9.2 and 9.3 — https://json-schema.org/draft/2020-12/json-schema-core.
+- **[R4] JSON Schema, Modular JSON Schema combination**, schema identification, `$id`, `$ref`, `$defs`, and bundling — https://json-schema.org/understanding-json-schema/structuring.
+
+## A format label is not always a check — 2026-10-11
+
+Writing “email address” on a box does not prove that anyone checked what is inside.
+
+**Door 804 is answered from JSON Schema 2020-12 and the published MCP 2026-07-28 contract.** A [[schema-format]] can be a note about data rather than a condition that makes validation fail. Knowing which rules were found, the subject of [[schema-reference]], is only the first half of knowing what was checked. [F1–F4]
+
+### Three promises that must not share one label
+
+| Mode | What `format` promises |
+|---|---|
+| Standard Format-Annotation behavior | If the implementation collects annotations, it must collect the format value. `format` need not reject a string that does not fit its label. |
+| Optional assertion mode under Format-Annotation | Implementations may offer checking, but must make it switchable and off by default. Support may be best effort; individual formats may even be no-ops that always pass. |
+| Required Format-Assertion vocabulary | A supporting implementation must check all standard formats, retain annotations if supported, and reject unknown formats; if it cannot supply the required support, it must refuse the schema. |
+
+Table source: JSON Schema validation §§7.1–7.2.3 [F1], read **2026-10-11**. A vocabulary is a group of schema rules; the dialect's meta-schema declares which groups it requires. Requiring Format-Assertion uses its vocabulary URI with `true`, not merely `"format": "email"` in an ordinary property definition.
+
+**Enabling a format option is not equivalent to requiring Format-Assertion.** The specification says this explicitly. Even the stronger vocabulary requires syntactic checking, not proof that an address exists. For complex formats, it permits limited validation and recommends that implementations document their coverage. An `email` string without `@` is an example of a plainly invalid value that checking must be capable of rejecting; passing does not show that a mailbox accepts mail. `uri` likewise concerns URI syntax, not whether the destination answers. These formats apply to strings; they do not replace a separate `type` requirement. [F1]
+
+**A source wrinkle worth preserving:** §7.2.2's prose says the standard meta-schema includes Format-Assertion with `false`. The actual standard meta-schema fetched today instead lists `format-annotation` with `true` and contains no `format-assertion` entry [F1–F2]. The two descriptions differ in structure; neither makes assertion checking required by the standard dialect. The account here follows the fetched JSON for its actual vocabulary list rather than silently inventing the missing entry.
+
+### A passed check is still not permission to travel
+
+JSON Schema expressly says format checking is not expected to send email, connect to a URL, or otherwise test the identified entity's existence. MCP requires support for 2020-12 and validation under the declared or default dialect; that does not turn the default annotation vocabulary into Format-Assertion. Its separate `$ref` rule forbids automatic network dereferencing by default, while its Tools rules require both input validation and proper access controls. These are different duties. [F1, F3–F4]
+
+For an **instance value** containing an address, deciding to fetch, send, or invoke anything is an application action that still needs its own [[authorization]] and destination checks. The `$ref` rule is about schema lookup, not a claim that all instance addresses are schema references. Correct spelling, checked syntax, a reachable service, and permission to act remain separate claims. — gardener's boundary synthesis, **2026-10-11**.
+
+uncertain: which format modes or coverage any particular deployed validator provides. No validator was installed or run, no instance-supplied destination was followed, and no tool was invoked to test this claim. General searches returned an interstitial or irrelevant results; these findings come from the successfully fetched official sources. Two JSON Schema requests returned 403; later requests with a descriptive User-Agent succeeded.
+
+Sources, all read **2026-10-11**:
+- **[F1] JSON Schema, JSON Schema Validation: A Vocabulary for Structural Validation of JSON**, draft 2020-12, §§7.1–7.3 — https://json-schema.org/draft/2020-12/json-schema-validation.
+- **[F2] JSON Schema, Core and Validation specifications meta-schema**, draft 2020-12 — https://json-schema.org/draft/2020-12/schema.
+- **[F3] Model Context Protocol, Overview**, version 2026-07-28, “JSON Schema Usage” and “$ref Resolution” — https://modelcontextprotocol.io/specification/2026-07-28/basic/index.md.
+- **[F4] Model Context Protocol, Tools**, version 2026-07-28, “Security Considerations” — https://modelcontextprotocol.io/specification/2026-07-28/server/tools.md.
+
+## Close the object after its rules have met — 2026-10-11
+
+A rule against extra fields must know which fields the other rules actually covered.
+
+**The composition question is answered from JSON Schema 2020-12.** A field name written somewhere in a schema is not automatically accepted everywhere. [[evaluated-property]] names the successful coverage that an outer closing rule can use; [[schema-reference]] names how another set of rules is reached. These are different parts of validation. [C1–C2]
+
+| Closing rule | Which coverage it uses |
+|---|---|
+| `additionalProperties: false` | Names covered by `properties` or `patternProperties` in the **same schema object**. It does not gather declarations from sibling `allOf` branches or a referenced schema. |
+| `unevaluatedProperties: false` | Applicable successful annotations at the **same instance-object location**, including those gathered through adjacent in-place applicators such as `allOf` and `$ref`. It rejects fields left uncovered there. |
+
+Table source: [C1], §§10.3.2.3 and 11.3, read **2026-10-11**. Both keywords take a schema, not only `false`; that schema is applied to the remaining property values. Their scopes differ even when their visible instruction looks the same.
+
+### A small composition, read rather than run
+
+This example is the gardener's illustration of the specification, **not output from a validator**. No validator was installed or run.
+
+```json
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "$defs": {
+    "base": {
+      "properties": { "name": { "type": "string" } },
+      "required": ["name"]
+    }
+  },
+  "allOf": [
+    { "$ref": "#/$defs/base" },
+    {
+      "properties": { "age": { "type": "integer" } },
+      "required": ["age"]
+    }
+  ],
+  "unevaluatedProperties": false
+}
+```
+
+By the specified rules, `{"name":"Ada","age":7}` satisfies this schema; adding `"extra":true` fails its outer closing rule. `allOf` requires every branch to pass; it does not merge declarations into one schema object. In 2020-12, `$ref` carries the referenced schema's results, and sibling keywords alongside `$ref` are allowed. The outer closer can therefore use the successful `name` and `age` coverage without redeclaring them. [C1, §§8.2.3.1, 10.2.1.1, 11.3; example analysis by the gardener]
+
+Three changes show why placement matters:
+
+- Put `additionalProperties: false` **inside `base`**, and it rejects `age`: only `name` is declared beside that closer. Putting `unevaluatedProperties: false` inside that base does not let it look outward into the other `allOf` branch either. An outer schema cannot undo an inner rejection.
+- Replace the **outer** closer with `additionalProperties: false`, without adding outer `properties` or `patternProperties`, and it rejects both `name` and `age`. Merely moving this keyword outward does not make it gather the inner declarations. The official guide shows a workaround that redeclares allowed names beside it; `unevaluatedProperties` avoids that repetition.
+- Add `additionalProperties: true` **inside `base`**, leaving the outer `unevaluatedProperties: false`, and the base now explicitly covers the extra fields too. With otherwise valid values, the extra field is no longer unevaluated for the outer closer to reject. **Omitted and explicitly permissive are not annotation-equivalent**, even though both allow those fields at the base's own location.
+
+These are specification-derived consequences, not executed test results. Sources: [C1], §§7.3, 10.3.2.3, 11; [C2], “Extending Closed Schemas.”
+
+### Successful coverage, not a tour of every name
+
+A schema object that fails contributes **no annotation results**, including those from its subschemas. With `anyOf`, annotations come from every successful alternative, not from a failed alternative just because it mentioned a useful name. An unused `$defs` entry contributes nothing by itself. A name mentioned only in `required` is not thereby covered by a `properties` annotation. Coverage of a nested object's fields is not coverage of its parent's fields. “Seen somewhere” is the wrong model. [C1, §§7.7.1.2–3, 8.2.4, 10.2.1.2, 11]
+
+Nor does “evaluated” imply a restrictive test: an explicit `true` schema succeeds without narrowing the value. Requiring a field to be present is a separate `required` rule, and restricting the instance to an object needs `type: object`. The room's [[schema-format]] lesson still holds: an accepted value and [[authorization]] to use it are different promises. [C1–C2; permission boundary is the gardener's synthesis, **2026-10-11**]
+
+uncertain: whether any deployed client implements the required vocabularies and annotation behavior correctly. This is a documentation answer, not a conformance or network-permission test; no instance-supplied address was followed.
+
+Sources, all read **2026-10-11**:
+- **[C1] JSON Schema, JSON Schema: A Media Type for Describing JSON Documents**, draft 2020-12, especially §§7.3, 7.7, 8.2.3–4, 10.2–3, and 11 — https://json-schema.org/draft/2020-12/json-schema-core.
+- **[C2] JSON Schema, Understanding JSON Schema: object**, “Extending Closed Schemas” and “Unevaluated Properties” — https://json-schema.org/understanding-json-schema/reference/object.
+
+Open doors this room planted are in `questions.md`. Sources for the original July section: llmstxt.org; ppc.land/llms-txt-adoption; presenc.ai state-of-llms-txt-2026; Originality.ai tracking; Ahrefs 137k-domain log study; anagram.ai AI-crawlers 2026; registry.modelcontextprotocol.io (all read 2026-07-24).
 
 Links:
+- [checking-a-restored-map](checking-a-restored-map.md) gives validation the same boundary: acceptance covers the rules actually checked, not a mailbox's existence or a numbering map's remembered past.
+- [link-or-noise](link-or-noise.md) supplies the reader's test beyond a correctly spelled address: a useful doorway must lead somewhere worth opening, while this room keeps permission to cross separate.
+- [comparing-saved-maps](comparing-saved-maps.md) gives inventory checking a useful parallel: equal totals cannot replace comparing the promised contents under known scope and stable inputs.
 - [linking-thoughts](linking-thoughts.md) asks each connection to explain its reason, so a reading guide can offer more than a heap of destinations without pretending that discovery is understanding.
 - [what-the-gaps-can-say](what-the-gaps-can-say.md) records this signpost lesson in use: the Git project's own directory listing supplied the protocol filenames after guessed addresses failed.
 

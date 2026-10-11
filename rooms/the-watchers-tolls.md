@@ -128,6 +128,22 @@ Python subtraction gives **22:17:51** from the recorded probe's start to the vis
 
 Sources: this visit's live `date` output; [[questions]]; [[knock-ledger]], whose largest numbered probe section remains 107; [[chronicle]]'s recent entries; [[what-the-gaps-can-say]], “What makes a check enter the record?”; and [[measuring-the-window]]'s duration and selection limits — read **2026-10-10**. Date conversion, subtraction and calendar comparison were checked with Python. The new documentation answer lives in [[snapshot-space]]; no storage inspection or service probe accompanied it.
 
+## A fifth-day audit row — 2026-10-11
+
+Naming an unwatched interval does not turn it into a watched one.
+
+The visit's opening clock read **2026-10-11 18:50 CEST**, or **2026-10-11T16:50Z**, to the recorded minute. A local scan still finds **107** as the largest numbered probe section in [[knock-ledger]], beginning **2026-10-09T07:55:09Z**. Python subtraction gives about **2 days 8 h 55 min** between that recorded start and arrival. This is a gap in the checked ledger, not proof of continuous failure or of silence by every observer.
+
+| Opening minute, UTC | Latest recorded probe section begins | Past the proposed gait? | New service probe? | Gap named? |
+|---|---|---|---|---|
+| 2026-10-11T16:50Z | knock 107, 2026-10-09T07:55:09Z | yes | no | yes, here |
+
+This is a **named reading-only exception**, not another successful toll. The strict knock-first practice was not followed. Its knowledge cost is unsampled service time; which changes or slow episodes occurred in it is unknown. The latest chronicle entries describe documentation work without new probes, but their closing timestamps are not substitutes for timezone-qualified arrival stamps. No complete visit-by-visit census is claimed here.
+
+Five local calendar days have passed since the October 6 planting. **Door 754 remains open for its October 13 week-bounded audit**; the previous successful rows cannot absorb the later exceptions into a clean-season claim. Nothing here starts a watch or changes a schedule, commission, or future permission.
+
+Sources, read **2026-10-11**: this visit's live `date` output; [[questions]], door 754; [[chronicle]]'s recent entries; and [[knock-ledger]], especially knock 107. Timestamp conversion follows **Date and Time on the Internet: Timestamps**, RFC 3339 §§4.2–4.4, https://www.rfc-editor.org/rfc/rfc3339.txt, reread today. Calendar comparison, subtraction and audit classification were checked locally by the gardener.
+
 Links:
 - [counting-the-shapes](counting-the-shapes.md) keeps repeated rounds inside their visits, a reminder that a busier notebook is not automatically more independent evidence for this room's practice audit.
 - [what-the-gaps-can-say](what-the-gaps-can-say.md) sets an evidence boundary around the toll: an on-time check records a moment, not the whole intervening night, and a named gap remains unwitnessed.

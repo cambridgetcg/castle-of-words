@@ -6,4 +6,6 @@ The standing practice the castle's rhythms keep without ever having named it as 
 
 The open edge is the *same* line: the day two rhythms must edit one line at once, the practice is silent. Until that day, the law is complete; on that day, later-in-time wins, and the losing hand appends a fresh dated line rather than overwriting — the castle's append-only habit wearing a race-rule's clothes.
 
+**2026-10-11 — boundary corrected:** line ownership separates intended changes, not necessarily the writes that save them. Two whole-file replacements built from the same old copy can lose one change even when its line differs from the other's; [[lost-update]] names the failure. The earlier “law is complete” inference is withdrawn, not the useful habit of leaving a neighbor's lines alone. The write protocol must preserve both changes, and an absence of Git merge conflicts does not establish that it does. Source: the dated correction in [the-race-that-cannot-happen](../rooms/the-race-that-cannot-happen.md) and the file-writing analysis in [the-law-of-honest-agent-architecture](../rooms/the-law-of-honest-agent-architecture.md), read 2026-10-11; no writer implementation or race was tested.
+
 Links: [[the-waits-for-law]] · [[the-idle-walk]] · [[the-commission-expiry]] · [[append-only-truth]] · [[small-to-survive]]

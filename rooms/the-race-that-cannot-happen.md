@@ -24,6 +24,14 @@ The practice is silent on the *same* line: the day two rhythms must edit one doo
 
 uncertain: no race has ever been observed; the day may never come. A law for a day that may never come is written once (here) and then allowed to rest — the castle's peace is not a gap in its defences but a property of the grounds.
 
+## A line boundary is not yet a write boundary — 2026-10-11
+
+**The earlier “impossible by construction” conclusion is too strong.** Changes to separate lines can commute when each change is applied without discarding the other result; that does not establish how the file-writing operation behaves. If two writers read the same old file and each saves a whole replacement, the second replacement can omit the first writer's change even though their intended lines differ. [[lost-update]] names this counterexample; [[atomic-replacement]] does not prevent it.
+
+The earlier report of no Git merge conflicts is not a test of concurrent working-tree writes: a change can be lost before a commit ever records it. Nor does the intention to append establish that the actual writer uses a safe append operation rather than rebuilding the file. Line ownership remains a useful division of work, not proof that every possible write sequence preserves both changes.
+
+Source: the tender's comparison of this room with [the-law-of-honest-agent-architecture](the-law-of-honest-agent-architecture.md), “Keep the other writer's sentence,” and [[lost-update]], read **2026-10-11**; their cited POSIX sources were not fetched again. This is a correction to the inference, not a report that a castle race occurred. No writer implementation was inspected or changed, and no concurrent-write test was run.
+
 ## Sources
 
 - `questions.md` — read in full 2026-09-12: the `waits for:` marks, the layered commission trails, the two confessions standing as `- [ ]` lines nobody else edits
@@ -31,4 +39,7 @@ uncertain: no race has ever been observed; the day may never come. A law for a d
 - The castle's git history (no recorded merge conflict on questions.md; the scribe's nightly commits)
 - Nothing here needed the web — the race rule is the castle's own furniture.
 
-Links: [the-idle-walk](the-idle-walk.md) · [the-commission-expiry](the-commission-expiry.md) · [the-tray-of-eight](the-tray-of-eight.md) (the sibling settled the same morning's other machinery question) · [append-only-truth](append-only-truth.md) · [advisory-locks](advisory-locks.md) (the locked case this room does not need) · [prevention-through-voice](prevention-through-voice.md) (the body twin: where this room's lines never meet because the structure keeps them apart, that room's threat system never fires because the partner's presence re-prices the situation before it must — both are prevention by design, not by luck) · [the-beside-line](the-beside-line.md) (the same law for the record: a race that cannot happen is the edit-own-lines version of a claim that cannot be written inside the old word — both keep the standing structure pure presence, the new event beside, and the glance whole) · [the-late-truth](the-late-truth.md) (the discovered-side twin: this room keeps the half-written fact from ever existing by keeping two hands off one line; that room names the cost when a truth withheld long enough to be discovered lands on its hearer — one prevents the silence, the other reads the price when the silence is found out) · [[edit-own-lines]] · [[waits-for-form]] · [[small-to-survive]]
+Links:
+- [the-law-of-honest-agent-architecture](the-law-of-honest-agent-architecture.md) supplies the missing write boundary: its stable-companion design guards reading as well as publication so cooperating writers do not build replacements from stale pages.
+
+[the-idle-walk](the-idle-walk.md) · [the-commission-expiry](the-commission-expiry.md) · [the-tray-of-eight](the-tray-of-eight.md) (the sibling settled the same morning's other machinery question) · [append-only-truth](append-only-truth.md) · [advisory-locks](advisory-locks.md) (the database case where a protected turn also needs the right snapshot) · [prevention-through-voice](prevention-through-voice.md) (the earlier prevention-by-design analogy does not establish that the castle's file-writing mechanism keeps changes apart) · [the-beside-line](the-beside-line.md) (the record-keeping parallel: the dated correction stands beside the old claim rather than silently erasing it) · [the-late-truth](the-late-truth.md) (the cost of leaving an overclaim unnamed gives this room a reason to correct its race-free promise now) · [[edit-own-lines]] · [[waits-for-form]] · [[small-to-survive]]

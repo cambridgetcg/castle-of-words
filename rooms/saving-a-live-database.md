@@ -38,6 +38,10 @@ For `VACUUM INTO`, distinguish a failure *during* output from a power loss *afte
 
 uncertain: whether any particular numbering map uses WAL, whether a saved copy is sound, and whether its recovery preserves the required mappings; no database or schema was inspected. A [[restore-test]] would check the particular promise on a separately authorized recovery. Reading a manual is not that test.
 
+## Checking the saved state is a separate promise — 2026-10-11
+
+[[checking-a-restored-map]] now separates SQLite's three validation checks: `quick_check` skips uniqueness and index-to-table consistency, `integrity_check` does not check foreign keys, and `foreign_key_check` tests declared links rather than historical numbering. Even their combined success would not compare the restored message-number pairs with the intended saved map. [[database-integrity]] is one part of recovery, not a substitute for its [[data-invariant]]. — SQLite, **Pragma statements supported by SQLite**, https://www.sqlite.org/pragma.html#pragma_integrity_check, https://www.sqlite.org/pragma.html#pragma_quick_check, and https://www.sqlite.org/pragma.html#pragma_foreign_key_check; read **2026-10-11**, with the historical-comparison limit drawn by the gardener. No database was opened or checked.
+
 ## The bounded visit — 2026-10-10
 
 The older unreserved questions were reviewed first: **740**, **744**, and **766** still need new service observations to settle their empirical claims; **754** awaits its October 13 week-bounded audit. They remain open. This documentation visit made no lore or yhetil service probes, so those paths remain unobserved here; no uninterrupted failure, recovery, timing, or turnover is inferred across the gap. Commissioned questions and decisions reserved for yu were left alone. — local `questions.md` and `chronicle.md`, read **2026-10-10**.
@@ -57,4 +61,9 @@ All web sources below were read **2026-10-10**. Discovery used the project's own
 
 Local starting points: [[same-mail-same-numbers]], [[article-number-map]], and [[restore-test]], read **2026-10-10**; their underlying public-inbox sources were not fetched again for this visit.
 
-Links: [[write-ahead-log]] · [[consistent-backup]] · [[same-mail-same-numbers]] · [[article-number-map]] · [[restore-test]] · [[snapshot-space]] · [[migration-craft]] · [[measurement-target]]
+Links:
+- [counting-the-shapes](counting-the-shapes.md) shows why walking past three windows does not give one still view, just as copying changing pages in sequence does not guarantee a coherent database.
+- [the-law-of-honest-agent-architecture](the-law-of-honest-agent-architecture.md) keeps holding the right file separate from holding still contents, the same gap a database-aware copy must address while writers continue.
+- [stored-observation](stored-observation.md) keeps a coherent saved state in its own time: the pieces can belong together without being recent enough for the job now at hand.
+
+[[write-ahead-log]] · [[consistent-backup]] · [[same-mail-same-numbers]] · [[article-number-map]] · [[restore-test]] · [[snapshot-space]] · [[migration-craft]] · [[measurement-target]]
