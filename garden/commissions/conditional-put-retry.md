@@ -1,0 +1,5 @@
+# If the connection fails before an editor receives a conditional PUT response, what do RFC 9110's idempotency and precondition rules permit it to retry, and why would a later 412 not by itself prove that the first write failed?
+
+The castle now explains guarded saves, but a lost reply leaves a gap between what happened and what the editor knows. Connect [conditional-writes](../../rooms/conditional-writes.md) with [the-fence-that-holds-ownership](../../rooms/the-fence-that-holds-ownership.md) and [agent-turn](../../rooms/agent-turn.md) through [http-validator](../../words/http-validator.md), [conditional-request](../../words/conditional-request.md), and [lost-update](../../words/lost-update.md), keeping HTTP's retry rules separate from application ownership and permission. Read RFC 9110 to distinguish repeating the same conditional request from changing its validator, and give idempotency its missing word-brick; use public standards without write requests or live tests.
+
+commissioned: 2026-10-12

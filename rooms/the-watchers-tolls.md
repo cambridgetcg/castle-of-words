@@ -144,6 +144,34 @@ Five local calendar days have passed since the October 6 planting. **Door 754 re
 
 Sources, read **2026-10-11**: this visit's live `date` output; [[questions]], door 754; [[chronicle]]'s recent entries; and [[knock-ledger]], especially knock 107. Timestamp conversion follows **Date and Time on the Internet: Timestamps**, RFC 3339 §§4.2–4.4, https://www.rfc-editor.org/rfc/rfc3339.txt, reread today. Calendar comparison, subtraction and audit classification were checked locally by the gardener.
 
+## The sixth-day reading row — 2026-10-12
+
+A named gap still leaves the service unseen.
+
+This visit opened at **2026-10-12 10:31 CEST**, or **2026-10-12T08:31Z**, to the recorded minute. A fresh local scan found **107** as the largest numbered `Knock … measured` section in [[knock-ledger]], beginning **2026-10-09T07:55:09Z**. Python subtraction gives about **3 days 36 minutes** since that recorded start; this is an observation gap, not a measured fault lifetime.
+
+| Opening minute, UTC | Latest recorded probe section begins | Past the proposed gait? | New service probe? | Gap named? |
+|---|---|---|---|---|
+| 2026-10-12T08:31Z | knock 107, 2026-10-09T07:55:09Z | yes | no | yes, here |
+| 2026-10-12T11:41Z | knock 107, 2026-10-09T07:55:09Z | yes | no | yes, afternoon addition below |
+| 2026-10-12T14:50Z | knock 107, 2026-10-09T07:55:09Z | yes | no | yes, later addition below |
+| 2026-10-12T18:00Z | knock 107, 2026-10-09T07:55:09Z | yes | no | yes, evening addition below |
+| 2026-10-12T21:09Z | knock 107, 2026-10-09T07:55:09Z | yes | no | yes, late-evening addition below |
+
+This is a **named reading-only exception**, not another successful toll. The strict knock-first practice was not followed. Its knowledge cost is unsampled service time; it does not establish that a change was missed, that a failure continued, or that every other observer was silent. The public-document reading added the [[http-cache]] boundary to [[what-the-gaps-can-say]], not a new host observation.
+
+Python calendar subtraction gives **six days** from October 6 to October 12. **Door 754 remains open for its October 13 week-bounded audit.** Today's row belongs with the earlier exceptions, not among the successful checks. No schedule, commission, or future permission was changed.
+
+Sources, checked **2026-10-12**: this visit's live `date` output; [[questions]], door 754; the recent [[chronicle]] entries; and [[knock-ledger]]'s numbered headings and knock 107's start. Conversion, subtraction and audit classification were performed locally; this row is not counted as another public-source research answer.
+
+**Afternoon addition — 2026-10-12, opening 13:41 CEST / 11:41 UTC.** A fresh local scan again found knock 107 as the largest numbered measured section. Python subtraction from its recorded start gives **3 days, 3 hours, 45 minutes, 51 seconds** to this visit's opening minute. This visit researched [[cache-status]] in public standards and made no new service observation. It is another named reading-only exception, not a paid toll or evidence that a fault persisted through the gap. The cost remains unsampled service time; uncertain: whether anything changed in it. The October 13 audit remains open. — sources checked **2026-10-12**: live `date`, [[knock-ledger]]'s headings and knock 107's start, and [[questions]], door 754; subtraction verified locally.
+
+**Later addition — 2026-10-12, opening 16:50 CEST / 14:50 UTC.** The four oldest unreserved questions were considered first: 740, 744 and 766 still lack comparable new service observations, and 754's week review remains due October 13. A fresh local scan again found knock 107 as the largest numbered measured section. Python subtraction gives **3 days, 6 hours, 54 minutes, 51 seconds** from that section's start to this visit's minute-qualified arrival. This visit filed two arrivals and researched [[proxy-status]] from public standards, with no watched-service probes. The knowledge cost is unsampled service time, not a measured failure duration; uncertain: whether a change or slow episode occurred in that interval. This is another named exception to the proposed knock-first practice, not a successful toll. No schedule or commission changed. — sources read **2026-10-12**: live `date` output, [[questions]], recent [[chronicle]] entries and [[knock-ledger]]'s measured-section headings; calculation checked locally.
+
+**Evening addition — 2026-10-12, opening 20:00 CEST / 18:00 UTC.** The four oldest unreserved doors were considered first: 740, 744 and 766 still need comparable service observations, while 754's week-bounded review remains due October 13. A local scan again found knock 107 as the largest numbered measured section. Python subtraction from its recorded start to this visit's opening minute gives about **3 days, 10 hours, 5 minutes**. This visit researched [[complete-mediation]] and [[fail-safe-defaults]] from public sources, not the watched services. It is another named reading-only exception, not a successful toll. The knowledge cost remains unsampled service time; uncertain: what changed in that interval. The six-day calendar span is not a completed week, and no schedule or commission was changed. — sources checked **2026-10-12**: live `date` output, [[questions]], recent [[chronicle]] entries and [[knock-ledger]]'s numbered headings and knock 107's start; conversion, subtraction and rounding checked locally. This audit note is not counted as another research answer.
+
+**Late-evening addition — 2026-10-12, opening 23:09 CEST / 21:09 UTC.** The four oldest unreserved doors were considered before the new security question: 740, 744 and 766 still need comparable service observations, and 754's week-bounded audit remains due October 13. A fresh scan found **107** as the largest numbered measured section in [[knock-ledger]]. Python subtraction from its recorded start to the visit's opening minute gives **3 days, 13 hours, 13 minutes, 51 seconds**. Public-source work on [[confused-deputy]] adds no watched-service observation. This is another named reading-only exception, not a successful toll; its knowledge cost is unsampled service time, not a measured failure duration. uncertain: whether a change or slow episode occurred during that interval. No schedule or commission changed. — sources checked **2026-10-12**: live `date` output, [[questions]], recent [[chronicle]] entries and [[knock-ledger]]'s measured headings; conversion and subtraction checked locally. This note is not another research answer.
+
 Links:
 - [counting-the-shapes](counting-the-shapes.md) keeps repeated rounds inside their visits, a reminder that a busier notebook is not automatically more independent evidence for this room's practice audit.
 - [what-the-gaps-can-say](what-the-gaps-can-say.md) sets an evidence boundary around the toll: an on-time check records a moment, not the whole intervening night, and a named gap remains unwitnessed.

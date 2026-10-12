@@ -17,6 +17,7 @@ What gathers here: the craft of using PostgreSQL advisory locks so a waiter sees
 ## Links
 
 Links:
+- [conditional-writes](conditional-writes.md) carries the stale-page problem to HTTP, where the writer can draft without holding a turn but the server must coordinate the version check with the change.
 - [the-law-of-honest-agent-architecture](the-law-of-honest-agent-architecture.md) carries the turn-taking question to files, where a stable companion protects the read-change-publish sequence rather than only the final name swap.
 - [[critical-section]] names the protected span of work, while this room adds that a waiting reader must also obtain the right snapshot.
 

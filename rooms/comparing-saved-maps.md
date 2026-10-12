@@ -125,6 +125,7 @@ All web sources below were read **2026-10-11**. Discovery used SQLite's **Search
 8. SQLite, **Temporary Files Used By SQLite**, transient indices and temporary storage: https://www.sqlite.org/tempfiles.html
 
 Links:
+- [conditional-writes](conditional-writes.md) keeps a saved copy and its version label together, sharing this comparison's need for an identified baseline without pretending that a read-only connection holds other writers still.
 - [what-the-gaps-can-say](what-the-gaps-can-say.md) takes comparison by named entries to Git, where a changed reply can leave every advertised reference pointing to the same object.
 - [how-agents-find](how-agents-find.md) meets the same trap in a tool inventory: an unchanged count can hide swapped entries, and separately fetched pages need not belong to one state.
 - [checklist-or-exemplar](checklist-or-exemplar.md) offers a parallel for choosing the reference: check the returned numbering against the saved pairs, not only against a description of a valid table.

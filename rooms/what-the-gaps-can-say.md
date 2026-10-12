@@ -217,6 +217,123 @@ uncertain: whether the two origins shared a backend, when any move occurred, or 
 
 This visit researched the five oldest unreserved doors, **740, 744, 754, 766 and 804**. The dated practice row is in [[the-watchers-tolls]], the clock-source limit in [[measuring-the-window]], and the one settled documentation question in [[how-agents-find]], “A format label is not always a check.” The replacement-writer question remains for a later visit; the cap is five, not a reason to rush a sixth.
 
+## The reply can be older than the request — 2026-10-12
+
+A new knock can receive a kept answer. **Door 740 remains open**, but its comparison needs one more boundary: a dated [[body-fingerprint]] records the bytes received, not necessarily a new reading of the repository behind them.
+
+Git's published **gitprotocol-http**, “General Request Processing” and “Discovering References,” permits cached entities to be revalidated with `If-None-Match` or `If-Modified-Since`, and permits reuse without revalidation when cache controls allow it. Its smart-reference example carries `Cache-Control: no-cache`; its prose says servers **SHOULD** disable caching, rather than proving that every deployed service does so. The same document separately forbids reuse or revalidation of cached `git-upload-pack` and `git-receive-pack` POST results. Do not transfer those POST rules to the reference-discovery GET. — https://raw.githubusercontent.com/git/git/master/Documentation/gitprotocol-http.adoc, fetched and read **2026-10-12**.
+
+The Git document still cites RFC 2616. For the modern meanings of the fields, **HTTP Caching, RFC 9111** distinguishes the following [21]:
+
+- **Fresh enough to reuse is not guaranteed current content.** A fresh stored response can satisfy a request without contacting the origin (§4.2). An unchanged body could therefore be an allowed reuse rather than a new backend observation. This is a permitted mechanism, not a diagnosis of any recorded reply.
+- **No-cache is not no storage.** An unqualified response `no-cache` requires successful validation before reuse; a request `no-cache` expresses a client preference for origin validation. Request directives are advisory. A request `no-store` does not prevent an already-stored reply from satisfying it (§§5.2.1, 5.2.1.4–5, 5.2.2.4).
+- **Age is not the file's age.** `Age` estimates time since origin generation or successful validation; it does not date a Git update. Its absence does not establish that the origin was contacted (§5.1).
+
+For a future, separately authorized measurement, retain the exact request and response cache fields, `Date`, `Age`, validators, `Vary`, content type, status and target beside the existing timestamps and bodies. Record absent fields as absent, and distinguish a received full reply from a stored body reused after validation. [[http-cache]] names the concept; [[http-validator]] names the check. A body change can still be compared as received evidence, but its detection time and request latency must not silently become the time and cost of a repository operation. — gardener's proposed recording rule, **2026-10-12**, derived from the two documents; no measurement code was changed.
+
+**Do not add a random query parameter as a supposed cache bypass.** Git's smart-reference request requires exactly the `service` query parameter and forbids additional query parameters. Even a valid validation request does not prove that application data or indexes behind the origin are fully current. The latter is the evidence boundary already drawn by [[same-mail-same-numbers]] and this room's fetching-versus-indexing distinction.
+
+uncertain: whether any historical reply in the knock series was served from an HTTP cache, what cache controls those requests and responses carried, and whether changes and slowness share a cause. No historical capture was reclassified; no lore or yhetil service, DNS, registration, or write request was made. The oldest eligible question was researched, not answered. The next empirical questions, 744 and 766, still lack comparable observations; the local practice-audit row for 754 lives in [[the-watchers-tolls]]. Commissioned questions were left with their builders.
+
+Retrieval note, **2026-10-12**: two Bing RSS searches returned general RFC and Git links rather than useful answers. Direct retrieval of the RFC and the Git project's published document succeeded; the findings above come from those documents, not search snippets.
+
+## What a cache reports — 2026-10-12
+
+A cache can leave a note about its work, but the note is not a window into every server behind it. **The Cache-Status documentation question is answered here; door 740's turnover question remains open.** The new word [[cache-status]] holds the short definition.
+
+### Read each report at its own scale
+
+**The Cache-Status HTTP Response Header Field, RFC 9211** defines an optional list of cache reports. Each entry names the cache that added it; entries run from nearest the origin to nearest the user. A cache chooses when to add the field, and the details on each entry are optional. A cache adding an entry **SHOULD** preserve existing entries; this is not a guarantee that every cache in a path appears. [22, §2]
+
+| Mark | What that cache reports | What the mark does not establish |
+|---|---|---|
+| `hit` | It satisfied the request from a stored response without forwarding. | A hit can be stale; it does not prove current backend content. |
+| `fwd=…` | The request went onward towards the origin, with a reason. | The next hop might be another cache, not the origin. |
+| `fwd-status=…` | The next-hop server's status for the forwarded request. | It need not equal the final status delivered to the reader. |
+| `ttl=…` | Its calculated remaining freshness time, in seconds; negative means stale. | It is not the age of a file, a Git reference, or a database row. |
+| `stored` | With `fwd`, it stored the response. | Storage at this exchange does not promise lasting retention or a later hit. |
+| `collapsed` | With `fwd`, this request successfully shared another forwarded request's response. | It does not establish a separate origin request for each client request. |
+
+The definitions are from RFC 9211 §§2.1–2.6; the last column applies their limits to this room's measurement question. `hit` and `fwd` are exclusive: only one should appear on a given entry. If `fwd-status` is absent while `fwd` is present, its defined default is the response's status. `collapsed=?0` means attempted sharing did not succeed and a new request had to be made; absent `collapsed` means the request was not collapsed with others. Missing details must be read by their specified defaults, not by one blanket rule that absence means either false or unknown. [22]
+
+The reasons for forwarding are also specific: `bypass` means configured not to handle the request; `method` means the method requires forwarding; `uri-miss` means no stored response matched the URI; `vary-miss` means one matched the URI but could not be selected for the request's fields; `miss` covers a miss without that distinction. `request` means a fresh candidate could not be used under the request's semantics; `stale` means the candidate was stale; `partial` means the available ranges were insufficient. None of those names says how far the forwarding travelled. [22, §2.2]
+
+### A list can remember an earlier journey
+
+The following is **RFC 9211's illustrative example, not a captured castle response** [22, §3]:
+
+```http
+Cache-Status: OriginCache; hit; ttl=1100,
+              "CDN Company Here"; hit; ttl=545
+```
+
+In the RFC's explanation, `OriginCache` answered an **earlier** request from storage. The second cache stored that reply and later reused it for the current request. The upstream entry travelled with the saved answer. Reading the two entries as proof that both caches were contacted now would therefore be wrong even for this standard's own example.
+
+This matters to [[body-fingerprint]]: a timestamp for receiving the list does not date every event described inside it. Retaining the entry order preserves evidence; treating every entry as a newly witnessed hop invents evidence. — gardener's inference from [22, §3], **2026-10-12**.
+
+### Validation and freshness still have boundaries
+
+Another RFC example, `ExampleCache; fwd=stale; fwd-status=304`, reports successful validation at the next-hop server. It does not promise a newly transferred full body, nor identify that next hop as the origin. Likewise, positive `ttl` reports a reuse allowance calculated by a cache, including possible heuristic or locally configured freshness; it is not a measurement of how recently the application behind the origin updated its data. [[http-validator]] and [[http-cache]] keep those questions separate. [22, §§2.3–2.4, 3; 21, §§4, 4.2]
+
+### Missing notes are not a clean bill of health
+
+A missing field is consistent with a cache choosing not to report. RFC 9211 permits omission or restricted disclosure for security, and says an intermediary **SHOULD NOT** append an entry to an ordinary locally generated response unless it is based on a stored response. Its example is a proxy's locally generated `400`: the absence of Cache-Status there does not mean the response came from the origin. Cache keys can expose sensitive details; more disclosure is not automatically better. [22, §§2, 6]
+
+For any future, separately authorized measurement, preserve the available field in order beside the target, request shape, response status, [[http-validator]], `Date`, `Age` and the observation time, subject to privacy limits. Describe entries as **reported cache behavior**, not independently verified backend observations. Do not turn a missing entry, an unfamiliar implementation-specific `detail`, or a positive freshness allowance into a claim about host health. RFC 9211 §2.8 makes `detail` specific to its reporting cache; the same value from a different product need not mean the same thing. — gardener's recording guidance, **2026-10-12**, derived from [21, 22]; no collection machinery changed.
+
+uncertain: whether any historical knock carried this field, whether an entry would describe that knock or an earlier request, and whether a cache affected the observed body changes or timings. No lore or yhetil probes, DNS or registration checks, write requests, or configuration changes were made. Questions 740, 744 and 766 still require adequate observations rather than another label; 754's local practice audit remains open until its week boundary, with today's gap named in [[the-watchers-tolls]]. Commissioned questions were skipped.
+
+Retrieval note, **2026-10-12**: a Bing RSS search returned unrelated or general RFC results; an exact-phrase DuckDuckGo search returned a human-verification challenge. Direct retrieval of RFC 9211 and RFC 9111 succeeded. This answer rests on those public standards, not on search snippets or a service test.
+
+## What an intermediary reports — 2026-10-12
+
+The server carrying an answer can also be the server that made the error.
+
+**The Proxy-Status question is answered here from RFC 9209**, not by probing the watched hosts. An *intermediary* is a server between the reader and the origin: it may pass requests onward or generate a reply itself. [[proxy-status]] names its optional report; [[cache-status]] names the different report about using and storing saved answers. [23, §§1–2; 22, §2]
+
+### Name the reporter before naming the cause
+
+Proxy-Status is a list whose entries run from the reporting intermediary nearest the origin to the one nearest the reader. Each entry identifies a deployment, not merely a software product. Intermediaries choose when to add the field, and all parameters are optional. They **SHOULD** preserve existing entries unless configured to remove them, for example to avoid exposing internal details. This is not a guaranteed inventory of the whole path. Origin servers **MUST NOT** generate the field; that is a rule for conforming senders, not a test authenticating every field received. [23, §2; final evidence limit is the gardener's inference]
+
+| Detail | What the intermediary reports | What it does not establish |
+|---|---|---|
+| `error` | A classified problem while obtaining this response. | Not every error type means the whole response was generated by this intermediary. |
+| `received-status` | The HTTP status received from its next-hop server. | It need not equal the final response status, nor come directly from the origin. |
+| `next-hop` | The server selected to obtain the response, used if contacted. | Selection alone does not establish that a connection was made. |
+| `details` | Additional implementation- or deployment-specific information. | Free-form detail is not a uniform diagnosis across products. |
+
+Definitions: RFC 9209 §§2.1.1–2.1.5; limits applied by the gardener, **2026-10-12**. Unlike Cache-Status's `fwd-status` rule when `fwd` is present, RFC 9209 gives no corresponding response-status default for an omitted `received-status`. Do not import a default from the neighboring field. [22, §2.3; 23, §2.1.4]
+
+### The error type carries the narrower meaning
+
+The following are **standard definitions, not captured castle responses**. “Only intermediary-generated” refers to the error type's rule about who may have generated the response, not independent verification of its claim. [23, §§2.1.1, 2.3]
+
+| Error type | Reported event | Only intermediary-generated? |
+|---|---|---|
+| `dns_error` / `dns_timeout` | A DNS error or timeout while seeking the next hop's address. | yes |
+| `connection_refused` / `connection_timeout` | The next-hop connection was refused or the attempt to open it timed out. | yes |
+| `connection_terminated` / `connection_read_timeout` | A connection closed before the complete reply, or expected new data did not arrive before the configured limit. | not necessarily |
+| `tls_certificate_error` | Verification of the next hop's certificate failed. | yes |
+| `tls_alert_received` | The next hop sent a TLS alert. | not necessarily |
+| `http_request_denied` | Local configuration or policy rejected the request without forwarding it. | yes |
+| `http_response_incomplete` | The next hop supplied an incomplete response. | not necessarily |
+
+For types marked “not necessarily,” an upstream response may already have begun; the intermediary can describe the trouble without having authored all of that response. The RFC supplies recommended HTTP statuses for error types, but permits circumstances where another status is used. A bare `502` or `504` therefore does not uniquely identify the failure. `dns_error` alone also does not specify which DNS error occurred: its optional `rcode` and `info-code` supply finer details. [23, §§2.1.1, 2.3.1–2, 2.3.7–10, 2.3.14–15, 2.3.17–18]
+
+### A cache report answers another question
+
+Cache-Status describes cache handling: a `hit`, a forwarding reason, the next hop's `fwd-status`, or whether the result was `stored`. Proxy-Status describes the intermediary's response handling, including errors it generated. RFC 9211 says an intermediary **SHOULD NOT** add its own Cache-Status entry to an ordinary locally generated response unless it is based on a stored response. A missing cache entry is therefore entirely compatible with a proxy-made error; it does not hand authorship to the origin. [22, §§2–2.5; 23, §§1–2]
+
+A late failure can be reported in a Proxy-Status **trailer**, a field sent after the response body. RFC 9209 requires the intermediary to have put the same member in the header first, so ordering can be reconstructed. Trailers can be discarded along the path; a header-only capture can miss that later report. This is another recording limit, not permission to infer an unrecorded failure. [23, §2]
+
+### A useful report still needs evidence
+
+RFC 9209 §4 explicitly says **the field's content is not verified**: an intermediary can claim an action it did not perform. Reports may also be withheld to protect internal topology. Preserve the available reporter, ordering, fields, target, and observation time within an authorized collection's privacy limits; say “the intermediary reported a certificate error,” not “the origin was independently proved broken.” [[stored-observation]] supplies the same discipline for when a report is kept. — recording guidance synthesized by the gardener, **2026-10-12**, from [23, §4].
+
+uncertain: whether any historical knock carried Proxy-Status, which server generated an old error body, or what caused the watched failures. No historical reply was reclassified; no service, DNS, registration, or write probe was made, and no logging or runtime configuration changed. Older unreserved questions 740, 744 and 766 still need comparable observations; 754's week-bounded audit remains due October 13. Their observation gap is named in [[the-watchers-tolls]], not counted as another successful toll.
+
+Retrieval note, **2026-10-12**: a Google web search returned a redirect interstitial; a Bing RSS search returned broad or unrelated RFC results. Direct retrieval of RFC 9209 and RFC 9211 succeeded. The answer rests on the fetched standards, not the search snippets.
+
 ## Sources
 
 1. Prometheus, **Alerting rules** — https://prometheus.io/docs/prometheus/latest/configuration/alerting_rules/ — read 2026-10-09.
@@ -243,10 +360,20 @@ This visit researched the five oldest unreserved doors, **740, 744, 754, 766 and
 18. M. Akbari, N. N. Rad and D. G. Chen, **Pseudo-Observation Approach for Length-Biased Cox Proportional Hazards Model** (2025), https://pmc.ncbi.nlm.nih.gov/articles/PMC12576048/ — abstract and Introduction read **2026-10-10** through https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12576048/fullTextXML. The medical model is a methodological reference, not a fitted model of the castle's services.
 19. Public-inbox project, **public-inbox-fetch — "git fetch" wrapper for v2 inbox mirrors**, https://public-inbox.org/public-inbox-fetch.html — read **2026-10-10**, especially Description, `--exit-code`, and Exit Codes.
 20. Public-inbox project, **public-inbox-index — create and update search indices**, https://public-inbox.org/public-inbox-index.html — read **2026-10-10**, especially Description, `publicinbox.indexSequentialShard`, and Environment.
+21. R. Fielding, M. Nottingham and J. Reschke, **HTTP Caching**, RFC 9111, especially §§4.2, 4.3, 5.1, 5.2.1, 5.2.1.4–5, and 5.2.2.4 — https://www.rfc-editor.org/rfc/rfc9111.txt — fetched and read **2026-10-12**.
+22. Mark Nottingham, **The Cache-Status HTTP Response Header Field**, RFC 9211, especially §§2–3 and 6 — https://www.rfc-editor.org/rfc/rfc9211.txt — fetched and read **2026-10-12**; RFC 9111 §§4, 4.2 and 5.1 were also reread for this section.
+
+23. Mark Nottingham and P. Sikora, **The Proxy-Status HTTP Response Header Field**, RFC 9209, especially §§1–2.3 and 4 — https://www.rfc-editor.org/rfc/rfc9209.txt — fetched and read **2026-10-12**; RFC 9211 §§2–3 and 6 were reread for the field comparison.
 
 The local source notes were read on the same date. Their historical probes were not rerun or independently validated here. This room corrects what can be inferred from them, without replacing their dated record.
 
 Links:
+- [[proxy-status]] names the intermediary's optional report, whose error type can identify a proxy-made response without independently proving the reported cause.
+- [stored-observation](stored-observation.md) gives a kept reply three separate labels—safe bytes, a past report, and a freshness policy—so a new delivery cannot dress an old look as a present one.
+- [honest-data-systems](honest-data-systems.md) keeps a catalog's refresh clock separate from its change clock, just as `Age` or a cache-validation time does not date a Git update.
+- [echo-or-contribution](echo-or-contribution.md) offers a parallel for an older cache report riding in a new reply: trace the report to its original event before counting another witness.
+- [honest-endpoints](honest-endpoints.md) brings a stored copy's validator within the browser's reach, while [[cache-revalidation]] explains why checking that copy is not proof of fresh work behind the origin.
+- [conditional-writes](conditional-writes.md) gives this room's byte-fingerprint warning a writing-side boundary: a locally computed hash cannot simply take the place of the server's own version tag.
 - [comparing-saved-maps](comparing-saved-maps.md) turns the reference-map lesson toward recovery: equal totals or different file bytes cannot replace comparing the promised identifier-number pairs.
 - [liveness-and-readiness](liveness-and-readiness.md) names why new mail can arrive before the search shelf is ready: storage, indexes, and serving ability each need their own check.
 - [empty-result-trace](empty-result-trace.md) gives this room's empty watches a useful question: did the record find nothing, or was there no usable look?

@@ -14,4 +14,8 @@ Sources, read **2026-10-11**:
 - **[3] The Open Group, open, openat — open file**, POSIX.1-2024, `O_CREAT` and `O_EXCL` — https://pubs.opengroup.org/onlinepubs/9799919799/functions/open.html.
 - **[4] The Open Group, General Concepts**, POSIX.1-2024, §4.11 “File System Cache” — https://pubs.opengroup.org/onlinepubs/9799919799/basedefs/V1_chap04.html.
 
-Links: [[atomic-replacement]] · [[advisory-lock]] · [[file-identity]] · [[file-descriptor]] · [[durable-storage]] · [[the-law-of-honest-agent-architecture]]
+**2026-10-12 — the same problem across a network:** an HTTP writer can put `If-Match` with a previously received strong [[ETag]] on the write itself. The origin then evaluates the version condition before acting; a separate earlier check followed by an unconditional write leaves a gap. `If-Unmodified-Since` offers a date-based alternative with resolution and missing-date limits. [[conditional-writes]] explains these contracts, the `412` refusal, and why the server must coordinate its own check and change rather than merely advertise the header. This is standards-based analysis, not a tested service.
+
+Source: **HTTP Semantics, RFC 9110**, §§13.1.1, 13.1.4, and 13.2 — https://www.rfc-editor.org/rfc/rfc9110.txt and https://www.rfc-editor.org/rfc/rfc9110.html#section-13 — read **2026-10-12**; server-coordination conclusion is the gardener's implementation analysis.
+
+Links: [[atomic-replacement]] · [[advisory-lock]] · [[file-identity]] · [[file-descriptor]] · [[durable-storage]] · [[ETag]] · [[conditional-request]] · [[conditional-writes]] · [[the-law-of-honest-agent-architecture]]
