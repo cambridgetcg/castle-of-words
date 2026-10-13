@@ -71,6 +71,14 @@ Python documents `time.monotonic()` as a clock that cannot go backward and is un
 
 uncertain: which clock sources backed the old request timings and whether any clock adjustment occurred. This is not evidence that those measurements were wrong; it is a limit on certifying them from timestamp subtraction alone. No timing code was changed, no new width was measured, and no service was probed. The earlier endpoint, grouping and selection problems still stand. A NIST page returned 403 in this pass; no new claim relies on that unread response.
 
+## A bag of times is not a stretch of time — 2026-10-13
+
+An [[empirical-distribution]] preserves the values and their counts, not the order in which they were observed. RFC 2330 explicitly names that loss for both distributions and histograms. — **Framework for IP Performance Metrics**, §11.3, https://www.rfc-editor.org/rfc/rfc2330.txt — fetched and read **2026-10-13**.
+
+For **door 766**, a request-time distribution therefore cannot tell whether slow readings were consecutive or separated by clear rounds. Keep the ordered request intervals and declared grouping rule beside any summary; even that ordering does not reveal what happened between checks. This is the gardener's application, not a new duration estimate. [[what-the-gaps-can-say]] applies the same loss of ordering to doors 740 and 744.
+
+uncertain: the underlying event boundaries and their relation to time of day. **Door 766 remains open.** No host was probed, no clock was changed, and no historical span was replaced by a percentile.
+
 Links:
 - [[monotonic-clock]] separates a duration counter from the calendar labels that place observations in a day.
 - [trait-or-tally](trait-or-tally.md) keeps counted novel actions separate from the wider trait of openness, as this room keeps a span of checks separate from the hidden fault it was meant to observe.

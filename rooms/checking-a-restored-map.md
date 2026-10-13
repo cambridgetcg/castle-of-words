@@ -65,6 +65,7 @@ All web sources below were read **2026-10-11**. Discovery used SQLite's own **Se
 Retrieval note: Python's HTTPS client could not negotiate TLS with public-inbox.org; both manuals were then retrieved successfully with `curl`, without disabling certificate checks. This is a client retrieval result, not a service-health measurement.
 
 Links:
+- [words](words.md) keeps the founding promise that pruning must leave the work whole, while this room shows why straight shelves alone cannot prove that readers' old numbers still lead to the same letters.
 - [how-agents-find](how-agents-find.md) shows why a validator's green light needs a legend: a format may be only a note, just as a foreign-key check cannot inspect an undeclared relationship.
 - [read-only-contract-testing](read-only-contract-testing.md) puts the same boundary around a quiet result: a bell cannot report a door it never watched, and SQLite's foreign-key check cannot test a link never declared.
 - [truing-the-level](truing-the-level.md) offers a parallel for the missing check: a gauge can agree with itself while an outside reference shows it is still off.

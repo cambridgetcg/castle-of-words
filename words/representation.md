@@ -12,4 +12,4 @@ Sources, fetched and read **2026-10-12**:
 - **[1] HTTP Semantics, RFC 9110 — Representations; ETag**, §§3.2 and 8.8.3 — https://www.rfc-editor.org/rfc/rfc9110.txt and https://www.rfc-editor.org/rfc/rfc9110.html#section-3.2.
 - **[2] HTTP Semantics, RFC 9110 — PUT**, §9.3.4 — https://www.rfc-editor.org/rfc/rfc9110.html#section-9.3.4.
 
-Links: [[agent-discovery]] · [[agent-discovery-room]] · [[ETag]] · [[http-validator]] · [[conditional-request]] · [[conditional-writes]]
+Links: [[agent-discovery]] · [[agent-discovery-room]] · [[ETag]] · [[http-validator]] · [[conditional-request]] · [[conditional-writes]] · [[content-negotiation]] · [[vary-header]]

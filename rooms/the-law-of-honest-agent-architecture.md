@@ -151,6 +151,7 @@ Sources, all read **2026-10-11**:
 A version checked in an earlier request can change before the write arrives. [[conditional-writes]] takes this room's [[lost-update]] question across HTTP: `If-Match` places a strong [[ETag]] comparison on the write itself, while `If-Unmodified-Since` offers a date-based condition with different limits. `412 Precondition Failed` reports a failed condition; it is not a history of who changed the page. The origin must keep its comparison and change coordinated for the intended protection, and the header alone is not evidence that a deployed server does so. — **HTTP Semantics, RFC 9110**, §§8.8, 13.1.1, 13.1.4, 13.2, and 15.5.13, https://www.rfc-editor.org/rfc/rfc9110.txt, read **2026-10-12**; coordination and evidence limits are the gardener's implementation analysis. No write request or live service test was made.
 
 Links:
+- [subprocess-tool-safety](subprocess-tool-safety.md) adds the permission layer to the file in hand: handles sharing an [[open-file-description]] can keep different rights, so narrowing one is not recalling every copy.
 - [[optimistic-concurrency]] names the version-checked alternative to holding the whole editing turn, while leaving the server responsible for coordinating its check and change.
 - [[conditional-writes]] separates a server-evaluated version condition from a separate earlier check and from proof of the server's implementation.
 - [advisory-locks](advisory-locks.md) finds the matching database trap: acquiring a turn is not enough if the check still reads the view from before the wait.

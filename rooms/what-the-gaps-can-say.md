@@ -334,6 +334,135 @@ uncertain: whether any historical knock carried Proxy-Status, which server gener
 
 Retrieval note, **2026-10-12**: a Google web search returned a redirect interstitial; a Bing RSS search returned broad or unrelated RFC results. Direct retrieval of RFC 9209 and RFC 9211 succeeded. The answer rests on the fetched standards, not the search snippets.
 
+## The same address can offer different forms — 2026-10-13
+
+Two answers can differ because a different form was chosen, not because the saved work changed.
+
+**Door 740 was researched, not settled.** After skipping commissioned questions and decisions reserved for yu, this was the oldest eligible door. Today's public-standard reading sharpens the comparison of replies; it supplies no new observation of the mirror. The next eligible doors, 744 and 766, still lack comparable service observations and were left open.
+
+[[content-negotiation]] lets one resource offer several [[representation|representations]]. RFC 9110 says server-driven selection may use request preferences, such as language or compression, and implicit information such as the client's network address. Preferences are not guaranteed to be honored. Thus matching addresses alone does not make two replies a before-and-after pair of the same form. [24, §§3.2, 12.1; final comparison rule is the gardener's inference]
+
+### Read the selection note at its own strength
+
+- **`Vary: Accept-Encoding`** reports that compression preferences might have influenced selection. It does not report a repository update. A [[vary-header]] lists possible selecting request fields, not the reason a particular historical body changed. [24, §12.5.5]
+- **Cache matching is a separate test.** A stored reply with Vary cannot be reused without revalidation unless its nominated request fields match. Only permitted, meaning-preserving normalization counts; absence matches absence. A value containing `*` always fails that match. This does not itself forbid storage. [25, §4.1]
+- **An absent note is not a sameness guarantee.** RFC 9110 permits Vary to be omitted in some circumstances, including when the server accepts broader reuse. Nor does a successful Vary match certify freshness or prove contact with the origin. [[http-cache]] holds those separate rules. [24, §12.5.5; 25, §§4.1–4.2]
+
+### Compression can change the bytes without changing the message's words
+
+A *content coding* changes the representation's form, for example by compressing it with gzip. RFC 9110's own example gives compressed and uncompressed forms different strong [[ETag|entity tags]]. By contrast, *transfer coding* concerns the message's transport and does not create a distinct entity tag. These are the standard's distinctions, not captured replies from this castle. [24, §§8.4, 8.8.3.3]
+
+**Proposed recording rule:** keep the relevant non-secret request preferences, available Vary, content type, content coding and validator beside the exact target and [[body-fingerprint]]. Also name whether the saved bytes were still coded or had been decoded by the client. Compare like forms first, then compare parsed Git reference maps if that is the intended [[measurement-target]]. Do not rename a changed coded body a mirror fetch, or treat a matching selection note as proof of identical content. This is the gardener's guidance, **2026-10-13**; no capture settings or comparison code were changed.
+
+uncertain: which request preferences, selection notes or content codings accompanied the old captures, whether the client decoded them, and whether any of these mechanisms explains a historical roll. **Doors 740, 744 and 766 remain open.** No watched-service, DNS or registration probes were made; this visit adds no evidence about their behavior during the observation gap.
+
+Retrieval note, **2026-10-13**: a Bing RSS search returned broad or unrelated results. Direct retrieval of RFC 9110 and RFC 9111 succeeded; the findings above come from those standards, not search snippets.
+
+## The saved bytes are not always the delivered coding — 2026-10-13
+
+A download tool can unpack an answer before saving it, while keeping the old label on the wrapper.
+
+**Research order:** after leaving commissioned questions and decisions reserved for yu alone, this visit revisited **740**, the oldest eligible question, at its byte-comparison boundary. Questions **744 and 766** still need comparable observations, not another inference from the same selected checks. The newer question about curl's decoding is **answered here**; 740 is sharpened but not settled. This is a public-document reading, not a test of this Mac's curl or a replay of historical captures.
+
+### Two kinds of packing
+
+[[content-coding]] changes the form of the content, for example with gzip. [[transfer-coding]] wraps a message for delivery; HTTP/1.1's `chunked` coding sends size-marked pieces that curl normally joins without showing their size markers. Transfer coding can also compress data, but that is different from content compression. [26–30]
+
+The table compares documented modes, without other options or configuration changing them:
+
+| Mode | Content coding | Transfer coding | What an ordinary body output file holds |
+|---|---|---|---|
+| Ordinary handling, without content auto-decompression enabled | A received compressed content form is not automatically decompressed | Decoded by default; chunk size markers are removed | Transfer-decoded content, which can still be compressed |
+| `--compressed`, without `--raw` | Requests supported compression and automatically decompresses it | Ordinary transfer decoding remains enabled | Decoded content when supported content compression was used |
+| `--raw` active | Internal content decoding disabled | Internal transfer decoding disabled | The coded data; HTTP/1.1 chunk size markers remain when the response is chunked |
+
+The server need not compress merely because the client asks. With `--compressed`, an unsupported response encoding is an error, not a successfully decoded answer. Merely adding an `Accept-Encoding` header is not the same as enabling automatic decompression: libcurl documents that a manually added header does not enable it. `--tr-encoding` separately requests compressed transfer encoding and decodes it on receipt; it is not another spelling of `--compressed`. [26–28]
+
+**“Raw” is scoped to these HTTP decoders, not a promise of a packet capture.** A body file is still curl's output, not the request, response headers, TLS records, and all transport framing. Even displayed HTTP/2 and HTTP/3 headers are presented in a readable HTTP/1-like style rather than their compressed wire form. Keep “saved-body bytes” distinct from “all bytes on the connection.” — gardener's interpretation of the documented output boundary [26, 28–29].
+
+### The label may outlive the packing
+
+The curl manual explicitly says that **saved response headers are not modified after `--compressed` decompresses the content**. A kept `Content-Encoding: gzip` can therefore accompany a file that is already unpacked. A correct `Content-Length` for a compressed response counts compressed content and need not equal the decoded output's byte count. Other saved fields, including `ETag`, are not recomputed as labels for that decoded file. Preserve the headers as received, but describe the file's decoding state separately. [26–27]
+
+`--dump-header` saves received headers separately; `-i` / `--show-headers` (also called `--include`) puts them in the data's output stream. A hash of that combined output is not a body-only hash. `--output` chooses the destination; it does not by itself choose an undecoded capture. [26, 31]
+
+### What must travel with a fingerprint
+
+**Proposed recording rule, not an installed collector:** before comparing two [[body-fingerprint|body fingerprints]], retain:
+
+1. **The request and its place in time:** exact target, relevant non-secret request preferences, method and range if used, negotiated HTTP/Git protocol, and request start and finish. Keep redirects and separate responses distinguishable.
+2. **The client and its effective settings:** curl/libcurl version and compression support; `--compressed`, `--raw`, `--tr-encoding`, custom encoding headers, and any configuration that affects output. The manual's `--version` reports build features; `--disable` suppresses the default curlrc only when it is the first argument. No configuration was inspected or changed here. [26–27, 31]
+3. **The response metadata:** status and relevant `Content-Type`, `Content-Encoding`, `Transfer-Encoding`, `Content-Length`, `Content-Range`, `Vary`, and validators, tied to the response whose body was saved. Keep received lengths separate from measured file lengths.
+4. **The exact bytes hashed:** retained body where appropriate, saved byte count, named hash algorithm, whether headers were mixed in, and which content or transfer decoding or later processing occurred. “Raw” alone is too vague a label.
+5. **The result's limits:** curl's exit status, errors, and whether output was complete. Ordinary curl handling can finish an HTTP transfer successfully even when the response status is 4xx or 5xx, so process success is not resource success. [28]
+
+Compare the same byte layer first. If the question is instead whether Git references moved, validate and compare the parsed [[reference-advertisement]] separately. Identical decoded content need not mean identical coded bytes; a changed saved hash still does not identify a mirror fetch. These comparison rules are the gardener's synthesis, **2026-10-13**, from [26–31] and this room's earlier protocol reading.
+
+uncertain: which settings, codings, and output processing produced the historical fingerprints, and whether decoding explains any old difference. **Questions 740, 744 and 766 remain open.** No watched-service probes or capture-setting changes were made; the service-observation gap remains unfilled, not evidence of continuous failure or uninterrupted health.
+
+Retrieval note, **2026-10-13**: Google returned a redirect interstitial. A Bing RSS search found the curl manual; an initially guessed Everything curl page returned 404, after which the project's public file listing located the actual chapters. The answer rests on the fetched manual, API documentation and book chapters below, not search snippets.
+
+## The digest needs its own byte boundary — 2026-10-13
+
+A mark for the parcel is not always a mark for the letter after it is unpacked.
+
+**Answered:** the RFC 9530 question planted this afternoon. The oldest-first review left decisions reserved for yu and commissioned work untouched. Older eligible questions **740, 744 and 766** still need comparable observations; today's standards reading does not supply them. This answer concerns published HTTP rules, not a new service check or a claim that any particular client implements digest validation.
+
+### One field checks the message's content; the other checks the whole chosen form
+
+[[content-digest]] covers the actual content of one HTTP message. HTTP defines that content after message framing and [[transfer-coding]] have been removed, but with [[content-coding]] still applied. [[repr-digest]] covers the entire selected [[representation]] data, including its content coding, even if the message carries only part of it or refers to it without carrying a body. Both fields name the algorithm as well as the digest value. [32, §§2–3; 33, §§6.4, 8.1, 8.4]
+
+The table describes the inputs **if the fields are supplied**, not a requirement that every response supply them:
+
+| Response situation | Content-Digest input | Repr-Digest input |
+|---|---|---|
+| Full GET response carrying a gzip-coded representation | The complete gzip-coded content, without transfer wrappers | The same complete coded representation; with the same algorithm the values agree |
+| Single-range `206` response | The actual range bytes carried | The entire selected representation, not just that range |
+| Multipart range response | The entire multipart content, including boundaries and part headers | The entire selected representation, not the multipart wrapper assembled to carry the ranges |
+| HEAD response | Empty content | The selected representation a GET would have carried |
+| Other responses with no content, such as `204` or `304` | Empty content | Follow the representation referred to by the method, status and metadata; absence of a body alone does not make the input empty |
+
+Sources for the distinctions: [32, §§2–3, Appendices B.1–B.3, B.11] and [33, §§6.4.1, 8.1, 14.1.2, 15.3.7.2, 15.4.5]. The multipart row applies the general digest definitions to HTTP's multipart content structure. For `304`, the response refers the client to its stored representation; it carries no content or trailers. When there genuinely is **no representation data**, RFC 9530 §3 permits an empty-input Repr-Digest. That is a separate case from an ordinary HEAD response referring to a nonempty representation.
+
+Byte ranges of a content-coded representation are positions in the **coded** byte sequence, not in the unpacked file. A range taken from a gzip stream therefore need not be a complete independently decodable stream. Range assembly must preserve the selected representation's bytes rather than silently switching to decoded-file offsets. [33, §14.1.2; decoding and assembly cautions are the gardener's application]
+
+### Which saved bytes can actually be checked?
+
+1. **Only transfer decoding happened:** the complete saved content is the right input for Content-Digest. It is also the right input for Repr-Digest when that content is the complete selected representation. An HTTP/1.1 chunked file saved with its chunk markers still present is not either input. [32, §§2–3, Appendix B.11; 33, §6.4]
+2. **Content decompression also happened:** the unpacked file is not the original compressed input to either field. Validate while the required coded bytes are available, or retain those bytes if authorized. Do not assume recompression recovers them: compression settings, timestamps or other parameters can change the encoded result without changing the Content-Encoding label. [32, §6.5]
+3. **Only a range was saved:** that range can be checked against its Content-Digest, but not as if it were the complete input to Repr-Digest. To recompute the latter, the client needs the whole matching representation, for example after valid reconstruction from its parts. [32, §§1, 3, Appendix B.3]
+4. **No body was sent:** an empty-content digest checks no resource bytes. A Repr-Digest can instead be compared with a complete matching representation already held elsewhere; lacking those bytes means the representation digest has not been recomputed. [32, Appendix B.2; application by the gardener]
+
+These are recording and validation rules, **not changes installed in the collector**. A separately labelled local [[body-fingerprint]] of decoded bytes remains useful. It must not be relabelled as successful verification of the original coded response. Hash the exact bytes, including whitespace; RFC 9530 does not supply a format-specific canonicalization rule. [32, Appendix B]
+
+### Integrity, authority and freshness are separate checks
+
+A digest does not protect the HTTP headers or trailers around its input. Without an additional protection mechanism, an attacker can replace both the bytes and their digest. RFC 9530 points to TLS and digital signatures as complementary protections, and warns that signatures covering digests alone can leave representation metadata exposed. A digest also does not prove freshness: HTTP caching has separate age, freshness-lifetime and validation rules. Even a cache-fresh answer need not result from a new origin request. [32, §§6.1–6.3; 34, §4.2]
+
+Merely receiving a digest field does not mean the recipient checked it: RFC 9530 explicitly permits recipients to ignore digests. A digest sent in a trailer arrives after the content and can be dropped by intermediaries, so a header-only record may not contain the whole report. A claim of validation needs its own result, not just the field's presence. [32, §§2–3, 6.4]
+
+**Offline check performed:** Python recomputed SHA-256 for the RFC's published Appendix B examples: the 19-byte full JSON content, the empty content, and the 9-byte range at offsets 10–18. All three Base64 values matched the fetched RFC text. These are checks of published examples, not synthetic service observations, a test of a deployed client, or a replay of historical captures. — gardener's local computation, **2026-10-13**.
+
+uncertain: whether any historical capture carried either field, what byte layer was retained, and whether a client validated it. No old hash is reclassified, no watched service is fetched, and the service-observation gap remains unfilled. **Questions 740, 744 and 766 stay open.**
+
+Retrieval note, **2026-10-13**: Google returned a redirect interstitial; Bing's RSS search returned broad or unrelated RFC results. Direct retrieval of RFC 9530, RFC 9110 and RFC 9111 succeeded. The answer rests on those standards and the offline example check, not search snippets.
+
+## A distribution keeps values, not their order — 2026-10-13
+
+A bag of readings is not a record of which reading followed which. This pass returned first to **740, 744 and 766**, the oldest open questions not reserved for yu or commissioned. RFC 2330 §11.3 supplies a useful distinction: an [[empirical-distribution]] retains the measured values and their frequencies, but loses their observation order; a histogram loses order too. [35]
+
+- **740 — changed replies beside slow weather:** two separate distributions of changes and delays do not preserve which reply accompanied which delay. Keep their pairing, endpoint, selected form, request interval and the preceding gap. A “changed since last time” interval is not an exact change time.
+- **744 — kinds by watch:** a pooled distribution loses the calendar labels needed for this question. Even separate watch summaries do not supply the unseen event starts, comparable detection opportunities or independent events that the earlier sections found missing.
+- **766 — window width:** a distribution of request times does not retain the sequence of slow readings and returns to normal, so it cannot reconstruct a group's boundaries. [[measuring-the-window]] keeps the endpoint and closing-rule requirements beside the durations.
+
+These are the gardener's applications of [35] to the existing questions, not findings about the hosts. Keep ordered rows alongside summaries; do not ask the summary to recover information it discarded. No distribution was fitted and no service observations were added.
+
+uncertain: the relationship between changed replies and slowness, any kind's preferred watch, and the underlying event durations. **All three questions remain open.** This additional limit improves the proposed comparison; it does not settle the empirical questions.
+
+## A signed mark still needs its message and occasion — 2026-10-13
+
+[[checking-a-signed-reply]] answers the next standards question using RFC 9421: a signature over [[content-digest]] still needs a comparison with the content, required message coverage, a context-appropriate trusted key, and request-binding and replay checks. Its dated sources distinguish an acceptable signature lifetime from [[http-cache|cache freshness]]. Neither verdict makes an old observation new. The new room holds the full answer without reclassifying any historical capture.
+
 ## Sources
 
 1. Prometheus, **Alerting rules** — https://prometheus.io/docs/prometheus/latest/configuration/alerting_rules/ — read 2026-10-09.
@@ -365,9 +494,30 @@ Retrieval note, **2026-10-12**: a Google web search returned a redirect intersti
 
 23. Mark Nottingham and P. Sikora, **The Proxy-Status HTTP Response Header Field**, RFC 9209, especially §§1–2.3 and 4 — https://www.rfc-editor.org/rfc/rfc9209.txt — fetched and read **2026-10-12**; RFC 9211 §§2–3 and 6 were reread for the field comparison.
 
+24. R. Fielding, M. Nottingham and J. Reschke, **HTTP Semantics**, RFC 9110, §§3.2, 8.4, 8.8.3.3, 12.1 and 12.5.5 — https://www.rfc-editor.org/rfc/rfc9110.txt — fetched and read **2026-10-13** for representation selection, content coding, and Vary.
+25. R. Fielding, M. Nottingham and J. Reschke, **HTTP Caching**, RFC 9111, §4.1, “Calculating Cache Keys with the Vary Header Field” — https://www.rfc-editor.org/rfc/rfc9111.txt — fetched and read **2026-10-13**; the separate freshness rules in §4.2 were read for this room's October 12 cache discussion.
+
+26. curl project, **curl man page — How To Use**, especially `--compressed`, `--raw`, `--tr-encoding` and `--output` — https://curl.se/docs/manpage.html — fetched and read **2026-10-13**.
+27. curl project, **CURLOPT_ACCEPT_ENCODING — automatic decompression of HTTP downloads** — https://curl.se/libcurl/c/CURLOPT_ACCEPT_ENCODING.html — fetched and read **2026-10-13**; covers default behavior, manually added headers, supported decoders and compressed Content-Length.
+28. curl project, **Everything curl: Responses** — https://raw.githubusercontent.com/curl/everything-curl/master/http/response.md — fetched and read **2026-10-13**; covers chunk decoding, content and transfer compression, raw output, and HTTP status versus curl errors.
+29. curl project, **Everything curl: Compression** — https://raw.githubusercontent.com/curl/everything-curl/master/http/modify/compression.md — fetched and read **2026-10-13**, especially decompression before saving and the displayed form of HTTP/2 and HTTP/3 headers.
+30. curl project, **CURLOPT_HTTP_TRANSFER_DECODING — HTTP transfer decoding control** — https://curl.se/libcurl/c/CURLOPT_HTTP_TRANSFER_DECODING.html — fetched and read **2026-10-13**; transfer and chunk decoding are enabled by default.
+31. curl project, command-line documentation **--show-headers**, **--dump-header**, **--disable**, and **--version** — https://raw.githubusercontent.com/curl/curl/master/docs/cmdline-opts/show-headers.md ; https://raw.githubusercontent.com/curl/curl/master/docs/cmdline-opts/dump-header.md ; https://raw.githubusercontent.com/curl/curl/master/docs/cmdline-opts/disable.md ; https://raw.githubusercontent.com/curl/curl/master/docs/cmdline-opts/version.md — fetched and read **2026-10-13**. These are maintained documentation sources, not a claim about the version installed here.
+
+32. R. Polli and L. Pardue, **Digest Fields**, RFC 9530, especially §§2–3, 5, 6.1–6.5 and Appendices B.1–B.3, B.11 — https://www.rfc-editor.org/rfc/rfc9530.txt — fetched and read **2026-10-13**.
+33. R. Fielding, M. Nottingham and J. Reschke, **HTTP Semantics**, RFC 9110, §§6.4–6.4.2, 8.1, 8.4, 14.1.2, 15.3.7.2 and 15.4.5 — https://www.rfc-editor.org/rfc/rfc9110.txt — fetched and read **2026-10-13** for content boundaries, coded representations, ranges and bodyless responses.
+34. R. Fielding, M. Nottingham and J. Reschke, **HTTP Caching**, RFC 9111, §4.2, “Freshness” — https://www.rfc-editor.org/rfc/rfc9111.txt — fetched and read **2026-10-13** to keep freshness separate from digest validation.
+35. V. Paxson, G. Almes, J. Mahdavi and M. Mathis, **Framework for IP Performance Metrics**, RFC 2330, §§11.1–11.4, especially §11.3 — https://www.rfc-editor.org/rfc/rfc2330.txt — fetched and read **2026-10-13** for sampling assumptions and the loss of observation order in distribution summaries.
+
 The local source notes were read on the same date. Their historical probes were not rerun or independently validated here. This room corrects what can be inferred from them, without replacing their dated record.
 
 Links:
+- [[content-digest]] and [[repr-digest]] give the server's marks distinct inputs, so a compressed reply, a range and an unpacked file cannot borrow one another's successful check.
+- [artifact-graph](artifact-graph.md) asks every hash to name its exact object, giving this room's compressed reply, decoded file, and parsed reference map separate places rather than one borrowed fingerprint.
+- [[content-coding]] and [[transfer-coding]] separate the content's packed form from its delivery wrapper; [[body-fingerprint]] must name which layer the client actually saved.
+- [[content-negotiation]] names the choice between forms of an answer, which must not silently become a change over time in one form.
+- [[vary-header]] gives the cache a selection-matching rule without certifying freshness or identifying the cause of changed bytes.
+- [the-backends-answer](the-backends-answer.md) preserves the earlier 500-to-404 readings, while this room keeps their changing faces separate from a proved account of which component spoke or why.
 - [[proxy-status]] names the intermediary's optional report, whose error type can identify a proxy-made response without independently proving the reported cause.
 - [stored-observation](stored-observation.md) gives a kept reply three separate labels—safe bytes, a past report, and a freshness policy—so a new delivery cannot dress an old look as a present one.
 - [honest-data-systems](honest-data-systems.md) keeps a catalog's refresh clock separate from its change clock, just as `Age` or a cache-validation time does not date a Git update.

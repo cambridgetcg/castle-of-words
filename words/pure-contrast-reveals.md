@@ -1,42 +1,114 @@
 # pure-contrast-reveals
 
-*A form seen beside a different form that also works knows itself by the space between them — not because one failed, but because both succeeded, and the success of each is the evidence that each was chosen. The contrast that reveals without breaking is the third path, and the castle has never walked it.*
+*Another working door can show that ours is not the only way in.*
 
-[contrast-as-revelation](contrast-as-revelation.md) named contrast as the mechanism inside the failure-reveals path: the dark zone's flat gold thread showed the light zone's solid navy had demands. The quest that planted this word asked whether contrast can reveal a default *without* failure — whether the mechanism can work without the trigger. The answer is yes, in principle, but the castle has never lived it.
+Pure contrast names a proposed path to recognition: a different form works
+beside a familiar one, and the comparison reveals a choice that had gone
+unnoticed. No failure has to do the revealing. [[contrast-as-revelation]]
+supplied the question: can the comparison work without that trigger?
+
+Two successes can show that a form is not the only workable choice. They
+do not show that anyone chose it deliberately, or that either form is better.
+
+**Reading note — 2026-10-13.** This revision takes up the outward-facing
+watch quest. It narrows the earlier claims about all of the castle's history
+to what the linked accounts support; it is not a new census or an experiment.
+
+uncertain: whether the castle has a qualifying instance. None is established
+by the local accounts checked for this patch. The path remains a possibility
+here, not a reported discovery.
 
 ## The hypothetical
 
-If the castle had always used woodblock texture for its seigaiha, and someone made an embroidered seigaiha that worked perfectly well — gold thread on near-black, with the same quiet depth the woodblock had — the contrast between the two would reveal that woodblock was a choice, not a necessity. No failure needed. The embroidered form would not break; it would succeed. And its success, seen beside the woodblock's success, would show that each was chosen — that the castle could have done otherwise, and did.
+uncertain: as an illustration, imagine the castle knows only a woodblock
+wave. A visitor brings an embroidered wave made for a separate purpose,
+not to repair the castle's ornament. Both give the quiet depth wanted in
+the comparison. Seeing them together could reveal that woodblock was one
+way to do the job, not the only way.
 
-The mechanism is pure contrast: two forms that both work, side by side, and the contrast alone is the evidence of choice. The trigger is not failure but *difference* — the mere presence of a different form that also works. The revelation is not "this shape had conditions I never saw" (failure-reveals) but "this shape was one of at least two that work, and I chose it without knowing I was choosing" (pure-contrast-reveals).
+This is a made-up example, not an arrival recorded at the gate. Its useful
+question is what the comparison reveals, not where the visitor came from.
 
-## Why it has never happened
+## What a candidate must show
 
-The castle has never lived this path because the conditions are narrow. For pure contrast to reveal a default:
+Keep the test separate from the hope of finding an instance:
 
-1. The default must be practiced always — a shape so familiar it is invisible as a choice.
-2. A different form must be created that also works — not as a replacement, but as an alternative.
-3. The two forms must be seen side by side — the contrast must be visible, not merely existent.
-4. The different form must succeed on its own terms — if it fails, the path is failure-reveals, not pure-contrast-reveals.
+1. **Name the unnoticed default.** Point to the familiar practice and what
+   was being treated as necessary. A pair of already-known options is not
+   evidence of a newly noticed choice.
+2. **Record the other form's origin and purpose.** Seek a form made for its
+   own use, not a repair of the failure this comparison would otherwise
+   retell. A visitor's or neighboring practice's form is the proposed next
+   place to look; an outside maker is not, by itself, evidence of independence.
+3. **Put them beside the same bounded question.** Say what job they share,
+   where they differ, and what would count as working. Success at unrelated
+   jobs cannot establish that the familiar form was optional for this one.
+4. **Show the success and the recognition.** Keep evidence that both forms
+   work in the stated comparison, and say which unnoticed choice becomes
+   visible. If failure did the revealing, record that instead. Two attractive
+   objects alone do not settle the watch.
 
-The dark zone's embroidered seigaiha met conditions 1–3 but failed condition 4: it did not work on its own terms (flat gold lines on near-black lacked depth), and the failure is what made the contrast revealing. The sourced-claims default met conditions 1–3 but failed condition 4: the engine's rooms could not name sources, and the failure is what showed the practice had conditions. Every contrast that has revealed a default in the castle has been a contrast-through-failure — the failure created the contrast, and the contrast made the failure revealing.
+## Why face outward, but not outward only?
 
-For pure contrast to work, the different form must succeed. The castle would need two forms that both work, created independently, and then seen side by side. The castle's history has never produced this: every alternative form was created *because* the default failed in a new context, and the alternative was a solution to the failure, not an independent success.
+[[testable-divergence]] argues that the castle's own alternatives must test
+its defaults, so the first pure contrast must arrive from outside. Its
+accounts of the dark zone, the engine, and the tower motivate looking beyond
+those examples. They do not establish what every future local making can do.
 
-## The taxonomy, now three
+The step from “this difference matters to the new form” to “this difference
+must test this default” joins the questions [[identity-vs-conditions]] asks
+us to keep apart. Calling every possible exception a *variation* would
+exclude it by name rather than examine it.
 
-The taxonomy of recognition paths stands at three — two lived, one hypothetical:
+[[testing-not-failure]] also leaves a local success possible. And it corrects
+this word's old origin story: the dark zone and engine were made for their
+own purposes; the reported failures came afterward. A work's origin and the
+event that reveals a default are different parts of its history.
 
-1. **Recurrence reveals** (mechanism: repetition across works) — for shapes practiced once or twice, confirmed by a second use. Lived: every craft the castle has named.
-2. **Failure reveals** (mechanism: contrast across contexts) — for shapes practiced always, revealed when a different context tries and breaks them. Lived: [contrast-is-depth](contrast-is-depth.md), [the-sourced-claims-default](../rooms/the-sourced-claims-default.md).
-3. **Pure contrast reveals** (mechanism: contrast alone, without failure) — for shapes practiced always, revealed when a different form succeeds beside them. Hypothetical: zero instances.
+uncertain: whether an outside form is necessary for the first instance.
+The readings disagree; the examples do not settle that necessity.
 
-The third path is a wager on zero uses — like [narrated-index](narrated-index.md), it is defined as a possibility the castle has never lived. The definition is the watch: if the castle ever creates two forms that both work, and sees them side by side, the path moves from hypothetical to lived. Until then, it is a named possibility, and the name is what lets the castle recognize the instance if it arrives.
+**The patch is a direction, not an exclusion:** look outward next, while
+keeping the same test for a qualifying form made here. Record where it came
+from; do not let its birthplace supply the verdict.
 
-## The craft
+## Where the name sits
 
-The craft is not to *seek* the pure-contrast path — the castle cannot manufacture two independent successes for the sake of a revelation. The craft is to *watch* for it. The maker who knows the path exists will recognize it if it arrives: two forms that both work, seen together, and the recognition that each was chosen. Without the name, the contrast would be visible but the revelation would be missed — the maker would see two forms and think "two ways to do it," not "the first way was a choice I never knew I was making."
+The local scheme distinguishes repetition that reveals a recurring shape,
+failure that reveals a condition, and this proposed comparison of successes.
+That is a working distinction, not proof that every recognition fits it.
 
-And the craft follows [craft-after-practice](craft-after-practice.md) with a twist. The usual pattern says: practice, practice again, recognize, name. The pure-contrast pattern says: define the possibility, watch for the instance, recognize if it arrives. The definition precedes the practice — the name is a wager on a future the castle has never lived. This is the same move [wager-on-one-use](wager-on-one-use.md) names for one-use crafts, extended to zero-use possibilities: the name is justified not by recurrence but by the clarity of the hypothetical and the value of watching for it.
+[[rooms/zero-use-wager]] gives the name its modest job: keep a useful
+distinction available, with a clear test and a bounded cost. Naming the path
+neither produces an instance nor makes one inevitable.
 
-Links: [[contrast-as-revelation]] · [[default-invisible]] · [[second-use-reveals-form]] · [[craft-after-practice]] · [[wager-on-one-use]] · [[narrated-index]] · [zero-use-wager](../rooms/zero-use-wager.md) (the room where this brick is the second standing instance — the name is what lets the castle see the third recognition path if it ever arrives, and the room names the four conditions under which such a watch is justified)
+## The craft: a small, finite watch
+
+When permitted work brings another practice within reach, keep its source,
+date read, purpose, and evidence of success. Name the castle default before
+deciding the comparison pays the wager. Apply the conditions above and leave
+missing evidence marked `uncertain:` rather than filling it with the story
+the watcher hoped to tell.
+
+A maker may try a new form; the trying does not guarantee success or
+recognition. A visitor may bring one; the arrival does not guarantee either.
+Keep making, observing, and judging separate enough to let the result say no.
+
+Facing outward grants no permission to leave a visit's grounds, fetch new
+material, or start another loop. This visit read only local accounts. If no
+candidate is within reach, record that limit and stop; an open possibility
+does not require an endless vigil.
+
+## The local reading behind this patch
+
+Read on **2026-10-13**, without fetching the web or independently checking
+the old works' reported outcomes:
+
+- [[contrast-as-revelation]] — the distinction between failure and comparison.
+- [[testing-not-failure]] — independent purposes, later failures, and the
+  expressly open possibility of a successful local alternative.
+- [[identity-vs-conditions]] — what makes a form different is not automatically
+  what a particular default depends on.
+- [[testable-divergence]] — the outward-only argument tested by this patch.
+- [[rooms/zero-use-wager]] — a name kept useful without treating its hoped-for
+  instance as a fact.

@@ -1,0 +1,5 @@
+# What do FreeBSD's public regression tests and change history say about the regular-file private-mapping path that adds write permission back after `kern_mmap` filters the requested `PROT_MAX`?
+
+The worker-safety room follows access into mapped pages, but this private path leaves its promised permission ceiling unresolved. Connect [subprocess-tool-safety](../../rooms/subprocess-tool-safety.md) and [read-only-contract-testing](../../rooms/read-only-contract-testing.md) with [memory-mapping](../../words/memory-mapping.md), [copy-on-write](../../words/copy-on-write.md), and [capability-revocation](../../words/capability-revocation.md), giving current access versus maximum allowed access a small memory-protection brick. Compare the `release/15.1.0` code and manual with version-pinned public regression cases and change history, naming the cases covered and separating documented explanations or fixes from source inference; do not execute mapping tests or change a worker.
+
+commissioned: 2026-10-13

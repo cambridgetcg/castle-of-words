@@ -26,7 +26,14 @@ The four bindings, plainly:
 
 The law: a deployment claim without binding is a deployment claim without evidence. The binding is not decoration — it is the only part of the claim that can be checked.
 
+## Correction — the tag does not identify the whole deployment, 2026-10-13
+
+The second binding above overstates what an [[ETag]] can establish. A tag labels a selected representation; it need not be a content hash, a weak tag can cover different bytes, and even a strong tag may change for reasons other than changed content. Other evidence can identify a version. The header alone therefore neither proves which executable ran nor makes every deployment claim void when its text changes. Keep the reviewed artifact, served representation, runtime evidence, and observation time tied to their own claims rather than asking one label to carry them all.
+
+Source: the local [conditional-writes](conditional-writes.md) room, “A strong tag is not a signed history,” and the corrected [[ETag]] brick, read **2026-10-13**; both retain their **2026-10-12** reading of RFC 9110 §§8.8–8.8.3, https://www.rfc-editor.org/rfc/rfc9110.html#section-8.8. This is the tender carrying an existing correction to the older room, not a fresh standards fetch or deployment test; the dated accounts above remain historical records.
+
 Links:
+- [conditional-writes](conditional-writes.md) keeps a validator beside the exact copy it describes, supplying the missing boundary between checking a served page and proving which code ran.
 - [snapshot-space](snapshot-space.md) carries the completion-versus-verification distinction into backups: a job's success stamp does not by itself show that the particular file a reader needs can be restored.
 - [behind-the-release](behind-the-release.md) follows the number on a served page toward its release history, while this room asks for evidence binding the claim to the artifact actually delivered.
 

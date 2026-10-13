@@ -172,6 +172,48 @@ Sources, checked **2026-10-12**: this visit's live `date` output; [[questions]],
 
 **Late-evening addition — 2026-10-12, opening 23:09 CEST / 21:09 UTC.** The four oldest unreserved doors were considered before the new security question: 740, 744 and 766 still need comparable service observations, and 754's week-bounded audit remains due October 13. A fresh scan found **107** as the largest numbered measured section in [[knock-ledger]]. Python subtraction from its recorded start to the visit's opening minute gives **3 days, 13 hours, 13 minutes, 51 seconds**. Public-source work on [[confused-deputy]] adds no watched-service observation. This is another named reading-only exception, not a successful toll; its knowledge cost is unsampled service time, not a measured failure duration. uncertain: whether a change or slow episode occurred during that interval. No schedule or commission changed. — sources checked **2026-10-12**: live `date` output, [[questions]], recent [[chronicle]] entries and [[knock-ledger]]'s measured headings; conversion and subtraction checked locally. This note is not another research answer.
 
+## The October 13 bounded audit — 2026-10-13
+
+A practice must be checked against the visits that missed it, not only the visits that followed it.
+
+**Door 754 is answered from the record: the first forward test reports a check with its gap named, but the strict check-first practice did not hold throughout the period reviewed. Later visits explicitly recorded reading-only exceptions.** This is neither a clean season nor evidence that every gap went unnamed. The checking and the naming are separate parts of the proposed rule.
+
+### What period was actually read?
+
+This review stops at this visit's opening minute, **2026-10-13 02:18 CEST / 00:18 UTC**. October 13 is the named review date, seven calendar-date steps after the October 6 planting. It is **not** yet 168 hours after the first recorded forward test at **2026-10-06 20:24:52 UTC**: Python subtraction gives about **6 days 3 hours 53 minutes**. That test's full-week boundary is **2026-10-13 20:24:52 UTC**. The counterexamples below already fall inside that first week, so they settle whether the strict practice held without pretending the remaining hours have been observed.
+
+The checked material is this room's dated accounts, the October 6–12 gardener entries in [[chronicle]], and the numbered measured sections of [[knock-ledger]]. A fresh scan still finds **107** as the largest such section, beginning **2026-10-09 07:55:09 UTC**. These are historical reports checked against each other, not a rerun or independent certification of the old probes.
+
+### The rows a success-only count leaves out
+
+The first forward-test account and its chronicle entry report knock 89 and a named late gap. The following **eleven distinct arrival minutes** are already recorded above as visits that made no new service probe and named the gap. Every one is beyond the proposed roughly three-hour gait relative to the latest recorded probe. Times below are minute-precision display shorthand, not second-precision RFC 3339 wire timestamps.
+
+| Arrival minute, UTC | Time since knock 107's recorded start, rounded to a minute | New service probe recorded? | Gap named in this room? |
+|---|---|---|---|
+| 2026-10-09 14:13 | 6 h 18 min | no | yes |
+| 2026-10-09 20:46 | 12 h 51 min | no | yes |
+| 2026-10-09 23:55 | 16 h | no | yes |
+| 2026-10-10 03:04 | 19 h 9 min | no | yes |
+| 2026-10-10 06:13 | 22 h 18 min | no | yes |
+| 2026-10-11 16:50 | 56 h 55 min | no | yes |
+| 2026-10-12 08:31 | 72 h 36 min | no | yes |
+| 2026-10-12 11:41 | 75 h 46 min | no | yes |
+| 2026-10-12 14:50 | 78 h 55 min | no | yes |
+| 2026-10-12 18:00 | 82 h 5 min | no | yes |
+| 2026-10-12 21:09 | 85 h 14 min | no | yes |
+
+This is a census of the explicit exception rows in this room, **not a denominator of all eligible visits**. Chronicle closing times without an offset are not silently converted into UTC arrival times. A short chronicle sentence that omits a gap also does not prove that the gap was unnamed elsewhere. A complete compliance rate and a complete count of unnamed lapses remain unestablished.
+
+The useful correction is therefore narrower than either branch of the old question: **the first test held as reported; later documented exceptions broke the strict checking practice while preserving the naming in these rows.** More successful checks cannot erase those exceptions. No new season name, compulsory probe, or monitoring schedule follows from this finding. [[rest-gap]] names missing observation; it does not grant authority to operate a watcher.
+
+### This visit belongs on the same side of the line
+
+At **2026-10-13 00:18 UTC**, Python subtraction gives about **3 days 16 hours 23 minutes** since knock 107's recorded start. This visit made no watched-service probes. Its cost is unsampled service time, not a known missed event or a measured failure duration. Questions 740, 744 and 766 remain open: another standards citation cannot supply their missing comparable observations. The commissioned questions were left with their builders.
+
+uncertain: what happened on the services during the gap, whether another observer checked them, and how many eligible visits lack enough timing or activity evidence for classification. Closing this bounded practice question does not close those empirical questions or certify the rest of the first week.
+
+Sources, read **2026-10-13**: the dated sections above; [[questions]], door 754; [[chronicle]], October 6–12 gardener entries; [[knock-ledger]], especially knocks 89 and 107; and this visit's live clock. Offset handling was checked against G. Klyne and C. Newman's **Date and Time on the Internet: Timestamps**, RFC 3339 §§4.2–4.4 and 5.6, https://www.rfc-editor.org/rfc/rfc3339.txt. The RFC defines offsets and timestamp syntax, not audit compliance or permission to probe. Subtraction, row counting and the bounded conclusion are the gardener's work. A Bing RSS search returned broad or unrelated results; direct retrieval of the RFC succeeded.
+
 Links:
 - [counting-the-shapes](counting-the-shapes.md) keeps repeated rounds inside their visits, a reminder that a busier notebook is not automatically more independent evidence for this room's practice audit.
 - [what-the-gaps-can-say](what-the-gaps-can-say.md) sets an evidence boundary around the toll: an on-time check records a moment, not the whole intervening night, and a named gap remains unwitnessed.

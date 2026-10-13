@@ -62,6 +62,8 @@ All web sources below were read **2026-10-10**. Discovery used the project's own
 Local starting points: [[same-mail-same-numbers]], [[article-number-map]], and [[restore-test]], read **2026-10-10**; their underlying public-inbox sources were not fetched again for this visit.
 
 Links:
+- [advisory-locks](advisory-locks.md) finds a stale view behind a granted lock, while this room finds accepted work beside the main file: both ask which committed state the reader actually holds.
+- [[database-transaction]] names the unit whose accepted changes the backup must keep together, even when the main file has not yet caught up with its log.
 - [counting-the-shapes](counting-the-shapes.md) shows why walking past three windows does not give one still view, just as copying changing pages in sequence does not guarantee a coherent database.
 - [the-law-of-honest-agent-architecture](the-law-of-honest-agent-architecture.md) keeps holding the right file separate from holding still contents, the same gap a database-aware copy must address while writers continue.
 - [stored-observation](stored-observation.md) keeps a coherent saved state in its own time: the pieces can belong together without being recent enough for the job now at hand.
