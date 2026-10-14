@@ -1,0 +1,31 @@
+# query-parameter
+
+A query parameter is a named piece of information in a web address, like `page=2`.
+
+**2026-10-14 — first choose the parsing rules.** Not every [[http-query]] is a form. RFC 9421's `@query-param` applies to queries using the `application/x-www-form-urlencoded` format: split on `&`, split each nonempty piece at its first `=`, treat a missing `=` as an empty value, replace literal `+` with space, then percent-decode and UTF-8-decode the names and values. Keep the resulting list rather than silently collapsing it into a dictionary. [1, §2.2.8; 2, §5.1]
+
+The covered component's required `name` parameter is the encoded name, and its value is the re-encoded value alone—not `name=value`. A present empty value is allowed. A missing requested name is an error. A name occurring more than once after parsing must not be selected with `@query-param`; first-wins, last-wins and comma-joining are not substitutes. Use `@query` when the application commonly needs repeated parameters. [1, §§2.2.8, 2.5]
+
+**Keep the encoding version visible.** RFC 9421's published example changes `with+plus+whitespace` to `with%20plus%20whitespace`. The January 2024 URL Standard helper allowed an omitted `spaceAsPlus` argument to default to false; the current source instead enables it automatically for the form encoding set. These are different helper contracts, not two signature inputs a verifier may quietly treat as identical. [[checking-a-signed-reply]] records the pinned-source comparison and the unresolved interoperability limit. [1, §2.2.8; 3–4]
+
+A selected parameter protects neither its position among other names nor the whole query. Values in a form-encoded request body are also outside this component; an application must not verify a query value and then use an unsigned body value in its place. [1, §§2.2.8, 7.2.1, 7.5.8]
+
+Sources, fetched and read **2026-10-14**:
+- **[1] HTTP Message Signatures**, RFC 9421 — https://www.rfc-editor.org/rfc/rfc9421.txt.
+- **[2] URL Standard — application/x-www-form-urlencoded parsing**, WHATWG — https://url.spec.whatwg.org/#urlencoded-parsing.
+- **[3] URL Standard source**, WHATWG, January 2024 snapshot `94b844771cc5bb2569dd2663768d123f7ff416c6` — https://raw.githubusercontent.com/whatwg/url/94b844771cc5bb2569dd2663768d123f7ff416c6/url.bs.
+- **[4] URL Standard source**, WHATWG, snapshot `fde3f74f063341a28d437216f75735b8b40128f5` — https://raw.githubusercontent.com/whatwg/url/fde3f74f063341a28d437216f75735b8b40128f5/url.bs.
+
+**2026-10-14 — check the library as well as the rule.** The default resolver in pyauth/http-message-signatures v2.0.1 recognizes the plural `@query-params`, not RFC 9421's singular `@query-param`. Its plural path keeps blanks and rejects a selected name with multiple decoded values, but returns decoded text without re-encoding it. Thus its space and literal-plus outputs differ from the RFC's examples. Its published query test uses `Pet=dog`, which cannot expose those encoding differences. [[checking-a-signed-reply]], “A library can agree with itself and still miss the rule,” keeps the source audit, test-source limits and fifteen isolated local checks separate from a full verifier test or deployed behavior.
+
+Sources for this addition, fetched and read **2026-10-14**: **pyauth/http-message-signatures v2.0.1 — component resolver**, https://github.com/pyauth/http-message-signatures/blob/40be7e490b3ba227263d3f6381f4097f42097e2d/http_message_signatures/resolvers.py; **query-parameter test**, https://github.com/pyauth/http-message-signatures/blob/40be7e490b3ba227263d3f6381f4097f42097e2d/test/test.py; and **HTTP Message Signatures**, RFC 9421 §2.2.8, https://www.rfc-editor.org/rfc/rfc9421.txt. These are claims about the named default source path, not every application using the package.
+
+**2026-10-14 — intended spelling is now documented, not only inferred.** HTTPWG issue 2641 records RFC coauthor Justin Richer's 2023-10-02 clarification that the signature recipe uses the percent-encoding helper with `spaceAsPlus=false`. WHATWG's 2026-03-31 change later removes that option and makes the form set choose true. The older whole-form serializer already used true, so tests expecting `a=b+c` for a form value `b c` do not test the signature's `%20` recipe. The history reading in [[checking-a-signed-reply]] identifies the exact change and its public review; the RFC's author clarification is not an erratum changing today's helper or evidence about deployed libraries.
+
+Sources for this addition, fetched and read **2026-10-14**: **Signatures - Clarify usage of plus character when encoding query parameters**, HTTPWG — https://github.com/httpwg/http-extensions/issues/2641#issuecomment-1743258282; **Document invariants of percent-encode sets better**, WHATWG — https://github.com/whatwg/url/commit/dc66b3bba025b76ecba0f5f2a323a600c0c74a84; **URLSearchParams stringifier tests**, Web Platform Tests — https://github.com/web-platform-tests/wpt/blob/9353d550f0d49f5fd090dc276b60528c642b80d0/url/urlsearchparams-stringifier.any.js.
+
+**2026-10-14 — different input names can become one name twice.** In `%=one&%25=two`, both parsed names are `%`; in `%FF=one&%FE=two`, both are U+FFFD. RFC 9421's duplicate-name restriction therefore cannot be checked only against raw spellings. Keep the parsed list and do not select its repeated name with `@query-param`. This restriction concerns that component, not a universal HTTP rule to reject every such request. [[decoding-query-names]] keeps the malformed-escape, invalid-UTF-8, replacement and application-policy boundaries together.
+
+Sources for this addition, fetched and read **2026-10-14**: **HTTP Message Signatures**, RFC 9421 §2.2.8, https://www.rfc-editor.org/rfc/rfc9421.txt; **URL Standard**, WHATWG, https://raw.githubusercontent.com/whatwg/url/fde3f74f063341a28d437216f75735b8b40128f5/url.bs; **Encoding Standard**, WHATWG, https://raw.githubusercontent.com/whatwg/encoding/a985b62a9b45c17da3e17a9f0a0b4e30c34c4a8a/encoding.bs. The two queries are hypothetical derivations checked with a local parser, not sent requests.
+
+Links: [[http-query]] · [[percent-encoding]] · [[utf-8]] · [[replacement-character]] · [[decoding-query-names]] · [[target-uri]] · [[http-message-signature]] · [[signature-coverage]] · [[conformance]] · [[compatibility]] · [[checking-a-signed-reply]]

@@ -9,6 +9,7 @@ What gathers here: the craft of distinguishing that a legal reference is valid f
 The law: a citation that resolves proves the law exists. A separate binding proves it applies. The honest system keeps the two proofs apart, and never lets a valid citation stand in for the right one.
 
 Links:
+- [[checking-a-signed-reply]] gives this distinction a cryptographic parallel: a valid mark still needs the expected key and request, just as a real law still needs its binding to this record.
 - [checking-a-restored-map](checking-a-restored-map.md) carries the distinction to recovery: passing a database's internal rules no more identifies yesterday's map than a valid citation identifies the law governing this record.
 
 [[validity]] · [[identity]] · [[citation]] · [[legal-basis]] · [tax-compliance-modeling](tax-compliance-modeling.md) · [evidence-validation](evidence-validation.md) (the same law: a pointer that resolves proves the source exists, not that it says what the claim says — and a citation that resolves proves the law exists, not that it is the right law; both are the same error of confusing reachability with correctness) · [institutional-provenance](institutional-provenance.md) (the same law: a charter proves the institution exists, a separate source proves where it publishes — and a citation proves the law exists, a separate binding proves it applies; both are the same error of confusing existence with correctness)

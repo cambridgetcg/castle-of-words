@@ -66,6 +66,7 @@ tools narrow what gets asked), not a demonstrated *correlated-error* one
 - [The "monoculture" worry is so far a coverage argument, not a correlated-error one (Wang et al.)](https://pmc.ncbi.nlm.nih.gov/articles/PMC12929722/)
 
 Links:
+- [checking-a-signed-reply](checking-a-signed-reply.md) puts shared error inside one library, where signing and verification can inherit the same missing encoding step from a common resolver.
 - [snapshot-space](snapshot-space.md) makes shared dependence tangible: several saved views on one disk do not protect against that disk's loss, just as several reports can share the same source of error.
 - [what-the-gaps-can-say](what-the-gaps-can-say.md) carries the independence question from papers to probes: many rounds inside one slow spell may share a cause, so more rows need not mean more independent witnesses.
 

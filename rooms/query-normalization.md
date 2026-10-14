@@ -34,6 +34,7 @@ For complex queries with joins, subqueries, and cursor-based pagination, the que
 - [[publication-boundary]] — the line between what the public can ask and what the private source can answer
 - [[sensitive-field]] — a data field that must not be exposed through public filters or sorts
 
-## Links
+Links:
+- [checking-a-signed-reply](checking-a-signed-reply.md) draws a boundary around this room's tidying: an allowed application rewrite must not replace the component-specific reconstruction of a signed query.
 
 [[sensitive-data]] · [[fail-closed-boundaries]] · [[honest-endpoints]] · [[the-law-of-honest-assertion]]

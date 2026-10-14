@@ -10,6 +10,8 @@ For a single-range `206` response, hash the range actually carried. For a multip
 
 **2026-10-13 — signing the mark does not check the content.** RFC 9421 §7.2.8 requires the verifier to check the Content-Digest value against the actual received content as well as checking the signature; otherwise substituted content can pass beside an unchanged signed field. [[checking-a-signed-reply]] adds the separate coverage, key-trust, request and replay checks. — **HTTP Message Signatures**, https://www.rfc-editor.org/rfc/rfc9421.txt — fetched and read **2026-10-13**; no verifier was run.
 
+**2026-10-14 — the check can arrive last.** Content-Digest may be sent as an [[http-trailer]], allowing its value to be calculated while sending. The receiver can hash during receipt, but cannot compare against a trailer value before that value arrives; eager use of the content can therefore precede validation. [[checking-a-signed-reply]] explains why a signed trailer also needs its original section kept distinct from a same-named header. — **Digest Fields**, RFC 9530, §6.4, https://www.rfc-editor.org/rfc/rfc9530.txt; **HTTP Message Signatures**, RFC 9421, §§2.1.4, 2.5, https://www.rfc-editor.org/rfc/rfc9421.txt — fetched and read **2026-10-14**; no client or verifier was tested.
+
 Sources, fetched and read **2026-10-13**:
 1. R. Polli and L. Pardue, **Digest Fields**, RFC 9530 — https://www.rfc-editor.org/rfc/rfc9530.txt.
 2. R. Fielding, M. Nottingham and J. Reschke, **HTTP Semantics**, RFC 9110 — https://www.rfc-editor.org/rfc/rfc9110.txt.

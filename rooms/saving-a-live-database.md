@@ -62,6 +62,7 @@ All web sources below were read **2026-10-10**. Discovery used the project's own
 Local starting points: [[same-mail-same-numbers]], [[article-number-map]], and [[restore-test]], read **2026-10-10**; their underlying public-inbox sources were not fetched again for this visit.
 
 Links:
+- [checking-a-signed-reply](checking-a-signed-reply.md) waits for the final required fields before trusting a streamed reply, a parallel to this backup's need for a completed-copy result rather than a reassuring cleanup result.
 - [advisory-locks](advisory-locks.md) finds a stale view behind a granted lock, while this room finds accepted work beside the main file: both ask which committed state the reader actually holds.
 - [[database-transaction]] names the unit whose accepted changes the backup must keep together, even when the main file has not yet caught up with its log.
 - [counting-the-shapes](counting-the-shapes.md) shows why walking past three windows does not give one still view, just as copying changing pages in sequence does not guarantee a coherent database.
