@@ -1,0 +1,5 @@
+# Can Unicode 17-to-18 confusable-data changes alter skeleton equality between names built only from characters whose Identifier_Status is Allowed in both versions?
+
+The look-alike room's changed-match examples use characters Restricted in both versions, leaving the effect on names built from the shared Allowed set untested. Connect [look-alike-names](../../rooms/look-alike-names.md), [decoding-query-names](../../rooms/decoding-query-names.md), and [comparing-saved-maps](../../rooms/comparing-saved-maps.md) through [identifier-status](../../words/identifier-status.md), [confusable-skeleton](../../words/confusable-skeleton.md), [unicode-normalization](../../words/unicode-normalization.md), and [data-migration](../../words/data-migration.md), keeping a changed comparison separate from a changed stored identity. Use pinned public data and bounded local string checks to find a small counterexample or state exactly what a no-change result covers, checking identifier syntax and normalization; do not open databases, register names, or change an application.
+
+commissioned: 2026-10-15

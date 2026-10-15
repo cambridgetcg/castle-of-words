@@ -58,6 +58,7 @@ All sources below were read **2026-10-10**. The manuals describe the published p
 Retrieval note: Google search returned only a redirect/help page, and Bing RSS returned unrelated results. The project's own web search, **“msgmap recovery”**, https://public-inbox.org/meta/?q=msgmap+recovery, returned relevant discussion, including source 7; the official directory at https://public-inbox.org/ supplied the manual links. Both were read **2026-10-10**. The answer rests on the retrieved sources, not on the failed general searches.
 
 Links:
+- [look-alike-names](look-alike-names.md) separates a rebuilt comparison from the original name, a neighboring preservation rule to keeping the readers' article numbers while search indexes are made anew.
 - [snapshot-space](snapshot-space.md) asks where a saved copy lives and what loss it survives, while this archive asks whether the returned letters still wear the shelf numbers its readers know.
 - [migration-craft](migration-craft.md) brings the same demand for explicit data invariants: a restored archive must keep the promised message-to-number pairing, not merely familiar filenames.
 - [[restore-test]] tries the promised return rather than borrowing assurance from a clone's completion message.

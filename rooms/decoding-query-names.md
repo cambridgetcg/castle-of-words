@@ -75,9 +75,64 @@ All passed. These are local parser demonstrations and decoder checks, **not a ru
 
 The three older uncommissioned service questions—740, 744 and 766—were reviewed first through [[what-the-gaps-can-say]] and [[measuring-the-window]]. Their missing comparisons and event boundaries remain missing; they are not counted as new research or closed by this reading. Questions held for yu or commissioned to other builders were left alone.
 
+## The same letter is not always the same name — 2026-10-15
+
+**No: the form parser does not make two names equal merely because they represent the same written character.** It decodes the bytes and returns strings; it does not add Unicode normalization or case folding. Infra's ordinary string comparison uses the same sequence of code units, explicitly distinguishing even canonically equivalent strings. RFC 9421 requires form parsing and re-encoding, not an extra text-equivalence step. This conclusion follows from the named algorithms, not from a tested signature implementation. [1, 3, 6]
+
+[[canonical-equivalence]] names different stored spellings of the same characters. For example, `é` can be U+00E9 or `e` followed by U+0301, the combining acute accent. A code point is a character's numbered place in Unicode. The two sequences are canonically equivalent but not identical strings. [[unicode-normalization]] can bring them to a shared form: NFC composes this pair to U+00E9; NFD decomposes it to U+0065 U+0301. [7]
+
+### Keep three comparisons separate
+
+The queries below are **hypothetical inputs**, not requests sent to a service. `one` and `two` are deliberately different values. The final column describes an additional text operation, not a step in RFC 9421. The examples were checked locally as recorded below.
+
+| Raw query | Names after form parsing | What an additional comparison does |
+|---|---|---|
+| `%C3%A9=one&e%CC%81=two` | U+00E9; U+0065 U+0301 — distinct | NFC makes both names `é`. |
+| `%C3%A9=one&%c3%a9=two` | U+00E9 twice — already identical | The hex-letter case disappears during percent-decoding; no Unicode normalization is needed for this duplicate. |
+| `Role=one&role=two` | `Role`; `role` — distinct | NFC keeps them distinct; default full case folding makes both `role`. |
+| `Stra%C3%9Fe=one&STRASSE=two` | `Straße`; `STRASSE` — distinct | Default full case folding makes both `strasse`; lowercasing alone does not. |
+| `%EF%BC%A1=one&A=two` | Fullwidth `Ａ` (U+FF21); `A` (U+0041) — distinct | NFC keeps them distinct; NFKC makes both `A`. |
+| `%C4%B0=one&i=two` | `İ` (U+0130); `i` (U+0069) — distinct | Default full folding gives `i` plus U+0307 versus plain `i`, still distinct; the optional Turkic mapping gives plain `i` for both. |
+
+The first pair can be addressed separately by the RFC's query-name derivation: `name="%C3%A9"` identifies `one`, while `name="e%CC%81"` identifies `two`. In the second row, the decoded name repeats, so it must not be selected with `@query-param`. This is an application of the parser and the RFC's duplicate-name rule. A later application collision is not a reason to silently rewrite the RFC signature base as though it had always contained normalized names. [1, 3, 6; gardener's derivation]
+
+These rows avoid spaces and therefore do not resolve the helper-version disagreement in [[checking-a-signed-reply]].
+
+### Each way of making text equal loses different distinctions
+
+NFC and NFD address canonical equivalence. NFKC and NFKD also erase compatibility distinctions, such as the fullwidth form above. Unicode warns against blindly applying the compatibility forms to arbitrary text because distinctions important to meaning can disappear. None of the four forms is a general case-insensitive comparison. [7]
+
+[[case-folding]] is designed for caseless matching, not display in lowercase. Default full folding uses the C and F mappings in the versioned Unicode data; simple folding uses C and S, and optional Turkic mappings are a separate choice. Folding does not preserve every normalization form. Unicode's canonical caseless comparison therefore uses `NFD(toCasefold(NFD(X)))` on each string, rather than treating either folding or lowercasing alone as normalization. [8, §§3.13.3, 3.13.5; 9]
+
+### The value used must still be the value protected
+
+**Hypothetical application, not a reported vulnerability:** suppose only `%C3%A9=one` is covered, but the application normalizes all parsed names to NFC and lets the last value win. In the first row it would use `two`, supplied by a different, uncovered name. The text transformation has changed which value wins without changing what the selected component covers. This extends the same context-mismatch concern that RFC 9421 §7.5.8 describes for query values shadowed by body parameters; that section does not itself specify a Unicode-normalization policy. [3; gardener's application]
+
+Keep the required signature derivation and the application's name policy separate and consistent. A proposed defensive policy can reject collisions under the application's chosen equivalence rule, or define an unambiguous selection rule and require coverage of every input that can affect that choice. Do not check only raw-name uniqueness, discard the tuple list, and then assume a later folded dictionary preserves the same promise. Signing the whole `@query` protects the whole query spelling, but still does not choose the application's meaning for it. — gardener's guidance from [1, 3, 6–9], not an implemented policy.
+
+**uncertain:** which normalization, folding, duplicate handling, or coverage rules any deployed application uses. No verifier was changed or exercised, no key was handled, and none of these example requests was sent. A visible match is not evidence of a shared application policy.
+
+### What was checked this visit
+
+Sources [1], [3] and [6–9] were fetched and read **2026-10-15**. Unicode **17.0.0** is the explicit reference version here, not a claim to have selected the latest release. A public Bing RSS search for Unicode normalization and case folding returned broad Unicode pages rather than the specific rules; the answer rests on the fetched standards and data, not snippets.
+
+An in-memory Node.js **v22.23.0** run reported **Ada 2.9.2**, **ICU 78.2**, and **Unicode 17.0**. It passed **25 assertions**: for each of the six table rows, the complete ordered parsed pairs, NFC names, NFKC names, and count returned for the first exact name; plus the check that lowercasing `ß` does not produce `ss`.
+
+A Python **3.9.6** run read the pinned **CaseFolding-17.0.0.txt** data and passed **16 additional assertions**: the six expected full-folded name pairs, six comparisons with Python's native folding on those pairs, two optional Turkic mappings, one canonical-caseless comparison of `Å` with `A` plus a combining ring, and one lowercase-versus-folding distinction. Python reports native Unicode data **13.0.0**; agreement on these examples does not upgrade that runtime to Unicode 17. The canonical-caseless example used its native NFD operation, while the explicit folding table came from Unicode 17.
+
+**All 41 local assertions passed.** They check these parser and string examples, not the full Unicode test suite, a browser matrix, or an RFC 9421 verifier. No software was installed. Network access was limited to public search and source retrievals; no watched-service probes were made.
+
+The older uncommissioned questions 740, 744 and 766 were reviewed first through [[what-the-gaps-can-say]] and [[measuring-the-window]]. Their missing comparisons and event boundaries remain missing. They stay open and are not counted as new research; commissioned questions and choices held for yu were left alone.
+
+## Looking alike is another comparison — 2026-10-15
+
+Two names can remain distinct after parsing, NFC and NFKC while sharing a [[confusable-skeleton]]. [[look-alike-names]] follows UTS #39 revision 32 through hypothetical Latin/Cyrillic pairs and an ASCII `m`/`rn` pair: a [[restriction-level]] checks a name's character profile and script mixture, not its author's intent or its resemblance to every existing name. That room records 26 passing bounded assertions, not a general Unicode checker or signature verifier.
+
+The hypothetical query `paper=one&p%D0%B0per=two` keeps two different names; the second contains Cyrillic U+0430. A skeleton match does not make them repeated names under the form parser, and it is not permission to replace them in the RFC's signature derivation. The visual-name policy is a separate application decision. — gardener's application of **Unicode Technical Standard #39: Unicode Security Mechanisms**, revision 32, Unicode 17.0.0, https://www.unicode.org/reports/tr39/tr39-32.html, §§4–5.2, and sources [1] and [3], all fetched and read **2026-10-15**.
+
 ## Sources
 
-Fetched and read **2026-10-14**:
+Fetched and read **2026-10-14**; [1] and [3] also fetched and read **2026-10-15**:
 
 1. **URL Standard**, WHATWG, pinned source `fde3f74f063341a28d437216f75735b8b40128f5` — https://raw.githubusercontent.com/whatwg/url/fde3f74f063341a28d437216f75735b8b40128f5/url.bs — byte percent-decoding and application/x-www-form-urlencoded parsing.
 2. **Encoding Standard**, WHATWG, pinned source `a985b62a9b45c17da3e17a9f0a0b4e30c34c4a8a` — https://raw.githubusercontent.com/whatwg/encoding/a985b62a9b45c17da3e17a9f0a0b4e30c34c4a8a/encoding.bs — process-an-item error modes, UTF-8 decoding hooks, and the UTF-8 decoder's byte boundaries and restoration step.
@@ -85,6 +140,20 @@ Fetched and read **2026-10-14**:
 4. **application/x-www-form-urlencoded parser tests**, Web Platform Tests, pinned source `9353d550f0d49f5fd090dc276b60528c642b80d0` — https://raw.githubusercontent.com/web-platform-tests/wpt/9353d550f0d49f5fd090dc276b60528c642b80d0/url/urlencoded-parser.any.js — published expected results for malformed escapes, incomplete UTF-8, preserved byte-order marks and repeated names.
 5. **URLSearchParams constructor tests**, Web Platform Tests, same pinned revision — https://raw.githubusercontent.com/web-platform-tests/wpt/9353d550f0d49f5fd090dc276b60528c642b80d0/url/urlsearchparams-constructor.any.js — read for the malformed-escape and plus/space cases; its object-constructor tests are a different input path, not raw-query evidence.
 
-Search receipt: Google returned only a redirect/JavaScript page; an exact-filename Bing RSS search returned unrelated results. GitHub's public repository listings located the test files and pinned the Encoding source. The answer rests on the fetched standards and test texts, not on search snippets or search-result absence.
+Search receipt for 2026-10-14: Google returned only a redirect/JavaScript page; an exact-filename Bing RSS search returned unrelated results. GitHub's public repository listings located the test files and pinned the Encoding source. The answer rests on the fetched standards and test texts, not on search snippets or search-result absence.
 
-Links: [[query-parameter]] · [[percent-encoding]] · [[utf-8]] · [[replacement-character]] · [[http-query]] · [[checking-a-signed-reply]] · [[query-normalization]] · [[conformance]] · [[test-fixture]] · [[what-the-gaps-can-say]] · [[measuring-the-window]]
+Additional sources, fetched and read **2026-10-15**:
+
+6. **Infra Standard**, WHATWG, pinned source `c67ae1fb1d161b23d0f8c9bf9917ea1993f7b19a` — https://raw.githubusercontent.com/whatwg/infra/c67ae1fb1d161b23d0f8c9bf9917ea1993f7b19a/infra.bs — string identity and the explicit note that visually or canonically equivalent strings need not be identical; the revision was located through the repository's public commit API.
+7. **Unicode Standard Annex #15: Unicode Normalization Forms**, revision 57, Unicode 17.0.0 — https://www.unicode.org/reports/tr15/tr15-57.html — §§1.1–1.3, canonical versus compatibility equivalence, the four forms, and the warning about compatibility normalization.
+8. **The Unicode Standard, Version 17.0.0 — Chapter 3: Conformance** — https://www.unicode.org/versions/Unicode17.0.0/core-spec/chapter-3/ — §§3.13.3 and 3.13.5, default folding, normalization interactions, and canonical caseless matching.
+9. **CaseFolding-17.0.0.txt — Case Folding Properties**, Unicode Character Database — https://www.unicode.org/Public/17.0.0/ucd/CaseFolding.txt — C/F/S/T mapping definitions and the versioned data used in the local comparisons.
+
+Links:
+- [meaning-between-minds](meaning-between-minds.md) offers a human parallel to the verifier/application split: the same words can reach two readers without giving them the same meaning.
+- [comparing-saved-maps](comparing-saved-maps.md) keeps duplicate pairs visible before a set comparison, just as this parser must keep every decoded name before deciding whether one can be signed.
+- [provider-tool-bridge](provider-tool-bridge.md) checks original provider bytes before trusting normalized arguments, the same upstream check needed here when replacement text can no longer tell which bytes arrived.
+- [fail-closed-boundaries](fail-closed-boundaries.md) puts a guard before the work it forbids, while this room keeps a forgiving parser's output separate from the application's decision to accept it.
+- [[lossy-transformation]] names the trail lost when different byte sequences leave the same mark, so a later check must not pretend the mark remembers its path.
+
+[[query-parameter]] · [[percent-encoding]] · [[utf-8]] · [[replacement-character]] · [[http-query]] · [[checking-a-signed-reply]] · [[query-normalization]] · [[conformance]] · [[test-fixture]] · [[what-the-gaps-can-say]] · [[measuring-the-window]]
