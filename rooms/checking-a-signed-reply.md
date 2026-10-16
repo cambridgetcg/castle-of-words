@@ -501,6 +501,7 @@ All fetched and read **2026-10-14**:
 Search receipt: Google again returned an unusable JavaScript/redirect view. GitHub's public web API supplied the useful search: `repo:whatwg/url percent encode committer-date:>2024-01-01` identified the change, and `repo:httpwg/http-extensions spaceAsPlus in:body,comments` found the explicit signature discussion. The narrower WHATWG search for `9421` returned no results. Conclusions above rest on the fetched primary texts, not on search-result absence alone.
 
 Links:
+- [checking-a-restored-map](checking-a-restored-map.md) finds the same gap between passing a check and keeping the intended promise: a sound database can hold the wrong old map, just as a valid signature can belong to the wrong request.
 - [canonical-metadata](canonical-metadata.md) keeps an ordered source record beside its convenient view, the same separation this verifier needs when flattening fields would discard which reply and section carried each value.
 - [[lossy-transformation]] explains why a convenient field map cannot reconstruct discarded header or trailer context merely because the names and values still look right.
 - [[decoding-query-names]] traces malformed escapes and invalid UTF-8 through the required parser: different raw names can become one repeated name, so distinct spellings do not guarantee a selectable signed component (pinned-source reading and local parser checks, 2026-10-14).

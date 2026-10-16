@@ -1,0 +1,34 @@
+[
+  {
+    "name": "search-bing",
+    "url": "https://www.bing.com/search?format=rss&q=%22yhetil.org%22%20%22orgmode%22",
+    "read_utc": "2026-10-16T10:32:47.171294+00:00",
+    "curl_exit": 0,
+    "http_code": "200",
+    "stderr": ""
+  },
+  {
+    "name": "git-http-v2.39.5",
+    "url": "https://raw.githubusercontent.com/git/git/v2.39.5/Documentation/gitprotocol-http.txt",
+    "read_utc": "2026-10-16T10:32:47.460097+00:00",
+    "curl_exit": 0,
+    "http_code": "200",
+    "stderr": ""
+  },
+  {
+    "name": "git-common-v2.39.5",
+    "url": "https://raw.githubusercontent.com/git/git/v2.39.5/Documentation/gitprotocol-common.txt",
+    "read_utc": "2026-10-16T10:32:47.700854+00:00",
+    "curl_exit": 0,
+    "http_code": "200",
+    "stderr": ""
+  },
+  {
+    "name": "curl-write-out-8.7.1",
+    "url": "https://raw.githubusercontent.com/curl/curl/curl-8_7_1/docs/cmdline-opts/write-out.md",
+    "read_utc": "2026-10-16T10:32:48.201731+00:00",
+    "curl_exit": 0,
+    "http_code": "200",
+    "stderr": ""
+  }
+]

@@ -1,0 +1,21 @@
+{
+  "status": "PASS",
+  "closed": true,
+  "new_service_requests": 6,
+  "captured_bodies_checked": 12,
+  "identical_orgmode_bodies": 4,
+  "same_explicit_request_profiles": true,
+  "observation_window_seconds": 5.21517,
+  "after_name_resolution_seconds": 0.378122,
+  "open_questions": 16,
+  "questions_updated": [
+    740,
+    744,
+    766
+  ],
+  "rooms": 697,
+  "map_entries": 697,
+  "garden_unchanged": true,
+  "prior_chronicle_bytes_preserved": true,
+  "chronicle_lines_appended": 1
+}

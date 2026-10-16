@@ -1,0 +1,19 @@
+{
+  "aborted_operation_seconds": "45.112546",
+  "elapsed_after_pretransfer_seconds": "44.820414",
+  "elapsed_beyond_configured_limit_seconds": "0.112546",
+  "process_elapsed_seconds": 45.136112333,
+  "observation_window_seconds": 46.640271,
+  "most_recent_comparison": {
+    "left": "gardener-2026-10-16-service-check-3/r2-orgmode",
+    "right": "gardener-2026-10-16-service-check-4/r1-orgmode",
+    "same_method_url_headers": true,
+    "body_byte_equal": true,
+    "references_equal": true,
+    "capabilities_equal": true,
+    "request_start_spacing_seconds": 11948.773668,
+    "between_processes_seconds": 11948.352677
+  },
+  "new_captures": 3,
+  "not_run_planned_captures": 3
+}

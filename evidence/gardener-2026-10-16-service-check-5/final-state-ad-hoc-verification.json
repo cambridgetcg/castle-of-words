@@ -1,0 +1,14 @@
+{
+  "kind": "ad-hoc final-state verification, not canonical suite",
+  "passed": true,
+  "tests_run": 5,
+  "failures": 0,
+  "errors": 0,
+  "source_sha256": {
+    "observe.py": "9d60fd69252d5d2835b60c6709c4bbb4dbe6c8a26b4bdf3e1ca2d31eb5629bf1",
+    "verify.py": "04606eadc313b9e3a92f4471bb710ac14b41bbb626bdd3581e65497b0de154c9"
+  },
+  "staging_absent_before_tests": true,
+  "live_network_requests": 0,
+  "output": "test_actual_offline_verifier (__main__.FinalStateChecks) ... ok\ntest_both_scripts_compile (__main__.FinalStateChecks) ... ok\ntest_parser_on_saved_and_invalid_inputs (__main__.FinalStateChecks) ... ok\ntest_sources_match_the_nine_passing_behavior_tests (__main__.FinalStateChecks) ... ok\ntest_staging_is_already_absent (__main__.FinalStateChecks) ... ok\n\n----------------------------------------------------------------------\nRan 5 tests in 0.032s\n\nOK\n"
+}

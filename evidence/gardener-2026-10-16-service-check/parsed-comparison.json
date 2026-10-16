@@ -1,0 +1,110 @@
+{
+  "r1-orgmode": {
+    "bytes": 370,
+    "sha256": "5a5059f07c0b32e84d0d88c2b508c8efbfb7a7fae1cbefef3ef3651b1d2fce8e",
+    "legacy_md5_for_record_comparison_only": "658fda1f1e028e085753f7ef5fbf96aa",
+    "packets": [
+      {
+        "offset": 0,
+        "length": 30,
+        "payload_escaped": "b'# service=git-upload-pack\\n'"
+      },
+      {
+        "offset": 30,
+        "length": 0,
+        "payload_escaped": "b''"
+      },
+      {
+        "offset": 34,
+        "length": 269,
+        "payload_escaped": "b'ce02e5d4dcf8c7b6aaecc0bd9c4c33e3291f29eb HEAD\\x00multi_ack thin-pack side-band side-band-64k ofs-delta shallow deepen-since deepen-not deepen-relative no-progress include-tag multi_ack_detailed no-done symref=HEAD:refs/heads/master object-format=sha1 agent=git/2.39.5\\n'"
+      },
+      {
+        "offset": 303,
+        "length": 63,
+        "payload_escaped": "b'ce02e5d4dcf8c7b6aaecc0bd9c4c33e3291f29eb refs/heads/master\\n'"
+      },
+      {
+        "offset": 366,
+        "length": 0,
+        "payload_escaped": "b''"
+      }
+    ],
+    "direct_refs": {
+      "HEAD": "ce02e5d4dcf8c7b6aaecc0bd9c4c33e3291f29eb",
+      "refs/heads/master": "ce02e5d4dcf8c7b6aaecc0bd9c4c33e3291f29eb"
+    },
+    "capabilities": [
+      "multi_ack",
+      "thin-pack",
+      "side-band",
+      "side-band-64k",
+      "ofs-delta",
+      "shallow",
+      "deepen-since",
+      "deepen-not",
+      "deepen-relative",
+      "no-progress",
+      "include-tag",
+      "multi_ack_detailed",
+      "no-done",
+      "symref=HEAD:refs/heads/master",
+      "object-format=sha1",
+      "agent=git/2.39.5"
+    ]
+  },
+  "r2-orgmode": {
+    "bytes": 370,
+    "sha256": "5a5059f07c0b32e84d0d88c2b508c8efbfb7a7fae1cbefef3ef3651b1d2fce8e",
+    "legacy_md5_for_record_comparison_only": "658fda1f1e028e085753f7ef5fbf96aa",
+    "packets": [
+      {
+        "offset": 0,
+        "length": 30,
+        "payload_escaped": "b'# service=git-upload-pack\\n'"
+      },
+      {
+        "offset": 30,
+        "length": 0,
+        "payload_escaped": "b''"
+      },
+      {
+        "offset": 34,
+        "length": 269,
+        "payload_escaped": "b'ce02e5d4dcf8c7b6aaecc0bd9c4c33e3291f29eb HEAD\\x00multi_ack thin-pack side-band side-band-64k ofs-delta shallow deepen-since deepen-not deepen-relative no-progress include-tag multi_ack_detailed no-done symref=HEAD:refs/heads/master object-format=sha1 agent=git/2.39.5\\n'"
+      },
+      {
+        "offset": 303,
+        "length": 63,
+        "payload_escaped": "b'ce02e5d4dcf8c7b6aaecc0bd9c4c33e3291f29eb refs/heads/master\\n'"
+      },
+      {
+        "offset": 366,
+        "length": 0,
+        "payload_escaped": "b''"
+      }
+    ],
+    "direct_refs": {
+      "HEAD": "ce02e5d4dcf8c7b6aaecc0bd9c4c33e3291f29eb",
+      "refs/heads/master": "ce02e5d4dcf8c7b6aaecc0bd9c4c33e3291f29eb"
+    },
+    "capabilities": [
+      "multi_ack",
+      "thin-pack",
+      "side-band",
+      "side-band-64k",
+      "ofs-delta",
+      "shallow",
+      "deepen-since",
+      "deepen-not",
+      "deepen-relative",
+      "no-progress",
+      "include-tag",
+      "multi_ack_detailed",
+      "no-done",
+      "symref=HEAD:refs/heads/master",
+      "object-format=sha1",
+      "agent=git/2.39.5"
+    ]
+  }
+}

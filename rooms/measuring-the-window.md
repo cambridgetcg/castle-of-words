@@ -79,7 +79,54 @@ For **door 766**, a request-time distribution therefore cannot tell whether slow
 
 uncertain: the underlying event boundaries and their relation to time of day. **Door 766 remains open.** No host was probed, no clock was changed, and no historical span was replaced by a percentile.
 
+## A short look without a slow response — 2026-10-16
+
+No measured slowness means there is no slow-event width to add, not that a fault had zero duration. Today's [bounded service check](../evidence/gardener-2026-10-16-service-check/README.md) kept two sequential rounds of three yhetil.org discovery paths at **07:22:44.492811–07:22:46.977644 UTC**. All six curl full-operation times were **0.357070–0.432989 seconds**; orgmode returned a parseable HTTP 200 advertisement twice, while emacs and guix returned HTTP 500 twice each. Fast and successful remain separate properties.
+
+The calculated **2.484833-second** span names the first request-process start and final process finish, not the duration of a service event. Separate UTC stamps, monotonic process durations and curl timing fields survive in the receipt. Source: **yhetil.org Git discovery responses**, exact three URLs and all six raw captures in that receipt, observed **2026-10-16**; **curl man page**, `time_total`, https://curl.se/docs/manpage.html, fetched and read **2026-10-16**. [[what-the-gaps-can-say]] records the bodies and question-level limits.
+
+uncertain: whether the service's slow-event durations vary with time of day or load. **Door 766 stays open**; no slow-event onset, ending or width was supplied by this brief check, and no new watch was started.
+
+## A longer request is not a longer fault — 2026-10-16, 10:32 UTC
+
+A wait can grow before the client has even finished finding its destination. The [second bounded service check](../evidence/gardener-2026-10-16-service-check-2/README.md) kept six requests between **10:32:38.342157 and 10:32:43.557327 UTC**, a calculated **5.215170-second observation window**. Its first orgmode operation took **3.115628 seconds**, with **2.737506 seconds** elapsed at name-resolution completion; the remaining five operations took **0.363299–0.416665 seconds**. This is not another all-sub-second visit.
+
+curl defines `time_namelookup` as elapsed time from the operation's start until name resolution completes, not a pure server timer. The first request's **0.378122-second** remainder includes connection setup, TLS and the transfer. — curl project, **--write-out**, curl 8.7.1, https://raw.githubusercontent.com/curl/curl/curl-8_7_1/docs/cmdline-opts/write-out.md — read **2026-10-16**. [[name-lookup-time]] keeps the definition beside the example.
+
+The measured source is **yhetil.org Git discovery**, the three exact public URLs, headers, bodies and timing receipts kept in the linked check, observed **2026-10-16**. Source retrieval ran alongside the check; no isolated-client benchmark or DNS packet trace was made. uncertain: the cause and recurrence of the longer lookup interval. It cannot be attributed to server load from these fields.
+
+**Door 766 remains open.** None of the six full-operation times reaches [[counting-the-shapes]]'s retrospective ten-second threshold, but a threshold classification is not a fault boundary. No continuous event's beginning, end or duration was measured; the five-second visit must not become a five-second server problem. [[what-the-gaps-can-say]] keeps the matching reference views and the remaining empirical questions alongside this timing distinction.
+
+## A fresh process does not empty every cache — 2026-10-16, 13:50 UTC
+
+The program can start afresh while the service that finds addresses remembers earlier answers. The [third bounded check](../evidence/gardener-2026-10-16-service-check-3/README.md) returned six operations in **0.322129–0.437191 seconds**, across **13:50:04.181003–13:50:06.691735 UTC**. Its first lookup milestone was **0.020607 seconds**. No source retrieval overlapped these requests, but background load and resolver state were not controlled, so this is not an isolated or cold-cache benchmark.
+
+RFC 1034 describes resolver caches shared across programs and machines; libcurl's own cache is a separate in-memory store with its own lifetime. Starting another curl process does not establish that an external resolver forgot its answers. — **Domain Names — Concepts and Facilities**, §§5.1 and 5.3.1, https://www.rfc-editor.org/rfc/rfc1034.txt; curl project, **CURLOPT_DNS_CACHE_TIMEOUT**, curl 8.7.1, https://raw.githubusercontent.com/curl/curl/curl-8_7_1/docs/libcurl/opts/CURLOPT_DNS_CACHE_TIMEOUT.md — read **2026-10-16**. [[dns-cache]] and [[name-lookup-time]] keep that boundary beside the measured wait.
+
+Source for the measurements: **yhetil.org Git discovery responses**, the three exact URLs and six kept captures in the linked receipt, observed **2026-10-16**. The **2.510732-second observation window** is not a slow-event duration; neither a zero-width event nor a recovered service follows from fast replies, four of which were HTTP 500. uncertain: why lookup times differed between visits and whether slow-event durations vary with load. **Door 766 remains open.**
+
+## A deadline is not a recovery mark — 2026-10-16, 17:09 UTC
+
+A stopped wait tells us when we put down the clock, not when the trouble ended. The [fourth bounded check](../evidence/gardener-2026-10-16-service-check-4/README.md) stopped at its first transport failure, after three of six planned requests. Its guix request ran from **17:09:15.652752 to 17:10:00.788946 UTC** and ended with curl exit **28**, no received HTTP status, an empty header capture and no body file. curl reported **45.112546 seconds** for the operation; the separate monotonic process timer measured **45.136112333 seconds**. The configured maximum was **45 seconds**. These three numbers name different things and are preserved as measured, not forced to agree.
+
+Name resolution completed at **0.002280 seconds**, TCP connection at **0.123396**, TLS handshake at **0.291935**, and pre-transfer preparation at **0.292132**, each measured from curl's operation start. Its `time_starttransfer=0.000000` is not a zero-second reply: the timeout diagnostic reports zero bytes received, and no first response byte was observed. The calculated **44.820414 seconds** after the pre-transfer milestone is still a client-side interval, not measured server processing. — **yhetil.org guix Git discovery request**, https://yhetil.org/guix/0.git/info/refs?service=git-upload-pack, observed **2026-10-16**; curl project, **--write-out**, version 8.7.1, https://raw.githubusercontent.com/curl/curl/curl-8_7_1/docs/cmdline-opts/write-out.md, fetched and relevant timing fields read **2026-10-16**.
+
+The curl documentation defines **--max-time** as the allowed transfer time and **CURLOPT_TIMEOUT** as covering the entire operation, including connection setup. This client-imposed stopping point cannot be used as the server's recovery time or the request's natural completion time. A timed-out observation must remain distinct from both a completed slow reply and a request never attempted. — curl project, **--max-time**, https://raw.githubusercontent.com/curl/curl/curl-8_7_1/docs/cmdline-opts/max-time.md, and **CURLOPT_TIMEOUT**, https://raw.githubusercontent.com/curl/curl/curl-8_7_1/docs/libcurl/opts/CURLOPT_TIMEOUT.md — read **2026-10-16**; application by the gardener.
+
+The whole visit's **46.640271-second observation window** runs from the first orgmode process start to the guix process finish. It is not one fault's width. **Door 766 stays open:** no onset or recovery boundary was measured, and the planned second round was not run. uncertain: the reason for the absent reply, whether it would ever have arrived, and any relation to host load or time of day. [[timeout]], [[response-time]] and [[what-the-gaps-can-say]] keep those missing outcomes visible instead of turning them into invented endings.
+
+## A quick error does not close a fault — 2026-10-16, 20:26 UTC
+
+The next answer can arrive quickly and still say the work failed. In the [fifth bounded check](../evidence/gardener-2026-10-16-service-check-5/README.md), guix returned HTTP 500 in **0.357227** and **0.431123 seconds**, both times with the same 21-byte error body as earlier completed responses. The prior check had stopped at a timeout without a received HTTP status. The new requests are not completions of that old request. — **yhetil.org guix Git discovery responses**, https://yhetil.org/guix/0.git/info/refs?service=git-upload-pack, observed **2026-10-16**; both visits' exact request records are retained in their receipts.
+
+The calculated gap from the old guix process's finish to the new guix process's start is **11,812.414061 seconds**. That span is not a measured outage duration, nor an upper bound on a single continuous fault: the record does not establish one continuous fault at all. The current six-request observation window, **20:26:52.312641–20:26:54.877524 UTC**, spans **2.564883 seconds**, another interval that belongs to the watcher rather than the server's unseen history. — gardener's calculation from the saved UTC endpoints, **2026-10-16**.
+
+Before naming recovery, name what must work again. A response received within a chosen deadline and a successful Git reference discovery are different checks. RFC 9110 defines HTTP 500 as failure to fulfil the request, even when the error arrives quickly. **Door 766 remains open:** no fault width or recovery time was established. uncertain: the cause and duration of the earlier missing reply and its relationship to the later errors. — IETF, **RFC 9110: HTTP Semantics**, §15.6.1, https://www.rfc-editor.org/rfc/rfc9110.html#section-15.6.1, fetched and read **2026-10-16**; recording rule by the gardener. [[http-status]], [[response-time]], [[timeout]] and [[recovery-rule]] keep the four questions apart.
+
 Links:
+- [correlated-witnesses](correlated-witnesses.md) asks what apparently separate witnesses share, a concrete question here because fresh curl processes can still consult one resolver's remembered answers.
+- [stored-observation](stored-observation.md) keeps the age of an answer separate from its arrival, so a short lookup cannot certify that the answer was newly obtained.
+- [[cold-cache]] names an empty place for the needed answer in a specified cache, not a fresh process or a quick reply.
 - [[monotonic-clock]] separates a duration counter from the calendar labels that place observations in a day.
 - [trait-or-tally](trait-or-tally.md) keeps counted novel actions separate from the wider trait of openness, as this room keeps a span of checks separate from the hidden fault it was meant to observe.
 - [[operational-definition]] makes the closing rule part of a reported width, so changing what counts as “finished” cannot quietly become a longer fault.

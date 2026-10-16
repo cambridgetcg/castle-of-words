@@ -1,0 +1,133 @@
+{
+  "verification_kind": "ad-hoc verification, not a project test suite",
+  "verified_utc": "2026-10-16T17:22:11.282084+00:00",
+  "result": "passed",
+  "checks_passed": 29,
+  "checks_total": 29,
+  "network_requests_made": 0,
+  "scope": "Actual saved protocol parsing; malformed synthetic fixtures; source collection loop with mocked transports; full rerun guard; actual offline verifier.",
+  "changed_files_sha256": {
+    "evidence/gardener-2026-10-16-service-check-4/observe.py": "750e70fed336312349aecdf2f9f73302b7ff6220908ad160fb45ee61d0f4ee32",
+    "evidence/gardener-2026-10-16-service-check-4/verify.py": "ff0d56cde22ff9a649d61656f58047f5c8baf84b042f02ab6c875026fe20f76e"
+  },
+  "temporary_script_sha256": "7a7dca5cfb556cc434f17a4f123d59fe74454ce73f1db73aedc028855ca1f8e6",
+  "sandbox_directories_cleaned": true,
+  "checks": [
+    {
+      "check": "both changed scripts compile without writing bytecode",
+      "result": "passed"
+    },
+    {
+      "check": "collector parses the actual saved advertisement",
+      "result": "passed"
+    },
+    {
+      "check": "verifier independently decodes the actual saved advertisement",
+      "result": "passed"
+    },
+    {
+      "check": "parse rejects nonhex-length",
+      "result": "passed"
+    },
+    {
+      "check": "decode rejects nonhex-length",
+      "result": "passed"
+    },
+    {
+      "check": "parse rejects truncated-stream",
+      "result": "passed"
+    },
+    {
+      "check": "decode rejects truncated-stream",
+      "result": "passed"
+    },
+    {
+      "check": "parse rejects trailing-garbage",
+      "result": "passed"
+    },
+    {
+      "check": "decode rejects trailing-garbage",
+      "result": "passed"
+    },
+    {
+      "check": "parse rejects missing-final-flush",
+      "result": "passed"
+    },
+    {
+      "check": "decode rejects missing-final-flush",
+      "result": "passed"
+    },
+    {
+      "check": "parse rejects missing-capability-separator",
+      "result": "passed"
+    },
+    {
+      "check": "decode rejects missing-capability-separator",
+      "result": "passed"
+    },
+    {
+      "check": "parse rejects duplicate-reference",
+      "result": "passed"
+    },
+    {
+      "check": "decode rejects duplicate-reference",
+      "result": "passed"
+    },
+    {
+      "check": "six completed transfers respect the two-round cap",
+      "result": "passed"
+    },
+    {
+      "check": "guix timeout stops after three attempts and keeps the body missing",
+      "result": "passed"
+    },
+    {
+      "check": "wrapper deadline stops after one attempt",
+      "result": "passed"
+    },
+    {
+      "check": "HTTP 401 stops collection without following or retrying",
+      "result": "passed"
+    },
+    {
+      "check": "HTTP 403 stops collection without following or retrying",
+      "result": "passed"
+    },
+    {
+      "check": "HTTP 407 stops collection without following or retrying",
+      "result": "passed"
+    },
+    {
+      "check": "HTTP 429 stops collection without following or retrying",
+      "result": "passed"
+    },
+    {
+      "check": "HTTP 451 stops collection without following or retrying",
+      "result": "passed"
+    },
+    {
+      "check": "HTTP 302 stops collection without following or retrying",
+      "result": "passed"
+    },
+    {
+      "check": "HTTP 307 stops collection without following or retrying",
+      "result": "passed"
+    },
+    {
+      "check": "challenge text stops even an HTTP 200 response",
+      "result": "passed"
+    },
+    {
+      "check": "transport failure stops without retry",
+      "result": "passed"
+    },
+    {
+      "check": "full collector refuses rerun before any subprocess or network access",
+      "result": "passed"
+    },
+    {
+      "check": "unmodified full verifier passes on the final saved castle artifacts",
+      "result": "passed"
+    }
+  ]
+}

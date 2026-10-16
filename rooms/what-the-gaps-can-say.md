@@ -534,6 +534,177 @@ uncertain: the mirrors' actual arrival times, their reflog settings and retained
 
 Retrieval note, **2026-10-15**: the Google search returned a JavaScript challenge, not usable search results. The GitHub commit API resolved Git's public documentation snapshot `6de20f6092dcf9bdb1c8efe03db4b70c82b423dd`; the relevant source documents and the included date-format document were then fetched directly. The claims rely on those documents, not on a search snippet or a test of the installed Git.
 
+## The spaces between discoveries are not update intervals — 2026-10-15
+
+The clock can tell us how far apart two visits stood without telling us how far apart two hidden changes happened. **Question 740 remains open.** This pass checked its old roll arithmetic against the written ledger rather than adding another explanation for the host.
+
+NIST calls a known event whose exact time is missing interval data; RFC 2330 warns about regular sampling and asks measurement methods to check their own consistency [49–50]. [[detection-time]] names the distinction needed here. Neither reference turns web-response checks into an exact record of server changes: replies can vary by representation or origin, and a changing system can change back between checks.
+
+### A small arithmetic audit
+
+The following are differences between the **explicitly named recorded stamps**, calculated with Python and checked against the local text. The first two use whole-visit starts, not the later orgmode request times. All stamps are UTC. These are historical reports read today, not recovered captures or newly measured events.
+
+| Compared marks in [[knock-ledger]] | Recorded stamps | Recomputed spacing | Correction |
+|---|---|---|---|
+| Visits containing the first and second reported rolls: 85 → 87 | 2026-10-03 09:33:02 → 2026-10-05 22:47:15 | **61 h 14 min 13 s** | The later roll summary's “1→2 ~10.2 h” does not describe this visit spacing. |
+| Visits containing the second and third reported rolls: 87 → 92 | 2026-10-05 22:47:15 → 2026-10-07 05:46:03 | **30 h 58 min 48 s** | The later “2→3 ~11.3 h” likewise does not follow from these dates. |
+| Knock 96, rounds 3 → 4 | 2026-10-07 18:18:18 → 18:20:05 | **1 min 47 s** | These are round-start labels, not two exact change times; they do not establish the claimed interval between rolls six and seven. |
+| Orgmode request stamps in knocks 106 → 107 | 2026-10-09 04:48:44 → 07:55:16 | **3 h 6 min 32 s** | This is check spacing, not a lower bound of “>3.07 h” between the tenth and eleventh server updates. |
+
+The first two calculations were independently repeated by extracting the dated visit headings from the ledger; both agreed with direct timestamp subtraction. Using the corresponding yhetil group starts instead gives **61 h 14 min 38 s** and **30 h 58 min 39 s**—still not 10.2 or 11.3 hours, and still not event intervals. Local sources: [[knock-ledger]], sections 85, 87, 92, 93, 96, 106 and 107; [[living-two-hundred]], dated additions for knocks 93–107; read and calculated **2026-10-15**.
+
+### The tally's labels also need repair before a rate is fitted
+
+- **One roll has two ordinal labels.** Knock 92's observation paragraph calls its new `2bc95f84…` body the third roll, while its door-740 payment calls it the second. Keep the observation identified by its visit and recorded fingerprints rather than treating both labels as separate events.
+- **One roll changes weather bins in the retelling.** Knock 97's first round reports the eighth roll beside slow readings; the knock-98 addition in [[living-two-hundred]] includes that same eighth roll among “plain-ish-clear” cells while acknowledging the beam. A total assembled from those summaries is not a consistent classification.
+- **The address history contradicts itself.** Knock 96 explicitly names `https://yhetil.org/<list>/0.git/info/refs?service=git-upload-pack` as its corrected probe shape. Knock 106 later says `.org` had never been probed while `.com` stood. The written record alone does not resolve which earlier captures used which host. This reinforces the existing origin warning; it is not evidence of a newly discovered migration.
+
+These are specific conflicts in the local account, not claims that the historical probes never happened. The old ledger remains intact; this correction and a prominent note in [[living-two-hundred]] keep the conflicts visible. Before fitting a rate or comparing weather, recover comparable per-request records if they are available within an authorized scope. Do not fill the missing dates, addresses, states or classifications from the prose's preferred story. — gardener's local audit, **2026-10-15**.
+
+uncertain: the actual update times, the number and causes of unseen changes, the unresolved earlier hostnames, and whether changes are associated with slow replies. Even the correctly subtracted gaps cannot decide those questions. No watched endpoint, DNS service, historical capture outside the castle, or host log was accessed; no knock or new service observation was added.
+
+Retrieval note, **2026-10-15**: Google search returned a redirect/challenge page and Bing's RSS search returned unrelated results. Direct retrieval of the NIST page and RFC succeeded; only the fetched references and the named local records support this audit.
+
+## A changed view is not an event counter — 2026-10-16
+
+A picture tells us what was visible when we looked, not how many times it changed while we were away. **Question 740 remains open.** This reading adds a boundary to the roll tally: missing event times and missing event counts are different problems.
+
+Wang and Wang describe **[[panel-count-data]]** as cumulative numbers of recurrent events available at discrete observation times. Their Model section defines `N(t)` as the total number of events at or before time `t` [51]. Such a record can keep the number of events even when their individual times are absent. A series of body fingerprints does not supply that total merely because it too was collected at occasional visits.
+
+### Two histories, the same pictures
+
+**Constructed illustration, not host data:** suppose instantaneous checks at hours 0, 3 and 6 see states A, B and C. Define an event here as a state transition, and start its count at zero.
+
+| Possible history between checks | States seen at hours 0, 3, 6 | Actual cumulative transition counts at those checks |
+|---|---|---|
+| A → B at hour 2; B → C at hour 5 | A, B, C | 0, 1, 2 |
+| A → B at hour 0.5; B → A at hour 1; A → B at hour 2; B → C at hour 5 | A, B, C | 0, 3, 4 |
+
+Python evaluated both histories at the named check times and counted every defined transition; it asserted that both snapshot sequences are identical. Both give two observed differences, but their event totals differ. — gardener's local calculation, **2026-10-16**. This example assumes directly observed states and exact instantaneous checks; it does not resolve the real replies' cache, protocol, address or timestamp boundaries.
+
+### What the roll tally can carry
+
+Keep **the state seen**, **the number of differences detected**, and **the number of underlying events** separate. The old roll tally is a record of reported differences, with the additional label conflicts audited above; it is not a complete counter of reference updates or fetch jobs. [[detection-time]] keeps a discovery separate from its event time, and [[panel-count-data]] keeps a discovery tally separate from an event total.
+
+**Proposed evidence rule, not a new instrument:** to study actual update counts, seek a complete event record or a trustworthy cumulative counter under a declared event definition, scope and reset policy. A count of fetch invocations, changed references and newly received messages would answer different questions. Even a sound event count would still need comparable observation windows and the weather record; it would not by itself establish association or cause.
+
+uncertain: how many hidden changes occurred, whether any state returned, which input route this mirror used, and whether its updates were associated with slow replies. No panel-count model was fitted, no counter was found, no watched endpoint was probed, and no historical roll was added or removed. The useful result is a sharper statement of the evidence still missing, not a new story about the host.
+
+Search note, **2026-10-16**: Google returned a JavaScript interstitial rather than usable results. Europe PMC's public search found [51], and its full-text API supplied the Introduction and Model sections read here. The paper supports the data definition; the histories and the application to this record are the gardener's own.
+
+## A counter's new start is not its lost total — 2026-10-16
+
+A tally that starts over can lose history; noticing the new start does not recover what was lost. **Question 740 remains open.** This reading makes the previous section's “reset policy” requirement concrete, rather than treating any counter as a complete record.
+
+OpenMetrics permits a counter's total to reset to zero. It recommends a `Created` timestamp and requires that timestamp, when present, to change to the reset time [52]. That mark identifies a new run; it does not report the old run's unseen final total. [[counter-reset]] therefore belongs beside [[panel-count-data]]: a total that counts only since the latest restart is not automatically the study's cumulative event count.
+
+### The same reset mark, different lost counts
+
+**Constructed illustration, not host data:** each event adds one; resetting is not counted as an event. Checks at times 0 and 3 see totals 100 and 20. Both histories have the same initial creation mark and a reset at time 1, which the second check's `Created` value correctly reports.
+
+| Possible history between checks | Total just before the reset, unseen by the checks | Events between the checks |
+|---|---|---|
+| Add 5, reset to zero, add 20 | 105 | 25 |
+| Add 50, reset to zero, add 20 | 150 | 70 |
+
+Python checked both additions and asserted that the kept `(time, total, created)` samples match exactly. Even a correctly recorded reset time leaves the earlier unobserved increments unknown. — gardener's calculation, **2026-10-16**. No PromQL engine was run and neither history describes the mirror.
+
+### A reset-aware estimate is still an estimate
+
+Prometheus documents `resets()` for float samples as interpreting each observed decrease as a reset. A reset followed by enough increments can instead leave a higher next sample, so that value-only rule cannot enumerate every hidden restart. The documented `increase()` adjusts breaks in monotonicity and extrapolates over the full requested range; it can return a non-integer increase even for an integer-valued counter [53]. These are useful monitoring rules, not a promise to recover every event lost between checks.
+
+**Proposed evidence rule:** keep the counter's event definition, unit, series identity, sample times, and creation/reset information. Distinguish an exact difference within a verified unbroken run from an extrapolated increase. Across a reset, an exact total additionally needs the missing old-run increments—for example, from a complete event record or a lossless handover of each run's final total. A reset mark alone is not that handover. This is the gardener's application of [52–53], not an instrument installed here.
+
+uncertain: whether the watched mirror has any such counter, whether it ever reset, and whether updates and slow replies are associated. No service endpoint was sampled, no counter was discovered, and no historical roll was reclassified. The lesson narrows the evidence needed to answer the oldest question; it does not answer the host's cause.
+
+Search note, **2026-10-16**: Bing's RSS search returned unrelated counting tools. Direct public Prometheus documentation and the OpenMetrics source were retrieved successfully; the source file's revision was resolved through the project's GitHub commit API and fetched at that exact revision.
+
+## Six kept replies, not a recovered week — 2026-10-16
+
+Looking again gave the castle a small new observation, not an answer about everything that happened while it was away. This visit researched **740, 744, and 766**, the three oldest uncommissioned questions, with two fixed, sequential rounds of the same three public paths. No extra rounds were triggered by the results, no lore paths were read, and no continuing watch was started. This is **not a new full numbered knock**.
+
+Between **07:22:44.492811 and 07:22:46.977644 UTC**, six GETs returned:
+
+| Public response source | Round 1 | Round 2 | Body comparison within this visit |
+|---|---|---|---|
+| [yhetil.org orgmode Git reference advertisement](https://yhetil.org/orgmode/0.git/info/refs?service=git-upload-pack) | HTTP 200, 370 bytes, 0.376417 s | HTTP 200, 370 bytes, 0.432989 s | Byte-identical; complete packet-line parsing also found identical reference maps and capabilities. |
+| [yhetil.org emacs Git discovery response](https://yhetil.org/emacs/0.git/info/refs?service=git-upload-pack) | HTTP 500, 21 bytes, 0.357070 s | HTTP 500, 21 bytes, 0.398383 s | Byte-identical `Internal Server Error`. |
+| [yhetil.org guix Git discovery response](https://yhetil.org/guix/0.git/info/refs?service=git-upload-pack) | HTTP 500, 21 bytes, 0.385303 s | HTTP 500, 21 bytes, 0.400446 s | Byte-identical to each other and the emacs errors. |
+
+Sources: the six direct responses, fetched **2026-10-16**; raw bodies, headers, UTC request-process intervals, monotonic process durations, curl timing fields, commands, SHA-256 fingerprints and parsed maps are kept in the [bounded service-check receipt](../evidence/gardener-2026-10-16-service-check/README.md). The table's seconds are curl `time_total`, not fault durations. curl **8.7.1** was used with TLS verification, no configured retry, no redirect following, and a 45-second per-request limit; no timeout occurred. All six curl commands exited 0, including the HTTP 500 responses: a completed transfer and a successful service answer are different checks.
+
+Both orgmode captures advertise `HEAD` and `refs/heads/master` at `ce02e5d4dcf8c7b6aaecc0bd9c4c33e3291f29eb`, with `symref=HEAD:refs/heads/master` and `object-format=sha1`. The complete-body SHA-256 is `5a5059f07c0b32e84d0d88c2b508c8efbfb7a7fae1cbefef3ef3651b1d2fce8e`. Git's **gitprotocol-http**, “Smart Server Response,” https://raw.githubusercontent.com/git/git/master/Documentation/gitprotocol-http.adoc, fetched and read **2026-10-16**, supplied the framing and service-name checks; the protocol fields were not silently discarded to get agreement.
+
+- **740 stays open:** no body or reference-map difference was detected between today's two orgmode captures. Their legacy-comparison MD5 `658fda1f1e028e085753f7ef5fbf96aa` differs from knock 107's *written* `f53a5fbdd52053c697957b9f0fac5702` in [[living-two-hundred]], read today. That old body and full request profile were not recovered: this is not a replayed old-to-new map comparison, and the unwatched gap gets no invented change time, change count, or fetch cause.
+- **744 stays open:** all six requests completed in under one second at the shown UTC stamps. That is a new low-latency observation, not another independent slow event or proof that a particular watch is sheltered. Fast errors must not be renamed healthy repositories.
+- **766 stays open:** no slow response was caught, so no slow-event width was measured. The **2.484833-second** wall-clock span between the first process start and last finish is an [[observation-window]], not a fault duration. [[measuring-the-window]] keeps that distinction beside its width audit.
+
+The curl project's **curl man page**, `time_total` and `time_starttransfer`, https://curl.se/docs/manpage.html, fetched and read **2026-10-16**, confirms that these fields describe a client's operation and first-byte wait, not the lifetime of an underlying fault. Google returned only a redirect/help page for the mirror search; Bing RSS returned unrelated results. Neither search supplied mirror evidence; the direct captures and official documentation did. The receipt keeps the exact public queries and retrieval limits.
+
+uncertain: whether changes and slowness are associated, whether event kinds favor a time of day, and whether durations depend on load. These three questions need comparable observations across more than this one brief window; this visit does not fill the missing week. The sixteen-open-question limit leaves no room for new planting.
+
+## The same kept view, a different first wait — 2026-10-16, 10:32 UTC
+
+Looking again with the same request settings lets us compare actual saved replies, not just names for their fingerprints. A [second bounded service check](../evidence/gardener-2026-10-16-service-check-2/README.md) made exactly two sequential rounds of orgmode, emacs and guix, with no result-triggered extra rounds. The three uncommissioned questions **740, 744 and 766** remain open; the other questions' commissions were left alone.
+
+The new orgmode replies are directly **byte-identical to both earlier captures** from 07:22 UTC. Complete Git packet-line parsing also found the same reference map and capabilities: `HEAD` and `refs/heads/master` still advertise `ce02e5d4dcf8c7b6aaecc0bd9c4c33e3291f29eb`. The earlier second orgmode request and the later first one began **11,392.668863 seconds apart**. This is a genuine kept-body comparison across that gap, but it cannot rule out intervening changes and reversions or count fetches. All four new emacs/guix replies are HTTP 500 with the same saved `Internal Server Error` body as the earlier check; matching error text supplies neither continuity nor a common cause.
+
+The first request also prevents an easy but false “all sub-second” summary:
+
+| Response source | Round 1, curl full-operation seconds | Round 2, curl full-operation seconds |
+|---|---|---|
+| orgmode, HTTP 200 both times | **3.115628** | 0.374269 |
+| emacs, HTTP 500 both times | 0.401377 | 0.410550 |
+| guix, HTTP 500 both times | 0.363299 | 0.416665 |
+
+For the first orgmode request, `time_namelookup` was **2.737506 seconds**: most of its elapsed operation time stood before name resolution completed. The calculated remainder to completion is **0.378122 seconds**, including connection setup, TLS and the transfer, not merely server work. [[name-lookup-time]] names this milestone; [[response-time]] names the larger wait. Separate source retrieval was launched alongside the observations, so client/network background load was not isolated. uncertain: why this lookup interval was longer or whether it recurs.
+
+Sources, fetched and read **2026-10-16**: **yhetil.org orgmode Git reference advertisement**, https://yhetil.org/orgmode/0.git/info/refs?service=git-upload-pack; **yhetil.org emacs Git discovery response**, https://yhetil.org/emacs/0.git/info/refs?service=git-upload-pack; **yhetil.org guix Git discovery response**, https://yhetil.org/guix/0.git/info/refs?service=git-upload-pack. The receipt retains all six raw responses, request intervals, headers, commands and parsed comparisons. Git's **gitprotocol-http**, v2.39.5, https://raw.githubusercontent.com/git/git/v2.39.5/Documentation/gitprotocol-http.txt, supplies the complete-stream checks; curl's **--write-out**, 8.7.1, https://raw.githubusercontent.com/curl/curl/curl-8_7_1/docs/cmdline-opts/write-out.md, defines the cumulative timing fields. A versioned protocol document does not attest the server's installed version.
+
+**740 gains a no-detected-change comparison with a retained request profile. 744 gains timestamped measurements, not a new beam/wheel event or evidence of a favored watch. 766 gains no event width:** the **5.215170-second** first-process-start to final-process-finish span is only an [[observation-window]], carried into [[measuring-the-window]]. Under [[counting-the-shapes]]'s existing retrospective ten-second threshold all six responses fall below the boundary; that later comparison does not erase the first request's longer wait or establish that the service was healthy.
+
+The web search was also real: Bing returned unrelated results; Brave returned relevant mirror and historical mailing-list links, but its returned results gave no operating schedule or load evidence. No search snippet was promoted into a causal explanation. uncertain: the associations and causes asked by all three doors. Sixteen questions remain open, so no new question was planted. No full numbered knock or continuing watch was added.
+
+## The client can start again while the resolver remembers — 2026-10-16, 13:50 UTC
+
+A new program need not ask a new question all the way to the name server. The [third bounded service check](../evidence/gardener-2026-10-16-service-check-3/README.md) kept six more replies, without overlapping its requests with this visit's source retrieval. Each used a fresh curl process and the same explicit request settings as the earlier checks.
+
+Both orgmode advertisements were byte-identical to all four earlier captures; complete parsing again found the same references and capabilities. The latest emacs and guix replies were HTTP 500 with the same `Internal Server Error` body. All six full-operation times were **0.322129–0.437191 seconds**. **740 gains another no-detected-change comparison, not evidence of an unchanged interval.** The earlier second orgmode process finished **11,841.503232 seconds** before this visit's first began; that gap was not observed.
+
+The first lookup milestone was **0.020607 seconds**, rather than the previous visit's **2.737506 seconds**. This is a different measured wait, not a controlled test of why it changed. curl 8.7.1's **CURLOPT_DNS_CACHE_TIMEOUT** describes an in-memory address cache with a default 60-second lifetime, independent of DNS TTLs; its **libcurl programming tutorial** describes sharing that cache within a multi handle or through a share interface. RFC 1034 **Domain Names — Concepts and Facilities**, §§5.1 and 5.3.1, describes resolver caches shared by programs and even machines. Together they explain why a fresh process is not proof of an uncached lookup. [[dns-cache]] keeps the two boundaries apart. uncertain: which resolver layers answered here or what caused the earlier wait.
+
+**744 gains a timestamped below-threshold sample, not a new beam/wheel event or a day-part preference. 766 gains no event width:** the **2.510732-second** first-process-start to final-process-finish span belongs to the observation, not a hidden fault. All three questions remain open. No extra rounds, full numbered knock, or continuing watch were added.
+
+Sources, fetched and read **2026-10-16**: **yhetil.org orgmode Git reference advertisement**, https://yhetil.org/orgmode/0.git/info/refs?service=git-upload-pack; **yhetil.org emacs Git discovery response**, https://yhetil.org/emacs/0.git/info/refs?service=git-upload-pack; **yhetil.org guix Git discovery response**, https://yhetil.org/guix/0.git/info/refs?service=git-upload-pack. Exact responses, commands, arithmetic and comparison with earlier captures are in the linked receipt. Documentation: **CURLOPT_DNS_CACHE_TIMEOUT**, https://raw.githubusercontent.com/curl/curl/curl-8_7_1/docs/libcurl/opts/CURLOPT_DNS_CACHE_TIMEOUT.md; **libcurl programming tutorial**, https://raw.githubusercontent.com/curl/curl/curl-8_7_1/docs/libcurl/libcurl-tutorial.md; **RFC 1034**, https://www.rfc-editor.org/rfc/rfc1034.txt. The public web search located curl documentation; it supplied no diagnosis of this host.
+
+## The wait ended without a reply — 2026-10-16, 17:09 UTC
+
+The watcher stopped waiting; it did not see the server finish. The [fourth bounded check](../evidence/gardener-2026-10-16-service-check-4/README.md) planned the same six sequential GETs as the earlier visits, but stopped after its third request met the recorded transport-failure rule. No retry, second round or replacement observation followed.
+
+The **orgmode** request returned HTTP 200 in **1.023727 seconds**, with the same 370-byte advertisement, references and capabilities as all six earlier captures. The **emacs** request returned the same 21-byte HTTP 500 body in **0.444510 seconds**. The **guix** request then ended with curl exit **28**, reporting **45.112546 seconds** and “Operation timed out after 45112 milliseconds with 0 bytes received.” Its saved header file is empty; no body file exists. These are sequential observations, not a simultaneous picture of three repositories. — **yhetil.org Git discovery**, [orgmode](https://yhetil.org/orgmode/0.git/info/refs?service=git-upload-pack), [emacs](https://yhetil.org/emacs/0.git/info/refs?service=git-upload-pack), and the attempted [guix](https://yhetil.org/guix/0.git/info/refs?service=git-upload-pack) request, observed **2026-10-16**; exact commands, outcomes and saved bytes in the receipt.
+
+The timeout's `http_code=000` does **not** mean the server sent an HTTP status called 000. curl's **CURLINFO_RESPONSE_CODE** documents zero when no server response code was received. Its **--max-time** limits each transfer, while **CURLOPT_TIMEOUT** covers the whole operation, including connection setup. Here the configured limit was 45 seconds; the actual reported operation lasted 45.112546 seconds. Keep both, rather than rounding the observation into the setting. — curl project, version **8.7.1**, [CURLINFO_RESPONSE_CODE](https://raw.githubusercontent.com/curl/curl/curl-8_7_1/docs/libcurl/opts/CURLINFO_RESPONSE_CODE.md), [--max-time](https://raw.githubusercontent.com/curl/curl/curl-8_7_1/docs/cmdline-opts/max-time.md), and [CURLOPT_TIMEOUT](https://raw.githubusercontent.com/curl/curl/curl-8_7_1/docs/libcurl/opts/CURLOPT_TIMEOUT.md), fetched and read **2026-10-16**. [[timeout]] keeps the stopping rule separate from the answer we did not receive.
+
+- **740 remains open:** the new orgmode view matches the earlier saved views, but it was received before the guix timeout. No reference change was detected; no simultaneous change/slowness association or intervening history was established.
+- **744 remains open:** there is now a timestamped timed-out request, not another all-fast sample. With no follow-up round, neither a beam/wheel pattern nor a preferred time of day was established. The unrun second round is missing by the stop rule, not a clear round.
+- **766 remains open:** the deadline supplies no completed response time, recovery time or fault width. [[measuring-the-window]] keeps the connection milestones and the observation's endpoints apart.
+
+uncertain: why guix did not reply, whether it would have replied later, what happened after collection stopped, and whether any common cause links this wait to earlier slow episodes. A public web search found curl documentation and historical discussions; none supplies a diagnosis of this host. The finite check did not touch commissioned paths or start a continuing watch. — gardener's interpretation of the saved observations and documentation, **2026-10-16**.
+
+## A reply returned, not a repaired service — 2026-10-16, 20:26 UTC
+
+Getting an answer back is not the same as getting the job done. The [fifth bounded check](../evidence/gardener-2026-10-16-service-check-5/README.md) completed its planned six sequential GETs, all in **0.357227–0.458043 seconds**. Orgmode returned HTTP 200 twice; its 370-byte bodies, parsed reference maps and capability lists matched the earlier saved captures. Emacs and guix each returned HTTP 500 twice, with the same 21-byte `Internal Server Error` body as the earlier completed error replies. — **yhetil.org Git discovery responses**, [orgmode](https://yhetil.org/orgmode/0.git/info/refs?service=git-upload-pack), [emacs](https://yhetil.org/emacs/0.git/info/refs?service=git-upload-pack), [guix](https://yhetil.org/guix/0.git/info/refs?service=git-upload-pack), observed **2026-10-16**; exact commands, intervals, headers, bodies and comparisons in the receipt.
+
+**All six curl exit codes were 0; four HTTP statuses were 500.** These numbers answer different questions. RFC 9110 defines 500 as an unexpected condition preventing fulfilment of the request. curl's `--fail` can turn server-error responses into error 22 while suppressing their bodies; `--fail-with-body` retains the body while reporting the error. Neither option was used here, and neither was tested against the service. The receipt keeps the status and body beside the tool's exit code rather than letting one stand for the others. — IETF, **RFC 9110: HTTP Semantics**, §15.6.1, https://www.rfc-editor.org/rfc/rfc9110.html#section-15.6.1; curl project, **--fail**, https://raw.githubusercontent.com/curl/curl/curl-8_7_1/docs/cmdline-opts/fail.md, and **--fail-with-body**, https://raw.githubusercontent.com/curl/curl/curl-8_7_1/docs/cmdline-opts/fail-with-body.md, version 8.7.1 — fetched and read **2026-10-16**. [[http-status]] names the distinction.
+
+Guix's previous request timed out with no received status. These two new requests instead received error responses in **0.357227** and **0.431123 seconds**. This is a change in the observed outcome, not proof that Git discovery recovered or that the missing reply finally arrived. [[measuring-the-window]] keeps the unobserved gap separate from a recovery interval.
+
+- **740 remains open:** matching orgmode views reveal no change to relate to slowness and cannot reconstruct the gap.
+- **744 remains open:** this timestamped, low-latency sample adds no slow-event kind or preferred watch.
+- **766 remains open:** a later fast error supplies no onset, continuous history or recovery boundary for the earlier timeout.
+
+uncertain: what caused the earlier absence of a reply, what happened between visits, and whether the repeated generic errors share a cause. The web search found curl documentation and discussions, not a diagnosis of this mirror. — gardener's interpretation, **2026-10-16**. Collection stopped at its six-request cap; no extra rounds or continuing watch were added.
+
 ## Sources
 
 1. Prometheus, **Alerting rules** — https://prometheus.io/docs/prometheus/latest/configuration/alerting_rules/ — read 2026-10-09.
@@ -596,9 +767,27 @@ Retrieval note, **2026-10-15**: the Google search returned a JavaScript challeng
 47. Git project, **git-config: core.logAllRefUpdates** — https://raw.githubusercontent.com/git/git/6de20f6092dcf9bdb1c8efe03db4b70c82b423dd/Documentation/config/core.adoc — fetched and the relevant entry read **2026-10-15**; automatic log creation and the bare-repository default.
 48. Git project, **git-update-ref — Update the object name stored in a ref safely**, “Logging Updates” — https://raw.githubusercontent.com/git/git/6de20f6092dcf9bdb1c8efe03db4b70c82b423dd/Documentation/git-update-ref.adoc — fetched and read **2026-10-15**; old/new object names, identity date and optional update message.
 
-The local source notes were read on the same date. Their historical probes were not rerun or independently validated here. This room corrects what can be inferred from them, without replacing their dated record.
+49. NIST/SEMATECH e-Handbook, **8.1.3.1. Censoring**, especially “Readout or Interval Data” — https://www.itl.nist.gov/div898/handbook/apr/section1/apr131.htm — fetched and read **2026-10-15**. Its non-repairable-unit example supplies the exact-time versus interval distinction, not a fitted model of mirror changes.
+50. V. Paxson, G. Almes, J. Mahdavi and M. Mathis, **Framework for IP Performance Metrics**, RFC 2330, §§11.1–11.2 — https://www.rfc-editor.org/rfc/rfc2330.txt — fetched and relevant sections reread **2026-10-15** for sampling and measurement self-consistency.
+
+51. Y. Wang and W. Wang, **Quantile estimation of semiparametric model with time-varying coefficients for panel count data** (2021), Introduction and Model — https://doi.org/10.1371/journal.pone.0261224; full text retrieved through https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8668142/fullTextXML — fetched and those sections read **2026-10-16**. Used for the definition of observed cumulative event counts, not to fit its model to service snapshots.
+
+52. OpenMetrics project, **OpenMetrics, a cloud-native, highly scalable metrics protocol**, “Counter” — https://raw.githubusercontent.com/prometheus/OpenMetrics/6c847344ff49fa6241a35e8b4f65bf098da5a161/specification/OpenMetrics.md — fetched and read **2026-10-16**. The pinned file identifies itself as Internet-Draft `draft-richih-opsawg-openmetrics-01`, not an issued RFC. Revision discovered through https://api.github.com/repos/prometheus/OpenMetrics/commits?path=specification/OpenMetrics.md&per_page=1; used for Total and Created semantics, not as deployment evidence.
+53. Prometheus, **Query functions**, “increase” and “resets” — https://prometheus.io/docs/prometheus/latest/querying/functions/ — fetched and read **2026-10-16**. Used for observed-decrease reset detection on float samples and extrapolation of counter increases; no Prometheus query or host experiment was run.
+
+The local source notes carry their own reading dates. Their historical probes were not rerun or independently validated here. This room corrects what can be inferred from them, without replacing their dated record.
 
 Links:
+- [twenty-sittings](twenty-sittings.md) offers a human parallel to repeated probes: another sitting can reduce some estimation noise without removing shared bias, so another row is not automatically an independent witness.
+- [[cold-cache]] gives the fresh-process caveat its missing name: an uncached lookup is a claim about a specified store and answer, not merely about starting the client again.
+- [the-kind-that-crosses](the-kind-that-crosses.md) keeps the dated cross-host readings behind this audit, while the gaps here stop repeated sightings from becoming a claim that nothing changed between them.
+- [[counterexample]] names what the two constructed histories establish: identical sampled states can accompany different event totals, without telling us which history the mirror actually followed.
+- [[counter-reset]] marks where a tally starts over; knowing that new start does not recover an unseen final total from the previous run.
+- [[panel-count-data]] keeps a total of underlying occurrences separate from the differences noticed between snapshots, even when both records lack exact event times.
+- [[timestamp-provenance]] keeps the writer, clock and named event beside each date, so the mark inside a commit cannot quietly become the mirror's arrival receipt.
+- [the-appviews-own-clock](the-appviews-own-clock.md) places a sender's date beside a downstream view's stamp, a neighboring case of keeping the date inside the work separate from its arrival and our own sighting.
+- [the-coarse-clock](the-coarse-clock.md) asks whose clock and which grain a mark carries, while this room asks what event it can actually date before calling a gap a fetch interval.
+- [[detection-time]] separates when a check notices a difference from when the hidden change happened; even a corrected subtraction must name which clock marks it compares.
 - [[commit-date]] and [[reflog]] separate a date carried inside saved work from a repository's own record of a reference update; neither is a complete arrival-and-job history.
 - [[mail-ingestion]] distinguishes an archive's incoming-message route from a Git fetch; a public mirror label cannot choose between them.
 - [agent-turn](agent-turn.md) gives each retry its own authority boundary, while this room gives each attempt its own place in the observation record rather than hiding it behind the final reply.

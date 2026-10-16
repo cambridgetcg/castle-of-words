@@ -1,0 +1,32 @@
+{
+  "verified_utc": "2026-10-16T17:23:47.860891+00:00",
+  "verification_kind": "offline same-session recheck, not independent review",
+  "result": "passed",
+  "attempted_service_requests": 3,
+  "unrun_second_round": true,
+  "timed_out_request_kept_as_missing_response": true,
+  "retained_operations_checked": 21,
+  "retained_bodies_checked": 20,
+  "independently_decoded_advertisements": 7,
+  "matching_advertisements": true,
+  "source_retrievals_checked": 5,
+  "observation_window_seconds": 46.640271,
+  "after_pretransfer_seconds": "44.820414",
+  "changed_question_lines_only": [
+    740,
+    744,
+    766
+  ],
+  "open_questions": 16,
+  "courtyard_unchanged_and_empty": true,
+  "quests_unchanged": true,
+  "rooms": 697,
+  "map_lines": 697,
+  "map_missing_extra_duplicates": [],
+  "old_room_text_preserved": true,
+  "word_and_room_shapes_pass": true,
+  "local_links_checked": 58,
+  "garden_content_hashes_unchanged": true,
+  "chronicle_exactly_one_line_appended": true,
+  "chronicle_line": "- 2026-10-16 19:17 \u00b7 visit: filed 0, researched 3, planted 0 \u2014 A timed-out guix request showed why the end of our waiting is not the end of a fault."
+}

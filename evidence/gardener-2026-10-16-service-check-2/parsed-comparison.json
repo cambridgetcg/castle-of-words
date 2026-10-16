@@ -1,0 +1,236 @@
+{
+  "parsed": {
+    "earlier/r1-orgmode": {
+      "packets": [
+        {
+          "offset": 0,
+          "length": 30,
+          "payload": "# service=git-upload-pack\n"
+        },
+        {
+          "offset": 30,
+          "length": 0,
+          "payload": null
+        },
+        {
+          "offset": 34,
+          "length": 269,
+          "payload": "ce02e5d4dcf8c7b6aaecc0bd9c4c33e3291f29eb HEAD\u0000multi_ack thin-pack side-band side-band-64k ofs-delta shallow deepen-since deepen-not deepen-relative no-progress include-tag multi_ack_detailed no-done symref=HEAD:refs/heads/master object-format=sha1 agent=git/2.39.5\n"
+        },
+        {
+          "offset": 303,
+          "length": 63,
+          "payload": "ce02e5d4dcf8c7b6aaecc0bd9c4c33e3291f29eb refs/heads/master\n"
+        },
+        {
+          "offset": 366,
+          "length": 0,
+          "payload": null
+        }
+      ],
+      "references": {
+        "HEAD": "ce02e5d4dcf8c7b6aaecc0bd9c4c33e3291f29eb",
+        "refs/heads/master": "ce02e5d4dcf8c7b6aaecc0bd9c4c33e3291f29eb"
+      },
+      "capabilities": [
+        "multi_ack",
+        "thin-pack",
+        "side-band",
+        "side-band-64k",
+        "ofs-delta",
+        "shallow",
+        "deepen-since",
+        "deepen-not",
+        "deepen-relative",
+        "no-progress",
+        "include-tag",
+        "multi_ack_detailed",
+        "no-done",
+        "symref=HEAD:refs/heads/master",
+        "object-format=sha1",
+        "agent=git/2.39.5"
+      ]
+    },
+    "earlier/r2-orgmode": {
+      "packets": [
+        {
+          "offset": 0,
+          "length": 30,
+          "payload": "# service=git-upload-pack\n"
+        },
+        {
+          "offset": 30,
+          "length": 0,
+          "payload": null
+        },
+        {
+          "offset": 34,
+          "length": 269,
+          "payload": "ce02e5d4dcf8c7b6aaecc0bd9c4c33e3291f29eb HEAD\u0000multi_ack thin-pack side-band side-band-64k ofs-delta shallow deepen-since deepen-not deepen-relative no-progress include-tag multi_ack_detailed no-done symref=HEAD:refs/heads/master object-format=sha1 agent=git/2.39.5\n"
+        },
+        {
+          "offset": 303,
+          "length": 63,
+          "payload": "ce02e5d4dcf8c7b6aaecc0bd9c4c33e3291f29eb refs/heads/master\n"
+        },
+        {
+          "offset": 366,
+          "length": 0,
+          "payload": null
+        }
+      ],
+      "references": {
+        "HEAD": "ce02e5d4dcf8c7b6aaecc0bd9c4c33e3291f29eb",
+        "refs/heads/master": "ce02e5d4dcf8c7b6aaecc0bd9c4c33e3291f29eb"
+      },
+      "capabilities": [
+        "multi_ack",
+        "thin-pack",
+        "side-band",
+        "side-band-64k",
+        "ofs-delta",
+        "shallow",
+        "deepen-since",
+        "deepen-not",
+        "deepen-relative",
+        "no-progress",
+        "include-tag",
+        "multi_ack_detailed",
+        "no-done",
+        "symref=HEAD:refs/heads/master",
+        "object-format=sha1",
+        "agent=git/2.39.5"
+      ]
+    },
+    "later/r1-orgmode": {
+      "packets": [
+        {
+          "offset": 0,
+          "length": 30,
+          "payload": "# service=git-upload-pack\n"
+        },
+        {
+          "offset": 30,
+          "length": 0,
+          "payload": null
+        },
+        {
+          "offset": 34,
+          "length": 269,
+          "payload": "ce02e5d4dcf8c7b6aaecc0bd9c4c33e3291f29eb HEAD\u0000multi_ack thin-pack side-band side-band-64k ofs-delta shallow deepen-since deepen-not deepen-relative no-progress include-tag multi_ack_detailed no-done symref=HEAD:refs/heads/master object-format=sha1 agent=git/2.39.5\n"
+        },
+        {
+          "offset": 303,
+          "length": 63,
+          "payload": "ce02e5d4dcf8c7b6aaecc0bd9c4c33e3291f29eb refs/heads/master\n"
+        },
+        {
+          "offset": 366,
+          "length": 0,
+          "payload": null
+        }
+      ],
+      "references": {
+        "HEAD": "ce02e5d4dcf8c7b6aaecc0bd9c4c33e3291f29eb",
+        "refs/heads/master": "ce02e5d4dcf8c7b6aaecc0bd9c4c33e3291f29eb"
+      },
+      "capabilities": [
+        "multi_ack",
+        "thin-pack",
+        "side-band",
+        "side-band-64k",
+        "ofs-delta",
+        "shallow",
+        "deepen-since",
+        "deepen-not",
+        "deepen-relative",
+        "no-progress",
+        "include-tag",
+        "multi_ack_detailed",
+        "no-done",
+        "symref=HEAD:refs/heads/master",
+        "object-format=sha1",
+        "agent=git/2.39.5"
+      ]
+    },
+    "later/r2-orgmode": {
+      "packets": [
+        {
+          "offset": 0,
+          "length": 30,
+          "payload": "# service=git-upload-pack\n"
+        },
+        {
+          "offset": 30,
+          "length": 0,
+          "payload": null
+        },
+        {
+          "offset": 34,
+          "length": 269,
+          "payload": "ce02e5d4dcf8c7b6aaecc0bd9c4c33e3291f29eb HEAD\u0000multi_ack thin-pack side-band side-band-64k ofs-delta shallow deepen-since deepen-not deepen-relative no-progress include-tag multi_ack_detailed no-done symref=HEAD:refs/heads/master object-format=sha1 agent=git/2.39.5\n"
+        },
+        {
+          "offset": 303,
+          "length": 63,
+          "payload": "ce02e5d4dcf8c7b6aaecc0bd9c4c33e3291f29eb refs/heads/master\n"
+        },
+        {
+          "offset": 366,
+          "length": 0,
+          "payload": null
+        }
+      ],
+      "references": {
+        "HEAD": "ce02e5d4dcf8c7b6aaecc0bd9c4c33e3291f29eb",
+        "refs/heads/master": "ce02e5d4dcf8c7b6aaecc0bd9c4c33e3291f29eb"
+      },
+      "capabilities": [
+        "multi_ack",
+        "thin-pack",
+        "side-band",
+        "side-band-64k",
+        "ofs-delta",
+        "shallow",
+        "deepen-since",
+        "deepen-not",
+        "deepen-relative",
+        "no-progress",
+        "include-tag",
+        "multi_ack_detailed",
+        "no-done",
+        "symref=HEAD:refs/heads/master",
+        "object-format=sha1",
+        "agent=git/2.39.5"
+      ]
+    }
+  },
+  "pairs": [
+    {
+      "left": "earlier/r2-orgmode",
+      "right": "later/r1-orgmode",
+      "same_method_url_headers": true,
+      "bodies_byte_equal": true,
+      "references_equal": true,
+      "capabilities_equal": true,
+      "reference_changes": {},
+      "request_start_spacing_seconds": 11392.668863,
+      "unobserved_between_processes_seconds": 11392.214074
+    },
+    {
+      "left": "later/r1-orgmode",
+      "right": "later/r2-orgmode",
+      "same_method_url_headers": true,
+      "bodies_byte_equal": true,
+      "references_equal": true,
+      "capabilities_equal": true,
+      "reference_changes": {},
+      "request_start_spacing_seconds": 3.938725,
+      "unobserved_between_processes_seconds": 0.815501
+    }
+  ],
+  "limits": "captured advertisements only; not origin update times or continuity",
+  "observation_window_seconds": 5.21517,
+  "500_bodies_byte_equal": true,
+  "500_equal_earlier_error": true
+}

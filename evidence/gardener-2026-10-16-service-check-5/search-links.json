@@ -1,0 +1,85 @@
+{
+  "query": "site:curl.se HTTP 500 exit code zero fail",
+  "results": [
+    {
+      "url": "https://curl.se/libcurl/c/libcurl-errors.html",
+      "label": "curl curl.se \u203a libcurl \u203a c \u203a libcurl-errors.html libcurl - Error Codes"
+    },
+    {
+      "url": "https://curl.se/docs/faq.html",
+      "label": "curl curl.se \u203a docs \u203a faq.html curl - Frequently Asked Questions"
+    },
+    {
+      "url": "https://curl.se/mail/archive-2019-10/0003.html",
+      "label": "curl curl.se \u203a mail \u203a archive-2019-10 \u203a 0003.html Curl: Curl command line: HTTP 1.1 / 500 internal server error"
+    },
+    {
+      "url": "https://curl.se/docs/manpage.html",
+      "label": "curl curl.se \u203a docs \u203a manpage.html curl - How To Use"
+    },
+    {
+      "url": "https://curl.se/mail/lib-2024-01/0003.html",
+      "label": "curl curl.se \u203a mail \u203a lib-2024-01 \u203a 0003.html Curl: Re: Detection of failed connection"
+    },
+    {
+      "url": "https://curl.se/mail/archive-2023-11/0017.html",
+      "label": "curl curl.se \u203a mail \u203a archive-2023-11 \u203a 0017.html Curl: Re: Exit status not reflecting 404 with --fail"
+    },
+    {
+      "url": "https://curl.se/mail/archive-2003-03/0079.html",
+      "label": "curl curl.se \u203a mail \u203a archive-2003-03 \u203a 0079.html Curl: Re: curl --fail and exit code 22"
+    },
+    {
+      "url": "https://curl.se/ch/7.84.0.html",
+      "label": "curl curl.se \u203a ch \u203a 7.84.0.html curl - Changes in 7.84.0"
+    },
+    {
+      "url": "https://curl.se/mail/lib-2017-11/0110.html",
+      "label": "curl curl.se \u203a mail \u203a lib-2017-11 \u203a 0110.html Curl: Problem/Crash with libCurl Daily Snapshot and Option CURLSHOPT_SHARE and Parameter CURL_LOCK_DATA_CONNECT"
+    },
+    {
+      "url": "https://curl.se/mail/archive-2023-11/0015.html",
+      "label": "curl curl.se \u203a mail \u203a archive-2023-11 \u203a 0015.html Curl: Exit status not reflecting 404 with --fail"
+    },
+    {
+      "url": "https://curl.se/changes.html",
+      "label": "curl curl.se \u203a changes.html curl - Changes"
+    },
+    {
+      "url": "https://curl.se/mail/archive-2019-03/0044.html",
+      "label": "curl curl.se \u203a mail \u203a archive-2019-03 \u203a 0044.html Curl: Re: curl exit status on curl: (18) server did not report OK, got 426"
+    },
+    {
+      "url": "https://curl.se/mail/lib-2013-10/att-0253/tool_operate.c",
+      "label": "curl curl.se \u203a mail \u203a lib-2013-10 \u203a att-0253 \u203a tool_operate.c Curl"
+    },
+    {
+      "url": "https://curl.se/mail/archive-2019-03/0038.html",
+      "label": "curl curl.se \u203a mail \u203a archive-2019-03 \u203a 0038.html Curl: curl exit status on curl: (18) server did not report OK, got 426"
+    },
+    {
+      "url": "https://curl.se/mail/archive-2013-05/0025.html",
+      "label": "curl curl.se \u203a mail \u203a archive-2013-05 \u203a 0025.html Curl: Re: Curl with silent option is outputting data when it should not"
+    },
+    {
+      "url": "https://curl.se/libcurl/c/CURLINFO_RESPONSE_CODE.html",
+      "label": "curl curl.se \u203a libcurl \u203a c \u203a CURLINFO_RESPONSE_CODE.html CURLINFO_RESPONSE_CODE"
+    },
+    {
+      "url": "https://curl.se/mail/archive-2008-07/0055.html",
+      "label": "curl curl.se \u203a mail \u203a archive-2008-07 \u203a 0055.html Curl: Re: How to handle service unavailable"
+    },
+    {
+      "url": "https://curl.se/libcurl/c/libcurl-env-dbg.html",
+      "label": "curl curl.se \u203a libcurl \u203a c \u203a libcurl-env-dbg.html Environment variables libcurl DEBUGBUILD understands"
+    },
+    {
+      "url": "https://curl.se/dev/runtests.html",
+      "label": "curl curl.se \u203a dev \u203a runtests.html curl - Run curl tests"
+    },
+    {
+      "url": "https://curl.se/mail/lib-2022-04/0067.html",
+      "label": "curl curl.se \u203a mail \u203a lib-2022-04 \u203a 0067.html Curl: Re: Problem using authentication in a request"
+    }
+  ]
+}

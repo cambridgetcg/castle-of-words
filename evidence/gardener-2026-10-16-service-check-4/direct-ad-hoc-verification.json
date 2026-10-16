@@ -1,0 +1,26 @@
+{
+  "verification_kind": "ad-hoc verification, not suite green",
+  "verified_utc": "2026-10-16T17:23:47.863522+00:00",
+  "result": "passed",
+  "checks_passed": 10,
+  "checks": [
+    "Current scripts compile and exactly match the previously tested hashes",
+    "Both parsers freshly agree on the complete saved advertisement",
+    "Both parsers reject truncation, invalid length, trailing bytes and missing flush",
+    "Source collection loop and overwrite guard: completed",
+    "Source collection loop and overwrite guard: timeout",
+    "Source collection loop and overwrite guard: redirect",
+    "Source collection loop and overwrite guard: challenge",
+    "Source collection loop and overwrite guard: rate-limit",
+    "Complete collector refuses rerun before subprocess access",
+    "Unchanged full offline verifier passes on the final saved artifacts"
+  ],
+  "network_requests_made": 0,
+  "changed_files_sha256": {
+    "evidence/gardener-2026-10-16-service-check-4/observe.py": "750e70fed336312349aecdf2f9f73302b7ff6220908ad160fb45ee61d0f4ee32",
+    "evidence/gardener-2026-10-16-service-check-4/verify.py": "ff0d56cde22ff9a649d61656f58047f5c8baf84b042f02ab6c875026fe20f76e"
+  },
+  "temporary_script": "/var/folders/bg/v8wn0t11067f0hzxkz7hp7rr0000gn/T/hermes-verify-gblxzi6_.py",
+  "temporary_script_sha256": "9b1962e24c81233dddc481d3805eb6f4adff5a4547d770ecdcc2edbc7669be0d",
+  "test_sandboxes_cleaned": true
+}

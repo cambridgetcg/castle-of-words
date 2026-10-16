@@ -1,0 +1,20 @@
+{
+  "kind": "final-tree focused ad-hoc verification, not canonical suite",
+  "status": "PASS",
+  "run_utc": "2026-10-16T14:06:07.673556+00:00",
+  "tests_run": 10,
+  "failures": 0,
+  "errors": 0,
+  "changed_source_sha256": {
+    "evidence/gardener-2026-10-16-service-check-3/observe.py": "06f2e82ec37f994238adaa8b89335c51269a5b5200bfc571465bcfb2e133bf7f",
+    "evidence/gardener-2026-10-16-service-check-3/verify.py": "3ee0d37e7e6d04a0b2a660b91a29d25d6c6d6b412b81c1f5b9e619f27eab9431"
+  },
+  "staging_file_absent_before_and_after": true,
+  "chronicle_unchanged_by_checks": true,
+  "live_service_requests": 0,
+  "workspace_code_writes": 0,
+  "temporary_script_sha256": "0c3b11062dd1a4c6e4cfb379f8835d41a85d3c0e49f73ce98aa982c1ab3e280c",
+  "temporary_script_path": "/var/folders/bg/v8wn0t11067f0hzxkz7hp7rr0000gn/T/hermes-verify-4k3tu3gd.py",
+  "prior_evidence": "ad-hoc-verification.json",
+  "temporary_script_removed": true
+}

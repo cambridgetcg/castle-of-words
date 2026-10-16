@@ -182,6 +182,9 @@ Fetched and read **2026-10-15**:
 17. **Unicode Character Database: DerivedCoreProperties-18.0.0.txt** — https://www.unicode.org/Public/18.0.0/ucd/DerivedCoreProperties.txt — Default_Ignorable_Code_Point for the second reading's examples; [4] supplies the 17.0.0 property.
 
 Links:
+- [version-pinning-gap](version-pinning-gap.md) asks for the mechanism behind a version label, while these name comparisons keep the algorithm and Unicode tables explicit rather than borrowing the runtime's banner.
+- [simple-explanations](simple-explanations.md) offers a parallel warning: the ease of reading a sentence cannot certify its truth, just as a resemblance mark cannot certify that two names are one.
+- [[counterexample]] gives the ASCII `m`/`rn` pair its precise job: it breaks the claim that allowing only ASCII prevents every skeleton match between different names.
 - [safe-api-design](safe-api-design.md) keeps an alias shared by several records ambiguous, a neighboring rule to refusing to turn two look-alike names into one identity.
 - [migration-craft](migration-craft.md) keeps old migration records intact while changes move forward, a companion discipline to rebuilding this room's comparisons without rewriting the names they describe.
 - [[idempotence]] names a second pass that adds no further change, not proof that the first pass preserved the original name.

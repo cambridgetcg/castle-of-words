@@ -1,0 +1,11 @@
+{
+  "kind": "ad-hoc offline verification, not canonical suite",
+  "tests_run": 8,
+  "passed": false,
+  "failures": 1,
+  "errors": 0,
+  "live_network_requests": 0,
+  "temporary_fixtures_cleaned": true,
+  "fixtures": "saved response replay plus explicitly synthetic stop-rule cases",
+  "output": "test_200_challenge_stops_and_keeps_receipt (__main__.AdHocChecks) ... FAIL\ntest_actual_offline_verifier (__main__.AdHocChecks) ... ok\ntest_http_stop_rules (__main__.AdHocChecks) ... ok\ntest_parser_rejects_invalid_input (__main__.AdHocChecks) ... ok\ntest_saved_advertisement_parser (__main__.AdHocChecks) ... ok\ntest_six_request_replay_and_repeat_refusal (__main__.AdHocChecks) ... ok\ntest_syntax (__main__.AdHocChecks) ... ok\ntest_timeout_stops_without_second_round (__main__.AdHocChecks) ... ok\n\n======================================================================\nFAIL: test_200_challenge_stops_and_keeps_receipt (__main__.AdHocChecks)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"/var/folders/bg/v8wn0t11067f0hzxkz7hp7rr0000gn/T/hermes-verify-gfdl4u22.py\", line 128, in test_200_challenge_stops_and_keeps_receipt\n    manifest, _, calls = self.collect('challenge')\n  File \"/var/folders/bg/v8wn0t11067f0hzxkz7hp7rr0000gn/T/hermes-verify-gfdl4u22.py\", line 97, in collect\n    collector.main()\n  File \"/Users/yu/castle/evidence/gardener-2026-10-16-service-check-5/observe.py\", line 139, in main\n    assert rec['curl_metrics']['content_type'].split(';')[0] == 'application/x-git-upload-pack-advertisement'\nAssertionError\n\n----------------------------------------------------------------------\nRan 8 tests in 0.113s\n\nFAILED (failures=1)\n"
+}

@@ -1,0 +1,45 @@
+{
+  "query": "site:curl.se HTTP 500 exit code zero fail",
+  "requests": [
+    {
+      "file": "search-brave.html",
+      "url": "https://search.brave.com/search?q=site%3Acurl.se%20HTTP%20500%20exit%20code%20zero%20fail",
+      "start_utc": "2026-10-16T20:27:25.796638+00:00",
+      "finish_utc": "2026-10-16T20:27:26.534895+00:00",
+      "curl_exit": 0,
+      "http_code": "200",
+      "stderr": "",
+      "sha256": "97371a986dbd192c4fe2920748b258472d3c34110a1c02fcffe2250d6cd753e9"
+    },
+    {
+      "file": "fail-8.7.1.md",
+      "url": "https://raw.githubusercontent.com/curl/curl/curl-8_7_1/docs/cmdline-opts/fail.md",
+      "start_utc": "2026-10-16T20:27:25.797526+00:00",
+      "finish_utc": "2026-10-16T20:27:26.037484+00:00",
+      "curl_exit": 0,
+      "http_code": "200",
+      "stderr": "",
+      "sha256": "e91301221e4a4032ba0a39f1caadc397b6e808286500b2d35a6c8b7f6861f260"
+    },
+    {
+      "file": "fail-with-body-8.7.1.md",
+      "url": "https://raw.githubusercontent.com/curl/curl/curl-8_7_1/docs/cmdline-opts/fail-with-body.md",
+      "start_utc": "2026-10-16T20:27:25.798272+00:00",
+      "finish_utc": "2026-10-16T20:27:26.038413+00:00",
+      "curl_exit": 0,
+      "http_code": "200",
+      "stderr": "",
+      "sha256": "76754bbc3cf336c31e5826642bb18f8cba261f6878378a1c72e33b4172d09488"
+    },
+    {
+      "file": "rfc9110.txt",
+      "url": "https://www.rfc-editor.org/rfc/rfc9110.txt",
+      "start_utc": "2026-10-16T20:27:25.799047+00:00",
+      "finish_utc": "2026-10-16T20:27:26.052542+00:00",
+      "curl_exit": 0,
+      "http_code": "200",
+      "stderr": "",
+      "sha256": "21c1cdce6ab0e5509b04d84a28000836c7a087cf786efe6f04877ebfff47232a"
+    }
+  ]
+}

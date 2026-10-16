@@ -1,0 +1,57 @@
+[
+  {
+    "file": "search-brave.html",
+    "url": "https://search.brave.com/search?q=site%3Acurl.se%20max-time%20timeout%20response_code%20000",
+    "start_utc": "2026-10-16T17:10:47.020840+00:00",
+    "finish_utc": "2026-10-16T17:10:47.847023+00:00",
+    "http_status": "200",
+    "curl_exit": 0,
+    "error": "",
+    "bytes": 170061,
+    "sha256": "7071cf175fde24889a008f416d84e7d6c5d782552d9e486112e0dfbb1e23a45b"
+  },
+  {
+    "file": "max-time-8.7.1.md",
+    "url": "https://raw.githubusercontent.com/curl/curl/curl-8_7_1/docs/cmdline-opts/max-time.md",
+    "start_utc": "2026-10-16T17:10:47.021020+00:00",
+    "finish_utc": "2026-10-16T17:10:47.457787+00:00",
+    "http_status": "200",
+    "curl_exit": 0,
+    "error": "",
+    "bytes": 873,
+    "sha256": "40d156c4d2e5965da9098b97d54b8abad104728c069149698ccc84ab132e8dd6"
+  },
+  {
+    "file": "write-out-8.7.1.md",
+    "url": "https://raw.githubusercontent.com/curl/curl/curl-8_7_1/docs/cmdline-opts/write-out.md",
+    "start_utc": "2026-10-16T17:10:47.022797+00:00",
+    "finish_utc": "2026-10-16T17:10:47.294747+00:00",
+    "http_status": "200",
+    "curl_exit": 0,
+    "error": "",
+    "bytes": 10517,
+    "sha256": "2ddb9134f5011152eded1ed8753377deeee7c1d1581dff7534439faf236ebb34"
+  },
+  {
+    "file": "timeout-8.7.1.md",
+    "url": "https://raw.githubusercontent.com/curl/curl/curl-8_7_1/docs/libcurl/opts/CURLOPT_TIMEOUT.md",
+    "start_utc": "2026-10-16T17:10:47.022699+00:00",
+    "finish_utc": "2026-10-16T17:10:47.302068+00:00",
+    "http_status": "200",
+    "curl_exit": 0,
+    "error": "",
+    "bytes": 2485,
+    "sha256": "6531732aa4aade3f4fa621932e42bbdbd610b1755e8f44db4bcda74a9b7cd7a6"
+  },
+  {
+    "file": "response-code-8.7.1.md",
+    "url": "https://raw.githubusercontent.com/curl/curl/curl-8_7_1/docs/libcurl/opts/CURLINFO_RESPONSE_CODE.md",
+    "start_utc": "2026-10-16T17:10:47.022828+00:00",
+    "finish_utc": "2026-10-16T17:10:47.301954+00:00",
+    "http_status": "200",
+    "curl_exit": 0,
+    "error": "",
+    "bytes": 1464,
+    "sha256": "9a7a3f4b7e3959c676429116c7909eaaf157a9462f34fd3340bd6ffe016660bf"
+  }
+]

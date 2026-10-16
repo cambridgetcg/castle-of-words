@@ -1,0 +1,85 @@
+{
+  "query": "site:curl.se max-time timeout response_code 000",
+  "results": [
+    {
+      "url": "https://curl.se/libcurl/c/libcurl-errors.html",
+      "label": "curl curl.se \u203a libcurl \u203a c \u203a libcurl-errors.html libcurl - Error Codes"
+    },
+    {
+      "url": "https://curl.se/docs/manpage.html",
+      "label": "curl curl.se \u203a docs \u203a manpage.html curl - How To Use"
+    },
+    {
+      "url": "https://curl.se/cvssource/docs/cmdline-opts/retry.md",
+      "label": "curl curl.se \u203a cvssource \u203a docs \u203a cmdline-opts \u203a retry.md --- c: Copyright (C) Daniel Stenberg, <daniel@haxx.se>, et al."
+    },
+    {
+      "url": "https://curl.se/libcurl/c/CURLOPT_SERVER_RESPONSE_TIMEOUT_MS.html",
+      "label": "curl curl.se \u203a libcurl \u203a c \u203a CURLOPT_SERVER_RESPONSE_TIMEOUT_MS.html CURLOPT_SERVER_RESPONSE_TIMEOUT_MS"
+    },
+    {
+      "url": "https://curl.se/mail/lib-2001-10/0049.html",
+      "label": "curl curl.se \u203a mail \u203a lib-2001-10 \u203a 0049.html Curl: problems with --connect-timeout and --max-time options"
+    },
+    {
+      "url": "https://curl.se/mail/archive-2007-08/0008.html",
+      "label": "curl curl.se \u203a mail \u203a archive-2007-08 \u203a 0008.html Curl: max-time and connect-timeout options, results varying"
+    },
+    {
+      "url": "https://curl.se/libcurl/c/CURLOPT_CONNECTTIMEOUT_MS.html",
+      "label": "curl curl.se \u203a libcurl \u203a c \u203a CURLOPT_CONNECTTIMEOUT_MS.html CURLOPT_CONNECTTIMEOUT_MS"
+    },
+    {
+      "url": "https://curl.se/libcurl/c/CURLOPT_CONNECTTIMEOUT.html",
+      "label": "curl curl.se \u203a libcurl \u203a c \u203a CURLOPT_CONNECTTIMEOUT.html CURLOPT_CONNECTTIMEOUT"
+    },
+    {
+      "url": "https://curl.se/mail/archive-2009-01/0012.html",
+      "label": "curl curl.se \u203a mail \u203a archive-2009-01 \u203a 0012.html Curl: Re: Timeout Behavior for Curl TFTP"
+    },
+    {
+      "url": "https://curl.se/docs/faq.html",
+      "label": "curl curl.se \u203a docs \u203a faq.html curl - Frequently Asked Questions"
+    },
+    {
+      "url": "https://curl.se/libcurl/c/CURLOPT_TIMEOUT_MS.html",
+      "label": "curl curl.se \u203a libcurl \u203a c \u203a CURLOPT_TIMEOUT_MS.html CURLOPT_TIMEOUT_MS"
+    },
+    {
+      "url": "https://curl.se/mail/lib-2014-05/0218.html",
+      "label": "curl curl.se \u203a mail \u203a lib-2014-05 \u203a 0218.html Curl: incorrect error messages on timeouts"
+    },
+    {
+      "url": "https://curl.se/mail/archive-2000-07/0012.html",
+      "label": "curl curl.se \u203a mail \u203a archive-2000-07 \u203a 0012.html Curl: Re: Return code 143 and HTTPS:// ?"
+    },
+    {
+      "url": "https://curl.se/mail/lib-2017-08/0083.html",
+      "label": "curl curl.se \u203a mail \u203a lib-2017-08 \u203a 0083.html Curl: Re: Connection timeout problem on AIX"
+    },
+    {
+      "url": "https://curl.se/libcurl/c/CURLOPT_EXPECT_100_TIMEOUT_MS.html",
+      "label": "curl curl.se \u203a libcurl \u203a c \u203a CURLOPT_EXPECT_100_TIMEOUT_MS.html CURLOPT_EXPECT_100_TIMEOUT_MS"
+    },
+    {
+      "url": "https://curl.se/libcurl/c/CURLMOPT_TIMERFUNCTION.html",
+      "label": "curl curl.se \u203a libcurl \u203a c \u203a CURLMOPT_TIMERFUNCTION.html CURLMOPT_TIMERFUNCTION"
+    },
+    {
+      "url": "https://curl.se/libcurl/c/CURLOPT_FTP_RESPONSE_TIMEOUT.html",
+      "label": "curl curl.se \u203a libcurl \u203a c \u203a CURLOPT_FTP_RESPONSE_TIMEOUT.html CURLOPT_FTP_RESPONSE_TIMEOUT"
+    },
+    {
+      "url": "https://curl.se/mail/archive-2009-01/0008.html",
+      "label": "curl curl.se \u203a mail \u203a archive-2009-01 \u203a 0008.html Curl: Timeout Behavior for Curl TFTP"
+    },
+    {
+      "url": "https://curl.se/mail/archive-2005-06/0007.html",
+      "label": "curl curl.se \u203a mail \u203a archive-2005-06 \u203a 0007.html Curl: RE: Getting error code 28 on one non-existant file but 22 on another"
+    },
+    {
+      "url": "https://curl.se/mail/lib-2013-07/0136.html",
+      "label": "curl curl.se \u203a mail \u203a lib-2013-07 \u203a 0136.html Curl: [PATCH 2/3] src/tool: allow timeouts to accept decimal values"
+    }
+  ]
+}

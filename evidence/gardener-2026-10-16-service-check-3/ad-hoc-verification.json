@@ -1,0 +1,41 @@
+{
+  "kind": "focused ad-hoc verification, not canonical test/lint/build suite",
+  "status": "PASS",
+  "run_utc": "2026-10-16T14:03:43.077204+00:00",
+  "tests_run": 20,
+  "failures": 0,
+  "errors": 0,
+  "test_names": [
+    "test_01_both_changed_files_compile",
+    "test_02_decode_real_kept_body_completely",
+    "test_03_reject_bad_packet_framing",
+    "test_04_reject_missing_capability_separator",
+    "test_05_reject_duplicate_references",
+    "test_06_reject_unexpected_flush",
+    "test_07_reject_wrong_service",
+    "test_08_keep_capability_change_separate_from_reference_change",
+    "test_09_save_refuses_overwrite",
+    "test_10_two_round_limit_even_for_slow_test_replies",
+    "test_11_access_rate_and_redirect_boundaries_stop",
+    "test_12_boundary_mid_round_stops",
+    "test_13_challenge_body_stops_with_http_200",
+    "test_14_transport_failure_kept_as_missing",
+    "test_15_timeout_stops_with_recorded_failure",
+    "test_16_existing_manifest_prevents_actual_collection",
+    "test_17_actual_closed_verifier_passes_without_writing",
+    "test_18_actual_verifier_rejects_body_tampering",
+    "test_19_actual_verifier_rejects_extra_chronicle_line",
+    "test_20_actual_verifier_rejects_garden_tampering"
+  ],
+  "live_service_requests": 0,
+  "synthetic_replies_used_only_in_isolated_test_fixtures": true,
+  "actual_verifier_output_write_intercepted": true,
+  "temporary_script": "/var/folders/bg/v8wn0t11067f0hzxkz7hp7rr0000gn/T/hermes-verify-r0_wm2ku.py",
+  "temporary_script_sha256": "b5d74feae542249aaa4a91ccfabb29336dd69702f92e531e7e95cb4bec067b9d",
+  "changed_source_sha256": {
+    "evidence/gardener-2026-10-16-service-check-3/observe.py": "06f2e82ec37f994238adaa8b89335c51269a5b5200bfc571465bcfb2e133bf7f",
+    "evidence/gardener-2026-10-16-service-check-3/verify.py": "3ee0d37e7e6d04a0b2a660b91a29d25d6c6d6b412b81c1f5b9e619f27eab9431"
+  },
+  "temporary_script_and_staging_removed": true,
+  "cleanup_utc": "2026-10-16T14:04:07.107348+00:00"
+}

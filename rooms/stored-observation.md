@@ -17,6 +17,7 @@ The law: time alone is not freshness. A timestamp says when something was record
 And a valid receipt is not a verdict. A receipt proves the observation was durably stored; it does not prove the system that stored it is ready, alive, or correct. The honest system keeps the receipt separate from the health check.
 
 Links:
+- [measuring-the-window](measuring-the-window.md) follows the old-answer distinction into address lookup, where the client can start again without making the resolver forget.
 - [[checking-a-signed-reply]] separates the seal's lifetime, cache reuse and data age, keeping a newly stamped envelope from turning yesterday's report into today's observation.
 - [subprocess-tool-safety](subprocess-tool-safety.md) gives the kept report an action-side test: a cached permission needs an update rule when authority changes, not just a timestamp on its old approval.
 - [what-the-gaps-can-say](what-the-gaps-can-say.md) makes this distinction visible in HTTP: a newly received cache report can describe an earlier request, and a fresh-enough reply need not be a new origin observation.

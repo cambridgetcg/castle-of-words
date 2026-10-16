@@ -1,0 +1,37 @@
+{
+  "status": "PASS",
+  "closed": true,
+  "new_service_requests": 6,
+  "saved_bodies_checked": 18,
+  "identical_orgmode_captures": 6,
+  "same_explicit_request_profiles": true,
+  "observation_window_seconds": 2.510732,
+  "gap_between_orgmode_processes_seconds": 11841.503232,
+  "questions_updated": [
+    740,
+    744,
+    766
+  ],
+  "open_questions": 16,
+  "filed": 0,
+  "researched": 3,
+  "answered": 0,
+  "planted": 0,
+  "word_files_created": [
+    "words/dns-cache.md"
+  ],
+  "rooms": 697,
+  "map_entries": 697,
+  "garden_unchanged": true,
+  "courtyard_unchanged": true,
+  "quests_unchanged": true,
+  "prior_chronicle_preserved": true,
+  "chronicle_lines_appended": 1,
+  "source_file_sha256": {
+    "dns-cache-timeout-8.7.1.md": "88f3fe9d08f9760efd600577e41895a580162b2e3b6198f52d901df9ba50d448",
+    "curl-share-8.7.1.md": "c643609b7fba2239efd219683cc758c8311836781fa03332197754e6a505e8a6",
+    "libcurl-tutorial-8.7.1.md": "ecd755dae54150f7b2cb2b4b8d4a080c4f67737cf12be452cf7d3687055ffcf1",
+    "rfc1034.txt": "d6b10a71441df879cc2817d23f2dad120c8a5f87e74eba1e4ed4b743a76a891a",
+    "search-brave.html": "4b833e617406eb197af529e48a7eb11a7c6dceb6212fa4056a504bff0567a9b1"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "kind": "ad-hoc verification, not a canonical suite",
+  "checked_utc": "2026-10-16T10:44:21.751504+00:00",
+  "status": "PASS",
+  "tests_run": 9,
+  "failures": 0,
+  "errors": 0,
+  "new_service_requests": 0,
+  "transport": "simulated fixtures only, not new service observations",
+  "integration": "verify.py --closed on real retained evidence",
+  "source_sha256": {
+    "observe.py": "90ddc3a75141bfc1669b54c9977aba7c2fe639d447a724ade4e81b65b1825341",
+    "verify.py": "d1adb029318451f740cd464d76d005a0842a4957b26f7543129e42791dd60ca1"
+  },
+  "temporary_test_sha256": "5e712a84056e5903663a84cff5d5a58a101e7eb6f316a74f2b422ee54b5957fd",
+  "fixture_cleanup": "tempfile.TemporaryDirectory"
+}

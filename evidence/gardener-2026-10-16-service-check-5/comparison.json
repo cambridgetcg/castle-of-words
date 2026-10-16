@@ -1,0 +1,356 @@
+{
+  "captures": [
+    {
+      "capture": "gardener-2026-10-16-service-check/r1-orgmode",
+      "sha256": "5a5059f07c0b32e84d0d88c2b508c8efbfb7a7fae1cbefef3ef3651b1d2fce8e",
+      "parsed": {
+        "references": {
+          "HEAD": "ce02e5d4dcf8c7b6aaecc0bd9c4c33e3291f29eb",
+          "refs/heads/master": "ce02e5d4dcf8c7b6aaecc0bd9c4c33e3291f29eb"
+        },
+        "capabilities": [
+          "multi_ack",
+          "thin-pack",
+          "side-band",
+          "side-band-64k",
+          "ofs-delta",
+          "shallow",
+          "deepen-since",
+          "deepen-not",
+          "deepen-relative",
+          "no-progress",
+          "include-tag",
+          "multi_ack_detailed",
+          "no-done",
+          "symref=HEAD:refs/heads/master",
+          "object-format=sha1",
+          "agent=git/2.39.5"
+        ],
+        "packet_count": 5
+      }
+    },
+    {
+      "capture": "gardener-2026-10-16-service-check/r1-emacs",
+      "sha256": "e41656eb2ba6c6293bf6dd928e5a88cdbc50535cab661c1969e0f598e497ed62",
+      "parsed": null
+    },
+    {
+      "capture": "gardener-2026-10-16-service-check/r1-guix",
+      "sha256": "e41656eb2ba6c6293bf6dd928e5a88cdbc50535cab661c1969e0f598e497ed62",
+      "parsed": null
+    },
+    {
+      "capture": "gardener-2026-10-16-service-check/r2-orgmode",
+      "sha256": "5a5059f07c0b32e84d0d88c2b508c8efbfb7a7fae1cbefef3ef3651b1d2fce8e",
+      "parsed": {
+        "references": {
+          "HEAD": "ce02e5d4dcf8c7b6aaecc0bd9c4c33e3291f29eb",
+          "refs/heads/master": "ce02e5d4dcf8c7b6aaecc0bd9c4c33e3291f29eb"
+        },
+        "capabilities": [
+          "multi_ack",
+          "thin-pack",
+          "side-band",
+          "side-band-64k",
+          "ofs-delta",
+          "shallow",
+          "deepen-since",
+          "deepen-not",
+          "deepen-relative",
+          "no-progress",
+          "include-tag",
+          "multi_ack_detailed",
+          "no-done",
+          "symref=HEAD:refs/heads/master",
+          "object-format=sha1",
+          "agent=git/2.39.5"
+        ],
+        "packet_count": 5
+      }
+    },
+    {
+      "capture": "gardener-2026-10-16-service-check/r2-emacs",
+      "sha256": "e41656eb2ba6c6293bf6dd928e5a88cdbc50535cab661c1969e0f598e497ed62",
+      "parsed": null
+    },
+    {
+      "capture": "gardener-2026-10-16-service-check/r2-guix",
+      "sha256": "e41656eb2ba6c6293bf6dd928e5a88cdbc50535cab661c1969e0f598e497ed62",
+      "parsed": null
+    },
+    {
+      "capture": "gardener-2026-10-16-service-check-2/r1-orgmode",
+      "sha256": "5a5059f07c0b32e84d0d88c2b508c8efbfb7a7fae1cbefef3ef3651b1d2fce8e",
+      "parsed": {
+        "references": {
+          "HEAD": "ce02e5d4dcf8c7b6aaecc0bd9c4c33e3291f29eb",
+          "refs/heads/master": "ce02e5d4dcf8c7b6aaecc0bd9c4c33e3291f29eb"
+        },
+        "capabilities": [
+          "multi_ack",
+          "thin-pack",
+          "side-band",
+          "side-band-64k",
+          "ofs-delta",
+          "shallow",
+          "deepen-since",
+          "deepen-not",
+          "deepen-relative",
+          "no-progress",
+          "include-tag",
+          "multi_ack_detailed",
+          "no-done",
+          "symref=HEAD:refs/heads/master",
+          "object-format=sha1",
+          "agent=git/2.39.5"
+        ],
+        "packet_count": 5
+      }
+    },
+    {
+      "capture": "gardener-2026-10-16-service-check-2/r1-emacs",
+      "sha256": "e41656eb2ba6c6293bf6dd928e5a88cdbc50535cab661c1969e0f598e497ed62",
+      "parsed": null
+    },
+    {
+      "capture": "gardener-2026-10-16-service-check-2/r1-guix",
+      "sha256": "e41656eb2ba6c6293bf6dd928e5a88cdbc50535cab661c1969e0f598e497ed62",
+      "parsed": null
+    },
+    {
+      "capture": "gardener-2026-10-16-service-check-2/r2-orgmode",
+      "sha256": "5a5059f07c0b32e84d0d88c2b508c8efbfb7a7fae1cbefef3ef3651b1d2fce8e",
+      "parsed": {
+        "references": {
+          "HEAD": "ce02e5d4dcf8c7b6aaecc0bd9c4c33e3291f29eb",
+          "refs/heads/master": "ce02e5d4dcf8c7b6aaecc0bd9c4c33e3291f29eb"
+        },
+        "capabilities": [
+          "multi_ack",
+          "thin-pack",
+          "side-band",
+          "side-band-64k",
+          "ofs-delta",
+          "shallow",
+          "deepen-since",
+          "deepen-not",
+          "deepen-relative",
+          "no-progress",
+          "include-tag",
+          "multi_ack_detailed",
+          "no-done",
+          "symref=HEAD:refs/heads/master",
+          "object-format=sha1",
+          "agent=git/2.39.5"
+        ],
+        "packet_count": 5
+      }
+    },
+    {
+      "capture": "gardener-2026-10-16-service-check-2/r2-emacs",
+      "sha256": "e41656eb2ba6c6293bf6dd928e5a88cdbc50535cab661c1969e0f598e497ed62",
+      "parsed": null
+    },
+    {
+      "capture": "gardener-2026-10-16-service-check-2/r2-guix",
+      "sha256": "e41656eb2ba6c6293bf6dd928e5a88cdbc50535cab661c1969e0f598e497ed62",
+      "parsed": null
+    },
+    {
+      "capture": "gardener-2026-10-16-service-check-3/r1-orgmode",
+      "sha256": "5a5059f07c0b32e84d0d88c2b508c8efbfb7a7fae1cbefef3ef3651b1d2fce8e",
+      "parsed": {
+        "references": {
+          "HEAD": "ce02e5d4dcf8c7b6aaecc0bd9c4c33e3291f29eb",
+          "refs/heads/master": "ce02e5d4dcf8c7b6aaecc0bd9c4c33e3291f29eb"
+        },
+        "capabilities": [
+          "multi_ack",
+          "thin-pack",
+          "side-band",
+          "side-band-64k",
+          "ofs-delta",
+          "shallow",
+          "deepen-since",
+          "deepen-not",
+          "deepen-relative",
+          "no-progress",
+          "include-tag",
+          "multi_ack_detailed",
+          "no-done",
+          "symref=HEAD:refs/heads/master",
+          "object-format=sha1",
+          "agent=git/2.39.5"
+        ],
+        "packet_count": 5
+      }
+    },
+    {
+      "capture": "gardener-2026-10-16-service-check-3/r1-emacs",
+      "sha256": "e41656eb2ba6c6293bf6dd928e5a88cdbc50535cab661c1969e0f598e497ed62",
+      "parsed": null
+    },
+    {
+      "capture": "gardener-2026-10-16-service-check-3/r1-guix",
+      "sha256": "e41656eb2ba6c6293bf6dd928e5a88cdbc50535cab661c1969e0f598e497ed62",
+      "parsed": null
+    },
+    {
+      "capture": "gardener-2026-10-16-service-check-3/r2-orgmode",
+      "sha256": "5a5059f07c0b32e84d0d88c2b508c8efbfb7a7fae1cbefef3ef3651b1d2fce8e",
+      "parsed": {
+        "references": {
+          "HEAD": "ce02e5d4dcf8c7b6aaecc0bd9c4c33e3291f29eb",
+          "refs/heads/master": "ce02e5d4dcf8c7b6aaecc0bd9c4c33e3291f29eb"
+        },
+        "capabilities": [
+          "multi_ack",
+          "thin-pack",
+          "side-band",
+          "side-band-64k",
+          "ofs-delta",
+          "shallow",
+          "deepen-since",
+          "deepen-not",
+          "deepen-relative",
+          "no-progress",
+          "include-tag",
+          "multi_ack_detailed",
+          "no-done",
+          "symref=HEAD:refs/heads/master",
+          "object-format=sha1",
+          "agent=git/2.39.5"
+        ],
+        "packet_count": 5
+      }
+    },
+    {
+      "capture": "gardener-2026-10-16-service-check-3/r2-emacs",
+      "sha256": "e41656eb2ba6c6293bf6dd928e5a88cdbc50535cab661c1969e0f598e497ed62",
+      "parsed": null
+    },
+    {
+      "capture": "gardener-2026-10-16-service-check-3/r2-guix",
+      "sha256": "e41656eb2ba6c6293bf6dd928e5a88cdbc50535cab661c1969e0f598e497ed62",
+      "parsed": null
+    },
+    {
+      "capture": "gardener-2026-10-16-service-check-4/r1-orgmode",
+      "sha256": "5a5059f07c0b32e84d0d88c2b508c8efbfb7a7fae1cbefef3ef3651b1d2fce8e",
+      "parsed": {
+        "references": {
+          "HEAD": "ce02e5d4dcf8c7b6aaecc0bd9c4c33e3291f29eb",
+          "refs/heads/master": "ce02e5d4dcf8c7b6aaecc0bd9c4c33e3291f29eb"
+        },
+        "capabilities": [
+          "multi_ack",
+          "thin-pack",
+          "side-band",
+          "side-band-64k",
+          "ofs-delta",
+          "shallow",
+          "deepen-since",
+          "deepen-not",
+          "deepen-relative",
+          "no-progress",
+          "include-tag",
+          "multi_ack_detailed",
+          "no-done",
+          "symref=HEAD:refs/heads/master",
+          "object-format=sha1",
+          "agent=git/2.39.5"
+        ],
+        "packet_count": 5
+      }
+    },
+    {
+      "capture": "gardener-2026-10-16-service-check-4/r1-emacs",
+      "sha256": "e41656eb2ba6c6293bf6dd928e5a88cdbc50535cab661c1969e0f598e497ed62",
+      "parsed": null
+    },
+    {
+      "capture": "gardener-2026-10-16-service-check-5/r1-orgmode",
+      "sha256": "5a5059f07c0b32e84d0d88c2b508c8efbfb7a7fae1cbefef3ef3651b1d2fce8e",
+      "parsed": {
+        "references": {
+          "HEAD": "ce02e5d4dcf8c7b6aaecc0bd9c4c33e3291f29eb",
+          "refs/heads/master": "ce02e5d4dcf8c7b6aaecc0bd9c4c33e3291f29eb"
+        },
+        "capabilities": [
+          "multi_ack",
+          "thin-pack",
+          "side-band",
+          "side-band-64k",
+          "ofs-delta",
+          "shallow",
+          "deepen-since",
+          "deepen-not",
+          "deepen-relative",
+          "no-progress",
+          "include-tag",
+          "multi_ack_detailed",
+          "no-done",
+          "symref=HEAD:refs/heads/master",
+          "object-format=sha1",
+          "agent=git/2.39.5"
+        ],
+        "packet_count": 5
+      }
+    },
+    {
+      "capture": "gardener-2026-10-16-service-check-5/r1-emacs",
+      "sha256": "e41656eb2ba6c6293bf6dd928e5a88cdbc50535cab661c1969e0f598e497ed62",
+      "parsed": null
+    },
+    {
+      "capture": "gardener-2026-10-16-service-check-5/r1-guix",
+      "sha256": "e41656eb2ba6c6293bf6dd928e5a88cdbc50535cab661c1969e0f598e497ed62",
+      "parsed": null
+    },
+    {
+      "capture": "gardener-2026-10-16-service-check-5/r2-orgmode",
+      "sha256": "5a5059f07c0b32e84d0d88c2b508c8efbfb7a7fae1cbefef3ef3651b1d2fce8e",
+      "parsed": {
+        "references": {
+          "HEAD": "ce02e5d4dcf8c7b6aaecc0bd9c4c33e3291f29eb",
+          "refs/heads/master": "ce02e5d4dcf8c7b6aaecc0bd9c4c33e3291f29eb"
+        },
+        "capabilities": [
+          "multi_ack",
+          "thin-pack",
+          "side-band",
+          "side-band-64k",
+          "ofs-delta",
+          "shallow",
+          "deepen-since",
+          "deepen-not",
+          "deepen-relative",
+          "no-progress",
+          "include-tag",
+          "multi_ack_detailed",
+          "no-done",
+          "symref=HEAD:refs/heads/master",
+          "object-format=sha1",
+          "agent=git/2.39.5"
+        ],
+        "packet_count": 5
+      }
+    },
+    {
+      "capture": "gardener-2026-10-16-service-check-5/r2-emacs",
+      "sha256": "e41656eb2ba6c6293bf6dd928e5a88cdbc50535cab661c1969e0f598e497ed62",
+      "parsed": null
+    },
+    {
+      "capture": "gardener-2026-10-16-service-check-5/r2-guix",
+      "sha256": "e41656eb2ba6c6293bf6dd928e5a88cdbc50535cab661c1969e0f598e497ed62",
+      "parsed": null
+    }
+  ],
+  "orgmode_hashes": [
+    "5a5059f07c0b32e84d0d88c2b508c8efbfb7a7fae1cbefef3ef3651b1d2fce8e"
+  ],
+  "orgmode_parsed_views_equal": true,
+  "window_seconds": 2.564883,
+  "previous_check_finish_to_this_start_seconds": 11811.523695
+}

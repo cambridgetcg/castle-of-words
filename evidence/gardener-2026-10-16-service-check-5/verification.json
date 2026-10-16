@@ -1,0 +1,31 @@
+{
+  "verified_utc": "2026-10-16T20:36:49.985092+00:00",
+  "passed": true,
+  "mode": "final",
+  "independent_reviewer": false,
+  "service_requests": 6,
+  "curl_exit_zero": 6,
+  "http_status_counts": {
+    "200": 2,
+    "500": 4
+  },
+  "parsed_advertisements_agree": true,
+  "earlier_saved_bodies_byte_equal": true,
+  "observation_window_seconds": 2.564883,
+  "guix_unobserved_gap_seconds": 11812.414061,
+  "question_lines_changed": [
+    740,
+    744,
+    766
+  ],
+  "questions_open": 16,
+  "filed": 0,
+  "researched": 3,
+  "settled": 0,
+  "planted": 0,
+  "rooms": 697,
+  "map_lines": 697,
+  "garden_unchanged": true,
+  "new_markdown_links_resolve": true,
+  "chronicle_lines_added": 1
+}
