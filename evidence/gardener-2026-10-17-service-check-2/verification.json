@@ -1,0 +1,25 @@
+{
+  "status": "PASS",
+  "scope": "focused offline same-session verification",
+  "checked_utc": "2026-10-17T06:15:38.044048+00:00",
+  "service_captures": 6,
+  "source_retrievals": 6,
+  "collection_seconds": "2.509528",
+  "previous_collection_gap_seconds": "11752.725375",
+  "same_path_gaps_seconds": {
+    "orgmode": "11778.734563",
+    "guix": "11753.506345"
+  },
+  "changed_question_lines": [
+    740,
+    744,
+    766
+  ],
+  "open_questions": 16,
+  "rooms": 697,
+  "map_entries": 697,
+  "garden_unchanged": true,
+  "reserved_questions_unchanged": true,
+  "chronicle_lines_added": 1,
+  "network_requests_during_verification": 0
+}

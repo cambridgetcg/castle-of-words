@@ -1,0 +1,18 @@
+{
+  "kind": "ad-hoc verification, not a canonical test suite or independent review",
+  "checked_utc": "2026-10-17T09:35:51.245908+00:00",
+  "tests_run": 11,
+  "failures": 0,
+  "errors": 0,
+  "passed": true,
+  "script_sha256": {
+    "collect.py": "02f4e42b32ae99e8764da38bed44a243d4c152e1d086a16e2dc47ed6dff3ffbf",
+    "research.py": "6a8d8427fb91f27ec6a482daf59ecae0adcd0be13814b25dcb034e82357a0442",
+    "verify.py": "6a39e07211d1f999681b68159317c996da4d0ba40c4bf8dad8eddd64529f546e"
+  },
+  "temporary_verifier_sha256": "c22f12bcc8f945611c8d55917dfdd64e41541e52053c8252a75fe42d41ae3cf1",
+  "network_and_external_processes_blocked": true,
+  "retained_artifacts_and_castle_text_unchanged": true,
+  "fixtures": "retained real replies plus explicitly synthetic timeout, HTTP error, symlink and corruption fixtures",
+  "test_output": "test_actual_workspace_verifier_passes_with_output_captured_in_memory (__main__.Checks) ... ok\ntest_collection_rejects_out_of_root_symlink_before_execution (__main__.Checks) ... ok\ntest_collection_replays_six_retained_replies_and_refuses_repeat (__main__.Checks) ... ok\ntest_collection_stops_on_synthetic_curl_timeout (__main__.Checks) ... ok\ntest_research_preserves_synthetic_http_error_and_timeout (__main__.Checks) ... ok\ntest_research_replays_four_fetches_and_refuses_repeat (__main__.Checks) ... ok\ntest_research_requires_collection_manifest (__main__.Checks) ... ok\ntest_syntax_of_three_changed_scripts (__main__.Checks) ... ok\ntest_verifier_rejects_corrupted_capture_and_source_records (__main__.Checks) ... ok\ntest_verifier_rejects_duplicate_map_entry (__main__.Checks) ... ok\ntest_verifier_rejects_extra_chronicle_line (__main__.Checks) ... ok\n\n----------------------------------------------------------------------\nRan 11 tests in 0.218s\n\nOK\n"
+}

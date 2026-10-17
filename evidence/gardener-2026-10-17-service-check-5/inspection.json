@@ -1,0 +1,18 @@
+{
+  "old_id": "34098a39c71edf4bee2f0c265d80e40f59908831",
+  "new_id": "e8934baf182872c599b0834cf6a0dfdaad3e6f1f",
+  "same_reference_names": true,
+  "same_capabilities": true,
+  "id_substitution_explains_all_changed_bytes": true,
+  "current_orgmode_bodies_equal": true,
+  "new_orgmode_sha256": "bfe58ec547739611df1a0ce2ba86232c3a6cf41b1e4bb52ebe9cc9a8bcae24de",
+  "same_path_gap_seconds": 11838.569939,
+  "table_rows": [
+    "| [r1-orgmode](r1-orgmode.json) | 15:58:48.949190 | 15:58:49.442228 | 200 | 370 | 0.484186 |",
+    "| [r1-emacs](r1-emacs.json) | 15:58:49.444264 | 15:58:49.959636 | 500 | 21 | 0.492643 |",
+    "| [r1-guix](r1-guix.json) | 15:58:49.961000 | 15:58:50.493819 | 500 | 21 | 0.510972 |",
+    "| [r2-orgmode](r2-orgmode.json) | 15:58:50.495633 | 15:58:50.870783 | 200 | 370 | 0.351625 |",
+    "| [r2-emacs](r2-emacs.json) | 15:58:50.872668 | 15:58:51.394145 | 500 | 21 | 0.497664 |",
+    "| [r2-guix](r2-guix.json) | 15:58:51.396127 | 15:58:52.271818 | 500 | 21 | 0.851251 |"
+  ]
+}

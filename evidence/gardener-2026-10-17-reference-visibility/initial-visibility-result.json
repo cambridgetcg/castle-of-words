@@ -1,0 +1,31 @@
+{
+  "kind": "constructed local fixture; real Git, not host data",
+  "started_utc": "2026-10-16T23:41:17.834343+00:00",
+  "network_requests": 0,
+  "checks": {},
+  "explicit_environment": {
+    "PATH": "/usr/bin:/bin:/usr/sbin:/sbin",
+    "LC_ALL": "C",
+    "TZ": "UTC",
+    "HOME": "/Users/yu/castle/evidence/gardener-2026-10-17-reference-visibility/local-fixture/home",
+    "XDG_CONFIG_HOME": "/Users/yu/castle/evidence/gardener-2026-10-17-reference-visibility/local-fixture/xdg",
+    "TMPDIR": "/Users/yu/castle/evidence/gardener-2026-10-17-reference-visibility/local-fixture/tmp",
+    "GIT_CONFIG_NOSYSTEM": "1",
+    "GIT_CONFIG_GLOBAL": "/Users/yu/castle/evidence/gardener-2026-10-17-reference-visibility/local-fixture/empty-config",
+    "GIT_CONFIG_SYSTEM": "/Users/yu/castle/evidence/gardener-2026-10-17-reference-visibility/local-fixture/empty-config",
+    "GIT_TERMINAL_PROMPT": "0",
+    "GIT_PROTOCOL": "version=0",
+    "GIT_AUTHOR_NAME": "Constructed fixture",
+    "GIT_AUTHOR_EMAIL": "fixture@example.invalid",
+    "GIT_COMMITTER_NAME": "Constructed fixture",
+    "GIT_COMMITTER_EMAIL": "fixture@example.invalid",
+    "GIT_AUTHOR_DATE": "2026-10-17T00:00:00+0000",
+    "GIT_COMMITTER_DATE": "2026-10-17T00:00:00+0000"
+  },
+  "git_version": "git version 2.39.5 (Apple Git-154)",
+  "all_passed": false,
+  "error": "AssertionError()",
+  "fixture_removed": true,
+  "finished_utc": "2026-10-16T23:41:17.901499+00:00",
+  "script_sha256": "299ce75f4e9b968b8a72e9e523e164f66050cce9da1cffb4e59d0a3f7efe21fd"
+}

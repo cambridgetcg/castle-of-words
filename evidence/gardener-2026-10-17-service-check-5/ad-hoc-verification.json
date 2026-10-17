@@ -1,0 +1,19 @@
+{
+  "kind": "ad-hoc verification; not a canonical project suite",
+  "verified_utc": "2026-10-17T16:06:40.531926+00:00",
+  "status": "pass",
+  "tests_run": 7,
+  "failures": [],
+  "errors": [],
+  "code_sha256": {
+    "collect.py": "a083adad00a03c689ce22d58d2f931d0e083332ed74cfa4fb11155d00c7cf5c3",
+    "inspect.py": "d3eb576336fedb04e37c02cbd4dac0ac0edec517bdd4c782067af84fce31198d",
+    "research.py": "a8f67cef0a09b2c735c09b61f857e462d6c16c5adc2ce18108278d97f378ba6c",
+    "verify.py": "56fc6bfffa515b7287b7752c7a74faf37472222dce6e08cd52111a2f4cef1036"
+  },
+  "temporary_script_sha256": "d7f44ea1e5f3d261c962c90882e7642ebeb7828e53c70ffb096ff6ab1f1ee092",
+  "no_subprocess_or_network_calls": true,
+  "protected_files_and_code_unchanged": true,
+  "chronicle_not_appended_again": true,
+  "limits": "Saved real captures and repeat-run guards; no new service observations, live-network rerun, independent reviewer or full Git protocol conformance test."
+}

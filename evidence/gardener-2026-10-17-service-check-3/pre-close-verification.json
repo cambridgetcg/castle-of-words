@@ -1,0 +1,84 @@
+{
+  "checked_utc": "2026-10-17T09:29:53.853360+00:00",
+  "phase": "pre-close",
+  "result": "pass",
+  "scope": "offline same-session checks, not independent review",
+  "service_requests": 6,
+  "source_and_search_retrievals": 5,
+  "old_reference_view": {
+    "references": {
+      "HEAD": "ce02e5d4dcf8c7b6aaecc0bd9c4c33e3291f29eb",
+      "refs/heads/master": "ce02e5d4dcf8c7b6aaecc0bd9c4c33e3291f29eb"
+    },
+    "capabilities": [
+      "multi_ack",
+      "thin-pack",
+      "side-band",
+      "side-band-64k",
+      "ofs-delta",
+      "shallow",
+      "deepen-since",
+      "deepen-not",
+      "deepen-relative",
+      "no-progress",
+      "include-tag",
+      "multi_ack_detailed",
+      "no-done",
+      "symref=HEAD:refs/heads/master",
+      "object-format=sha1",
+      "agent=git/2.39.5"
+    ],
+    "packet_count": 5
+  },
+  "new_reference_view": {
+    "references": {
+      "HEAD": "5da905546619ed989e6f95159979c66ead2d4460",
+      "refs/heads/master": "5da905546619ed989e6f95159979c66ead2d4460"
+    },
+    "capabilities": [
+      "multi_ack",
+      "thin-pack",
+      "side-band",
+      "side-band-64k",
+      "ofs-delta",
+      "shallow",
+      "deepen-since",
+      "deepen-not",
+      "deepen-relative",
+      "no-progress",
+      "include-tag",
+      "multi_ack_detailed",
+      "no-done",
+      "symref=HEAD:refs/heads/master",
+      "object-format=sha1",
+      "agent=git/2.39.5"
+    ],
+    "packet_count": 5
+  },
+  "capabilities_unchanged": true,
+  "oid_substitution_explains_entire_body_difference": true,
+  "current_orgmode_bodies_equal": true,
+  "all_error_bodies_match_previous": true,
+  "collection_span_seconds": 2.600268,
+  "same_path_unobserved_gap_seconds": 11675.464852,
+  "changed_question_lines": [
+    740,
+    744,
+    766
+  ],
+  "answered": 0,
+  "open_questions": 16,
+  "rooms": 697,
+  "map_entries": 697,
+  "garden_unchanged": true,
+  "unrelated_tracked_files_unchanged": true,
+  "changed_tracked_files": [
+    "gate.md",
+    "questions.md",
+    "rooms/measuring-the-window.md",
+    "rooms/what-the-gaps-can-say.md",
+    "words/reference-advertisement.md"
+  ],
+  "chronicle_lines_added": 0,
+  "chronicle_line": ""
+}

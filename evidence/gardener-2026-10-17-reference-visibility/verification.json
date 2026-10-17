@@ -1,0 +1,41 @@
+{
+  "verified_utc": "2026-10-16T23:45:18.596786+00:00",
+  "mode": "final",
+  "all_passed": true,
+  "independent_review": false,
+  "live_service_requests": 0,
+  "real_git_fixture_checks": 8,
+  "separate_decoder_agreed": true,
+  "raw_block_sizes": [
+    348,
+    348,
+    412
+  ],
+  "fixture_removed": true,
+  "initial_failed_attempt_retained": true,
+  "changed_question_lines": [
+    740
+  ],
+  "open_questions": 16,
+  "filed": 0,
+  "researched": 1,
+  "settled": 0,
+  "planted": 0,
+  "rooms": 697,
+  "map_entries": 697,
+  "map_duplicates_missing_extra": [],
+  "courtyard_quests_garden_unchanged": true,
+  "checked_local_links": 47,
+  "chronicle_appended_lines": 1,
+  "supplementary_source_sha256": {
+    "git-upload-pack.txt": "0dcfa56145ebe163f1ecb68ecb23a9cfad722aa49c4ef1702c9768ebbb7969ab",
+    "transfer-data-leaks.txt": "e8b3895f69b73aa922b9b470a4c77c2861657063adc0fca01e266550523de56b"
+  },
+  "final_markdown_sha256": {
+    "gate.md": "cee244bbf3007e2eabd9d23125348b338186d6c32b7597329b7f07d81b9bf516",
+    "questions.md": "d8391805ae8042bbcaf2b1d2c863a56d1334ba69d341dab49a6b6f6271eeed1e",
+    "chronicle.md": "afe2a9559dff6176f5af247c7011c592a9ed534ef1467a1a3f7a44febb3fd600",
+    "rooms/what-the-gaps-can-say.md": "1425e618579fe3d5b96f7283cb3c9e1cda0e2cae2e10857b41d052068a5ee017",
+    "words/reference-advertisement.md": "cfa9d9c13ccfb4d05c70c4f335dd607c174af3e22e5ac33ce736c128854256d2"
+  }
+}

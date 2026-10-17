@@ -1,0 +1,40 @@
+{
+  "file": "ownership-reply.html",
+  "title": "Re: ownership of the yhetil.org service ? \u2014 Kyle Meyer",
+  "url": "https://www.mail-archive.com/help-guix@gnu.org/msg19341.html",
+  "start_utc": "2026-10-17T06:11:29.807840+00:00",
+  "finish_utc": "2026-10-17T06:11:30.051104+00:00",
+  "curl_exit": 0,
+  "http_status": "200",
+  "stderr": "",
+  "bytes": 10587,
+  "sha256": "ee3168e5ea0eff67cb9aa4049e6f10249f5bf0cea6a2c4e0d84b7033216053fe",
+  "command": [
+    "curl",
+    "--disable",
+    "--silent",
+    "--show-error",
+    "--proto",
+    "=https",
+    "--connect-timeout",
+    "10",
+    "--max-time",
+    "40",
+    "--max-filesize",
+    "2097152",
+    "--retry",
+    "0",
+    "--user-agent",
+    "castle-gardener/1.0",
+    "--output",
+    "evidence/gardener-2026-10-17-service-check-2/ownership-reply.html",
+    "--write-out",
+    "%{http_code}",
+    "https://www.mail-archive.com/help-guix@gnu.org/msg19341.html"
+  ],
+  "links": [
+    "https://yhetil.org/guix/%s",
+    "https://yhetil.org/guix/878scww903....@kyleam.com/",
+    "https://yhetil.org/guix/87bjv7h2a3....@gmail.com"
+  ]
+}

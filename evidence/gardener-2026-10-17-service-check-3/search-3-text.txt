@@ -1,0 +1,123 @@
+"yhetil.org" downtime - Brave Search
+Ask
+All
+Images
+News
+Videos
+Maps
+Goggles
+Query contains
+search operators
+Ignore operators
+Yhetil
+yhetil.org
+unofficially hosted mirrors at yhetil.org
+unofficially hosted mirrors at yhetil.org These archives are created with public-inbox (<https://public-inbox.org/README>).
+GNU
+lists.gnu.org
+› archive  › html  › help-guix  › 2025-02  › msg00153.html
+Re: ownership of the yhetil.org service ?
+One of the benefits of public-inbox is that it makes it easy for people to mirror [*]. I would be glad to see other people publish mirrors, but at the very least people could privately keep a fairly up-to-date clone of the underlying repos so that they could get something up again if yhetil.org disappears.
+GitHub
+github.com
+› uBlockOrigin  › uAssets  › issues  › 21322
+yhetil.org: breakage · Issue #21322 · uBlockOrigin/uAssets
+10 December 2023 -
+Every time I open any page of yhetil.org, all the content is deleted.
+Author:
+uBlockOrigin
+Yhetil
+yhetil.org
+› emacs
+all messages for Emacs-related lists mirrored at yhetil.org
+2022-02-25 20:51 UTC (6+ messages) bug#32452: 26.1; gnutls_try_handshake maxes out cpu retrying when server is a bit busy 2022-02-25 20:41 UTC (23+ messages) bug#53749: 29.0.50; [PATCH] Xref backend for TeX buffers 2022-02-25 20:16 UTC (11+ messages) bug#54159: 29.0.50; `toggle-input-method' needs more user feedback 2022-02-25 19:00 UTC (3+ messages) bug#54136: 29.0.50; Eshell emits extra prompts when killing processes in some cases 2022-02-25 18:31 UTC (11+ messages) Communication problems and possible problems with the website 2022-02-25 17:39 UTC (15+ messages) ` Links to javascript-based w
+GNU
+lists.gnu.org
+› archive  › html  › emacs-orgmode  › 2020-04  › msg00365.html
+Re: yhetil.org/orgmode now supports searching by Gmane ID
+Kyle Meyer <address@hidden> writes: > In the Git and mailing list history, we've got lots of references like > <http://permalink.gmane.org/gmane.emacs.orgmode/112052>. Those Gmane > http links aren't so useful now, though you can still use that > information to access the message by doing things such as > > $ w3m -m nntp://news.gmane.io/gmane.emacs.orgmode/112052 > > (Offhand I don't know how to do the same in Gnus, despite it being my > primary method for following things over nntp.) I assume you can just use "j" in the summary buffer, and enter the article number. Doing that for message 112052 got me message-id "<address@hidden>", is that correct? yhetil.org/orgmode now supports searching by Gmane ID, Kyle Meyer, 2020/04/23
+Yhetil
+yhetil.org
+› guix
+all messages for Guix-related lists mirrored at yhetil.org
+messages from 2022-09-28 10:27:15 to 2022-09-29 18:06:42 UTC
+[more...] bug#58149: guix pull error 2022-09-29 17:55 UTC (7+ messages) [bug#57540] [PATCH] Add ocaml-elpi (a dependency of coq-mathcomp-analysis) 2022-09-29 17:39 UTC (6+ messages) ` [bug#57540] [RFC PATCH v2 01/19] gnu: Add ocaml-elpi ...
+Mastodon
+mastodon.world
+› @minad  › 117003895258459836
+Daniel Mendler: "Sometimes when I implement a new feature for an #…" - Mastodon
+29 July 2026 -
+Sometimes when I implement a new feature for an #emacs package I discover an upstream bug on the way. Not unusual for lesser trodden code paths and features. This time while working on the Jinx spell checker, a bug about file local variables in the property line: https://yhetil.org/emacs-b...
+Reddit
+reddit.com
+› r/emacs  › etiquette for emacs-related mailing lists
+r/emacs on Reddit: Etiquette for Emacs-related mailing lists
+30 April 2024 -
+I would like to participate more in Emacs-related mailing lists, occasionally without subscribing to them. I have recently sent an email to help-gnu-emacs, which I am not subscribed to, and received replies judging by the mailing list archive but those replies never landed in my inbox. Is the mailing list etiquette not to reply to the person specifically but only to the mailing list? This makes little sense to me since non-subscribing users would miss emails in this case, but I have also checked that I am able to receive emails at the address that I used. Now I would like to reply back, and I am thinking of replying using the mailing list archive. Is there something I should do to ensure that I receive the replies in my inbox? (I am still not subscribed to help-gnu-emacs.)
+Top answer
+1 of 1
+7
+AFAIK the expectation is that users will "reply to all", which will include both the list address and individual participants.  But, being email, there is no way to enforce that, so if a user doesn't know that, or hits the wrong button, you may not get replied to directly.
+You might choose, then, to participate via NNTP with GMANE, or use something like yhetil.org to read and reply to individual messages without subscribing.  That works well enough for me.
+Yhetil
+yhetil.org
+› emacs-devel  › _  › text  › help
+public-inbox help for https://yhetil.org/emacs-devel/
+The upstream Xapian query parser documentation fully explains the query syntax: https://xapian.org/docs/queryparser.html message threading ----------------- Message threading is enabled for this public-inbox, additional endpoints for message threads are available: * https://yhetil.org/emacs-devel/<Message-ID>/T/#u Loads the thread belonging to the given <Message-ID> in flat chronological order.
+Orgmode
+list.orgmode.org
+› orgmode  › 87h7xare6d.fsf@kyleam.com
+Re: yhetil.org/orgmode now supports searching by Gmane ID - Kyle Meyer
+If you happen to know off the top of your head: Is there an easy way for me to jump to that article if I'm not subscribed to the gmane.emacs.orgmode group but have the nntp:news.gmane.io server set up (for other lists)? next prev parent reply other threads:[~2020-04-23 4:58 UTC|newest] Thread overview: 7+ messages / expand[flat|nested] mbox.gz Atom feed top 2020-04-23 4:43 yhetil.org/orgmode now supports searching by Gmane ID Kyle Meyer 2020-04-23 4:46 ` Eric Abrahamsen 2020-04-23 4:58 ` Kyle Meyer [this message] 2020-04-23 5:34 ` Eric Abrahamsen 2020-05-21 7:24 ` Bastien 2020-05-23 0:01 ` Kyle Meyer 2020-05-24 12:05 ` Bastien
+Find elsewhere
+Google
+Bing
+Mojeek
+The Mail Archive
+mail-archive.com
+› help-guix@gnu.org  › msg19268.html
+ownership of the yhetil.org service ?
+Hi Guix, As mentioned previously, one of the online guix service I use the most is yhetil [1]. However, the question arises about its ownership and maintenance.
+Yhetil
+yhetil.org
+› orgmode  › _  › text  › help
+public-inbox help for https://yhetil.org/orgmode/
+The upstream Xapian query parser documentation fully explains the query syntax: https://xapian.org/docs/queryparser.html message threading ----------------- Message threading is enabled for this public-inbox, additional endpoints for message threads are available: * https://yhetil.org/orgmode/<Message-ID>/T/#u Loads the thread belonging to the given <Message-ID> in flat chronological order.
+Sourcehut
+git.sr.ht
+› ~yantar92  › emacs-gc-stats
+~yantar92/emacs-gc-stats - Collect Emacs GC statistics - sourcehut git
+README.org: Add link to the EmacsConf2023 talk · 703516c6 — Ihor Radchenko 3 years ago · Bump version to 1.4.1 · main · browse log · 1.4.2 · release notes · read-only · https://git.sr.ht/~yantar92/emacs-gc-stats · read/write · git@git.sr.ht:~yantar92/emacs-gc-stats · This package collects Emacs garbage collection (GC) statistics over time and saves it in the format that can be shared with Emacs maintainers. Context: https://yhetil.org/emacs-devel/20230310110747.4hytasakomvdyf7i@Ergus/ https://yhetil.org/emacs-devel/87v8j6t3i9.fsf@localhost/ See the source code for information how to contact the author.
+GNU
+lists.gnu.org
+› archive  › html  › emacs-devel  › 2022-03  › msg00191.html
+Re: How to search on emacs-devel?
+8 March 2022 -
+It says that using a space in a ... http://www.namazu.org/doc/manual.html#query). However, when testing it, I > have found that that is > not the case (also the and operator does not work). > > Wouldn't it be a good idea to add some info about how to use the search > functionality? I sometimes use https://yhetil.org/emacs-devel/, ...
+GNU
+lists.gnu.org
+› archive  › html  › emacs-orgmode  › 2024-06  › msg00393.html
+[SUMMARY] #8 [[bbb:OrgMeetup]] on Wed, June 12, 19:00 UTC+3
+22 June 2024 -
+All that is needed is a way to ...gmode.org/orgmode/87edbhljr7.FSF@hyperspace/ - Ideally, the preview might be made almost completely independent from what major mode is currently in use - This might be done using ~thingatpt~ Emacs library (built-in) - A recall Yuan Fu talking about integrating thingatpt with tree-sitter https://yhetil.org/emacs...
+Next
+Resources
+Brave Search Premium
+Brave Search help
+Transparency report
+Report a security issue
+Status
+Products
+Brave Browser
+Brave Search
+Brave Wallet
+Brave Talk
+Brave Firewall + VPN
+Brave Playlist
+Brave News
+Brave Rewards
+Brave Search API
+Brave Ads
+Policies
+Privacy Policy
+Terms of Use

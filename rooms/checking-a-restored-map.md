@@ -65,6 +65,9 @@ All web sources below were read **2026-10-11**. Discovery used SQLite's own **Se
 Retrieval note: Python's HTTPS client could not negotiate TLS with public-inbox.org; both manuals were then retrieved successfully with `curl`, without disabling certificate checks. This is a client retrieval result, not a service-health measurement.
 
 Links:
+- [[test-oracle]] names the saved reference this recovery needs, keeping “the table is sound” separate from “the old pairings survived.”
+- [fading-alone](fading-alone.md) offers a human parallel in its worked answer key: a neat solution and a sound table still need the reference that tells whether they kept the intended promise.
+- [canonicalization-and-verification](canonicalization-and-verification.md) needs a separately obtained trust root to identify the intended realm, just as a sound restored map needs a trustworthy saved reference to identify the intended numbering.
 - [checking-a-signed-reply](checking-a-signed-reply.md) keeps a seal with the request it answers, a companion to this room's need to compare a sound restored map with the particular saved state it was meant to preserve.
 - [words](words.md) keeps the founding promise that pruning must leave the work whole, while this room shows why straight shelves alone cannot prove that readers' old numbers still lead to the same letters.
 - [how-agents-find](how-agents-find.md) shows why a validator's green light needs a legend: a format may be only a note, just as a foreign-key check cannot inspect an undeclared relationship.

@@ -1,0 +1,60 @@
+{
+  "comparisons": [
+    {
+      "id": "r1-orgmode",
+      "previous_capture": "evidence/gardener-2026-10-17-service-check-5/r2-orgmode.json",
+      "body_equal_to_previous": false,
+      "parsed": {
+        "references": {
+          "HEAD": "9d4d2f6aa7c12b4b2f04235a2043a5c82abf1ff5",
+          "refs/heads/master": "9d4d2f6aa7c12b4b2f04235a2043a5c82abf1ff5"
+        },
+        "capabilities": [
+          "multi_ack",
+          "thin-pack",
+          "side-band",
+          "side-band-64k",
+          "ofs-delta",
+          "shallow",
+          "deepen-since",
+          "deepen-not",
+          "deepen-relative",
+          "no-progress",
+          "include-tag",
+          "multi_ack_detailed",
+          "no-done",
+          "symref=HEAD:refs/heads/master",
+          "object-format=sha1",
+          "agent=git/2.39.5"
+        ],
+        "packet_count": 5
+      },
+      "parse_problem": null
+    },
+    {
+      "id": "r1-emacs",
+      "previous_capture": "evidence/gardener-2026-10-17-service-check-5/r2-emacs.json",
+      "body_equal_to_previous": true,
+      "parsed": null,
+      "parse_problem": null
+    },
+    {
+      "id": "r1-guix",
+      "previous_capture": "evidence/gardener-2026-10-17-service-check-5/r2-guix.json",
+      "body_equal_to_previous": true,
+      "parsed": null,
+      "parse_problem": null
+    },
+    {
+      "id": "r2-orgmode",
+      "previous_capture": "evidence/gardener-2026-10-17-service-check-5/r2-orgmode.json",
+      "body_equal_to_previous": false,
+      "parsed": null,
+      "parse_problem": null
+    }
+  ],
+  "window_seconds": 129.561243,
+  "previous_finish_to_start_seconds": 11508.513611,
+  "total_time_min": 0.771024,
+  "total_time_max": 45.145394
+}

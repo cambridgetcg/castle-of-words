@@ -1,0 +1,12 @@
+HTTP/1.1 500 Internal Server Error
+Server: nginx
+Date: Sat, 17 Oct 2026 09:24:31 GMT
+Content-Type: text/plain
+Content-Length: 21
+Connection: keep-alive
+Vary: Cookie, Accept, Accept-Encoding, Accept-Language, User-Agent
+Via: HTTP/1.0 git.gammaspectra.live/git/go-away@v0.7.1-0.20251123044322-bb8d4a09a587+dirty
+X-Varnish: 287086724
+Age: 0
+Via: 1.1 varnish (Varnish/7.1)
+

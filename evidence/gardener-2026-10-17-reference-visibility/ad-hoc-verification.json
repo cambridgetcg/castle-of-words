@@ -1,0 +1,210 @@
+{
+  "kind": "ad-hoc verification, not a canonical project suite or independent review",
+  "started_utc": "2026-10-16T23:48:28.733918+00:00",
+  "finished_utc": "2026-10-16T23:48:28.868135+00:00",
+  "tests_run": 10,
+  "failures": 0,
+  "errors": 0,
+  "tests": [
+    "test_01_compile_changed_scripts",
+    "test_02_decoder_saved_and_malformed_blocks",
+    "test_03_fresh_real_git_fixture",
+    "test_04_refuse_visibility_overwrite",
+    "test_05_failure_cleanup",
+    "test_06_preserve_preexisting_fixture",
+    "test_07_research_mocked_transport_outcomes",
+    "test_08_refuse_research_overwrite",
+    "test_09_replay_actual_offline_verifier",
+    "test_10_reject_simulated_capture_corruption"
+  ],
+  "all_passed": true,
+  "tested_script_sha256": {
+    "research.py": "cb3e847fbc7c14a252a6f2e2be9c3fd0c62a09ceaadf73bdd7fd4c3c94057c07",
+    "check_visibility.py": "466eeff2cc8702500aca729bc22b0b266c25ebde10a29fc31121e081c7e0f302",
+    "verify.py": "ce20efb8048af59f215714b5f5f88828f4c6226fd00e86e7ab7d42725e7577d6"
+  },
+  "temporary_script_path": "/private/var/folders/bg/v8wn0t11067f0hzxkz7hp7rr0000gn/T/hermes-verify-u8459_9n.py",
+  "temporary_script_sha256": "b9ace3bbbc9fb1332dbfe660740624e0552828278dac4536bb3cc1521e8322d2",
+  "protected_files_unchanged": true,
+  "tested_code_unchanged": true,
+  "temporary_fixtures_removed": true,
+  "network_requests": 0,
+  "observations": {
+    "fresh_real_git_result": {
+      "kind": "constructed local fixture; real Git, not host data",
+      "started_utc": "2026-10-16T23:48:28.736714+00:00",
+      "network_requests": 0,
+      "checks": {
+        "stored_refs_changed_with_hidden_update": true,
+        "hidden_advertisements_byte_identical": true,
+        "hidden_reference_maps_equal": true,
+        "only_main_and_head_advertised_while_hidden": true,
+        "no_stored_reference_change_when_visibility_changes": true,
+        "visibility_change_changes_advertisement": true,
+        "exposed_reference_has_new_private_tip": true,
+        "public_tip_unchanged_in_all_captures": true
+      },
+      "explicit_environment": {
+        "PATH": "/usr/bin:/bin:/usr/sbin:/sbin",
+        "LC_ALL": "C",
+        "TZ": "UTC",
+        "HOME": "/Users/yu/castle/evidence/gardener-2026-10-17-reference-visibility/hermes-verify-fixtures-rkyszdfa/local-fixture/home",
+        "XDG_CONFIG_HOME": "/Users/yu/castle/evidence/gardener-2026-10-17-reference-visibility/hermes-verify-fixtures-rkyszdfa/local-fixture/xdg",
+        "TMPDIR": "/Users/yu/castle/evidence/gardener-2026-10-17-reference-visibility/hermes-verify-fixtures-rkyszdfa/local-fixture/tmp",
+        "GIT_CONFIG_NOSYSTEM": "1",
+        "GIT_CONFIG_GLOBAL": "/Users/yu/castle/evidence/gardener-2026-10-17-reference-visibility/hermes-verify-fixtures-rkyszdfa/local-fixture/empty-config",
+        "GIT_CONFIG_SYSTEM": "/Users/yu/castle/evidence/gardener-2026-10-17-reference-visibility/hermes-verify-fixtures-rkyszdfa/local-fixture/empty-config",
+        "GIT_TERMINAL_PROMPT": "0",
+        "GIT_PROTOCOL": "version=0",
+        "GIT_AUTHOR_NAME": "Constructed fixture",
+        "GIT_AUTHOR_EMAIL": "fixture@example.invalid",
+        "GIT_COMMITTER_NAME": "Constructed fixture",
+        "GIT_COMMITTER_EMAIL": "fixture@example.invalid",
+        "GIT_AUTHOR_DATE": "2026-10-17T00:00:00+0000",
+        "GIT_COMMITTER_DATE": "2026-10-17T00:00:00+0000"
+      },
+      "git_version": "git version 2.39.5 (Apple Git-154)",
+      "captures": {
+        "hidden_before": {
+          "body_sha256": "7fab69821e5b0b0560671e6f4cff94a27b146dadc06bb6e70ca31d08d6415b4d",
+          "body_bytes": 348,
+          "advertised": {
+            "refs": {
+              "HEAD": "1448486ae712640f15baac1a704265b4d020c294",
+              "refs/heads/main": "1448486ae712640f15baac1a704265b4d020c294"
+            },
+            "capabilities": [
+              "multi_ack",
+              "thin-pack",
+              "side-band",
+              "side-band-64k",
+              "ofs-delta",
+              "shallow",
+              "deepen-since",
+              "deepen-not",
+              "deepen-relative",
+              "no-progress",
+              "include-tag",
+              "multi_ack_detailed",
+              "no-done",
+              "symref=HEAD:refs/heads/main",
+              "object-format=sha1",
+              "agent=git/2.39.5.(Apple.Git-154)"
+            ],
+            "packet_count": 3
+          },
+          "stored_refs": "1448486ae712640f15baac1a704265b4d020c294 refs/heads/main\n8f96e115a2c4f1b9e3287bd31b68043f6d4edb78 refs/heads/private\n"
+        },
+        "hidden_after": {
+          "body_sha256": "7fab69821e5b0b0560671e6f4cff94a27b146dadc06bb6e70ca31d08d6415b4d",
+          "body_bytes": 348,
+          "advertised": {
+            "refs": {
+              "HEAD": "1448486ae712640f15baac1a704265b4d020c294",
+              "refs/heads/main": "1448486ae712640f15baac1a704265b4d020c294"
+            },
+            "capabilities": [
+              "multi_ack",
+              "thin-pack",
+              "side-band",
+              "side-band-64k",
+              "ofs-delta",
+              "shallow",
+              "deepen-since",
+              "deepen-not",
+              "deepen-relative",
+              "no-progress",
+              "include-tag",
+              "multi_ack_detailed",
+              "no-done",
+              "symref=HEAD:refs/heads/main",
+              "object-format=sha1",
+              "agent=git/2.39.5.(Apple.Git-154)"
+            ],
+            "packet_count": 3
+          },
+          "stored_refs": "1448486ae712640f15baac1a704265b4d020c294 refs/heads/main\n51eee9ec6ec4e27b777325ca74c4d45482a9ef16 refs/heads/private\n"
+        },
+        "exposed_after": {
+          "body_sha256": "d881a973df5a818b29047c49d1bd28e03c66c2a9b237c3afd894f888eaa67b9c",
+          "body_bytes": 412,
+          "advertised": {
+            "refs": {
+              "HEAD": "1448486ae712640f15baac1a704265b4d020c294",
+              "refs/heads/main": "1448486ae712640f15baac1a704265b4d020c294",
+              "refs/heads/private": "51eee9ec6ec4e27b777325ca74c4d45482a9ef16"
+            },
+            "capabilities": [
+              "multi_ack",
+              "thin-pack",
+              "side-band",
+              "side-band-64k",
+              "ofs-delta",
+              "shallow",
+              "deepen-since",
+              "deepen-not",
+              "deepen-relative",
+              "no-progress",
+              "include-tag",
+              "multi_ack_detailed",
+              "no-done",
+              "symref=HEAD:refs/heads/main",
+              "object-format=sha1",
+              "agent=git/2.39.5.(Apple.Git-154)"
+            ],
+            "packet_count": 4
+          },
+          "stored_refs": "1448486ae712640f15baac1a704265b4d020c294 refs/heads/main\n51eee9ec6ec4e27b777325ca74c4d45482a9ef16 refs/heads/private\n"
+        }
+      },
+      "all_passed": true,
+      "fixture_removed": true,
+      "finished_utc": "2026-10-16T23:48:28.835677+00:00",
+      "script_sha256": "466eeff2cc8702500aca729bc22b0b266c25ebde10a29fc31121e081c7e0f302"
+    },
+    "mocked_transport": "Six simulated outcomes; 200, 403, timeout recorded distinctly. No web requests.",
+    "actual_verifier_replay": {
+      "verified_utc": "2026-10-16T23:48:28.862593+00:00",
+      "mode": "final",
+      "all_passed": true,
+      "independent_review": false,
+      "live_service_requests": 0,
+      "real_git_fixture_checks": 8,
+      "separate_decoder_agreed": true,
+      "raw_block_sizes": [
+        348,
+        348,
+        412
+      ],
+      "fixture_removed": true,
+      "initial_failed_attempt_retained": true,
+      "changed_question_lines": [
+        740
+      ],
+      "open_questions": 16,
+      "filed": 0,
+      "researched": 1,
+      "settled": 0,
+      "planted": 0,
+      "rooms": 697,
+      "map_entries": 697,
+      "map_duplicates_missing_extra": [],
+      "courtyard_quests_garden_unchanged": true,
+      "checked_local_links": 47,
+      "chronicle_appended_lines": 1,
+      "supplementary_source_sha256": {
+        "git-upload-pack.txt": "0dcfa56145ebe163f1ecb68ecb23a9cfad722aa49c4ef1702c9768ebbb7969ab",
+        "transfer-data-leaks.txt": "e8b3895f69b73aa922b9b470a4c77c2861657063adc0fca01e266550523de56b"
+      },
+      "final_markdown_sha256": {
+        "gate.md": "cee244bbf3007e2eabd9d23125348b338186d6c32b7597329b7f07d81b9bf516",
+        "questions.md": "d8391805ae8042bbcaf2b1d2c863a56d1334ba69d341dab49a6b6f6271eeed1e",
+        "chronicle.md": "afe2a9559dff6176f5af247c7011c592a9ed534ef1467a1a3f7a44febb3fd600",
+        "rooms/what-the-gaps-can-say.md": "1425e618579fe3d5b96f7283cb3c9e1cda0e2cae2e10857b41d052068a5ee017",
+        "words/reference-advertisement.md": "cfa9d9c13ccfb4d05c70c4f335dd607c174af3e22e5ac33ce736c128854256d2"
+      }
+    }
+  },
+  "failure_details": [],
+  "temporary_script_removed": true
+}

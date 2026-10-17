@@ -1,0 +1,147 @@
+{
+  "old_id": "5da905546619ed989e6f95159979c66ead2d4460",
+  "new_id": "34098a39c71edf4bee2f0c265d80e40f59908831",
+  "same_reference_names": true,
+  "same_capabilities": true,
+  "id_substitution_explains_all_body_changes": true,
+  "current_orgmode_bodies_equal": true,
+  "new_body_sha256": "74262e08ea5699d6295e4c0f7035f43090dca988a003f193c0b39a1a1744cab4",
+  "old_body_sha256": "6af34114ed67fd8569c2905818d3b6dbd0bb483572bf3e8b03e0e941aac66937",
+  "same_path_gap_seconds": 11816.968365,
+  "header_checks": [
+    {
+      "id": "r1-orgmode",
+      "header_sha256": "83ec64dd3302f02934f80fe1ee0c74896145a8817a0a3de7ba5689b774c9b310",
+      "client_proxy_used": "0",
+      "via": [
+        {
+          "raw": "HTTP/1.0 git.gammaspectra.live/git/go-away@v0.7.1-0.20251123044322-bb8d4a09a587+dirty",
+          "received_by_candidate": "git.gammaspectra.live/git/go-away@v0.7.1-0.20251123044322-bb8d4a09a587+dirty",
+          "matches_rfc9110_token": false,
+          "forbidden_characters": [
+            "/",
+            "@"
+          ]
+        },
+        {
+          "raw": "1.1 varnish (Varnish/7.1)",
+          "received_by_candidate": "varnish",
+          "matches_rfc9110_token": true,
+          "forbidden_characters": []
+        }
+      ]
+    },
+    {
+      "id": "r1-emacs",
+      "header_sha256": "1806d6e17387e81376902ddbf6835ede5fa24cf2c834f48ffc808b09744624cd",
+      "client_proxy_used": "0",
+      "via": [
+        {
+          "raw": "HTTP/1.0 git.gammaspectra.live/git/go-away@v0.7.1-0.20251123044322-bb8d4a09a587+dirty",
+          "received_by_candidate": "git.gammaspectra.live/git/go-away@v0.7.1-0.20251123044322-bb8d4a09a587+dirty",
+          "matches_rfc9110_token": false,
+          "forbidden_characters": [
+            "/",
+            "@"
+          ]
+        },
+        {
+          "raw": "1.1 varnish (Varnish/7.1)",
+          "received_by_candidate": "varnish",
+          "matches_rfc9110_token": true,
+          "forbidden_characters": []
+        }
+      ]
+    },
+    {
+      "id": "r1-guix",
+      "header_sha256": "a98bff5101f9e6636459b232ab7f2ca3cf8a669c991eb80510862e68210e79b1",
+      "client_proxy_used": "0",
+      "via": [
+        {
+          "raw": "HTTP/1.0 git.gammaspectra.live/git/go-away@v0.7.1-0.20251123044322-bb8d4a09a587+dirty",
+          "received_by_candidate": "git.gammaspectra.live/git/go-away@v0.7.1-0.20251123044322-bb8d4a09a587+dirty",
+          "matches_rfc9110_token": false,
+          "forbidden_characters": [
+            "/",
+            "@"
+          ]
+        },
+        {
+          "raw": "1.1 varnish (Varnish/7.1)",
+          "received_by_candidate": "varnish",
+          "matches_rfc9110_token": true,
+          "forbidden_characters": []
+        }
+      ]
+    },
+    {
+      "id": "r2-orgmode",
+      "header_sha256": "77946e33e8b03e1bb3b044f27cfa515529479a0dfb20c86c8198b1d040d7f5c0",
+      "client_proxy_used": "0",
+      "via": [
+        {
+          "raw": "HTTP/1.0 git.gammaspectra.live/git/go-away@v0.7.1-0.20251123044322-bb8d4a09a587+dirty",
+          "received_by_candidate": "git.gammaspectra.live/git/go-away@v0.7.1-0.20251123044322-bb8d4a09a587+dirty",
+          "matches_rfc9110_token": false,
+          "forbidden_characters": [
+            "/",
+            "@"
+          ]
+        },
+        {
+          "raw": "1.1 varnish (Varnish/7.1)",
+          "received_by_candidate": "varnish",
+          "matches_rfc9110_token": true,
+          "forbidden_characters": []
+        }
+      ]
+    },
+    {
+      "id": "r2-emacs",
+      "header_sha256": "8d78c8a41746f76640dfe6b416e320d6fa34479f40f0b88796767ffb2ef998e3",
+      "client_proxy_used": "0",
+      "via": [
+        {
+          "raw": "HTTP/1.0 git.gammaspectra.live/git/go-away@v0.7.1-0.20251123044322-bb8d4a09a587+dirty",
+          "received_by_candidate": "git.gammaspectra.live/git/go-away@v0.7.1-0.20251123044322-bb8d4a09a587+dirty",
+          "matches_rfc9110_token": false,
+          "forbidden_characters": [
+            "/",
+            "@"
+          ]
+        },
+        {
+          "raw": "1.1 varnish (Varnish/7.1)",
+          "received_by_candidate": "varnish",
+          "matches_rfc9110_token": true,
+          "forbidden_characters": []
+        }
+      ]
+    },
+    {
+      "id": "r2-guix",
+      "header_sha256": "a6523c90576930c875fde1b240fb9b931c9b18b04fc631785544524b679a11ba",
+      "client_proxy_used": "0",
+      "via": [
+        {
+          "raw": "HTTP/1.0 git.gammaspectra.live/git/go-away@v0.7.1-0.20251123044322-bb8d4a09a587+dirty",
+          "received_by_candidate": "git.gammaspectra.live/git/go-away@v0.7.1-0.20251123044322-bb8d4a09a587+dirty",
+          "matches_rfc9110_token": false,
+          "forbidden_characters": [
+            "/",
+            "@"
+          ]
+        },
+        {
+          "raw": "1.1 varnish (Varnish/7.1)",
+          "received_by_candidate": "varnish",
+          "matches_rfc9110_token": true,
+          "forbidden_characters": []
+        }
+      ]
+    }
+  ],
+  "synthetic_token_cases_passed": 6,
+  "scope": "Received-by token test for these no-port, single-member fields, not a general Via or HTTP validator."
+}

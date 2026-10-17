@@ -1,0 +1,20 @@
+HTTP/1.1 200 OK
+Server: nginx
+Date: Sat, 17 Oct 2026 06:09:53 GMT
+Content-Type: application/x-git-upload-pack-advertisement
+Content-Length: 370
+Connection: keep-alive
+Cache-Control: no-cache, max-age=0, must-revalidate
+Expires: Fri, 01 Jan 1980 00:00:00 GMT
+Pragma: no-cache
+Vary: Cookie, Accept, Accept-Encoding, Accept-Language, User-Agent
+Via: HTTP/1.0 git.gammaspectra.live/git/go-away@v0.7.1-0.20251123044322-bb8d4a09a587+dirty
+X-Content-Type-Options: nosniff
+X-Frame-Options: DENY
+X-Varnish: 335612450
+Age: 0
+Via: 1.1 varnish (Varnish/7.1)
+Accept-Ranges: bytes
+X-Content-Type-Options: nosniff
+X-Frame-Options: DENY
+

@@ -1,0 +1,55 @@
+ownership of the yhetil.org service ?
+Skip to site navigation (Press enter)
+ownership of the yhetil.org service ?
+Cayetano Santos
+Wed, 12 Feb 2025 03:17:44 -0800
+Hi Guix,
+
+  As mentioned previously, one of the online guix service I use the most
+  is yhetil [1]. However, the question arises about its ownership and
+  maintenance. Is it the responsibility of someone in the community ?
+Maybe some of you know a bit more about yhetil.org, as there is no
+  information related to its owner in the site. It would be great if we
+  could keep in touch with this person, and find some way to know if
+  this is a service we may rely on or not.
+
+Thanks,
+
+[1] :
+https://yhetil.org/guix-user/
+[email protected]
+/
+--
+Cayetano Santos
+.
+gpg: CCB8 1842 F9D7 058E CD67 377A BF5C DF4D F6BF 6682
+key: meta.sr.ht/~csantosb.pgp
+signature.asc
+Description:
+PGP signature
+Previous message
+View by thread
+View by date
+Next message
+ownership of the yhetil.org service ?
+Cayetano Santos
+Re: ownership of the yhetil.org service ?
+Kyle Meyer
+Re: ownership of the yhetil.org service ?
+Simon Tournier
+Re: ownership of the yhetil.org service ?
+Kyle Meyer
+Reply via email to
+Search the site
+The Mail Archive home
+help-guix - all messages
+help-guix - about the list
+Expand
+Previous message
+Next message
+The Mail Archive home
+Add your mailing list
+FAQ
+Support
+Privacy
+[email protected]

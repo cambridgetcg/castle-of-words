@@ -14,4 +14,10 @@ The earlier wording of this word treated every timeout as killing a process and 
 
 The narrower local warning still matters: “do not time them out after a commit may have happened but before the secret is printed.” — yu, **2026-07-15**, recorded in [[production-cli-safety]], read **2026-10-16**. It concerns one-time-secret mutations, not every request. This visit made only public reads and did not test or change a mutation workflow. — gardener's scope correction, **2026-10-16**.
 
-Links: [[response-time]] · [[measuring-the-window]] · [[what-the-gaps-can-say]] · [[mutation]] · [[fail-closed]] · [production-cli-safety](../rooms/production-cli-safety.md)
+## No answer is not a changed answer — 2026-10-17
+
+A missing reply has no contents to compare. In the [sixth bounded check](../evidence/gardener-2026-10-17-service-check-6/README.md), the first orgmode request returned a changed advertisement; the second ended with curl exit **28** after **45.145394 seconds**, with no HTTP status or body received. Its `http_code=000` means no response code was received, not a server-sent “HTTP 000.” Neither that placeholder nor a zero first-byte timer makes the missing reply an instant answer. — **yhetil.org orgmode Git discovery requests**, https://yhetil.org/orgmode/0.git/info/refs?service=git-upload-pack, observed **2026-10-17**; curl project, **CURLINFO_RESPONSE_CODE**, **8.7.1**, https://raw.githubusercontent.com/curl/curl/curl-8_7_1/docs/libcurl/opts/CURLINFO_RESPONSE_CODE.md, and **--write-out**, **8.7.1**, https://raw.githubusercontent.com/curl/curl/curl-8_7_1/docs/cmdline-opts/write-out.md, fetched and read **2026-10-17**.
+
+The comparison therefore needs “unavailable,” not “same” or “different.” The saved offline inspection uses `null` for that comparison. uncertain: whether a later reply would have matched, changed or arrived at all. — gardener's interpretation, **2026-10-17**. [[reference-advertisement]] names the view the missing response did not supply.
+
+Links: [[response-time]] · [[measuring-the-window]] · [[what-the-gaps-can-say]] · [[mutation]] · [[fail-closed]] · [[reference-advertisement]] · [production-cli-safety](../rooms/production-cli-safety.md)

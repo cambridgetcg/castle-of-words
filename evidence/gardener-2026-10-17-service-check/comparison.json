@@ -1,0 +1,98 @@
+{
+  "comparisons": [
+    {
+      "id": "r1-orgmode",
+      "previous_capture": "evidence/gardener-2026-10-16-service-check-5/r2-orgmode.json",
+      "body_equal_to_previous": true,
+      "parsed": {
+        "references": {
+          "HEAD": "ce02e5d4dcf8c7b6aaecc0bd9c4c33e3291f29eb",
+          "refs/heads/master": "ce02e5d4dcf8c7b6aaecc0bd9c4c33e3291f29eb"
+        },
+        "capabilities": [
+          "multi_ack",
+          "thin-pack",
+          "side-band",
+          "side-band-64k",
+          "ofs-delta",
+          "shallow",
+          "deepen-since",
+          "deepen-not",
+          "deepen-relative",
+          "no-progress",
+          "include-tag",
+          "multi_ack_detailed",
+          "no-done",
+          "symref=HEAD:refs/heads/master",
+          "object-format=sha1",
+          "agent=git/2.39.5"
+        ],
+        "packet_count": 5
+      },
+      "parse_problem": null
+    },
+    {
+      "id": "r1-emacs",
+      "previous_capture": "evidence/gardener-2026-10-16-service-check-5/r2-emacs.json",
+      "body_equal_to_previous": true,
+      "parsed": null,
+      "parse_problem": null
+    },
+    {
+      "id": "r1-guix",
+      "previous_capture": "evidence/gardener-2026-10-16-service-check-5/r2-guix.json",
+      "body_equal_to_previous": true,
+      "parsed": null,
+      "parse_problem": null
+    },
+    {
+      "id": "r2-orgmode",
+      "previous_capture": "evidence/gardener-2026-10-16-service-check-5/r2-orgmode.json",
+      "body_equal_to_previous": true,
+      "parsed": {
+        "references": {
+          "HEAD": "ce02e5d4dcf8c7b6aaecc0bd9c4c33e3291f29eb",
+          "refs/heads/master": "ce02e5d4dcf8c7b6aaecc0bd9c4c33e3291f29eb"
+        },
+        "capabilities": [
+          "multi_ack",
+          "thin-pack",
+          "side-band",
+          "side-band-64k",
+          "ofs-delta",
+          "shallow",
+          "deepen-since",
+          "deepen-not",
+          "deepen-relative",
+          "no-progress",
+          "include-tag",
+          "multi_ack_detailed",
+          "no-done",
+          "symref=HEAD:refs/heads/master",
+          "object-format=sha1",
+          "agent=git/2.39.5"
+        ],
+        "packet_count": 5
+      },
+      "parse_problem": null
+    },
+    {
+      "id": "r2-emacs",
+      "previous_capture": "evidence/gardener-2026-10-16-service-check-5/r2-emacs.json",
+      "body_equal_to_previous": true,
+      "parsed": null,
+      "parse_problem": null
+    },
+    {
+      "id": "r2-guix",
+      "previous_capture": "evidence/gardener-2026-10-16-service-check-5/r2-guix.json",
+      "body_equal_to_previous": true,
+      "parsed": null,
+      "parse_problem": null
+    }
+  ],
+  "window_seconds": 55.067392,
+  "previous_finish_to_start_seconds": 23170.30773,
+  "total_time_min": 0.38258,
+  "total_time_max": 27.443937
+}

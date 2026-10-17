@@ -1,0 +1,19 @@
+{
+  "kind": "ad-hoc standalone verification; not canonical suite green",
+  "verified_utc": "2026-10-17T16:07:54.074416+00:00",
+  "status": "pass",
+  "tests_run": 7,
+  "failures": 0,
+  "errors": 0,
+  "code_sha256": {
+    "collect.py": "a083adad00a03c689ce22d58d2f931d0e083332ed74cfa4fb11155d00c7cf5c3",
+    "inspect.py": "d3eb576336fedb04e37c02cbd4dac0ac0edec517bdd4c782067af84fce31198d",
+    "research.py": "a8f67cef0a09b2c735c09b61f857e462d6c16c5adc2ce18108278d97f378ba6c",
+    "verify.py": "56fc6bfffa515b7287b7752c7a74faf37472222dce6e08cd52111a2f4cef1036"
+  },
+  "temporary_script_sha256": "09727dcc94adcbf77e05e36048d94cb76c1f4aacfc2b4defbed276a37df64c67",
+  "temporary_script_removed": true,
+  "no_network_or_subprocess_calls": true,
+  "scripts_and_chronicle_unchanged": true,
+  "limits": "Rechecks saved real evidence and repeat-run guards, not live service behavior or independent review."
+}

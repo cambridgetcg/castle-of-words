@@ -1,0 +1,30 @@
+{
+  "verified_utc": "2026-10-17T12:47:36.649218+00:00",
+  "mode": "pre-close",
+  "status": "pass",
+  "service_captures_verified": 6,
+  "retrieval_receipts_verified": 5,
+  "synthetic_token_cases_passed": 6,
+  "room_count": 697,
+  "map_entries": 697,
+  "open_questions": 16,
+  "researched_question_lines": [
+    740,
+    744,
+    766
+  ],
+  "questions_answered": 0,
+  "new_word_files": [
+    "words/via-header.md"
+  ],
+  "changed_preexisting_files": [
+    "gate.md",
+    "questions.md",
+    "rooms/measuring-the-window.md",
+    "rooms/what-the-gaps-can-say.md"
+  ],
+  "garden_unchanged": true,
+  "chronicle_lines_appended": 0,
+  "chronicle_line": "",
+  "independent_review": false
+}

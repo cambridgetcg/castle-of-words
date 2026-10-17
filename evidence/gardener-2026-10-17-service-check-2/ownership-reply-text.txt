@@ -1,0 +1,104 @@
+Re: ownership of the yhetil.org service ?
+Skip to site navigation (Press enter)
+Re: ownership of the yhetil.org service ?
+Kyle Meyer
+Wed, 19 Feb 2025 20:14:29 -0800
+Hello Cayetano,
+
+Cayetano Santos writes:
+> Hi Guix,
+>
+>   As mentioned previously, one of the online guix service I use the most
+>   is yhetil [1].
+
+Glad to hear you find it useful.
+
+>   [...] find some way to know if this is a service we may rely on or not.
+
+Should you expect me to continue to maintain it?  Who knows.  It's been
+around since 2020, and I don't have any plans to shut it down, but it's
+a public service that I volunteer my free time and money to provide.  At
+any point, I may decide I can't or don't want to continue doing so for
+any number of reasons.
+
+I'd suggest it comes down to your assessment of what the risk is of
+relying on it and in particular how stuck you are if it disappears.
+
+One of the benefits of public-inbox is that it makes it easy for people
+to mirror [*].  I would be glad to see other people publish mirrors, but
+at the very least people could privately keep a fairly up-to-date clone
+of the underlying repos so that they could get something up again if
+yhetil.org disappears.
+
+  [*] Here's a post where I demonstrate how to use grokmirror to mirror
+      all Guix-related inboxes from yhetil.org:
+https://yhetil.org/guix/
+[email protected]
+/
+What to expect size-wise (these aren't freshly packed):
+
+       $ du -sh guix-*/git/* gwl/git/*
+       492M     guix-bugs/git/0.git
+       223M     guix-devel/git/0.git
+       481M     guix-patches/git/1.git
+       2.1M     guix-science/git/0.git
+       135M     guix-user/git/0.git
+       1.2M     gwl/git/0.git
+
+
+As a side remark: I think this message stems from bug#76119 proposing to
+mention yhetil.org in the Contributing section of the manual and a reply
+saying (<
+https://yhetil.org/guix/
+[email protected]
+>):
+
+  Without that knowledge, it just feels a little odd for the Guix
+  project to officially trust and recommend the use of this particular
+  online service.
+
+But notice that the Contributing section already mentions public-inbox:
+
+  @samp{b4 am} sub-command, which is able to retrieve the complete
+  submission email thread from a public-inbox instance and add the Git
+  trailers found in replies to the commit patches.} line should be used to
+  sign off as a reviewer, meaning you have reviewed the change and that it
+  looks good to you:
+
+And underneath it's yhetil.org that's being used:
+
+  guix/% git grep yhetil af4778c09c
+  af4778c09c:etc/git/gitconfig:        linkmask =
+https://yhetil.org/guix/%s
+af4778c09c:etc/git/gitconfig:        linktrailermask =
+https://yhetil.org/guix/%s
+af4778c09c:etc/git/gitconfig:        midmask =
+https://yhetil.org/guix/%s
+So, if it doesn't feel odd to do that, I can't see why it'd feel odd to
+mention yhetil.org by name.
+Previous message
+View by thread
+View by date
+Next message
+ownership of the yhetil.org service ?
+Cayetano Santos
+Re: ownership of the yhetil.org service ?
+Kyle Meyer
+Re: ownership of the yhetil.org service ?
+Simon Tournier
+Re: ownership of the yhetil.org service ?
+Kyle Meyer
+Reply via email to
+Search the site
+The Mail Archive home
+help-guix - all messages
+help-guix - about the list
+Expand
+Previous message
+Next message
+The Mail Archive home
+Add your mailing list
+FAQ
+Support
+Privacy
+[email protected]

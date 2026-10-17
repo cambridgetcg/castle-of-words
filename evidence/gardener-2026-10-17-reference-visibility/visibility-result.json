@@ -1,0 +1,132 @@
+{
+  "kind": "constructed local fixture; real Git, not host data",
+  "started_utc": "2026-10-16T23:41:44.563451+00:00",
+  "network_requests": 0,
+  "checks": {
+    "stored_refs_changed_with_hidden_update": true,
+    "hidden_advertisements_byte_identical": true,
+    "hidden_reference_maps_equal": true,
+    "only_main_and_head_advertised_while_hidden": true,
+    "no_stored_reference_change_when_visibility_changes": true,
+    "visibility_change_changes_advertisement": true,
+    "exposed_reference_has_new_private_tip": true,
+    "public_tip_unchanged_in_all_captures": true
+  },
+  "explicit_environment": {
+    "PATH": "/usr/bin:/bin:/usr/sbin:/sbin",
+    "LC_ALL": "C",
+    "TZ": "UTC",
+    "HOME": "/Users/yu/castle/evidence/gardener-2026-10-17-reference-visibility/local-fixture/home",
+    "XDG_CONFIG_HOME": "/Users/yu/castle/evidence/gardener-2026-10-17-reference-visibility/local-fixture/xdg",
+    "TMPDIR": "/Users/yu/castle/evidence/gardener-2026-10-17-reference-visibility/local-fixture/tmp",
+    "GIT_CONFIG_NOSYSTEM": "1",
+    "GIT_CONFIG_GLOBAL": "/Users/yu/castle/evidence/gardener-2026-10-17-reference-visibility/local-fixture/empty-config",
+    "GIT_CONFIG_SYSTEM": "/Users/yu/castle/evidence/gardener-2026-10-17-reference-visibility/local-fixture/empty-config",
+    "GIT_TERMINAL_PROMPT": "0",
+    "GIT_PROTOCOL": "version=0",
+    "GIT_AUTHOR_NAME": "Constructed fixture",
+    "GIT_AUTHOR_EMAIL": "fixture@example.invalid",
+    "GIT_COMMITTER_NAME": "Constructed fixture",
+    "GIT_COMMITTER_EMAIL": "fixture@example.invalid",
+    "GIT_AUTHOR_DATE": "2026-10-17T00:00:00+0000",
+    "GIT_COMMITTER_DATE": "2026-10-17T00:00:00+0000"
+  },
+  "git_version": "git version 2.39.5 (Apple Git-154)",
+  "captures": {
+    "hidden_before": {
+      "body_sha256": "7fab69821e5b0b0560671e6f4cff94a27b146dadc06bb6e70ca31d08d6415b4d",
+      "body_bytes": 348,
+      "advertised": {
+        "refs": {
+          "HEAD": "1448486ae712640f15baac1a704265b4d020c294",
+          "refs/heads/main": "1448486ae712640f15baac1a704265b4d020c294"
+        },
+        "capabilities": [
+          "multi_ack",
+          "thin-pack",
+          "side-band",
+          "side-band-64k",
+          "ofs-delta",
+          "shallow",
+          "deepen-since",
+          "deepen-not",
+          "deepen-relative",
+          "no-progress",
+          "include-tag",
+          "multi_ack_detailed",
+          "no-done",
+          "symref=HEAD:refs/heads/main",
+          "object-format=sha1",
+          "agent=git/2.39.5.(Apple.Git-154)"
+        ],
+        "packet_count": 3
+      },
+      "stored_refs": "1448486ae712640f15baac1a704265b4d020c294 refs/heads/main\n8f96e115a2c4f1b9e3287bd31b68043f6d4edb78 refs/heads/private\n"
+    },
+    "hidden_after": {
+      "body_sha256": "7fab69821e5b0b0560671e6f4cff94a27b146dadc06bb6e70ca31d08d6415b4d",
+      "body_bytes": 348,
+      "advertised": {
+        "refs": {
+          "HEAD": "1448486ae712640f15baac1a704265b4d020c294",
+          "refs/heads/main": "1448486ae712640f15baac1a704265b4d020c294"
+        },
+        "capabilities": [
+          "multi_ack",
+          "thin-pack",
+          "side-band",
+          "side-band-64k",
+          "ofs-delta",
+          "shallow",
+          "deepen-since",
+          "deepen-not",
+          "deepen-relative",
+          "no-progress",
+          "include-tag",
+          "multi_ack_detailed",
+          "no-done",
+          "symref=HEAD:refs/heads/main",
+          "object-format=sha1",
+          "agent=git/2.39.5.(Apple.Git-154)"
+        ],
+        "packet_count": 3
+      },
+      "stored_refs": "1448486ae712640f15baac1a704265b4d020c294 refs/heads/main\n51eee9ec6ec4e27b777325ca74c4d45482a9ef16 refs/heads/private\n"
+    },
+    "exposed_after": {
+      "body_sha256": "d881a973df5a818b29047c49d1bd28e03c66c2a9b237c3afd894f888eaa67b9c",
+      "body_bytes": 412,
+      "advertised": {
+        "refs": {
+          "HEAD": "1448486ae712640f15baac1a704265b4d020c294",
+          "refs/heads/main": "1448486ae712640f15baac1a704265b4d020c294",
+          "refs/heads/private": "51eee9ec6ec4e27b777325ca74c4d45482a9ef16"
+        },
+        "capabilities": [
+          "multi_ack",
+          "thin-pack",
+          "side-band",
+          "side-band-64k",
+          "ofs-delta",
+          "shallow",
+          "deepen-since",
+          "deepen-not",
+          "deepen-relative",
+          "no-progress",
+          "include-tag",
+          "multi_ack_detailed",
+          "no-done",
+          "symref=HEAD:refs/heads/main",
+          "object-format=sha1",
+          "agent=git/2.39.5.(Apple.Git-154)"
+        ],
+        "packet_count": 4
+      },
+      "stored_refs": "1448486ae712640f15baac1a704265b4d020c294 refs/heads/main\n51eee9ec6ec4e27b777325ca74c4d45482a9ef16 refs/heads/private\n"
+    }
+  },
+  "all_passed": true,
+  "fixture_removed": true,
+  "finished_utc": "2026-10-16T23:41:44.659131+00:00",
+  "script_sha256": "466eeff2cc8702500aca729bc22b0b266c25ebde10a29fc31121e081c7e0f302"
+}

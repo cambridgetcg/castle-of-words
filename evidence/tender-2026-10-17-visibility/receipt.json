@@ -1,0 +1,153 @@
+{
+  "opened_local": "2026-10-17T01:54:23.217492+02:00",
+  "scope": "Local link tending only; no network or garden access by this visit.",
+  "before": {
+    "rooms/what-the-gaps-can-say.md": {
+      "sha256": "1425e618579fe3d5b96f7283cb3c9e1cda0e2cae2e10857b41d052068a5ee017",
+      "bytes": 142463
+    },
+    "rooms/connection-proves-access.md": {
+      "sha256": "e44a4c704d39e5cbf7649c74712a8dd6006a5f8a1803feda7c4b1c3deb89364d",
+      "bytes": 5139
+    },
+    "rooms/event-data-honesty.md": {
+      "sha256": "427012de5edb26148d7d0c81fe6d68ec0350c818ed148268841d6f38365799dc",
+      "bytes": 2213
+    },
+    "rooms/measuring-the-window.md": {
+      "sha256": "a1fb3cf819da4ff5ff4fd4692cd590a0e55b6845254f0bd560c91ec573a6cf14",
+      "bytes": 23776
+    },
+    "rooms/liveness-and-readiness.md": {
+      "sha256": "83cd1f0efa9e94fac23047f8eab4b70f8637d0523a5ca651007cb68ead158b28",
+      "bytes": 1802
+    },
+    "rooms/checking-a-signed-reply.md": {
+      "sha256": "168f69b239214c82346b2812d85f021f3d163a4090c19c44ada0e2f44c97a1ae",
+      "bytes": 79267
+    },
+    "rooms/closing-the-loop.md": {
+      "sha256": "6e13ad17a02238135ebc7cbc04d8551ff72eebdc54fa8cb43fe9ea56a412ea0f",
+      "bytes": 5434
+    },
+    "gate.md": {
+      "sha256": "cee244bbf3007e2eabd9d23125348b338186d6c32b7597329b7f07d81b9bf516",
+      "bytes": 410800
+    },
+    "questions.md": {
+      "sha256": "d8391805ae8042bbcaf2b1d2c863a56d1334ba69d341dab49a6b6f6271eeed1e",
+      "bytes": 659688
+    },
+    "chronicle.md": {
+      "sha256": "afe2a9559dff6176f5af247c7011c592a9ed534ef1467a1a3f7a44febb3fd600",
+      "bytes": 808411
+    }
+  },
+  "orphan_pairs": [
+    [
+      "what-the-gaps-can-say",
+      "connection-proves-access"
+    ],
+    [
+      "what-the-gaps-can-say",
+      "event-data-honesty"
+    ],
+    [
+      "measuring-the-window",
+      "liveness-and-readiness"
+    ],
+    [
+      "checking-a-signed-reply",
+      "closing-the-loop"
+    ]
+  ],
+  "map_before": {
+    "rooms": 697,
+    "entries": 697,
+    "missing": [],
+    "stale": [],
+    "duplicates": []
+  },
+  "word_before_absent": "visibility-filter",
+  "git_status_before": " M .heartbeat\n M chronicle.md\n M gate.md\n M questions.md\n M rooms/what-the-gaps-can-say.md\n M words/reference-advertisement.md\n?? evidence/gardener-2026-10-17-reference-visibility/\n",
+  "verification": "passed",
+  "pre_close_verification": {
+    "stage": "pre-chronicle",
+    "pairs": 4,
+    "directional_room_links": 8,
+    "word_bricks": 1,
+    "new_link_targets_checked": 17,
+    "existing_room_content_preserved": true,
+    "map_entries": 697,
+    "map_missing_stale_duplicate": 0,
+    "map_unchanged": true,
+    "questions_unchanged": true,
+    "chronicle_unchanged_before_append": true,
+    "diff_check": "passed",
+    "local_time": "2026-10-17 01:55 CEST"
+  },
+  "inserted_link_lines": [
+    {
+      "path": "rooms/what-the-gaps-can-say.md",
+      "line": "- [connection-proves-access](connection-proves-access.md) asks which shelves a working key leaves unseen, the same boundary that lets a hidden Git name move behind an unchanged advertised list."
+    },
+    {
+      "path": "rooms/what-the-gaps-can-say.md",
+      "line": "- [event-data-honesty](event-data-honesty.md) keeps a vanished listing separate from a cancelled event, just as a vanished advertised name need not mean its stored reference was deleted."
+    },
+    {
+      "path": "rooms/what-the-gaps-can-say.md",
+      "line": "- [[visibility-filter]] names the curtain between stored names and their advertised view, not a lock that keeps the underlying objects private."
+    },
+    {
+      "path": "rooms/connection-proves-access.md",
+      "line": "- [what-the-gaps-can-say](what-the-gaps-can-say.md) gives this room's partial view a concrete Git example: the shown list can stay still while an unseen stored name moves."
+    },
+    {
+      "path": "rooms/connection-proves-access.md",
+      "line": "- [[visibility-filter]] names a rule that chooses what reaches the reader, so a working connection cannot by itself certify a complete view."
+    },
+    {
+      "path": "rooms/event-data-honesty.md",
+      "line": "- [what-the-gaps-can-say](what-the-gaps-can-say.md) shows a Git list changing when only its visibility rule changes, a concrete reminder that leaving a view is not the same as leaving the world it describes."
+    },
+    {
+      "path": "rooms/measuring-the-window.md",
+      "line": "- [liveness-and-readiness](liveness-and-readiness.md) separates a pulse from an ability to serve, the distinction this ruler needs when a quick error arrives without showing that the requested work recovered."
+    },
+    {
+      "path": "rooms/liveness-and-readiness.md",
+      "line": "- [measuring-the-window](measuring-the-window.md) shows why a fast error is no recovery mark: the time taken to answer and the ability to fulfil the request need separate verdicts."
+    },
+    {
+      "path": "rooms/checking-a-signed-reply.md",
+      "line": "- [closing-the-loop](closing-the-loop.md) offers a human parallel to testing the checker: a reassuring yes can hide a missed check, so a signature test must also show that a known bad mark is refused."
+    },
+    {
+      "path": "rooms/closing-the-loop.md",
+      "line": "- [checking-a-signed-reply](checking-a-signed-reply.md) gives the reassuring yes a software counterpart: valid examples cannot expose a verifier that accepts every mark, so refusal needs a test of its own."
+    }
+  ],
+  "map_review_scope": "Full membership, uniqueness and label/path check; content review of the sampled new and old rooms and selected link destinations, not a fresh fact-check of every room.",
+  "closed_local": "2026-10-17T01:56:13.992898+02:00",
+  "chronicle_appended_line": "- 2026-10-17 01:55 · tended: linked 4 pairs, laid 1 word-brick, hidden Git names now meet partial provider views and vanished listings, while quick errors meet readiness checks and signature tests meet the limits of a reassuring yes.",
+  "chronicle_original_bytes_preserved": true,
+  "existing_room_bytes_recovered_by_reversing_only_listed_link_edits": true,
+  "map_and_questions_preserved": true,
+  "unexpected_changed_paths": [],
+  "garden_git_status": "",
+  "git_status_after": " M .heartbeat\n M chronicle.md\n M gate.md\n M questions.md\n M rooms/checking-a-signed-reply.md\n M rooms/closing-the-loop.md\n M rooms/connection-proves-access.md\n M rooms/event-data-honesty.md\n M rooms/liveness-and-readiness.md\n M rooms/measuring-the-window.md\n M rooms/what-the-gaps-can-say.md\n M words/reference-advertisement.md\n?? evidence/gardener-2026-10-17-reference-visibility/\n?? evidence/tender-2026-10-17-visibility/\n?? words/visibility-filter.md\n",
+  "after_sha256": {
+    "rooms/what-the-gaps-can-say.md": "7ab68e0679ed2584cd793c0b3c17f8307a8cc571066eb05734426dbfa38378c6",
+    "rooms/connection-proves-access.md": "c5461635584daf6d20c322aa0cff46cddf058925a032fffe37f7b7a546a5da68",
+    "rooms/event-data-honesty.md": "acc612bbaf0791d8a5d4715c0d8eb062b9e6c43df4dac368cf53da4ea5709f9d",
+    "rooms/measuring-the-window.md": "a1991ac5bab6386301177b048348962f26d67bbbbdb57efed8a161e955c89959",
+    "rooms/liveness-and-readiness.md": "3b44c204c810572ee7f833a02065cf6d51b50797ce60ef6e24b85ebbad68201f",
+    "rooms/checking-a-signed-reply.md": "1fb1be3c852bdccc8451eee051aa00bf242129afd45354303cf9cf12a914385f",
+    "rooms/closing-the-loop.md": "73a8350471ad168b93b352f17e111a2d642b9bf7735a0734d5ebe4f18a71fe1e",
+    "gate.md": "cee244bbf3007e2eabd9d23125348b338186d6c32b7597329b7f07d81b9bf516",
+    "questions.md": "d8391805ae8042bbcaf2b1d2c863a56d1334ba69d341dab49a6b6f6271eeed1e",
+    "chronicle.md": "40d062cce900081e76b5fbc2b742b18974b0de49e00b7e72ed1b14e8f3799cc9",
+    "words/visibility-filter.md": "4248a890e4b64c0cec152b472984c4c8fc357cbaa4a8686871f7c35ba60671e2"
+  }
+}

@@ -1,0 +1,159 @@
+RFC 9110 Via received protocol pseudonym response intermediary - Brave Search
+Ask
+All
+Images
+News
+Videos
+Maps
+Goggles
+More
+HTTP Documentation
+httpwg.org
+› specs  › rfc9110.html
+RFC 9110 - HTTP Semantics
+For example,
+an intermediary might parse a received field into its field name and field value components, but then forward the field without further parsing inside the field value
+.
+RFC Editor
+rfc-editor.org
+› info  › rfc9110
+RFC 9110: HTTP Semantics | RFC Editor
+6 June 2022 -
+For example,
+an intermediary might parse a received field into its field name and field value components, but then forward the field without further parsing inside the field value
+.¶
+Videos
+08:55
+YouTube
+Offensive Security Views on HTTP [RFC 9110] - YouTube
+2 June 2026
+20:41
+YouTube
+RFC 9110: HTTP Semantics | A NotebookLM Deep Dive - YouTube
+1 June 2026
+07:24
+YouTube
+On HTTP Request Smuggling - RFC 9110 Style - YouTube
+11 August 2025
+09:10
+YouTube
+A Brief History of HTTP: How HTTP Evolved - YouTube
+9 June 2022
+View all
+View all
+HTTP
+http.dev
+› http headers  › via
+Via - Expert Guide to HTTP headers
+17 August 2026 -
+The received-by field contains either the host and optional port of the intermediary, or a pseudonym representing the node
+.
+GitHub
+github.com
+› kshakirov  › stm-markov-proxy  › issues  › 8
+Detect and extend an existing Via field · Issue #8 · kshakirov/stm-markov-proxy
+1 week ago -
+use the stable pseudonym stm-markov-proxy unless the application model selects another identity
+; retain only the bounded workspace needed for the Via value, not the complete request or all headers; define an explicit limit and failure policy ...
+Hjp
+hjp.at
+› (en,st_b)  › doc  › rfc  › rfc9110.html
+doc: RFC 9110: HTTP Semantics - hjp
+Many received protocol elements ... element downstream. For example,
+an intermediary might parse a received field into its field name and field value components, but then forward the field without further parsing inside the field value
+....
+IETF
+ietf.org
+› rfc  › rfc9110.pdf
+pdf
+RFC 9110 HTTP Semantics Abstract
+A "gateway" (a.k.a. "reverse proxy") is an intermediary that acts as an origin server for the · outbound connection but translates received requests and forwards them inbound to another
+RFC Editor
+rfc-editor.org
+› rfc  › rfc9110.pdf
+pdf
+RFC 9110 HTTP Semantics Abstract
+A "gateway" (a.k.a. "reverse proxy") is an intermediary that acts as an origin server for the · outbound connection but translates received requests and forwards them inbound to another
+Tex2e
+tex2e.github.io
+› rfc-translater  › html  › rfc9110.html
+RFC 9110 - HTTP Semantics 日本語訳
+Many received protocol elements ... element downstream. For example,
+an intermediary might parse a received field into its field name and field value components, but then forward the field without further parsing inside the field value
+....
+Armware
+armware.dk
+› RFC  › rfc  › rfc9110.html
+RFC 9110 - ARMWARE
+A "proxy" is a message-forwarding ... to receive requests for some type(s) of absolute URI and attempt to satisfy those requests via translation through the HTTP interface. Some translations are minimal, such as for proxy requests for "http" URIs, whereas other requests might require translation to and from entirely different application-level protocols. Proxies are often used to group an organization's HTTP requests through a common intermediary for the sake ...
+Find elsewhere
+Google
+Bing
+Mojeek
+RFCinfo
+rfcinfo.com
+› rfc 9110 - http semantics
+RFC 9110 - HTTP Semantics | RFCinfo
+RFC 9110
+defines semantics shared across all HTTP versions, regardless of whether HTTP/1.1, HTTP/2, or HTTP/3 is used
+. This makes the HTTP protocol more unified and easier to understand.
+W3cubDocs
+docs.w3cub.com
+› http  › rfc9110
+RFC 9110: HTTP Semantics - HTTP - W3cubDocs
+Many received protocol elements ... element downstream. For example,
+an intermediary might parse a received field into its field name and field value components, but then forward the field without further parsing inside the field value
+....
+Scribd
+scribd.com
+› document  › 832447884  › rfc9110
+RFC 9110 | PDF | Uniform Resource Identifier | Internet Protocols
+This document, RFC 9110,
+outlines the architecture and semantics of the Hypertext Transfer Protocol (HTTP), establishing common terminology and defining core protocol elements applicable to all versions
+.
+RFC Editor
+rfc-editor.org
+› rfc  › inline-errata  › rfc9110.html
+rfc9110
+Many received protocol elements ... element downstream. For example,
+an intermediary might parse a received field into its field name and field value components, but then forward the field without further parsing inside the field value
+....
+Xmox
+xmox.nl
+› xr  › dev  › rfc  › 9110.html
+9110
+5Internet Engineering Task Force (IETF) R. Fielding, Ed · 6Request for Comments: 9110 Adobe · 7STD: 97 M. Nottingham, Ed · 8Obsoletes: 2818, 7230, 7231, 7232, 7233, 7235, Fastly · 9 7538, 7615, 7694 J. Reschke, Ed · 10Updates: 3864 greenbytes · 11Category: Standards Track June 2022 · ...
+Agentgrade
+agentgrade.com
+› standards  › rfc 9110
+RFC 9110 — HTTP Semantics (content negotiation) — status, mechanics & checks — AgentGrade
+31 July 2026 -
+The oldest agent-readiness mechanism on this list: proactive content negotiation, where the same URL serves HTML to browsers and markdown or JSON to agents that ask — no new protocol required. RFC 9110 defines proactive negotiation: the client states preferences in the Accept header with quality weights, and the server picks the representation. For agents this is the highest-leverage low-tech signal on the web — an agent that sends Accept: text/markdown and receives clean markdown ingests your content in one pass, no scraping, no rendering.
+RFC Editor
+rfc-editor.org
+› rfc  › rfc9110.xml
+HTTP Semantics
+Many received protocol elements ... element downstream. For example,
+an intermediary might parse a received field into its field name and field value components, but then forward the field without further parsing inside the field value
+....
+Next
+Resources
+Brave Search Premium
+Brave Search help
+Transparency report
+Report a security issue
+Status
+Products
+Brave Browser
+Brave Search
+Brave Wallet
+Brave Talk
+Brave Firewall + VPN
+Brave Playlist
+Brave News
+Brave Rewards
+Brave Search API
+Brave Ads
+Policies
+Privacy Policy
+Terms of Use

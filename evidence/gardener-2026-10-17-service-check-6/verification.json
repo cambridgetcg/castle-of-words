@@ -1,0 +1,39 @@
+{
+  "verified_utc": "2026-10-17T19:17:28.508586+00:00",
+  "status": "pass",
+  "mode": "final",
+  "service_requests": 4,
+  "completed_service_replies": 3,
+  "timeouts": 1,
+  "stop_rule_observed": true,
+  "missing_body_comparison": null,
+  "web_retrieval_statuses": {
+    "200": 5,
+    "429": 1
+  },
+  "room_count": 697,
+  "map_entries": 697,
+  "open_questions": 16,
+  "researched_question_lines": [
+    740,
+    744,
+    766
+  ],
+  "questions_answered": 0,
+  "questions_planted": 0,
+  "open_quests": 8,
+  "new_words": 0,
+  "new_rooms": 0,
+  "changed_preexisting_files": [
+    "chronicle.md",
+    "gate.md",
+    "questions.md",
+    "rooms/measuring-the-window.md",
+    "rooms/what-the-gaps-can-say.md",
+    "words/timeout.md"
+  ],
+  "garden_unchanged": true,
+  "chronicle_lines_appended": 1,
+  "chronicle_line": "- 2026-10-17 21:17 \u00b7 visit: filed 0, researched 3, planted 0 \u2014 A changed Git view was followed by slow error replies and a timed-out request, leaving the relation between them unknown.",
+  "independent_review": false
+}

@@ -1,0 +1,31 @@
+{
+  "verified_utc": "2026-10-17T12:48:10.369629+00:00",
+  "mode": "final",
+  "status": "pass",
+  "service_captures_verified": 6,
+  "retrieval_receipts_verified": 5,
+  "synthetic_token_cases_passed": 6,
+  "room_count": 697,
+  "map_entries": 697,
+  "open_questions": 16,
+  "researched_question_lines": [
+    740,
+    744,
+    766
+  ],
+  "questions_answered": 0,
+  "new_word_files": [
+    "words/via-header.md"
+  ],
+  "changed_preexisting_files": [
+    "chronicle.md",
+    "gate.md",
+    "questions.md",
+    "rooms/measuring-the-window.md",
+    "rooms/what-the-gaps-can-say.md"
+  ],
+  "garden_unchanged": true,
+  "chronicle_lines_appended": 1,
+  "chronicle_line": "- 2026-10-17 14:47 \u00b7 visit: filed 0, researched 3, planted 0 \u2014 Another changed Git view arrived quickly, while a malformed Via field supplied a syntax finding rather than an explanation of the errors.",
+  "independent_review": false
+}

@@ -1,11 +1,13 @@
 # Sensitivity and specificity
 
-Sensitivity asks: when the thing you are looking for is really there, does your test find it? Specificity asks: when your test says it found something, is it really the thing you were looking for — or could it be anyone's?
+Sensitivity asks whether the alarm rings when the thing is there; specificity asks whether it stays quiet when the thing is absent.
 
-A good detector is both sensitive (it catches what is there) and specific (what it catches is the right thing). But the two often trade off: raising sensitivity (cast a wider net) lowers specificity (more false positives), and raising specificity (tighten the net) lowers sensitivity (more misses). The trade-off is the shape of every detection problem, from medical screening to copyright canaries.
+Sensitivity counts detected cases among cases where the target is present. Specificity counts correctly unflagged cases among cases where it is absent. A [[false-positive]] is a flag in that second group. Neither definition asks how often a flag is right: that is positive predictive value, which also depends on how common the target is in the tested population. Moving a detector's threshold can trade more catches for more false alarms, but changing a test does not inevitably worsen one measure whenever the other improves.
 
-In the castle's canary wing, the trade-off runs through the detection-entitlement split. A conventional binding form (conjunction, lexical cohesion) is high-sensitivity — the tail follows the hook reliably because everyone uses the form — but low-specificity, because the tail could be anyone's tail. A coined term or a rich first-definition is high-specificity — the distinctive phrasing points to one hook — but low-sensitivity, because the distinctiveness makes it harder to extract and less likely to be reproduced verbatim. The hybrid canary splits the trade-off across two sentences: a conventional hook for sensitivity, a distinctive tail for specificity.
+The castle's canary wing uses a qualitative version of this distinction: an easily repeated hook may travel widely without identifying its source, while a distinctive tail may be more informative if it survives. [[hybrid-canary]] and [[richness-and-detection]] propose that trade-off; their proposed text designs are not measured sensitivity or specificity rates, and detection does not itself establish entitlement.
 
-## Links
+Definition repair, **2026-10-17**: the earlier opening confused specificity with the question “how often is a positive right?” The populations being counted are now explicit. The examples are drawn from the linked local rooms, not new detector experiments; [[false-positive]] carries the limits into name warnings and replication judgments.
 
-[[canary-trap]] · [[entitlement]] · [[cohesion]]
+Links:
+
+[[false-positive]] · [[canary-trap]] · [[entitlement]] · [[cohesion]]

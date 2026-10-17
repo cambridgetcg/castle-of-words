@@ -1,0 +1,20 @@
+{
+  "kind": "ad-hoc verification refresh, not a canonical suite or independent review",
+  "checked_utc": "2026-10-17T09:38:07.301033+00:00",
+  "tests_run": 8,
+  "failures": 0,
+  "errors": 0,
+  "passed": true,
+  "script_sha256": {
+    "collect.py": "02f4e42b32ae99e8764da38bed44a243d4c152e1d086a16e2dc47ed6dff3ffbf",
+    "research.py": "6a8d8427fb91f27ec6a482daf59ecae0adcd0be13814b25dcb034e82357a0442",
+    "verify.py": "6a39e07211d1f999681b68159317c996da4d0ba40c4bf8dad8eddd64529f546e"
+  },
+  "prior_behavioural_receipt": "ad-hoc-verification.json",
+  "prior_behavioural_receipt_sha256": "c194e55bcbbd25c7ae6cbd0cfacc7934b8f80a999853e4948d1d44d9399a3d33",
+  "temporary_script_sha256": "698fbdfff521fdeb00479a07a95e5488506341387a840a1831f98df0fb47cfc6",
+  "staging_file_absent": true,
+  "network_and_external_processes_blocked": true,
+  "retained_artifacts_and_castle_text_unchanged": true,
+  "test_output": "test_collector_refuses_repeat_before_any_request (__main__.Checks) ... ok\ntest_corrupted_capture_and_source_are_rejected (__main__.Checks) ... ok\ntest_duplicate_map_entry_is_rejected (__main__.Checks) ... ok\ntest_extra_chronicle_line_is_rejected (__main__.Checks) ... ok\ntest_final_workspace_verifier (__main__.Checks) ... ok\ntest_research_refuses_repeat_before_any_request (__main__.Checks) ... ok\ntest_temporary_workspace_staging_file_is_absent (__main__.Checks) ... ok\ntest_three_scripts_match_prior_passing_behavioural_checks (__main__.Checks) ... ok\n\n----------------------------------------------------------------------\nRan 8 tests in 0.175s\n\nOK\n"
+}

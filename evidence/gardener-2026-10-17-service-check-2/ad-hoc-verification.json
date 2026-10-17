@@ -1,0 +1,20 @@
+{
+  "status": "PASS",
+  "scope": "ad-hoc offline verification, not a canonical suite or independent review",
+  "checked_utc": "2026-10-17T06:19:51.623249+00:00",
+  "tests_run": 11,
+  "failures": 0,
+  "errors": 0,
+  "changed_script_sha256": {
+    "evidence/gardener-2026-10-17-service-check-2/collect.py": "cf94b2e116f311aa647b5adebe871596f4381c406c66bd47da1d36d42646290f",
+    "evidence/gardener-2026-10-17-service-check-2/research.py": "56151ba4e9af8a033a6dddcf071661835ff157f4045c4d85e0b04e278841a321",
+    "evidence/gardener-2026-10-17-service-check-2/verify.py": "18925d3dc9d1ee2f4e83d56d2b47725b37dc1c0f1d4dc3ba05d80810b89adf98"
+  },
+  "temporary_test_sha256": "e9ce5f22ae90ad495cc73707c4ee1ca567ce66f3efe1837442c170d1c463db6d",
+  "data": "saved real response replay plus explicitly synthetic failure and corruption fixtures",
+  "live_requests": 0,
+  "external_process_creation_blocked": true,
+  "protected_files_unchanged": true,
+  "temporary_fixtures_removed": true,
+  "chronicle_unchanged_by_tests": true
+}

@@ -1,0 +1,235 @@
+"yhetil.org" "2026" "outage" - Brave Search
+Ask
+All
+Images
+News
+Videos
+Maps
+Goggles
+search operators
+were not applied
+Too few matches were found
+StatusGator
+statusgator.com
+› services  › ytel
+Ytel Status. Check if Ytel is down or having an outage. | StatusGator
+The last officially acknowledged outage was on
+June 14, 2026
+.
+Yhetil
+yhetil.org
+› orgmode
+emacs-orgmode@gnu.org archives
+2026-09-26 18:03 UTC (5+ messages) [BUG] Org parser error while clocking out [9.8.7 (9.8.7-??-cdc16898f @ /Users/gabrielpickl/.config/emacs/.local/straight/build-30.2/org/)] 2026-09-26 14:45 UTC (3+ messages) [BUG] make cursor visible in calendar [9.6.7 ( @ /Users/eugenekim/.emacs.d/elpa/org-9.6.7/)] 2026-09-26 14:44 UTC (12+ messages) [BUG] org-latex-preview failed because of "Windows 8.3 short path" [9.7.11 (release_9.7.11 @ c:/Dev/emacs/emacs-30.2/share/emacs/30.2/lisp/org/)] 2026-09-26 14:43 UTC (3+ messages) [PATCH] org-clock: clock-report be able to also take directories 2026-09-26 14:36 UTC (13+ messages) [Pre-PATCH] Overhaul of the LaTeX preview system 2026-09-25 17:40 UTC (45+ messages) ` Feedback on the new "feature" system in org-export (was: [Pre-PATCH] Overhaul of the LaTeX preview system) ` [Pre-PATCH] Overhaul of the LaTeX preview system: manual and NEWS Useful package?
+GitHub
+github.com
+› uBlockOrigin  › uAssets  › issues  › 21322
+yhetil.org: breakage · Issue #21322 · uBlockOrigin/uAssets
+10 December 2023 -
+Every time I open any page of yhetil.org, all the content is deleted.
+Author:
+uBlockOrigin
+techyreviewx.com: breakage · Issue #16237 · uBlockOrigin/uAssets
+5 Jan 2023
+3 yr ago
+ytmp3.cc: breakage · Issue #11212 · uBlockOrigin/uAssets
+6 Jan 2022
+4 yr ago
+youtube.com: breakage · Issue #11386 · uBlockOrigin/uAssets
+20 Jan 2022
+4 yr ago
+eksisozluk1923.com: breakage · Issue #18722 · uBlockOrigin/uAssets
+28 Jun 2023
+3 yr ago
+youtube.com: breakage · Issue #14030 · uBlockOrigin/uAssets
+15 Jul 2022
+4 yr ago
+More results from github.com
+People also ask
+How can I get notified when Ytel is not working or have outages?
+To stay informed about Ytel outages,
+sign up for StatusGator
+. Add Ytel to your status page and configure alerts to receive notifications through your preferred platform, such as email, SMS, Slack, Teams, and more. StatusGator provides instant alerts based on updates published on the Ytel official status page, ensuring you're notified immediately if there's an issue.
+Additionally, StatusGator leverages its own advanced monitoring algorithms to detect potential issues, sending you Early Warning Signals even before the official status page updates. If Cloudflare is down, you'll know immediately. Sign up now and stay on top of current status updates, it's free!
+statusgator.com
+statusgator.com
+› services  › ytel
+Ytel Status. Check if Ytel is down or having an outage. | StatusGator
+Is Ytel down today?
+According to the official
+Ytel
+status page, the service is currently
+up
+. For the most recent updates, check the 'Recent Outages and Issues' section above. Whether
+Ytel
+is down now or facing minor problems, StatusGator keeps you in the loop with instant alerts on issues.
+statusgator.com
+statusgator.com
+› services  › ytel
+Ytel Status. Check if Ytel is down or having an outage. | StatusGator
+Ytel status page says the service is up, but I'm having issues. What's wrong?
+There may be several reasons for that:
+An outage that hasn't been communicated yet via the
+Ytel
+status page.
+Some local issues with a small group of accounts on the service side.
+Technical issues on your side, or problems with your software or ISP.
+A misconfiguration or problem on your side.
+We recommend contacting
+Ytel
+customer support while checking everything on your side.
+statusgator.com
+statusgator.com
+› services  › ytel
+Ytel Status. Check if Ytel is down or having an outage. | StatusGator
+Yhetil
+yhetil.org
+unofficially hosted mirrors at yhetil.org
+unofficially hosted mirrors at yhetil.org
+These archives are created with public-inbox (<https://public-inbox.org/README>). * Emacs-related lists aggregated inbox: https://yhetil.org/emacs/ * https://yhetil.org/emacs-bugs/ bug-gnu-emacs@gnu.org reports and discussion of Emacs bugs ...
+Yhetil
+yhetil.org
+› emacs-devel
+unofficial mirror of emacs-devel@gnu.org
+[NonGNU ELPA] New package: ... variable 2026-08-13 17:34 UTC (20+ messages) master c150777f498 4/4: Fix merge snafu in dired-aux.el 2026-08-13 16:44 UTC [PATCH] Add org-history to NonGNU ELPA 2026-08-12 20:35 UTC (2+ messages) Coding Standards 2026-08-12 13:14 UTC (3+ messages) ...
+Entireweb
+entireweb.com
+› home  › yettel  › live outage map
+Yettel Live Service Outage Map - Entireweb Status
+Real-time service outage reports by location · 2026-08-11 12:03:27 · 0 Cities Affected by Service Outages · 0 Countries Affected by Service Problems · 1 Total Service Down Reports ·
+Entireweb
+entireweb.com
+› home  › yettel
+Is Yettel Down Right Now? Live Status, Outages and Service Issues
+9 July 2026 -
+Yettel is operating normally right now (13 October 2026). Entireweb Status records
+no ongoing major outages or problems
+.
+GNU
+lists.gnu.org
+› archive  › html  › help-guix  › 2025-02  › msg00153.html
+Re: ownership of the yhetil.org service ?
+One of the benefits of public-inbox is that it makes it easy for people to mirror [*]. I would be glad to see other people publish mirrors, but at the very least people could privately keep a fairly up-to-date clone of the underlying repos so that they could get something up again if yhetil.org disappears.
+TechRadar
+techradar.com
+› computing  › software
+YouTube was down – here's what caused the huge global outage | TechRadar
+18 February 2026 -
+According to Google, "
+An issue with our recommendations system prevented videos from appearing across surfaces on YouTube
+(including the homepage, the YouTube app, YouTube Music and YouTube Kids)." So yes, this was an unusually widespread outage.
+Find elsewhere
+Google
+Bing
+Mojeek
+Mashable
+mashable.com
+› home  › tech
+YouTube outage cause revealed: Here's what we know | Mashable
+18 February 2026 -
+The internet has seen several high-profile outages in recent months, affecting companies such as Verizon, Microsoft 365, and TikTok. In some ways, maybe this latest outage is a sign that we should all go outside and touch some grass. SEE ALSO: Why does the internet keep crashing so much lately? UPDATE: Feb. 17, 2026, 10:26 p.m.
+Global Brands Magazine
+globalbrandsmagazine.com
+› home  › brands social  › the night youtube glitched and the world  held it’s  breath
+YouTube Outage: A Global Disruption on February 17, 2026
+18 February 2026 -
+Many organisations track growth indicators precisely. Fewer measure resilience metrics, such as recovery time during platform downtime. Brand resilience is measurable through adaptation speed, clarity of communication and stability of cross-channel revenue. The outage invites leaders to reconsider global brand strategy within a concentrated digital landscape.
+9to5Google
+9to5google.com
+› home  › it’s not just you, youtube is partially down in outage
+It's not just you, YouTube is partially down in outage
+18 February 2026 -
+Starting at around 7:45pm ET (4:45pm PT) and expanding rapidly as of 8pm ET (5pm PT),
+YouTube is down in a fairly widespread outage.
+Reddit
+reddit.com
+› r/youtube  › widespread youtube outage 2026
+r/youtube on Reddit: Widespread YouTube Outage 2026
+18 February 2026 -
+February 18, 2026, 02:00 CET — Users across multiple regions reported unusual behavior on YouTube early Wednesday morning, with the platform’s homepage failing to display content. Reports quickly spread across social media and discussion forums, including the official YouTube subreddit, where users described identical symptoms.
+Early indications suggest the issue originates on YouTube’s side. However, the company has not issued an official statement, and verified technical details remain limited. Current assessments are based on automated activity monitoring and user activity patterns.
+Users report that the YouTube homepage loads but displays no video recommendations or content. Instead, many encounter a message stating: “Something went wrong. Try again.”
+Despite the homepage malfunction, core platform functions appear to remain operational. Videos play normally when accessed directly, and features such as search, watch history, and previously saved links continue to function.
+The behavior suggests the disruption is likely limited to homepage content delivery systems rather than a full platform outage.
+Further updates are expected once YouTube provides official confirmation or additional technical details.
+Top answer
+1 of 3
+1
+Hello, B_Hype_R. We'd like to start off by noting that this sub isn't owned or run by YouTube. If you are encountering a bug, please file a bug report here - https://support.google.com/youtube/answer/4347644 If this is an issue with a paid YouTube service, such as Memberships or Premium, please contact YouTube's Paid Purchases Support Teams to get help directly from YouTube. To get help from others with debugging, please provide the following: Device info (PC/Phone, phone model, app version, etc), screenshots if possible. I am a bot, and this action was performed automatically. Please contact the moderators of this subreddit if you have any questions or concerns.
+2 of 3
+1
+So it's not just my adblockers. Got it.
+Autoshite
+autoshite.com
+› topic  › 69466-💥-outage-this-morning-5th-oct-2026
+💥 Outage This Morning - 5th Oct 2026 - AutoShite - Autoshite
+2 weeks ago -
+TL;DR traffic filtering broke automatic ... shit later. As some has noticed,
+the SSL certificates for encrypting in/outbound traffic expired this morning and the site was inaccessible
+. These are provided by ......
+Outage
+outage.com
+› home  › entertainment  › youtube
+Is YouTube Down? Live Status & Outage Map (Oct 16)
+2 days ago -
+If you are experiencing issues with YouTube on
+Friday, October 16, 2026
+, you are not alone.
+Technologychecker
+technologychecker.io
+› blog  › internet outage tracker q3 2026: 49 disruptions in three months
+Internet Outage Tracker Q3 2026: 49 Disruptions in Three Months - TechnologyChecker.io
+2 weeks ago -
+September was the busiest month of 2026 at 23 events, Iraq's exam shutdowns came back twice, and power failures rose from 1 event in Q2 to 14 in Q3
+. Every earlier layer of this report is preserved below as published, and the previous edition's ...
+Popverse
+thepopverse.com
+› tv-youtube-outage-google-february-2026
+The great YouTube outage of 2026 - why the hell was YouTube down? | Popverse
+18 February 2026 -
+It wasn't just you - millions of YouTube users across the planet reported outages on Tuesday, February 17. We'll tell you what happened
+Tom's Guide
+tomsguide.com
+› entertainment  › streaming
+YouTube went down — everything you need to know about the major outage | Tom's Guide
+18 February 2026 -
+YouTube was unavailable for users for multiple hours on
+February 17th, 2026
+, after an outage hit Google’s video streaming service, affecting both the website and the app.
+StatusGator
+statusgator.com
+› services  › youtube
+YouTube Status. Check if YouTube is down or having an outage. | StatusGator
+1 month ago -
+Duration · 1h 38m · StatusGator detected · Oct 7, 2026 4:21 AM · Officially acknowledged · Never acknowledged · Incident description ·
+Videos not loading or displaying errors
+.
+Statusisdown
+statusisdown.com
+› biggest-outages-july-2026
+The Biggest Outages of July 2026: A Month of Digital Disruption – Status Is Down: Outages & Downtime of Popular Services
+1 August 2026 -
+... July 2026 was a turbulent month for the internet. Our community reported
+1,826 outage incidents across 563 services
+— making it one of the most disruption-heavy months we’ve tracked since launching Status Is Down.
+Next
+Resources
+Brave Search Premium
+Brave Search help
+Transparency report
+Report a security issue
+Status
+Products
+Brave Browser
+Brave Search
+Brave Wallet
+Brave Talk
+Brave Firewall + VPN
+Brave Playlist
+Brave News
+Brave Rewards
+Brave Search API
+Brave Ads
+Policies
+Privacy Policy
+Terms of Use

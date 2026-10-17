@@ -182,6 +182,9 @@ Fetched and read **2026-10-15**:
 17. **Unicode Character Database: DerivedCoreProperties-18.0.0.txt** — https://www.unicode.org/Public/18.0.0/ucd/DerivedCoreProperties.txt — Default_Ignorable_Code_Point for the second reading's examples; [4] supplies the 17.0.0 property.
 
 Links:
+- [two-witnesses](two-witnesses.md) keeps a failed replication from becoming a single-cause verdict, a companion to treating a name warning as a question rather than an accusation.
+- [observation-parity](observation-parity.md) makes the comparison rule visible, so a changed Unicode table must not masquerade as a changed stored name.
+- [[false-positive]] names a warning that is wrong about its stated target, not every resemblance warning attached to a legitimate name.
 - [version-pinning-gap](version-pinning-gap.md) asks for the mechanism behind a version label, while these name comparisons keep the algorithm and Unicode tables explicit rather than borrowing the runtime's banner.
 - [simple-explanations](simple-explanations.md) offers a parallel warning: the ease of reading a sentence cannot certify its truth, just as a resemblance mark cannot certify that two names are one.
 - [[counterexample]] gives the ASCII `m`/`rn` pair its precise job: it breaks the claim that allowing only ASCII prevents every skeleton match between different names.

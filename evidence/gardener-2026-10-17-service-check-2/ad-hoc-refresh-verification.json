@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "scope": "ad-hoc final-state refresh; not a canonical suite or independent review",
+  "checked_utc": "2026-10-17T06:21:27.208346+00:00",
+  "tests_run": 6,
+  "failures": 0,
+  "errors": 0,
+  "previous_11_test_receipt_matches_sources": true,
+  "changed_script_sha256": {
+    "evidence/gardener-2026-10-17-service-check-2/collect.py": "cf94b2e116f311aa647b5adebe871596f4381c406c66bd47da1d36d42646290f",
+    "evidence/gardener-2026-10-17-service-check-2/research.py": "56151ba4e9af8a033a6dddcf071661835ff157f4045c4d85e0b04e278841a321",
+    "evidence/gardener-2026-10-17-service-check-2/verify.py": "18925d3dc9d1ee2f4e83d56d2b47725b37dc1c0f1d4dc3ba05d80810b89adf98"
+  },
+  "temporary_test_sha256": "2e9526e4a0d1c59006b5e420bf0673c0ee26cdb55a23e7dc632774afb6725b56",
+  "protected_files_unchanged": true,
+  "fixtures_and_staging_absent": true,
+  "live_requests": 0,
+  "data": "retained-response replay and explicitly synthetic failures"
+}

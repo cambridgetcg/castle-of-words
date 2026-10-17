@@ -1,0 +1,211 @@
+[
+  {
+    "command": [
+      "git",
+      "-c",
+      "core.hooksPath=/Users/yu/castle/evidence/gardener-2026-10-17-reference-visibility/local-fixture/hooks",
+      "-c",
+      "core.fsmonitor=false",
+      "-c",
+      "gc.auto=0",
+      "-c",
+      "maintenance.auto=false",
+      "--version"
+    ],
+    "stdin": "",
+    "exit_code": 0,
+    "stdout_hex": "6769742076657273696f6e20322e33392e3520284170706c65204769742d313534290a",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "git",
+      "-c",
+      "core.hooksPath=/Users/yu/castle/evidence/gardener-2026-10-17-reference-visibility/local-fixture/hooks",
+      "-c",
+      "core.fsmonitor=false",
+      "-c",
+      "gc.auto=0",
+      "-c",
+      "maintenance.auto=false",
+      "init",
+      "--bare",
+      "--object-format=sha1",
+      "--initial-branch=main",
+      "--template=/Users/yu/castle/evidence/gardener-2026-10-17-reference-visibility/local-fixture/template",
+      "/Users/yu/castle/evidence/gardener-2026-10-17-reference-visibility/local-fixture/repo.git"
+    ],
+    "stdin": "",
+    "exit_code": 0,
+    "stdout_hex": "496e697469616c697a656420656d70747920476974207265706f7369746f727920696e202f55736572732f79752f636173746c652f65766964656e63652f67617264656e65722d323032362d31302d31372d7265666572656e63652d7669736962696c6974792f6c6f63616c2d666978747572652f7265706f2e6769742f0a",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "git",
+      "-c",
+      "core.hooksPath=/Users/yu/castle/evidence/gardener-2026-10-17-reference-visibility/local-fixture/hooks",
+      "-c",
+      "core.fsmonitor=false",
+      "-c",
+      "gc.auto=0",
+      "-c",
+      "maintenance.auto=false",
+      "--git-dir=/Users/yu/castle/evidence/gardener-2026-10-17-reference-visibility/local-fixture/repo.git",
+      "mktree"
+    ],
+    "stdin": "",
+    "exit_code": 0,
+    "stdout_hex": "346238323564633634326362366562396130363065353462663864363932383866626565343930340a",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "git",
+      "-c",
+      "core.hooksPath=/Users/yu/castle/evidence/gardener-2026-10-17-reference-visibility/local-fixture/hooks",
+      "-c",
+      "core.fsmonitor=false",
+      "-c",
+      "gc.auto=0",
+      "-c",
+      "maintenance.auto=false",
+      "--git-dir=/Users/yu/castle/evidence/gardener-2026-10-17-reference-visibility/local-fixture/repo.git",
+      "commit-tree",
+      "4b825dc642cb6eb9a060e54bf8d69288fbee4904"
+    ],
+    "stdin": "public fixture\n",
+    "exit_code": 0,
+    "stdout_hex": "313434383438366165373132363430663135626161633161373034323635623464303230633239340a",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "git",
+      "-c",
+      "core.hooksPath=/Users/yu/castle/evidence/gardener-2026-10-17-reference-visibility/local-fixture/hooks",
+      "-c",
+      "core.fsmonitor=false",
+      "-c",
+      "gc.auto=0",
+      "-c",
+      "maintenance.auto=false",
+      "--git-dir=/Users/yu/castle/evidence/gardener-2026-10-17-reference-visibility/local-fixture/repo.git",
+      "commit-tree",
+      "4b825dc642cb6eb9a060e54bf8d69288fbee4904",
+      "-p",
+      "1448486ae712640f15baac1a704265b4d020c294"
+    ],
+    "stdin": "private before\n",
+    "exit_code": 0,
+    "stdout_hex": "386639366531313561326334663162396533323837626433316236383034336636643465646237380a",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "git",
+      "-c",
+      "core.hooksPath=/Users/yu/castle/evidence/gardener-2026-10-17-reference-visibility/local-fixture/hooks",
+      "-c",
+      "core.fsmonitor=false",
+      "-c",
+      "gc.auto=0",
+      "-c",
+      "maintenance.auto=false",
+      "--git-dir=/Users/yu/castle/evidence/gardener-2026-10-17-reference-visibility/local-fixture/repo.git",
+      "commit-tree",
+      "4b825dc642cb6eb9a060e54bf8d69288fbee4904",
+      "-p",
+      "8f96e115a2c4f1b9e3287bd31b68043f6d4edb78"
+    ],
+    "stdin": "private after\n",
+    "exit_code": 0,
+    "stdout_hex": "353165656539656336656334653237623737373332356361373463346434353438326139656631360a",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "git",
+      "-c",
+      "core.hooksPath=/Users/yu/castle/evidence/gardener-2026-10-17-reference-visibility/local-fixture/hooks",
+      "-c",
+      "core.fsmonitor=false",
+      "-c",
+      "gc.auto=0",
+      "-c",
+      "maintenance.auto=false",
+      "--git-dir=/Users/yu/castle/evidence/gardener-2026-10-17-reference-visibility/local-fixture/repo.git",
+      "update-ref",
+      "refs/heads/main",
+      "1448486ae712640f15baac1a704265b4d020c294"
+    ],
+    "stdin": "",
+    "exit_code": 0,
+    "stdout_hex": "",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "git",
+      "-c",
+      "core.hooksPath=/Users/yu/castle/evidence/gardener-2026-10-17-reference-visibility/local-fixture/hooks",
+      "-c",
+      "core.fsmonitor=false",
+      "-c",
+      "gc.auto=0",
+      "-c",
+      "maintenance.auto=false",
+      "--git-dir=/Users/yu/castle/evidence/gardener-2026-10-17-reference-visibility/local-fixture/repo.git",
+      "update-ref",
+      "refs/heads/private",
+      "8f96e115a2c4f1b9e3287bd31b68043f6d4edb78"
+    ],
+    "stdin": "",
+    "exit_code": 0,
+    "stdout_hex": "",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "git",
+      "-c",
+      "core.hooksPath=/Users/yu/castle/evidence/gardener-2026-10-17-reference-visibility/local-fixture/hooks",
+      "-c",
+      "core.fsmonitor=false",
+      "-c",
+      "gc.auto=0",
+      "-c",
+      "maintenance.auto=false",
+      "--git-dir=/Users/yu/castle/evidence/gardener-2026-10-17-reference-visibility/local-fixture/repo.git",
+      "show-ref"
+    ],
+    "stdin": "",
+    "exit_code": 0,
+    "stdout_hex": "3134343834383661653731323634306631356261616331613730343236356234643032306332393420726566732f68656164732f6d61696e0a3866393665313135613263346631623965333238376264333162363830343366366434656462373820726566732f68656164732f707269766174650a",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "git",
+      "-c",
+      "core.hooksPath=/Users/yu/castle/evidence/gardener-2026-10-17-reference-visibility/local-fixture/hooks",
+      "-c",
+      "core.fsmonitor=false",
+      "-c",
+      "gc.auto=0",
+      "-c",
+      "maintenance.auto=false",
+      "-c",
+      "transfer.advertiseSID=false",
+      "-c",
+      "uploadpack.hideRefs=refs/heads/private",
+      "upload-pack",
+      "--http-backend-info-refs",
+      "/Users/yu/castle/evidence/gardener-2026-10-17-reference-visibility/local-fixture/repo.git"
+    ],
+    "stdin": "",
+    "exit_code": 0,
+    "stdout_hex": "30313162313434383438366165373132363430663135626161633161373034323635623464303230633239342048454144006d756c74695f61636b207468696e2d7061636b20736964652d62616e6420736964652d62616e642d36346b206f66732d64656c7461207368616c6c6f772064656570656e2d73696e63652064656570656e2d6e6f742064656570656e2d72656c6174697665206e6f2d70726f677265737320696e636c7564652d746167206d756c74695f61636b5f64657461696c6564206e6f2d646f6e652073796d7265663d484541443a726566732f68656164732f6d61696e206f626a6563742d666f726d61743d73686131206167656e743d6769742f322e33392e352e284170706c652e4769742d313534290a303033643134343834383661653731323634306631356261616331613730343236356234643032306332393420726566732f68656164732f6d61696e0a30303030",
+    "stderr": ""
+  }
+]

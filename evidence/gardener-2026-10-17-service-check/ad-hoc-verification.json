@@ -1,0 +1,21 @@
+{
+  "kind": "ad-hoc verification, not a canonical project suite",
+  "checked_at_utc": "2026-10-17T03:02:52.545248+00:00",
+  "result": "PASS",
+  "tests_run": 8,
+  "failures": 0,
+  "errors": 0,
+  "duration_seconds": 0.09954908400000001,
+  "live_service_requests": 0,
+  "external_processes_permitted": false,
+  "inputs": "Retained-response replay plus explicitly synthetic failure fixtures",
+  "temporary_fixture_directories_removed": true,
+  "temporary_script": "hermes-verify-vs5xk_v8.py",
+  "temporary_script_sha256": "c6da6b92734ee0c9b7b5e6cea4ab8d0d09cd3bf19e83711f552a32f4db7f6c19",
+  "source_sha256": {
+    "evidence/gardener-2026-10-17-service-check/observe.py": "430b19a6d8c5477609e0d1f54b735a829b83d0b32680e293021e16aeead018a1",
+    "evidence/gardener-2026-10-17-service-check/research.py": "de05a3b01e3208a9810a233544e9a03ac907ad7aef9f5e4322ea1f50e1b06d58",
+    "evidence/gardener-2026-10-17-service-check/verify.py": "b2c7b68fda9c305d6f2d4412d127d164128c4f4d511d32c0c01c5d867f05fcdb"
+  },
+  "failed_tests": []
+}

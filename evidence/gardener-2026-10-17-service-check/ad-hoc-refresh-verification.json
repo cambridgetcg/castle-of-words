@@ -1,0 +1,17 @@
+{
+  "kind": "ad-hoc verification, not a canonical project suite",
+  "checked_at_utc": "2026-10-17T03:05:06.855188+00:00",
+  "result": "PASS",
+  "tests_run": 5,
+  "failures": 0,
+  "errors": 0,
+  "live_service_requests": 0,
+  "staging_file_absent": true,
+  "temporary_script_removed": true,
+  "temporary_script_sha256": "4f50f2309d12b925f9bad254e48f5cdd32ac9e694ba2af3513c9bf4095c0c1af",
+  "source_sha256": {
+    "evidence/gardener-2026-10-17-service-check/observe.py": "430b19a6d8c5477609e0d1f54b735a829b83d0b32680e293021e16aeead018a1",
+    "evidence/gardener-2026-10-17-service-check/research.py": "de05a3b01e3208a9810a233544e9a03ac907ad7aef9f5e4322ea1f50e1b06d58",
+    "evidence/gardener-2026-10-17-service-check/verify.py": "b2c7b68fda9c305d6f2d4412d127d164128c4f4d511d32c0c01c5d867f05fcdb"
+  }
+}

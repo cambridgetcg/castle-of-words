@@ -1,0 +1,48 @@
+{
+  "kind": "ad-hoc verification, not a canonical project suite",
+  "started_utc": "2026-10-17T19:21:31.947120+00:00",
+  "finished_utc": "2026-10-17T19:21:32.114283+00:00",
+  "status": "pass",
+  "tests_run": 10,
+  "tests": [
+    "__main__.AdHocChecks.test_all_five_scripts_parse",
+    "__main__.AdHocChecks.test_collector_refuses_an_existing_before_marker",
+    "__main__.AdHocChecks.test_collector_replays_real_captures_and_stops_on_timeout",
+    "__main__.AdHocChecks.test_final_verifier_passes_the_current_real_workspace",
+    "__main__.AdHocChecks.test_final_verifier_rejects_a_false_missing_body_comparison",
+    "__main__.AdHocChecks.test_followup_has_three_bounded_inputs_and_refuses_replay",
+    "__main__.AdHocChecks.test_inspection_distinguishes_missing_from_changed",
+    "__main__.AdHocChecks.test_inspection_reproduces_actual_saved_receipt",
+    "__main__.AdHocChecks.test_research_has_three_bounded_inputs_and_refuses_replay",
+    "__main__.AdHocChecks.test_research_requires_prior_collection"
+  ],
+  "failures": 0,
+  "errors": 0,
+  "protected_files_unchanged": true,
+  "protected_sha256": {
+    "evidence/gardener-2026-10-17-service-check-6/collect.py": "ee0c48a2cde911ea43fcc17c682c9a8dde01de3fa6ae4ea2e8e9ad7721fe3e45",
+    "evidence/gardener-2026-10-17-service-check-6/followup.py": "677b6fa7754902e0f4230cf25ae141bbfced251228b68dec7909748c962b0725",
+    "evidence/gardener-2026-10-17-service-check-6/inspect.py": "02d0bff7eec4ca2ea0d025eaab6e80fbbc247345fc5490c014f8fc7375d2399c",
+    "evidence/gardener-2026-10-17-service-check-6/research.py": "1fc279130ce5cfd4cff9645991b47334024309e6f624d551a58ff76aec36058a",
+    "evidence/gardener-2026-10-17-service-check-6/verify.py": "06d70ea14694f2c0c241467cefc74d87e422757245016ee3af2c057d8badcc3a",
+    "courtyard.md": "85de7ad460730ee3f3b848c3aac35c8375029a1a550f810555858b57b068c5f1",
+    "questions.md": "53b77fd4fd1806c22869cd90d21160945df8f22151d5dc71d09bc7e06605d137",
+    "quests.md": "154b17b04401cc134393e0c2528e23f139ce96bde35afdbd6a38d36982dc9ed1",
+    "gate.md": "f345fc53154db498ced46a5f4e6c4d62f17c432a23e37da1b3c900b63737d989",
+    "chronicle.md": "15e5f2419e500c6993acfb02c154890f066d4733c824df3c170983d3f8ef9416",
+    "words/timeout.md": "aa7814b2f91a6e2ffddf819f15d0dba8b22d2a674aeb469c6e2f80d870789fa2",
+    "rooms/what-the-gaps-can-say.md": "14edab1c43517e6c04bf6a2bfa18e03bffb67f6240df6e74bb0e09fd341f1fcb",
+    "rooms/measuring-the-window.md": "7a753f4e32c242a8266f9246f2fde6e467a69ffc8920455b042d2735634e7680"
+  },
+  "dependency_sha256": {
+    "evidence/gardener-2026-10-17-service-check-2/research.py": "56151ba4e9af8a033a6dddcf071661835ff157f4045c4d85e0b04e278841a321",
+    "evidence/gardener-2026-10-17-service-check/observe.py": "430b19a6d8c5477609e0d1f54b735a829b83d0b32680e293021e16aeead018a1",
+    "evidence/gardener-2026-10-16-service-check-5/observe.py": "9d60fd69252d5d2835b60c6709c4bbb4dbe6c8a26b4bdf3e1ca2d31eb5629bf1"
+  },
+  "verification_script_sha256": "10ac766950500b42a0b280a6da1944a3b19b987c16b8266012a861ede6c325df",
+  "network": "disabled; collector replays actual saved captures in temporary fixtures",
+  "source_fetch_tests": "stubbed with TEST-NO-NETWORK markers; no new retrievals claimed",
+  "temporary_fixtures": "created under castle/evidence with tempfile and removed by context managers",
+  "limits": "Checks script behavior and saved evidence, not present service health or independent review.",
+  "output": "test_all_five_scripts_parse (__main__.AdHocChecks) ... ok\ntest_collector_refuses_an_existing_before_marker (__main__.AdHocChecks) ... ok\ntest_collector_replays_real_captures_and_stops_on_timeout (__main__.AdHocChecks) ... ok\ntest_final_verifier_passes_the_current_real_workspace (__main__.AdHocChecks) ... ok\ntest_final_verifier_rejects_a_false_missing_body_comparison (__main__.AdHocChecks) ... ok\ntest_followup_has_three_bounded_inputs_and_refuses_replay (__main__.AdHocChecks) ... ok\ntest_inspection_distinguishes_missing_from_changed (__main__.AdHocChecks) ... ok\ntest_inspection_reproduces_actual_saved_receipt (__main__.AdHocChecks) ... ok\ntest_research_has_three_bounded_inputs_and_refuses_replay (__main__.AdHocChecks) ... ok\ntest_research_requires_prior_collection (__main__.AdHocChecks) ... ok\n\n----------------------------------------------------------------------\nRan 10 tests in 0.164s\n\nOK\n"
+}

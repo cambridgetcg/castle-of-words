@@ -1,0 +1,38 @@
+{
+  "file": "ownership-thread.html",
+  "title": "ownership of the yhetil.org service ? \u2014 help-guix mailing list",
+  "url": "https://www.mail-archive.com/help-guix@gnu.org/msg19268.html",
+  "start_utc": "2026-10-17T06:11:04.415776+00:00",
+  "finish_utc": "2026-10-17T06:11:04.697366+00:00",
+  "curl_exit": 0,
+  "http_status": "200",
+  "stderr": "",
+  "bytes": 8406,
+  "sha256": "57180262d851cde0c16843d6a80b2aea7e1dd9d7a0927343cccbb9c215a6d77b",
+  "command": [
+    "curl",
+    "--disable",
+    "--silent",
+    "--show-error",
+    "--proto",
+    "=https",
+    "--connect-timeout",
+    "10",
+    "--max-time",
+    "40",
+    "--max-filesize",
+    "2097152",
+    "--retry",
+    "0",
+    "--user-agent",
+    "castle-gardener/1.0",
+    "--output",
+    "evidence/gardener-2026-10-17-service-check-2/ownership-thread.html",
+    "--write-out",
+    "%{http_code}",
+    "https://www.mail-archive.com/help-guix@gnu.org/msg19268.html"
+  ],
+  "links": [
+    "https://yhetil.org/guix-user/87ldukzarp....@inventati.org/"
+  ]
+}

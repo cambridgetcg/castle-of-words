@@ -1,0 +1,272 @@
+yhetil.org Git mirror slow update maintenance - Brave Search
+Ask
+All
+Images
+News
+Videos
+Maps
+Goggles
+More
+GitLab
+gitlab.com
+› gitlab.org  › #4207
+Issue with Mirror Repository being extremely slow and failing often (recently) (#4207) · Issues · GitLab.org / GitLab · GitLab
+More recently as well it has been failing with: `Mirror update for [redacted repo] failed with the following message: 2:Call dropped by load balancing policy` And it takes multiple tries (so 3-4 hours before it actually succeeds). This is very frustrating to work with as we are also triggering pipelines for mirrored updates, but is taking many hours before it actually gets to actually run.
+Yhetil
+yhetil.org
+› emacs-devel
+unofficial mirror of emacs-devel@gnu.org
+This is a public inbox, see mirroring instructions for how to clone and mirror all data and code used for this inbox; as well as URLs for read-only IMAP folder(s) and NNTP newsgroup(s).
+DEV Community
+dev.to
+› this-is-learning  › optimizing-your-repository-for-speed-and-efficiency-5co2
+Optimizing Your Repository for Speed and Efficiency - DEV Community
+19 December 2024 -
+In the last few weeks one of my repository started to be very slow and bloated. I try to commit all the changes, push everything on GitHub, delete the folder and download it again. Same issues. I try to clone the repo on another HD, same results. After a lot of research, I found a "new" command of git: maintenance.
+Buildkite
+buildkite.com
+› pipelines  › agent  › self-hosted agents  › configure  › git mirrors
+Git mirrors | Buildkite Documentation
+The checkout borrows most of its objects from the mirror instead of storing them locally.
+When git fetch updates the mirror, it automatically triggers maintenance that cleans up objects Git considers unnecessary
+.
+MakeUseOf
+makeuseof.com
+› home  › linux  › linux updates were painfully slow until i switched one setting
+Linux updates were painfully slow until I switched one setting
+1 April 2026 -
+That feeling of “ugh, this is going to take a while.” It added just enough resistance to make system maintenance feel like something to avoid. Fixing the mirror and then pushing APT to behave a bit less like a queue at the post office removed that entirely.
+how2
+how2.sh
+› home  › posts  › how to set up git mirroring between github, gitlab, and bitbucket
+How to Set Up Git Mirroring Between GitHub, GitLab, and Bitbucket | how2
+6 February 2026 -
+Large repos slow to mirror: The initial --mirror push uploads the entire history. For repos over 5GB, this can take hours. Run the initial sync during off-hours. Token expiration breaks sync: Personal access tokens expire. Use service account tokens with long expiry or deploy keys (SSH) that do not expire. GitHub Actions mirror on forks: The mirror workflow runs on forks too. Add if: github.repository == 'your-org/project' to prevent forks from pushing to your mirror.
+Google Groups
+groups.google.com
+› g  › gitolite  › c  › 4HPvqO4VCq8  › m  › G3D52NGxdGAJ
+git push slow to mirror
+The main difference from gitolite mirroring is that this >> is pull based, which reduces the load on the master server. How often >> do they poll? > > We poll every 15 seconds. The load on the server is minimal, as the > clients use HTTP's "if-newer-than" to check if the remote manifest is > newer than local manifest and will only download it when it's been > actually updated.
+Aibit
+devops.aibit.im
+› en  › article  › troubleshooting-slow-git-operations
+Troubleshooting Slow Git Operations: Common Pitfalls and Solutions | Master DevOps Tools & Best Practices - DevOps Knowledge Hub
+Git stores objects in packfiles. Over time, local repositories can accumulate loose objects and inefficient packs. Git runs maintenance automatically in many workflows, but manual maintenance can still help older or busy repositories.
+GNU
+lists.gnu.org
+› archive  › html  › help-guix  › 2025-02  › msg00153.html
+Re: ownership of the yhetil.org service ?
+[*] Here's a post where I demonstrate how to use grokmirror to mirror all Guix-related inboxes from yhetil.org: https://yhetil.org/guix/878scww903.fsf@kyleam.com/ What to expect size-wise (these aren't freshly packed): $ du -sh guix-*/git/* gwl/git/* 492M guix-bugs/git/0.git 223M guix-devel/git/0.git 481M guix-patches/git/1.git 2.1M guix-science/git/0.git 135M guix-user/git/0.git 1.2M gwl/git/0.git As a side remark: I think this message stems from bug#76119 proposing to mention yhetil.org in the Contributing section of the manual and a reply saying (<https://yhetil.org/guix/87bjv7h2a3.fsf@gmail.com>): Without that knowledge, it just feels a little odd for the Guix project to officially trust and recommend the use of this particular online service.
+Find elsewhere
+Google
+Bing
+Mojeek
+R0uter's Blog
+logcg.com
+› 首页  › brew update 慢 解决办法 镜像更新源
+Slow brew update image update source solutions - R0uter's Blog
+25 October 2025 -
+Sometimes it does not work well，USTC's still OK with the： 1. Alternatively homebrew-core source cd “$(brew –repo)/Library/Taps/homebrew/homebrew-core” git remote set-url origin git://mirrors.ustc.edu.cn/homebrew-core.git 2.
+Graphite
+graphite.com
+› guides  › troubleshooting-slow-git-clone
+Troubleshooting when git clone is slow or hanging - Graphite
+This guide will delve into the differences and uses of `git clone --bare` and `git clone --mirror`, ...
+GitLab
+gitlab.com
+› gitlab.org  › #3390
+5-minute delay in Update Now mirror button is inconvenient (#3390) · Issues · GitLab.org / GitLab · GitLab
+### Proposal - Add configurable `mirror_max_frequency` (or similar) to limit the frequency with which a project can be mirrored ### Links / references https://gitlab.zendesk.com/agent/tickets/82019 https://www.youtube.com/watch?v=sUztI4Lx-fQ ### More info * For repo mirroring for CI purposes follow https://gitlab.com/gitlab-org/gitlab/-/issues/237891
+Microsoft Learn
+learn.microsoft.com
+› en-us  › answers  › questions  › 2262355  › git-clone-speed-very-slow
+Git clone speed very slow - Microsoft Q&A
+30 April 2025 -
+These mirrors can sync with the main server on a regular basis. You can also suggest shallow clones for users who don’t need the full commit history. Using something like git clone --depth=1 reduces the amount of data they have to pull.
+OneUptime
+oneuptime.com
+› home  › blog  › how to optimize git repository performance
+How to Optimize Git Repository Performance
+24 January 2026 -
+# Run garbage collection to pack loose objects git gc # Aggressive garbage collection (slower but more thorough) git gc --aggressive # Prune unreachable objects git gc --prune=now # Check repository size before and after du -sh .git # Before: 2.1G # After: 850M ... # Enable background maintenance git maintenance start # This schedules regular tasks: # - Hourly: prefetch from remotes and commit-graph updates # - Daily: loose-object cleanup and incremental repack # - Weekly: pack refs # Check whether maintenance is needed and run it if so git maintenance run --auto # Run specific tasks manually git maintenance run --task=commit-graph git maintenance run --task=prefetch git maintenance run --task=loose-objects git maintenance run --task=incremental-repack
+Lloyd Atkinson
+lloydatkinson.net
+› posts  › 2025  › comparing-git-mirror-options
+Comparing Git Mirror Options - Lloyd Atkinson
+23 March 2025 -
+The final major problem is that it does not seem to update its internal cache of repositories. Despite the mirror script running on its schedule, I expected that if I just left it alone for a while, it might scan for any changes in the repositories. It did not. When I connected to the cgit container shell and ran git log, I could see the latest commits, but they did not show in the UI.
+Reddit
+reddit.com
+› r/ruby  › gitmirror: an application to bulk clone git repositories
+r/ruby on Reddit: GitMirror: an application to bulk clone git repositories
+11 November 2025 -
+Earlier this year there was some unrest over the stability and availability of software supply chains (in general, not so much Ruby): malware, disappearing repositories, undersea-cable vulnerability, geopolitics. It made me realize that virtually all open-source software I rely on, like ruby and gems, is hosted by a single overseas party (I live in Europe). For me as a Ruby / Rails software developer it is vital that access to source code is always available. How to protect against potential outages?
+First I wrote some Ruby scripts to list and clone public Git repositories from github and gitlab. Later I converted this to a Rails application. Then other work got in the way. Finished the application during the last couple of weeks. I found that in the mean time other people had the same idea and did a much better job than I did. But since it is finished why not share it anyway.
+My application GitMirror lets you clone git repositories in bulk to a local machine. You can provide a list of repository names or git user names (like
+ruby/*
+). The app will fetch the repositories and keep them up to date. Uses Rails 8.1, SolidQueue, Rails authentication generator, Tailwind and SQLite.
+I learned a few things along the way:
+Because I wanted the app to be deployable both from a Docker image and via Kamal, some tweaks were needed. Rails credentials are a no-go, so where to put the 'secret_key_base' and admin user name/pwd. The answer lies in environment variables and local (git/docker ignored) files.
+To get a list of the most used Ruby gems, I downloaded a copy of the Rubygems database and wrote a query to list the gem name and the probable location of the source code. Turns out there is a mismatch between rubygem data and actual location of the repo. Of ~8000 gems (with 1 million+ downloads and with a url for the git repository) about 9% of the repositories are redirected to a new location. I guess gemspec files are not always kept up to date.
+My instance of GitMirror has been running happily for 7 months. It currently holds 9,302 cloned repositories using under 80Gb of storage. The average size of a (zipped) repository is about 7.5Mb
+P.S. Just to be clear, this post has nothing to do with the recent rubygems upheaval. This application was created 6 months earlier.
+Top answer
+1 of 1
+3
+> P.S. Just to be clear, this post has nothing to do with the recent rubygems upheaval. This application was created 6 months earlier. Got it! So you created the app 7 months, aligned the stars to cause rubygems drama 3 months ago. then released this now. --- As for the 9% that changed location. This can be explained: sometime when gem blow up in usage, we transfer to the proper organization and forget to update  gemspec. Organizations allow more have teams and more granual permissions. --- did you consider to hook it up to local gitea or gitlab ?
+Super User
+superuser.com
+› questions  › 1726742  › git-remote-update-not-working
+linux - git remote update not working - Super User
+Top answer
+1 of 1
+1
+I had the same issue and finally resolved it. This is by no means a complete and comprehensive answer but thought I would share my solution. In my case when I first cloned the source repository apparently I used
+git clone --bare ...
+instead of
+git clone --mirror ...
+. The net result was a local config file that looked like this:
+$ cd test_repo.git
+$ cat config
+[core]
+    repositoryformatversion = 0
+    filemode = true
+    bare = true
+[remote "origin"]
+    url = https://example.com/test_repo.git
+Using
+git clone --mirror ...
+the config file looks like this and
+git remote update
+works now.
+$ cd test_repo.git
+$ cat config
+[core]
+    repositoryformatversion = 0
+    filemode = true
+    bare = true
+[remote "origin"]
+    url = https://example.com/test_repo.git
+    fetch = +refs/*:refs/*
+    mirror = true
+Stack Overflow
+stackoverflow.com
+› questions  › 3313908  › git-is-really-slow-for-100-000-objects-any-fixes
+performance - Git is really slow for 100,000 objects. Any fixes? - Stack Overflow
+Top answer
+1 of 11
+39
+It came down to a couple of items that I can see right now.
+git gc --aggressive
+Opening up file permissions to
+777
+There has to be something else going on, but this was the things that clearly made the biggest impact.
+2 of 11
+24
+git status has to look at every file in the repository every time.  You can tell it to stop looking at trees that you aren't working on with
+git update-index --assume-unchanged <trees to skip>
+source
+From the manpage:
+When these flags are specified, the
+object names recorded for the paths
+are not updated. Instead, these
+options set and unset the "assume
+unchanged" bit for the paths. When the
+"assume unchanged" bit is on, git
+stops checking the working tree files
+for possible modifications, so you
+need to manually unset the bit to tell
+git when you change the working tree
+file. This is sometimes helpful when
+working with a big project on a
+filesystem that has very slow lstat(2)
+system call (e.g. cifs).
+This option can be also used as a
+coarse file-level mechanism to ignore
+uncommitted changes in tracked files
+(akin to what .gitignore does for
+untracked files). Git will fail
+(gracefully) in case it needs to
+modify this file in the index e.g.
+when merging in a commit; thus, in
+case the assumed-untracked file is
+changed upstream, you will need to
+handle the situation manually.
+Many operations in git depend on your
+filesystem to have an efficient
+lstat(2) implementation, so that
+st_mtime information for working tree
+files can be cheaply checked to see if
+the file contents have changed from
+the version recorded in the index
+file. Unfortunately, some filesystems
+have inefficient lstat(2). If your
+filesystem is one of them, you can set
+"assume unchanged" bit to paths you
+have not changed to cause git not to
+do this check. Note that setting this
+bit on a path does not mean git will
+check the contents of the file to see
+if it has changed — it makes git to
+omit any checking and assume it has
+not changed. When you make changes to
+working tree files, you have to
+explicitly tell git about it by
+dropping "assume unchanged" bit,
+either before or after you modify
+them.
+...
+In order to set "assume unchanged"
+bit, use --assume-unchanged option. To
+unset, use --no-assume-unchanged.
+The command looks at core.ignorestat
+configuration variable. When this is
+true, paths updated with git
+update-index paths… and paths updated
+with other git commands that update
+both index and working tree (e.g. git
+apply --index, git checkout-index -u,
+and git read-tree -u) are
+automatically marked as "assume
+unchanged". Note that "assume
+unchanged" bit is not set if git
+update-index --refresh finds the
+working tree file matches the index
+(use git update-index --really-refresh
+if you want to mark them as "assume
+unchanged").
+Now, clearly, this solution is only going to work if there are parts of the repo that you can conveniently ignore.  I work on a project of similar size, and there are definitely large trees that I don't need to check on a regular basis.  The semantics of git-status make it a generally O(n) problem (n in number of files).  You need domain specific optimizations to do better than that.
+Note that if you work in a stitching pattern, that is, if you integrate changes from upstream by merge instead of rebase, then this solution becomes less convenient, because a change to an --assume-unchanged object merging in from upstream becomes a merge conflict.  You can avoid this problem with a rebasing workflow.
+GitLab
+docs.gitlab.com
+› gitlab docs  › use gitlab  › manage your code  › repositories  › mirroring  › troubleshooting
+Troubleshooting repository mirroring | GitLab Docs
+Select the warning text to go to the Mirroring repositories settings. Next to the affected repository, GitLab displays an Error badge. To view the error message, hover over the badge. Error messages include specific details for common issues like authentication failures or divergent branches
+.
+GitLab
+about.gitlab.com
+› blog  › engineering  › future-proofing git repository maintenance
+Future-proofing Git repository maintenance
+20 March 2023 -
+To ensure that Git repositories remain performant, Git regularly runs a set of maintenance tasks. On the client side, this usually happens by automatically running git-gc(1) periodically, which: Compresses revisions into a packed-refs file. Compresses objects into packfiles. Prunes objects that aren't reachable by any of the revisions and that have not been used for a while. Generates and updates data structures like commit-graphs that help to speed up queries against the Git repository.
+Next
+Resources
+Brave Search Premium
+Brave Search help
+Transparency report
+Report a security issue
+Status
+Products
+Brave Browser
+Brave Search
+Brave Wallet
+Brave Talk
+Brave Firewall + VPN
+Brave Playlist
+Brave News
+Brave Rewards
+Brave Search API
+Brave Ads
+Policies
+Privacy Policy
+Terms of Use

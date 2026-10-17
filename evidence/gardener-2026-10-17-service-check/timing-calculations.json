@@ -1,0 +1,56 @@
+[
+  {
+    "id": "r1-orgmode",
+    "start_utc": "2026-10-17T02:53:05.185254+00:00",
+    "finish_utc": "2026-10-17T02:53:05.902452+00:00",
+    "http_status": "200",
+    "total_seconds": "0.708186",
+    "pretransfer_to_first_byte_seconds": "0.399846",
+    "first_byte_to_finish_seconds": "0.000786"
+  },
+  {
+    "id": "r1-emacs",
+    "start_utc": "2026-10-17T02:53:05.904332+00:00",
+    "finish_utc": "2026-10-17T02:53:06.365727+00:00",
+    "http_status": "500",
+    "total_seconds": "0.438987",
+    "pretransfer_to_first_byte_seconds": "0.180774",
+    "first_byte_to_finish_seconds": "0.000559"
+  },
+  {
+    "id": "r1-guix",
+    "start_utc": "2026-10-17T02:53:06.367031+00:00",
+    "finish_utc": "2026-10-17T02:53:06.773020+00:00",
+    "http_status": "500",
+    "total_seconds": "0.382580",
+    "pretransfer_to_first_byte_seconds": "0.125233",
+    "first_byte_to_finish_seconds": "0.000739"
+  },
+  {
+    "id": "r2-orgmode",
+    "start_utc": "2026-10-17T02:53:06.774912+00:00",
+    "finish_utc": "2026-10-17T02:53:34.243458+00:00",
+    "http_status": "200",
+    "total_seconds": "27.443937",
+    "pretransfer_to_first_byte_seconds": "27.101587",
+    "first_byte_to_finish_seconds": "0.001032"
+  },
+  {
+    "id": "r2-emacs",
+    "start_utc": "2026-10-17T02:53:34.245270+00:00",
+    "finish_utc": "2026-10-17T02:53:34.678395+00:00",
+    "http_status": "500",
+    "total_seconds": "0.410337",
+    "pretransfer_to_first_byte_seconds": "0.140764",
+    "first_byte_to_finish_seconds": "0.000728"
+  },
+  {
+    "id": "r2-guix",
+    "start_utc": "2026-10-17T02:53:34.680339+00:00",
+    "finish_utc": "2026-10-17T02:54:00.252646+00:00",
+    "http_status": "500",
+    "total_seconds": "25.547490",
+    "pretransfer_to_first_byte_seconds": "25.291933",
+    "first_byte_to_finish_seconds": "0.000595"
+  }
+]

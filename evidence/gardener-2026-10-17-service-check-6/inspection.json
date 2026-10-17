@@ -1,0 +1,68 @@
+{
+  "old_id": "e8934baf182872c599b0834cf6a0dfdaad3e6f1f",
+  "new_id": "9d4d2f6aa7c12b4b2f04235a2043a5c82abf1ff5",
+  "same_reference_names": true,
+  "same_capabilities": true,
+  "id_substitution_explains_all_changed_bytes": true,
+  "new_orgmode_sha256": "76773b585b6a8767bfe5afd25d547119332501baedd3eb9f6582d1bcec8823d7",
+  "same_path_gap_seconds": 11509.914646,
+  "collection_span_seconds": 129.561243,
+  "completed_transfer_times_seconds": [
+    0.771024,
+    42.57331,
+    40.991552
+  ],
+  "timed_out_operation_seconds": [
+    45.145394
+  ],
+  "body_comparisons": [
+    {
+      "id": "r1-orgmode",
+      "body_present": true,
+      "body_equal_to_previous": false
+    },
+    {
+      "id": "r1-emacs",
+      "body_present": true,
+      "body_equal_to_previous": true
+    },
+    {
+      "id": "r1-guix",
+      "body_present": true,
+      "body_equal_to_previous": true
+    },
+    {
+      "id": "r2-orgmode",
+      "body_present": false,
+      "body_equal_to_previous": null
+    }
+  ],
+  "client_milestone_differences": [
+    {
+      "id": "r1-orgmode",
+      "pretransfer_to_first_byte_seconds": 0.535044,
+      "pretransfer_to_stop_seconds": 0.535842
+    },
+    {
+      "id": "r1-emacs",
+      "pretransfer_to_first_byte_seconds": 42.221314,
+      "pretransfer_to_stop_seconds": 42.222351
+    },
+    {
+      "id": "r1-guix",
+      "pretransfer_to_first_byte_seconds": 40.736938,
+      "pretransfer_to_stop_seconds": 40.7374
+    },
+    {
+      "id": "r2-orgmode",
+      "pretransfer_to_first_byte_seconds": null,
+      "pretransfer_to_stop_seconds": 44.891925
+    }
+  ],
+  "table_rows": [
+    "| [r1-orgmode](r1-orgmode.json) | 19:10:40.785429 | 19:10:41.565135 | 200 | 0 | 370 | 0.771024 |",
+    "| [r1-emacs](r1-emacs.json) | 19:10:41.567041 | 19:11:24.163891 | 500 | 0 | 21 | 42.573310 |",
+    "| [r1-guix](r1-guix.json) | 19:11:24.165452 | 19:12:05.178022 | 500 | 0 | 21 | 40.991552 |",
+    "| [r2-orgmode](r2-orgmode.json) | 19:12:05.179399 | 19:12:50.346672 | none | 28 | not received | 45.145394 |"
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "kind": "ad-hoc verification, not a canonical project suite or independent review",
+  "verified_utc": "2026-10-17T12:53:52.103894+00:00",
+  "python": "3.9.6",
+  "temporary_script": "/private/var/folders/bg/v8wn0t11067f0hzxkz7hp7rr0000gn/T/hermes-verify-7cktmmrz.py",
+  "temporary_script_sha256": "9b48e7e45a703568393b35f33e49bbef59201331e62c1fe66da9c9e787db97da",
+  "tested_script_sha256": {
+    "collect.py": "522989a30552ddd93dfe2039c89c1d4da17f3736958e0f5049c9e96f0bd7b00e",
+    "inspect.py": "86731265b4146cd5c6ac77f469dee00d777b8a9b60ec41b2f1612d034ea6c2b5",
+    "research.py": "b1b5a39c7f770662a407baaf4fd76b3f82d369a1590ab23b16ca3b05db8f1903",
+    "verify.py": "6e35e4f8eaf19cf3370b7dd5effe144f63e59efd3b7e9bd0893ff3ba74f4cd30"
+  },
+  "status": "pass",
+  "tests_run": 15,
+  "failures": 0,
+  "errors": 0,
+  "network_sockets_blocked": true,
+  "external_process_creation_blocked": true,
+  "live_requests_made": 0,
+  "retained_files_unchanged": true,
+  "fixture_directories_cleaned": true,
+  "limits": "Captured responses replayed under mocks; timeout and rate-limit cases are explicitly synthetic. Via inspection remains a narrow token test.",
+  "test_log": "test_01_syntax (__main__.ChangedBehavior) ... ok\ntest_02_collector_replays_six_captures_and_fences_repeat (__main__.ChangedBehavior) ... ok\ntest_03_collector_stops_on_synthetic_transport_failure (__main__.ChangedBehavior) ... ok\ntest_04_collector_before_guard_precedes_execution (__main__.ChangedBehavior) ... ok\ntest_05_research_replays_four_sources_and_fences_repeat (__main__.ChangedBehavior) ... ok\ntest_06_research_keeps_rate_limit_and_timeout_without_retry (__main__.ChangedBehavior) ... ok\ntest_07_research_requires_a_collection_manifest (__main__.ChangedBehavior) ... ok\ntest_08_inspection_replays_real_bytes_and_preserves_order (__main__.ChangedBehavior) ... ok\ntest_09_token_characters_match_declared_ascii_boundary (__main__.ChangedBehavior) ... ok\ntest_10_inspection_rejects_out_of_scope_list_port_and_corrupt_packet (__main__.ChangedBehavior) ... ok\ntest_11_inspection_refuses_to_overwrite_existing_receipt (__main__.ChangedBehavior) ... ok\ntest_12_actual_final_verifier_passes_without_writing (__main__.ChangedBehavior) ... ok\ntest_13_verifier_rejects_in_memory_corruptions (__main__.ChangedBehavior) ... ok\ntest_14_verifier_rejects_outside_path_and_symlink (__main__.ChangedBehavior) ... ok\ntest_15_verifier_entrypoint_preserves_existing_final_receipt (__main__.ChangedBehavior) ... ok\n\n----------------------------------------------------------------------\nRan 15 tests in 0.493s\n\nOK\n"
+}

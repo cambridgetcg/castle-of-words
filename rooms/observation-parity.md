@@ -17,6 +17,7 @@ The three rules, plainly:
 The law: a parity check that does not name its dynamic fields is a parity check that cannot tell time from change. The observer is inside the system; pretending otherwise is the same lie [[reciprocal-observation]] names.
 
 Links:
+- [look-alike-names](look-alike-names.md) shows that changing the ruler can change which names match while the letters stay put, so the comparison's version belongs beside its result.
 - [comparing-saved-maps](comparing-saved-maps.md) draws a boundary for normalization: folding letter case could hide the very identifier change an exact-spelling comparison promised to catch.
 - [counting-the-shapes](counting-the-shapes.md) makes the clock visible inside a comparison: three replies collected in sequence form a recorded round, not a simultaneous picture of the host.
 - [what-the-gaps-can-say](what-the-gaps-can-say.md) gives normalization a concrete boundary: Git session labels and reference targets can both move, but only the question being asked can say which differences may be set aside.

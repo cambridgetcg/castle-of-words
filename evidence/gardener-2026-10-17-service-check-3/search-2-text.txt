@@ -1,0 +1,152 @@
+git protocol reference advertisement object-id refname capabilities - Brave Search
+Ask
+All
+Images
+News
+Videos
+Maps
+Goggles
+More
+Git
+git-scm.com
+› docs  › protocol-v2
+Git - protocol-v2 Documentation
+If the unborn feature is advertised the following argument can be included in the client’s request. unborn The server will send information about HEAD even if it is a symref pointing to an unborn branch in the form "unborn HEAD symref-target:<target>". ... output = *ref flush-pkt obj-id-or-unborn = (obj-id | "unborn") ref = PKT-LINE(obj-id-or-unborn SP refname *(SP ref-attribute) LF) ref-attribute = (symref | peeled) symref = "symref-target:" symref-target peeled = "peeled:" obj-id
+Git
+git-scm.com
+› docs  › http-protocol
+Git - http-protocol Documentation
+any_ref = obj-id HTAB refname LF peeled_ref = obj-id HTAB refname LF obj-id HTAB refname "^{}" LF · HTTP clients that support the "smart" protocol (or both the "smart" and "dumb" protocols) MUST discover references by making a parameterized request for the info/refs file of the repository.
+Videos
+youtube.com
+What is GIT Protocol | GIT | GITHUB | DevOps Online Training ...
+09:47
+YouTube
+Git protocols: still tinkering after all these years? - Git Merge ...
+13 March 2019
+04:15
+YouTube
+How to Set Up a Local Protocol Git Server - YouTube
+1 October 2019
+View all
+View all
+Git
+git-scm.com
+› docs  › gitprotocol-v2
+Git - gitprotocol-v2 Documentation
+Easily extendable as capabilities are moved into their own section of the protocol, no longer being hidden behind a NUL byte and limited by the size of a pkt-line · Separate out other information hidden behind NUL bytes (e.g. agent string as a capability and symrefs can be requested using ls-refs) Reference advertisement will be omitted unless explicitly requested
+Simon Tatham
+chiark.greenend.org.uk
+› doc  › git-doc  › technical  › protocol-v2.html
+Git Wire Protocol, Version 2
+8 March 2021 -
+Additional features not supported in the base command will be advertised as the value of the command in the capability advertisement in the form of a space separated list of features: "<command>=<feature 1> <feature 2>" ... symrefs In addition to the object pointed by it, show the underlying ref pointed by it when showing a symbolic ref. peel Show peeled tags. ref-prefix <prefix> When specified, only references having a prefix matching one of the provided prefixes are displayed. ... output = *ref flush-pkt ref = PKT-LINE(obj-id SP refname *(SP ref-attribute) LF) ref-attribute = (symref | peeled) symref = "symref-target:" symref-target peeled = "peeled:" obj-id
+MIT
+web.mit.edu
+› git  › www  › gitprotocol-v2.html
+gitprotocol-v2(5)
+The server will send a ref listing ("<oid> <refname>") for each reference requested using want-ref lines
+. The server MUST NOT send any refs which were not requested using want-ref lines. packfile-uris section * This section is only included if the client sent 'packfile-uris' and the server ...
+Ubuntu
+manpages.ubuntu.com
+› stonking  › man(5)
+Ubuntu Manpage: gitprotocol-v2 - Git Wire Protocol, Version 2
+If the unborn feature is advertised the following argument can be included in the client’s request. unborn The server will send information about HEAD even if it is a symref pointing to an unborn branch in the form "unborn HEAD symref-target:<target>". ... output = *ref flush-pkt obj-id-or-unborn = (obj-id | "unborn") ref = PKT-LINE(obj-id-or-unborn SP refname *(SP ref-attribute) LF) ref-attribute = (symref | peeled) symref = "symref-target:" symref-target peeled = "peeled:" obj-id
+GitHub
+github.com
+› git  › git  › commit  › 0cd83283dfd2a22b3f95cbee6eaef196e6bde77d
+connect: in ref advertisement, shallows are last · git/git@0cd8328
+27 September 2017 -
+struct object_id old_oid; 170 · + const char *name; 171 · + 172 · + if (parse_oid_hex(packet_buffer, &old_oid, &name)) 173 · + return 0; 174 · + if (*name != ' ') 175 · + return 0; 176 · + name++; 177 · + 178 · + if (extra_have && !strcmp(name, ".have")) { 179 · + oid_array_append(extra_have, &old_oid); 180 · + } else if (!strcmp(name, "capabilities^{}")) { 181 · + die("protocol error: unexpected capabilities^{}"); 182 ·
+Author:
+git
+Git
+git-scm.com
+› docs  › gitprotocol-http
+Git - gitprotocol-http Documentation
+any_ref = obj-id HTAB refname LF peeled_ref = obj-id HTAB refname LF obj-id HTAB refname "^{}" LF · HTTP clients that support the "smart" protocol (or both the "smart" and "dumb" protocols) MUST discover references by making a parameterized request for the info/refs file of the repository.
+Chedong
+chedong.com
+› phpMan.php  › man  › GITPROTOCOL-V2  › 5
+GITPROTOCOL-V2 - Git Wire Protocol, Version 2 - man(5) - [phpMan]
+2 days ago -
+unborn feature is advertised the following argument can be included in the client’s request. unborn The server will send information about HEAD even if it is a symref pointing to an unborn branch in the form "unborn HEAD symref-target:<target>". The output of ls-refs is as follows: output = *ref flush-pkt obj-id-or-unborn = (obj-id | "unborn") ref = PKT-LINE(obj-id-or-unborn SP refname *(SP ref-attribute) LF) ref-attribute = (symref | peeled) symref = "symref-target:" symref-target peeled = "peeled:" obj-id fetch fetch is the command used to fetch a packfile in v2.
+Find elsewhere
+Google
+Bing
+Mojeek
+Git
+git-scm.com
+› docs  › protocol-capabilities
+Git - protocol-capabilities Documentation
+The decision for a client to request include-tag only has to do with the client’s desires for tag data, whether or not a server had advertised objects in the refs/tags/* namespace. Servers MUST pack the tags if their referrant is packed and the client has requested include-tags.
+Manpagez
+manpagez.com
+› man  › 5  › gitprotocol-v2  › gitprotocol-v2-2.56.0.php
+man page gitprotocol-v2 section 5
+When first contacting a server a list of capabilities will be advertised. Some of these capabilities will be
+commands which a client can request be executed
+. Once a command has completed, a client can reuse the connection and request that other commands be executed.
+Scott Chacon
+scottchacon.com
+› 2026  › 07  › 29  › git-wire-protocol-v2
+Git Wire Protocol v2: A Deep Dive - Scott Chacon
+29 July 2026 -
+What it had then is now referred to as the “dumb” protocol, just serving static files directly over HTTP. In December of 2009, Git 1.6.6 landed with the first “smart” HTTP protocol - a CGI script you could load into Apache or whatever to handle ref advertisement and object negotiation via the same git-upload-pack and git-receive-pack binaries that SSH runs via git-shell for communication.
+FreeBSD
+man.freebsd.org
+› cgi  › man.cgi
+gitprotocol-v2(5) - macOS 13.6.5 Manual Pages
+*
+The server will send a ref listing ("<oid> <refname>") for each refer- ence requested using want-ref lines
+. * The server MUST NOT send any refs which were not requested using want-ref lines. packfile-uris section * This section is only included ...
+Git
+git-scm.com
+› docs  › pack-protocol
+Git - pack-protocol Documentation
+Once the client knows what references the server is at, it can send a list of reference update requests
+. For each reference on the server that it wants to update, it sends a line listing the obj-id currently on the server, the obj-id the client would like to update it to and the name of the ...
+Google Open Source
+opensource.googleblog.com
+› 2018  › 05  › introducing-git-protocol-version-2.html
+Introducing Git protocol version 2 | Google Open Source Blog
+18 May 2018 -
+We recently rolled out support for protocol version 2 at Google and have seen a performance improvement of 3x for no-op fetches of a single branch on repositories containing 500k references. Protocol v2 has also enabled a reduction of 8x of the overhead bytes (non-packfile) sent from googlesource.com servers. A majority of this improvement is due to filtering references advertised by the server to the refs the client has expressed interest in.
+Git
+git-scm.com
+› docs  › gitprotocol-capabilities
+Git - gitprotocol-capabilities Documentation
+As a consequence of these rules, server MUST NOT advertise capabilities it does not understand. The atomic, report-status, report-status-v2, delete-refs, quiet, and push-cert capabilities are sent and recognized by the receive-pack (push to server) process. The ofs-delta and side-band-64k capabilities are sent and recognized by both upload-pack and receive-pack protocols. The agent and session-id capabilities may optionally be sent in both protocols.
+Public-inbox
+public-inbox.org
+› git  › d0d42b3bb4cf755f122591e191354c53848f197d.1485381677.git.jonathantanmy@google.com
+[RFC 02/14] upload-pack: allow ref name and glob requests - Jonathan Tan
+25 January 2017 -
+@@ -943,6 +1008,8 @@ static int send_ref(const char *refname, const struct object_id *oid, (allow_unadvertised_object_request & ALLOW_REACHABLE_SHA1) ? " allow-reachable-sha1-in-want" : "", stateless_rpc ? " no-done" : "", + advertise_ref_in_want ? + " ref-in-want" : "", symref_info.buf, git_user_agent_sanitized()); strbuf_release(&symref_info); @@ -975,6 +1042,7 @@ static int find_symref(const char *refname, const struct object_id *oid, static void upload_pack(void) { struct string_list symref = STRING_LIST_INIT_DUP; + struct string_list wanted_ns_refs = STRING_LIST_INIT_DUP; head_ref_namespa
+Linux Kernel
+kernel.org
+› pub  › software  › scm  › git  › docs  › gitprotocol-capabilities.html
+gitprotocol-capabilities(5)
+20 June 2025 -
+The decision for a client to request include-tag only has to do with the client’s desires for tag data, whether or not a server had advertised objects in the refs/tags/* namespace. Servers MUST pack the tags if their referent is packed and the client has requested include-tags.
+Next
+Resources
+Brave Search Premium
+Brave Search help
+Transparency report
+Report a security issue
+Status
+Products
+Brave Browser
+Brave Search
+Brave Wallet
+Brave Talk
+Brave Firewall + VPN
+Brave Playlist
+Brave News
+Brave Rewards
+Brave Search API
+Brave Ads
+Policies
+Privacy Policy
+Terms of Use

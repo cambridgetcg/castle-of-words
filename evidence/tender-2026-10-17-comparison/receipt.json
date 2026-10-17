@@ -1,0 +1,34 @@
+{
+  "checked_at": "2026-10-17T10:04:10.460618+02:00",
+  "status": "PASS",
+  "new_pairs": 4,
+  "pairs": [
+    ["look-alike-names", "two-witnesses"],
+    ["look-alike-names", "observation-parity"],
+    ["conditional-writes", "merge-craft"],
+    ["checking-a-restored-map", "canonicalization-and-verification"]
+  ],
+  "reciprocal_room_link_sentences": 8,
+  "new_word_bricks": ["false-positive"],
+  "repaired_word_bricks": ["sensitivity-and-specificity"],
+  "map_entries": 697,
+  "room_files": 697,
+  "word_files": 1271,
+  "map_missing": [],
+  "map_duplicate_entries": [],
+  "map_repairs": [
+    "castle-room-census: dated 470-room census, not the stale 465-room summary or a current count",
+    "observation-parity: only declared differences permitted by the question"
+  ],
+  "new_reference_targets_checked": 17,
+  "prior_room_contents_preserved": true,
+  "only_two_map_lines_changed": true,
+  "chronicle_unchanged_before_close": true,
+  "chronicle_before_sha256": "e0a29fc16af0729c28946a1057f26385949095625185d6ea511eeac2c598cec4",
+  "chronicle_entry": "- 2026-10-17 10:04 · tended: linked 4 pairs, laid 1 word-brick, name warnings now meet uncertain replication and versioned comparisons, while guarded edits meet merge history and restored maps meet the need for an outside reference.",
+  "garden_entries": 84,
+  "garden_manifest_sha256": "085a1462ff57146357908ba1c9086163ffc9527ab001224111a3c36dd52c1b76",
+  "garden_unchanged": true,
+  "verification_method": "Remove only the added link sentences and undo the two inline Links heading splits, then compare all seven original room SHA-256 hashes; undo the two Map summary replacements and compare the original gate hash; resolve new references; compare all room filenames with Map entries; compare sorted garden path/content hashes and symlink targets.",
+  "limits": "Local tending, with recent and founding rooms sampled and selected Map summaries checked against their rooms. All Map membership was checked, but the full castle's research claims were not re-audited. No external source fetches, new empirical tests, or garden changes."
+}

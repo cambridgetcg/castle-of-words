@@ -1,0 +1,20 @@
+{
+  "kind": "ad-hoc verification refresh, not a canonical project suite or independent review",
+  "verified_utc": "2026-10-17T12:55:52.831253+00:00",
+  "status": "pass",
+  "tests_run": 8,
+  "failures": 0,
+  "errors": 0,
+  "prior_15_test_receipt": "ad-hoc-verification.json",
+  "tested_script_sha256": {
+    "collect.py": "522989a30552ddd93dfe2039c89c1d4da17f3736958e0f5049c9e96f0bd7b00e",
+    "inspect.py": "86731265b4146cd5c6ac77f469dee00d777b8a9b60ec41b2f1612d034ea6c2b5",
+    "research.py": "b1b5a39c7f770662a407baaf4fd76b3f82d369a1590ab23b16ca3b05db8f1903",
+    "verify.py": "6e35e4f8eaf19cf3370b7dd5effe144f63e59efd3b7e9bd0893ff3ba74f4cd30"
+  },
+  "retained_files_unchanged": true,
+  "staging_file_absent": true,
+  "live_requests_made": 0,
+  "temporary_script": "/private/var/folders/bg/v8wn0t11067f0hzxkz7hp7rr0000gn/T/hermes-verify-r4hvit4r.py",
+  "test_log": "test_01_syntax_hashes_and_deleted_staging (__main__.Refresh) ... ok\ntest_02_current_workspace_verifier (__main__.Refresh) ... ok\ntest_03_inspection_recomputed_from_captures (__main__.Refresh) ... ok\ntest_04_all_entrypoint_repeat_guards (__main__.Refresh) ... ok\ntest_05_reject_corrupted_capture (__main__.Refresh) ... ok\ntest_06_reject_duplicate_map_entry (__main__.Refresh) ... ok\ntest_07_reject_second_chronicle_line (__main__.Refresh) ... ok\ntest_08_reject_outside_root (__main__.Refresh) ... ok\n\n----------------------------------------------------------------------\nRan 8 tests in 0.234s\n\nOK\n"
+}
