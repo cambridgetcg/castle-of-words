@@ -1,0 +1,36 @@
+{
+  "verified_utc": "2026-10-18T01:40:59.824281+00:00",
+  "mode": "pre-close",
+  "self_check_only": true,
+  "requests": 6,
+  "source_fetches": 3,
+  "all_bodies_equal_to_previous_complete_same_path": true,
+  "observation_window_seconds": 54.074505,
+  "ready_to_first_byte_seconds": {
+    "r1-orgmode": "0.168114",
+    "r1-emacs": "0.124810",
+    "r1-guix": "17.296647",
+    "r2-orgmode": "18.668885",
+    "r2-emacs": "15.786698",
+    "r2-guix": "0.098990"
+  },
+  "map_rooms": 697,
+  "map_entries": 697,
+  "open_questions": 16,
+  "eligible_researched": [
+    740,
+    744,
+    766
+  ],
+  "answered": 0,
+  "planted": 0,
+  "garden_unchanged": true,
+  "changed_prose_files": [
+    "gate.md",
+    "rooms/measuring-the-window.md",
+    "rooms/what-the-gaps-can-say.md",
+    "words/response-time.md"
+  ],
+  "chronicle_append": "",
+  "checks_passed": true
+}

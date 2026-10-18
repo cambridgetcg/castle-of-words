@@ -1,0 +1,17 @@
+{
+  "verification_kind": "ad-hoc, not canonical suite",
+  "started_utc": "2026-10-18T01:45:48.667596+00:00",
+  "finished_utc": "2026-10-18T01:45:48.729015+00:00",
+  "script": "/var/folders/bg/v8wn0t11067f0hzxkz7hp7rr0000gn/T/hermes-verify-jrczcwo5.py",
+  "source_sha256": {
+    "/Users/yu/castle/evidence/gardener-2026-10-18-service-check-2/collect.py": "e85c3641263753c4d9f365b08ec94b05b0267a4d875bd70db98b29203eeeff70",
+    "/Users/yu/castle/evidence/gardener-2026-10-18-service-check-2/research.py": "bffaf901fb65c700b5e716d96c2622dd61a9485b1c5b0a9f7c4e1e56de9b1603",
+    "/Users/yu/castle/evidence/gardener-2026-10-18-service-check-2/verify.py": "9e0c629c29ae4664b305e9481eb26c87a670a2887061dd120b046ec154532ba0"
+  },
+  "tests_run": 6,
+  "failures": 0,
+  "errors": 0,
+  "passed": true,
+  "network_requests_repeated": 0,
+  "existing_evidence_unchanged": true
+}

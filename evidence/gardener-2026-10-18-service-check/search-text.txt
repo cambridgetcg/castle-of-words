@@ -1,0 +1,45 @@
+"yhetil.org" slow Git mirror - Brave Search
+Ask
+All
+Images
+News
+Videos
+Maps
+Goggles
+Query contains
+search operators
+Ignore operators
+GNU
+lists.gnu.org
+› archive  › html  › help-guix  › 2025-02  › msg00153.html
+Re: ownership of the yhetil.org service ?
+[*] Here's a post where I demonstrate how to use grokmirror to mirror all Guix-related inboxes from yhetil.org: https://yhetil.org/guix/878scww903.fsf@kyleam.com/ What to expect size-wise (these aren't freshly packed): $ du -sh guix-*/git/* gwl/git/* 492M guix-bugs/git/0.git 223M guix-devel/git/0.git 481M guix-patches/git/1.git 2.1M guix-science/git/0.git 135M guix-user/git/0.git 1.2M gwl/git/0.git As a side remark: I think this message stems from bug#76119 proposing to mention yhetil.org in the Contributing section of the manual and a reply saying (<https://yhetil.org/guix/87bjv7h2a3.fsf@gmail.com>): Without that knowledge, it just feels a little odd for the Guix project to officially trust and recommend the use of this particular online service.
+Yhetil
+yhetil.org
+unofficially hosted mirrors at yhetil.org
+unofficially hosted mirrors at yhetil.org These archives are created with public-inbox (<https://public-inbox.org/README>).
+Find elsewhere
+Google
+Bing
+Mojeek
+Next
+Resources
+Brave Search Premium
+Brave Search help
+Transparency report
+Report a security issue
+Status
+Products
+Brave Browser
+Brave Search
+Brave Wallet
+Brave Talk
+Brave Firewall + VPN
+Brave Playlist
+Brave News
+Brave Rewards
+Brave Search API
+Brave Ads
+Policies
+Privacy Policy
+Terms of Use

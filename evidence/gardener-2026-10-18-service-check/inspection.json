@@ -1,0 +1,140 @@
+{
+  "orgmode_old_id": "9d4d2f6aa7c12b4b2f04235a2043a5c82abf1ff5",
+  "orgmode_new_id": "fffa58637c7f24f10d33437a6ef7acd1dd2498df",
+  "same_names": true,
+  "same_capabilities": true,
+  "only_id_replacement": true,
+  "orgmode_bodies_match_within_visit": true,
+  "new_orgmode_sha256": "605646c0024594e24923eb9d26c1e05deff7a43631720761df196ba6df45a5d9",
+  "intervals": {
+    "comparisons": [
+      {
+        "id": "r1-orgmode",
+        "previous_complete_capture": "evidence/gardener-2026-10-17-service-check-6/r1-orgmode.json",
+        "body_equal_to_previous": false,
+        "parsed": {
+          "references": {
+            "HEAD": "fffa58637c7f24f10d33437a6ef7acd1dd2498df",
+            "refs/heads/master": "fffa58637c7f24f10d33437a6ef7acd1dd2498df"
+          },
+          "capabilities": [
+            "multi_ack",
+            "thin-pack",
+            "side-band",
+            "side-band-64k",
+            "ofs-delta",
+            "shallow",
+            "deepen-since",
+            "deepen-not",
+            "deepen-relative",
+            "no-progress",
+            "include-tag",
+            "multi_ack_detailed",
+            "no-done",
+            "symref=HEAD:refs/heads/master",
+            "object-format=sha1",
+            "agent=git/2.39.5"
+          ],
+          "packet_count": 5
+        },
+        "parse_problem": null
+      },
+      {
+        "id": "r1-emacs",
+        "previous_complete_capture": "evidence/gardener-2026-10-17-service-check-6/r1-emacs.json",
+        "body_equal_to_previous": true,
+        "parsed": null,
+        "parse_problem": null
+      },
+      {
+        "id": "r1-guix",
+        "previous_complete_capture": "evidence/gardener-2026-10-17-service-check-6/r1-guix.json",
+        "body_equal_to_previous": true,
+        "parsed": null,
+        "parse_problem": null
+      },
+      {
+        "id": "r2-orgmode",
+        "previous_complete_capture": "evidence/gardener-2026-10-17-service-check-6/r1-orgmode.json",
+        "body_equal_to_previous": false,
+        "parsed": {
+          "references": {
+            "HEAD": "fffa58637c7f24f10d33437a6ef7acd1dd2498df",
+            "refs/heads/master": "fffa58637c7f24f10d33437a6ef7acd1dd2498df"
+          },
+          "capabilities": [
+            "multi_ack",
+            "thin-pack",
+            "side-band",
+            "side-band-64k",
+            "ofs-delta",
+            "shallow",
+            "deepen-since",
+            "deepen-not",
+            "deepen-relative",
+            "no-progress",
+            "include-tag",
+            "multi_ack_detailed",
+            "no-done",
+            "symref=HEAD:refs/heads/master",
+            "object-format=sha1",
+            "agent=git/2.39.5"
+          ],
+          "packet_count": 5
+        },
+        "parse_problem": null
+      },
+      {
+        "id": "r2-emacs",
+        "previous_complete_capture": "evidence/gardener-2026-10-17-service-check-6/r1-emacs.json",
+        "body_equal_to_previous": true,
+        "parsed": null,
+        "parse_problem": null
+      },
+      {
+        "id": "r2-guix",
+        "previous_complete_capture": "evidence/gardener-2026-10-17-service-check-6/r1-guix.json",
+        "body_equal_to_previous": true,
+        "parsed": null,
+        "parse_problem": null
+      }
+    ],
+    "observation_window_seconds": 87.064224,
+    "previous_attempt_finish_to_start_seconds": 11517.152413,
+    "previous_complete_orgmode_finish_to_start_seconds": 11645.93395
+  },
+  "table": [
+    "| r1-orgmode | 22:24:47.499085 | 22:25:08.410535 | 200 | 0 | 370 | 20.902406 |",
+    "| r1-emacs | 22:25:08.413317 | 22:25:29.196240 | 500 | 0 | 21 | 20.760580 |",
+    "| r1-guix | 22:25:29.197879 | 22:25:29.700290 | 500 | 0 | 21 | 0.481630 |",
+    "| r2-orgmode | 22:25:29.701454 | 22:25:30.248861 | 200 | 0 | 370 | 0.524748 |",
+    "| r2-emacs | 22:25:30.250998 | 22:25:54.182047 | 500 | 0 | 21 | 23.908954 |",
+    "| r2-guix | 22:25:54.184008 | 22:26:14.563309 | 500 | 0 | 21 | 20.355262 |"
+  ],
+  "pretransfer_to_first_byte_seconds": [
+    {
+      "id": "r1-orgmode",
+      "seconds": "20.576147"
+    },
+    {
+      "id": "r1-emacs",
+      "seconds": "20.466704"
+    },
+    {
+      "id": "r1-guix",
+      "seconds": "0.212430"
+    },
+    {
+      "id": "r2-orgmode",
+      "seconds": "0.282428"
+    },
+    {
+      "id": "r2-emacs",
+      "seconds": "23.668225"
+    },
+    {
+      "id": "r2-guix",
+      "seconds": "20.046010"
+    }
+  ]
+}

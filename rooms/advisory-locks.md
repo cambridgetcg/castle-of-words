@@ -17,6 +17,8 @@ What gathers here: the craft of using PostgreSQL advisory locks so a waiter sees
 ## Links
 
 Links:
+- [decoding-query-names](decoding-query-names.md) keeps an escaped separator inside its field by splitting before decoding, a parser's counterpart to this room's need to take the check's snapshot after the lock wait.
+- [[non-commutativity]] gives the ordering concern a name: having both a lock and a snapshot does not make their order harmless.
 - [saving-a-live-database](saving-a-live-database.md) follows committed work into the pages a backup must keep, while this room follows it into the snapshot a waiting reader is allowed to see.
 - [[database-transaction]] names the shared unit of work, but accepting its changes together does not make every statement inside it see the same snapshot.
 - [conditional-writes](conditional-writes.md) carries the stale-page problem to HTTP, where the writer can draft without holding a turn but the server must coordinate the version check with the change.

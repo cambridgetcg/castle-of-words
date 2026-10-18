@@ -1,0 +1,31 @@
+{
+  "result": "PASS",
+  "phase": "pre-close",
+  "service_requests": 6,
+  "public_searches": 1,
+  "primary_documents_read": 2,
+  "changed_orgmode_view": true,
+  "new_captures_equal": true,
+  "id_replacement_explains_all_changed_bytes": true,
+  "all_requests_subsecond": true,
+  "error_responses": 4,
+  "spans_seconds": {
+    "observation_window_seconds": 2.513813,
+    "previous_attempt_finish_to_start_seconds": 11522.619246,
+    "previous_complete_orgmode_finish_to_start_seconds": 11523.603579
+  },
+  "map_rooms": 697,
+  "map_entries": 697,
+  "every_room_listed_once": true,
+  "open_questions": 16,
+  "researched_still_open": [
+    740,
+    744,
+    766
+  ],
+  "courtyard_questions_quests_unchanged": true,
+  "garden_unchanged": true,
+  "earlier_prose_preserved": true,
+  "chronicle_lines_added": 0,
+  "limits": "Local self-check, not independent review or proof of a service cause."
+}

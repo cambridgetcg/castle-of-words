@@ -1,0 +1,86 @@
+{
+  "verification_kind": "ad-hoc; not a canonical project test suite",
+  "result": "PASS",
+  "checked_utc": "2026-10-18T17:39:03.998359+00:00",
+  "changed_file_sha256": {
+    "evidence/gardener-2026-10-18-service-check-7/collect.py": "e3f13b19b0637339d87c532664be307dc519c141e390ba19924bd42e97f94eed",
+    "evidence/gardener-2026-10-18-service-check-7/research.py": "a193840863f19b6d439068f17ec405a3dc109fe49b6b101a8de71cf60bc66af3",
+    "evidence/gardener-2026-10-18-service-check-7/verify.py": "841d24c55f56657bed608c56857b5045d5c39412353f23be1a9069fd478e0a86"
+  },
+  "temporary_script_sha256": "fe25318528e6d1e91df2d3d0419472d5f44be955d05b2145597c52bc7943bf28",
+  "tests": [
+    {
+      "test": "compile_three_changed_files_without_bytecode",
+      "result": "PASS"
+    },
+    {
+      "test": "collector_configuration_source_hash_and_replay_guard",
+      "result": "PASS"
+    },
+    {
+      "test": "research_prerequisite_fixed_targets_source_hash_and_replay_guard",
+      "result": "PASS"
+    },
+    {
+      "test": "real_verifier_against_retained_captures_without_overwriting_result",
+      "result": "PASS"
+    },
+    {
+      "test": "verifier_rejects_in_memory_body_corruption",
+      "result": "PASS"
+    },
+    {
+      "test": "verifier_rejects_in_memory_map_corruption",
+      "result": "PASS"
+    },
+    {
+      "test": "protected_files_unchanged_and_fixture_directories_removed",
+      "result": "PASS"
+    }
+  ],
+  "retained_evidence_check": {
+    "result": "PASS",
+    "phase": "closed",
+    "service_requests": 6,
+    "public_searches": 1,
+    "primary_documents_read": 3,
+    "advertisement_changed": true,
+    "new_orgmode_captures_equal": true,
+    "id_replacement_explains_all_changed_bytes": true,
+    "all_requests_subsecond": true,
+    "received_status_counts": {
+      "200": 2,
+      "500": 4
+    },
+    "spans_seconds": {
+      "observation_window_seconds": 2.677708,
+      "previous_attempt_finish_to_start_seconds": 11456.145453,
+      "previous_complete_orgmode_finish_to_start_seconds": 11457.072005
+    },
+    "room_files_updated": 2,
+    "word_files_updated": 1,
+    "new_word_files": 0,
+    "map_rooms": 697,
+    "map_entries": 697,
+    "every_room_listed_once": true,
+    "open_questions": 16,
+    "researched_still_open": [
+      740,
+      744,
+      766
+    ],
+    "questions_closed": 0,
+    "filed": 0,
+    "planted": 0,
+    "courtyard_questions_quests_unchanged": true,
+    "garden_unchanged": true,
+    "earlier_prose_preserved": true,
+    "new_links_exist": true,
+    "chronicle_lines_added": 1,
+    "limits": "Local self-check, not independent review or proof of a service cause."
+  },
+  "network_requests_made": 0,
+  "chronicle_entries_added_by_this_check": 0,
+  "test_fixture_notice": "Wrapper calls used explicitly labelled fixtures, not live API responses; capture checks used the previously retained real files.",
+  "limits": "Does not rerun external services or claim project-suite coverage. The original verification result is captured in memory, not overwritten."
+}

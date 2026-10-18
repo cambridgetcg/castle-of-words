@@ -1,0 +1,53 @@
+"yhetil.org" outage slow - Brave Search
+Ask
+All
+Images
+News
+Videos
+Maps
+Goggles
+Query contains
+search operators
+Ignore operators
+Yhetil
+yhetil.org
+unofficially hosted mirrors at yhetil.org
+unofficially hosted mirrors at yhetil.org These archives are created with public-inbox (<https://public-inbox.org/README>). * Emacs-related lists aggregated inbox: https://yhetil.org/emacs/ * https://yhetil.org/emacs-bugs/ bug-gnu-emacs@gnu.org reports and discussion of Emacs bugs ...
+GitHub
+github.com
+› uBlockOrigin  › uAssets  › issues  › 21322
+yhetil.org: breakage · Issue #21322 · uBlockOrigin/uAssets
+10 December 2023 -
+Every time I open any page of yhetil.org, all the content is deleted.
+Author:
+uBlockOrigin
+GNU
+lists.gnu.org
+› archive  › html  › help-guix  › 2025-02  › msg00153.html
+Re: ownership of the yhetil.org service ?
+One of the benefits of public-inbox is that it makes it easy for people to mirror [*]. I would be glad to see other people publish mirrors, but at the very least people could privately keep a fairly up-to-date clone of the underlying repos so that they could get something up again if yhetil.org disappears.
+Find elsewhere
+Google
+Bing
+Mojeek
+Next
+Resources
+Brave Search Premium
+Brave Search help
+Transparency report
+Report a security issue
+Status
+Products
+Brave Browser
+Brave Search
+Brave Wallet
+Brave Talk
+Brave Firewall + VPN
+Brave Playlist
+Brave News
+Brave Rewards
+Brave Search API
+Brave Ads
+Policies
+Privacy Policy
+Terms of Use

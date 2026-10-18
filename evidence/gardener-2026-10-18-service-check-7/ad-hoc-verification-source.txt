@@ -1,0 +1,226 @@
+"""Ad-hoc verification: isolated wrapper tests and retained evidence checks."""
+from contextlib import redirect_stdout
+from datetime import datetime, timezone
+from pathlib import Path
+from tempfile import TemporaryDirectory
+from unittest.mock import Mock, patch
+import hashlib
+import io
+import json
+import runpy
+import socket
+import subprocess
+import sys
+import traceback
+
+ROOT = Path('/Users/yu/castle')
+VISIT = ROOT / 'evidence/gardener-2026-10-18-service-check-7'
+REAL_RUN = runpy.run_path
+ORIGINAL_OPEN = Path.open
+ORIGINAL_READ_BYTES = Path.read_bytes
+ORIGINAL_READ_TEXT = Path.read_text
+CODE = [VISIT / name for name in ('collect.py', 'research.py', 'verify.py')]
+REPORT = VISIT / 'ad-hoc-verification.json'
+assert not REPORT.exists(), 'do not overwrite another check'
+
+
+def digest(data):
+    return hashlib.sha256(data).hexdigest()
+
+
+saved_before = json.loads((VISIT / 'before.json').read_text())
+guarded = {ROOT / name for name in saved_before['content_hashes']}
+guarded.update(ROOT / name for name in saved_before['garden_hashes'])
+guarded.update(p for p in VISIT.iterdir() if p.is_file())
+initial_hashes = {str(p): digest(p.read_bytes()) for p in guarded}
+results = []
+real_verification = {}
+
+
+def execute(path):
+    with redirect_stdout(io.StringIO()):
+        return REAL_RUN(str(path), run_name='__main__')
+
+
+def expect_assertion(action):
+    try:
+        action()
+    except AssertionError:
+        return
+    raise AssertionError('expected rejection, but execution completed')
+
+
+def check_syntax():
+    for path in CODE:
+        compile(path.read_text(), str(path), 'exec')
+
+
+def check_collector():
+    with TemporaryDirectory(prefix='hermes-verify-collector-', dir=ROOT / 'evidence') as tmp:
+        directory = Path(tmp)
+        script = directory / 'collect.py'
+        script.write_bytes((VISIT / 'collect.py').read_bytes())
+        stub = Mock()
+        stub.__globals__ = {}
+        with patch('runpy.run_path', return_value={'main': stub}) as loader:
+            execute(script)
+        stub.assert_called_once_with()
+        source = ROOT / 'evidence/gardener-2026-10-18-service-check/collect.py'
+        baseline = ROOT / 'evidence/gardener-2026-10-18-service-check-6'
+        loader.assert_called_once_with(str(source))
+        assert stub.__globals__['HERE'] == directory
+        assert stub.__globals__['OLD'] == baseline
+        recorded = json.loads((directory / 'collector-source.json').read_text())
+        assert recorded == {
+            'path': str(source.relative_to(ROOT)),
+            'sha256': digest(source.read_bytes()),
+            'baseline': str(baseline.relative_to(ROOT)),
+        }
+        (directory / 'before.json').write_text('{}\n')
+        with patch('runpy.run_path', side_effect=AssertionError('loader must not run')) as loader:
+            expect_assertion(lambda: execute(script))
+        loader.assert_not_called()
+
+
+def check_research():
+    with TemporaryDirectory(prefix='hermes-verify-research-', dir=ROOT / 'evidence') as tmp:
+        directory = Path(tmp)
+        script = directory / 'research.py'
+        script.write_bytes((VISIT / 'research.py').read_bytes())
+        with patch('runpy.run_path', side_effect=AssertionError('loader must not run')) as loader:
+            expect_assertion(lambda: execute(script))
+        loader.assert_not_called()
+        (directory / 'manifest.json').write_text('{}\n')
+        calls = []
+
+        def fetch(item):
+            calls.append((fetch.__globals__['HERE'], item))
+            return {'file': item[0], 'http_status': 'fixture-only-not-a-response',
+                    'curl_exit': 0, 'bytes': 0, 'links': []}
+
+        with patch('runpy.run_path', return_value={'fetch': fetch}) as loader:
+            execute(script)
+        helper = ROOT / 'evidence/gardener-2026-10-17-service-check-2/research.py'
+        loader.assert_called_once_with(str(helper))
+        assert len(calls) == 4 and all(where == directory for where, _ in calls)
+        expected = {
+            'search.html': 'https://search.brave.com/search?q=%22yhetil.org%22%20outage%20slow',
+            'monitoring.html': 'https://sre.google/sre-book/monitoring-distributed-systems/',
+            'gitprotocol-pack-2.39.5.txt': 'https://raw.githubusercontent.com/git/git/v2.39.5/Documentation/gitprotocol-pack.txt',
+            'write-out-8.7.1.md': 'https://raw.githubusercontent.com/curl/curl/curl-8_7_1/docs/cmdline-opts/write-out.md',
+        }
+        assert {item[0]: item[2] for _, item in calls} == expected
+        record = json.loads((directory / 'sources.json').read_text())
+        assert record['helper_path'] == str(helper.relative_to(ROOT))
+        assert record['helper_sha256'] == digest(helper.read_bytes())
+        assert len(record['sources']) == 4
+        assert all(row['http_status'] == 'fixture-only-not-a-response' for row in record['sources'])
+        with patch('runpy.run_path', side_effect=AssertionError('loader must not run')) as loader:
+            expect_assertion(lambda: execute(script))
+        loader.assert_not_called()
+
+
+def run_verifier_in_memory():
+    captured = []
+
+    class ResultBuffer(io.StringIO):
+        def __exit__(self, kind, value, tb):
+            if kind is None:
+                captured.append(self.getvalue())
+            self.close()
+            return False
+
+    def open_without_overwriting(path, *args, **kwargs):
+        mode = args[0] if args else kwargs.get('mode', 'r')
+        if path == VISIT / 'verification.json' and mode == 'x':
+            return ResultBuffer()
+        return ORIGINAL_OPEN(path, *args, **kwargs)
+
+    with patch.object(Path, 'open', new=open_without_overwriting):
+        execute(VISIT / 'verify.py')
+    assert len(captured) == 1
+    return json.loads(captured[0])
+
+
+def check_retained_evidence():
+    result = run_verifier_in_memory()
+    assert result['result'] == 'PASS' and result['phase'] == 'closed'
+    assert result['service_requests'] == 6
+    assert result['received_status_counts'] == {'200': 2, '500': 4}
+    assert result['chronicle_lines_added'] == 1
+    assert result['every_room_listed_once'] and result['garden_unchanged']
+    real_verification.update(result)
+
+
+def check_changed_body_rejected():
+    target = VISIT / 'r1-orgmode.body'
+
+    def tampered_read(path):
+        data = ORIGINAL_READ_BYTES(path)
+        return data + b'!test-only-corruption!' if path == target else data
+
+    with patch.object(Path, 'read_bytes', new=tampered_read):
+        expect_assertion(run_verifier_in_memory)
+
+
+def check_changed_map_rejected():
+    target = ROOT / 'gate.md'
+
+    def tampered_read(path, *args, **kwargs):
+        text = ORIGINAL_READ_TEXT(path, *args, **kwargs)
+        if path == target:
+            text = text.replace('## Map\n', '## Map\n- [nonexistent-test-room](rooms/nonexistent-test-room.md)\n', 1)
+        return text
+
+    with patch.object(Path, 'read_text', new=tampered_read):
+        expect_assertion(run_verifier_in_memory)
+
+
+def check_no_workspace_changes():
+    assert {str(p): digest(p.read_bytes()) for p in guarded} == initial_hashes
+    assert {p for p in VISIT.iterdir() if p.is_file()} == {p for p in guarded if p.parent == VISIT}
+    assert not any((ROOT / 'evidence').glob('hermes-verify-collector-*'))
+    assert not any((ROOT / 'evidence').glob('hermes-verify-research-*'))
+
+
+tests = [
+    ('compile_three_changed_files_without_bytecode', check_syntax),
+    ('collector_configuration_source_hash_and_replay_guard', check_collector),
+    ('research_prerequisite_fixed_targets_source_hash_and_replay_guard', check_research),
+    ('real_verifier_against_retained_captures_without_overwriting_result', check_retained_evidence),
+    ('verifier_rejects_in_memory_body_corruption', check_changed_body_rejected),
+    ('verifier_rejects_in_memory_map_corruption', check_changed_map_rejected),
+    ('protected_files_unchanged_and_fixture_directories_removed', check_no_workspace_changes),
+]
+with patch.object(subprocess, 'run', side_effect=AssertionError('subprocesses disabled in ad-hoc check')):
+    with patch.object(socket.socket, 'connect', side_effect=AssertionError('network disabled in ad-hoc check')):
+        for name, test in tests:
+            try:
+                test()
+                results.append({'test': name, 'result': 'PASS'})
+                print('PASS', name)
+            except Exception:
+                problem = traceback.format_exc()
+                results.append({'test': name, 'result': 'FAIL', 'error': problem})
+                print('FAIL', name, problem)
+
+passed = all(row['result'] == 'PASS' for row in results)
+report = {
+    'verification_kind': 'ad-hoc; not a canonical project test suite',
+    'result': 'PASS' if passed else 'FAIL',
+    'checked_utc': datetime.now(timezone.utc).isoformat(),
+    'changed_file_sha256': {str(p.relative_to(ROOT)): digest(p.read_bytes()) for p in CODE},
+    'temporary_script_sha256': digest(Path(__file__).read_bytes()),
+    'tests': results,
+    'retained_evidence_check': real_verification,
+    'network_requests_made': 0,
+    'chronicle_entries_added_by_this_check': 0,
+    'test_fixture_notice': 'Wrapper calls used explicitly labelled fixtures, not live API responses; capture checks used the previously retained real files.',
+    'limits': 'Does not rerun external services or claim project-suite coverage. The original verification result is captured in memory, not overwritten.',
+}
+with REPORT.open('x') as f:
+    json.dump(report, f, indent=2)
+    f.write('\n')
+print(json.dumps({'result': report['result'], 'ad_hoc_checks_passed': sum(r['result'] == 'PASS' for r in results),
+                  'ad_hoc_checks_run': len(results), 'report': str(REPORT)}, indent=2))
+sys.exit(0 if passed else 1)

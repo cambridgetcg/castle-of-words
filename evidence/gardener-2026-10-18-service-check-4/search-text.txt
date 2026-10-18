@@ -1,0 +1,67 @@
+"yhetil.org" "orgmode" mirror update schedule - Brave Search
+Ask
+All
+Images
+News
+Videos
+Maps
+Goggles
+Query contains
+search operators
+Ignore operators
+Org Mode
+orgmode.org
+› list  › 87v9klagv5.fsf@bzg.fr  › T
+bug#15598: 24.3.50; documentation: org-mode calendar interaction
+> > However, the documentation string for `org-schedule' (which is the > command that pops up the calendar) doesn't talk about this at all: thanks for the report and sorry for the delay (...). I've update the docstrings here: https://code.orgmode.org/bzg/org-mode/commit/701c7bed94 Best, -- Bastien ^ permalink raw reply [flat|nested] only message in thread
+Org Mode
+orgmode.org
+› worg  › org-faq.html
+Org-mode Frequently Asked Questions
+The org-mode mailing list is available via nntp at news.gmane.io/gmane.emacs.orgmode and news.yhetil.org/yhetil.emacs.orgmode (see the mirroring instructions). Gmane also used to offer web archives, but these are no longer available. If you have broken links to mailing-list messages at gmane, links using message-IDs can be easily updated from http://mid.gmane.org/<message-id> to https://list.orgmode.org/<message-id> Many participants in the list prefer to read the list in a newsreader, such as Gnus, instead of receiving emails.
+Orgmode
+list.orgmode.org
+› orgmode  › 87y0ysb20i.fsf@localhost  › T
+#15 [[bbb:OrgMeetup]] on Wed, Jan 8, 19:00 UTC+3
+18:00 Jared Jennings Jared Jennings ... distributions of released versions of emacs) 18:03 me says:org-agenda-file-menu-enabled 18:11 Jared Jennings Jared Jennings says:"Incremental," got it! cool 18:12 me says: https://yhetil.org/emacs-devel/?q=igc 18:14 me says:wip discussion 18:14 ...
+Orgmode
+list.orgmode.org
+› orgmode  › 87h69pttii.fsf@localhost
+[SUMMARY] #11 [[bbb:OrgMeetup]] on Wed, Sep 11, 19:00 UTC+3 - Ihor Radchenko
+6 October 2024 -
+[18:35] Ihor Radchenko : Unstaged changes (1) modified code/gc.gmk @@ -18,7 +18,6 @@ CFLAGSCOMPILER := \ -Waggregate-return \ -Wall \ -Wcast-qual \ --Werror \ -Wextra \ -Winline \ -Wmissing-prototypes \ [18:36] Ihor Radchenko : ./configure --with-mps=debug --with-native-compilation CFLAGS='-g3 -I/opt/mps/include -L/opt/mps/lib' [18:36] Ihor Radchenko : for emacs [18:37] karthink : Can confirm =<%%(diary-float ...)>= works correctly, not sure what went wrong last time. [18:38] visuwesh : ahh the same patch was also given by Pip: https://yhetil.org/emacs-devel/87o74zevf9.fsf@protonmail.com/ [18:39] karthink : Question: Are any of the org-contrib libraries getting frequent updates?
+GNU
+lists.gnu.org
+› archive  › html  › emacs-orgmode  › 2020-05  › msg00599.html
+Re: yhetil.org/orgmode now supports searching by Gmane ID
+> Hopefully setting things up would be pretty painless given that I > already have a working setup. Great, thanks -- can you send me the instructions in private on how to set up a mirror on orgmode.org? -- Bastien · Re: yhetil.org/orgmode now supports searching by Gmane ID, Bastien, 2020/05/21
+The Mail Archive
+mail-archive.com
+› emacs-orgmode@gnu.org  › msg162209.html
+[SUMMARY] #11 [[bbb:OrgMeetup]] on Wed, Sep 11, 19:00 UTC+3
+[18:35] Ihor Radchenko : Unstaged changes (1) modified code/gc.gmk @@ -18,7 +18,6 @@ CFLAGSCOMPILER := \ -Waggregate-return \ -Wall \ -Wcast-qual \ --Werror \ -Wextra \ -Winline \ -Wmissing-prototypes \ [18:36] Ihor Radchenko : ./configure --with-mps=debug --with-native-compilation CFLAGS='-g3 -I/opt/mps/include -L/opt/mps/lib' [18:36] Ihor Radchenko : for emacs [18:37] karthink : Can confirm =<%%(diary-float ...)>= works correctly, not sure what went wrong last time. [18:38] visuwesh : ahh the same patch was also given by Pip: https://yhetil.org/emacs-devel/[email protected]/ [18:39] karthink : Question: Are any of the org-contrib libraries getting frequent updates?
+Find elsewhere
+Google
+Bing
+Mojeek
+Next
+Resources
+Brave Search Premium
+Brave Search help
+Transparency report
+Report a security issue
+Status
+Products
+Brave Browser
+Brave Search
+Brave Wallet
+Brave Talk
+Brave Firewall + VPN
+Brave Playlist
+Brave News
+Brave Rewards
+Brave Search API
+Brave Ads
+Policies
+Privacy Policy
+Terms of Use

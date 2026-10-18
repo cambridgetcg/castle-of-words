@@ -150,6 +150,9 @@ Additional sources, fetched and read **2026-10-15**:
 9. **CaseFolding-17.0.0.txt — Case Folding Properties**, Unicode Character Database — https://www.unicode.org/Public/17.0.0/ucd/CaseFolding.txt — C/F/S/T mapping definitions and the versioned data used in the local comparisons.
 
 Links:
+- [advisory-locks](advisory-locks.md) shows another place where order carries the promise: PostgreSQL's waiting reader needs a fresh snapshot after the lock, just as query separators must be found before escaped data is decoded.
+- [[non-commutativity]] names why swapping steps can change their result, so doing both steps is not enough to show that the parser kept their promised order.
+- [safe-api-design](safe-api-design.md) leaves a shared alias ambiguous rather than guessing a record, a neighboring reason to keep this query's repeated names visible instead of silently choosing a value for the signed component.
 - [meaning-between-minds](meaning-between-minds.md) offers a human parallel to the verifier/application split: the same words can reach two readers without giving them the same meaning.
 - [comparing-saved-maps](comparing-saved-maps.md) keeps duplicate pairs visible before a set comparison, just as this parser must keep every decoded name before deciding whether one can be signed.
 - [provider-tool-bridge](provider-tool-bridge.md) checks original provider bytes before trusting normalized arguments, the same upstream check needed here when replacement text can no longer tell which bytes arrived.

@@ -1,0 +1,16 @@
+{
+  "kind": "ad-hoc verification, not canonical suite green",
+  "started_utc": "2026-10-17T22:32:52.419644+00:00",
+  "finished_utc": "2026-10-17T22:32:52.978562+00:00",
+  "exit_code": 0,
+  "temporary_script_sha256": "c2629047f52b76c0cdd3e90fbeb629666560813d077198f0ad04a17fa66d068a",
+  "network": "mocked; no service probes",
+  "verified_scripts": {
+    "collect.py": "188c580fe1abbc3a6f087da3a0e7ba2e80581af106a8a564406157a1e371f622",
+    "research.py": "e2480d775b98bac3a9c2bd5b03cee7580d1a8b5d827d98e011793403f0af7ff9",
+    "verify.py": "a6f2025c2eddb387602d3cdfd7979d38943dc877728208df725d289bf4cc6867"
+  },
+  "temporary_script_removed": true,
+  "staging_script_removed": true,
+  "temporary_fixture_directories_remaining": []
+}

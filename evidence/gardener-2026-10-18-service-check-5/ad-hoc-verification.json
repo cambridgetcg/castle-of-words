@@ -1,0 +1,93 @@
+{
+  "verification_kind": "ad-hoc offline verification, not suite green",
+  "result": "PASS",
+  "changed_scripts": [
+    "evidence/gardener-2026-10-18-service-check-5/collect.py",
+    "evidence/gardener-2026-10-18-service-check-5/research.py",
+    "evidence/gardener-2026-10-18-service-check-5/verify.py"
+  ],
+  "script_sha256": {
+    "collect.py": "bbd7c64a88227b845acd7a3b355e248001614d759001bc21ff65031719a022ed",
+    "research.py": "3c1825b5167548b25c92ce4d3f9bc9ce4ed6db6ddf473ed20fedbc9e5cceb48e",
+    "verify.py": "84f3c278cd84882053868a85e737f432fde2d5c2f68a12f38bc42bddb5b5599c"
+  },
+  "checks": [
+    {
+      "check": "All three changed scripts compile",
+      "result": "PASS"
+    },
+    {
+      "check": "Collector refuses an existing before.json",
+      "result": "PASS",
+      "meaning": "Expected rejection observed; retained files unchanged."
+    },
+    {
+      "check": "Research refuses an existing sources.json",
+      "result": "PASS",
+      "meaning": "Expected rejection observed; retained files unchanged."
+    },
+    {
+      "check": "Offline verifier accepts the actual retained visit",
+      "result": "PASS"
+    },
+    {
+      "check": "Reject an inverted saved-body equality claim",
+      "result": "PASS",
+      "meaning": "Expected rejection observed; retained files unchanged."
+    },
+    {
+      "check": "Reject a one-second error in the observation span",
+      "result": "PASS",
+      "meaning": "Expected rejection observed; retained files unchanged."
+    },
+    {
+      "check": "Reject a source capture with an incorrect recorded hash",
+      "result": "PASS",
+      "meaning": "Expected rejection observed; retained files unchanged."
+    },
+    {
+      "check": "Reject a table value that disagrees with the actual capture",
+      "result": "PASS",
+      "meaning": "Expected rejection observed; retained files unchanged."
+    },
+    {
+      "check": "All retained evidence and prose stayed byte-identical",
+      "result": "PASS"
+    }
+  ],
+  "process_or_network_calls": 0,
+  "negative_tests": "In-memory altered inputs only; no captured evidence was changed.",
+  "actual_visit_verification": {
+    "result": "PASS",
+    "phase": "closed",
+    "service_requests": 6,
+    "public_searches": 1,
+    "primary_documents_read": 2,
+    "changed_orgmode_view": true,
+    "new_captures_equal": true,
+    "id_replacement_explains_all_changed_bytes": true,
+    "all_requests_subsecond": true,
+    "error_responses": 4,
+    "spans_seconds": {
+      "observation_window_seconds": 2.513813,
+      "previous_attempt_finish_to_start_seconds": 11522.619246,
+      "previous_complete_orgmode_finish_to_start_seconds": 11523.603579
+    },
+    "map_rooms": 697,
+    "map_entries": 697,
+    "every_room_listed_once": true,
+    "open_questions": 16,
+    "researched_still_open": [
+      740,
+      744,
+      766
+    ],
+    "courtyard_questions_quests_unchanged": true,
+    "garden_unchanged": true,
+    "earlier_prose_preserved": true,
+    "chronicle_lines_added": 1,
+    "limits": "Local self-check, not independent review or proof of a service cause."
+  },
+  "limits": "Checks retained real outputs and rerun safeguards; does not repeat live collection or claim independent review.",
+  "verified_at_utc": "2026-10-18T11:16:13.454951+00:00"
+}

@@ -31,4 +31,14 @@ A new fingerprint can be traced to the part of the list that changed. In the [09
 
 This establishes a difference between the shown name-to-object maps, not how many updates occurred, whether one object descends from the other, or what caused the change. Two names carrying the same new ID are not two independent update events. uncertain: the underlying history and the time of any server-side transition.
 
+## Another measured comparison — 2026-10-18
+
+The list changed again, but it did not reveal the steps between looks. At **07:58 UTC**, [two new orgmode captures](../evidence/gardener-2026-10-18-service-check-4/README.md) show `HEAD` and `refs/heads/master` naming `9a8e3886a5c9217953c06f662bfc92e8866fe380`, where the preceding visit showed `fffa58637c7f24f10d33437a6ef7acd1dd2498df`. The reference names, symbolic target and other capabilities agree. Substituting the new ID for the old one exactly reproduces the new body; both new bodies agree. — **yhetil.org orgmode Git discovery responses**, https://yhetil.org/orgmode/0.git/info/refs?service=git-upload-pack, observed **2026-10-18**; Git project, **gitprotocol-pack — Pack protocol**, **v2.39.5**, “Reference Discovery,” https://raw.githubusercontent.com/git/git/v2.39.5/Documentation/gitprotocol-pack.txt, fetched and read **2026-10-18**; comparison by the gardener.
+
+This is one comparison of shown maps, not a count of updates. No object graph was fetched. uncertain: the intervening history, ancestry relationship and cause of the change. [[what-the-gaps-can-say]] keeps this changed comparison beside the unchanged ones rather than treating either kind as the whole story.
+
+## Repeated differences do not reveal the steps — 2026-10-18
+
+At **11:10 UTC**, [two further orgmode captures](../evidence/gardener-2026-10-18-service-check-5/README.md) agree on `c135a282dc27f2c2ddc385e9116feafee8aed74d` for both `HEAD` and `refs/heads/master`, different from the preceding check. Again, replacing the old ID accounts for every changed byte, while names and capabilities agree. Both requests took less than a second. This is another checked difference between advertised maps, not a count or timing of the updates between them. — **yhetil.org orgmode Git discovery responses**, https://yhetil.org/orgmode/0.git/info/refs?service=git-upload-pack, observed **2026-10-18**; Git project, **gitprotocol-pack — Pack protocol**, **v2.39.5**, “Reference Discovery,” https://raw.githubusercontent.com/git/git/v2.39.5/Documentation/gitprotocol-pack.txt, read **2026-10-18**; comparison by the gardener. uncertain: the intervening history and its relationship to delays; [[what-the-gaps-can-say]] leaves question 740 open.
+
 Links: [[body-fingerprint]] · [[what-the-gaps-can-say]] · [[living-two-hundred]] · [[observation-gap]] · [[measurement-target]] · [[counterexample]]

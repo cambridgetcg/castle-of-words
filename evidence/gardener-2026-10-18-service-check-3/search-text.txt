@@ -1,0 +1,191 @@
+Server-Timing W3C duration metrics relative ordering server time - Brave Search
+Ask
+All
+Images
+News
+Videos
+Maps
+Goggles
+More
+W3C
+w3.org
+› TR  › server-timing
+Server Timing
+7 April 2026 -
+Since this is not enforceable in practice, duration can represent any unit of time, and having it represent a duration in milliseconds is a recommendation. The description getter steps are to return this’s params["desc"] if it exists, otherwise the empty string. A PerformanceServerTiming has an associated string metric name, initially set to the empty string. A PerformanceServerTiming has an associated ordered map params, initially empty.
+W3C
+w3c.github.io
+› server-timing
+Server Timing
+Effectively, an active Service Worker is a local proxy that is able to reroute requests, serve cached responses, synthesize responses, and more. As a result, Server Timing enables Service Worker to report custom performance metrics about how the request was processed: whether it was fetched from a server or served from local cache, duration of relevant the processing steps, and so on.
+GitHub
+github.com
+› w3c  › server-timing  › blob  › main  › index.bs
+server-timing/index.bs at main · w3c/server-timing
+Effectively, an active Service Worker is a local proxy that is able to reroute requests, serve cached responses, synthesize responses, and more. As a result, Server Timing enables Service Worker to report custom performance metrics about how the request was processed: whether it was fetched from a server or served from local cache, duration of relevant the processing steps, and so on.</span></p>
+Author:
+w3c
+GitHub
+github.com
+› w3c  › server-timing  › blob  › gh-pages  › index.html
+server-timing/index.html at gh-pages · w3c/server-timing
+Effectively, an active Service Worker is a local proxy that is able to reroute requests, serve cached responses, synthesize responses, and more. As a result, Server Timing enables Service Worker to report custom performance metrics about how the request was processed: whether it was fetched from a server or served from local cache, duration of relevant the processing steps, and so on.</span></p>
+Author:
+w3c
+GitHub
+github.com
+› w3c  › server-timing
+GitHub - w3c/server-timing: Server Timing · GitHub
+This specification introduces Server Timing, which
+enables the server to communicate performance metrics about the request-response cycle to the user agent
+, and a JavaScript interface to enable applications to collect, process, and act on these ...
+Starred
+by 77 users
+Forked
+by 25 users
+Languages:
+Bikeshed
+MDN Web Docs
+developer.mozilla.org
+› en-US  › docs  › Web  › API  › Performance_API  › Server_timing
+Server timing - Web APIs | MDN
+2 August 2023 -
+Server-Timing is a part of the Performance API and
+allows servers to communicate metrics about the request-response cycle to the user agent
+. You can collect this information and act on server-side metrics in the same way as all the other metrics processed with the Performance API.
+Google Groups
+groups.google.com
+› g  › google-chrome-developer-tools  › c  › S0TzV8Iq0mk
+[Feature] Align server timing bars by relative start time (only when present)
+When "start" parameters are present for metrics, align the left edge of metric bars based on the *relative* values of start parameters, similar to how Timing bars are rendered above the Server Timing section.
+HTTP
+http.dev
+› http headers  › server-timing
+Server-Timing - Expert Guide to HTTP headers
+1 month ago -
+Each metric has a name and optionally a duration in milliseconds and a human-readable description
+. The name is an implementation-specific token identifying the operation. The dur parameter records how long the operation took.
+W3C
+w3c.github.io
+› perf-timing-primer
+A Primer for Web Performance Timing APIs
+A DOMHighResTimeStamp that contains the time value of the first recorded timestamp of this performance metric. ... A DOMHighResTimeStamp that contains the time value of the duration of the entire event being recorded by this PerformanceEntry. The W3C WebPerf WG maintains a list of the known values for PerformanceEntry.entryType.
+MDN Web Docs
+developer.mozilla.org
+› en-US  › docs  › Web  › HTTP  › Reference  › Headers  › Server-Timing
+Server-Timing header - HTTP - MDN Web Docs
+28 July 2026 -
+A name token (no spaces or special characters) for the metric that is implementation-specific or defined by the server, like cacheHit. ...
+A duration as the string dur, followed by =, followed by a value
+, like dur=23.2.
+Find elsewhere
+Google
+Bing
+Mojeek
+GitHub
+github.com
+› w3c  › server-timing  › issues  › 32
+Incorporating feedback from TAG review · Issue #32 · w3c/server-timing
+13 September 2017 -
+I think the previous discussion thought of this as "start time from navigation", where we should think of it as "start time of current reported duration, relative to the moment in time where the server first read the request". Maybe we should find a better name than "startTime" to avoid confusion with NavTiming. The assumption that all measurements are in milliseconds (as they are assumed to be a duration) would again mean that all other metrics would be stuffed into the description and therefore invisible (or worse, displayed as a blob to the end user).
+Author:
+w3c
+MDN Web Docs
+developer.mozilla.org
+› en-US  › docs  › Web  › API  › PerformanceServerTiming
+PerformanceServerTiming - Web APIs - MDN Web Docs
+12 October 2024 -
+The PerformanceServerTiming interface surfaces server metrics that are sent with the response in the Server-Timing HTTP header.
+Triple-underscore
+triple-underscore.github.io
+› server-timing-ja.html
+サーバの計時 — Server Timing
+Effectively, an active Service Worker is a local proxy that is able to reroute requests, serve cached responses, synthesize responses, and more. As a result, Server Timing enables Service Worker to report custom performance metrics about how the request was processed: whether it was fetched from a server or served from local cache, duration of relevant the processing steps, and so on.
+DebugBear
+debugbear.com
+› blog  › server-timings
+Server Timing: Measure And Track Backend Performance
+20 August 2026 -
+Because the values arrive as text and numbers rather than standard performance metrics, DebugBear collects them as custom tags and metrics, which you configure from the Tags and Metrics section of the RUM settings tab. Which one you need depends on what your server reports. A description like desc="cache-hit" is a label you'll want to segment your data by, so it belongs in a custom tag. A duration like dur=35 is a number you'll want to chart over time, so it belongs in a custom metric.
+GitHub
+github.com
+› w3c  › trace-context  › issues  › 561
+Server-timing names · Issue #561 · w3c/trace-context
+27 February 2024 -
+@SergeyKanzhelev : I like your proposal because it reframes it from the point of view of the server operation: its id, which trace it is part of, (optional) its sampling info, and its name/duration (in the future). So overall, I feel this fits better with having this info in server-timing. ... Also, in the context of this discussion, should we think about its implications for trace state response as well? For example, is that a separate metric or can that information be folded into the above, etc.?
+Smashing Magazine
+smashingmagazine.com
+› 2018  › 10  › performance-server-timing
+Measuring Performance With Server Timing — Smashing Magazine
+30 October 2018 -
+One thing you might notice is that the timing bars don’t show up in a waterfall pattern. This is simply because Server Timing doesn’t attempt to communicate the sequence of timings, just the raw metrics themselves.
+Perfplanet
+calendar.perfplanet.com
+› 2018  › server-timing
+Server Timing - Web Performance Calendar
+"edge" – the duration between the moment we get the request and when we begin to respond, less any "origin" time, as measured by the edge server that responds to the browser · Collecting and aggregating the cdn-cache status of all the resources we serve has allowed us to bubble up a new metric in our mPulse dashboards called “CDN Cache Hit Ratio”, which we also have broken down by content type.
+W3C
+w3.org
+› standards  › history  › server-timing
+Server Timing publication history | Standards | W3C
+The World Wide Web Consortium (W3C) is an international community where Member organizations, a full-time staff, and the public work together to develop Web standards.
+MDN Web Docs
+developer.mozilla.org
+› en-US  › docs  › Web  › API  › PerformanceResourceTiming  › serverTiming
+PerformanceResourceTiming: serverTiming property - Web APIs | MDN
+Server timing metrics require the server to send the Server-Timing header. For example: ... The serverTiming entries can live on navigation and resource entries. An array of PerformanceServerTiming entries. You can use a PerformanceObserver to watch for PerformanceServerTiming entries. Each server entry's duration is logged to the console.
+W3cubDocs
+docs.w3cub.com
+› http  › headers  › server-timing.html
+Server-Timing - HTTP - W3cubDocs
+The Server-Timing header communicates one or more metrics and descriptions for a given request-response cycle. It is used to surface any backend server timing metrics (e.g.
+Related queries
+w3c
+server
+timing
+standard
+example
+w3c
+server
+timing
+standard
+github
+w3c
+server
+timing
+standard
+javascript
+server-timing
+api
+server-timing
+header
+performance
+server
+timing
+server
+timing
+npm
+server
+timing
+traceparent
+Next
+Resources
+Brave Search Premium
+Brave Search help
+Transparency report
+Report a security issue
+Status
+Products
+Brave Browser
+Brave Search
+Brave Wallet
+Brave Talk
+Brave Firewall + VPN
+Brave Playlist
+Brave News
+Brave Rewards
+Brave Search API
+Brave Ads
+Policies
+Privacy Policy
+Terms of Use

@@ -1,0 +1,77 @@
+"yhetil.org" maintenance slow mirror - Brave Search
+Ask
+All
+Images
+News
+Videos
+Maps
+Goggles
+Query contains
+search operators
+Ignore operators
+Yhetil
+yhetil.org
+unofficially hosted mirrors at yhetil.org
+unofficially hosted mirrors at yhetil.org These archives are created with public-inbox (<https://public-inbox.org/README>).
+Yhetil
+yhetil.org
+› guix
+all messages for Guix-related lists mirrored at yhetil.org
+This is an external index of several public inboxes, see mirroring instructions on how to clone and mirror all data and code used by this external index.
+Yhetil
+yhetil.org
+› guix-patches  › _  › text  › mirror
+public-inbox mirroring instructions
+public-inbox mirroring instructions This public inbox may be cloned and mirrored by anyone:
+git clone --mirror https://yhetil.org/guix-patches/1 guix-patches/git/1.git
+# If you have public-inbox 1.1+ installed, you may # initialize and index your mirror using the following commands: ...
+GNU
+lists.gnu.org
+› archive  › html  › help-guix  › 2025-02  › msg00153.html
+Re: ownership of the yhetil.org service ?
+One of the benefits of public-inbox is that it makes it easy for people to mirror [*]. I would be glad to see other people publish mirrors, but at the very least people could privately keep a fairly up-to-date clone of the underlying repos so that they could get something up again if yhetil.org disappears.
+Yhetil
+yhetil.org
+› emacs
+all messages for Emacs-related lists mirrored at yhetil.org
+Funky errors with Temp files 2011-03-18 ... with org 2011-03-18 21:46 UTC (6+ messages) ` " Old style backquotes warning 2011-03-18 21:35 UTC (4+ messages) Recurring items don't always show up in timeline 2011-03-18 21:20 UTC (4+ messages) ` Bug: " Emacs with git slow...
+GNU
+lists.gnu.org
+› archive  › html  › emacs-orgmode  › 2020-05  › msg00599.html
+Re: yhetil.org/orgmode now supports searching by Gmane ID
+> Hopefully setting things up would be pretty painless given that I > already have a working setup. Great, thanks -- can you send me the instructions in private on how to set up a mirror on orgmode.org? -- Bastien · Re: yhetil.org/orgmode now supports searching by Gmane ID, Bastien, 2020/05/21
+The Mail Archive
+mail-archive.com
+› help-guix@gnu.org  › msg19268.html
+ownership of the yhetil.org service ?
+Hi Guix, As mentioned previously, one of the online guix service I use the most is yhetil [1]. However, the question arises about its ownership and maintenance. Is it the responsibility of someone in the community ? Maybe some of you know a bit more about yhetil.org, as there is no information related to its owner in the site.
+Yhetil
+yhetil.org
+› orgmode  › _  › text  › color
+color customization for https://yhetil.org/orgmode/
+This is a public inbox, see mirroring instructions for how to clone and mirror all data and code used for this inbox; as well as URLs for read-only IMAP folder(s) and NNTP newsgroup(s).
+Find elsewhere
+Google
+Bing
+Mojeek
+Next
+Resources
+Brave Search Premium
+Brave Search help
+Transparency report
+Report a security issue
+Status
+Products
+Brave Browser
+Brave Search
+Brave Wallet
+Brave Talk
+Brave Firewall + VPN
+Brave Playlist
+Brave News
+Brave Rewards
+Brave Search API
+Brave Ads
+Policies
+Privacy Policy
+Terms of Use

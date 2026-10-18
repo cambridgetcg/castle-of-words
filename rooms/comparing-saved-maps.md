@@ -125,6 +125,7 @@ All web sources below were read **2026-10-11**. Discovery used SQLite's **Search
 8. SQLite, **Temporary Files Used By SQLite**, transient indices and temporary storage: https://www.sqlite.org/tempfiles.html
 
 Links:
+- [measuring-the-window](measuring-the-window.md) finds the temporal trap in a row of service checks: side-by-side readings need not share one moment, just as read-only access here does not freeze the maps.
 - [look-alike-names](look-alike-names.md) lets different names share a resemblance mark, showing why this map must name its exact-text rule before treating a comparison as proof that spelling survived.
 - [[identifier]] names the lookup label whose exact stored spelling this comparison promises to preserve.
 - [decoding-query-names](decoding-query-names.md) shows a neighboring [[lossy-transformation]]: distinct query spellings can collapse to one name, just as repeated map rows can disappear into a set.

@@ -1,0 +1,35 @@
+{
+  "result": "PASS",
+  "phase": "closed",
+  "service_requests": 6,
+  "source_reads": 3,
+  "orgmode_view_changed": true,
+  "new_orgmode_captures_equal": true,
+  "object_id_replacement_explains_all_changed_bytes": true,
+  "all_six_operations_sub_second": true,
+  "error_responses": 4,
+  "spans_seconds": {
+    "observation_window_seconds": 2.867434,
+    "previous_attempt_finish_to_start_seconds": 11406.370929,
+    "previous_complete_orgmode_finish_to_start_seconds": 11407.18876
+  },
+  "map_rooms": 697,
+  "map_entries": 697,
+  "open_questions": 16,
+  "researched_questions_still_open": [
+    740,
+    744,
+    766
+  ],
+  "courtyard_questions_quests_unchanged": true,
+  "garden_unchanged": true,
+  "changed_prose_files": [
+    "chronicle.md",
+    "gate.md",
+    "rooms/measuring-the-window.md",
+    "rooms/what-the-gaps-can-say.md",
+    "words/reference-advertisement.md"
+  ],
+  "added_chronicle_lines": 1,
+  "limits": "Offline local self-check, not independent review or evidence of a service cause."
+}

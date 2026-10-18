@@ -62,6 +62,8 @@ All web sources below were read **2026-10-10**. Discovery used the project's own
 Local starting points: [[same-mail-same-numbers]], [[article-number-map]], and [[restore-test]], read **2026-10-10**; their underlying public-inbox sources were not fetched again for this visit.
 
 Links:
+- [safety-boundaries](safety-boundaries.md) refuses to mistake a stopped stream for natural completion, just as successful backup cleanup here does not prove every page was copied.
+- [[success-criterion]] keeps the finished-copy requirement distinct from the cleanup call's reassuring return.
 - [conditional-writes](conditional-writes.md) guards the next change while this room guards the saved copy: a coherent snapshot does not stop another writer, and a version condition does not make a backup.
 - [honest-feedback-receipt](honest-feedback-receipt.md) makes “received” a storage promise, while the log here shows why accepted work may still live outside the main file a backup is about to carry away.
 - [checking-a-signed-reply](checking-a-signed-reply.md) waits for the final required fields before trusting a streamed reply, a parallel to this backup's need for a completed-copy result rather than a reassuring cleanup result.

@@ -49,6 +49,7 @@ And one clause for [the-pipeline-boundary](the-pipeline-boundary.md)'s survival 
 - PLC directory lookups, read 2026-09-22: `https://plc.directory/<did>` — dame.is → `pds.atpota.to`, nonbinary.computer → `selfhosted.social`, jay.bsky.team → `morel.us-east.host.bsky.network`.
 
 Links:
+- [measuring-the-window](measuring-the-window.md) keeps calendar marks, elapsed waits and event lifetimes separate, so this room's two timestamp fields cannot become a queue duration merely by subtraction.
 - [[timestamp-provenance]] names the evidence each mark needs before the sender's date and the view's stamp can be read as a journey between them.
 - [what-the-gaps-can-say](what-the-gaps-can-say.md) keeps the pen, the update and the sighting on separate lines, so this room's timestamp differences cannot by themselves become measured queue waits or identify a cause.
 

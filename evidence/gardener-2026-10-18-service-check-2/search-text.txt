@@ -1,0 +1,86 @@
+"yhetil.org" mirror maintenance update - Brave Search
+Ask
+All
+Images
+News
+Videos
+Maps
+Goggles
+Query contains
+search operators
+Ignore operators
+Yhetil
+yhetil.org
+unofficially hosted mirrors at yhetil.org
+unofficially hosted mirrors at yhetil.org These archives are created with public-inbox (<https://public-inbox.org/README>).
+Yhetil
+yhetil.org
+› guix-patches  › _  › text  › mirror
+public-inbox mirroring instructions
+public-inbox mirroring instructions This public inbox may be cloned and mirrored by anyone: git clone --mirror https://yhetil.org/guix-patches/1 guix-patches/git/1.git # If you have public-inbox 1.1+ installed, you may # initialize and index your mirror using the following commands: public-inbox-init -V2 --ng yhetil.gnu.guix.patches \ guix-patches ./guix-patches https://yhetil.org/guix-patches \ guix-patches@gnu.org public-inbox-index ./guix-patches Example config snippet for mirrors: https://yhetil.org/guix-patches/_/text/config/raw IMAP subfolder(s) are available under: imaps://;AUTH=ANONYMO
+GNU
+lists.gnu.org
+› archive  › html  › help-guix  › 2025-02  › msg00153.html
+Re: ownership of the yhetil.org service ?
+One of the benefits of public-inbox is that it makes it easy for people to mirror [*]. I would be glad to see other people publish mirrors, but at the very least people could privately keep a fairly up-to-date clone of the underlying repos so that they could get something up again if yhetil.org disappears.
+Yhetil
+yhetil.org
+› guix
+all messages for Guix-related lists mirrored at yhetil.org
+(bump) [bug#75859] [PATCH 0/4] breezy: Update to 3.3.9 2025-01-26 12:27 UTC (5+ messages) ` [bug#75859] [PATCH 1/4] gnu: python-patiencediff: Update to 0.2.15 ` [bug#75859] [PATCH 2/4] gnu: Add python-setuptools-gettext ` [bug#75859] [PATCH 3/4] gnu: Add python-merge3 ` [bug#75859] [PATCH 4/4] gnu: breezy: Update to 3.3.9 bug#75843: shepherd: cron-string->calendar-event does not accept "*/15 * * * *" 2025-01-26 11:52 UTC (3+ messages) page: next (older) - recent:[subjects (threaded)|topics (new)|topics (active)] Code repositories for project(s) associated with this external index https://git.savannah.gnu.org/cgit/guix.git This is an external index of several public inboxes, see mirroring instructions on how to clone and mirror all data and code used by this external index.
+GitHub
+github.com
+› uBlockOrigin  › uAssets  › issues  › 21322
+yhetil.org: breakage · Issue #21322 · uBlockOrigin/uAssets
+10 December 2023 -
+Every time I open any page of yhetil.org, all the content is deleted.
+Author:
+uBlockOrigin
+GNU
+lists.gnu.org
+› archive  › html  › emacs-orgmode  › 2020-05  › msg00599.html
+Re: yhetil.org/orgmode now supports searching by Gmane ID
+> Hopefully setting things up would be pretty painless given that I > already have a working setup. Great, thanks -- can you send me the instructions in private on how to set up a mirror on orgmode.org? -- Bastien · Re: yhetil.org/orgmode now supports searching by Gmane ID, Bastien, 2020/05/21
+GitHub
+github.com
+› kitnil  › notes  › blob  › master  › guix.org
+notes/guix.org at master · kitnil/notes
+"guix-user") ("guix-devel@gnu.org" . "guix-devel") ("guix-bugs" . "guix-bugs") ("guix-patches" . "guix-patches")) "Alist of mail adresses and their Yhetil name.") (defun ambrevar/guess-yhetil-link (message-id) (let* ((all-addresses (mapcar #'second (mail-extract-address-components (mapconcat #'identity (list (notmuch-show-get-header :To) (notmuch-show-get-header :Cc)) ", ") 'all))) (mailing-list (cdr (seq-find (lambda (pair) (member (car pair) all-addresses)) ambrevar/known-mailing-list-archives)))) (when mailing-list (concat "https://yhetil.org/" mailing-list "/" message-id)))) (add-to-list 'notmuch-show-stash-mlarchive-link-alist (cons "Yhetil" #'ambrevar/guess-yhetil-link))
+Author:
+kitnil
+Reddit
+reddit.com
+› r/emacs  › etiquette for emacs-related mailing lists
+r/emacs on Reddit: Etiquette for Emacs-related mailing lists
+30 April 2024 -
+I would like to participate more in Emacs-related mailing lists, occasionally without subscribing to them. I have recently sent an email to help-gnu-emacs, which I am not subscribed to, and received replies judging by the mailing list archive but those replies never landed in my inbox. Is the mailing list etiquette not to reply to the person specifically but only to the mailing list? This makes little sense to me since non-subscribing users would miss emails in this case, but I have also checked that I am able to receive emails at the address that I used. Now I would like to reply back, and I am thinking of replying using the mailing list archive. Is there something I should do to ensure that I receive the replies in my inbox? (I am still not subscribed to help-gnu-emacs.)
+Top answer
+1 of 1
+7
+AFAIK the expectation is that users will "reply to all", which will include both the list address and individual participants.  But, being email, there is no way to enforce that, so if a user doesn't know that, or hits the wrong button, you may not get replied to directly.
+You might choose, then, to participate via NNTP with GMANE, or use something like yhetil.org to read and reply to individual messages without subscribing.  That works well enough for me.
+Find elsewhere
+Google
+Bing
+Mojeek
+Next
+Resources
+Brave Search Premium
+Brave Search help
+Transparency report
+Report a security issue
+Status
+Products
+Brave Browser
+Brave Search
+Brave Wallet
+Brave Talk
+Brave Firewall + VPN
+Brave Playlist
+Brave News
+Brave Rewards
+Brave Search API
+Brave Ads
+Policies
+Privacy Policy
+Terms of Use

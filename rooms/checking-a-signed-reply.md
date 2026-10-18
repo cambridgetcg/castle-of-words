@@ -501,6 +501,8 @@ All fetched and read **2026-10-14**:
 Search receipt: Google again returned an unusable JavaScript/redirect view. GitHub's public web API supplied the useful search: `repo:whatwg/url percent encode committer-date:>2024-01-01` identified the change, and `repo:httpwg/http-extensions spaceAsPlus in:body,comments` found the explicit signature discussion. The narrower WHATWG search for `9421` returned no results. Conclusions above rest on the fetched primary texts, not on search-result absence alone.
 
 Links:
+- [fail-closed-boundaries](fail-closed-boundaries.md) keeps the gate shut when required evidence is missing, the same refusal this verifier needs when a covered trailer never becomes available.
+- [wire-contract-honesty](wire-contract-honesty.md) brings this check to the wire: a helper that passes its own tests can still build a query component differently from the signature's required rule.
 - [[test-oracle]] names the expected answer used to judge the check, which must not be borrowed unquestioned from the same code being tested.
 - [portable-comparison](portable-comparison.md) keeps expected values outside the candidate's reach, a companion to checking this signature library against the named rule rather than only against its agreeing other half.
 - [closing-the-loop](closing-the-loop.md) offers a human parallel to testing the checker: a reassuring yes can hide a missed check, so a signature test must also show that a known bad mark is refused.

@@ -1,0 +1,27 @@
+{
+  "verified_utc": "2026-10-17T22:29:59.896731+00:00",
+  "closed": true,
+  "requests": 6,
+  "parsed_orgmode_captures": 2,
+  "matching_error_bodies": 4,
+  "sources_fetched": 3,
+  "observation_window_seconds": 87.064224,
+  "rooms": 697,
+  "map_entries": 697,
+  "open_questions": 16,
+  "filed": 0,
+  "researched": 3,
+  "settled": 0,
+  "planted": 0,
+  "garden_unchanged": true,
+  "questions_and_courtyard_unchanged": true,
+  "changed_content_files": [
+    "chronicle.md",
+    "gate.md",
+    "rooms/measuring-the-window.md",
+    "rooms/what-the-gaps-can-say.md",
+    "words/response-time.md"
+  ],
+  "chronicle_lines_added": 1,
+  "verification_kind": "offline self-check, not independent review"
+}

@@ -1,0 +1,125 @@
+"""Focused offline ad-hoc checks; no live probes or castle prose edits."""
+import contextlib
+import hashlib
+import io
+import json
+from pathlib import Path
+import runpy
+import unittest
+from datetime import datetime, timezone
+from unittest.mock import patch
+
+ROOT = Path('/Users/yu/castle')
+HERE = ROOT / 'evidence/gardener-2026-10-18-service-check-8'
+SCRIPTS = [HERE / name for name in ('collect.py', 'research.py', 'verify.py')]
+REPORT = HERE / 'ad-hoc-verification.json'
+SOURCE_COPY = HERE / 'ad-hoc-verification-source.txt'
+assert not REPORT.exists()
+TRACKED = [p for p in HERE.iterdir() if p.is_file()] + [ROOT / rel for rel in (
+    'gate.md', 'chronicle.md', 'courtyard.md', 'questions.md', 'quests.md',
+    'words/active-measurement.md', 'rooms/what-the-gaps-can-say.md',
+    'rooms/measuring-the-window.md')]
+sha = lambda data: hashlib.sha256(data).hexdigest()
+snapshot = lambda: {str(p.relative_to(ROOT)): sha(p.read_bytes()) for p in TRACKED}
+before = snapshot()
+real_open, real_text, real_bytes = Path.open, Path.read_text, Path.read_bytes
+reports = []
+
+
+class Capture(io.StringIO):
+    def close(self):
+        reports.append(json.loads(self.getvalue()))
+        super().close()
+
+
+def guarded_open(path, mode='r', *args, **kwargs):
+    if any(flag in mode for flag in ('w', 'a', 'x', '+')):
+        if path == HERE / 'verification.json' and mode == 'x':
+            return Capture()
+        raise RuntimeError(f'Unexpected write during offline check: {path}')
+    return real_open(path, mode, *args, **kwargs)
+
+
+def execute(path, corruption=None):
+    def read_bytes(p, *args, **kwargs):
+        data = real_bytes(p, *args, **kwargs)
+        if corruption == 'body' and p == HERE / 'r1-orgmode.body':
+            return data + b'changed by in-memory test fixture'
+        if corruption == 'chronicle' and p == ROOT / 'chronicle.md':
+            return data + b'- unwanted extra entry\n'
+        return data
+
+    def read_text(p, *args, **kwargs):
+        text = real_text(p, *args, **kwargs)
+        if corruption == 'map' and p == ROOT / 'gate.md':
+            line = next(line for line in text.splitlines()
+                        if line.startswith('- [what-the-gaps-can-say]'))
+            return text.replace(line, line + '\n' + line, 1)
+        return text
+
+    with patch.object(Path, 'open', guarded_open), \
+         patch.object(Path, 'read_bytes', read_bytes), \
+         patch.object(Path, 'read_text', read_text), \
+         patch('subprocess.run', side_effect=RuntimeError('No subprocess permitted')), \
+         patch('sys.argv', [str(path)]), contextlib.redirect_stdout(io.StringIO()):
+        runpy.run_path(str(path), run_name='__main__')
+
+
+class VisitChecks(unittest.TestCase):
+    def test_sources_compile_without_writing_bytecode(self):
+        for path in SCRIPTS:
+            with self.subTest(script=path.name):
+                compile(path.read_text(), str(path), 'exec')
+
+    def test_collection_refuses_replay_before_network_or_write(self):
+        with self.assertRaises(AssertionError):
+            execute(HERE / 'collect.py')
+
+    def test_research_refuses_replay_before_network_or_write(self):
+        with self.assertRaises(AssertionError):
+            execute(HERE / 'research.py')
+
+    def test_actual_saved_artifacts_pass_the_real_verifier(self):
+        count = len(reports)
+        execute(HERE / 'verify.py')
+        self.assertEqual(len(reports), count + 1)
+        self.assertEqual(reports[-1]['result'], 'PASS')
+        self.assertEqual(reports[-1]['chronicle_lines_added'], 1)
+        self.assertTrue(reports[-1]['garden_unchanged'])
+
+    def test_verifier_rejects_corrupted_body(self):
+        with self.assertRaises(AssertionError):
+            execute(HERE / 'verify.py', 'body')
+
+    def test_verifier_rejects_duplicate_map_line(self):
+        with self.assertRaises(AssertionError):
+            execute(HERE / 'verify.py', 'map')
+
+    def test_verifier_rejects_extra_chronicle_entry(self):
+        with self.assertRaises(AssertionError):
+            execute(HERE / 'verify.py', 'chronicle')
+
+
+suite = unittest.defaultTestLoader.loadTestsFromTestCase(VisitChecks)
+result = unittest.TextTestRunner(verbosity=2).run(suite)
+unchanged = snapshot() == before
+if not result.wasSuccessful() or not unchanged or len(reports) != 1:
+    raise SystemExit('Ad-hoc verification failed or an existing file changed')
+source = Path(__file__).read_bytes()
+assert source == SOURCE_COPY.read_bytes()
+evidence = {
+    'verification_kind': 'ad-hoc, not a canonical project suite',
+    'result': 'PASS', 'checks_run': result.testsRun,
+    'recorded_utc': datetime.now(timezone.utc).isoformat(),
+    'script_sha256': sha(source),
+    'changed_script_sha256': {p.name: sha(p.read_bytes()) for p in SCRIPTS},
+    'existing_files_unchanged': unchanged,
+    'network_requests_repeated': 0,
+    'chronicle_entries_added_by_this_check': 0,
+    'fixture_note': 'Corruptions existed only in patched reads; no captures or prose were altered.',
+    'real_verifier_result': reports[-1],
+}
+with REPORT.open('x') as f:
+    json.dump(evidence, f, indent=2)
+    f.write('\n')
+print(json.dumps(evidence, indent=2))

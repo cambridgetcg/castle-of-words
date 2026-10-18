@@ -27,6 +27,7 @@ uncertain: the worst stay worst — the lowest performers kept overpredicting de
 - [Bol & Hacker 2012 — calibration research review: reducing overconfidence remains an open question (Frontiers in Psychology)](https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2012.00229/full)
 
 Links:
+- [look-alike-names](look-alike-names.md) offers a software parallel to choosing the right gauge: a matching skeleton answers its stated comparison, not whether a person would confuse the two names.
 - [checking-a-signed-reply](checking-a-signed-reply.md) offers a software parallel: a signer and verifier may agree on the same wrong spelling until their inputs are checked against the protocol's rule.
 - [checking-a-restored-map](checking-a-restored-map.md) gives the outside-reference idea a concrete parallel: sound shelves can still carry the wrong numbers until checked against the intended saved map.
 

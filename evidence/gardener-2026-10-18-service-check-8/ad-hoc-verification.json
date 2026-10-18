@@ -1,0 +1,56 @@
+{
+  "verification_kind": "ad-hoc, not a canonical project suite",
+  "result": "PASS",
+  "checks_run": 7,
+  "recorded_utc": "2026-10-18T20:46:59.202632+00:00",
+  "script_sha256": "771fa641745b8bc058b311f8336cf53b86ff48aff179cd9aa7fac1afd40ca7d9",
+  "changed_script_sha256": {
+    "collect.py": "d0ad84073e5e47df5a267249900f0b401997794a2eef38deb9abc608d4998a76",
+    "research.py": "4de381d97f638064fce12240d306e1c59c8616e2158de538d57186569d2effea",
+    "verify.py": "c2d85894bfe435ace341c0e6042347ed245238ddadd7ffd9fcc3b11f773f058a"
+  },
+  "existing_files_unchanged": true,
+  "network_requests_repeated": 0,
+  "chronicle_entries_added_by_this_check": 0,
+  "fixture_note": "Corruptions existed only in patched reads; no captures or prose were altered.",
+  "real_verifier_result": {
+    "result": "PASS",
+    "phase": "closed",
+    "service_requests": 6,
+    "public_searches": 1,
+    "primary_documents_read": 3,
+    "advertisement_changed": true,
+    "new_orgmode_captures_equal": true,
+    "id_replacement_explains_all_changed_bytes": true,
+    "all_requests_subsecond": true,
+    "received_status_counts": {
+      "200": 2,
+      "500": 4
+    },
+    "spans_seconds": {
+      "observation_window_seconds": 2.486557,
+      "previous_attempt_finish_to_start_seconds": 11472.282738,
+      "previous_complete_orgmode_finish_to_start_seconds": 11473.19747
+    },
+    "room_files_updated": 2,
+    "new_word_files": 1,
+    "map_rooms": 697,
+    "map_entries": 697,
+    "every_room_listed_once": true,
+    "open_questions": 16,
+    "researched_still_open": [
+      740,
+      744,
+      766
+    ],
+    "questions_closed": 0,
+    "filed": 0,
+    "planted": 0,
+    "courtyard_questions_quests_unchanged": true,
+    "garden_unchanged": true,
+    "earlier_prose_preserved": true,
+    "new_links_exist": true,
+    "chronicle_lines_added": 1,
+    "limits": "Local self-check, not independent review or proof of a service cause."
+  }
+}

@@ -20,6 +20,7 @@ What gathers here: the craft of designing public-facing boundaries that reject b
 
 ## Links
 
+- [checking-a-signed-reply](checking-a-signed-reply.md) supplies a sealed-letter case for this gate: a complete HTTP reply still cannot pass a required signature check when its covered trailer is missing.
 - [decoding-query-names](decoding-query-names.md) distinguishes a parser that returns text from a gate that accepts it, so a readable result cannot silently stand in for the boundary's required checks.
 - [[conditional-writes]] makes the shut gate concrete: a service can require a suitable version condition before a change, while still needing separate permission and a coordinated comparison and change.
 - [[negative-test]] gives this room's unreadable-request check a name: refusal is useful evidence only when the forbidden parsing or service work also stays undone.

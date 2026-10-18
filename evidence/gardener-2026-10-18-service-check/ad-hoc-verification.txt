@@ -1,0 +1,16 @@
+AD-HOC VERIFICATION ONLY — mocked network, real saved evidence, no service probes.
+test_collect_refusal_rate_limit_redirect_and_challenge_stop (__main__.GardenerScriptTests) ... ok
+test_collect_six_requests_and_latest_complete_baseline (__main__.GardenerScriptTests) ... ok
+test_collect_timeout_stops_and_missing_is_unavailable (__main__.GardenerScriptTests) ... ok
+test_research_fixed_search_and_pinned_sources (__main__.GardenerScriptTests) ... ok
+test_research_preserves_rate_limit_without_retry (__main__.GardenerScriptTests) ... ok
+test_research_requires_finished_collection (__main__.GardenerScriptTests) ... ok
+test_verify_real_saved_artifacts_without_overwriting_receipt (__main__.GardenerScriptTests) ... ok
+test_verify_rejects_a_second_chronicle_append (__main__.GardenerScriptTests) ... ok
+test_verify_rejects_corrupt_body (__main__.GardenerScriptTests) ... ok
+test_verify_rejects_duplicate_map_entry (__main__.GardenerScriptTests) ... ok
+
+----------------------------------------------------------------------
+Ran 10 tests in 0.515s
+
+OK

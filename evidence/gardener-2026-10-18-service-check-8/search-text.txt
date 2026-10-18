@@ -1,0 +1,141 @@
+RFC 7799 active measurement traffic influence - Brave Search
+Ask
+All
+Images
+News
+Videos
+Maps
+Goggles
+More
+IETF
+datatracker.ietf.org
+› doc  › html  › rfc7799
+RFC 7799 - Active and Passive Metrics and Methods (with Hybrid Types In-Between)
+Other changes along the path are possible, see [STDFORM]. When adding traffic to the network for measurement,
+Active Methods influence the quantities measured to some degree
+, and those performing tests should take steps to quantify the effect(s) ...
+RFC Editor
+rfc-editor.org
+› rfc  › rfc7799.html
+RFC 7799: Active and Passive Metrics and Methods (with Hybrid Types In-Between)
+Other changes along the path are possible, see [STDFORM]. When adding traffic to the network for measurement,
+Active Methods influence the quantities measured to some degree
+, and those performing tests should take steps to quantify the effect(s) and/or minimize such effects.
+Liu
+pike.lysator.liu.se
+› docs  › ietf  › rfc  › 77  › rfc7799.xml
+RFC 7799: Active and Passive Metrics and Methods (with Hybrid Types In-Between) - Pike Programming Language
+When adding traffic to the network for measurement,
+Active Methods influence the quantities measured to some degree
+, and those performing tests should take steps to quantify the effect(s) and/or minimize such effects. An Active Metric incorporates one or more of the aspects of Active Methods ...
+Tech Invite
+tech-invite.com
+› y75  › tinv-ietf-rfc-7799.html
+RFC 7799 (May 2016, Informational, 14 pages)
+Other changes along the path are possible, see [STDFORM]. When adding traffic to the network for measurement,
+Active Methods influence the quantities measured to some degree
+, and those performing tests should take steps to quantify the effect(s) and/or minimize such effects.
+IETF
+ietf.org
+› rfc  › rfc7799.html
+Active and Passive Metrics and Methods
+Other changes along the path are possible, see [STDFORM]. When adding traffic to the network for measurement,
+Active Methods influence the quantities measured to some degree
+, and those performing tests should take steps to quantify the effect(s) and/or minimize such effects.
+ACM Digital Library
+dl.acm.org
+› doi  › abs  › 10.17487  › RFC7799
+RFC 7799: Active and Passive Metrics and Methods (with Hybrid Types In-Between) | Guide books
+This memo provides clear definitions for Active and Passive performance assessment. The construction of Metrics and Methods can be described as either "Active" or "Passive". Some methods may use a ...
+IETF
+datatracker.ietf.org
+› doc  › html  › draft-ietf-ippm-active-passive
+Active and Passive Metrics and Methods (with Hybrid Types In-Between)
+Other changes along the path are possible, see [I-D.morton-ippm-2330-stdform-typep]. When adding traffic to the network for measurement,
+Active Methods influence the quantities measured to some degree
+, and those performing tests should take ...
+IETF
+datatracker.ietf.org
+› doc  › status-change-ippm-active-passive-methods
+Reclassifying "Active and Passive Metrics and Methods (with Hybrid Types In-Between)" (RFC7799) from Informational to BCP
+Typically, a measurement method is first presented by indicating whether it belongs to Active/Passive/Hybrid category defined in RFC 7799. The experience so far supports reclassification of RFC 7799 from Informational to BCP in compliance with the definition in Section 5 of RFC2026.
+Ietf
+mailarchive.ietf.org
+› arch  › msg  › ietf-announce  › yYGAEnOyXQq_SslhCGSQrpCsZlI
+RFC 7799 on Active and Passive Metrics and Methods (with Hybrid Types In-Between)
+A new Request for Comments is now available in online RFC libraries. RFC 7799 Title: Active and Passive Metrics and Methods (with Hybrid Types In-Between) Author: A.
+Hjp
+hjp.at
+› (en)  › doc  › rfc  › rfc8321.html
+hjp: doc: RFC 8321: Alternate-Marking Method for Passive and Hybrid Performance Monitoring
+The method has been explicitly designed for Passive measurements, but it can also be used with Active probes. Passive measurements are usually more easily understood by customers and provide much better accuracy, especially for packet loss measurements. Fioccola, et al. Experimental [Page 3] ... RFC 7799 [RFC7799] defines Passive and Hybrid Methods of Measurement.
+Find elsewhere
+Google
+Bing
+Mojeek
+dblp
+dblp.org
+› home  › journals  › request for comments
+dblp: RFC 7700-7799
+3 June 2026 -
+Kostas Pentikousis, Emma Zhang, Yang Cui: IKEv2-Derived Shared Secret Key for the One-Way Active Measurement Protocol (OWAMP) and Two-Way Active Measurement Protocol (TWAMP).
+IETF
+datatracker.ietf.org
+› doc  › draft-fioccola-ippm-rfc7799bis
+draft-fioccola-ippm-rfc7799bis-01 - Active, Passive, and Hybrid Metrics and Methods
+2 July 2026 -
+IP Performance Measurement G. Fioccola Internet-Draft Huawei Technologies Obsoletes: 7799 (if approved) 2 July 2026 Intended status: Best Current Practice Expires: 3 January 2027 Active, Passive, and Hybrid Metrics and Methods draft-fioccola-ippm-rfc7799bis-01 Abstract This memo provides clear definitions for Active, Passive and Hybrid performance assessment.
+RFC Editor
+rfc-editor.org
+› info  › rfc8321
+RFC 8321: Alternate-Marking Method for Passive and Hybrid Performance Monitoring | RFC Editor
+29 January 2018 -
+The method has been explicitly designed for Passive measurements, but it can also be used with Active probes. Passive measurements are usually more easily understood by customers and provide much better accuracy, especially for packet loss measurements. Fioccola, et al. Experimental [Page 3] RFC 8321 Alternate-Marking Method January 2018 RFC 7799 [RFC7799] defines Passive and Hybrid Methods of Measurement.
+IETF
+datatracker.ietf.org
+› doc  › rfc8321
+RFC 8321 - Alternate-Marking Method for Passive and Hybrid Performance Monitoring
+29 January 2018 -
+The method has been explicitly designed for Passive measurements, but it can also be used with Active probes. Passive measurements are usually more easily understood by customers and provide much better accuracy, especially for packet loss measurements. Fioccola, et al. Experimental [Page 3] RFC 8321 Alternate-Marking Method January 2018 RFC 7799 [RFC7799] defines Passive and Hybrid Methods of Measurement.
+IETF
+datatracker.ietf.org
+› doc  › rfc7799  › bibtex
+BibTeX
+@misc{rfc7799, series = {Request for Comments}, number = 7799, howpublished = {RFC 7799}, publisher = {RFC Editor}, doi = {10.17487/RFC7799}, url = {https://www.rfc-editor.org/info/rfc7799}, author = {Al Morton}, title = {{Active and Passive Metrics and Methods (with Hybrid Types In-Between)}}, pagetotal = 14, year = 2016, month = may, abstract = {This memo provides clear definitions for Active and Passive performance assessment.
+RFC Editor
+rfc-editor.org
+› rfc  › rfc9341.pdf
+pdf
+RFC 9341 Alternate-Marking Method Abstract
+jitter measurements on live traffic. This technology can be applied in various situations and for · different protocols. According to the classification defined in RFC 7799, it could be considered · Passive or Hybrid depending on the application. This document obsoletes RFC 8321.
+IETF
+datatracker.ietf.org
+› doc  › html  › draft-ietf-ippm-alt-mark
+Alternate-Marking Method for Passive and Hybrid Performance Monitoring
+The method has been explicitly designed for passive measurements but it can also be used with active probes. Passive measurements are usually more easily understood by customers and provide a much better accuracy, especially for packet loss measurements. RFC 7799 [RFC7799] defines passive and hybrid methods of measurement.
+IETF
+datatracker.ietf.org
+› doc  › draft-ietf-ippm-active-passive  › 05
+draft-ietf-ippm-active-passive-05 - Active and Passive Metrics and Methods (and everything in-between, or Hybrid)
+In some configurations, the traffic load associated with results export to a collector may influence the network performance. However, the collection of results is not unique to Passive Methods, and the load from Morton Expires June 26, 2016 [Page 5] Internet-Draft Active and Passive December 2015 management and operations of measurement systems must always be considered for potential effects on the measured values. 3.7. Passive Metric Passive Metrics apply to observations of packet traffic (traffic flows in [RFC7011]).
+Next
+Resources
+Brave Search Premium
+Brave Search help
+Transparency report
+Report a security issue
+Status
+Products
+Brave Browser
+Brave Search
+Brave Wallet
+Brave Talk
+Brave Firewall + VPN
+Brave Playlist
+Brave News
+Brave Rewards
+Brave Search API
+Brave Ads
+Policies
+Privacy Policy
+Terms of Use
