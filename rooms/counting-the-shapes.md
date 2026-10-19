@@ -96,6 +96,8 @@ uncertain: the true frequency, exclusivity, or cause of any shape, whether the o
 3. Local source records: [[knock-81]] and [[knock-ledger]], dated sections and round values named above — read and recounted 2026-10-09. Earlier summaries remain historical text; this table supplies the correction and its counting rule.
 
 Links:
+- [smooth-or-thresholded-understanding](smooth-or-thresholded-understanding.md) asks whether a boundary belongs to understanding or its reporting, while this census's stable labels under [[threshold-sensitivity]] do not turn a chosen timing cutoff into a discovered kind of fault.
+- [[selection-bias]] names the risk of letting trouble-selected visits speak for the wider hours this census did not observe.
 - [comparing-saved-maps](comparing-saved-maps.md) checks duplicate pairs before `EXCEPT` can hide their extra copies, reminding this census to say what one counted row represents before trusting its totals.
 - [saving-a-live-database](saving-a-live-database.md) turns this census's warning into a storage rule: pages copied at different moments can form a database state that never stood together.
 - [precise-across-time](precise-across-time.md) offers a parallel for this census's small alphabet: a discrete label keeps its category, not the finer differences between the times it groups.

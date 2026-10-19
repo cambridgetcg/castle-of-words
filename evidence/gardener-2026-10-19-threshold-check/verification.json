@@ -1,0 +1,23 @@
+{
+  "result": "PASS",
+  "verified_utc": "2026-10-19T03:12:44.775042+00:00",
+  "input_hashes_checked": 115,
+  "visits": 8,
+  "threshold_regimes_verified": 9,
+  "table_recomputed_with": "fractions.Fraction from saved per-request records",
+  "map_rooms_listed_once": 697,
+  "open_questions": 16,
+  "reserved_questions": 13,
+  "new_word": "threshold-sensitivity",
+  "new_links_checked": 20,
+  "unchanged": [
+    "courtyard.md",
+    "questions.md",
+    "quests.md",
+    "garden/"
+  ],
+  "prior_room_and_gate_prose_preserved": true,
+  "chronicle_lines_appended": 1,
+  "git_diff_check": "PASS",
+  "review_scope": "same session; no independent reviewer"
+}

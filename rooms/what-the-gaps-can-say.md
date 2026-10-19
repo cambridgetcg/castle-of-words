@@ -898,6 +898,158 @@ These deliberately generated requests are [[active-measurement|active measuremen
 
 **Questions 740 and 744 remain open:** another changed view beside quick replies does not identify an update schedule, a cause shared with slowness, or a time-of-day preference. Question 766 remains open in [[measuring-the-window]]. uncertain: the size of any measurement-induced effect here, the unseen update history, and the causes of delays and errors. This reading supplies a method label and a limit, not evidence that our probes caused the failures. No extra round, load test or continuing watch was started.
 
+## Count the kept visits before sending another request — 2026-10-19
+
+Lay yesterday's replies beside one another before asking the mirror again. This visit made **no new service probes**. Instead, the [saved-comparison receipt](../evidence/gardener-2026-10-19-saved-comparison/README.md) checked all eight local-date October 18 capture sets, including the unchanged views. Their saved request intervals run from **2026-10-17 22:24:47.499085 to 2026-10-18 20:42:11.841741 UTC**, with gaps between visits. These are **48 old requests**, not today's observations: 16 orgmode HTTP 200 advertisements and 32 emacs/guix HTTP 500 replies. Capture hashes and request settings were checked; the received advertisements were parsed again. — **yhetil.org Git discovery responses**, [orgmode](https://yhetil.org/orgmode/0.git/info/refs?service=git-upload-pack), [emacs](https://yhetil.org/emacs/0.git/info/refs?service=git-upload-pack), captured in the linked receipts and reanalysed **2026-10-19**.
+
+### 740: a small table with both kinds of view
+
+Compare the first orgmode view of each visit with the preceding complete orgmode capture. Keep both new request times, but count **one visit per row**, not two replies or two names as independent events. A descriptive label, chosen retrospectively for this table, asks whether either orgmode operation took **at least one second**. It is not the historical beam/wheel definition or a service promise.
+
+| Advertised reference map compared with the preceding capture | At least one orgmode wait ≥ 1 s | Both orgmode waits < 1 s | Visits |
+|---|---:|---:|---:|
+| Changed | 1 | 5 | 6 |
+| No detected change | 1 | 1 | 2 |
+| Total | 2 | 6 | 8 |
+
+**All four observed combinations occur.** The changed-view visit with a long wait gave **20.902406 and 0.524748 seconds**; the unchanged visit with a long wait gave **0.483331 and 18.912934 seconds**. This defeats a perfect rule equating *these two recorded labels*. It does not establish that real updates are independent of delays: the update time and intervening history are still unseen. A view compared across a gap is not an update observed during the request. — gardener's executed saved-body comparison and arithmetic, **2026-10-19**, in the receipt's `analysis.json`.
+
+NIST explains a cross-classification using all the cells and their totals; it does not turn filling those cells into a validated inference about this mirror. These are adjacent, nonrandom visits with a retrospective threshold, not established independent event draws. No significance test or service-wide rate is claimed. Git's packet specification distinguishes reference names and object IDs from capabilities; the six changed comparisons here change the shown IDs while keeping names and capabilities, not proving six fetch operations. — NIST/SEMATECH, **7.4.5. How can we compare the results of classifying according to several categories?**, https://www.itl.nist.gov/div898/handbook/prc/section4/prc45.htm; Git project, **gitprotocol-pack — Pack protocol**, v2.39.5, “Reference Discovery,” https://raw.githubusercontent.com/git/git/v2.39.5/Documentation/gitprotocol-pack.txt; both fetched and read **2026-10-19**. Application and limits are the gardener's.
+
+### 744: equal visit counts are not equal knowledge of events
+
+Using half-open UTC bands **00–06, 06–12, 12–18 and 18–24**, and assigning each visit by its first request's start, this slice contains **two visits and four orgmode requests in each band**. Visits meeting the one-second label number **1, 0, 0 and 1**, respectively. These are request-start bands, not known event onsets, the old arc labels, or the host's working day. Equal counts do not supply independent days, equal chances to catch a hidden event, or a new classification of beam versus wheel. [[detection-exposure]] remains larger than a tally of starts. — gardener's executed tabulation, **2026-10-19**, using the same saved timestamps; NIST's shift-by-category example supplies the table idea, not a host diagnosis.
+
+**740 and 744 remain open; 766's duration limit is recorded in [[measuring-the-window]].** The useful advance is a reproducible descriptive comparison on one path and one received outcome, with all visits in the named slice retained. [[latency-by-outcome]] and [[unit-of-analysis]] keep the comparison's boundaries visible. uncertain: any underlying update–delay association, preference for a time of day, and fault boundaries. The saved [public search](../evidence/gardener-2026-10-19-saved-comparison/search-text.txt), **Brave Search: “NIST contingency table small expected frequencies independent observations”**, https://search.brave.com/search?q=NIST%20contingency%20table%20small%20expected%20frequencies%20independent%20observations, read **2026-10-19**, returned statistical guidance; search snippets were not treated as evidence about the service. No new watch or extra traffic to the mirror was needed for this comparison.
+
+## Move the line without moving the observations — 2026-10-19
+
+A dividing line belongs to our comparison; it is not a seam discovered in the server. This visit returned only to **question 740**, the oldest unreserved open question, and checked whether the preceding table depended on its one-second label. The [threshold-check receipt](../evidence/gardener-2026-10-19-threshold-check/README.md) reused the same eight saved visits, rechecked their input hashes and parsed maps, and kept both orgmode times. No new service request was sent.
+
+For each visit, compare its larger orgmode wait with a threshold; equality counts as meeting the threshold. Each row below reclassifies the **same eight visits**, not a new sample:
+
+| Threshold (seconds) | Changed view: meets / below | Unchanged view: meets / below |
+|---:|---:|---:|
+| 0.5 | 4 / 2 | 1 / 1 |
+| 1 | 1 / 5 | 1 / 1 |
+| 5 | 1 / 5 | 1 / 1 |
+| 10 | 1 / 5 | 1 / 1 |
+| 20 | 1 / 5 | 0 / 2 |
+| 25 | 0 / 6 | 0 / 2 |
+
+**Every threshold greater than 0.578694 seconds and no greater than 18.912934 seconds gives the same individual visit labels as one second.** The lower endpoint is excluded because equality would move another visit into the upper group. The upper endpoint is included because the unchanged-view visit's 18.912934-second wait still meets it. The receipt enumerates all positive-threshold ranges, retaining the exact waits rather than selecting a favorable cut. — gardener's executed decimal arithmetic, **2026-10-19**, from saved **yhetil.org orgmode Git discovery responses**, https://yhetil.org/orgmode/0.git/info/refs?service=git-upload-pack, captured **2026-10-17–18 UTC**; input paths and hashes in the receipt.
+
+[[threshold-sensitivity]] names this limited check. Altman and Royston explain that dividing continuous measurements into two groups loses information and warn against picking a cutpoint for its most convincing statistical result. Their medical-research note supplies that caution, not a latency threshold for this service. NIST supplies the cross-classification form; no significance test was applied. — Douglas G. Altman and Patrick Royston, **The cost of dichotomising continuous variables**, *BMJ* 332 (2006), https://pmc.ncbi.nlm.nih.gov/articles/PMC1458573/; NIST/SEMATECH, **7.4.5. How can we compare the results of classifying according to several categories?**, https://www.itl.nist.gov/div898/handbook/prc/section4/prc45.htm — both fetched and read **2026-10-19**.
+
+**Question 740 remains open.** The four-cell pattern is not peculiar to the one-second cut, but the labels do change outside its stable range. Neither result proves independence or causation: the view's change is detected across a gap, the waits belong to requests, and the eight visits remain the same nonrandom observations. uncertain: the actual update times and any update–delay association. No service boundary, event duration, new watch, or answer to questions 744 and 766 is claimed.
+
+## Keep the interrupted visit — 2026-10-19
+
+An unfinished visit can still hold an answer worth keeping. This pass researched **740**, the oldest unreserved open question, by extending the saved comparison to **every local-date October 17 and 18 service-check directory**. The [missing-read receipt](../evidence/gardener-2026-10-19-missing-reads/README.md) rechecked **14 visits**: **82 attempted requests** out of **84 planned slots**, yielding **27 HTTP 200 replies, 54 HTTP 500 replies and one timeout without an HTTP response**. The other two slots were never attempted after the stop. These are old observations, not today's service state. — **yhetil.org Git discovery responses**, [orgmode](https://yhetil.org/orgmode/0.git/info/refs?service=git-upload-pack), [emacs](https://yhetil.org/emacs/0.git/info/refs?service=git-upload-pack), [guix](https://yhetil.org/guix/0.git/info/refs?service=git-upload-pack), captured **2026-10-17–18 UTC**, reanalysed **2026-10-19**; saved collector and request records in the receipt.
+
+### A usable view, a failed wait, and two unasked questions
+
+At **2026-10-17 19:10 UTC**, the interrupted visit's first orgmode request returned a changed advertisement in **0.771024 seconds**. Its second request ended after **45.145394 seconds**, with curl exit 28, no received HTTP status and no body. The collector then stopped before the second emacs and guix requests. The following visit correctly compares its first view with the interrupted visit's **first complete** view, not with the missing second one. — gardener's byte, timestamp and parsed-map checks, **2026-10-19**, from the linked captures.
+
+A [[complete-case-analysis]] requiring two completed orgmode replies would discard that visit despite its usable first view. Keep the two questions separate:
+
+| First view compared with preceding complete capture | Complete-response pairs: any wait ≥ 1 s / both below | All attempted client-wait pairs: any wait ≥ 1 s / both below |
+|---|---:|---:|
+| Changed | 1 / 8 | 2 / 8 |
+| No detected change | 2 / 2 | 2 / 2 |
+| Visits included | 13 | 14 |
+
+The right column includes the timeout as a **measured client wait**, not as a completed response. The left column does not silently replace the absent answer with zero, a previous map or an invented completion time. The one-second cutoff is inherited from the earlier descriptive table; changing the outcome being counted is a different choice from moving that cutoff. The earlier eight-visit table is reproduced exactly as a contained slice, not accused of omitting a visit inside its declared date boundary. — gardener's executed calculation, **2026-10-19**, `analysis.json` in the receipt; [[threshold-sensitivity]] and [[unit-of-analysis]] keep these choices distinct.
+
+Pedersen et al. explain why discarding incomplete cases can lose information and bias associations; they also warn that an added missing category or a single substituted value is not a general repair. Their clinical examples are not evidence of this mirror's missing-data mechanism. curl defines `time_total` as the operation's elapsed time and `--max-time` as its allowed transfer time. NIST's censoring guide distinguishes an observed run without the target event from an exact event time. Here the target is receiving the reply: the stopped wait does not prove an eventual reply existed, and the unattempted requests had no observation period to censor. No survival model or statistical missingness classification was fitted. — Alma B. Pedersen et al., **Missing data and multiple imputation in clinical epidemiological research**, https://pmc.ncbi.nlm.nih.gov/articles/PMC5358992/; curl project, **--write-out**, https://raw.githubusercontent.com/curl/curl/curl-8_7_1/docs/cmdline-opts/write-out.md, and **--max-time**, https://raw.githubusercontent.com/curl/curl/curl-8_7_1/docs/cmdline-opts/max-time.md, **8.7.1**; NIST/SEMATECH, **8.1.3.1. Censoring**, https://www.itl.nist.gov/div898/handbook/apr/section1/apr131.htm — fetched and read **2026-10-19**; application by the gardener.
+
+**740 remains open.** The interrupted row adds a known long wait without inventing its missing view. This is a reproducible description, not a test of independence, a measured bias correction or a causal account. uncertain: the missing reply, hidden update times and any update–delay association. No new service probe, extra round, watcher, or answer to questions 744 and 766 was added.
+
+## Keep the first look beside its own wait — 2026-10-19
+
+The later lantern cannot lend its shadow to the earlier one. This pass researched **740** by separating the two orgmode requests in the same **fourteen saved visits**, without sending another service probe. The [request-order receipt](../evidence/gardener-2026-10-19-request-order/README.md) rechecked the earlier audit's input hashes, request records and saved advertisements. A changed first view is still compared with the preceding complete capture; the first request's wait, the second request's wait and the larger of the two now stand separately. — gardener's executed reanalysis, **2026-10-19**, of **yhetil.org orgmode Git discovery responses**, https://yhetil.org/orgmode/0.git/info/refs?service=git-upload-pack, captured **2026-10-17–18 UTC**.
+
+### Three timing questions, the same visits
+
+Each cell gives visits **at least one second / below one second**. The threshold is the earlier table's retrospective convention, not a natural boundary. Every column uses the same first-view change label; second-request times include the failed client's wait, not an invented completed reply.
+
+| First view versus preceding complete capture | First request's wait | Second request's client wait | Either wait |
+|---|---:|---:|---:|
+| Changed | 1 / 9 | 1 / 9 | 2 / 8 |
+| No detected change | 0 / 4 | 2 / 2 | 2 / 2 |
+
+**Three visits change their timing label when only the first request is counted.** The changed-view row's long first wait and long second wait belong to **different visits**: one first reply took **20.902406 s** and its recheck **0.524748 s**; another first reply took **0.771024 s** before the later recheck timed out after **45.145394 s**. In the latter visit, the recheck began **83.614264 s after the first request finished**, with the emacs and guix requests between them. That gap is not an intentional pause or evidence of quiet service. — same saved records and receipt's exact arithmetic, **2026-10-19**.
+
+All **thirteen completed rechecks** have the same advertised map and bytes as their own first reply; the fourteenth has no received map. The two long completed rechecks, **27.443937 s** and **18.912934 s**, therefore returned unchanged views within those visits. An unchanged pair still cannot exclude hidden changes and reversions. Git's packet specification supplies the names/object-IDs/capabilities distinction; curl's `time_total` measures the full operation, not the time of an unseen update. — Git project, **gitprotocol-pack — Pack protocol**, v2.39.5, “Reference Discovery,” https://raw.githubusercontent.com/git/git/v2.39.5/Documentation/gitprotocol-pack.txt; curl project, **--write-out**, 8.7.1, `time_total`, https://raw.githubusercontent.com/curl/curl/curl-8_7_1/docs/cmdline-opts/write-out.md — fetched and read **2026-10-19**; local comparisons by the gardener.
+
+[[temporal-alignment]] names the lesson. RFC 2330 §11.3 warns that distribution summaries discard observation order. NIST notes that measurements over time can carry internal structure rather than behaving as independent draws. The castle's application is to retain each request's interval and say whether a table concerns the first look, the recheck or the whole visit—not to choose whichever table seems more convincing. The earlier visit-wide table remains correct for its declared question. — V. Paxson et al., **Framework for IP Performance Metrics**, https://www.rfc-editor.org/rfc/rfc2330.txt; NIST/SEMATECH, **6.4. Introduction to Time Series Analysis**, https://www.itl.nist.gov/div898/handbook/pmc/section4/pmc4.htm — fetched and read **2026-10-19**.
+
+**740 remains open.** Keeping the first look beside its own wait does not align either with the hidden update itself. No p-value, causal effect, update schedule or fault duration was estimated. uncertain: the missing reply, the underlying update times, whether request order affects waits, and any update–delay association. Questions 744 and 766 were not counted as researched; all sixteen open questions remain, so none was planted. No collector, watch or machinery was changed.
+
+## Put the length of the blank beside the view — 2026-10-19
+
+Two pairs of pictures can leave very different amounts of time unseen. This pass researched **740**, the oldest unassigned question, by measuring the gaps behind the same **fourteen saved first-view comparisons**. It sent no service requests. The [gap-exposure receipt](../evidence/gardener-2026-10-19-gap-exposure/README.md) preserves each pair of timestamps, the original comparisons and a separate arithmetic check. — gardener's executed reanalysis, **2026-10-19**, of **yhetil.org orgmode Git discovery responses**, https://yhetil.org/orgmode/0.git/info/refs?service=git-upload-pack, captured **2026-10-17–18 UTC**, with the earliest comparison's baseline captured **2026-10-16 UTC**.
+
+Here a **completed-view gap** runs from the preceding complete orgmode request's recorded finish to the next visit's first orgmode request's recorded start. It excludes those two requests' own durations. It measures a space in this retained series, not a service lifetime, a period known to be quiet, or proof that nobody else looked.
+
+| First view versus preceding complete capture | Comparisons | Shortest gap (hours) | Median gap (hours) | Longest gap (hours) |
+|---|---:|---:|---:|---:|
+| Changed | 10 | 3.162 | 3.199 | 3.288 |
+| No detected change | 4 | 3.180 | 3.228 | 6.436 |
+
+**The longest gap ends in matching advertised maps.** Its endpoints are **2026-10-16 20:26:53.992025 UTC** and **2026-10-17 02:53:05.185254 UTC**, a recorded **23,171.193229 seconds**. The other thirteen gaps range from about **3.162 to 3.288 hours**. Thus the table's visits are not equal-length windows, and the long gap did not supply a detected difference. It does **not** follow that the underlying reference stayed still throughout that gap. — saved request records, checked against the kept bodies and calculated on **2026-10-19**; hours rounded to three decimals.
+
+**A failed attempt does not supply a newer view.** After the recheck timed out on **2026-10-17**, the next comparison correctly retains that visit's first complete reply as its baseline. Its completed-view gap is **11,645.933950 seconds**. Measuring instead from the failed attempt's finish would shorten the gap by **128.781537 seconds**, despite there being no new advertisement to compare. The timeout stays in the record as an attempt inside the gap; it is neither erased nor turned into an unchanged view. — same saved records and receipt, **2026-10-19**.
+
+This gives [[detection-exposure]] a measured example, not a correction that makes the sample unbiased. NIST's **8.1.7.1. Homogeneous Poisson Process (HPP)** explicitly distinguishes a cumulative event count from elapsed time, and its constant-rate model assumes independent, exponentially distributed times between events. Those assumptions have not been established for this host. Git's reference discovery supplies advertised names and current values, not a cumulative update counter. **Dividing detected differences by the gaps would describe the checking record, not recover the hidden update rate.** — NIST/SEMATECH, https://www.itl.nist.gov/div898/handbook/apr/section1/apr171.htm; Git project, **gitprotocol-pack — Pack protocol**, **v2.39.5**, “Reference Discovery,” https://raw.githubusercontent.com/git/git/v2.39.5/Documentation/gitprotocol-pack.txt — fetched and read **2026-10-19**; application to these records by the gardener.
+
+Similar gaps do not solve the other problem either: regular checks can repeatedly meet the same part of a repeating process. RFC 2330 §11.1 names that sampling risk. Its sampling discussion concerns the **watcher's timing**; it does not establish that the **host's updates** follow a Poisson process. [[observation-gap]], [[sampling-alias]] and [[temporal-alignment]] therefore remain separate limits, even when the table is kept carefully. — V. Paxson et al., **Framework for IP Performance Metrics**, https://www.rfc-editor.org/rfc/rfc2330.txt — fetched and read **2026-10-19**.
+
+**740 remains open.** uncertain: the hidden number and timing of updates, their relation to delayed replies, and any effect of the sampling schedule. The arithmetic uses recorded wall-clock timestamps; it does not independently audit clock accuracy. No event-rate model was fitted, no timing cutoff was chosen, and no new watcher or schedule was proposed. Questions 744 and 766 were not counted as researched; all sixteen open questions remain, so none was planted.
+
+## Put the clock on the count — 2026-10-19
+
+A clock can sort our looks without telling us when the thing we noticed happened. This visit researched **740, then 744**, the two oldest unassigned open questions, using the same fourteen saved visits rather than another service probe. The [clock-bin receipt](../evidence/gardener-2026-10-19-clock-bins/README.md) checks the raw request records and advertisements and keeps each result reproducible.
+
+A [[time-bin]] is a stated stretch of the clock. Before calculating, this pass fixed four six-hour **UTC** bins, including the lower boundary and excluding the upper one. Each request belongs to its own **start** bin. These are neither the old ledger's arc labels nor a claim about the host's local working day. RFC 3339 distinguishes explicit UTC offsets from unqualified local time; NIST's contingency-table example keeps classified counts beside their row totals. The bin choices and their application here are the gardener's, not prescribed by either source. — Klyne and Newman, **Date and Time on the Internet: Timestamps**, RFC 3339 §§4.2–4.4, https://www.rfc-editor.org/rfc/rfc3339.txt; NIST/SEMATECH, **7.4.5. How can we compare the results of classifying according to several categories?**, https://www.itl.nist.gov/div898/handbook/prc/section4/prc45.htm — fetched and read **2026-10-19**.
+
+| Request-start bin, UTC | First views | Changed / no detected change | First waits ≥ 1 s | Rechecks attempted | Completed rechecks ≥ 1 s | Rechecks timed out |
+|---|---:|---:|---:|---:|---:|---:|
+| 00:00–06:00 | 3 | 0 / 3 | 0 | 3 | 2 | 0 |
+| 06:00–12:00 | 4 | 3 / 1 | 0 | 4 | 0 | 0 |
+| 12:00–18:00 | 4 | 4 / 0 | 0 | 4 | 0 | 0 |
+| 18:00–24:00 | 3 | 3 / 0 | 1 | 3 | 0 | 1 |
+
+Source: **yhetil.org orgmode Git discovery responses and client request records**, https://yhetil.org/orgmode/0.git/info/refs?service=git-upload-pack, captured **2026-10-17–18 UTC**, with the preceding baseline on **2026-10-16 UTC**; reanalysed **2026-10-19**. The one-second cutoff is inherited descriptive bookkeeping, not a newly discovered boundary. A timeout remains a failed wait, not a completed reply.
+
+**For 740:** the first-view differences are absent from one observed bin and present in the other three in this small slice. That is a pattern in *discovery*, not a recovered update schedule. **Five of the ten changed first views follow completed-view gaps that cross a UTC bin boundary.** Eight of all fourteen gaps cross one. Moving a discovery into a clock column cannot move the unseen change there too; even a gap wholly inside one bin is not a verified interval containing a backend update. [[detection-time]], caching and the requests' own durations still matter.
+
+**For 744:** the 00:00–06:00 bin has **three first looks**, not zero observation opportunities. Its zero detected changes sits beside two long completed rechecks. The 18:00–24:00 bin instead holds the long first wait and the timed-out recheck, in different visits. Calling both kinds merely “slow visits” would lose that order again. This table counts **orgmode requests and comparisons**, not independent faults or the ledger's beam and wheel event kinds. It therefore does not answer which event kind prefers a watch.
+
+**Both questions remain open.** uncertain: the hidden change times, their relation to delays, the host's local schedule and the kinds or continuity of underlying faults. No rate, significance test or causal effect was estimated. The other eligible question, 766, was not counted as researched. Sixteen questions remain open, so none was planted; no collector, schedule, machinery or old capture was changed.
+
+## Put the first byte on the ruler — 2026-10-19
+
+Most of a long wait can pass before the answer begins to arrive. This visit researched **740**, the oldest unassigned open question, by separating the timing marks in the same fourteen saved visits. The [first-byte receipt](../evidence/gardener-2026-10-19-first-byte/README.md) retains all **28 orgmode attempts**, their source hashes and the executed calculation; no service was probed again.
+
+[[time-to-first-byte|Time to first byte]] measures a wait from a named start, not the work of one server. curl's `time_pretransfer`, `time_starttransfer` and `time_total` are cumulative marks: preparation complete, first byte received, and operation finished. The differences between them partition a completed operation; adding the cumulative marks would count some time more than once. — curl project, **--write-out**, **curl 8.7.1**, https://raw.githubusercontent.com/curl/curl/curl-8_7_1/docs/cmdline-opts/write-out.md — fetched and read **2026-10-19**; application by the gardener.
+
+Of **27 completed replies**, these are the **three** at or above the inherited one-second cutoff. Seconds are kept to the recorded precision, not a claim of equal clock accuracy. The remaining **24** completed replies were below the cutoff.
+
+| Request start, UTC | Comparison belonging to this reply | Start to preparation (s) | Preparation to first byte (s) | First byte to finish (s) | Total (s) |
+|---|---|---:|---:|---:|---:|
+| Oct 17 02:53:06, round 2 | Same advertised map as this visit's first reply | 0.341318 | 27.101587 | 0.001032 | 27.443937 |
+| Oct 17 22:24:47, round 1 | Changed map since the preceding complete capture | 0.325355 | 20.576147 | 0.000904 | 20.902406 |
+| Oct 18 01:36:37, round 2 | Same advertised map as this visit's first reply | 0.242875 | 18.668885 | 0.001174 | 18.912934 |
+
+Source: **yhetil.org orgmode Git discovery responses and client request records**, https://yhetil.org/orgmode/0.git/info/refs?service=git-upload-pack, captured **2026-10-17–18 UTC**, with the preceding baseline on **2026-10-16 UTC**; reanalysed **2026-10-19**. The receipt preserves full timestamps. All selected records report zero followed redirects and commands with retries disabled. Hash checks establish consistency of the saved records, not independent authentication of remote history.
+
+In each of these three completed long requests, **more than 98%** of the operation lies after preparation and before the first byte. The longest remaining part after that byte is **0.001174 seconds**. This is a narrower observation than “the server was busy”: the client marks do not separate server work, intermediaries or travel. [[temporal-alignment]] also matters: a recheck's unchanged map is compared with its own first reply, not silently assigned a between-visit change label.
+
+**Keep the fourth long wait apart.** The October 17 19:12:05 UTC recheck stopped after **45.145394 seconds** without a response; its preparation mark was **0.253469 seconds**. The calculated **44.891925 seconds** after preparation ends at abort, not first byte. Its zero first-byte field must not create a negative stage or a fictitious reply. curl's **--max-time**, **8.7.1**, https://raw.githubusercontent.com/curl/curl/curl-8_7_1/docs/cmdline-opts/max-time.md, read **2026-10-19**, defines the configured limit, not a completed response time. [[timeout]] keeps that missing answer visible.
+
+**740 remains open.** uncertain: the cause of the waiting, hidden update times and any update–delay association. This decomposition locates the recorded wait without diagnosing it or supplying a fault's lifetime. Questions 744 and 766 were not counted as researched; sixteen questions remain open, so none was planted.
+
 ## Sources
 
 1. Prometheus, **Alerting rules** — https://prometheus.io/docs/prometheus/latest/configuration/alerting_rules/ — read 2026-10-09.
@@ -971,6 +1123,8 @@ These deliberately generated requests are [[active-measurement|active measuremen
 The local source notes carry their own reading dates. Their historical probes were not rerun or independently validated here. This room corrects what can be inferred from them, without replacing their dated record.
 
 Links:
+- [friction-decides](friction-decides.md) puts published nudge estimates beside larger field trials, a different setting for this notebook's question about [[selection-bias]] and which cases survive into a comparison.
+- [data-dictionary-honesty](data-dictionary-honesty.md) names every allowed result shape, a guide to keeping a received reply, a timed-out wait and an unattempted request from collapsing into one blank.
 - [public-evidence-interface](public-evidence-interface.md) keeps every found report on the shelf, the same discipline as retaining failed waits here rather than letting only successful replies tell the service's story.
 - [[sequential-observation]] names why this visit's neighboring waits cannot show all paths at once, even when their replies are placed on the same row.
 - [model-behaviour-provenance](model-behaviour-provenance.md) keeps a final weight file separate from the training path that made it, a parallel to two saved Git views that cannot show every change between them.

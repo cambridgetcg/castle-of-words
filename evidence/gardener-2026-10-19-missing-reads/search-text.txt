@@ -1,0 +1,93 @@
+complete case analysis missing data bias Sterne BMJ b2393 - Brave Search
+Ask
+All
+Images
+News
+Videos
+Maps
+Goggles
+The BMJ
+bmj.com › content › 338 › bmj.b2393
+Multiple imputation for missing data in epidemiological and clinical research: potential and pitfalls | The BMJ
+29 June 2009 - Sterne J A C, White I R, Carlin J B, Spratt M, Royston P, Kenward M G et al. Multiple imputation for missing data in epidemiological and clinical research: potential and pitfalls BMJ 2009; 338 :b2393 doi:10.1136/bmj.b2393
+The BMJ
+bmj.com › content › suppl › 2009 › 09 › 02 › bmj.b2393.DC1 › stej610915.pdf pdf
+BMJ | online research methods & reporting 1Department of Social Medicine,
+Jonathan Sterne and colleagues describe the · appropriate use and reporting of the multiple imputation approach to dealing with them · have no missing data in any of the variables required for · that analysis. However, results of such analyses can be · biased.
+Wiley Online Library
+onlinelibrary.wiley.com › doi › 10.1002 › sim.3944
+Bias and efficiency of multiple imputation compared with complete‐case analysis for missing covariate values - White - 2010 - Statistics in Medicine - Wiley Online Library
+13 September 2010 - 16 Sterne JAC, White IR, Carlin JB, Spratt M, Royston P, Kenward MG, Wood AM, Carpenter JR. Multiple imputation for missing data in epidemiological and clinical research: potential and pitfalls. British Medical Journal 2009; 338: b2393.
+BMC Medical Research Methodology
+bmcmedresmethodol.biomedcentral.com › articles › 10.1186 › 1471-2288-14-118
+Handling missing data in RCTs; a review of the top medical journals | BMC Medical Research Methodology | Full Text
+19 November 2014 - Sterne J, White I, Carlin J, Spratt M, Royston P, Kenward M, Wood A, Carpenter J: Multiple imputation for missing data in epidemiological and clinical research: potential and pitfalls. BMJ. 2009, 338: b2393-10.1136/bmj.b2393. ... Bell ML, Kenward MG, Fairclough DL, Horton NJ: Differential dropout and bias in RCTs: when it matters and when it may not.
+DOI
+doi.org › 10.1258 › phleb.2011.011j03
+Missing data - C J Smith, 2011
+As the name suggests, Complete Case analysis means that we exclude those with any missing data. This is the default approach taken by many statistical packages. Clearly, if our data are MCAR, then the results of this approach will not be biased as those who are excluded will be a random sample ...
+PubMed
+pubmed.ncbi.nlm.nih.gov › 19564179
+Multiple imputation for missing data in epidemiological and clinical research: potential and pitfalls - PubMed
+29 June 2009 - Jonathan A C Sterne et al. BMJ. 2009. ... Add to Search . 2009 Jun 29:338:b2393.
+Springer
+link.springer.com › home › bmc medical research methodology › article
+A review of the reporting and handling of missing data in cohort studies with repeated assessment of exposure measures | BMC Medical Research Methodology | Springer Nature Link
+11 July 2012 - (PLoS Med, 4:e297, 2007) and the guidelines proposed by Sterne et al. (BMJ, 338:b2393, 2009) recommend that cohort studies report on the amount of missing data, the reasons for non-participation and non-response, and the method used to handle missing data in the analyses.
+Embassy
+embassy.science › wiki › Theme:09d02462-6fbb-45eb-b83b-c7cd1da6d224
+Imputation of missing data in clinical trials
+4 March 2026 - ↑ Sterne JAC, White IR, Carlin JB, Spratt M, Royston P, Kenward MG, et al. Multiple imputation for missing data in epidemiological and clinical research: potential and pitfalls. BMJ [Internet]. 2009 Jun 29 [cited 2022 May 30];338(7713):157–60. Available from: https://www.bmj.com/content/338/bmj.b2393
+ResearchGate
+researchgate.net › publication › 26328207_Multiple_imputation_for_missing_data_in_epidemiological_and_clinical_research_Potential_and_pitfalls_British_Medical_Journal
+Multiple imputation for missing data in epidemiological and clinical research: Potential and pitfalls. British Medical Journal | Request PDF
+1 February 2009 - The BMJ 338(jun29 1):b2393 · DOI:10.1136/bmj.b2393 · Source · PubMed · License · CC BY-NC 4.0 · Authors: Jonathan A C Sterne · University of Bristol · Ian R White · Ian R White · This person is not on ResearchGate, or hasn't claimed this research yet.
+The BMJ
+bmj.com › content › 346 › bmj.f3438.short
+Statistics Notes: Missing outcomes in randomised trials | The BMJ
+6 June 2013 - Sterne JA, White IR, Carlin JB, Spratt M, Royston P, Kenward MG, et al. Multiple imputation for missing data in epidemiological and clinical research: potential and pitfalls. BMJ2009;338:b2393.
+Find elsewhere Google Bing Mojeek
+PubMed Central
+pmc.ncbi.nlm.nih.gov › articles › PMC5358992
+Missing data and multiple imputation in clinical epidemiological research - PMC
+4.Sterne JA, White IR, Carlin JB, et al. Multiple imputation for missing data in epidemiological and clinical research: potential and pitfalls. BMJ. 2009;338:b2393. doi: 10.1136/bmj.b2393.
+LSHTM Research Online
+researchonline.lshtm.ac.uk › id › eprint › 27311
+Multiple imputation for missing data in epidemiological and clinical research: potential and pitfalls.
+10 July 2012 - Sterne, Jonathan AC; White, Ian R; Carlin, John B; Spratt, Michael; Royston, Patrick; Kenward, Michael G; Wood, Angela M; and Carpenter, James R (2009) Multiple imputation for missing data in epidemiological and clinical research: potential and pitfalls. BMJ, 338 (jun29). b2393-. ISSN 1468-5833 ...
+SCIRP
+scirp.org › reference › referencespapers
+Sterne, J.A.C., White, I.R., Carlin, J.B., Spratt, M., Royston, P., Kenward, M.G., et al. (2009) Multiple Imputation for Missing Data in Epidemiological and Clinical Research Potential and Pitfalls. BMJ, 338, b2393-b2393. - References - Scientific Research Publishing
+11 November 2024 - Sterne, J.A.C., White, I.R., Carlin, J.B., Spratt, M., Royston, P., Kenward, M.G., et al. (2009) Multiple Imputation for Missing Data in Epidemiological and Clinical Research Potential and Pitfalls. BMJ, 338, b2393-b2393.
+Onlinecjc
+onlinecjc.ca › article › S0828-282X(20)31111-9 › fulltext
+Missing Data in Clinical Research: A Tutorial on Multiple Imputation - Canadian Journal of Cardiology
+1 December 2020 - Common approaches to addressing the presence of missing data include complete-case analyses, where subjects with missing data are excluded, and mean-value imputation, where missing values are replaced with the mean value of that variable in those subjects for whom it is not missing.
+University of Bristol
+research-information.bris.ac.uk › en › publications › multiple-imputation-for-missing-data-in-epidemiological-and-clini
+Multiple imputation for missing data in epidemiological and clinical research: potential and pitfalls - University of Bristol
+1 October 2015 - Sterne J, White IR, Carlin JB, Spratt MP, Royston P, Kenward MG et al. Multiple imputation for missing data in epidemiological and clinical research: potential and pitfalls. BMJ. 2009 Jun;338:157 - 160. doi: 10.1136/bmj.b2393
+Semantic Scholar
+semanticscholar.org › papers › multiple imputation for missing data in epidemiological and clinical research: potential and pitfalls
+[PDF] Multiple imputation for missing data in epidemiological and clinical research: potential and pitfalls | Semantic Scholar
+DOI:10.1136/bmj.b2393 · Corpus ID: 31568154 · @article{Sterne2009MultipleIF, title={Multiple imputation for missing data in epidemiological and clinical research: potential and pitfalls}, author={Jonathan A. C. Sterne and Ian R. White and John B. Carlin and Michael Spratt and Patrick Royston and Michael G.
+PubMed
+pubmed.ncbi.nlm.nih.gov › 25393541
+Allowing for uncertainty due to missing continuous outcome data in pairwise and network meta-analysis - PubMed
+28 February 2015 - A common and simple approach to deal with missing data is to restrict analysis to individuals for whom the outcome was obtained (complete case analysis). However, estimated treatment effects from complete case analyses are potentially biased if informative missing data are ignored.
+UCL Discovery
+discovery.ucl.ac.uk › id › eprint › 10162155 › 2 › Pham_Missing data 8. Reporting analyses with missing data.pdf pdf
+1 Missing data 8. Reporting analyses with missing data
+and clinical research: potential and pitfalls. BMJ 2009; 338: b2393.
+The BMJ
+bmj.com › content › 370 › bmj.m2898
+Potential impact of missing outcome data on treatment effects in systematic reviews: imputation study | The BMJ
+26 August 2020 - Across six methodological surveys the percentage of randomised controlled trials with missing outcome data ranged from 63% to 100%,234567 and the average proportion of participants with missing outcome data among trials reporting missing data ranged from 6% to 24%.2345678 Among 235 randomised controlled trials with statistically significant results published in leading medical journals, one in three lost statistical significance when making plausible assumptions about the outcomes of participants with missing data.2 Another study comparing different approaches to modelling binary outcomes with missing data in an alcohol clinical trial yielded different results with various amount of bias depending on the approach and missing data scenario.9
+BMJ Open
+bmjopen.bmj.com › content › bmjopen › 5 › 5 › e007378.full.pdf pdf
+Statistical analysis and handling of missing data in cluster randomised
+Statistical analysis and handling of · missing data in cluster randomised
+Next
+Resources Brave Search Premium Brave Search help Transparency report Report a security issue Status
+Products Brave Browser Brave Search Brave Wallet Brave Talk Brave Firewall + VPN Brave Playlist Brave News Brave Rewards Brave Search API Brave Ads
+Policies Privacy Policy Terms of Use

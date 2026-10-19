@@ -1,0 +1,25 @@
+{
+  "verified_utc": "2026-10-18T23:59:16.657504+00:00",
+  "result": "PASS",
+  "same_session_not_independent_review": true,
+  "input_hashes": 114,
+  "saved_requests": 48,
+  "compared_visits": 8,
+  "table": [
+    1,
+    5,
+    1,
+    1
+  ],
+  "source_fetches_checked": 4,
+  "new_local_links_checked": 35,
+  "map_rooms": 697,
+  "map_duplicates": 0,
+  "open_questions": 16,
+  "questions_courtyard_quests_unchanged": true,
+  "garden_unchanged": true,
+  "prior_prose_preserved": true,
+  "chronicle_lines_appended": 1,
+  "chronicle_line": "- 2026-10-19 01:55 \u00b7 visit: filed 0, researched 3, planted 0 \u2014 Comparing eight saved visits put changed and unchanged Git views beside their waits without sending another probe.",
+  "git_diff_check": "PASS"
+}

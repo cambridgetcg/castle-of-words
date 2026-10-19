@@ -1,0 +1,165 @@
+"""Ad-hoc verification only; synthetic fixtures never stand for service evidence."""
+from contextlib import redirect_stdout
+from datetime import datetime, timezone
+from hashlib import sha256
+from pathlib import Path
+from tempfile import TemporaryDirectory
+from types import SimpleNamespace
+from unittest.mock import patch
+import io
+import json
+import runpy
+import subprocess
+import sys
+import unittest
+
+ROOT = Path('/Users/yu/castle')
+OUT = ROOT/'evidence/gardener-2026-10-19-clock-bins'
+TEMP_ROOT = Path('/var/folders/bg/v8wn0t11067f0hzxkz7hp7rr0000gn/T')
+SCRIPTS = [OUT/name for name in ('research.py','analyze.py','verify.py')]
+
+class FocusedChecks(unittest.TestCase):
+    @classmethod
+    def setUpClass(cls):
+        cls.prior_result = json.loads((OUT/'analysis.json').read_text())
+        with redirect_stdout(io.StringIO()):
+            cls.analysis = runpy.run_path(str(OUT/'analyze.py'), run_name='adhoc_analysis')
+            cls.research = runpy.run_path(str(OUT/'research.py'), run_name='adhoc_research')
+
+    def test_01_changed_scripts_compile(self):
+        for p in SCRIPTS:
+            with self.subTest(file=p.name):
+                compile(p.read_bytes(), str(p), 'exec')
+
+    def test_02_real_saved_data_recount_is_reproducible(self):
+        actual = json.loads((OUT/'analysis.json').read_text())
+        self.assertEqual(actual, self.prior_result)
+        self.assertEqual(actual['totals']['first_views'], 14)
+        self.assertEqual(actual['totals']['changed'], 10)
+        self.assertEqual(actual['totals']['changed_cross_bin_gap'], 5)
+        self.assertEqual(actual['totals']['all_cross_bin_gaps'], 8)
+        self.assertEqual(actual['totals']['timeout_recheck'], 1)
+        self.assertEqual(len(actual['input_sha256']), 58)
+
+    def test_03_utc_bin_boundaries(self):
+        cases = [('00:00:00',0),('05:59:59.999999',0),('06:00:00',1),
+                 ('11:59:59.999999',1),('12:00:00',2),('17:59:59.999999',2),
+                 ('18:00:00',3),('23:59:59.999999',3)]
+        for clock, expected in cases:
+            with self.subTest(clock=clock):
+                d = self.analysis['stamp']('2026-10-17T'+clock+'+00:00')
+                self.assertEqual(self.analysis['bin_index'](d), expected)
+        self.assertEqual(self.analysis['bin_index'](datetime(2026,10,18,tzinfo=timezone.utc)),0)
+
+    def test_04_timestamp_requires_explicit_utc(self):
+        for stamp in ('2026-10-17T06:00:00', '2026-10-17T06:00:00+02:00'):
+            with self.subTest(stamp=stamp), self.assertRaises(AssertionError):
+                self.analysis['stamp'](stamp)
+
+    @staticmethod
+    def advertisement(duplicate=False):
+        def packet(data): return f'{len(data)+4:04x}'.encode()+data
+        oid = b'a'*40
+        second = b'HEAD' if duplicate else b'refs/heads/master'
+        return (packet(b'# service=git-upload-pack\n') + b'0000' +
+                packet(oid+b' HEAD\0agent=synthetic-test\n') +
+                packet(oid+b' '+second+b'\n') + b'0000')
+
+    def fixture_view(self, body):
+        # Explicit synthetic parser fixture, kept in memory only.
+        rec = {'url':self.analysis['URL'], 'curl_exit':0, 'curl_metrics':{'http_code':'200'},
+               'body_present':True, 'body_sha256':sha256(body).hexdigest(), 'body_bytes':len(body)}
+        fn = self.analysis['view']
+        with patch.dict(fn.__globals__, {'load':lambda p:rec, 'read':lambda p:body}):
+            return fn(Path('evidence/synthetic-parser-fixture.json'))
+
+    def test_05_complete_scoped_advertisement(self):
+        _, refs = self.fixture_view(self.advertisement())
+        self.assertEqual(refs, {'HEAD':'a'*40, 'refs/heads/master':'a'*40})
+
+    def test_06_truncated_advertisement_rejected(self):
+        body = self.advertisement()
+        for cut in (1,2,4,5,10):
+            with self.subTest(cut=cut), self.assertRaises((AssertionError,ValueError)):
+                self.fixture_view(body[:-cut])
+
+    def test_07_duplicate_reference_rejected(self):
+        with self.assertRaises(AssertionError):
+            self.fixture_view(self.advertisement(duplicate=True))
+
+    def test_08_html_extraction_hides_script_and_style(self):
+        parser = self.research['Text']()
+        parser.feed('<h1>Visible &amp; true</h1><script>not-evidence</script><style>not-text</style><p>Read me</p>')
+        text = ''.join(parser.parts)
+        self.assertIn('Visible & true', text)
+        self.assertIn('Read me', text)
+        self.assertNotIn('not-evidence', text)
+        self.assertNotIn('not-text', text)
+
+    def test_09_fetch_success_uses_bounded_command(self):
+        fn = self.research['fetch']
+        with TemporaryDirectory(prefix='hermes-verify-', dir=TEMP_ROOT) as tmp:
+            def fake_run(cmd, **kwargs):
+                # Mocked network boundary: this is not a retrieved web page.
+                self.assertEqual(cmd[:2], ['curl','--disable'])
+                for flag, expected in (('--proto','=https'),('--retry','0'),('--max-time','40'),('--max-filesize','2500000')):
+                    self.assertEqual(cmd[cmd.index(flag)+1], expected)
+                self.assertEqual(kwargs['timeout'],45)
+                Path(cmd[cmd.index('--output')+1]).write_bytes(b'<h1>Synthetic test</h1>')
+                return SimpleNamespace(returncode=0, stdout='200', stderr='')
+            with patch.dict(fn.__globals__, {'OUT':Path(tmp)}), patch('subprocess.run', side_effect=fake_run) as mocked:
+                result = fn(('fixture.html','Synthetic test','https://example.invalid/fixture'))
+            mocked.assert_called_once()
+            self.assertEqual(result['http_status'],'200')
+            self.assertEqual(result['sha256'],sha256(b'<h1>Synthetic test</h1>').hexdigest())
+            self.assertEqual((Path(tmp)/'fixture-text.txt').read_text(),'Synthetic test\n')
+
+    def test_10_fetch_failure_not_promoted_to_text(self):
+        fn = self.research['fetch']
+        with TemporaryDirectory(prefix='hermes-verify-', dir=TEMP_ROOT) as tmp:
+            failed = SimpleNamespace(returncode=28, stdout='000', stderr='synthetic timeout')
+            with patch.dict(fn.__globals__, {'OUT':Path(tmp)}), patch('subprocess.run', return_value=failed):
+                result = fn(('failed.html','Synthetic failure','https://example.invalid/failure'))
+            self.assertEqual(result['curl_exit'],28)
+            self.assertEqual(result['bytes'],0)
+            self.assertEqual(result['error'],'synthetic timeout')
+            self.assertFalse((Path(tmp)/'failed-text.txt').exists())
+
+    def test_11_existing_capture_not_overwritten(self):
+        fn = self.research['fetch']
+        with TemporaryDirectory(prefix='hermes-verify-', dir=TEMP_ROOT) as tmp:
+            target = Path(tmp)/'kept.html'; target.write_bytes(b'kept')
+            with patch.dict(fn.__globals__, {'OUT':Path(tmp)}), patch('subprocess.run') as mocked:
+                with self.assertRaises(AssertionError):
+                    fn(('kept.html','Synthetic existing','https://example.invalid/kept'))
+            mocked.assert_not_called()
+            self.assertEqual(target.read_bytes(),b'kept')
+
+    def test_12_actual_closed_visit_verifier(self):
+        p = subprocess.run([sys.executable,'-B',str(OUT/'verify.py'),'--closed'], cwd=ROOT, capture_output=True, text=True, timeout=90)
+        self.assertEqual(p.returncode,0,p.stderr)
+        result = json.loads(p.stdout)
+        self.assertTrue(result['passed'])
+        self.assertTrue(result['closed'])
+        self.assertTrue(result['garden_unchanged'])
+        self.assertTrue(result['separate_recount_agrees'])
+        self.assertEqual(result['mapped_rooms'],697)
+        self.assertEqual(result['open_questions'],16)
+
+if __name__ == '__main__':
+    started = datetime.now(timezone.utc).isoformat()
+    stream = io.StringIO()
+    suite = unittest.defaultTestLoader.loadTestsFromTestCase(FocusedChecks)
+    result = unittest.TextTestRunner(stream=stream, verbosity=2).run(suite)
+    output = stream.getvalue(); print(output)
+    report = {'kind':'ad-hoc verification, not canonical suite', 'started_utc':started,
+              'finished_utc':datetime.now(timezone.utc).isoformat(), 'passed':result.wasSuccessful(),
+              'tests_run':result.testsRun, 'failures':len(result.failures), 'errors':len(result.errors),
+              'changed_source_sha256':{str(p.relative_to(ROOT)):sha256(p.read_bytes()).hexdigest() for p in SCRIPTS},
+              'temporary_script_sha256':sha256(Path(__file__).read_bytes()).hexdigest(),
+              'network':'No real network request; fetch success/failure use explicit synthetic mocks.',
+              'actual_execution':'Re-executed analyze.py on kept captures and verify.py --closed; no chronicle entry added.',
+              'output':output}
+    (OUT/'ad-hoc-verification.json').write_text(json.dumps(report,indent=2)+'\n')
+    print('AD-HOC RESULT:', 'PASS' if result.wasSuccessful() else 'FAIL', 'tests:',result.testsRun)
+    sys.exit(0 if result.wasSuccessful() else 1)

@@ -1,0 +1,59 @@
+6.4. Introduction to Time Series Analysis
+6.
+Process or Product Monitoring and Control
+6.4.
+Introduction to Time Series Analysis
+Time series methods take into account possible
+internal structure in the data
+Time series data often arise when monitoring industrial processes or
+tracking corporate business metrics. The essential difference between
+modeling data via time series methods or using the process monitoring
+methods discussed earlier in this chapter is the following:
+Time series analysis accounts for the fact that data points taken
+over time may have an internal structure (such as autocorrelation, trend
+or seasonal variation) that should be accounted for.
+This section will give a brief overview of some of the more widely
+used techniques in the rich and rapidly growing field of time series
+modeling and analysis.
+Contents for this section
+Areas covered are:
+Definitions, Applications and
+Techniques
+What are Moving Average or Smoothing
+Techniques?
+Single Moving Average
+Centered Moving Average
+What is Exponential Smoothing?
+Single Exponential
+Smoothing
+Forecasting with Single
+Exponential Smoothing
+Double Exponential
+Smoothing
+Forecasting with Double Exponential
+Smoothing
+Triple Exponential
+Smoothing
+Example of Triple Exponential
+Smoothing
+Exponential Smoothing
+Summary
+Univariate Time Series Models
+Sample Data Sets
+Stationarity
+Seasonality
+Common Approaches
+Box-Jenkins Approach
+Box-Jenkins Model
+Identification
+Box-Jenkins Model
+Estimation
+Box-Jenkins Model
+Validation
+Example of Univariate
+Box-Jenkins Analysis
+Box-Jenkins Model Analysis on
+Seasonal Data
+Multivariate Time Series Models
+Example of Multivariate Time
+Series Analysis

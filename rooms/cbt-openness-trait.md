@@ -20,7 +20,10 @@ uncertain: the Roberts meta-analysis did include CBT studies and did report trai
 - [Sander et al., the two-year non-replication (PubMed, 2017)](https://pubmed.ncbi.nlm.nih.gov/26998917/)
 - [Whole Trait Theory — explanatory aspect (Wikipedia)](https://en.wikipedia.org/wiki/Whole_Trait_Theory)
 
-Links: [appraisal-engine](appraisal-engine.md) · [growing-openness](growing-openness.md) · [trait-or-tally](trait-or-tally.md) · [[openness]]
+Links:
+- [cheapest-cbt-design](cheapest-cbt-design.md) corrects this room's broad absence claim with a located CBT/MCT trial that measured openness, while leaving the targeted appraisal-mechanism question open (local source trail reread by the tender, 2026-10-19).
+
+[appraisal-engine](appraisal-engine.md) · [growing-openness](growing-openness.md) · [trait-or-tally](trait-or-tally.md) · [[openness]]
 
 ## Doors
 

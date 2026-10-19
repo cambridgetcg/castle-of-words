@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "phase": "final",
+  "checks": {
+    "input_hashes": 195,
+    "fetched_sources": 6,
+    "separately_recomputed_tables": true,
+    "unchanged_questions_quests_courtyard_and_garden": true,
+    "older_room_prose_preserved": true,
+    "map_rooms_once_each": 697,
+    "gate_only_current_glance_and_one_summary_changed": true,
+    "new_word_shape_and_new_links": true,
+    "exactly_one_chronicle_line_appended": true,
+    "git_diff_check": "PASS"
+  }
+}

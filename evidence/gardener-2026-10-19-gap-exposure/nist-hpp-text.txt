@@ -1,0 +1,51 @@
+8.1.7.1. Homogeneous Poisson Process (HPP)
+8.
+Assessing Product Reliability
+8.1.
+Introduction
+8.1.7.
+What are some basic repair rate models used for repairable systems?
+8.1.7.1.
+Homogeneous Poisson Process (HPP)
+Repair rate (ROCOF) models and formulas
+The simplest useful model for \(M(t)\) is \(M(t) = \lambda t\)
+and the repair rate (or ROCOF) is the constant \(m(t) = \lambda\).
+This model comes about when the interarrival times between failures
+are independent and identically distributed according to the
+exponential distribution, with parameter \(\lambda\).
+This basic model is also known as a
+Homogeneous Poisson Process (HPP). The following formulas apply.
+$$ \begin{array}{rcl}
+F(t) = 1 - e^{-\lambda t} & = & \mbox{CDF of the waiting time to the next failure} \\
+& & \mbox{(or interarrival time between failures)} \\
+& & \\
+N(T) & = & \mbox{cumulative number of failures from time } 0 \mbox{ to time } T \\
+& & \\
+P\{N(t)=k\} & = & \frac{(\lambda T)^k e^{-\lambda T}}{k!} \\
+& & \\
+M(t) = \lambda T & = & \mbox{expected number of failures by time } T \\
+& & \\
+M'(t) = m(t) & = & \lambda = \mbox{repair rate or ROCOF} \\
+& & \\
+\frac{1}{\lambda} & = & \mbox{Mean Time Between Failures (MTBF)}
+\end{array} $$
+HPP model fits flat portion of "bathtub"
+curve
+Despite the simplicity of this model, it is widely used
+for repairable equipment and systems throughout industry. Justification
+for this comes, in part, from the shape of the empirical
+Bathtub Curve. Most systems (or complex tools or equipment)
+spend most of their "lifetimes" operating in the long flat constant repair rate portion of
+the Bathtub Curve. The HPP is the only model that applies to that portion
+of the curve, so it is the most popular model for system reliability evaluation
+and reliability test planning.
+Planning reliability assessment tests
+(under the HPP assumption) is covered in a later section, as is estimating
+the MTBF from system failure data and calculating upper and lower confidence
+limits.
+Poisson relationship
+In the HPP model, the probability of having exactly \(k\)
+failures by time \(T\)
+is given by the Poisson distribution with mean \(\lambda T\)
+(see formula for \(P\{N(t) = k\}\)
+above).

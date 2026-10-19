@@ -1,0 +1,129 @@
+curl time_starttransfer time_pretransfer first byte timing - Brave Search
+Ask
+All
+Images
+News
+Videos
+Maps
+Goggles
+More
+Cloudflare
+blog.cloudflare.com › a-question-of-timing
+A Question of Timing | Cloudflare Blog
+15 July 2026 - time_starttransfer is just before cURL reads the first byte from the network (it hasn't actually read it yet). time_starttransfer - time_appconnect is practically the same as Time To First Byte (TTFB) from this client - 250 ms in this example case.
+GitHub
+github.com › curl › curl › issues › 11669
+time_starttransfer reported wrong timestamp · Issue #11669 · curl/curl
+13 August 2023 - I did this According to the man page below, the server response time can be: time_starttransfer - time_starttransfer time_starttransfer: The time, in seconds, it took from the start until the first byte was just about to be transferred. ...
+Author: curl
+--trace-time shows incorrect timestamps · Issue #15614 · curl/curl 19 Nov 2024 last yr
+pretransfer/posttransfer/starttransfer times set on failed transfers that never sent a request (since 8.21.0) · Issue #23325 · curl/curl 9 Oct 2026 last wk
+Wrong timestamp again · Issue #139 · the-tcpdump-group/tcpdump 16 Apr 2013 13 yr ago
+Issue · curl/curl 5 Jan 2018 8 yr ago
+Occur changing dimension from seconds to another (for all timings parameters: time_namelookup, time_connect, time_appconnect, time_pretransfer, time_redirect, time_starttransfer, time_total) for cURL from ver. 7.74.0 · Issue #6416 · curl/curl 5 Jan 2021 5 yr ago
+More results from github.com
+Discussions
+Reporting of PRETRANSFER_TIME and STARTTRANSFER_TIME when using curl_multi_perform()
+I did this I'm seeing this in libcurl-7.67.0 using HTTP/2 backend when sending POST in custom build environment, but it can also be seen with HTTP 1.1 GET so I'm reproducing it with Ubuntu ... More on github.com
+github.com
+7
+3 January 2020
+Speed up cURL request?
+Are you running the PHP locally just like in postman? If not, copy the curl request and run from Terminal on the server. It could be you just have a faster internet connection or the endpoint throttling the IP of the server.
+More on reddit.com
+r/PHPhelp
+8
+2
+24 October 2020
+NetBeez
+netbeez.net › home › blog › http transaction timing breakdown with curl
+HTTP Transaction Timing with Curl
+11 March 2024 - redirect: The time, in seconds, it took for all redirection steps include name lookup, connect, pretransfer and transfer before the final transaction was started. time_redirect shows the complete execution time for multiple redirections. (Added in 7.12.3) starttransfer: The time, in seconds, it took from the start until the first byte was just about to be transferred.
+DEV Community
+dev.to › gbhorwood › curl-getting-performance-data-with-curl-47f1
+curl: getting performance data with curl - DEV Community
+15 September 2025 - fortunately, curl provides with ... and ssl stuff. time_starttransfer: the time, in seconds, from the start of the call to right before the first byte of the response was transferred....
+HashBangCode
+hashbangcode.com › article › timing-page-responses-curl
+Timing Page Responses With Curl | #! code
+time_starttransfer - The time, in seconds, it took from the start until the first byte was just about to be transferred. This includes time_pretransfer and also the time the server needed to calculate the result. time_total - The total time, ...
+GitHub
+github.com › curl › curl › blob › master › docs › libcurl › opts › CURLINFO_STARTTRANSFER_TIME_T.md
+curl/docs/libcurl/opts/CURLINFO_STARTTRANSFER_TIME_T.md at master · curl/curl
+#include <curl/curl.h> CURLcode ... curl_off_t *timep); Pass a pointer to a curl_off_t to receive the time, in microseconds, it took from the start until the first byte is received by libcurl....
+Author: curl
+curl
+curl.se › libcurl › c › CURLINFO_STARTTRANSFER_TIME_T.html
+CURLINFO_STARTTRANSFER_TIME_T
+#include <curl/curl.h> CURLcode curl_easy_getinfo(CURL *handle, CURLINFO_STARTTRANSFER_TIME_T, curl_off_t *timep); Pass a pointer to a curl_off_t to receive the time, in microseconds, it took from the start until the first byte is received by libcurl. This includes CURLINFO_PRETRANSFER_TIME_T and also the time the server needs to calculate the result.
+Oracle
+docs.oracle.com › cd › E88353_01 › html › E37842 › curlinfo-starttransfer-time-3.html
+CURLINFO_STARTTRANSFER_TIME - man pages section 3: Library Interfaces and Headers
+27 July 2022 - curl_easy_getinfo options ... CURLINFO_STARTTRANSFER_TIME, double *timep); DESCRIPTION Pass a pointer to a double to receive the time, in seconds, it took from the start until the first byte is received by libcurl....
+Tideways
+tideways.com › profiler › blog › changelog › curl-timers-in-timeline-profiler
+cURL Timers in Timeline Profiler – Tideways
+16 June 2025 - cURL PreTransfer: Time from the start of the request until just before the Request is transferred to the server. cURL StartTransfer: Time from the start of the request until the server sends data back to the client.
+Find elsewhere Google Bing Mojeek
+Stack Overflow
+stackoverflow.com › questions › 17638026 › calculating-server-processing-time-with-curl
+http - Calculating Server Processing Time With Curl - Stack Overflow
+Top answer
+1 of 3 20
+If you don't want to count the SSL handshake part then it's time_starttransfer - time_pretransfer
+Here is a nice diagram from this cloudflare blog
+2 of 3 18
+Yes, (time_starttransfer - time-connect) is the time from the connect was noticed by curl until the first byte arrived. Do note that it also includes the transfer time so for a remote site it will be longer simply because of that.
+ManKier
+mankier.com › home › libcurl-devel
+CURLINFO_STARTTRANSFER_TIME_T: time to first byte received | Man Page | Library Functions | libcurl | ManKier
+#include <curl/curl.h> CURLcode curl_easy_getinfo(CURL *handle, CURLINFO_STARTTRANSFER_TIME_T, curl_off_t *timep); Pass a pointer to a curl_off_t to receive the time, in microseconds, it took from the start until the first byte is received by libcurl. This includes CURLINFO_PRETRANSFER_TIME_T(3) ...
+Ubuntu
+manpages.ubuntu.com › resolute › man(3)
+Ubuntu Manpage: CURLINFO_STARTTRANSFER_TIME - time to first byte received
+#include <curl/curl.h> CURLcode curl_easy_getinfo(CURL *handle, CURLINFO_STARTTRANSFER_TIME, double *timep); Pass a pointer to a double to receive the time, in seconds, it took from the start until the first byte is received by libcurl. This includes CURLINFO_PRETRANSFER_TIME(3) and also the ...
+Drumcoder
+drumcoder.co.uk › blog › 2019 › jun › 07 › posting-curl-timings
+POSTing with CURL with timings - drumcoder.co.uk
+7 June 2019 - % Total % Received % Xferd Average ... https://curl.haxx.se/docs/manpage.html · These include: time_starttransfer The time, in seconds, it took from the start until the first byte was just about to be transferred....
+Ubuntu
+manpages.ubuntu.com › noble › man(3)
+Ubuntu Manpage: CURLINFO_STARTTRANSFER_TIME - get the time until the first byte is received
+#include <curl/curl.h> CURLcode curl_easy_getinfo(CURL *handle, CURLINFO_STARTTRANSFER_TIME, double *timep); Pass a pointer to a double to receive the time, in seconds, it took from the start until the first byte is received by libcurl. This includes CURLINFO_PRETRANSFER_TIME(3) and also the ...
+GitHub
+github.com › curl › curl › issues › 4776
+Reporting of PRETRANSFER_TIME and STARTTRANSFER_TIME when using curl_multi_perform() · Issue #4776 · curl/curl
+3 January 2020 - https://curl.haxx.se/libcurl/c/CURLINFO_PRETRANSFER_TIME.html · "Get the time until the file transfer start" https://curl.haxx.se/libcurl/c/CURLINFO_STARTTRANSFER_TIME.html · "Get the time until the first byte is received" Question: Are pre_transfer and start_transfer only applicable for transfers that are not re-using a connection?
+Author: curl
+Ubuntu
+manpages.ubuntu.com › resolute › man(3)
+Ubuntu Manpage: CURLINFO_STARTTRANSFER_TIME_T - time to first byte received
+#include <curl/curl.h> CURLcode curl_easy_getinfo(CURL *handle, CURLINFO_STARTTRANSFER_TIME_T, curl_off_t *timep); Pass a pointer to a curl_off_t to receive the time, in microseconds, it took from the start until the first byte is received by libcurl. This includes CURLINFO_PRETRANSFER_TIME_T(3) ...
+Codemia
+codemia.io › home › knowledge hub › how do i measure request and response times at once using curl?
+How do I measure request and response times at once using cURL? | Codemia
+2 January 2025 - time_pretransfer: Time until the file transfer was about to begin. time_redirect: Time spent in redirections. time_starttransfer: Time until the first byte was received. time_total: Total time that the full operation lasted.
+Ubuntu
+manpages.ubuntu.com › noble › man(3)
+Ubuntu Manpage: CURLINFO_STARTTRANSFER_TIME_T - get the time until the first byte is received
+#include <curl/curl.h> CURLcode curl_easy_getinfo(CURL *handle, CURLINFO_STARTTRANSFER_TIME_T, curl_off_t *timep); Pass a pointer to a curl_off_t to receive the time, in microseconds, it took from the start until the first byte is received by libcurl. This includes CURLINFO_PRETRANSFER_TIME_T(3) ...
+curl
+curl.se › libcurl › c › CURLINFO_STARTTRANSFER_TIME.html
+CURLINFO_STARTTRANSFER_TIME
+#include <curl/curl.h> CURLcode curl_easy_getinfo(CURL *handle, CURLINFO_STARTTRANSFER_TIME, double *timep); Pass a pointer to a double to receive the time, in seconds, it took from the start until the first byte is received by libcurl. This includes CURLINFO_PRETRANSFER_TIME and also the time ...
+Susam
+susam.net › timing-with-curl.html
+Timing With Curl - Susam Pal
+10 July 2010 - time_redirect: The time, in seconds, ... time for multiple redirections. (Added in 7.12.3) time_starttransfer: The time, in seconds, it took from the start until the first byte was just about to be transferred....
+Related queries curl time_connect
+time_starttransfer curl
+curl time_pretransfer
+curl time_starttransfer is less than time_pretransfer php
+curl_easy_getinfo
+batch curl response to variable
+curl output to variable
+curl measure time
+Next
+Resources Brave Search Premium Brave Search help Transparency report Report a security issue Status
+Products Brave Browser Brave Search Brave Wallet Brave Talk Brave Firewall + VPN Brave Playlist Brave News Brave Rewards Brave Search API Brave Ads
+Policies Privacy Policy Terms of Use

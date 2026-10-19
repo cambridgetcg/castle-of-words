@@ -1,0 +1,89 @@
+Altman Royston cost dichotomising continuous variables cutpoint - Brave Search
+Ask
+All
+Images
+News
+Videos
+Maps
+Goggles
+PubMed Central
+pmc.ncbi.nlm.nih.gov › articles › PMC1458573
+The cost of dichotomising continuous variables - PMC - NIH
+Use of this so called “optimal” cutpoint (usually that giving the minimum P value) runs a high risk of a spuriously significant result; the difference in the outcome variable between the groups will be overestimated, perhaps considerably; and the confidence interval will be too narrow. This strategy should never be used.6,7 · When regression is being used to adjust for the effect of a confounding variable, dichotomisation will run the risk that a substantial part of the confounding remains.4,7 Dichotomisation is not much used in epidemiological studies, where the use of several categories is preferred.
+SCIRP
+scirp.org › reference › referencespapers
+Altman, D.G. and Royston, P. (2006) The Cost of Dichotomising Continuous Variables. BMJ, 332, 1080. - References - Scientific Research Publishing
+Altman, D.G. and Royston, P. (2006) The Cost of Dichotomising Continuous Variables. BMJ, 332, 1080.
+The BMJ
+bmj.com › content › 332 › 7549 › 1080.1
+The cost of dichotomising continuous variables | The BMJ
+4 May 2006 - Altman D G, Royston P. The cost of dichotomising continuous variables BMJ 2006; 332 :1080 doi:10.1136/bmj.332.7549.1080
+Semantic Scholar
+semanticscholar.org › papers › the cost of dichotomising continuous variables
+[PDF] The cost of dichotomising continuous variables | Semantic Scholar
+@article{Altman2006TheCO, title={The cost of dichotomising continuous variables}, author={Douglas G. Altman and Patrick Royston}, journal={BMJ : British Medical Journal}, year={2006}, volume={332}, pages={1080}, url={https://api.semanticscholar.org/CorpusID:28329379} }
+PubMed
+pubmed.ncbi.nlm.nih.gov › 16675816
+The cost of dichotomising continuous variables - PubMed
+6 May 2006 - Douglas G Altman et al.
+Oxford University Research Archive
+ora.ox.ac.uk › objects › uuid:979f6cbb-5c50-4a83-96eb-1b4c252942f2
+The cost of dichotomising continuous variables. - ORA - Oxford University Research Archive
+1 May 2006 - Altman, D, and P Royston. 2006. “The Cost of Dichotomising Continuous Variables.” BMJ (Clinical Research Ed.) 332 (7549): 1080.
+The BMJ
+bmj.com › content › bmj › 332 › 7549 › 1080.1.full.pdf pdf
+Statistics Notes The cost of dichotomising continuous variables
+Altman DG, Lausen B, Sauerbrei W, Schumacher M. Dangers of using · “optimal” cutpoints in the evaluation of prognostic factors. J Natl Cancer · Inst 1994;86:829-35. ... W. Dichotomizing ... Royston P, Sauerbrei W.
+ResearchGate
+researchgate.net › publication › 7104819_Statistics_Notes_The_cost_of_dichotomising_continuous_variables
+Statistics Notes: The cost of dichotomising continuous variables | Request PDF
+1 June 2006 - Presumably, many who dichotomise are unaware of the implications.If dichotomisation is used where should the cutpoint be? For a few variables there are recognised cutpoints, such as > 25 kg/m2 to define “overweight” based on body mass index.
+Altmetric
+bmj.altmetric.com › details › 930456 › twitter
+Altmetric – The cost of dichotomising continuous variables
+Old but gold from Douglas Altman and Patrick Royston on dichotomising continuous variables. A mistake we should all try to avoid. https://t.co/b6cQFXit3N https://t.co/3uGwYiLNA9 ... RT @DrGBuckingham: "...dichotomising a variable at the median reduces power by the same amount as would discarding a third of the data" ht… ... RT @5_utr: Reminder: Use of this so called “optimal” cutpoint runs a high risk of a spuriously significant result; the difference in the ou…
+SciSpace
+scispace.com › home › paper directory › the cost of dichotomising continuous variables
+(Open Access) The cost of dichotomising continuous variables (2006) | Douglas G. Altman | 2275 Citations
+4 May 2006 - Douglas G. Altman,Patrick Royston +1 moreUniversity of Oxford ... TL;DR: The impact of converting continuous data to two groups (dichotomising) is considered, as this is the most common approach in clinical research.
+Find elsewhere Google Bing Mojeek
+Europe PMC
+europepmc.org › article › med › 16675816
+The cost of dichotomising continuous variables. - Abstract
+Europe PMC is an archive of life sciences journal literature.
+Ovid
+ovid.com › journals › bmjd › abstract › 00002591-200605060-00042~the-cost-of-dichotomising-continuous-variables
+The cost of dichotomising continuous variables : BMJ
+Altman, Douglas G professor of statistics in medicine · Royston, Patrick professor of statistics · Author information · 1 Cancer Research UK/NHS Centre for Statistics in Medicine, Wolfson College, Oxford OX2 6UD · 2 MRC Clinical Trials Unit, London NW1 2DA ·
+ResearchGate
+researchgate.net › publication › 7547910_Royston_P_Altman_DG_Saurbrei_WDichotomizing_continuous_predictors_in_multiple_regression_a_bad_idea_Stat_Med_25_127-141
+Royston P, Altman DG, Saurbrei WDichotomizing continuous predictors in multiple regression: a bad idea. Stat Med 25: 127-141 | Request PDF
+6 August 2025 - ... The dichotomisation or stratification of metric variables with the help of cutpoints is associated with a loss of information and power in the context of statistical analyses.
+ResearchGate
+researchgate.net › publication › 7104819_Altman_DG_Royston_PThe_cost_of_dichotomising_continuous_variables._BMJ_332_1080
+ResearchGate | Find and share research
+Access 160+ million publication pages and connect with 25+ million researchers. Join for free and gain visibility by uploading your research.
+Wiley Online Library
+onlinelibrary.wiley.com › doi › 10.1002 › sim.5354
+Dichotomising continuous data while retaining statistical power using a distributional approach - Peacock - 2012 - Statistics in Medicine - Wiley Online Library
+2 August 2012 - 2 Altman DG, Royston P. The cost of dichotomising continuous variables. BMJ 2006; 332(7549): 1080. 10.1136/bmj.332.7549.1080 · PubMed Web of Science® Google Scholar · 3 Ragland DR. Dichotomizing continuous outcome variables: dependence of the magnitude of association and statistical power on the cutpoint.
+PubMed
+pubmed.ncbi.nlm.nih.gov › 16217841
+Dichotomizing continuous predictors in multiple regression: a bad idea - PubMed
+15 January 2006 - We consider in detail issues pertaining to creating just two groups, a common approach in clinical research. We argue that the simplicity achieved is gained at a cost; dichotomization may create rather than avoid problems, notably a considerable loss of power and residual confounding. In addition, the use of a data-derived 'optimal' cutpoint leads to serious bias.
+Google Scholar
+scholar.google.com › scholar_lookup
+Google Scholar
+Thirdly, using two groups conceals any non-linearity in the relation between the variable and outcome. Presumably, many who dichotomise are unaware of the implications. If dichotomisation is used where should the cutpoint be? For a few variables there are recognised cutpoints, such as> 25 kg/m2 to ...
+Wiley Online Library
+onlinelibrary.wiley.com › doi › full › 10.1002 › bimj.202000053
+Doug Altman: Driving critical appraisal and improvements in the quality of methodological and medical research - Sauerbrei - 2021 - Biometrical Journal - Wiley Online Library
+8 July 2020 - Doug, Willi, and Patrick wrote a paper in response that again summarized the disadvantages of categorization and presented other approaches that make dichotomization of continuous predictors unnecessary (Royston, Altman, & Sauerbrei, 2006). With the medical community in mind, Doug also published a statistics note in the BMJ with Patrick, entitled “The cost of dichotomizing continuous variables” (Altman & Royston, 2006).
+ProQuest
+proquest.com › scholarly-journals › cost-dichotomising-continuous-variables › docview › 1777635368 › se-2
+The cost of dichotomising continuous variables - ProQuest
+Altman, Douglas G; Royston, Patrick. BMJ : British Medical Journal; London Vol. 332, Iss. 7549, (May 4, 2006): 1080.
+Next
+Resources Brave Search Premium Brave Search help Transparency report Report a security issue Status
+Products Brave Browser Brave Search Brave Wallet Brave Talk Brave Firewall + VPN Brave Playlist Brave News Brave Rewards Brave Search API Brave Ads
+Policies Privacy Policy Terms of Use

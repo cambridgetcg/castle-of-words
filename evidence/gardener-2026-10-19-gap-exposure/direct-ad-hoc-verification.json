@@ -1,0 +1,18 @@
+{
+  "verification_kind": "directly executed ad-hoc verification, not canonical suite green",
+  "status": "PASS",
+  "recorded_at_utc": "2026-10-19T12:57:07.440559+00:00",
+  "tests_run": 6,
+  "failures": 0,
+  "errors": 0,
+  "checked_scripts_sha256": {
+    "analyze.py": "6075af21e174418e87f64b4faae9fc5cc17c6b7228f1035e79c6bff971954789",
+    "research.py": "70ceb6ee33e4f63c8f23de163c464c0141e6fee43cf510575233ef41b4975191",
+    "verify.py": "54313a2697671706a82fd81c250371ccbf8279fd6d2dacd9e9ded394ab118d26"
+  },
+  "script_bytes_unchanged": true,
+  "chronicle_unchanged": true,
+  "deleted_staging_file_absent": true,
+  "network_requests_during_verification": 0,
+  "prior_nine_checks_verified_against_current_hashes": true
+}

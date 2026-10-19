@@ -1,0 +1,19 @@
+{
+  "verification_kind": "ad-hoc verification, not canonical suite green",
+  "status": "PASS",
+  "recorded_at_utc": "2026-10-19T12:55:36.726073+00:00",
+  "tests_run": 9,
+  "failures": 0,
+  "errors": 0,
+  "checked_scripts_sha256": {
+    "analyze.py": "6075af21e174418e87f64b4faae9fc5cc17c6b7228f1035e79c6bff971954789",
+    "research.py": "70ceb6ee33e4f63c8f23de163c464c0141e6fee43cf510575233ef41b4975191",
+    "verify.py": "54313a2697671706a82fd81c250371ccbf8279fd6d2dacd9e9ded394ab118d26"
+  },
+  "script_bytes_unchanged": true,
+  "chronicle_unchanged": true,
+  "temporary_fixtures_cleaned": true,
+  "network_requests_during_verification": 0,
+  "synthetic_fixture_scope": "Only isolated parser and fetch checks; never used as research evidence.",
+  "limits": "Same-session focused checks, not an independent service audit, full suite, or proof of hidden host state."
+}

@@ -1,0 +1,17 @@
+{
+  "kind": "focused ad-hoc verification, not canonical project suite",
+  "result": "PASS",
+  "executed_utc": "2026-10-19T03:12:44.775568+00:00",
+  "tests_run": 6,
+  "failures": 0,
+  "errors": 0,
+  "tested_script_sha256": {
+    "analyze.py": "8bd2b81920eb48fc0b36c46b30724f52506c88148a019fa3e1d4e5c654dd523d",
+    "research.py": "cc2f70a32d1e96c706e2216c73983fefd9f57f373dfc6e645d4c50cb1cc42e85",
+    "verify.py": "590f7a811739f57c2521844c2e22321be22f8f210561fdf2ae0ba9dadb009dbd"
+  },
+  "command": "python3 /private/var/folders/bg/v8wn0t11067f0hzxkz7hp7rr0000gn/T/hermes-verify-yv9vsnd_.py",
+  "network_requests": 0,
+  "fixtures": "explicit synthetic tests only; not source observations",
+  "temporary_fixture_directory_cleaned": true
+}

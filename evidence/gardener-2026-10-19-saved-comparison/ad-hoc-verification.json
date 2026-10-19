@@ -1,0 +1,35 @@
+{
+  "kind": "focused ad-hoc verification; not a canonical suite",
+  "result": "PASS",
+  "checked_utc": "2026-10-18T23:59:16.660756+00:00",
+  "checks_passed": 18,
+  "checks": [
+    "analyze.py: syntax compiles",
+    "research.py: syntax compiles",
+    "verify.py: syntax compiles",
+    "analyze.py: actual execution reproduces the saved analysis exactly",
+    "raw saved captures: separate counting route gives 1, 5, 1, 1",
+    "packet parser: real saved advertisement returns expected names and IDs",
+    "packet parser: rejects empty",
+    "packet parser: rejects nonhex prefix",
+    "packet parser: rejects truncated packet",
+    "packet parser: rejects missing final flush",
+    "packet parser: rejects wrong service",
+    "packet parser: rejects duplicate reference",
+    "research.py: stubbed HTTP 200 saves matching bytes/hash and excludes script/style text",
+    "research.py: stubbed transport timeout stays a failure without extracted success text",
+    "research.py: stubbed HTTP refusal is retained without treating it as a successful source",
+    "temporary fetch fixtures removed",
+    "verify.py: actual content/scope checks pass, with exactly one chronicle addition",
+    "all three checked scripts remain byte-unchanged"
+  ],
+  "network_requests_during_verification": 0,
+  "synthetic_fixtures": "fetch responses and malformed packets only; not research evidence",
+  "source_sha256": {
+    "analyze.py": "56bf10ff6c972368ac4db342855c9126ed0fcbe8e4ddec02b463957734d137ff",
+    "research.py": "2b895c787dddb8fa5dfdeb9f45f7af6164c5d3fbd6d215a413d4b0c9e261de4d",
+    "verify.py": "c87596eb49a980320985205cad5f5df61b879570b696e1f2262fd6bd507a01b5"
+  },
+  "harness_sha256": "e0f21fe5cbb8a30b78bab7a1d34759a4bb2c7a177639f648bff10dd96669eb7d",
+  "temporary_fetch_fixtures_removed": true
+}

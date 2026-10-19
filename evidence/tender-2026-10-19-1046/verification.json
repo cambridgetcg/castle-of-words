@@ -1,0 +1,23 @@
+{
+  "checked_at": "2026-10-19T10:50:42.744592+02:00",
+  "passed": true,
+  "new_room_pairs": [
+    ["counting-the-shapes", "smooth-or-thresholded-understanding"],
+    ["data-dictionary-honesty", "what-the-gaps-can-say"],
+    ["friction-decides", "what-the-gaps-can-say"]
+  ],
+  "new_pair_count": 3,
+  "new_pairs_reciprocal": true,
+  "existing_return_link_repaired": ["cbt-openness-trait", "cheapest-cbt-design"],
+  "new_word_bricks": ["selection-bias"],
+  "new_local_link_occurrences_checked": 27,
+  "map_rooms": 697,
+  "map_missing_stale_or_duplicate_entries": 0,
+  "map_summaries_changed": 3,
+  "original_bytes_preserved_outside_planned_edits": true,
+  "garden_files_unchanged": 84,
+  "chronicle_closed": true,
+  "git_diff_check_exit_code": 0,
+  "rerun": "python3 evidence/tender-2026-10-19-1046/verify.py --closed",
+  "limits": "Structural and change-scope verification; not a scientific revalidation of every room or Map summary."
+}

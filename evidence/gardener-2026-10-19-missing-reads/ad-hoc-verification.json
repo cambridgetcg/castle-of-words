@@ -1,0 +1,22 @@
+{
+  "kind": "ad-hoc verification, not a canonical suite",
+  "status": "PASS",
+  "tests_run": 8,
+  "failures": 0,
+  "errors": 0,
+  "source_sha256": {
+    "evidence/gardener-2026-10-19-missing-reads/analyze.py": "b6d8dfadbf016debf71af62671bc69bb961c0c4edfddbb44cfe81517a25e52c5",
+    "evidence/gardener-2026-10-19-missing-reads/research.py": "ab2cd422b8fc2c72439f6862db960d600dd2286328e8362bc9b45bbb868f0861",
+    "evidence/gardener-2026-10-19-missing-reads/verify.py": "b9a039232a98d42ffb27f38a75b37f0bb39baf5e4f6b84804f320b07b982972a"
+  },
+  "temporary_script_sha256": "e93874249e9065ad52c47d67416dd1e01077c61b30bdffd000e9594338e94ff8",
+  "changed_scripts_unchanged_during_tests": true,
+  "new_network_requests": 0,
+  "notes": [
+    "Real saved-data analyzer and final verifier executed.",
+    "HTTP responses were explicitly mocked offline test fixtures.",
+    "Temporary fixture directories cleaned automatically.",
+    "No extra chronicle line added."
+  ],
+  "temporary_script_and_staging_file_removed": true
+}

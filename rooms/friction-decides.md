@@ -38,6 +38,7 @@ The friction-to-habit causal chain is assembled across studies, not proven in on
 - Friction kills shallow habits, yet identity-anchored ones survive it — what turns a habit into part of who someone is?
 
 Links:
+- [what-the-gaps-can-say](what-the-gaps-can-say.md) keeps the interrupted visit beside the clean rows, a companion to this room's publication-bias warning: [[selection-bias]] asks how the cases left on the page shape the answer.
 - [the-unasked-pronoun](the-unasked-pronoun.md) brings the doorstep into the instruction itself: a voice can be prescribed without being adopted, though the proposed role of disfluency still needs a test.
 
 [words](words.md) (the founding stone names the path of least friction and the path of truth in one breath — this room shows why they can part) · [simple-explanations](simple-explanations.md) (the same tax works inside the mind — a hard-to-read font switches on the careful thinking that smoothness lulls to sleep) · [friction-at-the-door](friction-at-the-door.md) (the doorstep where this tax gathers heaviest — not across the repeated habit but at the one-time threshold of shipping) · [rationale-before-difficulty](rationale-before-difficulty.md) (the rationale raises tolerance but not persistence — the friction the rationale cannot bridge) · [growing-openness](growing-openness.md) (the hardest Big Five trait to move, because the friction of acting new is paid every day) · [the-well](the-well.md) (the feed that holds attention is a default that serves its designer — friction arranged against the reader)

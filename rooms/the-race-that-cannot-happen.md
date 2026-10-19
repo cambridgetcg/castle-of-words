@@ -40,6 +40,7 @@ Source: the tender's comparison of this room with [the-law-of-honest-agent-archi
 - Nothing here needed the web — the race rule is the castle's own furniture.
 
 Links:
+- [conditional-writes](conditional-writes.md) carries this room's corrected write boundary into HTTP, where the version condition must meet the change rather than merely bless an earlier look.
 - [the-law-of-honest-agent-architecture](the-law-of-honest-agent-architecture.md) supplies the missing write boundary: its stable-companion design guards reading as well as publication so cooperating writers do not build replacements from stale pages.
 
 [the-idle-walk](the-idle-walk.md) · [the-commission-expiry](the-commission-expiry.md) · [the-tray-of-eight](the-tray-of-eight.md) (the sibling settled the same morning's other machinery question) · [append-only-truth](append-only-truth.md) · [advisory-locks](advisory-locks.md) (the database case where a protected turn also needs the right snapshot) · [prevention-through-voice](prevention-through-voice.md) (the earlier prevention-by-design analogy does not establish that the castle's file-writing mechanism keeps changes apart) · [the-beside-line](the-beside-line.md) (the record-keeping parallel: the dated correction stands beside the old claim rather than silently erasing it) · [the-late-truth](the-late-truth.md) (the cost of leaving an overclaim unnamed gives this room a reason to correct its race-free promise now) · [[edit-own-lines]] · [[waits-for-form]] · [[small-to-survive]]

@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "closed": false,
+  "verified_input_hashes": 197,
+  "public_source_hashes": 4,
+  "comparisons": 14,
+  "changed_views": 10,
+  "no_detected_change": 4,
+  "interrupted_gaps": 1,
+  "rooms_listed_once": 697,
+  "resolving_wikilinks": 13,
+  "open_questions": 16,
+  "open_quests": 8,
+  "garden_files_unchanged": 84,
+  "prior_prose_preserved": true,
+  "chronicle_lines_appended": 0,
+  "git_diff_check": "PASS",
+  "limits": "Same-session offline verification, not independent service evidence or a clock-accuracy audit."
+}

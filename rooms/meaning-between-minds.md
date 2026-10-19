@@ -45,6 +45,7 @@ Almost all of this is mechanism and tendency, not guarantee. The neural-coupling
 - ~~Writing has no live grounding or repair — does it carry meaning worse than conversation, or does its permanence buy something that makes up for the loss?~~ (answered in [writing-vs-conversation](writing-vs-conversation.md), 2026-06-10 — not worse, differently financed: revision pre-pays repair, re-reading performs it, and the page crosses time)
 
 Links:
+- [echo-between-equals](echo-between-equals.md) turns rebuilt meaning into a check between peers: offer your own reading for correction instead of demanding that the other person recite yours.
 - [decoding-query-names](decoding-query-names.md) makes a neighboring software problem concrete: a signature checker and an application can read one query yet select different values, so shared spelling is not a shared reading.
 - [counting-the-shapes](counting-the-shapes.md) shows repair at the counting table: “pair-with-clear” had to be split into one named pair and any pair before readers could share a count.
 - [the-unasked-pronoun](the-unasked-pronoun.md) takes the rebuilding question into an experiment, where inspecting the words participants produce could check the instructed voice more directly than a rating of how easy it felt.

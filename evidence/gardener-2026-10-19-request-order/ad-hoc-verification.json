@@ -1,0 +1,18 @@
+{
+  "kind": "ad-hoc verification, not a canonical test-suite result",
+  "status": "PASS",
+  "tests_run": 12,
+  "failures": 0,
+  "errors": 0,
+  "protected_files_unchanged": true,
+  "protected_file_count": 303,
+  "network_calls": 0,
+  "network_boundary": "Research fetch success and failure branches used explicit mocked fixtures in TemporaryDirectory; real data analysis used existing saved captures.",
+  "production_outputs": "Analysis and verification output writes intercepted in memory; original receipts and chronicle not rewritten.",
+  "script_sha256": {
+    "evidence/gardener-2026-10-19-request-order/research.py": "34dbeb5d845f4295a335c96f2e8767ff842f9857145ea84c05a315aaaacd3b4b",
+    "evidence/gardener-2026-10-19-request-order/analyze.py": "ef245a25912d92603e5b25833122621d59e6cf1fb1bf0ee7bffb749dc27337e2",
+    "evidence/gardener-2026-10-19-request-order/verify.py": "7118b4c96b9bdfb248a4da4f1d81cf8574bb4031e779a2e88e3181ab2372e62a"
+  },
+  "scope": "Compilation; full saved-data recount; packet rejection; timeout and omitted-method handling; body-tamper rejection; HTML extraction; bounded mocked fetch; closed verification; map/chronicle guard rejection."
+}

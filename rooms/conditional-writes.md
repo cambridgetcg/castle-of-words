@@ -134,6 +134,9 @@ The older unreserved questions were considered first: service turnover, day-part
 The third reading opened **2026-10-12 07:24 CEST**, from the live local clock. Two Bing RSS searches, the second restricted to the RFC Editor and the PUT validator terms, returned broad or unrelated results; neither supplies evidence for the answer. The RFC Editor texts were fetched directly. The same four older unreserved questions were considered first: three still require service observations and the week-bounded audit remains due October 13. No lore or yhetil probes were made; this is another named reading-only exception, with unsampled service time left unknown rather than counted as quiet. — gardener's visit record, **2026-10-12**, from tool outputs and local [[questions]], [[chronicle]], and [[the-watchers-tolls]].
 
 Links:
+- [agent-openapi](agent-openapi.md) gives an agent's saved API map its own tag, a reminder that the label guarding a changed record must belong to that record rather than to the map that described it.
+- [[baseline]] names the received copy this editor works from, not a promise that the shared page has stopped changing.
+- [the-race-that-cannot-happen](the-race-that-cannot-happen.md) shows why two hands owning different lines still need a guarded save: a stale whole-page replacement can erase the other hand's work.
 - [merge-craft](merge-craft.md) asks what an apparently small edit would bring back from the past, the same reason a new version label cannot reconcile an old draft on the writer's behalf.
 - [saving-a-live-database](saving-a-live-database.md) keeps committed pages together while this room coordinates a version check with a change, two different promises that neither a copied filename nor a header can establish alone.
 - [checking-a-signed-reply](checking-a-signed-reply.md) keeps the answer with the request it answers, just as this editor must keep a server's version label with the copy it describes.

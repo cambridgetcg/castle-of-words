@@ -1,0 +1,51 @@
+{
+  "kind": "focused ad-hoc verification, not a canonical suite",
+  "started_utc": "2026-10-19T03:11:35.950302+00:00",
+  "script_sha256": {
+    "evidence/gardener-2026-10-19-threshold-check/research.py": "cc2f70a32d1e96c706e2216c73983fefd9f57f373dfc6e645d4c50cb1cc42e85",
+    "evidence/gardener-2026-10-19-threshold-check/analyze.py": "8bd2b81920eb48fc0b36c46b30724f52506c88148a019fa3e1d4e5c654dd523d",
+    "evidence/gardener-2026-10-19-threshold-check/verify.py": "590f7a811739f57c2521844c2e22321be22f8f210561fdf2ae0ba9dadb009dbd"
+  },
+  "temporary_verifier": "/private/var/folders/bg/v8wn0t11067f0hzxkz7hp7rr0000gn/T/hermes-verify-4r9xk4a4.py",
+  "temporary_verifier_sha256": "9b068ccbd1f04aee491f6d02fe55d6c7c873a5c67574150abf580644daf25b8b",
+  "network_mode": "No network requests; explicit synthetic unit-test fixtures only in temporary storage.",
+  "result": "PASS",
+  "calculation_stdout": "Validated saved inputs: 115 visits: 8 requests: 48\n0.5 [4, 2, 1, 1]\n1 [1, 5, 1, 1]\n5 [1, 5, 1, 1]\n10 [1, 5, 1, 1]\n20 [1, 5, 0, 2]\n25 [0, 6, 0, 2]\nSame labels as 1 second: {\"lower_exclusive_seconds\": \"0.578694\", \"upper_inclusive_seconds\": \"18.912934\", \"cells\": [1, 5, 1, 1], \"at_or_above_visits_changed\": [1], \"at_or_above_visits_unchanged\": [2], \"all_four_cells_nonzero\": true}\nAll positive threshold regimes: 9\n",
+  "saved_record_verification": {
+    "result": "PASS",
+    "verified_utc": "2026-10-19T03:11:36.012367+00:00",
+    "input_hashes_checked": 115,
+    "visits": 8,
+    "threshold_regimes_verified": 9,
+    "table_recomputed_with": "fractions.Fraction from saved per-request records",
+    "map_rooms_listed_once": 697,
+    "open_questions": 16,
+    "reserved_questions": 13,
+    "new_word": "threshold-sensitivity",
+    "new_links_checked": 20,
+    "unchanged": [
+      "courtyard.md",
+      "questions.md",
+      "quests.md",
+      "garden/"
+    ],
+    "prior_room_and_gate_prose_preserved": true,
+    "chronicle_lines_appended": 1,
+    "git_diff_check": "PASS",
+    "review_scope": "same session; no independent reviewer"
+  },
+  "checks": [
+    "All three changed scripts compile without writing bytecode",
+    "research.py cached replay preserves saved sources and starts no network command",
+    "research.py handles HTML/XML success, HTTP 500 and transport-timeout fixtures without promoting failures",
+    "Mock-fetch fixture directory removed",
+    "analyze.py reproduces saved-data counts and exact inclusive/exclusive cutoff boundaries",
+    "analyze.py rejects malformed packets and out-of-grounds input paths",
+    "verify.py rejects an in-memory corrupted table without overwriting its receipt",
+    "verify.py passes fresh fraction recount, source hashes, Map, prose, machinery and chronicle checks",
+    "All three tested script hashes stayed unchanged"
+  ],
+  "checks_passed": 9,
+  "finished_utc": "2026-10-19T03:11:36.012859+00:00",
+  "temporary_verifier_removed": true
+}

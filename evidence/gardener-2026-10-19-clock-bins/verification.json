@@ -1,0 +1,17 @@
+{
+  "passed": true,
+  "closed": true,
+  "researched": 2,
+  "open_questions": 16,
+  "eligible_questions": [
+    740,
+    744,
+    766
+  ],
+  "mapped_rooms": 697,
+  "verified_inputs": 58,
+  "checked_public_sources": 3,
+  "garden_unchanged": true,
+  "prior_prose_preserved": true,
+  "separate_recount_agrees": true
+}

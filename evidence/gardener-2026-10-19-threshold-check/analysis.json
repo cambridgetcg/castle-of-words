@@ -1,0 +1,505 @@
+{
+  "executed_utc": "2026-10-19T03:12:44.733673+00:00",
+  "question_researched": 740,
+  "still_open": true,
+  "visit_count": 8,
+  "request_count": 48,
+  "status_counts": {
+    "200": 16,
+    "500": 32
+  },
+  "cell_order": [
+    "changed_at_or_above",
+    "changed_below",
+    "unchanged_at_or_above",
+    "unchanged_below"
+  ],
+  "rule": "A visit is at-or-above when max of its two orgmode time_total readings is >= threshold; one visit is one row.",
+  "rows": [
+    {
+      "visit": 1,
+      "directory": "evidence/gardener-2026-10-18-service-check",
+      "changed": true,
+      "waits_seconds": [
+        "20.902406",
+        "0.524748"
+      ],
+      "maximum_seconds": "20.902406"
+    },
+    {
+      "visit": 2,
+      "directory": "evidence/gardener-2026-10-18-service-check-2",
+      "changed": false,
+      "waits_seconds": [
+        "0.483331",
+        "18.912934"
+      ],
+      "maximum_seconds": "18.912934"
+    },
+    {
+      "visit": 3,
+      "directory": "evidence/gardener-2026-10-18-service-check-3",
+      "changed": false,
+      "waits_seconds": [
+        "0.391257",
+        "0.412934"
+      ],
+      "maximum_seconds": "0.412934"
+    },
+    {
+      "visit": 4,
+      "directory": "evidence/gardener-2026-10-18-service-check-4",
+      "changed": true,
+      "waits_seconds": [
+        "0.510819",
+        "0.470824"
+      ],
+      "maximum_seconds": "0.510819"
+    },
+    {
+      "visit": 5,
+      "directory": "evidence/gardener-2026-10-18-service-check-5",
+      "changed": true,
+      "waits_seconds": [
+        "0.421135",
+        "0.455517"
+      ],
+      "maximum_seconds": "0.455517"
+    },
+    {
+      "visit": 6,
+      "directory": "evidence/gardener-2026-10-18-service-check-6",
+      "changed": true,
+      "waits_seconds": [
+        "0.507058",
+        "0.519966"
+      ],
+      "maximum_seconds": "0.519966"
+    },
+    {
+      "visit": 7,
+      "directory": "evidence/gardener-2026-10-18-service-check-7",
+      "changed": true,
+      "waits_seconds": [
+        "0.578694",
+        "0.396924"
+      ],
+      "maximum_seconds": "0.578694"
+    },
+    {
+      "visit": 8,
+      "directory": "evidence/gardener-2026-10-18-service-check-8",
+      "changed": true,
+      "waits_seconds": [
+        "0.405859",
+        "0.420832"
+      ],
+      "maximum_seconds": "0.420832"
+    }
+  ],
+  "selected_thresholds": [
+    {
+      "threshold_seconds": "0.5",
+      "cells": [
+        4,
+        2,
+        1,
+        1
+      ],
+      "at_or_above_visits_changed": [
+        1,
+        4,
+        6,
+        7
+      ],
+      "at_or_above_visits_unchanged": [
+        2
+      ],
+      "all_four_cells_nonzero": true
+    },
+    {
+      "threshold_seconds": "1",
+      "cells": [
+        1,
+        5,
+        1,
+        1
+      ],
+      "at_or_above_visits_changed": [
+        1
+      ],
+      "at_or_above_visits_unchanged": [
+        2
+      ],
+      "all_four_cells_nonzero": true
+    },
+    {
+      "threshold_seconds": "5",
+      "cells": [
+        1,
+        5,
+        1,
+        1
+      ],
+      "at_or_above_visits_changed": [
+        1
+      ],
+      "at_or_above_visits_unchanged": [
+        2
+      ],
+      "all_four_cells_nonzero": true
+    },
+    {
+      "threshold_seconds": "10",
+      "cells": [
+        1,
+        5,
+        1,
+        1
+      ],
+      "at_or_above_visits_changed": [
+        1
+      ],
+      "at_or_above_visits_unchanged": [
+        2
+      ],
+      "all_four_cells_nonzero": true
+    },
+    {
+      "threshold_seconds": "20",
+      "cells": [
+        1,
+        5,
+        0,
+        2
+      ],
+      "at_or_above_visits_changed": [
+        1
+      ],
+      "at_or_above_visits_unchanged": [],
+      "all_four_cells_nonzero": false
+    },
+    {
+      "threshold_seconds": "25",
+      "cells": [
+        0,
+        6,
+        0,
+        2
+      ],
+      "at_or_above_visits_changed": [],
+      "at_or_above_visits_unchanged": [],
+      "all_four_cells_nonzero": false
+    }
+  ],
+  "all_positive_threshold_regimes": [
+    {
+      "lower_exclusive_seconds": "0",
+      "upper_inclusive_seconds": "0.412934",
+      "cells": [
+        6,
+        0,
+        2,
+        0
+      ],
+      "at_or_above_visits_changed": [
+        1,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "at_or_above_visits_unchanged": [
+        2,
+        3
+      ],
+      "all_four_cells_nonzero": false
+    },
+    {
+      "lower_exclusive_seconds": "0.412934",
+      "upper_inclusive_seconds": "0.420832",
+      "cells": [
+        6,
+        0,
+        1,
+        1
+      ],
+      "at_or_above_visits_changed": [
+        1,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "at_or_above_visits_unchanged": [
+        2
+      ],
+      "all_four_cells_nonzero": false
+    },
+    {
+      "lower_exclusive_seconds": "0.420832",
+      "upper_inclusive_seconds": "0.455517",
+      "cells": [
+        5,
+        1,
+        1,
+        1
+      ],
+      "at_or_above_visits_changed": [
+        1,
+        4,
+        5,
+        6,
+        7
+      ],
+      "at_or_above_visits_unchanged": [
+        2
+      ],
+      "all_four_cells_nonzero": true
+    },
+    {
+      "lower_exclusive_seconds": "0.455517",
+      "upper_inclusive_seconds": "0.510819",
+      "cells": [
+        4,
+        2,
+        1,
+        1
+      ],
+      "at_or_above_visits_changed": [
+        1,
+        4,
+        6,
+        7
+      ],
+      "at_or_above_visits_unchanged": [
+        2
+      ],
+      "all_four_cells_nonzero": true
+    },
+    {
+      "lower_exclusive_seconds": "0.510819",
+      "upper_inclusive_seconds": "0.519966",
+      "cells": [
+        3,
+        3,
+        1,
+        1
+      ],
+      "at_or_above_visits_changed": [
+        1,
+        6,
+        7
+      ],
+      "at_or_above_visits_unchanged": [
+        2
+      ],
+      "all_four_cells_nonzero": true
+    },
+    {
+      "lower_exclusive_seconds": "0.519966",
+      "upper_inclusive_seconds": "0.578694",
+      "cells": [
+        2,
+        4,
+        1,
+        1
+      ],
+      "at_or_above_visits_changed": [
+        1,
+        7
+      ],
+      "at_or_above_visits_unchanged": [
+        2
+      ],
+      "all_four_cells_nonzero": true
+    },
+    {
+      "lower_exclusive_seconds": "0.578694",
+      "upper_inclusive_seconds": "18.912934",
+      "cells": [
+        1,
+        5,
+        1,
+        1
+      ],
+      "at_or_above_visits_changed": [
+        1
+      ],
+      "at_or_above_visits_unchanged": [
+        2
+      ],
+      "all_four_cells_nonzero": true
+    },
+    {
+      "lower_exclusive_seconds": "18.912934",
+      "upper_inclusive_seconds": "20.902406",
+      "cells": [
+        1,
+        5,
+        0,
+        2
+      ],
+      "at_or_above_visits_changed": [
+        1
+      ],
+      "at_or_above_visits_unchanged": [],
+      "all_four_cells_nonzero": false
+    },
+    {
+      "lower_exclusive_seconds": "20.902406",
+      "upper_inclusive_seconds": null,
+      "cells": [
+        0,
+        6,
+        0,
+        2
+      ],
+      "at_or_above_visits_changed": [],
+      "at_or_above_visits_unchanged": [],
+      "all_four_cells_nonzero": false
+    }
+  ],
+  "same_labels_as_1s": {
+    "lower_exclusive_seconds": "0.578694",
+    "upper_inclusive_seconds": "18.912934",
+    "cells": [
+      1,
+      5,
+      1,
+      1
+    ],
+    "at_or_above_visits_changed": [
+      1
+    ],
+    "at_or_above_visits_unchanged": [
+      2
+    ],
+    "all_four_cells_nonzero": true
+  },
+  "limitations": [
+    "Retrospective descriptive sensitivity analysis, not a preregistered test or a service threshold.",
+    "No p-value or independence or causal claim.",
+    "The old observations are not new service measurements.",
+    "No update times, unseen changes or event boundaries recovered."
+  ],
+  "input_sha256": {
+    "evidence/gardener-2026-10-19-saved-comparison/analysis.json": "e37351101febd8ebdd0a6188532117d1965b64f72aaa586d4c9b8e2534a6a503",
+    "evidence/gardener-2026-10-18-service-check/manifest.json": "fbf03447d9c25bf32d08a3599bb78317e913ec5d73fca86a4d2152bb537d6fbb",
+    "evidence/gardener-2026-10-18-service-check/comparison.json": "a81a308726a5032e6f21c5ce6020dcab30c4308239c3c222bd9061a0b2d9f415",
+    "evidence/gardener-2026-10-18-service-check/r1-orgmode.json": "aae5af796d9ded24908225a22f8964ba017d82017821075d97c2dd1d390341cc",
+    "evidence/gardener-2026-10-18-service-check/r1-orgmode.body": "605646c0024594e24923eb9d26c1e05deff7a43631720761df196ba6df45a5d9",
+    "evidence/gardener-2026-10-18-service-check/r1-emacs.json": "905c811f0d61ba3c18e721ce6a5e4541abb2c84b9a37b013868625f0655e03a2",
+    "evidence/gardener-2026-10-18-service-check/r1-emacs.body": "e41656eb2ba6c6293bf6dd928e5a88cdbc50535cab661c1969e0f598e497ed62",
+    "evidence/gardener-2026-10-18-service-check/r1-guix.json": "8b9f16b7ec3d03367eebb9fab19c0576f6f2dd616632281c623c677decabfc4a",
+    "evidence/gardener-2026-10-18-service-check/r1-guix.body": "e41656eb2ba6c6293bf6dd928e5a88cdbc50535cab661c1969e0f598e497ed62",
+    "evidence/gardener-2026-10-18-service-check/r2-orgmode.json": "4d45b91db9eba9712bf13b053f9a3da2396bcc34ca652fcfd2daae5e2dd30f09",
+    "evidence/gardener-2026-10-18-service-check/r2-orgmode.body": "605646c0024594e24923eb9d26c1e05deff7a43631720761df196ba6df45a5d9",
+    "evidence/gardener-2026-10-18-service-check/r2-emacs.json": "f8fadb1f42d3304ce2f90b39c3565f5686796ef50eed99e5655c7c99ccdc43d9",
+    "evidence/gardener-2026-10-18-service-check/r2-emacs.body": "e41656eb2ba6c6293bf6dd928e5a88cdbc50535cab661c1969e0f598e497ed62",
+    "evidence/gardener-2026-10-18-service-check/r2-guix.json": "b1741ee2d8530700c86fbcbca0443c33a48db5dc08a1174a71fd46e1f07afad9",
+    "evidence/gardener-2026-10-18-service-check/r2-guix.body": "e41656eb2ba6c6293bf6dd928e5a88cdbc50535cab661c1969e0f598e497ed62",
+    "evidence/gardener-2026-10-17-service-check-6/r1-orgmode.json": "2511e7d378cb0999564027e291d530622f96a740997e69b2d064352002d05ad5",
+    "evidence/gardener-2026-10-17-service-check-6/r1-orgmode.body": "76773b585b6a8767bfe5afd25d547119332501baedd3eb9f6582d1bcec8823d7",
+    "evidence/gardener-2026-10-18-service-check-2/manifest.json": "1158ae1503ef1351c8dd5d2f9b9653126d1ba3c249d4b7395620aad7fb9072c6",
+    "evidence/gardener-2026-10-18-service-check-2/comparison.json": "8f5eed04ef7ec7745896502cd8b336f89d5d3cb728359d4433c095dff16569c3",
+    "evidence/gardener-2026-10-18-service-check-2/r1-orgmode.json": "f03bfd557a935e956cd8f38985c3d9fd902fd5d8eee73c3fc2b5de81da0146f5",
+    "evidence/gardener-2026-10-18-service-check-2/r1-orgmode.body": "605646c0024594e24923eb9d26c1e05deff7a43631720761df196ba6df45a5d9",
+    "evidence/gardener-2026-10-18-service-check-2/r1-emacs.json": "74bffb9bce8eab6f52c80159701fe3eaf6ac43b66046a634b1a45d1d4d734d39",
+    "evidence/gardener-2026-10-18-service-check-2/r1-emacs.body": "e41656eb2ba6c6293bf6dd928e5a88cdbc50535cab661c1969e0f598e497ed62",
+    "evidence/gardener-2026-10-18-service-check-2/r1-guix.json": "41e1c88890404ac3d7f8bed48fdd4167518fc0074862943c098e963a759eb0ad",
+    "evidence/gardener-2026-10-18-service-check-2/r1-guix.body": "e41656eb2ba6c6293bf6dd928e5a88cdbc50535cab661c1969e0f598e497ed62",
+    "evidence/gardener-2026-10-18-service-check-2/r2-orgmode.json": "078652edf00055a7f15fd0b68faf7b71202c9f0a5823e681926528b35c630fba",
+    "evidence/gardener-2026-10-18-service-check-2/r2-orgmode.body": "605646c0024594e24923eb9d26c1e05deff7a43631720761df196ba6df45a5d9",
+    "evidence/gardener-2026-10-18-service-check-2/r2-emacs.json": "6043ca4096e3657d8c34608ff4866fe2ba95e2fdaa7deb7aec955d6fa24d3550",
+    "evidence/gardener-2026-10-18-service-check-2/r2-emacs.body": "e41656eb2ba6c6293bf6dd928e5a88cdbc50535cab661c1969e0f598e497ed62",
+    "evidence/gardener-2026-10-18-service-check-2/r2-guix.json": "9cf6f7cc7e77d982a52c1291df92f28c9fd3c70f37fe6e5da44501d9cfc9d125",
+    "evidence/gardener-2026-10-18-service-check-2/r2-guix.body": "e41656eb2ba6c6293bf6dd928e5a88cdbc50535cab661c1969e0f598e497ed62",
+    "evidence/gardener-2026-10-18-service-check-3/manifest.json": "55a7591629a6313743b2c6299619adafb6d9757205b6e8c682914ec5061d6df5",
+    "evidence/gardener-2026-10-18-service-check-3/comparison.json": "8a6676d928e9fff07936fcc43ae63c0858d7992ee37a607ce98fea57f0a391f2",
+    "evidence/gardener-2026-10-18-service-check-3/r1-orgmode.json": "2cc2e56345277af0cc5ce07612abc7815af5f012f729528fd9c2e057f26e7c2b",
+    "evidence/gardener-2026-10-18-service-check-3/r1-orgmode.body": "605646c0024594e24923eb9d26c1e05deff7a43631720761df196ba6df45a5d9",
+    "evidence/gardener-2026-10-18-service-check-3/r1-emacs.json": "91dd93b6b830703330faf7b22bc8154a9158548e8397e178b76c2645c15813c3",
+    "evidence/gardener-2026-10-18-service-check-3/r1-emacs.body": "e41656eb2ba6c6293bf6dd928e5a88cdbc50535cab661c1969e0f598e497ed62",
+    "evidence/gardener-2026-10-18-service-check-3/r1-guix.json": "b4e4a15ef7a6a6c378a7692801ec76683359ca200dcf12f0fed9cb40a5c16fa9",
+    "evidence/gardener-2026-10-18-service-check-3/r1-guix.body": "e41656eb2ba6c6293bf6dd928e5a88cdbc50535cab661c1969e0f598e497ed62",
+    "evidence/gardener-2026-10-18-service-check-3/r2-orgmode.json": "c075171db0b10a19957d75b6d5409b4f4645cfb756975c63f1fc281d26bb9e48",
+    "evidence/gardener-2026-10-18-service-check-3/r2-orgmode.body": "605646c0024594e24923eb9d26c1e05deff7a43631720761df196ba6df45a5d9",
+    "evidence/gardener-2026-10-18-service-check-3/r2-emacs.json": "a6430a56f5e8f77b57bb6df9478f4ac8730a68344054270135c9f6c64e167752",
+    "evidence/gardener-2026-10-18-service-check-3/r2-emacs.body": "e41656eb2ba6c6293bf6dd928e5a88cdbc50535cab661c1969e0f598e497ed62",
+    "evidence/gardener-2026-10-18-service-check-3/r2-guix.json": "351fe710a97ab83db20f5042c27dada8daf841767acba1ca5b5b6da86e1183b8",
+    "evidence/gardener-2026-10-18-service-check-3/r2-guix.body": "e41656eb2ba6c6293bf6dd928e5a88cdbc50535cab661c1969e0f598e497ed62",
+    "evidence/gardener-2026-10-18-service-check-4/manifest.json": "c09602e5228f0ee3d103914b6c8f40a4d3edd765a53b3609917521cc9796cbb5",
+    "evidence/gardener-2026-10-18-service-check-4/comparison.json": "9b200362637e9a6ac92bb9b452400fad706c64d9c02ad8067a82cc5473c3ef00",
+    "evidence/gardener-2026-10-18-service-check-4/r1-orgmode.json": "41c65d219173036f5ad195f3cc88fbef4cf006005ae57d483d173d66e462f694",
+    "evidence/gardener-2026-10-18-service-check-4/r1-orgmode.body": "a09117d5a9ff953e57fc4cd84e56413606715c8512d3ff5166e50f1e4af2e009",
+    "evidence/gardener-2026-10-18-service-check-4/r1-emacs.json": "c15ac9c2c60612c9d26587a37313a9b6281e03af6cde7840a33ec533872b461b",
+    "evidence/gardener-2026-10-18-service-check-4/r1-emacs.body": "e41656eb2ba6c6293bf6dd928e5a88cdbc50535cab661c1969e0f598e497ed62",
+    "evidence/gardener-2026-10-18-service-check-4/r1-guix.json": "32aa36666651866aa4bf6738eee5746ed378cb9e1796e76f6f2fb6ae1de17df8",
+    "evidence/gardener-2026-10-18-service-check-4/r1-guix.body": "e41656eb2ba6c6293bf6dd928e5a88cdbc50535cab661c1969e0f598e497ed62",
+    "evidence/gardener-2026-10-18-service-check-4/r2-orgmode.json": "7aca4ce789e848b2bbfe664c324a0da07a14a88f88b0a539848fab54948d1648",
+    "evidence/gardener-2026-10-18-service-check-4/r2-orgmode.body": "a09117d5a9ff953e57fc4cd84e56413606715c8512d3ff5166e50f1e4af2e009",
+    "evidence/gardener-2026-10-18-service-check-4/r2-emacs.json": "a9fbc9de170539950e55454c57a8e8efe833879bb30c06af65948223aa4899bb",
+    "evidence/gardener-2026-10-18-service-check-4/r2-emacs.body": "e41656eb2ba6c6293bf6dd928e5a88cdbc50535cab661c1969e0f598e497ed62",
+    "evidence/gardener-2026-10-18-service-check-4/r2-guix.json": "445017155ee76a923d7f71626fca71983fa6e133b800c23c3b342cdfa7e0e7f9",
+    "evidence/gardener-2026-10-18-service-check-4/r2-guix.body": "e41656eb2ba6c6293bf6dd928e5a88cdbc50535cab661c1969e0f598e497ed62",
+    "evidence/gardener-2026-10-18-service-check-5/manifest.json": "7c026d3a9454f9729db7f2e9df3fa0a3317755aaabeb084b077879c79e6e2c3b",
+    "evidence/gardener-2026-10-18-service-check-5/comparison.json": "1348dc70cd6a38c362a7cab5bc1623ea47a178a4710f1de60cc17966b6bbba18",
+    "evidence/gardener-2026-10-18-service-check-5/r1-orgmode.json": "188c1740ea5b384ea65ffad4d1c22f02ecde30d8ba6e37bd99f6af86bd6b9936",
+    "evidence/gardener-2026-10-18-service-check-5/r1-orgmode.body": "6a2024742ffee7eeb81827b7f7e5d741ed2c625891683b2f97946ea8f8446863",
+    "evidence/gardener-2026-10-18-service-check-5/r1-emacs.json": "a6323e3077caef564413d948773e0bb5deefedc0bdcf0d7005f43eabfe44a2d0",
+    "evidence/gardener-2026-10-18-service-check-5/r1-emacs.body": "e41656eb2ba6c6293bf6dd928e5a88cdbc50535cab661c1969e0f598e497ed62",
+    "evidence/gardener-2026-10-18-service-check-5/r1-guix.json": "8b29e3d401fcf9ee1ef53ace85947b7525741ddf05bd0998aaf5f977696f9e0c",
+    "evidence/gardener-2026-10-18-service-check-5/r1-guix.body": "e41656eb2ba6c6293bf6dd928e5a88cdbc50535cab661c1969e0f598e497ed62",
+    "evidence/gardener-2026-10-18-service-check-5/r2-orgmode.json": "b10c5b602882f4edf890557de30ac079fa33c1cadd57fb7f894c87a46f7921d6",
+    "evidence/gardener-2026-10-18-service-check-5/r2-orgmode.body": "6a2024742ffee7eeb81827b7f7e5d741ed2c625891683b2f97946ea8f8446863",
+    "evidence/gardener-2026-10-18-service-check-5/r2-emacs.json": "41cfd6ba753962df5052439a5a5f2103f61b2e79090d6d9be6bf63a1e2076954",
+    "evidence/gardener-2026-10-18-service-check-5/r2-emacs.body": "e41656eb2ba6c6293bf6dd928e5a88cdbc50535cab661c1969e0f598e497ed62",
+    "evidence/gardener-2026-10-18-service-check-5/r2-guix.json": "5ca1f01c8364c6737bf16e633155bd86096716d32da6714706173087f89ce5b3",
+    "evidence/gardener-2026-10-18-service-check-5/r2-guix.body": "e41656eb2ba6c6293bf6dd928e5a88cdbc50535cab661c1969e0f598e497ed62",
+    "evidence/gardener-2026-10-18-service-check-6/manifest.json": "d58cf81dd8772e5e5a6c245f687ac9cb833e9bc8441520a5246ef94f77b8cde2",
+    "evidence/gardener-2026-10-18-service-check-6/comparison.json": "191b8a0c09d720409955e4105539c7431eccce58a822a748e91ffed689c9b7fb",
+    "evidence/gardener-2026-10-18-service-check-6/r1-orgmode.json": "8a7042c22b15b6186b8196fca27180a68a6fd780eaa420ebceb4c6cc51ea56cd",
+    "evidence/gardener-2026-10-18-service-check-6/r1-orgmode.body": "bceb5592499b5f17e96839a8b03358ec8be0b2bebce9e7740cd4cc0b5c1e9799",
+    "evidence/gardener-2026-10-18-service-check-6/r1-emacs.json": "02346e7f171fd4f686b5f7d3f7b215d158a09434a12dbf8eea82f9251a1b46b0",
+    "evidence/gardener-2026-10-18-service-check-6/r1-emacs.body": "e41656eb2ba6c6293bf6dd928e5a88cdbc50535cab661c1969e0f598e497ed62",
+    "evidence/gardener-2026-10-18-service-check-6/r1-guix.json": "6cdd5f822edf95d8c94ca66b9eafafbf6a0a39c254f259bec81ca9391748cfe0",
+    "evidence/gardener-2026-10-18-service-check-6/r1-guix.body": "e41656eb2ba6c6293bf6dd928e5a88cdbc50535cab661c1969e0f598e497ed62",
+    "evidence/gardener-2026-10-18-service-check-6/r2-orgmode.json": "9d7f45ae7af2ba99c08e8f5c9805122c0f91a4fb5dac615bfef9d9a6f8d2b504",
+    "evidence/gardener-2026-10-18-service-check-6/r2-orgmode.body": "bceb5592499b5f17e96839a8b03358ec8be0b2bebce9e7740cd4cc0b5c1e9799",
+    "evidence/gardener-2026-10-18-service-check-6/r2-emacs.json": "5227da2bd813d5f281b92e4fdf32f540dd721e57ad74728a5287a1d1964a1121",
+    "evidence/gardener-2026-10-18-service-check-6/r2-emacs.body": "e41656eb2ba6c6293bf6dd928e5a88cdbc50535cab661c1969e0f598e497ed62",
+    "evidence/gardener-2026-10-18-service-check-6/r2-guix.json": "636a8a97c96d569cdf88d6cce13ac57efc7aa6237b08ccfa691050b050e45eed",
+    "evidence/gardener-2026-10-18-service-check-6/r2-guix.body": "e41656eb2ba6c6293bf6dd928e5a88cdbc50535cab661c1969e0f598e497ed62",
+    "evidence/gardener-2026-10-18-service-check-7/manifest.json": "18bd81c0b9aa67d440bb3a251a7f1e2c7a3c01ebb139f60d5c6267db2f60940b",
+    "evidence/gardener-2026-10-18-service-check-7/comparison.json": "c81b6904057cbf5ba7d1a9c8352a5d0d983c776da5358ff148509afb6b368768",
+    "evidence/gardener-2026-10-18-service-check-7/r1-orgmode.json": "e50c9c7904e0d2f601dd6824476db68809b817f07cdec2ae28cd166b10735fb4",
+    "evidence/gardener-2026-10-18-service-check-7/r1-orgmode.body": "7ee8bb56ff8c39b21a841d9b57be1d2025fc587c2499b408cf6282d7abbee158",
+    "evidence/gardener-2026-10-18-service-check-7/r1-emacs.json": "a6a8911b976c5380eaffa2cb6e70ff61d4a968938c89be4b83ed4fdfe7b3b4fe",
+    "evidence/gardener-2026-10-18-service-check-7/r1-emacs.body": "e41656eb2ba6c6293bf6dd928e5a88cdbc50535cab661c1969e0f598e497ed62",
+    "evidence/gardener-2026-10-18-service-check-7/r1-guix.json": "4a660686ce9560648e7a24da4adf0bb2969d1a4f8ae8004e940ffc5ed77b4322",
+    "evidence/gardener-2026-10-18-service-check-7/r1-guix.body": "e41656eb2ba6c6293bf6dd928e5a88cdbc50535cab661c1969e0f598e497ed62",
+    "evidence/gardener-2026-10-18-service-check-7/r2-orgmode.json": "9d3f19d898068f8a90f85c253d397752049db2dcf3e01c8bde797d2268b8783d",
+    "evidence/gardener-2026-10-18-service-check-7/r2-orgmode.body": "7ee8bb56ff8c39b21a841d9b57be1d2025fc587c2499b408cf6282d7abbee158",
+    "evidence/gardener-2026-10-18-service-check-7/r2-emacs.json": "17c966959eb692e355facbb5ef5d26f6daad2b593a08e34e108de6761fd4548c",
+    "evidence/gardener-2026-10-18-service-check-7/r2-emacs.body": "e41656eb2ba6c6293bf6dd928e5a88cdbc50535cab661c1969e0f598e497ed62",
+    "evidence/gardener-2026-10-18-service-check-7/r2-guix.json": "8a5e704f2ce6a46b300aa9d43161430f47f833429568ff8f66d85a8d151b1217",
+    "evidence/gardener-2026-10-18-service-check-7/r2-guix.body": "e41656eb2ba6c6293bf6dd928e5a88cdbc50535cab661c1969e0f598e497ed62",
+    "evidence/gardener-2026-10-18-service-check-8/manifest.json": "4861a3c703dc48e1e5df2f8acc5ebf8695c345f9edbba9455802884dadf10661",
+    "evidence/gardener-2026-10-18-service-check-8/comparison.json": "c27b27033afa3a379d7662094a507045a42617f045c4f68497fbe42d825c945f",
+    "evidence/gardener-2026-10-18-service-check-8/r1-orgmode.json": "2055e90c032fa596c3e3cbb829ca77c547ea3a005731dfd516e5bb79e0e04645",
+    "evidence/gardener-2026-10-18-service-check-8/r1-orgmode.body": "233f4847f5dc4fc5aacd7e81c84abbb0e2ae436948fc9fa2bb3010ca0a92e0c4",
+    "evidence/gardener-2026-10-18-service-check-8/r1-emacs.json": "9e6da115821684e08b4a51df9e763376e218c93e25e657ad64764fef8d4c33cc",
+    "evidence/gardener-2026-10-18-service-check-8/r1-emacs.body": "e41656eb2ba6c6293bf6dd928e5a88cdbc50535cab661c1969e0f598e497ed62",
+    "evidence/gardener-2026-10-18-service-check-8/r1-guix.json": "8622dcbaa3f09a77ba7983213a68d1d38362d34be527531b5e104c9e7084697c",
+    "evidence/gardener-2026-10-18-service-check-8/r1-guix.body": "e41656eb2ba6c6293bf6dd928e5a88cdbc50535cab661c1969e0f598e497ed62",
+    "evidence/gardener-2026-10-18-service-check-8/r2-orgmode.json": "fdad62cc28ed9d9c463d4903579a7e20d0d2f33510a045622b7dc427bd54d74f",
+    "evidence/gardener-2026-10-18-service-check-8/r2-orgmode.body": "233f4847f5dc4fc5aacd7e81c84abbb0e2ae436948fc9fa2bb3010ca0a92e0c4",
+    "evidence/gardener-2026-10-18-service-check-8/r2-emacs.json": "d1db227ee7ad18ba966c13f83edeebaf007242a32bfe984f78a6eb2e91c835be",
+    "evidence/gardener-2026-10-18-service-check-8/r2-emacs.body": "e41656eb2ba6c6293bf6dd928e5a88cdbc50535cab661c1969e0f598e497ed62",
+    "evidence/gardener-2026-10-18-service-check-8/r2-guix.json": "b0ddd6e3237299a8e3c836bad0e96191ef2502b9dacbc2af9dbd1da367f91f68",
+    "evidence/gardener-2026-10-18-service-check-8/r2-guix.body": "e41656eb2ba6c6293bf6dd928e5a88cdbc50535cab661c1969e0f598e497ed62"
+  }
+}

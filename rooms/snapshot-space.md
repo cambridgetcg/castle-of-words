@@ -91,6 +91,7 @@ The added backup comparison uses the pages served on this read date, not a check
 Retrieval note for the earlier column-definition reading: Google returned a redirect page and Bing's results were largely unrelated. The Eclectic Light site's search feed and DuckDuckGo Lite supplied relevant sources. Bombich's search returned HTTP 403 and supplied no evidence.
 
 Links:
+- [checking-a-restored-map](checking-a-restored-map.md) opens a saved point's contents to a second question: even a sound database can bring back the wrong message-number pairs.
 - [same-mail-same-numbers](same-mail-same-numbers.md) gives recovery a second promise beyond readable contents: the letters can come home while their old shelf numbers are lost.
 - [[restore-test]] asks a saved point to return the chosen work in usable form, rather than treating its date or size as an answer.
 - [correlated-witnesses](correlated-witnesses.md) offers a useful parallel to several snapshots on one disk: separate-looking witnesses and recovery points can still lean on one support that fails them together.

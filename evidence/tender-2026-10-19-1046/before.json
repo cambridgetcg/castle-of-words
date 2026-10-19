@@ -1,0 +1,25 @@
+{
+  "checked_at": "2026-10-19T10:46:43.367771+02:00",
+  "before_sha256": {
+    "chronicle.md": "e0f1cd0be5c35443a1184265405fe22133befc2db98f9e9db7e0e9edb52ffe9d",
+    "gate.md": "a6e628306ac62ff6b8a4bd7efd2af998f1d00c133121d5c000dc2c653617539f",
+    "rooms/cbt-openness-trait.md": "1fc2fbfdb965fc52feb3a2cb45bc836e533b81f40c2a6481fa76613db54dac4d",
+    "rooms/counting-the-shapes.md": "fdd932f1900c3243fc110d1ff387fc033f886c3001c16d167760a818205dd2d1",
+    "rooms/data-dictionary-honesty.md": "238a75947cce2105a3dd761923a810eda2d38c51b1aa7f847a98124dcb2cc782",
+    "rooms/friction-decides.md": "1dd2fd48660cabe3b972c6b4761ee18bf77675e59edb75516a5dd5caa87533db",
+    "rooms/smooth-or-thresholded-understanding.md": "e01a44595d6e404210265cc5e6334c955a7aa81542066f686a657f2e7ce141da",
+    "rooms/what-the-gaps-can-say.md": "5153ce3b11e2a9615da6823d3e3d4e6b181905befd03c3b76a2fec022ec8fe6b"
+  },
+  "garden_file_count": 84,
+  "garden_tree_sha256": "085a1462ff57146357908ba1c9086163ffc9527ab001224111a3c36dd52c1b76",
+  "new_room_pairs": [
+    ["friction-decides", "what-the-gaps-can-say"],
+    ["counting-the-shapes", "smooth-or-thresholded-understanding"],
+    ["data-dictionary-honesty", "what-the-gaps-can-say"]
+  ],
+  "existing_pair_return_to_repair": ["cbt-openness-trait", "cheapest-cbt-design"],
+  "new_words": ["selection-bias"],
+  "map_summaries_to_narrow": ["cbt-openness-trait", "cheapest-cbt-design", "smooth-or-thresholded-understanding"],
+  "room_count": 697,
+  "scope": "Local tending only; no external sources refetched, service probes, application tests, or garden changes."
+}

@@ -1,0 +1,18 @@
+{
+  "kind": "ad-hoc verification, not canonical suite",
+  "started_utc": "2026-10-19T16:08:14.511104+00:00",
+  "finished_utc": "2026-10-19T16:08:14.562781+00:00",
+  "passed": true,
+  "tests_run": 12,
+  "failures": 0,
+  "errors": 0,
+  "changed_source_sha256": {
+    "evidence/gardener-2026-10-19-clock-bins/research.py": "c331a7ff34f98cb49077ef60d2c447f74e2303eba3dbdd13301e946cf52ea3ef",
+    "evidence/gardener-2026-10-19-clock-bins/analyze.py": "eec1998b076f7e196437871c7fb55127a56c1ae1543e3e53e9ecc0705dbdf67b",
+    "evidence/gardener-2026-10-19-clock-bins/verify.py": "470b51e491380559be87cb89268fcf1a118022d0575c88dfcd0a6b40df665266"
+  },
+  "temporary_script_sha256": "1fcf9668886235f43920195e37c21403333acac1d435736fb9195401013644f5",
+  "network": "No real network request; fetch success/failure use explicit synthetic mocks.",
+  "actual_execution": "Re-executed analyze.py on kept captures and verify.py --closed; no chronicle entry added.",
+  "output": "test_01_changed_scripts_compile (__main__.FocusedChecks) ... ok\ntest_02_real_saved_data_recount_is_reproducible (__main__.FocusedChecks) ... ok\ntest_03_utc_bin_boundaries (__main__.FocusedChecks) ... ok\ntest_04_timestamp_requires_explicit_utc (__main__.FocusedChecks) ... ok\ntest_05_complete_scoped_advertisement (__main__.FocusedChecks) ... ok\ntest_06_truncated_advertisement_rejected (__main__.FocusedChecks) ... ok\ntest_07_duplicate_reference_rejected (__main__.FocusedChecks) ... ok\ntest_08_html_extraction_hides_script_and_style (__main__.FocusedChecks) ... ok\ntest_09_fetch_success_uses_bounded_command (__main__.FocusedChecks) ... ok\ntest_10_fetch_failure_not_promoted_to_text (__main__.FocusedChecks) ... ok\ntest_11_existing_capture_not_overwritten (__main__.FocusedChecks) ... ok\ntest_12_actual_closed_visit_verifier (__main__.FocusedChecks) ... ok\n\n----------------------------------------------------------------------\nRan 12 tests in 0.051s\n\nOK\n"
+}

@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "checked_at": "2026-10-19T19:16:11.824818+00:00",
+  "closed": false,
+  "raw_attempts": 28,
+  "completed": 27,
+  "long_completed": 3,
+  "timeout_separate": 1,
+  "input_hashes": 59,
+  "source_hashes": 3,
+  "all_rooms_once": 697,
+  "resolving_new_wikilinks": 8,
+  "garden_files_unchanged": 84,
+  "open_questions": 16,
+  "preserved_old_room": true,
+  "changed_gate_lines": 1,
+  "chronicle_lines_added": 0,
+  "review_limit": "Same-session exact-fraction checks, not independent review or remote-history authentication."
+}
