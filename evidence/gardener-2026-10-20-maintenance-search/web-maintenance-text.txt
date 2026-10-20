@@ -1,0 +1,35 @@
+"yhetil.org" "maintenance" - Brave Search
+Ask
+All
+Images
+News
+Videos
+Maps
+Goggles
+Query contains search operators
+Ignore operators
+Yhetil
+yhetil.org › guix
+all messages for Guix-related lists mirrored at yhetil.org
+2019-11-06 21:49 UTC (12+ messages) Parallel downloads 2019-11-06 21:26 UTC (8+ messages) [bug#38090] [PATCH 0/2] Fix build for astyle 2019-11-06 21:24 UTC (4+ messages) ` [bug#38090] [PATCH 1/2] gnu: astyle: Install header file, too ` [bug#38090] [PATCH 2/2] gnu: astyle: Create symlinks for .so files, too ` bug#38090: Acknowledgement ([PATCH 0/2] Fix build for astyle) [bug#38091] [PATCH] doc: Mention value /var to localstatedir option 2019-11-06 18:35 UTC [bug#38059] [PATCH 0/2] gnu: Add pagekite 2019-11-06 18:19 UTC (3+ messages) ` [bug#38059] [PATCH 3/3] services: Add pagekite-service-type bug#38074: guix pull fails 2019-11-06 17:18 UTC (3+ messages) bug#38064: Simple Scan: Scanner is not detected 2019-11-06 16:50 UTC (2+ messages) [bug#37498] [PATCH 0/1] (maintenance) refcard: Use aliases 2019-11-06 14:39 UTC (3+ messages) ` [bug#37498] [PATCH 1/1] refcard: Use aliases.
+Yhetil
+yhetil.org › emacs
+all messages for Emacs-related lists mirrored at yhetil.org
+6 May 2024 - 2024-05-05 23:15 UTC (8+ messages) ... 19:57 UTC (52+ messages) ` MPS: scroll-bars (was: MPS image cache) ` MPS: scroll-bars ` MPS: w32 threads Maintenance of cobol-mode.el on ELPA 2024-05-05 19:32 UTC (8+ messages) bug#70791: 30.0.50; edebug-remove-instrumentation doesn't ...
+Orgmode
+list.orgmode.org › orgmode  › 87pl4lul8r.fsf@localhost
+[BLOG] #27 bbb:OrgMeetup on Wed, February 11, 19:00 UTC+3 - Ihor Radchenko
+The idea is to get more performant ... - For Org mode, good animations/images could open interactive UI similar to Jupyter where the graphs can be interactive - Similar effect can be achieved with webkit widgets, but webkit support is basically broken. There was some work on webkit WPE implementation, but I do not recall any updates recently - the latest update: https://yhetil.org/emacs...
+The Mail Archive
+mail-archive.com › help-guix@gnu.org  › msg19268.html
+ownership of the yhetil.org service ?
+Hi Guix, As mentioned previously, one of the online guix service I use the most is yhetil [1]. However, the question arises about its ownership and maintenance. Is it the responsibility of someone in the community ? Maybe some of you know a bit more about yhetil.org, as there is no information related to its owner in the site.
+Find elsewhere
+Google Bing Mojeek
+Next
+Resources
+Brave Search Premium Brave Search help Transparency report Report a security issue Status
+Products
+Brave Browser Brave Search Brave Wallet Brave Talk Brave Firewall + VPN Brave Playlist Brave News Brave Rewards Brave Search API Brave Ads
+Policies
+Privacy Policy Terms of Use

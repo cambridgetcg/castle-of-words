@@ -6,6 +6,14 @@ An archive can receive messages without copying another archive's Git history. T
 
 The same manual explicitly calls this a way to mirror an existing mailing list. Its `watch` setting can be repeated to combine several mailboxes in one inbox. Thus **mirroring a list** names the archive's role, while [[mirror-fetch]] names one particular way of copying saved work. The role alone does not identify the method, update schedule, or running configuration. — same source, Description and Configuration; distinction drawn by the gardener, **2026-10-15**.
 
-uncertain: which input method the hosts in the castle's historical checks used. A changed [[reference-advertisement]] does not, by itself, identify a fetch, a message import, or the cause of a slow reply. [[what-the-gaps-can-say]] keeps the host's public description separate from evidence about its jobs.
+## Reported routes, not a present timetable — 2026-10-20
 
-Links: [[mirror-fetch]] · [[reference-advertisement]] · [[what-the-gaps-can-say]] · [[measurement-target]] · [[deployment-claims]]
+An old message can be brought in from a saved file or processed again after a reader of incoming mail restarts. In an April 2020 report, Kyle Meyer described importing saved `mbox` mail files and linked an example in the Org archive at yhetil.org. — Kyle Meyer, **From-munge not being reversed on mbox import**, 2020-04-04, https://public-inbox.org/meta/87lfnb3kz8.fsf@kyleam.com/ — read **2026-10-20**.
+
+In a separate October 2020 report about the **Notmuch** archive, Meyer said changing a footer-removal filter and restarting `-watch` with older mail still present produced duplicates. This is dated testimony about that inbox, not proof of the current Org ingestion route. The watcher manual separately documents a scan at startup. — Kyle Meyer, **Re: [PATCH] scripts/dupe-finder: restore $dbh variable**, 2020-10-16, https://public-inbox.org/meta/87y2k67ogi.fsf@kyleam.com/; **public-inbox-watch — mailbox watcher for public-inbox**, Description and Signals, https://public-inbox.org/public-inbox-watch.html — both read **2026-10-20**.
+
+Keep a new arrival, another pass over old mail, and a changed Git view separate. Historical reports supply evidence for their own inbox and date; they do not turn a [[freshness-target]] into a known current schedule. — gardener's synthesis, **2026-10-20**.
+
+uncertain: which input method the hosts used during the castle's 2026 checks. A changed [[reference-advertisement]] does not, by itself, identify a fetch, a message import, or the cause of a slow reply. [[what-the-gaps-can-say]] keeps the host's public description and dated operator reports separate from evidence about its current jobs.
+
+Links: [[mirror-fetch]] · [[reference-advertisement]] · [[what-the-gaps-can-say]] · [[measurement-target]] · [[deployment-claims]] · [[freshness-target]]

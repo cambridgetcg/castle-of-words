@@ -1,0 +1,30 @@
+{
+  "all_checks_passed": true,
+  "closed": false,
+  "rooms": 697,
+  "map_entries": 697,
+  "map_missing": 0,
+  "map_extra": 0,
+  "map_duplicates": 0,
+  "open_questions": 16,
+  "courtyard_insights": 0,
+  "unchanged_preexisting_files_checked": 87,
+  "garden_files_unchanged": 84,
+  "source_downloads_checked": 7,
+  "evidence_hashes_checked": 87,
+  "independently_counted_statuses": {
+    "HTTP/1.1 200 OK": 27
+  },
+  "saved_body_byte_counts": {
+    "370": 27
+  },
+  "framing_counts": {
+    "content_length": 19,
+    "chunked": 8
+  },
+  "timeouts": 1,
+  "prior_room_and_word_prose_preserved": true,
+  "gate_changed_lines": 2,
+  "chronicle_lines_added": 0,
+  "new_section_link_targets_checked": 10
+}

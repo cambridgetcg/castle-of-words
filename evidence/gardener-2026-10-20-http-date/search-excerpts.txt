@@ -1,0 +1,183 @@
+RFC 9110 Date header best available approximation message origination recipient clock - Brave Search
+Ask
+All
+Images
+News
+Videos
+Maps
+Goggles
+More
+RFC Editor
+rfc-editor.org
+› rfc  › rfc9110.html
+RFC 9110: HTTP Semantics
+For example, the Date header field is defined in Section 6.6.1 as containing the origination timestamp for the message in which it appears.¶ ... Field names are case-insensitive and ought to be registered within the "Hypertext Transfer Protocol (HTTP) Field Name Registry"; see Section 16.3.1.¶ · The interpretation of a field does not change between minor versions of the same major HTTP version, though the default behavior of a recipient in the absence of such a field can change.
+RFC Editor
+rfc-editor.org
+› info  › rfc9110
+RFC 9110: HTTP Semantics | RFC Editor
+6 June 2022 -
+For example, the Date header field is defined in Section 6.6.1 as containing the origination timestamp for the message in which it appears.¶ ... insensitive and ought to be registered within the "Hypertext Transfer Protocol (HTTP) Field Name Registry"; see Section 16.3.1.¶ · The interpretation of a field does not change between minor versions of the same major HTTP version, though the default behavior of a recipient in the absence of such a field can change.
+RFCinfo
+rfcinfo.com
+› rfc 7231 - http/1.1 semantics  › 7. response header fields
+7. Response Header Fields | RFCinfo - RFC Translations
+The "Date" header field represents ... Date header field is generated,
+the sender SHOULD generate its field value as the best available approximation of the date and time of message generation
+....
+GitHub
+github.com
+› assimalign  › cohesion  › issues  › 1417
+[L01.01.11.94] Send a Date header on every response, as RFC 9110 requires · Issue #1417 · assimalign/cohesion
+1 week ago -
+Summary Found by Stage 12's review of #1185: no Cohesion transport writes a Date header. RFC 9110 §6.6.1 says
+an origin server with a clock MUST send Date in 2xx, 3xx and 4xx responses, and MAY send it in 1xx and 5xx
+. [Certain] git grep ...
+GitHub
+github.com
+› dorianverlaine  › pingclair  › issues  › 81
+🔍 [RFC 9110 §6.6.1] HTTP/3 responses carry no `Date` header at all · Issue #81 · dorianverlaine/pingclair
+1 month ago -
+RFC 9110 §6.6.1 — "An origin ... 5.6.7)
+MUST generate a Date header field in all 2xx (Successful), 3xx (Redirection), and 4xx (Client Error) responses, and MAY generate a Date header field in 1xx (Informational) and 5xx (Server Error) responses." RFC 9110 §6.6.1 — "A recipient with a clock that receives a response message without a Date header field MUST record the time it was received and append a corresponding Date header field to the message's header section if it is cached or forwarded downstream
+....
+Author:
+dorianverlaine
+W3C
+w3.org
+› Protocols  › rfc2616  › rfc2616-sec14.html
+HTTP/1.1: Header Field Definitions
+It SHOULD represent the best available approximation of the date and time of message generation, unless the implementation has no means of generating a reasonably accurate date and time
+. In theory, the date ought to represent the moment just before the entity is generated.
+HTTP
+http.dev
+› http headers  › date
+Date - Expert Guide to HTTP headers
+17 August 2026 -
+Date header
+records the exact moment a message was created
+. Origin servers with a working clock include this header in all 2xx, 3xx, and 4xx responses so downstream caches and clients know when the content was produced.
+RFC Editor
+rfc-editor.org
+› rfc  › rfc9110.pdf
+pdf
+RFC 9110 HTTP Semantics Abstract
+For example, the Date header field is defined in Section 6.6.1 as containing the origination ... Protocol (HTTP) Field Name Registry"; see Section 16.3.1. The interpretation of a field does not change between minor versions of the same major HTTP · version, though the default behavior of a recipient in the absence of such a field can change.
+GitHub
+github.com
+› varuns2903  › orbit-framework  › issues  › 170
+Responses lack the Date header (RFC 9110 §6.6.1) · Issue #170 · varuns2903/orbit-framework
+2 weeks ago -
+$ curl -si http://127.0.0.1:8113/ HTTP/1.1 200 OK Connection: keep-alive Content-Length: 13 Content-Type: text/plain RFC 9110 §6.6.1:
+an origin server with a clock MUST send Date in 2xx, 3xx and 4x
+...
+IETF
+ietf.org
+› rfc  › rfc9110.pdf
+pdf
+RFC 9110 HTTP Semantics Abstract
+For example, the Date header field is defined in Section 6.6.1 as containing the origination ... Protocol (HTTP) Field Name Registry"; see Section 16.3.1. The interpretation of a field does not change between minor versions of the same major HTTP · version, though the default behavior of a recipient in the absence of such a field can change.
+Find elsewhere
+Google
+Bing
+Mojeek
+IANA
+iana.org
+› assignments  › message-headers  › message-headers.txt
+Internet Assigned Numbers Authority • Domains • Protocols • Numbers • About
+Internet Assigned Numbers Authority • Domains • Protocols • Numbers • About Message Headers Last Updated 2026-05-13 Available Formats [IMG] XML [IMG] HTML [IMG] Plain text Registries Included Below • Permanent Message Header Field Names • Provisional Message Header Field Names • ...
+GitHub
+github.com
+› leanprover  › lean4  › pull  › 15469
+fix: use the RFC 9110 `GMT` date format for the HTTP `Date` header by carlohamalainen · Pull Request #15469 · leanprover/lean4
+This PR makes the Std.Http server generate its Date header in the HTTP-date format of RFC 9110 §5.6.7, for example
+Sun, 06 Nov 1994 08:49:37 GMT
+, instead of with a numeric offset (+0000). Clients t...
+hMailServer
+hmailserver.com
+› board index  › support  › scripting
+COM Message.Date - hMailServer forum
+From the RFC, about the date header: ... final form, ready for transport.
+The origination date is intended to contain the date and time that the user queued the message, not the time when the user connected to the network to send the message
+....
+Wikipedia
+en.wikipedia.org
+› wiki  › List_of_HTTP_header_fields
+List of HTTP header fields - Wikipedia
+2 weeks ago -
+[
+RFC
+7239, permanent] Disclose
+original
+information of a client connecting to a web server through an HTTP proxy. For example: Forwarded: for=192.0.2.60;proto=http;by=203.0.113.43 Forwarded: for=192.0.2.43, for=198.51.100.17 · [
+RFC
+9110
+, permanent] The email address of the user making the request.
+Request fields
+Response fields
+Armware
+armware.dk
+› RFC  › rfc  › rfc9110.html
+RFC 9110 - ARMWARE
+This specification targets conformance criteria according to the role of a participant in HTTP communication
+. Hence, requirements are placed on senders, recipients, clients, servers, user agents, intermediaries, origin servers, proxies, gateways, or caches, depending on what behavior is being ...
+Stack Overflow
+stackoverflow.com
+› questions  › 75235516  › does-googles-http-server-return-a-header-with-the-wrong-date-time-format
+datetime - Does Google's http server return a header with the wrong date/time format? - Stack Overflow
+Top answer
+1 of 2
+1
+Cookies are described by RFC 6265, so that is where to look to find the syntax for
+expires
+. However, the issue remains as you describe it: the server is using a date format that does not seem to match the required syntax.
+I think the answer (as pointed out in a comment by Julian Reschke) can be found in section 5, which says that user agents should be prepared to handle syntax outside the formal specification, for reasons of interoperability.
+This section specifies the
+Cookie
+and
+Set-Cookie
+headers in
+sufficient detail that a user agent implementing these requirements
+precisely can interoperate with existing servers (even those that do
+not conform to the well-behaved profile described in Section 4).
+A user agent could enforce more restrictions than those specified
+herein (e.g., for the sake of improved security); however,
+experiments have shown that such strictness reduces the likelihood
+that a user agent will be able to interoperate with existing servers.
+Section 5.1.1 then lays out the specific algorithm that should be followed to parse dates:
+The user agent MUST use an algorithm equivalent to the following
+algorithm to parse a cookie-date.
+The
+expires
+value you're seeing is compatible with that algorithm.
+In sum, it appears that service providers do not feel compelled to produce headers that comply with the strict syntax when user agents are compelled to accept a looser syntax anyway.
+2 of 2
+1
+The date formats described in RFC 7231 (which BTW has been obsoleted by RFC 9110) only apply to the header fields using that specific ABNF - cookies are not in scope.
+ACM Digital Library
+dl.acm.org
+› doi  › 10.17487  › RFC9110
+RFC 9110: HTTP Semantics | Guide books
+1 June 2022 -
+We occasionally run membership recruitment campaigns on social media channels and use cookies to track post-clicks. We also share information about your use of our site with our social media, advertising and analytics partners who may combine it with other information that you’ve provided ...
+Next
+Resources
+Brave Search Premium
+Brave Search help
+Transparency report
+Report a security issue
+Status
+Products
+Brave Browser
+Brave Search
+Brave Wallet
+Brave Talk
+Brave Firewall + VPN
+Brave Playlist
+Brave News
+Brave Rewards
+Brave Search API
+Brave Ads
+Policies
+Privacy Policy
+Terms of Use

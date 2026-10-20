@@ -1,0 +1,45 @@
+{
+  "checked_utc": "2026-10-20T17:37:50.514646+00:00",
+  "passed": true,
+  "filed": 0,
+  "researched": 1,
+  "answered": 0,
+  "planted": 0,
+  "open_questions": 16,
+  "rooms": 697,
+  "map_entries": 697,
+  "map_missing": [],
+  "map_extra": [],
+  "map_duplicates": [],
+  "unchanged_page_count": 1994,
+  "new_rooms_or_words": 0,
+  "chronicle_prefix_unchanged": true,
+  "chronicle_lines_appended": 1,
+  "garden_git_status_unchanged_and_empty": true,
+  "retrievals": [
+    {
+      "label": "indexed-performance",
+      "exit_code": 0,
+      "http_code": 429,
+      "response_body_present": true,
+      "saved_bytes": 73780,
+      "hash_matches_receipt": true
+    },
+    {
+      "label": "operator-performance",
+      "exit_code": 7,
+      "http_code": 0,
+      "response_body_present": false,
+      "saved_bytes": 0,
+      "hash_matches_receipt": true
+    },
+    {
+      "label": "web-maintenance",
+      "exit_code": 0,
+      "http_code": 200,
+      "response_body_present": true,
+      "saved_bytes": 114535,
+      "hash_matches_receipt": true
+    }
+  ]
+}

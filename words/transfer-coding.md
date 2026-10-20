@@ -16,4 +16,10 @@ Sources, fetched and read **2026-10-13**:
 3. curl project, **curl man page — How To Use**, `--raw`, `--tr-encoding` and `--compressed` — https://curl.se/docs/manpage.html.
 4. curl project, **Everything curl: Compression**, “HTTP headers” — https://raw.githubusercontent.com/curl/everything-curl/master/http/modify/compression.md.
 
-Links: [[content-coding]] · [[body-fingerprint]] · [[representation]] · [[reference-advertisement]] · [[what-the-gaps-can-say]]
+## The wrapper can change along the path — 2026-10-20
+
+A different delivery wrapper need not mean different content or a different backend. RFC 9112 says a recipient along the request/response chain may decode or apply transfer codings, with corresponding changes to Transfer-Encoding. Its chunked coding is specific to each connection. [[message-framing]] names the body-boundary rules that a wrapper serves. — **HTTP/1.1**, RFC 9112 §§6.1, 7.1.1–7.1.3, https://www.rfc-editor.org/rfc/rfc9112.txt — fetched and read **2026-10-20**.
+
+The [saved-reply audit](../evidence/gardener-2026-10-20-framing/README.md) found **six complete within-visit pairs** with different framing headers but byte-identical decoded content. That is an observation of the kept replies, not proof that a particular intermediary changed them. The chunk boundaries themselves were not retained. — **yhetil.org orgmode Git discovery responses and client request records**, https://yhetil.org/orgmode/0.git/info/refs?service=git-upload-pack, captured **2026-10-17–18 UTC**, reanalysed **2026-10-20**.
+
+Links: [[message-framing]] · [[content-coding]] · [[body-fingerprint]] · [[representation]] · [[reference-advertisement]] · [[what-the-gaps-can-say]]

@@ -1,0 +1,464 @@
+curl time_starttransfer includes HTTP response headers first byte body - Brave Search
+Ask
+All
+Images
+News
+Videos
+Maps
+Goggles
+More
+How do I measure request and response times at once using cURL?
+stackoverflow.com
+› questions  › 18215389  › how-do-i-measure-request-and-response-times-at-once-using-curl
+From this brilliant blog post...  https://blog.josephscott.org/2011/10/14/timing-details-with-curl/
+cURL supports formatted output for the details of the request (see the cURL manpage for details, under
+-w, –write-out <format>
+). For our purposes we’ll focus just on the timing details that are provided. Times below are in
+seconds
+.
+Create a new file,
+curl-format.txt
+, and paste in:
+time_namelookup:  %{time_namelookup}s\n
+        time_connect:  %{time_connect}s\n
+     time_appconnect:  %{time_appconnect}s\n
+    time_pretransfer:  %{time_pretransfer}s\n
+       time_redirect:  %{time_redirect}s\n
+  time_starttransfer:  %{time_starttransfer}s\n
+                     ----------\n
+          time_total:  %{time_total}s\n
+Make a request:
+curl -w "@curl-format.txt" -o /dev/null -s "http://wordpress.com/"
+Or on Windows, it's...
+curl -w "@curl-format.txt" -o NUL -s "http://wordpress.com/"
+What this does:
+-w "@curl-format.txt"
+tells cURL to use our format file
+-o /dev/null
+redirects the output of the request to /dev/null
+-s
+tells cURL not to show a progress meter
+"http://wordpress.com/"
+is
+the URL we are requesting. Use quotes particularly if your URL has "&" query string parameters
+And here is what you get back:
+time_namelookup:  0.001s
+      time_connect:  0.037s
+   time_appconnect:  0.000s
+  time_pretransfer:  0.037s
+     time_redirect:  0.000s
+time_starttransfer:  0.092s
+                   ----------
+        time_total:  0.164s
+I have not yet seen an option to output the results in microseconds, but if you're aware of one, post in the comments below.
+Make a Linux/Mac shortcut (alias)
+alias curltime="curl -w \"@$HOME/.curl-format.txt\" -o /dev/null -s "
+Then you can simply call...
+curltime wordpress.org
+Thanks to commenter Pete Doyle!
+Make a Linux/Mac stand-alone script
+This script does not require a separate
+.txt
+file to contain the formatting.
+Create a new file,
+curltime
+, somewhere in your executable path, and paste in:
+#!/bin/bash
+
+curl -w @- -o /dev/null -s "$@" <<'EOF'
+    time_namelookup:  %{time_namelookup}\n
+       time_connect:  %{time_connect}\n
+    time_appconnect:  %{time_appconnect}\n
+   time_pretransfer:  %{time_pretransfer}\n
+      time_redirect:  %{time_redirect}\n
+ time_starttransfer:  %{time_starttransfer}\n
+                    ----------\n
+         time_total:  %{time_total}\n
+EOF
+Then call it the same way as the alias:
+curltime wordpress.org
+Make a Windows shortcut (aka BAT file)
+Create a new text file called
+curltime.bat
+in the same folder as
+curl.exe
+and
+curl-format.txt
+, and paste in the following line:
+curl -w "@%~dp0curl-format.txt" -o NUL -s %*
+Then from the command line you can simply call:
+curltime wordpress.org
+(Make sure the folder is listed in your Windows
+PATH
+variable to be able to use the command from any folder.)
+Answer from Simon E. on Stack Overflow
+GitHub
+github.com
+› curl  › curl  › issues  › 11669
+time_starttransfer reported wrong timestamp · Issue #11669 · curl/curl
+13 August 2023 -
+time_starttransfer:
+The time, in seconds, it took from the start until the first byte was just about to be transferred
+. This includes time_pretransfer and also the time the server needed to calculate the result.
+Author:
+curl
+Occur changing dimension from seconds to another (for all
+timings
+parameters:
+time
+_namelookup,
+time
+_connect,
+time
+_appconnect,
+time
+_pretransfer,
+time
+_redirect,
+time
+_
+starttransfer
+,
+time
+_total) for
+cURL
+from ver. 7.74.0 · Issue #6416 ·
+curl
+/
+curl
+5 Jan 2021
+5 yr ago
+pretransfer/posttransfer/
+starttransfer
+times
+set on failed transfers that never sent a request (since 8.21.0) · Issue #23325 ·
+curl
+/
+curl
+9 Oct 2026
+last wk
+Issue ·
+curl
+/
+curl
+5 Jan 2018
+8 yr ago
+Wrong timestamp again · Issue #139 · the-tcpdump-group/tcpdump
+16 Apr 2013
+13 yr ago
+--trace-
+time
+shows incorrect timestamps · Issue #15614 ·
+curl
+/
+curl
+19 Nov 2024
+last yr
+More results from github.com
+Stack Overflow
+stackoverflow.com
+› questions  › 18215389  › how-do-i-measure-request-and-response-times-at-once-using-curl
+How do I measure request and response times at once using cURL? - Stack Overflow
+Top answer
+1 of 14
+2793
+From this brilliant blog post...  https://blog.josephscott.org/2011/10/14/timing-details-with-curl/
+cURL supports formatted output for the details of the request (see the cURL manpage for details, under
+-w, –write-out <format>
+). For our purposes we’ll focus just on the timing details that are provided. Times below are in
+seconds
+.
+Create a new file,
+curl-format.txt
+, and paste in:
+time_namelookup:  %{time_namelookup}s\n
+        time_connect:  %{time_connect}s\n
+     time_appconnect:  %{time_appconnect}s\n
+    time_pretransfer:  %{time_pretransfer}s\n
+       time_redirect:  %{time_redirect}s\n
+  time_starttransfer:  %{time_starttransfer}s\n
+                     ----------\n
+          time_total:  %{time_total}s\n
+Make a request:
+curl -w "@curl-format.txt" -o /dev/null -s "http://wordpress.com/"
+Or on Windows, it's...
+curl -w "@curl-format.txt" -o NUL -s "http://wordpress.com/"
+What this does:
+-w "@curl-format.txt"
+tells cURL to use our format file
+-o /dev/null
+redirects the output of the request to /dev/null
+-s
+tells cURL not to show a progress meter
+"http://wordpress.com/"
+is
+the URL we are requesting. Use quotes particularly if your URL has "&" query string parameters
+And here is what you get back:
+time_namelookup:  0.001s
+      time_connect:  0.037s
+   time_appconnect:  0.000s
+  time_pretransfer:  0.037s
+     time_redirect:  0.000s
+time_starttransfer:  0.092s
+                   ----------
+        time_total:  0.164s
+I have not yet seen an option to output the results in microseconds, but if you're aware of one, post in the comments below.
+Make a Linux/Mac shortcut (alias)
+alias curltime="curl -w \"@$HOME/.curl-format.txt\" -o /dev/null -s "
+Then you can simply call...
+curltime wordpress.org
+Thanks to commenter Pete Doyle!
+Make a Linux/Mac stand-alone script
+This script does not require a separate
+.txt
+file to contain the formatting.
+Create a new file,
+curltime
+, somewhere in your executable path, and paste in:
+#!/bin/bash
+
+curl -w @- -o /dev/null -s "$@" <<'EOF'
+    time_namelookup:  %{time_namelookup}\n
+       time_connect:  %{time_connect}\n
+    time_appconnect:  %{time_appconnect}\n
+   time_pretransfer:  %{time_pretransfer}\n
+      time_redirect:  %{time_redirect}\n
+ time_starttransfer:  %{time_starttransfer}\n
+                    ----------\n
+         time_total:  %{time_total}\n
+EOF
+Then call it the same way as the alias:
+curltime wordpress.org
+Make a Windows shortcut (aka BAT file)
+Create a new text file called
+curltime.bat
+in the same folder as
+curl.exe
+and
+curl-format.txt
+, and paste in the following line:
+curl -w "@%~dp0curl-format.txt" -o NUL -s %*
+Then from the command line you can simply call:
+curltime wordpress.org
+(Make sure the folder is listed in your Windows
+PATH
+variable to be able to use the command from any folder.)
+2 of 14
+415
+Option 1:
+to measure
+total time
+:
+curl -o /dev/null -s -w 'Total: %{time_total}s\n'  https://www.google.com
+Sample output:
+Total: 0.441094s
+Option 2:
+to get
+time to establish connection
+,
+time to first byte (TTFB)
+and
+total time
+:
+curl -o /dev/null -s -w 'Establish Connection: %{time_connect}s\nTTFB: %{time_starttransfer}s\nTotal: %{time_total}s\n'  https://www.google.com
+Sample output:
+Establish Connection: 0.020033s
+TTFB: 0.417907s
+Total: 0.435486s
+Ref: Get response time with curl
+Stack Harbor
+stackharbor.com
+› home  › knowledge base  › debug http requests with curl: verbose output, timing, and headers
+Debug HTTP requests with curl: verbose output, timing, and headers
+26 July 2026 -
+It resolves the hostname to an ... waits while the server does its work,
+receives the first byte of the response (starttransfer), and finally finishes reading the body (total).
+...
+People also ask
+How do I test an API with curl?
+Use -X for the method, -H for
+headers
+, and -d for the request
+body
+. Example:
+curl
+-X GET -H 'Authorization: Bearer your_token' https://api.example.com/users. For JSON APIs,
+include
+-H 'Content-Type: application/json' and -H 'Accept: application/json'. Add -s to suppress the progress meter and pipe to jq for formatted output:
+curl
+-s https://api.example.com/data | jq .
+speedtesthq.com
+speedtesthq.com
+› home  › guides  › cli networking commands  › curl command
+The curl Command: Making HTTP Requests from the Terminal
+What is the difference between curl and wget?
+curl
+is designed for making
+HTTP
+requests and inspecting
+responses
+— it supports dozens of protocols and is ideal for API testing and debugging. wget is designed for downloading files and websites, with built-in recursive downloading and resuming interrupted transfers.
+curl
+outputs to stdout by default; wget saves to files by default. For scripting
+HTTP
+interactions,
+curl
+is more flexible. For downloading files and mirroring sites, wget is simpler.
+speedtesthq.com
+speedtesthq.com
+› home  › guides  › cli networking commands  › curl command
+The curl Command: Making HTTP Requests from the Terminal
+How do I follow redirects with curl?
+Add the -L flag:
+curl
+-L https://example.com. Without -L,
+curl
+stops at the
+first
+redirect
+response
+and prints it. With -L,
+curl
+follows up to 30 redirects by default. To see each redirect URL as it follows them, combine with -v (verbose) or use --max-redirs to limit the number of redirects followed.
+speedtesthq.com
+speedtesthq.com
+› home  › guides  › cli networking commands  › curl command
+The curl Command: Making HTTP Requests from the Terminal
+Cloudflare
+blog.cloudflare.com
+› a-question-of-timing
+A Question of Timing | Cloudflare Blog
+15 July 2026 -
+time_starttransfer is just before cURL reads the first byte from the network
+(it hasn't actually read it yet). time_starttransfer - time_appconnect is practically the same as Time To First Byte (TTFB) from this client - 250 ms in this example case.
+HashBangCode
+hashbangcode.com
+› article  › timing-page-responses-curl
+Timing Page Responses With Curl | #! code
+27 March 2022 -
+The time_starttransfer option gives us access to the "time to first byte" metric, which the time it takes between the request being received and the server sending a response
+.
+DEV Community
+dev.to
+› gbhorwood  › curl-getting-performance-data-with-curl-47f1
+curl: getting performance data with curl - DEV Community
+15 September 2025 -
+time_starttransfer:
+the time, in seconds, from the start of the call to right before the first byte of the response was transferred
+.
+SpeedTestHQ
+speedtesthq.com
+› home  › guides  › cli networking commands  › curl command
+The curl Command: Making HTTP Requests from the Terminal
+1 May 2026 -
+Other useful -w variables: %{time_total} (total request time in seconds), %{time_connect} (time to TCP connect),
+%{time_starttransfer} (TTFB — time to first byte),
+%{size_download} (bytes downloaded), and %{url_effective} (final URL after ...
+GitHub
+github.com
+› curl  › curl  › blob  › master  › docs  › libcurl  › opts  › CURLINFO_STARTTRANSFER_TIME_T.md
+curl/docs/libcurl/opts/CURLINFO_STARTTRANSFER_TIME_T.md at master · curl/curl
+#include <curl/curl.h> CURLcode curl_easy_getinfo(CURL *handle, CURLINFO_STARTTRANSFER_TIME_T, curl_off_t *timep); Pass a pointer to a curl_off_t to receive the time, in microseconds, it took from the start until the first byte is received by libcurl.
+Author:
+curl
+Find elsewhere
+Google
+Bing
+Mojeek
+Simplified
+simplified.guide
+› curl  › request-measure-timing
+How to measure request timing with cURL
+Use --location when the URL redirects, compare {time_pretransfer} with {time_starttransfer} when first-byte wait matters, and treat {time_starttransfer} as a first-byte checkpoint rather than a pure server-only number because it already includes the earlier connection and TLS phases.
+curl
+curl.se
+› libcurl  › c  › CURLINFO_STARTTRANSFER_TIME_T.html
+CURLINFO_STARTTRANSFER_TIME_T
+CURLINFO_STARTTRANSFER_TIME_T - time to first byte received · Pass a pointer to a curl_off_t to receive the time, in microseconds, it took from the start until the first byte is received by libcurl. This includes CURLINFO_PRETRANSFER_TIME_T and also the time the server needs to calculate the result
+Oracle
+docs.oracle.com
+› cd  › E88353_01  › html  › E37842  › curlinfo-starttransfer-time-3.html
+CURLINFO_STARTTRANSFER_TIME - man pages section 3: Library Interfaces and Headers
+27 July 2022 -
+CURLINFO_STARTTRANSFER_TIME - get the time until the first byte is received
+curl
+curl.se
+› mail  › lib-2013-07  › 0272.html
+Curl: Making sense of CURLINFO_*_TIME values
+24 July 2013 -
+8. The result of (CURLINFO_STARTTRANSFER_TIME - CURLINFO_PRETRANSFER_TIME) is
+the time it takes for the remote host to prepare and send at least the first byte of the response, and for the client to receive the first byte
+.
+curl
+curl.se
+› libcurl  › c  › curl_easy_getinfo.html
+libcurl - curl_easy_getinfo()
+The time it took from the start until the first byte is received by libcurl. In microseconds. See CURLINFO_STARTTRANSFER_TIME_T
+DEV Community
+dev.to
+› yuyatakeyama  › how-i-measure-response-times-of-web-apis-using-curl-6nh
+cURL Response Time: How I measure Response Times of Web APIs using curl - DEV Community
+7 December 2017 -
+And what is important is -w. We can specify a variety of format and in this time I used time_starttransfer to retrieve the response time (time to first byte).
+curl
+curl.se
+› mail  › archive-2015-08  › 0000.html
+Curl: Questions on cURL timing details
+5 August 2015 -
+As I understand it, that means the end of the processing of the request at the web server, and the departure of the first byte of the reply from the server. However, on http://stackoverflow.com/questions/17638026/calculating-server-processing-time-with-curl, one can derive that that time_starttransfer is "the time (...) until the first byte arrived", at the client I guess.
+Medium
+ajanthan-eliyathamby.medium.com
+› calculating-the-request-and-response-time-with-the-curl-command-e71ec8f2b547
+Calculating the Request and Response Time With the Curl Command
+13 December 2023 -
+time_starttransfer
+The time, in seconds, it took from the start until the first byte was just about to be transferred
+.
+Josephscott
+blog.josephscott.org
+› 2011  › 10  › 14  › timing-details-with-curl
+Timing Details With cURL – Joseph Scott
+time_namelookup: 0.001 time_connect: 0.037 time_appconnect: 0.000 time_pretransfer: 0.037 time_redirect: 0.000 time_starttransfer: 0.092 ——— time_total: 0.164 · Jon was looking specifically at time to first byte, which is the time_starttransfer line.
+Ops Tips
+ops.tips
+› gists  › measuring-http-response-times-curl
+Measuring HTTP response times with cURL | ops.tips
+17 July 2018 -
+http_code The numerical response ... was just about to begin. time_starttransfer
+The time, in seconds, it took from the start until the first byte was just about to be transferred
+....
+Sshworkbench
+sshworkbench.com
+› cheat sheets  › curl
+curl Command Cheat Sheet: POST JSON, Headers & Auth (2026)
+29 August 2026 -
+curl -s -o /dev/null -w "dns %{time_namelookup}s connect %{time_connect}s tls %{time_appconnect}s first byte %{time_starttransfer}s total %{time_total}s code %{http_code}\n" https://example.comCopy
+Stack Harbor
+stackharbor.com
+› home  › knowledge base  › break down request latency with curl -w: dns, tcp, tls, and ttfb
+Break down request latency with curl -w: DNS, TCP, TLS, and TTFB
+13 July 2026 -
+time_starttransfer —
+the first byte of the response body arrived
+.
+Next
+Resources
+Brave Search Premium
+Brave Search help
+Transparency report
+Report a security issue
+Status
+Products
+Brave Browser
+Brave Search
+Brave Wallet
+Brave Talk
+Brave Firewall + VPN
+Brave Playlist
+Brave News
+Brave Rewards
+Brave Search API
+Brave Ads
+Policies
+Privacy Policy
+Terms of Use

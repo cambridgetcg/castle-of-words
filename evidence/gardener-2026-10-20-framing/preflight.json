@@ -1,0 +1,37 @@
+{
+  "all_checks_passed": true,
+  "closed": false,
+  "rooms": 697,
+  "map_entries": 697,
+  "map_duplicates": 0,
+  "map_missing": 0,
+  "map_extra": 0,
+  "open_questions": 16,
+  "courtyard_insights": 0,
+  "garden_files_unchanged": 84,
+  "questions_and_quests_unchanged": true,
+  "source_download_hashes_checked": 3,
+  "evidence_hashes_checked": 88,
+  "same_content_different_framing_pairs": 6,
+  "distinct_contents": 11,
+  "contents_seen_under_both_framings": 5,
+  "framing_counts": {
+    "content-length": 19,
+    "chunked": 8,
+    "unobserved": 1
+  },
+  "framing_by_wait": {
+    "content-length": {
+      "below_1s": 17,
+      "at_or_above_1s": 2
+    },
+    "chunked": {
+      "below_1s": 7,
+      "at_or_above_1s": 1
+    }
+  },
+  "original_prose_preserved": true,
+  "gate_changed_lines": 2,
+  "new_wiki_link_targets_checked": 8,
+  "chronicle_lines_added": 0
+}

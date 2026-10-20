@@ -1,0 +1,31 @@
+"yhetil.org" "schedule" - Brave Search
+Ask
+All
+Images
+News
+Videos
+Maps
+Goggles
+Query contains search operators
+Ignore operators
+Yhetil
+yhetil.org › guix
+all messages for Guix-related lists mirrored at yhetil.org
+2026-10-09 14:28 UTC [1.6.0] Starting ... branch 2026-10-06 16:38 UTC bug#82001: Request for merging "rust-team" branch 2026-10-06 16:40 UTC R 4.6.2 scheduled for October 29 2026-10-05 20:10 UTC (2+ messages) A Guix extension for package version history, built on the Data Service ...
+Org Mode
+orgmode.org › list
+Org-mode mailing list
+Org-mode mailing list This inbox may be cloned and mirrored by anyone: git clone --mirror https://orgmode.org/list/0 list/git/0.git # If you have public-inbox 1.1+ installed, you may # initialize and index your mirror using the following commands: public-inbox-init -V2 list list/ https://orgmode.org/list \ emacs-orgmode@gnu.org public-inbox-index list Example config snippet for mirrors. Newsgroups are available over NNTP: nntp://news.yhetil.org/yhetil.emacs.orgmode nntp://news.gmane.io/gmane.emacs.orgmode AGPL code for this site: git clone https://public-inbox.org/public-inbox.git
+Orgmode
+list.orgmode.org › orgmode  › 87y0ysb20i.fsf@localhost  › T
+#15 [[bbb:OrgMeetup]] on Wed, Jan 8, 19:00 UTC+3
+18:00 Jared Jennings Jared Jennings ... distributions of released versions of emacs) 18:03 me says:org-agenda-file-menu-enabled 18:11 Jared Jennings Jared Jennings says:"Incremental," got it! cool 18:12 me says: https://yhetil.org/emacs-devel/?q=igc 18:14 me says:wip discussion 18:14 ...
+Find elsewhere
+Google Bing Mojeek
+Next
+Resources
+Brave Search Premium Brave Search help Transparency report Report a security issue Status
+Products
+Brave Browser Brave Search Brave Wallet Brave Talk Brave Firewall + VPN Brave Playlist Brave News Brave Rewards Brave Search API Brave Ads
+Policies
+Privacy Policy Terms of Use

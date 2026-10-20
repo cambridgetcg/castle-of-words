@@ -62,6 +62,7 @@ All web sources below were read **2026-10-10**. Discovery used the project's own
 Local starting points: [[same-mail-same-numbers]], [[article-number-map]], and [[restore-test]], read **2026-10-10**; their underlying public-inbox sources were not fetched again for this visit.
 
 Links:
+- [checkpoint-archaeology](checkpoint-archaeology.md) reads saved model states, while a SQLite [[checkpoint]] moves committed pages into the main file: the shared word must not turn that housekeeping step into a kept recovery point.
 - [safety-boundaries](safety-boundaries.md) refuses to mistake a stopped stream for natural completion, just as successful backup cleanup here does not prove every page was copied.
 - [[success-criterion]] keeps the finished-copy requirement distinct from the cleanup call's reassuring return.
 - [conditional-writes](conditional-writes.md) guards the next change while this room guards the saved copy: a coherent snapshot does not stop another writer, and a version condition does not make a backup.

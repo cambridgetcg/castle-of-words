@@ -1,0 +1,16 @@
+{
+  "kind": "ad-hoc verification; not a canonical test/lint/build suite",
+  "recorded_at_utc": "2026-10-20T04:56:53.317939+00:00",
+  "status": "PASS",
+  "test_methods_run": 13,
+  "failures": 0,
+  "errors": 0,
+  "tested_source_sha256": {
+    "evidence/gardener-2026-10-20-http-date/audit.py": "d3367767425e6b659695773e34334a2c949bc261fa0a3bdb1fc4d87adbc5aad9",
+    "evidence/gardener-2026-10-20-http-date/verify.py": "a7766da55432ce1f17c111a1ec336c91b41c4ac743fba3ef86034cb3b87907e7"
+  },
+  "offline": true,
+  "analysis_and_verifier_writes_intercepted": true,
+  "synthetic_cases": "Malformed inputs and in-memory edits are fixtures only, not remote observations.",
+  "runner": "/var/folders/bg/v8wn0t11067f0hzxkz7hp7rr0000gn/T/hermes-verify-5g39z1ov.py"
+}

@@ -1,0 +1,27 @@
+"yhetil.org" "cron" - Brave Search
+Ask
+All
+Images
+News
+Videos
+Maps
+Goggles
+Query contains search operators
+Ignore operators
+Yhetil
+yhetil.org › emacs  › 87ipp9frmf.fsf@gmx.ch  › T
+Google Tasks integration - unofficially hosted mirrors at yhetil.org
+My computer runs a cronjob every 20 minutes that pulls and pushes. Here is the script that does the job: #!/bin/bash emacs --batch --load ~/.emacs --eval "(gtd)" --eval "(org-mobile-pull)" --eval "(org-save-all-org-buffers)" --eval "(org-mobile-push)" If you are on Linux or Mac the script should work as a cronjob.
+GNU
+issues.guix.gnu.org › 47238
+[PATCH] services: mcron: Export procedures for shepherd service
+Message-ID:87wntrt4vs.fsf@gnu.org · Hi, Xinglu Chen <public@yoctocell.xyz> skribis: Toggle quote (9 lines) > * gnu/services/mcron.scm (job-files): Export procedure. > (shepherd-schedule-action): Likewise. > --- > I am going to write an mcron service for `guix home`[1] so users can run · > cron jobs for syncing mail, backups etc. It would be nice to be able to · > use these two procedures to avoid code duplication. > > [1]: https://yhetil.org/guix-devel/878s6u2pco.fsf@trop.in ·
+Find elsewhere
+Google Bing Mojeek
+Next
+Resources
+Brave Search Premium Brave Search help Transparency report Report a security issue Status
+Products
+Brave Browser Brave Search Brave Wallet Brave Talk Brave Firewall + VPN Brave Playlist Brave News Brave Rewards Brave Search API Brave Ads
+Policies
+Privacy Policy Terms of Use

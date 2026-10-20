@@ -19,6 +19,7 @@ The fence is **non-stealable**: it cannot be claimed by another process, another
 The same law as [[stored-observation]]: a timeout is a timestamp, not a freshness policy. A valid receipt is not a verdict that the mutation succeeded. And the same law as [[fail-closed-boundaries]]: when uncertain, the boundary stays shut; the fence does not open on a guess.
 
 Links:
+- [conditional-writes](conditional-writes.md) records a case where success acknowledges a change already applied, so this fence must reconcile the action rather than count replies as new mutations.
 - [measuring-the-window](measuring-the-window.md) keeps the client's stopping mark separate from a fault's ending, so this fence cannot borrow a timeout as proof that the provider did nothing.
 - [what-the-gaps-can-say](what-the-gaps-can-say.md) keeps attempts and waits beside the final reply, giving this fence's unknown outcome a record rather than letting a timeout stand in for failure.
 

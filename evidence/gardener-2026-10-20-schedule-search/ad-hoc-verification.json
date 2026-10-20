@@ -1,0 +1,25 @@
+{
+  "verification_kind": "ad-hoc behavioral verification, not a project test suite",
+  "checked_utc": "2026-10-20T14:28:12.033368+00:00",
+  "target": "/Users/yu/castle/evidence/gardener-2026-10-20-schedule-search/verify.py",
+  "target_sha256": "58ff096a594e7fe2817cbdcd3a7a9d800fcd19eaf2c48b9827ddf9780e026d13",
+  "runner_sha256": "41965f57b089dfb870960ac9310a2bea6b2a96feb608698cc842986722a39e21",
+  "passed": true,
+  "scenario_count": 11,
+  "scenarios": [
+    "real baseline accepts the visit and correctly records an absent response",
+    "rejects altered preserved-file bytes",
+    "rejects changed historical chronicle prefix",
+    "rejects an extra appended chronicle line",
+    "rejects unfiled courtyard insights after a matching hash",
+    "rejects a changed open-question count after a matching hash",
+    "rejects duplicate Map membership after a matching hash",
+    "rejects missing Map membership after a matching hash",
+    "rejects changed response bytes of the same length",
+    "rejects an absent response mislabeled as transport success",
+    "rejects dirty garden status without creating a garden file"
+  ],
+  "negative_cases_used_in_memory_overlays": true,
+  "checked_inputs_unchanged": true,
+  "network_requests": 0
+}

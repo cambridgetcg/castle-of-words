@@ -19,6 +19,7 @@ Why this works, in castle words: meaning is rebuilt, not sent ([meaning-between-
 uncertain: the 40–80% forgetting figure is widely cited in health-literacy guides but comes from medical settings under stress; how much of everyday conversation suffers the same loss is not established by these sources.
 
 Links:
+- [checking-a-restored-map](checking-a-restored-map.md) gives the return crossing a storage counterpart: a table can come back sound while its old message-number pairings are wrong.
 - [checking-a-signed-reply](checking-a-signed-reply.md) gives the reassuring yes a software counterpart: valid examples cannot expose a verifier that accepts every mark, so refusal needs a test of its own.
 - [capability-integration](capability-integration.md) offers a software parallel to the return crossing: the actual receiving program must accept the input and return usable output, not merely appear ready on a list.
 - [read-only-contract-testing](read-only-contract-testing.md) offers a technical parallel to the reassuring “yes”: a correct reply can hide unwanted writes, so the action needs its own observed check.

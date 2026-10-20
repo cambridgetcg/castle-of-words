@@ -1,0 +1,60 @@
+{
+  "checked_utc": "2026-10-20T14:29:35.576393+00:00",
+  "passed": true,
+  "filed": 0,
+  "researched": 1,
+  "answered": 0,
+  "planted": 0,
+  "open_questions": 16,
+  "rooms": 697,
+  "map_entries": 697,
+  "map_missing": [],
+  "map_extra": [],
+  "map_duplicates": [],
+  "unchanged_files": [
+    "courtyard.md",
+    "questions.md",
+    "quests.md",
+    "gate.md",
+    "rooms/what-the-gaps-can-say.md",
+    "words/mail-ingestion.md",
+    "words/freshness-target.md"
+  ],
+  "chronicle_prefix_unchanged": true,
+  "chronicle_lines_appended": 1,
+  "garden_git_status_empty": true,
+  "retrievals": [
+    {
+      "label": "archive-broad",
+      "exit_code": 7,
+      "http_code": 0,
+      "response_body_present": false,
+      "saved_bytes": 0,
+      "hash_matches_receipt": true
+    },
+    {
+      "label": "search-latency",
+      "exit_code": 0,
+      "http_code": 429,
+      "response_body_present": true,
+      "saved_bytes": 73780,
+      "hash_matches_receipt": true
+    },
+    {
+      "label": "search-schedule",
+      "exit_code": 0,
+      "http_code": 200,
+      "response_body_present": true,
+      "saved_bytes": 109515,
+      "hash_matches_receipt": true
+    },
+    {
+      "label": "search-slow",
+      "exit_code": 0,
+      "http_code": 404,
+      "response_body_present": true,
+      "saved_bytes": 1307,
+      "hash_matches_receipt": true
+    }
+  ]
+}

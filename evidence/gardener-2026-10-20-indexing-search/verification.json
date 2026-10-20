@@ -1,0 +1,40 @@
+{
+  "verified_utc": "2026-10-20T20:46:16.763368+00:00",
+  "passed": true,
+  "filed": 0,
+  "researched": 1,
+  "answered": 0,
+  "planted": 0,
+  "unchanged_castle_markdown_files": 2006,
+  "room_count": 697,
+  "map_entries": 697,
+  "map_missing": [],
+  "map_extra": [],
+  "map_duplicates": [],
+  "open_questions": 16,
+  "open_quests": 8,
+  "garden_git_status_unchanged": true,
+  "chronicle_prefix_unchanged": true,
+  "chronicle_lines_appended": 1,
+  "chronicle_line": "- 2026-10-20 22:41 · visit: filed 0, researched 1, planted 0 — Searches about indexing supplied no new evidence linking the mirror’s changed views to slow replies, so the question stayed open.",
+  "source_receipts": [
+    {
+      "label": "archive-gc",
+      "status": 404,
+      "bytes": 1299,
+      "sha256": "469537a3ab4e12ae1dee646519febc93a1d8381220d70659b576988225b09ca3"
+    },
+    {
+      "label": "operator-indexing",
+      "status": 200,
+      "bytes": 38434,
+      "sha256": "a5258edae18760c18daa08bb6275bf8e654399007e2c832039326220c47c3487"
+    },
+    {
+      "label": "web-indexing",
+      "status": 200,
+      "bytes": 100914,
+      "sha256": "80e6dd026290a42661a3521485d726276e38a265fb5e7a17a6b64e0d90225749"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "verification_kind": "ad-hoc, not a canonical test suite",
+  "checked_utc": "2026-10-20T17:36:52.048787+00:00",
+  "passed": true,
+  "check_count": 13,
+  "checks": [
+    "research.py: syntax compiles",
+    "verify.py: syntax compiles",
+    "research: replay stops before writes or requests",
+    "research: offline preflight checks reservations, counts and two-request bound",
+    "verify: real artifacts and castle invariants pass",
+    "verify rejects changed castle page (in-memory mutation)",
+    "verify rejects extra chronicle entry (in-memory mutation)",
+    "verify rejects altered chronicle history (in-memory mutation)",
+    "verify rejects missing Map room (in-memory mutation)",
+    "verify rejects duplicate Map room (in-memory mutation)",
+    "verify rejects changed response bytes of equal length (in-memory mutation)",
+    "verify rejects missing response mislabeled successful (in-memory mutation)",
+    "verify rejects watched Git endpoint in receipts (in-memory mutation)"
+  ],
+  "source_sha256": {
+    "research.py": "4f54fb45d82a542225f678f01aa47370c90a18e1cd8dd3ba7255ee4ec870944c",
+    "verify.py": "2e79e2821d6e0cd1c474eb3d9d43fda3d9691255308f102a23b78fa7681f4eb5"
+  },
+  "network_requests": 0,
+  "chronicle_unchanged_by_checks": true,
+  "limits": "Research request selection used an input-recording mock; no fresh retrieval or remote-service behavior was tested."
+}

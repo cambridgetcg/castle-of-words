@@ -1,0 +1,15 @@
+{
+  "verification_kind": "ad-hoc direct-command unittest harness; not a canonical suite",
+  "checked_utc": "2026-10-20T17:37:50.577870+00:00",
+  "passed": true,
+  "tests_run": 7,
+  "failures": 0,
+  "errors": 0,
+  "network_requests": 0,
+  "chronicle_unchanged_by_checks": true,
+  "source_sha256": {
+    "research.py": "4f54fb45d82a542225f678f01aa47370c90a18e1cd8dd3ba7255ee4ec870944c",
+    "verify.py": "2e79e2821d6e0cd1c474eb3d9d43fda3d9691255308f102a23b78fa7681f4eb5"
+  },
+  "limits": "Request selection uses a mock; remote service behavior was not retested."
+}

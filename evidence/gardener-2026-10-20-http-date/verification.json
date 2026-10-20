@@ -1,0 +1,24 @@
+{
+  "status": "PASS",
+  "closed": true,
+  "saved_attempts": 28,
+  "completed_dates": 27,
+  "headerless_timeouts": 1,
+  "independently_recomputed_date_pairs": 27,
+  "input_hashes_verified": 89,
+  "protected_files_unchanged": 2072,
+  "garden_unchanged": true,
+  "old_room_prose_preserved": true,
+  "old_gate_preserved_except_two_lines": true,
+  "map_rooms": 697,
+  "map_missing": 0,
+  "map_duplicates": 0,
+  "open_questions": 16,
+  "filed": 0,
+  "researched": 1,
+  "planted": 0,
+  "new_words": [
+    "http-date"
+  ],
+  "chronicle_lines_added": 1
+}

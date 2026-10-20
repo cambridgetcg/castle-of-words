@@ -1,0 +1,183 @@
+RFC 9112 chunked transfer coding connection property intermediaries decode - Brave Search
+Ask
+All
+Images
+News
+Videos
+Maps
+Goggles
+More
+IETF
+datatracker.ietf.org
+› doc  › html  › rfc9112
+RFC 9112 - HTTP/1.1
+The chunked coding is specific to each connection and is
+likely to be removed or recoded by each recipient (including intermediaries) before any higher-level application would have a chance to inspect the extensions
+.
+RFC Editor
+rfc-editor.org
+› info  › rfc9112
+RFC 9112: HTTP/1.1 | RFC Editor
+6 June 2022 -
+The chunked coding is specific to each connection and is
+likely to be removed or recoded by each recipient (including intermediaries) before any higher-level application would have a chance to inspect the extensions
+.
+Hjp
+hjp.at
+› doc  › rfc  › rfc9112.html
+doc: RFC 9112: HTTP/1.1 - hjp
+The chunked coding is specific to each connection and is
+likely to be removed or recoded by each recipient (including intermediaries) before any higher-level application would have a chance to inspect the extensions
+.
+RFC Editor
+rfc-editor.org
+› rfc  › rfc9112.xml
+rfc9112.xml
+6 June 2022 -
+The chunked coding is specific to each connection and is
+likely to be removed or recoded by each recipient (including intermediaries) before any higher-level application would have a chance to inspect the extensions
+.
+RFC Editor
+rfc-editor.org
+› rfc  › rfc9112.pdf
+pdf
+RFC 9112 HTTP/1.1 Abstract
+RFC 9112 · HTTP/1.1 · June 2022 · Fielding, et al. Standards Track · Page 21 ·
+The chunked coding is specific to each connection and is likely to be removed or recoded by each
+· recipient (including intermediaries) before any higher-level application would have a chance to ·
+Chunked transfer encoding
+streaming data transfer mechanism in HTTP/1.1, which divides the data stream into nonoverlapping chunks sent and received independently
+Chunked transfer encoding is a streaming data transfer mechanism available in Hypertext Transfer Protocol (HTTP) version 1.1, defined in RFC 9112 §7.1. In chunked transfer encoding, the data stream is divided into …
+Wikipedia
+Data from
+Wikipedia
+Wikipedia
+en.wikipedia.org
+› wiki  › Chunked_transfer_encoding
+Chunked transfer encoding - Wikipedia
+18 September 2026 -
+Chunked
+transfer
+encoding is a streaming data
+transfer
+mechanism available in Hypertext
+Transfer
+Protocol (HTTP) version 1.1, defined in
+RFC
+9112
+§7.1. In
+chunked
+transfer
+encoding, the data stream is divided into a series of non-overlapping "
+chunks
+".
+The
+chunks
+are sent out and received ...
+Rationale
+Applicability
+Format
+Use with compression
+Example
+Tex2e
+tex2e.github.io
+› rfc-translater  › html  › rfc9112.html
+RFC 9112 - HTTP/1.1 日本語訳
+This document specifies how HTTP semantics are conveyed using the HTTP/1.1 message syntax, framing, and connection management mechanisms
+. Its goal is to define the complete set of requirements for HTTP/1.1 message parsers and message-forwarding intermediaries.
+Stack Overflow
+stackoverflow.com
+› questions  › 79396958  › http-head-response-with-transfer-encoding-chunked
+HTTP HEAD response with Transfer-encoding: chunked - Stack Overflow
+Yes, including a Transfer-Encoding: chunked header in response to a HEAD request is valid
+. As you point out, that is explicitly acknowledged in Section 6.1 of RFC 9112.
+RFCinfo
+rfcinfo.com
+› rfc 9112 - http/1.1  › 6. message body
+6. Message Body | RFCinfo - RFC Translations
+A sender MUST NOT apply the chunked transfer coding more than once to a message body
+(i.e., chunking an already chunked message is not allowed). If any transfer coding other than chunked is applied to a request's content, the sender MUST apply ...
+Find elsewhere
+Google
+Bing
+Mojeek
+Grokipedia
+grokipedia.com
+› chunked transfer encoding
+Chunked transfer encoding — Grokipedia
+14 January 2026 -
+Subsequent clarifications came in RFC 7230, published in June 2014, which further obsoleted earlier HTTP/1.1 documents and refined the semantics of chunked encoding, particularly regarding trailer headers and edge cases such as decoding processes and forbidden fields in trailers.[9][8] The specification was further consolidated and updated in RFC 9112 (June 2022), which obsoletes RFC 7230 and incorporates prior errata and clarifications on chunked encoding semantics.[10] However, with the publication of RFC 7540 in May 2015 defining HTTP/2, chunked transfer encoding cannot be used, as the protocol employs a binary framing mechanism with DATA frames for message payloads.
+RFC Editor
+rfc-editor.org
+› rfc  › prerelease  › rfc9112.notprepped.xml
+rfc9112.notprepped.xml
+The chunked coding is specific to each connection and is
+likely to be removed or recoded by each recipient (including intermediaries) before any higher-level application would have a chance to inspect the extensions
+.
+Ietf-wg-ohai
+ietf-wg-ohai.github.io
+› draft-ohai-chunked-ohttp  › draft-ietf-ohai-chunked-ohttp.html
+Chunked Oblivious HTTP Messages
+Chunked OHTTP requests and responses SHOULD include the Incremental header field set to ?1 [INCREMENTAL]. This signals to intermediaries -- the relay in particular -- that the content of the messages are intended to be delivered incrementally.
+GitHub
+github.com
+› meowgoo-archive  › summaries  › blob  › main  › rfc9112-HTTP-1-1.md
+summaries/rfc9112-HTTP-1-1.md at main · meowgoo-archive/summaries
+Transfer-Encoding ::= transfer-coding# // RFC9110 Section 10.1.4.
+A recipient MUST be able to parse the chunked transfer coding
+. A sender MUST NOT apply the chunked transfer coding more than once to a message body.
+Author:
+meowgoo-archive
+HTTP Documentation
+httpwg.org
+› http-core  › draft-ietf-httpbis-messaging-latest.html
+HTTP/1.1
+The chunked coding is specific to each connection and is
+likely to be removed or recoded by each recipient (including intermediaries) before any higher-level application would have a chance to inspect the extensions
+.
+GitHub
+github.com
+› ntex-rs  › ntex  › issues  › 945
+HTTP/1.0 request with Transfer-Encoding is framed as bodiless (RFC 9112 non-conformance) · Issue #945 · ntex-rs/ntex
+23 July 2026 -
+RFC 9112 §6.1
+requires a server to treat a message with Transfer-Encoding present on an HTTP/1.0 request as an indication of faulty framing
+, because HTTP/1.0 has no defined semantics for Transfer-Encoding. ntex's decoder ignores Transfer-Encoding ...
+GitHub
+github.com
+› TKasperczyk  › thunderbird-mcp  › issues  › 243
+[httpd] Transfer-Encoding framing and chunked request body parsing (RFC 9112 / RFC 7230) · Issue #243 · TKasperczyk/thunderbird-mcp
+1 week ago -
+Framing Ambiguity: Under RFC 9112 §6.3 and RFC 7230 §3.3.3, if a Transfer-Encoding header field is present, any Content-Length header field must be ignored for message framing.
+FreeSoft
+freesoft.org
+› CIE  › RFC  › 2068  › 20.htm
+3.6 Transfer Codings
+Up: Connected: An Internet Encyclopedia Up: Requests For Comments Up: RFC 2068 Up: 3 Protocol Parameters Prev: 3.5 Content Codings Next: 3.7 Media Types · Transfer coding values are used to indicate an encoding transformation that has been, can be, or may need to be applied to an entity-body in order to ensure "safe transport" through the network. This differs from a content coding in that the transfer coding is a property of the message, not of the original entity. transfer-coding = "chunked" | transfer-extension transfer-extension = token
+Runebook.dev
+runebook.dev
+› en  › docs  › http  › rfc9112  › section-7.1
+Understanding and Implementing HTTP's Chunked Transfer Coding
+12 September 2025 -
+Issues with Intermediaries Proxies and firewalls can sometimes mishandle chunked encoding, especially if they are not fully compliant with the HTTP/1.1 specification.
+Next
+Resources
+Brave Search Premium
+Brave Search help
+Transparency report
+Report a security issue
+Status
+Products
+Brave Browser
+Brave Search
+Brave Wallet
+Brave Talk
+Brave Firewall + VPN
+Brave Playlist
+Brave News
+Brave Rewards
+Brave Search API
+Brave Ads
+Policies
+Privacy Policy
+Terms of Use

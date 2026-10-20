@@ -1,0 +1,541 @@
+f:kyle@kyleam.com reindex - search results
+user/dev discussion of public-inbox itself
+help / color / mirror / code / Atom feed
+Search results ordered by [date|relevance]  view[summary|nested|Atom feed]
+thread overview below | download mbox.gz: |
+* Re: [PATCH 0/4] use ALL to speedup -nntpd and -imapd
+@ 2022-08-03 23:50 20% ` Kyle Meyer
+0 siblings, 0 replies; 5+ results
+From: Kyle Meyer @ 2022-08-03 23:50 UTC (permalink / raw)
+To: Eric Wong; +Cc: meta
+Eric Wong writes:
+> Just a normal "public-inbox-extindex --all" invocation should be
+> enough to trigger these optimizations, no --reindex necessary.
+>
+> -imapd startup is around ~3x faster, NNTP LIST is ~40x faster.
+Nice, thank you!
+^ permalink raw reply	[relevance 20%]
+* [PATCH 2/9] doc: split option variants into separate items
+@ 2021-05-17  3:35 11% ` Kyle Meyer
+0 siblings, 0 replies; 5+ results
+From: Kyle Meyer @ 2021-05-17  3:35 UTC (permalink / raw)
+To: meta
+e226f18934eb7291 modified the lei-q manpage so that each variant of an
+option gets a dedicated =item to make L</--xyz> look nicer and to
+follow the Perl core documentation.  Do the same for the other
+manpages.
+Note that this still leaves the variants of an option grouped in one
+scenario: when a list of options without descriptions is presented as
+a pointer to another location.  Splitting the variants in that case
+would make it harder for the reader to tell what the distinct options
+are.
+---
+Documentation/lei-add-external.pod      | 12 +++++++++---
+Documentation/lei-blob.pod              | 24 ++++++++++++++++++------
+Documentation/lei-forget-external.pod   |  4 +++-
+Documentation/lei-import.pod            |  4 +++-
+Documentation/lei-init.pod              |  4 +++-
+Documentation/lei-ls-external.pod       |  8 ++++++--
+Documentation/lei-ls-label.pod          |  8 ++++++--
+Documentation/lei-p2q.pod               |  8 ++++++--
+Documentation/lei-tag.pod               |  8 ++++++--
+Documentation/public-inbox-compact.pod  |  6 +++++-
+Documentation/public-inbox-convert.pod  |  4 +++-
+Documentation/public-inbox-daemon.pod   | 16 ++++++++++++----
+Documentation/public-inbox-extindex.pod |  4 +++-
+Documentation/public-inbox-imapd.pod    |  4 +++-
+Documentation/public-inbox-index.pod    | 12 +++++++++---
+Documentation/public-inbox-init.pod     | 20 +++++++++++++++-----
+Documentation/public-inbox-nntpd.pod    |  4 +++-
+Documentation/public-inbox-xcpdb.pod    | 14 +++++++++++---
+18 files changed, 124 insertions(+), 40 deletions(-)
+diff --git a/Documentation/lei-add-external.pod b/Documentation/lei-add-external.pod
+index ad0e1d07..71229865 100644
+--- a/Documentation/lei-add-external.pod
++++ b/Documentation/lei-add-external.pod
+@@ -30,11 +30,15 @@ Default: 0
+Create C<LOCATION> by mirroring the public-inbox at C<URL>.
+-=item -v, --verbose
++=item -v
++
++=item --verbose
+Provide more feedback on stderr.
+-=item -q, --quiet
++=item -q
++
++=item --quiet
+Suppress feedback messages.
+@@ -44,7 +48,9 @@ Suppress feedback messages.
+=over
+-=item --torsocks=auto|no|yes, --no-torsocks
++=item --torsocks=auto|no|yes
++
++=item --no-torsocks
+Whether to wrap L<git(1)> and L<curl(1)> commands with torsocks.
+diff --git a/Documentation/lei-blob.pod b/Documentation/lei-blob.pod
+index 341b5505..76918324 100644
+--- a/Documentation/lei-blob.pod
++++ b/Documentation/lei-blob.pod
+@@ -31,15 +31,21 @@ Do not look in the git repository of the current working directory.
+Do not look in mail storage for C<OID>.  This is implied by
+C<--oid-a>, C<--path-a>, and C<--path-b>.
+-=item -A OID-A, --oid-a=OID-A
++=item -A OID-A
++
++=item --oid-a=OID-A
+Provide pre-image object ID as a hint for reconstructing C<OID>.
+-=item -a PATH-A, --path-a=PATH-A
++=item -a PATH-A
++
++=item --path-a=PATH-A
+Provide pre-image pathname as a hint for reconstructing C<OID>.
+-=item -b PATH-B, --path-b=PATH-B
++=item -b PATH-B
++
++=item --path-b=PATH-B
+Provide post-image pathname as a hint for reconstructing C<OID>.
+@@ -61,7 +67,9 @@ Limit operations to those requiring network access.
+Don't include results from externals.
+-=item -I LOCATION, --include=LOCATION
++=item -I LOCATION
++
++=item --include=LOCATION
+Include specified external in search.  This option may be given
+multiple times.
+@@ -81,11 +89,15 @@ multiple times, in which case the search uses only the specified set.
+Disable the default behavior of memoizing remote messages into the
+local store.
+-=item -v, --verbose
++=item -v
++
++=item --verbose
+Provide more feedback on stderr.
+-=item --torsocks=auto|no|yes, --no-torsocks
++=item --torsocks=auto|no|yes
++
++=item --no-torsocks
+Whether to wrap L<git(1)> and L<curl(1)> commands with torsocks.
+diff --git a/Documentation/lei-forget-external.pod b/Documentation/lei-forget-external.pod
+index 0d065a76..e0e3b8e1 100644
+--- a/Documentation/lei-forget-external.pod
++++ b/Documentation/lei-forget-external.pod
+@@ -16,7 +16,9 @@ future search results.
+=over
+-=item -q, --quiet
++=item -q
++
++=item --quiet
+Suppress feedback messages.
+diff --git a/Documentation/lei-import.pod b/Documentation/lei-import.pod
+index 5b6a6f26..1fe2dac3 100644
+--- a/Documentation/lei-import.pod
++++ b/Documentation/lei-import.pod
+@@ -24,7 +24,9 @@ C<mboxcl2>, C<mboxcl>, or C<mboxo>.
+=over
+-=item -F MAIL_FORMAT, --in-format=MAIL_FORMAT
++=item -F MAIL_FORMAT
++
++=item --in-format=MAIL_FORMAT
+Message input format.  Unless messages are given on stdin, using a
+format prefix with C<LOCATION> is preferred.
+diff --git a/Documentation/lei-init.pod b/Documentation/lei-init.pod
+index 54ae9dbe..4bfc3b9f 100644
+--- a/Documentation/lei-init.pod
++++ b/Documentation/lei-init.pod
+@@ -17,7 +17,9 @@ location.
+=over
+-=item -q, --quiet
++=item -q
++
++=item --quiet
+Suppress feedback messages.
+diff --git a/Documentation/lei-ls-external.pod b/Documentation/lei-ls-external.pod
+index 124b7763..4c0c263d 100644
+--- a/Documentation/lei-ls-external.pod
++++ b/Documentation/lei-ls-external.pod
+@@ -15,7 +15,9 @@ to matching entries.
+=over
+-=item -g, --globoff
++=item -g
++
++=item --globoff
+Do not match C<FILTER> using C<*?> wildcards and C<[]> ranges.
+@@ -27,7 +29,9 @@ Limit operations to the local filesystem.
+Limit operations to those requiring network access.
+-=item -z, -0
++=item -z
++
++=item -0
+Use C<\0> (NUL) instead of newline (CR) to delimit lines.
+diff --git a/Documentation/lei-ls-label.pod b/Documentation/lei-ls-label.pod
+index df100a24..41aa030d 100644
+--- a/Documentation/lei-ls-label.pod
++++ b/Documentation/lei-ls-label.pod
+@@ -14,11 +14,15 @@ List all known message labels ("mailboxes" in JMAP terminology).
+=over
+-=item -z, -0
++=item -z
++
++=item -0
+Use C<\0> (NUL) instead of newline (CR) to delimit lines.
+-=item -q, --quiet
++=item -q
++
++=item --quiet
+Suppress feedback messages.
+diff --git a/Documentation/lei-p2q.pod b/Documentation/lei-p2q.pod
+index fc85fa88..f404ede0 100644
+--- a/Documentation/lei-p2q.pod
++++ b/Documentation/lei-p2q.pod
+@@ -23,7 +23,9 @@ L<git-format-patch(1)> is used to generate the patch.
+=over
+-=item -w PREFIX[,PREFIX], --want=PREFIX[,PREFIX]
++=item -w PREFIX[,PREFIX]
++
++=item --want=PREFIX[,PREFIX]
+Search prefixes to use.  C<dfpost> (post-image git blob ID) and C<dfn>
+(file names from the diff) are the most useful.  Other available
+@@ -54,7 +56,9 @@ Dump output that shows the information collected for every prefix.
+This information can be useful for seeing how a patch is processed,
+but the format should not be considered stable.
+-=item -q, --quiet
++=item -q
++
++=item --quiet
+Suppress feedback messages.
+diff --git a/Documentation/lei-tag.pod b/Documentation/lei-tag.pod
+index 5282b3d2..b2509ba4 100644
+--- a/Documentation/lei-tag.pod
++++ b/Documentation/lei-tag.pod
+@@ -26,14 +26,18 @@ specified messages, and "-L:INBOX" would remove the "INBOX" label.
+=over
+-=item -F MAIL_FORMAT, --in-format=MAIL_FORMAT
++=item -F MAIL_FORMAT
++
++=item --in-format=MAIL_FORMAT
+Message input format: C<eml>, C<mboxrd>, C<mboxcl2>, C<mboxcl>, or
+C<mboxo>.
+Default: C<eml>
+-=item -q, --quiet
++=item -q
++
++=item --quiet
+Suppress feedback messages.
+diff --git a/Documentation/public-inbox-compact.pod b/Documentation/public-inbox-compact.pod
+index cf64fe0d..d2b74c86 100644
+--- a/Documentation/public-inbox-compact.pod
++++ b/Documentation/public-inbox-compact.pod
+@@ -34,7 +34,11 @@ Compact all inboxes configured in ~/.public-inbox/config.
+This is an alternative to specifying individual inboxes directories
+on the command-line.
+-=item --blocksize / --no-full / --fuller
++=item --blocksize
++
++=item --no-full
++
++=item --fuller
+These options are passed directly to L<xapian-compact(1)>.
+diff --git a/Documentation/public-inbox-convert.pod b/Documentation/public-inbox-convert.pod
+index b8c8d54f..a2f8caf5 100644
+--- a/Documentation/public-inbox-convert.pod
++++ b/Documentation/public-inbox-convert.pod
+@@ -25,7 +25,9 @@ By default, public-inbox-convert creates a new index in the
+v2 inbox and indexes all existing messages, a lengthy
+operation for large inboxes.
+-=item -j JOBS, --jobs=JOBS
++=item -j JOBS
++
++=item --jobs=JOBS
+Control the number of indexing jobs and Xapian shards of the v2
+inbox.  By default, this is the detected CPU count but capped
+diff --git a/Documentation/public-inbox-daemon.pod b/Documentation/public-inbox-daemon.pod
+index 3bf95496..ec210efa 100644
+--- a/Documentation/public-inbox-daemon.pod
++++ b/Documentation/public-inbox-daemon.pod
+@@ -28,7 +28,9 @@ processes to take advantage of multiple CPUs.
+=over
+-=item -l, --listen ADDRESS
++=item -l ADDRESS
++
++=item --listen ADDRESS
+This takes an absolute path to a Unix socket or HOST:PORT
+to listen on.  For example, to listen to TCP connections on
+@@ -45,7 +47,9 @@ L<systemd.socket(5)> or similar
+Default: server-dependent unless socket activation is used with
+L<systemd(1)> or similar (see L<systemd.socket(5)>).
+-=item -1, --stdout PATH
++=item -1
++
++=item --stdout PATH
+Specify an appendable path to redirect stdout descriptor (1) to.
+Using this is preferable to setting up the redirect externally
+@@ -54,11 +58,15 @@ SIGUSR1 to be handled (see L<SIGNALS/SIGNALS> below).
+Default: /dev/null
+-=item -2, --stderr PATH
++=item -2 PATH
++
++=item --stderr PATH
+Like C<--stdout>, but for the stderr descriptor (2).
+-=item -W, --worker-processes
++=item -W
++
++=item --worker-processes
+Set the number of worker processes.
+diff --git a/Documentation/public-inbox-extindex.pod b/Documentation/public-inbox-extindex.pod
+index bed65272..fed5017b 100644
+--- a/Documentation/public-inbox-extindex.pod
++++ b/Documentation/public-inbox-extindex.pod
+@@ -23,7 +23,9 @@ along with L<DBD::SQLite> and L<DBI> Perl modules.
+=over
+-=item --jobs=JOBS, -j
++=item -j JOBS
++
++=item --jobs=JOBS
+... TODO, see L<public-inbox-index(5)>
+diff --git a/Documentation/public-inbox-imapd.pod b/Documentation/public-inbox-imapd.pod
+index 71e0ea7f..52df4d51 100644
+--- a/Documentation/public-inbox-imapd.pod
++++ b/Documentation/public-inbox-imapd.pod
+@@ -27,7 +27,9 @@ are supported and documented below.
+=over
+-=item -l, --listen PROTO://ADDRESS/?cert=/path/to/cert,key=/path/to/key
++=item -l PROTO://ADDRESS/?cert=/path/to/cert,key=/path/to/key
++
++=item --listen PROTO://ADDRESS/?cert=/path/to/cert,key=/path/to/key
+In addition to the normal C<-l>/C<--listen> switch described in
+L<public-inbox-daemon(8)>, the C<PROTO> prefix (e.g. C<imap://> or
+diff --git a/Documentation/public-inbox-index.pod b/Documentation/public-inbox-index.pod
+index 3bdd5efc..57fedb69 100644
+--- a/Documentation/public-inbox-index.pod
++++ b/Documentation/public-inbox-index.pod
+@@ -34,7 +34,9 @@ normal search functionality.
+=over
+-=item --jobs=JOBS, -j
++=item -j JOBS
++
++=item --jobs=JOBS
+Influences the number of Xapian indexing shards in a
+(L<public-inbox-v2-format(5)>) inbox.
+@@ -52,7 +54,9 @@ the overview and article number mapping).
+Default: the number of existing Xapian shards
+-=item --compact / -c
++=item -c
++
++=item --compact
+Compacts the Xapian DBs after indexing.  This is recommended
+when using C<--reindex> to avoid running out of disk space
+@@ -162,7 +166,9 @@ See L<public-inbox-init(1)/--skip-docdata> for description and caveats.
+Available in public-inbox 1.6.0+.
+-=item --update-extindex=EXTINDEX, -E
++=item -E EXTINDEX
++
++=item --update-extindex=EXTINDEX
+Update the given external index (L<public-inbox-extindex-format(5)>.
+Either the configured section name (e.g. C<all>) or a directory name
+diff --git a/Documentation/public-inbox-init.pod b/Documentation/public-inbox-init.pod
+index 5a875f9d..62624f14 100644
+--- a/Documentation/public-inbox-init.pod
++++ b/Documentation/public-inbox-init.pod
+@@ -20,7 +20,9 @@ may be specified for inboxes with multiple addresses.
+=over
+-=item -V, --version FORMAT_VERSION
++=item -V FORMAT_VERSION
++
++=item --version FORMAT_VERSION
+Specify C<2> here to use the scalable L<public-inbox-v2-format(5)>
+if you have L<DBD::SQLite> installed.
+@@ -31,7 +33,9 @@ L<DBD::SQLite>.
+Default: C<1>
+-=item -L, --indexlevel <basic|medium|full>
++=item -L <basic|medium|full>
++
++=item --indexlevel <basic|medium|full>
+Controls the indexing level for L<public-inbox-index(1)>
+@@ -39,7 +43,9 @@ See L<public-inbox-config(5)> for more information.
+Default: C<full>
+-=item --ng, --newsgroup NEWSGROUP
++=item --ng NEWSGROUP
++
++=item --newsgroup NEWSGROUP
+The NNTP group name for use with L<public-inbox-nntpd(8)>.  This
+may be any newsgroup name with hierarchies delimited by C<.>.
+@@ -70,7 +76,9 @@ Available in public-inbox 1.6.0+.
+Default: unset, no NNTP article numbers are skipped
+-=item -S, --skip-epoch
++=item -S
++
++=item --skip-epoch
+For C<-V2> (L<public-inbox-v2-format(5)>) inboxes only, this option
+allows archivists to publish incomplete archives with newer
+@@ -81,7 +89,9 @@ Available since public-inbox 1.2.0.
+Default: unset, no epochs are skipped
+-=item -j, --jobs=JOBS
++=item -j JOBS
++
++=item --jobs=JOBS
+Control the number of Xapian index shards in a
+C<-V2> (L<public-inbox-v2-format(5)>) inbox.
+diff --git a/Documentation/public-inbox-nntpd.pod b/Documentation/public-inbox-nntpd.pod
+index 83f7c83a..651428ab 100644
+--- a/Documentation/public-inbox-nntpd.pod
++++ b/Documentation/public-inbox-nntpd.pod
+@@ -26,7 +26,9 @@ are supported and documented below.
+=over
+-=item -l, --listen PROTO://ADDRESS/?cert=/path/to/cert,key=/path/to/key
++=item -l PROTO://ADDRESS/?cert=/path/to/cert,key=/path/to/key
++
++=item --listen PROTO://ADDRESS/?cert=/path/to/cert,key=/path/to/key
+In addition to the normal C<-l>/C<--listen> switch described in
+L<public-inbox-daemon(8)>, the protocol prefix (e.g. C<nntp://> or
+diff --git a/Documentation/public-inbox-xcpdb.pod b/Documentation/public-inbox-xcpdb.pod
+index eb675965..e7c07ed3 100644
+--- a/Documentation/public-inbox-xcpdb.pod
++++ b/Documentation/public-inbox-xcpdb.pod
+@@ -30,7 +30,9 @@ Copy all inboxes configured in ~/.public-inbox/config.
+This is an alternative to specifying individual inboxes directories
+on the command-line.
+-=item -c, --compact
++=item -c
++
++=item --compact
+In addition to performing the copy operation, run L<xapian-compact(1)>
+on each Xapian shard after copying but before finalizing it.
+@@ -42,7 +44,9 @@ preferable for gigantic inboxes where the coarse-grained lock
+currently required for L<public-inbox-compact(1)> can cause
+the compaction to take hours at-a-time.
+-=item --reshard=N / -R N
++=item -R N
++
++=item --reshard=N
+Reshard the Xapian database on a L<v2|public-inbox-v2-format(5)>
+inbox to C<N> shards .  Since L<xapian-compact(1)> is not suitable
+@@ -52,7 +56,11 @@ existing Xapian database(s) to any positive value of C<N>.
+This is useful in case the Xapian DB was created with too few or
+too many shards given the capabilities of the current hardware.
+-=item --blocksize / --no-full / --fuller
++=item --blocksize
++
++=item --no-full
++
++=item --fuller
+These options are passed directly to L<xapian-compact(1)> when
+used with C<--compact>.
+--
+2.31.1
+^ permalink raw reply related	[relevance 11%]
+* missing messages in thread overview
+@ 2020-12-03  4:59 21% Kyle Meyer
+0 siblings, 0 replies; 5+ results
+From: Kyle Meyer @ 2020-12-03  4:59 UTC (permalink / raw)
+To: meta
+I noticed a thread today that is missing messages in the thread
+overview.  In the top-level inbox, all the messages are there:
+[bug#45000] [PATCH 0/9] Build git-annex with assistant webapp enabled
+2020-12-02 11:17 UTC  (11+ messages) - mbox.gz / Atom
+` [bug#45000] [PATCH 1/9] gnu: Add ghc-yesod-test
+` [bug#45000] [PATCH 2/9] gnu: Add ghc-wai-app-static
+` [bug#45000] [PATCH 3/9] gnu: Add ghc-yesod-static
+` [bug#45000] [PATCH 4/9] gnu: Add ghc-cryptonite-conduit
+` [bug#45000] [PATCH 5/9] gnu: ghc-yesod-core: Update to 1.6.18.6
+` [bug#45000] [PATCH 6/9] gnu: Add ghc-hjsmin
+` [bug#45000] [PATCH 7/9] gnu: Add ghc-template-haskell
+` [bug#45000] [PATCH 8/9] gnu: Add ghc-boot-th
+` [bug#45000] [PATCH 9/9] gnu: git-annex: Build with git-annex assistant webapp enabled
+However, when I click through, the thread overview is missing five
+messages:
+Thread overview: 6+ messages (download: mbox.gz / follow: Atom feed)
+-- links below jump to the message on this page --
+2020-12-02  4:53 [bug#45000] [PATCH 0/9] Build git-annex with assistant webapp enabled Jonathan Frederickson
+2020-12-02  4:55 ` [bug#45000] [PATCH 1/9] gnu: Add ghc-yesod-test Jonathan Frederickson
+2020-12-02  4:55   ` [bug#45000] [PATCH 2/9] gnu: Add ghc-wai-app-static Jonathan Frederickson
+2020-12-02  4:55   ` [bug#45000] [PATCH 7/9] gnu: Add ghc-template-haskell Jonathan Frederickson
+2020-12-02  4:55   ` [bug#45000] [PATCH 9/9] gnu: git-annex: Build with git-annex assistant webapp enabled Jonathan Frederickson
+2020-12-02 11:17 ` [bug#45000] [PATCH 0/9] Build git-annex with " zimoun
+https://yhetil.org/guix-patches/86sg8o1mou.fsf@gmail.com/T/#t
+The same subset of messages are in the thread's mbox:
+$ curl -fSsL https://yhetil.org/guix-patches/86sg8o1mou.fsf@gmail.com/t.mbox.gz \
+| gzip -d | grep -i ^subject
+Subject: [bug#45000] [PATCH 0/9] Build git-annex with assistant webapp enabled
+Subject: [bug#45000] [PATCH 1/9] gnu: Add ghc-yesod-test.
+Subject: [bug#45000] [PATCH 7/9] gnu: Add ghc-template-haskell.
+Subject: [bug#45000] [PATCH 9/9] gnu: git-annex: Build with git-annex
+Subject: [bug#45000] [PATCH 2/9] gnu: Add ghc-wai-app-static.
+Subject: [bug#45000] [PATCH 0/9] Build git-annex with assistant webapp enabled
+I collected the complete thread (currently eleven messages) and used
+scripts/import_vger_from_mbox to create a separate inbox at
+<https://yhetil.org/debug-gap/>.  As before, the top-level listing shows
+all the patches, and the thread overview is still missing some, though
+different ones:
+2020-12-02  4:53 [bug#45000] [PATCH 0/9] Build git-annex with assistant webapp enabled Jonathan Frederickson
+2020-12-02 11:17 ` zimoun
+2020-12-02  4:55 [bug#45000] [PATCH 1/9] gnu: Add ghc-yesod-test Jonathan Frederickson
+2020-12-02  4:55 ` [bug#45000] [PATCH 3/9] gnu: Add ghc-yesod-static Jonathan Frederickson
+2020-12-02  4:55 ` [bug#45000] [PATCH 4/9] gnu: Add ghc-cryptonite-conduit Jonathan Frederickson
+2020-12-02  4:55 ` [bug#45000] [PATCH 5/9] gnu: ghc-yesod-core: Update to 1.6.18.6 Jonathan Frederickson
+2020-12-02  4:55 ` [bug#45000] [PATCH 6/9] gnu: Add ghc-hjsmin Jonathan Frederickson
+2020-12-02  4:55 ` [bug#45000] [PATCH 8/9] gnu: Add ghc-boot-th Jonathan Frederickson
+On rethreading with `public-inbox-index -c --reindex --rethread', the
+thread overview looks like this:
+2020-12-02  4:53 [bug#45000] [PATCH 0/9] Build git-annex with assistant webapp enabled Jonathan Frederickson
+2020-12-02 11:17 ` zimoun
+All of the above is with a recent commit on master,
+v1.6.0-149-g4cc4ad59.
+Any ideas what might be going on here?
+^ permalink raw reply	[relevance 21%]
+* Re: [PATCH 0/5] "mairix -t" workalike for mbox.gz downloads
+@ 2020-08-22 21:04 20%       ` Kyle Meyer
+0 siblings, 0 replies; 5+ results
+From: Kyle Meyer @ 2020-08-22 21:04 UTC (permalink / raw)
+To: Eric Wong; +Cc: meta
+Eric Wong writes:
+> Kyle Meyer <kyle@kyleam.com> wrote:
+>>
+>> Oops, the few times I've used --reindex I don't think I've given order
+>> much thought.  Is it accurate to say that "restart services then
+>> --reindex" is the recommended order in general?
+>
+> Not really.  In the distant past (pre-SCHEMA_VERSION=15), it was
+> actually index (no need for --reindex) then restart daemons,
+> because the daemons were running on SCHEMA_VERSION=14 (or
+> whatever was before).
+>
+> This order is only needed since we're trying to stick to
+> SCHEMA_VERSION=15 to avoid the space penalty of parallel
+> versions.
+Got it.  Thanks.
+^ permalink raw reply	[relevance 20%]
+* Re: [PATCH 0/5] "mairix -t" workalike for mbox.gz downloads
+@ 2020-08-22 20:12 29%   ` Kyle Meyer
+0 siblings, 1 reply; 5+ results
+From: Kyle Meyer @ 2020-08-22 20:12 UTC (permalink / raw)
+To: Eric Wong; +Cc: meta
+Eric Wong writes:
+> Eric Wong <e@yhbt.net> wrote:
+>> It requires "public-inbox-index --reindex" to activate;
+>> but PATCH 5/5 makes it safe to upgrade WWW either before
+>> or after --reindex.  That means BOFHs can upgrade without
+>> regard to ordering.
+>
+> public-inbox-watch users will need to restart -watch before
+> --reindex, though.  Don't think that's avoidable...
+Oops, the few times I've used --reindex I don't think I've given order
+much thought.  Is it accurate to say that "restart services then
+--reindex" is the recommended order in general?
+^ permalink raw reply	[relevance 29%]
+Results 1-5 of 5 | reverse | options above
+-- pct% links below jump to the message on this page, permalinks otherwise --
+2020-08-22  6:06     [PATCH 0/5] "mairix -t" workalike for mbox.gz downloads Eric Wong
+2020-08-22  6:42     ` Eric Wong
+2020-08-22 20:12 29%   ` Kyle Meyer
+2020-08-22 20:30         ` Eric Wong
+2020-08-22 21:04 20%       ` Kyle Meyer
+2020-12-03  4:59 21% missing messages in thread overview Kyle Meyer
+2021-05-17  3:35     [PATCH 0/9] doc: lei manpages, round 5 Kyle Meyer
+2021-05-17  3:35 11% ` [PATCH 2/9] doc: split option variants into separate items Kyle Meyer
+2022-08-03 20:03     [PATCH 0/4] use ALL to speedup -nntpd and -imapd Eric Wong
+2022-08-03 23:50 20% ` Kyle Meyer
+Code repositories for project(s) associated with this public inbox
+https://80x24.org/public-inbox.git
+This is a public inbox, see mirroring instructions
+for how to clone and mirror all data and code used for this inbox;
+as well as URLs for read-only IMAP folder(s) and NNTP newsgroup(s).

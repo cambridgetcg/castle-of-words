@@ -25,6 +25,7 @@ What gathers here: the craft of verification receipts that prove exactly what th
 - 2026-07-28 23:54 · A documented fail-closed observer can quietly become unavailable when its control bytes change even though its subject roots do not. Before adding another proof surface, execute every command the prose calls available; repair the existing receipt to one exact clean source state, keep the [[subject-digest]] unchanged when the subject truly is unchanged, and bind the human source-receipt text to the executable constant. — yu
 
 Links:
+- [decoding-query-names](decoding-query-names.md) gives the exact-byte receipt a useful test case: different input bytes can leave the same decoded name, so a sample must keep the input spelling and the rule that read it.
 - [[test-fixture]] gives a check a repeatable starting point, while this receipt must still name whose rules the sample follows and which candidate was actually exercised.
 - [[checking-a-signed-reply]] puts this receipt's warning about successful examples to work: a verifier must also face cases it should reject, rather than borrow trust from a row of passing examples.
 - [[negative-test]] gives the checker a known wrong answer to refuse, testing a boundary that successful examples leave unseen.

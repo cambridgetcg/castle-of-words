@@ -1,0 +1,1451 @@
+<html><head><title>yhetil - search results</title><link
+rel=alternate
+title="Atom feed"
+href="?q=yhetil&amp;x=A"
+type="application/atom+xml"/><style>@import url("216light.css?69d631d8") screen AND (prefers-color-scheme:light);*{overflow-wrap:anywhere;font-size:100%;font-family:monospace}</style><link
+type=text/css
+rel=stylesheet
+media=screen
+href=216dark.css?69d631d8 /><link
+type=text/css
+rel=stylesheet
+href=216light.css?69d631d8
+media=print /></head><body><form
+action="./"><pre><a
+href="?t=20260401234000"><b>user/dev discussion of public-inbox itself</b></a>
+<input
+name=q
+type=text
+value="yhetil" /><input
+type=hidden
+name=x
+value="t" /><input
+type=submit
+value=search /> <a
+href="_/text/help/">help</a> / <a
+href="_/text/color/">color</a> / <a
+id=mirror
+href="_/text/mirror/">mirror</a> / <a
+href=#code>code</a> / <a
+href="?q=yhetil&amp;x=A">Atom feed</a></pre></form><form
+id=d
+action="?q=yhetil&amp;x=m"
+method=post><pre>Search results ordered by [<b>date</b>|<a
+href="?q=yhetil&amp;r&amp;x=t">relevance</a>]  view[<a
+href="?q=yhetil">summary</a>|<b>nested</b>|<a
+href="?q=yhetil&amp;x=A">Atom feed</a>]
+thread overview <a
+href=#t>below</a> | download mbox.gz: <input
+type=submit
+name=z
+value="results only"/>|<input
+type=submit
+name=x
+value="full threads"/></pre></form><pre><a
+href=#e21679680277a6966be74eb867f0a1352af373a53
+id=m21679680277a6966be74eb867f0a1352af373a53>*</a> <b>Re: List of known public accessible public-inbox instances?</b>
+  <b>@ 2026-04-01 23:40  4%     ` &#352;t&#283;p&#225;n N&#283;mec</b>
+  <a
+href=#r21679680277a6966be74eb867f0a1352af373a53>0 siblings, 0 replies; 16+ results</a>
+From: &#352;t&#283;p&#225;n N&#283;mec @ 2026-04-01 23:40 UTC (<a
+href="20260401234024Z.4120899001-stepnem@smrk.net/">permalink</a> / <a
+href="20260401234024Z.4120899001-stepnem@smrk.net/raw">raw</a>)
+  To: Eric Wong; <b>+Cc:</b> Matthias Beyer, <a
+href="https://public-inbox.org/meta/?t=20260401234000">meta</a>
+
+On Wed, 01 Apr 2026 21:55:12 +0000
+Eric Wong wrote:
+
+<span
+class="q">&gt; I think there were some other instances over the years, but
+&gt; maybe they&#39;re down atm...
+</span>
+<a
+href="https://yhetil.org/">https://yhetil.org/</a>
+<a
+href="https://inbox.vuxu.org/">https://inbox.vuxu.org/</a>
+
+are two instances I know and use(d) (and lore of course)
+
+<span
+class="q">&gt; Encouraging users to post here is fine.
+</span>
+Thank you.
+
+<span
+class="q">&gt;&gt; this could be just a mapping of instance URLs to a list
+&gt;&gt; of mailing-list addresses whose archives are available at
+&gt;&gt; (the public-inbox instance at) that URL; perhaps just a
+&gt;&gt; file in a Git repo somewhere and a mention in the
+&gt;&gt; public-inbox docs and on the website so that willing
+&gt;&gt; victims get to know about it during installation (and
+&gt;&gt; send patches/PRs).
+&gt;
+&gt; Somebody needs to maintain such a site and validate URL
+&gt; liveliness occasionally.
+</span>
+I&#39;m not sure about others, but what I want is really just
+the mapping, i.e., data to be able to say &#34;who has
+list@example.org&#34; and get a (list of) instance URL(s).
+
+If someone feels like providing a web API, search box or web
+site or whatever based on that, OK, but I really don&#39;t (and
+even doing those things would seem better based on a simple
+data format rather than some HTML being the source of
+truth).
+
+<span
+class="q">&gt; I can put a link to it on public-inbox.org if it maintains a
+&gt; similar look and feel to what would appear in plain-text mail
+&gt; in a terminal MUA and our WWW UI:
+&gt;
+&gt; * monospace, all fonts identical in size+face
+&gt;
+&gt; * no images, font/icon downloads, or JS; definitely no proof-of-work
+&gt;
+&gt; * all URLs be visible in rendered HTML.  e.g. &lt;a
+&gt;   href=&#34;<a
+href="https://example.com/foo/">https://example.com/foo/</a>&#34;&gt;<a
+href="https://example.com/foo/">https://example.com/foo/</a>&lt;/a&gt;
+&gt;   NOT:  &lt;a href=&#34;<a
+href="https://example.com/foo/">https://example.com/foo/</a>&#34;&gt;unacceptable&lt;/a&gt;
+&gt;
+&gt; * minimal style (maybe light + dark mode), no CSS requirement
+&gt;
+&gt; * a Tor .onion URL would be a bonus, but not required
+&gt;
+&gt; * absolutely no promoting any projects or mirrors maintained
+&gt;   by the maintainer of public-inbox itself
+</span>
+You&#39;re preaching to the choir, but as stated above I don&#39;t
+really see the need for even all that (but of course given
+the data, we could just generate such a simple page on
+public-inbox.org directly if desired).
+
+I can offer labor (maintaining the mapping, checking URL
+reachability/sanity etc.), but I&#39;m not sure I am able to
+provide the HW infrastructure/bandwidth, although if we do
+stick to just a git repository (likely with no web
+interface: I see no need and am not aware of any that would
+live up to your spartan requirements, anyway) and ideally
+use a domain name we can easily point elsewhere if necessary
+(maybe a subdomain of public-inbox.org? so you don&#39;t have to
+host it yourself (unless you want to O:-)), but it&#39;s still
+tied to the project) I could try hosting it; the traffic
+should be negligible (at least until the bots start cloning
+repos, too).
+
+-- 
+&#352;t&#283;p&#225;n
+
+<a
+href=#m21679680277a6966be74eb867f0a1352af373a53
+id=e21679680277a6966be74eb867f0a1352af373a53>^</a> <a
+href="20260401234024Z.4120899001-stepnem@smrk.net/">permalink</a> <a
+href="20260401234024Z.4120899001-stepnem@smrk.net/raw">raw</a> <a
+href="20260401234024Z.4120899001-stepnem@smrk.net/#R">reply</a>	[relevance 4%]</pre><hr><pre><a
+href=#ed5e644cc797878379359160bf81796cd3b2af7d7
+id=md5e644cc797878379359160bf81796cd3b2af7d7>*</a> <b>Re: httpd error: Can&#39;t locate object method &#34;event_step&#34;</b>
+  <b>@ 2025-10-14  5:03  5%   ` Kyle Meyer</b>
+  <a
+href=#rd5e644cc797878379359160bf81796cd3b2af7d7>0 siblings, 0 replies; 16+ results</a>
+From: Kyle Meyer @ 2025-10-14  5:03 UTC (<a
+href="871pn6vzvd.fsf@kyleam.com/">permalink</a> / <a
+href="871pn6vzvd.fsf@kyleam.com/raw">raw</a>)
+  To: Eric Wong; <b>+Cc:</b> <a
+href="https://public-inbox.org/meta/?t=20251014050401">meta</a>
+
+Eric Wong writes:
+
+<span
+class="q">&gt; That&#39;s scary, I can&#39;t remember ever seeing it..  Any idea what
+&gt; request(s) were happening when it hit that?
+</span>
+Soon after starting public-inbox-httpd, I start to see the error message
+fairly frequently.  For example, after starting it around 21:06:
+
+  $ journalctl -S &#39;2025-10-13 21:06:50&#39; | grep event_step | head -n1
+  Oct 13 21:08:56 ... public-inbox-httpd[3307242]: E: Can&#39;t locate object method &#34;event_step&#34; [...]
+
+  $ sudo journalctl -S &#39;2025-10-13 21:06:50 | grep event_step | cut -d&#39; &#39; -f1-3
+  Oct 13 21:08:56
+  Oct 13 21:16:39
+  Oct 13 21:17:29
+  Oct 13 21:21:09
+  Oct 13 21:21:14
+  Oct 13 21:21:27
+  Oct 13 21:22:15
+  Oct 13 21:28:21
+  Oct 13 21:31:46
+  Oct 13 21:32:24
+  Oct 13 21:33:22
+  Oct 13 21:35:31
+  Oct 13 21:36:28
+  Oct 13 21:39:36
+  Oct 13 21:42:27
+
+(I downgraded back to the known good version at 21:43:47.)
+
+Looking through timestamp-matched requests, most are for the orgmode
+inbox (&lt;<a
+href="https://yhetil.org/orgmode/">https://yhetil.org/orgmode/</a>&gt;).
+
+In hopes of reproducing locally, I replicated that inbox on another
+machine, trimmed down the config, and created a fresh index.  Here&#39;s the
+entire test config:
+
+  [publicinbox &#34;orgmode&#34;]
+          address = emacs-orgmode@gnu.org
+          inboxdir = /tmp/event-step/orgmode
+          url = <a
+href="https://yhetil.org/orgmode/">https://yhetil.org/orgmode/</a>
+
+Next I tried some of the requests.  For nearly all of the timestamps,
+there is more than one request.  I haven&#39;t gone through each one, but I
+have been able to trigger the issue with the cloned inbox.
+
+  $ public-inbox-httpd
+  Changing use VERSION while another use VERSION is in scope is deprecated, and will become fatal in Perl 5.44 at [...]/lib/PublicInbox/Git.pm line 675.
+  # bound <a
+href="http://0.0.0.0:8080">http://0.0.0.0:8080</a>
+  ignoring SIGWINCH since we are not daemonized
+  ignoring SIGWINCH since we are not daemonized
+  E: Can&#39;t locate object method &#34;event_step&#34; via package &#34;PublicInbox::WwwStream&#34; at [...]/lib/PublicInbox/DS.pm line 144
+
+Each case I&#39;ve triggered so far is for a _message ID that&#39;s not found_.
+Here are three examples:
+
+  /orgmode/F1BFD612-B50C-4247-8261-1058352CF0E4@gmail.com
+  /orgmode/4491f83ee44f16bef3ac15d74cb7504b@science.uva.nl
+  /orgmode/200805161527.m4GFRMGN010370@dog.comp.uvic.ca
+
+For those three cases, I&#39;ve verified that the message ID shows up only
+in References and In-Reply-To headers but not a Message-ID header.
+
+<span
+class="q">&gt;&gt; I first saw this message when I updated from 46ebb613 (2025-05-09) to
+&gt;&gt; df057976 (2025-05-15).
+&gt;
+&gt; Wow, that&#39;s a while ago; I struggle to remember anything more
+&gt; than a week ago :&lt;  Does it happen with latest?
+</span>
+Yes, I see the error message with a public-inbox installed from 8790c2ac
+(2025-10-12).  For the local reproducer described in this message, I was
+also running 8790c2ac.
+
+<span
+class="q">&gt; If you can match up timestamps w/ access logs that&#39;d be helpful
+</span>
+Please let me know if the details above help to narrow it down.
+
+I&#39;m happy to try to make a smaller and more isolated reproducer, though
+I&#39;m out of time to work on that tonight.
+
+Thanks
+
+<a
+href=#md5e644cc797878379359160bf81796cd3b2af7d7
+id=ed5e644cc797878379359160bf81796cd3b2af7d7>^</a> <a
+href="871pn6vzvd.fsf@kyleam.com/">permalink</a> <a
+href="871pn6vzvd.fsf@kyleam.com/raw">raw</a> <a
+href="871pn6vzvd.fsf@kyleam.com/#R">reply</a>	[relevance 5%]</pre><hr><pre><a
+href=#e66365ec29767eb819c297e2222e78f5f404010a3
+id=m66365ec29767eb819c297e2222e78f5f404010a3>*</a> <b>[PATCH] www: sort all /$INBOX/ topics by Received: timestamp</b>
+  2023-02-04 17:25  6% <a
+href="#mc2d4f50c9bf8450405b56d3b6066c9d7cf4c596a">future date in Date header pinning thread to top of $inbox/</a> Kyle Meyer
+<b>@ 2023-02-04 20:41  0% ` Eric Wong</b>
+  <a
+href=#r66365ec29767eb819c297e2222e78f5f404010a3>0 siblings, 0 replies; 16+ results</a>
+From: Eric Wong @ 2023-02-04 20:41 UTC (<a
+href="20230204204110.M179231@dcvr/">permalink</a> / <a
+href="20230204204110.M179231@dcvr/raw">raw</a>)
+  To: Kyle Meyer; <b>+Cc:</b> <a
+href="https://public-inbox.org/meta/?t=20230204204110">meta</a>, Ihor Radchenko, Bastien Guerry
+
+Kyle Meyer &lt;kyle@kyleam.com&gt; wrote:
+<span
+class="q">&gt; As noted by Ihor on the Org list (&lt;87pmarnhlr.fsf@localhost&gt;), Org&#39;s
+&gt; public-inbox archive has a thread pinned to the top of the $inbox/
+&gt; overview:
+&gt; 
+&gt;  * <a
+href="https://yhetil.org/orgmode/">https://yhetil.org/orgmode/</a>
+&gt; 
+&gt; That thread has a message where a sender set his Date to a future date:
+&gt; 
+&gt;   $ curl -fSsL <a
+href="https://yhetil.org/orgmode/ZT2vNKsf3Lp5xit3@protected.localdomain/raw">https://yhetil.org/orgmode/ZT2vNKsf3Lp5xit3@protected.localdomain/raw</a> | \
+&gt;     grep Date:
+&gt;   Date: Sun, 29 Oct 2023 04:02:44 +0300
+&gt; 
+&gt; Based on grepping around the public-inbox tree and Git history, I know
+&gt; that there are spots in public-inbox that prefer a date from the
+&gt; Received headers over the one from the Date header.  Would that make
+&gt; sense to do here too to reduce the chances of a date from the future
+&gt; pinning a thread?  (Or perhaps that&#39;s already the intention and
+&gt; something&#39;s off here?)
+</span>
+Thanks for the report.  The previous pinning prevention only
+prevented older messages from being pinned to the /$INBOX/ landing
+page.  It didn&#39;t prevent recent, future-looking messages from
+being pinned to the landing page, which seems to be what
+happened in your case.
+
+Does this untested patch fix it?
+
+--------8&lt;------
+Subject: [PATCH] www: sort all /$INBOX/ topics by Received: timestamp
+
+Our previous pinning prevention only worked to prevent older
+(non-most-recent) topics from being pinned to the landing page,
+but not the most recent window of messages.
+
+We still sort messages within threads by Date: because that
+makes git-send-email patchsets display more nicely, but we
+don&#39;t want recent topics pinned due to future Date: headers.
+
+I nearly switched sort_ds() back to sorting by Received: until
+I looked back on commit 8e52e5fdea416d6fda0b8d301144af0c043a5a76
+(use both Date: and Received: times, 2018-03-21) and was reminded
+git-send-email relies on Date: for large series, so I added a
+note about it for sort_ds().
+
+Reported-by: Kyle Meyer &lt;kyle@kyleam.com&gt;
+Link: <a
+href="https://public-inbox.org/meta/87edr5gx63.fsf@kyleam.com/">https://public-inbox.org/meta/87edr5gx63.fsf@kyleam.com/</a>
+---
+ <a
+id=iZ320230204204110.M179231::40dcvr:1lib:PublicInbox:View.pm
+href=#Z320230204204110.M179231::40dcvr:1lib:PublicInbox:View.pm>lib/PublicInbox/View.pm</a> | 18 +++++++++++-------
+ 1 file <a href="#e66365ec29767eb819c297e2222e78f5f404010a3">changed</a>, 11 insertions(+), 7 deletions(-)
+
+<span
+class="head"><a
+href=#iZ320230204204110.M179231::40dcvr:1lib:PublicInbox:View.pm
+id=Z320230204204110.M179231::40dcvr:1lib:PublicInbox:View.pm>diff</a> --git a/lib/PublicInbox/View.pm b/lib/PublicInbox/View.pm
+index b8d6d85e..e5f748f7 100644
+--- a/lib/PublicInbox/View.pm
++++ b/lib/PublicInbox/View.pm
+</span><span
+class="hunk">@@ -1019,6 +1019,8 @@ sub _skel_ghost {
+</span> 	1;
+ }
+ 
+<span
+class="add">+# note: we favor Date: here because git-send-email increments it
++# to preserve [PATCH $N/$M] ordering in series (it can&#39;t control Received:)
+</span> sub sort_ds {
+ 	@{$_[0]} = sort {
+ 		(eval { $a-&gt;topmost-&gt;{ds} } || 0) &lt;=&gt;
+<span
+class="hunk">@@ -1040,9 +1042,10 @@ sub acc_topic { # walk_thread callback
+</span> 	if ($has_blob) {
+ 		my $subj = subject_normalized($smsg-&gt;{subject});
+ 		$subj = &#39;(no subject)&#39; if $subj eq &#39;&#39;;
+<span
+class="add">+		my $ts = $smsg-&gt;{ts};
+</span> 		my $ds = $smsg-&gt;{ds};
+ 		if ($level == 0) { # new, top-level topic
+<span
+class="del">-			my $topic = [ $ds, 1, { $subj =&gt; $mid }, $subj ];
+</span><span
+class="add">+			my $topic = [ $ts, $ds, 1, { $subj =&gt; $mid }, $subj ];
+</span> 			$ctx-&gt;{-cur_topic} = $topic;
+ 			push @{$ctx-&gt;{order}}, $topic;
+ 			return 1;
+<span
+class="hunk">@@ -1050,10 +1053,11 @@ sub acc_topic { # walk_thread callback
+</span> 
+ 		# continue existing topic
+ 		my $topic = $ctx-&gt;{-cur_topic}; # should never be undef
+<span
+class="del">-		$topic-&gt;[0] = $ds if $ds &gt; $topic-&gt;[0];
+-		$topic-&gt;[1]++; # bump N+ message counter
+-		my $seen = $topic-&gt;[2];
+-		if (scalar(@$topic) == 3) { # parent was a ghost
+</span><span
+class="add">+		$topic-&gt;[0] = $ts if $ts &gt; $topic-&gt;[0];
++		$topic-&gt;[1] = $ds if $ds &gt; $topic-&gt;[1];
++		$topic-&gt;[2]++; # bump N+ message counter
++		my $seen = $topic-&gt;[3];
++		if (scalar(@$topic) == 4) { # parent was a ghost
+</span> 			push @$topic, $subj;
+ 		} elsif (!defined($seen-&gt;{$subj})) {
+ 			push @$topic, $level, $subj; # @extra messages
+<span
+class="hunk">@@ -1061,7 +1065,7 @@ sub acc_topic { # walk_thread callback
+</span> 		$seen-&gt;{$subj} = $mid; # latest for subject
+ 	} else { # ghost message
+ 		return 1 if $level != 0; # ignore child ghosts
+<span
+class="del">-		my $topic = $ctx-&gt;{-cur_topic} = [ -666, 0, {} ];
+</span><span
+class="add">+		my $topic = $ctx-&gt;{-cur_topic} = [ -666, -666, 0, {} ];
+</span> 		push @{$ctx-&gt;{order}}, $topic;
+ 	}
+ 	1;
+<span
+class="hunk">@@ -1082,7 +1086,7 @@ sub dump_topics {
+</span> 	}
+ 	# sort by recency, this allows new posts to &#34;bump&#34; old topics...
+ 	foreach my $topic (sort { $b-&gt;[0] &lt;=&gt; $a-&gt;[0] } @$order) {
+<span
+class="del">-		my ($ds, $n, $seen, $top_subj, @extra) = @$topic;
+</span><span
+class="add">+		my ($ts, $ds, $n, $seen, $top_subj, @extra) = @$topic;
+</span> 		@$topic = ();
+ 		next unless defined $top_subj;  # ghost topic
+ 		my $mid = delete $seen-&gt;{$top_subj};
+
+<a
+href=#m66365ec29767eb819c297e2222e78f5f404010a3
+id=e66365ec29767eb819c297e2222e78f5f404010a3>^</a> <a
+href="20230204204110.M179231@dcvr/">permalink</a> <a
+href="20230204204110.M179231@dcvr/raw">raw</a> <a
+href="20230204204110.M179231@dcvr/#R">reply</a> <a
+href="20230204204110.M179231@dcvr/#related">related</a>	[relevance 0%]</pre><hr><pre><a
+href=#ec2d4f50c9bf8450405b56d3b6066c9d7cf4c596a
+id=mc2d4f50c9bf8450405b56d3b6066c9d7cf4c596a>*</a> <b>future date in Date header pinning thread to top of $inbox/</b>
+<b>@ 2023-02-04 17:25  6% Kyle Meyer</b>
+  2023-02-04 20:41  0% ` <a
+href="#m66365ec29767eb819c297e2222e78f5f404010a3">[PATCH] www: sort all /$INBOX/ topics by Received: timestamp</a> Eric Wong
+  <a
+href=#rc2d4f50c9bf8450405b56d3b6066c9d7cf4c596a>0 siblings, 1 reply; 16+ results</a>
+From: Kyle Meyer @ 2023-02-04 17:25 UTC (<a
+href="87edr5gx63.fsf@kyleam.com/">permalink</a> / <a
+href="87edr5gx63.fsf@kyleam.com/raw">raw</a>)
+  To: Eric Wong, <a
+href="https://public-inbox.org/meta/?t=20230204172601">meta</a>; <b>+Cc:</b> Ihor Radchenko, Bastien Guerry
+
+As noted by Ihor on the Org list (&lt;87pmarnhlr.fsf@localhost&gt;), Org&#39;s
+public-inbox archive has a thread pinned to the top of the $inbox/
+overview:
+
+ * <a
+href="https://yhetil.org/orgmode/">https://yhetil.org/orgmode/</a>
+
+That thread has a message where a sender set his Date to a future date:
+
+  $ curl -fSsL <a
+href="https://yhetil.org/orgmode/ZT2vNKsf3Lp5xit3@protected.localdomain/raw">https://yhetil.org/orgmode/ZT2vNKsf3Lp5xit3@protected.localdomain/raw</a> | \
+    grep Date:
+  Date: Sun, 29 Oct 2023 04:02:44 +0300
+
+Based on grepping around the public-inbox tree and Git history, I know
+that there are spots in public-inbox that prefer a date from the
+Received headers over the one from the Date header.  Would that make
+sense to do here too to reduce the chances of a date from the future
+pinning a thread?  (Or perhaps that&#39;s already the intention and
+something&#39;s off here?)
+
+Thanks.
+
+<a
+href=#mc2d4f50c9bf8450405b56d3b6066c9d7cf4c596a
+id=ec2d4f50c9bf8450405b56d3b6066c9d7cf4c596a>^</a> <a
+href="87edr5gx63.fsf@kyleam.com/">permalink</a> <a
+href="87edr5gx63.fsf@kyleam.com/raw">raw</a> <a
+href="87edr5gx63.fsf@kyleam.com/#R">reply</a>	[relevance 6%]</pre><hr><pre><a
+href=#e1f8020c0fa0ba9196b2625a9db67df2ea2e80f55
+id=m1f8020c0fa0ba9196b2625a9db67df2ea2e80f55>*</a> <b>Re: convert mail content in git repo to mbox format</b>
+  2022-01-07 11:38  5% <a
+href="#mafaeb8b9f9e682cd171715fd2d3c4792c1633270">convert mail content in git repo to mbox format</a> SAIFI
+<b>@ 2022-01-12  2:41  0% ` Kyle Meyer</b>
+  <a
+href=#r1f8020c0fa0ba9196b2625a9db67df2ea2e80f55>0 siblings, 0 replies; 16+ results</a>
+From: Kyle Meyer @ 2022-01-12  2:41 UTC (<a
+href="87o84hbrr4.fsf@kyleam.com/">permalink</a> / <a
+href="87o84hbrr4.fsf@kyleam.com/raw">raw</a>)
+  To: saifi; <b>+Cc:</b> <a
+href="https://public-inbox.org/meta/?t=20220112024115">meta</a>
+
+SAIFI writes:
+
+<span
+class="q">&gt; Now here is a very simple question (please don&#39;t tell me maildir,
+&gt; scripts dir etc etc, have spent 3+ hrs trawling through website and
+&gt; archives).
+&gt;
+&gt; I have read this discussion thread
+&gt; <a
+href="https://yhetil.org/meta/22947b1d-4728-30fa-ee96-fbd31496c0e6@gmx.at/T/#r8d12a02091311f1d8a7eae01dfaf873415d6b439">https://yhetil.org/meta/22947b1d-4728-30fa-ee96-fbd31496c0e6@gmx.at/T/#r8d12a02091311f1d8a7eae01dfaf873415d6b439</a>
+&gt;
+&gt; I use alpine 2.24 and mbox format works great for me and for the 600GB
+&gt; mail archives without any problems till date. so &#39;mbox&#39; it is for me.
+&gt;
+&gt; As an example, let&#39;s consider this mailing list archive.
+&gt;
+&gt; git clone --mirror <a
+href="http://lore.kernel.org/connman/0">http://lore.kernel.org/connman/0</a> connman/git/0.git
+&gt;
+&gt; Q: How do i convert the mail content trapped in the git repo to mbox format ?
+&gt;
+&gt; Is there a solution ? script ? Any pointers ?
+</span>
+Here&#39;s a slight variation of the recipe from the link you mentioned.
+The main functional difference is that each message is converted to
+mboxrd (via mblaze&#39;s mexport [1]):
+
+  #!/bin/sh
+  
+  for commit in $(git -C connman/git/0.git rev-list master)
+  do
+      git -C connman/git/0.git cat-file blob $commit:m | mexport -
+  done &gt;mbox
+
+If you want a one-time import, I think that could work okay, though it
+wouldn&#39;t work well for augmenting an existing mbox.
+
+Also, if a one-time import is what you&#39;re after (particularly with a
+small inbox like connman), you could get by with the all.mbox.tar.gz
+endpoint:
+
+  $ curl -SfsL <a
+href="https://lore.kernel.org/connman/all.mbox.gz">https://lore.kernel.org/connman/all.mbox.gz</a> | \
+    zcat &gt;conman-mbox
+
+For regular updates from &lt;<a
+href="https://lore.kernel.org/connman">https://lore.kernel.org/connman</a>&gt;, you might be
+interested in trying out lei (new in public-inbox 1.7.0).
+
+  $ lei q -O <a
+href="https://lore.kernel.org/connman">https://lore.kernel.org/connman</a> -o mboxrd:conman-lei-mbox \
+    -a d:30.days.ago..
+  # /usr/bin/curl -Sf -s -d &#39;&#39; <a
+href="https://lore.kernel.org/connman/?x=m&#38;q=dt%3A20211213023449.">https://lore.kernel.org/connman/?x=m&#38;q=dt%3A20211213023449.</a>.
+  # <a
+href="https://lore.kernel.org/connman/">https://lore.kernel.org/connman/</a> 14/14
+  # 14 written to conman-lei-mbox (14 matches)
+
+  $ lei up conman-lei-mbox
+
+[1] <a
+href="https://git.vuxu.org/mblaze/about/">https://git.vuxu.org/mblaze/about/</a>
+
+<a
+href=#m1f8020c0fa0ba9196b2625a9db67df2ea2e80f55
+id=e1f8020c0fa0ba9196b2625a9db67df2ea2e80f55>^</a> <a
+href="87o84hbrr4.fsf@kyleam.com/">permalink</a> <a
+href="87o84hbrr4.fsf@kyleam.com/raw">raw</a> <a
+href="87o84hbrr4.fsf@kyleam.com/#R">reply</a>	[relevance 0%]</pre><hr><pre><a
+href=#eafaeb8b9f9e682cd171715fd2d3c4792c1633270
+id=mafaeb8b9f9e682cd171715fd2d3c4792c1633270>*</a> <b>convert mail content in git repo to mbox format</b>
+<b>@ 2022-01-07 11:38  5% SAIFI</b>
+  2022-01-12  2:41  0% ` <a
+href="#m1f8020c0fa0ba9196b2625a9db67df2ea2e80f55">Kyle Meyer</a>
+  <a
+href=#rafaeb8b9f9e682cd171715fd2d3c4792c1633270>0 siblings, 1 reply; 16+ results</a>
+From: SAIFI @ 2022-01-07 11:38 UTC (<a
+href="d3bc1377-554b-3132-7a73-6a6e9b9e2c@strikr.io/">permalink</a> / <a
+href="d3bc1377-554b-3132-7a73-6a6e9b9e2c@strikr.io/raw">raw</a>)
+  To: <a
+href="https://public-inbox.org/meta/?t=20220107113710">meta</a>
+
+Hi:
+
+public-inbox is a wonderful project with lots of capabilities, path breaking ideas, amazing interfaces and awesome contributors.
+
+Now here is a very simple question (please don&#39;t tell me maildir, scripts dir etc etc, have spent 3+ hrs trawling through website and archives).
+
+I have read this discussion thread
+<a
+href="https://yhetil.org/meta/22947b1d-4728-30fa-ee96-fbd31496c0e6@gmx.at/T/#r8d12a02091311f1d8a7eae01dfaf873415d6b439">https://yhetil.org/meta/22947b1d-4728-30fa-ee96-fbd31496c0e6@gmx.at/T/#r8d12a02091311f1d8a7eae01dfaf873415d6b439</a>
+
+I use alpine 2.24 and mbox format works great for me and for the 600GB mail archives without any problems till date. so &#39;mbox&#39; it is for me.
+
+As an example, let&#39;s consider this mailing list archive.
+
+git clone --mirror <a
+href="http://lore.kernel.org/connman/0">http://lore.kernel.org/connman/0</a> connman/git/0.git
+
+Q: How do i convert the mail content trapped in the git repo to mbox format ?
+
+Is there a solution ? script ? Any pointers ?
+
+
+warm regards
+Saifi.
+
+
+<a
+href=#mafaeb8b9f9e682cd171715fd2d3c4792c1633270
+id=eafaeb8b9f9e682cd171715fd2d3c4792c1633270>^</a> <a
+href="d3bc1377-554b-3132-7a73-6a6e9b9e2c@strikr.io/">permalink</a> <a
+href="d3bc1377-554b-3132-7a73-6a6e9b9e2c@strikr.io/raw">raw</a> <a
+href="d3bc1377-554b-3132-7a73-6a6e9b9e2c@strikr.io/#R">reply</a>	[relevance 5%]</pre><hr><pre><a
+href=#e30d0f23aa5b3f6ec54313b5f24ee797e7aeaee39
+id=m30d0f23aa5b3f6ec54313b5f24ee797e7aeaee39>*</a> <b>Re: archive links broken with obfuscate=true</b>
+  <b>@ 2021-04-10 19:49  4%           ` Kyle Meyer</b>
+  <a
+href=#r30d0f23aa5b3f6ec54313b5f24ee797e7aeaee39>0 siblings, 0 replies; 16+ results</a>
+From: Kyle Meyer @ 2021-04-10 19:49 UTC (<a
+href="87wnt9or6t.fsf@kyleam.com/">permalink</a> / <a
+href="87wnt9or6t.fsf@kyleam.com/raw">raw</a>)
+  To: Eric Wong; <b>+Cc:</b> <a
+href="https://public-inbox.org/meta/?t=20210410194953">meta</a>
+
+Eric Wong writes:
+
+<span
+class="q">&gt; Kyle Meyer &lt;kyle@kyleam.com&gt; wrote:
+&gt;&gt; Eric Wong writes:
+&gt;&gt; 
+&gt;&gt; &gt; Have you run any performance tests?
+&gt;&gt; 
+&gt;&gt; No.  To get an idea of how to approach that, would you suggest I look at
+&gt;&gt; xt/perf-msgview.t?
+&gt;
+&gt; Yeah, probably that with some tweaks; or running -httpd with ab,
+&gt; wrk or some other HTTP benchmark that uses persistent connections.
+&gt;
+&gt; I&#39;m OK with things being slower with this option enabled, but
+&gt; not with trivial denial-of-service vectors.
+</span>
+Below is my initial attempt at tweaking xt/perf-msgview.t.
+xt/perf-obfuscate.t enables obfuscation in the inbox if PI_OBFUSCATE is
+set in the environment:
+
+  $ PI_OBFUSCATE=1 GIANT_INBOX_DIR=/tmp/test perl xt/perf-obfuscate.t
+
+Here are my unscientific timings for three cases: 1) no obfuscation, 2)
+obfuscation on the current master (ea4e9025dd), and 3) obfuscation with
+the patch upthread.  The inbox is set to the Org mode&#39;s list archives
+(&lt;<a
+href="https://yhetil.org/orgmode/">https://yhetil.org/orgmode/</a>&gt;), which at the time of execution
+contained 135,885 messages.
+
+| obfuscate   | run | wall |    usr |  sys |
+|-------------+-----+------+--------+------|
+| no          |   1 |   50 |  49.14 | 0.57 |
+| no          |   2 |   49 |  47.76 | 0.58 |
+|             |     |      |        |      |
+| yes, master |   1 |   56 |  54.47 | 0.58 |
+| yes, master |   2 |   55 |  54.24 | 0.58 |
+|             |     |      |        |      |
+| yes, patch  |   1 |  175 | 174.71 | 0.52 |
+| yes, patch  |   2 |  176 | 174.33 | 0.56 |
+
+
+<span
+class="head">diff --git a/xt/perf-obfuscate.t b/xt/perf-obfuscate.t
+new file mode 100644
+index 00000000..2a8d5c1e
+--- /dev/null
++++ b/xt/perf-obfuscate.t
+</span><span
+class="hunk">@@ -0,0 +1,64 @@
+</span><span
+class="add">+# Copyright (C) 2019-2021 all contributors &lt;meta@public-inbox.org&gt;
++# License: AGPL-3.0+ &lt;<a
+href="https://www.gnu.org/licenses/agpl-3.0.txt">https://www.gnu.org/licenses/agpl-3.0.txt</a>&gt;
++use strict;
++use warnings;
++use Test::More;
++use Benchmark qw(:all);
++use PublicInbox::Inbox;
++use PublicInbox::View;
++use PublicInbox::TestCommon;
++
++my $inboxdir = $ENV{GIANT_INBOX_DIR};
++plan skip_all =&gt; &#34;GIANT_INBOX_DIR not defined for $0&#34; unless $inboxdir;
++
++my $obfuscate = $ENV{PI_OBFUSCATE} ? 1 : 0;
++print &#34;obfuscate=$obfuscate\n&#34;;
++
++my @cat = qw(cat-file --buffer --batch-check --batch-all-objects);
++if (require_git(2.19, 1)) {
++	push @cat, &#39;--unordered&#39;;
++} else {
++	warn
++&#34;git &lt;2.19, cat-file lacks --unordered, locality suffers\n&#34;;
++}
++require_mods qw(Plack::Util);
++use_ok &#39;Plack::Util&#39;;
++my $ibx = PublicInbox::Inbox-&gt;new({ inboxdir =&gt; $inboxdir, name =&gt; &#39;name&#39; ,
++				    obfuscate =&gt; $obfuscate});
++my $git = $ibx-&gt;git;
++my $fh = $git-&gt;popen(@cat);
++my $vec = &#39;&#39;;
++vec($vec, fileno($fh), 1) = 1;
++select($vec, undef, undef, 60) or die &#34;timed out waiting for --batch-check&#34;;
++
++my $ctx = {
++	env =&gt; { HTTP_HOST =&gt; &#39;example.com&#39;, &#39;psgi.url_scheme&#39; =&gt; &#39;https&#39; },
++	ibx =&gt; $ibx,
++	www =&gt; Plack::Util::inline_object(style =&gt; sub {&#39;&#39;}),
++};
++my ($mime, $res, $oid, $type);
++my $n = 0;
++my $obuf = &#39;&#39;;
++my $m = 0;
++
++my $cb = sub {
++	$mime = PublicInbox::Eml-&gt;new(shift);
++	PublicInbox::View::multipart_text_as_html($mime, $ctx);
++	++$m;
++	$obuf = &#39;&#39;;
++};
++
++my $t = timeit(1, sub {
++	$ctx-&gt;{obuf} = \$obuf;
++	$ctx-&gt;{mhref} = &#39;../&#39;;
++	while (&lt;$fh&gt;) {
++		($oid, $type) = split / /;
++		next if $type ne &#39;blob&#39;;
++		++$n;
++		$git-&gt;cat_async($oid, $cb);
++	}
++	$git-&gt;cat_async_wait;
++});
++diag &#39;multipart_text_as_html took &#39;.timestr($t).&#34; for $n &lt;=&gt; $m messages&#34;;
++is($m, $n, &#39;rendered all messages&#39;);
++done_testing();
+</span>
+<a
+href=#m30d0f23aa5b3f6ec54313b5f24ee797e7aeaee39
+id=e30d0f23aa5b3f6ec54313b5f24ee797e7aeaee39>^</a> <a
+href="87wnt9or6t.fsf@kyleam.com/">permalink</a> <a
+href="87wnt9or6t.fsf@kyleam.com/raw">raw</a> <a
+href="87wnt9or6t.fsf@kyleam.com/#R">reply</a> <a
+href="87wnt9or6t.fsf@kyleam.com/#related">related</a>	[relevance 4%]</pre><hr><pre><a
+href=#e1a0e39cbbc7b1bdbee17293cfd11b12d08752541
+id=m1a0e39cbbc7b1bdbee17293cfd11b12d08752541>*</a> <b>Re: archive links broken with obfuscate=true</b>
+  2021-04-09  2:11  5% <a
+href="#m6394555b89f9f941e505a49734ff7ee1fb249563">archive links broken with obfuscate=true</a> Kyle Meyer
+<b>@ 2021-04-09 10:21  0% ` Eric Wong</b>
+    <a
+href=#r1a0e39cbbc7b1bdbee17293cfd11b12d08752541>0 siblings, 1 reply; 16+ results</a>
+From: Eric Wong @ 2021-04-09 10:21 UTC (<a
+href="20210409102129.GA16787@dcvr/">permalink</a> / <a
+href="20210409102129.GA16787@dcvr/raw">raw</a>)
+  To: Kyle Meyer; <b>+Cc:</b> <a
+href="https://public-inbox.org/meta/?t=20210409102129">meta</a>
+
+Kyle Meyer &lt;kyle@kyleam.com&gt; wrote:
+<span
+class="q">&gt; I&#39;ve been testing out obfuscate=true a bit (which won&#39;t be a surprise to
+&gt; Eric, given a private email that was sent to both of us).  One issue I
+&gt; noticed is that it breaks archive links.  I&#39;ve posted an example at
+&gt; &lt;<a
+href="https://yhetil.org/obf/20201204120929.GA22736@dcvr/">https://yhetil.org/obf/20201204120929.GA22736@dcvr/</a>&gt;:
+&gt; 
+&gt;   Reported-by: Kyle Meyer &lt;kyle@kyleam&#8226;com&gt;
+&gt;   Link: <a
+href="https://public-inbox.org/meta/87360nlc44.fsf@kyleam">https://public-inbox.org/meta/87360nlc44.fsf@kyleam</a>&#8226;com/
+</span>
+Oops, I think the following fixes it, but not sure if there&#39;s a
+better way to accomplish the same thing....
+
+I worry the regexp change is susceptible to performance problems
+from malicious inputs.  I can&#39;t remember if something like this
+triggers a pathological case or not, or if I&#39;m confusing this
+with another quirk that does (or quirks of another RE engine)
+
+------------8&lt;--------
+Subject: [WIP] www: do not perform address obfuscation on URLs
+
+---
+ <a
+id=iZ320210409102129.GA16787::40dcvr:1lib:PublicInbox:Hval.pm
+href=#Z320210409102129.GA16787::40dcvr:1lib:PublicInbox:Hval.pm>lib/PublicInbox/Hval.pm</a> | 10 ++++++----
+ <a
+id=iZ320210409102129.GA16787::40dcvr:1t:hval.t
+href=#Z320210409102129.GA16787::40dcvr:1t:hval.t>t/hval.t</a>                |  4 ++++
+ 2 files <a href="#e1a0e39cbbc7b1bdbee17293cfd11b12d08752541">changed</a>, 10 insertions(+), 4 deletions(-)
+
+<span
+class="head"><a
+href=#iZ320210409102129.GA16787::40dcvr:1lib:PublicInbox:Hval.pm
+id=Z320210409102129.GA16787::40dcvr:1lib:PublicInbox:Hval.pm>diff</a> --git a/lib/PublicInbox/Hval.pm b/lib/PublicInbox/Hval.pm
+index d20f70ae..6f1a046c 100644
+--- a/lib/PublicInbox/Hval.pm
++++ b/lib/PublicInbox/Hval.pm
+</span><span
+class="hunk">@@ -82,15 +82,17 @@ sub obfuscate_addrs ($$;$) {
+</span> 	my $repl = $_[2] // &#39;&#38;#8226;&#39;;
+ 	my $re = $ibx-&gt;{-no_obfuscate_re}; # regex of domains
+ 	my $addrs = $ibx-&gt;{-no_obfuscate}; # { $address =&gt; 1 }
+<span
+class="del">-	$_[1] =~ s/(([\w\.\+=\-]+)\@([\w\-]+\.[\w\.\-]+))/
+-		my ($addr, $user, $domain) = ($1, $2, $3);
+-		if ($addrs-&gt;{$addr} || ((defined $re &#38;&#38; $domain =~ $re))) {
+</span><span
+class="add">+	$_[1] =~ s#(\S*?)(([\w\.\+=\-]+)\@([\w\-]+\.[\w\.\-]+))#
++		my ($beg, $addr, $user, $domain) = ($1, $2, $3, $4);
++		if (index($beg, &#39;://&#39;) &gt; 0) {
++			$beg.$addr;
++		} elsif ($addrs-&gt;{$addr} || ((defined $re &#38;&#38; $domain =~ $re))) {
+</span> 			$addr;
+ 		} else {
+ 			$domain =~ s!([^\.]+)\.!$1$repl!;
+ 			$user . &#39;@&#39; . $domain
+ 		}
+<span
+class="del">-		/sge;
+</span><span
+class="add">+		#sge;
+</span> }
+ 
+ # like format_sanitized_subject in git.git pretty.c with &#39;%f&#39; format string
+<span
+class="head"><a
+href=#iZ320210409102129.GA16787::40dcvr:1t:hval.t
+id=Z320210409102129.GA16787::40dcvr:1t:hval.t>diff</a> --git a/t/hval.t b/t/hval.t
+index 9d0dab7a..5afc2052 100644
+--- a/t/hval.t
++++ b/t/hval.t
+</span><span
+class="hunk">@@ -47,6 +47,10 @@ EOF
+</span> 
+ is($html, $exp, &#39;only obfuscated relevant addresses&#39;);
+ 
+<span
+class="add">+$exp = &#39;<a
+href="https://example.net/foo@example.net">https://example.net/foo@example.net</a>&#39;;
++PublicInbox::Hval::obfuscate_addrs($ibx, my $res = $exp);
++is($res, $exp, &#39;does not obfuscate URL with Message-ID&#39;);
++
+</span> is(PublicInbox::Hval::to_filename(&#39;foo bar  &#39;), &#39;foo-bar&#39;,
+ 	&#39;to_filename has no trailing -&#39;);
+ 
+
+<a
+href=#m1a0e39cbbc7b1bdbee17293cfd11b12d08752541
+id=e1a0e39cbbc7b1bdbee17293cfd11b12d08752541>^</a> <a
+href="20210409102129.GA16787@dcvr/">permalink</a> <a
+href="20210409102129.GA16787@dcvr/raw">raw</a> <a
+href="20210409102129.GA16787@dcvr/#R">reply</a> <a
+href="20210409102129.GA16787@dcvr/#related">related</a>	[relevance 0%]</pre><hr><pre><a
+href=#e6394555b89f9f941e505a49734ff7ee1fb249563
+id=m6394555b89f9f941e505a49734ff7ee1fb249563>*</a> <b>archive links broken with obfuscate=true</b>
+<b>@ 2021-04-09  2:11  5% Kyle Meyer</b>
+  2021-04-09 10:21  0% ` <a
+href="#m1a0e39cbbc7b1bdbee17293cfd11b12d08752541">Eric Wong</a>
+  <a
+href=#r6394555b89f9f941e505a49734ff7ee1fb249563>0 siblings, 1 reply; 16+ results</a>
+From: Kyle Meyer @ 2021-04-09  2:11 UTC (<a
+href="87a6q8p5qa.fsf@kyleam.com/">permalink</a> / <a
+href="87a6q8p5qa.fsf@kyleam.com/raw">raw</a>)
+  To: <a
+href="https://public-inbox.org/meta/?t=20210409021113">meta</a>
+
+I&#39;ve been testing out obfuscate=true a bit (which won&#39;t be a surprise to
+Eric, given a private email that was sent to both of us).  One issue I
+noticed is that it breaks archive links.  I&#39;ve posted an example at
+&lt;<a
+href="https://yhetil.org/obf/20201204120929.GA22736@dcvr/">https://yhetil.org/obf/20201204120929.GA22736@dcvr/</a>&gt;:
+
+  Reported-by: Kyle Meyer &lt;kyle@kyleam&#8226;com&gt;
+  Link: <a
+href="https://public-inbox.org/meta/87360nlc44.fsf@kyleam">https://public-inbox.org/meta/87360nlc44.fsf@kyleam</a>&#8226;com/
+
+<a
+href=#m6394555b89f9f941e505a49734ff7ee1fb249563
+id=e6394555b89f9f941e505a49734ff7ee1fb249563>^</a> <a
+href="87a6q8p5qa.fsf@kyleam.com/">permalink</a> <a
+href="87a6q8p5qa.fsf@kyleam.com/raw">raw</a> <a
+href="87a6q8p5qa.fsf@kyleam.com/#R">reply</a>	[relevance 5%]</pre><hr><pre><a
+href=#e56195429e14ae0120ed48ebc10aee7b7fdc51f2b
+id=m56195429e14ae0120ed48ebc10aee7b7fdc51f2b>*</a> <b>Re: [PATCH 02/10] lei: support remote externals</b>
+  2021-01-24  6:01  7%   ` <a
+href="#macca47b687468f5566005eca8b0b681f5ed57b55">Kyle Meyer</a>
+<b>@ 2021-01-24 12:02  0%     ` Eric Wong</b>
+  <a
+href=#r56195429e14ae0120ed48ebc10aee7b7fdc51f2b>0 siblings, 0 replies; 16+ results</a>
+From: Eric Wong @ 2021-01-24 12:02 UTC (<a
+href="20210124120217.GA12880@dcvr/">permalink</a> / <a
+href="20210124120217.GA12880@dcvr/raw">raw</a>)
+  To: Kyle Meyer; <b>+Cc:</b> <a
+href="https://public-inbox.org/meta/?t=20210124120217">meta</a>
+
+Kyle Meyer &lt;kyle@kyleam.com&gt; wrote:
+<span
+class="q">&gt; I&#39;ve been playing around with lei locally (wow :&gt;).
+</span>
+Glad you&#39;re enjoying it.  I&#39;m still not completely happy with
+some of the internals (the IPC stuff is a bit adventurous and
+perhaps overkill), but functionality&#39;s getting slowly fleshed
+out.
+
+Btw, since you seem to be figuring things out without existing
+docs, could I convince you to start manpages for lei?
+
+Don&#39;t feel obligated, but it might be better for everybody since
+my brain tends to skip over stuff that&#39;s only obvious because I
+designed it :x (and my brain feels &#34;off&#34; :&lt;)
+
+I&#39;m envisioning git-style manpages, with subcommands each having
+their own manpage and an lei-overview(7) with common examples
+as quick-start for beginners.
+
+&lt;snip&gt;
+
+<span
+class="q">&gt; yhetil.org uses nginx and varnish, and I&#39;m _very_ far from being an
+&gt; expert in either of those, so I have no doubt that the above error could
+&gt; be the result of me configuring something incorrectly.  However, despite
+&gt; a fair amount of time and effort, I couldn&#39;t figure out how to tweak
+&gt; things to make the above command work without --data.
+</span>
+Thanks, it may be nginx-specific behavior, but
+<a
+href="https://public-inbox.org/meta/20210124114655.12815-7-e@80x24.org/">https://public-inbox.org/meta/20210124114655.12815-7-e@80x24.org/</a>
+should do the trick.
+
+<span
+class="q">&gt; -	my @cmd = qw(curl -XPOST -sSf);
+&gt; +	my @cmd = qw(curl -XPOST -d&#39;&#39; -sSf);
+</span>
+That &#39;&#39; is a syntax error for me, and curl nags on -XPOST
+with -d, so I&#39;ve omitted -XPOST from my patch.  Thanks again for
+the report.
+
+<a
+href=#m56195429e14ae0120ed48ebc10aee7b7fdc51f2b
+id=e56195429e14ae0120ed48ebc10aee7b7fdc51f2b>^</a> <a
+href="20210124120217.GA12880@dcvr/">permalink</a> <a
+href="20210124120217.GA12880@dcvr/raw">raw</a> <a
+href="20210124120217.GA12880@dcvr/#R">reply</a>	[relevance 0%]</pre><hr><pre><a
+href=#eacca47b687468f5566005eca8b0b681f5ed57b55
+id=macca47b687468f5566005eca8b0b681f5ed57b55>*</a> <b>Re: [PATCH 02/10] lei: support remote externals</b>
+  <b>@ 2021-01-24  6:01  7%   ` Kyle Meyer</b>
+  2021-01-24 12:02  0%     ` <a
+href="#m56195429e14ae0120ed48ebc10aee7b7fdc51f2b">Eric Wong</a>
+  <a
+href=#racca47b687468f5566005eca8b0b681f5ed57b55>0 siblings, 1 reply; 16+ results</a>
+From: Kyle Meyer @ 2021-01-24  6:01 UTC (<a
+href="87v9bmswkh.fsf@kyleam.com/">permalink</a> / <a
+href="87v9bmswkh.fsf@kyleam.com/raw">raw</a>)
+  To: Eric Wong; <b>+Cc:</b> <a
+href="https://public-inbox.org/meta/?t=20210124060112">meta</a>
+
+Eric Wong writes:
+
+<span
+class="q">&gt;  sub query_remote_mboxrd {
+</span>[...]
+<span
+class="q">&gt; +	my @cmd = qw(curl -XPOST -sSf);
+</span>
+I&#39;ve been playing around with lei locally (wow :&gt;).
+
+The one snag I&#39;ve hit is hooking up the http archives that I host
+(&lt;<a
+href="https://yhetil.org">https://yhetil.org</a>&gt;).  It seems to boil down to the `curl -XPOST&#39;
+command failing.  For example, this works fine with public-inbox.org:
+
+  $ curl -sSf -XPOST &#39;<a
+href="https://public-inbox.org/meta/?q=s:lei&#38;x=m">https://public-inbox.org/meta/?q=s:lei&#38;x=m</a>&#39; | zless
+
+But it fails with the mirror of meta at yhetil.org:
+
+  $ curl -sSf -XPOST &#39;<a
+href="https://yhetil.org/meta/?q=s:lei&#38;x=m">https://yhetil.org/meta/?q=s:lei&#38;x=m</a>&#39; | zless
+  curl: (22) The requested URL returned error: 400 Bad Request
+
+If I add -d&#39;&#39; to the call, it works and produces the same output as the
+above call against public-inbox.org/meta.  And if I add this option to
+query_remote_mboxrd (i.e. applying the change at the end), `lei q&#39; works
+for me as expected.
+
+yhetil.org uses nginx and varnish, and I&#39;m _very_ far from being an
+expert in either of those, so I have no doubt that the above error could
+be the result of me configuring something incorrectly.  However, despite
+a fair amount of time and effort, I couldn&#39;t figure out how to tweak
+things to make the above command work without --data.
+
+I quickly checked &lt;<a
+href="https://lore.kernel.org">https://lore.kernel.org</a>&gt;, and it seems like it would
+give a similar response to -XPOST without data:
+
+  $ curl -fSs -XPOST &#39;<a
+href="https://lore.kernel.org/git/?q=get-urlmatch&#38;x=m">https://lore.kernel.org/git/?q=get-urlmatch&#38;x=m</a>&#39;
+  curl: (22) The requested URL returned error: 400
+  $  curl -d&#39;&#39; -fSs -XPOST &#39;<a
+href="https://lore.kernel.org/git/?q=get-urlmatch&#38;x=m">https://lore.kernel.org/git/?q=get-urlmatch&#38;x=m</a>&#39; | zless
+  # works
+
+
+<span
+class="head">diff --git a/lib/PublicInbox/LeiXSearch.pm b/lib/PublicInbox/LeiXSearch.pm
+index defe5e67..766e9f5f 100644
+--- a/lib/PublicInbox/LeiXSearch.pm
++++ b/lib/PublicInbox/LeiXSearch.pm
+</span><span
+class="hunk">@@ -192,7 +192,7 @@ sub query_remote_mboxrd {
+</span> 	my $each_smsg = $lei-&gt;{ovv}-&gt;ovv_each_smsg_cb($lei, $uri);
+ 	my $dedupe = $lei-&gt;{dedupe} // die &#39;BUG: {dedupe} missing&#39;;
+ 	$dedupe-&gt;prepare_dedupe;
+<span
+class="del">-	my @cmd = qw(curl -XPOST -sSf);
+</span><span
+class="add">+	my @cmd = qw(curl -XPOST -d&#39;&#39; -sSf);
+</span> 	$opt-&gt;{torsocks} = &#39;false&#39; if $opt-&gt;{&#39;no-torsocks&#39;};
+ 	my $tor = $opt-&gt;{torsocks} //= &#39;auto&#39;;
+ 	if ($tor eq &#39;auto&#39; &#38;&#38; substr($uri-&gt;host, -6) eq &#39;.onion&#39; &#38;&#38;
+
+
+<a
+href=#macca47b687468f5566005eca8b0b681f5ed57b55
+id=eacca47b687468f5566005eca8b0b681f5ed57b55>^</a> <a
+href="87v9bmswkh.fsf@kyleam.com/">permalink</a> <a
+href="87v9bmswkh.fsf@kyleam.com/raw">raw</a> <a
+href="87v9bmswkh.fsf@kyleam.com/#R">reply</a> <a
+href="87v9bmswkh.fsf@kyleam.com/#related">related</a>	[relevance 7%]</pre><hr><pre><a
+href=#e844f334cd5b79623c011f18a3b525b2f2f874a25
+id=m844f334cd5b79623c011f18a3b525b2f2f874a25>*</a> <b>Re: missing messages in thread overview</b>
+  2020-12-03  4:59  6% <a
+href="#m28b94acc74bd8e24b5e374e1720b40a8bd534e7c">missing messages in thread overview</a> Kyle Meyer
+<b>@ 2020-12-03 20:19  0% ` Eric Wong</b>
+  <a
+href=#r844f334cd5b79623c011f18a3b525b2f2f874a25>0 siblings, 0 replies; 16+ results</a>
+From: Eric Wong @ 2020-12-03 20:19 UTC (<a
+href="20201203201945.GA15810@dcvr/">permalink</a> / <a
+href="20201203201945.GA15810@dcvr/raw">raw</a>)
+  To: Kyle Meyer; <b>+Cc:</b> <a
+href="https://public-inbox.org/meta/?t=20201203201945">meta</a>
+
+Kyle Meyer &lt;kyle@kyleam.com&gt; wrote:
+<span
+class="q">&gt; &lt;<a
+href="https://yhetil.org/debug-gap/">https://yhetil.org/debug-gap/</a>&gt;.
+</span>
+Thanks, I&#39;m able to reproduce it.
+
+&lt;snip&gt;
+
+<span
+class="q">&gt; Any ideas what might be going on here?
+</span>
+It seems like the presence of two ghosts in the histories fails
+to get merged together; so it&#39;s order-dependency bug in
+OverIdx.pm rethread seems to be exacerbating the condition (less
+sure about rethread, though).
+
+Basically, there should be only one distinct `tid&#39; column
+in the `over&#39; table, but there&#39;s two tids and that&#39;s
+causing over-&gt;get_thread to only see one tid or the other.
+
+The top-level inbox view doesn&#39;t care about `tid&#39; column, it
+just fetches the most recent messages; so it&#39;s able to get
+a complete view to render all the messages in the thread.
+
+Will try to work on it more in a bit (struggling to decide
+between starvation or possible COVID-19 exposure... :&lt;)
+
+<a
+href=#m844f334cd5b79623c011f18a3b525b2f2f874a25
+id=e844f334cd5b79623c011f18a3b525b2f2f874a25>^</a> <a
+href="20201203201945.GA15810@dcvr/">permalink</a> <a
+href="20201203201945.GA15810@dcvr/raw">raw</a> <a
+href="20201203201945.GA15810@dcvr/#R">reply</a>	[relevance 0%]</pre><hr><pre><a
+href=#e28b94acc74bd8e24b5e374e1720b40a8bd534e7c
+id=m28b94acc74bd8e24b5e374e1720b40a8bd534e7c>*</a> <b>missing messages in thread overview</b>
+<b>@ 2020-12-03  4:59  6% Kyle Meyer</b>
+  2020-12-03 20:19  0% ` <a
+href="#m844f334cd5b79623c011f18a3b525b2f2f874a25">Eric Wong</a>
+  <a
+href=#r28b94acc74bd8e24b5e374e1720b40a8bd534e7c>0 siblings, 1 reply; 16+ results</a>
+From: Kyle Meyer @ 2020-12-03  4:59 UTC (<a
+href="87360nlc44.fsf@kyleam.com/">permalink</a> / <a
+href="87360nlc44.fsf@kyleam.com/raw">raw</a>)
+  To: <a
+href="https://public-inbox.org/meta/?t=20201203045825">meta</a>
+
+
+I noticed a thread today that is missing messages in the thread
+overview.  In the top-level inbox, all the messages are there:
+
+  [bug#45000] [PATCH 0/9] Build git-annex with assistant webapp enabled
+   2020-12-02 11:17 UTC  (11+ messages) - mbox.gz / Atom
+  ` [bug#45000] [PATCH 1/9] gnu: Add ghc-yesod-test
+    ` [bug#45000] [PATCH 2/9] gnu: Add ghc-wai-app-static
+    ` [bug#45000] [PATCH 3/9] gnu: Add ghc-yesod-static
+    ` [bug#45000] [PATCH 4/9] gnu: Add ghc-cryptonite-conduit
+    ` [bug#45000] [PATCH 5/9] gnu: ghc-yesod-core: Update to 1.6.18.6
+    ` [bug#45000] [PATCH 6/9] gnu: Add ghc-hjsmin
+    ` [bug#45000] [PATCH 7/9] gnu: Add ghc-template-haskell
+    ` [bug#45000] [PATCH 8/9] gnu: Add ghc-boot-th
+    ` [bug#45000] [PATCH 9/9] gnu: git-annex: Build with git-annex assistant webapp enabled
+
+However, when I click through, the thread overview is missing five
+messages:
+
+  Thread overview: 6+ messages (download: mbox.gz / follow: Atom feed)
+  -- links below jump to the message on this page --
+  2020-12-02  4:53 [bug#45000] [PATCH 0/9] Build git-annex with assistant webapp enabled Jonathan Frederickson
+  2020-12-02  4:55 ` [bug#45000] [PATCH 1/9] gnu: Add ghc-yesod-test Jonathan Frederickson
+  2020-12-02  4:55   ` [bug#45000] [PATCH 2/9] gnu: Add ghc-wai-app-static Jonathan Frederickson
+  2020-12-02  4:55   ` [bug#45000] [PATCH 7/9] gnu: Add ghc-template-haskell Jonathan Frederickson
+  2020-12-02  4:55   ` [bug#45000] [PATCH 9/9] gnu: git-annex: Build with git-annex assistant webapp enabled Jonathan Frederickson
+  2020-12-02 11:17 ` [bug#45000] [PATCH 0/9] Build git-annex with &#34; zimoun
+
+<a
+href="https://yhetil.org/guix-patches/86sg8o1mou.fsf@gmail.com/T/#t">https://yhetil.org/guix-patches/86sg8o1mou.fsf@gmail.com/T/#t</a>
+
+The same subset of messages are in the thread&#39;s mbox:
+
+  $ curl -fSsL <a
+href="https://yhetil.org/guix-patches/86sg8o1mou.fsf@gmail.com/t.mbox.gz">https://yhetil.org/guix-patches/86sg8o1mou.fsf@gmail.com/t.mbox.gz</a> \
+    | gzip -d | grep -i ^subject
+  Subject: [bug#45000] [PATCH 0/9] Build git-annex with assistant webapp enabled
+  Subject: [bug#45000] [PATCH 1/9] gnu: Add ghc-yesod-test.
+  Subject: [bug#45000] [PATCH 7/9] gnu: Add ghc-template-haskell.
+  Subject: [bug#45000] [PATCH 9/9] gnu: git-annex: Build with git-annex
+  Subject: [bug#45000] [PATCH 2/9] gnu: Add ghc-wai-app-static.
+  Subject: [bug#45000] [PATCH 0/9] Build git-annex with assistant webapp enabled
+
+I collected the complete thread (currently eleven messages) and used
+scripts/import_vger_from_mbox to create a separate inbox at
+&lt;<a
+href="https://yhetil.org/debug-gap/">https://yhetil.org/debug-gap/</a>&gt;.  As before, the top-level listing shows
+all the patches, and the thread overview is still missing some, though
+different ones:
+
+  2020-12-02  4:53 [bug#45000] [PATCH 0/9] Build git-annex with assistant webapp enabled Jonathan Frederickson
+  2020-12-02 11:17 ` zimoun
+  2020-12-02  4:55 [bug#45000] [PATCH 1/9] gnu: Add ghc-yesod-test Jonathan Frederickson
+  2020-12-02  4:55 ` [bug#45000] [PATCH 3/9] gnu: Add ghc-yesod-static Jonathan Frederickson
+  2020-12-02  4:55 ` [bug#45000] [PATCH 4/9] gnu: Add ghc-cryptonite-conduit Jonathan Frederickson
+  2020-12-02  4:55 ` [bug#45000] [PATCH 5/9] gnu: ghc-yesod-core: Update to 1.6.18.6 Jonathan Frederickson
+  2020-12-02  4:55 ` [bug#45000] [PATCH 6/9] gnu: Add ghc-hjsmin Jonathan Frederickson
+  2020-12-02  4:55 ` [bug#45000] [PATCH 8/9] gnu: Add ghc-boot-th Jonathan Frederickson
+
+On rethreading with `public-inbox-index -c --reindex --rethread&#39;, the
+thread overview looks like this:
+
+  2020-12-02  4:53 [bug#45000] [PATCH 0/9] Build git-annex with assistant webapp enabled Jonathan Frederickson
+  2020-12-02 11:17 ` zimoun
+
+All of the above is with a recent commit on master,
+v1.6.0-149-g4cc4ad59.
+
+Any ideas what might be going on here?
+
+<a
+href=#m28b94acc74bd8e24b5e374e1720b40a8bd534e7c
+id=e28b94acc74bd8e24b5e374e1720b40a8bd534e7c>^</a> <a
+href="87360nlc44.fsf@kyleam.com/">permalink</a> <a
+href="87360nlc44.fsf@kyleam.com/raw">raw</a> <a
+href="87360nlc44.fsf@kyleam.com/#R">reply</a>	[relevance 6%]</pre><hr><pre><a
+href=#e265db80560170d80120ded58be202599a65769f3
+id=m265db80560170d80120ded58be202599a65769f3>*</a> <b>Re: [PATCH] scripts/dupe-finder: restore $dbh variable</b>
+  <b>@ 2020-10-16  5:02  6%   ` Kyle Meyer</b>
+  <a
+href=#r265db80560170d80120ded58be202599a65769f3>0 siblings, 0 replies; 16+ results</a>
+From: Kyle Meyer @ 2020-10-16  5:02 UTC (<a
+href="87y2k67ogi.fsf@kyleam.com/">permalink</a> / <a
+href="87y2k67ogi.fsf@kyleam.com/raw">raw</a>)
+  To: Eric Wong; <b>+Cc:</b> <a
+href="https://public-inbox.org/meta/?t=20201016050239">meta</a>
+
+Eric Wong writes:
+
+<span
+class="q">&gt; Btw, is this tool something you find useful?  I&#39;ll consider
+&gt; making it part of a local tool I&#39;m brainstorming...
+</span>
+I found it very helpful when I made a mistake with a custom filter I use
+to remove the footer at &lt;<a
+href="https://yhetil.org/notmuch">https://yhetil.org/notmuch</a>&gt;.  The footer used
+by the list changed at some point.  I updated the filter and restarted
+-watch without thinking about what would happen with the messages that
+were already in the maildir.  (I keep messages around for ~10 days
+before deleting them.)  That led to a good number of duplicates.
+
+Aside from that, I&#39;ve run it a few times over the inboxes at
+&lt;<a
+href="https://yhetil.org">https://yhetil.org</a>&gt;, and it&#39;s turned up a couple of hits.  So, I&#39;ve
+found it useful, but in the hosting context.
+
+<a
+href=#m265db80560170d80120ded58be202599a65769f3
+id=e265db80560170d80120ded58be202599a65769f3>^</a> <a
+href="87y2k67ogi.fsf@kyleam.com/">permalink</a> <a
+href="87y2k67ogi.fsf@kyleam.com/raw">raw</a> <a
+href="87y2k67ogi.fsf@kyleam.com/#R">reply</a>	[relevance 6%]</pre><hr><pre><a
+href=#e65c525acb865df4c2db2ef5c78a364bb504376b0
+id=m65c525acb865df4c2db2ef5c78a364bb504376b0>*</a> <b>[PATCH] inboxwritable: fix From_ line unescaping</b>
+  2020-04-04  4:58  6% <a
+href="#m364da39d32f9d2b37d7113d0825900842781f2f6">From-munge not being reversed on mbox import</a> Kyle Meyer
+<b>@ 2020-04-04  6:20  0% ` Eric Wong</b>
+  <a
+href=#r65c525acb865df4c2db2ef5c78a364bb504376b0>0 siblings, 0 replies; 16+ results</a>
+From: Eric Wong @ 2020-04-04  6:20 UTC (<a
+href="20200404062003.GA23899@dcvr/">permalink</a> / <a
+href="20200404062003.GA23899@dcvr/raw">raw</a>)
+  To: Kyle Meyer; <b>+Cc:</b> <a
+href="https://public-inbox.org/meta/?t=20200404062003">meta</a>
+
+Kyle Meyer &lt;kyle@kyleam.com&gt; wrote:
+<span
+class="q">&gt; I&#39;m feeding mbox files created with Konstantin Ryabitsev&#39;s
+&gt; list-archive-maker.py script [^1] to import_vger_from_mbox.  Looking
+&gt; through the result, I noticed some &#34;&gt;From&#34; lines.  Here&#39;s an example:
+&gt; 
+&gt;   <a
+href="https://yhetil.org/orgmode/871rpt9zc4.fsf@kyleam.com/">https://yhetil.org/orgmode/871rpt9zc4.fsf@kyleam.com/</a>
+&gt; 
+&gt; If I&#39;m following the code correctly, that leads to an import_mbox call,
+&gt; which in turn calls mb_add:
+&gt; 
+&gt;    sub mb_add ($$$$) {
+&gt;        my ($im, $variant, $filter, $msg) = @_;
+&gt;        $$msg =~ s/(\r?\n)+\z/$1/s;
+&gt;        my $mime = PublicInbox::MIME-&gt;new($msg);
+&gt;        if ($variant eq &#39;mboxrd&#39;) {
+&gt;                $$msg =~ s/^&gt;(&gt;*From )/$1/sm;
+&gt;        } elsif ($variant eq &#39;mboxo&#39;) {
+&gt;                $$msg =~ s/^&gt;From /From /sm;
+&gt;        }
+&gt;    [...]
+</span>
+Yup, and that&#39;s buggy on first sight.  My fault :x
+
+<span
+class="q">&gt; So, it appears the &#34;&gt;From&#34; _should_ be getting reversed.  To eliminate
+&gt; any stupid things I may have done when creating the archive, I looked
+&gt; for a message on meta that has an in-body line starting with &#34;From&#34; and
+&gt; found
+&gt; 
+&gt;   <a
+href="https://public-inbox.org/meta/20200121222924.ioz5ve2sg65zcuoy@chatter.i7.local/">https://public-inbox.org/meta/20200121222924.ioz5ve2sg65zcuoy@chatter.i7.local/</a>
+&gt; 
+&gt; So I downloaded the public-inbox generated mbox and fed it to
+&gt; import_vger_from_mbox:
+&gt; 
+&gt;   curl -s <a
+href="https://public-inbox.org/meta/20200121222924.ioz5ve2sg65zcuoy@chatter.i7.local/t.mbox.gz">https://public-inbox.org/meta/20200121222924.ioz5ve2sg65zcuoy@chatter.i7.local/t.mbox.gz</a> \
+&gt;    | zcat | scripts/import_vger_from_mbox testing emacs-orgmode@gnu.org ~/inboxes/testing
+&gt; 
+&gt; That too leaves a &#34;&gt;From&#34; in the body:
+&gt; 
+&gt;   <a
+href="https://yhetil.org/testing/20200121222924.ioz5ve2sg65zcuoy@chatter.i7.local/">https://yhetil.org/testing/20200121222924.ioz5ve2sg65zcuoy@chatter.i7.local/</a>
+</span>
+Thanks for the reproducible test case.  A fix is below
+(only tested with your case, nothing in t/*.t yet)
+
+<span
+class="q">&gt; Any idea what&#39;s going wrong here?
+</span>
+Two bugs, actually, but one affected your case.
+
+<span
+class="q">&gt; [^1]: <a
+href="https://git.kernel.org/pub/scm/linux/kernel/git/mricon/korg-helpers.git/plain/list-archive-maker.py">https://git.kernel.org/pub/scm/linux/kernel/git/mricon/korg-helpers.git/plain/list-archive-maker.py</a>
+</span>
+Can you confirm the following fixes things for you?
+Thanks again for the excellent bug report and apologies for
+my careless bug :x
+
+----8&lt;----
+From: Eric Wong &lt;e@yhbt.net&gt;
+Date: Sat, 04 Apr 2020 06:17:29 +0000
+Subject: [PATCH] inboxwritable: fix From_ line unescaping
+
+We can&#39;t rely on Email::MIME noticing the change to our
+scalar ref after calling `PublicInbox::MIME-&gt;new&#39;.
+
+This is because Email::MIME::body_set (unlike
+Email::Simple::body_set) will copy the contents of the body into
+`-&gt;{body_raw}&#39; as a new scalar.
+
+Furthermore, we need to escape multiple From lines in the body,
+not just the first one, using the `g&#39; modifier to `s//&#39;.
+
+Reported-by: Kyle Meyer &lt;kyle@kyleam.com&gt;
+---
+ <a
+id=iZ320200404062003.GA23899::40dcvr:1lib:PublicInbox:InboxWritable.pm
+href=#Z320200404062003.GA23899::40dcvr:1lib:PublicInbox:InboxWritable.pm>lib/PublicInbox/InboxWritable.pm</a> | 6 +++---
+ 1 file <a href="#e65c525acb865df4c2db2ef5c78a364bb504376b0">changed</a>, 3 insertions(+), 3 deletions(-)
+
+<span
+class="head"><a
+href=#iZ320200404062003.GA23899::40dcvr:1lib:PublicInbox:InboxWritable.pm
+id=Z320200404062003.GA23899::40dcvr:1lib:PublicInbox:InboxWritable.pm>diff</a> --git a/lib/PublicInbox/InboxWritable.pm b/lib/PublicInbox/InboxWritable.pm
+index ce979ea2..f2ba21fc 100644
+--- a/lib/PublicInbox/InboxWritable.pm
++++ b/lib/PublicInbox/InboxWritable.pm
+</span><span
+class="hunk">@@ -157,12 +157,12 @@ my $from_strict = qr/^From \S+ +\S+ \S+ +\S+ [^:]+:[^:]+:[^:]+ [^:]+/;
+</span> sub mb_add ($$$$) {
+ 	my ($im, $variant, $filter, $msg) = @_;
+ 	$$msg =~ s/(\r?\n)+\z/$1/s;
+<span
+class="del">-	my $mime = PublicInbox::MIME-&gt;new($msg);
+</span> 	if ($variant eq &#39;mboxrd&#39;) {
+<span
+class="del">-		$$msg =~ s/^&gt;(&gt;*From )/$1/sm;
+</span><span
+class="add">+		$$msg =~ s/^&gt;(&gt;*From )/$1/gms;
+</span> 	} elsif ($variant eq &#39;mboxo&#39;) {
+<span
+class="del">-		$$msg =~ s/^&gt;From /From /sm;
+</span><span
+class="add">+		$$msg =~ s/^&gt;From /From /gms;
+</span> 	}
+<span
+class="add">+	my $mime = PublicInbox::MIME-&gt;new($msg);
+</span> 	if ($filter) {
+ 		my $ret = $filter-&gt;scrub($mime) or return;
+ 		return if $ret == REJECT();
+
+<a
+href=#m65c525acb865df4c2db2ef5c78a364bb504376b0
+id=e65c525acb865df4c2db2ef5c78a364bb504376b0>^</a> <a
+href="20200404062003.GA23899@dcvr/">permalink</a> <a
+href="20200404062003.GA23899@dcvr/raw">raw</a> <a
+href="20200404062003.GA23899@dcvr/#R">reply</a> <a
+href="20200404062003.GA23899@dcvr/#related">related</a>	[relevance 0%]</pre><hr><pre><a
+href=#e364da39d32f9d2b37d7113d0825900842781f2f6
+id=m364da39d32f9d2b37d7113d0825900842781f2f6>*</a> <b>From-munge not being reversed on mbox import</b>
+<b>@ 2020-04-04  4:58  6% Kyle Meyer</b>
+  2020-04-04  6:20  0% ` <a
+href="#m65c525acb865df4c2db2ef5c78a364bb504376b0">[PATCH] inboxwritable: fix From_ line unescaping</a> Eric Wong
+  <a
+href=#r364da39d32f9d2b37d7113d0825900842781f2f6>0 siblings, 1 reply; 16+ results</a>
+From: Kyle Meyer @ 2020-04-04  4:58 UTC (<a
+href="87lfnb3kz8.fsf@kyleam.com/">permalink</a> / <a
+href="87lfnb3kz8.fsf@kyleam.com/raw">raw</a>)
+  To: <a
+href="https://public-inbox.org/meta/?t=20200404045854">meta</a>
+
+I&#39;m feeding mbox files created with Konstantin Ryabitsev&#39;s
+list-archive-maker.py script [^1] to import_vger_from_mbox.  Looking
+through the result, I noticed some &#34;&gt;From&#34; lines.  Here&#39;s an example:
+
+  <a
+href="https://yhetil.org/orgmode/871rpt9zc4.fsf@kyleam.com/">https://yhetil.org/orgmode/871rpt9zc4.fsf@kyleam.com/</a>
+
+If I&#39;m following the code correctly, that leads to an import_mbox call,
+which in turn calls mb_add:
+
+   sub mb_add ($$$$) {
+       my ($im, $variant, $filter, $msg) = @_;
+       $$msg =~ s/(\r?\n)+\z/$1/s;
+       my $mime = PublicInbox::MIME-&gt;new($msg);
+       if ($variant eq &#39;mboxrd&#39;) {
+               $$msg =~ s/^&gt;(&gt;*From )/$1/sm;
+       } elsif ($variant eq &#39;mboxo&#39;) {
+               $$msg =~ s/^&gt;From /From /sm;
+       }
+   [...]
+
+So, it appears the &#34;&gt;From&#34; _should_ be getting reversed.  To eliminate
+any stupid things I may have done when creating the archive, I looked
+for a message on meta that has an in-body line starting with &#34;From&#34; and
+found
+
+  <a
+href="https://public-inbox.org/meta/20200121222924.ioz5ve2sg65zcuoy@chatter.i7.local/">https://public-inbox.org/meta/20200121222924.ioz5ve2sg65zcuoy@chatter.i7.local/</a>
+
+So I downloaded the public-inbox generated mbox and fed it to
+import_vger_from_mbox:
+
+  curl -s <a
+href="https://public-inbox.org/meta/20200121222924.ioz5ve2sg65zcuoy@chatter.i7.local/t.mbox.gz">https://public-inbox.org/meta/20200121222924.ioz5ve2sg65zcuoy@chatter.i7.local/t.mbox.gz</a> \
+   | zcat | scripts/import_vger_from_mbox testing emacs-orgmode@gnu.org ~/inboxes/testing
+
+That too leaves a &#34;&gt;From&#34; in the body:
+
+  <a
+href="https://yhetil.org/testing/20200121222924.ioz5ve2sg65zcuoy@chatter.i7.local/">https://yhetil.org/testing/20200121222924.ioz5ve2sg65zcuoy@chatter.i7.local/</a>
+
+Any idea what&#39;s going wrong here?
+
+
+[^1]: <a
+href="https://git.kernel.org/pub/scm/linux/kernel/git/mricon/korg-helpers.git/plain/list-archive-maker.py">https://git.kernel.org/pub/scm/linux/kernel/git/mricon/korg-helpers.git/plain/list-archive-maker.py</a>
+
+<a
+href=#m364da39d32f9d2b37d7113d0825900842781f2f6
+id=e364da39d32f9d2b37d7113d0825900842781f2f6>^</a> <a
+href="87lfnb3kz8.fsf@kyleam.com/">permalink</a> <a
+href="87lfnb3kz8.fsf@kyleam.com/raw">raw</a> <a
+href="87lfnb3kz8.fsf@kyleam.com/#R">reply</a>	[relevance 6%]</pre></pre><hr><pre id=t>Results 1-16 of 16 | <a
+href="?q=yhetil&amp;o=-1&amp;x=t">reverse</a> | options <a href=#d>above</a></pre><pre>-- pct% links below jump to the message on this page, permalinks otherwise --
+2020-04-04  4:58  6% <a
+href="#m364da39d32f9d2b37d7113d0825900842781f2f6"
+id=r364da39d32f9d2b37d7113d0825900842781f2f6>From-munge not being reversed on mbox import</a> Kyle Meyer
+2020-04-04  6:20  0% ` <a
+href="#m65c525acb865df4c2db2ef5c78a364bb504376b0"
+id=r65c525acb865df4c2db2ef5c78a364bb504376b0>[PATCH] inboxwritable: fix From_ line unescaping</a> Eric Wong
+2020-10-16  2:08     <a
+href="20201016020852.27823-1-kyle@kyleam.com/">[PATCH] scripts/dupe-finder: restore $dbh variable</a> Kyle Meyer
+2020-10-16  4:23     ` <a
+href="20201016042325.GA61717@dcvr/">Eric Wong</a>
+2020-10-16  5:02  6%   ` <a
+href="#m265db80560170d80120ded58be202599a65769f3"
+id=r265db80560170d80120ded58be202599a65769f3>Kyle Meyer</a>
+2020-12-03  4:59  6% <a
+href="#m28b94acc74bd8e24b5e374e1720b40a8bd534e7c"
+id=r28b94acc74bd8e24b5e374e1720b40a8bd534e7c>missing messages in thread overview</a> Kyle Meyer
+2020-12-03 20:19  0% ` <a
+href="#m844f334cd5b79623c011f18a3b525b2f2f874a25"
+id=r844f334cd5b79623c011f18a3b525b2f2f874a25>Eric Wong</a>
+2021-01-23 10:27     <a
+href="20210123102755.425-1-e@80x24.org/">[PATCH 00/10] lei: externals more stuff</a> Eric Wong
+2021-01-23 10:27     ` <a
+href="20210123102755.425-3-e@80x24.org/">[PATCH 02/10] lei: support remote externals</a> Eric Wong
+2021-01-24  6:01  7%   ` <a
+href="#macca47b687468f5566005eca8b0b681f5ed57b55"
+id=racca47b687468f5566005eca8b0b681f5ed57b55>Kyle Meyer</a>
+2021-01-24 12:02  0%     ` <a
+href="#m56195429e14ae0120ed48ebc10aee7b7fdc51f2b"
+id=r56195429e14ae0120ed48ebc10aee7b7fdc51f2b>Eric Wong</a>
+2021-04-09  2:11  5% <a
+href="#m6394555b89f9f941e505a49734ff7ee1fb249563"
+id=r6394555b89f9f941e505a49734ff7ee1fb249563>archive links broken with obfuscate=true</a> Kyle Meyer
+2021-04-09 10:21  0% ` <a
+href="#m1a0e39cbbc7b1bdbee17293cfd11b12d08752541"
+id=r1a0e39cbbc7b1bdbee17293cfd11b12d08752541>Eric Wong</a>
+2021-04-09 22:45       ` <a
+href="87zgy7rs9q.fsf@kyleam.com/">Kyle Meyer</a>
+2021-04-09 23:37         ` <a
+href="20210409233700.GA11190@dcvr/">Eric Wong</a>
+2021-04-10  4:06           ` <a
+href="87sg3ysrzu.fsf@kyleam.com/">Kyle Meyer</a>
+2021-04-10  5:15             ` <a
+href="20210410051550.GA4654@dcvr/">Eric Wong</a>
+2021-04-10 19:49  4%           ` <a
+href="#m30d0f23aa5b3f6ec54313b5f24ee797e7aeaee39"
+id=r30d0f23aa5b3f6ec54313b5f24ee797e7aeaee39>Kyle Meyer</a>
+2022-01-07 11:38  5% <a
+href="#mafaeb8b9f9e682cd171715fd2d3c4792c1633270"
+id=rafaeb8b9f9e682cd171715fd2d3c4792c1633270>convert mail content in git repo to mbox format</a> SAIFI
+2022-01-12  2:41  0% ` <a
+href="#m1f8020c0fa0ba9196b2625a9db67df2ea2e80f55"
+id=r1f8020c0fa0ba9196b2625a9db67df2ea2e80f55>Kyle Meyer</a>
+2023-02-04 17:25  6% <a
+href="#mc2d4f50c9bf8450405b56d3b6066c9d7cf4c596a"
+id=rc2d4f50c9bf8450405b56d3b6066c9d7cf4c596a>future date in Date header pinning thread to top of $inbox/</a> Kyle Meyer
+2023-02-04 20:41  0% ` <a
+href="#m66365ec29767eb819c297e2222e78f5f404010a3"
+id=r66365ec29767eb819c297e2222e78f5f404010a3>[PATCH] www: sort all /$INBOX/ topics by Received: timestamp</a> Eric Wong
+2025-10-13 21:41     <a
+href="878qhewkbn.fsf@kyleam.com/">httpd error: Can&#39;t locate object method &#34;event_step&#34;</a> Kyle Meyer
+2025-10-13 22:06     ` <a
+href="20251013220626.M169806@dcvr/">Eric Wong</a>
+2025-10-14  5:03  5%   ` <a
+href="#md5e644cc797878379359160bf81796cd3b2af7d7"
+id=rd5e644cc797878379359160bf81796cd3b2af7d7>Kyle Meyer</a>
+2026-03-30 19:42     <a
+href="fhy5rzmmpk2r4fbu5mbekxijsnj5eohvhehlfqoelfd6dpvhak@n7ddkz5untr5/">List of known public accessible public-inbox instances?</a> Matthias Beyer
+2026-03-31  8:45     ` <a
+href="20260331084505Z.100710340-stepnem@smrk.net/">&#352;t&#283;p&#225;n N&#283;mec</a>
+2026-04-01 21:55       ` <a
+href="20260401215512.M987430@dcvr/">Eric Wong</a>
+2026-04-01 23:40  4%     ` <a
+href="#m21679680277a6966be74eb867f0a1352af373a53"
+id=r21679680277a6966be74eb867f0a1352af373a53>&#352;t&#283;p&#225;n N&#283;mec</a>
+<hr><pre><a id=code>Code repositories for project(s) associated with this public inbox
+
+	<a
+href="https://80x24.org/public-inbox.git">https://80x24.org/public-inbox.git</a>
+
+This is a public inbox, see <a
+href="_/text/mirror/">mirroring instructions</a>
+for how to clone and mirror all data and code used for this inbox;
+as well as URLs for read-only IMAP folder(s) and NNTP newsgroup(s).</pre></body></html>

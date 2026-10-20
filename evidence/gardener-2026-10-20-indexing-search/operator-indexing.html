@@ -1,0 +1,1010 @@
+<html><head><title>f:kyle@kyleam.com reindex - search results</title><link
+rel=alternate
+title="Atom feed"
+href="?q=f:kyle@kyleam.com+reindex&amp;x=A"
+type="application/atom+xml"/><style>@import url("216light.css?69d631d8") screen AND (prefers-color-scheme:light);*{overflow-wrap:anywhere;font-size:100%;font-family:monospace}</style><link
+type=text/css
+rel=stylesheet
+media=screen
+href=216dark.css?69d631d8 /><link
+type=text/css
+rel=stylesheet
+href=216light.css?69d631d8
+media=print /></head><body><form
+action="./"><pre><a
+href="?t=20220803235016"><b>user/dev discussion of public-inbox itself</b></a>
+<input
+name=q
+type=text
+value="f:kyle@kyleam.com reindex" /><input
+type=hidden
+name=x
+value="t" /><input
+type=submit
+value=search /> <a
+href="_/text/help/">help</a> / <a
+href="_/text/color/">color</a> / <a
+id=mirror
+href="_/text/mirror/">mirror</a> / <a
+href=#code>code</a> / <a
+href="?q=f:kyle@kyleam.com+reindex&amp;x=A">Atom feed</a></pre></form><form
+id=d
+action="?q=f:kyle@kyleam.com+reindex&amp;x=m"
+method=post><pre>Search results ordered by [<b>date</b>|<a
+href="?q=f:kyle@kyleam.com+reindex&amp;r&amp;x=t">relevance</a>]  view[<a
+href="?q=f:kyle@kyleam.com+reindex">summary</a>|<b>nested</b>|<a
+href="?q=f:kyle@kyleam.com+reindex&amp;x=A">Atom feed</a>]
+thread overview <a
+href=#t>below</a> | download mbox.gz: <input
+type=submit
+name=z
+value="results only"/>|<input
+type=submit
+name=x
+value="full threads"/></pre></form><pre><a
+href=#e9f61df04b5a20981757358c69f0131ecba4b2f9a
+id=m9f61df04b5a20981757358c69f0131ecba4b2f9a>*</a> <b>Re: [PATCH 0/4] use ALL to speedup -nntpd and -imapd</b>
+  <b>@ 2022-08-03 23:50 20% ` Kyle Meyer</b>
+  <a
+href=#r9f61df04b5a20981757358c69f0131ecba4b2f9a>0 siblings, 0 replies; 5+ results</a>
+From: Kyle Meyer @ 2022-08-03 23:50 UTC (<a
+href="87fsicq43x.fsf@kyleam.com/">permalink</a> / <a
+href="87fsicq43x.fsf@kyleam.com/raw">raw</a>)
+  To: Eric Wong; <b>+Cc:</b> <a
+href="https://public-inbox.org/meta/?t=20220803235016">meta</a>
+
+Eric Wong writes:
+
+<span
+class="q">&gt; Just a normal &#34;public-inbox-extindex --all&#34; invocation should be
+&gt; enough to trigger these optimizations, no --reindex necessary.
+&gt;
+&gt; -imapd startup is around ~3x faster, NNTP LIST is ~40x faster.
+</span>
+Nice, thank you!
+
+<a
+href=#m9f61df04b5a20981757358c69f0131ecba4b2f9a
+id=e9f61df04b5a20981757358c69f0131ecba4b2f9a>^</a> <a
+href="87fsicq43x.fsf@kyleam.com/">permalink</a> <a
+href="87fsicq43x.fsf@kyleam.com/raw">raw</a> <a
+href="87fsicq43x.fsf@kyleam.com/#R">reply</a>	[relevance 20%]</pre><hr><pre><a
+href=#e165adaeb128d5edf5404fa5fc7852d36a714d77d
+id=m165adaeb128d5edf5404fa5fc7852d36a714d77d>*</a> <b>[PATCH 2/9] doc: split option variants into separate items</b>
+  <b>@ 2021-05-17  3:35 11% ` Kyle Meyer</b>
+  <a
+href=#r165adaeb128d5edf5404fa5fc7852d36a714d77d>0 siblings, 0 replies; 5+ results</a>
+From: Kyle Meyer @ 2021-05-17  3:35 UTC (<a
+href="20210517033528.18966-3-kyle@kyleam.com/">permalink</a> / <a
+href="20210517033528.18966-3-kyle@kyleam.com/raw">raw</a>)
+  To: <a
+href="https://public-inbox.org/meta/?t=20210517033546">meta</a>
+
+e226f18934eb7291 modified the lei-q manpage so that each variant of an
+option gets a dedicated =item to make L&lt;/--xyz&gt; look nicer and to
+follow the Perl core documentation.  Do the same for the other
+manpages.
+
+Note that this still leaves the variants of an option grouped in one
+scenario: when a list of options without descriptions is presented as
+a pointer to another location.  Splitting the variants in that case
+would make it harder for the reader to tell what the distinct options
+are.
+---
+ <a
+id=iZ320210517033528.18966-3-kyle::40kyleam.com:1Documentation:lei-add-external.pod
+href=#Z320210517033528.18966-3-kyle::40kyleam.com:1Documentation:lei-add-external.pod>Documentation/lei-add-external.pod</a>      | 12 +++++++++---
+ <a
+id=iZ320210517033528.18966-3-kyle::40kyleam.com:1Documentation:lei-blob.pod
+href=#Z320210517033528.18966-3-kyle::40kyleam.com:1Documentation:lei-blob.pod>Documentation/lei-blob.pod</a>              | 24 ++++++++++++++++++------
+ <a
+id=iZ320210517033528.18966-3-kyle::40kyleam.com:1Documentation:lei-forget-external.pod
+href=#Z320210517033528.18966-3-kyle::40kyleam.com:1Documentation:lei-forget-external.pod>Documentation/lei-forget-external.pod</a>   |  4 +++-
+ <a
+id=iZ320210517033528.18966-3-kyle::40kyleam.com:1Documentation:lei-import.pod
+href=#Z320210517033528.18966-3-kyle::40kyleam.com:1Documentation:lei-import.pod>Documentation/lei-import.pod</a>            |  4 +++-
+ <a
+id=iZ320210517033528.18966-3-kyle::40kyleam.com:1Documentation:lei-init.pod
+href=#Z320210517033528.18966-3-kyle::40kyleam.com:1Documentation:lei-init.pod>Documentation/lei-init.pod</a>              |  4 +++-
+ <a
+id=iZ320210517033528.18966-3-kyle::40kyleam.com:1Documentation:lei-ls-external.pod
+href=#Z320210517033528.18966-3-kyle::40kyleam.com:1Documentation:lei-ls-external.pod>Documentation/lei-ls-external.pod</a>       |  8 ++++++--
+ <a
+id=iZ320210517033528.18966-3-kyle::40kyleam.com:1Documentation:lei-ls-label.pod
+href=#Z320210517033528.18966-3-kyle::40kyleam.com:1Documentation:lei-ls-label.pod>Documentation/lei-ls-label.pod</a>          |  8 ++++++--
+ <a
+id=iZ320210517033528.18966-3-kyle::40kyleam.com:1Documentation:lei-p2q.pod
+href=#Z320210517033528.18966-3-kyle::40kyleam.com:1Documentation:lei-p2q.pod>Documentation/lei-p2q.pod</a>               |  8 ++++++--
+ <a
+id=iZ320210517033528.18966-3-kyle::40kyleam.com:1Documentation:lei-tag.pod
+href=#Z320210517033528.18966-3-kyle::40kyleam.com:1Documentation:lei-tag.pod>Documentation/lei-tag.pod</a>               |  8 ++++++--
+ <a
+id=iZ320210517033528.18966-3-kyle::40kyleam.com:1Documentation:public-inbox-compact.pod
+href=#Z320210517033528.18966-3-kyle::40kyleam.com:1Documentation:public-inbox-compact.pod>Documentation/public-inbox-compact.pod</a>  |  6 +++++-
+ <a
+id=iZ320210517033528.18966-3-kyle::40kyleam.com:1Documentation:public-inbox-convert.pod
+href=#Z320210517033528.18966-3-kyle::40kyleam.com:1Documentation:public-inbox-convert.pod>Documentation/public-inbox-convert.pod</a>  |  4 +++-
+ <a
+id=iZ320210517033528.18966-3-kyle::40kyleam.com:1Documentation:public-inbox-daemon.pod
+href=#Z320210517033528.18966-3-kyle::40kyleam.com:1Documentation:public-inbox-daemon.pod>Documentation/public-inbox-daemon.pod</a>   | 16 ++++++++++++----
+ <a
+id=iZ320210517033528.18966-3-kyle::40kyleam.com:1Documentation:public-inbox-extindex.pod
+href=#Z320210517033528.18966-3-kyle::40kyleam.com:1Documentation:public-inbox-extindex.pod>Documentation/public-inbox-extindex.pod</a> |  4 +++-
+ <a
+id=iZ320210517033528.18966-3-kyle::40kyleam.com:1Documentation:public-inbox-imapd.pod
+href=#Z320210517033528.18966-3-kyle::40kyleam.com:1Documentation:public-inbox-imapd.pod>Documentation/public-inbox-imapd.pod</a>    |  4 +++-
+ <a
+id=iZ320210517033528.18966-3-kyle::40kyleam.com:1Documentation:public-inbox-index.pod
+href=#Z320210517033528.18966-3-kyle::40kyleam.com:1Documentation:public-inbox-index.pod>Documentation/public-inbox-index.pod</a>    | 12 +++++++++---
+ <a
+id=iZ320210517033528.18966-3-kyle::40kyleam.com:1Documentation:public-inbox-init.pod
+href=#Z320210517033528.18966-3-kyle::40kyleam.com:1Documentation:public-inbox-init.pod>Documentation/public-inbox-init.pod</a>     | 20 +++++++++++++++-----
+ <a
+id=iZ320210517033528.18966-3-kyle::40kyleam.com:1Documentation:public-inbox-nntpd.pod
+href=#Z320210517033528.18966-3-kyle::40kyleam.com:1Documentation:public-inbox-nntpd.pod>Documentation/public-inbox-nntpd.pod</a>    |  4 +++-
+ <a
+id=iZ320210517033528.18966-3-kyle::40kyleam.com:1Documentation:public-inbox-xcpdb.pod
+href=#Z320210517033528.18966-3-kyle::40kyleam.com:1Documentation:public-inbox-xcpdb.pod>Documentation/public-inbox-xcpdb.pod</a>    | 14 +++++++++++---
+ 18 files <a href="#e165adaeb128d5edf5404fa5fc7852d36a714d77d">changed</a>, 124 insertions(+), 40 deletions(-)
+
+<span
+class="head"><a
+href=#iZ320210517033528.18966-3-kyle::40kyleam.com:1Documentation:lei-add-external.pod
+id=Z320210517033528.18966-3-kyle::40kyleam.com:1Documentation:lei-add-external.pod>diff</a> --git a/Documentation/lei-add-external.pod b/Documentation/lei-add-external.pod
+index ad0e1d07..71229865 100644
+--- a/Documentation/lei-add-external.pod
++++ b/Documentation/lei-add-external.pod
+</span><span
+class="hunk">@@ -30,11 +30,15 @@ Default: 0
+</span> 
+ Create C&lt;LOCATION&gt; by mirroring the public-inbox at C&lt;URL&gt;.
+ 
+<span
+class="del">-=item -v, --verbose
+</span><span
+class="add">+=item -v
++
++=item --verbose
+</span> 
+ Provide more feedback on stderr.
+ 
+<span
+class="del">-=item -q, --quiet
+</span><span
+class="add">+=item -q
++
++=item --quiet
+</span> 
+ Suppress feedback messages.
+ 
+<span
+class="hunk">@@ -44,7 +48,9 @@ Suppress feedback messages.
+</span> 
+ =over
+ 
+<span
+class="del">-=item --torsocks=auto|no|yes, --no-torsocks
+</span><span
+class="add">+=item --torsocks=auto|no|yes
++
++=item --no-torsocks
+</span> 
+ Whether to wrap L&lt;git(1)&gt; and L&lt;curl(1)&gt; commands with torsocks.
+ 
+<span
+class="head"><a
+href=#iZ320210517033528.18966-3-kyle::40kyleam.com:1Documentation:lei-blob.pod
+id=Z320210517033528.18966-3-kyle::40kyleam.com:1Documentation:lei-blob.pod>diff</a> --git a/Documentation/lei-blob.pod b/Documentation/lei-blob.pod
+index 341b5505..76918324 100644
+--- a/Documentation/lei-blob.pod
++++ b/Documentation/lei-blob.pod
+</span><span
+class="hunk">@@ -31,15 +31,21 @@ Do not look in the git repository of the current working directory.
+</span> Do not look in mail storage for C&lt;OID&gt;.  This is implied by
+ C&lt;--oid-a&gt;, C&lt;--path-a&gt;, and C&lt;--path-b&gt;.
+ 
+<span
+class="del">-=item -A OID-A, --oid-a=OID-A
+</span><span
+class="add">+=item -A OID-A
++
++=item --oid-a=OID-A
+</span> 
+ Provide pre-image object ID as a hint for reconstructing C&lt;OID&gt;.
+ 
+<span
+class="del">-=item -a PATH-A, --path-a=PATH-A
+</span><span
+class="add">+=item -a PATH-A
++
++=item --path-a=PATH-A
+</span> 
+ Provide pre-image pathname as a hint for reconstructing C&lt;OID&gt;.
+ 
+<span
+class="del">-=item -b PATH-B, --path-b=PATH-B
+</span><span
+class="add">+=item -b PATH-B
++
++=item --path-b=PATH-B
+</span> 
+ Provide post-image pathname as a hint for reconstructing C&lt;OID&gt;.
+ 
+<span
+class="hunk">@@ -61,7 +67,9 @@ Limit operations to those requiring network access.
+</span> 
+ Don&#39;t include results from externals.
+ 
+<span
+class="del">-=item -I LOCATION, --include=LOCATION
+</span><span
+class="add">+=item -I LOCATION
++
++=item --include=LOCATION
+</span> 
+ Include specified external in search.  This option may be given
+ multiple times.
+<span
+class="hunk">@@ -81,11 +89,15 @@ multiple times, in which case the search uses only the specified set.
+</span> Disable the default behavior of memoizing remote messages into the
+ local store.
+ 
+<span
+class="del">-=item -v, --verbose
+</span><span
+class="add">+=item -v
++
++=item --verbose
+</span> 
+ Provide more feedback on stderr.
+ 
+<span
+class="del">-=item --torsocks=auto|no|yes, --no-torsocks
+</span><span
+class="add">+=item --torsocks=auto|no|yes
++
++=item --no-torsocks
+</span> 
+ Whether to wrap L&lt;git(1)&gt; and L&lt;curl(1)&gt; commands with torsocks.
+ 
+<span
+class="head"><a
+href=#iZ320210517033528.18966-3-kyle::40kyleam.com:1Documentation:lei-forget-external.pod
+id=Z320210517033528.18966-3-kyle::40kyleam.com:1Documentation:lei-forget-external.pod>diff</a> --git a/Documentation/lei-forget-external.pod b/Documentation/lei-forget-external.pod
+index 0d065a76..e0e3b8e1 100644
+--- a/Documentation/lei-forget-external.pod
++++ b/Documentation/lei-forget-external.pod
+</span><span
+class="hunk">@@ -16,7 +16,9 @@ future search results.
+</span> 
+ =over
+ 
+<span
+class="del">-=item -q, --quiet
+</span><span
+class="add">+=item -q
++
++=item --quiet
+</span> 
+ Suppress feedback messages.
+ 
+<span
+class="head"><a
+href=#iZ320210517033528.18966-3-kyle::40kyleam.com:1Documentation:lei-import.pod
+id=Z320210517033528.18966-3-kyle::40kyleam.com:1Documentation:lei-import.pod>diff</a> --git a/Documentation/lei-import.pod b/Documentation/lei-import.pod
+index 5b6a6f26..1fe2dac3 100644
+--- a/Documentation/lei-import.pod
++++ b/Documentation/lei-import.pod
+</span><span
+class="hunk">@@ -24,7 +24,9 @@ C&lt;mboxcl2&gt;, C&lt;mboxcl&gt;, or C&lt;mboxo&gt;.
+</span> 
+ =over
+ 
+<span
+class="del">-=item -F MAIL_FORMAT, --in-format=MAIL_FORMAT
+</span><span
+class="add">+=item -F MAIL_FORMAT
++
++=item --in-format=MAIL_FORMAT
+</span> 
+ Message input format.  Unless messages are given on stdin, using a
+ format prefix with C&lt;LOCATION&gt; is preferred.
+<span
+class="head"><a
+href=#iZ320210517033528.18966-3-kyle::40kyleam.com:1Documentation:lei-init.pod
+id=Z320210517033528.18966-3-kyle::40kyleam.com:1Documentation:lei-init.pod>diff</a> --git a/Documentation/lei-init.pod b/Documentation/lei-init.pod
+index 54ae9dbe..4bfc3b9f 100644
+--- a/Documentation/lei-init.pod
++++ b/Documentation/lei-init.pod
+</span><span
+class="hunk">@@ -17,7 +17,9 @@ location.
+</span> 
+ =over
+ 
+<span
+class="del">-=item -q, --quiet
+</span><span
+class="add">+=item -q
++
++=item --quiet
+</span> 
+ Suppress feedback messages.
+ 
+<span
+class="head"><a
+href=#iZ320210517033528.18966-3-kyle::40kyleam.com:1Documentation:lei-ls-external.pod
+id=Z320210517033528.18966-3-kyle::40kyleam.com:1Documentation:lei-ls-external.pod>diff</a> --git a/Documentation/lei-ls-external.pod b/Documentation/lei-ls-external.pod
+index 124b7763..4c0c263d 100644
+--- a/Documentation/lei-ls-external.pod
++++ b/Documentation/lei-ls-external.pod
+</span><span
+class="hunk">@@ -15,7 +15,9 @@ to matching entries.
+</span> 
+ =over
+ 
+<span
+class="del">-=item -g, --globoff
+</span><span
+class="add">+=item -g
++
++=item --globoff
+</span> 
+ Do not match C&lt;FILTER&gt; using C&lt;*?&gt; wildcards and C&lt;[]&gt; ranges.
+ 
+<span
+class="hunk">@@ -27,7 +29,9 @@ Limit operations to the local filesystem.
+</span> 
+ Limit operations to those requiring network access.
+ 
+<span
+class="del">-=item -z, -0
+</span><span
+class="add">+=item -z
++
++=item -0
+</span> 
+ Use C&lt;\0&gt; (NUL) instead of newline (CR) to delimit lines.
+ 
+<span
+class="head"><a
+href=#iZ320210517033528.18966-3-kyle::40kyleam.com:1Documentation:lei-ls-label.pod
+id=Z320210517033528.18966-3-kyle::40kyleam.com:1Documentation:lei-ls-label.pod>diff</a> --git a/Documentation/lei-ls-label.pod b/Documentation/lei-ls-label.pod
+index df100a24..41aa030d 100644
+--- a/Documentation/lei-ls-label.pod
++++ b/Documentation/lei-ls-label.pod
+</span><span
+class="hunk">@@ -14,11 +14,15 @@ List all known message labels (&#34;mailboxes&#34; in JMAP terminology).
+</span> 
+ =over
+ 
+<span
+class="del">-=item -z, -0
+</span><span
+class="add">+=item -z
++
++=item -0
+</span> 
+ Use C&lt;\0&gt; (NUL) instead of newline (CR) to delimit lines.
+ 
+<span
+class="del">-=item -q, --quiet
+</span><span
+class="add">+=item -q
++
++=item --quiet
+</span> 
+ Suppress feedback messages.
+ 
+<span
+class="head"><a
+href=#iZ320210517033528.18966-3-kyle::40kyleam.com:1Documentation:lei-p2q.pod
+id=Z320210517033528.18966-3-kyle::40kyleam.com:1Documentation:lei-p2q.pod>diff</a> --git a/Documentation/lei-p2q.pod b/Documentation/lei-p2q.pod
+index fc85fa88..f404ede0 100644
+--- a/Documentation/lei-p2q.pod
++++ b/Documentation/lei-p2q.pod
+</span><span
+class="hunk">@@ -23,7 +23,9 @@ L&lt;git-format-patch(1)&gt; is used to generate the patch.
+</span> 
+ =over
+ 
+<span
+class="del">-=item -w PREFIX[,PREFIX], --want=PREFIX[,PREFIX]
+</span><span
+class="add">+=item -w PREFIX[,PREFIX]
++
++=item --want=PREFIX[,PREFIX]
+</span> 
+ Search prefixes to use.  C&lt;dfpost&gt; (post-image git blob ID) and C&lt;dfn&gt;
+ (file names from the diff) are the most useful.  Other available
+<span
+class="hunk">@@ -54,7 +56,9 @@ Dump output that shows the information collected for every prefix.
+</span> This information can be useful for seeing how a patch is processed,
+ but the format should not be considered stable.
+ 
+<span
+class="del">-=item -q, --quiet
+</span><span
+class="add">+=item -q
++
++=item --quiet
+</span> 
+ Suppress feedback messages.
+ 
+<span
+class="head"><a
+href=#iZ320210517033528.18966-3-kyle::40kyleam.com:1Documentation:lei-tag.pod
+id=Z320210517033528.18966-3-kyle::40kyleam.com:1Documentation:lei-tag.pod>diff</a> --git a/Documentation/lei-tag.pod b/Documentation/lei-tag.pod
+index 5282b3d2..b2509ba4 100644
+--- a/Documentation/lei-tag.pod
++++ b/Documentation/lei-tag.pod
+</span><span
+class="hunk">@@ -26,14 +26,18 @@ specified messages, and &#34;-L:INBOX&#34; would remove the &#34;INBOX&#34; label.
+</span> 
+ =over
+ 
+<span
+class="del">-=item -F MAIL_FORMAT, --in-format=MAIL_FORMAT
+</span><span
+class="add">+=item -F MAIL_FORMAT
++
++=item --in-format=MAIL_FORMAT
+</span> 
+ Message input format: C&lt;eml&gt;, C&lt;mboxrd&gt;, C&lt;mboxcl2&gt;, C&lt;mboxcl&gt;, or
+ C&lt;mboxo&gt;.
+ 
+ Default: C&lt;eml&gt;
+ 
+<span
+class="del">-=item -q, --quiet
+</span><span
+class="add">+=item -q
++
++=item --quiet
+</span> 
+ Suppress feedback messages.
+ 
+<span
+class="head"><a
+href=#iZ320210517033528.18966-3-kyle::40kyleam.com:1Documentation:public-inbox-compact.pod
+id=Z320210517033528.18966-3-kyle::40kyleam.com:1Documentation:public-inbox-compact.pod>diff</a> --git a/Documentation/public-inbox-compact.pod b/Documentation/public-inbox-compact.pod
+index cf64fe0d..d2b74c86 100644
+--- a/Documentation/public-inbox-compact.pod
++++ b/Documentation/public-inbox-compact.pod
+</span><span
+class="hunk">@@ -34,7 +34,11 @@ Compact all inboxes configured in ~/.public-inbox/config.
+</span> This is an alternative to specifying individual inboxes directories
+ on the command-line.
+ 
+<span
+class="del">-=item --blocksize / --no-full / --fuller
+</span><span
+class="add">+=item --blocksize
++
++=item --no-full
++
++=item --fuller
+</span> 
+ These options are passed directly to L&lt;xapian-compact(1)&gt;.
+ 
+<span
+class="head"><a
+href=#iZ320210517033528.18966-3-kyle::40kyleam.com:1Documentation:public-inbox-convert.pod
+id=Z320210517033528.18966-3-kyle::40kyleam.com:1Documentation:public-inbox-convert.pod>diff</a> --git a/Documentation/public-inbox-convert.pod b/Documentation/public-inbox-convert.pod
+index b8c8d54f..a2f8caf5 100644
+--- a/Documentation/public-inbox-convert.pod
++++ b/Documentation/public-inbox-convert.pod
+</span><span
+class="hunk">@@ -25,7 +25,9 @@ By default, public-inbox-convert creates a new index in the
+</span> v2 inbox and indexes all existing messages, a lengthy
+ operation for large inboxes.
+ 
+<span
+class="del">-=item -j JOBS, --jobs=JOBS
+</span><span
+class="add">+=item -j JOBS
++
++=item --jobs=JOBS
+</span> 
+ Control the number of indexing jobs and Xapian shards of the v2
+ inbox.  By default, this is the detected CPU count but capped
+<span
+class="head"><a
+href=#iZ320210517033528.18966-3-kyle::40kyleam.com:1Documentation:public-inbox-daemon.pod
+id=Z320210517033528.18966-3-kyle::40kyleam.com:1Documentation:public-inbox-daemon.pod>diff</a> --git a/Documentation/public-inbox-daemon.pod b/Documentation/public-inbox-daemon.pod
+index 3bf95496..ec210efa 100644
+--- a/Documentation/public-inbox-daemon.pod
++++ b/Documentation/public-inbox-daemon.pod
+</span><span
+class="hunk">@@ -28,7 +28,9 @@ processes to take advantage of multiple CPUs.
+</span> 
+ =over
+ 
+<span
+class="del">-=item -l, --listen ADDRESS
+</span><span
+class="add">+=item -l ADDRESS
++
++=item --listen ADDRESS
+</span> 
+ This takes an absolute path to a Unix socket or HOST:PORT
+ to listen on.  For example, to listen to TCP connections on
+<span
+class="hunk">@@ -45,7 +47,9 @@ L&lt;systemd.socket(5)&gt; or similar
+</span> Default: server-dependent unless socket activation is used with
+ L&lt;systemd(1)&gt; or similar (see L&lt;systemd.socket(5)&gt;).
+ 
+<span
+class="del">-=item -1, --stdout PATH
+</span><span
+class="add">+=item -1
++
++=item --stdout PATH
+</span> 
+ Specify an appendable path to redirect stdout descriptor (1) to.
+ Using this is preferable to setting up the redirect externally
+<span
+class="hunk">@@ -54,11 +58,15 @@ SIGUSR1 to be handled (see L&lt;SIGNALS/SIGNALS&gt; below).
+</span> 
+ Default: /dev/null
+ 
+<span
+class="del">-=item -2, --stderr PATH
+</span><span
+class="add">+=item -2 PATH
++
++=item --stderr PATH
+</span> 
+ Like C&lt;--stdout&gt;, but for the stderr descriptor (2).
+ 
+<span
+class="del">-=item -W, --worker-processes
+</span><span
+class="add">+=item -W
++
++=item --worker-processes
+</span> 
+ Set the number of worker processes.
+ 
+<span
+class="head"><a
+href=#iZ320210517033528.18966-3-kyle::40kyleam.com:1Documentation:public-inbox-extindex.pod
+id=Z320210517033528.18966-3-kyle::40kyleam.com:1Documentation:public-inbox-extindex.pod>diff</a> --git a/Documentation/public-inbox-extindex.pod b/Documentation/public-inbox-extindex.pod
+index bed65272..fed5017b 100644
+--- a/Documentation/public-inbox-extindex.pod
++++ b/Documentation/public-inbox-extindex.pod
+</span><span
+class="hunk">@@ -23,7 +23,9 @@ along with L&lt;DBD::SQLite&gt; and L&lt;DBI&gt; Perl modules.
+</span> 
+ =over
+ 
+<span
+class="del">-=item --jobs=JOBS, -j
+</span><span
+class="add">+=item -j JOBS
++
++=item --jobs=JOBS
+</span> 
+ ... TODO, see L&lt;public-inbox-index(5)&gt;
+ 
+<span
+class="head"><a
+href=#iZ320210517033528.18966-3-kyle::40kyleam.com:1Documentation:public-inbox-imapd.pod
+id=Z320210517033528.18966-3-kyle::40kyleam.com:1Documentation:public-inbox-imapd.pod>diff</a> --git a/Documentation/public-inbox-imapd.pod b/Documentation/public-inbox-imapd.pod
+index 71e0ea7f..52df4d51 100644
+--- a/Documentation/public-inbox-imapd.pod
++++ b/Documentation/public-inbox-imapd.pod
+</span><span
+class="hunk">@@ -27,7 +27,9 @@ are supported and documented below.
+</span> 
+ =over
+ 
+<span
+class="del">-=item -l, --listen PROTO://ADDRESS/?cert=/path/to/cert,key=/path/to/key
+</span><span
+class="add">+=item -l PROTO://ADDRESS/?cert=/path/to/cert,key=/path/to/key
++
++=item --listen PROTO://ADDRESS/?cert=/path/to/cert,key=/path/to/key
+</span> 
+ In addition to the normal C&lt;-l&gt;/C&lt;--listen&gt; switch described in
+ L&lt;public-inbox-daemon(8)&gt;, the C&lt;PROTO&gt; prefix (e.g. C&lt;imap://&gt; or
+<span
+class="head"><a
+href=#iZ320210517033528.18966-3-kyle::40kyleam.com:1Documentation:public-inbox-index.pod
+id=Z320210517033528.18966-3-kyle::40kyleam.com:1Documentation:public-inbox-index.pod>diff</a> --git a/Documentation/public-inbox-index.pod b/Documentation/public-inbox-index.pod
+index 3bdd5efc..57fedb69 100644
+--- a/Documentation/public-inbox-index.pod
++++ b/Documentation/public-inbox-index.pod
+</span><span
+class="hunk">@@ -34,7 +34,9 @@ normal search functionality.
+</span> 
+ =over
+ 
+<span
+class="del">-=item --jobs=JOBS, -j
+</span><span
+class="add">+=item -j JOBS
++
++=item --jobs=JOBS
+</span> 
+ Influences the number of Xapian indexing shards in a
+ (L&lt;public-inbox-v2-format(5)&gt;) inbox.
+<span
+class="hunk">@@ -52,7 +54,9 @@ the overview and article number mapping).
+</span> 
+ Default: the number of existing Xapian shards
+ 
+<span
+class="del">-=item --compact / -c
+</span><span
+class="add">+=item -c
++
++=item --compact
+</span> 
+ Compacts the Xapian DBs after indexing.  This is recommended
+ when using C&lt;--reindex&gt; to avoid running out of disk space
+<span
+class="hunk">@@ -162,7 +166,9 @@ See L&lt;public-inbox-init(1)/--skip-docdata&gt; for description and caveats.
+</span> 
+ Available in public-inbox 1.6.0+.
+ 
+<span
+class="del">-=item --update-extindex=EXTINDEX, -E
+</span><span
+class="add">+=item -E EXTINDEX
++
++=item --update-extindex=EXTINDEX
+</span> 
+ Update the given external index (L&lt;public-inbox-extindex-format(5)&gt;.
+ Either the configured section name (e.g. C&lt;all&gt;) or a directory name
+<span
+class="head"><a
+href=#iZ320210517033528.18966-3-kyle::40kyleam.com:1Documentation:public-inbox-init.pod
+id=Z320210517033528.18966-3-kyle::40kyleam.com:1Documentation:public-inbox-init.pod>diff</a> --git a/Documentation/public-inbox-init.pod b/Documentation/public-inbox-init.pod
+index 5a875f9d..62624f14 100644
+--- a/Documentation/public-inbox-init.pod
++++ b/Documentation/public-inbox-init.pod
+</span><span
+class="hunk">@@ -20,7 +20,9 @@ may be specified for inboxes with multiple addresses.
+</span> 
+ =over
+ 
+<span
+class="del">-=item -V, --version FORMAT_VERSION
+</span><span
+class="add">+=item -V FORMAT_VERSION
++
++=item --version FORMAT_VERSION
+</span> 
+ Specify C&lt;2&gt; here to use the scalable L&lt;public-inbox-v2-format(5)&gt;
+ if you have L&lt;DBD::SQLite&gt; installed.
+<span
+class="hunk">@@ -31,7 +33,9 @@ L&lt;DBD::SQLite&gt;.
+</span> 
+ Default: C&lt;1&gt;
+ 
+<span
+class="del">-=item -L, --indexlevel &lt;basic|medium|full&gt;
+</span><span
+class="add">+=item -L &lt;basic|medium|full&gt;
++
++=item --indexlevel &lt;basic|medium|full&gt;
+</span> 
+ Controls the indexing level for L&lt;public-inbox-index(1)&gt;
+ 
+<span
+class="hunk">@@ -39,7 +43,9 @@ See L&lt;public-inbox-config(5)&gt; for more information.
+</span> 
+ Default: C&lt;full&gt;
+ 
+<span
+class="del">-=item --ng, --newsgroup NEWSGROUP
+</span><span
+class="add">+=item --ng NEWSGROUP
++
++=item --newsgroup NEWSGROUP
+</span> 
+ The NNTP group name for use with L&lt;public-inbox-nntpd(8)&gt;.  This
+ may be any newsgroup name with hierarchies delimited by C&lt;.&gt;.
+<span
+class="hunk">@@ -70,7 +76,9 @@ Available in public-inbox 1.6.0+.
+</span> 
+ Default: unset, no NNTP article numbers are skipped
+ 
+<span
+class="del">-=item -S, --skip-epoch
+</span><span
+class="add">+=item -S
++
++=item --skip-epoch
+</span> 
+ For C&lt;-V2&gt; (L&lt;public-inbox-v2-format(5)&gt;) inboxes only, this option
+ allows archivists to publish incomplete archives with newer
+<span
+class="hunk">@@ -81,7 +89,9 @@ Available since public-inbox 1.2.0.
+</span> 
+ Default: unset, no epochs are skipped
+ 
+<span
+class="del">-=item -j, --jobs=JOBS
+</span><span
+class="add">+=item -j JOBS
++
++=item --jobs=JOBS
+</span> 
+ Control the number of Xapian index shards in a
+ C&lt;-V2&gt; (L&lt;public-inbox-v2-format(5)&gt;) inbox.
+<span
+class="head"><a
+href=#iZ320210517033528.18966-3-kyle::40kyleam.com:1Documentation:public-inbox-nntpd.pod
+id=Z320210517033528.18966-3-kyle::40kyleam.com:1Documentation:public-inbox-nntpd.pod>diff</a> --git a/Documentation/public-inbox-nntpd.pod b/Documentation/public-inbox-nntpd.pod
+index 83f7c83a..651428ab 100644
+--- a/Documentation/public-inbox-nntpd.pod
++++ b/Documentation/public-inbox-nntpd.pod
+</span><span
+class="hunk">@@ -26,7 +26,9 @@ are supported and documented below.
+</span> 
+ =over
+ 
+<span
+class="del">-=item -l, --listen PROTO://ADDRESS/?cert=/path/to/cert,key=/path/to/key
+</span><span
+class="add">+=item -l PROTO://ADDRESS/?cert=/path/to/cert,key=/path/to/key
++
++=item --listen PROTO://ADDRESS/?cert=/path/to/cert,key=/path/to/key
+</span> 
+ In addition to the normal C&lt;-l&gt;/C&lt;--listen&gt; switch described in
+ L&lt;public-inbox-daemon(8)&gt;, the protocol prefix (e.g. C&lt;nntp://&gt; or
+<span
+class="head"><a
+href=#iZ320210517033528.18966-3-kyle::40kyleam.com:1Documentation:public-inbox-xcpdb.pod
+id=Z320210517033528.18966-3-kyle::40kyleam.com:1Documentation:public-inbox-xcpdb.pod>diff</a> --git a/Documentation/public-inbox-xcpdb.pod b/Documentation/public-inbox-xcpdb.pod
+index eb675965..e7c07ed3 100644
+--- a/Documentation/public-inbox-xcpdb.pod
++++ b/Documentation/public-inbox-xcpdb.pod
+</span><span
+class="hunk">@@ -30,7 +30,9 @@ Copy all inboxes configured in ~/.public-inbox/config.
+</span> This is an alternative to specifying individual inboxes directories
+ on the command-line.
+ 
+<span
+class="del">-=item -c, --compact
+</span><span
+class="add">+=item -c
++
++=item --compact
+</span> 
+ In addition to performing the copy operation, run L&lt;xapian-compact(1)&gt;
+ on each Xapian shard after copying but before finalizing it.
+<span
+class="hunk">@@ -42,7 +44,9 @@ preferable for gigantic inboxes where the coarse-grained lock
+</span> currently required for L&lt;public-inbox-compact(1)&gt; can cause
+ the compaction to take hours at-a-time.
+ 
+<span
+class="del">-=item --reshard=N / -R N
+</span><span
+class="add">+=item -R N
++
++=item --reshard=N
+</span> 
+ Reshard the Xapian database on a L&lt;v2|public-inbox-v2-format(5)&gt;
+ inbox to C&lt;N&gt; shards .  Since L&lt;xapian-compact(1)&gt; is not suitable
+<span
+class="hunk">@@ -52,7 +56,11 @@ existing Xapian database(s) to any positive value of C&lt;N&gt;.
+</span> This is useful in case the Xapian DB was created with too few or
+ too many shards given the capabilities of the current hardware.
+ 
+<span
+class="del">-=item --blocksize / --no-full / --fuller
+</span><span
+class="add">+=item --blocksize
++
++=item --no-full
++
++=item --fuller
+</span> 
+ These options are passed directly to L&lt;xapian-compact(1)&gt; when
+ used with C&lt;--compact&gt;.
+-- 
+2.31.1
+
+
+<a
+href=#m165adaeb128d5edf5404fa5fc7852d36a714d77d
+id=e165adaeb128d5edf5404fa5fc7852d36a714d77d>^</a> <a
+href="20210517033528.18966-3-kyle@kyleam.com/">permalink</a> <a
+href="20210517033528.18966-3-kyle@kyleam.com/raw">raw</a> <a
+href="20210517033528.18966-3-kyle@kyleam.com/#R">reply</a> <a
+href="20210517033528.18966-3-kyle@kyleam.com/#related">related</a>	[relevance 11%]</pre><hr><pre><a
+href=#e28b94acc74bd8e24b5e374e1720b40a8bd534e7c
+id=m28b94acc74bd8e24b5e374e1720b40a8bd534e7c>*</a> <b>missing messages in thread overview</b>
+<b>@ 2020-12-03  4:59 21% Kyle Meyer</b>
+  <a
+href=#r28b94acc74bd8e24b5e374e1720b40a8bd534e7c>0 siblings, 0 replies; 5+ results</a>
+From: Kyle Meyer @ 2020-12-03  4:59 UTC (<a
+href="87360nlc44.fsf@kyleam.com/">permalink</a> / <a
+href="87360nlc44.fsf@kyleam.com/raw">raw</a>)
+  To: <a
+href="https://public-inbox.org/meta/?t=20201203045825">meta</a>
+
+
+I noticed a thread today that is missing messages in the thread
+overview.  In the top-level inbox, all the messages are there:
+
+  [bug#45000] [PATCH 0/9] Build git-annex with assistant webapp enabled
+   2020-12-02 11:17 UTC  (11+ messages) - mbox.gz / Atom
+  ` [bug#45000] [PATCH 1/9] gnu: Add ghc-yesod-test
+    ` [bug#45000] [PATCH 2/9] gnu: Add ghc-wai-app-static
+    ` [bug#45000] [PATCH 3/9] gnu: Add ghc-yesod-static
+    ` [bug#45000] [PATCH 4/9] gnu: Add ghc-cryptonite-conduit
+    ` [bug#45000] [PATCH 5/9] gnu: ghc-yesod-core: Update to 1.6.18.6
+    ` [bug#45000] [PATCH 6/9] gnu: Add ghc-hjsmin
+    ` [bug#45000] [PATCH 7/9] gnu: Add ghc-template-haskell
+    ` [bug#45000] [PATCH 8/9] gnu: Add ghc-boot-th
+    ` [bug#45000] [PATCH 9/9] gnu: git-annex: Build with git-annex assistant webapp enabled
+
+However, when I click through, the thread overview is missing five
+messages:
+
+  Thread overview: 6+ messages (download: mbox.gz / follow: Atom feed)
+  -- links below jump to the message on this page --
+  2020-12-02  4:53 [bug#45000] [PATCH 0/9] Build git-annex with assistant webapp enabled Jonathan Frederickson
+  2020-12-02  4:55 ` [bug#45000] [PATCH 1/9] gnu: Add ghc-yesod-test Jonathan Frederickson
+  2020-12-02  4:55   ` [bug#45000] [PATCH 2/9] gnu: Add ghc-wai-app-static Jonathan Frederickson
+  2020-12-02  4:55   ` [bug#45000] [PATCH 7/9] gnu: Add ghc-template-haskell Jonathan Frederickson
+  2020-12-02  4:55   ` [bug#45000] [PATCH 9/9] gnu: git-annex: Build with git-annex assistant webapp enabled Jonathan Frederickson
+  2020-12-02 11:17 ` [bug#45000] [PATCH 0/9] Build git-annex with &#34; zimoun
+
+<a
+href="https://yhetil.org/guix-patches/86sg8o1mou.fsf@gmail.com/T/#t">https://yhetil.org/guix-patches/86sg8o1mou.fsf@gmail.com/T/#t</a>
+
+The same subset of messages are in the thread&#39;s mbox:
+
+  $ curl -fSsL <a
+href="https://yhetil.org/guix-patches/86sg8o1mou.fsf@gmail.com/t.mbox.gz">https://yhetil.org/guix-patches/86sg8o1mou.fsf@gmail.com/t.mbox.gz</a> \
+    | gzip -d | grep -i ^subject
+  Subject: [bug#45000] [PATCH 0/9] Build git-annex with assistant webapp enabled
+  Subject: [bug#45000] [PATCH 1/9] gnu: Add ghc-yesod-test.
+  Subject: [bug#45000] [PATCH 7/9] gnu: Add ghc-template-haskell.
+  Subject: [bug#45000] [PATCH 9/9] gnu: git-annex: Build with git-annex
+  Subject: [bug#45000] [PATCH 2/9] gnu: Add ghc-wai-app-static.
+  Subject: [bug#45000] [PATCH 0/9] Build git-annex with assistant webapp enabled
+
+I collected the complete thread (currently eleven messages) and used
+scripts/import_vger_from_mbox to create a separate inbox at
+&lt;<a
+href="https://yhetil.org/debug-gap/">https://yhetil.org/debug-gap/</a>&gt;.  As before, the top-level listing shows
+all the patches, and the thread overview is still missing some, though
+different ones:
+
+  2020-12-02  4:53 [bug#45000] [PATCH 0/9] Build git-annex with assistant webapp enabled Jonathan Frederickson
+  2020-12-02 11:17 ` zimoun
+  2020-12-02  4:55 [bug#45000] [PATCH 1/9] gnu: Add ghc-yesod-test Jonathan Frederickson
+  2020-12-02  4:55 ` [bug#45000] [PATCH 3/9] gnu: Add ghc-yesod-static Jonathan Frederickson
+  2020-12-02  4:55 ` [bug#45000] [PATCH 4/9] gnu: Add ghc-cryptonite-conduit Jonathan Frederickson
+  2020-12-02  4:55 ` [bug#45000] [PATCH 5/9] gnu: ghc-yesod-core: Update to 1.6.18.6 Jonathan Frederickson
+  2020-12-02  4:55 ` [bug#45000] [PATCH 6/9] gnu: Add ghc-hjsmin Jonathan Frederickson
+  2020-12-02  4:55 ` [bug#45000] [PATCH 8/9] gnu: Add ghc-boot-th Jonathan Frederickson
+
+On rethreading with `public-inbox-index -c --reindex --rethread&#39;, the
+thread overview looks like this:
+
+  2020-12-02  4:53 [bug#45000] [PATCH 0/9] Build git-annex with assistant webapp enabled Jonathan Frederickson
+  2020-12-02 11:17 ` zimoun
+
+All of the above is with a recent commit on master,
+v1.6.0-149-g4cc4ad59.
+
+Any ideas what might be going on here?
+
+<a
+href=#m28b94acc74bd8e24b5e374e1720b40a8bd534e7c
+id=e28b94acc74bd8e24b5e374e1720b40a8bd534e7c>^</a> <a
+href="87360nlc44.fsf@kyleam.com/">permalink</a> <a
+href="87360nlc44.fsf@kyleam.com/raw">raw</a> <a
+href="87360nlc44.fsf@kyleam.com/#R">reply</a>	[relevance 21%]</pre><hr><pre><a
+href=#e7717d7f4828bb0aab2e26b3ea5532b5d2c59e67b
+id=m7717d7f4828bb0aab2e26b3ea5532b5d2c59e67b>*</a> <b>Re: [PATCH 0/5] &#34;mairix -t&#34; workalike for mbox.gz downloads</b>
+  <b>@ 2020-08-22 21:04 20%       ` Kyle Meyer</b>
+  <a
+href=#r7717d7f4828bb0aab2e26b3ea5532b5d2c59e67b>0 siblings, 0 replies; 5+ results</a>
+From: Kyle Meyer @ 2020-08-22 21:04 UTC (<a
+href="871rjycrz4.fsf@kyleam.com/">permalink</a> / <a
+href="871rjycrz4.fsf@kyleam.com/raw">raw</a>)
+  To: Eric Wong; <b>+Cc:</b> <a
+href="https://public-inbox.org/meta/?t=20200822210437">meta</a>
+
+Eric Wong writes:
+
+<span
+class="q">&gt; Kyle Meyer &lt;kyle@kyleam.com&gt; wrote:
+&gt;&gt; 
+&gt;&gt; Oops, the few times I&#39;ve used --reindex I don&#39;t think I&#39;ve given order
+&gt;&gt; much thought.  Is it accurate to say that &#34;restart services then
+&gt;&gt; --reindex&#34; is the recommended order in general?
+&gt;
+&gt; Not really.  In the distant past (pre-SCHEMA_VERSION=15), it was
+&gt; actually index (no need for --reindex) then restart daemons,
+&gt; because the daemons were running on SCHEMA_VERSION=14 (or
+&gt; whatever was before).
+&gt;
+&gt; This order is only needed since we&#39;re trying to stick to
+&gt; SCHEMA_VERSION=15 to avoid the space penalty of parallel
+&gt; versions.
+</span>
+Got it.  Thanks.
+
+<a
+href=#m7717d7f4828bb0aab2e26b3ea5532b5d2c59e67b
+id=e7717d7f4828bb0aab2e26b3ea5532b5d2c59e67b>^</a> <a
+href="871rjycrz4.fsf@kyleam.com/">permalink</a> <a
+href="871rjycrz4.fsf@kyleam.com/raw">raw</a> <a
+href="871rjycrz4.fsf@kyleam.com/#R">reply</a>	[relevance 20%]</pre><hr><pre><a
+href=#eac1205ab124b23d14551e3bf3e3509d7a250cd75
+id=mac1205ab124b23d14551e3bf3e3509d7a250cd75>*</a> <b>Re: [PATCH 0/5] &#34;mairix -t&#34; workalike for mbox.gz downloads</b>
+  <b>@ 2020-08-22 20:12 29%   ` Kyle Meyer</b>
+    <a
+href=#rac1205ab124b23d14551e3bf3e3509d7a250cd75>0 siblings, 1 reply; 5+ results</a>
+From: Kyle Meyer @ 2020-08-22 20:12 UTC (<a
+href="874koucue1.fsf@kyleam.com/">permalink</a> / <a
+href="874koucue1.fsf@kyleam.com/raw">raw</a>)
+  To: Eric Wong; <b>+Cc:</b> <a
+href="https://public-inbox.org/meta/?t=20200822201230">meta</a>
+
+Eric Wong writes:
+
+<span
+class="q">&gt; Eric Wong &lt;e@yhbt.net&gt; wrote:
+&gt;&gt; It requires &#34;public-inbox-index --reindex&#34; to activate;
+&gt;&gt; but PATCH 5/5 makes it safe to upgrade WWW either before
+&gt;&gt; or after --reindex.  That means BOFHs can upgrade without
+&gt;&gt; regard to ordering.
+&gt;
+&gt; public-inbox-watch users will need to restart -watch before
+&gt; --reindex, though.  Don&#39;t think that&#39;s avoidable...
+</span>
+Oops, the few times I&#39;ve used --reindex I don&#39;t think I&#39;ve given order
+much thought.  Is it accurate to say that &#34;restart services then
+--reindex&#34; is the recommended order in general?
+
+<a
+href=#mac1205ab124b23d14551e3bf3e3509d7a250cd75
+id=eac1205ab124b23d14551e3bf3e3509d7a250cd75>^</a> <a
+href="874koucue1.fsf@kyleam.com/">permalink</a> <a
+href="874koucue1.fsf@kyleam.com/raw">raw</a> <a
+href="874koucue1.fsf@kyleam.com/#R">reply</a>	[relevance 29%]</pre></pre><hr><pre id=t>Results 1-5 of 5 | <a
+href="?q=f:kyle@kyleam.com+reindex&amp;o=-1&amp;x=t">reverse</a> | options <a href=#d>above</a></pre><pre>-- pct% links below jump to the message on this page, permalinks otherwise --
+2020-08-22  6:06     <a
+href="20200822060627.15595-1-e@yhbt.net/">[PATCH 0/5] &#34;mairix -t&#34; workalike for mbox.gz downloads</a> Eric Wong
+2020-08-22  6:42     ` <a
+href="20200822064237.GA15720@dcvr/">Eric Wong</a>
+2020-08-22 20:12 29%   ` <a
+href="#mac1205ab124b23d14551e3bf3e3509d7a250cd75"
+id=rac1205ab124b23d14551e3bf3e3509d7a250cd75>Kyle Meyer</a>
+2020-08-22 20:30         ` <a
+href="20200822203034.GA27004@dcvr/">Eric Wong</a>
+2020-08-22 21:04 20%       ` <a
+href="#m7717d7f4828bb0aab2e26b3ea5532b5d2c59e67b"
+id=r7717d7f4828bb0aab2e26b3ea5532b5d2c59e67b>Kyle Meyer</a>
+2020-12-03  4:59 21% <a
+href="#m28b94acc74bd8e24b5e374e1720b40a8bd534e7c"
+id=r28b94acc74bd8e24b5e374e1720b40a8bd534e7c>missing messages in thread overview</a> Kyle Meyer
+2021-05-17  3:35     <a
+href="20210517033528.18966-1-kyle@kyleam.com/">[PATCH 0/9] doc: lei manpages, round 5</a> Kyle Meyer
+2021-05-17  3:35 11% ` <a
+href="#m165adaeb128d5edf5404fa5fc7852d36a714d77d"
+id=r165adaeb128d5edf5404fa5fc7852d36a714d77d>[PATCH 2/9] doc: split option variants into separate items</a> Kyle Meyer
+2022-08-03 20:03     <a
+href="20220803200357.1322670-1-e@80x24.org/">[PATCH 0/4] use ALL to speedup -nntpd and -imapd</a> Eric Wong
+2022-08-03 23:50 20% ` <a
+href="#m9f61df04b5a20981757358c69f0131ecba4b2f9a"
+id=r9f61df04b5a20981757358c69f0131ecba4b2f9a>Kyle Meyer</a>
+<hr><pre><a id=code>Code repositories for project(s) associated with this public inbox
+
+	<a
+href="https://80x24.org/public-inbox.git">https://80x24.org/public-inbox.git</a>
+
+This is a public inbox, see <a
+href="_/text/mirror/">mirroring instructions</a>
+for how to clone and mirror all data and code used for this inbox;
+as well as URLs for read-only IMAP folder(s) and NNTP newsgroup(s).</pre></body></html>

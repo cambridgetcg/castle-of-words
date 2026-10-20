@@ -1,0 +1,35 @@
+{
+  "courtyard.md": {
+    "sha256": "85de7ad460730ee3f3b848c3aac35c8375029a1a550f810555858b57b068c5f1",
+    "bytes": 89
+  },
+  "questions.md": {
+    "sha256": "53b77fd4fd1806c22869cd90d21160945df8f22151d5dc71d09bc7e06605d137",
+    "bytes": 667587
+  },
+  "quests.md": {
+    "sha256": "3495d0f9eaa1b9cdcf01a72cad0aa4b4ae8f3e6b9aab70fea8ad4ad017b94245",
+    "bytes": 157014
+  },
+  "gate.md": {
+    "sha256": "3f5a2d23795f6201b542fc999235a16d2d35f8ab93f0fc5e9fad305c0371b90a",
+    "bytes": 409573
+  },
+  "chronicle.md": {
+    "sha256": "97ef0f11a5bc8d28a5b10504e97c25695c96065b6f1edf2e9a2149aeefaa3bea",
+    "bytes": 818556
+  },
+  "rooms/what-the-gaps-can-say.md": {
+    "sha256": "e082e7343a9a95ed02fb0581b6cc77cb6d443d332e4a12a331dae5181737524f",
+    "bytes": 231568
+  },
+  "words/mail-ingestion.md": {
+    "sha256": "4df7e68fb2e09402a495186dbfeb26c2d5e77d261dd3759869fc792bdd3c6547",
+    "bytes": 2958
+  },
+  "words/freshness-target.md": {
+    "sha256": "7c1c5247cd4b6839d5ef888d35f9b1107f437b6791bf484e7f929aaffb4d6a4a",
+    "bytes": 1672
+  },
+  "captured_utc": "2026-10-20T14:21:39.556701+00:00"
+}

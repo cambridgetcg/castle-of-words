@@ -1,0 +1,1904 @@
+<html><head><title>f:kyle@kyleam.com watch - search results</title><link
+rel=alternate
+title="Atom feed"
+href="?q=f:kyle@kyleam.com+watch&amp;x=A"
+type="application/atom+xml"/><style>@import url("216light.css?69d631d8") screen AND (prefers-color-scheme:light);*{overflow-wrap:anywhere;font-size:100%;font-family:monospace}</style><link
+type=text/css
+rel=stylesheet
+media=screen
+href=216dark.css?69d631d8 /><link
+type=text/css
+rel=stylesheet
+href=216light.css?69d631d8
+media=print /></head><body><form
+action="./"><pre><a
+href="?t=20251013201534"><b>user/dev discussion of public-inbox itself</b></a>
+<input
+name=q
+type=text
+value="f:kyle@kyleam.com watch" /><input
+type=hidden
+name=x
+value="t" /><input
+type=submit
+value=search /> <a
+href="_/text/help/">help</a> / <a
+href="_/text/color/">color</a> / <a
+id=mirror
+href="_/text/mirror/">mirror</a> / <a
+href=#code>code</a> / <a
+href="?q=f:kyle@kyleam.com+watch&amp;x=A">Atom feed</a></pre></form><form
+id=d
+action="?q=f:kyle@kyleam.com+watch&amp;x=m"
+method=post><pre>Search results ordered by [<b>date</b>|<a
+href="?q=f:kyle@kyleam.com+watch&amp;r&amp;x=t">relevance</a>]  view[<a
+href="?q=f:kyle@kyleam.com+watch">summary</a>|<b>nested</b>|<a
+href="?q=f:kyle@kyleam.com+watch&amp;x=A">Atom feed</a>]
+thread overview <a
+href=#t>below</a> | download mbox.gz: <input
+type=submit
+name=z
+value="results only"/>|<input
+type=submit
+name=x
+value="full threads"/></pre></form><pre><a
+href=#e55b0683b22747e0a8c44a373b8c3d4ff7287921e
+id=m55b0683b22747e0a8c44a373b8c3d4ff7287921e>*</a> <b>Re: [PATCH] doc: more updates ahead of 2.0.0 release</b>
+  <b>@ 2025-10-13 20:09 20% ` Kyle Meyer</b>
+  <a
+href=#r55b0683b22747e0a8c44a373b8c3d4ff7287921e>0 siblings, 0 replies; 17+ results</a>
+From: Kyle Meyer @ 2025-10-13 20:09 UTC (<a
+href="87ecr6wolw.fsf@kyleam.com/">permalink</a> / <a
+href="87ecr6wolw.fsf@kyleam.com/raw">raw</a>)
+  To: Eric Wong; <b>+Cc:</b> <a
+href="https://public-inbox.org/meta/?t=20251013201534">meta</a>
+
+Hi Eric,
+
+Thanks for all your work on this release.
+
+Eric Wong writes:
+
+<span
+class="q">&gt; +  * publicinbox.*.watch=false can prevents attempted writes due to
+</span>
+s/prevents/prevent/
+
+<span
+class="q">&gt; +  * --commit=SECONDS adjust commit interval to increase or decrease
+</span>
+s/adjust/adjusts/
+
+<a
+href=#m55b0683b22747e0a8c44a373b8c3d4ff7287921e
+id=e55b0683b22747e0a8c44a373b8c3d4ff7287921e>^</a> <a
+href="87ecr6wolw.fsf@kyleam.com/">permalink</a> <a
+href="87ecr6wolw.fsf@kyleam.com/raw">raw</a> <a
+href="87ecr6wolw.fsf@kyleam.com/#R">reply</a>	[relevance 20%]</pre><hr><pre><a
+href=#ea5fafdf5a1ce52d2a66494caf1f8bf97f503eba8
+id=ma5fafdf5a1ce52d2a66494caf1f8bf97f503eba8>*</a> <b>Re: [PATCH 2/2] doc: lei: add manpages for remaining commands</b>
+  <b>@ 2021-10-16 15:13 19%     ` Kyle Meyer</b>
+  <a
+href=#ra5fafdf5a1ce52d2a66494caf1f8bf97f503eba8>0 siblings, 0 replies; 17+ results</a>
+From: Kyle Meyer @ 2021-10-16 15:13 UTC (<a
+href="87lf2t0zq2.fsf@kyleam.com/">permalink</a> / <a
+href="87lf2t0zq2.fsf@kyleam.com/raw">raw</a>)
+  To: Eric Wong; <b>+Cc:</b> <a
+href="https://public-inbox.org/meta/?t=20211016151345">meta</a>
+
+Eric Wong writes:
+
+<span
+class="q">&gt;&gt; @@ -47,6 +53,7 @@ Documentation/lei-q.pod
+&gt;&gt;  Documentation/lei-rediff.pod
+&gt;&gt;  Documentation/lei-refresh-mail-sync.pod
+&gt;&gt;  Documentation/lei-rm.pod
+&gt;&gt; +Documentation/lei-rm-watch.pod
+&gt;&gt;  Documentation/lei-security.pod
+&gt;&gt;  Documentation/lei-store-format.pod
+&gt;&gt;  Documentation/lei-tag.pod
+&gt;
+&gt; Curious, was that from `git ls-files &gt;MANIFEST&#39; ?
+</span>
+No, it wasn&#39;t.  I hadn&#39;t realized that the content of MANIFEST
+corresponded directly to git-ls-files output, but poking around I see
+there is even a check-manifest make target [*].  Doh.
+
+So, I manually added this one, like the others I added.  I think my past
+changes to this file have ended up in the expected order because I tend
+to run Emacs&#39;s sort-lines to check my manual placement, but I must not
+have done it here because sort-lines agrees with ls-files.
+
+[...]
+<span
+class="q">&gt; No big deal, I can just flip and push it; I just don&#39;t want a
+&gt; reproducibility issue popping up.
+</span>
+Thanks, sorry about the mix up.
+
+
+[*] I did run `make check&#39; before sending, and it looks like that also
+    checks MANIFEST _after_ running the test suite.  That didn&#39;t help me
+    catch the MANIFEST sorting issue in this case because the test suite
+    is failing on my end.
+
+    I believe these failures are recent and was planning on looking into
+    them today, either sending a patch or just reporting, depending on
+    whether I could figure out a fix.  Anyway, here they are:
+
+      t/psgi_multipart_not.t .......
+      ok 1 - use HTTP::Request::Common;
+      ok 2 - use Plack::Test;
+      ok 3 - use PublicInbox::WWW;
+      not ok 4 - /v2test/?q=%22ain&#39;t what it used to be%22&#38;x=t
+      not ok 5 - /v2test/?q=%22ain&#39;t what it used to be%22&#38;x=t warns
+      Failed 2/5 subtests
+
+
+
+<a
+href=#ma5fafdf5a1ce52d2a66494caf1f8bf97f503eba8
+id=ea5fafdf5a1ce52d2a66494caf1f8bf97f503eba8>^</a> <a
+href="87lf2t0zq2.fsf@kyleam.com/">permalink</a> <a
+href="87lf2t0zq2.fsf@kyleam.com/raw">raw</a> <a
+href="87lf2t0zq2.fsf@kyleam.com/#R">reply</a>	[relevance 19%]</pre><hr><pre><a
+href=#e6e1e38cd351b0aea662551856ee64be47dc3aafc
+id=m6e1e38cd351b0aea662551856ee64be47dc3aafc>*</a> <b>[PATCH 2/2] doc: lei: add manpages for remaining commands</b>
+  2021-10-16  5:39 28% <a
+href="#m1809cac941f536eda7304e7dce5a1fb9c3ebb19f">[PATCH 0/2] doc: lei manpages for remaining commands</a> Kyle Meyer
+<b>@ 2021-10-16  5:39 34% ` Kyle Meyer</b>
+    <a
+href=#r6e1e38cd351b0aea662551856ee64be47dc3aafc>0 siblings, 1 reply; 17+ results</a>
+From: Kyle Meyer @ 2021-10-16  5:39 UTC (<a
+href="20211016053944.494064-3-kyle@kyleam.com/">permalink</a> / <a
+href="20211016053944.494064-3-kyle@kyleam.com/raw">raw</a>)
+  To: <a
+href="https://public-inbox.org/meta/?t=20211016054016">meta</a>
+
+At this point all of the current lei commands, aside from -help and
+-sucks, should be covered.
+---
+ <a
+id=iZ320211016053944.494064-3-kyle::40kyleam.com:1Documentation:lei-add-watch.pod
+href=#Z320211016053944.494064-3-kyle::40kyleam.com:1Documentation:lei-add-watch.pod>Documentation/lei-add-watch.pod</a>         | 33 ++++++++++++++
+ <a
+id=iZ320211016053944.494064-3-kyle::40kyleam.com:1Documentation:lei-forget-mail-sync.pod
+href=#Z320211016053944.494064-3-kyle::40kyleam.com:1Documentation:lei-forget-mail-sync.pod>Documentation/lei-forget-mail-sync.pod</a>  | 31 +++++++++++++
+ <a
+id=iZ320211016053944.494064-3-kyle::40kyleam.com:1Documentation:lei-inspect.pod
+href=#Z320211016053944.494064-3-kyle::40kyleam.com:1Documentation:lei-inspect.pod>Documentation/lei-inspect.pod</a>           | 57 ++++++++++++++++++++++++
+ <a
+id=iZ320211016053944.494064-3-kyle::40kyleam.com:1Documentation:lei-ls-mail-source.pod
+href=#Z320211016053944.494064-3-kyle::40kyleam.com:1Documentation:lei-ls-mail-source.pod>Documentation/lei-ls-mail-source.pod</a>    | 58 +++++++++++++++++++++++++
+ <a
+id=iZ320211016053944.494064-3-kyle::40kyleam.com:1Documentation:lei-ls-mail-sync.pod
+href=#Z320211016053944.494064-3-kyle::40kyleam.com:1Documentation:lei-ls-mail-sync.pod>Documentation/lei-ls-mail-sync.pod</a>      |  2 +-
+ <a
+id=iZ320211016053944.494064-3-kyle::40kyleam.com:1Documentation:lei-ls-watch.pod
+href=#Z320211016053944.494064-3-kyle::40kyleam.com:1Documentation:lei-ls-watch.pod>Documentation/lei-ls-watch.pod</a>          | 29 +++++++++++++
+ <a
+id=iZ320211016053944.494064-3-kyle::40kyleam.com:1Documentation:lei-mail-diff.pod
+href=#Z320211016053944.494064-3-kyle::40kyleam.com:1Documentation:lei-mail-diff.pod>Documentation/lei-mail-diff.pod</a>         | 33 ++++++++++++++
+ <a
+id=iZ320211016053944.494064-3-kyle::40kyleam.com:1Documentation:lei-refresh-mail-sync.pod
+href=#Z320211016053944.494064-3-kyle::40kyleam.com:1Documentation:lei-refresh-mail-sync.pod>Documentation/lei-refresh-mail-sync.pod</a> |  2 +-
+ <a
+id=iZ320211016053944.494064-3-kyle::40kyleam.com:1Documentation:lei-rm-watch.pod
+href=#Z320211016053944.494064-3-kyle::40kyleam.com:1Documentation:lei-rm-watch.pod>Documentation/lei-rm-watch.pod</a>          | 30 +++++++++++++
+ <a
+id=iZ320211016053944.494064-3-kyle::40kyleam.com:1Documentation:lei.pod
+href=#Z320211016053944.494064-3-kyle::40kyleam.com:1Documentation:lei.pod>Documentation/lei.pod</a>                   | 14 ++++++
+ <a
+id=iZ320211016053944.494064-3-kyle::40kyleam.com:1Documentation:txt2pre
+href=#Z320211016053944.494064-3-kyle::40kyleam.com:1Documentation:txt2pre>Documentation/txt2pre</a>                   |  7 +++
+ <a
+id=iZ320211016053944.494064-3-kyle::40kyleam.com:1MANIFEST
+href=#Z320211016053944.494064-3-kyle::40kyleam.com:1MANIFEST>MANIFEST</a>                                |  7 +++
+ <a
+id=iZ320211016053944.494064-3-kyle::40kyleam.com:1Makefile.PL
+href=#Z320211016053944.494064-3-kyle::40kyleam.com:1Makefile.PL>Makefile.PL</a>                             | 12 ++---
+ 13 files <a href="#e6e1e38cd351b0aea662551856ee64be47dc3aafc">changed</a>, 307 insertions(+), 8 deletions(-)
+ create mode 100644 Documentation/lei-add-watch.pod
+ create mode 100644 Documentation/lei-forget-mail-sync.pod
+ create mode 100644 Documentation/lei-inspect.pod
+ create mode 100644 Documentation/lei-ls-mail-source.pod
+ create mode 100644 Documentation/lei-ls-watch.pod
+ create mode 100644 Documentation/lei-mail-diff.pod
+ create mode 100644 Documentation/lei-rm-watch.pod
+
+<span
+class="head"><a
+href=#iZ320211016053944.494064-3-kyle::40kyleam.com:1Documentation:lei-add-watch.pod
+id=Z320211016053944.494064-3-kyle::40kyleam.com:1Documentation:lei-add-watch.pod>diff</a> --git a/Documentation/lei-add-watch.pod b/Documentation/lei-add-watch.pod
+new file mode 100644
+index 00000000..60984618
+--- /dev/null
++++ b/Documentation/lei-add-watch.pod
+</span><span
+class="hunk">@@ -0,0 +1,33 @@
+</span><span
+class="add">+=head1 NAME
++
++lei-add-watch - watch for new messages and flag changes
++
++=head1 SYNOPSIS
++
++lei add-watch [OPTIONS] LOCATION [LOCATION...]
++
++=head1 DESCRIPTION
++
++Tell lei to watch C&lt;LOCATION&gt; for new messages and flag changes.
++Currently only Maildir locations are supported.
++
++=for comment
++TODO: Document --state?  Believe valid values are pause, import-ro,
++
++=head1 CONTACT
++
++Feedback welcome via plain-text mail to L&lt;mailto:meta@public-inbox.org&gt;
++
++The mail archives are hosted at L&lt;<a
+href="https://public-inbox.org/meta/">https://public-inbox.org/meta/</a>&gt; and
++L&lt;<a
+href="http://4uok3hntl7oi7b4uf4rtfwefqeexfzil2w6kgk2jn5z2f764irre7byd.onion/meta/">http://4uok3hntl7oi7b4uf4rtfwefqeexfzil2w6kgk2jn5z2f764irre7byd.onion/meta/</a>&gt;
++
++=head1 COPYRIGHT
++
++Copyright 2021 all contributors L&lt;mailto:meta@public-inbox.org&gt;
++
++License: AGPL-3.0+ L&lt;<a
+href="https://www.gnu.org/licenses/agpl-3.0.txt">https://www.gnu.org/licenses/agpl-3.0.txt</a>&gt;
++
++
++=head1 SEE ALSO
++
++L&lt;lei-ls-watch(1)&gt;, L&lt;lei-rm-watch(1)&gt;
+</span><span
+class="head"><a
+href=#iZ320211016053944.494064-3-kyle::40kyleam.com:1Documentation:lei-forget-mail-sync.pod
+id=Z320211016053944.494064-3-kyle::40kyleam.com:1Documentation:lei-forget-mail-sync.pod>diff</a> --git a/Documentation/lei-forget-mail-sync.pod b/Documentation/lei-forget-mail-sync.pod
+new file mode 100644
+index 00000000..e70b4d33
+--- /dev/null
++++ b/Documentation/lei-forget-mail-sync.pod
+</span><span
+class="hunk">@@ -0,0 +1,31 @@
+</span><span
+class="add">+=head1 NAME
++
++lei-forget-mail-sync - forget sync information for a mail folder
++
++=head1 SYNOPSIS
++
++lei forget-mail-sync [OPTIONS] LOCATION [LOCATION...]
++
++=head1 DESCRIPTION
++
++Forget synchronization information for C&lt;LOCATION&gt;, an IMAP or Maildir
++folder.  Note that this won&#39;t delete any messages stored in Git,
++leaving C&lt;lei-index(1)&gt; users with dangling references.
++
++=head1 CONTACT
++
++Feedback welcome via plain-text mail to L&lt;mailto:meta@public-inbox.org&gt;
++
++The mail archives are hosted at L&lt;<a
+href="https://public-inbox.org/meta/">https://public-inbox.org/meta/</a>&gt; and
++L&lt;<a
+href="http://4uok3hntl7oi7b4uf4rtfwefqeexfzil2w6kgk2jn5z2f764irre7byd.onion/meta/">http://4uok3hntl7oi7b4uf4rtfwefqeexfzil2w6kgk2jn5z2f764irre7byd.onion/meta/</a>&gt;
++
++=head1 COPYRIGHT
++
++Copyright 2021 all contributors L&lt;mailto:meta@public-inbox.org&gt;
++
++License: AGPL-3.0+ L&lt;<a
+href="https://www.gnu.org/licenses/agpl-3.0.txt">https://www.gnu.org/licenses/agpl-3.0.txt</a>&gt;
++
++
++=head1 SEE ALSO
++
++L&lt;lei-ls-mail-sync(1)&gt;, L&lt;lei-index(1)&gt;
+</span><span
+class="head"><a
+href=#iZ320211016053944.494064-3-kyle::40kyleam.com:1Documentation:lei-inspect.pod
+id=Z320211016053944.494064-3-kyle::40kyleam.com:1Documentation:lei-inspect.pod>diff</a> --git a/Documentation/lei-inspect.pod b/Documentation/lei-inspect.pod
+new file mode 100644
+index 00000000..19dd8ab5
+--- /dev/null
++++ b/Documentation/lei-inspect.pod
+</span><span
+class="hunk">@@ -0,0 +1,57 @@
+</span><span
+class="add">+=head1 NAME
++
++lei-inspect - general purpose inspector
++
++=head1 SYNOPSIS
++
++lei inspect [OPTIONS] ITEM [ITEM...]
++
++lei inspect [OPTIONS] (--stdin|-)
++
++=head1 DESCRIPTION
++
++This is a diagnostic command that provides a general purpose inspector
++of various things, including blobs, message IDs, Xapian document IDs,
++and mail sync sources.
++
++=head1 OPTIONS
++
++=over
++
++=item -d DIR
++
++=item --dir=DIR
++
++An inboxdir, extindex topdir, or Xapian shard
++
++=item --pretty
++
++Pretty print output.  If stdout is opened to a tty, C&lt;--pretty&gt; is
++enabled by default.
++
++=item -
++
++=item --stdin
++
++Read message from stdin.  This is implicit if no arguments are given
++and stdin is a pipe or regular file.
++
++=back
++
++=head1 CONTACT
++
++Feedback welcome via plain-text mail to L&lt;mailto:meta@public-inbox.org&gt;
++
++The mail archives are hosted at L&lt;<a
+href="https://public-inbox.org/meta/">https://public-inbox.org/meta/</a>&gt; and
++L&lt;<a
+href="http://4uok3hntl7oi7b4uf4rtfwefqeexfzil2w6kgk2jn5z2f764irre7byd.onion/meta/">http://4uok3hntl7oi7b4uf4rtfwefqeexfzil2w6kgk2jn5z2f764irre7byd.onion/meta/</a>&gt;
++
++=head1 COPYRIGHT
++
++Copyright 2021 all contributors L&lt;mailto:meta@public-inbox.org&gt;
++
++License: AGPL-3.0+ L&lt;<a
+href="https://www.gnu.org/licenses/agpl-3.0.txt">https://www.gnu.org/licenses/agpl-3.0.txt</a>&gt;
++
++
++=head1 SEE ALSO
++
++L&lt;lei-mail-diff(1)&gt;
+</span><span
+class="head"><a
+href=#iZ320211016053944.494064-3-kyle::40kyleam.com:1Documentation:lei-ls-mail-source.pod
+id=Z320211016053944.494064-3-kyle::40kyleam.com:1Documentation:lei-ls-mail-source.pod>diff</a> --git a/Documentation/lei-ls-mail-source.pod b/Documentation/lei-ls-mail-source.pod
+new file mode 100644
+index 00000000..926bbe2c
+--- /dev/null
++++ b/Documentation/lei-ls-mail-source.pod
+</span><span
+class="hunk">@@ -0,0 +1,58 @@
+</span><span
+class="add">+=head1 NAME
++
++lei-ls-mail-source - list IMAP or NNTP mail source folders
++
++=head1 SYNOPSIS
++
++lei ls-mail-source [OPTIONS] URL
++
++=head1 DESCRIPTION
++
++List information about the IMAP or NNTP mail source at C&lt;URL&gt;.
++
++=head1 OPTIONS
++
++=over
++
++=item -z
++
++=item -0
++
++Use C&lt;\0&gt; (NUL) instead of newline (CR) to delimit lines.
++
++=item -l
++
++Format output as JSON and include more information.
++
++=item --pretty
++
++Pretty print JSON output.  If stdout is opened to a tty, C&lt;--pretty&gt;
++is enabled by default.
++
++=item --ascii
++
++Escape non-ASCII characters.
++
++=item --url
++
++Show full URL of newsgroup or IMAP folder.
++
++=back
++
++=head1 CONTACT
++
++Feedback welcome via plain-text mail to L&lt;mailto:meta@public-inbox.org&gt;
++
++The mail archives are hosted at L&lt;<a
+href="https://public-inbox.org/meta/">https://public-inbox.org/meta/</a>&gt; and
++L&lt;<a
+href="http://4uok3hntl7oi7b4uf4rtfwefqeexfzil2w6kgk2jn5z2f764irre7byd.onion/meta/">http://4uok3hntl7oi7b4uf4rtfwefqeexfzil2w6kgk2jn5z2f764irre7byd.onion/meta/</a>&gt;
++
++=head1 COPYRIGHT
++
++Copyright 2021 all contributors L&lt;mailto:meta@public-inbox.org&gt;
++
++License: AGPL-3.0+ L&lt;<a
+href="https://www.gnu.org/licenses/agpl-3.0.txt">https://www.gnu.org/licenses/agpl-3.0.txt</a>&gt;
++
++
++=head1 SEE ALSO
++
++L&lt;lei-import(1)&gt;
+</span><span
+class="head"><a
+href=#iZ320211016053944.494064-3-kyle::40kyleam.com:1Documentation:lei-ls-mail-sync.pod
+id=Z320211016053944.494064-3-kyle::40kyleam.com:1Documentation:lei-ls-mail-sync.pod>diff</a> --git a/Documentation/lei-ls-mail-sync.pod b/Documentation/lei-ls-mail-sync.pod
+index 86aede40..883eeead 100644
+--- a/Documentation/lei-ls-mail-sync.pod
++++ b/Documentation/lei-ls-mail-sync.pod
+</span><span
+class="hunk">@@ -52,4 +52,4 @@ License: AGPL-3.0+ L&lt;<a
+href="https://www.gnu.org/licenses/agpl-3.0.txt">https://www.gnu.org/licenses/agpl-3.0.txt</a>&gt;
+</span> 
+ =head1 SEE ALSO
+ 
+<span
+class="del">-L&lt;lei-q(1)&gt;, L&lt;lei-up(1)&gt;
+</span><span
+class="add">+L&lt;lei-refresh-mail-sync(1)&gt;, L&lt;lei-export-kw(1)&gt;
+</span><span
+class="head"><a
+href=#iZ320211016053944.494064-3-kyle::40kyleam.com:1Documentation:lei-ls-watch.pod
+id=Z320211016053944.494064-3-kyle::40kyleam.com:1Documentation:lei-ls-watch.pod>diff</a> --git a/Documentation/lei-ls-watch.pod b/Documentation/lei-ls-watch.pod
+new file mode 100644
+index 00000000..b1681ee4
+--- /dev/null
++++ b/Documentation/lei-ls-watch.pod
+</span><span
+class="hunk">@@ -0,0 +1,29 @@
+</span><span
+class="add">+=head1 NAME
++
++lei-ls-watch - list active watches
++
++=head1 SYNOPSIS
++
++lei ls-watch
++
++=head1 DESCRIPTION
++
++List locations that lei is configured to watch.
++
++=head1 CONTACT
++
++Feedback welcome via plain-text mail to L&lt;mailto:meta@public-inbox.org&gt;
++
++The mail archives are hosted at L&lt;<a
+href="https://public-inbox.org/meta/">https://public-inbox.org/meta/</a>&gt; and
++L&lt;<a
+href="http://4uok3hntl7oi7b4uf4rtfwefqeexfzil2w6kgk2jn5z2f764irre7byd.onion/meta/">http://4uok3hntl7oi7b4uf4rtfwefqeexfzil2w6kgk2jn5z2f764irre7byd.onion/meta/</a>&gt;
++
++=head1 COPYRIGHT
++
++Copyright 2021 all contributors L&lt;mailto:meta@public-inbox.org&gt;
++
++License: AGPL-3.0+ L&lt;<a
+href="https://www.gnu.org/licenses/agpl-3.0.txt">https://www.gnu.org/licenses/agpl-3.0.txt</a>&gt;
++
++
++=head1 SEE ALSO
++
++L&lt;lei-add-watch(1)&gt;, L&lt;lei-rm-watch(1)&gt;
+</span><span
+class="head"><a
+href=#iZ320211016053944.494064-3-kyle::40kyleam.com:1Documentation:lei-mail-diff.pod
+id=Z320211016053944.494064-3-kyle::40kyleam.com:1Documentation:lei-mail-diff.pod>diff</a> --git a/Documentation/lei-mail-diff.pod b/Documentation/lei-mail-diff.pod
+new file mode 100644
+index 00000000..96e49a8b
+--- /dev/null
++++ b/Documentation/lei-mail-diff.pod
+</span><span
+class="hunk">@@ -0,0 +1,33 @@
+</span><span
+class="add">+=head1 NAME
++
++lei-mail-diff - diff the contents of emails
++
++=head1 SYNOPSIS
++
++
++lei mail-diff [OPTIONS] LOCATION
++
++lei mail-diff [OPTIONS] (--stdin|-)
++
++=head1 DESCRIPTION
++
++This is a diagnostic command that&#39;s useful for finding deduplication
++bugs.
++
++=head1 CONTACT
++
++Feedback welcome via plain-text mail to L&lt;mailto:meta@public-inbox.org&gt;
++
++The mail archives are hosted at L&lt;<a
+href="https://public-inbox.org/meta/">https://public-inbox.org/meta/</a>&gt; and
++L&lt;<a
+href="http://4uok3hntl7oi7b4uf4rtfwefqeexfzil2w6kgk2jn5z2f764irre7byd.onion/meta/">http://4uok3hntl7oi7b4uf4rtfwefqeexfzil2w6kgk2jn5z2f764irre7byd.onion/meta/</a>&gt;
++
++=head1 COPYRIGHT
++
++Copyright 2021 all contributors L&lt;mailto:meta@public-inbox.org&gt;
++
++License: AGPL-3.0+ L&lt;<a
+href="https://www.gnu.org/licenses/agpl-3.0.txt">https://www.gnu.org/licenses/agpl-3.0.txt</a>&gt;
++
++
++=head1 SEE ALSO
++
++L&lt;lei-inspect(1)&gt;
+</span><span
+class="head"><a
+href=#iZ320211016053944.494064-3-kyle::40kyleam.com:1Documentation:lei-refresh-mail-sync.pod
+id=Z320211016053944.494064-3-kyle::40kyleam.com:1Documentation:lei-refresh-mail-sync.pod>diff</a> --git a/Documentation/lei-refresh-mail-sync.pod b/Documentation/lei-refresh-mail-sync.pod
+index 92ca9044..65150ae3 100644
+--- a/Documentation/lei-refresh-mail-sync.pod
++++ b/Documentation/lei-refresh-mail-sync.pod
+</span><span
+class="hunk">@@ -54,4 +54,4 @@ License: AGPL-3.0+ L&lt;<a
+href="https://www.gnu.org/licenses/agpl-3.0.txt">https://www.gnu.org/licenses/agpl-3.0.txt</a>&gt;
+</span> 
+ =head1 SEE ALSO
+ 
+<span
+class="del">-L&lt;lei-index(1)&gt;, L&lt;lei-export-kw(1)&gt;
+</span><span
+class="add">+L&lt;lei-index(1)&gt;, L&lt;lei-export-kw(1)&gt;, L&lt;lei-ls-mail-sync(1)&gt;
+</span><span
+class="head"><a
+href=#iZ320211016053944.494064-3-kyle::40kyleam.com:1Documentation:lei-rm-watch.pod
+id=Z320211016053944.494064-3-kyle::40kyleam.com:1Documentation:lei-rm-watch.pod>diff</a> --git a/Documentation/lei-rm-watch.pod b/Documentation/lei-rm-watch.pod
+new file mode 100644
+index 00000000..711d7dc4
+--- /dev/null
++++ b/Documentation/lei-rm-watch.pod
+</span><span
+class="hunk">@@ -0,0 +1,30 @@
+</span><span
+class="add">+=head1 NAME
++
++lei-rm-watch - stop watching locations
++
++=head1 SYNOPSIS
++
++lei rm-watch [OPTIONS] LOCATION [LOCATION...]
++
++=head1 DESCRIPTION
++
++Tell lei to stop watching C&lt;LOCATION&gt; for new messages and flag
++changes.  Currently only Maildir locations are supported.
++
++=head1 CONTACT
++
++Feedback welcome via plain-text mail to L&lt;mailto:meta@public-inbox.org&gt;
++
++The mail archives are hosted at L&lt;<a
+href="https://public-inbox.org/meta/">https://public-inbox.org/meta/</a>&gt; and
++L&lt;<a
+href="http://4uok3hntl7oi7b4uf4rtfwefqeexfzil2w6kgk2jn5z2f764irre7byd.onion/meta/">http://4uok3hntl7oi7b4uf4rtfwefqeexfzil2w6kgk2jn5z2f764irre7byd.onion/meta/</a>&gt;
++
++=head1 COPYRIGHT
++
++Copyright 2021 all contributors L&lt;mailto:meta@public-inbox.org&gt;
++
++License: AGPL-3.0+ L&lt;<a
+href="https://www.gnu.org/licenses/agpl-3.0.txt">https://www.gnu.org/licenses/agpl-3.0.txt</a>&gt;
++
++
++=head1 SEE ALSO
++
++L&lt;lei-add-watch(1)&gt;, L&lt;lei-ls-watch(1)&gt;
+</span><span
+class="head"><a
+href=#iZ320211016053944.494064-3-kyle::40kyleam.com:1Documentation:lei.pod
+id=Z320211016053944.494064-3-kyle::40kyleam.com:1Documentation:lei.pod>diff</a> --git a/Documentation/lei.pod b/Documentation/lei.pod
+index 63d5ee69..24a585da 100644
+--- a/Documentation/lei.pod
++++ b/Documentation/lei.pod
+</span><span
+class="hunk">@@ -96,6 +96,8 @@ Other subcommands include
+</span> 
+ =over
+ 
+<span
+class="add">+=item * L&lt;lei-add-watch(1)&gt;
++
+</span> =item * L&lt;lei-config(1)&gt;
+ 
+ =item * L&lt;lei-convert(1)&gt;
+<span
+class="hunk">@@ -104,10 +106,22 @@ Other subcommands include
+</span> 
+ =item * L&lt;lei-daemon-pid(1)&gt;
+ 
+<span
+class="add">+=item * lei-forget-mail-sync(1)
++
++=item * L&lt;lei-mail-diff(1)&gt;
++
++=item * L&lt;lei-inspect(1)&gt;
++
+</span> =item * L&lt;lei-ls-label(1)&gt;
+ 
+<span
+class="add">+=item * L&lt;lei-ls-mail-source(1)&gt;
++
+</span> =item * L&lt;lei-ls-mail-sync(1)&gt;
+ 
+<span
+class="add">+=item * L&lt;lei-ls-watch(1)&gt;
++
++=item * L&lt;lei-rm-watch(1)&gt;
++
+</span> =back
+ 
+ =head1 FILES
+<span
+class="head"><a
+href=#iZ320211016053944.494064-3-kyle::40kyleam.com:1Documentation:txt2pre
+id=Z320211016053944.494064-3-kyle::40kyleam.com:1Documentation:txt2pre>diff</a> --git a/Documentation/txt2pre b/Documentation/txt2pre
+index bc94d404..fb07579a 100755
+--- a/Documentation/txt2pre
++++ b/Documentation/txt2pre
+</span><span
+class="hunk">@@ -12,6 +12,7 @@ use PublicInbox::Hval qw(ascii_html);
+</span> my %xurls;
+ for (qw[lei(1)
+ 	lei-add-external(1)
+<span
+class="add">+	lei-add-watch(1)
+</span> 	lei-blob(1)
+ 	lei-config(1)
+ 	lei-convert(1)
+<span
+class="hunk">@@ -19,20 +20,26 @@ for (qw[lei(1)
+</span> 	lei-daemon-pid(1)
+ 	lei-edit-search(1)
+ 	lei-forget-external(1)
+<span
+class="add">+	lei-forget-mail-sync(1)
+</span> 	lei-forget-search(1)
+ 	lei-import(1)
+ 	lei-index(1)
+ 	lei-init(1)
+<span
+class="add">+	lei-inspect(1)
+</span> 	lei-lcat(1)
+ 	lei-ls-external(1)
+ 	lei-ls-label(1)
+<span
+class="add">+	lei-ls-mail-source(1)
+</span> 	lei-ls-mail-sync(1)
+ 	lei-ls-search(1)
+<span
+class="add">+	lei-ls-watch(1)
++	lei-mail-diff(1)
+</span> 	lei-overview(7)
+ 	lei-p2q(1)
+ 	lei-q(1)
+ 	lei-rediff(1)
+ 	lei-rm(1)
+<span
+class="add">+	lei-rm-watch(1)
+</span> 	lei-security(7)
+ 	lei-store-format(5)
+ 	lei-tag(1)
+<span
+class="head"><a
+href=#iZ320211016053944.494064-3-kyle::40kyleam.com:1MANIFEST
+id=Z320211016053944.494064-3-kyle::40kyleam.com:1MANIFEST>diff</a> --git a/MANIFEST b/MANIFEST
+index b89513d5..c4cc6e33 100644
+--- a/MANIFEST
++++ b/MANIFEST
+</span><span
+class="hunk">@@ -22,6 +22,7 @@ Documentation/flow.txt
+</span> Documentation/hosted.txt
+ Documentation/include.mk
+ Documentation/lei-add-external.pod
+<span
+class="add">+Documentation/lei-add-watch.pod
+</span> Documentation/lei-blob.pod
+ Documentation/lei-config.pod
+ Documentation/lei-convert.pod
+<span
+class="hunk">@@ -31,15 +32,20 @@ Documentation/lei-daemon.pod
+</span> Documentation/lei-edit-search.pod
+ Documentation/lei-export-kw.pod
+ Documentation/lei-forget-external.pod
+<span
+class="add">+Documentation/lei-forget-mail-sync.pod
+</span> Documentation/lei-forget-search.pod
+ Documentation/lei-import.pod
+ Documentation/lei-index.pod
+ Documentation/lei-init.pod
+<span
+class="add">+Documentation/lei-inspect.pod
+</span> Documentation/lei-lcat.pod
+ Documentation/lei-ls-external.pod
+ Documentation/lei-ls-label.pod
+<span
+class="add">+Documentation/lei-ls-mail-source.pod
+</span> Documentation/lei-ls-mail-sync.pod
+ Documentation/lei-ls-search.pod
+<span
+class="add">+Documentation/lei-ls-watch.pod
++Documentation/lei-mail-diff.pod
+</span> Documentation/lei-mail-formats.pod
+ Documentation/lei-overview.pod
+ Documentation/lei-p2q.pod
+<span
+class="hunk">@@ -47,6 +53,7 @@ Documentation/lei-q.pod
+</span> Documentation/lei-rediff.pod
+ Documentation/lei-refresh-mail-sync.pod
+ Documentation/lei-rm.pod
+<span
+class="add">+Documentation/lei-rm-watch.pod
+</span> Documentation/lei-security.pod
+ Documentation/lei-store-format.pod
+ Documentation/lei-tag.pod
+<span
+class="head"><a
+href=#iZ320211016053944.494064-3-kyle::40kyleam.com:1Makefile.PL
+id=Z320211016053944.494064-3-kyle::40kyleam.com:1Makefile.PL>diff</a> --git a/Makefile.PL b/Makefile.PL
+index 22a58bee..348a343d 100644
+--- a/Makefile.PL
++++ b/Makefile.PL
+</span><span
+class="hunk">@@ -45,13 +45,13 @@ $v-&gt;{-m1} = [ map {
+</span> 		}
+ 	} @EXE_FILES,
+ 	qw(
+<span
+class="del">-	lei-add-external lei-blob lei-config lei-convert
+</span><span
+class="add">+	lei-add-external lei-add-watch lei-blob lei-config lei-convert
+</span> 	lei-daemon-kill lei-daemon-pid lei-edit-search lei-export-kw
+<span
+class="del">-	lei-forget-external lei-forget-search
+-	lei-import lei-index lei-init lei-lcat
+-	lei-ls-external lei-ls-label lei-ls-mail-sync
+-	lei-ls-search lei-p2q lei-q
+-	lei-rediff lei-refresh-mail-sync lei-rm lei-tag
+</span><span
+class="add">+	lei-forget-external lei-forget-mail-sync lei-forget-search
++	lei-import lei-index lei-init lei-inspect lei-lcat
++	lei-ls-external lei-ls-label lei-ls-mail-source lei-ls-mail-sync
++	lei-ls-search lei-ls-watch lei-mail-diff lei-p2q lei-q
++	lei-rediff lei-refresh-mail-sync lei-rm lei-rm-watch lei-tag
+</span> 	lei-up)];
+ $v-&gt;{-m5} = [ qw(public-inbox-config public-inbox-v1-format
+ 		public-inbox-v2-format public-inbox-extindex-format
+-- 
+2.33.0
+
+
+<a
+href=#m6e1e38cd351b0aea662551856ee64be47dc3aafc
+id=e6e1e38cd351b0aea662551856ee64be47dc3aafc>^</a> <a
+href="20211016053944.494064-3-kyle@kyleam.com/">permalink</a> <a
+href="20211016053944.494064-3-kyle@kyleam.com/raw">raw</a> <a
+href="20211016053944.494064-3-kyle@kyleam.com/#R">reply</a> <a
+href="20211016053944.494064-3-kyle@kyleam.com/#related">related</a>	[relevance 34%]</pre><hr><pre><a
+href=#e1809cac941f536eda7304e7dce5a1fb9c3ebb19f
+id=m1809cac941f536eda7304e7dce5a1fb9c3ebb19f>*</a> <b>[PATCH 0/2] doc: lei manpages for remaining commands</b>
+<b>@ 2021-10-16  5:39 28% Kyle Meyer</b>
+  2021-10-16  5:39 34% ` <a
+href="#m6e1e38cd351b0aea662551856ee64be47dc3aafc">[PATCH 2/2] doc: lei: add</a> &#34; Kyle Meyer
+  <a
+href=#r1809cac941f536eda7304e7dce5a1fb9c3ebb19f>0 siblings, 1 reply; 17+ results</a>
+From: Kyle Meyer @ 2021-10-16  5:39 UTC (<a
+href="20211016053944.494064-1-kyle@kyleam.com/">permalink</a> / <a
+href="20211016053944.494064-1-kyle@kyleam.com/raw">raw</a>)
+  To: <a
+href="https://public-inbox.org/meta/?t=20211016054016">meta</a>
+
+This lei manpage update should take care of the remaining lei commands
+(aside from -help and -sucks) that don&#39;t have manpages.
+
+  [1/2] doc: lei: restore alphabetical order to some listings
+  [2/2] doc: lei: add manpages for remaining commands
+
+ Documentation/lei-add-watch.pod         | 33 ++++++++++++++
+ Documentation/lei-forget-mail-sync.pod  | 31 +++++++++++++
+ Documentation/lei-inspect.pod           | 57 ++++++++++++++++++++++++
+ Documentation/lei-ls-mail-source.pod    | 58 +++++++++++++++++++++++++
+ Documentation/lei-ls-mail-sync.pod      |  2 +-
+ Documentation/lei-ls-watch.pod          | 29 +++++++++++++
+ Documentation/lei-mail-diff.pod         | 33 ++++++++++++++
+ Documentation/lei-refresh-mail-sync.pod |  2 +-
+ Documentation/lei-rm-watch.pod          | 30 +++++++++++++
+ Documentation/lei.pod                   | 14 ++++++
+ Documentation/txt2pre                   |  9 +++-
+ MANIFEST                                |  7 +++
+ Makefile.PL                             | 14 +++---
+ 13 files changed, 309 insertions(+), 10 deletions(-)
+ create mode 100644 Documentation/lei-add-watch.pod
+ create mode 100644 Documentation/lei-forget-mail-sync.pod
+ create mode 100644 Documentation/lei-inspect.pod
+ create mode 100644 Documentation/lei-ls-mail-source.pod
+ create mode 100644 Documentation/lei-ls-watch.pod
+ create mode 100644 Documentation/lei-mail-diff.pod
+ create mode 100644 Documentation/lei-rm-watch.pod
+
+
+base-commit: 299b40d252cf4d4db6fa29ad18cb78777f1f55fc
+-- 
+2.33.0
+
+
+<a
+href=#m1809cac941f536eda7304e7dce5a1fb9c3ebb19f
+id=e1809cac941f536eda7304e7dce5a1fb9c3ebb19f>^</a> <a
+href="20211016053944.494064-1-kyle@kyleam.com/">permalink</a> <a
+href="20211016053944.494064-1-kyle@kyleam.com/raw">raw</a> <a
+href="20211016053944.494064-1-kyle@kyleam.com/#R">reply</a>	[relevance 28%]</pre><hr><pre><a
+href=#ea33358a2ce37c1484b71d1e33bee84916871e597
+id=ma33358a2ce37c1484b71d1e33bee84916871e597>*</a> <b>[PATCH] doc: lei-refresh-mail-sync: drop repeated word</b>
+<b>@ 2021-10-11  4:53 28% Kyle Meyer</b>
+  <a
+href=#ra33358a2ce37c1484b71d1e33bee84916871e597>0 siblings, 0 replies; 17+ results</a>
+From: Kyle Meyer @ 2021-10-11  4:53 UTC (<a
+href="20211011045359.368142-1-kyle@kyleam.com/">permalink</a> / <a
+href="20211011045359.368142-1-kyle@kyleam.com/raw">raw</a>)
+  To: <a
+href="https://public-inbox.org/meta/?t=20211011045419">meta</a>
+
+---
+
+  Spotted while (slowly :/) studying these commands and working on
+  adding missing lei manpages (add-watch, ls-watch, rm-watch,
+  ls-mail-source, forget-mail-sync, inspect, and mail-diff).
+
+ <a
+id=iZ320211011045359.368142-1-kyle::40kyleam.com:1Documentation:lei-refresh-mail-sync.pod
+href=#Z320211011045359.368142-1-kyle::40kyleam.com:1Documentation:lei-refresh-mail-sync.pod>Documentation/lei-refresh-mail-sync.pod</a> | 2 +-
+ 1 file <a href="#ea33358a2ce37c1484b71d1e33bee84916871e597">changed</a>, 1 insertion(+), 1 deletion(-)
+
+<span
+class="head"><a
+href=#iZ320211011045359.368142-1-kyle::40kyleam.com:1Documentation:lei-refresh-mail-sync.pod
+id=Z320211011045359.368142-1-kyle::40kyleam.com:1Documentation:lei-refresh-mail-sync.pod>diff</a> --git a/Documentation/lei-refresh-mail-sync.pod b/Documentation/lei-refresh-mail-sync.pod
+index aefd516f..92ca9044 100644
+--- a/Documentation/lei-refresh-mail-sync.pod
++++ b/Documentation/lei-refresh-mail-sync.pod
+</span><span
+class="hunk">@@ -10,7 +10,7 @@ lei refresh-mail-sync MFOLDER [MFOLDER...]
+</span> 
+ =head1 DESCRIPTION
+ 
+<span
+class="del">-C&lt;lei refresh-mail-sync&gt; is intended to to keep old messages
+</span><span
+class="add">+C&lt;lei refresh-mail-sync&gt; is intended to keep old messages
+</span> indexed with L&lt;lei-index(1)&gt; retrievable if Maildir flags change
+ a filename.  It will prune invalid entries for messages which no
+ longer exist in a Maildir.
+
+base-commit: dea4495677bbbdbce959551de34ef8f70fe2bc7c
+-- 
+2.33.0
+
+
+<a
+href=#ma33358a2ce37c1484b71d1e33bee84916871e597
+id=ea33358a2ce37c1484b71d1e33bee84916871e597>^</a> <a
+href="20211011045359.368142-1-kyle@kyleam.com/">permalink</a> <a
+href="20211011045359.368142-1-kyle@kyleam.com/raw">raw</a> <a
+href="20211011045359.368142-1-kyle@kyleam.com/#R">reply</a> <a
+href="20211011045359.368142-1-kyle@kyleam.com/#related">related</a>	[relevance 28%]</pre><hr><pre><a
+href=#edb100d74811703a174409b38f2d38e259b089a75
+id=mdb100d74811703a174409b38f2d38e259b089a75>*</a> <b>Re: [PATCH 4/4] lei q: -tt marks direct hits as &#34;flagged&#34;</b>
+  <b>@ 2021-02-26  4:38 20%       ` Kyle Meyer</b>
+  <a
+href=#rdb100d74811703a174409b38f2d38e259b089a75>0 siblings, 0 replies; 17+ results</a>
+From: Kyle Meyer @ 2021-02-26  4:38 UTC (<a
+href="87v9afe95f.fsf@kyleam.com/">permalink</a> / <a
+href="87v9afe95f.fsf@kyleam.com/raw">raw</a>)
+  To: Eric Wong; <b>+Cc:</b> <a
+href="https://public-inbox.org/meta/?t=20210226043808">meta</a>
+
+Eric Wong writes:
+
+<span
+class="q">&gt; Kyle Meyer &lt;kyle@kyleam.com&gt; wrote:
+</span>
+<span
+class="q">&gt;&gt; Oy, I understand even less than I thought I did.  How does the
+&gt;&gt; information about what the MUA unflags get back into the store?  Is
+&gt;&gt; there an implicit additional step (`lei import ...&#39;)?
+&gt;
+&gt; lei will watch (via inotify/EVFILT_VNODE) mail stores it knows
+&gt; about for flag updates.  At least that&#39;s the plan...
+&gt;
+&gt; Also, when overwriting an existing output, I think it would be
+&gt; wise to do an implicit import of any messages that aren&#39;t
+&gt; already in lei/store or an external.  That would save users
+&gt; from accidentally trashing their data.
+</span>
+Makes sense.  Thanks for the details (especially if you&#39;re repeating
+yourself).
+
+<a
+href=#mdb100d74811703a174409b38f2d38e259b089a75
+id=edb100d74811703a174409b38f2d38e259b089a75>^</a> <a
+href="87v9afe95f.fsf@kyleam.com/">permalink</a> <a
+href="87v9afe95f.fsf@kyleam.com/raw">raw</a> <a
+href="87v9afe95f.fsf@kyleam.com/#R">reply</a>	[relevance 20%]</pre><hr><pre><a
+href=#ea1ee200668105237f64000e3cf67fd7e7f07d13b
+id=ma1ee200668105237f64000e3cf67fd7e7f07d13b>*</a> <b>Re: does &#34;lei q&#34; --format/-f need to exist?</b>
+  <b>@ 2021-02-18  5:28 20% ` Kyle Meyer</b>
+  <a
+href=#ra1ee200668105237f64000e3cf67fd7e7f07d13b>0 siblings, 0 replies; 17+ results</a>
+From: Kyle Meyer @ 2021-02-18  5:28 UTC (<a
+href="87r1le2bdo.fsf@kyleam.com/">permalink</a> / <a
+href="87r1le2bdo.fsf@kyleam.com/raw">raw</a>)
+  To: Eric Wong; <b>+Cc:</b> <a
+href="https://public-inbox.org/meta/?t=20210218052810">meta</a>
+
+Eric Wong writes:
+
+<span
+class="q">&gt; &#34;maildir:/path/to/dir&#34; has been supported by public-inbox-watch
+&gt; for years, now.
+&gt;
+&gt; The following all work today:
+&gt;
+&gt; 	lei q -o mboxrd:/tmp/foo.mboxrd ...
+&gt; 	lei q -o mboxcl2:/tmp/foo.mboxcl2 ...
+&gt; 	lei q -o maildir:/tmp/foo/ ...
+&gt;
+&gt; So -f/--format seems redundant.
+</span>
+I find &#34;&lt;format&gt;:&lt;destination&gt;&#34; pretty natural/intuitive, even if
+perhaps the stdout case (e.g., &#34;mboxrd:-&#34; or &#34;concatjson:-&#34;) looks a bit
+odd.  Dropping --format makes sense to me.
+
+<a
+href=#ma1ee200668105237f64000e3cf67fd7e7f07d13b
+id=ea1ee200668105237f64000e3cf67fd7e7f07d13b>^</a> <a
+href="87r1le2bdo.fsf@kyleam.com/">permalink</a> <a
+href="87r1le2bdo.fsf@kyleam.com/raw">raw</a> <a
+href="87r1le2bdo.fsf@kyleam.com/#R">reply</a>	[relevance 20%]</pre><hr><pre><a
+href=#e265db80560170d80120ded58be202599a65769f3
+id=m265db80560170d80120ded58be202599a65769f3>*</a> <b>Re: [PATCH] scripts/dupe-finder: restore $dbh variable</b>
+  <b>@ 2020-10-16  5:02 25%   ` Kyle Meyer</b>
+  <a
+href=#r265db80560170d80120ded58be202599a65769f3>0 siblings, 0 replies; 17+ results</a>
+From: Kyle Meyer @ 2020-10-16  5:02 UTC (<a
+href="87y2k67ogi.fsf@kyleam.com/">permalink</a> / <a
+href="87y2k67ogi.fsf@kyleam.com/raw">raw</a>)
+  To: Eric Wong; <b>+Cc:</b> <a
+href="https://public-inbox.org/meta/?t=20201016050239">meta</a>
+
+Eric Wong writes:
+
+<span
+class="q">&gt; Btw, is this tool something you find useful?  I&#39;ll consider
+&gt; making it part of a local tool I&#39;m brainstorming...
+</span>
+I found it very helpful when I made a mistake with a custom filter I use
+to remove the footer at &lt;<a
+href="https://yhetil.org/notmuch">https://yhetil.org/notmuch</a>&gt;.  The footer used
+by the list changed at some point.  I updated the filter and restarted
+-watch without thinking about what would happen with the messages that
+were already in the maildir.  (I keep messages around for ~10 days
+before deleting them.)  That led to a good number of duplicates.
+
+Aside from that, I&#39;ve run it a few times over the inboxes at
+&lt;<a
+href="https://yhetil.org">https://yhetil.org</a>&gt;, and it&#39;s turned up a couple of hits.  So, I&#39;ve
+found it useful, but in the hosting context.
+
+<a
+href=#m265db80560170d80120ded58be202599a65769f3
+id=e265db80560170d80120ded58be202599a65769f3>^</a> <a
+href="87y2k67ogi.fsf@kyleam.com/">permalink</a> <a
+href="87y2k67ogi.fsf@kyleam.com/raw">raw</a> <a
+href="87y2k67ogi.fsf@kyleam.com/#R">reply</a>	[relevance 25%]</pre><hr><pre><a
+href=#eac1205ab124b23d14551e3bf3e3509d7a250cd75
+id=mac1205ab124b23d14551e3bf3e3509d7a250cd75>*</a> <b>Re: [PATCH 0/5] &#34;mairix -t&#34; workalike for mbox.gz downloads</b>
+  <b>@ 2020-08-22 20:12 20%   ` Kyle Meyer</b>
+  <a
+href=#rac1205ab124b23d14551e3bf3e3509d7a250cd75>0 siblings, 0 replies; 17+ results</a>
+From: Kyle Meyer @ 2020-08-22 20:12 UTC (<a
+href="874koucue1.fsf@kyleam.com/">permalink</a> / <a
+href="874koucue1.fsf@kyleam.com/raw">raw</a>)
+  To: Eric Wong; <b>+Cc:</b> <a
+href="https://public-inbox.org/meta/?t=20200822201230">meta</a>
+
+Eric Wong writes:
+
+<span
+class="q">&gt; Eric Wong &lt;e@yhbt.net&gt; wrote:
+&gt;&gt; It requires &#34;public-inbox-index --reindex&#34; to activate;
+&gt;&gt; but PATCH 5/5 makes it safe to upgrade WWW either before
+&gt;&gt; or after --reindex.  That means BOFHs can upgrade without
+&gt;&gt; regard to ordering.
+&gt;
+&gt; public-inbox-watch users will need to restart -watch before
+&gt; --reindex, though.  Don&#39;t think that&#39;s avoidable...
+</span>
+Oops, the few times I&#39;ve used --reindex I don&#39;t think I&#39;ve given order
+much thought.  Is it accurate to say that &#34;restart services then
+--reindex&#34; is the recommended order in general?
+
+<a
+href=#mac1205ab124b23d14551e3bf3e3509d7a250cd75
+id=eac1205ab124b23d14551e3bf3e3509d7a250cd75>^</a> <a
+href="874koucue1.fsf@kyleam.com/">permalink</a> <a
+href="874koucue1.fsf@kyleam.com/raw">raw</a> <a
+href="874koucue1.fsf@kyleam.com/#R">reply</a>	[relevance 20%]</pre><hr><pre><a
+href=#e0ba6ce195f76e346edf8201c38c6b610f789e5c3
+id=m0ba6ce195f76e346edf8201c38c6b610f789e5c3>*</a> <b>Re: [PATCH 28/34] watch: add NNTP support</b>
+  <b>@ 2020-06-27 19:06 27%   ` Kyle Meyer</b>
+  <a
+href=#r0ba6ce195f76e346edf8201c38c6b610f789e5c3>0 siblings, 0 replies; 17+ results</a>
+From: Kyle Meyer @ 2020-06-27 19:06 UTC (<a
+href="87sgeg5nxf.fsf@kyleam.com/">permalink</a> / <a
+href="87sgeg5nxf.fsf@kyleam.com/raw">raw</a>)
+  To: Eric Wong; <b>+Cc:</b> <a
+href="https://public-inbox.org/meta/?t=20200627190607">meta</a>
+
+Eric Wong writes:
+
+<span
+class="q">&gt; +# flesh out common NNTP-specific data structures
+&gt; +sub nntp_common_init ($) {
+&gt; +	my ($self) = @_;
+&gt; +	my $cfg = $self-&gt;{config};
+&gt; +	my $nn_args = {}; # scheme://authority =&gt; Net::NNTP-&gt;new arg
+&gt; +	for my $url (sort keys %{$self-&gt;{nntp}}) {
+&gt; +		my $sec = uri_section(URI-&gt;new($url));
+&gt; +
+&gt; +		# Debug and Timeout are is passed to Net::NNTP-&gt;new
+</span>
+s/ is//
+
+<span
+class="q">&gt; +		my $v = cfg_bool($cfg, &#39;nntp.Debug&#39;, $url);
+&gt; +		$nn_args-&gt;{$sec}-&gt;{Debug} = $v if defined $v;
+&gt; +		my $to = cfg_intvl($cfg, &#39;nntp.Timeout&#39;, $url);
+&gt; +		$nn_args-&gt;{$sec}-&gt;{Timeout} = $to if $to;
+</span>
+<a
+href=#m0ba6ce195f76e346edf8201c38c6b610f789e5c3
+id=e0ba6ce195f76e346edf8201c38c6b610f789e5c3>^</a> <a
+href="87sgeg5nxf.fsf@kyleam.com/">permalink</a> <a
+href="87sgeg5nxf.fsf@kyleam.com/raw">raw</a> <a
+href="87sgeg5nxf.fsf@kyleam.com/#R">reply</a>	[relevance 27%]</pre><hr><pre><a
+href=#e785f0df34e84ff8990f0795495026f3d1edeaa5e
+id=m785f0df34e84ff8990f0795495026f3d1edeaa5e>*</a> <b>Re: [PATCH 11/34] watch: use signalfd for Maildir watching</b>
+  <b>@ 2020-06-27 19:05 29%   ` Kyle Meyer</b>
+  <a
+href=#r785f0df34e84ff8990f0795495026f3d1edeaa5e>0 siblings, 0 replies; 17+ results</a>
+From: Kyle Meyer @ 2020-06-27 19:05 UTC (<a
+href="87tuyw5nxy.fsf@kyleam.com/">permalink</a> / <a
+href="87tuyw5nxy.fsf@kyleam.com/raw">raw</a>)
+  To: Eric Wong; <b>+Cc:</b> <a
+href="https://public-inbox.org/meta/?t=20200627190551">meta</a>
+
+One of these days, I&#39;m going to read through a series on this list and
+make a valuable technical comment :]  Until then...
+
+Eric Wong writes:
+
+<span
+class="q">&gt; We can get rid of the janky wannabe
+&gt; self-using-a-directory-instead-of-pipe thing we needed to
+&gt; workaround Filesys::Notify::Simple being blocking.
+&gt;
+&gt; For existing Maildir users, this should be more robust and
+&gt; immune to missed wakeups for to signalfd and kqueue-enabled
+</span>
+s/for to/for/ ?
+
+<a
+href=#m785f0df34e84ff8990f0795495026f3d1edeaa5e
+id=e785f0df34e84ff8990f0795495026f3d1edeaa5e>^</a> <a
+href="87tuyw5nxy.fsf@kyleam.com/">permalink</a> <a
+href="87tuyw5nxy.fsf@kyleam.com/raw">raw</a> <a
+href="87tuyw5nxy.fsf@kyleam.com/#R">reply</a>	[relevance 29%]</pre><hr><pre><a
+href=#e70ae8f8ddddcdde244a8e89348ea72deb281dc80
+id=m70ae8f8ddddcdde244a8e89348ea72deb281dc80>*</a> <b>Re: [RFC 0/2] watch behavior changes aNd ProPoSaL</b>
+  <b>@ 2020-04-24  3:12 27% ` Kyle Meyer</b>
+  <a
+href=#r70ae8f8ddddcdde244a8e89348ea72deb281dc80>0 siblings, 0 replies; 17+ results</a>
+From: Kyle Meyer @ 2020-04-24  3:12 UTC (<a
+href="87r1wdshjv.fsf@kyleam.com/">permalink</a> / <a
+href="87r1wdshjv.fsf@kyleam.com/raw">raw</a>)
+  To: Eric Wong; <b>+Cc:</b> <a
+href="https://public-inbox.org/meta/?t=20200424031239">meta</a>
+
+Eric Wong &lt;e@yhbt.net&gt; writes:
+
+<span
+class="q">&gt; Now, I don&#39;t think the following two patches will cause any
+&gt; problems for existing users...
+&gt;
+&gt; Down the line, for matching non-List-ID headers insensitively,
+&gt; I&#39;m thinking &#34;mutt style&#34; case-sensitivity is probably a good
+&gt; default.  That is:
+&gt;
+&gt; 	Match case-sensitively iff capital letters exist in
+&gt; 	the substring.  Otherwise, match case-insensitively.
+</span>
+Yeah, I find this behavior to be pretty intuitive/nice, though I guess
+the only context where I&#39;ve (knowingly) used it is Emacs search, so that
+might discount my 2 cents :)
+
+However, if it&#39;s either this or an option like...
+
+<span
+class="q">&gt; Otherwise, I&#39;m not sure how a user should (or would care to)
+&gt; specify case-insensitivity vs case-sensitivity...
+&gt;
+&gt; Valid email headers names won&#39;t have spaces (or many other
+&gt; chars), so we can do somthing like attempt to parse out &#34; -i&#34;
+&gt; (like &#34;grep -i&#34;):
+&gt;
+&gt; 	watchheader = To -i:John Smith
+</span>
+... this, I guess this one has the advantage of being able to
+case-sensitively match all lowercase?  I&#39;m not sure how much practical
+value there is to that, though.
+
+I think the -i proposal above is nicer than this next one, but I suppose
+it&#39;d have the same advantage.
+
+<span
+class="q">&gt; Or, add a new option:
+&gt;
+&gt; 	watchHeaderInsensitively = To:John Smith
+&gt;
+&gt; Ugh...
+</span>
+<a
+href=#m70ae8f8ddddcdde244a8e89348ea72deb281dc80
+id=e70ae8f8ddddcdde244a8e89348ea72deb281dc80>^</a> <a
+href="87r1wdshjv.fsf@kyleam.com/">permalink</a> <a
+href="87r1wdshjv.fsf@kyleam.com/raw">raw</a> <a
+href="87r1wdshjv.fsf@kyleam.com/#R">reply</a>	[relevance 27%]</pre><hr><pre><a
+href=#e3a872b57ce31bfa434560193a72712b3b4512b91
+id=m3a872b57ce31bfa434560193a72712b3b4512b91>*</a> <b>[PATCH v2] watchmaildir: support multiple watchheader values</b>
+  <b>@ 2020-04-20  0:13 36% ` Kyle Meyer</b>
+  <a
+href=#r3a872b57ce31bfa434560193a72712b3b4512b91>0 siblings, 0 replies; 17+ results</a>
+From: Kyle Meyer @ 2020-04-20  0:13 UTC (<a
+href="20200420001332.14769-1-kyle@kyleam.com/">permalink</a> / <a
+href="20200420001332.14769-1-kyle@kyleam.com/raw">raw</a>)
+  To: Eric Wong; <b>+Cc:</b> Kyle Meyer, <a
+href="https://public-inbox.org/meta/?t=20200420001342">meta</a>
+
+The watchheader key supports only a single value.  Supporting multiple
+watchheader values was mentioned in discussion [1] of 8d3e3bd8 (doc:
+explain publicinbox.&lt;name&gt;.watchheader, 2019-10-09), and it wasn&#39;t
+clear if there was a need.
+
+One scenario in which matching multiple headers would be convenient is
+when someone wants to set up public-inbox archives for some small
+projects but does _not_ want to run mailing lists for them, instead
+allowing others to follow the project by any of the pull mechanisms.
+Using a common underlying address, an address alias for each project
+is configured via a third-party email provider, with messages for each
+alias being exposed as a separate public-inbox archive.  In this
+setup, messages for an inbox cannot be selected by a List-ID header
+but can be identified by the inbox&#39;s address in either the To or Cc
+header.
+
+To support such a use case, update the watchheader handling to
+consider multiple values, accepting a message if it matches any value.
+While selecting a message based on matching _any_ rather than _all_
+values is motivated by the above scenario, it&#39;s worth noting that the
+&#34;any&#34; behavior is consistent with how multiple listid config values
+are handled.
+
+[1] <a
+href="https://public-inbox.org/meta/20191010085118.r3amey4cayazfycb@dcvr/">https://public-inbox.org/meta/20191010085118.r3amey4cayazfycb@dcvr/</a>
+---
+
+   Changes since v1:
+
+   * Add a test for matching multiple watchheader values.
+   * Adjust WwwText::inbox_config to handle watchheader as an array.
+   * Condense commit message.
+
+ <a
+id=iZ320200420001332.14769-1-kyle::40kyleam.com:1Documentation:public-inbox-config.pod
+href=#Z320200420001332.14769-1-kyle::40kyleam.com:1Documentation:public-inbox-config.pod>Documentation/public-inbox-config.pod</a> |  3 +-
+ <a
+id=iZ320200420001332.14769-1-kyle::40kyleam.com:1MANIFEST
+href=#Z320200420001332.14769-1-kyle::40kyleam.com:1MANIFEST>MANIFEST</a>                              |  1 +
+ <a
+id=iZ320200420001332.14769-1-kyle::40kyleam.com:1lib:PublicInbox:Config.pm
+href=#Z320200420001332.14769-1-kyle::40kyleam.com:1lib:PublicInbox:Config.pm>lib/PublicInbox/Config.pm</a>             |  4 +-
+ <a
+id=iZ320200420001332.14769-1-kyle::40kyleam.com:1lib:PublicInbox:WatchMaildir.pm
+href=#Z320200420001332.14769-1-kyle::40kyleam.com:1lib:PublicInbox:WatchMaildir.pm>lib/PublicInbox/WatchMaildir.pm</a>       |  8 +--
+ <a
+id=iZ320200420001332.14769-1-kyle::40kyleam.com:1lib:PublicInbox:WwwText.pm
+href=#Z320200420001332.14769-1-kyle::40kyleam.com:1lib:PublicInbox:WwwText.pm>lib/PublicInbox/WwwText.pm</a>            |  4 +-
+ <a
+id=iZ320200420001332.14769-1-kyle::40kyleam.com:1t:watch_muliple_headers.t
+href=#Z320200420001332.14769-1-kyle::40kyleam.com:1t:watch_muliple_headers.t>t/watch_muliple_headers.t</a>             | 76 +++++++++++++++++++++++++++
+ 6 files <a href="#e3a872b57ce31bfa434560193a72712b3b4512b91">changed</a>, 88 insertions(+), 8 deletions(-)
+ create mode 100644 t/watch_muliple_headers.t
+
+<span
+class="head"><a
+href=#iZ320200420001332.14769-1-kyle::40kyleam.com:1Documentation:public-inbox-config.pod
+id=Z320200420001332.14769-1-kyle::40kyleam.com:1Documentation:public-inbox-config.pod>diff</a> --git a/Documentation/public-inbox-config.pod b/Documentation/public-inbox-config.pod
+index 4c9994dc..708a785f 100644
+--- a/Documentation/public-inbox-config.pod
++++ b/Documentation/public-inbox-config.pod
+</span><span
+class="hunk">@@ -88,7 +88,8 @@ Default: none; only for L&lt;public-inbox-watch(1)&gt; users
+</span> 		watchheader = List-Id:&lt;test.example.com&gt;
+ 
+ If specified, L&lt;public-inbox-watch(1)&gt; will only process mail matching
+<span
+class="del">-the given header.  Multiple values are not currently supported.
+</span><span
+class="add">+the given header.  If specified multiple times, mail will be processed
++if it matches any of the values.
+</span> 
+ Default: none; only for L&lt;public-inbox-watch(1)&gt; users
+ 
+<span
+class="head"><a
+href=#iZ320200420001332.14769-1-kyle::40kyleam.com:1MANIFEST
+id=Z320200420001332.14769-1-kyle::40kyleam.com:1MANIFEST>diff</a> --git a/MANIFEST b/MANIFEST
+index 8b724352..bfcf26b4 100644
+--- a/MANIFEST
++++ b/MANIFEST
+</span><span
+class="hunk">@@ -307,6 +307,7 @@ t/view.t
+</span> t/watch_filter_rubylang.t
+ t/watch_maildir.t
+ t/watch_maildir_v2.t
+<span
+class="add">+t/watch_muliple_headers.t
+</span> t/www_altid.t
+ t/www_listing.t
+ t/www_static.t
+<span
+class="head"><a
+href=#iZ320200420001332.14769-1-kyle::40kyleam.com:1lib:PublicInbox:Config.pm
+id=Z320200420001332.14769-1-kyle::40kyleam.com:1lib:PublicInbox:Config.pm>diff</a> --git a/lib/PublicInbox/Config.pm b/lib/PublicInbox/Config.pm
+index 917939ca..458f29b2 100644
+--- a/lib/PublicInbox/Config.pm
++++ b/lib/PublicInbox/Config.pm
+</span><span
+class="hunk">@@ -367,7 +367,7 @@ sub _fill {
+</span> 	my $ibx = {};
+ 
+ 	foreach my $k (qw(inboxdir filter newsgroup
+<span
+class="del">-			watch watchheader httpbackendmax
+</span><span
+class="add">+			watch httpbackendmax
+</span> 			replyto feedmax nntpserver indexlevel)) {
+ 		my $v = $self-&gt;{&#34;$pfx.$k&#34;};
+ 		$ibx-&gt;{$k} = $v if defined $v;
+<span
+class="hunk">@@ -388,7 +388,7 @@ sub _fill {
+</span> 	# TODO: more arrays, we should support multi-value for
+ 	# more things to encourage decentralization
+ 	foreach my $k (qw(address altid nntpmirror coderepo hide listid url
+<span
+class="del">-			infourl)) {
+</span><span
+class="add">+			infourl watchheader)) {
+</span> 		if (defined(my $v = $self-&gt;{&#34;$pfx.$k&#34;})) {
+ 			$ibx-&gt;{$k} = _array($v);
+ 		}
+<span
+class="head"><a
+href=#iZ320200420001332.14769-1-kyle::40kyleam.com:1lib:PublicInbox:WatchMaildir.pm
+id=Z320200420001332.14769-1-kyle::40kyleam.com:1lib:PublicInbox:WatchMaildir.pm>diff</a> --git a/lib/PublicInbox/WatchMaildir.pm b/lib/PublicInbox/WatchMaildir.pm
+index bea2ed2a..7b9e8915 100644
+--- a/lib/PublicInbox/WatchMaildir.pm
++++ b/lib/PublicInbox/WatchMaildir.pm
+</span><span
+class="hunk">@@ -59,9 +59,11 @@ sub new {
+</span> 		my $watch = $ibx-&gt;{watch} or return;
+ 		if (is_maildir($watch)) {
+ 			my $watch_hdrs = [];
+<span
+class="del">-			if (my $wh = $ibx-&gt;{watchheader}) {
+-				my ($k, $v) = split(/:/, $wh, 2);
+-				push @$watch_hdrs, [ $k, qr/\Q$v\E/ ];
+</span><span
+class="add">+			if (my $whs = $ibx-&gt;{watchheader}) {
++				for (@$whs) {
++					my ($k, $v) = split(/:/, $_, 2);
++					push @$watch_hdrs, [ $k, qr/\Q$v\E/ ];
++				}
+</span> 			}
+ 			if (my $list_ids = $ibx-&gt;{listid}) {
+ 				for (@$list_ids) {
+<span
+class="head"><a
+href=#iZ320200420001332.14769-1-kyle::40kyleam.com:1lib:PublicInbox:WwwText.pm
+id=Z320200420001332.14769-1-kyle::40kyleam.com:1lib:PublicInbox:WwwText.pm>diff</a> --git a/lib/PublicInbox/WwwText.pm b/lib/PublicInbox/WwwText.pm
+index 2008ba09..b23a415e 100644
+--- a/lib/PublicInbox/WwwText.pm
++++ b/lib/PublicInbox/WwwText.pm
+</span><span
+class="hunk">@@ -151,7 +151,7 @@ sub inbox_config ($$$) {
+</span> 	url = <a
+href="https://example.com/$name/">https://example.com/$name/</a>
+ 	url = <a
+href="http://example.onion/$name/">http://example.onion/$name/</a>
+ EOS
+<span
+class="del">-	for my $k (qw(address listid infourl)) {
+</span><span
+class="add">+	for my $k (qw(address listid infourl watchheader)) {
+</span> 		defined(my $v = $ibx-&gt;{$k}) or next;
+ 		$$txt .= &#34;\t$k = $_\n&#34; for @$v;
+ 	}
+<span
+class="hunk">@@ -171,7 +171,7 @@ EOF
+</span> 		}
+ 	}
+ 
+<span
+class="del">-	for my $k (qw(filter newsgroup obfuscate replyto watchheader)) {
+</span><span
+class="add">+	for my $k (qw(filter newsgroup obfuscate replyto)) {
+</span> 		defined(my $v = $ibx-&gt;{$k}) or next;
+ 		$$txt .= &#34;\t$k = $v\n&#34;;
+ 	}
+<span
+class="head"><a
+href=#iZ320200420001332.14769-1-kyle::40kyleam.com:1t:watch_muliple_headers.t
+id=Z320200420001332.14769-1-kyle::40kyleam.com:1t:watch_muliple_headers.t>diff</a> --git a/t/watch_muliple_headers.t b/t/watch_muliple_headers.t
+new file mode 100644
+index 00000000..8ea4b306
+--- /dev/null
++++ b/t/watch_muliple_headers.t
+</span><span
+class="hunk">@@ -0,0 +1,76 @@
+</span><span
+class="add">+# Copyright (C) 2020 all contributors &lt;meta@public-inbox.org&gt;
++# License: AGPL-3.0+ &lt;<a
+href="https://www.gnu.org/licenses/agpl-3.0.txt">https://www.gnu.org/licenses/agpl-3.0.txt</a>&gt;
++use strict;
++use Test::More;
++use PublicInbox::Config;
++use PublicInbox::TestCommon;
++require_git(2.6);
++require_mods(qw(Search::Xapian DBD::SQLite Filesys::Notify::Simple));
++my ($tmpdir, $for_destroy) = tmpdir();
++my $inboxdir = &#34;$tmpdir/v2&#34;;
++my $maildir = &#34;$tmpdir/md&#34;;
++use_ok &#39;PublicInbox::WatchMaildir&#39;;
++use_ok &#39;PublicInbox::Emergency&#39;;
++my $cfgpfx = &#34;publicinbox.test&#34;;
++my $addr = &#39;test-public@example.com&#39;;
++my @cmd = (&#39;-init&#39;, &#39;-V2&#39;, &#39;test&#39;, $inboxdir,
++	&#39;<a
+href="http://example.com/list">http://example.com/list</a>&#39;, $addr);
++local $ENV{PI_CONFIG} = &#34;$tmpdir/pi_config&#34;;
++ok(run_script(\@cmd), &#39;public-inbox init OK&#39;);
++
++my $msg_to = &lt;&lt;EOF;
++From: user\@a.com
++To: $addr
++Subject: address is in to
++Message-Id: &lt;to\@a.com&gt;
++Date: Sat, 18 Apr 2020 00:00:00 +0000
++
++content1
++EOF
++
++my $msg_cc = &lt;&lt;EOF;
++From: user1\@a.com
++To: user2\@a.com
++Cc: $addr
++Subject: address is in cc
++Message-Id: &lt;cc\@a.com&gt;
++Date: Sat, 18 Apr 2020 00:01:00 +0000
++
++content2
++EOF
++
++my $msg_none = &lt;&lt;EOF;
++From: user1\@a.com
++To: user2\@a.com
++Cc: user3\@a.com
++Subject: address is not in to or cc
++Message-Id: &lt;none\@a.com&gt;
++Date: Sat, 18 Apr 2020 00:02:00 +0000
++
++content3
++EOF
++
++PublicInbox::Emergency-&gt;new($maildir)-&gt;prepare(\$msg_to);
++PublicInbox::Emergency-&gt;new($maildir)-&gt;prepare(\$msg_cc);
++PublicInbox::Emergency-&gt;new($maildir)-&gt;prepare(\$msg_none);
++
++my $cfg = &lt;&lt;EOF;
++$cfgpfx.address=$addr
++$cfgpfx.inboxdir=$inboxdir
++$cfgpfx.watch=maildir:$maildir
++$cfgpfx.watchheader=To:$addr
++$cfgpfx.watchheader=Cc:$addr
++EOF
++my $config = PublicInbox::Config-&gt;new(\$cfg);
++PublicInbox::WatchMaildir-&gt;new($config)-&gt;scan(&#39;full&#39;);
++my $ibx = $config-&gt;lookup_name(&#39;test&#39;);
++ok($ibx, &#39;found inbox by name&#39;);
++
++my $num = $ibx-&gt;mm-&gt;num_for(&#39;to@a.com&#39;);
++ok(defined $num, &#39;Matched for address in To:&#39;);
++my $num = $ibx-&gt;mm-&gt;num_for(&#39;cc@a.com&#39;);
++ok(defined $num, &#39;Matched for address in Cc:&#39;);
++$num = $ibx-&gt;mm-&gt;num_for(&#39;none@a.com&#39;);
++is($num, undef, &#39;No match without address in To: or Cc:&#39;);
++
++done_testing;
+</span>
+base-commit: b3f81ce0c71d5d4eca347f259b5ae69660a2cb13
+-- 
+2.26.0
+
+
+<a
+href=#m3a872b57ce31bfa434560193a72712b3b4512b91
+id=e3a872b57ce31bfa434560193a72712b3b4512b91>^</a> <a
+href="20200420001332.14769-1-kyle@kyleam.com/">permalink</a> <a
+href="20200420001332.14769-1-kyle@kyleam.com/raw">raw</a> <a
+href="20200420001332.14769-1-kyle@kyleam.com/#R">reply</a> <a
+href="20200420001332.14769-1-kyle@kyleam.com/#related">related</a>	[relevance 36%]</pre><hr><pre><a
+href=#edf43d409500871150b204e23fa0a2c544e6ecb6b
+id=mdf43d409500871150b204e23fa0a2c544e6ecb6b>*</a> <b>[RFC PATCH] watchmaildir: support multiple watchheader values</b>
+<b>@ 2020-04-12  4:44 41% Kyle Meyer</b>
+  <a
+href=#rdf43d409500871150b204e23fa0a2c544e6ecb6b>0 siblings, 0 replies; 17+ results</a>
+From: Kyle Meyer @ 2020-04-12  4:44 UTC (<a
+href="20200412044452.7524-1-kyle@kyleam.com/">permalink</a> / <a
+href="20200412044452.7524-1-kyle@kyleam.com/raw">raw</a>)
+  To: <a
+href="https://public-inbox.org/meta/?t=20200412044504">meta</a>; <b>+Cc:</b> Kyle Meyer
+
+The watchheader key supports only a single value.  In discussion [1]
+of 8d3e3bd8 (doc: explain publicinbox.&lt;name&gt;.watchheader, 2019-10-09),
+two concerns were raised about supporting multiple watchheader values:
+
+  * doing so would invite confusion about whether the acceptance
+    condition is &#34;all&#34; or &#34;any&#34;
+
+  * it&#39;s not clear there&#39;s a need
+
+The second point seems to be the crucial one because, provided there
+is a need, the first can be addressed with documentation (as already
+done for listid, which accepts the message if there are any matches).
+
+Here is one scenario where support for matching multiple headers would
+be convenient.  Someone wants to set up public-inbox archives for some
+small projects but does _not_ want to run mailing lists for them,
+instead allowing others to follow the project by any of the pull
+mechanisms.  Using a common underlying address, an address alias for
+each project is set up via a third-party email provider, with messages
+for each alias being exposed as a separate public-inbox archive.
+
+In this scenario, if all messages are downloaded to a common maildir,
+the problem with using watchheader to match the project address is
+that the address may be in either the To: or Cc: header.  One way to
+avoid this issue would be to filter things upstream so that messages
+for different projects got to different maildirs, ideally in a way
+that duplicates any cross-posted messages in each maildir.
+
+Teach watchheader to support multiple values, avoiding the need to
+direct message with no List-ID to separate maildirs.
+
+[1] <a
+href="https://public-inbox.org/meta/20191010085118.r3amey4cayazfycb@dcvr/">https://public-inbox.org/meta/20191010085118.r3amey4cayazfycb@dcvr/</a>
+---
+
+  I&#39;m not entirely convinced that the above provides a compelling
+  reason to make this change, but I think it&#39;s worth considering if it
+  makes it easier for some to set up archives for their projects
+  without setting up mailings lists.  Thoughts?
+
+  (If this ends up being a direction we decide to go, I&#39;d be happy to
+  work on adding tests to this patch.)
+
+ <a
+id=iZ320200412044452.7524-1-kyle::40kyleam.com:1Documentation:public-inbox-config.pod
+href=#Z320200412044452.7524-1-kyle::40kyleam.com:1Documentation:public-inbox-config.pod>Documentation/public-inbox-config.pod</a> | 3 ++-
+ <a
+id=iZ320200412044452.7524-1-kyle::40kyleam.com:1lib:PublicInbox:Config.pm
+href=#Z320200412044452.7524-1-kyle::40kyleam.com:1lib:PublicInbox:Config.pm>lib/PublicInbox/Config.pm</a>             | 4 ++--
+ <a
+id=iZ320200412044452.7524-1-kyle::40kyleam.com:1lib:PublicInbox:WatchMaildir.pm
+href=#Z320200412044452.7524-1-kyle::40kyleam.com:1lib:PublicInbox:WatchMaildir.pm>lib/PublicInbox/WatchMaildir.pm</a>       | 8 +++++---
+ 3 files <a href="#edf43d409500871150b204e23fa0a2c544e6ecb6b">changed</a>, 9 insertions(+), 6 deletions(-)
+
+<span
+class="head"><a
+href=#iZ320200412044452.7524-1-kyle::40kyleam.com:1Documentation:public-inbox-config.pod
+id=Z320200412044452.7524-1-kyle::40kyleam.com:1Documentation:public-inbox-config.pod>diff</a> --git a/Documentation/public-inbox-config.pod b/Documentation/public-inbox-config.pod
+index 53926ef4..f9871d4b 100644
+--- a/Documentation/public-inbox-config.pod
++++ b/Documentation/public-inbox-config.pod
+</span><span
+class="hunk">@@ -88,7 +88,8 @@ Default: none; only for L&lt;public-inbox-watch(1)&gt; users
+</span> 		watchheader = List-Id:&lt;test.example.com&gt;
+ 
+ If specified, L&lt;public-inbox-watch(1)&gt; will only process mail matching
+<span
+class="del">-the given header.  Multiple values are not currently supported.
+</span><span
+class="add">+the given header.  If specified multiple times, mail will be processed
++if it matches any of the values.
+</span> 
+ Default: none; only for L&lt;public-inbox-watch(1)&gt; users
+ 
+<span
+class="head"><a
+href=#iZ320200412044452.7524-1-kyle::40kyleam.com:1lib:PublicInbox:Config.pm
+id=Z320200412044452.7524-1-kyle::40kyleam.com:1lib:PublicInbox:Config.pm>diff</a> --git a/lib/PublicInbox/Config.pm b/lib/PublicInbox/Config.pm
+index 917939ca..458f29b2 100644
+--- a/lib/PublicInbox/Config.pm
++++ b/lib/PublicInbox/Config.pm
+</span><span
+class="hunk">@@ -367,7 +367,7 @@ sub _fill {
+</span> 	my $ibx = {};
+ 
+ 	foreach my $k (qw(inboxdir filter newsgroup
+<span
+class="del">-			watch watchheader httpbackendmax
+</span><span
+class="add">+			watch httpbackendmax
+</span> 			replyto feedmax nntpserver indexlevel)) {
+ 		my $v = $self-&gt;{&#34;$pfx.$k&#34;};
+ 		$ibx-&gt;{$k} = $v if defined $v;
+<span
+class="hunk">@@ -388,7 +388,7 @@ sub _fill {
+</span> 	# TODO: more arrays, we should support multi-value for
+ 	# more things to encourage decentralization
+ 	foreach my $k (qw(address altid nntpmirror coderepo hide listid url
+<span
+class="del">-			infourl)) {
+</span><span
+class="add">+			infourl watchheader)) {
+</span> 		if (defined(my $v = $self-&gt;{&#34;$pfx.$k&#34;})) {
+ 			$ibx-&gt;{$k} = _array($v);
+ 		}
+<span
+class="head"><a
+href=#iZ320200412044452.7524-1-kyle::40kyleam.com:1lib:PublicInbox:WatchMaildir.pm
+id=Z320200412044452.7524-1-kyle::40kyleam.com:1lib:PublicInbox:WatchMaildir.pm>diff</a> --git a/lib/PublicInbox/WatchMaildir.pm b/lib/PublicInbox/WatchMaildir.pm
+index e2024640..bdaacf62 100644
+--- a/lib/PublicInbox/WatchMaildir.pm
++++ b/lib/PublicInbox/WatchMaildir.pm
+</span><span
+class="hunk">@@ -59,9 +59,11 @@ sub new {
+</span> 		my $watch = $ibx-&gt;{watch} or return;
+ 		if (is_maildir($watch)) {
+ 			my $watch_hdrs = [];
+<span
+class="del">-			if (my $wh = $ibx-&gt;{watchheader}) {
+-				my ($k, $v) = split(/:/, $wh, 2);
+-				push @$watch_hdrs, [ $k, qr/\Q$v\E/ ];
+</span><span
+class="add">+			if (my $whs = $ibx-&gt;{watchheader}) {
++				for (@$whs) {
++					my ($k, $v) = split(/:/, $_, 2);
++					push @$watch_hdrs, [ $k, qr/\Q$v\E/ ];
++				}
+</span> 			}
+ 			if (my $list_ids = $ibx-&gt;{listid}) {
+ 				for (@$list_ids) {
+
+base-commit: d7270ec79e6347eb1c35ebcdc197e887bb4ef075
+-- 
+2.26.0
+
+
+<a
+href=#mdf43d409500871150b204e23fa0a2c544e6ecb6b
+id=edf43d409500871150b204e23fa0a2c544e6ecb6b>^</a> <a
+href="20200412044452.7524-1-kyle@kyleam.com/">permalink</a> <a
+href="20200412044452.7524-1-kyle@kyleam.com/raw">raw</a> <a
+href="20200412044452.7524-1-kyle@kyleam.com/#R">reply</a> <a
+href="20200412044452.7524-1-kyle@kyleam.com/#related">related</a>	[relevance 41%]</pre><hr><pre><a
+href=#e158c5291ee570fcd7312976afe36c702f2b54356
+id=m158c5291ee570fcd7312976afe36c702f2b54356>*</a> <b>[PATCH] doc: escape internal &#34;&gt;&#34; in listid code snippet</b>
+<b>@ 2020-04-11 21:05 28% Kyle Meyer</b>
+  <a
+href=#r158c5291ee570fcd7312976afe36c702f2b54356>0 siblings, 0 replies; 17+ results</a>
+From: Kyle Meyer @ 2020-04-11 21:05 UTC (<a
+href="20200411210501.12997-1-kyle@kyleam.com/">permalink</a> / <a
+href="20200411210501.12997-1-kyle@kyleam.com/raw">raw</a>)
+  To: <a
+href="https://public-inbox.org/meta/?t=20200411210513">meta</a>; <b>+Cc:</b> Kyle Meyer
+
+A code snippet in the listid description is incorrectly rendered as
+
+    &#34;publicinbox.$NAME.watchheader=List-Id:&lt;foo.example.com&#34;&gt;
+
+Escape the closing bracket around the List-Id value to avoid this.
+Also escape the opening bracket for symmetry/readability.
+---
+ <a
+id=iZ320200411210501.12997-1-kyle::40kyleam.com:1Documentation:public-inbox-config.pod
+href=#Z320200411210501.12997-1-kyle::40kyleam.com:1Documentation:public-inbox-config.pod>Documentation/public-inbox-config.pod</a> | 2 +-
+ 1 file <a href="#e158c5291ee570fcd7312976afe36c702f2b54356">changed</a>, 1 insertion(+), 1 deletion(-)
+
+<span
+class="head"><a
+href=#iZ320200411210501.12997-1-kyle::40kyleam.com:1Documentation:public-inbox-config.pod
+id=Z320200411210501.12997-1-kyle::40kyleam.com:1Documentation:public-inbox-config.pod>diff</a> --git a/Documentation/public-inbox-config.pod b/Documentation/public-inbox-config.pod
+index 53926ef4..4c9994dc 100644
+--- a/Documentation/public-inbox-config.pod
++++ b/Documentation/public-inbox-config.pod
+</span><span
+class="hunk">@@ -99,7 +99,7 @@ angle brackets for L&lt;public-inbox-mda(1)&gt; deliveries and
+</span> L&lt;public-inbox-watch(1)&gt;.
+ 
+ For public-inbox-watch users, this is a shortcut for specifying
+<span
+class="del">-C&lt;publicinbox.$NAME.watchheader=List-Id:&lt;foo.example.com&gt;&gt;
+</span><span
+class="add">+C&lt;publicinbox.$NAME.watchheader=List-Id:E&lt;lt&gt;foo.example.comE&lt;gt&gt;&gt;
+</span> 
+ For public-inbox-mda users, this may be used to avoid recipient
+ matching via C&lt;ORIGINAL_RECIPIENT&gt; environment variable.
+
+base-commit: d7270ec79e6347eb1c35ebcdc197e887bb4ef075
+-- 
+2.26.0
+
+
+<a
+href=#m158c5291ee570fcd7312976afe36c702f2b54356
+id=e158c5291ee570fcd7312976afe36c702f2b54356>^</a> <a
+href="20200411210501.12997-1-kyle@kyleam.com/">permalink</a> <a
+href="20200411210501.12997-1-kyle@kyleam.com/raw">raw</a> <a
+href="20200411210501.12997-1-kyle@kyleam.com/#R">reply</a> <a
+href="20200411210501.12997-1-kyle@kyleam.com/#related">related</a>	[relevance 28%]</pre><hr><pre><a
+href=#ed587414201438378c781cda43d76f5cc677d43aa
+id=md587414201438378c781cda43d76f5cc677d43aa>*</a> <b>[PATCH] doc: drop a repeated word</b>
+<b>@ 2019-11-09  0:38 35% Kyle Meyer</b>
+  <a
+href=#rd587414201438378c781cda43d76f5cc677d43aa>0 siblings, 0 replies; 17+ results</a>
+From: Kyle Meyer @ 2019-11-09  0:38 UTC (<a
+href="20191109003806.1873-1-kyle@kyleam.com/">permalink</a> / <a
+href="20191109003806.1873-1-kyle@kyleam.com/raw">raw</a>)
+  To: <a
+href="https://public-inbox.org/meta/?t=20191109003836">meta</a>; <b>+Cc:</b> Kyle Meyer
+
+---
+ <a
+id=iZ320191109003806.1873-1-kyle::40kyleam.com:1Documentation:public-inbox-config.pod
+href=#Z320191109003806.1873-1-kyle::40kyleam.com:1Documentation:public-inbox-config.pod>Documentation/public-inbox-config.pod</a> | 2 +-
+ 1 file <a href="#ed587414201438378c781cda43d76f5cc677d43aa">changed</a>, 1 insertion(+), 1 deletion(-)
+
+<span
+class="head"><a
+href=#iZ320191109003806.1873-1-kyle::40kyleam.com:1Documentation:public-inbox-config.pod
+id=Z320191109003806.1873-1-kyle::40kyleam.com:1Documentation:public-inbox-config.pod>diff</a> --git a/Documentation/public-inbox-config.pod b/Documentation/public-inbox-config.pod
+index a5275a4f..1e7cb845 100644
+--- a/Documentation/public-inbox-config.pod
++++ b/Documentation/public-inbox-config.pod
+</span><span
+class="hunk">@@ -209,7 +209,7 @@ Default: none
+</span> 
+ =item publicinboxwatch.watchspam
+ 
+<span
+class="del">-A Maildir to watch for for confirmed spam messages to appear in.
+</span><span
+class="add">+A Maildir to watch for confirmed spam messages to appear in.
+</span> Messages which appear in this folder with the (S)een Maildir flag
+ will be hidden from all configured inboxes based on Message-ID
+ and content matching.
+-- 
+2.23.0
+
+
+<a
+href=#md587414201438378c781cda43d76f5cc677d43aa
+id=ed587414201438378c781cda43d76f5cc677d43aa>^</a> <a
+href="20191109003806.1873-1-kyle@kyleam.com/">permalink</a> <a
+href="20191109003806.1873-1-kyle@kyleam.com/raw">raw</a> <a
+href="20191109003806.1873-1-kyle@kyleam.com/#R">reply</a> <a
+href="20191109003806.1873-1-kyle@kyleam.com/#related">related</a>	[relevance 35%]</pre><hr><pre><a
+href=#e79f2f3426af4db616cbc0b58e353e4da7c17d6bd
+id=m79f2f3426af4db616cbc0b58e353e4da7c17d6bd>*</a> <b>[PATCH] doc: fix a few minor typos</b>
+<b>@ 2019-04-07  3:31 24% Kyle Meyer</b>
+  <a
+href=#r79f2f3426af4db616cbc0b58e353e4da7c17d6bd>0 siblings, 0 replies; 17+ results</a>
+From: Kyle Meyer @ 2019-04-07  3:31 UTC (<a
+href="20190407033140.22121-1-kyle@kyleam.com/">permalink</a> / <a
+href="20190407033140.22121-1-kyle@kyleam.com/raw">raw</a>)
+  To: <a
+href="https://public-inbox.org/meta/?t=20190407033156">meta</a>; <b>+Cc:</b> Kyle Meyer
+
+---
+ <a
+id=iZ320190407033140.22121-1-kyle::40kyleam.com:1Documentation:public-inbox-nntpd.pod
+href=#Z320190407033140.22121-1-kyle::40kyleam.com:1Documentation:public-inbox-nntpd.pod>Documentation/public-inbox-nntpd.pod</a>     | 2 +-
+ <a
+id=iZ320190407033140.22121-1-kyle::40kyleam.com:1Documentation:public-inbox-v2-format.pod
+href=#Z320190407033140.22121-1-kyle::40kyleam.com:1Documentation:public-inbox-v2-format.pod>Documentation/public-inbox-v2-format.pod</a> | 4 ++--
+ 2 files <a href="#e79f2f3426af4db616cbc0b58e353e4da7c17d6bd">changed</a>, 3 insertions(+), 3 deletions(-)
+
+<span
+class="head"><a
+href=#iZ320190407033140.22121-1-kyle::40kyleam.com:1Documentation:public-inbox-nntpd.pod
+id=Z320190407033140.22121-1-kyle::40kyleam.com:1Documentation:public-inbox-nntpd.pod>diff</a> --git a/Documentation/public-inbox-nntpd.pod b/Documentation/public-inbox-nntpd.pod
+index a38687f..749851d 100644
+--- a/Documentation/public-inbox-nntpd.pod
++++ b/Documentation/public-inbox-nntpd.pod
+</span><span
+class="hunk">@@ -13,7 +13,7 @@ public-inbox.  It uses options and environment variables common
+</span> to all L&lt;public-inbox-daemon(8)&gt; implementations.
+ 
+ The default configuration will never require write access
+<span
+class="del">-tto the directory where the public-inbox is stored, so it
+</span><span
+class="add">+to the directory where the public-inbox is stored, so it
+</span> may be run as a different user than the user running
+ L&lt;public-inbox-watch(1)&gt;, L&lt;public-inbox-mda(1)&gt;, or
+ L&lt;git-fetch(1)&gt;.
+<span
+class="head"><a
+href=#iZ320190407033140.22121-1-kyle::40kyleam.com:1Documentation:public-inbox-v2-format.pod
+id=Z320190407033140.22121-1-kyle::40kyleam.com:1Documentation:public-inbox-v2-format.pod>diff</a> --git a/Documentation/public-inbox-v2-format.pod b/Documentation/public-inbox-v2-format.pod
+index 05ef32a..7dfe329 100644
+--- a/Documentation/public-inbox-v2-format.pod
++++ b/Documentation/public-inbox-v2-format.pod
+</span><span
+class="hunk">@@ -109,7 +109,7 @@ code paths.
+</span> 
+ The performance of the storage device is now the bottleneck on
+ larger multi-core systems.  In our experience, performance is
+<span
+class="del">-improves with high-quality and high-quantity solid-state storage.
+</span><span
+class="add">+improved with high-quality and high-quantity solid-state storage.
+</span> Issuing TRIM commands with L&lt;fstrim(8)&gt; was necessary to maintain
+ consistent performance while developing this feature.
+ 
+<span
+class="hunk">@@ -210,7 +210,7 @@ for all non-atomic operations.
+</span> 
+ =head1 HEADERS
+ 
+<span
+class="del">-Same handling as with v1, except the Message-ID header will will
+</span><span
+class="add">+Same handling as with v1, except the Message-ID header will
+</span> be generated if not provided or conflicting.  &#34;Bytes&#34;, &#34;Lines&#34;
+ and &#34;Content-Length&#34; headers are stripped and not allowed, they
+ can interfere with further processing.
+-- 
+2.21.0
+
+
+<a
+href=#m79f2f3426af4db616cbc0b58e353e4da7c17d6bd
+id=e79f2f3426af4db616cbc0b58e353e4da7c17d6bd>^</a> <a
+href="20190407033140.22121-1-kyle@kyleam.com/">permalink</a> <a
+href="20190407033140.22121-1-kyle@kyleam.com/raw">raw</a> <a
+href="20190407033140.22121-1-kyle@kyleam.com/#R">reply</a> <a
+href="20190407033140.22121-1-kyle@kyleam.com/#related">related</a>	[relevance 24%]</pre></pre><hr><pre id=t>Results 1-17 of 17 | <a
+href="?q=f:kyle@kyleam.com+watch&amp;o=-1&amp;x=t">reverse</a> | options <a href=#d>above</a></pre><pre>-- pct% links below jump to the message on this page, permalinks otherwise --
+2019-04-07  3:31 24% <a
+href="#m79f2f3426af4db616cbc0b58e353e4da7c17d6bd"
+id=r79f2f3426af4db616cbc0b58e353e4da7c17d6bd>[PATCH] doc: fix a few minor typos</a> Kyle Meyer
+2019-11-09  0:38 35% <a
+href="#md587414201438378c781cda43d76f5cc677d43aa"
+id=rd587414201438378c781cda43d76f5cc677d43aa>[PATCH] doc: drop a repeated word</a> Kyle Meyer
+2020-04-11 21:05 28% <a
+href="#m158c5291ee570fcd7312976afe36c702f2b54356"
+id=r158c5291ee570fcd7312976afe36c702f2b54356>[PATCH] doc: escape internal &#34;&gt;&#34; in listid code snippet</a> Kyle Meyer
+2020-04-12  4:44 41% <a
+href="#mdf43d409500871150b204e23fa0a2c544e6ecb6b"
+id=rdf43d409500871150b204e23fa0a2c544e6ecb6b>[RFC PATCH] watchmaildir: support multiple watchheader values</a> Kyle Meyer
+2020-04-12 21:59     <a
+href="20200412215933.GA63705@dcvr/">Eric Wong</a>
+2020-04-20  0:13 36% ` <a
+href="#m3a872b57ce31bfa434560193a72712b3b4512b91"
+id=r3a872b57ce31bfa434560193a72712b3b4512b91>[PATCH v2]</a> &#34; Kyle Meyer
+2020-04-23  8:34     <a
+href="20200423083419.835-1-e@yhbt.net/">[RFC 0/2] watch behavior changes aNd ProPoSaL</a> Eric Wong
+2020-04-24  3:12 27% ` <a
+href="#m70ae8f8ddddcdde244a8e89348ea72deb281dc80"
+id=r70ae8f8ddddcdde244a8e89348ea72deb281dc80>Kyle Meyer</a>
+2020-06-27 10:03     <a
+href="20200627100400.9871-1-e@yhbt.net/">[PATCH 00/34] watch: add IMAP and NNTP support</a> Eric Wong
+2020-06-27 10:03     ` <a
+href="20200627100400.9871-12-e@yhbt.net/">[PATCH 11/34] watch: use signalfd for Maildir watching</a> Eric Wong
+2020-06-27 19:05 29%   ` <a
+href="#m785f0df34e84ff8990f0795495026f3d1edeaa5e"
+id=r785f0df34e84ff8990f0795495026f3d1edeaa5e>Kyle Meyer</a>
+2020-06-27 10:03     ` <a
+href="20200627100400.9871-29-e@yhbt.net/">[PATCH 28/34] watch: add NNTP support</a> Eric Wong
+2020-06-27 19:06 27%   ` <a
+href="#m0ba6ce195f76e346edf8201c38c6b610f789e5c3"
+id=r0ba6ce195f76e346edf8201c38c6b610f789e5c3>Kyle Meyer</a>
+2020-08-22  6:06     <a
+href="20200822060627.15595-1-e@yhbt.net/">[PATCH 0/5] &#34;mairix -t&#34; workalike for mbox.gz downloads</a> Eric Wong
+2020-08-22  6:42     ` <a
+href="20200822064237.GA15720@dcvr/">Eric Wong</a>
+2020-08-22 20:12 20%   ` <a
+href="#mac1205ab124b23d14551e3bf3e3509d7a250cd75"
+id=rac1205ab124b23d14551e3bf3e3509d7a250cd75>Kyle Meyer</a>
+2020-10-16  2:08     <a
+href="20201016020852.27823-1-kyle@kyleam.com/">[PATCH] scripts/dupe-finder: restore $dbh variable</a> Kyle Meyer
+2020-10-16  4:23     ` <a
+href="20201016042325.GA61717@dcvr/">Eric Wong</a>
+2020-10-16  5:02 25%   ` <a
+href="#m265db80560170d80120ded58be202599a65769f3"
+id=r265db80560170d80120ded58be202599a65769f3>Kyle Meyer</a>
+2021-02-17  4:40     <a
+href="20210217044032.GA17934@dcvr/">does &#34;lei q&#34; --format/-f need to exist?</a> Eric Wong
+2021-02-18  5:28 20% ` <a
+href="#ma1ee200668105237f64000e3cf67fd7e7f07d13b"
+id=ra1ee200668105237f64000e3cf67fd7e7f07d13b>Kyle Meyer</a>
+2021-02-25 10:11     <a
+href="20210225101106.12505-1-e@80x24.org/">[PATCH 0/4] lei: fleshing out some existing features</a> Eric Wong
+2021-02-25 10:11     ` <a
+href="20210225101106.12505-5-e@80x24.org/">[PATCH 4/4] lei q: -tt marks direct hits as &#34;flagged&#34;</a> Eric Wong
+2021-02-26  3:38       ` <a
+href="87zgzrebx2.fsf@kyleam.com/">Kyle Meyer</a>
+2021-02-26  4:13         ` <a
+href="20210226041326.GA12319@dcvr/">Eric Wong</a>
+2021-02-26  4:38 20%       ` <a
+href="#mdb100d74811703a174409b38f2d38e259b089a75"
+id=rdb100d74811703a174409b38f2d38e259b089a75>Kyle Meyer</a>
+2021-10-11  4:53 28% <a
+href="#ma33358a2ce37c1484b71d1e33bee84916871e597"
+id=ra33358a2ce37c1484b71d1e33bee84916871e597>[PATCH] doc: lei-refresh-mail-sync: drop repeated word</a> Kyle Meyer
+2021-10-16  5:39 28% <a
+href="#m1809cac941f536eda7304e7dce5a1fb9c3ebb19f"
+id=r1809cac941f536eda7304e7dce5a1fb9c3ebb19f>[PATCH 0/2] doc: lei manpages for remaining commands</a> Kyle Meyer
+2021-10-16  5:39 34% ` <a
+href="#m6e1e38cd351b0aea662551856ee64be47dc3aafc"
+id=r6e1e38cd351b0aea662551856ee64be47dc3aafc>[PATCH 2/2] doc: lei: add</a> &#34; Kyle Meyer
+2021-10-16  7:07       ` <a
+href="20211016070753.M426387@dcvr/">Eric Wong</a>
+2021-10-16 15:13 19%     ` <a
+href="#ma5fafdf5a1ce52d2a66494caf1f8bf97f503eba8"
+id=ra5fafdf5a1ce52d2a66494caf1f8bf97f503eba8>Kyle Meyer</a>
+2025-10-12 23:44     <a
+href="20251012234456.72501-1-e@80x24.org/">[PATCH] doc: more updates ahead of 2.0.0 release</a> Eric Wong
+2025-10-13 20:09 20% ` <a
+href="#m55b0683b22747e0a8c44a373b8c3d4ff7287921e"
+id=r55b0683b22747e0a8c44a373b8c3d4ff7287921e>Kyle Meyer</a>
+<hr><pre><a id=code>Code repositories for project(s) associated with this public inbox
+
+	<a
+href="https://80x24.org/public-inbox.git">https://80x24.org/public-inbox.git</a>
+
+This is a public inbox, see <a
+href="_/text/mirror/">mirroring instructions</a>
+for how to clone and mirror all data and code used for this inbox;
+as well as URLs for read-only IMAP folder(s) and NNTP newsgroup(s).</pre></body></html>

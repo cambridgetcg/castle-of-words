@@ -1,0 +1,33 @@
+{
+  "courtyard.md": {
+    "sha256": "85de7ad460730ee3f3b848c3aac35c8375029a1a550f810555858b57b068c5f1",
+    "bytes": 89,
+    "lines": 3
+  },
+  "questions.md": {
+    "sha256": "53b77fd4fd1806c22869cd90d21160945df8f22151d5dc71d09bc7e06605d137",
+    "bytes": 667587,
+    "lines": 862
+  },
+  "chronicle.md": {
+    "sha256": "9a0550f34ce43aa1fe737c3d34ab0dccfcd610fcd7ac927c1a42143b82fcba1e",
+    "bytes": 817926,
+    "lines": 1648,
+    "last_line": "- 2026-10-20 11:16 \u00b7 tended: linked 3 pairs, laid 1 word-brick, saved letters meet paths back, repeated rows meet repeated fields, and outgoing commitments meet version guards; the Map's dilution-rate claim now stays a prediction."
+  },
+  "gate.md": {
+    "sha256": "172eeb784affc50e27ca1210b03d1fba2860b358a01b890d45b5623f9a082b3f",
+    "bytes": 409534,
+    "lines": 1086
+  },
+  "words/mail-ingestion.md": {
+    "sha256": "2bc583445a3c5179daf71d6bdade9f4a40da067ed0c116e6082bda99e40c967e",
+    "bytes": 1529,
+    "lines": 11
+  },
+  "rooms/what-the-gaps-can-say.md": {
+    "sha256": "83021dfe5b3eccad03914f14ceaad55d52d46d5d25c4f0d6dfcfac5a2f398f8c",
+    "bytes": 228310,
+    "lines": 1245
+  }
+}

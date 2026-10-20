@@ -1,0 +1,79 @@
+{
+  "captured_utc": "2026-10-20T20:40:09.635493+00:00",
+  "open_questions": [
+    {
+      "line": 26,
+      "reserved": true
+    },
+    {
+      "line": 35,
+      "reserved": true
+    },
+    {
+      "line": 299,
+      "reserved": true
+    },
+    {
+      "line": 483,
+      "reserved": true
+    },
+    {
+      "line": 537,
+      "reserved": true
+    },
+    {
+      "line": 657,
+      "reserved": true
+    },
+    {
+      "line": 691,
+      "reserved": true
+    },
+    {
+      "line": 740,
+      "reserved": false
+    },
+    {
+      "line": 744,
+      "reserved": false
+    },
+    {
+      "line": 766,
+      "reserved": false
+    },
+    {
+      "line": 782,
+      "reserved": true
+    },
+    {
+      "line": 784,
+      "reserved": true
+    },
+    {
+      "line": 794,
+      "reserved": true
+    },
+    {
+      "line": 816,
+      "reserved": true
+    },
+    {
+      "line": 832,
+      "reserved": true
+    },
+    {
+      "line": 862,
+      "reserved": true
+    }
+  ],
+  "eligible_in_file_order": [
+    740,
+    744,
+    766
+  ],
+  "courtyard_items": 0,
+  "open_quests": 8,
+  "rooms": 697,
+  "map_entries": 697,
+  "garden_git_status": ""
+}

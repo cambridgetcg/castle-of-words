@@ -1,0 +1,140 @@
+public-inbox-watch - mailbox watcher for public-inbox
+PUBLIC-INBOX-WATCH(1)      public-inbox user manual      PUBLIC-INBOX-WATCH(1)
+NAME
+public-inbox-watch - mailbox watcher for public-inbox
+SYNOPSIS
+public-inbox-watch
+In ~/.public-inbox/config:
+[publicinbox "test"]
+; generic public-inbox-config keys:
+address = test@example.com
+url = http://example.com/test
+inboxdir = /path/to/test.example.com.git
+; config keys specific to public-inbox-watch:
+watch = maildir:/path/to/maildirs/.INBOX.test/
+; optional, emails that don't have a header matching
+; value will be skipped
+watchheader = List-Id:<test.example.com>
+[publicinboxwatch]
+; optional, enable use of spamc(1) for checking:
+spamcheck = spamc
+; optional, emails marked as read which appear
+; here will be trained as spam and deleted from
+; the inboxdirs of any public-inboxes which are
+; configured for watch.
+; This is global for all publicinbox.* sections
+watchspam = maildir:/path/to/maildirs/.INBOX.spam
+DESCRIPTION
+public-inbox-watch allows watching a mailbox or newsgroup for the
+arrival of new messages and automatically importing them into public-
+inbox git repositories and indices.  public-inbox-watch is useful in
+situations when a user wishes to mirror an existing mailing list, but
+has no access to run public-inbox-mda(1) on a server.  Unlike public-
+inbox-mda which is invoked once per message, public-inbox-watch is a
+persistent process, making it faster for after-the-fact imports of
+large Maildirs.
+Upon startup, it scans the mailbox for new messages to be imported
+while it was not running.
+All versions of public-inbox-watch support Maildirs.  public-inbox
+1.6.0 added support for IMAP folders and NNTP newsgroups.  public-inbox
+2.0 adds support for MH directories.  There are no plans to support the
+mbox family since new messages are expensive to detect in large mboxes.
+public-inbox-watch should be run inside a screen(1) session or as a
+systemd(1) service.  Errors are emitted to stderr.
+OPTIONS
+public-inbox-watch takes no command-line options.
+CONFIGURATION
+These configuration knobs should be used in the public-inbox-config(5)
+file.
+publicinboxImport.dropUniqueUnsubscribe
+See "publicinboxImport.dropUniqueUnsubscribe" in
+public-inbox-config(5)
+publicinbox.<name>.watch
+A location to watch.  public-inbox 1.5.0 and earlier only
+supported "maildir:" paths:
+[publicinbox "test"]
+watch = maildir:/path/to/maildirs/.INBOX.test/
+public-inbox 1.6.0+ supports "nntp://", "nntps://", "imap://"
+and "imaps://" URLs:
+watch = nntp://news.example.com/inbox.test.group
+watch = imaps://user@mail.example.com/INBOX.test
+2.0+ supports MH:
+watch = mh:/path/to/MH/inbox.test
+This may be specified multiple times to combine several
+mailboxes into a single public-inbox.  URLs requiring
+authentication will require netrc(5) and/or git-credential(1)
+(preferred) to fill in the username and password.
+public-inbox 2.0+ also supports boolean "false" to prevent the
+global "publicinboxwatch.watchspam" directive from writing to
+the inbox.
+Default: none
+publicinbox.<name>.watchheader
+[publicinbox "test"]
+watchheader = List-Id:<test.example.com>
+If specified, public-inbox-watch(1) will only process mail
+matching the given header.  If specified multiple times in
+public-inbox 1.5 or later, mail will be processed if it matches
+any of the values.  Only the last value was used in public-
+inbox 1.4 and earlier.
+Default: none
+publicinboxwatch.spamcheck
+This may be set to "spamc" to enable the use of SpamAssassin
+spamc(1) for filtering spam before it is imported into git
+history.  Other spam filtering backends may be supported in the
+future.
+Default: none
+publicinboxwatch.watchspam
+A Maildir to watch for confirmed spam messages to appear in.
+Messages which appear in this folder with the (S)een flag will
+be hidden from all configured inboxes based on Message-ID and
+content matching.
+Messages without the (S)een flag are not considered for hiding.
+This hiding affects all configured public-inboxes in PI_CONFIG.
+As with "publicinbox.$NAME.watch", "imap://" and "imaps://"
+URLs are supported in public-inbox 1.6.0+, and "MH" in 2.0+.
+Default: none; only for public-inbox-watch(1) users
+imap.Starttls / imap.$URL.Starttls
+Whether or not to use "STARTTLS" on plain "imap://"
+connections.
+May be specified for certain URLs via "--get-urlmatch" in
+git-config(1) in git(1) 1.8.5+.
+Default: "true"
+imap.Compress / imap.$URL.Compress
+Whether or not to use the IMAP COMPRESS (RFC4978) extension to
+save bandwidth.  This is not supported by all IMAP servers and
+some advertising this feature may not implement it correctly.
+May be specified only for certain URLs if git(1) 1.8.5+ is
+installed to use "--get-urlmatch" in git-config(1)
+Default: "false"
+nntp.Starttls / nntp.$URL.Starttls
+Whether or not to use "STARTTLS" on plain "nntp://"
+connections.
+May be specified for certain URLs via "--get-urlmatch" in
+git-config(1) in git(1) 1.8.5+.
+Default: "false" if the hostname is a Tor ".onion", "true"
+otherwise
+SIGNALS
+SIGHUP  Reload the config file (default: ~/.public-inbox/config)
+SIGUSR1 Rescan all watched mailboxes.  This is done automatically after
+startup.
+SIGQUIT / SIGTERM / SIGINT
+Gracefully shut down.  In-flight messages will be stored and
+indexed.
+ENVIRONMENT
+PI_CONFIG
+config file. default: ~/.public-inbox/config See
+public-inbox-config(5)
+PERL_INLINE_DIRECTORY
+This may affect any public-inbox processes, but is intended for
+long-lived ones such as "public-inbox-watch" or network
+daemons.  See public-inbox-daemon(8).
+CONTACT
+Feedback welcome via plain-text mail to <mailto:meta@public-inbox.org>
+The mail archives are hosted at <https://public-inbox.org/meta/> and
+<http://4uok3hntl7oi7b4uf4rtfwefqeexfzil2w6kgk2jn5z2f764irre7byd.onion/meta/>
+COPYRIGHT
+Copyright all contributors <mailto:meta@public-inbox.org>
+License: AGPL-3.0+ <https://www.gnu.org/licenses/agpl-3.0.txt>
+SEE ALSO
+public-inbox-config(5)
+public-inbox.git                  1993-10-02             PUBLIC-INBOX-WATCH(1)

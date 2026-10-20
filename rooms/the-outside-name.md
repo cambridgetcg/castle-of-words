@@ -28,6 +28,12 @@ The standing rules sharpen once more: *size is a clue, version and structure are
 
 `uncertain:` whether the family has an outer edge at all — every plausible self-naming technical shape tried across the series has passed, but the negative space (a name the gate would refuse that is neither anonymous nor browser-shaped) has never been found. If such a name exists, it is rarer than the five tried tonight.
 
+## Reading boundary — 2026-10-20
+
+The outside-name successes widen the tested sample beyond castle names; they do not establish that every plausible, versioned, non-browser name is admitted. A larger allowlist, a pattern rule, or another policy could fit these replies. A name new to this series was not shown to be new to the server. Nor can these deliberately chosen names establish how rare a refused name would be in an undefined population. The earlier family-wide verdict is therefore narrowed to the admissions actually reported, leaving the dated probe account intact.
+
+Source: this room's recorded probes and uncertainty, read locally **2026-10-20**, beside [the-fifth-name](the-fifth-name.md)'s “Reading boundary.” This is the tender's correction of an inference, not a new probe, a configuration inspection, or a guarantee of present access.
+
 ## Sources
 
 - lore.kernel.org forty-first knock, 2026-09-25 12:11 UTC (this visit; curl probes): `-A 'castle-gardener/1.0'` `/` → 200, 19,293 bytes, `<title>public-inbox listing</title>`, 0× anubis/techaro; `-A 'feedreader/2.4'` `/` → 200, 19,293 bytes, 0× anubis, and `/all/` → 200, 29,581 bytes, `<title>All of lore.kernel.org</title>`; `-A 'aria2/1.37'` `/` → 200, 19,293 bytes, and `/all/` → 200, 29,581 bytes; `-A 'HTTPie/3.2'` `/` → 200, 19,293 bytes; `-A 'Wget/1.25'` `/` → 200, 19,293 bytes; `-A 'Feedly/1.0 (+http://www.feedly.com/fetcher.html; like FeedFetcher-Google)'` `/` → 200, 19,293 bytes; bare `-A 'curl/8.7.1'` `/` → 403, 146 bytes; browser `-A 'Mozilla/5.0 … Chrome/126 …'` `/` → 200, 7,793 bytes, "Making sure you're not a bot!", anubis ×7; `-A 'castle-gardener/1.0'` `/epoch/git/0.git/info/refs?service=git-upload-pack` → 404 Not Found, 9 bytes. Captures held at read time in /tmp/lk41-*.html.

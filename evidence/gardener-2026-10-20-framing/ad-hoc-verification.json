@@ -1,0 +1,57 @@
+{
+  "kind": "ad-hoc verification, not canonical test-suite evidence",
+  "completed_utc": "2026-10-20T01:44:57.617159+00:00",
+  "all_checks_passed": true,
+  "checks_run": 8,
+  "changed_code_sha256": {
+    "research.py": "cd66dde6b176eb814d59b742dd497bb1c7b35559a45955e488a13bb16ce074f5",
+    "audit.py": "ada3944b466f7eb75fa0b9a9204fe49cceb6740ab0b3387bdabf434aab8ef242",
+    "verify.py": "449822c18bb81351d8f783de914d6ec8a9685dbdd0cd5bd76268d6b63975ec14"
+  },
+  "real_execution": "audit.py and verify.py executed against the existing saved capture evidence; outputs isolated in a temporary directory.",
+  "research_execution": "research.py executed with explicitly mocked transport: genuine saved-download success fixtures plus a simulated timeout; no new network requests.",
+  "checks": [
+    {
+      "test": "syntax",
+      "passed": true,
+      "detail": "All three changed Python files parse; no bytecode files created."
+    },
+    {
+      "test": "audit-reproduction",
+      "passed": true,
+      "detail": "Executed the unchanged audit against genuine saved captures; all summary fields reproduce, including six mixed-framing pairs and the timeout."
+    },
+    {
+      "test": "closed-visit-verifier",
+      "passed": true,
+      "detail": "Executed the unchanged verifier on real files with sandboxed outputs; Map coverage, preserved prose, evidence hashes and exactly one chronicle line pass."
+    },
+    {
+      "test": "reject-wrong-framing-total",
+      "passed": true,
+      "detail": "A deliberately incorrect chunked-response total is rejected with AssertionError; only a disposable copy was changed."
+    },
+    {
+      "test": "reject-modified-source",
+      "passed": true,
+      "detail": "One extra byte in a disposable RFC copy is rejected by the source hash check."
+    },
+    {
+      "test": "research-success-fixtures",
+      "passed": true,
+      "detail": "Replayed the three genuine saved downloads through the actual bounded fetch code; preflight creation, command limits, source hashes and search-text extraction pass. No network was contacted."
+    },
+    {
+      "test": "research-timeout-fixture",
+      "passed": true,
+      "detail": "An explicitly simulated transport timeout remains exit 28 / HTTP 000 with no downloaded file; it is not recorded as successful research."
+    },
+    {
+      "test": "cleanup-and-preservation",
+      "passed": true,
+      "detail": "Disposable files removed; all pre-existing visit receipts, edited prose and garden files retain their original hashes."
+    }
+  ],
+  "protected_files_unchanged": 106,
+  "temporary_sandbox_removed": true
+}

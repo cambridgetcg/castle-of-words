@@ -1,0 +1,25 @@
+{
+  "kind": "ad-hoc verification; not canonical suite green",
+  "completed_utc": "2026-10-20T01:46:10.749884+00:00",
+  "all_checks_passed": true,
+  "checks_run": 8,
+  "checks": [
+    "syntax and unchanged code hashes; deleted staging file absent",
+    "audit reproduces every summary field from genuine saved captures",
+    "closed-visit verifier validates Map, source hashes, prose and one chronicle line",
+    "wrong framing total is rejected",
+    "modified source bytes are rejected",
+    "research replays actual saved-download fixtures with bounded commands and intact hashes",
+    "research records an explicit simulated timeout without inventing a download",
+    "sandbox removed and original receipts, castle writing and machinery unchanged"
+  ],
+  "code_sha256": {
+    "audit.py": "ada3944b466f7eb75fa0b9a9204fe49cceb6740ab0b3387bdabf434aab8ef242",
+    "research.py": "cd66dde6b176eb814d59b742dd497bb1c7b35559a45955e488a13bb16ce074f5",
+    "verify.py": "449822c18bb81351d8f783de914d6ec8a9685dbdd0cd5bd76268d6b63975ec14"
+  },
+  "staging_file_absent": true,
+  "protected_files_unchanged": 107,
+  "network": "none; research transport explicitly mocked with real retained fixtures and one simulated failure",
+  "temporary_sandbox_removed": true
+}

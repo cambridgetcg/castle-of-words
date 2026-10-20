@@ -1,0 +1,29 @@
+{
+  "checked_utc": "2026-10-20T11:11:44.251797+00:00",
+  "all_checks_passed": true,
+  "courtyard_entries": 0,
+  "researched": 1,
+  "answered": 0,
+  "planted": 0,
+  "open_questions": 16,
+  "unreserved_question_lines": [
+    740,
+    744,
+    766
+  ],
+  "room_count": 697,
+  "map_entries": 697,
+  "map_missing_extra_or_duplicate": 0,
+  "retrieval_count": 8,
+  "retrieval_status_counts": {
+    "200": 7,
+    "404": 1
+  },
+  "source_hashes_match": true,
+  "room_prior_content_preserved": true,
+  "questions_and_courtyard_unchanged": true,
+  "chronicle_prefix_preserved": true,
+  "chronicle_lines_appended": 1,
+  "chronicle_line": "- 2026-10-20 13:11 \u00b7 visit: filed 0, researched 1, planted 0 \u2014 Two operator reports identified past ways mail entered the archives without revealing today's update schedule or the cause of slow replies.",
+  "word_room_shapes_and_added_wikilinks_pass": true
+}

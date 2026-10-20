@@ -1,0 +1,28 @@
+{
+  "kind": "ad-hoc verification, not a canonical suite",
+  "verified_utc": "2026-10-20T20:45:13.785983+00:00",
+  "passed": true,
+  "check_count": 13,
+  "checks": [
+    "both changed scripts parse and compile without changing their assertions",
+    "research captures exact pre-visit hashes, respects reserved questions, and issues only its two planned document queries",
+    "research refuses replay without overwriting the snapshot or issuing another query",
+    "research rejects a file location outside the authorized sandbox root",
+    "verifier accepts copied real source captures and exactly one valid chronicle addition",
+    "verifier rejects altered retrieved bytes",
+    "verifier rejects a change to a protected castle page",
+    "verifier rejects rewritten chronicle history",
+    "verifier rejects a second appended chronicle line",
+    "verifier independently rejects a duplicate Map entry even with a matching baseline hash",
+    "verifier independently rejects a question count over the recorded cap",
+    "restored fixtures pass again after every negative test",
+    "unmodified verifier passes on the live retained evidence and unchanged castle pages"
+  ],
+  "network_requests": 0,
+  "temporary_fixtures_cleaned": true,
+  "limits": "Research collection was exercised with an explicit fetch test double; this does not verify current web availability or diagnose the remote service.",
+  "script_sha256": {
+    "research.py": "5776dd87044748efe0d38757e404bb8e56d2861d8b75470ccfcfde5d53157901",
+    "verify.py": "25168701bc6fb7fb70bb5d313f543552ad6c4595ec059a0f723f73f77f69d943"
+  }
+}

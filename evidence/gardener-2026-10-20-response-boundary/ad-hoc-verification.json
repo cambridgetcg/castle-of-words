@@ -1,0 +1,76 @@
+{
+  "kind": "ad-hoc verification; not canonical suite green",
+  "started": "2026-10-20T00:33:15.596499+02:00",
+  "script_sha256": {
+    "research.py": "8796864f47c383c398c45f1041e23b471598782cf3a533133063530081bb02a7",
+    "audit.py": "af686cc7f2d37febe8aa02770080d555fab15765beaa8c1e0f9047ec4570a3c8",
+    "verify.py": "4fc4421fec0d5e9277cc93976fb6673787afe97b60ef9c8bd35d818d8ed6564d"
+  },
+  "checks": [
+    {
+      "check": "All three current scripts compile without creating bytecode files",
+      "result": "pass"
+    },
+    {
+      "check": "Research cache replay makes no request and preserves original receipts",
+      "result": "pass"
+    },
+    {
+      "check": "Search extraction excludes scripts/styles and decodes visible entities (synthetic fixture)",
+      "result": "pass"
+    },
+    {
+      "check": "Fetch uses bounded HTTPS arguments and hashes saved bytes (mocked transport)",
+      "result": "pass"
+    },
+    {
+      "check": "Fetch preserves failure status and absence instead of inventing a response (mocked transport)",
+      "result": "pass"
+    },
+    {
+      "check": "Synthetic fixture directory is removed",
+      "result": "pass"
+    },
+    {
+      "check": "Audit reproduces all 28 real saved attempts, both framing forms, and exact timing checks",
+      "result": "pass"
+    },
+    {
+      "check": "Audit rejects truncated header block (in-memory negative test)",
+      "result": "pass"
+    },
+    {
+      "check": "Audit rejects unexpected informational response block (in-memory negative test)",
+      "result": "pass"
+    },
+    {
+      "check": "Audit rejects wrong declared content length (in-memory negative test)",
+      "result": "pass"
+    },
+    {
+      "check": "Audit rejects a tampered saved body (in-memory negative test)",
+      "result": "pass"
+    },
+    {
+      "check": "Closed verifier passes against actual documents, hashes, Map, and single chronicle line",
+      "result": "pass"
+    },
+    {
+      "check": "Verifier rejects a second appended chronicle line (in-memory negative test)",
+      "result": "pass"
+    },
+    {
+      "check": "Verifier rejects an unintended gate edit (in-memory negative test)",
+      "result": "pass"
+    },
+    {
+      "check": "Diff whitespace check passes and tested script bytes remain unchanged",
+      "result": "pass"
+    }
+  ],
+  "result": "pass",
+  "check_count": 15,
+  "live_service_requests": 0,
+  "negative_tests": "In-memory mutations only; no original capture or document was changed.",
+  "finished": "2026-10-20T00:33:15.797178+02:00"
+}

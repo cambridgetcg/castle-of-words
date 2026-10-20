@@ -1,0 +1,124 @@
+{
+  "captured_utc": "2026-10-20T17:32:31.484515+00:00",
+  "open_questions": [
+    {
+      "line": 26,
+      "reserved": true,
+      "planting": []
+    },
+    {
+      "line": 35,
+      "reserved": true,
+      "planting": [
+        "planted by the third session, 2026-06-10 \u00b7 two doors from friction-decides wait unplanted in that room \u00b7 waits for: yu"
+      ]
+    },
+    {
+      "line": 299,
+      "reserved": true,
+      "planting": [
+        "planted by the artisan, 2026-07-25 \u2014 mapping the kingdom OS integration showed the dimensions are independent and the choice of first step is yu's \u00b7 commissioned 2026-08-23"
+      ]
+    },
+    {
+      "line": 483,
+      "reserved": true,
+      "planting": [
+        "planted by the gardener, 2026-08-31 \u00b7 commissioned 2026-08-31 \u00b7 commissioned 2026-09-10 \u00b7 re-commissioned 2026-09-20 \u00b7 commissioned 2026-09-27"
+      ]
+    },
+    {
+      "line": 537,
+      "reserved": true,
+      "planting": [
+        "planted by the architect, 2026-09-18 \u2014 the room's own `uncertain:` clause, raised to a door; the build is obvious and unbuilt \u00b7 commissioned 2026-09-18 \u00b7 waits for: commission (internalized-o"
+      ]
+    },
+    {
+      "line": 657,
+      "reserved": true,
+      "planting": [
+        "planted by the gardener, 2026-09-26 \u2014 the promotion law's other side raised the kind; now the kind owes the series its ending, and the instrument is already on the paths \u00b7 commissioned 2026-0"
+      ]
+    },
+    {
+      "line": 691,
+      "reserved": true,
+      "planting": [
+        "planted by the gardener, 2026-09-30 \u2014 grew from the crossing itself: the name waited on one more stand, and now that it stands the record owes the durable its ending-shape, which the persiste"
+      ]
+    },
+    {
+      "line": 740,
+      "reserved": false,
+      "planting": [
+        "planted by the gardener, 2026-10-06 \u2014 grew from paying door 736's counting-rule and finding the census's own stamps already hold a second countable series, the living 200's rolls, never yet c"
+      ]
+    },
+    {
+      "line": 744,
+      "reserved": false,
+      "planting": [
+        "planted by the gardener, 2026-10-06 \u2014 grew from writing knock 88's row into the payment table and finding the table's rows sort by outcome (clean, slow, roll"
+      ]
+    },
+    {
+      "line": 766,
+      "reserved": false,
+      "planting": [
+        "planted by the gardener, 2026-10-07 \u2014 grew from writing knock 96's row and finding the evening cell now holds the kind's narrowest and widest windows at once: the watch answered twice and nev"
+      ]
+    },
+    {
+      "line": 782,
+      "reserved": true,
+      "planting": [
+        "planted by the gardener, 2026-10-10 \u00b7 commissioned 2026-10-10"
+      ]
+    },
+    {
+      "line": 784,
+      "reserved": true,
+      "planting": [
+        "planted by the gardener, 2026-10-10 \u00b7 commissioned 2026-10-10"
+      ]
+    },
+    {
+      "line": 794,
+      "reserved": true,
+      "planting": [
+        "planted by the gardener, 2026-10-11 \u00b7 commissioned 2026-10-11"
+      ]
+    },
+    {
+      "line": 816,
+      "reserved": true,
+      "planting": [
+        "planted by the gardener, 2026-10-12 \u00b7 commissioned 2026-10-12"
+      ]
+    },
+    {
+      "line": 832,
+      "reserved": true,
+      "planting": [
+        "planted by the gardener, 2026-10-13 \u00b7 commissioned 2026-10-13"
+      ]
+    },
+    {
+      "line": 862,
+      "reserved": true,
+      "planting": [
+        "planted by the gardener, 2026-10-15 \u00b7 commissioned 2026-10-15"
+      ]
+    }
+  ],
+  "eligible_in_file_order": [
+    740,
+    744,
+    766
+  ],
+  "courtyard_items": 0,
+  "rooms": 697,
+  "map_entries": 697,
+  "garden_git_status": ""
+}

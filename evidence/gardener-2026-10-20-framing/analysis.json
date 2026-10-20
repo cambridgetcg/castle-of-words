@@ -1,0 +1,662 @@
+{
+  "read_date": "2026-10-20",
+  "scope": "Same 28 saved orgmode attempts from 14 visits; no new service requests.",
+  "summary": {
+    "attempts": 28,
+    "visits": 14,
+    "completed": 27,
+    "timeouts": 1,
+    "framing_counts": {
+      "content-length": 19,
+      "chunked": 8,
+      "unobserved": 1
+    },
+    "distinct_completed_contents": 11,
+    "contents_seen_with_both_framings": 5,
+    "complete_within_visit_pairs": 13,
+    "same_content_pairs": 13,
+    "same_content_different_framing_pairs": 6,
+    "framing_by_completed_wait": {
+      "content-length": {
+        "below_1s": 17,
+        "at_or_above_1s": 2
+      },
+      "chunked": {
+        "below_1s": 7,
+        "at_or_above_1s": 1
+      }
+    },
+    "inherited_input_hashes_verified": 87
+  },
+  "mixed_framing_contents": [
+    {
+      "content_sha256": "6af34114ed67fd8569c2905818d3b6dbd0bb483572bf3e8b03e0e941aac66937",
+      "captures": [
+        {
+          "capture": "evidence/gardener-2026-10-17-service-check-3/r1-orgmode.json",
+          "start_utc": "2026-10-17T09:24:30.093013+00:00",
+          "framing": "chunked",
+          "total_seconds": "0.415065"
+        },
+        {
+          "capture": "evidence/gardener-2026-10-17-service-check-3/r2-orgmode.json",
+          "start_utc": "2026-10-17T09:24:31.293793+00:00",
+          "framing": "content-length",
+          "total_seconds": "0.475978"
+        }
+      ]
+    },
+    {
+      "content_sha256": "bfe58ec547739611df1a0ce2ba86232c3a6cf41b1e4bb52ebe9cc9a8bcae24de",
+      "captures": [
+        {
+          "capture": "evidence/gardener-2026-10-17-service-check-5/r1-orgmode.json",
+          "start_utc": "2026-10-17T15:58:48.949190+00:00",
+          "framing": "content-length",
+          "total_seconds": "0.484186"
+        },
+        {
+          "capture": "evidence/gardener-2026-10-17-service-check-5/r2-orgmode.json",
+          "start_utc": "2026-10-17T15:58:50.495633+00:00",
+          "framing": "chunked",
+          "total_seconds": "0.351625"
+        }
+      ]
+    },
+    {
+      "content_sha256": "605646c0024594e24923eb9d26c1e05deff7a43631720761df196ba6df45a5d9",
+      "captures": [
+        {
+          "capture": "evidence/gardener-2026-10-18-service-check/r1-orgmode.json",
+          "start_utc": "2026-10-17T22:24:47.499085+00:00",
+          "framing": "content-length",
+          "total_seconds": "20.902406"
+        },
+        {
+          "capture": "evidence/gardener-2026-10-18-service-check/r2-orgmode.json",
+          "start_utc": "2026-10-17T22:25:29.701454+00:00",
+          "framing": "content-length",
+          "total_seconds": "0.524748"
+        },
+        {
+          "capture": "evidence/gardener-2026-10-18-service-check-2/r1-orgmode.json",
+          "start_utc": "2026-10-18T01:36:18.422448+00:00",
+          "framing": "content-length",
+          "total_seconds": "0.483331"
+        },
+        {
+          "capture": "evidence/gardener-2026-10-18-service-check-2/r2-orgmode.json",
+          "start_utc": "2026-10-18T01:36:37.014266+00:00",
+          "framing": "chunked",
+          "total_seconds": "18.912934"
+        },
+        {
+          "capture": "evidence/gardener-2026-10-18-service-check-3/r1-orgmode.json",
+          "start_utc": "2026-10-18T04:47:56.324300+00:00",
+          "framing": "chunked",
+          "total_seconds": "0.391257"
+        },
+        {
+          "capture": "evidence/gardener-2026-10-18-service-check-3/r2-orgmode.json",
+          "start_utc": "2026-10-18T04:47:57.603860+00:00",
+          "framing": "content-length",
+          "total_seconds": "0.412934"
+        }
+      ]
+    },
+    {
+      "content_sha256": "a09117d5a9ff953e57fc4cd84e56413606715c8512d3ff5166e50f1e4af2e009",
+      "captures": [
+        {
+          "capture": "evidence/gardener-2026-10-18-service-check-4/r1-orgmode.json",
+          "start_utc": "2026-10-18T07:58:05.230325+00:00",
+          "framing": "content-length",
+          "total_seconds": "0.510819"
+        },
+        {
+          "capture": "evidence/gardener-2026-10-18-service-check-4/r2-orgmode.json",
+          "start_utc": "2026-10-18T07:58:06.619321+00:00",
+          "framing": "chunked",
+          "total_seconds": "0.470824"
+        }
+      ]
+    },
+    {
+      "content_sha256": "7ee8bb56ff8c39b21a841d9b57be1d2025fc587c2499b408cf6282d7abbee158",
+      "captures": [
+        {
+          "capture": "evidence/gardener-2026-10-18-service-check-7/r1-orgmode.json",
+          "start_utc": "2026-10-18T17:30:54.394738+00:00",
+          "framing": "content-length",
+          "total_seconds": "0.578694"
+        },
+        {
+          "capture": "evidence/gardener-2026-10-18-service-check-7/r2-orgmode.json",
+          "start_utc": "2026-10-18T17:30:55.737034+00:00",
+          "framing": "chunked",
+          "total_seconds": "0.396924"
+        }
+      ]
+    }
+  ],
+  "within_visit_pairs": [
+    {
+      "visit": "evidence/gardener-2026-10-17-service-check",
+      "same_content": true,
+      "framing_pair": [
+        "content-length",
+        "content-length"
+      ],
+      "different_framing": false
+    },
+    {
+      "visit": "evidence/gardener-2026-10-17-service-check-2",
+      "same_content": true,
+      "framing_pair": [
+        "content-length",
+        "content-length"
+      ],
+      "different_framing": false
+    },
+    {
+      "visit": "evidence/gardener-2026-10-17-service-check-3",
+      "same_content": true,
+      "framing_pair": [
+        "chunked",
+        "content-length"
+      ],
+      "different_framing": true
+    },
+    {
+      "visit": "evidence/gardener-2026-10-17-service-check-4",
+      "same_content": true,
+      "framing_pair": [
+        "chunked",
+        "chunked"
+      ],
+      "different_framing": false
+    },
+    {
+      "visit": "evidence/gardener-2026-10-17-service-check-5",
+      "same_content": true,
+      "framing_pair": [
+        "content-length",
+        "chunked"
+      ],
+      "different_framing": true
+    },
+    {
+      "visit": "evidence/gardener-2026-10-18-service-check",
+      "same_content": true,
+      "framing_pair": [
+        "content-length",
+        "content-length"
+      ],
+      "different_framing": false
+    },
+    {
+      "visit": "evidence/gardener-2026-10-18-service-check-2",
+      "same_content": true,
+      "framing_pair": [
+        "content-length",
+        "chunked"
+      ],
+      "different_framing": true
+    },
+    {
+      "visit": "evidence/gardener-2026-10-18-service-check-3",
+      "same_content": true,
+      "framing_pair": [
+        "chunked",
+        "content-length"
+      ],
+      "different_framing": true
+    },
+    {
+      "visit": "evidence/gardener-2026-10-18-service-check-4",
+      "same_content": true,
+      "framing_pair": [
+        "content-length",
+        "chunked"
+      ],
+      "different_framing": true
+    },
+    {
+      "visit": "evidence/gardener-2026-10-18-service-check-5",
+      "same_content": true,
+      "framing_pair": [
+        "content-length",
+        "content-length"
+      ],
+      "different_framing": false
+    },
+    {
+      "visit": "evidence/gardener-2026-10-18-service-check-6",
+      "same_content": true,
+      "framing_pair": [
+        "content-length",
+        "content-length"
+      ],
+      "different_framing": false
+    },
+    {
+      "visit": "evidence/gardener-2026-10-18-service-check-7",
+      "same_content": true,
+      "framing_pair": [
+        "content-length",
+        "chunked"
+      ],
+      "different_framing": true
+    },
+    {
+      "visit": "evidence/gardener-2026-10-18-service-check-8",
+      "same_content": true,
+      "framing_pair": [
+        "content-length",
+        "content-length"
+      ],
+      "different_framing": false
+    }
+  ],
+  "rows": [
+    {
+      "capture": "evidence/gardener-2026-10-17-service-check/r1-orgmode.json",
+      "start_utc": "2026-10-17T02:53:05.185254+00:00",
+      "round": 1,
+      "curl_exit": 0,
+      "total_seconds": "0.708186",
+      "framing": "content-length",
+      "content_sha256": "5a5059f07c0b32e84d0d88c2b508c8efbfb7a7fae1cbefef3ef3651b1d2fce8e",
+      "body_bytes": 370,
+      "completed_ge_1s": false
+    },
+    {
+      "capture": "evidence/gardener-2026-10-17-service-check/r2-orgmode.json",
+      "start_utc": "2026-10-17T02:53:06.774912+00:00",
+      "round": 2,
+      "curl_exit": 0,
+      "total_seconds": "27.443937",
+      "framing": "content-length",
+      "content_sha256": "5a5059f07c0b32e84d0d88c2b508c8efbfb7a7fae1cbefef3ef3651b1d2fce8e",
+      "body_bytes": 370,
+      "completed_ge_1s": true
+    },
+    {
+      "capture": "evidence/gardener-2026-10-17-service-check-2/r1-orgmode.json",
+      "start_utc": "2026-10-17T06:09:52.978021+00:00",
+      "round": 1,
+      "curl_exit": 0,
+      "total_seconds": "0.404173",
+      "framing": "content-length",
+      "content_sha256": "5a5059f07c0b32e84d0d88c2b508c8efbfb7a7fae1cbefef3ef3651b1d2fce8e",
+      "body_bytes": 370,
+      "completed_ge_1s": false
+    },
+    {
+      "capture": "evidence/gardener-2026-10-17-service-check-2/r2-orgmode.json",
+      "start_utc": "2026-10-17T06:09:54.173543+00:00",
+      "round": 2,
+      "curl_exit": 0,
+      "total_seconds": "0.430812",
+      "framing": "content-length",
+      "content_sha256": "5a5059f07c0b32e84d0d88c2b508c8efbfb7a7fae1cbefef3ef3651b1d2fce8e",
+      "body_bytes": 370,
+      "completed_ge_1s": false
+    },
+    {
+      "capture": "evidence/gardener-2026-10-17-service-check-3/r1-orgmode.json",
+      "start_utc": "2026-10-17T09:24:30.093013+00:00",
+      "round": 1,
+      "curl_exit": 0,
+      "total_seconds": "0.415065",
+      "framing": "chunked",
+      "content_sha256": "6af34114ed67fd8569c2905818d3b6dbd0bb483572bf3e8b03e0e941aac66937",
+      "body_bytes": 370,
+      "completed_ge_1s": false
+    },
+    {
+      "capture": "evidence/gardener-2026-10-17-service-check-3/r2-orgmode.json",
+      "start_utc": "2026-10-17T09:24:31.293793+00:00",
+      "round": 2,
+      "curl_exit": 0,
+      "total_seconds": "0.475978",
+      "framing": "content-length",
+      "content_sha256": "6af34114ed67fd8569c2905818d3b6dbd0bb483572bf3e8b03e0e941aac66937",
+      "body_bytes": 370,
+      "completed_ge_1s": false
+    },
+    {
+      "capture": "evidence/gardener-2026-10-17-service-check-4/r1-orgmode.json",
+      "start_utc": "2026-10-17T12:41:28.760885+00:00",
+      "round": 1,
+      "curl_exit": 0,
+      "total_seconds": "0.394287",
+      "framing": "chunked",
+      "content_sha256": "74262e08ea5699d6295e4c0f7035f43090dca988a003f193c0b39a1a1744cab4",
+      "body_bytes": 370,
+      "completed_ge_1s": false
+    },
+    {
+      "capture": "evidence/gardener-2026-10-17-service-check-4/r2-orgmode.json",
+      "start_utc": "2026-10-17T12:41:29.920592+00:00",
+      "round": 2,
+      "curl_exit": 0,
+      "total_seconds": "0.435608",
+      "framing": "chunked",
+      "content_sha256": "74262e08ea5699d6295e4c0f7035f43090dca988a003f193c0b39a1a1744cab4",
+      "body_bytes": 370,
+      "completed_ge_1s": false
+    },
+    {
+      "capture": "evidence/gardener-2026-10-17-service-check-5/r1-orgmode.json",
+      "start_utc": "2026-10-17T15:58:48.949190+00:00",
+      "round": 1,
+      "curl_exit": 0,
+      "total_seconds": "0.484186",
+      "framing": "content-length",
+      "content_sha256": "bfe58ec547739611df1a0ce2ba86232c3a6cf41b1e4bb52ebe9cc9a8bcae24de",
+      "body_bytes": 370,
+      "completed_ge_1s": false
+    },
+    {
+      "capture": "evidence/gardener-2026-10-17-service-check-5/r2-orgmode.json",
+      "start_utc": "2026-10-17T15:58:50.495633+00:00",
+      "round": 2,
+      "curl_exit": 0,
+      "total_seconds": "0.351625",
+      "framing": "chunked",
+      "content_sha256": "bfe58ec547739611df1a0ce2ba86232c3a6cf41b1e4bb52ebe9cc9a8bcae24de",
+      "body_bytes": 370,
+      "completed_ge_1s": false
+    },
+    {
+      "capture": "evidence/gardener-2026-10-17-service-check-6/r1-orgmode.json",
+      "start_utc": "2026-10-17T19:10:40.785429+00:00",
+      "round": 1,
+      "curl_exit": 0,
+      "total_seconds": "0.771024",
+      "framing": "content-length",
+      "content_sha256": "76773b585b6a8767bfe5afd25d547119332501baedd3eb9f6582d1bcec8823d7",
+      "body_bytes": 370,
+      "completed_ge_1s": false
+    },
+    {
+      "capture": "evidence/gardener-2026-10-17-service-check-6/r2-orgmode.json",
+      "start_utc": "2026-10-17T19:12:05.179399+00:00",
+      "round": 2,
+      "curl_exit": 28,
+      "total_seconds": "45.145394",
+      "framing": "unobserved",
+      "content_sha256": null,
+      "body_bytes": null,
+      "completed_ge_1s": null
+    },
+    {
+      "capture": "evidence/gardener-2026-10-18-service-check/r1-orgmode.json",
+      "start_utc": "2026-10-17T22:24:47.499085+00:00",
+      "round": 1,
+      "curl_exit": 0,
+      "total_seconds": "20.902406",
+      "framing": "content-length",
+      "content_sha256": "605646c0024594e24923eb9d26c1e05deff7a43631720761df196ba6df45a5d9",
+      "body_bytes": 370,
+      "completed_ge_1s": true
+    },
+    {
+      "capture": "evidence/gardener-2026-10-18-service-check/r2-orgmode.json",
+      "start_utc": "2026-10-17T22:25:29.701454+00:00",
+      "round": 2,
+      "curl_exit": 0,
+      "total_seconds": "0.524748",
+      "framing": "content-length",
+      "content_sha256": "605646c0024594e24923eb9d26c1e05deff7a43631720761df196ba6df45a5d9",
+      "body_bytes": 370,
+      "completed_ge_1s": false
+    },
+    {
+      "capture": "evidence/gardener-2026-10-18-service-check-2/r1-orgmode.json",
+      "start_utc": "2026-10-18T01:36:18.422448+00:00",
+      "round": 1,
+      "curl_exit": 0,
+      "total_seconds": "0.483331",
+      "framing": "content-length",
+      "content_sha256": "605646c0024594e24923eb9d26c1e05deff7a43631720761df196ba6df45a5d9",
+      "body_bytes": 370,
+      "completed_ge_1s": false
+    },
+    {
+      "capture": "evidence/gardener-2026-10-18-service-check-2/r2-orgmode.json",
+      "start_utc": "2026-10-18T01:36:37.014266+00:00",
+      "round": 2,
+      "curl_exit": 0,
+      "total_seconds": "18.912934",
+      "framing": "chunked",
+      "content_sha256": "605646c0024594e24923eb9d26c1e05deff7a43631720761df196ba6df45a5d9",
+      "body_bytes": 370,
+      "completed_ge_1s": true
+    },
+    {
+      "capture": "evidence/gardener-2026-10-18-service-check-3/r1-orgmode.json",
+      "start_utc": "2026-10-18T04:47:56.324300+00:00",
+      "round": 1,
+      "curl_exit": 0,
+      "total_seconds": "0.391257",
+      "framing": "chunked",
+      "content_sha256": "605646c0024594e24923eb9d26c1e05deff7a43631720761df196ba6df45a5d9",
+      "body_bytes": 370,
+      "completed_ge_1s": false
+    },
+    {
+      "capture": "evidence/gardener-2026-10-18-service-check-3/r2-orgmode.json",
+      "start_utc": "2026-10-18T04:47:57.603860+00:00",
+      "round": 2,
+      "curl_exit": 0,
+      "total_seconds": "0.412934",
+      "framing": "content-length",
+      "content_sha256": "605646c0024594e24923eb9d26c1e05deff7a43631720761df196ba6df45a5d9",
+      "body_bytes": 370,
+      "completed_ge_1s": false
+    },
+    {
+      "capture": "evidence/gardener-2026-10-18-service-check-4/r1-orgmode.json",
+      "start_utc": "2026-10-18T07:58:05.230325+00:00",
+      "round": 1,
+      "curl_exit": 0,
+      "total_seconds": "0.510819",
+      "framing": "content-length",
+      "content_sha256": "a09117d5a9ff953e57fc4cd84e56413606715c8512d3ff5166e50f1e4af2e009",
+      "body_bytes": 370,
+      "completed_ge_1s": false
+    },
+    {
+      "capture": "evidence/gardener-2026-10-18-service-check-4/r2-orgmode.json",
+      "start_utc": "2026-10-18T07:58:06.619321+00:00",
+      "round": 2,
+      "curl_exit": 0,
+      "total_seconds": "0.470824",
+      "framing": "chunked",
+      "content_sha256": "a09117d5a9ff953e57fc4cd84e56413606715c8512d3ff5166e50f1e4af2e009",
+      "body_bytes": 370,
+      "completed_ge_1s": false
+    },
+    {
+      "capture": "evidence/gardener-2026-10-18-service-check-5/r1-orgmode.json",
+      "start_utc": "2026-10-18T11:10:10.717005+00:00",
+      "round": 1,
+      "curl_exit": 0,
+      "total_seconds": "0.421135",
+      "framing": "content-length",
+      "content_sha256": "6a2024742ffee7eeb81827b7f7e5d741ed2c625891683b2f97946ea8f8446863",
+      "body_bytes": 370,
+      "completed_ge_1s": false
+    },
+    {
+      "capture": "evidence/gardener-2026-10-18-service-check-5/r2-orgmode.json",
+      "start_utc": "2026-10-18T11:10:11.925239+00:00",
+      "round": 2,
+      "curl_exit": 0,
+      "total_seconds": "0.455517",
+      "framing": "content-length",
+      "content_sha256": "6a2024742ffee7eeb81827b7f7e5d741ed2c625891683b2f97946ea8f8446863",
+      "body_bytes": 370,
+      "completed_ge_1s": false
+    },
+    {
+      "capture": "evidence/gardener-2026-10-18-service-check-6/r1-orgmode.json",
+      "start_utc": "2026-10-18T14:19:55.275146+00:00",
+      "round": 1,
+      "curl_exit": 0,
+      "total_seconds": "0.507058",
+      "framing": "content-length",
+      "content_sha256": "bceb5592499b5f17e96839a8b03358ec8be0b2bebce9e7740cd4cc0b5c1e9799",
+      "body_bytes": 370,
+      "completed_ge_1s": false
+    },
+    {
+      "capture": "evidence/gardener-2026-10-18-service-check-6/r2-orgmode.json",
+      "start_utc": "2026-10-18T14:19:56.778405+00:00",
+      "round": 2,
+      "curl_exit": 0,
+      "total_seconds": "0.519966",
+      "framing": "content-length",
+      "content_sha256": "bceb5592499b5f17e96839a8b03358ec8be0b2bebce9e7740cd4cc0b5c1e9799",
+      "body_bytes": 370,
+      "completed_ge_1s": false
+    },
+    {
+      "capture": "evidence/gardener-2026-10-18-service-check-7/r1-orgmode.json",
+      "start_utc": "2026-10-18T17:30:54.394738+00:00",
+      "round": 1,
+      "curl_exit": 0,
+      "total_seconds": "0.578694",
+      "framing": "content-length",
+      "content_sha256": "7ee8bb56ff8c39b21a841d9b57be1d2025fc587c2499b408cf6282d7abbee158",
+      "body_bytes": 370,
+      "completed_ge_1s": false
+    },
+    {
+      "capture": "evidence/gardener-2026-10-18-service-check-7/r2-orgmode.json",
+      "start_utc": "2026-10-18T17:30:55.737034+00:00",
+      "round": 2,
+      "curl_exit": 0,
+      "total_seconds": "0.396924",
+      "framing": "chunked",
+      "content_sha256": "7ee8bb56ff8c39b21a841d9b57be1d2025fc587c2499b408cf6282d7abbee158",
+      "body_bytes": 370,
+      "completed_ge_1s": false
+    },
+    {
+      "capture": "evidence/gardener-2026-10-18-service-check-8/r1-orgmode.json",
+      "start_utc": "2026-10-18T20:42:09.355184+00:00",
+      "round": 1,
+      "curl_exit": 0,
+      "total_seconds": "0.405859",
+      "framing": "content-length",
+      "content_sha256": "233f4847f5dc4fc5aacd7e81c84abbb0e2ae436948fc9fa2bb3010ca0a92e0c4",
+      "body_bytes": 370,
+      "completed_ge_1s": false
+    },
+    {
+      "capture": "evidence/gardener-2026-10-18-service-check-8/r2-orgmode.json",
+      "start_utc": "2026-10-18T20:42:10.631554+00:00",
+      "round": 2,
+      "curl_exit": 0,
+      "total_seconds": "0.420832",
+      "framing": "content-length",
+      "content_sha256": "233f4847f5dc4fc5aacd7e81c84abbb0e2ae436948fc9fa2bb3010ca0a92e0c4",
+      "body_bytes": 370,
+      "completed_ge_1s": false
+    }
+  ],
+  "input_sha256": {
+    "evidence/gardener-2026-10-20-response-boundary/analysis.json": "1c1dcd6fd53134d18c551c92e39ff5f095421f9bf2b0a25508978621adc3001c",
+    "evidence/gardener-2026-10-19-first-byte/analysis.json": "9495af45e579c76bad2d7130354de0fb91ab6c72d3f1bdc14a87cd136aa1e8d0",
+    "evidence/gardener-2026-10-19-request-order/analysis.json": "b51fdab9ecefba6453bf7947c3644cf9c48a6c90e3ac6cf342be9098384550ea",
+    "evidence/gardener-2026-10-16-service-check-5/r2-orgmode.json": "3fbe3d7cbdd4feac896e9f4918fe8ea492b3b5ebc8733f29c66d5184667a9537",
+    "evidence/gardener-2026-10-16-service-check-5/r2-orgmode.body": "5a5059f07c0b32e84d0d88c2b508c8efbfb7a7fae1cbefef3ef3651b1d2fce8e",
+    "evidence/gardener-2026-10-17-service-check/r1-orgmode.json": "dc0c4247162a2dd98990b0b028e9ebe3eb8ca0e2137e2a242b76322c63372edd",
+    "evidence/gardener-2026-10-17-service-check/r1-orgmode.body": "5a5059f07c0b32e84d0d88c2b508c8efbfb7a7fae1cbefef3ef3651b1d2fce8e",
+    "evidence/gardener-2026-10-17-service-check/r2-orgmode.json": "3e439e2188508e4aab36bf0784c4a7f56ab6ac693f0d909fd5c4195be13c0dc3",
+    "evidence/gardener-2026-10-17-service-check/r2-orgmode.body": "5a5059f07c0b32e84d0d88c2b508c8efbfb7a7fae1cbefef3ef3651b1d2fce8e",
+    "evidence/gardener-2026-10-17-service-check-2/r1-orgmode.json": "674282d11ae32b20f4eb57ecccf082f9dc4dd25799f5d0151940a0c8f763afcf",
+    "evidence/gardener-2026-10-17-service-check-2/r1-orgmode.body": "5a5059f07c0b32e84d0d88c2b508c8efbfb7a7fae1cbefef3ef3651b1d2fce8e",
+    "evidence/gardener-2026-10-17-service-check-2/r2-orgmode.json": "33e584ba56a9eab19705f042f080a7b69d35a0be5fc09168323ab04aab1b70c0",
+    "evidence/gardener-2026-10-17-service-check-2/r2-orgmode.body": "5a5059f07c0b32e84d0d88c2b508c8efbfb7a7fae1cbefef3ef3651b1d2fce8e",
+    "evidence/gardener-2026-10-17-service-check-3/r1-orgmode.json": "ca84aa81a823dddc8d90dc137b1496b547780e245b130bd7a379e3901b4dfbb1",
+    "evidence/gardener-2026-10-17-service-check-3/r1-orgmode.body": "6af34114ed67fd8569c2905818d3b6dbd0bb483572bf3e8b03e0e941aac66937",
+    "evidence/gardener-2026-10-17-service-check-3/r2-orgmode.json": "b65bfbaeb26d270b20e5c4d722fe7d884a4abe63bd4c2b57eaacd489f6516e99",
+    "evidence/gardener-2026-10-17-service-check-3/r2-orgmode.body": "6af34114ed67fd8569c2905818d3b6dbd0bb483572bf3e8b03e0e941aac66937",
+    "evidence/gardener-2026-10-17-service-check-4/r1-orgmode.json": "a6b4309647340603cccc6a1925c86e4e33bf35148743d1f6e4766cc79da18ae5",
+    "evidence/gardener-2026-10-17-service-check-4/r1-orgmode.body": "74262e08ea5699d6295e4c0f7035f43090dca988a003f193c0b39a1a1744cab4",
+    "evidence/gardener-2026-10-17-service-check-4/r2-orgmode.json": "e558e532511e62408bd449aa0a613d5c8dc66e34c7003bef93f3fba1bc81f887",
+    "evidence/gardener-2026-10-17-service-check-4/r2-orgmode.body": "74262e08ea5699d6295e4c0f7035f43090dca988a003f193c0b39a1a1744cab4",
+    "evidence/gardener-2026-10-17-service-check-5/r1-orgmode.json": "1ecff154dedf8067d10ccdf5c2448bd67fc6f99c8a388053c13e4cf066dcedb8",
+    "evidence/gardener-2026-10-17-service-check-5/r1-orgmode.body": "bfe58ec547739611df1a0ce2ba86232c3a6cf41b1e4bb52ebe9cc9a8bcae24de",
+    "evidence/gardener-2026-10-17-service-check-5/r2-orgmode.json": "3aed31c9a833830a01b813f0b3c7831f06f8a933467be39e001119dfff59828b",
+    "evidence/gardener-2026-10-17-service-check-5/r2-orgmode.body": "bfe58ec547739611df1a0ce2ba86232c3a6cf41b1e4bb52ebe9cc9a8bcae24de",
+    "evidence/gardener-2026-10-17-service-check-6/r1-orgmode.json": "2511e7d378cb0999564027e291d530622f96a740997e69b2d064352002d05ad5",
+    "evidence/gardener-2026-10-17-service-check-6/r1-orgmode.body": "76773b585b6a8767bfe5afd25d547119332501baedd3eb9f6582d1bcec8823d7",
+    "evidence/gardener-2026-10-17-service-check-6/r2-orgmode.json": "f78f73160dff07841a9c187432b35a1a9db0f91b60ebe43fd66b19c9bf810e12",
+    "evidence/gardener-2026-10-17-service-check-6/r2-orgmode.headers": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "evidence/gardener-2026-10-18-service-check/r1-orgmode.json": "aae5af796d9ded24908225a22f8964ba017d82017821075d97c2dd1d390341cc",
+    "evidence/gardener-2026-10-18-service-check/r1-orgmode.body": "605646c0024594e24923eb9d26c1e05deff7a43631720761df196ba6df45a5d9",
+    "evidence/gardener-2026-10-18-service-check/r2-orgmode.json": "4d45b91db9eba9712bf13b053f9a3da2396bcc34ca652fcfd2daae5e2dd30f09",
+    "evidence/gardener-2026-10-18-service-check/r2-orgmode.body": "605646c0024594e24923eb9d26c1e05deff7a43631720761df196ba6df45a5d9",
+    "evidence/gardener-2026-10-18-service-check-2/r1-orgmode.json": "f03bfd557a935e956cd8f38985c3d9fd902fd5d8eee73c3fc2b5de81da0146f5",
+    "evidence/gardener-2026-10-18-service-check-2/r1-orgmode.body": "605646c0024594e24923eb9d26c1e05deff7a43631720761df196ba6df45a5d9",
+    "evidence/gardener-2026-10-18-service-check-2/r2-orgmode.json": "078652edf00055a7f15fd0b68faf7b71202c9f0a5823e681926528b35c630fba",
+    "evidence/gardener-2026-10-18-service-check-2/r2-orgmode.body": "605646c0024594e24923eb9d26c1e05deff7a43631720761df196ba6df45a5d9",
+    "evidence/gardener-2026-10-18-service-check-3/r1-orgmode.json": "2cc2e56345277af0cc5ce07612abc7815af5f012f729528fd9c2e057f26e7c2b",
+    "evidence/gardener-2026-10-18-service-check-3/r1-orgmode.body": "605646c0024594e24923eb9d26c1e05deff7a43631720761df196ba6df45a5d9",
+    "evidence/gardener-2026-10-18-service-check-3/r2-orgmode.json": "c075171db0b10a19957d75b6d5409b4f4645cfb756975c63f1fc281d26bb9e48",
+    "evidence/gardener-2026-10-18-service-check-3/r2-orgmode.body": "605646c0024594e24923eb9d26c1e05deff7a43631720761df196ba6df45a5d9",
+    "evidence/gardener-2026-10-18-service-check-4/r1-orgmode.json": "41c65d219173036f5ad195f3cc88fbef4cf006005ae57d483d173d66e462f694",
+    "evidence/gardener-2026-10-18-service-check-4/r1-orgmode.body": "a09117d5a9ff953e57fc4cd84e56413606715c8512d3ff5166e50f1e4af2e009",
+    "evidence/gardener-2026-10-18-service-check-4/r2-orgmode.json": "7aca4ce789e848b2bbfe664c324a0da07a14a88f88b0a539848fab54948d1648",
+    "evidence/gardener-2026-10-18-service-check-4/r2-orgmode.body": "a09117d5a9ff953e57fc4cd84e56413606715c8512d3ff5166e50f1e4af2e009",
+    "evidence/gardener-2026-10-18-service-check-5/r1-orgmode.json": "188c1740ea5b384ea65ffad4d1c22f02ecde30d8ba6e37bd99f6af86bd6b9936",
+    "evidence/gardener-2026-10-18-service-check-5/r1-orgmode.body": "6a2024742ffee7eeb81827b7f7e5d741ed2c625891683b2f97946ea8f8446863",
+    "evidence/gardener-2026-10-18-service-check-5/r2-orgmode.json": "b10c5b602882f4edf890557de30ac079fa33c1cadd57fb7f894c87a46f7921d6",
+    "evidence/gardener-2026-10-18-service-check-5/r2-orgmode.body": "6a2024742ffee7eeb81827b7f7e5d741ed2c625891683b2f97946ea8f8446863",
+    "evidence/gardener-2026-10-18-service-check-6/r1-orgmode.json": "8a7042c22b15b6186b8196fca27180a68a6fd780eaa420ebceb4c6cc51ea56cd",
+    "evidence/gardener-2026-10-18-service-check-6/r1-orgmode.body": "bceb5592499b5f17e96839a8b03358ec8be0b2bebce9e7740cd4cc0b5c1e9799",
+    "evidence/gardener-2026-10-18-service-check-6/r2-orgmode.json": "9d7f45ae7af2ba99c08e8f5c9805122c0f91a4fb5dac615bfef9d9a6f8d2b504",
+    "evidence/gardener-2026-10-18-service-check-6/r2-orgmode.body": "bceb5592499b5f17e96839a8b03358ec8be0b2bebce9e7740cd4cc0b5c1e9799",
+    "evidence/gardener-2026-10-18-service-check-7/r1-orgmode.json": "e50c9c7904e0d2f601dd6824476db68809b817f07cdec2ae28cd166b10735fb4",
+    "evidence/gardener-2026-10-18-service-check-7/r1-orgmode.body": "7ee8bb56ff8c39b21a841d9b57be1d2025fc587c2499b408cf6282d7abbee158",
+    "evidence/gardener-2026-10-18-service-check-7/r2-orgmode.json": "9d3f19d898068f8a90f85c253d397752049db2dcf3e01c8bde797d2268b8783d",
+    "evidence/gardener-2026-10-18-service-check-7/r2-orgmode.body": "7ee8bb56ff8c39b21a841d9b57be1d2025fc587c2499b408cf6282d7abbee158",
+    "evidence/gardener-2026-10-18-service-check-8/r1-orgmode.json": "2055e90c032fa596c3e3cbb829ca77c547ea3a005731dfd516e5bb79e0e04645",
+    "evidence/gardener-2026-10-18-service-check-8/r1-orgmode.body": "233f4847f5dc4fc5aacd7e81c84abbb0e2ae436948fc9fa2bb3010ca0a92e0c4",
+    "evidence/gardener-2026-10-18-service-check-8/r2-orgmode.json": "fdad62cc28ed9d9c463d4903579a7e20d0d2f33510a045622b7dc427bd54d74f",
+    "evidence/gardener-2026-10-18-service-check-8/r2-orgmode.body": "233f4847f5dc4fc5aacd7e81c84abbb0e2ae436948fc9fa2bb3010ca0a92e0c4",
+    "evidence/gardener-2026-10-17-service-check/r1-orgmode.headers": "42cc0fac666cc93efe8a2739eb38dd2ad77f6c558cd9eaea3d5a39aae8d4ff6b",
+    "evidence/gardener-2026-10-17-service-check/r2-orgmode.headers": "357cb130721a70dfaab2c9368c4651af99fe3bc34520cdab1a6e7e527b3d45c7",
+    "evidence/gardener-2026-10-17-service-check-2/r1-orgmode.headers": "a144cc05b12fcc3e61c0d5a75922cda036be2962b031a8c74725e1403ac1f42f",
+    "evidence/gardener-2026-10-17-service-check-2/r2-orgmode.headers": "3d061e5defc3510e4059300a3576c6983cbefa38fd5e8f645a1f7496dfa0b59e",
+    "evidence/gardener-2026-10-17-service-check-3/r1-orgmode.headers": "1c15c78eac631d35f8b0a78d3426f3c837577cbe09418b7e6f8e165ac7a57cd1",
+    "evidence/gardener-2026-10-17-service-check-3/r2-orgmode.headers": "c7b384415a6999f04eedc0b25295f0225b8bd9f415ecaa28fcebe4e0ab455452",
+    "evidence/gardener-2026-10-17-service-check-4/r1-orgmode.headers": "83ec64dd3302f02934f80fe1ee0c74896145a8817a0a3de7ba5689b774c9b310",
+    "evidence/gardener-2026-10-17-service-check-4/r2-orgmode.headers": "77946e33e8b03e1bb3b044f27cfa515529479a0dfb20c86c8198b1d040d7f5c0",
+    "evidence/gardener-2026-10-17-service-check-5/r1-orgmode.headers": "9c01e88763f60559bf2d38f19e2d128f08547076bb919d6900627aa5ad893d8b",
+    "evidence/gardener-2026-10-17-service-check-5/r2-orgmode.headers": "bb27002d5fa4334e5799163c8f0eed55c59086390efd1d30f308ec801cf361f2",
+    "evidence/gardener-2026-10-17-service-check-6/r1-orgmode.headers": "76ed74072787316bd1c3f9cfcc25b8d7a1fd228d8ba27b6c376c1993115b3ee3",
+    "evidence/gardener-2026-10-18-service-check/r1-orgmode.headers": "a1c8745e27940ae20b69ba22788d499b00205b6f37555054c2f9618427b515e7",
+    "evidence/gardener-2026-10-18-service-check/r2-orgmode.headers": "20035316d3b52f92288669e3d93be9a98b3a44cc45c53b31a8823f3ede0e5d99",
+    "evidence/gardener-2026-10-18-service-check-2/r1-orgmode.headers": "f8db3bc1c582f3dcf42c023435f89daab62733f774ddef057d561620358b3f7c",
+    "evidence/gardener-2026-10-18-service-check-2/r2-orgmode.headers": "dcc9e2fd19f50eb38cd23f1726721bd3bdf213d39dc6d5d8159bf4ce26571045",
+    "evidence/gardener-2026-10-18-service-check-3/r1-orgmode.headers": "75a68b64ff183548cdd92468fcf4431b2747214f79e5dc4152d198d32144a9bf",
+    "evidence/gardener-2026-10-18-service-check-3/r2-orgmode.headers": "b24b52c411a902a1d46e6b86443d8aa1b97664f4886d6196d09dac3155a545e1",
+    "evidence/gardener-2026-10-18-service-check-4/r1-orgmode.headers": "6c6a1a5dd0765a63e2fe1b975776fc93f7e00536fa42869b7d33fc06ce1add46",
+    "evidence/gardener-2026-10-18-service-check-4/r2-orgmode.headers": "39157cd19df92541d82e4bd77f1f8d23876f0f1f9de081d961e5131c18498057",
+    "evidence/gardener-2026-10-18-service-check-5/r1-orgmode.headers": "b69f4e8d0c1c4ce4b9d2fe961f21d0c1e15664baec0c50c937341b62bb3c43e8",
+    "evidence/gardener-2026-10-18-service-check-5/r2-orgmode.headers": "537190d30ee8bcc36d75daf82a3d4c00d4f5d5f0482227e7048a7cfa8afe4642",
+    "evidence/gardener-2026-10-18-service-check-6/r1-orgmode.headers": "e2043681a0279af4fdbed830af9583a9634d5bdd8d77f611ce6efea1396cab67",
+    "evidence/gardener-2026-10-18-service-check-6/r2-orgmode.headers": "63a5ac45c2cf810f555d1185422eee1a278f66a99eb0281e6397c4cab9f25d66",
+    "evidence/gardener-2026-10-18-service-check-7/r1-orgmode.headers": "e7c49be827805d4781b8e9ed561c1fefda1a09552ed5784cf66641ba0486e96f",
+    "evidence/gardener-2026-10-18-service-check-7/r2-orgmode.headers": "20132d20fc0af2e045084d621cc0c4afb15343c085b69a676f85eb3d091feef4",
+    "evidence/gardener-2026-10-18-service-check-8/r1-orgmode.headers": "87f10dd4eefebb6b8fc99c1743a0d276668d0180973b32b9ced18ec486b1edaf",
+    "evidence/gardener-2026-10-18-service-check-8/r2-orgmode.headers": "b06e00c9fe9fdab7aa084ba14c2e27b7e8a34c22c8cd01cd8c7eb1f3094025df"
+  },
+  "limits": "Client-visible header dumps and decoded content only, not original chunk boundaries or a wire trace. The one-second cutoff is inherited and descriptive. Repeated requests are not independent events. No backend identity, cause, hidden update time or update-delay association is established."
+}

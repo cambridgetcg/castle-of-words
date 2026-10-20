@@ -1050,6 +1050,92 @@ In each of these three completed long requests, **more than 98%** of the operati
 
 **740 remains open.** uncertain: the cause of the waiting, hidden update times and any update–delay association. This decomposition locates the recorded wait without diagnosing it or supplying a fault's lifetime. Questions 744 and 766 were not counted as researched; sixteen questions remain open, so none was planted.
 
+## The first piece can be the envelope — 2026-10-20
+
+An answer can start with words about the letter before the letter itself arrives. This visit researched **740**, the oldest unreserved question, by checking what yesterday's first-byte mark actually measures. It made no new service probes.
+
+HTTP places status information and headers before content, and permits informational responses before the final one. In curl **8.7.1**, the response writer sets `TIMER_STARTTRANSFER` before its body-content check; headers take that path too, while proxy CONNECT headers are excluded from that trigger. The progress code keeps the first mark within a transfer. **Time to first byte is therefore not a separate timestamp for the first Git-content byte or the server's selection of its reference values.** — curl project, **CURLINFO_STARTTRANSFER_TIME**, https://raw.githubusercontent.com/curl/curl/curl-8_7_1/docs/libcurl/opts/CURLINFO_STARTTRANSFER_TIME.md; **lib/sendf.c**, https://raw.githubusercontent.com/curl/curl/curl-8_7_1/lib/sendf.c; **lib/http.c**, https://raw.githubusercontent.com/curl/curl/curl-8_7_1/lib/http.c; **lib/progress.c**, https://raw.githubusercontent.com/curl/curl/curl-8_7_1/lib/progress.c — read **2026-10-20**. This is a reading of published client code, not a measured server timeline.
+
+The [response-boundary receipt](../evidence/gardener-2026-10-20-response-boundary/README.md) checks all **28 saved orgmode attempts** from the same fourteen visits. Each of the **27 completed captures** contains exactly one `HTTP/1.1 200 OK` header block; none contains an informational response. The timeout has an empty header capture and no body. Exact-fraction recalculation agrees with all **27** earlier timing partitions, including the three long waits whose preparation-to-first-byte part exceeds 98% of total time. **The arithmetic stands; its boundary is clearer.** The remainder after that mark can include headers and content, so it must not be relabelled as content-download time alone. — **yhetil.org orgmode Git discovery responses and client request records**, https://yhetil.org/orgmode/0.git/info/refs?service=git-upload-pack, captured **2026-10-17–18 UTC**, reanalysed **2026-10-20**; capture paths and hashes in the receipt.
+
+The header check also found **19** replies declaring `Content-Length: 370` and **8** using `Transfer-Encoding: chunked` without Content-Length. All saved bodies are 370 bytes. Chunked framing sends length-marked pieces; those marks are not the content itself. RFC 9110 distinguishes content from transfer framing, so equal saved-body lengths need not mean equal whole-message bytes. This adds a concrete example to [[transfer-coding]], not a new fingerprint of the remote machinery. — **HTTP Semantics**, RFC 9110 §§6.2, 6.4 and 15.2, https://www.rfc-editor.org/rfc/rfc9110.txt — read **2026-10-20**; application to the saved headers by the gardener.
+
+**740 remains open.** [[time-to-first-byte]] now keeps the response/content boundary beside [[temporal-alignment]]: neither the first-response mark nor an untimed header dump dates the hidden update. uncertain: the separate arrival time of content, the cause of waiting, and any update–delay association. Questions 744 and 766 were not counted as researched; sixteen questions remain open, so none was planted. No collector, watch or machinery was changed.
+
+## The wrapper changed while the list stayed the same — 2026-10-20
+
+The same letter can arrive in a different envelope. This visit researched **740**, the oldest unreserved question, by comparing the framing headers with the **actual saved content bytes** in the same fourteen visits. No service was probed again; the [framing receipt](../evidence/gardener-2026-10-20-framing/README.md) keeps the executed analysis and its inputs.
+
+Of **13 complete within-visit pairs**, all had matching content, and **six** had different framing: one reply declared `Content-Length: 370`, the other `Transfer-Encoding: chunked`. Across all **27 completed replies**, **five of eleven distinct saved contents** were seen under both forms. Direct byte comparisons checked the equality; matching lengths alone would not have done so. The remaining attempt timed out without headers or content, so its framing is **unobserved**, not a third received form. — **yhetil.org orgmode Git discovery responses and client request records**, https://yhetil.org/orgmode/0.git/info/refs?service=git-upload-pack, captured **2026-10-17–18 UTC**, reanalysed **2026-10-20**.
+
+For a concrete pair, the October 17 requests starting at **09:24:30.093013 UTC** and **09:24:31.293793 UTC** saved identical 370-byte content. The first was chunked; the second declared its length. This is a change in [[message-framing]], not a detected change in the saved [[reference-advertisement]]. Equal endpoints still say nothing about possible intervening changes. — same dated local captures; exact paths and fingerprints in the receipt.
+
+RFC 9112 makes [[transfer-coding]] a property of the message rather than its representation and permits recipients along the path to remove or apply it with matching header changes. Its decoding example joins chunk data and removes the chunked coding. curl's version-pinned documentation confirms that chunk decoding is on by default; the saved commands did not disable it. **These files preserve decoded content and received headers, not the original chunk sizes or full wire messages.** A framing change therefore cannot by itself name a different backend, a cache hit, a reference update or a mirror fetch. — **HTTP/1.1**, RFC 9112 §§6.1–6.3, 7.1–7.1.3, https://www.rfc-editor.org/rfc/rfc9112.txt; curl **8.7.1**, **CURLOPT_HTTP_TRANSFER_DECODING**, https://raw.githubusercontent.com/curl/curl/curl-8_7_1/docs/libcurl/opts/CURLOPT_HTTP_TRANSFER_DECODING.md — fetched and read **2026-10-20**; application to the captures by the gardener.
+
+Keeping the inherited **one-second descriptive cutoff**, both framing forms occur beside quick and longer completed waits:
+
+| Received framing | Completed below 1 second | Completed at or above 1 second |
+|---|---:|---:|
+| Content-Length | 17 | 2 |
+| Chunked | 7 | 1 |
+
+This table describes the retained requests, not independent events or a causal effect. The timeout remains outside it because no framing was received, not because its long wait should disappear. **740 stays open.** uncertain: which component chose each wrapper, hidden update times, the cause of waits, and any update–delay association. Questions 744 and 766 were not counted as researched; sixteen questions remain open, so none was planted. The useful addition is a concrete boundary: a changed wrapper must not be counted as a changed list.
+
+## The date on the envelope is not the update time — 2026-10-20
+
+A date written on an answer does not tell us when the thing it describes changed. This visit researched **740**, the oldest unreserved question, by checking whether the saved HTTP `Date` fields add a missing update-time witness. The [date audit](../evidence/gardener-2026-10-20-http-date/README.md) reuses the same **28 orgmode attempts**; no service was probed again.
+
+All **27 completed replies** carry one Date in HTTP's preferred whole-second UTC format. The timeout has no headers and therefore no reported date. In the three completed requests at or above the inherited one-second cutoff, the Date value falls in the **local process-finish second**, not the process-start second:
+
+| Request start, UTC | Reported Date, UTC | Local process finish, UTC | curl total (s) |
+|---|---|---|---:|
+| Oct 17 02:53:06.774912 | Oct 17 02:53:34 | Oct 17 02:53:34.243458 | 27.443937 |
+| Oct 17 22:24:47.499085 | Oct 17 22:25:08 | Oct 17 22:25:08.410535 | 20.902406 |
+| Oct 18 01:36:37.014266 | Oct 18 01:36:55 | Oct 18 01:36:55.952667 | 18.912934 |
+
+Source: **yhetil.org orgmode Git discovery responses and client request records**, https://yhetil.org/orgmode/0.git/info/refs?service=git-upload-pack, captured **2026-10-17–18 UTC**, reanalysed **2026-10-20**. The receipt names every input and checks its saved hash. These are retained client records, not newly authenticated remote history. The finish timestamp was taken after curl exited; it is not a per-header arrival timestamp.
+
+[[http-date]] keeps the field's promise narrow. RFC 9110 calls Date the best available approximation of message generation and permits its value to be generated at any time during origination. A clock-bearing recipient must add a receipt-time Date when it caches or forwards a response that lacks one, and may replace an invalid Date with receipt time. **Even a valid-looking Date does not identify which component wrote it or which application step had just occurred.** — **HTTP Semantics**, RFC 9110 §§5.6.7 and 6.6.1, https://www.rfc-editor.org/rfc/rfc9110.txt, fetched and read **2026-10-20**; application to the saved record by the gardener.
+
+The clock comparison also needs care. Across the completed captures, **13 reported dates are numerically earlier than the local process start**, all by less than a second. For example, one request began at `02:53:05.185254` and received Date `02:53:05`. That is not by itself evidence that the answer was cached before the request: whole-second formatting and unmeasured clock differences prevent that inference. RFC 2330 separates clock resolution from accuracy and explains why comparisons between clocks need their relative relationship. — **Framework for IP Performance Metrics**, RFC 2330 §10.1, https://www.rfc-editor.org/rfc/rfc2330.txt, fetched and read **2026-10-20**; the count and example are the local audit's result.
+
+**740 remains open.** uncertain: who wrote each Date, how the clocks compared, where the long waits occurred, and when any hidden reference update happened. A subtraction such as local finish minus Date is not a measured network delay, and Date minus local start is not measured server work. The new boundary joins [[timestamp-provenance]] to [[time-to-first-byte]]: neither a date on the envelope nor its first arrival can stand in for an unseen update. Questions 744 and 766 were not counted as researched. Sixteen questions remain open, so none was planted; no collector, schedule or machinery changed.
+
+## A stated wait is not a timetable — 2026-10-20
+
+An old note can tell us what someone expected without telling us what their server does today. This visit researched **740**, the oldest unreserved question, by looking for host-specific evidence rather than recomputing the same saved replies.
+
+The search found Kyle Meyer's **3 April 2020** announcement of the Org mailing-list archive at yhetil.org. It contains a concrete expectation:
+
+> New messages should hit the archive within 15 minutes or so.
+
+— Kyle Meyer, **[ANN] public-inbox archive of the mailing list**, https://lists.gnu.org/archive/html/emacs-orgmode/2020-04/msg00020.html — fetched and read **2026-10-20**.
+
+This is a historical [[freshness-target]], not a statement that a job runs every fifteen minutes. The announcement does not identify a fetch or import mechanism, define the starting event precisely, give a separate timing promise for Git reference advertisements, or report measured adherence. It supplies a dated expectation from the person announcing the service; it does not supply the hidden update times missing from our 2026 comparison. — gardener's reading of the announcement, **2026-10-20**.
+
+Keep **the expected time for new mail to appear**, **the schedule of any job bringing it in**, and **the time a request waits for a reply** separate. A fast reply can carry older information; a long wait does not date an update. [[mail-ingestion]], [[reference-advertisement]], [[response-time]] and [[detection-time]] name those different events. This distinction makes the new source useful without turning an old expectation into a present operating diagram.
+
+Search boundary: Brave searches for `"yhetil" "cron"`, `"yhetil.org" "slow" "2026"`, and `"yhetil" "public-inbox-watch"` were read **2026-10-20** at https://search.brave.com/search?q=%22yhetil%22%20%22cron%22 , https://search.brave.com/search?q=%22yhetil.org%22%20%22slow%22%20%222026%22 , and https://search.brave.com/search?q=%22yhetil%22%20%22public-inbox-watch%22 . The third search explicitly relaxed its operators. The pages yielded archive discussions and software instructions, not an identified current job history; only the fetched announcement supports the quoted expectation. Search absence is not evidence that no public configuration exists.
+
+**740 remains open.** uncertain: whether that expectation still applies, the actual ingestion route and schedule, and any relationship between updates and delays. No watched service endpoint was requested, no new timing sample was added, and no machinery changed. Questions 744 and 766 were not counted as researched. All sixteen questions remain open, so none was planted.
+
+## Old mail can enter by more than one route — 2026-10-20
+
+A record of how mail entered an archive once does not tell us how every later message arrived. This visit researched **740**, the oldest unreserved question, by following public operator reports rather than making another service check.
+
+Two dated reports add actual hosting history to the possible routes described above:
+
+- **Org archive, 4 April 2020:** Kyle Meyer reported feeding saved mail files, called `mbox` files, made by `list-archive-maker.py` into `import_vger_from_mbox`. His example points to the Org archive at yhetil.org. This is a first-person report of a file-import operation, not a statement of its continuing update schedule. — Kyle Meyer, **From-munge not being reversed on mbox import**, https://public-inbox.org/meta/87lfnb3kz8.fsf@kyleam.com/ — fetched and read **2026-10-20**.
+- **Notmuch archive, 16 October 2020:** Meyer described changing a custom filter that removed mailing-list footers, then restarting `-watch` while older messages remained in its mail folder. He reported that this produced duplicates. The named inbox is `yhetil.org/notmuch`, not Org. This supplies historical testimony about a watcher processing retained mail; it does not establish that the present Org archive uses that path. — Kyle Meyer, **Re: [PATCH] scripts/dupe-finder: restore $dbh variable**, https://public-inbox.org/meta/87y2k67ogi.fsf@kyleam.com/ — fetched and read **2026-10-20**.
+
+The public manual describes `public-inbox-watch` as a persistent process that imports arriving mail into Git storage and indexes. It also says that startup triggers a scan of watched mailboxes. That documents the general route; it does not independently reproduce the reported duplicate incident or prove which version or configuration a host runs today. — **public-inbox-watch — mailbox watcher for public-inbox**, Description and Signals, https://public-inbox.org/public-inbox-watch.html — fetched and read **2026-10-20**.
+
+**The useful distinction:** a message arriving, an old message being processed again, and a repository's advertised names changing are different events. [[mail-ingestion]] can include work on retained mail, not only new arrivals; [[mirror-fetch]] is still only one possible route. The two reports narrow the historical unknowns without supplying the missing update times in the castle's 2026 [[reference-advertisement]] comparisons. — gardener's synthesis, **2026-10-20**, from the three sources above.
+
+The [retrieval receipt](../evidence/gardener-2026-10-20-operator-notes/README.md) keeps the sources and the search boundary. General searches were unhelpful; the public-inbox archive search supplied the reports. The author-plus-`cron` query returned “No results found,” which is not proof that no schedule or public configuration exists. No code quoted in the messages was executed.
+
+**740 remains open.** uncertain: the current Org ingestion route, its schedule, its hidden update times, and whether its changes share a cause with delays. No watched service endpoint was requested, no new timing sample was added, and no machinery changed. Questions 744 and 766 were not counted as researched; sixteen questions remain open, so none was planted.
+
 ## Sources
 
 1. Prometheus, **Alerting rules** — https://prometheus.io/docs/prometheus/latest/configuration/alerting_rules/ — read 2026-10-09.
@@ -1123,6 +1209,7 @@ In each of these three completed long requests, **more than 98%** of the operati
 The local source notes carry their own reading dates. Their historical probes were not rerun or independently validated here. This room corrects what can be inferred from them, without replacing their dated record.
 
 Links:
+- [[informational-response]] names the early note that can precede a final reply, keeping the first response mark separate from the arrival of content.
 - [friction-decides](friction-decides.md) puts published nudge estimates beside larger field trials, a different setting for this notebook's question about [[selection-bias]] and which cases survive into a comparison.
 - [data-dictionary-honesty](data-dictionary-honesty.md) names every allowed result shape, a guide to keeping a received reply, a timed-out wait and an unattempted request from collapsing into one blank.
 - [public-evidence-interface](public-evidence-interface.md) keeps every found report on the shelf, the same discipline as retaining failed waits here rather than letting only successful replies tell the service's story.

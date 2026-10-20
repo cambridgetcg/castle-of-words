@@ -1,0 +1,1203 @@
+f:kyle@kyleam.com watch - search results
+user/dev discussion of public-inbox itself
+help / color / mirror / code / Atom feed
+Search results ordered by [date|relevance]  view[summary|nested|Atom feed]
+thread overview below | download mbox.gz: |
+* Re: [PATCH] doc: more updates ahead of 2.0.0 release
+@ 2025-10-13 20:09 20% ` Kyle Meyer
+0 siblings, 0 replies; 17+ results
+From: Kyle Meyer @ 2025-10-13 20:09 UTC (permalink / raw)
+To: Eric Wong; +Cc: meta
+Hi Eric,
+Thanks for all your work on this release.
+Eric Wong writes:
+> +  * publicinbox.*.watch=false can prevents attempted writes due to
+s/prevents/prevent/
+> +  * --commit=SECONDS adjust commit interval to increase or decrease
+s/adjust/adjusts/
+^ permalink raw reply	[relevance 20%]
+* Re: [PATCH 2/2] doc: lei: add manpages for remaining commands
+@ 2021-10-16 15:13 19%     ` Kyle Meyer
+0 siblings, 0 replies; 17+ results
+From: Kyle Meyer @ 2021-10-16 15:13 UTC (permalink / raw)
+To: Eric Wong; +Cc: meta
+Eric Wong writes:
+>> @@ -47,6 +53,7 @@ Documentation/lei-q.pod
+>>  Documentation/lei-rediff.pod
+>>  Documentation/lei-refresh-mail-sync.pod
+>>  Documentation/lei-rm.pod
+>> +Documentation/lei-rm-watch.pod
+>>  Documentation/lei-security.pod
+>>  Documentation/lei-store-format.pod
+>>  Documentation/lei-tag.pod
+>
+> Curious, was that from `git ls-files >MANIFEST' ?
+No, it wasn't.  I hadn't realized that the content of MANIFEST
+corresponded directly to git-ls-files output, but poking around I see
+there is even a check-manifest make target [*].  Doh.
+So, I manually added this one, like the others I added.  I think my past
+changes to this file have ended up in the expected order because I tend
+to run Emacs's sort-lines to check my manual placement, but I must not
+have done it here because sort-lines agrees with ls-files.
+[...]
+> No big deal, I can just flip and push it; I just don't want a
+> reproducibility issue popping up.
+Thanks, sorry about the mix up.
+[*] I did run `make check' before sending, and it looks like that also
+checks MANIFEST _after_ running the test suite.  That didn't help me
+catch the MANIFEST sorting issue in this case because the test suite
+is failing on my end.
+I believe these failures are recent and was planning on looking into
+them today, either sending a patch or just reporting, depending on
+whether I could figure out a fix.  Anyway, here they are:
+t/psgi_multipart_not.t .......
+ok 1 - use HTTP::Request::Common;
+ok 2 - use Plack::Test;
+ok 3 - use PublicInbox::WWW;
+not ok 4 - /v2test/?q=%22ain't what it used to be%22&x=t
+not ok 5 - /v2test/?q=%22ain't what it used to be%22&x=t warns
+Failed 2/5 subtests
+^ permalink raw reply	[relevance 19%]
+* [PATCH 2/2] doc: lei: add manpages for remaining commands
+2021-10-16  5:39 28% [PATCH 0/2] doc: lei manpages for remaining commands Kyle Meyer
+@ 2021-10-16  5:39 34% ` Kyle Meyer
+0 siblings, 1 reply; 17+ results
+From: Kyle Meyer @ 2021-10-16  5:39 UTC (permalink / raw)
+To: meta
+At this point all of the current lei commands, aside from -help and
+-sucks, should be covered.
+---
+Documentation/lei-add-watch.pod         | 33 ++++++++++++++
+Documentation/lei-forget-mail-sync.pod  | 31 +++++++++++++
+Documentation/lei-inspect.pod           | 57 ++++++++++++++++++++++++
+Documentation/lei-ls-mail-source.pod    | 58 +++++++++++++++++++++++++
+Documentation/lei-ls-mail-sync.pod      |  2 +-
+Documentation/lei-ls-watch.pod          | 29 +++++++++++++
+Documentation/lei-mail-diff.pod         | 33 ++++++++++++++
+Documentation/lei-refresh-mail-sync.pod |  2 +-
+Documentation/lei-rm-watch.pod          | 30 +++++++++++++
+Documentation/lei.pod                   | 14 ++++++
+Documentation/txt2pre                   |  7 +++
+MANIFEST                                |  7 +++
+Makefile.PL                             | 12 ++---
+13 files changed, 307 insertions(+), 8 deletions(-)
+create mode 100644 Documentation/lei-add-watch.pod
+create mode 100644 Documentation/lei-forget-mail-sync.pod
+create mode 100644 Documentation/lei-inspect.pod
+create mode 100644 Documentation/lei-ls-mail-source.pod
+create mode 100644 Documentation/lei-ls-watch.pod
+create mode 100644 Documentation/lei-mail-diff.pod
+create mode 100644 Documentation/lei-rm-watch.pod
+diff --git a/Documentation/lei-add-watch.pod b/Documentation/lei-add-watch.pod
+new file mode 100644
+index 00000000..60984618
+--- /dev/null
++++ b/Documentation/lei-add-watch.pod
+@@ -0,0 +1,33 @@
++=head1 NAME
++
++lei-add-watch - watch for new messages and flag changes
++
++=head1 SYNOPSIS
++
++lei add-watch [OPTIONS] LOCATION [LOCATION...]
++
++=head1 DESCRIPTION
++
++Tell lei to watch C<LOCATION> for new messages and flag changes.
++Currently only Maildir locations are supported.
++
++=for comment
++TODO: Document --state?  Believe valid values are pause, import-ro,
++
++=head1 CONTACT
++
++Feedback welcome via plain-text mail to L<mailto:meta@public-inbox.org>
++
++The mail archives are hosted at L<https://public-inbox.org/meta/> and
++L<http://4uok3hntl7oi7b4uf4rtfwefqeexfzil2w6kgk2jn5z2f764irre7byd.onion/meta/>
++
++=head1 COPYRIGHT
++
++Copyright 2021 all contributors L<mailto:meta@public-inbox.org>
++
++License: AGPL-3.0+ L<https://www.gnu.org/licenses/agpl-3.0.txt>
++
++
++=head1 SEE ALSO
++
++L<lei-ls-watch(1)>, L<lei-rm-watch(1)>
+diff --git a/Documentation/lei-forget-mail-sync.pod b/Documentation/lei-forget-mail-sync.pod
+new file mode 100644
+index 00000000..e70b4d33
+--- /dev/null
++++ b/Documentation/lei-forget-mail-sync.pod
+@@ -0,0 +1,31 @@
++=head1 NAME
++
++lei-forget-mail-sync - forget sync information for a mail folder
++
++=head1 SYNOPSIS
++
++lei forget-mail-sync [OPTIONS] LOCATION [LOCATION...]
++
++=head1 DESCRIPTION
++
++Forget synchronization information for C<LOCATION>, an IMAP or Maildir
++folder.  Note that this won't delete any messages stored in Git,
++leaving C<lei-index(1)> users with dangling references.
++
++=head1 CONTACT
++
++Feedback welcome via plain-text mail to L<mailto:meta@public-inbox.org>
++
++The mail archives are hosted at L<https://public-inbox.org/meta/> and
++L<http://4uok3hntl7oi7b4uf4rtfwefqeexfzil2w6kgk2jn5z2f764irre7byd.onion/meta/>
++
++=head1 COPYRIGHT
++
++Copyright 2021 all contributors L<mailto:meta@public-inbox.org>
++
++License: AGPL-3.0+ L<https://www.gnu.org/licenses/agpl-3.0.txt>
++
++
++=head1 SEE ALSO
++
++L<lei-ls-mail-sync(1)>, L<lei-index(1)>
+diff --git a/Documentation/lei-inspect.pod b/Documentation/lei-inspect.pod
+new file mode 100644
+index 00000000..19dd8ab5
+--- /dev/null
++++ b/Documentation/lei-inspect.pod
+@@ -0,0 +1,57 @@
++=head1 NAME
++
++lei-inspect - general purpose inspector
++
++=head1 SYNOPSIS
++
++lei inspect [OPTIONS] ITEM [ITEM...]
++
++lei inspect [OPTIONS] (--stdin|-)
++
++=head1 DESCRIPTION
++
++This is a diagnostic command that provides a general purpose inspector
++of various things, including blobs, message IDs, Xapian document IDs,
++and mail sync sources.
++
++=head1 OPTIONS
++
++=over
++
++=item -d DIR
++
++=item --dir=DIR
++
++An inboxdir, extindex topdir, or Xapian shard
++
++=item --pretty
++
++Pretty print output.  If stdout is opened to a tty, C<--pretty> is
++enabled by default.
++
++=item -
++
++=item --stdin
++
++Read message from stdin.  This is implicit if no arguments are given
++and stdin is a pipe or regular file.
++
++=back
++
++=head1 CONTACT
++
++Feedback welcome via plain-text mail to L<mailto:meta@public-inbox.org>
++
++The mail archives are hosted at L<https://public-inbox.org/meta/> and
++L<http://4uok3hntl7oi7b4uf4rtfwefqeexfzil2w6kgk2jn5z2f764irre7byd.onion/meta/>
++
++=head1 COPYRIGHT
++
++Copyright 2021 all contributors L<mailto:meta@public-inbox.org>
++
++License: AGPL-3.0+ L<https://www.gnu.org/licenses/agpl-3.0.txt>
++
++
++=head1 SEE ALSO
++
++L<lei-mail-diff(1)>
+diff --git a/Documentation/lei-ls-mail-source.pod b/Documentation/lei-ls-mail-source.pod
+new file mode 100644
+index 00000000..926bbe2c
+--- /dev/null
++++ b/Documentation/lei-ls-mail-source.pod
+@@ -0,0 +1,58 @@
++=head1 NAME
++
++lei-ls-mail-source - list IMAP or NNTP mail source folders
++
++=head1 SYNOPSIS
++
++lei ls-mail-source [OPTIONS] URL
++
++=head1 DESCRIPTION
++
++List information about the IMAP or NNTP mail source at C<URL>.
++
++=head1 OPTIONS
++
++=over
++
++=item -z
++
++=item -0
++
++Use C<\0> (NUL) instead of newline (CR) to delimit lines.
++
++=item -l
++
++Format output as JSON and include more information.
++
++=item --pretty
++
++Pretty print JSON output.  If stdout is opened to a tty, C<--pretty>
++is enabled by default.
++
++=item --ascii
++
++Escape non-ASCII characters.
++
++=item --url
++
++Show full URL of newsgroup or IMAP folder.
++
++=back
++
++=head1 CONTACT
++
++Feedback welcome via plain-text mail to L<mailto:meta@public-inbox.org>
++
++The mail archives are hosted at L<https://public-inbox.org/meta/> and
++L<http://4uok3hntl7oi7b4uf4rtfwefqeexfzil2w6kgk2jn5z2f764irre7byd.onion/meta/>
++
++=head1 COPYRIGHT
++
++Copyright 2021 all contributors L<mailto:meta@public-inbox.org>
++
++License: AGPL-3.0+ L<https://www.gnu.org/licenses/agpl-3.0.txt>
++
++
++=head1 SEE ALSO
++
++L<lei-import(1)>
+diff --git a/Documentation/lei-ls-mail-sync.pod b/Documentation/lei-ls-mail-sync.pod
+index 86aede40..883eeead 100644
+--- a/Documentation/lei-ls-mail-sync.pod
++++ b/Documentation/lei-ls-mail-sync.pod
+@@ -52,4 +52,4 @@ License: AGPL-3.0+ L<https://www.gnu.org/licenses/agpl-3.0.txt>
+=head1 SEE ALSO
+-L<lei-q(1)>, L<lei-up(1)>
++L<lei-refresh-mail-sync(1)>, L<lei-export-kw(1)>
+diff --git a/Documentation/lei-ls-watch.pod b/Documentation/lei-ls-watch.pod
+new file mode 100644
+index 00000000..b1681ee4
+--- /dev/null
++++ b/Documentation/lei-ls-watch.pod
+@@ -0,0 +1,29 @@
++=head1 NAME
++
++lei-ls-watch - list active watches
++
++=head1 SYNOPSIS
++
++lei ls-watch
++
++=head1 DESCRIPTION
++
++List locations that lei is configured to watch.
++
++=head1 CONTACT
++
++Feedback welcome via plain-text mail to L<mailto:meta@public-inbox.org>
++
++The mail archives are hosted at L<https://public-inbox.org/meta/> and
++L<http://4uok3hntl7oi7b4uf4rtfwefqeexfzil2w6kgk2jn5z2f764irre7byd.onion/meta/>
++
++=head1 COPYRIGHT
++
++Copyright 2021 all contributors L<mailto:meta@public-inbox.org>
++
++License: AGPL-3.0+ L<https://www.gnu.org/licenses/agpl-3.0.txt>
++
++
++=head1 SEE ALSO
++
++L<lei-add-watch(1)>, L<lei-rm-watch(1)>
+diff --git a/Documentation/lei-mail-diff.pod b/Documentation/lei-mail-diff.pod
+new file mode 100644
+index 00000000..96e49a8b
+--- /dev/null
++++ b/Documentation/lei-mail-diff.pod
+@@ -0,0 +1,33 @@
++=head1 NAME
++
++lei-mail-diff - diff the contents of emails
++
++=head1 SYNOPSIS
++
++
++lei mail-diff [OPTIONS] LOCATION
++
++lei mail-diff [OPTIONS] (--stdin|-)
++
++=head1 DESCRIPTION
++
++This is a diagnostic command that's useful for finding deduplication
++bugs.
++
++=head1 CONTACT
++
++Feedback welcome via plain-text mail to L<mailto:meta@public-inbox.org>
++
++The mail archives are hosted at L<https://public-inbox.org/meta/> and
++L<http://4uok3hntl7oi7b4uf4rtfwefqeexfzil2w6kgk2jn5z2f764irre7byd.onion/meta/>
++
++=head1 COPYRIGHT
++
++Copyright 2021 all contributors L<mailto:meta@public-inbox.org>
++
++License: AGPL-3.0+ L<https://www.gnu.org/licenses/agpl-3.0.txt>
++
++
++=head1 SEE ALSO
++
++L<lei-inspect(1)>
+diff --git a/Documentation/lei-refresh-mail-sync.pod b/Documentation/lei-refresh-mail-sync.pod
+index 92ca9044..65150ae3 100644
+--- a/Documentation/lei-refresh-mail-sync.pod
++++ b/Documentation/lei-refresh-mail-sync.pod
+@@ -54,4 +54,4 @@ License: AGPL-3.0+ L<https://www.gnu.org/licenses/agpl-3.0.txt>
+=head1 SEE ALSO
+-L<lei-index(1)>, L<lei-export-kw(1)>
++L<lei-index(1)>, L<lei-export-kw(1)>, L<lei-ls-mail-sync(1)>
+diff --git a/Documentation/lei-rm-watch.pod b/Documentation/lei-rm-watch.pod
+new file mode 100644
+index 00000000..711d7dc4
+--- /dev/null
++++ b/Documentation/lei-rm-watch.pod
+@@ -0,0 +1,30 @@
++=head1 NAME
++
++lei-rm-watch - stop watching locations
++
++=head1 SYNOPSIS
++
++lei rm-watch [OPTIONS] LOCATION [LOCATION...]
++
++=head1 DESCRIPTION
++
++Tell lei to stop watching C<LOCATION> for new messages and flag
++changes.  Currently only Maildir locations are supported.
++
++=head1 CONTACT
++
++Feedback welcome via plain-text mail to L<mailto:meta@public-inbox.org>
++
++The mail archives are hosted at L<https://public-inbox.org/meta/> and
++L<http://4uok3hntl7oi7b4uf4rtfwefqeexfzil2w6kgk2jn5z2f764irre7byd.onion/meta/>
++
++=head1 COPYRIGHT
++
++Copyright 2021 all contributors L<mailto:meta@public-inbox.org>
++
++License: AGPL-3.0+ L<https://www.gnu.org/licenses/agpl-3.0.txt>
++
++
++=head1 SEE ALSO
++
++L<lei-add-watch(1)>, L<lei-ls-watch(1)>
+diff --git a/Documentation/lei.pod b/Documentation/lei.pod
+index 63d5ee69..24a585da 100644
+--- a/Documentation/lei.pod
++++ b/Documentation/lei.pod
+@@ -96,6 +96,8 @@ Other subcommands include
+=over
++=item * L<lei-add-watch(1)>
++
+=item * L<lei-config(1)>
+=item * L<lei-convert(1)>
+@@ -104,10 +106,22 @@ Other subcommands include
+=item * L<lei-daemon-pid(1)>
++=item * lei-forget-mail-sync(1)
++
++=item * L<lei-mail-diff(1)>
++
++=item * L<lei-inspect(1)>
++
+=item * L<lei-ls-label(1)>
++=item * L<lei-ls-mail-source(1)>
++
+=item * L<lei-ls-mail-sync(1)>
++=item * L<lei-ls-watch(1)>
++
++=item * L<lei-rm-watch(1)>
++
+=back
+=head1 FILES
+diff --git a/Documentation/txt2pre b/Documentation/txt2pre
+index bc94d404..fb07579a 100755
+--- a/Documentation/txt2pre
++++ b/Documentation/txt2pre
+@@ -12,6 +12,7 @@ use PublicInbox::Hval qw(ascii_html);
+my %xurls;
+for (qw[lei(1)
+lei-add-external(1)
++	lei-add-watch(1)
+lei-blob(1)
+lei-config(1)
+lei-convert(1)
+@@ -19,20 +20,26 @@ for (qw[lei(1)
+lei-daemon-pid(1)
+lei-edit-search(1)
+lei-forget-external(1)
++	lei-forget-mail-sync(1)
+lei-forget-search(1)
+lei-import(1)
+lei-index(1)
+lei-init(1)
++	lei-inspect(1)
+lei-lcat(1)
+lei-ls-external(1)
+lei-ls-label(1)
++	lei-ls-mail-source(1)
+lei-ls-mail-sync(1)
+lei-ls-search(1)
++	lei-ls-watch(1)
++	lei-mail-diff(1)
+lei-overview(7)
+lei-p2q(1)
+lei-q(1)
+lei-rediff(1)
+lei-rm(1)
++	lei-rm-watch(1)
+lei-security(7)
+lei-store-format(5)
+lei-tag(1)
+diff --git a/MANIFEST b/MANIFEST
+index b89513d5..c4cc6e33 100644
+--- a/MANIFEST
++++ b/MANIFEST
+@@ -22,6 +22,7 @@ Documentation/flow.txt
+Documentation/hosted.txt
+Documentation/include.mk
+Documentation/lei-add-external.pod
++Documentation/lei-add-watch.pod
+Documentation/lei-blob.pod
+Documentation/lei-config.pod
+Documentation/lei-convert.pod
+@@ -31,15 +32,20 @@ Documentation/lei-daemon.pod
+Documentation/lei-edit-search.pod
+Documentation/lei-export-kw.pod
+Documentation/lei-forget-external.pod
++Documentation/lei-forget-mail-sync.pod
+Documentation/lei-forget-search.pod
+Documentation/lei-import.pod
+Documentation/lei-index.pod
+Documentation/lei-init.pod
++Documentation/lei-inspect.pod
+Documentation/lei-lcat.pod
+Documentation/lei-ls-external.pod
+Documentation/lei-ls-label.pod
++Documentation/lei-ls-mail-source.pod
+Documentation/lei-ls-mail-sync.pod
+Documentation/lei-ls-search.pod
++Documentation/lei-ls-watch.pod
++Documentation/lei-mail-diff.pod
+Documentation/lei-mail-formats.pod
+Documentation/lei-overview.pod
+Documentation/lei-p2q.pod
+@@ -47,6 +53,7 @@ Documentation/lei-q.pod
+Documentation/lei-rediff.pod
+Documentation/lei-refresh-mail-sync.pod
+Documentation/lei-rm.pod
++Documentation/lei-rm-watch.pod
+Documentation/lei-security.pod
+Documentation/lei-store-format.pod
+Documentation/lei-tag.pod
+diff --git a/Makefile.PL b/Makefile.PL
+index 22a58bee..348a343d 100644
+--- a/Makefile.PL
++++ b/Makefile.PL
+@@ -45,13 +45,13 @@ $v->{-m1} = [ map {
+}
+} @EXE_FILES,
+qw(
+-	lei-add-external lei-blob lei-config lei-convert
++	lei-add-external lei-add-watch lei-blob lei-config lei-convert
+lei-daemon-kill lei-daemon-pid lei-edit-search lei-export-kw
+-	lei-forget-external lei-forget-search
+-	lei-import lei-index lei-init lei-lcat
+-	lei-ls-external lei-ls-label lei-ls-mail-sync
+-	lei-ls-search lei-p2q lei-q
+-	lei-rediff lei-refresh-mail-sync lei-rm lei-tag
++	lei-forget-external lei-forget-mail-sync lei-forget-search
++	lei-import lei-index lei-init lei-inspect lei-lcat
++	lei-ls-external lei-ls-label lei-ls-mail-source lei-ls-mail-sync
++	lei-ls-search lei-ls-watch lei-mail-diff lei-p2q lei-q
++	lei-rediff lei-refresh-mail-sync lei-rm lei-rm-watch lei-tag
+lei-up)];
+$v->{-m5} = [ qw(public-inbox-config public-inbox-v1-format
+public-inbox-v2-format public-inbox-extindex-format
+--
+2.33.0
+^ permalink raw reply related	[relevance 34%]
+* [PATCH 0/2] doc: lei manpages for remaining commands
+@ 2021-10-16  5:39 28% Kyle Meyer
+2021-10-16  5:39 34% ` [PATCH 2/2] doc: lei: add " Kyle Meyer
+0 siblings, 1 reply; 17+ results
+From: Kyle Meyer @ 2021-10-16  5:39 UTC (permalink / raw)
+To: meta
+This lei manpage update should take care of the remaining lei commands
+(aside from -help and -sucks) that don't have manpages.
+[1/2] doc: lei: restore alphabetical order to some listings
+[2/2] doc: lei: add manpages for remaining commands
+Documentation/lei-add-watch.pod         | 33 ++++++++++++++
+Documentation/lei-forget-mail-sync.pod  | 31 +++++++++++++
+Documentation/lei-inspect.pod           | 57 ++++++++++++++++++++++++
+Documentation/lei-ls-mail-source.pod    | 58 +++++++++++++++++++++++++
+Documentation/lei-ls-mail-sync.pod      |  2 +-
+Documentation/lei-ls-watch.pod          | 29 +++++++++++++
+Documentation/lei-mail-diff.pod         | 33 ++++++++++++++
+Documentation/lei-refresh-mail-sync.pod |  2 +-
+Documentation/lei-rm-watch.pod          | 30 +++++++++++++
+Documentation/lei.pod                   | 14 ++++++
+Documentation/txt2pre                   |  9 +++-
+MANIFEST                                |  7 +++
+Makefile.PL                             | 14 +++---
+13 files changed, 309 insertions(+), 10 deletions(-)
+create mode 100644 Documentation/lei-add-watch.pod
+create mode 100644 Documentation/lei-forget-mail-sync.pod
+create mode 100644 Documentation/lei-inspect.pod
+create mode 100644 Documentation/lei-ls-mail-source.pod
+create mode 100644 Documentation/lei-ls-watch.pod
+create mode 100644 Documentation/lei-mail-diff.pod
+create mode 100644 Documentation/lei-rm-watch.pod
+base-commit: 299b40d252cf4d4db6fa29ad18cb78777f1f55fc
+--
+2.33.0
+^ permalink raw reply	[relevance 28%]
+* [PATCH] doc: lei-refresh-mail-sync: drop repeated word
+@ 2021-10-11  4:53 28% Kyle Meyer
+0 siblings, 0 replies; 17+ results
+From: Kyle Meyer @ 2021-10-11  4:53 UTC (permalink / raw)
+To: meta
+---
+Spotted while (slowly :/) studying these commands and working on
+adding missing lei manpages (add-watch, ls-watch, rm-watch,
+ls-mail-source, forget-mail-sync, inspect, and mail-diff).
+Documentation/lei-refresh-mail-sync.pod | 2 +-
+1 file changed, 1 insertion(+), 1 deletion(-)
+diff --git a/Documentation/lei-refresh-mail-sync.pod b/Documentation/lei-refresh-mail-sync.pod
+index aefd516f..92ca9044 100644
+--- a/Documentation/lei-refresh-mail-sync.pod
++++ b/Documentation/lei-refresh-mail-sync.pod
+@@ -10,7 +10,7 @@ lei refresh-mail-sync MFOLDER [MFOLDER...]
+=head1 DESCRIPTION
+-C<lei refresh-mail-sync> is intended to to keep old messages
++C<lei refresh-mail-sync> is intended to keep old messages
+indexed with L<lei-index(1)> retrievable if Maildir flags change
+a filename.  It will prune invalid entries for messages which no
+longer exist in a Maildir.
+base-commit: dea4495677bbbdbce959551de34ef8f70fe2bc7c
+--
+2.33.0
+^ permalink raw reply related	[relevance 28%]
+* Re: [PATCH 4/4] lei q: -tt marks direct hits as "flagged"
+@ 2021-02-26  4:38 20%       ` Kyle Meyer
+0 siblings, 0 replies; 17+ results
+From: Kyle Meyer @ 2021-02-26  4:38 UTC (permalink / raw)
+To: Eric Wong; +Cc: meta
+Eric Wong writes:
+> Kyle Meyer <kyle@kyleam.com> wrote:
+>> Oy, I understand even less than I thought I did.  How does the
+>> information about what the MUA unflags get back into the store?  Is
+>> there an implicit additional step (`lei import ...')?
+>
+> lei will watch (via inotify/EVFILT_VNODE) mail stores it knows
+> about for flag updates.  At least that's the plan...
+>
+> Also, when overwriting an existing output, I think it would be
+> wise to do an implicit import of any messages that aren't
+> already in lei/store or an external.  That would save users
+> from accidentally trashing their data.
+Makes sense.  Thanks for the details (especially if you're repeating
+yourself).
+^ permalink raw reply	[relevance 20%]
+* Re: does "lei q" --format/-f need to exist?
+@ 2021-02-18  5:28 20% ` Kyle Meyer
+0 siblings, 0 replies; 17+ results
+From: Kyle Meyer @ 2021-02-18  5:28 UTC (permalink / raw)
+To: Eric Wong; +Cc: meta
+Eric Wong writes:
+> "maildir:/path/to/dir" has been supported by public-inbox-watch
+> for years, now.
+>
+> The following all work today:
+>
+> 	lei q -o mboxrd:/tmp/foo.mboxrd ...
+> 	lei q -o mboxcl2:/tmp/foo.mboxcl2 ...
+> 	lei q -o maildir:/tmp/foo/ ...
+>
+> So -f/--format seems redundant.
+I find "<format>:<destination>" pretty natural/intuitive, even if
+perhaps the stdout case (e.g., "mboxrd:-" or "concatjson:-") looks a bit
+odd.  Dropping --format makes sense to me.
+^ permalink raw reply	[relevance 20%]
+* Re: [PATCH] scripts/dupe-finder: restore $dbh variable
+@ 2020-10-16  5:02 25%   ` Kyle Meyer
+0 siblings, 0 replies; 17+ results
+From: Kyle Meyer @ 2020-10-16  5:02 UTC (permalink / raw)
+To: Eric Wong; +Cc: meta
+Eric Wong writes:
+> Btw, is this tool something you find useful?  I'll consider
+> making it part of a local tool I'm brainstorming...
+I found it very helpful when I made a mistake with a custom filter I use
+to remove the footer at <https://yhetil.org/notmuch>.  The footer used
+by the list changed at some point.  I updated the filter and restarted
+-watch without thinking about what would happen with the messages that
+were already in the maildir.  (I keep messages around for ~10 days
+before deleting them.)  That led to a good number of duplicates.
+Aside from that, I've run it a few times over the inboxes at
+<https://yhetil.org>, and it's turned up a couple of hits.  So, I've
+found it useful, but in the hosting context.
+^ permalink raw reply	[relevance 25%]
+* Re: [PATCH 0/5] "mairix -t" workalike for mbox.gz downloads
+@ 2020-08-22 20:12 20%   ` Kyle Meyer
+0 siblings, 0 replies; 17+ results
+From: Kyle Meyer @ 2020-08-22 20:12 UTC (permalink / raw)
+To: Eric Wong; +Cc: meta
+Eric Wong writes:
+> Eric Wong <e@yhbt.net> wrote:
+>> It requires "public-inbox-index --reindex" to activate;
+>> but PATCH 5/5 makes it safe to upgrade WWW either before
+>> or after --reindex.  That means BOFHs can upgrade without
+>> regard to ordering.
+>
+> public-inbox-watch users will need to restart -watch before
+> --reindex, though.  Don't think that's avoidable...
+Oops, the few times I've used --reindex I don't think I've given order
+much thought.  Is it accurate to say that "restart services then
+--reindex" is the recommended order in general?
+^ permalink raw reply	[relevance 20%]
+* Re: [PATCH 28/34] watch: add NNTP support
+@ 2020-06-27 19:06 27%   ` Kyle Meyer
+0 siblings, 0 replies; 17+ results
+From: Kyle Meyer @ 2020-06-27 19:06 UTC (permalink / raw)
+To: Eric Wong; +Cc: meta
+Eric Wong writes:
+> +# flesh out common NNTP-specific data structures
+> +sub nntp_common_init ($) {
+> +	my ($self) = @_;
+> +	my $cfg = $self->{config};
+> +	my $nn_args = {}; # scheme://authority => Net::NNTP->new arg
+> +	for my $url (sort keys %{$self->{nntp}}) {
+> +		my $sec = uri_section(URI->new($url));
+> +
+> +		# Debug and Timeout are is passed to Net::NNTP->new
+s/ is//
+> +		my $v = cfg_bool($cfg, 'nntp.Debug', $url);
+> +		$nn_args->{$sec}->{Debug} = $v if defined $v;
+> +		my $to = cfg_intvl($cfg, 'nntp.Timeout', $url);
+> +		$nn_args->{$sec}->{Timeout} = $to if $to;
+^ permalink raw reply	[relevance 27%]
+* Re: [PATCH 11/34] watch: use signalfd for Maildir watching
+@ 2020-06-27 19:05 29%   ` Kyle Meyer
+0 siblings, 0 replies; 17+ results
+From: Kyle Meyer @ 2020-06-27 19:05 UTC (permalink / raw)
+To: Eric Wong; +Cc: meta
+One of these days, I'm going to read through a series on this list and
+make a valuable technical comment :]  Until then...
+Eric Wong writes:
+> We can get rid of the janky wannabe
+> self-using-a-directory-instead-of-pipe thing we needed to
+> workaround Filesys::Notify::Simple being blocking.
+>
+> For existing Maildir users, this should be more robust and
+> immune to missed wakeups for to signalfd and kqueue-enabled
+s/for to/for/ ?
+^ permalink raw reply	[relevance 29%]
+* Re: [RFC 0/2] watch behavior changes aNd ProPoSaL
+@ 2020-04-24  3:12 27% ` Kyle Meyer
+0 siblings, 0 replies; 17+ results
+From: Kyle Meyer @ 2020-04-24  3:12 UTC (permalink / raw)
+To: Eric Wong; +Cc: meta
+Eric Wong <e@yhbt.net> writes:
+> Now, I don't think the following two patches will cause any
+> problems for existing users...
+>
+> Down the line, for matching non-List-ID headers insensitively,
+> I'm thinking "mutt style" case-sensitivity is probably a good
+> default.  That is:
+>
+> 	Match case-sensitively iff capital letters exist in
+> 	the substring.  Otherwise, match case-insensitively.
+Yeah, I find this behavior to be pretty intuitive/nice, though I guess
+the only context where I've (knowingly) used it is Emacs search, so that
+might discount my 2 cents :)
+However, if it's either this or an option like...
+> Otherwise, I'm not sure how a user should (or would care to)
+> specify case-insensitivity vs case-sensitivity...
+>
+> Valid email headers names won't have spaces (or many other
+> chars), so we can do somthing like attempt to parse out " -i"
+> (like "grep -i"):
+>
+> 	watchheader = To -i:John Smith
+... this, I guess this one has the advantage of being able to
+case-sensitively match all lowercase?  I'm not sure how much practical
+value there is to that, though.
+I think the -i proposal above is nicer than this next one, but I suppose
+it'd have the same advantage.
+> Or, add a new option:
+>
+> 	watchHeaderInsensitively = To:John Smith
+>
+> Ugh...
+^ permalink raw reply	[relevance 27%]
+* [PATCH v2] watchmaildir: support multiple watchheader values
+@ 2020-04-20  0:13 36% ` Kyle Meyer
+0 siblings, 0 replies; 17+ results
+From: Kyle Meyer @ 2020-04-20  0:13 UTC (permalink / raw)
+To: Eric Wong; +Cc: Kyle Meyer, meta
+The watchheader key supports only a single value.  Supporting multiple
+watchheader values was mentioned in discussion [1] of 8d3e3bd8 (doc:
+explain publicinbox.<name>.watchheader, 2019-10-09), and it wasn't
+clear if there was a need.
+One scenario in which matching multiple headers would be convenient is
+when someone wants to set up public-inbox archives for some small
+projects but does _not_ want to run mailing lists for them, instead
+allowing others to follow the project by any of the pull mechanisms.
+Using a common underlying address, an address alias for each project
+is configured via a third-party email provider, with messages for each
+alias being exposed as a separate public-inbox archive.  In this
+setup, messages for an inbox cannot be selected by a List-ID header
+but can be identified by the inbox's address in either the To or Cc
+header.
+To support such a use case, update the watchheader handling to
+consider multiple values, accepting a message if it matches any value.
+While selecting a message based on matching _any_ rather than _all_
+values is motivated by the above scenario, it's worth noting that the
+"any" behavior is consistent with how multiple listid config values
+are handled.
+[1] https://public-inbox.org/meta/20191010085118.r3amey4cayazfycb@dcvr/
+---
+Changes since v1:
+* Add a test for matching multiple watchheader values.
+* Adjust WwwText::inbox_config to handle watchheader as an array.
+* Condense commit message.
+Documentation/public-inbox-config.pod |  3 +-
+MANIFEST                              |  1 +
+lib/PublicInbox/Config.pm             |  4 +-
+lib/PublicInbox/WatchMaildir.pm       |  8 +--
+lib/PublicInbox/WwwText.pm            |  4 +-
+t/watch_muliple_headers.t             | 76 +++++++++++++++++++++++++++
+6 files changed, 88 insertions(+), 8 deletions(-)
+create mode 100644 t/watch_muliple_headers.t
+diff --git a/Documentation/public-inbox-config.pod b/Documentation/public-inbox-config.pod
+index 4c9994dc..708a785f 100644
+--- a/Documentation/public-inbox-config.pod
++++ b/Documentation/public-inbox-config.pod
+@@ -88,7 +88,8 @@ Default: none; only for L<public-inbox-watch(1)> users
+watchheader = List-Id:<test.example.com>
+If specified, L<public-inbox-watch(1)> will only process mail matching
+-the given header.  Multiple values are not currently supported.
++the given header.  If specified multiple times, mail will be processed
++if it matches any of the values.
+Default: none; only for L<public-inbox-watch(1)> users
+diff --git a/MANIFEST b/MANIFEST
+index 8b724352..bfcf26b4 100644
+--- a/MANIFEST
++++ b/MANIFEST
+@@ -307,6 +307,7 @@ t/view.t
+t/watch_filter_rubylang.t
+t/watch_maildir.t
+t/watch_maildir_v2.t
++t/watch_muliple_headers.t
+t/www_altid.t
+t/www_listing.t
+t/www_static.t
+diff --git a/lib/PublicInbox/Config.pm b/lib/PublicInbox/Config.pm
+index 917939ca..458f29b2 100644
+--- a/lib/PublicInbox/Config.pm
++++ b/lib/PublicInbox/Config.pm
+@@ -367,7 +367,7 @@ sub _fill {
+my $ibx = {};
+foreach my $k (qw(inboxdir filter newsgroup
+-			watch watchheader httpbackendmax
++			watch httpbackendmax
+replyto feedmax nntpserver indexlevel)) {
+my $v = $self->{"$pfx.$k"};
+$ibx->{$k} = $v if defined $v;
+@@ -388,7 +388,7 @@ sub _fill {
+# TODO: more arrays, we should support multi-value for
+# more things to encourage decentralization
+foreach my $k (qw(address altid nntpmirror coderepo hide listid url
+-			infourl)) {
++			infourl watchheader)) {
+if (defined(my $v = $self->{"$pfx.$k"})) {
+$ibx->{$k} = _array($v);
+}
+diff --git a/lib/PublicInbox/WatchMaildir.pm b/lib/PublicInbox/WatchMaildir.pm
+index bea2ed2a..7b9e8915 100644
+--- a/lib/PublicInbox/WatchMaildir.pm
++++ b/lib/PublicInbox/WatchMaildir.pm
+@@ -59,9 +59,11 @@ sub new {
+my $watch = $ibx->{watch} or return;
+if (is_maildir($watch)) {
+my $watch_hdrs = [];
+-			if (my $wh = $ibx->{watchheader}) {
+-				my ($k, $v) = split(/:/, $wh, 2);
+-				push @$watch_hdrs, [ $k, qr/\Q$v\E/ ];
++			if (my $whs = $ibx->{watchheader}) {
++				for (@$whs) {
++					my ($k, $v) = split(/:/, $_, 2);
++					push @$watch_hdrs, [ $k, qr/\Q$v\E/ ];
++				}
+}
+if (my $list_ids = $ibx->{listid}) {
+for (@$list_ids) {
+diff --git a/lib/PublicInbox/WwwText.pm b/lib/PublicInbox/WwwText.pm
+index 2008ba09..b23a415e 100644
+--- a/lib/PublicInbox/WwwText.pm
++++ b/lib/PublicInbox/WwwText.pm
+@@ -151,7 +151,7 @@ sub inbox_config ($$$) {
+url = https://example.com/$name/
+url = http://example.onion/$name/
+EOS
+-	for my $k (qw(address listid infourl)) {
++	for my $k (qw(address listid infourl watchheader)) {
+defined(my $v = $ibx->{$k}) or next;
+$$txt .= "\t$k = $_\n" for @$v;
+}
+@@ -171,7 +171,7 @@ EOF
+}
+}
+-	for my $k (qw(filter newsgroup obfuscate replyto watchheader)) {
++	for my $k (qw(filter newsgroup obfuscate replyto)) {
+defined(my $v = $ibx->{$k}) or next;
+$$txt .= "\t$k = $v\n";
+}
+diff --git a/t/watch_muliple_headers.t b/t/watch_muliple_headers.t
+new file mode 100644
+index 00000000..8ea4b306
+--- /dev/null
++++ b/t/watch_muliple_headers.t
+@@ -0,0 +1,76 @@
++# Copyright (C) 2020 all contributors <meta@public-inbox.org>
++# License: AGPL-3.0+ <https://www.gnu.org/licenses/agpl-3.0.txt>
++use strict;
++use Test::More;
++use PublicInbox::Config;
++use PublicInbox::TestCommon;
++require_git(2.6);
++require_mods(qw(Search::Xapian DBD::SQLite Filesys::Notify::Simple));
++my ($tmpdir, $for_destroy) = tmpdir();
++my $inboxdir = "$tmpdir/v2";
++my $maildir = "$tmpdir/md";
++use_ok 'PublicInbox::WatchMaildir';
++use_ok 'PublicInbox::Emergency';
++my $cfgpfx = "publicinbox.test";
++my $addr = 'test-public@example.com';
++my @cmd = ('-init', '-V2', 'test', $inboxdir,
++	'http://example.com/list', $addr);
++local $ENV{PI_CONFIG} = "$tmpdir/pi_config";
++ok(run_script(\@cmd), 'public-inbox init OK');
++
++my $msg_to = <<EOF;
++From: user\@a.com
++To: $addr
++Subject: address is in to
++Message-Id: <to\@a.com>
++Date: Sat, 18 Apr 2020 00:00:00 +0000
++
++content1
++EOF
++
++my $msg_cc = <<EOF;
++From: user1\@a.com
++To: user2\@a.com
++Cc: $addr
++Subject: address is in cc
++Message-Id: <cc\@a.com>
++Date: Sat, 18 Apr 2020 00:01:00 +0000
++
++content2
++EOF
++
++my $msg_none = <<EOF;
++From: user1\@a.com
++To: user2\@a.com
++Cc: user3\@a.com
++Subject: address is not in to or cc
++Message-Id: <none\@a.com>
++Date: Sat, 18 Apr 2020 00:02:00 +0000
++
++content3
++EOF
++
++PublicInbox::Emergency->new($maildir)->prepare(\$msg_to);
++PublicInbox::Emergency->new($maildir)->prepare(\$msg_cc);
++PublicInbox::Emergency->new($maildir)->prepare(\$msg_none);
++
++my $cfg = <<EOF;
++$cfgpfx.address=$addr
++$cfgpfx.inboxdir=$inboxdir
++$cfgpfx.watch=maildir:$maildir
++$cfgpfx.watchheader=To:$addr
++$cfgpfx.watchheader=Cc:$addr
++EOF
++my $config = PublicInbox::Config->new(\$cfg);
++PublicInbox::WatchMaildir->new($config)->scan('full');
++my $ibx = $config->lookup_name('test');
++ok($ibx, 'found inbox by name');
++
++my $num = $ibx->mm->num_for('to@a.com');
++ok(defined $num, 'Matched for address in To:');
++my $num = $ibx->mm->num_for('cc@a.com');
++ok(defined $num, 'Matched for address in Cc:');
++$num = $ibx->mm->num_for('none@a.com');
++is($num, undef, 'No match without address in To: or Cc:');
++
++done_testing;
+base-commit: b3f81ce0c71d5d4eca347f259b5ae69660a2cb13
+--
+2.26.0
+^ permalink raw reply related	[relevance 36%]
+* [RFC PATCH] watchmaildir: support multiple watchheader values
+@ 2020-04-12  4:44 41% Kyle Meyer
+0 siblings, 0 replies; 17+ results
+From: Kyle Meyer @ 2020-04-12  4:44 UTC (permalink / raw)
+To: meta; +Cc: Kyle Meyer
+The watchheader key supports only a single value.  In discussion [1]
+of 8d3e3bd8 (doc: explain publicinbox.<name>.watchheader, 2019-10-09),
+two concerns were raised about supporting multiple watchheader values:
+* doing so would invite confusion about whether the acceptance
+condition is "all" or "any"
+* it's not clear there's a need
+The second point seems to be the crucial one because, provided there
+is a need, the first can be addressed with documentation (as already
+done for listid, which accepts the message if there are any matches).
+Here is one scenario where support for matching multiple headers would
+be convenient.  Someone wants to set up public-inbox archives for some
+small projects but does _not_ want to run mailing lists for them,
+instead allowing others to follow the project by any of the pull
+mechanisms.  Using a common underlying address, an address alias for
+each project is set up via a third-party email provider, with messages
+for each alias being exposed as a separate public-inbox archive.
+In this scenario, if all messages are downloaded to a common maildir,
+the problem with using watchheader to match the project address is
+that the address may be in either the To: or Cc: header.  One way to
+avoid this issue would be to filter things upstream so that messages
+for different projects got to different maildirs, ideally in a way
+that duplicates any cross-posted messages in each maildir.
+Teach watchheader to support multiple values, avoiding the need to
+direct message with no List-ID to separate maildirs.
+[1] https://public-inbox.org/meta/20191010085118.r3amey4cayazfycb@dcvr/
+---
+I'm not entirely convinced that the above provides a compelling
+reason to make this change, but I think it's worth considering if it
+makes it easier for some to set up archives for their projects
+without setting up mailings lists.  Thoughts?
+(If this ends up being a direction we decide to go, I'd be happy to
+work on adding tests to this patch.)
+Documentation/public-inbox-config.pod | 3 ++-
+lib/PublicInbox/Config.pm             | 4 ++--
+lib/PublicInbox/WatchMaildir.pm       | 8 +++++---
+3 files changed, 9 insertions(+), 6 deletions(-)
+diff --git a/Documentation/public-inbox-config.pod b/Documentation/public-inbox-config.pod
+index 53926ef4..f9871d4b 100644
+--- a/Documentation/public-inbox-config.pod
++++ b/Documentation/public-inbox-config.pod
+@@ -88,7 +88,8 @@ Default: none; only for L<public-inbox-watch(1)> users
+watchheader = List-Id:<test.example.com>
+If specified, L<public-inbox-watch(1)> will only process mail matching
+-the given header.  Multiple values are not currently supported.
++the given header.  If specified multiple times, mail will be processed
++if it matches any of the values.
+Default: none; only for L<public-inbox-watch(1)> users
+diff --git a/lib/PublicInbox/Config.pm b/lib/PublicInbox/Config.pm
+index 917939ca..458f29b2 100644
+--- a/lib/PublicInbox/Config.pm
++++ b/lib/PublicInbox/Config.pm
+@@ -367,7 +367,7 @@ sub _fill {
+my $ibx = {};
+foreach my $k (qw(inboxdir filter newsgroup
+-			watch watchheader httpbackendmax
++			watch httpbackendmax
+replyto feedmax nntpserver indexlevel)) {
+my $v = $self->{"$pfx.$k"};
+$ibx->{$k} = $v if defined $v;
+@@ -388,7 +388,7 @@ sub _fill {
+# TODO: more arrays, we should support multi-value for
+# more things to encourage decentralization
+foreach my $k (qw(address altid nntpmirror coderepo hide listid url
+-			infourl)) {
++			infourl watchheader)) {
+if (defined(my $v = $self->{"$pfx.$k"})) {
+$ibx->{$k} = _array($v);
+}
+diff --git a/lib/PublicInbox/WatchMaildir.pm b/lib/PublicInbox/WatchMaildir.pm
+index e2024640..bdaacf62 100644
+--- a/lib/PublicInbox/WatchMaildir.pm
++++ b/lib/PublicInbox/WatchMaildir.pm
+@@ -59,9 +59,11 @@ sub new {
+my $watch = $ibx->{watch} or return;
+if (is_maildir($watch)) {
+my $watch_hdrs = [];
+-			if (my $wh = $ibx->{watchheader}) {
+-				my ($k, $v) = split(/:/, $wh, 2);
+-				push @$watch_hdrs, [ $k, qr/\Q$v\E/ ];
++			if (my $whs = $ibx->{watchheader}) {
++				for (@$whs) {
++					my ($k, $v) = split(/:/, $_, 2);
++					push @$watch_hdrs, [ $k, qr/\Q$v\E/ ];
++				}
+}
+if (my $list_ids = $ibx->{listid}) {
+for (@$list_ids) {
+base-commit: d7270ec79e6347eb1c35ebcdc197e887bb4ef075
+--
+2.26.0
+^ permalink raw reply related	[relevance 41%]
+* [PATCH] doc: escape internal ">" in listid code snippet
+@ 2020-04-11 21:05 28% Kyle Meyer
+0 siblings, 0 replies; 17+ results
+From: Kyle Meyer @ 2020-04-11 21:05 UTC (permalink / raw)
+To: meta; +Cc: Kyle Meyer
+A code snippet in the listid description is incorrectly rendered as
+"publicinbox.$NAME.watchheader=List-Id:<foo.example.com">
+Escape the closing bracket around the List-Id value to avoid this.
+Also escape the opening bracket for symmetry/readability.
+---
+Documentation/public-inbox-config.pod | 2 +-
+1 file changed, 1 insertion(+), 1 deletion(-)
+diff --git a/Documentation/public-inbox-config.pod b/Documentation/public-inbox-config.pod
+index 53926ef4..4c9994dc 100644
+--- a/Documentation/public-inbox-config.pod
++++ b/Documentation/public-inbox-config.pod
+@@ -99,7 +99,7 @@ angle brackets for L<public-inbox-mda(1)> deliveries and
+L<public-inbox-watch(1)>.
+For public-inbox-watch users, this is a shortcut for specifying
+-C<publicinbox.$NAME.watchheader=List-Id:<foo.example.com>>
++C<publicinbox.$NAME.watchheader=List-Id:E<lt>foo.example.comE<gt>>
+For public-inbox-mda users, this may be used to avoid recipient
+matching via C<ORIGINAL_RECIPIENT> environment variable.
+base-commit: d7270ec79e6347eb1c35ebcdc197e887bb4ef075
+--
+2.26.0
+^ permalink raw reply related	[relevance 28%]
+* [PATCH] doc: drop a repeated word
+@ 2019-11-09  0:38 35% Kyle Meyer
+0 siblings, 0 replies; 17+ results
+From: Kyle Meyer @ 2019-11-09  0:38 UTC (permalink / raw)
+To: meta; +Cc: Kyle Meyer
+---
+Documentation/public-inbox-config.pod | 2 +-
+1 file changed, 1 insertion(+), 1 deletion(-)
+diff --git a/Documentation/public-inbox-config.pod b/Documentation/public-inbox-config.pod
+index a5275a4f..1e7cb845 100644
+--- a/Documentation/public-inbox-config.pod
++++ b/Documentation/public-inbox-config.pod
+@@ -209,7 +209,7 @@ Default: none
+=item publicinboxwatch.watchspam
+-A Maildir to watch for for confirmed spam messages to appear in.
++A Maildir to watch for confirmed spam messages to appear in.
+Messages which appear in this folder with the (S)een Maildir flag
+will be hidden from all configured inboxes based on Message-ID
+and content matching.
+--
+2.23.0
+^ permalink raw reply related	[relevance 35%]
+* [PATCH] doc: fix a few minor typos
+@ 2019-04-07  3:31 24% Kyle Meyer
+0 siblings, 0 replies; 17+ results
+From: Kyle Meyer @ 2019-04-07  3:31 UTC (permalink / raw)
+To: meta; +Cc: Kyle Meyer
+---
+Documentation/public-inbox-nntpd.pod     | 2 +-
+Documentation/public-inbox-v2-format.pod | 4 ++--
+2 files changed, 3 insertions(+), 3 deletions(-)
+diff --git a/Documentation/public-inbox-nntpd.pod b/Documentation/public-inbox-nntpd.pod
+index a38687f..749851d 100644
+--- a/Documentation/public-inbox-nntpd.pod
++++ b/Documentation/public-inbox-nntpd.pod
+@@ -13,7 +13,7 @@ public-inbox.  It uses options and environment variables common
+to all L<public-inbox-daemon(8)> implementations.
+The default configuration will never require write access
+-tto the directory where the public-inbox is stored, so it
++to the directory where the public-inbox is stored, so it
+may be run as a different user than the user running
+L<public-inbox-watch(1)>, L<public-inbox-mda(1)>, or
+L<git-fetch(1)>.
+diff --git a/Documentation/public-inbox-v2-format.pod b/Documentation/public-inbox-v2-format.pod
+index 05ef32a..7dfe329 100644
+--- a/Documentation/public-inbox-v2-format.pod
++++ b/Documentation/public-inbox-v2-format.pod
+@@ -109,7 +109,7 @@ code paths.
+The performance of the storage device is now the bottleneck on
+larger multi-core systems.  In our experience, performance is
+-improves with high-quality and high-quantity solid-state storage.
++improved with high-quality and high-quantity solid-state storage.
+Issuing TRIM commands with L<fstrim(8)> was necessary to maintain
+consistent performance while developing this feature.
+@@ -210,7 +210,7 @@ for all non-atomic operations.
+=head1 HEADERS
+-Same handling as with v1, except the Message-ID header will will
++Same handling as with v1, except the Message-ID header will
+be generated if not provided or conflicting.  "Bytes", "Lines"
+and "Content-Length" headers are stripped and not allowed, they
+can interfere with further processing.
+--
+2.21.0
+^ permalink raw reply related	[relevance 24%]
+Results 1-17 of 17 | reverse | options above
+-- pct% links below jump to the message on this page, permalinks otherwise --
+2019-04-07  3:31 24% [PATCH] doc: fix a few minor typos Kyle Meyer
+2019-11-09  0:38 35% [PATCH] doc: drop a repeated word Kyle Meyer
+2020-04-11 21:05 28% [PATCH] doc: escape internal ">" in listid code snippet Kyle Meyer
+2020-04-12  4:44 41% [RFC PATCH] watchmaildir: support multiple watchheader values Kyle Meyer
+2020-04-12 21:59     Eric Wong
+2020-04-20  0:13 36% ` [PATCH v2] " Kyle Meyer
+2020-04-23  8:34     [RFC 0/2] watch behavior changes aNd ProPoSaL Eric Wong
+2020-04-24  3:12 27% ` Kyle Meyer
+2020-06-27 10:03     [PATCH 00/34] watch: add IMAP and NNTP support Eric Wong
+2020-06-27 10:03     ` [PATCH 11/34] watch: use signalfd for Maildir watching Eric Wong
+2020-06-27 19:05 29%   ` Kyle Meyer
+2020-06-27 10:03     ` [PATCH 28/34] watch: add NNTP support Eric Wong
+2020-06-27 19:06 27%   ` Kyle Meyer
+2020-08-22  6:06     [PATCH 0/5] "mairix -t" workalike for mbox.gz downloads Eric Wong
+2020-08-22  6:42     ` Eric Wong
+2020-08-22 20:12 20%   ` Kyle Meyer
+2020-10-16  2:08     [PATCH] scripts/dupe-finder: restore $dbh variable Kyle Meyer
+2020-10-16  4:23     ` Eric Wong
+2020-10-16  5:02 25%   ` Kyle Meyer
+2021-02-17  4:40     does "lei q" --format/-f need to exist? Eric Wong
+2021-02-18  5:28 20% ` Kyle Meyer
+2021-02-25 10:11     [PATCH 0/4] lei: fleshing out some existing features Eric Wong
+2021-02-25 10:11     ` [PATCH 4/4] lei q: -tt marks direct hits as "flagged" Eric Wong
+2021-02-26  3:38       ` Kyle Meyer
+2021-02-26  4:13         ` Eric Wong
+2021-02-26  4:38 20%       ` Kyle Meyer
+2021-10-11  4:53 28% [PATCH] doc: lei-refresh-mail-sync: drop repeated word Kyle Meyer
+2021-10-16  5:39 28% [PATCH 0/2] doc: lei manpages for remaining commands Kyle Meyer
+2021-10-16  5:39 34% ` [PATCH 2/2] doc: lei: add " Kyle Meyer
+2021-10-16  7:07       ` Eric Wong
+2021-10-16 15:13 19%     ` Kyle Meyer
+2025-10-12 23:44     [PATCH] doc: more updates ahead of 2.0.0 release Eric Wong
+2025-10-13 20:09 20% ` Kyle Meyer
+Code repositories for project(s) associated with this public inbox
+https://80x24.org/public-inbox.git
+This is a public inbox, see mirroring instructions
+for how to clone and mirror all data and code used for this inbox;
+as well as URLs for read-only IMAP folder(s) and NNTP newsgroup(s).

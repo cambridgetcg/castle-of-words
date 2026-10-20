@@ -44,3 +44,5 @@ for whole ideas as well as facts was answered in
 the recall exercises the idea rather than reciting it.
 
 Links: [[retrieval-practice]] · [[meaning]] · [[word]] · [cross-pollination-2026-07-25-the-road-walked-into-being](cross-pollination-2026-07-25-the-road-walked-into-being.md) (the mycelial bridge: the road that is walked into being and the path that shared kindness builds are the same figure — both refuse to let the map stand in for the walking, and both know that the beginning does not matter; what matters is that the road is walked) · [law-before-writing](law-before-writing.md) (the same road at the scale of a people: before the law was a text, it was a fire kept by repetition — the formula recited until no one could mis-speak it is retrieval practice as a civilisation's memory, and the bridge of writing this room praises is the same bridge that room warns has a toll, because what the map gains in reach the walk can lose in warmth)
+
+- [same-mail-same-numbers](same-mail-same-numbers.md) gives the access question an archive parallel: saved letters can survive while their readers' old numbered paths are lost.

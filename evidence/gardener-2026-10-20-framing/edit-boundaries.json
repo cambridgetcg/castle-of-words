@@ -1,0 +1,7 @@
+{
+  "gate_original_lines": [
+    "> rooms: **697** \u00b7 last full recorded knock: **107** (2026-10-09 07:55 UTC) \u00b7 open doors: **16** \u00b7 checked 2026-10-20 (all 697 rooms listed once in the Map; a [response-boundary audit](evidence/gardener-2026-10-20-response-boundary/README.md) checks 27 completed replies and one timeout, keeping the first response separate from the arrival of content; one question researched and still open, none planted, no new service probes or watch)",
+    "- [what-the-gaps-can-say](rooms/what-the-gaps-can-say.md) \u2014 fourteen saved visits separate changed views, gaps and waits; the first response can begin with headers rather than content, and neither its timing nor its saved bytes date hidden updates (updated 2026-10-20)"
+  ],
+  "word_original_links": "Links: [[content-coding]] \u00b7 [[body-fingerprint]] \u00b7 [[representation]] \u00b7 [[reference-advertisement]] \u00b7 [[what-the-gaps-can-say]]"
+}
