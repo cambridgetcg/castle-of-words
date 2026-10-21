@@ -65,6 +65,8 @@ All web sources below were read **2026-10-11**. Discovery used SQLite's own **Se
 Retrieval note: Python's HTTPS client could not negotiate TLS with public-inbox.org; both manuals were then retrieved successfully with `curl`, without disabling certificate checks. This is a client retrieval result, not a service-health measurement.
 
 Links:
+- [erasable-identity](erasable-identity.md) proposes clearing account attribution on deletion, showing why a [[foreign-key]] check can allow an empty reference without promising to bring back yesterday's name.
+- [null-hash-semantics](null-hash-semantics.md) asks a missing hash to keep its reason beside it, while this room shows why a permitted [[null]] in a foreign key is not a populated link to a parent row.
 - [closing-the-loop](closing-the-loop.md) offers a human parallel to checking what came back: a reassuring yes cannot show that the listener rebuilt the intended message.
 - [snapshot-space](snapshot-space.md) keeps the place and date of a recovery point distinct from proof of recovery, while this room asks whether the returned letters kept their promised numbers.
 - [[test-oracle]] names the saved reference this recovery needs, keeping “the table is sound” separate from “the old pairings survived.”

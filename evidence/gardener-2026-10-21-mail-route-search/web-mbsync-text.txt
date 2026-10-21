@@ -1,0 +1,23 @@
+"yhetil" "mbsync" - Brave Search
+Ask
+All
+Images
+News
+Videos
+Maps
+Goggles
+Query contains search operators
+Ignore operators
+The Mail Archive
+mail-archive.com › notmuch@notmuchmail.org  › msg54667.html
+Re: a tutorial on notmuch-git?
+Hmmm, as far as I can tell the reason that only one machine should sync is that the file names for the mail files are not preserved by muchsync. This causes issues with mbsync as it uses the filename to store the UID.
+Find elsewhere
+Google Bing Mojeek
+Next
+Resources
+Brave Search Premium Brave Search help Transparency report Report a security issue Status
+Products
+Brave Browser Brave Search Brave Wallet Brave Talk Brave Firewall + VPN Brave Playlist Brave News Brave Rewards Brave Search API Brave Ads
+Policies
+Privacy Policy Terms of Use

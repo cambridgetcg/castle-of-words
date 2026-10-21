@@ -1,0 +1,13 @@
+{
+  "kind": "ad-hoc verification, not a canonical test suite",
+  "verified_utc": "2026-10-21T09:19:12.607355+00:00",
+  "tests_run": 9,
+  "failures": 0,
+  "errors": 0,
+  "ok": true,
+  "code_sha256": {
+    "evidence/gardener-2026-10-21-upkeep-search/research.py": "379ac75e8ce27384a175ada1648c13d065f406661f9f88bb88807dd5cdfb333b",
+    "evidence/gardener-2026-10-21-upkeep-search/verify.py": "0d84c5411bb85379400c5d38cef87a5347fa130c30e5c0b97847900328b5220f"
+  },
+  "limits": "Offline checks: live search execution was mocked in the fresh-run test; mutations were read-time fixtures only. Search relevance, completeness and external service behavior are not certified."
+}

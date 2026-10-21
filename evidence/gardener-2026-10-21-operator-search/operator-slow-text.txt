@@ -1,0 +1,75 @@
+f:kyle@kyleam.com slow - search results
+user/dev discussion of public-inbox itself
+help / color / mirror / code / Atom feed
+Search results ordered by [date|relevance]  view[summary|nested|Atom feed]
+thread overview below | download mbox.gz: |
+* Re: [PATCH v2] www: do not obfuscate addresses in URLs
+@ 2021-04-11 14:45 23%               ` Kyle Meyer
+0 siblings, 0 replies; 2+ results
+From: Kyle Meyer @ 2021-04-11 14:45 UTC (permalink / raw)
+To: Eric Wong; +Cc: meta
+Eric Wong writes:
+> Kyle Meyer <kyle@kyleam.com> wrote:
+>> | obfuscate   | run | wall |    usr |  sys |
+>> |-------------+-----+------+--------+------|
+>> | no          |   1 |   50 |  49.14 | 0.57 |
+>> | no          |   2 |   49 |  47.76 | 0.58 |
+>> |             |     |      |        |      |
+>> | yes, master |   1 |   56 |  54.47 | 0.58 |
+>> | yes, master |   2 |   55 |  54.24 | 0.58 |
+>> |             |     |      |        |      |
+>> | yes, patch  |   1 |  175 | 174.71 | 0.52 |
+>> | yes, patch  |   2 |  176 | 174.33 | 0.56 |
+>
+> Wow, that's horribly slow.  Probably not pathological, but still
+> bad.
+Yeah.  The difference was big enough that I was getting ready to kill
+the run and say "dunno, much longer" (or, rather, try with fewer
+messages) :)
+> The following might be slightly faster (or roughly the
+> same, hard to tell due to system noise).
+>
+> -------------8<------------
+> Subject: [PATCH] www: do not obfuscate addresses in URLs
+Looking good on my end too:
+(54.53 usr +  0.47 sys = 55.00 CPU) @  0.02/s (n=1) for 135885 <=> 135885 messages
+Thanks.
+^ permalink raw reply	[relevance 23%]
+* Re: [PATCH] doc: HACKING: add a bit about faster testing
+@ 2020-04-20 13:26 23%           ` Kyle Meyer
+0 siblings, 0 replies; 2+ results
+From: Kyle Meyer @ 2020-04-20 13:26 UTC (permalink / raw)
+To: Eric Wong; +Cc: meta
+Eric Wong <e@80x24.org> writes:
+> `make test' is annoyingly slow, and `make check-run' works
+> wonders for improving the edit && test cycle.
+> ---
+>  Documentation/txt2pre |  5 +++--
+>  HACKING               | 18 ++++++++++++++++++
+>  INSTALL               |  2 +-
+>  3 files changed, 22 insertions(+), 3 deletions(-)
+Great, thank you for the information!
+^ permalink raw reply	[relevance 23%]
+Results 1-2 of 2 | reverse | options above
+-- pct% links below jump to the message on this page, permalinks otherwise --
+2020-04-12 21:59     [RFC PATCH] watchmaildir: support multiple watchheader values Eric Wong
+2020-04-20  0:13     ` [PATCH v2] " Kyle Meyer
+2020-04-20  0:45       ` Eric Wong
+2020-04-20  1:13         ` Kyle Meyer
+2020-04-20  1:32           ` Eric Wong
+2020-04-20  7:05             ` [PATCH] doc: HACKING: add a bit about faster testing Eric Wong
+2020-04-20 13:26 23%           ` Kyle Meyer
+2021-04-09  2:11     archive links broken with obfuscate=true Kyle Meyer
+2021-04-09 10:21     ` Eric Wong
+2021-04-09 22:45       ` Kyle Meyer
+2021-04-09 23:37         ` Eric Wong
+2021-04-10  4:06           ` Kyle Meyer
+2021-04-10  5:15             ` Eric Wong
+2021-04-10 19:49               ` Kyle Meyer
+2021-04-11  5:32                 ` [PATCH v2] www: do not obfuscate addresses in URLs Eric Wong
+2021-04-11 14:45 23%               ` Kyle Meyer
+Code repositories for project(s) associated with this public inbox
+https://80x24.org/public-inbox.git
+This is a public inbox, see mirroring instructions
+for how to clone and mirror all data and code used for this inbox;
+as well as URLs for read-only IMAP folder(s) and NNTP newsgroup(s).

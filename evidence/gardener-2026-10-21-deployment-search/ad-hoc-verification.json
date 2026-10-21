@@ -1,0 +1,76 @@
+{
+  "kind": "ad-hoc verification, not a canonical test suite",
+  "verified_utc": "2026-10-21T06:08:59.719599+00:00",
+  "passed": true,
+  "tests_passed": 13,
+  "tests": [
+    {
+      "test": "closed verifier accepts the real retained files",
+      "passed": true
+    },
+    {
+      "test": "preclose verifier accepts the saved chronicle prefix",
+      "passed": true
+    },
+    {
+      "test": "rejects an extra chronicle line",
+      "passed": true,
+      "rejected_by": "assert len(suffix.splitlines()) == 1"
+    },
+    {
+      "test": "rejects a changed courtyard",
+      "passed": true,
+      "rejected_by": "assert len(raw) == record['bytes'] and sha256(raw).hexdigest() == record['sha256'], name"
+    },
+    {
+      "test": "rejects a duplicate Map entry",
+      "passed": true,
+      "rejected_by": "assert len(entries) == len(rooms) == 697 and set(entries) == rooms"
+    },
+    {
+      "test": "rejects altered original room text",
+      "passed": true,
+      "rejected_by": "assert sha256(original).hexdigest() == before[name]['sha256'], name"
+    },
+    {
+      "test": "rejects changed source bytes",
+      "passed": true,
+      "rejected_by": "assert len(raw) == record['bytes'] and sha256(raw).hexdigest() == record['sha256']"
+    },
+    {
+      "test": "rejects changed source extraction",
+      "passed": true,
+      "rejected_by": "assert cleaned == (HERE / (label + '-text.txt')).read_text()"
+    },
+    {
+      "test": "rejects changed extracted links",
+      "passed": true,
+      "rejected_by": "assert list(dict.fromkeys(text.links)) == json.loads((HERE / (label + '-links.json')).read_text())"
+    },
+    {
+      "test": "rejects unknown verifier arguments",
+      "passed": true,
+      "rejected_by": "assert not sys.argv[1:] or closed"
+    },
+    {
+      "test": "research refuses to overwrite an existing visit",
+      "passed": true,
+      "rejected_by": "assert not (HERE / 'before.json').exists()"
+    },
+    {
+      "test": "first-run research selects the real queue and dispatches exactly two bounded searches",
+      "passed": true,
+      "network": "recording test double; no requests"
+    },
+    {
+      "test": "all protected castle and visit files remain byte-identical",
+      "passed": true
+    }
+  ],
+  "source_hashes": {
+    "research.py": "cc12577bdafbad0110baf2373b7c7b46b63206daddbb854506094f05cd466f42",
+    "verify.py": "a70046dc3041fd2ffab79a8565d8da042abfdf556db4c9967ccb7e4deba388b5"
+  },
+  "network_requests": 0,
+  "limits": "The research first-run dispatch uses a recording fetch double; no new network behavior or historical account is independently validated. Faults are injected in memory only."
+}

@@ -1,0 +1,21 @@
+{
+  "kind": "ad-hoc verification; not canonical suite green",
+  "verified_utc": "2026-10-21T03:00:15.060566+00:00",
+  "passed": true,
+  "checks": [
+    "Both changed Python scripts parse successfully.",
+    "Research rerun refuses the existing snapshot before any subprocess or new retrieval.",
+    "Actual offline verifier passes on retained responses and current castle pages.",
+    "Research preflight retains the three eligible doors and thirteen reservations.",
+    "In-memory fault injection: verifier rejects an altered word page.",
+    "In-memory fault injection: verifier rejects a tampered saved response.",
+    "In-memory fault injection: verifier rejects a second appended chronicle line.",
+    "Scripts and retained research records are unchanged; fault injections wrote no pages."
+  ],
+  "script_sha256": {
+    "research.py": "890a12c2c046af4bd26af2cb0a3940555931630ec5985264e9100f3171b8f29f",
+    "verify.py": "cc973447e03bc2e2f989b4ff71fa103f38986e08b1a8da2dfd1ef0fba2510db2"
+  },
+  "new_network_requests": 0,
+  "limits": "Fresh external search behavior was not rerun; this checks retained real retrievals, rerun protection, and offline verifier acceptance/rejection."
+}

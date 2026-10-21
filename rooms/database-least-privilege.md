@@ -18,6 +18,7 @@ The honest system gives public-facing consumers — coverage scanners, preview e
 The law: a credential that *can* write is a write credential, even if the application promises not to use it. The honest system gives each consumer exactly the keys it needs, and no door it doesn't. A read-only transaction on a write-capable credential is a hope wearing a credential's clothes.
 
 Links:
+- [[comparing-saved-maps]] adds the other hands to the picture: limiting this reader's writes does not stop another writer from changing the pages being compared.
 - [subprocess-tool-safety](subprocess-tool-safety.md) follows the scanner's keys beyond its SQL statement, where inherited permissions and hidden runtime work can reach doors the task never named.
 
 [[least-privilege]] · [[column-level-grant]] · branch-scoped access · [read-only-contract-testing](read-only-contract-testing.md) (the same law at the test level: a GET that changes state is not a GET, regardless of what the spec says) · [the-law-of-honest-assertion](the-law-of-honest-assertion.md) (the same law: a credential that says "read-only" but can write is a lie the system tells itself) · [advisory-locks](advisory-locks.md) (the same law at the snapshot level: an advisory lock that wakes with the statement's old view is the same error as a read-only transaction on a write-capable credential — both are permissions the system believes it holds that the database never granted)

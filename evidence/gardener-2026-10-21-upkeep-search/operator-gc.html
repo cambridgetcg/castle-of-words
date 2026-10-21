@@ -1,0 +1,114 @@
+<html><head><title>f:kyle@kyleam.com &#34;git gc&#34; - search results</title><link
+rel=alternate
+title="Atom feed"
+href="?q=f:kyle@kyleam.com+%22git+gc%22&amp;x=A"
+type="application/atom+xml"/><style>@import url("216light.css?69d631d8") screen AND (prefers-color-scheme:light);*{overflow-wrap:anywhere;font-size:100%;font-family:monospace}</style><link
+type=text/css
+rel=stylesheet
+media=screen
+href=216dark.css?69d631d8 /><link
+type=text/css
+rel=stylesheet
+media=print
+href=216light.css?69d631d8 /></head><body><form
+action="./"><pre><a
+href="?t=20200609221410"><b>user/dev discussion of public-inbox itself</b></a>
+<input
+name=q
+type=text
+value="f:kyle@kyleam.com &#34;git gc&#34;" /><input
+type=hidden
+name=x
+value="t" /><input
+type=submit
+value=search /> <a
+href="_/text/help/">help</a> / <a
+href="_/text/color/">color</a> / <a
+id=mirror
+href="_/text/mirror/">mirror</a> / <a
+href=#code>code</a> / <a
+href="?q=f:kyle@kyleam.com+%22git+gc%22&amp;x=A">Atom feed</a></pre></form><form
+id=d
+action="?q=f:kyle@kyleam.com+%22git+gc%22&amp;x=m"
+method=post><pre>Search results ordered by [<b>date</b>|<a
+href="?q=f:kyle@kyleam.com+%22git+gc%22&amp;r&amp;x=t">relevance</a>]  view[<a
+href="?q=f:kyle@kyleam.com+%22git+gc%22">summary</a>|<b>nested</b>|<a
+href="?q=f:kyle@kyleam.com+%22git+gc%22&amp;x=A">Atom feed</a>]
+thread overview <a
+href=#t>below</a> | download mbox.gz: <input
+type=submit
+name=z
+value="results only"/>|<input
+type=submit
+name=x
+value="full threads"/></pre></form><pre><a
+href=#e912324476446d4aa5d85a3293eb3f9d596c3a72d
+id=m912324476446d4aa5d85a3293eb3f9d596c3a72d>*</a> <b>news.public-inbox.org misbehaving?</b>
+<b>@ 2020-06-09 22:13 16% Kyle Meyer</b>
+  <a
+href=#r912324476446d4aa5d85a3293eb3f9d596c3a72d>0 siblings, 0 replies; 1+ results</a>
+From: Kyle Meyer @ 2020-06-09 22:13 UTC (<a
+href="87r1unyjj0.fsf@kyleam.com/">permalink</a> / <a
+href="87r1unyjj0.fsf@kyleam.com/raw">raw</a>)
+  To: <a
+href="https://public-inbox.org/meta/?t=20200609221410">meta</a>
+
+Checking inbox.comp.mail.public-inbox.meta today, I ran into some odd
+behavior in my reader (Gnus).  While debugging that, I tried
+
+  $ w3m -m <a
+href="nntp://news.public-inbox.org/inbox.comp.mail.public-inbox.meta">nntp://news.public-inbox.org/inbox.comp.mail.public-inbox.meta</a>
+
+The tail of that buffer was
+
+  4132 (06/06) Dmitry Alexandro Re: [Patch] Update 24-hour times to use two digits for the hour
+  4133 (06/07) Eric Wong        [PATCH] index: v2: parallel by default
+
+That didn&#39;t match up with what I saw at <a
+href="https://public-inbox.org/meta/:">https://public-inbox.org/meta/:</a>
+
+  IMAP server notes, maybe JMAP?
+   2020-06-09 11:34 UTC  - mbox.gz / Atom
+  
+  [PATCH] index: v2: parallel by default
+   2020-06-07 20:02 UTC  - mbox.gz / Atom
+
+inbox.comp.version-control.git also seems off.  After invoking w3m, I
+landed on an empty
+
+  Newsgroup: inbox.comp.version-control.git 399364-399413
+  
+  [399314-399363]
+
+Following &#34;[399314-399363]&#34; displayed articles.  The last two were
+
+  399326 (06/08) Denton Liu      Re: [PATCH] Recommend &#34;git gc --prune=now&#34; instead of &#34;git prune&#34;
+  399327 (06/08) Simon Ser       Re: [PATCH v2] grep: add configuration variables for --heading
+
+Again, that doesn&#39;t match what I see at <a
+href="https://public-inbox.org/git/">https://public-inbox.org/git/</a>,
+which has a good number of messages from today (6/9).  And the empty
+landing page/counts make me think that public-inbox-nntpd knows about
+the articles that aren&#39;t being displayed.
+
+Any ideas what might be going on?
+
+<a
+href=#m912324476446d4aa5d85a3293eb3f9d596c3a72d
+id=e912324476446d4aa5d85a3293eb3f9d596c3a72d>^</a> <a
+href="87r1unyjj0.fsf@kyleam.com/">permalink</a> <a
+href="87r1unyjj0.fsf@kyleam.com/raw">raw</a> <a
+href="87r1unyjj0.fsf@kyleam.com/#R">reply</a>	[relevance 16%]</pre></pre><hr><pre id=t>Results 1-1 of 1 | <a
+href="?q=f:kyle@kyleam.com+%22git+gc%22&amp;o=-1&amp;x=t">reverse</a> | options <a href=#d>above</a></pre><pre>-- pct% links below jump to the message on this page, permalinks otherwise --
+2020-06-09 22:13 16% <a
+href="#m912324476446d4aa5d85a3293eb3f9d596c3a72d"
+id=r912324476446d4aa5d85a3293eb3f9d596c3a72d>news.public-inbox.org misbehaving?</a> Kyle Meyer
+<hr><pre><a id=code>Code repositories for project(s) associated with this public inbox
+
+	<a
+href="https://80x24.org/public-inbox.git">https://80x24.org/public-inbox.git</a>
+
+This is a public inbox, see <a
+href="_/text/mirror/">mirroring instructions</a>
+for how to clone and mirror all data and code used for this inbox;
+as well as URLs for read-only IMAP folder(s) and NNTP newsgroup(s).</pre></body></html>

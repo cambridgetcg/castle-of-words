@@ -1,0 +1,31 @@
+"yhetil" "cron" - Brave Search
+Ask
+All
+Images
+News
+Videos
+Maps
+Goggles
+Query contains search operators
+Ignore operators
+GNU
+issues.guix.gnu.org › 47238
+[PATCH] services: mcron: Export procedures for shepherd service
+> cron jobs for syncing mail, backups etc. It would be nice to be able to · > use these two procedures to avoid code duplication. > > [1]: https://yhetil.org/guix-devel/878s6u2pco.fsf@trop.in · I’m often reluctant to exposing more than what’s strictly necessary ·
+Yhetil
+yhetil.org › emacs  › 87ipp9frmf.fsf@gmx.ch  › T
+Google Tasks integration - unofficially hosted mirrors at yhetil.org
+Here is the > script that does the job: > > #!/bin/bash > > emacs --batch --load ~/.emacs --eval "(gtd)" --eval "(org-mobile-pull)" --eval "(org-save-all-org-buffers)" --eval "(org-mobile-push)" > > If you are on Linux or Mac the script should work as a cronjob.
+Yhetil
+yhetil.org › emacs-user  › 87pmjaxm40.fsf@web.de  › t
+Emacs help from terminal - unofficially hosted mirrors at yhetil.org
+Maybe I do not want to terminate the process, I wish to put it on hold, pay for the SMS bundle or Internet and then continue with the process, that way I avoid some otherwise not yet programmed but programmatically avoidable events. That is a real world example. I have such Emacs process running right now. Back in time it was running all day long and it was invoked by cron.
+Find elsewhere
+Google Bing Mojeek
+Next
+Resources
+Brave Search Premium Brave Search help Transparency report Report a security issue Status
+Products
+Brave Browser Brave Search Brave Wallet Brave Talk Brave Firewall + VPN Brave Playlist Brave News Brave Rewards Brave Search API Brave Ads
+Policies
+Privacy Policy Terms of Use

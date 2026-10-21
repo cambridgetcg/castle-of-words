@@ -1,0 +1,29 @@
+{
+  "verified_utc": "2026-10-21T09:15:35.701020+00:00",
+  "phase": "preclose",
+  "ok": true,
+  "changed_existing_markdown": [
+    "gate.md"
+  ],
+  "rooms": 697,
+  "map_entries": 697,
+  "rooms_words_and_queues_unchanged": true,
+  "open_questions": 16,
+  "open_quests": 8,
+  "courtyard_items": 0,
+  "gate_only_summary_replaced": true,
+  "sources": [
+    {
+      "label": "web-repack",
+      "status": 200,
+      "sha256_matches": true
+    },
+    {
+      "label": "operator-gc",
+      "status": 200,
+      "sha256_matches": true
+    }
+  ],
+  "chronicle_appended_lines": 0,
+  "chronicle_line": null
+}

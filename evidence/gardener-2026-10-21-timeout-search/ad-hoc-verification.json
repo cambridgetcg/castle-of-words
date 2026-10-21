@@ -1,0 +1,12 @@
+{
+  "kind": "ad-hoc verification, not a canonical repository suite",
+  "tests_run": 7,
+  "failures": 0,
+  "errors": 0,
+  "passed": true,
+  "protected_files_unchanged": true,
+  "research_test_transport": "stubbed, with subprocess calls forbidden",
+  "real_verifier_inputs": "saved visit evidence; rejection cases alter reads only",
+  "fixture_cleanup": "TemporaryDirectory contexts completed",
+  "limits": "No fresh web search, server probe, or claim of search completeness."
+}

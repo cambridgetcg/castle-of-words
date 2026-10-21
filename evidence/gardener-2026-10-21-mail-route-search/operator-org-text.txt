@@ -1,0 +1,318 @@
+f:kyle@kyleam.com orgmode - search results
+user/dev discussion of public-inbox itself
+help / color / mirror / code / Atom feed
+Search results ordered by [date|relevance]  view[summary|nested|Atom feed]
+thread overview below | download mbox.gz: |
+* Re: httpd error: Can't locate object method "event_step"
+@ 2025-10-14  5:03 23%   ` Kyle Meyer
+0 siblings, 0 replies; 5+ results
+From: Kyle Meyer @ 2025-10-14  5:03 UTC (permalink / raw)
+To: Eric Wong; +Cc: meta
+Eric Wong writes:
+> That's scary, I can't remember ever seeing it..  Any idea what
+> request(s) were happening when it hit that?
+Soon after starting public-inbox-httpd, I start to see the error message
+fairly frequently.  For example, after starting it around 21:06:
+$ journalctl -S '2025-10-13 21:06:50' | grep event_step | head -n1
+Oct 13 21:08:56 ... public-inbox-httpd[3307242]: E: Can't locate object method "event_step" [...]
+$ sudo journalctl -S '2025-10-13 21:06:50 | grep event_step | cut -d' ' -f1-3
+Oct 13 21:08:56
+Oct 13 21:16:39
+Oct 13 21:17:29
+Oct 13 21:21:09
+Oct 13 21:21:14
+Oct 13 21:21:27
+Oct 13 21:22:15
+Oct 13 21:28:21
+Oct 13 21:31:46
+Oct 13 21:32:24
+Oct 13 21:33:22
+Oct 13 21:35:31
+Oct 13 21:36:28
+Oct 13 21:39:36
+Oct 13 21:42:27
+(I downgraded back to the known good version at 21:43:47.)
+Looking through timestamp-matched requests, most are for the orgmode
+inbox (<https://yhetil.org/orgmode/>).
+In hopes of reproducing locally, I replicated that inbox on another
+machine, trimmed down the config, and created a fresh index.  Here's the
+entire test config:
+[publicinbox "orgmode"]
+address = emacs-orgmode@gnu.org
+inboxdir = /tmp/event-step/orgmode
+url = https://yhetil.org/orgmode/
+Next I tried some of the requests.  For nearly all of the timestamps,
+there is more than one request.  I haven't gone through each one, but I
+have been able to trigger the issue with the cloned inbox.
+$ public-inbox-httpd
+Changing use VERSION while another use VERSION is in scope is deprecated, and will become fatal in Perl 5.44 at [...]/lib/PublicInbox/Git.pm line 675.
+# bound http://0.0.0.0:8080
+ignoring SIGWINCH since we are not daemonized
+ignoring SIGWINCH since we are not daemonized
+E: Can't locate object method "event_step" via package "PublicInbox::WwwStream" at [...]/lib/PublicInbox/DS.pm line 144
+Each case I've triggered so far is for a _message ID that's not found_.
+Here are three examples:
+/orgmode/F1BFD612-B50C-4247-8261-1058352CF0E4@gmail.com
+/orgmode/4491f83ee44f16bef3ac15d74cb7504b@science.uva.nl
+/orgmode/200805161527.m4GFRMGN010370@dog.comp.uvic.ca
+For those three cases, I've verified that the message ID shows up only
+in References and In-Reply-To headers but not a Message-ID header.
+>> I first saw this message when I updated from 46ebb613 (2025-05-09) to
+>> df057976 (2025-05-15).
+>
+> Wow, that's a while ago; I struggle to remember anything more
+> than a week ago :<  Does it happen with latest?
+Yes, I see the error message with a public-inbox installed from 8790c2ac
+(2025-10-12).  For the local reproducer described in this message, I was
+also running 8790c2ac.
+> If you can match up timestamps w/ access logs that'd be helpful
+Please let me know if the details above help to narrow it down.
+I'm happy to try to make a smaller and more isolated reproducer, though
+I'm out of time to work on that tonight.
+Thanks
+^ permalink raw reply	[relevance 23%]
+* [PATCH] www: display Received: timestamp for dumped topics
+@ 2023-02-05 20:10 11%     ` Kyle Meyer
+0 siblings, 0 replies; 5+ results
+From: Kyle Meyer @ 2023-02-05 20:10 UTC (permalink / raw)
+To: Ihor Radchenko; +Cc: Eric Wong, meta, Bastien Guerry
+Ihor Radchenko writes:
+> Eric Wong <e@80x24.org> writes:
+[...]
+>> Does this untested patch fix it?
+>
+> I am looking at https://list.orgmode.org/ and the thread still displays
+> the future date "2023-10-29  1:04 UTC" as the last update time. Though
+> ordering suggests that the future time was ignored when building recent
+> thread list.
+The "it" that I reported is the sorting, so as far as I can see it's
+fixed.  With the "last update time", I suppose you're talking about the
+second line below:
+[FEATURE REQUEST] Timezone support in org-mode datestamps and org-agenda
+2023-10-29  1:04 UTC  (110+ messages)
+` [POLL] Proposed syntax for [...]
+I don't care too much one way or the other, but it makes sense to me for
+that to match the value that's actually used to sort the messages.
+Eric, what about something like this?
+-- >8 --
+Subject: [PATCH] www: display Received: timestamp for dumped topics
+As a follow-up to 0f19ca7e3ca6fc56 (www: sort all /$INBOX/ topics by
+Received: timestamp, 2023-02-04), display the Received: timestamp
+rather than Date: timestamp when dumping the topic so that the
+displayed date aligns with the sorting.
+Reported-by: Ihor Radchenko <yantar92@posteo.net>
+Link: https://public-inbox.org/meta/87o7q7di5i.fsf@localhost/
+---
+lib/PublicInbox/View.pm | 4 ++--
+1 file changed, 2 insertions(+), 2 deletions(-)
+diff --git a/lib/PublicInbox/View.pm b/lib/PublicInbox/View.pm
+index e5f748f7..384d7894 100644
+--- a/lib/PublicInbox/View.pm
++++ b/lib/PublicInbox/View.pm
+@@ -1093,7 +1093,7 @@ sub dump_topics {
+my $href = mid_href($mid);
+my $prev_subj = [ split(/ /, $top_subj) ];
+$top_subj = ascii_html($top_subj);
+-		$ds = fmt_ts($ds);
++		$ts = fmt_ts($ts);
+# $n isn't the total number of posts on the topic,
+# just the number of posts in the current results window
+@@ -1107,7 +1107,7 @@ sub dump_topics {
+}
+my $s = "<a\nhref=\"$href/T/$anchor\">$top_subj</a>\n" .
+-			" $ds UTC $n\n";
++			" $ts UTC $n\n";
+while (@extra) {
+my $level = shift @extra;
+my $subj = shift @extra; # already normalized
+base-commit: 0f19ca7e3ca6fc568a8713c5ececdb4d9fa577e6
+--
+2.39.1
+^ permalink raw reply related	[relevance 11%]
+* future date in Date header pinning thread to top of $inbox/
+@ 2023-02-04 17:25 23% Kyle Meyer
+0 siblings, 1 reply; 5+ results
+From: Kyle Meyer @ 2023-02-04 17:25 UTC (permalink / raw)
+To: Eric Wong, meta; +Cc: Ihor Radchenko, Bastien Guerry
+As noted by Ihor on the Org list (<87pmarnhlr.fsf@localhost>), Org's
+public-inbox archive has a thread pinned to the top of the $inbox/
+overview:
+* https://yhetil.org/orgmode/
+That thread has a message where a sender set his Date to a future date:
+$ curl -fSsL https://yhetil.org/orgmode/ZT2vNKsf3Lp5xit3@protected.localdomain/raw | \
+grep Date:
+Date: Sun, 29 Oct 2023 04:02:44 +0300
+Based on grepping around the public-inbox tree and Git history, I know
+that there are spots in public-inbox that prefer a date from the
+Received headers over the one from the Date header.  Would that make
+sense to do here too to reduce the chances of a date from the future
+pinning a thread?  (Or perhaps that's already the intention and
+something's off here?)
+Thanks.
+^ permalink raw reply	[relevance 23%]
+* Re: archive links broken with obfuscate=true
+@ 2021-04-10 19:49 18%           ` Kyle Meyer
+0 siblings, 0 replies; 5+ results
+From: Kyle Meyer @ 2021-04-10 19:49 UTC (permalink / raw)
+To: Eric Wong; +Cc: meta
+Eric Wong writes:
+> Kyle Meyer <kyle@kyleam.com> wrote:
+>> Eric Wong writes:
+>>
+>> > Have you run any performance tests?
+>>
+>> No.  To get an idea of how to approach that, would you suggest I look at
+>> xt/perf-msgview.t?
+>
+> Yeah, probably that with some tweaks; or running -httpd with ab,
+> wrk or some other HTTP benchmark that uses persistent connections.
+>
+> I'm OK with things being slower with this option enabled, but
+> not with trivial denial-of-service vectors.
+Below is my initial attempt at tweaking xt/perf-msgview.t.
+xt/perf-obfuscate.t enables obfuscation in the inbox if PI_OBFUSCATE is
+set in the environment:
+$ PI_OBFUSCATE=1 GIANT_INBOX_DIR=/tmp/test perl xt/perf-obfuscate.t
+Here are my unscientific timings for three cases: 1) no obfuscation, 2)
+obfuscation on the current master (ea4e9025dd), and 3) obfuscation with
+the patch upthread.  The inbox is set to the Org mode's list archives
+(<https://yhetil.org/orgmode/>), which at the time of execution
+contained 135,885 messages.
+| obfuscate   | run | wall |    usr |  sys |
+|-------------+-----+------+--------+------|
+| no          |   1 |   50 |  49.14 | 0.57 |
+| no          |   2 |   49 |  47.76 | 0.58 |
+|             |     |      |        |      |
+| yes, master |   1 |   56 |  54.47 | 0.58 |
+| yes, master |   2 |   55 |  54.24 | 0.58 |
+|             |     |      |        |      |
+| yes, patch  |   1 |  175 | 174.71 | 0.52 |
+| yes, patch  |   2 |  176 | 174.33 | 0.56 |
+diff --git a/xt/perf-obfuscate.t b/xt/perf-obfuscate.t
+new file mode 100644
+index 00000000..2a8d5c1e
+--- /dev/null
++++ b/xt/perf-obfuscate.t
+@@ -0,0 +1,64 @@
++# Copyright (C) 2019-2021 all contributors <meta@public-inbox.org>
++# License: AGPL-3.0+ <https://www.gnu.org/licenses/agpl-3.0.txt>
++use strict;
++use warnings;
++use Test::More;
++use Benchmark qw(:all);
++use PublicInbox::Inbox;
++use PublicInbox::View;
++use PublicInbox::TestCommon;
++
++my $inboxdir = $ENV{GIANT_INBOX_DIR};
++plan skip_all => "GIANT_INBOX_DIR not defined for $0" unless $inboxdir;
++
++my $obfuscate = $ENV{PI_OBFUSCATE} ? 1 : 0;
++print "obfuscate=$obfuscate\n";
++
++my @cat = qw(cat-file --buffer --batch-check --batch-all-objects);
++if (require_git(2.19, 1)) {
++	push @cat, '--unordered';
++} else {
++	warn
++"git <2.19, cat-file lacks --unordered, locality suffers\n";
++}
++require_mods qw(Plack::Util);
++use_ok 'Plack::Util';
++my $ibx = PublicInbox::Inbox->new({ inboxdir => $inboxdir, name => 'name' ,
++				    obfuscate => $obfuscate});
++my $git = $ibx->git;
++my $fh = $git->popen(@cat);
++my $vec = '';
++vec($vec, fileno($fh), 1) = 1;
++select($vec, undef, undef, 60) or die "timed out waiting for --batch-check";
++
++my $ctx = {
++	env => { HTTP_HOST => 'example.com', 'psgi.url_scheme' => 'https' },
++	ibx => $ibx,
++	www => Plack::Util::inline_object(style => sub {''}),
++};
++my ($mime, $res, $oid, $type);
++my $n = 0;
++my $obuf = '';
++my $m = 0;
++
++my $cb = sub {
++	$mime = PublicInbox::Eml->new(shift);
++	PublicInbox::View::multipart_text_as_html($mime, $ctx);
++	++$m;
++	$obuf = '';
++};
++
++my $t = timeit(1, sub {
++	$ctx->{obuf} = \$obuf;
++	$ctx->{mhref} = '../';
++	while (<$fh>) {
++		($oid, $type) = split / /;
++		next if $type ne 'blob';
++		++$n;
++		$git->cat_async($oid, $cb);
++	}
++	$git->cat_async_wait;
++});
++diag 'multipart_text_as_html took '.timestr($t)." for $n <=> $m messages";
++is($m, $n, 'rendered all messages');
++done_testing();
+^ permalink raw reply related	[relevance 18%]
+* From-munge not being reversed on mbox import
+@ 2020-04-04  4:58 22% Kyle Meyer
+0 siblings, 0 replies; 5+ results
+From: Kyle Meyer @ 2020-04-04  4:58 UTC (permalink / raw)
+To: meta
+I'm feeding mbox files created with Konstantin Ryabitsev's
+list-archive-maker.py script [^1] to import_vger_from_mbox.  Looking
+through the result, I noticed some ">From" lines.  Here's an example:
+https://yhetil.org/orgmode/871rpt9zc4.fsf@kyleam.com/
+If I'm following the code correctly, that leads to an import_mbox call,
+which in turn calls mb_add:
+sub mb_add ($$$$) {
+my ($im, $variant, $filter, $msg) = @_;
+$$msg =~ s/(\r?\n)+\z/$1/s;
+my $mime = PublicInbox::MIME->new($msg);
+if ($variant eq 'mboxrd') {
+$$msg =~ s/^>(>*From )/$1/sm;
+} elsif ($variant eq 'mboxo') {
+$$msg =~ s/^>From /From /sm;
+}
+[...]
+So, it appears the ">From" _should_ be getting reversed.  To eliminate
+any stupid things I may have done when creating the archive, I looked
+for a message on meta that has an in-body line starting with "From" and
+found
+https://public-inbox.org/meta/20200121222924.ioz5ve2sg65zcuoy@chatter.i7.local/
+So I downloaded the public-inbox generated mbox and fed it to
+import_vger_from_mbox:
+curl -s https://public-inbox.org/meta/20200121222924.ioz5ve2sg65zcuoy@chatter.i7.local/t.mbox.gz \
+| zcat | scripts/import_vger_from_mbox testing emacs-orgmode@gnu.org ~/inboxes/testing
+That too leaves a ">From" in the body:
+https://yhetil.org/testing/20200121222924.ioz5ve2sg65zcuoy@chatter.i7.local/
+Any idea what's going wrong here?
+[^1]: https://git.kernel.org/pub/scm/linux/kernel/git/mricon/korg-helpers.git/plain/list-archive-maker.py
+^ permalink raw reply	[relevance 22%]
+Results 1-5 of 5 | reverse | options above
+-- pct% links below jump to the message on this page, permalinks otherwise --
+2020-04-04  4:58 22% From-munge not being reversed on mbox import Kyle Meyer
+2021-04-09  2:11     archive links broken with obfuscate=true Kyle Meyer
+2021-04-09 10:21     ` Eric Wong
+2021-04-09 22:45       ` Kyle Meyer
+2021-04-09 23:37         ` Eric Wong
+2021-04-10  4:06           ` Kyle Meyer
+2021-04-10  5:15             ` Eric Wong
+2021-04-10 19:49 18%           ` Kyle Meyer
+2023-02-04 17:25 23% future date in Date header pinning thread to top of $inbox/ Kyle Meyer
+2023-02-04 20:41     ` [PATCH] www: sort all /$INBOX/ topics by Received: timestamp Eric Wong
+2023-02-05 19:30       ` Ihor Radchenko
+2023-02-05 20:10 11%     ` [PATCH] www: display Received: timestamp for dumped topics Kyle Meyer
+2025-10-13 21:41     httpd error: Can't locate object method "event_step" Kyle Meyer
+2025-10-13 22:06     ` Eric Wong
+2025-10-14  5:03 23%   ` Kyle Meyer
+Code repositories for project(s) associated with this public inbox
+https://80x24.org/public-inbox.git
+This is a public inbox, see mirroring instructions
+for how to clone and mirror all data and code used for this inbox;
+as well as URLs for read-only IMAP folder(s) and NNTP newsgroup(s).

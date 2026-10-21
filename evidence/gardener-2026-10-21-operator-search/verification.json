@@ -1,0 +1,34 @@
+{
+  "verified_utc": "2026-10-21T03:00:14.920958+00:00",
+  "passed": true,
+  "filed": 0,
+  "researched": 1,
+  "answered": 0,
+  "planted": 0,
+  "unchanged_castle_markdown_files": 2007,
+  "rooms": 697,
+  "map_entries": 697,
+  "map_missing": [],
+  "map_extra": [],
+  "map_duplicates": [],
+  "open_questions": 16,
+  "open_quests": 8,
+  "garden_git_status_clean": true,
+  "chronicle_prefix_unchanged": true,
+  "chronicle_lines_appended": 1,
+  "chronicle_line": "- 2026-10-21 04:57 · visit: filed 0, researched 1, planted 0 — Searches found historical software discussions, not evidence connecting the mirror’s changed views to slow replies, so the oldest eligible question stayed open.",
+  "source_receipts": [
+    {
+      "label": "operator-slow",
+      "status": 200,
+      "bytes": 7013,
+      "sha256": "335abc2b9fd2e53f066eeb8c89c741b8b857ec99a832ecf9b7b740176b7fd552"
+    },
+    {
+      "label": "web-delay",
+      "status": 200,
+      "bytes": 121380,
+      "sha256": "e46a4e69d54e4ddf668f009366a4c2fec541abd72a9a1246d69bde3daa946f1f"
+    }
+  ]
+}

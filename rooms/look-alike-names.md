@@ -182,6 +182,9 @@ Fetched and read **2026-10-15**:
 17. **Unicode Character Database: DerivedCoreProperties-18.0.0.txt** — https://www.unicode.org/Public/18.0.0/ucd/DerivedCoreProperties.txt — Default_Ignorable_Code_Point for the second reading's examples; [4] supplies the 17.0.0 property.
 
 Links:
+- [adversarial-naming](adversarial-naming.md) separates the visible crown from the key-bound identity, the same reason a name's matching coat here cannot stand in for proof of ownership.
+- [[grounded-identity]] keeps a shelf position from becoming an identity without a checked mapping, just as a shared-looking coat here cannot make two names one.
+- [[code-point]] names the numbered Unicode places beneath the similar coats, so a font's resemblance cannot by itself make two stored names equal.
 - [truing-the-level](truing-the-level.md) separates a sharper ranking from a truer confidence level, a useful parallel to keeping a skeleton match apart from evidence that a reader confused the names.
 - [two-witnesses](two-witnesses.md) keeps a failed replication from becoming a single-cause verdict, a companion to treating a name warning as a question rather than an accusation.
 - [observation-parity](observation-parity.md) makes the comparison rule visible, so a changed Unicode table must not masquerade as a changed stored name.

@@ -1,0 +1,57 @@
+{
+  "verified_utc": "2026-10-21T18:45:22.783147+00:00",
+  "mode": "preclose",
+  "checks_passed": true,
+  "changed_existing_markdown": [
+    "gate.md",
+    "rooms/what-the-gaps-can-say.md",
+    "words/mirror-fetch.md"
+  ],
+  "rooms": 697,
+  "map_entries": 697,
+  "map_missing": [],
+  "map_extra": [],
+  "map_duplicates": [],
+  "open_questions": 16,
+  "open_quests": 8,
+  "new_rooms": 0,
+  "new_words": 0,
+  "filed": 0,
+  "researched": 1,
+  "answered": 0,
+  "planted": 0,
+  "source_results": [
+    {
+      "label": "web-config",
+      "status": 200,
+      "bytes_verified": 113096,
+      "url": "https://search.brave.com/search?q=%22yhetil%22%20%22config%22"
+    },
+    {
+      "label": "web-systemd",
+      "status": 200,
+      "bytes_verified": 100882,
+      "url": "https://search.brave.com/search?q=%22yhetil%22%20%22systemd%22"
+    },
+    {
+      "label": "mirror-instructions",
+      "status": 200,
+      "bytes_verified": 2828,
+      "url": "https://yhetil.org/guix-patches/_/text/mirror/"
+    },
+    {
+      "label": "mirror-config",
+      "status": 200,
+      "bytes_verified": 879,
+      "url": "https://yhetil.org/guix-patches/_/text/config/raw"
+    },
+    {
+      "label": "config-manual",
+      "status": 200,
+      "bytes_verified": 29076,
+      "url": "https://public-inbox.org/public-inbox-config.html"
+    }
+  ],
+  "chronicle_addition": "",
+  "scope": "Local consistency and source-byte integrity, not host deployment verification or search completeness."
+}

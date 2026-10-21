@@ -1,0 +1,32 @@
+{
+  "verified_utc": "2026-10-21T15:34:09.181809+00:00",
+  "mode": "preclose",
+  "checks_passed": true,
+  "changed_existing_markdown": [
+    "gate.md"
+  ],
+  "rooms": 697,
+  "map_entries": 697,
+  "open_questions": 16,
+  "open_quests": 8,
+  "new_rooms": 0,
+  "new_words": 0,
+  "filed": 0,
+  "researched": 1,
+  "answered": 0,
+  "planted": 0,
+  "source_results": [
+    {
+      "label": "web-timeout",
+      "status": 200,
+      "bytes_verified": 109508
+    },
+    {
+      "label": "operator-timeout",
+      "status": 200,
+      "bytes_verified": 3962
+    }
+  ],
+  "chronicle_addition": "",
+  "scope": "Local consistency only; no claim of search completeness or independent service verification."
+}

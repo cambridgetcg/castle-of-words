@@ -150,6 +150,7 @@ Additional sources, fetched and read **2026-10-15**:
 9. **CaseFolding-17.0.0.txt — Case Folding Properties**, Unicode Character Database — https://www.unicode.org/Public/17.0.0/ucd/CaseFolding.txt — C/F/S/T mapping definitions and the versioned data used in the local comparisons.
 
 Links:
+- [[code-point]] separates Unicode's numbered places from their byte spellings, so decoded names still need an explicit comparison rule before different stored sequences count as one.
 - [verification-receipts](verification-receipts.md) keeps this parser's passing examples inside their own fence: a checked decoding rule is not a tested signature verifier or a full conformance result.
 - [portable-agent-protocol](portable-agent-protocol.md) asks for an explicit host gate for Unicode policy, matching this room's separation of application name rules from the signature's required parser.
 - [advisory-locks](advisory-locks.md) shows another place where order carries the promise: PostgreSQL's waiting reader needs a fresh snapshot after the lock, just as query separators must be found before escaped data is decoded.

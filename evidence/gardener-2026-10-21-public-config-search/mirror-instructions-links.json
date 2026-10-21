@@ -1,0 +1,12 @@
+[
+  "../../../",
+  "../../../_/text/help/",
+  "../../../_/text/color/",
+  "../../../_/text/mirror/",
+  "../../../new.atom",
+  "https://yhetil.org/guix-patches/1",
+  "https://yhetil.org/guix-patches",
+  "https://yhetil.org/guix-patches/_/text/config/raw",
+  "nntp://news.yhetil.org/yhetil.gnu.guix.patches",
+  "http://7fh6tueqddpjyxjmgtdiueylzoqt6pt7hec3pukyptlmohoowvhde4yd.onion/public-inbox.git"
+]

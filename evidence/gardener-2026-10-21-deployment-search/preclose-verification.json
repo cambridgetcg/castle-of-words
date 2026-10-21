@@ -1,0 +1,46 @@
+{
+  "verified_utc": "2026-10-21T06:05:46.607547+00:00",
+  "passed": true,
+  "closed": false,
+  "filed": 0,
+  "researched": 1,
+  "answered": 0,
+  "planted": 0,
+  "changed_castle_markdown": [
+    "gate.md",
+    "rooms/what-the-gaps-can-say.md",
+    "words/via-header.md"
+  ],
+  "original_room_and_word_text_preserved": true,
+  "rooms": 697,
+  "map_entries": 697,
+  "map_missing": [],
+  "map_extra": [],
+  "map_duplicates": [],
+  "open_questions": 16,
+  "open_quests": 8,
+  "garden_git_status_clean": true,
+  "chronicle_prefix_unchanged": true,
+  "chronicle_lines_appended": 0,
+  "chronicle_line": "",
+  "source_receipts": [
+    {
+      "label": "operator-stack",
+      "status": 200,
+      "bytes": 8904,
+      "sha256": "68b98f1c31852b8094de778595adc5747ccf029d6b4e6618e201a61c5e8195ca"
+    },
+    {
+      "label": "operator-varnish",
+      "status": 200,
+      "bytes": 6122,
+      "sha256": "d8b64f2d8e45fe4b724ac0749a96dc2c86f6b4ed395b0f9ca7dfdc44d259045e"
+    },
+    {
+      "label": "web-config",
+      "status": 200,
+      "bytes": 115855,
+      "sha256": "fde1ec918adf67e72695830496644f69c8d42dafaadf336f7102e5c9cf36e98e"
+    }
+  ]
+}

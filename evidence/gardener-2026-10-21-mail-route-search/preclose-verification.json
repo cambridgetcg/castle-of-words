@@ -1,0 +1,18 @@
+{
+  "checked_utc": "2026-10-21T12:26:23.144989+00:00",
+  "passed": true,
+  "preclose": true,
+  "retrievals_verified": 5,
+  "rooms": 697,
+  "map_entries": 697,
+  "open_questions": 16,
+  "open_quests": 8,
+  "courtyard_items": 0,
+  "new_words": [
+    "reproducer"
+  ],
+  "other_checked_markdown_unchanged": true,
+  "room_previous_bytes_preserved": true,
+  "gate_only_two_lines_replaced": true,
+  "chronicle_lines_added": 0
+}

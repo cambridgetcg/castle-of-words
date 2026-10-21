@@ -1,0 +1,531 @@
+<html><head><title>f:kyle@kyleam.com orgmode - search results</title><link
+rel=alternate
+title="Atom feed"
+href="?q=f:kyle@kyleam.com+orgmode&amp;x=A"
+type="application/atom+xml"/><style>@import url("216light.css?69d631d8") screen AND (prefers-color-scheme:light);*{overflow-wrap:anywhere;font-size:100%;font-family:monospace}</style><link
+type=text/css
+rel=stylesheet
+href=216dark.css?69d631d8
+media=screen /><link
+type=text/css
+rel=stylesheet
+href=216light.css?69d631d8
+media=print /></head><body><form
+action="./"><pre><a
+href="?t=20251014050401"><b>user/dev discussion of public-inbox itself</b></a>
+<input
+name=q
+type=text
+value="f:kyle@kyleam.com orgmode" /><input
+type=hidden
+name=x
+value="t" /><input
+type=submit
+value=search /> <a
+href="_/text/help/">help</a> / <a
+href="_/text/color/">color</a> / <a
+id=mirror
+href="_/text/mirror/">mirror</a> / <a
+href=#code>code</a> / <a
+href="?q=f:kyle@kyleam.com+orgmode&amp;x=A">Atom feed</a></pre></form><form
+id=d
+action="?q=f:kyle@kyleam.com+orgmode&amp;x=m"
+method=post><pre>Search results ordered by [<b>date</b>|<a
+href="?q=f:kyle@kyleam.com+orgmode&amp;r&amp;x=t">relevance</a>]  view[<a
+href="?q=f:kyle@kyleam.com+orgmode">summary</a>|<b>nested</b>|<a
+href="?q=f:kyle@kyleam.com+orgmode&amp;x=A">Atom feed</a>]
+thread overview <a
+href=#t>below</a> | download mbox.gz: <input
+type=submit
+name=z
+value="results only"/>|<input
+type=submit
+name=x
+value="full threads"/></pre></form><pre><a
+href=#ed5e644cc797878379359160bf81796cd3b2af7d7
+id=md5e644cc797878379359160bf81796cd3b2af7d7>*</a> <b>Re: httpd error: Can&#39;t locate object method &#34;event_step&#34;</b>
+  <b>@ 2025-10-14  5:03 23%   ` Kyle Meyer</b>
+  <a
+href=#rd5e644cc797878379359160bf81796cd3b2af7d7>0 siblings, 0 replies; 5+ results</a>
+From: Kyle Meyer @ 2025-10-14  5:03 UTC (<a
+href="871pn6vzvd.fsf@kyleam.com/">permalink</a> / <a
+href="871pn6vzvd.fsf@kyleam.com/raw">raw</a>)
+  To: Eric Wong; <b>+Cc:</b> <a
+href="https://public-inbox.org/meta/?t=20251014050401">meta</a>
+
+Eric Wong writes:
+
+<span
+class="q">&gt; That&#39;s scary, I can&#39;t remember ever seeing it..  Any idea what
+&gt; request(s) were happening when it hit that?
+</span>
+Soon after starting public-inbox-httpd, I start to see the error message
+fairly frequently.  For example, after starting it around 21:06:
+
+  $ journalctl -S &#39;2025-10-13 21:06:50&#39; | grep event_step | head -n1
+  Oct 13 21:08:56 ... public-inbox-httpd[3307242]: E: Can&#39;t locate object method &#34;event_step&#34; [...]
+
+  $ sudo journalctl -S &#39;2025-10-13 21:06:50 | grep event_step | cut -d&#39; &#39; -f1-3
+  Oct 13 21:08:56
+  Oct 13 21:16:39
+  Oct 13 21:17:29
+  Oct 13 21:21:09
+  Oct 13 21:21:14
+  Oct 13 21:21:27
+  Oct 13 21:22:15
+  Oct 13 21:28:21
+  Oct 13 21:31:46
+  Oct 13 21:32:24
+  Oct 13 21:33:22
+  Oct 13 21:35:31
+  Oct 13 21:36:28
+  Oct 13 21:39:36
+  Oct 13 21:42:27
+
+(I downgraded back to the known good version at 21:43:47.)
+
+Looking through timestamp-matched requests, most are for the orgmode
+inbox (&lt;<a
+href="https://yhetil.org/orgmode/">https://yhetil.org/orgmode/</a>&gt;).
+
+In hopes of reproducing locally, I replicated that inbox on another
+machine, trimmed down the config, and created a fresh index.  Here&#39;s the
+entire test config:
+
+  [publicinbox &#34;orgmode&#34;]
+          address = emacs-orgmode@gnu.org
+          inboxdir = /tmp/event-step/orgmode
+          url = <a
+href="https://yhetil.org/orgmode/">https://yhetil.org/orgmode/</a>
+
+Next I tried some of the requests.  For nearly all of the timestamps,
+there is more than one request.  I haven&#39;t gone through each one, but I
+have been able to trigger the issue with the cloned inbox.
+
+  $ public-inbox-httpd
+  Changing use VERSION while another use VERSION is in scope is deprecated, and will become fatal in Perl 5.44 at [...]/lib/PublicInbox/Git.pm line 675.
+  # bound <a
+href="http://0.0.0.0:8080">http://0.0.0.0:8080</a>
+  ignoring SIGWINCH since we are not daemonized
+  ignoring SIGWINCH since we are not daemonized
+  E: Can&#39;t locate object method &#34;event_step&#34; via package &#34;PublicInbox::WwwStream&#34; at [...]/lib/PublicInbox/DS.pm line 144
+
+Each case I&#39;ve triggered so far is for a _message ID that&#39;s not found_.
+Here are three examples:
+
+  /orgmode/F1BFD612-B50C-4247-8261-1058352CF0E4@gmail.com
+  /orgmode/4491f83ee44f16bef3ac15d74cb7504b@science.uva.nl
+  /orgmode/200805161527.m4GFRMGN010370@dog.comp.uvic.ca
+
+For those three cases, I&#39;ve verified that the message ID shows up only
+in References and In-Reply-To headers but not a Message-ID header.
+
+<span
+class="q">&gt;&gt; I first saw this message when I updated from 46ebb613 (2025-05-09) to
+&gt;&gt; df057976 (2025-05-15).
+&gt;
+&gt; Wow, that&#39;s a while ago; I struggle to remember anything more
+&gt; than a week ago :&lt;  Does it happen with latest?
+</span>
+Yes, I see the error message with a public-inbox installed from 8790c2ac
+(2025-10-12).  For the local reproducer described in this message, I was
+also running 8790c2ac.
+
+<span
+class="q">&gt; If you can match up timestamps w/ access logs that&#39;d be helpful
+</span>
+Please let me know if the details above help to narrow it down.
+
+I&#39;m happy to try to make a smaller and more isolated reproducer, though
+I&#39;m out of time to work on that tonight.
+
+Thanks
+
+<a
+href=#md5e644cc797878379359160bf81796cd3b2af7d7
+id=ed5e644cc797878379359160bf81796cd3b2af7d7>^</a> <a
+href="871pn6vzvd.fsf@kyleam.com/">permalink</a> <a
+href="871pn6vzvd.fsf@kyleam.com/raw">raw</a> <a
+href="871pn6vzvd.fsf@kyleam.com/#R">reply</a>	[relevance 23%]</pre><hr><pre><a
+href=#e3ca4c8d4825719d3e645aa78c6f1bf8aa3505076
+id=m3ca4c8d4825719d3e645aa78c6f1bf8aa3505076>*</a> <b>[PATCH] www: display Received: timestamp for dumped topics</b>
+  <b>@ 2023-02-05 20:10 11%     ` Kyle Meyer</b>
+  <a
+href=#r3ca4c8d4825719d3e645aa78c6f1bf8aa3505076>0 siblings, 0 replies; 5+ results</a>
+From: Kyle Meyer @ 2023-02-05 20:10 UTC (<a
+href="87y1pb27r6.fsf@kyleam.com/">permalink</a> / <a
+href="87y1pb27r6.fsf@kyleam.com/raw">raw</a>)
+  To: Ihor Radchenko; <b>+Cc:</b> Eric Wong, <a
+href="https://public-inbox.org/meta/?t=20230205201052">meta</a>, Bastien Guerry
+
+Ihor Radchenko writes:
+
+<span
+class="q">&gt; Eric Wong &lt;e@80x24.org&gt; writes:
+</span>[...]
+<span
+class="q">&gt;&gt; Does this untested patch fix it?
+&gt;
+&gt; I am looking at <a
+href="https://list.orgmode.org/">https://list.orgmode.org/</a> and the thread still displays
+&gt; the future date &#34;2023-10-29  1:04 UTC&#34; as the last update time. Though
+&gt; ordering suggests that the future time was ignored when building recent
+&gt; thread list.
+</span>
+The &#34;it&#34; that I reported is the sorting, so as far as I can see it&#39;s
+fixed.  With the &#34;last update time&#34;, I suppose you&#39;re talking about the
+second line below:
+
+  [FEATURE REQUEST] Timezone support in org-mode datestamps and org-agenda
+   2023-10-29  1:04 UTC  (110+ messages)
+                                        ` [POLL] Proposed syntax for [...]
+
+I don&#39;t care too much one way or the other, but it makes sense to me for
+that to match the value that&#39;s actually used to sort the messages.
+Eric, what about something like this?
+
+-- &gt;8 --
+Subject: [PATCH] www: display Received: timestamp for dumped topics
+
+As a follow-up to 0f19ca7e3ca6fc56 (www: sort all /$INBOX/ topics by
+Received: timestamp, 2023-02-04), display the Received: timestamp
+rather than Date: timestamp when dumping the topic so that the
+displayed date aligns with the sorting.
+
+Reported-by: Ihor Radchenko &lt;yantar92@posteo.net&gt;
+Link: <a
+href="https://public-inbox.org/meta/87o7q7di5i.fsf@localhost/">https://public-inbox.org/meta/87o7q7di5i.fsf@localhost/</a>
+---
+ <a
+id=iZ387y1pb27r6.fsf::40kyleam.com:1lib:PublicInbox:View.pm
+href=#Z387y1pb27r6.fsf::40kyleam.com:1lib:PublicInbox:View.pm>lib/PublicInbox/View.pm</a> | 4 ++--
+ 1 file <a href="#e3ca4c8d4825719d3e645aa78c6f1bf8aa3505076">changed</a>, 2 insertions(+), 2 deletions(-)
+
+<span
+class="head"><a
+href=#iZ387y1pb27r6.fsf::40kyleam.com:1lib:PublicInbox:View.pm
+id=Z387y1pb27r6.fsf::40kyleam.com:1lib:PublicInbox:View.pm>diff</a> --git a/lib/PublicInbox/View.pm b/lib/PublicInbox/View.pm
+index e5f748f7..384d7894 100644
+--- a/lib/PublicInbox/View.pm
++++ b/lib/PublicInbox/View.pm
+</span><span
+class="hunk">@@ -1093,7 +1093,7 @@ sub dump_topics {
+</span> 		my $href = mid_href($mid);
+ 		my $prev_subj = [ split(/ /, $top_subj) ];
+ 		$top_subj = ascii_html($top_subj);
+<span
+class="del">-		$ds = fmt_ts($ds);
+</span><span
+class="add">+		$ts = fmt_ts($ts);
+</span> 
+ 		# $n isn&#39;t the total number of posts on the topic,
+ 		# just the number of posts in the current results window
+<span
+class="hunk">@@ -1107,7 +1107,7 @@ sub dump_topics {
+</span> 		}
+ 
+ 		my $s = &#34;&lt;a\nhref=\&#34;$href/T/$anchor\&#34;&gt;$top_subj&lt;/a&gt;\n&#34; .
+<span
+class="del">-			&#34; $ds UTC $n\n&#34;;
+</span><span
+class="add">+			&#34; $ts UTC $n\n&#34;;
+</span> 		while (@extra) {
+ 			my $level = shift @extra;
+ 			my $subj = shift @extra; # already normalized
+
+base-commit: 0f19ca7e3ca6fc568a8713c5ececdb4d9fa577e6
+-- 
+2.39.1
+
+
+<a
+href=#m3ca4c8d4825719d3e645aa78c6f1bf8aa3505076
+id=e3ca4c8d4825719d3e645aa78c6f1bf8aa3505076>^</a> <a
+href="87y1pb27r6.fsf@kyleam.com/">permalink</a> <a
+href="87y1pb27r6.fsf@kyleam.com/raw">raw</a> <a
+href="87y1pb27r6.fsf@kyleam.com/#R">reply</a> <a
+href="87y1pb27r6.fsf@kyleam.com/#related">related</a>	[relevance 11%]</pre><hr><pre><a
+href=#ec2d4f50c9bf8450405b56d3b6066c9d7cf4c596a
+id=mc2d4f50c9bf8450405b56d3b6066c9d7cf4c596a>*</a> <b>future date in Date header pinning thread to top of $inbox/</b>
+<b>@ 2023-02-04 17:25 23% Kyle Meyer</b>
+    <a
+href=#rc2d4f50c9bf8450405b56d3b6066c9d7cf4c596a>0 siblings, 1 reply; 5+ results</a>
+From: Kyle Meyer @ 2023-02-04 17:25 UTC (<a
+href="87edr5gx63.fsf@kyleam.com/">permalink</a> / <a
+href="87edr5gx63.fsf@kyleam.com/raw">raw</a>)
+  To: Eric Wong, <a
+href="https://public-inbox.org/meta/?t=20230204172601">meta</a>; <b>+Cc:</b> Ihor Radchenko, Bastien Guerry
+
+As noted by Ihor on the Org list (&lt;87pmarnhlr.fsf@localhost&gt;), Org&#39;s
+public-inbox archive has a thread pinned to the top of the $inbox/
+overview:
+
+ * <a
+href="https://yhetil.org/orgmode/">https://yhetil.org/orgmode/</a>
+
+That thread has a message where a sender set his Date to a future date:
+
+  $ curl -fSsL <a
+href="https://yhetil.org/orgmode/ZT2vNKsf3Lp5xit3@protected.localdomain/raw">https://yhetil.org/orgmode/ZT2vNKsf3Lp5xit3@protected.localdomain/raw</a> | \
+    grep Date:
+  Date: Sun, 29 Oct 2023 04:02:44 +0300
+
+Based on grepping around the public-inbox tree and Git history, I know
+that there are spots in public-inbox that prefer a date from the
+Received headers over the one from the Date header.  Would that make
+sense to do here too to reduce the chances of a date from the future
+pinning a thread?  (Or perhaps that&#39;s already the intention and
+something&#39;s off here?)
+
+Thanks.
+
+<a
+href=#mc2d4f50c9bf8450405b56d3b6066c9d7cf4c596a
+id=ec2d4f50c9bf8450405b56d3b6066c9d7cf4c596a>^</a> <a
+href="87edr5gx63.fsf@kyleam.com/">permalink</a> <a
+href="87edr5gx63.fsf@kyleam.com/raw">raw</a> <a
+href="87edr5gx63.fsf@kyleam.com/#R">reply</a>	[relevance 23%]</pre><hr><pre><a
+href=#e30d0f23aa5b3f6ec54313b5f24ee797e7aeaee39
+id=m30d0f23aa5b3f6ec54313b5f24ee797e7aeaee39>*</a> <b>Re: archive links broken with obfuscate=true</b>
+  <b>@ 2021-04-10 19:49 18%           ` Kyle Meyer</b>
+  <a
+href=#r30d0f23aa5b3f6ec54313b5f24ee797e7aeaee39>0 siblings, 0 replies; 5+ results</a>
+From: Kyle Meyer @ 2021-04-10 19:49 UTC (<a
+href="87wnt9or6t.fsf@kyleam.com/">permalink</a> / <a
+href="87wnt9or6t.fsf@kyleam.com/raw">raw</a>)
+  To: Eric Wong; <b>+Cc:</b> <a
+href="https://public-inbox.org/meta/?t=20210410194953">meta</a>
+
+Eric Wong writes:
+
+<span
+class="q">&gt; Kyle Meyer &lt;kyle@kyleam.com&gt; wrote:
+&gt;&gt; Eric Wong writes:
+&gt;&gt; 
+&gt;&gt; &gt; Have you run any performance tests?
+&gt;&gt; 
+&gt;&gt; No.  To get an idea of how to approach that, would you suggest I look at
+&gt;&gt; xt/perf-msgview.t?
+&gt;
+&gt; Yeah, probably that with some tweaks; or running -httpd with ab,
+&gt; wrk or some other HTTP benchmark that uses persistent connections.
+&gt;
+&gt; I&#39;m OK with things being slower with this option enabled, but
+&gt; not with trivial denial-of-service vectors.
+</span>
+Below is my initial attempt at tweaking xt/perf-msgview.t.
+xt/perf-obfuscate.t enables obfuscation in the inbox if PI_OBFUSCATE is
+set in the environment:
+
+  $ PI_OBFUSCATE=1 GIANT_INBOX_DIR=/tmp/test perl xt/perf-obfuscate.t
+
+Here are my unscientific timings for three cases: 1) no obfuscation, 2)
+obfuscation on the current master (ea4e9025dd), and 3) obfuscation with
+the patch upthread.  The inbox is set to the Org mode&#39;s list archives
+(&lt;<a
+href="https://yhetil.org/orgmode/">https://yhetil.org/orgmode/</a>&gt;), which at the time of execution
+contained 135,885 messages.
+
+| obfuscate   | run | wall |    usr |  sys |
+|-------------+-----+------+--------+------|
+| no          |   1 |   50 |  49.14 | 0.57 |
+| no          |   2 |   49 |  47.76 | 0.58 |
+|             |     |      |        |      |
+| yes, master |   1 |   56 |  54.47 | 0.58 |
+| yes, master |   2 |   55 |  54.24 | 0.58 |
+|             |     |      |        |      |
+| yes, patch  |   1 |  175 | 174.71 | 0.52 |
+| yes, patch  |   2 |  176 | 174.33 | 0.56 |
+
+
+<span
+class="head">diff --git a/xt/perf-obfuscate.t b/xt/perf-obfuscate.t
+new file mode 100644
+index 00000000..2a8d5c1e
+--- /dev/null
++++ b/xt/perf-obfuscate.t
+</span><span
+class="hunk">@@ -0,0 +1,64 @@
+</span><span
+class="add">+# Copyright (C) 2019-2021 all contributors &lt;meta@public-inbox.org&gt;
++# License: AGPL-3.0+ &lt;<a
+href="https://www.gnu.org/licenses/agpl-3.0.txt">https://www.gnu.org/licenses/agpl-3.0.txt</a>&gt;
++use strict;
++use warnings;
++use Test::More;
++use Benchmark qw(:all);
++use PublicInbox::Inbox;
++use PublicInbox::View;
++use PublicInbox::TestCommon;
++
++my $inboxdir = $ENV{GIANT_INBOX_DIR};
++plan skip_all =&gt; &#34;GIANT_INBOX_DIR not defined for $0&#34; unless $inboxdir;
++
++my $obfuscate = $ENV{PI_OBFUSCATE} ? 1 : 0;
++print &#34;obfuscate=$obfuscate\n&#34;;
++
++my @cat = qw(cat-file --buffer --batch-check --batch-all-objects);
++if (require_git(2.19, 1)) {
++	push @cat, &#39;--unordered&#39;;
++} else {
++	warn
++&#34;git &lt;2.19, cat-file lacks --unordered, locality suffers\n&#34;;
++}
++require_mods qw(Plack::Util);
++use_ok &#39;Plack::Util&#39;;
++my $ibx = PublicInbox::Inbox-&gt;new({ inboxdir =&gt; $inboxdir, name =&gt; &#39;name&#39; ,
++				    obfuscate =&gt; $obfuscate});
++my $git = $ibx-&gt;git;
++my $fh = $git-&gt;popen(@cat);
++my $vec = &#39;&#39;;
++vec($vec, fileno($fh), 1) = 1;
++select($vec, undef, undef, 60) or die &#34;timed out waiting for --batch-check&#34;;
++
++my $ctx = {
++	env =&gt; { HTTP_HOST =&gt; &#39;example.com&#39;, &#39;psgi.url_scheme&#39; =&gt; &#39;https&#39; },
++	ibx =&gt; $ibx,
++	www =&gt; Plack::Util::inline_object(style =&gt; sub {&#39;&#39;}),
++};
++my ($mime, $res, $oid, $type);
++my $n = 0;
++my $obuf = &#39;&#39;;
++my $m = 0;
++
++my $cb = sub {
++	$mime = PublicInbox::Eml-&gt;new(shift);
++	PublicInbox::View::multipart_text_as_html($mime, $ctx);
++	++$m;
++	$obuf = &#39;&#39;;
++};
++
++my $t = timeit(1, sub {
++	$ctx-&gt;{obuf} = \$obuf;
++	$ctx-&gt;{mhref} = &#39;../&#39;;
++	while (&lt;$fh&gt;) {
++		($oid, $type) = split / /;
++		next if $type ne &#39;blob&#39;;
++		++$n;
++		$git-&gt;cat_async($oid, $cb);
++	}
++	$git-&gt;cat_async_wait;
++});
++diag &#39;multipart_text_as_html took &#39;.timestr($t).&#34; for $n &lt;=&gt; $m messages&#34;;
++is($m, $n, &#39;rendered all messages&#39;);
++done_testing();
+</span>
+<a
+href=#m30d0f23aa5b3f6ec54313b5f24ee797e7aeaee39
+id=e30d0f23aa5b3f6ec54313b5f24ee797e7aeaee39>^</a> <a
+href="87wnt9or6t.fsf@kyleam.com/">permalink</a> <a
+href="87wnt9or6t.fsf@kyleam.com/raw">raw</a> <a
+href="87wnt9or6t.fsf@kyleam.com/#R">reply</a> <a
+href="87wnt9or6t.fsf@kyleam.com/#related">related</a>	[relevance 18%]</pre><hr><pre><a
+href=#e364da39d32f9d2b37d7113d0825900842781f2f6
+id=m364da39d32f9d2b37d7113d0825900842781f2f6>*</a> <b>From-munge not being reversed on mbox import</b>
+<b>@ 2020-04-04  4:58 22% Kyle Meyer</b>
+  <a
+href=#r364da39d32f9d2b37d7113d0825900842781f2f6>0 siblings, 0 replies; 5+ results</a>
+From: Kyle Meyer @ 2020-04-04  4:58 UTC (<a
+href="87lfnb3kz8.fsf@kyleam.com/">permalink</a> / <a
+href="87lfnb3kz8.fsf@kyleam.com/raw">raw</a>)
+  To: <a
+href="https://public-inbox.org/meta/?t=20200404045854">meta</a>
+
+I&#39;m feeding mbox files created with Konstantin Ryabitsev&#39;s
+list-archive-maker.py script [^1] to import_vger_from_mbox.  Looking
+through the result, I noticed some &#34;&gt;From&#34; lines.  Here&#39;s an example:
+
+  <a
+href="https://yhetil.org/orgmode/871rpt9zc4.fsf@kyleam.com/">https://yhetil.org/orgmode/871rpt9zc4.fsf@kyleam.com/</a>
+
+If I&#39;m following the code correctly, that leads to an import_mbox call,
+which in turn calls mb_add:
+
+   sub mb_add ($$$$) {
+       my ($im, $variant, $filter, $msg) = @_;
+       $$msg =~ s/(\r?\n)+\z/$1/s;
+       my $mime = PublicInbox::MIME-&gt;new($msg);
+       if ($variant eq &#39;mboxrd&#39;) {
+               $$msg =~ s/^&gt;(&gt;*From )/$1/sm;
+       } elsif ($variant eq &#39;mboxo&#39;) {
+               $$msg =~ s/^&gt;From /From /sm;
+       }
+   [...]
+
+So, it appears the &#34;&gt;From&#34; _should_ be getting reversed.  To eliminate
+any stupid things I may have done when creating the archive, I looked
+for a message on meta that has an in-body line starting with &#34;From&#34; and
+found
+
+  <a
+href="https://public-inbox.org/meta/20200121222924.ioz5ve2sg65zcuoy@chatter.i7.local/">https://public-inbox.org/meta/20200121222924.ioz5ve2sg65zcuoy@chatter.i7.local/</a>
+
+So I downloaded the public-inbox generated mbox and fed it to
+import_vger_from_mbox:
+
+  curl -s <a
+href="https://public-inbox.org/meta/20200121222924.ioz5ve2sg65zcuoy@chatter.i7.local/t.mbox.gz">https://public-inbox.org/meta/20200121222924.ioz5ve2sg65zcuoy@chatter.i7.local/t.mbox.gz</a> \
+   | zcat | scripts/import_vger_from_mbox testing emacs-orgmode@gnu.org ~/inboxes/testing
+
+That too leaves a &#34;&gt;From&#34; in the body:
+
+  <a
+href="https://yhetil.org/testing/20200121222924.ioz5ve2sg65zcuoy@chatter.i7.local/">https://yhetil.org/testing/20200121222924.ioz5ve2sg65zcuoy@chatter.i7.local/</a>
+
+Any idea what&#39;s going wrong here?
+
+
+[^1]: <a
+href="https://git.kernel.org/pub/scm/linux/kernel/git/mricon/korg-helpers.git/plain/list-archive-maker.py">https://git.kernel.org/pub/scm/linux/kernel/git/mricon/korg-helpers.git/plain/list-archive-maker.py</a>
+
+<a
+href=#m364da39d32f9d2b37d7113d0825900842781f2f6
+id=e364da39d32f9d2b37d7113d0825900842781f2f6>^</a> <a
+href="87lfnb3kz8.fsf@kyleam.com/">permalink</a> <a
+href="87lfnb3kz8.fsf@kyleam.com/raw">raw</a> <a
+href="87lfnb3kz8.fsf@kyleam.com/#R">reply</a>	[relevance 22%]</pre></pre><hr><pre id=t>Results 1-5 of 5 | <a
+href="?q=f:kyle@kyleam.com+orgmode&amp;o=-1&amp;x=t">reverse</a> | options <a href=#d>above</a></pre><pre>-- pct% links below jump to the message on this page, permalinks otherwise --
+2020-04-04  4:58 22% <a
+href="#m364da39d32f9d2b37d7113d0825900842781f2f6"
+id=r364da39d32f9d2b37d7113d0825900842781f2f6>From-munge not being reversed on mbox import</a> Kyle Meyer
+2021-04-09  2:11     <a
+href="87a6q8p5qa.fsf@kyleam.com/">archive links broken with obfuscate=true</a> Kyle Meyer
+2021-04-09 10:21     ` <a
+href="20210409102129.GA16787@dcvr/">Eric Wong</a>
+2021-04-09 22:45       ` <a
+href="87zgy7rs9q.fsf@kyleam.com/">Kyle Meyer</a>
+2021-04-09 23:37         ` <a
+href="20210409233700.GA11190@dcvr/">Eric Wong</a>
+2021-04-10  4:06           ` <a
+href="87sg3ysrzu.fsf@kyleam.com/">Kyle Meyer</a>
+2021-04-10  5:15             ` <a
+href="20210410051550.GA4654@dcvr/">Eric Wong</a>
+2021-04-10 19:49 18%           ` <a
+href="#m30d0f23aa5b3f6ec54313b5f24ee797e7aeaee39"
+id=r30d0f23aa5b3f6ec54313b5f24ee797e7aeaee39>Kyle Meyer</a>
+2023-02-04 17:25 23% <a
+href="#mc2d4f50c9bf8450405b56d3b6066c9d7cf4c596a"
+id=rc2d4f50c9bf8450405b56d3b6066c9d7cf4c596a>future date in Date header pinning thread to top of $inbox/</a> Kyle Meyer
+2023-02-04 20:41     ` <a
+href="20230204204110.M179231@dcvr/">[PATCH] www: sort all /$INBOX/ topics by Received: timestamp</a> Eric Wong
+2023-02-05 19:30       ` <a
+href="87o7q7di5i.fsf@localhost/">Ihor Radchenko</a>
+2023-02-05 20:10 11%     ` <a
+href="#m3ca4c8d4825719d3e645aa78c6f1bf8aa3505076"
+id=r3ca4c8d4825719d3e645aa78c6f1bf8aa3505076>[PATCH] www: display Received: timestamp for dumped topics</a> Kyle Meyer
+2025-10-13 21:41     <a
+href="878qhewkbn.fsf@kyleam.com/">httpd error: Can&#39;t locate object method &#34;event_step&#34;</a> Kyle Meyer
+2025-10-13 22:06     ` <a
+href="20251013220626.M169806@dcvr/">Eric Wong</a>
+2025-10-14  5:03 23%   ` <a
+href="#md5e644cc797878379359160bf81796cd3b2af7d7"
+id=rd5e644cc797878379359160bf81796cd3b2af7d7>Kyle Meyer</a>
+<hr><pre><a id=code>Code repositories for project(s) associated with this public inbox
+
+	<a
+href="https://80x24.org/public-inbox.git">https://80x24.org/public-inbox.git</a>
+
+This is a public inbox, see <a
+href="_/text/mirror/">mirroring instructions</a>
+for how to clone and mirror all data and code used for this inbox;
+as well as URLs for read-only IMAP folder(s) and NNTP newsgroup(s).</pre></body></html>

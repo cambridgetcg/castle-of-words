@@ -1,0 +1,33 @@
+{
+  "verified_utc": "2026-10-21T15:38:34.942676+00:00",
+  "mode": "final",
+  "checks_passed": true,
+  "changed_existing_markdown": [
+    "chronicle.md",
+    "gate.md"
+  ],
+  "rooms": 697,
+  "map_entries": 697,
+  "open_questions": 16,
+  "open_quests": 8,
+  "new_rooms": 0,
+  "new_words": 0,
+  "filed": 0,
+  "researched": 1,
+  "answered": 0,
+  "planted": 0,
+  "source_results": [
+    {
+      "label": "web-timeout",
+      "status": 200,
+      "bytes_verified": 109508
+    },
+    {
+      "label": "operator-timeout",
+      "status": 200,
+      "bytes_verified": 3962
+    }
+  ],
+  "chronicle_addition": "- 2026-10-21 17:34 · visit: filed 0, researched 1, planted 0 — A bounded timeout search supplied no evidence connecting the archive’s changed Git views with delayed replies.\n",
+  "scope": "Local consistency only; no claim of search completeness or independent service verification."
+}

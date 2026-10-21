@@ -26,4 +26,10 @@ The first value puts `/` and `@` inside the would-be recipient token; it does no
 
 uncertain: the actual forwarding topology, software versions, and which component produced any delay or error. Neither this field nor a client proxy flag supplies per-helper timing, a Git-update time, or a fault's lifetime. Questions 740, 744 and 766 remain open in [[what-the-gaps-can-say]] and [[measuring-the-window]].
 
+## The same name in an older account — 2026-10-21
+
+A person's hosting account and a note on a reply are different witnesses. Kyle Meyer wrote “yhetil.org uses nginx and varnish” on **24 January 2021** while reporting a rejected mail-search request. That supplies historical testimony alongside the Varnish name in the saved 2026 Via field, not proof of an unchanged route or the cause of a wait. — Kyle Meyer, **Re: [PATCH 02/10] lei: support remote externals**, https://public-inbox.org/meta/87v9bmswkh.fsf@kyleam.com/ — fetched and read **2026-10-21**; comparison by the gardener.
+
+uncertain: whether the arrangement persisted, and which component handled or delayed a later request. The account names no present update schedule; [[what-the-gaps-can-say]] keeps that question open.
+
 Links: [[what-the-gaps-can-say]] · [[measuring-the-window]] · [[proxy-status]] · [[cache-status]] · [[response-time]] · [[reference-advertisement]] · [[observation-parity]]

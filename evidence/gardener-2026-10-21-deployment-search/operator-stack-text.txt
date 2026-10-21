@@ -1,0 +1,99 @@
+Re: [PATCH 02/10] lei: support remote externals - Kyle Meyer
+user/dev discussion of public-inbox itself
+help / color / mirror / code / Atom feed
+From: Kyle Meyer <kyle@kyleam.com>
+To: Eric Wong <e@80x24.org>
+Cc: meta@public-inbox.org
+Subject: Re: [PATCH 02/10] lei: support remote externals
+Date: Sun, 24 Jan 2021 01:01:02 -0500	[thread overview]
+Message-ID: <87v9bmswkh.fsf@kyleam.com> (raw)
+In-Reply-To: <20210123102755.425-3-e@80x24.org>
+Eric Wong writes:
+>  sub query_remote_mboxrd {
+[...]
+> +	my @cmd = qw(curl -XPOST -sSf);
+I've been playing around with lei locally (wow :>).
+The one snag I've hit is hooking up the http archives that I host
+(<https://yhetil.org>).  It seems to boil down to the `curl -XPOST'
+command failing.  For example, this works fine with public-inbox.org:
+$ curl -sSf -XPOST 'https://public-inbox.org/meta/?q=s:lei&x=m' | zless
+But it fails with the mirror of meta at yhetil.org:
+$ curl -sSf -XPOST 'https://yhetil.org/meta/?q=s:lei&x=m' | zless
+curl: (22) The requested URL returned error: 400 Bad Request
+If I add -d'' to the call, it works and produces the same output as the
+above call against public-inbox.org/meta.  And if I add this option to
+query_remote_mboxrd (i.e. applying the change at the end), `lei q' works
+for me as expected.
+yhetil.org uses nginx and varnish, and I'm _very_ far from being an
+expert in either of those, so I have no doubt that the above error could
+be the result of me configuring something incorrectly.  However, despite
+a fair amount of time and effort, I couldn't figure out how to tweak
+things to make the above command work without --data.
+I quickly checked <https://lore.kernel.org>, and it seems like it would
+give a similar response to -XPOST without data:
+$ curl -fSs -XPOST 'https://lore.kernel.org/git/?q=get-urlmatch&x=m'
+curl: (22) The requested URL returned error: 400
+$  curl -d'' -fSs -XPOST 'https://lore.kernel.org/git/?q=get-urlmatch&x=m' | zless
+# works
+diff --git a/lib/PublicInbox/LeiXSearch.pm b/lib/PublicInbox/LeiXSearch.pm
+index defe5e67..766e9f5f 100644
+--- a/lib/PublicInbox/LeiXSearch.pm
++++ b/lib/PublicInbox/LeiXSearch.pm
+@@ -192,7 +192,7 @@ sub query_remote_mboxrd {
+my $each_smsg = $lei->{ovv}->ovv_each_smsg_cb($lei, $uri);
+my $dedupe = $lei->{dedupe} // die 'BUG: {dedupe} missing';
+$dedupe->prepare_dedupe;
+-	my @cmd = qw(curl -XPOST -sSf);
++	my @cmd = qw(curl -XPOST -d'' -sSf);
+$opt->{torsocks} = 'false' if $opt->{'no-torsocks'};
+my $tor = $opt->{torsocks} //= 'auto';
+if ($tor eq 'auto' && substr($uri->host, -6) eq '.onion' &&
+next prev parent reply	other threads:[~2021-01-24  6:01 UTC|newest]
+Thread overview: 16+ messages / expand[flat|nested]  mbox.gz  Atom feed  top
+2021-01-23 10:27 [PATCH 00/10] lei: externals more stuff Eric Wong
+2021-01-23 10:27 ` [PATCH 01/10] lei: move external vivification to xsearch Eric Wong
+2021-01-23 10:27 ` [PATCH 02/10] lei: support remote externals Eric Wong
+2021-01-24  6:01   ` Kyle Meyer [this message]
+2021-01-24 12:02     ` Eric Wong
+2021-01-24 12:12       ` Eric Wong
+2021-01-24 22:11       ` Kyle Meyer
+2021-01-25 18:37         ` Eric Wong
+2021-01-23 10:27 ` [PATCH 03/10] lei_to_mail: drop cyclic reference if not using IPC Eric Wong
+2021-01-23 10:27 ` [PATCH 04/10] lei: oneshot: preserve stdout if writing mbox Eric Wong
+2021-01-23 10:27 ` [PATCH 05/10] lei: default "-f $mfolder" args for common MUAs Eric Wong
+2021-01-23 10:27 ` [PATCH 06/10] lei completion: handle URLs with port numbers Eric Wong
+2021-01-23 10:27 ` [PATCH 07/10] lei forget-external: just show the location Eric Wong
+2021-01-23 10:27 ` [PATCH 08/10] lei q: support a bunch of curl(1) options Eric Wong
+2021-01-23 10:27 ` [PATCH 09/10] lei forget-external: don't show redundant "not found" Eric Wong
+2021-01-23 10:27 ` [PATCH 10/10] lei add-external: don't allow non-existent directories Eric Wong
+find likely ancestor, descendant, or conflicting patches for this message:
+( dfblob:defe5e6 dfblob:766e9f5 )
+OR (
+bs:"Re: [PATCH 02/10] lei: support remote externals" )
+(help)
+Reply instructions:
+You may reply publicly to this message via plain-text email
+using any one of the following methods:
+* Save the following mbox file, import it into your mail client,
+and reply-to-all from there: mbox
+Avoid top-posting and favor interleaved quoting:
+https://en.wikipedia.org/wiki/Posting_style#Interleaved_style
+List information: https://public-inbox.org/README
+* Reply using the --to, --cc, and --in-reply-to
+switches of git-send-email(1):
+git send-email \
+--in-reply-to=87v9bmswkh.fsf@kyleam.com \
+--to=kyle@kyleam.com \
+--cc=e@80x24.org \
+--cc=meta@public-inbox.org \
+/path/to/YOUR_REPLY
+https://kernel.org/pub/software/scm/git/docs/git-send-email.html
+* If your mail client supports setting the In-Reply-To header
+via mailto: links, try the mailto: link
+Be sure your reply has a Subject: header at the top and a blank line
+before the message body.
+Code repositories for project(s) associated with this public inbox
+https://80x24.org/public-inbox.git
+This is a public inbox, see mirroring instructions
+for how to clone and mirror all data and code used for this inbox;
+as well as URLs for read-only IMAP folder(s) and NNTP newsgroup(s).

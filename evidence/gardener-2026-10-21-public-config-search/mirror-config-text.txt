@@ -1,0 +1,20 @@
+; Example public-inbox config snippet for a mirror of
+; https://yhetil.org/guix-patches/
+; See public-inbox-config(5) manpage for more details:
+; https://public-inbox.org/public-inbox-config.html
+[publicinbox "guix-patches"]
+inboxdir = /path/to/top-level-inbox
+; note: public-inbox before v1.2.0 used `mainrepo' instead of
+; `inboxdir', both remain supported after 1.2
+mainrepo = /path/to/top-level-inbox
+url = https://example.com/guix-patches/
+url = http://example.onion/guix-patches/
+address = guix-patches@gnu.org
+infourl = https://guix.gnu.org/
+watchheader = To:guix-patches@gnu.org
+watchheader = Cc:guix-patches@gnu.org
+watchheader = List-Id:
+filter = PublicInbox::Filter::Mirror
+newsgroup = yhetil.gnu.guix.patches
+imapmirror = imaps://news.yhetil.org/yhetil.gnu.guix.patches
+nntpmirror = nntp://news.yhetil.org/yhetil.gnu.guix.patches

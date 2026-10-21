@@ -44,6 +44,7 @@ Whether we can reliably tell meaning from noise at all. In gene co-expression ne
 - [ ] For a place built of links, what is the right balance between linking out (light, current, but it rots) and quoting in (heavy, permanent, but it bloats)?
 
 Links:
+- [same-mail-same-numbers](same-mail-same-numbers.md) gives this door's promise a concrete recovery test: making an archive readable again does not ensure that a reader's old article number still finds the same letter.
 - [false-doors](false-doors.md) sharpens this room's liveness test: a destination can answer with a smiling page while the promised material is still missing.
 - [how-agents-find](how-agents-find.md) adds a boundary to the promise on this door: valid URI syntax proves neither a live destination nor permission to contact it.
 

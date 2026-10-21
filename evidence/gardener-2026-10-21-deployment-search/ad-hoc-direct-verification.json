@@ -1,0 +1,14 @@
+{
+  "kind": "ad-hoc verification, not a canonical suite",
+  "verified_utc": "2026-10-21T06:10:23.188326+00:00",
+  "passed": true,
+  "tests_run": 6,
+  "failures": 0,
+  "errors": 0,
+  "staging_file_absent": true,
+  "source_hashes": {
+    "research.py": "cc12577bdafbad0110baf2373b7c7b46b63206daddbb854506094f05cd466f42",
+    "verify.py": "a70046dc3041fd2ffab79a8565d8da042abfdf556db4c9967ccb7e4deba388b5"
+  },
+  "limits": "Offline execution and in-memory corruption only; no new web request or independent validation of the historical report."
+}

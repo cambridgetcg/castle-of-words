@@ -1,0 +1,48 @@
+f:kyle@kyleam.com "public-inbox-fetch" - search results
+user/dev discussion of public-inbox itself
+help / color / mirror / code / Atom feed
+Search results ordered by [date|relevance]  view[summary|nested|Atom feed]
+thread overview below | download mbox.gz: |
+* Re: [PATCH 3/5] clone|fetch|--mirror: add convenience $INBOX_DIR/Makefile
+@ 2021-09-15 22:45 13%   ` Kyle Meyer
+0 siblings, 0 replies; 1+ results
+From: Kyle Meyer @ 2021-09-15 22:45 UTC (permalink / raw)
+To: Eric Wong; +Cc: meta
+Eric Wong writes:
+> Since the beginning of time, I've been dropping Makefiles
+> in $INBOX_DIR (and above hiearchies) to organize groups
+> of commands.
+>
+> make(1) is widely available in various flavors and a familiar
+> tool for our target audience.  It is easy to run in the right
+> directory, typically has built-in shell completion, and doesn't
+> silently ignore errors by default like Bourne shell.
+Sounds like a nice idea.
+[...]
+> +sub write_makefile {
+> +	my ($dir, $ibx_ver) = @_;
+> +	my $f = "$dir/Makefile";
+> +	if (sysopen my $fh, $f, O_CREAT|O_EXCL|O_WRONLY) {
+> +		print $fh <<EOM or die "print($f) $!";
+> +# This is a v$ibx_ver public-inbox, see the public-inbox-v$ibx_ver-format(5)
+> +# manpage for more information on the format.  This Makefile is
+> +# intended as a familiar wrapper for users unfamiliar with
+> +# public-inbox-* commands.
+> +#
+> +# See the respective manpages for public-inbox-fetch(1),
+> +# public-inbox-index(1), etc for more information on
+> +# some of the commands used by this Makefile.
+> +#
+> +# This Makefile will not modified nor read by public-inbox,
+missing "be" before "modified"
+^ permalink raw reply	[relevance 13%]
+Results 1-1 of 1 | reverse | options above
+-- pct% links below jump to the message on this page, permalinks otherwise --
+2021-09-15 21:35     [PATCH 0/5] make(1) inspired things Eric Wong
+2021-09-15 21:35     ` [PATCH 3/5] clone|fetch|--mirror: add convenience $INBOX_DIR/Makefile Eric Wong
+2021-09-15 22:45 13%   ` Kyle Meyer
+Code repositories for project(s) associated with this public inbox
+https://80x24.org/public-inbox.git
+This is a public inbox, see mirroring instructions
+for how to clone and mirror all data and code used for this inbox;
+as well as URLs for read-only IMAP folder(s) and NNTP newsgroup(s).

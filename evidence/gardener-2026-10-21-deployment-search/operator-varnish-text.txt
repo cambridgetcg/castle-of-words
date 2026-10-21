@@ -1,0 +1,61 @@
+f:kyle@kyleam.com varnish - search results
+user/dev discussion of public-inbox itself
+help / color / mirror / code / Atom feed
+Search results ordered by [date|relevance]  view[summary|nested|Atom feed]
+thread overview below | download mbox.gz: |
+* Re: [PATCH 02/10] lei: support remote externals
+@ 2021-01-24  6:01 23%   ` Kyle Meyer
+0 siblings, 0 replies; 1+ results
+From: Kyle Meyer @ 2021-01-24  6:01 UTC (permalink / raw)
+To: Eric Wong; +Cc: meta
+Eric Wong writes:
+>  sub query_remote_mboxrd {
+[...]
+> +	my @cmd = qw(curl -XPOST -sSf);
+I've been playing around with lei locally (wow :>).
+The one snag I've hit is hooking up the http archives that I host
+(<https://yhetil.org>).  It seems to boil down to the `curl -XPOST'
+command failing.  For example, this works fine with public-inbox.org:
+$ curl -sSf -XPOST 'https://public-inbox.org/meta/?q=s:lei&x=m' | zless
+But it fails with the mirror of meta at yhetil.org:
+$ curl -sSf -XPOST 'https://yhetil.org/meta/?q=s:lei&x=m' | zless
+curl: (22) The requested URL returned error: 400 Bad Request
+If I add -d'' to the call, it works and produces the same output as the
+above call against public-inbox.org/meta.  And if I add this option to
+query_remote_mboxrd (i.e. applying the change at the end), `lei q' works
+for me as expected.
+yhetil.org uses nginx and varnish, and I'm _very_ far from being an
+expert in either of those, so I have no doubt that the above error could
+be the result of me configuring something incorrectly.  However, despite
+a fair amount of time and effort, I couldn't figure out how to tweak
+things to make the above command work without --data.
+I quickly checked <https://lore.kernel.org>, and it seems like it would
+give a similar response to -XPOST without data:
+$ curl -fSs -XPOST 'https://lore.kernel.org/git/?q=get-urlmatch&x=m'
+curl: (22) The requested URL returned error: 400
+$  curl -d'' -fSs -XPOST 'https://lore.kernel.org/git/?q=get-urlmatch&x=m' | zless
+# works
+diff --git a/lib/PublicInbox/LeiXSearch.pm b/lib/PublicInbox/LeiXSearch.pm
+index defe5e67..766e9f5f 100644
+--- a/lib/PublicInbox/LeiXSearch.pm
++++ b/lib/PublicInbox/LeiXSearch.pm
+@@ -192,7 +192,7 @@ sub query_remote_mboxrd {
+my $each_smsg = $lei->{ovv}->ovv_each_smsg_cb($lei, $uri);
+my $dedupe = $lei->{dedupe} // die 'BUG: {dedupe} missing';
+$dedupe->prepare_dedupe;
+-	my @cmd = qw(curl -XPOST -sSf);
++	my @cmd = qw(curl -XPOST -d'' -sSf);
+$opt->{torsocks} = 'false' if $opt->{'no-torsocks'};
+my $tor = $opt->{torsocks} //= 'auto';
+if ($tor eq 'auto' && substr($uri->host, -6) eq '.onion' &&
+^ permalink raw reply related	[relevance 23%]
+Results 1-1 of 1 | reverse | options above
+-- pct% links below jump to the message on this page, permalinks otherwise --
+2021-01-23 10:27     [PATCH 00/10] lei: externals more stuff Eric Wong
+2021-01-23 10:27     ` [PATCH 02/10] lei: support remote externals Eric Wong
+2021-01-24  6:01 23%   ` Kyle Meyer
+Code repositories for project(s) associated with this public inbox
+https://80x24.org/public-inbox.git
+This is a public inbox, see mirroring instructions
+for how to clone and mirror all data and code used for this inbox;
+as well as URLs for read-only IMAP folder(s) and NNTP newsgroup(s).

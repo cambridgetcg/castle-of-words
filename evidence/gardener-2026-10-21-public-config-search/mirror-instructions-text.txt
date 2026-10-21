@@ -1,0 +1,23 @@
+public-inbox mirroring instructions
+unofficial mirror of guix-patches@gnu.org
+help / color / mirror / Atom feed
+public-inbox mirroring instructions
+This public inbox may be cloned and mirrored by anyone:
+git clone --mirror https://yhetil.org/guix-patches/1 guix-patches/git/1.git
+# If you have public-inbox 1.1+ installed, you may
+# initialize and index your mirror using the following commands:
+public-inbox-init -V2 --ng yhetil.gnu.guix.patches \
+guix-patches ./guix-patches https://yhetil.org/guix-patches \
+guix-patches@gnu.org
+public-inbox-index ./guix-patches
+Example config snippet for mirrors: https://yhetil.org/guix-patches/_/text/config/raw
+IMAP subfolder(s) are available under:
+imaps://;AUTH=ANONYMOUS@news.yhetil.org/yhetil.gnu.guix.patches
+# each subfolder (starting with `0') holds 50K messages at most
+Newsgroup available over NNTP:
+nntp://news.yhetil.org/yhetil.gnu.guix.patches
+AGPL code for this site:
+git clone http://7fh6tueqddpjyxjmgtdiueylzoqt6pt7hec3pukyptlmohoowvhde4yd.onion/public-inbox.git
+This is a public inbox, see mirroring instructions
+for how to clone and mirror all data and code used for this inbox;
+as well as URLs for read-only IMAP folder(s) and NNTP newsgroup(s).

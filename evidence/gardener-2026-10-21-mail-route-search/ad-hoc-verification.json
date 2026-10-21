@@ -1,0 +1,25 @@
+{
+  "kind": "ad-hoc verification, not a canonical project suite",
+  "checked_utc": "2026-10-21T12:29:31.303733+00:00",
+  "temporary_script": "/var/folders/bg/v8wn0t11067f0hzxkz7hp7rr0000gn/T/hermes-verify-76aus91g.py",
+  "temporary_script_sha256": "34f5b4c0d716e69a1b818c5c683cbd919afce21fd62f147e51a190e22fd71303",
+  "tests": [
+    "__main__.VisitChecks.test_changed_source_bytes_are_rejected",
+    "__main__.VisitChecks.test_extra_gate_edit_is_rejected",
+    "__main__.VisitChecks.test_prior_room_text_edit_is_rejected",
+    "__main__.VisitChecks.test_question_flip_is_rejected",
+    "__main__.VisitChecks.test_real_retained_visit_passes_verifier",
+    "__main__.VisitChecks.test_research_replay_is_refused_before_mutation",
+    "__main__.VisitChecks.test_scripts_compile_without_writing_bytecode",
+    "__main__.VisitChecks.test_second_chronicle_entry_is_rejected",
+    "__main__.VisitChecks.test_word_without_links_line_is_rejected"
+  ],
+  "tests_run": 9,
+  "failures": 0,
+  "errors": 0,
+  "protected_markdown_sources_and_scripts_unchanged": true,
+  "network_searches_repeated": false,
+  "counterexamples": "In-memory substitutions only; no real evidence corrupted",
+  "passed": true,
+  "temporary_files_removed": true
+}

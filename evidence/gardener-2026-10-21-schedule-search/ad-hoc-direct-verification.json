@@ -1,0 +1,23 @@
+{
+  "kind": "ad-hoc verification, not a canonical project test suite",
+  "verified_utc": "2026-10-20T23:52:30.743222+00:00",
+  "passed": true,
+  "checks_passed": 9,
+  "checks": [
+    "Changed scripts parse and compile.",
+    "Actual visit verifier passes against current files.",
+    "Research queue snapshot agrees with actual eligible questions.",
+    "Actual search receipts match captures, URLs and request bounds.",
+    "Research refuses replay before writes or subprocess calls.",
+    "Verifier rejects changed courtyard without replacing evidence.",
+    "Verifier rejects rewritten chronicle history without replacing evidence.",
+    "Verifier rejects extra chronicle line without replacing evidence.",
+    "Verifier rejects corrupt response bytes without replacing evidence."
+  ],
+  "network_requests_made_by_this_check": 0,
+  "negative_cases_used_in_memory_only": true,
+  "subjects": {
+    "research.py": "e5f9e8851959d86a786f79c640854beabc454ae87f1a07d068105c1d9d9baf9c",
+    "verify.py": "7b4ec4e854cfe2ebd9c68ad7416363257b6b4a0ad781e572752dfc5a3b6ba714"
+  }
+}

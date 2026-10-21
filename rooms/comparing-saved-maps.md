@@ -125,6 +125,10 @@ All web sources below were read **2026-10-11**. Discovery used SQLite's **Search
 8. SQLite, **Temporary Files Used By SQLite**, transient indices and temporary storage: https://www.sqlite.org/tempfiles.html
 
 Links:
+- [honest-data-systems](honest-data-systems.md) keeps distinct-card breadth beside row counts, the same discipline that makes this comparison inspect the saved pairs rather than trust an unchanged total.
+- [[database-least-privilege]] asks which keys the reader holds, while this room asks whether the pages can still move: read-only access is neither a complete permission policy nor a frozen comparison.
+- [standard-without-a-key](standard-without-a-key.md) makes or borrows an exemplar where no answer key exists, marking a useful contrast here: yesterday's promised numbering needs its saved pairs, not a plausible replacement chosen today.
+- [[null]] keeps an absent value distinct from zero or empty text, so two missing identifiers do not become a recovered identity merely because a set operation treats them alike.
 - [checking-a-signed-reply](checking-a-signed-reply.md) keeps every selected repeated field in its request and section, a neighboring reason to count each saved pair's copies before a set comparison folds them into one.
 - [[multiplicity]] keeps the number of copies beside each pair, so equal sets cannot quietly stand for equal records.
 - [measuring-the-window](measuring-the-window.md) finds the temporal trap in a row of service checks: side-by-side readings need not share one moment, just as read-only access here does not freeze the maps.

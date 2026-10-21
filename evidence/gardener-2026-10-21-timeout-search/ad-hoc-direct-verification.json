@@ -1,0 +1,11 @@
+{
+  "kind": "ad-hoc direct-command verification, not a canonical suite",
+  "tests_run": 6,
+  "failures": 0,
+  "errors": 0,
+  "passed": true,
+  "protected_files_unchanged": true,
+  "research_transport": "stubbed; external processes prohibited in research fixtures",
+  "verifier_inputs": "real saved evidence, with read-only corruption simulations",
+  "limits": "No new web requests, production service tests, or search-completeness claim."
+}

@@ -1,0 +1,210 @@
+<html><head><title>Re: [PATCH 02/10] lei: support remote externals - Kyle Meyer</title><link
+rel=alternate
+title="Atom feed"
+href="../new.atom"
+type="application/atom+xml"/><style>@import url("../216light.css?69d631d8") screen AND (prefers-color-scheme:light);*{overflow-wrap:anywhere;font-size:100%;font-family:monospace}</style><link
+type=text/css
+rel=stylesheet
+media=screen
+href=../216dark.css?69d631d8 /><link
+type=text/css
+rel=stylesheet
+media=print
+href=../216light.css?69d631d8 /></head><body><form
+action="../"><pre><a
+href="../?t=20210124060112"><b>user/dev discussion of public-inbox itself</b></a>
+<input
+name=q
+type=text /><input
+type=submit
+value=search /> <a
+href="../_/text/help/">help</a> / <a
+href="../_/text/color/">color</a> / <a
+id=mirror
+href="../_/text/mirror/">mirror</a> / <a
+href=#code>code</a> / <a
+href="../new.atom">Atom feed</a></pre></form><pre
+id=b>From: Kyle Meyer &lt;kyle@kyleam.com&gt;
+To: Eric Wong &lt;e@80x24.org&gt;
+Cc: <a
+href="https://public-inbox.org/meta/?t=20210124060112">meta@public-inbox.org</a>
+Subject: <a
+href="#r"
+id=t>Re: [PATCH 02/10] lei: support remote externals</a>
+Date: Sun, 24 Jan 2021 01:01:02 -0500	<a
+href="#r">[thread overview]</a>
+Message-ID: &lt;87v9bmswkh.fsf@kyleam.com&gt; (<a href="raw">raw</a>)
+In-Reply-To: &lt;<a
+href="../20210123102755.425-3-e@80x24.org/">20210123102755.425-3-e@80x24.org</a>&gt;
+
+Eric Wong writes:
+
+<span
+class="q">&gt;  sub query_remote_mboxrd {
+</span>[...]
+<span
+class="q">&gt; +	my @cmd = qw(curl -XPOST -sSf);
+</span>
+I&#39;ve been playing around with lei locally (wow :&gt;).
+
+The one snag I&#39;ve hit is hooking up the http archives that I host
+(&lt;<a
+href="https://yhetil.org">https://yhetil.org</a>&gt;).  It seems to boil down to the `curl -XPOST&#39;
+command failing.  For example, this works fine with public-inbox.org:
+
+  $ curl -sSf -XPOST &#39;<a
+href="https://public-inbox.org/meta/?q=s:lei&#38;x=m">https://public-inbox.org/meta/?q=s:lei&#38;x=m</a>&#39; | zless
+
+But it fails with the mirror of meta at yhetil.org:
+
+  $ curl -sSf -XPOST &#39;<a
+href="https://yhetil.org/meta/?q=s:lei&#38;x=m">https://yhetil.org/meta/?q=s:lei&#38;x=m</a>&#39; | zless
+  curl: (22) The requested URL returned error: 400 Bad Request
+
+If I add -d&#39;&#39; to the call, it works and produces the same output as the
+above call against public-inbox.org/meta.  And if I add this option to
+query_remote_mboxrd (i.e. applying the change at the end), `lei q&#39; works
+for me as expected.
+
+yhetil.org uses nginx and varnish, and I&#39;m _very_ far from being an
+expert in either of those, so I have no doubt that the above error could
+be the result of me configuring something incorrectly.  However, despite
+a fair amount of time and effort, I couldn&#39;t figure out how to tweak
+things to make the above command work without --data.
+
+I quickly checked &lt;<a
+href="https://lore.kernel.org">https://lore.kernel.org</a>&gt;, and it seems like it would
+give a similar response to -XPOST without data:
+
+  $ curl -fSs -XPOST &#39;<a
+href="https://lore.kernel.org/git/?q=get-urlmatch&#38;x=m">https://lore.kernel.org/git/?q=get-urlmatch&#38;x=m</a>&#39;
+  curl: (22) The requested URL returned error: 400
+  $  curl -d&#39;&#39; -fSs -XPOST &#39;<a
+href="https://lore.kernel.org/git/?q=get-urlmatch&#38;x=m">https://lore.kernel.org/git/?q=get-urlmatch&#38;x=m</a>&#39; | zless
+  # works
+
+
+<span
+class="head">diff --git a/lib/PublicInbox/LeiXSearch.pm b/lib/PublicInbox/LeiXSearch.pm
+index defe5e67..766e9f5f 100644
+--- a/lib/PublicInbox/LeiXSearch.pm
++++ b/lib/PublicInbox/LeiXSearch.pm
+</span><span
+class="hunk">@@ <a
+href="../defe5e67/s/?b=lib/PublicInbox/LeiXSearch.pm#n192">-192,7</a> <a
+href="../766e9f5f/s/?b=lib/PublicInbox/LeiXSearch.pm#n192">+192,7</a> @@ sub query_remote_mboxrd {
+</span> 	my $each_smsg = $lei-&gt;{ovv}-&gt;ovv_each_smsg_cb($lei, $uri);
+ 	my $dedupe = $lei-&gt;{dedupe} // die &#39;BUG: {dedupe} missing&#39;;
+ 	$dedupe-&gt;prepare_dedupe;
+<span
+class="del">-	my @cmd = qw(curl -XPOST -sSf);
+</span><span
+class="add">+	my @cmd = qw(curl -XPOST -d&#39;&#39; -sSf);
+</span> 	$opt-&gt;{torsocks} = &#39;false&#39; if $opt-&gt;{&#39;no-torsocks&#39;};
+ 	my $tor = $opt-&gt;{torsocks} //= &#39;auto&#39;;
+ 	if ($tor eq &#39;auto&#39; &#38;&#38; substr($uri-&gt;host, -6) eq &#39;.onion&#39; &#38;&#38;
+
+</pre><hr><pre><a
+href="../20210124120217.GA12880@dcvr/"
+rel=next>next</a> <a
+href="../20210123102755.425-3-e@80x24.org/"
+rel=prev>prev parent</a> <a
+href="#R">reply</a>	other threads:[<a
+href="../?t=20210124060112">~2021-01-24  6:01 UTC</a>|<a
+href="../">newest</a>]
+
+<b>Thread overview: </b>16+ messages / expand[<a
+href="T/#u">flat</a>|<a
+href="t/#u">nested</a>]  <a
+href="t.mbox.gz">mbox.gz</a>  <a
+href="t.atom">Atom feed</a>  <a
+href="#b">top</a>
+2021-01-23 10:27 <a
+href="../20210123102755.425-1-e@80x24.org/">[PATCH 00/10] lei: externals more stuff</a> Eric Wong
+2021-01-23 10:27 ` <a
+href="../20210123102755.425-2-e@80x24.org/">[PATCH 01/10] lei: move external vivification to xsearch</a> Eric Wong
+2021-01-23 10:27 ` <a
+href="../20210123102755.425-3-e@80x24.org/">[PATCH 02/10] lei: support remote externals</a> Eric Wong
+<b>2021-01-24  6:01   ` <a
+id=r
+href="#t">Kyle Meyer [this message]</a></b>
+2021-01-24 12:02     ` <a
+href="../20210124120217.GA12880@dcvr/">Eric Wong</a>
+2021-01-24 12:12       ` <a
+href="../20210124121243.GA16163@dcvr/">Eric Wong</a>
+2021-01-24 22:11       ` <a
+href="../87pn1urnnb.fsf@kyleam.com/">Kyle Meyer</a>
+2021-01-25 18:37         ` <a
+href="../20210125183724.GA25291@dcvr/">Eric Wong</a>
+2021-01-23 10:27 ` <a
+href="../20210123102755.425-4-e@80x24.org/">[PATCH 03/10] lei_to_mail: drop cyclic reference if not using IPC</a> Eric Wong
+2021-01-23 10:27 ` <a
+href="../20210123102755.425-5-e@80x24.org/">[PATCH 04/10] lei: oneshot: preserve stdout if writing mbox</a> Eric Wong
+2021-01-23 10:27 ` <a
+href="../20210123102755.425-6-e@80x24.org/">[PATCH 05/10] lei: default &#34;-f $mfolder&#34; args for common MUAs</a> Eric Wong
+2021-01-23 10:27 ` <a
+href="../20210123102755.425-7-e@80x24.org/">[PATCH 06/10] lei completion: handle URLs with port numbers</a> Eric Wong
+2021-01-23 10:27 ` <a
+href="../20210123102755.425-8-e@80x24.org/">[PATCH 07/10] lei forget-external: just show the location</a> Eric Wong
+2021-01-23 10:27 ` <a
+href="../20210123102755.425-9-e@80x24.org/">[PATCH 08/10] lei q: support a bunch of curl(1) options</a> Eric Wong
+2021-01-23 10:27 ` <a
+href="../20210123102755.425-10-e@80x24.org/">[PATCH 09/10] lei forget-external: don&#39;t show redundant &#34;not found&#34;</a> Eric Wong
+2021-01-23 10:27 ` <a
+href="../20210123102755.425-11-e@80x24.org/">[PATCH 10/10] lei add-external: don&#39;t allow non-existent directories</a> Eric Wong
+</pre><form id=related
+action=../
+><pre>find likely ancestor, descendant, or conflicting patches for <a
+href=#t>this message</a>:
+<textarea name=q cols=72 rows=3>( dfblob:defe5e6 dfblob:766e9f5 )
+ OR (
+bs:&#34;Re: [PATCH 02/10] lei: support remote externals&#34; )</textarea>
+<input type=submit value=search
+/>	(<a href=../_/text/help/#search>help</a>)</pre></form>
+<hr><pre
+id=R><b>Reply instructions:</b>
+
+You may reply publicly to <a
+href=#t>this message</a> via plain-text email
+using any one of the following methods:
+
+* Save the following mbox file, import it into your mail client,
+  and reply-to-all from there: <a
+href=raw>mbox</a>
+
+  Avoid top-posting and favor interleaved quoting:
+  <a
+href="https://en.wikipedia.org/wiki/Posting_style#Interleaved_style">https://en.wikipedia.org/wiki/Posting_style#Interleaved_style</a>
+
+  List information: <a
+href="https://public-inbox.org/README">https://public-inbox.org/README</a>
+
+* Reply using the <b>--to</b>, <b>--cc</b>, and <b>--in-reply-to</b>
+  switches of git-send-email(1):
+
+  git send-email \
+    --in-reply-to=87v9bmswkh.fsf@kyleam.com \
+    --to=kyle@kyleam.com \
+    --cc=e@80x24.org \
+    --cc=meta@public-inbox.org \
+    /path/to/YOUR_REPLY
+
+  <a
+href="https://kernel.org/pub/software/scm/git/docs/git-send-email.html">https://kernel.org/pub/software/scm/git/docs/git-send-email.html</a>
+
+* If your mail client supports setting the <b>In-Reply-To</b> header
+  via mailto: links, try the <a
+href="mailto:kyle@kyleam.com?In-Reply-To=%3C87v9bmswkh.fsf@kyleam.com%3E&#38;Cc=e%4080x24.org%2Cmeta%40public-inbox.org&#38;Subject=Re%3A%20%5BPATCH%2002%2F10%5D%20lei%3A%20support%20remote%20externals">mailto: link</a>
+</pre>
+
+  Be sure your reply has a <b>Subject:</b> header at the top and a blank line
+  before the message body.
+<hr><pre><a id=code>Code repositories for project(s) associated with this public inbox
+
+	<a
+href="https://80x24.org/public-inbox.git">https://80x24.org/public-inbox.git</a>
+
+This is a public inbox, see <a
+href="../_/text/mirror/">mirroring instructions</a>
+for how to clone and mirror all data and code used for this inbox;
+as well as URLs for read-only IMAP folder(s) and NNTP newsgroup(s).</pre></body></html>

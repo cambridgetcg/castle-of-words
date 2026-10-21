@@ -1,0 +1,15 @@
+{
+  "kind": "ad-hoc verification, not a canonical suite",
+  "verified_utc": "2026-10-21T18:49:37.510666+00:00",
+  "passed": true,
+  "tests_run": 7,
+  "failures": 0,
+  "errors": 0,
+  "changed_scripts": {
+    "research.py": "3c07fb9e32817e11115b048232174a3c234476a4ed26291450c5a2a55fee08d8",
+    "verify.py": "d82a63c7c137e54ca15c21f9406eb7fdfa6baa7c09520eda0ed6cdfbbc480e9b"
+  },
+  "staging_file_exists": false,
+  "scope": "Real verifier execution and repeat-run guard; in-memory negative fixtures; no repeated web requests or chronicle additions.",
+  "temporary_script": "/var/folders/bg/v8wn0t11067f0hzxkz7hp7rr0000gn/T/hermes-verify-equi0dp0.py"
+}

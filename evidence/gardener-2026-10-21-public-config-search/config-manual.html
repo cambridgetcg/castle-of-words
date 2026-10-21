@@ -1,0 +1,657 @@
+<html><head><meta
+http-equiv="Content-Type"
+content="text/html; charset=utf-8"
+/><title>public-inbox-config - public-inbox config file description</title></head><body><pre>PUBLIC-INBOX-CONFIG(5)     public-inbox user manual     PUBLIC-INBOX-CONFIG(5)
+
+NAME
+       public-inbox-config - public-inbox config file description
+
+SYNOPSIS
+       ~/.public-inbox/config
+
+DESCRIPTION
+       The public-inbox config file is parseable by <a
+href="https://kernel.org/pub/software/scm/git/docs/git-config.html">git-config(1)</a>.  This is a
+       global configuration file for mapping/discovering all public-inboxes
+       used by a particular user.
+
+CONFIGURATION FILE
+   EXAMPLE
+               [publicinbox &#34;test&#34;]
+                       inboxdir = /home/user/path/to/test.git
+                       ; multiple addresses are supported
+                       address = test@example.com
+                       ; address = alternate@example.com
+                       url = <a
+href="http://example.com/test">http://example.com/test</a>
+                       newsgroup = inbox.test
+
+                       ; backwards compatibility with public-inbox pre-1.2.0,
+                       ; &#34;inboxdir&#34; takes precedence over &#34;mainrepo&#34;
+                       mainrepo = /home/user/path/to/test.git
+
+   VARIABLES
+       publicinbox.&lt;name&gt;.address
+               The email address of the public-inbox.  May be specified more
+               than once for merging multiple mailing lists (or migrating to
+               new addresses).  This must be specified at least once, the
+               first value will be considered the primary address for
+               informational purposes.
+
+               Default: none, required
+
+       publicinbox.&lt;name&gt;.inboxdir
+               The absolute path to the directory which hosts the public-
+               inbox.  This must be specified once.
+
+               This was previously known as &#34;mainrepo&#34;, which remains
+               supported, but &#34;inboxdir&#34; takes precedence.
+
+               Absolute pathnames longer than 244 bytes cannot be indexed with
+               <a
+href="public-inbox-extindex.html">public-inbox-extindex(1)</a>
+
+               Default: none, required
+
+       publicinbox.&lt;name&gt;.url
+               The primary URL for hosting the HTTP/HTTPS archives.
+               Additional HTTP/HTTPS URLs may be specified via
+               &#34;$GIT_DIR/cloneurl&#34; as documented in gitweb(1)
+
+               Default: none, optional
+
+       publicinbox.&lt;name&gt;.newsgroup
+               The NNTP group name for use with <a
+href="public-inbox-nntpd.html">public-inbox-nntpd(1)</a>.  This
+               may be any newsgroup name with hierarchies delimited by &#34;.&#34;.
+               For example, the newsgroup for &lt;mailto:meta@public-inbox.org&gt;
+               is: &#34;inbox.comp.mail.public-inbox.meta&#34;
+
+               It also configures the folder hierarchy used by
+               <a
+href="public-inbox-imapd.html">public-inbox-imapd(1)</a> as well as <a
+href="public-inbox-pop3d.html">public-inbox-pop3d(1)</a>
+
+               Omitting this for a given inbox will prevent the inbox from
+               being served by <a
+href="public-inbox-nntpd.html">public-inbox-nntpd(1)</a>, <a
+href="public-inbox-imapd.html">public-inbox-imapd(1)</a>,
+               and/or <a
+href="public-inbox-pop3d.html">public-inbox-pop3d(1)</a>
+
+               Newsgroup names should be all lowercase and have a maximum
+               length of 244 bytes.  Uppercase characters are converted to
+               lowercase for compatibility with IMAP, POP3, and our
+               <a
+href="public-inbox-extindex.html">public-inbox-extindex(1)</a> and <a
+href="public-inbox-cindex.html">public-inbox-cindex(1)</a> tools
+               starting with public-inbox 2.0+ (they were unusable before).
+
+               Default: none, optional
+
+       publicinbox.&lt;name&gt;.watch
+               See <a
+href="public-inbox-watch.html">public-inbox-watch(1)</a>
+
+       publicinbox.&lt;name&gt;.watchheader
+               See <a
+href="public-inbox-watch.html">public-inbox-watch(1)</a>
+
+       publicinbox.&lt;name&gt;.listid
+               The rfc2919 &lt;<a
+href="https://tools.ietf.org/html/rfc2919">https://tools.ietf.org/html/rfc2919</a>&gt; header
+               without angle brackets for <a
+href="public-inbox-mda.html">public-inbox-mda(1)</a> deliveries and
+               <a
+href="public-inbox-watch.html">public-inbox-watch(1)</a>.
+
+               For <a
+href="public-inbox-watch.html">public-inbox-watch</a> users, this is a shortcut for specifying
+               &#34;publicinbox.$NAME.watchheader=List-Id:&lt;foo.example.com&gt;&#34;
+
+               For <a
+href="public-inbox-mda.html">public-inbox-mda</a> users, this may be used to avoid recipient
+               matching via &#34;ORIGINAL_RECIPIENT&#34; environment variable.
+
+               This may be specified multiple times for merging multiple
+               mailing lists into a single public-inbox, only one &#34;List-Id&#34;
+               header needs to match.
+
+               Default: none
+
+       publicinbox.&lt;name&gt;.imapmirror
+               This may be the full IMAP URL of an independently-run IMAP
+               mirror.
+
+               Default: none
+
+       publicinbox.&lt;name&gt;.nntpmirror
+               This may be the full NNTP URL of an independently-run mirror.
+               For example, the <a
+href="https://public-inbox.org/meta/">https://public-inbox.org/meta/</a> inbox is
+               mirrored by Gmane at
+               &#34;<a
+href="nntp://news.gmane.io/gmane.mail.public-inbox.general">nntp://news.gmane.io/gmane.mail.public-inbox.general</a>&#34;
+
+               Default: none
+
+       publicinbox.&lt;name&gt;.indexlevel
+               The indexing level for <a
+href="public-inbox-index.html">public-inbox-index(1)</a>
+
+               &#34;basic&#34; only requires DBD::SQLite(3pm) and provides all NNTP
+               functionality along with thread-awareness in the WWW interface.
+
+               &#34;medium&#34; requires Xapian(3pm) or Search::Xapian(3pm) to provide
+               full-text term search functionality in the WWW UI.
+
+               &#34;full&#34; also includes positional information used by Xapian to
+               allow for searching for phrases using quoted text.  (e.g.
+               &#34;looking for a complete sentence&#34;)
+
+               Default: &#34;full&#34;
+
+       publicinbox.&lt;name&gt;.boost
+               Control indexing order for <a
+href="public-inbox-extindex.html">public-inbox-extindex(1)</a>, with ties
+               broken by config file order.  This only affects indexing and
+               does not affect messages which are already indexed.
+
+               Default: 0
+
+       publicinbox.&lt;name&gt;.indexSequentialShard
+               See &#34;publicInbox.indexSequentialShard&#34; in <a
+href="public-inbox-index.html">public-inbox-index(1)</a>
+
+       publicinbox.&lt;name&gt;.httpbackendmax
+               If a digit, the maximum number of parallel <a
+href="https://kernel.org/pub/software/scm/git/docs/git-http-backend.html">git-http-backend(1)</a>
+               processes to allow for cloning this particular inbox.
+
+               If an alphanumeric value starting with a lowercase alphabetic
+               character is specified, the inbox will use a &#34;NAMED LIMITER&#34;
+               which can be shared by multiple inboxes.
+
+               Default: 32 (using a default limiter shared by all inboxes)
+
+       publicinbox.&lt;name&gt;.coderepo
+               The nickname of a &#34;coderepo&#34; section associated with the inbox.
+               May be specified more than once for M:N mapping of code repos
+               to inboxes.  If enabled, diff hunk headers in patch emails will
+               link to the line numbers of blobs.
+
+               Unnecessary with &#34;--join&#34; in <a
+href="public-inbox-cindex.html">public-inbox-cindex(1)</a>
+
+               Default: none
+
+       publicinbox.&lt;name&gt;.altid
+               Index by an alternative ID mechanism as a Xapian search prefix
+               e.g.  &#34;gmane:1234&#34;.  This is useful to allow looking up legacy
+               serial IDs (e.g. gmane article numbers).
+
+               It must be specified in the form of
+               &#34;serial:$USER_PREFIX:file=$SQLITE_FILENAME&#34; where $USER_PREFIX
+               is a lowercase prefix like &#34;gmane&#34; for search queries, and
+               $SQLITE_FILENAME points to an SQLite DB.  $SQLITE_FILENAME may
+               be an absolute path or a path relative to &#34;INBOXDIR&#34; for v2
+               inboxes or &#34;INBOXDIR/public-inbox&#34; for v1 inboxes.
+
+               The schema of $SQLITE_FILENAME should be the same as for
+               &#34;msgmap.sqlite3&#34;.  See &#34;scripts/xhdr-num2mid&#34; in the public-
+               inbox source tree for an example of how to generate such a
+               mapping via NNTP.
+
+               This is a noop with &#34;indexlevel=basic&#34;
+
+               Default: none
+
+       publicinbox.&lt;name&gt;.indexheader
+               Supports indexing of arbitrary mail headers in Xapian.
+
+               It must be specified in the form of
+               &#34;$TYPE:$USER_PREFIX:$MAIL_HEADER:$PARAMS&#34; where $TYPE
+               determines how it&#39;s indexed and queried; $USER_PREFIX is a
+               lowercase prefix for search queries, $MAIL_HEADER is the header
+               to index (e.g. &#34;X-Label&#34;), $PARAMS is a URL-style query string
+               for optional parameters.
+
+               Valid $TYPE values (in ascending order of storage cost) are as
+               follows:
+
+               * &#34;boolean_term&#34; - index for simple filtering (not sortable by
+               relevance)
+
+               * &#34;text&#34; - add frequency information to allow sorting by
+               relevance
+
+               * &#34;phrase&#34; - add positional information to match sentences or
+               phrases
+
+               In other words: &#34;phrase&#34; forces indexing of a particular header
+               to behave like it used &#34;indexlevel=full&#34;; while &#34;text&#34; indexes
+               as if that header used &#34;indexlevel=medium&#34;.
+
+               Valid keys in $PARAMS include:
+
+               * raw - do not perform RFC2047 decoding of headers
+
+               Example:
+
+                       [publicinbox &#34;foo&#34;]
+                               indexheader = boolean_term:xlabel:X-Label:raw=1
+
+               Support for other parameters is not finalized and subject to
+               change.
+
+               This is a noop with &#34;indexlevel=basic&#34;
+
+               New in public-inbox 2.0+
+
+               Default: none
+
+       publicinbox.&lt;name&gt;.replyto
+               May be used to control how reply instructions in the PSGI
+               interface are displayed.
+
+               &#34;:none=dead inbox&#34; may be specified to denote an inactive list
+               (&#34;dead inbox&#34; may be replaced with another phrase).
+
+               A list of comma-delimited email addresses may be specified.
+               This can be useful for dedicated inboxes for bot emails, but
+               discussion happens on a separate mailing list/inbox.
+
+               Mirrors of existing centralized mailing lists may use &#34;:list&#34;
+               here to redirect mail only to the configured inbox address.
+               The use of &#34;:list&#34; is discouraged for new mailing lists, as it
+               leads to centralization.
+
+               Default: :all
+
+       publicinbox.css
+               The local path name of a CSS file for the PSGI web interface.
+               Space-separated attributes (&#34;key=val&#34; or &#34;key=&#39;val with
+               spaces&#39;&#34;) may be specified after the path on the same line;
+               &#34;media&#34;, &#34;title&#34; and &#34;href&#34; are currently supported, and match
+               the associated attributes of the HTML &#34;&lt;style&gt;&#34; tag.
+
+               &#34;href&#34; may be specified to point to the URL of a remote CSS
+               file and the path may be &#34;/dev/null&#34; or any empty file.
+
+               public-inbox 2.0+ also supports a &#34;load&#34; attribute with values
+               &#34;link&#34; or &#34;import&#34;; &#34;link&#34; forces the use of a &#34;&lt;link&gt;&#34; tag and
+               disables inlining CSS into the &#34;&lt;style&gt;&#34; tag while &#34;import&#34;
+               puts CSS @import statements into the &#34;&lt;style&gt;&#34; tag.  &#34;import&#34;
+               appears necessary for some browser and &#34;media&#34; query
+               combinations.
+
+               Multiple files may be specified and will be included in the
+               given order, but files specified via &#34;load=import&#34; are always
+               handled first.
+
+               Example:
+
+                       [publicinbox]
+                               css = /path/to/216dark.css title=216dark \
+                                 media=&#39;screen,(prefers-color-scheme:dark)&#39;
+
+               See the contrib/css directory of the public-inbox source
+               &lt;<a
+href="https://80x24.org/public-inbox.git/tree/contrib/css">https://80x24.org/public-inbox.git/tree/contrib/css</a>&gt; for more
+               examples.
+
+       publicinboxImport.dropUniqueUnsubscribe
+               Drop &#34;List-Unsubscribe&#34; headers if the message also includes
+               the &#34;List-Unsubscribe-Post: List-Unsubscribe=One-Click&#34; header
+               to signal MUAs to support an instantaneous unsubscribe.  This
+               is strongly recommended for users creating their own public
+               archives of mailing lists they subscribe to, otherwise any
+               archive reader can unsubscribe the archivist.
+
+               This may break DKIM signatures if the &#34;List-Unsubscribe*&#34;
+               headers are signed, but breaking DKIM signatures is the lesser
+               evil compared to allowing any reader to unsubscribe the
+               archivist.
+
+               This affects <a
+href="public-inbox-mda.html">public-inbox-mda(1)</a>, <a
+href="public-inbox-watch.html">public-inbox-watch(1)</a>, and
+               <a
+href="public-inbox-learn.html">public-inbox-learn(1)</a>
+
+       publicinboxmda.spamcheck
+               This may be set to &#34;none&#34; to disable the use of SpamAssassin
+               <a
+href="https://spamassassin.apache.org/full/3.4.x/doc/spamc.html">spamc(1)</a> for filtering spam before it is imported into git
+               history.  Other spam filtering backends may be supported in the
+               future.
+
+               Default: spamc
+
+       publicinboxwatch.spamcheck
+               See <a
+href="public-inbox-watch.html">public-inbox-watch(1)</a>
+
+       publicinboxwatch.watchspam
+               See <a
+href="public-inbox-watch.html">public-inbox-watch(1)</a>
+
+       publicinbox.imapserver
+               Set this to point to the hostname(s) of the
+               <a
+href="public-inbox-imapd.html">public-inbox-imapd(1)</a> instance.  This is used to advertise the
+               existence of the IMAP endpoint in the PublicInbox::WWW HTML
+               interface.
+
+               Default: none
+
+       publicinbox.nntpserver
+               Same as &#34;publicinbox.imapserver&#34;, but for the hostname(s) of
+               the <a
+href="public-inbox-nntpd.html">public-inbox-nntpd(1)</a> instance.  This affects &#34;Xref:&#34;
+               headers in responses.  As of public-inbox 2.0, this can be
+               overridden on the &#34;<a
+href="public-inbox-netd.html">public-inbox-netd(1)</a>&#34; command-line via
+               &#34;--listen nntp://$ADDRESS:$PORT/?servername=example.com&#34;
+
+               Default: none
+
+       publicinbox.pop3server
+               Same as &#34;publicinbox.imapserver&#34;, but for the hostname(s) of
+               the <a
+href="public-inbox-pop3d.html">public-inbox-pop3d(1)</a> instance.
+
+               Default: none
+
+       publicinbox.pop3state
+               See &#34;publicinbox.pop3state&#34; in <a
+href="public-inbox-pop3d.html">public-inbox-pop3d(1)</a>
+
+       publicinbox.&lt;name&gt;.feedmax
+               The size of an Atom feed for the inbox.  If specified more than
+               once, only the last value is used.  Invalid values (&lt;= 0) will
+               be treated as the default value.
+
+               Default: 25
+
+       publicinbox.&lt;name&gt;.hide
+               A comma-delimited list of listings to hide the inbox from.
+
+               Valid values are currently &#34;www&#34; and &#34;manifest&#34; for non-404
+               values of &#34;publicinbox.wwwListing&#34; and
+               &#34;publicinbox.grokManifest&#34;, respectively
+
+               Default: none
+
+       cindex.$NAME.topdir
+       cindex.$NAME.localprefix
+               See <a
+href="public-inbox-cindex.html">public-inbox-cindex(1)</a>
+
+       coderepo.&lt;nick&gt;.dir
+               The path to a git repository for &#34;publicinbox.&lt;name&gt;.coderepo&#34;
+               Absolute pathnames longer than 244 bytes cannot be indexed with
+               <a
+href="public-inbox-cindex.html">public-inbox-cindex(1)</a>
+
+               Unnecessary with &#34;--join&#34; in <a
+href="public-inbox-cindex.html">public-inbox-cindex(1)</a>
+
+       coderepo.&lt;nick&gt;.cgitUrl
+               The URL of the cgit instance associated with the coderepo.
+
+               Unnecessary with &#34;--join&#34; in <a
+href="public-inbox-cindex.html">public-inbox-cindex(1)</a>
+
+               Default: none
+
+       coderepo.snapshots
+               See &#34;snapshots&#34; in <a
+href="https://git.zx2c4.com/cgit/tree/cgitrc.5.txt">cgitrc(5)</a>
+
+       publicinbox.cgitrc
+               A path to a <a
+href="https://git.zx2c4.com/cgit/tree/cgitrc.5.txt">cgitrc(5)</a> file.  &#34;repo.url&#34; directives in the
+               cgitrc will be mapped to the nickname of a coderepo (without
+               trailing slash), and &#34;repo.path&#34; directives map to
+               &#34;coderepo.&lt;nick&gt;.dir&#34;.  Use of this directive allows admins of
+               existing cgit installations to skip declaring coderepo sections
+               and map inboxes directly to code repositories known to cgit.
+
+               Macro expansion (e.g. $HTTP_HOST) is not yet supported.
+
+       publicinbox.cgitbin
+               A path to the &#34;cgit.cgi&#34; executable.  The PublicInbox::WWW
+               interface can spawn cgit as a fallback if the
+               publicinbox.cgitrc directive is configured.
+
+               Default: /var/www/htdocs/cgit/cgit.cgi or
+               /usr/lib/cgit/cgit.cgi
+
+       publicinbox.cgitdata
+               A path to the data directory used by cgit for storing static
+               files.  Typically guessed based on the location of &#34;cgit.cgi&#34;
+               (from &#34;publicinbox.cgitbin&#34;), but may be overridden.
+
+               Default: dirname of &#34;publicinbox.cgitbin&#34;,
+               /var/www/htdocs/cgit/ or /usr/share/cgit/
+
+       publicinbox.cgit
+               Controls whether or not and how &#34;cgit&#34; is used for serving
+               coderepos.  New in public-inbox 2.0+.
+
+               &#226;&#128;&#162;       first
+
+                       Try using &#34;cgit&#34; as the first choice, this is the
+                       default.
+
+               &#226;&#128;&#162;       fallback
+
+                       Fall back to using &#34;cgit&#34; only if our native, inbox-
+                       aware git code repository viewer doesn&#39;t recognize the
+                       URL.
+
+               Default: &#34;first&#34;  (&#34;cgit&#34; will be used iff &#34;publicinbox.cgitrc&#34;
+               is set and the &#34;cgit&#34; binary exists).
+
+       publicinbox.mailEditor
+               See <a
+href="public-inbox-edit.html">public-inbox-edit(1)</a>
+
+       publicinbox.indexMaxSize
+       publicinbox.indexBatchSize
+       publicinbox.indexSequentialShard
+               See <a
+href="public-inbox-index.html">public-inbox-index(1)</a>
+
+       publicinbox.wwwlisting
+               Enable a HTML listing style when the root path of the URL &#39;/&#39;
+               is accessed.  Valid values are:
+
+               &#226;&#128;&#162;       all - Show all inboxes
+
+               &#226;&#128;&#162;       404 - Return a 404 page.  This is useful to allow
+                       customization with Plack::App::Cascade(3pm)
+
+               &#226;&#128;&#162;       match=domain - Only show inboxes with URLs which belong
+                       to the domain of the HTTP request
+
+               Default: 404
+
+       publicinbox.nameIsUrl
+               Treat the name of the public inbox as its unqualified URL when
+               using &#34;publicInbox.wwwListing=all&#34;.  That is, every
+               &#34;[publicinbox &#34;foo&#34;]&#34; section implicitly sets
+               &#34;publicinbox.foo.url=foo&#34;.
+
+               This is a convenient alternative to specifying
+               &#34;publicinbox.&lt;name&gt;.url&#34; for every single inbox if your inbox
+               URLs are domain-agnostic when using
+               &#34;publicInbox.wwwListing=all&#34;
+
+               Default: false
+
+               New in public-inbox 2.0+
+
+       publicinbox.grokmanifest
+               Controls the generation of a grokmirror-compatible gzipped JSON
+               file at the top-level of the PSGI interface.  You generally do
+               not need to change this from the default.
+
+               Valid values are:
+
+               &#226;&#128;&#162;       match=domain - Only include inboxes with URLs which
+                       belong to the domain of the HTTP request.  This is
+                       compatible with virtual hosting where several domains
+                       come from the same host.
+
+               &#226;&#128;&#162;       all - All inboxes are present in &#34;manifest.js.gz&#34;,
+                       regardless of domain.  Only use this if you&#39;re serving
+                       HTTP requests in a domain-agnostic manner.
+
+               &#226;&#128;&#162;       404 - &#34;manifest.js.gz&#34; will only contain an empty JSON
+                       array.  This does NOT affect
+                       &#34;$INBOX_URL/manifest.js.gz&#34;, which will always contain
+                       all git repos used by the inbox at $INBOX_URL
+
+               Default: &#34;match=domain&#34;
+
+       publicinbox.&lt;name&gt;.obfuscate
+               Whether to obfuscate email addresses in the PublicInbox::WWW
+               HTML interface.
+
+               Default: false
+
+       publicinbox.noObfuscate
+               A space-delimited list of well-known addresses and domains that
+               should not be obfuscated when &#34;publicinbox.$NAME.obfuscate&#34; is
+               true (e.g., &#34;public@example.com&#34; and &#34;@example.com&#34;).  This may
+               be specified more than once, in which case the values are
+               merged.
+
+               Default: none
+
+       extindex.&lt;name&gt;.topdir
+               The directory of an external index.  See
+               <a
+href="public-inbox-extindex.html">public-inbox-extindex(1)</a> for more details.
+
+       extindex.&lt;name&gt;.url
+               Identical to &#34;publicinbox.&lt;name&gt;.url&#34;, but for external indices
+
+       extindex.&lt;name&gt;.coderepo
+               Identical to &#34;publicinbox.&lt;name&gt;.coderepo&#34;, but for external
+               indices.  Code repos may be freely associated with any number
+               of public inboxes and external indices.
+
+               Unnecessary with &#34;--join&#34; in <a
+href="public-inbox-cindex.html">public-inbox-cindex(1)</a>
+
+   NAMED LIMITER (PSGI)
+       Named limiters are useful for preventing large inboxes from
+       monopolizing (or overloading) the server.  Since serving git clones
+       (via <a
+href="https://kernel.org/pub/software/scm/git/docs/git-http-backend.html">git-http-backend(1)</a> can be memory-intensive for large inboxes, it
+       makes sense to put large inboxes on a named limiter with a low max
+       value; while smaller inboxes can use the default limiter.
+
+       &#34;RLIMIT_*&#34; keys may be set to enforce resource limits for a particular
+       limiter (BSD::Resource(3pm) is required).
+
+       Default named-limiters are prefixed with &#34;-&#34;.  Currently, the &#34;-cgit&#34;
+       named limiter is reserved for instances spawning cgit via
+       &#34;publicinbox.cgitrc&#34;.  The &#34;-httpbackend&#34; named limiter (in public-
+       inbox 2.0+) governs all <a
+href="https://kernel.org/pub/software/scm/git/docs/git-http-backend.html">git-http-backend(1)</a> processes for inboxes and
+       coderepos for a given public-inbox config file.  The &#34;-codeblob&#34;
+       limiter (in 2.0+) governs the entire series of git commands used for
+       blob reconstruction from patches.
+
+       publicinboxlimiter.&lt;name&gt;.max
+               The maximum number of parallel processes for the given limiter.
+
+               Default: 32 for &#34;-httpbackend&#34;, 1 for everything else
+
+       publicinboxlimiter.&lt;name&gt;.depth
+               The maximum queue depth for the given limiter.  HTTP 503 errors
+               will be returned when the queue depth is exceeded.
+
+               Default: 32
+
+               New in public-inbox 2.0+
+
+       publicinboxlimiter.&lt;name&gt;.rlimitCore
+       publicinboxlimiter.&lt;name&gt;.rlimitCPU
+       publicinboxlimiter.&lt;name&gt;.rlimitData
+               The maximum core size, CPU time, or data size processes run
+               with the given limiter will use.  This may be comma-separated
+               to distinguish soft and hard limits.  The word &#34;INFINITY&#34; is
+               accepted as the RLIM_INFINITY constant (if supported by your
+               OS).
+
+               See <a
+href="https://www.man7.org/linux/man-pages/man2/setrlimit.2.html">setrlimit(2)</a> for more info on the behavior of RLIMIT_CORE,
+               RLIMIT_CPU, and RLIMIT_DATA for you operating system.
+
+       EXAMPLE WITH NAMED LIMITERS
+
+               ; big inboxes which require lots of memory to clone:
+               [publicinbox &#34;big1&#34;]
+                       inboxdir = /path/to/big1
+                       address = big1@example.com
+                       httpbackendmax = big
+               [publicinbox &#34;big2&#34;]
+                       inboxdir = /path/to/big2
+                       address = big2@example.com
+                       httpbackendmax = big
+
+               ; tiny inboxes which are easily cloned:
+               [publicinbox &#34;tiny1&#34;]
+                       inboxdir = /path/to/tiny1
+                       address = tiny1@example.com
+               [publicinbox &#34;tiny2&#34;]
+                       inboxdir = /path/to/tiny2
+                       address = tiny2@example.com
+
+               [publicinboxlimiter &#34;big&#34;]
+                       max = 4
+
+       In the above example, the &#34;big1&#34; and &#34;big2&#34; are limited to four
+       parallel <a
+href="https://kernel.org/pub/software/scm/git/docs/git-http-backend.html">git-http-backend(1)</a> processes between them.
+
+       However, &#34;tiny1&#34; and &#34;tiny2&#34; will share the default limiter which means
+       there can be 32 <a
+href="https://kernel.org/pub/software/scm/git/docs/git-http-backend.html">git-http-backend(1)</a> processes between them.
+
+ENVIRONMENT
+       PI_CONFIG
+               Used to override the default &#34;~/.public-inbox/config&#34; value.
+
+CONTACT
+       Feedback welcome via plain-text mail to &lt;mailto:meta@public-inbox.org&gt;
+
+       The mail archives are hosted at &lt;<a
+href="https://public-inbox.org/meta/">https://public-inbox.org/meta/</a>&gt; and
+       &lt;<a
+href="http://4uok3hntl7oi7b4uf4rtfwefqeexfzil2w6kgk2jn5z2f764irre7byd.onion/meta/">http://4uok3hntl7oi7b4uf4rtfwefqeexfzil2w6kgk2jn5z2f764irre7byd.onion/meta/</a>&gt;
+
+COPYRIGHT
+       Copyright all contributors &lt;mailto:meta@public-inbox.org&gt;
+
+       License: AGPL-3.0+ &lt;<a
+href="https://www.gnu.org/licenses/agpl-3.0.txt">https://www.gnu.org/licenses/agpl-3.0.txt</a>&gt;
+
+SEE ALSO
+       <a
+href="https://kernel.org/pub/software/scm/git/docs/git.html">git(1)</a>, <a
+href="https://kernel.org/pub/software/scm/git/docs/git-config.html">git-config(1)</a>, <a
+href="public-inbox-daemon.html">public-inbox-daemon(8)</a>, <a
+href="public-inbox-mda.html">public-inbox-mda(1)</a>,
+       <a
+href="public-inbox-watch.html">public-inbox-watch(1)</a>, grokmirror
+       &lt;<a
+href="https://git.kernel.org/pub/scm/utils/grokmirror/grokmirror.git">https://git.kernel.org/pub/scm/utils/grokmirror/grokmirror.git</a>&gt;
+
+public-inbox.git                  1993-10-02            PUBLIC-INBOX-CONFIG(5)
+</pre></body></html>

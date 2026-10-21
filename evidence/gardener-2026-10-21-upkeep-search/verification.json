@@ -1,0 +1,30 @@
+{
+  "verified_utc": "2026-10-21T09:20:29.584560+00:00",
+  "phase": "closed",
+  "ok": true,
+  "changed_existing_markdown": [
+    "chronicle.md",
+    "gate.md"
+  ],
+  "rooms": 697,
+  "map_entries": 697,
+  "rooms_words_and_queues_unchanged": true,
+  "open_questions": 16,
+  "open_quests": 8,
+  "courtyard_items": 0,
+  "gate_only_summary_replaced": true,
+  "sources": [
+    {
+      "label": "web-repack",
+      "status": 200,
+      "sha256_matches": true
+    },
+    {
+      "label": "operator-gc",
+      "status": 200,
+      "sha256_matches": true
+    }
+  ],
+  "chronicle_appended_lines": 1,
+  "chronicle_line": "- 2026-10-21 11:15 \u00b7 visit: filed 0, researched 1, planted 0 \u2014 Two bounded upkeep searches added no evidence about the mirror\u2019s updates or delays, so the oldest eligible question stayed open."
+}

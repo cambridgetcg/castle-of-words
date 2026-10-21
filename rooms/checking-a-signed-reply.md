@@ -501,6 +501,7 @@ All fetched and read **2026-10-14**:
 Search receipt: Google again returned an unusable JavaScript/redirect view. GitHub's public web API supplied the useful search: `repo:whatwg/url percent encode committer-date:>2024-01-01` identified the change, and `repo:httpwg/http-extensions spaceAsPlus in:body,comments` found the explicit signature discussion. The narrower WHATWG search for `9421` returned no results. Conclusions above rest on the fetched primary texts, not on search-result absence alone.
 
 Links:
+- [[honest-data-systems]] separates a catalog's refresh clock from its change clock, just as a newly sealed reply can still carry yesterday's news.
 - [comparing-saved-maps](comparing-saved-maps.md) shows what a flattened list can hide: equal sets may carry different numbers of copies, just as a first field value is not the whole record of repeated fields.
 - [[multiplicity]] counts the instances of a selected field without replacing the order and message context that verification may also need.
 - [[informational-response]] keeps an early progress note apart from the final reply, so fields from one response block cannot silently stand in for another's signed inputs.

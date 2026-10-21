@@ -1,0 +1,145 @@
+<html><head><title>f:kyle@kyleam.com varnish - search results</title><link
+rel=alternate
+title="Atom feed"
+href="?q=f:kyle@kyleam.com+varnish&amp;x=A"
+type="application/atom+xml"/><style>@import url("216light.css?69d631d8") screen AND (prefers-color-scheme:light);*{overflow-wrap:anywhere;font-size:100%;font-family:monospace}</style><link
+type=text/css
+rel=stylesheet
+href=216dark.css?69d631d8
+media=screen /><link
+type=text/css
+rel=stylesheet
+media=print
+href=216light.css?69d631d8 /></head><body><form
+action="./"><pre><a
+href="?t=20210124060112"><b>user/dev discussion of public-inbox itself</b></a>
+<input
+name=q
+type=text
+value="f:kyle@kyleam.com varnish" /><input
+type=hidden
+name=x
+value="t" /><input
+type=submit
+value=search /> <a
+href="_/text/help/">help</a> / <a
+href="_/text/color/">color</a> / <a
+id=mirror
+href="_/text/mirror/">mirror</a> / <a
+href=#code>code</a> / <a
+href="?q=f:kyle@kyleam.com+varnish&amp;x=A">Atom feed</a></pre></form><form
+id=d
+action="?q=f:kyle@kyleam.com+varnish&amp;x=m"
+method=post><pre>Search results ordered by [<b>date</b>|<a
+href="?q=f:kyle@kyleam.com+varnish&amp;r&amp;x=t">relevance</a>]  view[<a
+href="?q=f:kyle@kyleam.com+varnish">summary</a>|<b>nested</b>|<a
+href="?q=f:kyle@kyleam.com+varnish&amp;x=A">Atom feed</a>]
+thread overview <a
+href=#t>below</a> | download mbox.gz: <input
+type=submit
+name=z
+value="results only"/>|<input
+type=submit
+name=x
+value="full threads"/></pre></form><pre><a
+href=#eacca47b687468f5566005eca8b0b681f5ed57b55
+id=macca47b687468f5566005eca8b0b681f5ed57b55>*</a> <b>Re: [PATCH 02/10] lei: support remote externals</b>
+  <b>@ 2021-01-24  6:01 23%   ` Kyle Meyer</b>
+  <a
+href=#racca47b687468f5566005eca8b0b681f5ed57b55>0 siblings, 0 replies; 1+ results</a>
+From: Kyle Meyer @ 2021-01-24  6:01 UTC (<a
+href="87v9bmswkh.fsf@kyleam.com/">permalink</a> / <a
+href="87v9bmswkh.fsf@kyleam.com/raw">raw</a>)
+  To: Eric Wong; <b>+Cc:</b> <a
+href="https://public-inbox.org/meta/?t=20210124060112">meta</a>
+
+Eric Wong writes:
+
+<span
+class="q">&gt;  sub query_remote_mboxrd {
+</span>[...]
+<span
+class="q">&gt; +	my @cmd = qw(curl -XPOST -sSf);
+</span>
+I&#39;ve been playing around with lei locally (wow :&gt;).
+
+The one snag I&#39;ve hit is hooking up the http archives that I host
+(&lt;<a
+href="https://yhetil.org">https://yhetil.org</a>&gt;).  It seems to boil down to the `curl -XPOST&#39;
+command failing.  For example, this works fine with public-inbox.org:
+
+  $ curl -sSf -XPOST &#39;<a
+href="https://public-inbox.org/meta/?q=s:lei&#38;x=m">https://public-inbox.org/meta/?q=s:lei&#38;x=m</a>&#39; | zless
+
+But it fails with the mirror of meta at yhetil.org:
+
+  $ curl -sSf -XPOST &#39;<a
+href="https://yhetil.org/meta/?q=s:lei&#38;x=m">https://yhetil.org/meta/?q=s:lei&#38;x=m</a>&#39; | zless
+  curl: (22) The requested URL returned error: 400 Bad Request
+
+If I add -d&#39;&#39; to the call, it works and produces the same output as the
+above call against public-inbox.org/meta.  And if I add this option to
+query_remote_mboxrd (i.e. applying the change at the end), `lei q&#39; works
+for me as expected.
+
+yhetil.org uses nginx and varnish, and I&#39;m _very_ far from being an
+expert in either of those, so I have no doubt that the above error could
+be the result of me configuring something incorrectly.  However, despite
+a fair amount of time and effort, I couldn&#39;t figure out how to tweak
+things to make the above command work without --data.
+
+I quickly checked &lt;<a
+href="https://lore.kernel.org">https://lore.kernel.org</a>&gt;, and it seems like it would
+give a similar response to -XPOST without data:
+
+  $ curl -fSs -XPOST &#39;<a
+href="https://lore.kernel.org/git/?q=get-urlmatch&#38;x=m">https://lore.kernel.org/git/?q=get-urlmatch&#38;x=m</a>&#39;
+  curl: (22) The requested URL returned error: 400
+  $  curl -d&#39;&#39; -fSs -XPOST &#39;<a
+href="https://lore.kernel.org/git/?q=get-urlmatch&#38;x=m">https://lore.kernel.org/git/?q=get-urlmatch&#38;x=m</a>&#39; | zless
+  # works
+
+
+<span
+class="head">diff --git a/lib/PublicInbox/LeiXSearch.pm b/lib/PublicInbox/LeiXSearch.pm
+index defe5e67..766e9f5f 100644
+--- a/lib/PublicInbox/LeiXSearch.pm
++++ b/lib/PublicInbox/LeiXSearch.pm
+</span><span
+class="hunk">@@ -192,7 +192,7 @@ sub query_remote_mboxrd {
+</span> 	my $each_smsg = $lei-&gt;{ovv}-&gt;ovv_each_smsg_cb($lei, $uri);
+ 	my $dedupe = $lei-&gt;{dedupe} // die &#39;BUG: {dedupe} missing&#39;;
+ 	$dedupe-&gt;prepare_dedupe;
+<span
+class="del">-	my @cmd = qw(curl -XPOST -sSf);
+</span><span
+class="add">+	my @cmd = qw(curl -XPOST -d&#39;&#39; -sSf);
+</span> 	$opt-&gt;{torsocks} = &#39;false&#39; if $opt-&gt;{&#39;no-torsocks&#39;};
+ 	my $tor = $opt-&gt;{torsocks} //= &#39;auto&#39;;
+ 	if ($tor eq &#39;auto&#39; &#38;&#38; substr($uri-&gt;host, -6) eq &#39;.onion&#39; &#38;&#38;
+
+
+<a
+href=#macca47b687468f5566005eca8b0b681f5ed57b55
+id=eacca47b687468f5566005eca8b0b681f5ed57b55>^</a> <a
+href="87v9bmswkh.fsf@kyleam.com/">permalink</a> <a
+href="87v9bmswkh.fsf@kyleam.com/raw">raw</a> <a
+href="87v9bmswkh.fsf@kyleam.com/#R">reply</a> <a
+href="87v9bmswkh.fsf@kyleam.com/#related">related</a>	[relevance 23%]</pre></pre><hr><pre id=t>Results 1-1 of 1 | <a
+href="?q=f:kyle@kyleam.com+varnish&amp;o=-1&amp;x=t">reverse</a> | options <a href=#d>above</a></pre><pre>-- pct% links below jump to the message on this page, permalinks otherwise --
+2021-01-23 10:27     <a
+href="20210123102755.425-1-e@80x24.org/">[PATCH 00/10] lei: externals more stuff</a> Eric Wong
+2021-01-23 10:27     ` <a
+href="20210123102755.425-3-e@80x24.org/">[PATCH 02/10] lei: support remote externals</a> Eric Wong
+2021-01-24  6:01 23%   ` <a
+href="#macca47b687468f5566005eca8b0b681f5ed57b55"
+id=racca47b687468f5566005eca8b0b681f5ed57b55>Kyle Meyer</a>
+<hr><pre><a id=code>Code repositories for project(s) associated with this public inbox
+
+	<a
+href="https://80x24.org/public-inbox.git">https://80x24.org/public-inbox.git</a>
+
+This is a public inbox, see <a
+href="_/text/mirror/">mirroring instructions</a>
+for how to clone and mirror all data and code used for this inbox;
+as well as URLs for read-only IMAP folder(s) and NNTP newsgroup(s).</pre></body></html>

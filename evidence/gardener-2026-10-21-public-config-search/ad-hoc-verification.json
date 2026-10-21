@@ -1,0 +1,23 @@
+{
+  "kind": "ad-hoc verification, not a canonical test suite",
+  "verified_utc": "2026-10-21T18:48:28.313854+00:00",
+  "passed": true,
+  "check_count": 9,
+  "checks": [
+    "Both changed scripts compile without creating bytecode files",
+    "Research refuses to overwrite the existing starting record",
+    "Offline first-run preflight checks queues and Map, then plans exactly the two bounded searches",
+    "Research rejects drift in its pinned eligible queue",
+    "Final verifier passes against real retained sources and the actual completed visit",
+    "Verifier rejects corrupted retained source bytes",
+    "Verifier rejects a second appended chronicle line",
+    "Verifier rejects an edit outside the declared room addition",
+    "Verifier rejects an unapproved question-queue change"
+  ],
+  "changed_scripts": {
+    "research.py": "3c07fb9e32817e11115b048232174a3c234476a4ed26291450c5a2a55fee08d8",
+    "verify.py": "d82a63c7c137e54ca15c21f9406eb7fdfa6baa7c09520eda0ed6cdfbbc480e9b"
+  },
+  "scope": "Actual script execution with in-memory write capture and explicit offline search doubles; negative fixtures are never written to the castle. No web requests repeated, no additional chronicle line, no machinery changed.",
+  "temporary_script": "/var/folders/bg/v8wn0t11067f0hzxkz7hp7rr0000gn/T/hermes-verify-a1uvaddr.py"
+}

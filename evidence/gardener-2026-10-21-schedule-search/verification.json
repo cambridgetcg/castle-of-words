@@ -1,0 +1,34 @@
+{
+  "verified_utc": "2026-10-20T23:52:30.627925+00:00",
+  "passed": true,
+  "filed": 0,
+  "researched": 1,
+  "answered": 0,
+  "planted": 0,
+  "unchanged_castle_markdown_files": 2006,
+  "rooms": 697,
+  "map_entries": 697,
+  "map_missing": [],
+  "map_extra": [],
+  "map_duplicates": [],
+  "open_questions": 16,
+  "open_quests": 8,
+  "garden_git_status_clean": true,
+  "chronicle_prefix_unchanged": true,
+  "chronicle_lines_appended": 1,
+  "chronicle_line": "- 2026-10-21 01:49 · visit: filed 0, researched 1, planted 0 — Two bounded searches found no new evidence about the mirror’s update schedule or delays, so the oldest eligible question stayed open.",
+  "source_receipts": [
+    {
+      "label": "operator-fetch",
+      "status": 200,
+      "bytes": 4763,
+      "sha256": "92ca24720c0cdb522a39a08ffc1eaabeed63221ca048e8e22faa38d90d5785ba"
+    },
+    {
+      "label": "web-cron",
+      "status": 200,
+      "bytes": 108983,
+      "sha256": "5a3ad83636173170f33c90856a22788b8874eea73614fdaee8ed1270145c62cb"
+    }
+  ]
+}

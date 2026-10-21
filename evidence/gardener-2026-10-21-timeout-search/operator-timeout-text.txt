@@ -1,0 +1,36 @@
+f:kyle@kyleam.com timeout - search results
+user/dev discussion of public-inbox itself
+help / color / mirror / code / Atom feed
+Search results ordered by [date|relevance]  view[summary|nested|Atom feed]
+thread overview below | download mbox.gz: |
+* Re: [PATCH 28/34] watch: add NNTP support
+@ 2020-06-27 19:06 23%   ` Kyle Meyer
+0 siblings, 0 replies; 1+ results
+From: Kyle Meyer @ 2020-06-27 19:06 UTC (permalink / raw)
+To: Eric Wong; +Cc: meta
+Eric Wong writes:
+> +# flesh out common NNTP-specific data structures
+> +sub nntp_common_init ($) {
+> +	my ($self) = @_;
+> +	my $cfg = $self->{config};
+> +	my $nn_args = {}; # scheme://authority => Net::NNTP->new arg
+> +	for my $url (sort keys %{$self->{nntp}}) {
+> +		my $sec = uri_section(URI->new($url));
+> +
+> +		# Debug and Timeout are is passed to Net::NNTP->new
+s/ is//
+> +		my $v = cfg_bool($cfg, 'nntp.Debug', $url);
+> +		$nn_args->{$sec}->{Debug} = $v if defined $v;
+> +		my $to = cfg_intvl($cfg, 'nntp.Timeout', $url);
+> +		$nn_args->{$sec}->{Timeout} = $to if $to;
+^ permalink raw reply	[relevance 23%]
+Results 1-1 of 1 | reverse | options above
+-- pct% links below jump to the message on this page, permalinks otherwise --
+2020-06-27 10:03     [PATCH 00/34] watch: add IMAP and NNTP support Eric Wong
+2020-06-27 10:03     ` [PATCH 28/34] watch: add " Eric Wong
+2020-06-27 19:06 23%   ` Kyle Meyer
+Code repositories for project(s) associated with this public inbox
+https://80x24.org/public-inbox.git
+This is a public inbox, see mirroring instructions
+for how to clone and mirror all data and code used for this inbox;
+as well as URLs for read-only IMAP folder(s) and NNTP newsgroup(s).

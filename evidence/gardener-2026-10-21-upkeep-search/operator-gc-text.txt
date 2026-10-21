@@ -1,0 +1,42 @@
+f:kyle@kyleam.com "git gc" - search results
+user/dev discussion of public-inbox itself
+help / color / mirror / code / Atom feed
+Search results ordered by [date|relevance]  view[summary|nested|Atom feed]
+thread overview below | download mbox.gz: |
+* news.public-inbox.org misbehaving?
+@ 2020-06-09 22:13 16% Kyle Meyer
+0 siblings, 0 replies; 1+ results
+From: Kyle Meyer @ 2020-06-09 22:13 UTC (permalink / raw)
+To: meta
+Checking inbox.comp.mail.public-inbox.meta today, I ran into some odd
+behavior in my reader (Gnus).  While debugging that, I tried
+$ w3m -m nntp://news.public-inbox.org/inbox.comp.mail.public-inbox.meta
+The tail of that buffer was
+4132 (06/06) Dmitry Alexandro Re: [Patch] Update 24-hour times to use two digits for the hour
+4133 (06/07) Eric Wong        [PATCH] index: v2: parallel by default
+That didn't match up with what I saw at https://public-inbox.org/meta/:
+IMAP server notes, maybe JMAP?
+2020-06-09 11:34 UTC  - mbox.gz / Atom
+[PATCH] index: v2: parallel by default
+2020-06-07 20:02 UTC  - mbox.gz / Atom
+inbox.comp.version-control.git also seems off.  After invoking w3m, I
+landed on an empty
+Newsgroup: inbox.comp.version-control.git 399364-399413
+[399314-399363]
+Following "[399314-399363]" displayed articles.  The last two were
+399326 (06/08) Denton Liu      Re: [PATCH] Recommend "git gc --prune=now" instead of "git prune"
+399327 (06/08) Simon Ser       Re: [PATCH v2] grep: add configuration variables for --heading
+Again, that doesn't match what I see at https://public-inbox.org/git/,
+which has a good number of messages from today (6/9).  And the empty
+landing page/counts make me think that public-inbox-nntpd knows about
+the articles that aren't being displayed.
+Any ideas what might be going on?
+^ permalink raw reply	[relevance 16%]
+Results 1-1 of 1 | reverse | options above
+-- pct% links below jump to the message on this page, permalinks otherwise --
+2020-06-09 22:13 16% news.public-inbox.org misbehaving? Kyle Meyer
+Code repositories for project(s) associated with this public inbox
+https://80x24.org/public-inbox.git
+This is a public inbox, see mirroring instructions
+for how to clone and mirror all data and code used for this inbox;
+as well as URLs for read-only IMAP folder(s) and NNTP newsgroup(s).

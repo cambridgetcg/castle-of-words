@@ -1,0 +1,286 @@
+<html><head><title>[PATCH] extmsg: fix Message-ID search for non-xap_helper users - Eric Wong</title><link
+rel=alternate
+title="Atom feed"
+href="../new.atom"
+type="application/atom+xml"/><style>@import url("../216light.css?69d631d8") screen AND (prefers-color-scheme:light);*{overflow-wrap:anywhere;font-size:100%;font-family:monospace}</style><link
+type=text/css
+rel=stylesheet
+media=screen
+href=../216dark.css?69d631d8 /><link
+type=text/css
+rel=stylesheet
+href=../216light.css?69d631d8
+media=print /></head><body><form
+action="../"><pre><a
+href="../?t=20251021030346"><b>user/dev discussion of public-inbox itself</b></a>
+<input
+name=q
+type=text /><input
+type=submit
+value=search /> <a
+href="../_/text/help/">help</a> / <a
+href="../_/text/color/">color</a> / <a
+id=mirror
+href="../_/text/mirror/">mirror</a> / <a
+href=#code>code</a> / <a
+href="../new.atom">Atom feed</a></pre></form><pre
+id=b>From: Eric Wong &lt;e@80x24.org&gt;
+To: Kyle Meyer &lt;kyle@kyleam.com&gt;
+Cc: <a
+href="https://public-inbox.org/meta/?t=20251021030346">meta@public-inbox.org</a>
+Subject: <a
+href="#r"
+id=t>[PATCH] extmsg: fix Message-ID search for non-xap_helper users</a>
+Date: Tue, 21 Oct 2025 03:03:46 +0000	<a
+href="#r">[thread overview]</a>
+Message-ID: &lt;20251021030346.M346444@dcvr&gt; (<a href="raw">raw</a>)
+In-Reply-To: &lt;<a
+href="../20251020193141.M515023@dcvr/">20251020193141.M515023@dcvr</a>&gt;
+
+<span
+class="q">&gt; &gt; Kyle Meyer &lt;kyle@kyleam.com&gt; wrote:
+&gt; &gt; &gt; Here&#39;s a trimmed down reproducer.
+</span>
+Thanks again, I just used your test as-is to write the test
+case:
+
+--------8&lt;--------
+Subject: [PATCH] extmsg: fix Message-ID search for non-xap_helper users
+
+commit c3d0295bd was intended to avoid head-of-line blocking for
+--xapian-helpers (-X) deployments.  Unfortunately, that broke
+searches for deployments not using --xapian-helpers by causing
+the ExtMsg to get queued redundantly into the event loop.  So
+perform the `requeue&#39; procedure exactly once and simplify
+ExtMsg-&gt;event_step by eliminating the $sync parameter.
+
+Fixes: c3d0295bd (www: extmsg: async partial Message-ID search, 2025-05-12)
+Reported-by: Kyle Meyer &lt;kyle@kyleam.com&gt;
+Link: <a
+href="https://public-inbox.org/meta/877bwva3s4.fsf@kyleam.com/">https://public-inbox.org/meta/877bwva3s4.fsf@kyleam.com/</a>
+---
+ <a
+id=iZ31lib:PublicInbox:ExtMsg.pm
+href=#Z31lib:PublicInbox:ExtMsg.pm>lib/PublicInbox/ExtMsg.pm</a>        |  8 ++--
+ <a
+id=iZ31t:extmsg_event_step_regression.t
+href=#Z31t:extmsg_event_step_regression.t>t/extmsg_event_step_regression.t</a> | 70 ++++++++++++++++++++++++++++++++
+ 2 files <a href="#related">changed</a>, 73 insertions(+), 5 deletions(-)
+ create mode 100644 t/extmsg_event_step_regression.t
+
+<span
+class="head"><a
+href=#iZ31lib:PublicInbox:ExtMsg.pm
+id=Z31lib:PublicInbox:ExtMsg.pm>diff</a> --git a/lib/PublicInbox/ExtMsg.pm b/lib/PublicInbox/ExtMsg.pm
+index 282db1d26..3e9b33a37 100644
+--- a/lib/PublicInbox/ExtMsg.pm
++++ b/lib/PublicInbox/ExtMsg.pm
+</span><span
+class="hunk">@@ <a
+href="../282db1d26/s/?b=lib/PublicInbox/ExtMsg.pm#n137">-137,7</a> <a
+href="../3e9b33a37/s/?b=lib/PublicInbox/ExtMsg.pm#n137">+137,7</a> @@ sub partial_enter ($) {
+</span> 	my ($ctx) = @_;
+ 	bless $ctx, __PACKAGE__; # for ExtMsg-&gt;event_step
+ 	return $ctx-&gt;event_step if $ctx-&gt;{env}-&gt;{&#39;pi-httpd.app&#39;};
+<span
+class="del">-	$ctx-&gt;event_step(1) while $ctx-&gt;{-wcb};
+</span><span
+class="add">+	$ctx-&gt;event_step while $ctx-&gt;{-wcb}; # generic PSGI
+</span> }
+ 
+ sub partial_prepare ($@) {
+<span
+class="hunk">@@ <a
+href="../282db1d26/s/?b=lib/PublicInbox/ExtMsg.pm#n193">-193,12</a> <a
+href="../3e9b33a37/s/?b=lib/PublicInbox/ExtMsg.pm#n193">+193,10</a> @@ sub ext_msg {
+</span> 
+ # called via PublicInbox::DS::event_loop
+ sub event_step {
+<span
+class="del">-	my ($ctx, $sync) = @_;
+</span><span
+class="add">+	my ($ctx) = @_;
+</span> 	# can&#39;t find a partial match in current inbox, try the others:
+ 	my $ibx = shift @{$ctx-&gt;{again}} or return finalize_partial($ctx);
+<span
+class="del">-	unless (partial_ibx_start($ctx, $ibx)) {
+-		PublicInbox::DS::requeue($ctx) unless $sync;
+-	}
+</span><span
+class="add">+	partial_ibx_start $ctx, $ibx;
+</span> }
+ 
+ sub finalize_exact {
+<span
+class="head"><a
+href=#iZ31t:extmsg_event_step_regression.t
+id=Z31t:extmsg_event_step_regression.t>diff</a> --git a/t/extmsg_event_step_regression.t b/t/extmsg_event_step_regression.t
+new file mode 100644
+index 000000000..<a
+href="../941d11ae8/s/?b=t/extmsg_event_step_regression.t">941d11ae8</a>
+--- /dev/null
++++ b/t/extmsg_event_step_regression.t
+</span><span
+class="hunk">@@ -0,0 +1,70 @@
+</span><span
+class="add">+#!perl -w
++# Copyright (C) all contributors &lt;meta@public-inbox.org&gt;
++# License: AGPL-3.0+ &lt;<a
+href="https://www.gnu.org/licenses/agpl-3.0.txt">https://www.gnu.org/licenses/agpl-3.0.txt</a>&gt;
++use v5.12;
++use PublicInbox::TestCommon;
++use PublicInbox::Eml;
++use PublicInbox::IO qw(write_file);
++require_mods qw(-httpd v2 psgi);
++my $tmpdir = tmpdir;
++my $one = PublicInbox::Eml-&gt;new(&lt;&lt;&#39;EOM&#39;);
++From: X &lt;x@example.com&gt;
++Subject: subj
++Date: Sat, 16 Jun 2007 17:33:53 +0100
++Message-ID: &lt;681fb71bcf6@example.com&gt;
++To: list@example.com
++Mime-Version: 1.0
++Content-Type: text/plain
++
++abc
++EOM
++my $two = PublicInbox::Eml-&gt;new(&lt;&lt;&#39;EOM&#39;);
++From: X &lt;x@example.com&gt;
++Subject: Re: subj
++Date: Sat, 30 Jun 2007 18:56:36 +0100
++Message-ID: &lt;eb1c75afc92@example.com&gt;
++References: &lt;681fb71bcf6@example.com&gt;
++    &lt;de34bbcfcf7@example.com&gt;
++In-Reply-To: &lt;de34bbcfcf7@example.com&gt;
++To: Y &lt;y@example.com&gt;
++Cc: list@example.com
++MIME-Version: 1.0
++Content-Type: text/plain
++
++def
++EOM
++my %ibx = map {
++	$_ =&gt; create_inbox &#34;v$_-event_step&#34;, version =&gt; $_,
++			indexlevel =&gt; &#39;medium&#39;, sub {
++		my ($im, $ibx) = @_;
++		$im-&gt;add($one) or xbail &#39;add 1&#39;;
++		$im-&gt;add($two) or xbail &#39;add 2&#39;;
++	};
++} (1, 2);
++write_file &#39;&gt;&#39;, my $cfgpath = &#34;$tmpdir/config&#34;, &lt;&lt;EOM;
++[publicinbox &#34;list&#34;]
++	address = list\@example.com
++        url = <a
+href="http://example.com/list">http://example.com/list</a>
++	inboxdir = $ibx{1}-&gt;{inboxdir}
++[publicinbox &#34;list2&#34;]
++	address = list2\@example.com
++        url = <a
+href="http://example.com/list2">http://example.com/list2</a>
++	inboxdir = $ibx{2}-&gt;{inboxdir}
++EOM
++my $env = { TMPDIR =&gt; $tmpdir, PI_CONFIG =&gt; $cfgpath };
++my $client = sub {
++	my ($cb) = @_;
++	my $res = $cb-&gt;(GET(&#39;/list/de34bbcfcf7@example.com/&#39;));
++	is $res-&gt;code, 300, &#39;v1 300&#39;;
++	$res = $cb-&gt;(GET(&#39;/list2/de34bbcfcf7@example.com/&#39;));
++	is $res-&gt;code, 300, &#39;v2 300&#39;;
++};
++
++test_httpd($env, $client);
++{
++	require PublicInbox::WWW;
++	my $cfg = PublicInbox::Config-&gt;new($cfgpath);
++	my $www = PublicInbox::WWW-&gt;new($cfg);
++	test_psgi(sub { $www-&gt;call(@_) }, $client);
++}
++done_testing;
+</span></pre><hr><pre><a
+href="../87zf9kylbt.fsf@kyleam.com/"
+rel=next>next</a> <a
+href="../20251020193141.M515023@dcvr/"
+rel=prev>prev parent</a> <a
+href="#R">reply</a>	other threads:[<a
+href="../?t=20251021030346">~2025-10-21  3:03 UTC</a>|<a
+href="../">newest</a>]
+
+<b>Thread overview: </b>8+ messages / expand[<a
+href="T/#u">flat</a>|<a
+href="t/#u">nested</a>]  <a
+href="t.mbox.gz">mbox.gz</a>  <a
+href="t.atom">Atom feed</a>  <a
+href="#b">top</a>
+2025-10-13 21:41 <a
+href="../878qhewkbn.fsf@kyleam.com/">httpd error: Can&#39;t locate object method &#34;event_step&#34;</a> Kyle Meyer
+2025-10-13 22:06 ` <a
+href="../20251013220626.M169806@dcvr/">Eric Wong</a>
+2025-10-14  5:03   ` <a
+href="../871pn6vzvd.fsf@kyleam.com/">Kyle Meyer</a>
+2025-10-16  4:06     ` <a
+href="../877bwva3s4.fsf@kyleam.com/">Kyle Meyer</a>
+2025-10-16  8:37       ` <a
+href="../20251016083704.M241647@dcvr/">Eric Wong</a>
+2025-10-20 19:31         ` <a
+href="../20251020193141.M515023@dcvr/">Eric Wong</a>
+<b>2025-10-21  3:03           ` <a
+id=r
+href="#t">Eric Wong [this message]</a></b>
+2025-10-21  3:39             ` <a
+href="../87zf9kylbt.fsf@kyleam.com/">[PATCH] extmsg: fix Message-ID search for non-xap_helper users</a> Kyle Meyer
+</pre><form id=related
+action=../
+><pre>find likely ancestor, descendant, or conflicting patches for <a
+href=#t>this message</a>:
+<textarea name=q cols=72 rows=3>( dfblob:282db1d2 dfblob:3e9b33a3 dfblob:941d11ae )
+ OR (
+bs:&#34;extmsg: fix Message-ID search for non-xap_helper users&#34; )</textarea>
+<input type=submit value=search
+/>	(<a href=../_/text/help/#search>help</a>)</pre></form>
+<hr><pre
+id=R><b>Reply instructions:</b>
+
+You may reply publicly to <a
+href=#t>this message</a> via plain-text email
+using any one of the following methods:
+
+* Save the following mbox file, import it into your mail client,
+  and reply-to-all from there: <a
+href=raw>mbox</a>
+
+  Avoid top-posting and favor interleaved quoting:
+  <a
+href="https://en.wikipedia.org/wiki/Posting_style#Interleaved_style">https://en.wikipedia.org/wiki/Posting_style#Interleaved_style</a>
+
+  List information: <a
+href="https://public-inbox.org/README">https://public-inbox.org/README</a>
+
+* Reply using the <b>--to</b>, <b>--cc</b>, and <b>--in-reply-to</b>
+  switches of git-send-email(1):
+
+  git send-email \
+    --in-reply-to=20251021030346.M346444@dcvr \
+    --to=e@80x24.org \
+    --cc=kyle@kyleam.com \
+    --cc=meta@public-inbox.org \
+    /path/to/YOUR_REPLY
+
+  <a
+href="https://kernel.org/pub/software/scm/git/docs/git-send-email.html">https://kernel.org/pub/software/scm/git/docs/git-send-email.html</a>
+
+* If your mail client supports setting the <b>In-Reply-To</b> header
+  via mailto: links, try the <a
+href="mailto:e@80x24.org?In-Reply-To=%3C20251021030346.M346444@dcvr%3E&#38;Cc=kyle%40kyleam.com%2Cmeta%40public-inbox.org&#38;Subject=Re%3A%20%5BPATCH%5D%20extmsg%3A%20fix%20Message-ID%20search%20for%20non-xap_helper%20users">mailto: link</a>
+</pre>
+
+  Be sure your reply has a <b>Subject:</b> header at the top and a blank line
+  before the message body.
+<hr><pre><a id=code>Code repositories for project(s) associated with this public inbox
+
+	<a
+href="https://80x24.org/public-inbox.git">https://80x24.org/public-inbox.git</a>
+
+This is a public inbox, see <a
+href="../_/text/mirror/">mirroring instructions</a>
+for how to clone and mirror all data and code used for this inbox;
+as well as URLs for read-only IMAP folder(s) and NNTP newsgroup(s).</pre></body></html>

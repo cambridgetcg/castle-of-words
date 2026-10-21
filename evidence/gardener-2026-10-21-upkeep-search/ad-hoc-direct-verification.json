@@ -1,0 +1,16 @@
+{
+  "kind": "ad-hoc verification, not a canonical suite",
+  "verified_utc": "2026-10-21T09:20:29.740915+00:00",
+  "ok": true,
+  "tests_run": 7,
+  "failures": 0,
+  "errors": 0,
+  "temporary_checker": "/var/folders/bg/v8wn0t11067f0hzxkz7hp7rr0000gn/T/hermes-verify-l5741959.py",
+  "checker_sha256": "35944f44786fd500610b0f9e96ee99b785da009453d2c5adcdf57404edaa2c94",
+  "code_sha256": {
+    "research.py": "379ac75e8ce27384a175ada1648c13d065f406661f9f88bb88807dd5cdfb333b",
+    "verify.py": "0d84c5411bb85379400c5d38cef87a5347fa130c30e5c0b97847900328b5220f"
+  },
+  "deleted_staging_file_absent": true,
+  "limits": "Offline real-script checks and in-memory negative fixtures; no live searches or external-service validation."
+}

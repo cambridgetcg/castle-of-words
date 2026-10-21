@@ -1,0 +1,170 @@
+<html><head><title>f:kyle@kyleam.com slow - search results</title><link
+rel=alternate
+title="Atom feed"
+href="?q=f:kyle@kyleam.com+slow&amp;x=A"
+type="application/atom+xml"/><style>@import url("216light.css?69d631d8") screen AND (prefers-color-scheme:light);*{overflow-wrap:anywhere;font-size:100%;font-family:monospace}</style><link
+type=text/css
+rel=stylesheet
+href=216dark.css?69d631d8
+media=screen /><link
+type=text/css
+rel=stylesheet
+media=print
+href=216light.css?69d631d8 /></head><body><form
+action="./"><pre><a
+href="?t=20210411144522"><b>user/dev discussion of public-inbox itself</b></a>
+<input
+name=q
+type=text
+value="f:kyle@kyleam.com slow" /><input
+type=hidden
+name=x
+value="t" /><input
+type=submit
+value=search /> <a
+href="_/text/help/">help</a> / <a
+href="_/text/color/">color</a> / <a
+id=mirror
+href="_/text/mirror/">mirror</a> / <a
+href=#code>code</a> / <a
+href="?q=f:kyle@kyleam.com+slow&amp;x=A">Atom feed</a></pre></form><form
+id=d
+action="?q=f:kyle@kyleam.com+slow&amp;x=m"
+method=post><pre>Search results ordered by [<b>date</b>|<a
+href="?q=f:kyle@kyleam.com+slow&amp;r&amp;x=t">relevance</a>]  view[<a
+href="?q=f:kyle@kyleam.com+slow">summary</a>|<b>nested</b>|<a
+href="?q=f:kyle@kyleam.com+slow&amp;x=A">Atom feed</a>]
+thread overview <a
+href=#t>below</a> | download mbox.gz: <input
+type=submit
+name=z
+value="results only"/>|<input
+type=submit
+name=x
+value="full threads"/></pre></form><pre><a
+href=#ee45a09e5ed5e0a5412c61a55e0cbb493028ff715
+id=me45a09e5ed5e0a5412c61a55e0cbb493028ff715>*</a> <b>Re: [PATCH v2] www: do not obfuscate addresses in URLs</b>
+  <b>@ 2021-04-11 14:45 23%               ` Kyle Meyer</b>
+  <a
+href=#re45a09e5ed5e0a5412c61a55e0cbb493028ff715>0 siblings, 0 replies; 2+ results</a>
+From: Kyle Meyer @ 2021-04-11 14:45 UTC (<a
+href="877dl87udf.fsf@kyleam.com/">permalink</a> / <a
+href="877dl87udf.fsf@kyleam.com/raw">raw</a>)
+  To: Eric Wong; <b>+Cc:</b> <a
+href="https://public-inbox.org/meta/?t=20210411144522">meta</a>
+
+Eric Wong writes:
+
+<span
+class="q">&gt; Kyle Meyer &lt;kyle@kyleam.com&gt; wrote:
+&gt;&gt; | obfuscate   | run | wall |    usr |  sys |
+&gt;&gt; |-------------+-----+------+--------+------|
+&gt;&gt; | no          |   1 |   50 |  49.14 | 0.57 |
+&gt;&gt; | no          |   2 |   49 |  47.76 | 0.58 |
+&gt;&gt; |             |     |      |        |      |
+&gt;&gt; | yes, master |   1 |   56 |  54.47 | 0.58 |
+&gt;&gt; | yes, master |   2 |   55 |  54.24 | 0.58 |
+&gt;&gt; |             |     |      |        |      |
+&gt;&gt; | yes, patch  |   1 |  175 | 174.71 | 0.52 |
+&gt;&gt; | yes, patch  |   2 |  176 | 174.33 | 0.56 |
+&gt;
+&gt; Wow, that&#39;s horribly slow.  Probably not pathological, but still
+&gt; bad.
+</span>
+Yeah.  The difference was big enough that I was getting ready to kill
+the run and say &#34;dunno, much longer&#34; (or, rather, try with fewer
+messages) :)
+
+<span
+class="q">&gt; The following might be slightly faster (or roughly the
+&gt; same, hard to tell due to system noise).
+&gt;
+&gt; -------------8&lt;------------
+&gt; Subject: [PATCH] www: do not obfuscate addresses in URLs
+</span>
+Looking good on my end too:
+
+ (54.53 usr +  0.47 sys = 55.00 CPU) @  0.02/s (n=1) for 135885 &lt;=&gt; 135885 messages
+
+Thanks.
+
+<a
+href=#me45a09e5ed5e0a5412c61a55e0cbb493028ff715
+id=ee45a09e5ed5e0a5412c61a55e0cbb493028ff715>^</a> <a
+href="877dl87udf.fsf@kyleam.com/">permalink</a> <a
+href="877dl87udf.fsf@kyleam.com/raw">raw</a> <a
+href="877dl87udf.fsf@kyleam.com/#R">reply</a>	[relevance 23%]</pre><hr><pre><a
+href=#e54f013fb6e89a62660cea10c79d2c5fbd479ca5c
+id=m54f013fb6e89a62660cea10c79d2c5fbd479ca5c>*</a> <b>Re: [PATCH] doc: HACKING: add a bit about faster testing</b>
+  <b>@ 2020-04-20 13:26 23%           ` Kyle Meyer</b>
+  <a
+href=#r54f013fb6e89a62660cea10c79d2c5fbd479ca5c>0 siblings, 0 replies; 2+ results</a>
+From: Kyle Meyer @ 2020-04-20 13:26 UTC (<a
+href="87a736l24m.fsf@kyleam.com/">permalink</a> / <a
+href="87a736l24m.fsf@kyleam.com/raw">raw</a>)
+  To: Eric Wong; <b>+Cc:</b> <a
+href="https://public-inbox.org/meta/?t=20200420132620">meta</a>
+
+Eric Wong &lt;e@80x24.org&gt; writes:
+
+<span
+class="q">&gt; `make test&#39; is annoyingly slow, and `make check-run&#39; works
+&gt; wonders for improving the edit &#38;&#38; test cycle.
+&gt; ---
+&gt;  Documentation/txt2pre |  5 +++--
+&gt;  HACKING               | 18 ++++++++++++++++++
+&gt;  INSTALL               |  2 +-
+&gt;  3 files changed, 22 insertions(+), 3 deletions(-)
+</span>
+Great, thank you for the information!
+
+<a
+href=#m54f013fb6e89a62660cea10c79d2c5fbd479ca5c
+id=e54f013fb6e89a62660cea10c79d2c5fbd479ca5c>^</a> <a
+href="87a736l24m.fsf@kyleam.com/">permalink</a> <a
+href="87a736l24m.fsf@kyleam.com/raw">raw</a> <a
+href="87a736l24m.fsf@kyleam.com/#R">reply</a>	[relevance 23%]</pre></pre><hr><pre id=t>Results 1-2 of 2 | <a
+href="?q=f:kyle@kyleam.com+slow&amp;o=-1&amp;x=t">reverse</a> | options <a href=#d>above</a></pre><pre>-- pct% links below jump to the message on this page, permalinks otherwise --
+2020-04-12 21:59     <a
+href="20200412215933.GA63705@dcvr/">[RFC PATCH] watchmaildir: support multiple watchheader values</a> Eric Wong
+2020-04-20  0:13     ` <a
+href="20200420001332.14769-1-kyle@kyleam.com/">[PATCH v2]</a> &#34; Kyle Meyer
+2020-04-20  0:45       ` <a
+href="20200420004515.GA67768@dcvr/">Eric Wong</a>
+2020-04-20  1:13         ` <a
+href="877dybrmbx.fsf@kyleam.com/">Kyle Meyer</a>
+2020-04-20  1:32           ` <a
+href="20200420013211.GA30656@dcvr/">Eric Wong</a>
+2020-04-20  7:05             ` <a
+href="20200420070530.GA14660@dcvr/">[PATCH] doc: HACKING: add a bit about faster testing</a> Eric Wong
+2020-04-20 13:26 23%           ` <a
+href="#m54f013fb6e89a62660cea10c79d2c5fbd479ca5c"
+id=r54f013fb6e89a62660cea10c79d2c5fbd479ca5c>Kyle Meyer</a>
+2021-04-09  2:11     <a
+href="87a6q8p5qa.fsf@kyleam.com/">archive links broken with obfuscate=true</a> Kyle Meyer
+2021-04-09 10:21     ` <a
+href="20210409102129.GA16787@dcvr/">Eric Wong</a>
+2021-04-09 22:45       ` <a
+href="87zgy7rs9q.fsf@kyleam.com/">Kyle Meyer</a>
+2021-04-09 23:37         ` <a
+href="20210409233700.GA11190@dcvr/">Eric Wong</a>
+2021-04-10  4:06           ` <a
+href="87sg3ysrzu.fsf@kyleam.com/">Kyle Meyer</a>
+2021-04-10  5:15             ` <a
+href="20210410051550.GA4654@dcvr/">Eric Wong</a>
+2021-04-10 19:49               ` <a
+href="87wnt9or6t.fsf@kyleam.com/">Kyle Meyer</a>
+2021-04-11  5:32                 ` <a
+href="20210411053255.GA9477@dcvr/">[PATCH v2] www: do not obfuscate addresses in URLs</a> Eric Wong
+2021-04-11 14:45 23%               ` <a
+href="#me45a09e5ed5e0a5412c61a55e0cbb493028ff715"
+id=re45a09e5ed5e0a5412c61a55e0cbb493028ff715>Kyle Meyer</a>
+<hr><pre><a id=code>Code repositories for project(s) associated with this public inbox
+
+	<a
+href="https://80x24.org/public-inbox.git">https://80x24.org/public-inbox.git</a>
+
+This is a public inbox, see <a
+href="_/text/mirror/">mirroring instructions</a>
+for how to clone and mirror all data and code used for this inbox;
+as well as URLs for read-only IMAP folder(s) and NNTP newsgroup(s).</pre></body></html>

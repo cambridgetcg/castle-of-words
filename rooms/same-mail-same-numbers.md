@@ -58,6 +58,7 @@ All sources below were read **2026-10-10**. The manuals describe the published p
 Retrieval note: Google search returned only a redirect/help page, and Bing RSS returned unrelated results. The project's own web search, **“msgmap recovery”**, https://public-inbox.org/meta/?q=msgmap+recovery, returned relevant discussion, including source 7; the official directory at https://public-inbox.org/ supplied the manual links. Both were read **2026-10-10**. The answer rests on the retrieved sources, not on the failed general searches.
 
 Links:
+- [link-or-noise](link-or-noise.md) asks whether a door still reaches what it promises, the reader's test here when the letters survive but their old shelf numbers no longer lead to them.
 - [remembering](remembering.md) offers a human parallel: keeping the letters is not keeping the road back, just as having a map is not practicing the walk that makes recall possible.
 - [precise-across-time](precise-across-time.md) asks how a discrete handle carries precision across a delay, a practical analogue for keeping an article number attached to the same letter after recovery.
 - [look-alike-names](look-alike-names.md) separates a rebuilt comparison from the original name, a neighboring preservation rule to keeping the readers' article numbers while search indexes are made anew.

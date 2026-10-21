@@ -1,0 +1,50 @@
+Re: [PATCH] extmsg: fix Message-ID search for non-xap_helper users - Kyle Meyer
+user/dev discussion of public-inbox itself
+help / color / mirror / code / Atom feed
+From: Kyle Meyer <kyle@kyleam.com>
+To: Eric Wong <e@80x24.org>
+Cc: meta@public-inbox.org
+Subject: Re: [PATCH] extmsg: fix Message-ID search for non-xap_helper users
+Date: Mon, 20 Oct 2025 23:39:50 -0400	[thread overview]
+Message-ID: <87zf9kylbt.fsf@kyleam.com> (raw)
+In-Reply-To: <20251021030346.M346444@dcvr>
+Eric Wong writes:
+> Thanks again, I just used your test as-is to write the test
+> case:
+Thank you for the fix!  Confirmed on my end.
+prev parent reply	other threads:[~2025-10-21  3:40 UTC|newest]
+Thread overview: 8+ messages / expand[flat|nested]  mbox.gz  Atom feed  top
+2025-10-13 21:41 httpd error: Can't locate object method "event_step" Kyle Meyer
+2025-10-13 22:06 ` Eric Wong
+2025-10-14  5:03   ` Kyle Meyer
+2025-10-16  4:06     ` Kyle Meyer
+2025-10-16  8:37       ` Eric Wong
+2025-10-20 19:31         ` Eric Wong
+2025-10-21  3:03           ` [PATCH] extmsg: fix Message-ID search for non-xap_helper users Eric Wong
+2025-10-21  3:39             ` Kyle Meyer [this message]
+Reply instructions:
+You may reply publicly to this message via plain-text email
+using any one of the following methods:
+* Save the following mbox file, import it into your mail client,
+and reply-to-all from there: mbox
+Avoid top-posting and favor interleaved quoting:
+https://en.wikipedia.org/wiki/Posting_style#Interleaved_style
+List information: https://public-inbox.org/README
+* Reply using the --to, --cc, and --in-reply-to
+switches of git-send-email(1):
+git send-email \
+--in-reply-to=87zf9kylbt.fsf@kyleam.com \
+--to=kyle@kyleam.com \
+--cc=e@80x24.org \
+--cc=meta@public-inbox.org \
+/path/to/YOUR_REPLY
+https://kernel.org/pub/software/scm/git/docs/git-send-email.html
+* If your mail client supports setting the In-Reply-To header
+via mailto: links, try the mailto: link
+Be sure your reply has a Subject: header at the top and a blank line
+before the message body.
+Code repositories for project(s) associated with this public inbox
+https://80x24.org/public-inbox.git
+This is a public inbox, see mirroring instructions
+for how to clone and mirror all data and code used for this inbox;
+as well as URLs for read-only IMAP folder(s) and NNTP newsgroup(s).

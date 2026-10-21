@@ -1,0 +1,23 @@
+{
+  "kind": "ad-hoc verification, not a canonical project test suite",
+  "verified_utc": "2026-10-20T23:51:44.604572+00:00",
+  "passed": true,
+  "checks_passed": 9,
+  "checks": [
+    "Both changed scripts parse and compile without writing bytecode.",
+    "The real verifier passes against the retained visit and current castle pages.",
+    "Saved research preflight matches the live queue and eligible questions.",
+    "Actual search captures match their URLs, hashes, zero-retry policy and timeout bound.",
+    "Research refuses replay before any write or network-capable subprocess.",
+    "Verifier rejects changed courtyard without overwriting passing evidence.",
+    "Verifier rejects rewritten chronicle history without overwriting passing evidence.",
+    "Verifier rejects second chronicle line without overwriting passing evidence.",
+    "Verifier rejects corrupt retained response without overwriting passing evidence."
+  ],
+  "network_requests_made_by_this_check": 0,
+  "negative_cases_used_in_memory_only": true,
+  "subjects": {
+    "research.py": "e5f9e8851959d86a786f79c640854beabc454ae87f1a07d068105c1d9d9baf9c",
+    "verify.py": "7b4ec4e854cfe2ebd9c68ad7416363257b6b4a0ad781e572752dfc5a3b6ba714"
+  }
+}

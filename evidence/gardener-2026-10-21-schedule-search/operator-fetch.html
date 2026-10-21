@@ -1,0 +1,112 @@
+<html><head><title>f:kyle@kyleam.com &#34;public-inbox-fetch&#34; - search results</title><link
+rel=alternate
+title="Atom feed"
+href="?q=f:kyle@kyleam.com+%22public-inbox-fetch%22&amp;x=A"
+type="application/atom+xml"/><style>@import url("216light.css?69d631d8") screen AND (prefers-color-scheme:light);*{overflow-wrap:anywhere;font-size:100%;font-family:monospace}</style><link
+type=text/css
+rel=stylesheet
+href=216dark.css?69d631d8
+media=screen /><link
+type=text/css
+rel=stylesheet
+href=216light.css?69d631d8
+media=print /></head><body><form
+action="./"><pre><a
+href="?t=20210915224532"><b>user/dev discussion of public-inbox itself</b></a>
+<input
+name=q
+type=text
+value="f:kyle@kyleam.com &#34;public-inbox-fetch&#34;" /><input
+type=hidden
+name=x
+value="t" /><input
+type=submit
+value=search /> <a
+href="_/text/help/">help</a> / <a
+href="_/text/color/">color</a> / <a
+id=mirror
+href="_/text/mirror/">mirror</a> / <a
+href=#code>code</a> / <a
+href="?q=f:kyle@kyleam.com+%22public-inbox-fetch%22&amp;x=A">Atom feed</a></pre></form><form
+id=d
+action="?q=f:kyle@kyleam.com+%22public-inbox-fetch%22&amp;x=m"
+method=post><pre>Search results ordered by [<b>date</b>|<a
+href="?q=f:kyle@kyleam.com+%22public-inbox-fetch%22&amp;r&amp;x=t">relevance</a>]  view[<a
+href="?q=f:kyle@kyleam.com+%22public-inbox-fetch%22">summary</a>|<b>nested</b>|<a
+href="?q=f:kyle@kyleam.com+%22public-inbox-fetch%22&amp;x=A">Atom feed</a>]
+thread overview <a
+href=#t>below</a> | download mbox.gz: <input
+type=submit
+name=z
+value="results only"/>|<input
+type=submit
+name=x
+value="full threads"/></pre></form><pre><a
+href=#e9a1b2faf2ef47af8d8b47fe6f9567b89d8c35e19
+id=m9a1b2faf2ef47af8d8b47fe6f9567b89d8c35e19>*</a> <b>Re: [PATCH 3/5] clone|fetch|--mirror: add convenience $INBOX_DIR/Makefile</b>
+  <b>@ 2021-09-15 22:45 13%   ` Kyle Meyer</b>
+  <a
+href=#r9a1b2faf2ef47af8d8b47fe6f9567b89d8c35e19>0 siblings, 0 replies; 1+ results</a>
+From: Kyle Meyer @ 2021-09-15 22:45 UTC (<a
+href="87r1dpv4op.fsf@kyleam.com/">permalink</a> / <a
+href="87r1dpv4op.fsf@kyleam.com/raw">raw</a>)
+  To: Eric Wong; <b>+Cc:</b> <a
+href="https://public-inbox.org/meta/?t=20210915224532">meta</a>
+
+Eric Wong writes:
+
+<span
+class="q">&gt; Since the beginning of time, I&#39;ve been dropping Makefiles
+&gt; in $INBOX_DIR (and above hiearchies) to organize groups
+&gt; of commands.
+&gt;
+&gt; make(1) is widely available in various flavors and a familiar
+&gt; tool for our target audience.  It is easy to run in the right
+&gt; directory, typically has built-in shell completion, and doesn&#39;t
+&gt; silently ignore errors by default like Bourne shell.
+</span>
+Sounds like a nice idea.
+
+[...]
+<span
+class="q">&gt; +sub write_makefile {
+&gt; +	my ($dir, $ibx_ver) = @_;
+&gt; +	my $f = &#34;$dir/Makefile&#34;;
+&gt; +	if (sysopen my $fh, $f, O_CREAT|O_EXCL|O_WRONLY) {
+&gt; +		print $fh &lt;&lt;EOM or die &#34;print($f) $!&#34;;
+&gt; +# This is a v$ibx_ver public-inbox, see the public-inbox-v$ibx_ver-format(5)
+&gt; +# manpage for more information on the format.  This Makefile is
+&gt; +# intended as a familiar wrapper for users unfamiliar with
+&gt; +# public-inbox-* commands.
+&gt; +#
+&gt; +# See the respective manpages for public-inbox-fetch(1),
+&gt; +# public-inbox-index(1), etc for more information on
+&gt; +# some of the commands used by this Makefile.
+&gt; +#
+&gt; +# This Makefile will not modified nor read by public-inbox,
+</span>
+missing &#34;be&#34; before &#34;modified&#34;
+
+<a
+href=#m9a1b2faf2ef47af8d8b47fe6f9567b89d8c35e19
+id=e9a1b2faf2ef47af8d8b47fe6f9567b89d8c35e19>^</a> <a
+href="87r1dpv4op.fsf@kyleam.com/">permalink</a> <a
+href="87r1dpv4op.fsf@kyleam.com/raw">raw</a> <a
+href="87r1dpv4op.fsf@kyleam.com/#R">reply</a>	[relevance 13%]</pre></pre><hr><pre id=t>Results 1-1 of 1 | <a
+href="?q=f:kyle@kyleam.com+%22public-inbox-fetch%22&amp;o=-1&amp;x=t">reverse</a> | options <a href=#d>above</a></pre><pre>-- pct% links below jump to the message on this page, permalinks otherwise --
+2021-09-15 21:35     <a
+href="20210915213559.21757-1-e@80x24.org/">[PATCH 0/5] make(1) inspired things</a> Eric Wong
+2021-09-15 21:35     ` <a
+href="20210915213559.21757-4-e@80x24.org/">[PATCH 3/5] clone|fetch|--mirror: add convenience $INBOX_DIR/Makefile</a> Eric Wong
+2021-09-15 22:45 13%   ` <a
+href="#m9a1b2faf2ef47af8d8b47fe6f9567b89d8c35e19"
+id=r9a1b2faf2ef47af8d8b47fe6f9567b89d8c35e19>Kyle Meyer</a>
+<hr><pre><a id=code>Code repositories for project(s) associated with this public inbox
+
+	<a
+href="https://80x24.org/public-inbox.git">https://80x24.org/public-inbox.git</a>
+
+This is a public inbox, see <a
+href="_/text/mirror/">mirroring instructions</a>
+for how to clone and mirror all data and code used for this inbox;
+as well as URLs for read-only IMAP folder(s) and NNTP newsgroup(s).</pre></body></html>

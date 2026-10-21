@@ -1,0 +1,43 @@
+"yhetil" "delay" - Brave Search
+Ask
+All
+Images
+News
+Videos
+Maps
+Goggles
+Query contains search operators
+Ignore operators
+Yhetil
+yhetil.org › emacs
+all messages for Emacs-related lists mirrored at yhetil.org
+[9.7-pre (release_9.6.29-1441-gaa71fa ... destroys setting of :enable-function 2024-05-22 8:34 UTC A possible CUA-mode bug about `cua-prefix-override-inhibit-delay` and its workaround 2024-05-22 7:25 UTC...
+Yhetil
+yhetil.org › orgmode
+unofficial mirror of emacs-orgmode@gnu.org
+2021-05-03 23:32 UTC (2+ messages) - mbox.gz / Atom [PATCH] A proposal to add LaTeX attributes to verse blocks 2021-05-03 23:22 UTC (8+ messages) - mbox.gz / Atom Bug: org-agenda-later scrolls buffer unnecessarily [9.4 (9.4-7-g3eccc5-elpaplus @ /home/gustavo/.emacs.d/elpa/org-plus-contrib-20200921/)] 2021-05-03 22:47 UTC (5+ messages) - mbox.gz / Atom Delay all occurences for a heading scheduled with repeater not work 2021-05-03 22:33 UTC (2+ messages) - mbox.gz / Atom Commit message instructions on the website 2021-05-03 19:24 UTC (3+ messages) - mbox.gz / Atom [patch suggestion] Mitigating t
+Yhetil
+yhetil.org › guix
+all messages for Guix-related lists mirrored at yhetil.org
+20 July 2024 - ` [bug#44518] [PATCH v3 00/25] ... ` [bug#71938] [PATCH v3 15/25] gnu: ghc-text-zipper: Update to 0.13 ` [bug#44518] [PATCH v3 16/25] gnu: Add ghc-stm-delay ` [bug#44518] [PATCH v3 17/25] gnu: Add ghc-unique ` [bug#44518] [PATCH v3 18/25] gnu: Add ghc-unix-compat-7 ` [bug#71938] ...
+Yhetil
+yhetil.org › emacs-devel
+unofficial mirror of emacs-devel@gnu.org
+Proposal for an improved ... native-compilation 2021-04-23 13:46 UTC (7+ messages) - mbox.gz / Atom [elpa] externals/pyim 25903ae 3/8: pyim-exhibit-delay-ms -> pyim-entered-exhibit-delay-ms 2021-04-23 13:37 UTC - mbox.gz / Atom master ac6b62b: * lisp/time.el (world-clock-mode): ...
+Orgmode
+list.orgmode.org › orgmode  › 87pl4lul8r.fsf@localhost
+[BLOG] #27 bbb:OrgMeetup on Wed, February 11, 19:00 UTC+3 - Ihor Radchenko
+Here, no consideration for breaking workflows is to be done This idea is similar to recent idea of "newcomer theme" discussed on emacs-devel. https://yhetil.org/emacs-devel/87wm0f2rng.fsf@posteo.net/ - Morgan commented on dicoverability: one can create a social media platform where various Emacs tricks are surfaces by AI - That's not new at all - We have https://old.reddit.com/r/emacs/comments/1s229ve/fortnightly_tips_tricks_and_questions_20260324/ - We have https://planet.emacslife.com/ - There is https://web.libera.chat/#emacs-til - There is https://fosstodon.org/tags/Emacs.rss - Better get insights from real people :) It is not like there is a shortage - If we want something more persistent...
+EmacsConf
+emacsconf.org › 2023  › talks  › gc
+EmacsConf - 2023 - talks - emacs-gc-stats: Does garbage collection actually slow down Emacs?
+10 December 2023 - But apart from the duration of each individual gc it is important to see how frequent it is because even if you do notice a delay even a few seconds delay it doesn't matter if it happens once during the whole Emacs session.
+Find elsewhere
+Google Bing Mojeek
+Next
+Resources
+Brave Search Premium Brave Search help Transparency report Report a security issue Status
+Products
+Brave Browser Brave Search Brave Wallet Brave Talk Brave Firewall + VPN Brave Playlist Brave News Brave Rewards Brave Search API Brave Ads
+Policies
+Privacy Policy Terms of Use
