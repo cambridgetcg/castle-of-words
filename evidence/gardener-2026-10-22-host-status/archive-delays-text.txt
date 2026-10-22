@@ -1,0 +1,17 @@
+f:kyleam.com (slow OR latency OR stall OR delayed) - search results
+user/dev discussion of public-inbox itself
+help / color / mirror / code / Atom feed
+Search results ordered by [date|relevance]  view[summary|nested|Atom feed]
+download mbox.gz: |
+1. Re: [PATCH 9/9] lei up: automatically use dt: for remote externals
+- by Kyle Meyer @ 2021-09-18 14:31 UTC [5%]
+2. Re: [PATCH v2] www: do not obfuscate addresses in URLs
+- by Kyle Meyer @ 2021-04-11 14:45 UTC [5%]
+3. Re: [PATCH] doc: HACKING: add a bit about faster testing
+- by Kyle Meyer @ 2020-04-20 13:26 UTC [5%]
+Results 1-3 of 3 | reverse | options above
+Code repositories for project(s) associated with this public inbox
+https://80x24.org/public-inbox.git
+This is a public inbox, see mirroring instructions
+for how to clone and mirror all data and code used for this inbox;
+as well as URLs for read-only IMAP folder(s) and NNTP newsgroup(s).

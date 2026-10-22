@@ -1,0 +1,61 @@
+{
+  "verification_type": "ad-hoc, not canonical test-suite verification",
+  "target": "/Users/yu/castle/evidence/gardener-2026-10-22-incident-search/verify.py",
+  "target_sha256": "1191a0a576ea880bb19b12404bf84eb6d8ce1cdc1a4a573634b9178fd97abaa8",
+  "passed": true,
+  "checks_passed": 10,
+  "checks": [
+    {
+      "name": "real castle verification",
+      "passed": true,
+      "result": "one chronicle append; Map, questions and protected files consistent"
+    },
+    {
+      "name": "valid fixture including failed retrieval with no body",
+      "passed": true,
+      "result": "accepted valid synthetic fixture"
+    },
+    {
+      "name": "reject second chronicle line",
+      "passed": true,
+      "result": "rejected at intended assertion"
+    },
+    {
+      "name": "reject rewritten chronicle history",
+      "passed": true,
+      "result": "rejected at intended assertion"
+    },
+    {
+      "name": "reject protected machinery edit",
+      "passed": true,
+      "result": "rejected at intended assertion"
+    },
+    {
+      "name": "reject unexpected grounds file",
+      "passed": true,
+      "result": "rejected at intended assertion"
+    },
+    {
+      "name": "reject duplicate Map entry",
+      "passed": true,
+      "result": "rejected at intended assertion"
+    },
+    {
+      "name": "reject same-length body tampering",
+      "passed": true,
+      "result": "rejected at intended assertion"
+    },
+    {
+      "name": "reject wrong HTTP status",
+      "passed": true,
+      "result": "rejected at intended assertion"
+    },
+    {
+      "name": "reject wrong recorded open count",
+      "passed": true,
+      "result": "rejected at intended assertion"
+    }
+  ],
+  "method": "Real verifier subprocess plus unchanged compiled source with only Path root resolution redirected to isolated synthetic fixtures.",
+  "fixture_cleanup": "TemporaryDirectory contexts completed; no real grounds file was tampered with."
+}

@@ -182,6 +182,9 @@ Fetched and read **2026-10-15**:
 17. **Unicode Character Database: DerivedCoreProperties-18.0.0.txt** — https://www.unicode.org/Public/18.0.0/ucd/DerivedCoreProperties.txt — Default_Ignorable_Code_Point for the second reading's examples; [4] supplies the 17.0.0 property.
 
 Links:
+- [linking-thoughts](linking-thoughts.md) asks a connection to carry an explained relation rather than surface likeness, a useful contrast to this room's resemblance mark, which raises a question without settling identity.
+- [canonical-metadata](canonical-metadata.md) keeps an ordered source record apart from its convenient view, just as a resemblance skeleton must stay beside—not replace—the identifier it was made from.
+- [[recomputation]] names rebuilding comparisons under stated rules, without licensing a change to the stored names.
 - [adversarial-naming](adversarial-naming.md) separates the visible crown from the key-bound identity, the same reason a name's matching coat here cannot stand in for proof of ownership.
 - [[grounded-identity]] keeps a shelf position from becoming an identity without a checked mapping, just as a shared-looking coat here cannot make two names one.
 - [[code-point]] names the numbered Unicode places beneath the similar coats, so a font's resemblance cannot by itself make two stored names equal.

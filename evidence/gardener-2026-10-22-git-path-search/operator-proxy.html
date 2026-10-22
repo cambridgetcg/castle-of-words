@@ -1,0 +1,134 @@
+<html><head><title>Re: [PATCH 3/4] http: introduce a reverse proxy PSGI app - Kyle Meyer</title><link
+rel=alternate
+title="Atom feed"
+href="../new.atom"
+type="application/atom+xml"/><style>@import url("../216light.css?69d631d8") screen AND (prefers-color-scheme:light);*{overflow-wrap:anywhere;font-size:100%;font-family:monospace}</style><link
+type=text/css
+rel=stylesheet
+href=../216dark.css?69d631d8
+media=screen /><link
+type=text/css
+rel=stylesheet
+href=../216light.css?69d631d8
+media=print /></head><body><form
+action="../"><pre><a
+href="../?t=20250713030934"><b>user/dev discussion of public-inbox itself</b></a>
+<input
+name=q
+type=text /><input
+type=submit
+value=search /> <a
+href="../_/text/help/">help</a> / <a
+href="../_/text/color/">color</a> / <a
+id=mirror
+href="../_/text/mirror/">mirror</a> / <a
+href=#code>code</a> / <a
+href="../new.atom">Atom feed</a></pre></form><pre
+id=b>From: Kyle Meyer &lt;kyle@kyleam.com&gt;
+To: Eric Wong &lt;e@80x24.org&gt;
+Cc: <a
+href="https://public-inbox.org/meta/?t=20250713030934">meta@public-inbox.org</a>
+Subject: <a
+href="#r"
+id=t>Re: [PATCH 3/4] http: introduce a reverse proxy PSGI app</a>
+Date: Sat, 12 Jul 2025 23:08:12 -0400	<a
+href="#r">[thread overview]</a>
+Message-ID: &lt;87sej04wkj.fsf@kyleam.com&gt; (<a href="raw">raw</a>)
+In-Reply-To: &lt;<a
+href="../20250713000836.2623715-4-e@80x24.org/">20250713000836.2623715-4-e@80x24.org</a>&gt;
+
+Eric Wong writes:
+
+<span
+class="q">&gt; This PSGI reverse proxy has been fronting <a
+href="https://public-inbox.org">https://public-inbox.org</a>
+&gt; and the <a
+href="https://yhbt.net/lore/">https://yhbt.net/lore/</a> mirror for over a month, now.
+</span>
+Neat.
+
+<span
+class="q">&gt; diff --git a/lib/PublicInbox/H1ReqRes.pm b/lib/PublicInbox/H1ReqRes.pm
+</span>[...]
+<span
+class="q">&gt; +	$v = $env-&gt;{CONTENT_TYPE} and $req .= &#34;Content-Type: $v\r\n&#34;;
+&gt; +	# psgi.input is always has an fstat(2)-able FD behind it w/ pi-httpd
+</span>
+s/is always/always/ ?
+</pre><hr><pre><a
+href="../20250713230544.M16450@dcvr/"
+rel=next>next</a> <a
+href="../20250713000836.2623715-4-e@80x24.org/"
+rel=prev>prev parent</a> <a
+href="#R">reply</a><a id=related>	</a>other threads:[<a
+href="../?t=20250713030934">~2025-07-13  3:09 UTC</a>|<a
+href="../">newest</a>]
+
+<b>Thread overview: </b>7+ messages / expand[<a
+href="T/#u">flat</a>|<a
+href="t/#u">nested</a>]  <a
+href="t.mbox.gz">mbox.gz</a>  <a
+href="t.atom">Atom feed</a>  <a
+href="#b">top</a>
+2025-07-13  0:08 <a
+href="../20250713000836.2623715-1-e@80x24.org/">[PATCH 0/4] PSGI reverse proxy implementation</a> Eric Wong
+2025-07-13  0:08 ` <a
+href="../20250713000836.2623715-2-e@80x24.org/">[PATCH 1/4] listener: throttle errors for resource limits</a> Eric Wong
+2025-07-13  0:08 ` <a
+href="../20250713000836.2623715-3-e@80x24.org/">[PATCH 2/4] http: expose reused connection counter in PSGI env</a> Eric Wong
+2025-07-13  0:08 ` <a
+href="../20250713000836.2623715-4-e@80x24.org/">[PATCH 3/4] http: introduce a reverse proxy PSGI app</a> Eric Wong
+<b>2025-07-13  3:08   ` <a
+id=r
+href="#t">Kyle Meyer [this message]</a></b>
+2025-07-13 23:05     ` <a
+href="../20250713230544.M16450@dcvr/">Eric Wong</a>
+2025-07-13  0:08 ` <a
+href="../20250713000836.2623715-5-e@80x24.org/">[PATCH 4/4] contrib: PSGI RejectBots middleware</a> Eric Wong
+</pre><hr><pre
+id=R><b>Reply instructions:</b>
+
+You may reply publicly to <a
+href=#t>this message</a> via plain-text email
+using any one of the following methods:
+
+* Save the following mbox file, import it into your mail client,
+  and reply-to-all from there: <a
+href=raw>mbox</a>
+
+  Avoid top-posting and favor interleaved quoting:
+  <a
+href="https://en.wikipedia.org/wiki/Posting_style#Interleaved_style">https://en.wikipedia.org/wiki/Posting_style#Interleaved_style</a>
+
+  List information: <a
+href="https://public-inbox.org/README">https://public-inbox.org/README</a>
+
+* Reply using the <b>--to</b>, <b>--cc</b>, and <b>--in-reply-to</b>
+  switches of git-send-email(1):
+
+  git send-email \
+    --in-reply-to=87sej04wkj.fsf@kyleam.com \
+    --to=kyle@kyleam.com \
+    --cc=e@80x24.org \
+    --cc=meta@public-inbox.org \
+    /path/to/YOUR_REPLY
+
+  <a
+href="https://kernel.org/pub/software/scm/git/docs/git-send-email.html">https://kernel.org/pub/software/scm/git/docs/git-send-email.html</a>
+
+* If your mail client supports setting the <b>In-Reply-To</b> header
+  via mailto: links, try the <a
+href="mailto:kyle@kyleam.com?In-Reply-To=%3C87sej04wkj.fsf@kyleam.com%3E&#38;Cc=e%4080x24.org%2Cmeta%40public-inbox.org&#38;Subject=Re%3A%20%5BPATCH%203%2F4%5D%20http%3A%20introduce%20a%20reverse%20proxy%20PSGI%20app">mailto: link</a>
+</pre>
+
+  Be sure your reply has a <b>Subject:</b> header at the top and a blank line
+  before the message body.
+<hr><pre><a id=code>Code repositories for project(s) associated with this public inbox
+
+	<a
+href="https://80x24.org/public-inbox.git">https://80x24.org/public-inbox.git</a>
+
+This is a public inbox, see <a
+href="../_/text/mirror/">mirroring instructions</a>
+for how to clone and mirror all data and code used for this inbox;
+as well as URLs for read-only IMAP folder(s) and NNTP newsgroup(s).</pre></body></html>

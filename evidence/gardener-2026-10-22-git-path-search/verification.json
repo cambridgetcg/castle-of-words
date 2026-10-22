@@ -1,0 +1,56 @@
+{
+  "mode": "final",
+  "changed_castle_prose": [
+    "chronicle.md",
+    "gate.md",
+    "rooms/what-the-gaps-can-say.md",
+    "words/deployment-claim.md"
+  ],
+  "courtyard_items": 0,
+  "researched": 1,
+  "answered": 0,
+  "planted": 0,
+  "open_questions": 16,
+  "open_quests": 8,
+  "rooms": 697,
+  "map_entries": 697,
+  "map_exact_once": true,
+  "garden_files_unchanged": 84,
+  "question_quest_courtyard_bytes_unchanged": true,
+  "new_or_deleted_root_room_word_files": 0,
+  "source_retrievals": [
+    {
+      "label": "archive-git",
+      "status": 200,
+      "bytes": 21107,
+      "hash_verified": true
+    },
+    {
+      "label": "archive-maintenance",
+      "status": 200,
+      "bytes": 2337,
+      "hash_verified": true
+    },
+    {
+      "label": "operator-proxy",
+      "status": 200,
+      "bytes": 5138,
+      "hash_verified": true
+    },
+    {
+      "label": "proxy-patch",
+      "status": 200,
+      "bytes": 33788,
+      "hash_verified": true
+    },
+    {
+      "label": "web-git",
+      "status": 200,
+      "bytes": 267969,
+      "hash_verified": true
+    }
+  ],
+  "chronicle_original_prefix_preserved": true,
+  "chronicle_added_lines": 1,
+  "checks": "passed"
+}

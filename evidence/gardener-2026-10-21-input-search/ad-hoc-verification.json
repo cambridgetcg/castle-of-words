@@ -1,0 +1,19 @@
+{
+  "kind": "ad-hoc verification, not a canonical project test suite",
+  "verified_utc": "2026-10-21T21:58:30.166190+00:00",
+  "checks_passed": true,
+  "check_count": 7,
+  "checks": [
+    "research.py: syntax compiles without writing bytecode",
+    "verify.py: syntax compiles without writing bytecode",
+    "verify.py: fresh real-file verification passes",
+    "research.py: queue, Map, snapshot and two search URLs pass with writes intercepted and fetches stubbed",
+    "research.py: existing starting record is rejected before side effects",
+    "verify.py: rejects altered retained source bytes (in-memory fault only)",
+    "verify.py: rejects a second chronicle addition (in-memory fault only)"
+  ],
+  "production_code_and_castle_markdown_unchanged": true,
+  "new_web_requests": 0,
+  "limits": "Research networking was stubbed; original fetch receipts were integrity-checked, not fetched again. No claim of host deployment verification.",
+  "temporary_script_removed": true
+}

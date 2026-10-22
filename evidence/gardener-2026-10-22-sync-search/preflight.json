@@ -1,0 +1,79 @@
+{
+  "captured_utc": "2026-10-22T20:08:58.355839+00:00",
+  "questions": [
+    {
+      "line": 26,
+      "reserved": true
+    },
+    {
+      "line": 35,
+      "reserved": true
+    },
+    {
+      "line": 299,
+      "reserved": true
+    },
+    {
+      "line": 483,
+      "reserved": true
+    },
+    {
+      "line": 537,
+      "reserved": true
+    },
+    {
+      "line": 657,
+      "reserved": true
+    },
+    {
+      "line": 691,
+      "reserved": true
+    },
+    {
+      "line": 740,
+      "reserved": false
+    },
+    {
+      "line": 744,
+      "reserved": false
+    },
+    {
+      "line": 766,
+      "reserved": false
+    },
+    {
+      "line": 782,
+      "reserved": true
+    },
+    {
+      "line": 784,
+      "reserved": true
+    },
+    {
+      "line": 794,
+      "reserved": true
+    },
+    {
+      "line": 816,
+      "reserved": true
+    },
+    {
+      "line": 832,
+      "reserved": true
+    },
+    {
+      "line": 862,
+      "reserved": true
+    }
+  ],
+  "eligible_oldest_first": [
+    740,
+    744,
+    766
+  ],
+  "open_questions": 16,
+  "courtyard_items": 0,
+  "room_count": 697,
+  "map_entries": 697,
+  "map_exact_once": true
+}

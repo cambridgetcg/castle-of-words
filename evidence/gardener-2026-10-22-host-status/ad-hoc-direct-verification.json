@@ -1,0 +1,12 @@
+{
+  "verification_kind": "ad-hoc, not canonical suite green",
+  "checks_run": 7,
+  "all_passed": true,
+  "network_requests": 0,
+  "current_code_sha256": {
+    "research.py": "3ce0882e80e58a5ce18e4c229a1284ccb651a9a678b825654ae754c81c5aedd8",
+    "verify.py": "82172d3dad492a33f1f701576de4d6db047fb89415ef03322dde5610d32709d9"
+  },
+  "prior_16_checks_still_match_code": true,
+  "deleted_staging_path_confirmed_absent": true
+}

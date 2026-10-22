@@ -1,0 +1,54 @@
+Re: [PATCH 3/4] http: introduce a reverse proxy PSGI app - Kyle Meyer
+user/dev discussion of public-inbox itself
+help / color / mirror / code / Atom feed
+From: Kyle Meyer <kyle@kyleam.com>
+To: Eric Wong <e@80x24.org>
+Cc: meta@public-inbox.org
+Subject: Re: [PATCH 3/4] http: introduce a reverse proxy PSGI app
+Date: Sat, 12 Jul 2025 23:08:12 -0400	[thread overview]
+Message-ID: <87sej04wkj.fsf@kyleam.com> (raw)
+In-Reply-To: <20250713000836.2623715-4-e@80x24.org>
+Eric Wong writes:
+> This PSGI reverse proxy has been fronting https://public-inbox.org
+> and the https://yhbt.net/lore/ mirror for over a month, now.
+Neat.
+> diff --git a/lib/PublicInbox/H1ReqRes.pm b/lib/PublicInbox/H1ReqRes.pm
+[...]
+> +	$v = $env->{CONTENT_TYPE} and $req .= "Content-Type: $v\r\n";
+> +	# psgi.input is always has an fstat(2)-able FD behind it w/ pi-httpd
+s/is always/always/ ?
+next prev parent reply	other threads:[~2025-07-13  3:09 UTC|newest]
+Thread overview: 7+ messages / expand[flat|nested]  mbox.gz  Atom feed  top
+2025-07-13  0:08 [PATCH 0/4] PSGI reverse proxy implementation Eric Wong
+2025-07-13  0:08 ` [PATCH 1/4] listener: throttle errors for resource limits Eric Wong
+2025-07-13  0:08 ` [PATCH 2/4] http: expose reused connection counter in PSGI env Eric Wong
+2025-07-13  0:08 ` [PATCH 3/4] http: introduce a reverse proxy PSGI app Eric Wong
+2025-07-13  3:08   ` Kyle Meyer [this message]
+2025-07-13 23:05     ` Eric Wong
+2025-07-13  0:08 ` [PATCH 4/4] contrib: PSGI RejectBots middleware Eric Wong
+Reply instructions:
+You may reply publicly to this message via plain-text email
+using any one of the following methods:
+* Save the following mbox file, import it into your mail client,
+and reply-to-all from there: mbox
+Avoid top-posting and favor interleaved quoting:
+https://en.wikipedia.org/wiki/Posting_style#Interleaved_style
+List information: https://public-inbox.org/README
+* Reply using the --to, --cc, and --in-reply-to
+switches of git-send-email(1):
+git send-email \
+--in-reply-to=87sej04wkj.fsf@kyleam.com \
+--to=kyle@kyleam.com \
+--cc=e@80x24.org \
+--cc=meta@public-inbox.org \
+/path/to/YOUR_REPLY
+https://kernel.org/pub/software/scm/git/docs/git-send-email.html
+* If your mail client supports setting the In-Reply-To header
+via mailto: links, try the mailto: link
+Be sure your reply has a Subject: header at the top and a blank line
+before the message body.
+Code repositories for project(s) associated with this public inbox
+https://80x24.org/public-inbox.git
+This is a public inbox, see mirroring instructions
+for how to clone and mirror all data and code used for this inbox;
+as well as URLs for read-only IMAP folder(s) and NNTP newsgroup(s).

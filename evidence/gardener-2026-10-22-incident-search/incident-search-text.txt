@@ -1,0 +1,123 @@
+"yhetil.org" "outage" OR "incident" - Brave Search
+Ask
+All
+Images
+News
+Videos
+Maps
+Goggles
+Query contains search operators
+Ignore operators
+StatusGator
+statusgator.com › services  › ytel
+Ytel Status. Check if Ytel is down or having an outage. | StatusGator
+Ytel (Contact center software for ... April 2020. Over the past about 6 years, we have collected data on on more than 330 outages that affected Ytel users....
+IsDown
+isdown.app › status  › ytel  › reports-map
+Ytel Outage Reports Map | IsDown
+This map displays the geographic distribution of user-reported outages in the last 24 hours. Countries are colored based on the number of reports received. It's normal to see some reports during the day.
+IsDown
+isdown.app   › all services  › ytel
+Is Ytel Down Right Now? Live Status & Outages - IsDown
+IsDown aggregates various status pages from services into a very clear dashboard. Worth every penny. ... Ytel isn't down. You can check Ytel status and incident details on the top of the page.
+People also ask
+When was the last Ytel outage?
+We don't have a record of Ytel last outage
+isdown.app
+isdown.app   › all services  › ytel
+Is Ytel Down Right Now? Live Status & Outages - IsDown
+How can I get notified when Ytel is not working or have outages?
+To stay informed about Ytel outages,
+sign up for StatusGator
+. Add Ytel to your status page and configure alerts to receive notifications through your preferred platform, such as email, SMS, Slack, Teams, and more. StatusGator provides instant alerts based on updates published on the Ytel official status page, ensuring you're notified immediately if there's an issue.
+Additionally, StatusGator leverages its own advanced monitoring algorithms to detect potential issues, sending you Early Warning Signals even before the official status page updates. If Cloudflare is down, you'll know immediately. Sign up now and stay on top of current status updates, it's free!
+statusgator.com
+statusgator.com › services  › ytel
+Ytel Status. Check if Ytel is down or having an outage. | StatusGator
+Ytel status page says the service is up, but I'm having issues. What's wrong?
+There may be several reasons for that:
+An outage that hasn't been communicated yet via the
+Ytel
+status page.
+Some local issues with a small group of accounts on the service side.
+Technical issues on your side, or problems with your software or ISP.
+A misconfiguration or problem on your side.
+We recommend contacting
+Ytel
+customer support while checking everything on your side.
+statusgator.com
+statusgator.com › services  › ytel
+Ytel Status. Check if Ytel is down or having an outage. | StatusGator
+BBC
+bbc.co.uk › news  › live  › c58jd2kjp93xt
+Google Cloud says services are recovering after outage hit banks, businesses, and courts - BBC News
+2 days ago - Google says the problem was caused by a "power event". Some bank users were affected, while lawyers said court hearings couldn't continue.
+The Independent
+the-independent.com   › tech
+Internet down: Google Cloud outage leaves websites including Lloyds Bank, Rightmove and DPD not working | The Independent
+2 days ago - By doing so at large scale, all of those cloud services companies can offer those services more cheaply than if each individual website operator ran them on their own. But it also means that much of the internet depends on the same small number of companies – and an outage at any of them can take vast swathes of seemingly disparate websites offline.
+Downdetector
+downdetector.com
+Downdetector - Check real-time service problems and outages US
+There is no evidence that the company is experiencing an incident
+BBC
+bbc.co.uk › news  › articles  › cxdd8mm6qy4mo
+Google says cloud outage affecting UK banks and websites resolved - BBC News
+2 days ago - They added that the company would publish an analysis of the incident on its service health dashboard, external, where it provides customers with updates about the status of its cloud services globally.
+ThousandEyes
+thousandeyes.com › outages
+Internet Outages Map | ThousandEyes
+8 hours ago - Network outages and application ... outages are events with 100% packet loss in the same AS during a period of time, and where there is a certain level of impact on the infrastructure, sensors and services....
+StatusGator
+statusgator.com › services  › youtube  › outage-history
+YouTube Outage History | StatusGator
+The issues began around 9:00 PM UTC and worsened through the evening as reports spiked on TV and streaming devices, affecting a broad audience. StatusGator flagged the incident with an Early Warning Signal, highlighting sign-in and playback ...
+Find elsewhere
+Google Bing Mojeek
+Mashable
+mashable.com   › home  › tech
+Wikipedia, Internet Archive outage: What we know so far | Mashable
+19 hours ago - Wednesday morning was not a good one for the Internet Archive. Users are also reporting problems with Wikipedia.
+The Guardian
+theguardian.com › business  › live  › 2026  › oct  › 20  › uk-unemployment-rate-pre-budget-boost-wages-vacancies-latest-news-updates
+Google Cloud outage: problems fixed for ‘most‘ customers, as regulators push for details – as it happened | Business | The Guardian
+1 day ago - “Google Engineers are actively investigating the issue and testing mitigations, including moving impacted workloads to alternative regions where feasible. The disruption has also affected several major organisations and financial institutions that rely on the affected region. “More importantly, the incident highlights the dependency effect of modern cloud ecosystems.
+Outage.Report
+outage.report
+Is it down or just you? Live outage reports — Outage.Report
+See if a website, app, or provider is down right now, or if it's just you. Live user reports, outage charts, and incident history for every service we track.
+StatusGator
+statusgator.com › services  › ytel  › numbers
+Ytel Numbers Status. Check if Ytel Numbers is down or having an outage. | StatusGator
+Many StatusGator users monitor Ytel Numbers to get notified when it's down or has an outage. We've sent more than 200 notifications to our users about Ytel Numbers incidents, providing transparency and peace of mind.
+ThousandEyes
+thousandeyes.com › resources  › internet-outages-timeline
+Internet Outages Timeline
+16 September 2026 - This timeline covers several notable Internet outages and application issues, along with the lessons they leave for preventing downtime and responding effectively when an outage occurs.
+StatusGator
+statusgator.com › services  › youtube
+YouTube Status. Check if YouTube is down or having an outage. | StatusGator
+16 September 2026 - YouTube down? Check the current YouTube status right now, learn about outages, downtime, incidents, and issues.
+Outage
+outage.com   › home  › entertainment  › youtube
+Is YouTube Down? Live Status & Outage Map (Oct 22)
+2 days ago - No outages recorded yet. Incidents appear here when reports spike, our checks fail repeatedly, or the official status page reports a major problem.
+The Guardian
+theguardian.com › uk-news  › 2026  › oct  › 20  › power-outage-google-datacentre-london-widespread-disruption
+‘Too big to not fail’: Google outage exposes UK reliance on a handful of cloud providers | Datacentres - UK | The Guardian
+1 day ago - It happened again. A power outage hit a datacentre in London, and things cascaded from there: multiple banking services faltered, court hearings were put on hold and patients reported temporary glitches on the NHS app.
+LogicMonitor
+logicmonitor.com   › home  › outages
+Live Internet Outages Map | LogicMonitor
+2 days ago - LogicMonitor’s Internet Sonar powers the free Live Internet Outage map. Catchpoint Internet Sonar provides Internet health information at-a-glance to help SREs get ahead of productivity or experience-impacting incidents.
+The Mirror
+mirror.co.uk › news  › uk-news  › revolut-lloyds-down-banking-apps-37789611
+Is Revolut down? Is Lloyds down? Updates as Google Cloud outage hits bank apps - The Mirror
+1 day ago - A summary of the incident is now written in the past tense: "Multiple services were experiencing issues in the europe-west2 region."
+Next
+Resources
+Brave Search Premium Brave Search help Transparency report Report a security issue Status
+Products
+Brave Browser Brave Search Brave Wallet Brave Talk Brave Firewall + VPN Brave Playlist Brave News Brave Rewards Brave Search API Brave Ads
+Policies
+Privacy Policy Terms of Use

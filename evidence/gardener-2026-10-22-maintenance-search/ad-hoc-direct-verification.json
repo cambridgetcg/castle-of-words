@@ -1,0 +1,81 @@
+{
+  "verification_kind": "ad-hoc; not a canonical project suite",
+  "verified_at_utc": "2026-10-22T17:06:55.804484+00:00",
+  "target": "/Users/yu/castle/evidence/gardener-2026-10-22-maintenance-search/verify.py",
+  "target_sha256": "a19a118a6f3f04fddb5b3a76937689676cdc6b39180b96e849aed887647cda28",
+  "passed": true,
+  "cases_run": 9,
+  "checks": [
+    {
+      "case": "actual saved visit passes",
+      "passed": true
+    },
+    {
+      "case": "reject extra-chronicle-line",
+      "passed": true
+    },
+    {
+      "case": "reject altered-chronicle-prefix",
+      "passed": true
+    },
+    {
+      "case": "reject body-corruption",
+      "passed": true
+    },
+    {
+      "case": "reject duplicate-map-entry",
+      "passed": true
+    },
+    {
+      "case": "reject wrong-http-status",
+      "passed": true
+    },
+    {
+      "case": "reject watched-endpoint",
+      "passed": true
+    },
+    {
+      "case": "reject wrong-question-order",
+      "passed": true
+    },
+    {
+      "case": "reject protected-machinery-change",
+      "passed": true
+    }
+  ],
+  "method": "Actual verifier; negative cases use simulated reads, with all writes intercepted.",
+  "real_verifier_exit_before": 0,
+  "real_verifier_exit_after": 0,
+  "real_verifier_report": {
+    "passed": true,
+    "filed": 0,
+    "researched": 1,
+    "answered": 0,
+    "planted": 0,
+    "changed_grounds_files": [
+      "chronicle.md"
+    ],
+    "chronicle_lines_appended": 1,
+    "map_rooms_exactly_once": 697,
+    "open_questions_unchanged": 16,
+    "garden_unchanged": true,
+    "retrievals": [
+      {
+        "label": "maintenance-search",
+        "http_status": 200,
+        "curl_exit": 0
+      },
+      {
+        "label": "gc-search",
+        "http_status": 200,
+        "curl_exit": 0
+      },
+      {
+        "label": "archive-maintenance-search",
+        "http_status": 404,
+        "curl_exit": 0
+      }
+    ],
+    "scope": "Local consistency only; no new service measurement or answer."
+  }
+}

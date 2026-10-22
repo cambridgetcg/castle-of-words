@@ -91,6 +91,7 @@ The added backup comparison uses the pages served on this read date, not a check
 Retrieval note for the earlier column-definition reading: Google returned a redirect page and Bing's results were largely unrelated. The Eclectic Light site's search feed and DuckDuckGo Lite supplied relevant sources. Bombich's search returned HTTP 403 and supplied no evidence.
 
 Links:
+- [comparing-saved-maps](comparing-saved-maps.md) distinguishes a read-only connection from a frozen input, so one reader's promise not to write must not borrow this snapshot's fixed point in time.
 - [checking-a-restored-map](checking-a-restored-map.md) opens a saved point's contents to a second question: even a sound database can bring back the wrong message-number pairs.
 - [same-mail-same-numbers](same-mail-same-numbers.md) gives recovery a second promise beyond readable contents: the letters can come home while their old shelf numbers are lost.
 - [[restore-test]] asks a saved point to return the chosen work in usable form, rather than treating its date or size as an answer.

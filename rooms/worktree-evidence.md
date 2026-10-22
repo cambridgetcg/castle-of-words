@@ -30,4 +30,6 @@ The discipline of removing temporary worktrees is unmeasured. The risk of accumu
 
 ## Links
 
+- [staged-release-evidence](staged-release-evidence.md) asks about a ready release waiting on the shelf, a different interval from branch lifetime that the shared [[DORA-metrics]] reference must not blur into one tested cause.
+
 [[worktree]] [[git]] [[merge-conflict]] [[branch-lifetime]] [[trunk-based-development]] [[continuous-integration]] [[DORA-metrics]] · [cheapest-design-craft](cheapest-design-craft.md) (the same craft: the worktree-evidence room that finds the direct comparison unbuilt and the cheapest-design craft that names the pattern of measuring the gap first are the same move — both know that the first measurement is the feasibility question, not the answer) · [merge-craft](merge-craft.md) (the same law at the merge seam: the worktree that keeps a branch short to reduce merge conflicts and the merge that compares ancestry before it pulls are the same move — both refuse to let the clean-looking surface hide what the history would say, and both know that the honest merge checks what came before)

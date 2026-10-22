@@ -1,0 +1,941 @@
+<html><head><title>[PATCH 3/4] http: introduce a reverse proxy PSGI app - Eric Wong</title><link
+rel=alternate
+title="Atom feed"
+href="../new.atom"
+type="application/atom+xml"/><style>@import url("../216light.css?69d631d8") screen AND (prefers-color-scheme:light);*{overflow-wrap:anywhere;font-size:100%;font-family:monospace}</style><link
+type=text/css
+rel=stylesheet
+href=../216dark.css?69d631d8
+media=screen /><link
+type=text/css
+rel=stylesheet
+href=../216light.css?69d631d8
+media=print /></head><body><form
+action="../"><pre><a
+href="../?t=20250713000838"><b>user/dev discussion of public-inbox itself</b></a>
+<input
+name=q
+type=text /><input
+type=submit
+value=search /> <a
+href="../_/text/help/">help</a> / <a
+href="../_/text/color/">color</a> / <a
+id=mirror
+href="../_/text/mirror/">mirror</a> / <a
+href=#code>code</a> / <a
+href="../new.atom">Atom feed</a></pre></form><pre
+id=b>From: Eric Wong &lt;e@80x24.org&gt;
+To: <a
+href="https://public-inbox.org/meta/?t=20250713000838">meta@public-inbox.org</a>
+Subject: <a
+href="#r"
+id=t>[PATCH 3/4] http: introduce a reverse proxy PSGI app</a>
+Date: Sun, 13 Jul 2025 00:08:35 +0000	<a
+href="#r">[thread overview]</a>
+Message-ID: &lt;20250713000836.2623715-4-e@80x24.org&gt; (<a href="raw">raw</a>)
+In-Reply-To: &lt;<a
+href="../20250713000836.2623715-1-e@80x24.org/">20250713000836.2623715-1-e@80x24.org</a>&gt;
+
+While nginx is (and is likely to remain) a popular reverse
+proxy, it is a commercial open core project nowadays which I
+haven&#39;t used in production in over a decade (since I used a Ruby
+reverse proxy, instead).  Furthermore, nginx|haproxy|etc. is
+another dependency sysadmins need to configure and maintain in
+addition to our daemons (and varnish).
+
+Since our Perl code already needs to deal with IMAP scraper
+bots, it might as well deal with HTTP(S) ones as well :P
+
+Notable advantages of PublicInbox::PsgiRproxy over nginx for
+HTTPS termination include:
+
+* Response buffering is lazy by default.  That is, whereas (last
+  I checked) nginx either (a) buffers a response body in full
+  before sending it or (b) doesn&#39;t buffer at all.  (a) is safe
+  for reducing backend contention but increases latency, whereas
+  (b) allows slow clients to bottleneck fast backends.
+  PublicInbox::PsgiRproxy defaults to writing to the client
+  immediately (unbuffered), but starts buffering when a client
+  can&#39;t keep up with the backend.
+
+* Perl configuration allows easier development of custom modules
+  (&#34;Plack middleware&#34; in our case) for inspection of requests in
+  Perl.  It gives the PSGI env a way to detect reused connections
+  and the $env-&gt;{&#39;psgix.io&#39;} handle can be used for TCP/TLS
+  fingerprinting of suspected bots.
+
+* Trailers following chunked requests are supported (but mapped to
+  headers for the backend).  Response trailers are not yet
+  supported since browsers (even bloated &#34;modern&#34; ones) can&#39;t
+  seem to handle them.
+
+This PSGI reverse proxy has been fronting <a
+href="https://public-inbox.org">https://public-inbox.org</a>
+and the <a
+href="https://yhbt.net/lore/">https://yhbt.net/lore/</a> mirror for over a month, now.
+---
+ <a
+id=iZ31MANIFEST
+href=#Z31MANIFEST>MANIFEST</a>                      |   3 +
+ <a
+id=iZ31lib:PublicInbox:H1ReqRes.pm
+href=#Z31lib:PublicInbox:H1ReqRes.pm>lib/PublicInbox/H1ReqRes.pm</a>   | 378 ++++++++++++++++++++++++++++++++++
+ <a
+id=iZ31lib:PublicInbox:PsgiRproxy.pm
+href=#Z31lib:PublicInbox:PsgiRproxy.pm>lib/PublicInbox/PsgiRproxy.pm</a> |  98 +++++++++
+ <a
+id=iZ31t:httpd-corner.psgi
+href=#Z31t:httpd-corner.psgi>t/httpd-corner.psgi</a>           |  14 ++
+ <a
+id=iZ31t:psgi_rproxy.t
+href=#Z31t:psgi_rproxy.t>t/psgi_rproxy.t</a>               | 133 ++++++++++++
+ 5 files <a href="#related">changed</a>, 626 insertions(+)
+ create mode 100644 lib/PublicInbox/H1ReqRes.pm
+ create mode 100644 lib/PublicInbox/PsgiRproxy.pm
+ create mode 100644 t/psgi_rproxy.t
+
+<span
+class="head"><a
+href=#iZ31MANIFEST
+id=Z31MANIFEST>diff</a> --git a/MANIFEST b/MANIFEST
+index 674b544c..cc105c19 100644
+--- a/MANIFEST
++++ b/MANIFEST
+</span><span
+class="hunk">@@ <a
+href="../674b544c/s/?b=MANIFEST#n210">-210,6</a> <a
+href="../cc105c19/s/?b=MANIFEST#n210">+210,7</a> @@ lib/PublicInbox/GitAsyncCat.pm
+</span> lib/PublicInbox/GitCredential.pm
+ lib/PublicInbox/GitHTTPBackend.pm
+ lib/PublicInbox/GzipFilter.pm
+<span
+class="add">+lib/PublicInbox/H1ReqRes.pm
+</span> lib/PublicInbox/HTTP.pm
+ lib/PublicInbox/HTTPD.pm
+ lib/PublicInbox/HlMod.pm
+<span
+class="hunk">@@ <a
+href="../674b544c/s/?b=MANIFEST#n329">-329,6</a> <a
+href="../cc105c19/s/?b=MANIFEST#n330">+330,7</a> @@ lib/PublicInbox/POP3.pm
+</span> lib/PublicInbox/POP3D.pm
+ lib/PublicInbox/PktOp.pm
+ lib/PublicInbox/PsgiLimiter.pm
+<span
+class="add">+lib/PublicInbox/PsgiRproxy.pm
+</span> lib/PublicInbox/Qspawn.pm
+ lib/PublicInbox/Reply.pm
+ lib/PublicInbox/RepoAtom.pm
+<span
+class="hunk">@@ <a
+href="../674b544c/s/?b=MANIFEST#n599">-599,6</a> <a
+href="../cc105c19/s/?b=MANIFEST#n601">+601,7</a> @@ t/psgi_bad_mids.t
+</span> t/psgi_log.psgi
+ t/psgi_mount.t
+ t/psgi_multipart_not.t
+<span
+class="add">+t/psgi_rproxy.t
+</span> t/psgi_scan_all.t
+ t/psgi_search.t
+ t/psgi_text.t
+<span
+class="head"><a
+href=#iZ31lib:PublicInbox:H1ReqRes.pm
+id=Z31lib:PublicInbox:H1ReqRes.pm>diff</a> --git a/lib/PublicInbox/H1ReqRes.pm b/lib/PublicInbox/H1ReqRes.pm
+new file mode 100644
+index 00000000..<a
+href="../af6b780c/s/?b=lib/PublicInbox/H1ReqRes.pm">af6b780c</a>
+--- /dev/null
++++ b/lib/PublicInbox/H1ReqRes.pm
+</span><span
+class="hunk">@@ -0,0 +1,378 @@
+</span><span
+class="add">+# Copyright (C) all contributors &lt;meta@public-inbox.org&gt;
++# License: AGPL-3.0+ &lt;<a
+href="https://www.gnu.org/licenses/agpl-3.0.txt">https://www.gnu.org/licenses/agpl-3.0.txt</a>&gt;
++#
++# HTTP/1.x request/response object to a backend HTTP server,
++# not tied to PublicInbox::WWW but uses public-inbox-{httpd,netd}
++# features.  Only used by PublicInbox::PsgiRproxy
++package PublicInbox::H1ReqRes;
++use v5.12;
++use parent qw(PublicInbox::DS);
++use PublicInbox::Syscall qw(EPOLLIN EPOLLOUT EPOLLONESHOT);
++# HTTP::Parser::XS is already used by most Plack installations
++use HTTP::Parser::XS qw(parse_http_response HEADERS_AS_ARRAYREF);
++use B qw(cstring);
++use Carp qw(confess carp);
++
++use constant { # duplicated from HTTP.pm
++	CHUNK_START =&gt; -1,   # [a-f0-9]+\r\n
++	CHUNK_END =&gt; -2,     # \r\n
++	CHUNK_TLR_END =&gt; -3, # (trailers*)?\r\n
++	CHUNK_MAX_HDR =&gt; 256,
++};
++
++sub new {
++	my ($cls, $sock, $env, $rproxy, $wcb) = @_;
++	my $self = bless {
++		wbuf =&gt; [ \&#38;send_req_hdr ],
++		wcb =&gt; $wcb, # write callbacke from PSGI server
++		rproxy =&gt; $rproxy, # PublicInbox::PsgiRproxy
++		env =&gt; $env,
++		# http_out # PublicInbox::HTTP::{Identity,Chunked}
++	}, $cls;
++	$self-&gt;SUPER::new($sock, EPOLLOUT|EPOLLONESHOT);
++}
++
++# expands $fullpath in proxied request destination
++sub fullpath {
++	my $env = $_[-1];
++	my ($sn, $u) = @$env{qw(SCRIPT_NAME REQUEST_URI)};
++	$u =~ m!\A(?:https?://[^/]+)?\Q$sn\E(/.+)\z!i ? $1 : $sn.$u;
++}
++
++# expands $host in proxied request destination
++sub host {
++	my ($env) = $_[-1];
++	$env-&gt;{HTTP_HOST} // $env-&gt;{SERVER_NAME};
++}
++
++sub send_req_hdr { # called by flush_write
++	my ($self) = @_;
++	my $env = $self-&gt;{env};
++	my $path = $self-&gt;{rproxy}-&gt;{path}; # $fullpath
++	my $prot = $env-&gt;{SERVER_PROTOCOL} // &#39;HTTP/1.0&#39;;
++	$path =~ s!\$(\w+)!$self-&gt;$1($env)!sge;
++	my ($k, $v);
++	my $req = &lt;&lt;EOM;
++$env-&gt;{REQUEST_METHOD} $path $prot\r
++X-Forwarded-Proto: $env-&gt;{&#39;psgi.url_scheme&#39;}\r
++Connection: close\r
++EOM
++	$v = $env-&gt;{HTTP_X_FORWARDED_FOR} // &#39;&#39;;
++	$v .= &#39;, &#39; if $v =~ /\S/;
++	$req .= &#34;X-Forwarded-For: $v$env-&gt;{REMOTE_ADDR}\r\n&#34;;
++	while (($k, $v) = each %$env) {
++		next if $k =~ m!\AHTTP_(?:VERSION|CONNECTION|EXPECT|KEEP_ALIVE
++					|X_FORWARDED_FOR|TRAILER|UPGRADE)\z!sx;
++		# PublicInbox::HTTP already decoded chunked encoding, but
++		# there may be other encodings which we pass straight through.
++		# No idea if non-chunked Transfer-Encoding actually gets
++		# used anywhere...
++		if ($k eq &#39;HTTP_TRANSFER_ENCODING&#39;) {
++			my @v = grep !/\Achunked\z/i, split /\s*,\s*/, $v;
++			@v and $req .= &#39;Transfer-Encoding: &#39;.
++					join(&#39;, &#39;, @v).&#34;\r\n&#34;;
++		} elsif ($k =~ /\AHTTP_(.+)\z/) {
++			$k = $1;
++			$k =~ tr/_/-/;
++			$req .= &#34;$k: $v\r\n&#34;;
++		}
++	}
++	$v = $env-&gt;{CONTENT_TYPE} and $req .= &#34;Content-Type: $v\r\n&#34;;
++	# psgi.input is always has an fstat(2)-able FD behind it w/ pi-httpd
++	if ($v = -s $env-&gt;{&#39;psgi.input&#39;}) {
++		$req .= &#34;Content-Length: $v\r\n&#34;;
++		$self-&gt;{req_left} = $v;
++	}
++	$req .= &#34;\r\n&#34;;
++	$self-&gt;write(\$req);
++	$self-&gt;write($v ? \&#38;send_req_body : \&#38;pass_res_hdr);
++}
++
++sub _pass_done ($) {
++	delete($_[0]-&gt;{http_out})-&gt;close;
++	$_[0]-&gt;close;
++	undef;
++}
++
++sub read_err ($$;$) {
++	my ($self, $next_cb, $len) = @_;
++	if ($self-&gt;{sock}) { # EAGAIN, wait for -&gt;event_step
++		push(@{$self-&gt;{wbuf}}, $next_cb) &gt; 1 and
++			confess &#39;BUG: attempted read w/ wbuf size=&#39;.
++				scalar(@{$self-&gt;{wbuf}});
++		$self-&gt;{res_left} = $len if defined $len;
++	} elsif (defined $len) {
++		die &#34;W: upstream terminated while reading response ($len)&#34;;
++	} else {
++		die &#39;W: upstream terminated while reading response&#39;;
++	}
++	undef;
++}
++
++# when proxy_buffering is disabled
++sub h1rr_pull {
++	my ($http) = @_; # PublicInbox::HTTP
++	my $self = delete $http-&gt;{forward} or return; # backend aborted
++	$self-&gt;{env}-&gt;{&#39;pi-httpd.client&#39;} = $http; # no circular ref here
++	delete($http-&gt;{h1rr_cb})-&gt;($self);
++};
++
++# returns true if we can continue looping
++sub pass_refill ($$$$) {
++	my ($self, $n, $cb, $len) = @_;
++	my $http = $self-&gt;{env}-&gt;{&#39;pi-httpd.client&#39;};
++
++	# don&#39;t read from backend if remote client is blocked
++	if ($http-&gt;{wbuf} &#38;&#38; $http-&gt;{wbuf}-&gt;[0] &#38;&#38;
++			!$self-&gt;{rproxy}-&gt;{proxy_buffering}) {
++		delete $self-&gt;{env}-&gt;{&#39;pi-httpd.client&#39;}; # avoid circular ref
++		$self-&gt;{res_left} = $len if defined $len;
++		$http-&gt;{forward} = $self;
++		$http-&gt;{h1rr_cb} = $cb;
++		push @{$http-&gt;{wbuf}}, \&#38;h1rr_pull;
++		undef;
++	} else {
++		my $rbuf = $self-&gt;{rbuf};
++		my $r = $self-&gt;do_read($rbuf, $n, length($$rbuf));
++		(!defined($r) || ($r == 0 &#38;&#38; defined($len))) ?
++				read_err($self, $cb, $len) : $r;
++	}
++}
++
++# pass a response body block of $len bytes (both chunk and identity)
++sub _pass_res_block ($$) {
++	my ($self, $len) = @_;
++	my $rbuf = $self-&gt;{rbuf} //= \(my $x = &#39;&#39;);
++	my $cur = length($$rbuf);
++	if ($cur &gt; $len) { # CRLF, chunk header or trailer follows in rbuf:
++		$self-&gt;{http_out}-&gt;write(substr($$rbuf, 0, $len, &#39;&#39;)) or
++			return _pass_done $self;
++		0;
++	} else { # $cur &lt;= $len done with current rbuf
++		$self-&gt;{http_out}-&gt;write($$rbuf) or return _pass_done $self;
++		$$rbuf = &#39;&#39;;
++		$len - $cur;
++	}
++}
++
++sub pass_trailers ($$) {
++	my ($self, $tlr_buf) = @_;
++	my $exp_tlr = delete $self-&gt;{tlr}; # TODO validate trailers
++	$self-&gt;{http_out}-&gt;write($tlr_buf); # $tlr_buf includes final CRLF
++	_pass_done $self;
++}
++
++sub pass_res_chunked ($) {
++	my ($self) = @_;
++	my $rbuf = $self-&gt;{rbuf} //= \(my $x = &#39;&#39;);
++	my $len = delete $self-&gt;{res_left};
++	while (1) { # chunk start
++		if ($len == CHUNK_TLR_END) {
++			# $1: all trailers minus final CRLF
++			if ($$rbuf =~ s/\A((?:
++					(?:[a-z][a-z0-9\-]*:[ \t]* # key: LWS:
++						| [ \t]+ # continuation LWS
++					)[^\n]* # trailer value
++					\n)* \r\n)//ismx) {
++				return pass_trailers $self, $1;
++			}
++			die &#39;chunk not terminated&#39; if length($$rbuf) &gt; 0x4000;
++		}
++		if ($len == CHUNK_END) {
++			if ($$rbuf =~ s/\A\r\n//s) {
++				$self-&gt;{http_out}-&gt;write(&#34;\r\n&#34;);
++				$len = CHUNK_START; # fall-through
++			} elsif (length($$rbuf) &gt; 2) {
++				die &#39;CHUNK_END too long&#39;;
++			}
++		}
++		if ($len == CHUNK_START) {
++			if ($$rbuf =~ s/\A([a-f0-9]+)(.*?)\r\n//i) {
++				die &#34;chunk 0x$1 too large&#34; if length($1) &gt; 8;
++				$len = hex $1;
++				$self-&gt;{http_out}-&gt;write(&#34;$1$2\r\n&#34;);
++			} elsif (length($$rbuf) &gt; CHUNK_MAX_HDR) {
++				die &#39;rbuf too large w/o CHUNK_START&#39;;
++			} # else break from loop since $len &gt;= 0
++		}
++		if ($len &lt; 0) {
++			pass_refill($self, 0x4000, \&#38;pass_res_chunked, $len) or
++				return;
++			# (implicit) goto chunk_start if $r &gt; 0;
++		}
++		$len = CHUNK_TLR_END if $len == 0;
++
++		# pass the current chunk to client
++		while ($len &gt; 0) {
++			if ($$rbuf ne &#39;&#39;) {
++				$len = _pass_res_block($self, $len) // return;
++				if ($len == 0) {
++					# we may have leftover data to parse
++					# in chunk
++					$len = CHUNK_END;
++				} elsif ($len &lt; 0) {
++					die &#34;BUG: len &lt; 0: $len&#34;;
++				} # len &gt; 0: keep passing current chunk
++			}
++			if ($$rbuf eq &#39;&#39;) {
++				# read more of current chunk
++				pass_refill($self, 0x4000,
++					\&#38;pass_res_chunked, $len) or return;
++			}
++		}
++	}
++}
++
++sub pass_res_identity ($) {
++	my ($self) = @_;
++	my $rbuf = $self-&gt;{rbuf} //= \(my $x = &#39;&#39;);
++	my $len = delete $self-&gt;{res_left};
++	while ($len &gt; 0) {
++		if ($$rbuf ne &#39;&#39;) { # may clear $rbuf:
++			$len = _pass_res_block($self, $len) // return;
++		}
++		if ($$rbuf eq &#39;&#39; &#38;&#38; $len) {
++			my $n = $len &gt; 0x4000 ? 0x4000 : $len;
++			pass_refill($self, $n, \&#38;pass_res_identity, $len) or
++				return;
++		}
++	}
++	_pass_done $self;
++}
++
++sub pass_res_until_eof ($) { # HTTP/1.0-only
++	my ($self) = @_;
++	my $rbuf = $self-&gt;{rbuf} //= \(my $x = &#39;&#39;);
++	while (1) {
++		if ($$rbuf ne &#39;&#39;) {
++			$self-&gt;{http_out}-&gt;write($$rbuf) or
++				return _pass_done $self;
++			$$rbuf = &#39;&#39;;
++		}
++		if ($$rbuf eq &#39;&#39;) {
++			my $r = pass_refill($self, 0x4000,
++					\&#38;pass_res_until_eof, undef) // return;
++			last if $r == 0; # done
++		}
++	}
++	_pass_done $self;
++}
++
++sub pass_res_hdr ($) { # called by flush_write
++	my ($self) = @_;
++	my ($rbuf, $r, $code, $phdr);
++	$rbuf = $self-&gt;{rbuf} // do {
++		$self-&gt;do_read(\(my $buf = &#39;&#39;), 0x4000) or
++			return read_err $self, \&#38;pass_res_hdr;
++		$self-&gt;{rbuf} = \$buf;
++	};
++	while (1) {
++		($r, undef, $code, undef, $phdr) =
++			parse_http_response($$rbuf, HEADERS_AS_ARRAYREF);
++		last if $r &gt; 0;
++		if ($r == -2) { # incomplete
++			length($$rbuf) &gt; 0x4000 and
++				die &#39;upstream response headers too large&#39;;
++			$self-&gt;do_read($rbuf, 8192, length($$rbuf)) or return
++				read_err $self, \&#38;pass_res_hdr;
++		} else {
++			die &#34;upstream sent bad response headers (r=$r)&#34;;
++		}
++	}
++	substr $$rbuf, 0, $r, &#39;&#39;; # sv_chop off the header
++	my (@clen, @tlr, $k, $v, @hdr);
++	my $chunked = 0;
++	my $res_hdr_excl = $self-&gt;{rproxy}-&gt;{res_hdr_excl};
++	push @$phdr, @{$self-&gt;{rproxy}-&gt;{res_hdr_add} // []};
++	while (@$phdr) {
++		($k, $v) = splice @$phdr, 0, 2;
++		next if $res_hdr_excl &#38;&#38; $k =~ /$res_hdr_excl/;
++		# parse_http_response strips CR from embedded CRLF,
++		# HTTP::Server::PSGI and PublicInbox::HTTP will both
++		# pass all whitespace in $v straight through
++		$v =~ s/(?&lt;!\r)\n/\r\n/sg;
++
++		# not relying on \%special arg for parse_http_response since
++		# it doesn&#39;t handle multi-value (bugs or malicious behavior)
++		if ($k =~ /\AContent-Length\z/i) {
++			push @clen, $v;
++		} elsif ($k =~ /\ATransfer-Encoding\z/i) {
++			++$chunked if $v =~ /\bchunked\b/i;
++			# let client deal with stacked encodings
++		} elsif ($k =~ /\ATrailer\z/i) {
++			push @tlr, $v;
++		} elsif ($k =~ /\A(?:Connection|Date|Keep-Alive|Upgrade)\z/i) {
++			next;
++		}
++		push @hdr, $k, $v;
++	}
++	scalar(@clen) &gt; 1 and
++		die &#39;upstream set Content-Length &#39;.scalar(@clen).&#39; times&#39;;
++	$chunked &gt; 1 and
++		die &#34;upstream set Transfer-Encoding: chunked $chunked times&#34;;
++	@tlr &#38;&#38; !$chunked and
++		die &#39;upstream sent Trailer w/o chunked response&#39;;
++	my $wcb = delete $self-&gt;{wcb} // die &#39;BUG: no {wcb}&#39;;
++	if ($self-&gt;{env}-&gt;{REQUEST_METHOD} eq &#39;HEAD&#39;) {
++		$wcb-&gt;([ $code, \@hdr, [] ]);
++		$self-&gt;close;
++	} elsif ($chunked) {
++		$self-&gt;{tlr} = join &#39;,&#39;, @tlr;
++		$self-&gt;{res_left} = CHUNK_START;
++		$self-&gt;{http_out} = $wcb-&gt;([ $code, \@hdr ]);
++		pass_res_chunked $self;
++	} elsif ($clen[0]) { # non-zero Content-Length
++		$clen[0] =~ /\A[0-9]+\z/ or
++			die &#39;upstream sent invalid Content-Length: &#39;,
++				cstring($clen[0]);
++		$self-&gt;{res_left} = $clen[0] + 0;
++		$self-&gt;{http_out} = $wcb-&gt;([ $code, \@hdr ]);
++		pass_res_identity $self;
++	} elsif (defined $clen[0]) { # no body in response
++		$wcb-&gt;([ $code, \@hdr, [] ]);
++		$self-&gt;close;
++	} else { # HTTP/1.0-only
++		$self-&gt;{http_out} = $wcb-&gt;([ $code, \@hdr ]);
++		pass_res_until_eof $self;
++	}
++}
++
++sub send_req_body { # called by flush_write
++	my ($self) = @_;
++	# n.b. PublicInbox::HTTP always reads the entire request body
++	# before dispatching the PSGI app
++	my $r = $self-&gt;{req_left};
++	$r = 0x4000 if $r &gt; 0x4000;
++	$r = $self-&gt;{env}-&gt;{&#39;psgi.input&#39;}-&gt;read(my $buf, $r) //
++			die &#34;input-&gt;read: $! ($self-&gt;{req_left} bytes left)&#34;;
++	die &#34;input-&gt;read: EOF ($self-&gt;{req_left} bytes left)&#34; if $r == 0;
++	(($self-&gt;{req_left} -= $r) &lt; 0) and
++		die &#34;BUG: req_left=$self-&gt;{req_left} is negative&#34;;
++	$self-&gt;write(\$buf); # may add to $self-&gt;{wbuf}
++	if ($self-&gt;{req_left}) {
++		$self-&gt;requeue if push(@{$self-&gt;{wbuf}}, \&#38;send_req_body) == 1;
++	} else {
++		delete $self-&gt;{req_left};
++		pass_res_hdr $self;
++	}
++}
++
++sub event_step {
++	my ($self) = @_;
++	local $SIG{__WARN__} = $self-&gt;{env}-&gt;{&#39;pi-httpd.warn_cb&#39;};
++	eval { return unless $self-&gt;flush_write &#38;&#38; $self-&gt;{sock} };
++	if ($@) {
++		warn $@;
++		$self-&gt;{env}-&gt;{&#39;pi-httpd.client&#39;}-&gt;close;
++		$self-&gt;close;
++	}
++}
++
++sub close {
++	my ($self) = @_;
++	$self-&gt;SUPER::close;
++	my $wcb = delete $self-&gt;{wcb};
++	$wcb-&gt;([502, [], []]) if $wcb;
++}
++
++1;
+</span><span
+class="head"><a
+href=#iZ31lib:PublicInbox:PsgiRproxy.pm
+id=Z31lib:PublicInbox:PsgiRproxy.pm>diff</a> --git a/lib/PublicInbox/PsgiRproxy.pm b/lib/PublicInbox/PsgiRproxy.pm
+new file mode 100644
+index 00000000..<a
+href="../b9a8600c/s/?b=lib/PublicInbox/PsgiRproxy.pm">b9a8600c</a>
+--- /dev/null
++++ b/lib/PublicInbox/PsgiRproxy.pm
+</span><span
+class="hunk">@@ -0,0 +1,98 @@
+</span><span
+class="add">+# Copyright (C) all contributors &lt;meta@public-inbox.org&gt;
++# License: AGPL-3.0+ &lt;<a
+href="https://www.gnu.org/licenses/agpl-3.0.txt">https://www.gnu.org/licenses/agpl-3.0.txt</a>&gt;
++#
++# HTTP reverse proxy for HTTP(S) termination to varnish, not
++# tied to PublicInbox::WWW but uses public-inbox-{httpd,netd} features
++package PublicInbox::PsgiRproxy;
++use v5.12;
++use Socket ();
++use Errno qw(EAGAIN EINPROGRESS);
++use parent qw(Plack::Component); # for -&gt;to_app
++require PublicInbox::H1ReqRes;
++use constant NB_STREAM =&gt; do {
++	Socket::SOCK_STREAM | (eval { Socket::SOCK_NONBLOCK() } // 0);
++};
++
++sub new {
++	my ($cls, $dest, %opt) = @_;
++	my $response_headers = delete $opt{response_headers};
++	$response_headers-&gt;{server} //= undef; # don&#39;t lie, don&#39;t advertise
++	my ($res_hdr_excl, $res_hdr_add);
++	while (my ($k, $v) = each %$response_headers) {
++		if (defined $v) {
++			push @$res_hdr_add, [ $k, $v ];
++		} else {
++			push @$res_hdr_excl, $k;
++		}
++	}
++	$opt{proxy_buffering} = 1 unless
++		(exists $opt{proxy_buffering} &#38;&#38; !$opt{proxy_buffering});
++	my $self = bless { %opt }, $cls;
++	if ($res_hdr_excl) {
++		$res_hdr_excl = join &#39;|&#39;, map quotemeta, @$res_hdr_excl;
++		$self-&gt;{res_hdr_excl} = qr/\A(?:$res_hdr_excl)\z/i;
++	}
++	$self-&gt;{res_hdr_add} = $res_hdr_add if $res_hdr_add;
++	my $path;
++	if ($dest =~ m{\Aunix:([^:]+)(?::(/.*))?\z}) {
++		$path = $2;
++		# XXX pack_sockaddr_un can see $1 as undef for some reason,
++		# so we copy it:
++		my $addr = $1;
++		$addr = Socket::pack_sockaddr_un($addr);
++		@{$self-&gt;{conninfo}} = (Socket::AF_UNIX, $addr, $dest);
++	} elsif ($dest =~ m{\Ahttp://(?:\[([a-f0-9:]+)\]|([0-9\.]+))
++				(?::([0-9]+))?(/.*)?\z}xi) {
++		$path = $4;
++		my ($host, $port) = ($1 // $2, $3 // 8080);
++
++		# don&#39;t support DNS lookup for now, otherwise we&#39;ll need to
++		# add a timer to track DNS changes or expect users to reload
++		my ($err, @addr) = Socket::getaddrinfo($host, $port, {
++			hints =&gt; Socket::AI_NUMERICHOST,
++			socktype =&gt; Socket::SOCK_STREAM,
++			protocol =&gt; Socket::IPPROTO_TCP
++		});
++		die &#34;E: cannot resolve `$dest&#39;: $err\n&#34; if $err || !@addr;
++		@{$self-&gt;{conninfo}} = map {
++			(@$_{qw(family addr)}, $dest)
++		} @addr;
++	} else {
++		die &lt;&lt;EOM;
++E: `$dest&#39; must be an HTTP IP address URL or unix: path
++EOM
++	}
++	$path //= &#39;$fullpath&#39;; # PublicInbox::H1ReqRes::fullpath
++	my @vars = ($path =~ m/\$(\w+)/g);
++	my @bad = grep !/\A(?:fullpath|host)\z/, @vars; # TODO: more vars
++	die &#34;E: bad vars in `$path&#39;: @bad\n&#34; if @bad;
++	# no leading slash iff using a path
++	$path =~ s!\A/(\$(?:fullpath|path))!!;
++	$self-&gt;{path} = $path;
++	$self;
++}
++
++# -&gt;to_app makes a sub which calls this
++sub call {
++	my ($self, $env) = @_;
++	my @try = @{$self-&gt;{conninfo}};
++	my ($sock, $family, $addr, $dest);
++	while (@try) {
++		($family, $addr, $dest) = splice @try, 0, 3;
++		if (socket $sock, $family, NB_STREAM, 0) {
++			$sock-&gt;blocking(0) if NB_STREAM == Socket::SOCK_STREAM;
++			last if connect($sock, $addr) ||
++				$! == EINPROGRESS || $! == EAGAIN;
++			warn &#34;E: connect($dest): $!&#34;;
++		} else {
++			warn &#34;E: socket: $! ($dest)&#34;;
++		}
++		undef $sock;
++	}
++	$sock ? sub {
++		my ($wcb) = @_; # PSGI server gives us this
++		PublicInbox::H1ReqRes-&gt;new($sock, $env, $self, $wcb);
++	} : [ 502, [], [] ];
++}
++
++1;
+</span><span
+class="head"><a
+href=#iZ31t:httpd-corner.psgi
+id=Z31t:httpd-corner.psgi>diff</a> --git a/t/httpd-corner.psgi b/t/httpd-corner.psgi
+index 0e668cc9..29f66be9 100644
+--- a/t/httpd-corner.psgi
++++ b/t/httpd-corner.psgi
+</span><span
+class="hunk">@@ <a
+href="../0e668cc9/s/?b=t/httpd-corner.psgi#n2">-2,6</a> <a
+href="../29f66be9/s/?b=t/httpd-corner.psgi#n2">+2,7</a> @@
+</span> # License: AGPL-3.0+ &lt;<a
+href="https://www.gnu.org/licenses/agpl-3.0.txt">https://www.gnu.org/licenses/agpl-3.0.txt</a>&gt;
+ # corner case tests for the generic PSGI server
+ # Usage: plackup [OPTIONS] /path/to/this/file
+<span
+class="add">+# used by httpd-{corner,https,unix}.t and psgi_rproxy.t
+</span> use v5.12;
+ use Plack::Builder;
+ require PublicInbox::SHA;
+<span
+class="hunk">@@ <a
+href="../0e668cc9/s/?b=t/httpd-corner.psgi#n23">-23,6</a> <a
+href="../29f66be9/s/?b=t/httpd-corner.psgi#n24">+24,7</a> @@ END {
+</span> my $pi_config = $ENV{PI_CONFIG} // &#39;unset&#39;; # capture ASAP
+ my $app = sub {
+ 	my ($env) = @_;
+<span
+class="add">+	use Data::Dumper; warn Dumper($env);
+</span> 	my $path = $env-&gt;{PATH_INFO};
+ 	my $in = $env-&gt;{&#39;psgi.input&#39;};
+ 	my $actual = -s $in;
+<span
+class="hunk">@@ <a
+href="../0e668cc9/s/?b=t/httpd-corner.psgi#n93">-93,6</a> <a
+href="../29f66be9/s/?b=t/httpd-corner.psgi#n95">+95,14</a> @@ my $app = sub {
+</span> 			$fh-&gt;write($buf);
+ 			$fh-&gt;close;
+ 		}
+<span
+class="add">+	} elsif ($path eq &#39;/callback-truncated&#39;) {
++		return sub {
++			my ($res) = @_;
++			push @$h, &#39;Transfer-Encoding&#39;, &#39;chunked&#39;;
++			my $fh = $res-&gt;([200, $h]);
++			$fh-&gt;write(&#34;9\r\ntoo ort\r\n&#34;);
++			$fh-&gt;close;
++		}
+</span> 	} elsif ($path eq &#39;/empty&#39;) {
+ 		$code = 200;
+ 	} elsif ($path eq &#39;/getline-die&#39;) {
+<span
+class="hunk">@@ <a
+href="../0e668cc9/s/?b=t/httpd-corner.psgi#n149">-149,6</a> <a
+href="../29f66be9/s/?b=t/httpd-corner.psgi#n159">+159,10</a> @@ my $app = sub {
+</span> 	} elsif ($path eq &#39;/url_scheme&#39;) {
+ 		$code = 200;
+ 		push @$body, $env-&gt;{&#39;psgi.url_scheme&#39;}
+<span
+class="add">+	} elsif ($path eq &#39;/server&#39;) {
++		$code = 200;
++		push @$h, &#39;Server&#39;, &#39;none-of-your-business&#39;;
++		push @$body, &#39;trying to advertise server behind rproxy&#39;;
+</span> 	} elsif ($path eq &#39;/PI_CONFIG&#39;) {
+ 		$code = 200;
+ 		push @$body, $pi_config; # show value at -&gt;refresh_groups
+<span
+class="head"><a
+href=#iZ31t:psgi_rproxy.t
+id=Z31t:psgi_rproxy.t>diff</a> --git a/t/psgi_rproxy.t b/t/psgi_rproxy.t
+new file mode 100644
+index 00000000..<a
+href="../06b996c0/s/?b=t/psgi_rproxy.t">06b996c0</a>
+--- /dev/null
++++ b/t/psgi_rproxy.t
+</span><span
+class="hunk">@@ -0,0 +1,133 @@
+</span><span
+class="add">+#!perl -w
++# Copyright (C) all contributors &lt;meta@public-inbox.org&gt;
++# License: AGPL-3.0+ &lt;<a
+href="https://www.gnu.org/licenses/agpl-3.0.txt">https://www.gnu.org/licenses/agpl-3.0.txt</a>&gt;
++use v5.12; use PublicInbox::TestCommon; use autodie;
++use Socket ();
++use POSIX ();
++use PublicInbox::Spawn qw(popen_rd);
++use PublicInbox::IO qw(write_file);
++my $curl = require_cmd &#39;curl&#39;;
++require_mods qw(-httpd Plack::Builder HTTP::Parser::XS);
++my $psgi = &#34;./t/httpd-corner.psgi&#34;;
++my $tmpdir = tmpdir;
++my $fifo = &#34;$tmpdir/fifo&#34;;
++POSIX::mkfifo($fifo, 0777) // xbail &#34;mkfifo: $!&#34;;
++my $unix_dest = &#34;$tmpdir/u.sock&#34;;
++my ($back_out, $back_err) = (&#34;$tmpdir/back.out&#34;, &#34;$tmpdir/back.err&#34;);
++my ($front_out, $front_err) = (&#34;$tmpdir/front.out&#34;, &#34;$tmpdir/front.err&#34;);
++my $back_unix = IO::Socket::UNIX-&gt;new(Local =&gt; $unix_dest,
++		Listen =&gt; 4096, Type =&gt; Socket::SOCK_STREAM) or
++	xbail &#34;bind+listen $unix_dest: $!&#34;;
++my $back_tcp = tcp_server();
++my $back_tcp_host_port = tcp_host_port($back_tcp);
++$back_unix-&gt;blocking(0);
++my $front_tcp = tcp_server();
++my $front_url = &#39;http://&#39;.tcp_host_port($front_tcp);
++my $front_psgi = &#34;$tmpdir/u.psgi&#34;;
++write_file &#39;&gt;&gt;&#39;, $front_psgi, &lt;&lt;EOM;
++use PublicInbox::PsgiRproxy;
++use Plack::Builder;
++builder {
++	mount &#39;<a
+href="http://nobuffer.example/">http://nobuffer.example/</a>&#39; =&gt;
++		PublicInbox::PsgiRproxy-&gt;new(
++			&#34;http://$back_tcp_host_port&#34;,
++			proxy_buffering =&gt; 0)-&gt;to_app;
++	mount &#39;/&#39; =&gt; PublicInbox::PsgiRproxy-&gt;new(&#34;unix:$unix_dest&#34;)-&gt;to_app;
++};
++EOM
++my $back_cmd = [ &#39;-httpd&#39;, &#39;-W0&#39;,
++	&#34;--stdout=$back_out&#34;, &#34;--stderr=$back_err&#34;, $psgi ];
++my $back_td = start_script($back_cmd, {}, { 3 =&gt; $back_unix, 4 =&gt; $back_tcp });
++
++my $front_cmd = [ &#39;-httpd&#39;, &#39;-W0&#39;,
++	&#34;--stdout=$front_out&#34;, &#34;--stderr=$front_err&#34;, $front_psgi];
++my $front_td = start_script($front_cmd, {}, { 3 =&gt; $front_tcp });
++
++for my $opt (map { ([&#39;-0&#39;, @$_], $_) } ([&#39;-HHost:nobuffer.example&#39;], [])) {
++	my $cmd = [ $curl, @$opt, &#34;-HX-Check-Fifo:$fifo&#34;,
++		qw(-NsSf), &#34;$front_url/slow-header&#34; ];
++	my $rd = popen_rd $cmd;
++	open my $f, &#39;&gt;&#39;, $fifo;
++	$f-&gt;autoflush(1);
++	print $f &#34;hello\n&#34; or xbail &#34;print $fifo: $!&#34;;
++	close $f;
++	my $buf = do { local $/; &lt;$rd&gt;; };
++	$rd-&gt;close or xbail &#34;curl failed: $?&#34;;
++	is $buf, &#34;hello\n&#34;, &#34;got expected response w/ (@$opt)&#34;;
++
++	$cmd = [ $curl, &#34;-HX-Check-Fifo:$fifo&#34;, @$opt,
++		qw(-NsSf), &#34;$front_url/slow-body&#34; ];
++	$rd = popen_rd $cmd;
++	open $f, &#39;&gt;&#39;, $fifo;
++	$f-&gt;autoflush(1);
++	for my $c (&#39;a&#39;..&#39;c&#39;) {
++		$c .= &#34;\n&#34;;
++		print $f $c or xbail &#34;print to FIFO: $!&#34;;
++		$buf = &lt;$rd&gt;;
++		is $buf, $c, &#34;got trickle for reading (@$opt)&#34;;
++	}
++	print $f &#34;world\n&#34; or xbail &#34;print final line to FIFO: $!&#34;;
++	close $f;
++	$buf = &lt;$rd&gt;;
++	is $buf, &#34;world\n&#34;, &#34;read expected body from curl (@$opt)&#34;;
++	$rd-&gt;close or xbail &#34;curl failed: $? (@$opt)&#34;;
++}
++
++{
++	open my $fh, &#39;&lt;&#39;, &#39;COPYING&#39;;
++	my $csum = &#39;78e50e186b04c8fe1defaa098f1c192181b3d837&#39;;
++	for my $exp (map { ([&#39;-HExpect:&#39;, @$_], $_) } (
++			[&#39;-HHost:nobuffer.example&#39;], [])) {
++		my $cmd = [ $curl, @$exp, qw(--tcp-nodelay -NsSf),
++			&#34;$front_url/sha1&#34;, &#39;-T-&#39; ];
++		pipe(my $r, my $w);
++		my $rd = popen_rd $cmd, undef, { 0 =&gt; $r };
++		close $r;
++		$w-&gt;autoflush(1);
++		my $n;
++		do {
++			$n = read($fh, my $buf, 8192) //
++				xbail &#34;read(COPYING): $!&#34;;
++			if ($n) {
++				print $w $buf or xbail &#34;print: $!&#34;;
++			}
++		} while ($n);
++		close $w;
++		my $sha = do { local $/; &lt;$rd&gt; };
++		is $sha, $csum, &#34;largish chunked upload accepted (@$exp)&#34;;
++		seek $fh, 0, 0;
++		pop(@$cmd) eq &#39;-T-&#39; or xbail &#34;BUG `-T-&#39; not popped&#34;;
++		push @$cmd, &#39;-T&#39;, &#39;COPYING&#39;;
++		$sha = xqx $cmd;
++		is $sha, $csum, &#34;largish identity upload accepted (@$exp)&#34;;
++	}
++}
++
++# HTTP/1.1-only
++for my $host ([&#39;-HHost:nobuffer.example&#39;], []) {
++	my $cmd = [ $curl, @$host, qw(-NsSf), &#34;$front_url/getline-die&#34; ];
++	xsys $cmd, undef, { 2 =&gt; \(my $cerr = &#39;&#39;) };
++	is($? &gt;&gt; 8, 18, &#34;curl @$host saw partial response on getline-die&#34;) or
++		diag $cerr;
++
++	$cmd = [ $curl, @$host, qw(-NsSf), &#34;$front_url/close-die&#34; ];
++	xsys $cmd, undef, { 2 =&gt; \($cerr = &#39;&#39;) };
++	is($? &gt;&gt; 8, 18, &#34;curl @$host saw partial response on close-die&#34;) or
++		diag $cerr;
++
++	$cmd = [ $curl, @$host, qw(-NsSf), &#34;$front_url/callback-truncated&#34; ];
++	xsys $cmd, undef, { 1 =&gt; \(my $cout = &#39;&#39;), 2 =&gt; \($cerr = &#39;&#39;) };
++	is($? &gt;&gt; 8, 18,
++		&#34;curl @$host saw partial response on truncated response&#34;) or
++		diag $cerr;
++}
++{
++	my $c = tcp_connect $front_tcp;
++	print $c &#34;GET /server HTTP/1.0\r\n\r\n&#34;;
++	my $buf = do { local $/; &lt;$c&gt; };
++	unlike $buf, qr/^server:/smi, &#39;Server: tag filtered out by default&#39;;
++	like $buf, qr!^trying to advertise!sm,
++		&#39;actually made correct request to test with&#39;;
++}
++
++done_testing;
+</span></pre><hr><pre><a
+href="../87sej04wkj.fsf@kyleam.com/"
+rel=next>next</a> <a
+href="../20250713000836.2623715-3-e@80x24.org/"
+rel=prev>prev</a> <a
+href="../20250713000836.2623715-1-e@80x24.org/">parent</a> <a
+href="#R">reply</a>	other threads:[<a
+href="../?t=20250713000838">~2025-07-13  0:08 UTC</a>|<a
+href="../">newest</a>]
+
+<b>Thread overview: </b>7+ messages / expand[<a
+href="T/#u">flat</a>|<a
+href="t/#u">nested</a>]  <a
+href="t.mbox.gz">mbox.gz</a>  <a
+href="t.atom">Atom feed</a>  <a
+href="#b">top</a>
+2025-07-13  0:08 <a
+href="../20250713000836.2623715-1-e@80x24.org/">[PATCH 0/4] PSGI reverse proxy implementation</a> Eric Wong
+2025-07-13  0:08 ` <a
+href="../20250713000836.2623715-2-e@80x24.org/">[PATCH 1/4] listener: throttle errors for resource limits</a> Eric Wong
+2025-07-13  0:08 ` <a
+href="../20250713000836.2623715-3-e@80x24.org/">[PATCH 2/4] http: expose reused connection counter in PSGI env</a> Eric Wong
+<b>2025-07-13  0:08 ` <a
+id=r
+href="#t">Eric Wong [this message]</a></b>
+2025-07-13  3:08   ` <a
+href="../87sej04wkj.fsf@kyleam.com/">[PATCH 3/4] http: introduce a reverse proxy PSGI app</a> Kyle Meyer
+2025-07-13 23:05     ` <a
+href="../20250713230544.M16450@dcvr/">Eric Wong</a>
+2025-07-13  0:08 ` <a
+href="../20250713000836.2623715-5-e@80x24.org/">[PATCH 4/4] contrib: PSGI RejectBots middleware</a> Eric Wong
+</pre><form id=related
+action=../
+><pre>find likely ancestor, descendant, or conflicting patches for <a
+href=#t>this message</a>:
+<textarea name=q cols=72 rows=4>( dfblob:674b544 dfblob:cc105c1 dfblob:af6b780 dfblob:b9a8600
+dfblob:0e668cc dfblob:29f66be dfblob:06b996c )
+ OR (
+bs:&#34;[PATCH 3/4] http: introduce a reverse proxy PSGI app&#34; )</textarea>
+<input type=submit value=search
+/>	(<a href=../_/text/help/#search>help</a>)</pre></form>
+<hr><pre
+id=R><b>Reply instructions:</b>
+
+You may reply publicly to <a
+href=#t>this message</a> via plain-text email
+using any one of the following methods:
+
+* Save the following mbox file, import it into your mail client,
+  and reply-to-all from there: <a
+href=raw>mbox</a>
+
+  Avoid top-posting and favor interleaved quoting:
+  <a
+href="https://en.wikipedia.org/wiki/Posting_style#Interleaved_style">https://en.wikipedia.org/wiki/Posting_style#Interleaved_style</a>
+
+  List information: <a
+href="https://public-inbox.org/README">https://public-inbox.org/README</a>
+
+* Reply using the <b>--to</b>, <b>--cc</b>, and <b>--in-reply-to</b>
+  switches of git-send-email(1):
+
+  git send-email \
+    --in-reply-to=20250713000836.2623715-4-e@80x24.org \
+    --to=e@80x24.org \
+    --cc=meta@public-inbox.org \
+    /path/to/YOUR_REPLY
+
+  <a
+href="https://kernel.org/pub/software/scm/git/docs/git-send-email.html">https://kernel.org/pub/software/scm/git/docs/git-send-email.html</a>
+
+* If your mail client supports setting the <b>In-Reply-To</b> header
+  via mailto: links, try the <a
+href="mailto:e@80x24.org?In-Reply-To=%3C20250713000836.2623715-4-e@80x24.org%3E&#38;Cc=meta%40public-inbox.org&#38;Subject=Re%3A%20%5BPATCH%203%2F4%5D%20http%3A%20introduce%20a%20reverse%20proxy%20PSGI%20app">mailto: link</a>
+</pre>
+
+  Be sure your reply has a <b>Subject:</b> header at the top and a blank line
+  before the message body.
+<hr><pre><a id=code>Code repositories for project(s) associated with this public inbox
+
+	<a
+href="https://80x24.org/public-inbox.git">https://80x24.org/public-inbox.git</a>
+
+This is a public inbox, see <a
+href="../_/text/mirror/">mirroring instructions</a>
+for how to clone and mirror all data and code used for this inbox;
+as well as URLs for read-only IMAP folder(s) and NNTP newsgroup(s).</pre></body></html>

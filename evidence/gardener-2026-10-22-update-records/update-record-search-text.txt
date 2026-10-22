@@ -1,0 +1,23 @@
+"yhetil.org" "git" "maintenance" - Brave Search
+Ask
+All
+Images
+News
+Videos
+Maps
+Goggles
+Query contains search operators
+Ignore operators
+Yhetil
+yhetil.org › guix
+all messages for Guix-related lists mirrored at yhetil.org
+2019-11-06 21:49 UTC (12+ messages) ... 0/1] (maintenance) refcard: Use aliases 2019-11-06 14:39 UTC (3+ messages) ` [bug#37498] [PATCH 1/1] refcard: Use aliases. Update version to 1.0.1 ` bug#37498: " REQUEST to Guix Maintainers 2019-11-06 11:18 UTC (5+ messages) bug#38086: RAID installation script with ‘mdadm’ no longer works 2019-11-06 11:07 UTC (2+ messages) GNU Kind Communication Guidelines versus social contract or Codes of Conduct 2019-11-06 10:37 UTC git / grep with ...
+Find elsewhere
+Google Bing Mojeek
+Next
+Resources
+Brave Search Premium Brave Search help Transparency report Report a security issue Status
+Products
+Brave Browser Brave Search Brave Wallet Brave Talk Brave Firewall + VPN Brave Playlist Brave News Brave Rewards Brave Search API Brave Ads
+Policies
+Privacy Policy Terms of Use

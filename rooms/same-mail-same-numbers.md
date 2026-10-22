@@ -58,6 +58,9 @@ All sources below were read **2026-10-10**. The manuals describe the published p
 Retrieval note: Google search returned only a redirect/help page, and Bing RSS returned unrelated results. The project's own web search, **“msgmap recovery”**, https://public-inbox.org/meta/?q=msgmap+recovery, returned relevant discussion, including source 7; the official directory at https://public-inbox.org/ supplied the manual links. Both were read **2026-10-10**. The answer rests on the retrieved sources, not on the failed general searches.
 
 Links:
+- [grounded-identity](grounded-identity.md) distinguishes a known mapping from an opaque position, so this archive's article number needs its preserved message pairing rather than a familiar-looking slot.
+- [[recomputation]] names making the search aids again, not a promise that a regenerated number map keeps every old address.
+- [the-bridging-brick](the-bridging-brick.md) leaves a door at a moved word's old address, the castle's counterpart to keeping article numbers so a reader's old path still reaches the same letter.
 - [link-or-noise](link-or-noise.md) asks whether a door still reaches what it promises, the reader's test here when the letters survive but their old shelf numbers no longer lead to them.
 - [remembering](remembering.md) offers a human parallel: keeping the letters is not keeping the road back, just as having a map is not practicing the walk that makes recall possible.
 - [precise-across-time](precise-across-time.md) asks how a discrete handle carries precision across a delay, a practical analogue for keeping an article number attached to the same letter after recovery.

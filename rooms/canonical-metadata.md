@@ -16,6 +16,8 @@ What gathers here: the craft of preserving ordered multi-face source metadata in
 
 ## Links
 
+- [look-alike-names](look-alike-names.md) gives a concrete derived comparison: a resemblance skeleton can be rebuilt under new tables while the original identifier stays put.
+- [[recomputation]] needs the ordered source and the stated projection rule, rather than a convenient view silently promoted into its own source.
 - [checking-a-signed-reply](checking-a-signed-reply.md) gives the separate source record a concrete use: a readable field value is not enough when its signature also depends on the reply and section that carried it.
 
 [[representation-audit]] · [deterministic-json-standards](deterministic-json-standards.md) (the standard the `*_json` field rests on: this room names the pattern of an explicitly named deterministic-JSON field, and the standards room names the RFC 8785 JCS that makes that field's bytes stable and checkable — one names the shape, the other the load it carries) · [grounded-identity](grounded-identity.md) (the seam this room's records depend on: the canonical record this room keeps must belong to a grounded entity before it is usable data, and the grounded-identity room holds parsed attributes in quarantine until that mapping is named — both refuse to let an ungrounded value be promoted into a real one) · [[civic-data-honesty]] · [[the-law-of-honest-assertion]] · [[words-and-actions-api]]

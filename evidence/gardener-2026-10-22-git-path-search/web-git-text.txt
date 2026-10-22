@@ -1,0 +1,250 @@
+"yhetil" "git" "slow" - Brave Search
+Ask
+All
+Images
+News
+Videos
+Maps
+Goggles
+search operators  were not applied
+Too few matches were found
+More
+Git is very slow  stackoverflow.com › questions  › 60102905  › git-is-very-slow
+This is due to the fact that maybe you are behind a corporate proxy, also you cat try in your Git Bash to do echo $HOME and you should see different results when you are on the office network and on your home network, you can change this variable directly in git bash using: export HOME=\c\Users\<desired_path> (keep in mind this change will not be persistent).
+Also a good thing is to check if your PATH has unnecessary things in it, which can slow things down:
+Windows cmd: set %PATH%
+Git Bash: echo $PATH Answer from dejanualex on Stack Overflow
+Yhetil
+yhetil.org › guix  › 87cz9fpw4x.fsf@gmail.com
+RFC: libgit2 is slow/inefficient; switch to git command? - Maxim Cournoyer
+Date: Mon, 21 Nov 2022 21:21:02 -0500 [thread overview] Message-ID: <87cz9fpw4x.fsf@gmail.com> (raw) Hi, While attempting to bisect against the Linux kernel tree, the performance of libgit2 quickly became problematic, to the point where simply cloning the repo became a multiple hours affair, using upward to 3 GiB of RAM for the clone and indexing of the objects (!) Given that: * the git CLI doesn't suffer from such poor performance; * This kind of performance problem has been known for years in libgit2 [0] with no fix in sight; * other projects such as Cargo support using the git CLI and that projects are using it for that reason [1]; Would it make sense to switch to use the git command directly instead of calling into this libgit2 C library that ends up being slower?
+Yhetil
+yhetil.org › emacs-devel  › 837gaafij8.fsf@gnu.org
+Re: Git transition checklist - Eli Zaretskii
+So either the above function should be added to Emacs before the switch, wrapped with some code that would activate it when git starts to be used, or the repo should be locked for pulls for a few moments after the switch, until the function is committed. > Nobody else explicitly suggested any additional preconditions. I think we have identified another one today: repack the savannah repository, to avoid both slow initial clone and, what's more, local repacking that is problematic on slow or low-memory machines.
+Stack Overflow
+stackoverflow.com › questions  › 60102905  › git-is-very-slow
+Git is very slow - Stack Overflow
+Top answer
+1 of 2
+2
+This is due to the fact that maybe you are behind a corporate proxy, also you cat try in your Git Bash to do echo $HOME and you should see different results when you are on the office network and on your home network, you can change this variable directly in git bash using: export HOME=\c\Users\<desired_path> (keep in mind this change will not be persistent).
+Also a good thing is to check if your PATH has unnecessary things in it, which can slow things down:
+Windows cmd: set %PATH%
+Git Bash: echo $PATH
+2 of 2
+0
+This helpt me.
+Uninstall git-bash. Remove the ..\program files\Git directory.
+Then reinstall by running the installer as administrator.
+Git command windows 10 slow
+Git Bash (mintty) is extremely slow on Windows 10 OS
+Git is Unusably Slow on Windows 10
+Git has huge performance issues on windows
+Git is very very slow when tracking large binary files
+More results from stackoverflow.com
+GitHub
+github.com › msysgit  › msysgit  › wiki  › Diagnosing-why-Git-is-so-slow
+Diagnosing why Git is so slow
+16 February 2020 - This command will tell Bash to echo the commands it is executing so that you can find out which commands are slow and investigate more closely in that direction. Git often executes subcommands, hence it is possible that you run a certain Git command but the tardiness stems from a different Git command.
+Author: msysgit
+Git for Windows
+gitforwindows.org › diagnosing-performance-issues.html
+Diagnosing performance issues
+When starting Git Bash is already slow, edit the file <GIT_HOME>/etc/profile and insert a set -x somewhere at the top.
+JetBrains
+youtrack.jetbrains.com › issue  › PY-44973  › Git-operations-are-painfully-slow-some-times-take-few-minutes-to-push-pull-or-do-a-VCS-Refresh
+Git operations are painfully slow, some times take few ...
+Our website uses some cookies and records your IP address for the purposes of accessibility, security, and managing your access to the telecommunication network. You can disable data collection and cookies by changing your browser settings, but it may affect how this website functions.
+Hacker News
+news.ycombinator.com › item
+Git was once fast for my use too. Then I returned to Microsoft to work on buildi... | Hacker News
+21 August 2019 - On my Skylake+SSD desktop, it takes over ten seconds to switch branches with git checkout, several of which are used just to calculate the "your branch is ahead of origin/your-branch-name by N commits" value · We are making many great strides here at Microsoft to improve git performance, such ...
+Google Groups
+groups.google.com › g  › msysgit  › c  › AuPA4EbwchU
+git really slow on Windows
+I've noticed that too. The last time I profiled git, most of the CPU time was going to the Windows kernel (and most of that was in ACL checks (can you read this file? Can you read this directory? Can you run that program?)). Windows is just plain slower than Linux at operating on many small files.
+Stack Overflow
+stackoverflow.com › questions  › 3313908  › git-is-really-slow-for-100-000-objects-any-fixes
+performance - Git is really slow for 100,000 objects. Any fixes? - Stack Overflow
+Top answer
+1 of 11
+39
+It came down to a couple of items that I can see right now.
+git gc --aggressive
+Opening up file permissions to 777
+There has to be something else going on, but this was the things that clearly made the biggest impact.
+2 of 11
+24
+git status has to look at every file in the repository every time.  You can tell it to stop looking at trees that you aren't working on with
+git update-index --assume-unchanged <trees to skip>
+source
+From the manpage:
+When these flags are specified, the
+object names recorded for the paths
+are not updated. Instead, these
+options set and unset the "assume
+unchanged" bit for the paths. When the
+"assume unchanged" bit is on, git
+stops checking the working tree files
+for possible modifications, so you
+need to manually unset the bit to tell
+git when you change the working tree
+file. This is sometimes helpful when
+working with a big project on a
+filesystem that has very slow lstat(2)
+system call (e.g. cifs).
+This option can be also used as a
+coarse file-level mechanism to ignore
+uncommitted changes in tracked files
+(akin to what .gitignore does for
+untracked files). Git will fail
+(gracefully) in case it needs to
+modify this file in the index e.g.
+when merging in a commit; thus, in
+case the assumed-untracked file is
+changed upstream, you will need to
+handle the situation manually.
+Many operations in git depend on your
+filesystem to have an efficient
+lstat(2) implementation, so that
+st_mtime information for working tree
+files can be cheaply checked to see if
+the file contents have changed from
+the version recorded in the index
+file. Unfortunately, some filesystems
+have inefficient lstat(2). If your
+filesystem is one of them, you can set
+"assume unchanged" bit to paths you
+have not changed to cause git not to
+do this check. Note that setting this
+bit on a path does not mean git will
+check the contents of the file to see
+if it has changed — it makes git to
+omit any checking and assume it has
+not changed. When you make changes to
+working tree files, you have to
+explicitly tell git about it by
+dropping "assume unchanged" bit,
+either before or after you modify
+them.
+...
+In order to set "assume unchanged"
+bit, use --assume-unchanged option. To
+unset, use --no-assume-unchanged.
+The command looks at core.ignorestat
+configuration variable. When this is
+true, paths updated with git
+update-index paths… and paths updated
+with other git commands that update
+both index and working tree (e.g. git
+apply --index, git checkout-index -u,
+and git read-tree -u) are
+automatically marked as "assume
+unchanged". Note that "assume
+unchanged" bit is not set if git
+update-index --refresh finds the
+working tree file matches the index
+(use git update-index --really-refresh
+if you want to mark them as "assume
+unchanged").
+Now, clearly, this solution is only going to work if there are parts of the repo that you can conveniently ignore.  I work on a project of similar size, and there are definitely large trees that I don't need to check on a regular basis.  The semantics of git-status make it a generally O(n) problem (n in number of files).  You need domain specific optimizations to do better than that.
+Note that if you work in a stitching pattern, that is, if you integrate changes from upstream by merge instead of rebase, then this solution becomes less convenient, because a change to an --assume-unchanged object merging in from upstream becomes a merge conflict.  You can avoid this problem with a rebasing workflow.
+Find elsewhere
+Google Bing Mojeek
+Aibit
+devops.aibit.im › en  › article  › troubleshooting-slow-git-operations
+Troubleshooting Slow Git Operations: Common Pitfalls and Solutions | Master DevOps Tools & Best Practices - DevOps Knowledge Hub
+So the first fix is not git gc. The first fix is to measure the exact operation. ... Run the command twice. The first run may be slower because the OS cache is cold. If the first git status takes ten seconds and the second takes one, you may be looking at disk cache behavior.
+JetBrains
+youtrack.jetbrains.com › projects  › IJPL  › issues  › IJPL-219220  › Git-operations-are-very-slow-in-2025.3.x-for-repos-on-WSL
+Git operations are very slow in 2025.3.x for repos on WSL : IJPL-219220
+Removing zsh from my system fixed all my git performance issues in the Jetbrains editor git operations. Reverted shell back to bash and everything is fast again ... So, a workaround in my case is to adjust the .zshrc to avoid loading oh-my-zsh, nvm, completions and other stuff that slows down zsh startup and is not required to execute a command.
+Google Groups
+groups.google.com › g  › gitextensions  › c  › UKa8ULNOb5I
+Soooo sloooow...
+When you open the commit dialog, ... compares it to the one in the repository to see if the file has really changed. If it has to build a hash for thousands of files, that will slow it down....
+Git Tower
+git-tower.com   › blog  › how to improve performance in git: the complete guide
+How to Improve Performance in Git: The Complete Guide
+7 March 2023 - Is your Git monorepo getting slower and slower? Have a look at all the performance improvements that you can make to speed up your Git repository.
+Stack Overflow
+stackoverflow.com › questions  › 22040246  › git-pull-is-very-slow-why
+version control - Git pull is very slow... Why? - Stack Overflow
+Top answer
+1 of 13
+61
+I had the same issue. For me this was a IPv4/IPv6 issue. I fixed it forcing SSH to use IPv4.
+Set "AddressFamily inet" in /etc/ssh/ssh_config to force IPv4 connection. Then restart ssh client sudo service ssh restart
+More info here.
+2 of 13
+20
+I have had the same issue when I was dealing with thousands of small files.
+The thing that fixed it for me was to set the postbuffer in the Git repository's configuration:
+git config http.postBuffer 524288000
+Instead of uploading with 18 KB/s it suddenly went the full bandwidth.
+GitHub
+github.com › microsoft  › WSL  › issues  › 4401
+git status is slow in WSL2 · Issue #4401 · microsoft/WSL
+12 August 2019 - We can't leave comments anymore in the initial issue. I discovered that GIT runs not that slow when the project is small, like 2-3 seconds slower than it should be (annoying but manageable) Another thing that I discovered is if you run GIT commands through PHPStorm's terminal it runs fast!
+Graphite
+graphite.com › guides  › troubleshooting-slow-git-clone
+Troubleshooting when git clone is slow or hanging - Graphite
+Check your network settings: Ensure that your firewall or proxy settings are not interfering with Git. Sometimes, corporate networks have restrictions that might slow down Git operations.
+Reddit
+reddit.com   › r/bashonubuntuonwindows  › any tricks to make git faster?
+r/bashonubuntuonwindows on Reddit: any tricks to make git faster?
+18 June 2018 -
+simple git commands like git status are very slow. Not to mention oh-my-zsh etc.
+Is there any trick to make it faster?
+Tried to disable realtime protection of my AV and Windows Defender with no luck
+Top answer
+1 of 5
+9
+Can almost guarantee it's whatever zsh theme you are using / oh-my-zsh. I have had this problem before and ended up getting rid of oh-my-zsh.
+2 of 5
+2
+I doubt git is the problem.  So the question isn't 'how can you make git faster?', it's 'how can you prevent your system from slowing git down?'.  Things to try: Run /bin/dash (or /bin/sh) for a simpler shell (w/o extensions) and then try git status.  (See also u/millera023 's answer) Are you in a Windows directory?  (A directory under /mnt/c?)  That will be slower as WSL has to pass through more layers for file access. Are you using enterprise AV in a corporate network?  Sometimes enterprise AV products scan or otherwise attack POSIX tools more than other programs.  If so, run task manager or watch CPU when you run a slow git command.  If you can, temporarily disable AV and see how fast git runs. But for God's sake, turn it back on after. If you have a Linux WM, see how fast git runs in it.  This will factor out any Windows-related issues. If you really are looking for the fastest git possible, make a symlink to a directory under /dev/shm and work from there.  That's a ram-disk and will be super fast.  This is a nasty workaround, however, to whatever your real problem is.
+Super User
+superuser.com › questions  › 1160349  › why-is-git-extremely-slow-on-windows-10
+performance - Why is Git extremely slow on Windows 10? - Super User
+Top answer
+1 of 3
+13
+If you scenario is like mine, and you don't have an AMD Graphics Driver, then try creating a HOME environment variable which points to your user profile directory (e.g. C:\Users\UserName), as is suggested further down in:
+Git Bash Mintty is extremely slow on Windows 10 OS
+One caveat... the explanation in that link says to make a new System Environment Variable.
+I was able to fix my problem by making a new User Environment Variable, which seems preferable to having a system-wide environment variable pointing to your personal home directory.
+The PowerShell way of doing it:
+Win+R→type powershell→Ctrl+Shift+Enter
+Set-ItemProperty -Path HKCU:\Environment\ -Name Home -Type String -Value $Env:UserProfile
+2 of 3
+6
+This Stack Overflow post worked for me: Git Bash (mintty) is extremely slow on Windows 10 OS
+Old question, I know, but I recently encountered the problem and found the answer - so thought I'd proliferate. Essentially, it was an issue with the AMD Radeon Graphics Driver slowing down mintty. Go to Device Manager, and disable AMD Radeon Graphics in favor of Intel Integrated Graphics. I've tried to find out why, but no luck so far.
+GitHub
+github.com › msys2  › MSYS2-packages  › issues  › 3358
+Some git commands are really slow · Issue #3358 · msys2/MSYS2-packages
+2 December 2022 - Running various operations which only read files in a git repository may cause git to think that the files have been modified and the index needs to be refreshed. When that happens, any command that will try to refresh the index can get very ...
+Reddit
+reddit.com   › r/github  › is it just me or are git/github operations unusually slow lately ?
+r/github on Reddit: Is it just me or are Git/GitHub operations unusually slow lately ?
+18 January 2026 -
+Am I the only one who feels that Git and GitHub have been kinda slow these days? Like Whenever I push commits or create a PR, it takes noticeably longer than usual.
+I've double checked my internet and system, and everything seems fine. I even tried on multiple systems with different networks, but the issue still persists.
+Not sure if this is a Git/GitHub-side issues, or some recent update, or something cause it was fine month ago.
+Anyone else experiencing these kinda issues such as slow pushes, PR creation, or general lag lately on Git/Github !
+Top answer
+1 of 3
+1
+The webui is painfully slow, whenever i open PRs or agent tab, it takes sometimes literal minutes to load
+2 of 3
+1
+It’s you
+Next
+Resources
+Brave Search Premium Brave Search help Transparency report Report a security issue Status
+Products
+Brave Browser Brave Search Brave Wallet Brave Talk Brave Firewall + VPN Brave Playlist Brave News Brave Rewards Brave Search API Brave Ads
+Policies
+Privacy Policy Terms of Use

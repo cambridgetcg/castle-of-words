@@ -1,0 +1,33 @@
+{
+  "kind": "ad-hoc verification, not a canonical suite",
+  "checked_utc": "2026-10-22T10:47:41.327344+00:00",
+  "all_checks_passed": true,
+  "check_count": 17,
+  "checks": [
+    "both scripts compile without bytecode output",
+    "unmodified verifier passes against the completed visit",
+    "baseline hashes, counts, reservations and eligible order match fixture",
+    "baseline refuses overwriting an earlier inventory",
+    "duplicate Map entry is reported as invalid",
+    "baseline rejects symlink escape from its declared root",
+    "fetch wrapper accepts three items, rejects zero/four and routes destination; network stubbed",
+    "CLI rejects malformed arguments; start issues exactly two stubbed searches",
+    "verifier accepts copied completed and preclose states",
+    "verifier rejects extra chronicle entry",
+    "verifier rejects rewritten chronicle history",
+    "verifier rejects missing Map room",
+    "verifier rejects broken new link",
+    "verifier rejects corrupted response body",
+    "verifier rejects misreported HTTP failure",
+    "verifier rejects changed machinery copy",
+    "fixtures removed; original castle content unchanged"
+  ],
+  "tested_script_sha256": {
+    "research.py": "1dd7787c40efaac3ee7f524a691680d1bb6dd6a6a9c33b0ceb48bd0eb76085a4",
+    "verify.py": "e09a74df05c35cd61a4d3d9464f040c96772b33bb4bbd06e4abbf6c47957ceff"
+  },
+  "network_requests": 0,
+  "castle_content_unchanged": true,
+  "temporary_fixture_cleaned": true,
+  "temporary_script": "/var/folders/bg/v8wn0t11067f0hzxkz7hp7rr0000gn/T/hermes-verify-6nogfcm4.py"
+}

@@ -1,0 +1,93 @@
+{
+  "verification_kind": "ad-hoc; not a canonical project suite",
+  "verified_at_utc": "2026-10-22T17:04:59.751584+00:00",
+  "target": "/Users/yu/castle/evidence/gardener-2026-10-22-maintenance-search/verify.py",
+  "target_sha256": "a19a118a6f3f04fddb5b3a76937689676cdc6b39180b96e849aed887647cda28",
+  "passed": true,
+  "synthetic_cases_run": 12,
+  "checks": [
+    {
+      "case": "valid synthetic fixture including a received 404 search page",
+      "passed": true
+    },
+    {
+      "case": "reject two appended chronicle lines",
+      "passed": true
+    },
+    {
+      "case": "reject altered historical chronicle prefix",
+      "passed": true
+    },
+    {
+      "case": "reject protected machinery change",
+      "passed": true
+    },
+    {
+      "case": "reject unexpected room",
+      "passed": true
+    },
+    {
+      "case": "reject duplicate Map entry even when present in baseline",
+      "passed": true
+    },
+    {
+      "case": "reject same-size body corruption",
+      "passed": true
+    },
+    {
+      "case": "reject wrong HTTP status",
+      "passed": true
+    },
+    {
+      "case": "reject failed transfer",
+      "passed": true
+    },
+    {
+      "case": "reject watched endpoint",
+      "passed": true
+    },
+    {
+      "case": "reject wrong reading date",
+      "passed": true
+    },
+    {
+      "case": "reject wrong oldest-first order",
+      "passed": true
+    }
+  ],
+  "fixtures": "Explicitly synthetic; temporary directory cleanup verified.",
+  "logic_redirection": "Only ROOT and __file__ redirected for fixture tests.",
+  "real_verifier_exit": 0,
+  "real_verifier_report": {
+    "passed": true,
+    "filed": 0,
+    "researched": 1,
+    "answered": 0,
+    "planted": 0,
+    "changed_grounds_files": [
+      "chronicle.md"
+    ],
+    "chronicle_lines_appended": 1,
+    "map_rooms_exactly_once": 697,
+    "open_questions_unchanged": 16,
+    "garden_unchanged": true,
+    "retrievals": [
+      {
+        "label": "maintenance-search",
+        "http_status": 200,
+        "curl_exit": 0
+      },
+      {
+        "label": "gc-search",
+        "http_status": 200,
+        "curl_exit": 0
+      },
+      {
+        "label": "archive-maintenance-search",
+        "http_status": 404,
+        "curl_exit": 0
+      }
+    ],
+    "scope": "Local consistency only; no new service measurement or answer."
+  }
+}

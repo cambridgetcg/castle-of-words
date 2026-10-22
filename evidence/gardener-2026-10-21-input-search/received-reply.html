@@ -1,0 +1,159 @@
+<html><head><title>Re: [PATCH] www: display Received: timestamp for dumped topics - Eric Wong</title><link
+rel=alternate
+title="Atom feed"
+href="../new.atom"
+type="application/atom+xml"/><style>@import url("../216light.css?69d631d8") screen AND (prefers-color-scheme:light);*{overflow-wrap:anywhere;font-size:100%;font-family:monospace}</style><link
+type=text/css
+rel=stylesheet
+href=../216dark.css?69d631d8
+media=screen /><link
+type=text/css
+rel=stylesheet
+href=../216light.css?69d631d8
+media=print /></head><body><form
+action="../"><pre><a
+href="../?t=20230205202159"><b>user/dev discussion of public-inbox itself</b></a>
+<input
+name=q
+type=text /><input
+type=submit
+value=search /> <a
+href="../_/text/help/">help</a> / <a
+href="../_/text/color/">color</a> / <a
+id=mirror
+href="../_/text/mirror/">mirror</a> / <a
+href=#code>code</a> / <a
+href="../new.atom">Atom feed</a></pre></form><pre
+id=b>From: Eric Wong &lt;e@80x24.org&gt;
+To: Kyle Meyer &lt;kyle@kyleam.com&gt;
+Cc: Ihor Radchenko &lt;yantar92@posteo.net&gt;,
+	<a
+href="https://public-inbox.org/meta/?t=20230205202159">meta@public-inbox.org</a>, Bastien Guerry &lt;bzg@fsf.org&gt;
+Subject: <a
+href="#r"
+id=t>Re: [PATCH] www: display Received: timestamp for dumped topics</a>
+Date: Sun, 5 Feb 2023 20:21:59 +0000	<a
+href="#r">[thread overview]</a>
+Message-ID: &lt;20230205202159.M111127@dcvr&gt; (<a href="raw">raw</a>)
+In-Reply-To: &lt;<a
+href="../87y1pb27r6.fsf@kyleam.com/">87y1pb27r6.fsf@kyleam.com</a>&gt;
+
+Kyle Meyer &lt;kyle@kyleam.com&gt; wrote:
+<span
+class="q">&gt; Ihor Radchenko writes:
+&gt; 
+&gt; &gt; Eric Wong &lt;e@80x24.org&gt; writes:
+&gt; [...]
+&gt; &gt;&gt; Does this untested patch fix it?
+&gt; &gt;
+&gt; &gt; I am looking at <a
+href="https://list.orgmode.org/">https://list.orgmode.org/</a> and the thread still displays
+&gt; &gt; the future date &#34;2023-10-29  1:04 UTC&#34; as the last update time. Though
+&gt; &gt; ordering suggests that the future time was ignored when building recent
+&gt; &gt; thread list.
+&gt; 
+&gt; The &#34;it&#34; that I reported is the sorting, so as far as I can see it&#39;s
+&gt; fixed.  With the &#34;last update time&#34;, I suppose you&#39;re talking about the
+&gt; second line below:
+&gt; 
+&gt;   [FEATURE REQUEST] Timezone support in org-mode datestamps and org-agenda
+&gt;    2023-10-29  1:04 UTC  (110+ messages)
+&gt;                                         ` [POLL] Proposed syntax for [...]
+&gt; 
+&gt; I don&#39;t care too much one way or the other, but it makes sense to me for
+&gt; that to match the value that&#39;s actually used to sort the messages.
+&gt; Eric, what about something like this?
+</span>
+I&#39;m slightly against it.  Date: is what&#39;s shown in every other
+message view, and I think that&#39;s what most MUAs do, too.  I&#39;m
+fine with wrong dates being shown as long as it&#39;s not abusable
+to pin a message to the top of /$INBOX/.
+
+Aside from git-send-email behavior mentioned upthread, Date:
+should also be favored in general because it&#39;s consistent across
+recipients, and across independently-run archives w/o common
+history.
+
+I think the best we can do is point out to senders their clocks
+are wrong, as this has been the case going back decades.
+</pre><hr><pre><a
+href="../87r0v325ka.fsf@kyleam.com/"
+rel=next>next</a> <a
+href="../87y1pb27r6.fsf@kyleam.com/"
+rel=prev>prev parent</a> <a
+href="#R">reply</a><a id=related>	</a>other threads:[<a
+href="../?t=20230205202159">~2023-02-05 20:21 UTC</a>|<a
+href="../">newest</a>]
+
+<b>Thread overview: </b>8+ messages / expand[<a
+href="T/#u">flat</a>|<a
+href="t/#u">nested</a>]  <a
+href="t.mbox.gz">mbox.gz</a>  <a
+href="t.atom">Atom feed</a>  <a
+href="#b">top</a>
+2023-02-04 17:25 <a
+href="../87edr5gx63.fsf@kyleam.com/">future date in Date header pinning thread to top of $inbox/</a> Kyle Meyer
+2023-02-04 20:41 ` <a
+href="../20230204204110.M179231@dcvr/">[PATCH] www: sort all /$INBOX/ topics by Received: timestamp</a> Eric Wong
+2023-02-04 21:16   ` <a
+href="../87sfflw2qu.fsf@kyleam.com/">Kyle Meyer</a>
+2023-02-05 19:30   ` <a
+href="../87o7q7di5i.fsf@localhost/">Ihor Radchenko</a>
+2023-02-05 20:10     ` <a
+href="../87y1pb27r6.fsf@kyleam.com/">[PATCH] www: display Received: timestamp for dumped topics</a> Kyle Meyer
+<b>2023-02-05 20:21       ` <a
+id=r
+href="#t">Eric Wong [this message]</a></b>
+2023-02-05 20:57         ` <a
+href="../87r0v325ka.fsf@kyleam.com/">Kyle Meyer</a>
+2023-02-05 21:03         ` <a
+href="../87lelbddve.fsf@localhost/">Ihor Radchenko</a>
+</pre><hr><pre
+id=R><b>Reply instructions:</b>
+
+You may reply publicly to <a
+href=#t>this message</a> via plain-text email
+using any one of the following methods:
+
+* Save the following mbox file, import it into your mail client,
+  and reply-to-all from there: <a
+href=raw>mbox</a>
+
+  Avoid top-posting and favor interleaved quoting:
+  <a
+href="https://en.wikipedia.org/wiki/Posting_style#Interleaved_style">https://en.wikipedia.org/wiki/Posting_style#Interleaved_style</a>
+
+  List information: <a
+href="https://public-inbox.org/README">https://public-inbox.org/README</a>
+
+* Reply using the <b>--to</b>, <b>--cc</b>, and <b>--in-reply-to</b>
+  switches of git-send-email(1):
+
+  git send-email \
+    --in-reply-to=20230205202159.M111127@dcvr \
+    --to=e@80x24.org \
+    --cc=bzg@fsf.org \
+    --cc=kyle@kyleam.com \
+    --cc=meta@public-inbox.org \
+    --cc=yantar92@posteo.net \
+    /path/to/YOUR_REPLY
+
+  <a
+href="https://kernel.org/pub/software/scm/git/docs/git-send-email.html">https://kernel.org/pub/software/scm/git/docs/git-send-email.html</a>
+
+* If your mail client supports setting the <b>In-Reply-To</b> header
+  via mailto: links, try the <a
+href="mailto:e@80x24.org?In-Reply-To=%3C20230205202159.M111127@dcvr%3E&#38;Cc=bzg%40fsf.org%2Ckyle%40kyleam.com%2Cmeta%40public-inbox.org%2Cyantar92%40posteo.net&#38;Subject=Re%3A%20%5BPATCH%5D%20www%3A%20display%20Received%3A%20timestamp%20for%20dumped%20topics">mailto: link</a>
+</pre>
+
+  Be sure your reply has a <b>Subject:</b> header at the top and a blank line
+  before the message body.
+<hr><pre><a id=code>Code repositories for project(s) associated with this public inbox
+
+	<a
+href="https://80x24.org/public-inbox.git">https://80x24.org/public-inbox.git</a>
+
+This is a public inbox, see <a
+href="../_/text/mirror/">mirroring instructions</a>
+for how to clone and mirror all data and code used for this inbox;
+as well as URLs for read-only IMAP folder(s) and NNTP newsgroup(s).</pre></body></html>

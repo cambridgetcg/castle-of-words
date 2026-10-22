@@ -1,0 +1,60 @@
+"yhetil" "maildir" - Brave Search
+Ask
+All
+Images
+News
+Videos
+Maps
+Goggles
+Query contains search operators
+Ignore operators
+GNU
+elpa.gnu.org › packages  › minimail.html
+GNU ELPA - minimail
+POP, NNTP, RSS, Maildir, instant messaging, microblogging, social media, virtual reality, etc. Minimail comes pre-configured to access the Emacs mailing lists served by Yhetil via anonymous IMAP.
+GitHub
+github.com › astoff  › minimail
+GitHub - astoff/minimail: Simple, non-blocking IMAP email client for Emacs · GitHub
+POP, NNTP, RSS, Maildir, instant messaging, microblogging, social media, virtual reality, etc. Minimail comes pre-configured to access the Emacs mailing lists served by Yhetil via anonymous IMAP.
+Author: astoff
+The Mail Archive
+mail-archive.com › guix-devel@gnu.org  › msg59420.html
+public-inbox/elfeed -> Maildir bridge (was: Incentives for review)
+Elfeed -> Notmuch ================= zimoun, I know you're a Notmuch user, so here's how you could configure things so that calling piem-inject-thread-into-maildir from the Elfeed buffer above throws you into a Notmuch show buffer for the message. * add a guix-patches entry to piem-inboxes (add-to-list 'piem-inboxes '("guix-patches" :url "https://yhetil.org/guix-patches/")) * point piem to your Maildir (setq piem-maildir-directory "/path/to/maildir/") Alternatively, messages for different projects can be sent to different Maildir directories using the :maildir keyword in the piem-inboxes entry.
+Yhetil
+yhetil.org › notmuch
+unofficial mirror of notmuch@notmuchmail.org
+3 August 2012 - messages from 2012-07-20 09:14:08 ... command 2012-07-26 0:49 UTC (20+ messages) ` [PATCH 02/18] insert: open database ` [PATCH 03/18] insert: open Maildir tmp file ` [PATCH 04/18] insert: copy stdin to " ` [PATCH 05/18] insert: move file from Maildir tmp to new ` [PATCH ...
+Reddit
+reddit.com   › r/emacs  › can't search across gnus groups
+r/emacs on Reddit: Can't search across Gnus groups
+5 March 2025 -
+Hey all, I've been experimenting with the gnus reader for news and mail. However, I am unable to search on a group with G G. I get the following error:
+nnselect-generate-artlist: Gnus search configuration error: "No directory found in definition of server nnmaildir:mail1"
+Which is weird, because I did specify a directory! I use isync to get emails. My configuration is as follows:
+(setq gnus-select-method '(nnnil))
+(setq gnus-secondary-select-methods
+'((nnmaildir "mail1"
+(directory "~/.mail/mail1/"))
+(nnmaildir "mail2"
+(directory "~/.mail/mail2/"))))
+(setq gnus-search-default-engines
+'((nnmaildir . gnus-search-find-grep)
+(nnselect . gnus-search-nnselect)))
+Everything else works as expected: I can read mails, limit messages when inside a group... I don't get it.
+Top answer
+1 of 3
+1
+If you want to use Gnus to read emails that you're storing in Maildirs and to search for those emails, the best method is to install Dovecot and use the nnimap select-method. There are various indexed-searching backends available for Dovecot, which will index all of your emails and make them instantly searchable over the IMAP server through Gnus. These backends typically use Xapian to index your messages, much like notmuch and mu. Of course, that means that in addition to configuring Gnus, you have to configure Dovecot and whatever search backend you pick (and optionally Offline-IMAP, since it can talk directly to Dovecot, which I don't think isync does)... Or you could just use notmuch. Or mu.
+2 of 3
+1
+I have never used more arcane, broken software than Gnus. I was happily using it for RSS when it decided to break and show every feed as having 0 messages. Turns out it had wiped all the urls. And actually when I reinputted everything it just kept wiping the urls every time I restarted and I have no idea why. I’ve tried nuking every Gnus file with no success. My Gnus config is like 5 lines so I have no idea what to debug.  I tried emacs -q. Nothing has thus far fixed the issue. So I just gave up. Meanwhile in elfeed i just (setq url) and it works. I really wanted to like Gnus. I always prefer using built-in software rather than third party stuff, and I do prefer the topic categorisation over elfeeds’ tags. But it just didn’t work. And even when it did work start up times got ridiculous. It would be fine if there was some actual documentation to get things working, but the manual is abysmal, and really cringey, and since only emacs devel users still use it there’s no help to be found online. None of the function names make sense and it works by stupid modal keys that break the whole flow of emacs Rant over :P
+Find elsewhere
+Google Bing Mojeek
+Next
+Resources
+Brave Search Premium Brave Search help Transparency report Report a security issue Status
+Products
+Brave Browser Brave Search Brave Wallet Brave Talk Brave Firewall + VPN Brave Playlist Brave News Brave Rewards Brave Search API Brave Ads
+Policies
+Privacy Policy Terms of Use

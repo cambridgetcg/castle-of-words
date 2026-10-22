@@ -1,0 +1,30 @@
+{
+  "checked_utc": "2026-10-22T10:47:39.997612+00:00",
+  "mode": "closed",
+  "all_checks_passed": true,
+  "changed_baseline_files": [
+    "chronicle.md",
+    "gate.md",
+    "rooms/what-the-gaps-can-say.md"
+  ],
+  "new_word_files": [
+    "words/git-trace2.md"
+  ],
+  "room_count": 697,
+  "map_entries": 697,
+  "map_exact_once": true,
+  "open_questions": 16,
+  "courtyard_items": 0,
+  "chronicle_added_lines": 1,
+  "garden_unchanged": true,
+  "questions_and_quests_unchanged": true,
+  "earlier_room_content_unchanged": true,
+  "gate_changes_limited_to_glance_and_one_map_line": true,
+  "retrievals_verified": {
+    "schedule-search": 200,
+    "update-record-search": 200,
+    "trace-search": 429,
+    "trace2-doc": 200,
+    "hooks-doc": 200
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "verification_kind": "ad-hoc, not a canonical project test suite",
+  "verified_at_utc": "2026-10-22T20:12:57.574357+00:00",
+  "target": "/Users/yu/castle/evidence/gardener-2026-10-22-sync-search/verify.py",
+  "target_sha256": "0ae46617f6dc396468a119f55b51be81946f29414e896d57eff34527e7e5a264",
+  "temporary_fixture_checks_passed": 19,
+  "checks": [
+    "valid closed visit",
+    "valid preclose visit",
+    "unexpected argument",
+    "changed protected machinery",
+    "added room",
+    "removed word",
+    "changed chronicle prefix",
+    "second chronicle line",
+    "duplicate map entry",
+    "unmapped room",
+    "wrong question count",
+    "corrupt source hash, same byte count",
+    "wrong source size",
+    "failed curl transfer",
+    "wrong HTTP status",
+    "watched service endpoint",
+    "wrong retrieval date",
+    "missing empty-result marker",
+    "wrong eligible order"
+  ],
+  "real_verifier_exit_code": 0,
+  "real_visit_verification": {
+    "passed": true,
+    "phase": "closed",
+    "filed": 0,
+    "researched": 1,
+    "answered": 0,
+    "planted": 0,
+    "changed_grounds_files": [
+      "chronicle.md"
+    ],
+    "chronicle_lines_appended": 1,
+    "map_rooms_exactly_once": 697,
+    "open_questions_unchanged": 16,
+    "garden_unchanged": true,
+    "retrievals": [
+      {
+        "label": "sync-search",
+        "http_status": 200,
+        "curl_exit": 0
+      },
+      {
+        "label": "operator-search",
+        "http_status": 200,
+        "curl_exit": 0
+      },
+      {
+        "label": "archive-sync-search",
+        "http_status": 404,
+        "curl_exit": 0
+      }
+    ],
+    "scope": "Local consistency only; no new service measurement or answer."
+  },
+  "independent_baseline_check": "passed",
+  "synthetic_fixture_scope": "Only temporary directories; no network requests",
+  "fixtures_removed": true
+}

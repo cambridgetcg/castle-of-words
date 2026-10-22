@@ -1,0 +1,241 @@
+f:kyleam.com (git OR repack OR gc) - search results
+user/dev discussion of public-inbox itself
+help / color / mirror / code / Atom feed
+Search results ordered by [date|relevance]  view[summary|nested|Atom feed]
+download mbox.gz: |
+1. Re: httpd error: Can't locate object method "event_step"
+- by Kyle Meyer @ 2025-10-14  5:03 UTC [4%]
+2. deprecation warning about 'use VERSION' in Git.pm
+- by Kyle Meyer @ 2025-10-13 20:36 UTC [7%]
+3. Re: [PATCH 3/4] http: introduce a reverse proxy PSGI app
+- by Kyle Meyer @ 2025-07-13  3:08 UTC [5%]
+4. Re: lei interactive TUIs (ncurses/vim/emacs)
+- by Kyle Meyer @ 2023-11-09  4:14 UTC [5%]
+5. Re: [PATCH] www: display Received: timestamp for dumped topics
+- by Kyle Meyer @ 2023-02-05 20:57 UTC [5%]
+6. [PATCH] www: display Received: timestamp for dumped topics
+- by Kyle Meyer @ 2023-02-05 20:10 UTC [4%]
+7. future date in Date header pinning thread to top of $inbox/
+- by Kyle Meyer @ 2023-02-04 17:25 UTC [5%]
+8. Re: [PATCH 2/3] search: support "patchid:" prefix (git patch-id --stable)
+- by Kyle Meyer @ 2022-06-20 20:01 UTC [7%]
+9. Re: Message-ID not found
+- by Kyle Meyer @ 2022-05-25  1:44 UTC [5%]
+10. Re: Message-ID not found
+- by Kyle Meyer @ 2022-05-24 23:39 UTC [5%]
+11. Re: [PATCH] public-inbox-netd: a multi-protocol superserver
+- by Kyle Meyer @ 2022-05-06  0:18 UTC [5%]
+12. Re: Failed 'lei q' blocks 'lei init' from working
+- by Kyle Meyer @ 2022-03-13  0:06 UTC [5%]
+13. Re: convert mail content in git repo to mbox format
+- by Kyle Meyer @ 2022-01-12  2:41 UTC [7%]
+14. lei q: importing messages when specifying '-f *json*'?
+- by Kyle Meyer @ 2021-12-30 23:04 UTC [4%]
+15. Re: How to delete caches
+- by Kyle Meyer @ 2021-11-20 17:09 UTC [5%]
+16. [PATCH] www: mirror: fix rendering of NNTP URLs
+- by Kyle Meyer @ 2021-10-26  0:48 UTC [5%]
+17. [PATCH] doc: lei-forget-search: fix option name in --prune description
+- by Kyle Meyer @ 2021-10-23  0:22 UTC [5%]
+18. [PATCH] wwwatomstream: call gmtime with scalar
+- by Kyle Meyer @ 2021-10-22  4:49 UTC [5%]
+19. Re: [PATCH 2/2] doc: lei: add manpages for remaining commands
+- by Kyle Meyer @ 2021-10-16 15:13 UTC [4%]
+20. [PATCH 2/2] doc: lei: add manpages for remaining commands
+- by Kyle Meyer @ 2021-10-16  5:39 UTC [2%]
+21. [PATCH 1/2] doc: lei: restore alphabetical order to some listings
+- by Kyle Meyer @ 2021-10-16  5:39 UTC [4%]
+22. [PATCH] doc: lei-refresh-mail-sync: drop repeated word
+- by Kyle Meyer @ 2021-10-11  4:53 UTC [5%]
+23. Re: [PATCH 9/9] doc: lei-daemon: new manpage
+- by Kyle Meyer @ 2021-10-02  0:19 UTC [5%]
+24. [PATCH] doc: lei-rediff: grammar fixes for --drq and --dequote-only
+- by Kyle Meyer @ 2021-09-27 23:53 UTC [8%]
+25. Re: [PATCH 16/16] doc: lei-config: document various knobs
+- by Kyle Meyer @ 2021-09-19 16:14 UTC [5%]
+26. Re: [PATCH 9/9] lei up: automatically use dt: for remote externals
+- by Kyle Meyer @ 2021-09-18 14:31 UTC [5%]
+27. Re: who runs commands from their $EDITOR?
+- by Kyle Meyer @ 2021-09-18  3:23 UTC [5%]
+28. Re: make menuconfig interface for lei / grok-pull
+- by Kyle Meyer @ 2021-09-15 22:36 UTC [5%]
+29. empty /manifest.js.gz response as of 520be116
+- by Kyle Meyer @ 2021-06-27 20:28 UTC [5%]
+30. [PATCH] lei rediff: fix construction of git-diff options
+- by Kyle Meyer @ 2021-05-21  4:38 UTC [7%]
+31. [PATCH] lei lcat: fix handling of multiple MSGID_OR_URL arguments
+- by Kyle Meyer @ 2021-05-17  3:37 UTC [5%]
+32. [PATCH 9/9] doc lei: update manpages with new options
+- by Kyle Meyer @ 2021-05-17  3:35 UTC [8%]
+33. [PATCH 8/9] doc lei: add manpages for new commands
+- by Kyle Meyer @ 2021-05-17  3:35 UTC [6%]
+34. [PATCH 7/9] doc lei: add manpage for convert
+- by Kyle Meyer @ 2021-05-17  3:35 UTC [5%]
+35. [PATCH 6/9] doc lei q: add missing value for --lock
+- by Kyle Meyer @ 2021-05-17  3:35 UTC [5%]
+36. [PATCH 3/9] doc lei blob: point to lei-q for shared options
+- by Kyle Meyer @ 2021-05-17  3:35 UTC [6%]
+37. [PATCH 5/9] doc lei q: fix a typo
+- by Kyle Meyer @ 2021-05-17  3:35 UTC [5%]
+38. [PATCH 4/9] doc lei: resort lei-tag entries
+- by Kyle Meyer @ 2021-05-17  3:35 UTC [5%]
+39. [PATCH 2/9] doc: split option variants into separate items
+- by Kyle Meyer @ 2021-05-17  3:35 UTC [4%]
+40. [PATCH 1/9] doc lei blob: avoid combined description of separate options
+- by Kyle Meyer @ 2021-05-17  3:35 UTC [5%]
+41. [PATCH] lei rediff: handle stdin like other commands
+- by Kyle Meyer @ 2021-05-16  2:42 UTC [6%]
+42. [PATCH] lei rediff: mark --color-moved value as optional
+- by Kyle Meyer @ 2021-05-16  2:41 UTC [5%]
+43. [PATCH] lei_input: drop misplaced word from error message
+- by Kyle Meyer @ 2021-05-16  2:39 UTC [5%]
+44. [PATCH 5/5] lei: add help output for --invert match
+- by Kyle Meyer @ 2021-05-04  4:45 UTC [5%]
+45. [PATCH 4/5] lei ls-mail-sync: fix handling of non-wildcard filters
+- by Kyle Meyer @ 2021-05-04  4:45 UTC [5%]
+46. [PATCH 3/5] lei ls-mail-sync: accept a filter
+- by Kyle Meyer @ 2021-05-04  4:45 UTC [5%]
+47. [PATCH 1/5] lei ls-mail-sync: update reference to ls-sync
+- by Kyle Meyer @ 2021-05-04  4:45 UTC [5%]
+48. [PATCH 2/5] lei ls-mail-sync: drop repeated -z/0 option
+- by Kyle Meyer @ 2021-05-04  4:45 UTC [5%]
+49. Re: [PATCH 2/3] doc: lei q: split =item aliases onto separate lines
+- by Kyle Meyer @ 2021-04-29  1:39 UTC [5%]
+50. [PATCH] doc: INSTALL: add Guix to distribution list
+- by Kyle Meyer @ 2021-04-24  2:09 UTC [8%]
+51. [PATCH] doc config: mention obfuscation-related options
+- by Kyle Meyer @ 2021-04-19  3:00 UTC [7%]
+52. Re: [PATCH] lei q: fix MUA spawn after reading query from stdin
+- by Kyle Meyer @ 2021-04-17 20:13 UTC [5%]
+53. lei q: --stdin confuses --mua
+- by Kyle Meyer @ 2021-04-17 15:53 UTC [5%]
+54. Re: archive links broken with obfuscate=true
+- by Kyle Meyer @ 2021-04-10 19:49 UTC [6%]
+55. Re: archive links broken with obfuscate=true
+- by Kyle Meyer @ 2021-04-09 22:45 UTC [5%]
+56. [PATCH] import: convert init.defaultBranch to fully qualified ref
+- by Kyle Meyer @ 2021-04-07 23:05 UTC [4%]
+57. Re: [PATCH] script/lei: waitpid for git-credential and pager
+- by Kyle Meyer @ 2021-04-05 21:26 UTC [7%]
+58. Re: [PATCH] lei: fix git-credential handling
+- by Kyle Meyer @ 2021-04-05  4:17 UTC [7%]
+59. [PATCH] doc config: don't render a to-do comment
+- by Kyle Meyer @ 2021-03-29  3:13 UTC [5%]
+60. [PATCH 8/8] doc lei overview: better explain routes into local store
+- by Kyle Meyer @ 2021-03-29  3:11 UTC [5%]
+61. [PATCH 7/8] doc lei overview: note that lei-init is usually unnecessary
+- by Kyle Meyer @ 2021-03-29  3:11 UTC [5%]
+62. [PATCH 6/8] doc lei: add manpages for new commands
+- by Kyle Meyer @ 2021-03-29  3:11 UTC [4%]
+63. [PATCH 5/8] doc lei: update manpages with new options
+- by Kyle Meyer @ 2021-03-29  3:11 UTC [5%]
+64. [PATCH 4/8] doc lei: don't render most to-do comments
+- by Kyle Meyer @ 2021-03-29  3:11 UTC [5%]
+65. [PATCH 3/8] doc lei: drop an unnecessary to-do comment
+- by Kyle Meyer @ 2021-03-29  3:11 UTC [5%]
+66. [PATCH 2/8] doc lei: note --stdin shortcut in synopses
+- by Kyle Meyer @ 2021-03-29  3:11 UTC [5%]
+67. [PATCH 1/8] doc lei-q: fix typo in -tt description
+- by Kyle Meyer @ 2021-03-29  3:11 UTC [5%]
+68. Re: does "lei init" even need to exist?
+- by Kyle Meyer @ 2021-03-26  1:15 UTC [5%]
+69. Re: RFH: --import-augment naming [was: lei q: import flags when clobbering/augmenting]
+- by Kyle Meyer @ 2021-03-04  4:10 UTC [5%]
+70. Re: [PATCH 1/3] lei p2q: patch-to-query generator for "lei q --stdin"
+- by Kyle Meyer @ 2021-02-28 21:40 UTC [5%]
+71. [PATCH 3/3] doc: lei-overview: add performance and bash completion sections
+- by Kyle Meyer @ 2021-02-27 18:03 UTC [5%]
+72. [PATCH 2/3] doc: lei-import: drop markup of "stdin"
+- by Kyle Meyer @ 2021-02-27 18:03 UTC [5%]
+73. [PATCH 1/3] doc: lei: update manpages
+- by Kyle Meyer @ 2021-02-27 18:03 UTC [8%]
+74. [PATCH] doc: lei: favor "-o format:$PATHNAME" over "-f"
+- by Kyle Meyer @ 2021-02-23  3:45 UTC [3%]
+75. Re: [PATCH] lei_store: populate ALL.git/alternates with new epochs
+- by Kyle Meyer @ 2021-02-22 22:47 UTC [7%]
+76. lei: accessing blob after import requires daemon restart
+- by Kyle Meyer @ 2021-02-22  5:37 UTC [5%]
+77. [PATCH 3/3] t/www_listing: require grok-pull version 2 or later
+- by Kyle Meyer @ 2021-02-21 21:46 UTC [6%]
+78. [PATCH 1/3] t/www_listing: correct the number of tests for grok-pull skip
+- by Kyle Meyer @ 2021-02-21 21:46 UTC [5%]
+79. [PATCH 2/3] t/www_listing: reword grok-pull skip message
+- by Kyle Meyer @ 2021-02-21 21:46 UTC [5%]
+80. Re: [PATCH 0/2] WWW + "lei q --stdin": support git approxidate
+- by Kyle Meyer @ 2021-02-12  4:34 UTC [7%]
+81. [PATCH 4/4] doc: lei: update manpages
+- by Kyle Meyer @ 2021-02-11  4:04 UTC [5%]
+82. [PATCH 3/4] doc: add lei-import(1)
+- by Kyle Meyer @ 2021-02-11  4:04 UTC [3%]
+83. [PATCH 1/4] doc: lei q: use 'mfolder' as --output placeholder
+- by Kyle Meyer @ 2021-02-11  4:04 UTC [5%]
+84. [PATCH 2/4] doc: lei: prefer 'location' and 'dirname'
+- by Kyle Meyer @ 2021-02-11  4:04 UTC [4%]
+85. [PATCH 2/2] wwwaltid: add missing word to instructions
+- by Kyle Meyer @ 2021-02-04  2:54 UTC [5%]
+86. [PATCH 1/2] www: call curl with -d '' in the altid instructions
+- by Kyle Meyer @ 2021-02-04  2:54 UTC [5%]
+87. [PATCH 2/2] doc: add lei-overview(7)
+- by Kyle Meyer @ 2021-02-01  5:57 UTC [4%]
+88. [PATCH 1/2] doc: start manpages for lei commands
+- by Kyle Meyer @ 2021-02-01  5:57 UTC [3%]
+89. Re: [PATCH 02/10] lei: support remote externals
+- by Kyle Meyer @ 2021-01-24  6:01 UTC [4%]
+90. Re: "extinbox" term - was: [RFC 4/7] lei: proposed command-listing...
+- by Kyle Meyer @ 2020-12-28 15:29 UTC [5%]
+91. [PATCH] doc: v2-format: drop repeated word
+- by Kyle Meyer @ 2020-12-12 18:24 UTC [5%]
+92. missing messages in thread overview
+- by Kyle Meyer @ 2020-12-03  4:59 UTC [4%]
+93. Re: [PATCH 2/4] *index: avoid per-epoch --batch-check processes
+- by Kyle Meyer @ 2020-11-13 12:38 UTC [5%]
+94. [PATCH] scripts/dupe-finder: restore $dbh variable
+- by Kyle Meyer @ 2020-10-16  2:08 UTC [5%]
+95. [PATCH] mid: drop repeated ';' in mid_escape() regular expression
+- by Kyle Meyer @ 2020-09-20 18:13 UTC [5%]
+96. [PATCH] doc: Add piem to list of clients
+- by Kyle Meyer @ 2020-09-13 19:31 UTC [7%]
+97. [PATCH] wwwlisting: fix grep call for match=domain filtering
+- by Kyle Meyer @ 2020-07-30  5:30 UTC [5%]
+98. news.public-inbox.org misbehaving?
+- by Kyle Meyer @ 2020-06-09 22:13 UTC [9%]
+99. [PATCH] viewdiff: don't increment the reported hunk line number
+- by Kyle Meyer @ 2020-05-09 18:57 UTC [5%]
+100. view: why is the diff line number incremented by one?
+- by Kyle Meyer @ 2020-05-09 17:32 UTC [4%]
+101. v1.4.0 tag is not contained in master
+- by Kyle Meyer @ 2020-04-22  3:16 UTC [5%]
+102. [PATCH 2/2] view: actually omit subject text when dumping topics
+- by Kyle Meyer @ 2020-04-22  1:33 UTC [5%]
+103. [PATCH 1/2] view: strip omission character from current message in thread view
+- by Kyle Meyer @ 2020-04-22  1:33 UTC [5%]
+104. [PATCH v2] watchmaildir: support multiple watchheader values
+- by Kyle Meyer @ 2020-04-20  0:13 UTC [3%]
+105. [PATCH] t/v*-add-remove-add: fix typo in description of 'removed' check
+- by Kyle Meyer @ 2020-04-19 19:27 UTC [6%]
+106. [RFC PATCH] watchmaildir: support multiple watchheader values
+- by Kyle Meyer @ 2020-04-12  4:44 UTC [3%]
+107. [PATCH] doc: escape internal ">" in listid code snippet
+- by Kyle Meyer @ 2020-04-11 21:05 UTC [5%]
+108. Re: [PATCH] doc: add technical/whyperl
+- by Kyle Meyer @ 2020-04-09  1:14 UTC [5%]
+109. Re: [PATCH] doc: add technical/whyperl
+- by Kyle Meyer @ 2020-04-08  0:41 UTC [5%]
+110. From-munge not being reversed on mbox import
+- by Kyle Meyer @ 2020-04-04  4:58 UTC [5%]
+111. Re: [PATCH 1/2] README: expand on the GUI non-requirement
+- by Kyle Meyer @ 2020-04-02  0:26 UTC [5%]
+112. Re: [PATCH 1/2] README: expand on the GUI non-requirement
+- by Kyle Meyer @ 2020-04-01 15:30 UTC [5%]
+113. Re: [PATCH] doc: improve wording of "inbox" vs "repository"
+- by Kyle Meyer @ 2020-02-22 16:19 UTC [5%]
+114. [PATCH] doc: drop a repeated word
+- by Kyle Meyer @ 2019-11-09  0:38 UTC [5%]
+115. [PATCH] doc: fix a few minor typos
+- by Kyle Meyer @ 2019-04-07  3:31 UTC [5%]
+Results 1-115 of 115 | reverse | options above
+Code repositories for project(s) associated with this public inbox
+https://80x24.org/public-inbox.git
+This is a public inbox, see mirroring instructions
+for how to clone and mirror all data and code used for this inbox;
+as well as URLs for read-only IMAP folder(s) and NNTP newsgroup(s).

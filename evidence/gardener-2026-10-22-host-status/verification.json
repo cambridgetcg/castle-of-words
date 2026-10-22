@@ -1,0 +1,17 @@
+{
+  "checked_utc": "2026-10-22T07:33:45.323300+00:00",
+  "mode": "closed",
+  "all_checks_passed": true,
+  "changed_baseline_files": [
+    "chronicle.md"
+  ],
+  "saved_source_hashes_verified": 3,
+  "room_count": 697,
+  "map_entries": 697,
+  "map_exact_once": true,
+  "open_questions": 16,
+  "courtyard_items": 0,
+  "chronicle_added_lines": 1,
+  "garden_unchanged": true,
+  "existing_room_and_word_files_unchanged": true
+}

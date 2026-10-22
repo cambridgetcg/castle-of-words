@@ -1,0 +1,40 @@
+{
+  "kind": "ad-hoc verification, not a canonical project suite",
+  "checked_utc": "2026-10-22T01:09:15.664166+00:00",
+  "passed": true,
+  "checks_passed": 20,
+  "checks": [
+    "research.py: syntax compiles in memory",
+    "verify.py: syntax compiles in memory",
+    "research: oldest eligible order and reservations",
+    "research: exactly two searches and no watched Git request",
+    "research: snapshot hashes match copied inputs",
+    "research: existing receipt stops rerun before fetching",
+    "research rejects unfiled input before fetching",
+    "research rejects duplicate Map entry before fetching",
+    "research rejects unexpected eligible question before fetching",
+    "verify: completed evidence fixture passes",
+    "verify: preclose accepts no new chronicle line",
+    "verify rejects tampered source bytes",
+    "verify rejects changed question queue",
+    "verify rejects duplicate chronicle addition",
+    "verify rejects changed old room text",
+    "verify rejects broken new link",
+    "verify rejects unsuccessful retrieval",
+    "unmodified live verifier and real Git checks pass",
+    "source scripts unchanged by these checks",
+    "temporary fixture removed"
+  ],
+  "script_sha256": {
+    "research.py": "27c21655a11749dd2bd9ed6d1fa6f87f985688556b5bd0e620a45b4f8e081c07",
+    "verify.py": "e598a00a025ae5b756c0aab4db7510d46b83292f4c02f299a573a4f543583de6"
+  },
+  "limits": [
+    "Fixture root paths were redirected in memory; source files were unchanged.",
+    "Research fetches were mocked: input selection was tested, not HTTP.",
+    "Fixture Git checks were mocked; the live verifier ran real Git checks.",
+    "These tests do not validate the historical software fix or remote host."
+  ],
+  "fixture_cleaned": true,
+  "temporary_runner": "/var/folders/bg/v8wn0t11067f0hzxkz7hp7rr0000gn/T/hermes-verify-8ok03z0x.py"
+}

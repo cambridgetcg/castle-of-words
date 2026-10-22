@@ -1,0 +1,51 @@
+Re: [PATCH 0/2] extsearch: avoid stale Xapian results - Kyle Meyer
+user/dev discussion of public-inbox itself
+help / color / mirror / code / Atom feed
+From: Kyle Meyer <kyle@kyleam.com>
+To: Eric Wong <e@80x24.org>
+Cc: meta@public-inbox.org
+Subject: Re: [PATCH 0/2] extsearch: avoid stale Xapian results
+Date: Mon, 28 Dec 2020 15:32:42 GMT	[thread overview]
+Message-ID: <87mtxyrlnr.fsf@kyleam.com> (raw)
+In-Reply-To: <20201227110142.8969-1-e@80x24.org>
+Eric Wong writes:
+> I noticed recent messages weren't showing up in search results
+> on http://lore.czquwvybam4bgbro.onion/all/
+>
+> These should fix it, and we'll probably get rid of the
+> cleanup timers for per-inbox search and follow this
+> strategy.
+I noticed that too but hadn't gotten around to reporting it.  This seems
+to resolve the issue on my end.  Thanks!
+prev parent reply	other threads:[~2020-12-28 15:32 UTC|newest]
+Thread overview: 4+ messages / expand[flat|nested]  mbox.gz  Atom feed  top
+2020-12-27 11:01 [PATCH 0/2] extsearch: avoid stale Xapian results Eric Wong
+2020-12-27 11:01 ` [PATCH 1/2] extsearch: unconditionally reopen on access Eric Wong
+2020-12-27 11:01 ` [PATCH 2/2] miscsearch: take reopen from Search and use it Eric Wong
+2020-12-28 15:32 ` Kyle Meyer [this message]
+Reply instructions:
+You may reply publicly to this message via plain-text email
+using any one of the following methods:
+* Save the following mbox file, import it into your mail client,
+and reply-to-all from there: mbox
+Avoid top-posting and favor interleaved quoting:
+https://en.wikipedia.org/wiki/Posting_style#Interleaved_style
+List information: https://public-inbox.org/README
+* Reply using the --to, --cc, and --in-reply-to
+switches of git-send-email(1):
+git send-email \
+--in-reply-to=87mtxyrlnr.fsf@kyleam.com \
+--to=kyle@kyleam.com \
+--cc=e@80x24.org \
+--cc=meta@public-inbox.org \
+/path/to/YOUR_REPLY
+https://kernel.org/pub/software/scm/git/docs/git-send-email.html
+* If your mail client supports setting the In-Reply-To header
+via mailto: links, try the mailto: link
+Be sure your reply has a Subject: header at the top and a blank line
+before the message body.
+Code repositories for project(s) associated with this public inbox
+https://80x24.org/public-inbox.git
+This is a public inbox, see mirroring instructions
+for how to clone and mirror all data and code used for this inbox;
+as well as URLs for read-only IMAP folder(s) and NNTP newsgroup(s).

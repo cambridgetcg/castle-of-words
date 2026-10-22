@@ -1,0 +1,67 @@
+Re: [PATCH 9/9] lei up: automatically use dt: for remote externals - Kyle Meyer
+user/dev discussion of public-inbox itself
+help / color / mirror / code / Atom feed
+From: Kyle Meyer <kyle@kyleam.com>
+To: Eric Wong <e@80x24.org>
+Cc: meta@public-inbox.org
+Subject: Re: [PATCH 9/9] lei up: automatically use dt: for remote externals
+Date: Sat, 18 Sep 2021 10:31:37 -0400	[thread overview]
+Message-ID: <877dfex8dy.fsf@kyleam.com> (raw)
+In-Reply-To: <20210918093332.16054-10-e@80x24.org>
+Eric Wong writes:
+> diff --git a/Documentation/lei-up.pod b/Documentation/lei-up.pod
+> index e5d97f43..4dc6d3b8 100644
+> --- a/Documentation/lei-up.pod
+> +++ b/Documentation/lei-up.pod
+> @@ -22,6 +22,21 @@ C<--all> updates all saved searches (listed in L<lei-ls-search(1)>).
+>  C<--all=local> only updates local mailboxes, C<--all=remote> only
+>  updates remote mailboxes (currently C<imap://> and C<imaps://>).
+>
+> +=item --remote-fudge-time=INTERVAL
+> +
+> +Look for mail older than the time of the last successful query.
+> +Using a small interval will reduce bandwidth use.  A larger
+> +interval reduces the likelyhood missing a result due to MTA
+> +delays or downtime.
+s/likelyhood/likelihood of/
+next prev parent reply	other threads:[~2021-09-18 14:31 UTC|newest]
+Thread overview: 13+ messages / expand[flat|nested]  mbox.gz  Atom feed  top
+2021-09-18  9:33 [PATCH 0/9] lei: a bunch of random stuff Eric Wong
+2021-09-18  9:33 ` [PATCH 1/9] lei: lock worker counts Eric Wong
+2021-09-18  9:33 ` [PATCH 2/9] lei_mail_sync: rely on flock(2), avoid IPC Eric Wong
+2021-09-18  9:33 ` [PATCH 3/9] lei_mail_sync: set nodatacow on btrfs Eric Wong
+2021-09-18  9:33 ` [PATCH 4/9] ds: support add unique timers Eric Wong
+2021-09-18  9:33 ` [PATCH 5/9] net_reader: tie SocksDebug to {imap,nntp}.Debug Eric Wong
+2021-09-18  9:33 ` [PATCH 6/9] net_reader: detect IMAP failures earlier Eric Wong
+2021-09-18  9:33 ` [PATCH 7/9] net_reader: support imaps:// w/ socks5h:// proxy Eric Wong
+2021-09-18 10:41   ` Eric Wong
+2021-09-18  9:33 ` [PATCH 8/9] net_reader: set SO_KEEPALIVE on all Net::NNTP sockets Eric Wong
+2021-09-18  9:33 ` [PATCH 9/9] lei up: automatically use dt: for remote externals Eric Wong
+2021-09-18 14:31   ` Kyle Meyer [this message]
+2021-09-18 20:30     ` Eric Wong
+Reply instructions:
+You may reply publicly to this message via plain-text email
+using any one of the following methods:
+* Save the following mbox file, import it into your mail client,
+and reply-to-all from there: mbox
+Avoid top-posting and favor interleaved quoting:
+https://en.wikipedia.org/wiki/Posting_style#Interleaved_style
+List information: https://public-inbox.org/README
+* Reply using the --to, --cc, and --in-reply-to
+switches of git-send-email(1):
+git send-email \
+--in-reply-to=877dfex8dy.fsf@kyleam.com \
+--to=kyle@kyleam.com \
+--cc=e@80x24.org \
+--cc=meta@public-inbox.org \
+/path/to/YOUR_REPLY
+https://kernel.org/pub/software/scm/git/docs/git-send-email.html
+* If your mail client supports setting the In-Reply-To header
+via mailto: links, try the mailto: link
+Be sure your reply has a Subject: header at the top and a blank line
+before the message body.
+Code repositories for project(s) associated with this public inbox
+https://80x24.org/public-inbox.git
+This is a public inbox, see mirroring instructions
+for how to clone and mirror all data and code used for this inbox;
+as well as URLs for read-only IMAP folder(s) and NNTP newsgroup(s).

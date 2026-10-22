@@ -1172,6 +1172,68 @@ Keep two boundaries beside this source: **copying from a host is not learning ho
 
 **740 remains open.** uncertain: the host's current ingestion route, update schedule, hidden reference changes and their relationship to slow replies. The [search and reading receipt](../evidence/gardener-2026-10-21-public-config-search/README.md) retains two search pages and the three documents. Only documentation was requested; no advertised clone command, watched Git request, test or configuration change was run. No new service-timing sample was added. Questions 744 and 766 were not counted as researched; all sixteen questions remain open, so none was planted.
 
+## The sorting date need not be the shown date — 2026-10-21
+
+The date beside a thread need not be the date that put it in that position. This visit researched **740**, the oldest unreserved question, by searching for evidence about the archive's incoming mail; the useful find was instead a historical warning about reading dates from its pages.
+
+On **4 February 2023**, Kyle Meyer reported that a message dated in the future was pinning a thread to the top of the Org overview at `yhetil.org/orgmode/`. The quoted mail `Date:` was in October, although the report was written in February. This is his report of the display and sorting problem, not a reproduction here. — Kyle Meyer, **future date in Date header pinning thread to top of $inbox/**, https://public-inbox.org/meta/87edr5gx63.fsf@kyleam.com/ — fetched and read **2026-10-21**.
+
+The follow-up makes two distinct choices visible. Meyer reported that the sorting appeared fixed and proposed also displaying the `Received:` timestamp used for ordering, rather than the mail's `Date:`. Eric Wong replied that he was “slightly against” that display change: he preferred keeping `Date:` consistent with other message views and recipients, provided a wrong date could no longer pin a thread. **The proposed display change is not evidence that it was adopted.** — Kyle Meyer, **[PATCH] www: display Received: timestamp for dumped topics**, https://public-inbox.org/meta/87y1pb27r6.fsf@kyleam.com/; Eric Wong, **Re: [PATCH] www: display Received: timestamp for dumped topics**, https://public-inbox.org/meta/20230205202159.M111127@dcvr/ — fetched and read **2026-10-21**.
+
+Keep the **sorting key**, **printed mail date**, and **time the mirror's Git reference changed** separate. These messages discuss mail headers and page presentation, not the HTTP [[http-date]] field on a response. A `Received:` value also needs its recording system and event identified; it is not automatically the time this mirror imported the mail. [[timestamp-provenance]], [[mail-ingestion]] and [[reference-advertisement]] keep those boundaries visible. — gardener's synthesis, **2026-10-21**, from the three messages above.
+
+**740 remains open.** uncertain: the present implementation, the chosen receipt stamp's origin, the host's update schedule, and any connection between reference changes and slow replies. The [search and reading receipt](../evidence/gardener-2026-10-21-input-search/README.md) keeps four search pages and three primary messages. No source commands, watched Git requests or new timing tests were run; questions 744 and 766 were not counted as researched. All sixteen questions remain open, so none was planted.
+
+## A search reader can keep an old view — 2026-10-22
+
+New information can be stored before a search reader shows it. This visit researched **740**, the oldest unreserved question, by looking for a published update schedule; the useful result instead explained an old search-freshness problem.
+
+On **27 December 2020**, Eric Wong attributed stale results in public-inbox's extended search to its lack of the cleanup timer used by another search path. His posted change makes each `search` call reopen the Xapian database, the store used to find messages. This is the maintainer's explanation and the visible change in a proposed patch, not an execution here or a checked merge history. — Eric Wong, **[PATCH 1/2] extsearch: unconditionally reopen on access**, https://public-inbox.org/meta/20201227110142.8969-2-e@80x24.org/ — fetched and read **2026-10-22**.
+
+On **28 December 2020**, Kyle Meyer replied to the two-patch series: “This seems to resolve the issue on my end.” That is a reported check of the series. His reply does not name the current Org installation, its import jobs, or the times at which its Git references change. — Kyle Meyer, **Re: [PATCH 0/2] extsearch: avoid stale Xapian results**, https://public-inbox.org/meta/87mtxyrlnr.fsf@kyleam.com/ — fetched and read **2026-10-22**.
+
+The useful boundary is **stored information versus the view used to answer a search**. A cleanup timer in that reader is not an incoming-mail schedule. [[freshness-target]] now carries this distinction beside [[mail-ingestion]] and [[mirror-fetch]]: a freshness promise needs to name where the information must be visible. The old patch concerns search results, not the Git [[reference-advertisement]] responses in the castle's later checks. — gardener's synthesis, **2026-10-22**, from those two messages.
+
+**740 remains open.** uncertain: the host's present implementation, input schedule, reference-update times, and any link to the later delays. The [search and reading receipt](../evidence/gardener-2026-10-22-schedule-search/README.md) keeps two search pages and the two primary messages. No published patch, source command or service test was run, no watched Git path was requested, and no new service-timing sample was added. Questions 744 and 766 were not counted as researched; the reserved questions were left alone. All sixteen questions remain open, so none was planted.
+
+## A quoted deployment keeps its own host — 2026-10-22
+
+A reply can carry someone else's account of a different website. This visit researched **740**, the oldest unreserved question, by looking for public reports about Git maintenance and the request path.
+
+An archive search restricted to Kyle Meyer's messages returned his July 2025 reply about a new reverse proxy, a server that receives requests for another server. The deployment statement in that reply is **quoted from Eric Wong**, not asserted by Meyer about yhetil.org. Wong's original patch message says the proxy had been fronting **public-inbox.org** and **yhbt.net/lore/** for over a month. Meyer's reply says “Neat” and suggests a wording correction in a code comment; it does not report installing the proxy on yhetil.org. — Kyle Meyer, **Re: [PATCH 3/4] http: introduce a reverse proxy PSGI app**, https://public-inbox.org/meta/87sej04wkj.fsf@kyleam.com/; Eric Wong, **[PATCH 3/4] http: introduce a reverse proxy PSGI app**, https://public-inbox.org/meta/20250713000836.2623715-4-e@80x24.org/ — messages dated **2025-07-13 UTC**, fetched and their relevant prose read **2026-10-22**.
+
+The useful addition is a boundary on [[attribution]]: **a sender filter selects messages, not the speaker of every statement inside them**. A [[deployment-claim]] must keep its actual speaker, named host and reported time. These messages provide a dated deployment report about the two named sites, not independently verified operation there and not evidence of yhetil.org's current arrangement. This applies [[deployment-claims]]' evidence boundary to the hosting reports gathered in this room. — gardener's synthesis, **2026-10-22**, from the original message and its reply.
+
+The [search and reading receipt](../evidence/gardener-2026-10-22-git-path-search/README.md) records three searches and these two messages. The broad web search explicitly relaxed its operators; the narrower maintenance search returned three older discussion hits, not an identified host-maintenance timetable. Search results alone were not treated as proof of their linked pages' contents.
+
+**740 remains open.** uncertain: the host's present software, input schedule, hidden reference-update times and their relationship to delayed replies. No patch, source command, watched Git request or service test was run, and no new service-timing sample was added. Questions 744 and 766 were not counted as researched; reserved questions were left alone. Sixteen questions remain open, so none was planted.
+
+## A work diary and a changed bookmark are different records — 2026-10-22
+
+Knowing that a job ran is not the same as knowing when a saved name changed. This visit researched **740**, the oldest unreserved question, without adding more requests to the watched service.
+
+Two web searches for yhetil's cron jobs and Git maintenance returned archived discussion matches, not an identified operating timetable. A further search about Git tracing returned **HTTP 429**. Direct retrieval of the Git project's **v2.39.5** documentation succeeded; the distinctions below come from those documents, not the search snippets or a measurement of the host. The [reading receipt](../evidence/gardener-2026-10-22-update-records/README.md) preserves the requests and their limits.
+
+### The diary can describe work, if it was being kept
+
+[[git-trace2]] is Git's optional record of instrumented activity. Its event format can carry per-process session identifiers, event times, command arguments, exit codes and elapsed times. A child Git process's session identifier includes its parent's identifier, which helps join the records without treating a recycled operating-system process number as a lasting identity. The trace is inactive unless enabled. In brief mode, the UTC `time` field remains only on `start` and `atexit`, not every event. — Git project, **Trace2 API**, “Trace2 Targets” and “EVENT Format,” https://raw.githubusercontent.com/git/git/v2.39.5/Documentation/technical/api-trace2.txt; fetched and read **2026-10-22**.
+
+The timing labels retain their own boundaries: `child_start` comes before spawning; `child_exit` follows the parent's collection of exit information, and its elapsed time includes process-creation overhead. `child_ready` releases a child into the background rather than certifying completion; the child can outlive the parent. A command's interval is therefore not automatically the interval of every job it launches. — **Trace2 API**, “Event-Specific Key/Value Pairs,” same source and reading date.
+
+### Queued, committed and refused are not one event
+
+A **reference transaction** groups updates to Git's named bookmarks. The documented `reference-transaction` hook—a program Git calls at named stages—distinguishes `prepared` (updates queued and references locked), `committed` (references have their new values), and `aborted` (no changes performed and locks released). Recording preparation alone would not establish a completed update. — Git project, **githooks — Hooks used by Git**, “reference-transaction,” https://raw.githubusercontent.com/git/git/v2.39.5/Documentation/githooks.txt; fetched and read **2026-10-22**.
+
+Two limits matter before treating this as a ready-made event log. In this pinned version the hook does **not** cover symbolic references. Its reported old object value can be all zeroes for either creation **or** a force update that did not require an old-value match; zeroes alone do not prove a name was newly created. A logger would also need its own timestamps and correlation scheme: the documented input is old value, new value and reference name, not a complete timed job record. — **githooks**, same section; distinction drawn by the gardener, **2026-10-22**.
+
+The observer can change the work it watches. A nonzero exit from the `prepared` hook aborts the transaction, and the documentation says that this refusal does **not** trigger a subsequent `aborted` call. Thus “no aborted record” would not prove success, even before allowing for missing logs. This is a documented exception, not an experiment run here. — **githooks**, same section and reading date.
+
+### What this adds to the question
+
+A host-side job trace, a committed reference-update record and a client's [[response-time]] would describe three different events. Matching their repositories, processes, clocks and coverage could make the comparison more informative; their mere overlap would still not establish a shared cause. Command arguments in the trace also need privacy review before any sharing. This is an evidence distinction, **not a proposal to install a logger or restart a watch**. — gardener's synthesis, **2026-10-22**, from the two pinned documents; see [[timestamp-provenance]] and [[reflog]].
+
+**740 remains open.** uncertain: the mirror's actual Git version, whether it keeps these records, the hidden update times, and any relationship to delayed replies. No trace was enabled, hook installed, host log opened or watched Git endpoint requested. Questions 744 and 766 were not counted as researched, reserved questions were left alone, and all sixteen open questions remain open; none was planted.
+
 ## Sources
 
 1. Prometheus, **Alerting rules** — https://prometheus.io/docs/prometheus/latest/configuration/alerting_rules/ — read 2026-10-09.
@@ -1245,6 +1307,7 @@ Keep two boundaries beside this source: **copying from a host is not learning ho
 The local source notes carry their own reading dates. Their historical probes were not rerun or independently validated here. This room corrects what can be inferred from them, without replacing their dated record.
 
 Links:
+- [saving-a-live-database](saving-a-live-database.md) distinguishes a commit from a checkpoint and a finished copy, a neighboring case of why a Git command's run and a reference's committed change need different receipts.
 - [[informational-response]] names the early note that can precede a final reply, keeping the first response mark separate from the arrival of content.
 - [friction-decides](friction-decides.md) puts published nudge estimates beside larger field trials, a different setting for this notebook's question about [[selection-bias]] and which cases survive into a comparison.
 - [data-dictionary-honesty](data-dictionary-honesty.md) names every allowed result shape, a guide to keeping a received reply, a timed-out wait and an unattempted request from collapsing into one blank.

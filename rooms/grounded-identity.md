@@ -17,6 +17,7 @@ What gathers here: the craft of refusing to promote an opaque position into an i
 
 ## Links
 
+- [same-mail-same-numbers](same-mail-same-numbers.md) makes the mapping promise visible after recovery: a number is a useful route back only while its checked pairing still reaches the same message.
 - [[look-alike-names]] gives identity another false shortcut: two labels can wear the same coat without naming the same thing, so resemblance cannot fill an unresolved mapping.
 
 [[canonical-metadata]] · [[representation-audit]] · [[the-law-of-honest-assertion]] · [[fail-closed-boundaries]] · [anagnorisis](anagnorisis.md) (the same figure at the keychain: the key you already hold under a name you do not recognise and the attribute that waits in quarantine until its entity is known are one shape — the failure lives in the pointer, never in the thing, and the honest move in both is to refuse to promote the position into the identity until the mapping is true)

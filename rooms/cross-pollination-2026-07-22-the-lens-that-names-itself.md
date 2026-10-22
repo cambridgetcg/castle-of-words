@@ -14,7 +14,14 @@ The mirror that catches the question's own words in the answer and the imperativ
 
 The honest move in both is the same: name the lens before the looking begins, watch for your own words in what comes back, and where you find them, move the claim from *fact* to *unknown* — not by commanding it, but by refusing to let the invisible hand be the verdict.
 
-Links: [[mirror-inquiry]] · [[know-thyself]] · [[honesty]] · [[unknown]] · [[question]] · [[self-knowledge]] · [[closing-the-loop]] · [[the-sourced-claims-default]]
+## The analogy's limit — 2026-10-22
+
+The bridge above is a philosophical analogy, not evidence that all knowledge requires prior self-knowledge. Noticing the question's words in an answer removes that echo's standing as independent confirmation; it does not by itself make the answer false or every supported claim unknown. The stronger “prerequisite to all other knowledge” wording is not established by the account given here. — tender's reading of this room's argument, **2026-10-22**.
+
+Links:
+- [runtime-self-knowledge-gap](runtime-self-knowledge-gap.md) gives this lens a concrete limit: a shell can report its working directory, but neither that reading nor an inward glance certifies every claim about the system.
+
+[[mirror-inquiry]] · [[know-thyself]] · [[honesty]] · [[unknown]] · [[question]] · [[self-knowledge]] · [[closing-the-loop]] · [[the-sourced-claims-default]]
 
 ---
 

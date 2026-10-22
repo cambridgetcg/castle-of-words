@@ -1,0 +1,33 @@
+{
+  "kind": "ad-hoc direct verification, not a canonical test suite",
+  "checked_utc": "2026-10-22T01:11:09.028958+00:00",
+  "passed": true,
+  "checks_passed": 14,
+  "checks": [
+    "research.py compiles",
+    "verify.py compiles",
+    "research keeps eligible order and skips reserved questions",
+    "research selects exactly two searches, no watched Git requests",
+    "research records correct source hashes",
+    "research prevents overwriting prior receipts",
+    "research rejects unfiled courtyard input before fetching",
+    "research rejects extra eligible question before fetching",
+    "temporary research fixture removed",
+    "live verifier passes with real Git checks",
+    "verifier rejects tampered source body",
+    "verifier rejects changed question queue",
+    "verifier rejects duplicate chronicle addition",
+    "both source scripts remain unchanged"
+  ],
+  "script_sha256": {
+    "research.py": "27c21655a11749dd2bd9ed6d1fa6f87f985688556b5bd0e620a45b4f8e081c07",
+    "verify.py": "e598a00a025ae5b756c0aab4db7510d46b83292f4c02f299a573a4f543583de6"
+  },
+  "limits": [
+    "Research HTTP was mocked; no network calls were made.",
+    "Fixture paths were redirected in memory; production scripts were unchanged.",
+    "Verifier faults were injected through reads without modifying live files.",
+    "The live verifier ran real Git checks; no remote behavior was validated."
+  ],
+  "fixture_cleaned": true
+}

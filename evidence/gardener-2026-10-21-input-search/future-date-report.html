@@ -1,0 +1,138 @@
+<html><head><title>future date in Date header pinning thread to top of $inbox/ - Kyle Meyer</title><link
+rel=alternate
+title="Atom feed"
+href="../new.atom"
+type="application/atom+xml"/><style>@import url("../216light.css?69d631d8") screen AND (prefers-color-scheme:light);*{overflow-wrap:anywhere;font-size:100%;font-family:monospace}</style><link
+type=text/css
+rel=stylesheet
+href=../216dark.css?69d631d8
+media=screen /><link
+type=text/css
+rel=stylesheet
+href=../216light.css?69d631d8
+media=print /></head><body><form
+action="../"><pre><a
+href="../?t=20230204172601"><b>user/dev discussion of public-inbox itself</b></a>
+<input
+name=q
+type=text /><input
+type=submit
+value=search /> <a
+href="../_/text/help/">help</a> / <a
+href="../_/text/color/">color</a> / <a
+id=mirror
+href="../_/text/mirror/">mirror</a> / <a
+href=#code>code</a> / <a
+href="../new.atom">Atom feed</a></pre></form><pre
+id=b>From: Kyle Meyer &lt;kyle@kyleam.com&gt;
+To: Eric Wong &lt;e@80x24.org&gt;, <a
+href="https://public-inbox.org/meta/?t=20230204172601">meta@public-inbox.org</a>
+Cc: Ihor Radchenko &lt;yantar92@posteo.net&gt;, Bastien Guerry &lt;bzg@fsf.org&gt;
+Subject: <a
+href="#r"
+id=t>future date in Date header pinning thread to top of $inbox/</a>
+Date: Sat, 04 Feb 2023 12:25:40 -0500	<a
+href="#r">[thread overview]</a>
+Message-ID: &lt;87edr5gx63.fsf@kyleam.com&gt; (<a href="raw">raw</a>)
+
+As noted by Ihor on the Org list (&lt;87pmarnhlr.fsf@localhost&gt;), Org&#39;s
+public-inbox archive has a thread pinned to the top of the $inbox/
+overview:
+
+ * <a
+href="https://yhetil.org/orgmode/">https://yhetil.org/orgmode/</a>
+
+That thread has a message where a sender set his Date to a future date:
+
+  $ curl -fSsL <a
+href="https://yhetil.org/orgmode/ZT2vNKsf3Lp5xit3@protected.localdomain/raw">https://yhetil.org/orgmode/ZT2vNKsf3Lp5xit3@protected.localdomain/raw</a> | \
+    grep Date:
+  Date: Sun, 29 Oct 2023 04:02:44 +0300
+
+Based on grepping around the public-inbox tree and Git history, I know
+that there are spots in public-inbox that prefer a date from the
+Received headers over the one from the Date header.  Would that make
+sense to do here too to reduce the chances of a date from the future
+pinning a thread?  (Or perhaps that&#39;s already the intention and
+something&#39;s off here?)
+
+Thanks.
+</pre><hr><pre><a
+href="../20230204204110.M179231@dcvr/"
+rel=next>next</a>             <a
+href="#R">reply</a><a id=related>	</a>other threads:[<a
+href="../?t=20230204172601">~2023-02-04 17:26 UTC</a>|<a
+href="../">newest</a>]
+
+<b>Thread overview: </b>8+ messages / expand[<a
+href="T/#u">flat</a>|<a
+href="t/#u">nested</a>]  <a
+href="t.mbox.gz">mbox.gz</a>  <a
+href="t.atom">Atom feed</a>  <a
+href="#b">top</a>
+<b>2023-02-04 17:25 <a
+id=r
+href="#t">Kyle Meyer [this message]</a></b>
+2023-02-04 20:41 ` <a
+href="../20230204204110.M179231@dcvr/">[PATCH] www: sort all /$INBOX/ topics by Received: timestamp</a> Eric Wong
+2023-02-04 21:16   ` <a
+href="../87sfflw2qu.fsf@kyleam.com/">Kyle Meyer</a>
+2023-02-05 19:30   ` <a
+href="../87o7q7di5i.fsf@localhost/">Ihor Radchenko</a>
+2023-02-05 20:10     ` <a
+href="../87y1pb27r6.fsf@kyleam.com/">[PATCH] www: display Received: timestamp for dumped topics</a> Kyle Meyer
+2023-02-05 20:21       ` <a
+href="../20230205202159.M111127@dcvr/">Eric Wong</a>
+2023-02-05 20:57         ` <a
+href="../87r0v325ka.fsf@kyleam.com/">Kyle Meyer</a>
+2023-02-05 21:03         ` <a
+href="../87lelbddve.fsf@localhost/">Ihor Radchenko</a>
+</pre><hr><pre
+id=R><b>Reply instructions:</b>
+
+You may reply publicly to <a
+href=#t>this message</a> via plain-text email
+using any one of the following methods:
+
+* Save the following mbox file, import it into your mail client,
+  and reply-to-all from there: <a
+href=raw>mbox</a>
+
+  Avoid top-posting and favor interleaved quoting:
+  <a
+href="https://en.wikipedia.org/wiki/Posting_style#Interleaved_style">https://en.wikipedia.org/wiki/Posting_style#Interleaved_style</a>
+
+  List information: <a
+href="https://public-inbox.org/README">https://public-inbox.org/README</a>
+
+* Reply using the <b>--to</b>, <b>--cc</b>, and <b>--in-reply-to</b>
+  switches of git-send-email(1):
+
+  git send-email \
+    --in-reply-to=87edr5gx63.fsf@kyleam.com \
+    --to=kyle@kyleam.com \
+    --cc=bzg@fsf.org \
+    --cc=e@80x24.org \
+    --cc=meta@public-inbox.org \
+    --cc=yantar92@posteo.net \
+    /path/to/YOUR_REPLY
+
+  <a
+href="https://kernel.org/pub/software/scm/git/docs/git-send-email.html">https://kernel.org/pub/software/scm/git/docs/git-send-email.html</a>
+
+* If your mail client supports setting the <b>In-Reply-To</b> header
+  via mailto: links, try the <a
+href="mailto:kyle@kyleam.com?In-Reply-To=%3C87edr5gx63.fsf@kyleam.com%3E&#38;Cc=bzg%40fsf.org%2Ce%4080x24.org%2Cmeta%40public-inbox.org%2Cyantar92%40posteo.net&#38;Subject=Re%3A%20future%20date%20in%20Date%20header%20pinning%20thread%20to%20top%20of%20%24inbox%2F">mailto: link</a>
+</pre>
+
+  Be sure your reply has a <b>Subject:</b> header at the top and a blank line
+  before the message body.
+<hr><pre><a id=code>Code repositories for project(s) associated with this public inbox
+
+	<a
+href="https://80x24.org/public-inbox.git">https://80x24.org/public-inbox.git</a>
+
+This is a public inbox, see <a
+href="../_/text/mirror/">mirroring instructions</a>
+for how to clone and mirror all data and code used for this inbox;
+as well as URLs for read-only IMAP folder(s) and NNTP newsgroup(s).</pre></body></html>

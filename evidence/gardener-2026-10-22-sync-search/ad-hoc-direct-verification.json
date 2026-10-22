@@ -1,0 +1,10 @@
+{
+  "kind": "ad-hoc verification, not canonical suite green",
+  "verified_at_utc": "2026-10-22T20:13:50.881914+00:00",
+  "target": "/Users/yu/castle/evidence/gardener-2026-10-22-sync-search/verify.py",
+  "target_sha256": "0ae46617f6dc396468a119f55b51be81946f29414e896d57eff34527e7e5a264",
+  "test_methods_passed": 2,
+  "synthetic_scenarios_passed": 7,
+  "actual_verifier_and_independent_inventory": "passed",
+  "synthetic_fixtures_removed": true
+}

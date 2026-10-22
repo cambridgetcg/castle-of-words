@@ -28,4 +28,6 @@ The closest evidence is the DORA State of DevOps reports, which have been runnin
 
 ## Links
 
+- [worktree-evidence](worktree-evidence.md) shares the [[DORA-metrics]] reference but asks about a different step on the road to release, so the delivery measures do not answer either room's specific workflow question by themselves.
+
 [[staged-release]] [[continuous-delivery]] [[DORA-metrics]] [[deployment-frequency]] [[change-failure-rate]] [[publication]] · [cheapest-design-craft](cheapest-design-craft.md) (the same craft: the staged-release-evidence room that finds the direct comparison unbuilt and the cheapest-design craft that names the pattern of measuring the gap first are the same move — both know that the first measurement is the feasibility question, not the answer) · [ordered-release](ordered-release.md) (the same law made operational: the evidence room that asks whether publication is part of finishing and the release rail that turns a sequence of deploys into a chain of trust are the same move — both hold that a sound release is finished when it ships, and both refuse to let the staged shelf be mistaken for the shipped work)

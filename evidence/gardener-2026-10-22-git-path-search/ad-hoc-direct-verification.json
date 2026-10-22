@@ -1,0 +1,27 @@
+{
+  "kind": "ad-hoc verification; not a full suite",
+  "checked_utc": "2026-10-22T04:22:06.452185+00:00",
+  "result": "passed",
+  "check_count": 12,
+  "checks": [
+    "deleted staging file is absent",
+    "both changed scripts parse and compile",
+    "current castle passes real verifier CLI",
+    "all five retained network results match their receipts",
+    "research refuses to overwrite existing evidence",
+    "rejects source corruption",
+    "rejects altered questions",
+    "rejects duplicate Map entry",
+    "rejects extra chronicle line",
+    "rejects altered machinery",
+    "rejects missing word Links line",
+    "all protected castle files and existing evidence remain unchanged"
+  ],
+  "script_sha256": {
+    "research.py": "55e89af4977dcf6c19b100b120c0359b497b897b09604dee3c3abeae648ef162",
+    "verify.py": "ca0198296c7f0392d92a472f9831170ac40ea31151bf62261462816c4885660e"
+  },
+  "staging_file_absent": true,
+  "faults": "in-memory reads only",
+  "new_network_requests": 0
+}

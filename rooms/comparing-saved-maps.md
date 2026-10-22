@@ -125,6 +125,7 @@ All web sources below were read **2026-10-11**. Discovery used SQLite's **Search
 8. SQLite, **Temporary Files Used By SQLite**, transient indices and temporary storage: https://www.sqlite.org/tempfiles.html
 
 Links:
+- [snapshot-space](snapshot-space.md) gives read-only a different setting: a saved volume view holds one moment, while this comparison's read-only connection alone cannot hold other writers still.
 - [honest-data-systems](honest-data-systems.md) keeps distinct-card breadth beside row counts, the same discipline that makes this comparison inspect the saved pairs rather than trust an unchanged total.
 - [[database-least-privilege]] asks which keys the reader holds, while this room asks whether the pages can still move: read-only access is neither a complete permission policy nor a frozen comparison.
 - [standard-without-a-key](standard-without-a-key.md) makes or borrows an exemplar where no answer key exists, marking a useful contrast here: yesterday's promised numbering needs its saved pairs, not a plausible replacement chosen today.

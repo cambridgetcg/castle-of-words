@@ -1,0 +1,33 @@
+{
+  "passed": true,
+  "phase": "closed",
+  "filed": 0,
+  "researched": 1,
+  "answered": 0,
+  "planted": 0,
+  "changed_grounds_files": [
+    "chronicle.md"
+  ],
+  "chronicle_lines_appended": 1,
+  "map_rooms_exactly_once": 697,
+  "open_questions_unchanged": 16,
+  "garden_unchanged": true,
+  "retrievals": [
+    {
+      "label": "sync-search",
+      "http_status": 200,
+      "curl_exit": 0
+    },
+    {
+      "label": "operator-search",
+      "http_status": 200,
+      "curl_exit": 0
+    },
+    {
+      "label": "archive-sync-search",
+      "http_status": 404,
+      "curl_exit": 0
+    }
+  ],
+  "scope": "Local consistency only; no new service measurement or answer."
+}

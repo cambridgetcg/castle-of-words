@@ -1,0 +1,31 @@
+"yhetil.org" "sync" - Brave Search
+Ask
+All
+Images
+News
+Videos
+Maps
+Goggles
+Query contains search operators
+Ignore operators
+Yhetil
+yhetil.org › emacs  › 87ipp9frmf.fsf@gmx.ch  › T
+Google Tasks integration - unofficially hosted mirrors at yhetil.org
+I have configured it to sync every 30 min. on my phone and pad. My computer runs a cronjob every 20 minutes that pulls and pushes. Here is the script that does the job: #!/bin/bash emacs --batch --load ~/.emacs --eval "(gtd)" --eval "(org-mobile-pull)" --eval "(org-save-all-org-buffers)" --eval "(org-mobile-push)" If you are on Linux or Mac the script should work as a cronjob.
+Yhetil
+yhetil.org › emacs
+all messages for Emacs-related lists mirrored at yhetil.org
+2013-03-19 17:34 UTC (3+ messages) ... org-export-before-parsing-hook GOTCHA 2013-03-19 17:09 UTC (2+ messages) LaTeX with embedded in-line code blocks and AucTeX 2013-03-19 17:20 UTC (2+ messages) Block agendas and filtering 2013-03-19 17:32 UTC (2+ messages) two-way sync org agenda/ical ...
+GNU
+lists.gnu.org › archive  › html  › emacs-orgmode  › 2024-06  › msg00393.html
+[SUMMARY] #8 [[bbb:OrgMeetup]] on Wed, June 12, 19:00 UTC+3
+22 June 2024 - All that is needed is a way to ...gmode.org/orgmode/87edbhljr7.FSF@hyperspace/ - Ideally, the preview might be made almost completely independent from what major mode is currently in use - This might be done using ~thingatpt~ Emacs library (built-in) - A recall Yuan Fu talking about integrating thingatpt with tree-sitter https://yhetil.org/emacs...
+Find elsewhere
+Google Bing Mojeek
+Next
+Resources
+Brave Search Premium Brave Search help Transparency report Report a security issue Status
+Products
+Brave Browser Brave Search Brave Wallet Brave Talk Brave Firewall + VPN Brave Playlist Brave News Brave Rewards Brave Search API Brave Ads
+Policies
+Privacy Policy Terms of Use

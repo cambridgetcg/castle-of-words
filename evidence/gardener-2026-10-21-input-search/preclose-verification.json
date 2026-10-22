@@ -1,0 +1,70 @@
+{
+  "verified_utc": "2026-10-21T21:55:11.521632+00:00",
+  "mode": "preclose",
+  "checks_passed": true,
+  "changed_existing_markdown": [
+    "gate.md",
+    "rooms/what-the-gaps-can-say.md",
+    "words/timestamp-provenance.md"
+  ],
+  "rooms": 697,
+  "map_entries": 697,
+  "map_missing": [],
+  "map_extra": [],
+  "map_duplicates": [],
+  "open_questions": 16,
+  "open_quests": 8,
+  "new_rooms": 0,
+  "new_words": 0,
+  "filed": 0,
+  "researched": 1,
+  "answered": 0,
+  "planted": 0,
+  "source_count": 7,
+  "source_results": [
+    {
+      "label": "web-poll",
+      "status": 200,
+      "verified_bytes": 246405,
+      "url": "https://search.brave.com/search?q=%22yhetil%22%20%22poll%22"
+    },
+    {
+      "label": "web-maildir",
+      "status": 200,
+      "verified_bytes": 129089,
+      "url": "https://search.brave.com/search?q=%22yhetil%22%20%22maildir%22"
+    },
+    {
+      "label": "archive-poll",
+      "status": 200,
+      "verified_bytes": 2112,
+      "url": "https://public-inbox.org/meta/?q=f%3Akyleam.com%20%28poll%20OR%20polling%29"
+    },
+    {
+      "label": "archive-input",
+      "status": 200,
+      "verified_bytes": 2402,
+      "url": "https://public-inbox.org/meta/?q=f%3Akyleam.com%20yhetil%20%28watch%20OR%20imap%20OR%20maildir%29"
+    },
+    {
+      "label": "future-date-report",
+      "status": 200,
+      "verified_bytes": 5397,
+      "url": "https://public-inbox.org/meta/87edr5gx63.fsf@kyleam.com/"
+    },
+    {
+      "label": "received-patch",
+      "status": 200,
+      "verified_bytes": 8071,
+      "url": "https://public-inbox.org/meta/87y1pb27r6.fsf@kyleam.com/"
+    },
+    {
+      "label": "received-reply",
+      "status": 200,
+      "verified_bytes": 6422,
+      "url": "https://public-inbox.org/meta/20230205202159.M111127@dcvr/"
+    }
+  ],
+  "chronicle_addition": "",
+  "scope": "Local consistency and source-byte integrity, not host deployment verification or search completeness."
+}

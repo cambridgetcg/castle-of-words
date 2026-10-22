@@ -1,0 +1,82 @@
+Re: [PATCH] www: display Received: timestamp for dumped topics - Eric Wong
+user/dev discussion of public-inbox itself
+help / color / mirror / code / Atom feed
+From: Eric Wong <e@80x24.org>
+To: Kyle Meyer <kyle@kyleam.com>
+Cc: Ihor Radchenko <yantar92@posteo.net>,
+meta@public-inbox.org, Bastien Guerry <bzg@fsf.org>
+Subject: Re: [PATCH] www: display Received: timestamp for dumped topics
+Date: Sun, 5 Feb 2023 20:21:59 +0000	[thread overview]
+Message-ID: <20230205202159.M111127@dcvr> (raw)
+In-Reply-To: <87y1pb27r6.fsf@kyleam.com>
+Kyle Meyer <kyle@kyleam.com> wrote:
+> Ihor Radchenko writes:
+>
+> > Eric Wong <e@80x24.org> writes:
+> [...]
+> >> Does this untested patch fix it?
+> >
+> > I am looking at https://list.orgmode.org/ and the thread still displays
+> > the future date "2023-10-29  1:04 UTC" as the last update time. Though
+> > ordering suggests that the future time was ignored when building recent
+> > thread list.
+>
+> The "it" that I reported is the sorting, so as far as I can see it's
+> fixed.  With the "last update time", I suppose you're talking about the
+> second line below:
+>
+>   [FEATURE REQUEST] Timezone support in org-mode datestamps and org-agenda
+>    2023-10-29  1:04 UTC  (110+ messages)
+>                                         ` [POLL] Proposed syntax for [...]
+>
+> I don't care too much one way or the other, but it makes sense to me for
+> that to match the value that's actually used to sort the messages.
+> Eric, what about something like this?
+I'm slightly against it.  Date: is what's shown in every other
+message view, and I think that's what most MUAs do, too.  I'm
+fine with wrong dates being shown as long as it's not abusable
+to pin a message to the top of /$INBOX/.
+Aside from git-send-email behavior mentioned upthread, Date:
+should also be favored in general because it's consistent across
+recipients, and across independently-run archives w/o common
+history.
+I think the best we can do is point out to senders their clocks
+are wrong, as this has been the case going back decades.
+next prev parent reply	other threads:[~2023-02-05 20:21 UTC|newest]
+Thread overview: 8+ messages / expand[flat|nested]  mbox.gz  Atom feed  top
+2023-02-04 17:25 future date in Date header pinning thread to top of $inbox/ Kyle Meyer
+2023-02-04 20:41 ` [PATCH] www: sort all /$INBOX/ topics by Received: timestamp Eric Wong
+2023-02-04 21:16   ` Kyle Meyer
+2023-02-05 19:30   ` Ihor Radchenko
+2023-02-05 20:10     ` [PATCH] www: display Received: timestamp for dumped topics Kyle Meyer
+2023-02-05 20:21       ` Eric Wong [this message]
+2023-02-05 20:57         ` Kyle Meyer
+2023-02-05 21:03         ` Ihor Radchenko
+Reply instructions:
+You may reply publicly to this message via plain-text email
+using any one of the following methods:
+* Save the following mbox file, import it into your mail client,
+and reply-to-all from there: mbox
+Avoid top-posting and favor interleaved quoting:
+https://en.wikipedia.org/wiki/Posting_style#Interleaved_style
+List information: https://public-inbox.org/README
+* Reply using the --to, --cc, and --in-reply-to
+switches of git-send-email(1):
+git send-email \
+--in-reply-to=20230205202159.M111127@dcvr \
+--to=e@80x24.org \
+--cc=bzg@fsf.org \
+--cc=kyle@kyleam.com \
+--cc=meta@public-inbox.org \
+--cc=yantar92@posteo.net \
+/path/to/YOUR_REPLY
+https://kernel.org/pub/software/scm/git/docs/git-send-email.html
+* If your mail client supports setting the In-Reply-To header
+via mailto: links, try the mailto: link
+Be sure your reply has a Subject: header at the top and a blank line
+before the message body.
+Code repositories for project(s) associated with this public inbox
+https://80x24.org/public-inbox.git
+This is a public inbox, see mirroring instructions
+for how to clone and mirror all data and code used for this inbox;
+as well as URLs for read-only IMAP folder(s) and NNTP newsgroup(s).

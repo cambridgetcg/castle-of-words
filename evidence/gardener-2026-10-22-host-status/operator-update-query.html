@@ -1,0 +1,147 @@
+<html><head><title>Re: [PATCH 9/9] lei up: automatically use dt: for remote externals - Kyle Meyer</title><link
+rel=alternate
+title="Atom feed"
+href="../new.atom"
+type="application/atom+xml"/><style>@import url("../216light.css?69d631d8") screen AND (prefers-color-scheme:light);*{overflow-wrap:anywhere;font-size:100%;font-family:monospace}</style><link
+type=text/css
+rel=stylesheet
+href=../216dark.css?69d631d8
+media=screen /><link
+type=text/css
+rel=stylesheet
+href=../216light.css?69d631d8
+media=print /></head><body><form
+action="../"><pre><a
+href="../?t=20210918143150"><b>user/dev discussion of public-inbox itself</b></a>
+<input
+name=q
+type=text /><input
+type=submit
+value=search /> <a
+href="../_/text/help/">help</a> / <a
+href="../_/text/color/">color</a> / <a
+id=mirror
+href="../_/text/mirror/">mirror</a> / <a
+href=#code>code</a> / <a
+href="../new.atom">Atom feed</a></pre></form><pre
+id=b>From: Kyle Meyer &lt;kyle@kyleam.com&gt;
+To: Eric Wong &lt;e@80x24.org&gt;
+Cc: <a
+href="https://public-inbox.org/meta/?t=20210918143150">meta@public-inbox.org</a>
+Subject: <a
+href="#r"
+id=t>Re: [PATCH 9/9] lei up: automatically use dt: for remote externals</a>
+Date: Sat, 18 Sep 2021 10:31:37 -0400	<a
+href="#r">[thread overview]</a>
+Message-ID: &lt;877dfex8dy.fsf@kyleam.com&gt; (<a href="raw">raw</a>)
+In-Reply-To: &lt;<a
+href="../20210918093332.16054-10-e@80x24.org/">20210918093332.16054-10-e@80x24.org</a>&gt;
+
+Eric Wong writes:
+
+<span
+class="q">&gt; diff --git a/Documentation/lei-up.pod b/Documentation/lei-up.pod
+&gt; index e5d97f43..4dc6d3b8 100644
+&gt; --- a/Documentation/lei-up.pod
+&gt; +++ b/Documentation/lei-up.pod
+&gt; @@ -22,6 +22,21 @@ C&lt;--all&gt; updates all saved searches (listed in L&lt;lei-ls-search(1)&gt;).
+&gt;  C&lt;--all=local&gt; only updates local mailboxes, C&lt;--all=remote&gt; only
+&gt;  updates remote mailboxes (currently C&lt;imap://&gt; and C&lt;imaps://&gt;).
+&gt;  
+&gt; +=item --remote-fudge-time=INTERVAL
+&gt; +
+&gt; +Look for mail older than the time of the last successful query.
+&gt; +Using a small interval will reduce bandwidth use.  A larger
+&gt; +interval reduces the likelyhood missing a result due to MTA
+&gt; +delays or downtime.
+</span>
+s/likelyhood/likelihood of/
+</pre><hr><pre><a
+href="../20210918203001.GA27382@dcvr/"
+rel=next>next</a> <a
+href="../20210918093332.16054-10-e@80x24.org/"
+rel=prev>prev parent</a> <a
+href="#R">reply</a><a id=related>	</a>other threads:[<a
+href="../?t=20210918143150">~2021-09-18 14:31 UTC</a>|<a
+href="../">newest</a>]
+
+<b>Thread overview: </b>13+ messages / expand[<a
+href="T/#u">flat</a>|<a
+href="t/#u">nested</a>]  <a
+href="t.mbox.gz">mbox.gz</a>  <a
+href="t.atom">Atom feed</a>  <a
+href="#b">top</a>
+2021-09-18  9:33 <a
+href="../20210918093332.16054-1-e@80x24.org/">[PATCH 0/9] lei: a bunch of random stuff</a> Eric Wong
+2021-09-18  9:33 ` <a
+href="../20210918093332.16054-2-e@80x24.org/">[PATCH 1/9] lei: lock worker counts</a> Eric Wong
+2021-09-18  9:33 ` <a
+href="../20210918093332.16054-3-e@80x24.org/">[PATCH 2/9] lei_mail_sync: rely on flock(2), avoid IPC</a> Eric Wong
+2021-09-18  9:33 ` <a
+href="../20210918093332.16054-4-e@80x24.org/">[PATCH 3/9] lei_mail_sync: set nodatacow on btrfs</a> Eric Wong
+2021-09-18  9:33 ` <a
+href="../20210918093332.16054-5-e@80x24.org/">[PATCH 4/9] ds: support add unique timers</a> Eric Wong
+2021-09-18  9:33 ` <a
+href="../20210918093332.16054-6-e@80x24.org/">[PATCH 5/9] net_reader: tie SocksDebug to {imap,nntp}.Debug</a> Eric Wong
+2021-09-18  9:33 ` <a
+href="../20210918093332.16054-7-e@80x24.org/">[PATCH 6/9] net_reader: detect IMAP failures earlier</a> Eric Wong
+2021-09-18  9:33 ` <a
+href="../20210918093332.16054-8-e@80x24.org/">[PATCH 7/9] net_reader: support imaps:// w/ socks5h:// proxy</a> Eric Wong
+2021-09-18 10:41   ` <a
+href="../20210918104156.GA3246@dcvr/">Eric Wong</a>
+2021-09-18  9:33 ` <a
+href="../20210918093332.16054-9-e@80x24.org/">[PATCH 8/9] net_reader: set SO_KEEPALIVE on all Net::NNTP sockets</a> Eric Wong
+2021-09-18  9:33 ` <a
+href="../20210918093332.16054-10-e@80x24.org/">[PATCH 9/9] lei up: automatically use dt: for remote externals</a> Eric Wong
+<b>2021-09-18 14:31   ` <a
+id=r
+href="#t">Kyle Meyer [this message]</a></b>
+2021-09-18 20:30     ` <a
+href="../20210918203001.GA27382@dcvr/">Eric Wong</a>
+</pre><hr><pre
+id=R><b>Reply instructions:</b>
+
+You may reply publicly to <a
+href=#t>this message</a> via plain-text email
+using any one of the following methods:
+
+* Save the following mbox file, import it into your mail client,
+  and reply-to-all from there: <a
+href=raw>mbox</a>
+
+  Avoid top-posting and favor interleaved quoting:
+  <a
+href="https://en.wikipedia.org/wiki/Posting_style#Interleaved_style">https://en.wikipedia.org/wiki/Posting_style#Interleaved_style</a>
+
+  List information: <a
+href="https://public-inbox.org/README">https://public-inbox.org/README</a>
+
+* Reply using the <b>--to</b>, <b>--cc</b>, and <b>--in-reply-to</b>
+  switches of git-send-email(1):
+
+  git send-email \
+    --in-reply-to=877dfex8dy.fsf@kyleam.com \
+    --to=kyle@kyleam.com \
+    --cc=e@80x24.org \
+    --cc=meta@public-inbox.org \
+    /path/to/YOUR_REPLY
+
+  <a
+href="https://kernel.org/pub/software/scm/git/docs/git-send-email.html">https://kernel.org/pub/software/scm/git/docs/git-send-email.html</a>
+
+* If your mail client supports setting the <b>In-Reply-To</b> header
+  via mailto: links, try the <a
+href="mailto:kyle@kyleam.com?In-Reply-To=%3C877dfex8dy.fsf@kyleam.com%3E&#38;Cc=e%4080x24.org%2Cmeta%40public-inbox.org&#38;Subject=Re%3A%20%5BPATCH%209%2F9%5D%20lei%20up%3A%20automatically%20use%20dt%3A%20for%20remote%20externals">mailto: link</a>
+</pre>
+
+  Be sure your reply has a <b>Subject:</b> header at the top and a blank line
+  before the message body.
+<hr><pre><a id=code>Code repositories for project(s) associated with this public inbox
+
+	<a
+href="https://80x24.org/public-inbox.git">https://80x24.org/public-inbox.git</a>
+
+This is a public inbox, see <a
+href="../_/text/mirror/">mirroring instructions</a>
+for how to clone and mirror all data and code used for this inbox;
+as well as URLs for read-only IMAP folder(s) and NNTP newsgroup(s).</pre></body></html>

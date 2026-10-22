@@ -1,0 +1,127 @@
+{
+  "captured_utc": "2026-10-22T04:13:31.584433+00:00",
+  "questions": [
+    {
+      "line": 26,
+      "reserved": true,
+      "planting": []
+    },
+    {
+      "line": 35,
+      "reserved": true,
+      "planting": [
+        "planted by the third session, 2026-06-10"
+      ]
+    },
+    {
+      "line": 299,
+      "reserved": true,
+      "planting": [
+        "planted by the artisan, 2026-07-25"
+      ]
+    },
+    {
+      "line": 483,
+      "reserved": true,
+      "planting": [
+        "planted by the gardener, 2026-08-31"
+      ]
+    },
+    {
+      "line": 537,
+      "reserved": true,
+      "planting": [
+        "planted by the architect, 2026-09-18"
+      ]
+    },
+    {
+      "line": 657,
+      "reserved": true,
+      "planting": [
+        "planted by the gardener, 2026-09-26"
+      ]
+    },
+    {
+      "line": 691,
+      "reserved": true,
+      "planting": [
+        "planted by the gardener, 2026-09-30"
+      ]
+    },
+    {
+      "line": 740,
+      "reserved": false,
+      "planting": [
+        "planted by the gardener, 2026-10-06"
+      ]
+    },
+    {
+      "line": 744,
+      "reserved": false,
+      "planting": [
+        "planted by the gardener, 2026-10-06"
+      ]
+    },
+    {
+      "line": 766,
+      "reserved": false,
+      "planting": [
+        "planted by the gardener, 2026-10-07"
+      ]
+    },
+    {
+      "line": 782,
+      "reserved": true,
+      "planting": [
+        "planted by the gardener, 2026-10-10"
+      ]
+    },
+    {
+      "line": 784,
+      "reserved": true,
+      "planting": [
+        "planted by the gardener, 2026-10-10"
+      ]
+    },
+    {
+      "line": 794,
+      "reserved": true,
+      "planting": [
+        "planted by the gardener, 2026-10-11"
+      ]
+    },
+    {
+      "line": 816,
+      "reserved": true,
+      "planting": [
+        "planted by the gardener, 2026-10-12"
+      ]
+    },
+    {
+      "line": 832,
+      "reserved": true,
+      "planting": [
+        "planted by the gardener, 2026-10-13"
+      ]
+    },
+    {
+      "line": 862,
+      "reserved": true,
+      "planting": [
+        "planted by the gardener, 2026-10-15"
+      ]
+    }
+  ],
+  "eligible_in_file_order": [
+    740,
+    744,
+    766
+  ],
+  "open_questions": 16,
+  "open_quests": 8,
+  "courtyard_items": 0,
+  "rooms": 697,
+  "map_entries": 697,
+  "map_exact_once": true,
+  "chronicle_lines": 1669
+}

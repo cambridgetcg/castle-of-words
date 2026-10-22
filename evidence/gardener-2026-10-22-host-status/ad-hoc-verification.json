@@ -1,0 +1,94 @@
+{
+  "verification_kind": "ad-hoc; not canonical suite green",
+  "checks_passed": 16,
+  "checks": [
+    {
+      "name": "research preflight, snapshots, bounded fetch calls and rerun refusal",
+      "passed": true
+    },
+    {
+      "name": "research refuses a nonempty courtyard before fetching",
+      "passed": true
+    },
+    {
+      "name": "research refuses duplicate Map entries",
+      "passed": true
+    },
+    {
+      "name": "research refuses a missing Map entry",
+      "passed": true
+    },
+    {
+      "name": "research refuses a changed eligibility queue",
+      "passed": true
+    },
+    {
+      "name": "research refuses an escaping symlink",
+      "passed": true
+    },
+    {
+      "name": "verify accepts preclose and exactly one valid appended line",
+      "passed": true
+    },
+    {
+      "name": "verify rejects altered protected machinery",
+      "passed": true
+    },
+    {
+      "name": "verify rejects an extra word file",
+      "passed": true
+    },
+    {
+      "name": "verify rejects a deleted room",
+      "passed": true
+    },
+    {
+      "name": "verify rejects an altered old chronicle prefix",
+      "passed": true
+    },
+    {
+      "name": "verify rejects two appended lines",
+      "passed": true
+    },
+    {
+      "name": "verify rejects a missing visit line",
+      "passed": true
+    },
+    {
+      "name": "verify rejects a corrupted saved response",
+      "passed": true
+    },
+    {
+      "name": "verify rejects failed HTTP status",
+      "passed": true
+    },
+    {
+      "name": "verify rejects changed queues even before closing",
+      "passed": true
+    }
+  ],
+  "source_sha256": {
+    "research.py": "3ce0882e80e58a5ce18e4c229a1284ccb651a9a678b825654ae754c81c5aedd8",
+    "verify.py": "82172d3dad492a33f1f701576de4d6db047fb89415ef03322dde5610d32709d9"
+  },
+  "real_verifier": {
+    "checked_utc": "2026-10-22T07:32:10.584713+00:00",
+    "mode": "closed",
+    "all_checks_passed": true,
+    "changed_baseline_files": [
+      "chronicle.md"
+    ],
+    "saved_source_hashes_verified": 3,
+    "room_count": 697,
+    "map_entries": 697,
+    "map_exact_once": true,
+    "open_questions": 16,
+    "courtyard_items": 0,
+    "chronicle_added_lines": 1,
+    "garden_unchanged": true,
+    "existing_room_and_word_files_unchanged": true
+  },
+  "independent_baseline_recheck": true,
+  "network_requests_during_verification": 0,
+  "synthetic_fixtures_cleaned": true
+}

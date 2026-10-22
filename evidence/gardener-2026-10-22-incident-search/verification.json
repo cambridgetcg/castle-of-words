@@ -1,0 +1,35 @@
+{
+  "passed": true,
+  "filed": 0,
+  "researched": 1,
+  "answered": 0,
+  "planted": 0,
+  "changed_grounds_files": [
+    "chronicle.md"
+  ],
+  "chronicle_lines_appended": 1,
+  "map_rooms_exactly_once": 697,
+  "open_questions_unchanged": 16,
+  "garden_unchanged": true,
+  "retrievals": [
+    {
+      "label": "update-delay-search",
+      "http_status": 200,
+      "curl_exit": 0,
+      "bytes": 106760
+    },
+    {
+      "label": "incident-search",
+      "http_status": 200,
+      "curl_exit": 0,
+      "bytes": 237073
+    },
+    {
+      "label": "archive-incident-search",
+      "http_status": 0,
+      "curl_exit": 7,
+      "bytes": 0
+    }
+  ],
+  "scope": "Local consistency only; no new service measurement or answer."
+}

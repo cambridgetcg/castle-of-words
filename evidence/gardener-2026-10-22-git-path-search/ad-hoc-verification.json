@@ -1,0 +1,28 @@
+{
+  "kind": "ad-hoc verification, not a canonical test suite",
+  "checked_utc": "2026-10-22T04:21:02.706901+00:00",
+  "changed_script_sha256": {
+    "research.py": "55e89af4977dcf6c19b100b120c0359b497b897b09604dee3c3abeae648ef162",
+    "verify.py": "ca0198296c7f0392d92a472f9831170ac40ea31151bf62261462816c4885660e"
+  },
+  "result": "passed",
+  "check_count": 12,
+  "checks": [
+    "both changed scripts parse and compile without writing bytecode",
+    "real final verifier CLI passes against the current castle",
+    "executed research preflight keeps reserved questions out and oldest first",
+    "five real saved retrievals match their hashes, times, URLs and bounded commands",
+    "research rerun refuses existing baseline before writes or network requests",
+    "rejects a changed source body",
+    "rejects a changed reserved-question file",
+    "rejects a duplicate Map entry",
+    "rejects a second chronicle addition",
+    "rejects changed protected machinery",
+    "rejects a word missing its final Links line",
+    "all baseline files and existing evidence remain byte-identical after checks"
+  ],
+  "fault_injection": "in-memory Path reads only; no file corruption or synthetic network results",
+  "network_requests_during_verification": 0,
+  "fresh_research_fetch_rerun": false,
+  "limits": "Checks the real retained research artifacts, overwrite guard, and verifier behavior; does not repeat web searches or establish remote service behavior."
+}

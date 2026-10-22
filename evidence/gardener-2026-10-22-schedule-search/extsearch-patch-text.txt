@@ -1,0 +1,74 @@
+[PATCH 1/2] extsearch: unconditionally reopen on access - Eric Wong
+user/dev discussion of public-inbox itself
+help / color / mirror / code / Atom feed
+From: Eric Wong <e@80x24.org>
+To: meta@public-inbox.org
+Subject: [PATCH 1/2] extsearch: unconditionally reopen on access
+Date: Sun, 27 Dec 2020 11:01:41 +0000	[thread overview]
+Message-ID: <20201227110142.8969-2-e@80x24.org> (raw)
+In-Reply-To: <20201227110142.8969-1-e@80x24.org>
+Since ExtSearch lacks the janky cleanup timer of
+PublicInbox::Inbox objects, its search results get stale.
+Reopen the Xapian DB on every ->search call for now, as
+reducing reopen calls doesn't seem worth the complexity.
+The Xapian::Database::reopen operation itself takes only ~50us
+on my old workstation with 3 shards totaling <200GB.  Other
+parts of Xapian dominates the search time, so the reopen seems
+inconsequential with single-digit shard counts.
+---
+lib/PublicInbox/ExtSearch.pm | 4 +---
+1 file changed, 1 insertion(+), 3 deletions(-)
+diff --git a/lib/PublicInbox/ExtSearch.pm b/lib/PublicInbox/ExtSearch.pm
+index a2b97798..7c9586a6 100644
+--- a/lib/PublicInbox/ExtSearch.pm
++++ b/lib/PublicInbox/ExtSearch.pm
+@@ -29,8 +29,6 @@ sub misc {
+$self->{misc} //= PublicInbox::MiscSearch->new("$self->{xpfx}/misc");
+}
+-sub search { $_[0] } # self
+-
+# overrides PublicInbox::Search::_xdb
+sub _xdb {
+my ($self) = @_;
+@@ -126,6 +124,6 @@ no warnings 'once';
+*recent = \&PublicInbox::Inbox::recent;
+*max_git_epoch = *nntp_usable = *msg_by_path = \&mm; # undef
+-*isrch = *search;
++*isrch = *search = \&PublicInbox::Search::reopen;
+1;
+next prev parent reply	other threads:[~2020-12-27 11:01 UTC|newest]
+Thread overview: 4+ messages / expand[flat|nested]  mbox.gz  Atom feed  top
+2020-12-27 11:01 [PATCH 0/2] extsearch: avoid stale Xapian results Eric Wong
+2020-12-27 11:01 ` Eric Wong [this message]
+2020-12-27 11:01 ` [PATCH 2/2] miscsearch: take reopen from Search and use it Eric Wong
+2020-12-28 15:32 ` [PATCH 0/2] extsearch: avoid stale Xapian results Kyle Meyer
+find likely ancestor, descendant, or conflicting patches for this message:
+( dfblob:a2b9779 dfblob:7c9586a )
+OR (
+bs:"[PATCH 1/2] extsearch: unconditionally reopen on access" )
+(help)
+Reply instructions:
+You may reply publicly to this message via plain-text email
+using any one of the following methods:
+* Save the following mbox file, import it into your mail client,
+and reply-to-all from there: mbox
+Avoid top-posting and favor interleaved quoting:
+https://en.wikipedia.org/wiki/Posting_style#Interleaved_style
+List information: https://public-inbox.org/README
+* Reply using the --to, --cc, and --in-reply-to
+switches of git-send-email(1):
+git send-email \
+--in-reply-to=20201227110142.8969-2-e@80x24.org \
+--to=e@80x24.org \
+--cc=meta@public-inbox.org \
+/path/to/YOUR_REPLY
+https://kernel.org/pub/software/scm/git/docs/git-send-email.html
+* If your mail client supports setting the In-Reply-To header
+via mailto: links, try the mailto: link
+Be sure your reply has a Subject: header at the top and a blank line
+before the message body.
+Code repositories for project(s) associated with this public inbox
+https://80x24.org/public-inbox.git
+This is a public inbox, see mirroring instructions
+for how to clone and mirror all data and code used for this inbox;
+as well as URLs for read-only IMAP folder(s) and NNTP newsgroup(s).
