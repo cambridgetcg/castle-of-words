@@ -1,0 +1,156 @@
+Re: archive links broken with obfuscate=true - Kyle Meyer
+user/dev discussion of public-inbox itself
+help / color / mirror / code / Atom feed
+From: Kyle Meyer <kyle@kyleam.com>
+To: Eric Wong <e@80x24.org>
+Cc: meta@public-inbox.org
+Subject: Re: archive links broken with obfuscate=true
+Date: Sat, 10 Apr 2021 15:49:46 -0400	[thread overview]
+Message-ID: <87wnt9or6t.fsf@kyleam.com> (raw)
+In-Reply-To: <20210410051550.GA4654@dcvr>
+Eric Wong writes:
+> Kyle Meyer <kyle@kyleam.com> wrote:
+>> Eric Wong writes:
+>>
+>> > Have you run any performance tests?
+>>
+>> No.  To get an idea of how to approach that, would you suggest I look at
+>> xt/perf-msgview.t?
+>
+> Yeah, probably that with some tweaks; or running -httpd with ab,
+> wrk or some other HTTP benchmark that uses persistent connections.
+>
+> I'm OK with things being slower with this option enabled, but
+> not with trivial denial-of-service vectors.
+Below is my initial attempt at tweaking xt/perf-msgview.t.
+xt/perf-obfuscate.t enables obfuscation in the inbox if PI_OBFUSCATE is
+set in the environment:
+$ PI_OBFUSCATE=1 GIANT_INBOX_DIR=/tmp/test perl xt/perf-obfuscate.t
+Here are my unscientific timings for three cases: 1) no obfuscation, 2)
+obfuscation on the current master (ea4e9025dd), and 3) obfuscation with
+the patch upthread.  The inbox is set to the Org mode's list archives
+(<https://yhetil.org/orgmode/>), which at the time of execution
+contained 135,885 messages.
+| obfuscate   | run | wall |    usr |  sys |
+|-------------+-----+------+--------+------|
+| no          |   1 |   50 |  49.14 | 0.57 |
+| no          |   2 |   49 |  47.76 | 0.58 |
+|             |     |      |        |      |
+| yes, master |   1 |   56 |  54.47 | 0.58 |
+| yes, master |   2 |   55 |  54.24 | 0.58 |
+|             |     |      |        |      |
+| yes, patch  |   1 |  175 | 174.71 | 0.52 |
+| yes, patch  |   2 |  176 | 174.33 | 0.56 |
+diff --git a/xt/perf-obfuscate.t b/xt/perf-obfuscate.t
+new file mode 100644
+index 00000000..2a8d5c1e
+--- /dev/null
++++ b/xt/perf-obfuscate.t
+@@ -0,0 +1,64 @@
++# Copyright (C) 2019-2021 all contributors <meta@public-inbox.org>
++# License: AGPL-3.0+ <https://www.gnu.org/licenses/agpl-3.0.txt>
++use strict;
++use warnings;
++use Test::More;
++use Benchmark qw(:all);
++use PublicInbox::Inbox;
++use PublicInbox::View;
++use PublicInbox::TestCommon;
++
++my $inboxdir = $ENV{GIANT_INBOX_DIR};
++plan skip_all => "GIANT_INBOX_DIR not defined for $0" unless $inboxdir;
++
++my $obfuscate = $ENV{PI_OBFUSCATE} ? 1 : 0;
++print "obfuscate=$obfuscate\n";
++
++my @cat = qw(cat-file --buffer --batch-check --batch-all-objects);
++if (require_git(2.19, 1)) {
++	push @cat, '--unordered';
++} else {
++	warn
++"git <2.19, cat-file lacks --unordered, locality suffers\n";
++}
++require_mods qw(Plack::Util);
++use_ok 'Plack::Util';
++my $ibx = PublicInbox::Inbox->new({ inboxdir => $inboxdir, name => 'name' ,
++				    obfuscate => $obfuscate});
++my $git = $ibx->git;
++my $fh = $git->popen(@cat);
++my $vec = '';
++vec($vec, fileno($fh), 1) = 1;
++select($vec, undef, undef, 60) or die "timed out waiting for --batch-check";
++
++my $ctx = {
++	env => { HTTP_HOST => 'example.com', 'psgi.url_scheme' => 'https' },
++	ibx => $ibx,
++	www => Plack::Util::inline_object(style => sub {''}),
++};
++my ($mime, $res, $oid, $type);
++my $n = 0;
++my $obuf = '';
++my $m = 0;
++
++my $cb = sub {
++	$mime = PublicInbox::Eml->new(shift);
++	PublicInbox::View::multipart_text_as_html($mime, $ctx);
++	++$m;
++	$obuf = '';
++};
++
++my $t = timeit(1, sub {
++	$ctx->{obuf} = \$obuf;
++	$ctx->{mhref} = '../';
++	while (<$fh>) {
++		($oid, $type) = split / /;
++		next if $type ne 'blob';
++		++$n;
++		$git->cat_async($oid, $cb);
++	}
++	$git->cat_async_wait;
++});
++diag 'multipart_text_as_html took '.timestr($t)." for $n <=> $m messages";
++is($m, $n, 'rendered all messages');
++done_testing();
+next prev parent reply	other threads:[~2021-04-10 19:49 UTC|newest]
+Thread overview: 10+ messages / expand[flat|nested]  mbox.gz  Atom feed  top
+2021-04-09  2:11 archive links broken with obfuscate=true Kyle Meyer
+2021-04-09 10:21 ` Eric Wong
+2021-04-09 22:45   ` Kyle Meyer
+2021-04-09 23:37     ` Eric Wong
+2021-04-10  4:06       ` Kyle Meyer
+2021-04-10  5:15         ` Eric Wong
+2021-04-10 19:49           ` Kyle Meyer [this message]
+2021-04-11  5:32             ` [PATCH v2] www: do not obfuscate addresses in URLs Eric Wong
+2021-04-11  5:34               ` Eric Wong
+2021-04-11 14:45               ` Kyle Meyer
+find likely ancestor, descendant, or conflicting patches for this message:
+( dfblob:2a8d5c1 )
+OR (
+bs:"Re: archive links broken with obfuscate=true" )
+(help)
+Reply instructions:
+You may reply publicly to this message via plain-text email
+using any one of the following methods:
+* Save the following mbox file, import it into your mail client,
+and reply-to-all from there: mbox
+Avoid top-posting and favor interleaved quoting:
+https://en.wikipedia.org/wiki/Posting_style#Interleaved_style
+List information: https://public-inbox.org/README
+* Reply using the --to, --cc, and --in-reply-to
+switches of git-send-email(1):
+git send-email \
+--in-reply-to=87wnt9or6t.fsf@kyleam.com \
+--to=kyle@kyleam.com \
+--cc=e@80x24.org \
+--cc=meta@public-inbox.org \
+/path/to/YOUR_REPLY
+https://kernel.org/pub/software/scm/git/docs/git-send-email.html
+* If your mail client supports setting the In-Reply-To header
+via mailto: links, try the mailto: link
+Be sure your reply has a Subject: header at the top and a blank line
+before the message body.
+Code repositories for project(s) associated with this public inbox
+https://80x24.org/public-inbox.git
+This is a public inbox, see mirroring instructions
+for how to clone and mirror all data and code used for this inbox;
+as well as URLs for read-only IMAP folder(s) and NNTP newsgroup(s).

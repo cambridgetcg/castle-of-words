@@ -62,6 +62,7 @@ All web sources below were read **2026-10-10**. Discovery used the project's own
 Local starting points: [[same-mail-same-numbers]], [[article-number-map]], and [[restore-test]], read **2026-10-10**; their underlying public-inbox sources were not fetched again for this visit.
 
 Links:
+- [words](words.md) asks pruning to leave the work whole, and the committed pages still held in this room's sidecar log show why a separate file is not automatically spare.
 - [what-the-gaps-can-say](what-the-gaps-can-say.md) separates a Git job's diary from a committed reference update, the same need to name the event that keeps this room's commit, checkpoint and finished backup from becoming one reassuring tick.
 - [artifact-graph](artifact-graph.md) binds each receipt to the exact object it describes, while this backup adds a separate demand: the main file and needed log must belong to one coherent saved state.
 - [checkpoint-archaeology](checkpoint-archaeology.md) reads saved model states, while a SQLite [[checkpoint]] moves committed pages into the main file: the shared word must not turn that housekeeping step into a kept recovery point.

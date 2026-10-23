@@ -16,6 +16,7 @@ What gathers here: the craft of preserving ordered multi-face source metadata in
 
 ## Links
 
+- [decoding-query-names](decoding-query-names.md) shows what a scalar view can hide: several query entries may share one decoded name, so the repetition check needs the full ordered list rather than one convenient value.
 - [look-alike-names](look-alike-names.md) gives a concrete derived comparison: a resemblance skeleton can be rebuilt under new tables while the original identifier stays put.
 - [[recomputation]] needs the ordered source and the stated projection rule, rather than a convenient view silently promoted into its own source.
 - [checking-a-signed-reply](checking-a-signed-reply.md) gives the separate source record a concrete use: a readable field value is not enough when its signature also depends on the reply and section that carried it.

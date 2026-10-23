@@ -1,0 +1,220 @@
+[PATCH v2] www: do not obfuscate addresses in URLs - Eric Wong
+user/dev discussion of public-inbox itself
+help / color / mirror / code / Atom feed
+From: Eric Wong <e@80x24.org>
+To: Kyle Meyer <kyle@kyleam.com>
+Cc: meta@public-inbox.org
+Subject: [PATCH v2] www: do not obfuscate addresses in URLs
+Date: Sun, 11 Apr 2021 05:32:55 +0000	[thread overview]
+Message-ID: <20210411053255.GA9477@dcvr> (raw)
+In-Reply-To: <87wnt9or6t.fsf@kyleam.com>
+Kyle Meyer <kyle@kyleam.com> wrote:
+> | obfuscate   | run | wall |    usr |  sys |
+> |-------------+-----+------+--------+------|
+> | no          |   1 |   50 |  49.14 | 0.57 |
+> | no          |   2 |   49 |  47.76 | 0.58 |
+> |             |     |      |        |      |
+> | yes, master |   1 |   56 |  54.47 | 0.58 |
+> | yes, master |   2 |   55 |  54.24 | 0.58 |
+> |             |     |      |        |      |
+> | yes, patch  |   1 |  175 | 174.71 | 0.52 |
+> | yes, patch  |   2 |  176 | 174.33 | 0.56 |
+Wow, that's horribly slow.  Probably not pathological, but still
+bad.  The following might be slightly faster (or roughly the
+same, hard to tell due to system noise).
+-------------8<------------
+Subject: [PATCH] www: do not obfuscate addresses in URLs
+As they are likely Message-IDs.   If an email address ends up in
+a URL, then it's likely public, so there's even less reason to
+obfuscate that particular address.
+[km: add xt/perf-obfuscate.t]
+[ew: modernize perf test (5.10.1), use diag instead of print]
+This version of the patch the massive slowdown noted by Kyle in
+<https://public-inbox.org/meta/87wnt9or6t.fsf@kyleam.com/>.
+Performance remains roughly the same, if not slightly faster
+(which may be due to me testing this on a busy server).  Results
+from xt/perf-obfuscate.t against 6078 messages on a local mirror
+of <https://public-inbox.org/meta/>:
+before: 6.67 usr + 0.04 sys = 6.71 CPU
+after: 6.64 usr + 0.04 sys = 6.68 CPU
+Reported-by: Kyle Meyer <kyle@kyleam.com>
+Helped-by: Kyle Meyer <kyle@kyleam.com>
+Link: https://public-inbox.org/meta/87a6q8p5qa.fsf@kyleam.com/
+---
+MANIFEST                |  1 +
+lib/PublicInbox/Hval.pm | 21 +++++++++-----
+t/hval.t                |  4 +++
+xt/perf-obfuscate.t     | 64 +++++++++++++++++++++++++++++++++++++++++
+4 files changed, 83 insertions(+), 7 deletions(-)
+create mode 100644 xt/perf-obfuscate.t
+diff --git a/MANIFEST b/MANIFEST
+index b663c2a2..12247ad2 100644
+--- a/MANIFEST
++++ b/MANIFEST
+@@ -504,6 +504,7 @@ xt/net_writer-imap.t
+xt/nntpd-validate.t
+xt/perf-msgview.t
+xt/perf-nntpd.t
++xt/perf-obfuscate.t
+xt/perf-threading.t
+xt/solver.t
+xt/stress-sharedkv.t
+diff --git a/lib/PublicInbox/Hval.pm b/lib/PublicInbox/Hval.pm
+index d20f70ae..eab4738e 100644
+--- a/lib/PublicInbox/Hval.pm
++++ b/lib/PublicInbox/Hval.pm
+@@ -82,15 +82,22 @@ sub obfuscate_addrs ($$;$) {
+my $repl = $_[2] // '&#8226;';
+my $re = $ibx->{-no_obfuscate_re}; # regex of domains
+my $addrs = $ibx->{-no_obfuscate}; # { $address => 1 }
+-	$_[1] =~ s/(([\w\.\+=\-]+)\@([\w\-]+\.[\w\.\-]+))/
+-		my ($addr, $user, $domain) = ($1, $2, $3);
+-		if ($addrs->{$addr} || ((defined $re && $domain =~ $re))) {
+-			$addr;
++	$_[1] =~ s#(\S+)\@([\w\-]+\.[\w\.\-]+)#
++		my ($pfx, $domain) = ($1, $2);
++		if (index($pfx, '://') > 0 || $pfx !~ s/([\w\.\+=\-]+)\z//) {
++			"$pfx\@$domain";
+} else {
+-			$domain =~ s!([^\.]+)\.!$1$repl!;
+-			$user . '@' . $domain
++			my $user = $1;
++			my $addr = "$user\@$domain";
++			if ($addrs->{$addr} || ((defined($re) &&
++						$domain =~ $re))) {
++				$pfx.$addr;
++			} else {
++				$domain =~ s!([^\.]+)\.!$1$repl!;
++				$pfx . $user . '@' . $domain
++			}
+}
+-		/sge;
++		#sge;
+}
+# like format_sanitized_subject in git.git pretty.c with '%f' format string
+diff --git a/t/hval.t b/t/hval.t
+index 9d0dab7a..5afc2052 100644
+--- a/t/hval.t
++++ b/t/hval.t
+@@ -47,6 +47,10 @@ EOF
+is($html, $exp, 'only obfuscated relevant addresses');
++$exp = 'https://example.net/foo@example.net';
++PublicInbox::Hval::obfuscate_addrs($ibx, my $res = $exp);
++is($res, $exp, 'does not obfuscate URL with Message-ID');
++
+is(PublicInbox::Hval::to_filename('foo bar  '), 'foo-bar',
+'to_filename has no trailing -');
+diff --git a/xt/perf-obfuscate.t b/xt/perf-obfuscate.t
+new file mode 100644
+index 00000000..d4e7fb99
+--- /dev/null
++++ b/xt/perf-obfuscate.t
+@@ -0,0 +1,64 @@
++#!perl -w
++# Copyright (C) 2021 all contributors <meta@public-inbox.org>
++# License: AGPL-3.0+ <https://www.gnu.org/licenses/agpl-3.0.txt>
++use strict;
++use v5.10.1;
++use PublicInbox::TestCommon;
++use Benchmark qw(:all);
++use PublicInbox::Inbox;
++use PublicInbox::View;
++
++my $inboxdir = $ENV{GIANT_INBOX_DIR};
++plan skip_all => "GIANT_INBOX_DIR not defined for $0" unless $inboxdir;
++
++my $obfuscate = $ENV{PI_OBFUSCATE} ? 1 : 0;
++diag "obfuscate=$obfuscate\n";
++
++my @cat = qw(cat-file --buffer --batch-check --batch-all-objects);
++if (require_git(2.19, 1)) {
++	push @cat, '--unordered';
++} else {
++	warn
++"git <2.19, cat-file lacks --unordered, locality suffers\n";
++}
++require_mods qw(Plack::Util);
++use_ok 'Plack::Util';
++my $ibx = PublicInbox::Inbox->new({ inboxdir => $inboxdir, name => 'name' ,
++				    obfuscate => $obfuscate});
++my $git = $ibx->git;
++my $fh = $git->popen(@cat);
++my $vec = '';
++vec($vec, fileno($fh), 1) = 1;
++select($vec, undef, undef, 60) or die "timed out waiting for --batch-check";
++
++my $ctx = {
++	env => { HTTP_HOST => 'example.com', 'psgi.url_scheme' => 'https' },
++	ibx => $ibx,
++	www => Plack::Util::inline_object(style => sub {''}),
++};
++my ($mime, $res, $oid, $type);
++my $n = 0;
++my $obuf = '';
++my $m = 0;
++
++my $cb = sub {
++	$mime = PublicInbox::Eml->new(shift);
++	PublicInbox::View::multipart_text_as_html($mime, $ctx);
++	++$m;
++	$obuf = '';
++};
++
++my $t = timeit(1, sub {
++	$ctx->{obuf} = \$obuf;
++	$ctx->{mhref} = '../';
++	while (<$fh>) {
++		($oid, $type) = split / /;
++		next if $type ne 'blob';
++		++$n;
++		$git->cat_async($oid, $cb);
++	}
++	$git->cat_async_wait;
++});
++diag 'multipart_text_as_html took '.timestr($t)." for $n <=> $m messages";
++is($m, $n, 'rendered all messages');
++done_testing();
+next prev parent reply	other threads:[~2021-04-11  5:32 UTC|newest]
+Thread overview: 10+ messages / expand[flat|nested]  mbox.gz  Atom feed  top
+2021-04-09  2:11 archive links broken with obfuscate=true Kyle Meyer
+2021-04-09 10:21 ` Eric Wong
+2021-04-09 22:45   ` Kyle Meyer
+2021-04-09 23:37     ` Eric Wong
+2021-04-10  4:06       ` Kyle Meyer
+2021-04-10  5:15         ` Eric Wong
+2021-04-10 19:49           ` Kyle Meyer
+2021-04-11  5:32             ` Eric Wong [this message]
+2021-04-11  5:34               ` [PATCH v2] www: do not obfuscate addresses in URLs Eric Wong
+2021-04-11 14:45               ` Kyle Meyer
+find likely ancestor, descendant, or conflicting patches for this message:
+( dfblob:b663c2a dfblob:12247ad dfblob:d20f70a dfblob:eab4738
+dfblob:9d0dab7 dfblob:5afc205 dfblob:d4e7fb9 )
+OR (
+bs:"www: do not obfuscate addresses in URLs" )
+(help)
+Reply instructions:
+You may reply publicly to this message via plain-text email
+using any one of the following methods:
+* Save the following mbox file, import it into your mail client,
+and reply-to-all from there: mbox
+Avoid top-posting and favor interleaved quoting:
+https://en.wikipedia.org/wiki/Posting_style#Interleaved_style
+List information: https://public-inbox.org/README
+* Reply using the --to, --cc, and --in-reply-to
+switches of git-send-email(1):
+git send-email \
+--in-reply-to=20210411053255.GA9477@dcvr \
+--to=e@80x24.org \
+--cc=kyle@kyleam.com \
+--cc=meta@public-inbox.org \
+/path/to/YOUR_REPLY
+https://kernel.org/pub/software/scm/git/docs/git-send-email.html
+* If your mail client supports setting the In-Reply-To header
+via mailto: links, try the mailto: link
+Be sure your reply has a Subject: header at the top and a blank line
+before the message body.
+Code repositories for project(s) associated with this public inbox
+https://80x24.org/public-inbox.git
+This is a public inbox, see mirroring instructions
+for how to clone and mirror all data and code used for this inbox;
+as well as URLs for read-only IMAP folder(s) and NNTP newsgroup(s).

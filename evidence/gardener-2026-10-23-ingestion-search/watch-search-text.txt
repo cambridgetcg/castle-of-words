@@ -1,0 +1,95 @@
+"yhetil.org" "public-inbox-watch" - Brave Search
+Ask
+All
+Images
+News
+Videos
+Maps
+Goggles
+search operators  were not applied
+Too few matches were found
+Yhetil
+yhetil.org › emacs-devel  › _  › text  › help
+public-inbox help for https://yhetil.org/emacs-devel/
+Thus, it is possible to retrieve any message by its Message-ID by going to: https://yhetil.org/emacs-devel/<Message-ID>/ (without the '<' or '>') Message-IDs are described at: https://en.wikipedia.org/wiki/Message-ID search ------ This public-inbox has search functionality provided by Xapian.
+Yhetil
+yhetil.org
+unofficially hosted mirrors at yhetil.org
+unofficially hosted mirrors at yhetil.org These archives are created with public-inbox (<https://public-inbox.org/README>).
+Yhetil
+yhetil.org › meta
+unofficial mirror of meta@public-inbox.org
+v2.x release [PATCH] lei: C++ ... 22:20 UTC (3+ messages) ` [PATCH] www: fix cross-inbox scan errors using extindex · page: next (older) - recent:[subjects (threaded)|topics (new)|topics (active)] This is a public inbox, see mirroring instructions for how to clone and ...
+Yhetil
+yhetil.org › guix-patches  › _  › text  › mirror
+public-inbox mirroring instructions
+public-inbox mirroring instructions This public inbox may be cloned and mirrored by anyone: git clone --mirror https://yhetil.org/guix-patches/1 guix-patches/git/1.git # If you have public-inbox 1.1+ installed, you may # initialize and index your mirror using the following commands: ...
+Public-inbox
+public-inbox.org › public-inbox-watch.html
+public-inbox-watch - mailbox watcher for public-inbox
+ENVIRONMENT PI_CONFIG config file. default: ~/.public-inbox/config See public-inbox-config(5) PERL_INLINE_DIRECTORY This may affect any public-inbox processes, but is intended for long-lived ones such as "public-inbox-watch" or network daemons. See public-inbox-daemon(8). CONTACT Feedback welcome via plain-text mail to <mailto:meta@public-inbox.org> The mail archives are hosted at <https://public-inbox.org/meta/> and <http://4uok3hntl7oi7b4uf4rtfwefqeexfzil2w6kgk2jn5z2f764irre7byd.onion/meta/> COPYRIGHT Copyright all contributors <mailto:meta@public-inbox.org> License: AGPL-3.0+ <https://www.gnu.org/licenses/agpl-3.0.txt> SEE ALSO public-inbox-config(5) public-inbox.git 1993-10-02 PUBLIC-INBOX-WATCH(1)
+Yhetil
+yhetil.org › orgmode  › _  › text  › help
+public-inbox help for https://yhetil.org/orgmode/
+Thus, it is possible to retrieve any message by its Message-ID by going to: https://yhetil.org/orgmode/<Message-ID>/ (without the '<' or '>') Message-IDs are described at: https://en.wikipedia.org/wiki/Message-ID search ------ This public-inbox has search functionality provided by Xapian.
+GNU
+lists.gnu.org › r  › emacs-orgmode  › 2020-05  › msg00439.html
+Re: yhetil.org/orgmode now supports searching by Gmane ID
+> I've recently generated Gmane ID to Message-ID mappings and hooked them > up to public-inbox's altid feature. The end result is that you can now > use the "gmane:" prefix to search by the Gmane ID: > > https://yhetil.org/orgmode/?q=gmane:112052 That's very useful too.
+Yhetil
+yhetil.org › meta  › 20211021211032.22666-12-e@80x24.org  › T
+[PATCH 00/15] use RENAME_NOREPLACE on Linux 3.15+
+2021-10-21 21:10 ` [PATCH 07/15] lei_search: try harder to associate "lei index"-ed messages Eric Wong @ 2021-10-21 21:10 ` Eric Wong 2021-10-21 21:10 ` [PATCH 09/15] watch: remove redundant signal mask manipulation Eric Wong ` (6 subsequent siblings) 14 siblings, 0 replies; 17+ messages in thread From: Eric Wong @ 2021-10-21 21:10 UTC (permalink / raw) To: meta This may make it less likely for watch-dependent tests to get stuck. Unfortunately, due to the synchronous API of Mail::IMAPClient, ->idle is still susceptible to missing signals. --- lib/PublicInbox/Watch.pm | 1 + 1 file changed, 1 in
+GNU
+lists.gnu.org › archive  › html  › help-guix  › 2025-02  › msg00153.html
+Re: ownership of the yhetil.org service ?
+One of the benefits of public-inbox is that it makes it easy for people to mirror [*]. I would be glad to see other people publish mirrors, but at the very least people could privately keep a fairly up-to-date clone of the underlying repos so that they could get something up again if yhetil.org disappears.
+The Mail Archive
+mail-archive.com › guix-devel@gnu.org  › msg72094.html
+Re: Search alerts and Watch issue on mumi
+> Hi all, > > mumi has two exciting new features—search alerts and watch issue. Now, > you can subscribe to any issue or search query using your feed reader. Love it. Really. Thanks a lot for all those improvements to mumi, which is getting more and more useful with time. > # Search alerts from public inbox > > I recently found out that public inbox has similar search alert feeds. Each has its benefits and drawbacks. As for searches, for example, we have: https://issues.guix.gnu.org/help#search https://yhetil.org/guix-patches/_/text/help which are kind of complementary.
+Find elsewhere
+Google Bing Mojeek
+Ubuntu
+manpages.ubuntu.com   › resolute  › man(1)
+Ubuntu Manpage: public-inbox-watch - mailbox watcher for public-inbox
+A location to watch. public-inbox 1.5.0 and earlier only supported "maildir:" paths:
+Debian Manpages
+manpages.debian.org   › testing  › public-inbox  › public-inbox-watch(1)
+public-inbox-watch(1) — public-inbox — Debian testing — Debian Manpages
+7 November 2022 - A location to watch. public-inbox 1.5.0 and earlier only supported "maildir:" paths:
+ManKier
+mankier.com   › home  › public-inbox
+public-inbox-watch: mailbox watcher for public-inbox | Man Page | Commands | public-inbox | ManKier
+Messages without the (S)een flag are not considered for hiding. This hiding affects all configured public-inboxes in PI_CONFIG. As with publicinbox.$NAME.watch, imap:// and imaps:// URLs are supported in public-inbox 1.6.0+.
+Public-inbox
+public-inbox.org › NEWS.html
+public-inbox releases
+See https://public-inbox.org/TODO for what the future holds. ^ permalink raw reply · * [ANNOUNCE] public-inbox 1.9.0 From: Eric Wong @ 2022-08-21 2:36 UTC (permalink / raw) To: meta Upgrading: lei users need to "lei daemon-kill" after installation to load new code. Normal daemons (read-only, and public-inbox-watch) will also need restarts, of course, but there's no backwards-incompatible data format changes so rolling back to older versions is harmless.
+Ubuntu
+manpages.ubuntu.com   › questing  › man(7)
+Ubuntu Manpage: public-inbox-overview - an overview of public-inbox
+Running public-inbox-index(1) to create search indices is recommended. public-inbox-watch(1) will automatically maintain the indices if they were created by public-inbox-index(1)
+Public-inbox
+public-inbox.org › public-inbox-config.html
+public-inbox-config - public-inbox config file description
+Default: none, optional publicinbox.<name>.watch See public-inbox-watch(1) publicinbox.<name>.watchheader See public-inbox-watch(1) publicinbox.<name>.listid The rfc2919 <https://tools.ietf.org/html/rfc2919> header without angle brackets for public-inbox-mda(1) deliveries and public-inbox-watch(1).
+Orgmode
+list.orgmode.org › orgmode  › 87h7xare6d.fsf@kyleam.com
+Re: yhetil.org/orgmode now supports searching by Gmane ID - Kyle Meyer
+Reply instructions: You may reply ... https://kernel.org/pub/software/scm/git/docs/git-send-email.html * If your mail client supports setting the In-Reply-To header via mailto: links, try the mailto: link Be sure your reply has a Subject: header at the top and a blank line before the message body. This is a public inbox, see mirroring ...
+Yhetil
+yhetil.org › guix-devel  › aHZffYtyh8fIoGuK@jurong
+Branches and other updates - Andreas Enge
+Reply instructions: You may reply ... https://kernel.org/pub/software/scm/git/docs/git-send-email.html * If your mail client supports setting the In-Reply-To header via mailto: links, try the mailto: link Be sure your reply has a Subject: header at the top and a blank line before the message body. This is a public inbox, see mirroring ...
+Public-inbox
+public-inbox.org › TODO
+TODO items for public-inbox (Not in any particular order, and
+support pipelining as an IMAP/NNTP client for -watch + lei · expose lei contents via read/write IMAP/JMAP server for personal use · git SHA-256 migration/coexistence path · decode RFC 3676 format=flowed + DelSp properly (see mflow (mblaze), mutt, ...) ActivityPub support https://public-inbox.org/meta/20240428175814.M304854@dcvr/ https://public-inbox.org/meta/20250327224143.M385019@dcvr/
+Next
+Resources
+Brave Search Premium Brave Search help Transparency report Report a security issue Status
+Products
+Brave Browser Brave Search Brave Wallet Brave Talk Brave Firewall + VPN Brave Playlist Brave News Brave Rewards Brave Search API Brave Ads
+Policies
+Privacy Policy Terms of Use

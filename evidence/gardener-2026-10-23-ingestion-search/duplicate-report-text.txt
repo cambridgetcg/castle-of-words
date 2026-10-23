@@ -1,0 +1,53 @@
+Re: [PATCH] scripts/dupe-finder: restore $dbh variable - Kyle Meyer
+user/dev discussion of public-inbox itself
+help / color / mirror / code / Atom feed
+From: Kyle Meyer <kyle@kyleam.com>
+To: Eric Wong <e@80x24.org>
+Cc: meta@public-inbox.org
+Subject: Re: [PATCH] scripts/dupe-finder: restore $dbh variable
+Date: Fri, 16 Oct 2020 01:02:37 -0400	[thread overview]
+Message-ID: <87y2k67ogi.fsf@kyleam.com> (raw)
+In-Reply-To: <20201016042325.GA61717@dcvr>
+Eric Wong writes:
+> Btw, is this tool something you find useful?  I'll consider
+> making it part of a local tool I'm brainstorming...
+I found it very helpful when I made a mistake with a custom filter I use
+to remove the footer at <https://yhetil.org/notmuch>.  The footer used
+by the list changed at some point.  I updated the filter and restarted
+-watch without thinking about what would happen with the messages that
+were already in the maildir.  (I keep messages around for ~10 days
+before deleting them.)  That led to a good number of duplicates.
+Aside from that, I've run it a few times over the inboxes at
+<https://yhetil.org>, and it's turned up a couple of hits.  So, I've
+found it useful, but in the hosting context.
+prev parent reply	other threads:[~2020-10-16  5:02 UTC|newest]
+Thread overview: 3+ messages / expand[flat|nested]  mbox.gz  Atom feed  top
+2020-10-16  2:08 [PATCH] scripts/dupe-finder: restore $dbh variable Kyle Meyer
+2020-10-16  4:23 ` Eric Wong
+2020-10-16  5:02   ` Kyle Meyer [this message]
+Reply instructions:
+You may reply publicly to this message via plain-text email
+using any one of the following methods:
+* Save the following mbox file, import it into your mail client,
+and reply-to-all from there: mbox
+Avoid top-posting and favor interleaved quoting:
+https://en.wikipedia.org/wiki/Posting_style#Interleaved_style
+List information: https://public-inbox.org/README
+* Reply using the --to, --cc, and --in-reply-to
+switches of git-send-email(1):
+git send-email \
+--in-reply-to=87y2k67ogi.fsf@kyleam.com \
+--to=kyle@kyleam.com \
+--cc=e@80x24.org \
+--cc=meta@public-inbox.org \
+/path/to/YOUR_REPLY
+https://kernel.org/pub/software/scm/git/docs/git-send-email.html
+* If your mail client supports setting the In-Reply-To header
+via mailto: links, try the mailto: link
+Be sure your reply has a Subject: header at the top and a blank line
+before the message body.
+Code repositories for project(s) associated with this public inbox
+https://80x24.org/public-inbox.git
+This is a public inbox, see mirroring instructions
+for how to clone and mirror all data and code used for this inbox;
+as well as URLs for read-only IMAP folder(s) and NNTP newsgroup(s).

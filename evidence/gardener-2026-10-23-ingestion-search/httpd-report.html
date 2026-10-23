@@ -1,0 +1,205 @@
+<html><head><title>Re: httpd error: Can&#39;t locate object method &#34;event_step&#34; - Kyle Meyer</title><link
+rel=alternate
+title="Atom feed"
+href="../new.atom"
+type="application/atom+xml"/><style>@import url("../216light.css?69d631d8") screen AND (prefers-color-scheme:light);*{overflow-wrap:anywhere;font-size:100%;font-family:monospace}</style><link
+type=text/css
+rel=stylesheet
+href=../216dark.css?69d631d8
+media=screen /><link
+type=text/css
+rel=stylesheet
+href=../216light.css?69d631d8
+media=print /></head><body><form
+action="../"><pre><a
+href="../?t=20251014050401"><b>user/dev discussion of public-inbox itself</b></a>
+<input
+name=q
+type=text /><input
+type=submit
+value=search /> <a
+href="../_/text/help/">help</a> / <a
+href="../_/text/color/">color</a> / <a
+id=mirror
+href="../_/text/mirror/">mirror</a> / <a
+href=#code>code</a> / <a
+href="../new.atom">Atom feed</a></pre></form><pre
+id=b>From: Kyle Meyer &lt;kyle@kyleam.com&gt;
+To: Eric Wong &lt;e@80x24.org&gt;
+Cc: <a
+href="https://public-inbox.org/meta/?t=20251014050401">meta@public-inbox.org</a>
+Subject: <a
+href="#r"
+id=t>Re: httpd error: Can&#39;t locate object method &#34;event_step&#34;</a>
+Date: Tue, 14 Oct 2025 01:03:34 -0400	<a
+href="#r">[thread overview]</a>
+Message-ID: &lt;871pn6vzvd.fsf@kyleam.com&gt; (<a href="raw">raw</a>)
+In-Reply-To: &lt;<a
+href="../20251013220626.M169806@dcvr/">20251013220626.M169806@dcvr</a>&gt;
+
+Eric Wong writes:
+
+<span
+class="q">&gt; That&#39;s scary, I can&#39;t remember ever seeing it..  Any idea what
+&gt; request(s) were happening when it hit that?
+</span>
+Soon after starting public-inbox-httpd, I start to see the error message
+fairly frequently.  For example, after starting it around 21:06:
+
+  $ journalctl -S &#39;2025-10-13 21:06:50&#39; | grep event_step | head -n1
+  Oct 13 21:08:56 ... public-inbox-httpd[3307242]: E: Can&#39;t locate object method &#34;event_step&#34; [...]
+
+  $ sudo journalctl -S &#39;2025-10-13 21:06:50 | grep event_step | cut -d&#39; &#39; -f1-3
+  Oct 13 21:08:56
+  Oct 13 21:16:39
+  Oct 13 21:17:29
+  Oct 13 21:21:09
+  Oct 13 21:21:14
+  Oct 13 21:21:27
+  Oct 13 21:22:15
+  Oct 13 21:28:21
+  Oct 13 21:31:46
+  Oct 13 21:32:24
+  Oct 13 21:33:22
+  Oct 13 21:35:31
+  Oct 13 21:36:28
+  Oct 13 21:39:36
+  Oct 13 21:42:27
+
+(I downgraded back to the known good version at 21:43:47.)
+
+Looking through timestamp-matched requests, most are for the orgmode
+inbox (&lt;<a
+href="https://yhetil.org/orgmode/">https://yhetil.org/orgmode/</a>&gt;).
+
+In hopes of reproducing locally, I replicated that inbox on another
+machine, trimmed down the config, and created a fresh index.  Here&#39;s the
+entire test config:
+
+  [publicinbox &#34;orgmode&#34;]
+          address = emacs-orgmode@gnu.org
+          inboxdir = /tmp/event-step/orgmode
+          url = <a
+href="https://yhetil.org/orgmode/">https://yhetil.org/orgmode/</a>
+
+Next I tried some of the requests.  For nearly all of the timestamps,
+there is more than one request.  I haven&#39;t gone through each one, but I
+have been able to trigger the issue with the cloned inbox.
+
+  $ public-inbox-httpd
+  Changing use VERSION while another use VERSION is in scope is deprecated, and will become fatal in Perl 5.44 at [...]/lib/PublicInbox/Git.pm line 675.
+  # bound <a
+href="http://0.0.0.0:8080">http://0.0.0.0:8080</a>
+  ignoring SIGWINCH since we are not daemonized
+  ignoring SIGWINCH since we are not daemonized
+  E: Can&#39;t locate object method &#34;event_step&#34; via package &#34;PublicInbox::WwwStream&#34; at [...]/lib/PublicInbox/DS.pm line 144
+
+Each case I&#39;ve triggered so far is for a _message ID that&#39;s not found_.
+Here are three examples:
+
+  /orgmode/F1BFD612-B50C-4247-8261-1058352CF0E4@gmail.com
+  /orgmode/4491f83ee44f16bef3ac15d74cb7504b@science.uva.nl
+  /orgmode/200805161527.m4GFRMGN010370@dog.comp.uvic.ca
+
+For those three cases, I&#39;ve verified that the message ID shows up only
+in References and In-Reply-To headers but not a Message-ID header.
+
+<span
+class="q">&gt;&gt; I first saw this message when I updated from 46ebb613 (2025-05-09) to
+&gt;&gt; df057976 (2025-05-15).
+&gt;
+&gt; Wow, that&#39;s a while ago; I struggle to remember anything more
+&gt; than a week ago :&lt;  Does it happen with latest?
+</span>
+Yes, I see the error message with a public-inbox installed from 8790c2ac
+(2025-10-12).  For the local reproducer described in this message, I was
+also running 8790c2ac.
+
+<span
+class="q">&gt; If you can match up timestamps w/ access logs that&#39;d be helpful
+</span>
+Please let me know if the details above help to narrow it down.
+
+I&#39;m happy to try to make a smaller and more isolated reproducer, though
+I&#39;m out of time to work on that tonight.
+
+Thanks
+</pre><hr><pre><a
+href="../877bwva3s4.fsf@kyleam.com/"
+rel=next>next</a> <a
+href="../20251013220626.M169806@dcvr/"
+rel=prev>prev parent</a> <a
+href="#R">reply</a><a id=related>	</a>other threads:[<a
+href="../?t=20251014050401">~2025-10-14  5:04 UTC</a>|<a
+href="../">newest</a>]
+
+<b>Thread overview: </b>8+ messages / expand[<a
+href="T/#u">flat</a>|<a
+href="t/#u">nested</a>]  <a
+href="t.mbox.gz">mbox.gz</a>  <a
+href="t.atom">Atom feed</a>  <a
+href="#b">top</a>
+2025-10-13 21:41 <a
+href="../878qhewkbn.fsf@kyleam.com/">httpd error: Can&#39;t locate object method &#34;event_step&#34;</a> Kyle Meyer
+2025-10-13 22:06 ` <a
+href="../20251013220626.M169806@dcvr/">Eric Wong</a>
+<b>2025-10-14  5:03   ` <a
+id=r
+href="#t">Kyle Meyer [this message]</a></b>
+2025-10-16  4:06     ` <a
+href="../877bwva3s4.fsf@kyleam.com/">Kyle Meyer</a>
+2025-10-16  8:37       ` <a
+href="../20251016083704.M241647@dcvr/">Eric Wong</a>
+2025-10-20 19:31         ` <a
+href="../20251020193141.M515023@dcvr/">Eric Wong</a>
+2025-10-21  3:03           ` <a
+href="../20251021030346.M346444@dcvr/">[PATCH] extmsg: fix Message-ID search for non-xap_helper users</a> Eric Wong
+2025-10-21  3:39             ` <a
+href="../87zf9kylbt.fsf@kyleam.com/">Kyle Meyer</a>
+</pre><hr><pre
+id=R><b>Reply instructions:</b>
+
+You may reply publicly to <a
+href=#t>this message</a> via plain-text email
+using any one of the following methods:
+
+* Save the following mbox file, import it into your mail client,
+  and reply-to-all from there: <a
+href=raw>mbox</a>
+
+  Avoid top-posting and favor interleaved quoting:
+  <a
+href="https://en.wikipedia.org/wiki/Posting_style#Interleaved_style">https://en.wikipedia.org/wiki/Posting_style#Interleaved_style</a>
+
+  List information: <a
+href="https://public-inbox.org/README">https://public-inbox.org/README</a>
+
+* Reply using the <b>--to</b>, <b>--cc</b>, and <b>--in-reply-to</b>
+  switches of git-send-email(1):
+
+  git send-email \
+    --in-reply-to=871pn6vzvd.fsf@kyleam.com \
+    --to=kyle@kyleam.com \
+    --cc=e@80x24.org \
+    --cc=meta@public-inbox.org \
+    /path/to/YOUR_REPLY
+
+  <a
+href="https://kernel.org/pub/software/scm/git/docs/git-send-email.html">https://kernel.org/pub/software/scm/git/docs/git-send-email.html</a>
+
+* If your mail client supports setting the <b>In-Reply-To</b> header
+  via mailto: links, try the <a
+href="mailto:kyle@kyleam.com?In-Reply-To=%3C871pn6vzvd.fsf@kyleam.com%3E&#38;Cc=e%4080x24.org%2Cmeta%40public-inbox.org&#38;Subject=Re%3A%20httpd%20error%3A%20Can%27t%20locate%20object%20method%20%22event_step%22">mailto: link</a>
+</pre>
+
+  Be sure your reply has a <b>Subject:</b> header at the top and a blank line
+  before the message body.
+<hr><pre><a id=code>Code repositories for project(s) associated with this public inbox
+
+	<a
+href="https://80x24.org/public-inbox.git">https://80x24.org/public-inbox.git</a>
+
+This is a public inbox, see <a
+href="../_/text/mirror/">mirroring instructions</a>
+for how to clone and mirror all data and code used for this inbox;
+as well as URLs for read-only IMAP folder(s) and NNTP newsgroup(s).</pre></body></html>

@@ -31,6 +31,7 @@ The spirit of the building, filed from the courtyard:
 Three more bricks, then: [[joy]] is why we build, [[peace]] is how we build, [[safety]] is the promise that building never becomes breaking. The first stones said what the castle is made of; these say in what spirit the making happens.
 
 Links:
+- [saving-a-live-database](saving-a-live-database.md) tests the founding pruning rule against SQLite's sidecar log: the page beside the book may still hold accepted work, so a tidier shelf need not be a whole one.
 - [checking-a-restored-map](checking-a-restored-map.md) gives the founding deletion rule a concrete test: sound tables do not by themselves prove that the old message numbers still take readers home.
 
 [the-castle](the-castle.md) (the room that gathers what the castle is and how it grows — the founding words this room holds are its first stones), [loops](loops.md), [meaning-between-minds](meaning-between-minds.md), [simple-explanations](simple-explanations.md), [beauty-as-fluency](beauty-as-fluency.md)

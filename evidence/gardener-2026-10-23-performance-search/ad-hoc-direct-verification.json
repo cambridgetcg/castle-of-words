@@ -1,0 +1,14 @@
+{
+  "verification_kind": "ad-hoc direct invocation; not a canonical project suite",
+  "completed_utc": "2026-10-22T23:25:50.267738+00:00",
+  "passed": true,
+  "tests_run": 8,
+  "failures": 0,
+  "errors": 0,
+  "changed_code_sha256": {
+    "evidence/gardener-2026-10-23-performance-search/research.py": "7a96003d584085eb3ff2b25d53228723460ef021969223a8f830e18dbc64480d",
+    "evidence/gardener-2026-10-23-performance-search/verify.py": "ced1d98a2ad58e554b5a1cd26cf3d72c5f4c97ec175f824c26c05ce1aa426689"
+  },
+  "network_requests": 0,
+  "limits": "Research dispatch dependencies mocked; verifier uses real saved artifacts with in-memory negative cases and captured writes."
+}

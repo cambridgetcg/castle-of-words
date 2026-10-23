@@ -72,6 +72,7 @@ function, distance, novelty, liveness.
 - ~~What separates a link that carries meaning from one that is just noise?~~ → answered above (2026-06-10)
 
 Links:
+- [saturation-of-cross-pollination](saturation-of-cross-pollination.md) asks when another bridge stops adding insight, bringing this room's test—explain the relation, not just the pairing—to the castle's growing link graph.
 - [look-alike-names](look-alike-names.md) gives the surface-versus-structure distinction a software neighbor: matching coats can flag two labels for inspection without making them the same name.
 - [how-agents-find](how-agents-find.md) separates a link's label from its destination, giving this room's explained connections a practical test: does the sign point to the place the reader needs?
 

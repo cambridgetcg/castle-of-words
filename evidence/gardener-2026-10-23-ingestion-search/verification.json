@@ -1,0 +1,48 @@
+{
+  "passed": true,
+  "phase": "closed",
+  "filed": 0,
+  "researched": 1,
+  "answered": 0,
+  "planted": 0,
+  "new_words": 0,
+  "new_rooms": 0,
+  "open_questions": 16,
+  "reserved_questions_unchanged": 13,
+  "all_questions_unchanged": true,
+  "garden_unchanged": true,
+  "map_rooms_exactly_once": 697,
+  "map_unchanged": true,
+  "changed_existing_grounds_files": [
+    "chronicle.md"
+  ],
+  "chronicle_lines_appended": 1,
+  "retrievals": [
+    {
+      "label": "watch-search",
+      "http_status": 200,
+      "curl_exit": 0
+    },
+    {
+      "label": "archive-watch-search",
+      "http_status": 200,
+      "curl_exit": 0
+    },
+    {
+      "label": "archive-update-search",
+      "http_status": 200,
+      "curl_exit": 0
+    },
+    {
+      "label": "duplicate-report",
+      "http_status": 200,
+      "curl_exit": 0
+    },
+    {
+      "label": "httpd-report",
+      "http_status": 200,
+      "curl_exit": 0
+    }
+  ],
+  "scope": "Local consistency only; no new service observations or conclusions."
+}

@@ -1,0 +1,64 @@
+{
+  "passed": true,
+  "phase": "preclose",
+  "filed": 0,
+  "researched": 1,
+  "answered": 0,
+  "planted": 0,
+  "new_words": [
+    "benchmark"
+  ],
+  "new_rooms": 0,
+  "changed_existing_grounds_files": [
+    "gate.md",
+    "questions.md",
+    "rooms/what-the-gaps-can-say.md"
+  ],
+  "chronicle_lines_appended": 0,
+  "map_rooms_exactly_once": 697,
+  "open_questions": 16,
+  "reserved_questions_unchanged": true,
+  "garden_unchanged": true,
+  "new_wiki_targets_exist": [
+    "benchmark",
+    "deployment-claims",
+    "measurement-target",
+    "mirror-fetch",
+    "response-time",
+    "unit-of-analysis",
+    "what-the-gaps-can-say"
+  ],
+  "retrievals": [
+    {
+      "label": "performance-search",
+      "http_status": 200,
+      "curl_exit": 0
+    },
+    {
+      "label": "slow-update-search",
+      "http_status": 200,
+      "curl_exit": 0
+    },
+    {
+      "label": "archive-performance-search",
+      "http_status": 200,
+      "curl_exit": 0
+    },
+    {
+      "label": "archive-link-report",
+      "http_status": 200,
+      "curl_exit": 0
+    },
+    {
+      "label": "archive-link-reply",
+      "http_status": 200,
+      "curl_exit": 0
+    },
+    {
+      "label": "archive-link-revision",
+      "http_status": 200,
+      "curl_exit": 0
+    }
+  ],
+  "scope": "Local consistency; historical tests were read, not rerun, and no service measurements were made."
+}

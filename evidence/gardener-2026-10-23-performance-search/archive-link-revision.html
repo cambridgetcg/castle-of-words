@@ -1,0 +1,356 @@
+<html><head><title>[PATCH v2] www: do not obfuscate addresses in URLs - Eric Wong</title><link
+rel=alternate
+title="Atom feed"
+href="../new.atom"
+type="application/atom+xml"/><style>@import url("../216light.css?69d631d8") screen AND (prefers-color-scheme:light);*{overflow-wrap:anywhere;font-size:100%;font-family:monospace}</style><link
+type=text/css
+rel=stylesheet
+href=../216dark.css?69d631d8
+media=screen /><link
+type=text/css
+rel=stylesheet
+media=print
+href=../216light.css?69d631d8 /></head><body><form
+action="../"><pre><a
+href="../?t=20210411053255"><b>user/dev discussion of public-inbox itself</b></a>
+<input
+name=q
+type=text /><input
+type=submit
+value=search /> <a
+href="../_/text/help/">help</a> / <a
+href="../_/text/color/">color</a> / <a
+id=mirror
+href="../_/text/mirror/">mirror</a> / <a
+href=#code>code</a> / <a
+href="../new.atom">Atom feed</a></pre></form><pre
+id=b>From: Eric Wong &lt;e@80x24.org&gt;
+To: Kyle Meyer &lt;kyle@kyleam.com&gt;
+Cc: <a
+href="https://public-inbox.org/meta/?t=20210411053255">meta@public-inbox.org</a>
+Subject: <a
+href="#r"
+id=t>[PATCH v2] www: do not obfuscate addresses in URLs</a>
+Date: Sun, 11 Apr 2021 05:32:55 +0000	<a
+href="#r">[thread overview]</a>
+Message-ID: &lt;20210411053255.GA9477@dcvr&gt; (<a href="raw">raw</a>)
+In-Reply-To: &lt;<a
+href="../87wnt9or6t.fsf@kyleam.com/">87wnt9or6t.fsf@kyleam.com</a>&gt;
+
+Kyle Meyer &lt;kyle@kyleam.com&gt; wrote:
+<span
+class="q">&gt; | obfuscate   | run | wall |    usr |  sys |
+&gt; |-------------+-----+------+--------+------|
+&gt; | no          |   1 |   50 |  49.14 | 0.57 |
+&gt; | no          |   2 |   49 |  47.76 | 0.58 |
+&gt; |             |     |      |        |      |
+&gt; | yes, master |   1 |   56 |  54.47 | 0.58 |
+&gt; | yes, master |   2 |   55 |  54.24 | 0.58 |
+&gt; |             |     |      |        |      |
+&gt; | yes, patch  |   1 |  175 | 174.71 | 0.52 |
+&gt; | yes, patch  |   2 |  176 | 174.33 | 0.56 |
+</span>
+Wow, that&#39;s horribly slow.  Probably not pathological, but still
+bad.  The following might be slightly faster (or roughly the
+same, hard to tell due to system noise).
+
+-------------8&lt;------------
+Subject: [PATCH] www: do not obfuscate addresses in URLs
+
+As they are likely Message-IDs.   If an email address ends up in
+a URL, then it&#39;s likely public, so there&#39;s even less reason to
+obfuscate that particular address.
+
+[km: add xt/perf-obfuscate.t]
+[ew: modernize perf test (5.10.1), use diag instead of print]
+
+This version of the patch the massive slowdown noted by Kyle in
+&lt;<a
+href="https://public-inbox.org/meta/87wnt9or6t.fsf@kyleam.com/">https://public-inbox.org/meta/87wnt9or6t.fsf@kyleam.com/</a>&gt;.
+Performance remains roughly the same, if not slightly faster
+(which may be due to me testing this on a busy server).  Results
+from xt/perf-obfuscate.t against 6078 messages on a local mirror
+of &lt;<a
+href="https://public-inbox.org/meta/">https://public-inbox.org/meta/</a>&gt;:
+
+	before: 6.67 usr + 0.04 sys = 6.71 CPU
+	 after: 6.64 usr + 0.04 sys = 6.68 CPU
+
+Reported-by: Kyle Meyer &lt;kyle@kyleam.com&gt;
+Helped-by: Kyle Meyer &lt;kyle@kyleam.com&gt;
+Link: <a
+href="https://public-inbox.org/meta/87a6q8p5qa.fsf@kyleam.com/">https://public-inbox.org/meta/87a6q8p5qa.fsf@kyleam.com/</a>
+---
+ <a
+id=iZ31MANIFEST
+href=#Z31MANIFEST>MANIFEST</a>                |  1 +
+ <a
+id=iZ31lib:PublicInbox:Hval.pm
+href=#Z31lib:PublicInbox:Hval.pm>lib/PublicInbox/Hval.pm</a> | 21 +++++++++-----
+ <a
+id=iZ31t:hval.t
+href=#Z31t:hval.t>t/hval.t</a>                |  4 +++
+ <a
+id=iZ31xt:perf-obfuscate.t
+href=#Z31xt:perf-obfuscate.t>xt/perf-obfuscate.t</a>     | 64 +++++++++++++++++++++++++++++++++++++++++
+ 4 files <a href="#related">changed</a>, 83 insertions(+), 7 deletions(-)
+ create mode 100644 xt/perf-obfuscate.t
+
+<span
+class="head"><a
+href=#iZ31MANIFEST
+id=Z31MANIFEST>diff</a> --git a/MANIFEST b/MANIFEST
+index b663c2a2..12247ad2 100644
+--- a/MANIFEST
++++ b/MANIFEST
+</span><span
+class="hunk">@@ <a
+href="../b663c2a2/s/?b=MANIFEST#n504">-504,6</a> <a
+href="../12247ad2/s/?b=MANIFEST#n504">+504,7</a> @@ xt/net_writer-imap.t
+</span> xt/nntpd-validate.t
+ xt/perf-msgview.t
+ xt/perf-nntpd.t
+<span
+class="add">+xt/perf-obfuscate.t
+</span> xt/perf-threading.t
+ xt/solver.t
+ xt/stress-sharedkv.t
+<span
+class="head"><a
+href=#iZ31lib:PublicInbox:Hval.pm
+id=Z31lib:PublicInbox:Hval.pm>diff</a> --git a/lib/PublicInbox/Hval.pm b/lib/PublicInbox/Hval.pm
+index d20f70ae..eab4738e 100644
+--- a/lib/PublicInbox/Hval.pm
++++ b/lib/PublicInbox/Hval.pm
+</span><span
+class="hunk">@@ <a
+href="../d20f70ae/s/?b=lib/PublicInbox/Hval.pm#n82">-82,15</a> <a
+href="../eab4738e/s/?b=lib/PublicInbox/Hval.pm#n82">+82,22</a> @@ sub obfuscate_addrs ($$;$) {
+</span> 	my $repl = $_[2] // &#39;&#38;#8226;&#39;;
+ 	my $re = $ibx-&gt;{-no_obfuscate_re}; # regex of domains
+ 	my $addrs = $ibx-&gt;{-no_obfuscate}; # { $address =&gt; 1 }
+<span
+class="del">-	$_[1] =~ s/(([\w\.\+=\-]+)\@([\w\-]+\.[\w\.\-]+))/
+-		my ($addr, $user, $domain) = ($1, $2, $3);
+-		if ($addrs-&gt;{$addr} || ((defined $re &#38;&#38; $domain =~ $re))) {
+-			$addr;
+</span><span
+class="add">+	$_[1] =~ s#(\S+)\@([\w\-]+\.[\w\.\-]+)#
++		my ($pfx, $domain) = ($1, $2);
++		if (index($pfx, &#39;://&#39;) &gt; 0 || $pfx !~ s/([\w\.\+=\-]+)\z//) {
++			&#34;$pfx\@$domain&#34;;
+</span> 		} else {
+<span
+class="del">-			$domain =~ s!([^\.]+)\.!$1$repl!;
+-			$user . &#39;@&#39; . $domain
+</span><span
+class="add">+			my $user = $1;
++			my $addr = &#34;$user\@$domain&#34;;
++			if ($addrs-&gt;{$addr} || ((defined($re) &#38;&#38;
++						$domain =~ $re))) {
++				$pfx.$addr;
++			} else {
++				$domain =~ s!([^\.]+)\.!$1$repl!;
++				$pfx . $user . &#39;@&#39; . $domain
++			}
+</span> 		}
+<span
+class="del">-		/sge;
+</span><span
+class="add">+		#sge;
+</span> }
+ 
+ # like format_sanitized_subject in git.git pretty.c with &#39;%f&#39; format string
+<span
+class="head"><a
+href=#iZ31t:hval.t
+id=Z31t:hval.t>diff</a> --git a/t/hval.t b/t/hval.t
+index 9d0dab7a..5afc2052 100644
+--- a/t/hval.t
++++ b/t/hval.t
+</span><span
+class="hunk">@@ <a
+href="../9d0dab7a/s/?b=t/hval.t#n47">-47,6</a> <a
+href="../5afc2052/s/?b=t/hval.t#n47">+47,10</a> @@ EOF
+</span> 
+ is($html, $exp, &#39;only obfuscated relevant addresses&#39;);
+ 
+<span
+class="add">+$exp = &#39;<a
+href="https://example.net/foo@example.net">https://example.net/foo@example.net</a>&#39;;
++PublicInbox::Hval::obfuscate_addrs($ibx, my $res = $exp);
++is($res, $exp, &#39;does not obfuscate URL with Message-ID&#39;);
++
+</span> is(PublicInbox::Hval::to_filename(&#39;foo bar  &#39;), &#39;foo-bar&#39;,
+ 	&#39;to_filename has no trailing -&#39;);
+ 
+<span
+class="head"><a
+href=#iZ31xt:perf-obfuscate.t
+id=Z31xt:perf-obfuscate.t>diff</a> --git a/xt/perf-obfuscate.t b/xt/perf-obfuscate.t
+new file mode 100644
+index 00000000..<a
+href="../d4e7fb99/s/?b=xt/perf-obfuscate.t">d4e7fb99</a>
+--- /dev/null
++++ b/xt/perf-obfuscate.t
+</span><span
+class="hunk">@@ -0,0 +1,64 @@
+</span><span
+class="add">+#!perl -w
++# Copyright (C) 2021 all contributors &lt;meta@public-inbox.org&gt;
++# License: AGPL-3.0+ &lt;<a
+href="https://www.gnu.org/licenses/agpl-3.0.txt">https://www.gnu.org/licenses/agpl-3.0.txt</a>&gt;
++use strict;
++use v5.10.1;
++use PublicInbox::TestCommon;
++use Benchmark qw(:all);
++use PublicInbox::Inbox;
++use PublicInbox::View;
++
++my $inboxdir = $ENV{GIANT_INBOX_DIR};
++plan skip_all =&gt; &#34;GIANT_INBOX_DIR not defined for $0&#34; unless $inboxdir;
++
++my $obfuscate = $ENV{PI_OBFUSCATE} ? 1 : 0;
++diag &#34;obfuscate=$obfuscate\n&#34;;
++
++my @cat = qw(cat-file --buffer --batch-check --batch-all-objects);
++if (require_git(2.19, 1)) {
++	push @cat, &#39;--unordered&#39;;
++} else {
++	warn
++&#34;git &lt;2.19, cat-file lacks --unordered, locality suffers\n&#34;;
++}
++require_mods qw(Plack::Util);
++use_ok &#39;Plack::Util&#39;;
++my $ibx = PublicInbox::Inbox-&gt;new({ inboxdir =&gt; $inboxdir, name =&gt; &#39;name&#39; ,
++				    obfuscate =&gt; $obfuscate});
++my $git = $ibx-&gt;git;
++my $fh = $git-&gt;popen(@cat);
++my $vec = &#39;&#39;;
++vec($vec, fileno($fh), 1) = 1;
++select($vec, undef, undef, 60) or die &#34;timed out waiting for --batch-check&#34;;
++
++my $ctx = {
++	env =&gt; { HTTP_HOST =&gt; &#39;example.com&#39;, &#39;psgi.url_scheme&#39; =&gt; &#39;https&#39; },
++	ibx =&gt; $ibx,
++	www =&gt; Plack::Util::inline_object(style =&gt; sub {&#39;&#39;}),
++};
++my ($mime, $res, $oid, $type);
++my $n = 0;
++my $obuf = &#39;&#39;;
++my $m = 0;
++
++my $cb = sub {
++	$mime = PublicInbox::Eml-&gt;new(shift);
++	PublicInbox::View::multipart_text_as_html($mime, $ctx);
++	++$m;
++	$obuf = &#39;&#39;;
++};
++
++my $t = timeit(1, sub {
++	$ctx-&gt;{obuf} = \$obuf;
++	$ctx-&gt;{mhref} = &#39;../&#39;;
++	while (&lt;$fh&gt;) {
++		($oid, $type) = split / /;
++		next if $type ne &#39;blob&#39;;
++		++$n;
++		$git-&gt;cat_async($oid, $cb);
++	}
++	$git-&gt;cat_async_wait;
++});
++diag &#39;multipart_text_as_html took &#39;.timestr($t).&#34; for $n &lt;=&gt; $m messages&#34;;
++is($m, $n, &#39;rendered all messages&#39;);
++done_testing();
+</span></pre><hr><pre><a
+href="../20210411053436.GA13063@dcvr/"
+rel=next>next</a> <a
+href="../87wnt9or6t.fsf@kyleam.com/"
+rel=prev>prev parent</a> <a
+href="#R">reply</a>	other threads:[<a
+href="../?t=20210411053255">~2021-04-11  5:32 UTC</a>|<a
+href="../">newest</a>]
+
+<b>Thread overview: </b>10+ messages / expand[<a
+href="T/#u">flat</a>|<a
+href="t/#u">nested</a>]  <a
+href="t.mbox.gz">mbox.gz</a>  <a
+href="t.atom">Atom feed</a>  <a
+href="#b">top</a>
+2021-04-09  2:11 <a
+href="../87a6q8p5qa.fsf@kyleam.com/">archive links broken with obfuscate=true</a> Kyle Meyer
+2021-04-09 10:21 ` <a
+href="../20210409102129.GA16787@dcvr/">Eric Wong</a>
+2021-04-09 22:45   ` <a
+href="../87zgy7rs9q.fsf@kyleam.com/">Kyle Meyer</a>
+2021-04-09 23:37     ` <a
+href="../20210409233700.GA11190@dcvr/">Eric Wong</a>
+2021-04-10  4:06       ` <a
+href="../87sg3ysrzu.fsf@kyleam.com/">Kyle Meyer</a>
+2021-04-10  5:15         ` <a
+href="../20210410051550.GA4654@dcvr/">Eric Wong</a>
+2021-04-10 19:49           ` <a
+href="../87wnt9or6t.fsf@kyleam.com/">Kyle Meyer</a>
+<b>2021-04-11  5:32             ` <a
+id=r
+href="#t">Eric Wong [this message]</a></b>
+2021-04-11  5:34               ` <a
+href="../20210411053436.GA13063@dcvr/">[PATCH v2] www: do not obfuscate addresses in URLs</a> Eric Wong
+2021-04-11 14:45               ` <a
+href="../877dl87udf.fsf@kyleam.com/">Kyle Meyer</a>
+</pre><form id=related
+action=../
+><pre>find likely ancestor, descendant, or conflicting patches for <a
+href=#t>this message</a>:
+<textarea name=q cols=72 rows=4>( dfblob:b663c2a dfblob:12247ad dfblob:d20f70a dfblob:eab4738
+dfblob:9d0dab7 dfblob:5afc205 dfblob:d4e7fb9 )
+ OR (
+bs:&#34;www: do not obfuscate addresses in URLs&#34; )</textarea>
+<input type=submit value=search
+/>	(<a href=../_/text/help/#search>help</a>)</pre></form>
+<hr><pre
+id=R><b>Reply instructions:</b>
+
+You may reply publicly to <a
+href=#t>this message</a> via plain-text email
+using any one of the following methods:
+
+* Save the following mbox file, import it into your mail client,
+  and reply-to-all from there: <a
+href=raw>mbox</a>
+
+  Avoid top-posting and favor interleaved quoting:
+  <a
+href="https://en.wikipedia.org/wiki/Posting_style#Interleaved_style">https://en.wikipedia.org/wiki/Posting_style#Interleaved_style</a>
+
+  List information: <a
+href="https://public-inbox.org/README">https://public-inbox.org/README</a>
+
+* Reply using the <b>--to</b>, <b>--cc</b>, and <b>--in-reply-to</b>
+  switches of git-send-email(1):
+
+  git send-email \
+    --in-reply-to=20210411053255.GA9477@dcvr \
+    --to=e@80x24.org \
+    --cc=kyle@kyleam.com \
+    --cc=meta@public-inbox.org \
+    /path/to/YOUR_REPLY
+
+  <a
+href="https://kernel.org/pub/software/scm/git/docs/git-send-email.html">https://kernel.org/pub/software/scm/git/docs/git-send-email.html</a>
+
+* If your mail client supports setting the <b>In-Reply-To</b> header
+  via mailto: links, try the <a
+href="mailto:e@80x24.org?In-Reply-To=%3C20210411053255.GA9477@dcvr%3E&#38;Cc=kyle%40kyleam.com%2Cmeta%40public-inbox.org&#38;Subject=Re%3A%20%5BPATCH%20v2%5D%20www%3A%20do%20not%20obfuscate%20addresses%20in%20URLs">mailto: link</a>
+</pre>
+
+  Be sure your reply has a <b>Subject:</b> header at the top and a blank line
+  before the message body.
+<hr><pre><a id=code>Code repositories for project(s) associated with this public inbox
+
+	<a
+href="https://80x24.org/public-inbox.git">https://80x24.org/public-inbox.git</a>
+
+This is a public inbox, see <a
+href="../_/text/mirror/">mirroring instructions</a>
+for how to clone and mirror all data and code used for this inbox;
+as well as URLs for read-only IMAP folder(s) and NNTP newsgroup(s).</pre></body></html>

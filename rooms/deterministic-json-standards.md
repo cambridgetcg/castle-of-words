@@ -40,6 +40,8 @@ The pattern is not standardized, but it is built on a standard (JCS). The castle
 - [[canonical-schema-literal]] — a field whose value is a deterministic JSON literal, not a parsed object
 - [[additive-schema]] — a schema that adds fields without removing or renaming existing ones
 
-## Links
+Links:
+
+- [checking-a-signed-reply](checking-a-signed-reply.md) shows why [[serialization]] must follow the particular contract: repeatable JSON bytes do not replace an HTTP signature's component and escaping rules.
 
 [[canonical-metadata]] · [canonicalization-and-verification](canonicalization-and-verification.md) (the same craft from the log side: the RFC 8785 JCS standard that makes the castle's `*_json` field checkable and the signed chain that is parsed only after every link verifies are the same move — both know a canonical form is the precondition of any proof that the bytes were not changed) · [[representation-audit]] · [[civic-data-honesty]] · [[the-law-of-honest-assertion]]

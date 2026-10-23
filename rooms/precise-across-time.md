@@ -106,6 +106,7 @@ and number-noise share one mechanism rather than merely rhyming.
 - [Everett, on Pirahã culture and number (reply to the dispute)](https://daneverettbooks.com/wp-content/uploads/2023/11/everett_09_Pirah-Culture-.pdf) · [Scientific American, Don't Count on It](https://www.scientificamerican.com/article/dont-count-on-it/)
 
 Links:
+- [comparing-saved-maps](comparing-saved-maps.md) adds a historical demand to the [[one-to-one-correspondence]] picture: giving every letter a number is not enough if yesterday's partners have changed.
 - [same-mail-same-numbers](same-mail-same-numbers.md) gives the discrete handle a practical analogue: returning all the letters does not return the readers' old paths unless their number-to-letter pairings survive too.
 - [conditional-writes](conditional-writes.md) gives the handle-and-pairing question a practical analogue: a version label must travel with the copy it describes, rather than stand in for unseen words.
 - [counting-the-shapes](counting-the-shapes.md) makes the label's trade visible in a table: `S` records that a reply met the chosen threshold, while the retained seconds show how long it took.

@@ -1,0 +1,23 @@
+"yhetil" "orgmode" "slow" - Brave Search
+Ask
+All
+Images
+News
+Videos
+Maps
+Goggles
+Query contains search operators
+Ignore operators
+Org Mode
+orgmode.org › worg  › org-faq.html
+Org-mode Frequently Asked Questions
+Since Org-mode is firmly committed to the ASCII format, nothing is stopping you from editing the table by hand. Therefore, there is no internal representation of the data. Each time Org-mode starts a computation, it must scan the table for special lines, find the fields etc. This is slow.
+Find elsewhere
+Google Bing Mojeek
+Next
+Resources
+Brave Search Premium Brave Search help Transparency report Report a security issue Status
+Products
+Brave Browser Brave Search Brave Wallet Brave Talk Brave Firewall + VPN Brave Playlist Brave News Brave Rewards Brave Search API Brave Ads
+Policies
+Privacy Policy Terms of Use

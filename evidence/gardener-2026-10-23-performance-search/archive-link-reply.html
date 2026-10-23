@@ -1,0 +1,222 @@
+<html><head><title>Re: archive links broken with obfuscate=true - Eric Wong</title><link
+rel=alternate
+title="Atom feed"
+href="../new.atom"
+type="application/atom+xml"/><style>@import url("../216light.css?69d631d8") screen AND (prefers-color-scheme:light);*{overflow-wrap:anywhere;font-size:100%;font-family:monospace}</style><link
+type=text/css
+rel=stylesheet
+href=../216dark.css?69d631d8
+media=screen /><link
+type=text/css
+rel=stylesheet
+media=print
+href=../216light.css?69d631d8 /></head><body><form
+action="../"><pre><a
+href="../?t=20210409102129"><b>user/dev discussion of public-inbox itself</b></a>
+<input
+name=q
+type=text /><input
+type=submit
+value=search /> <a
+href="../_/text/help/">help</a> / <a
+href="../_/text/color/">color</a> / <a
+id=mirror
+href="../_/text/mirror/">mirror</a> / <a
+href=#code>code</a> / <a
+href="../new.atom">Atom feed</a></pre></form><pre
+id=b>From: Eric Wong &lt;e@80x24.org&gt;
+To: Kyle Meyer &lt;kyle@kyleam.com&gt;
+Cc: <a
+href="https://public-inbox.org/meta/?t=20210409102129">meta@public-inbox.org</a>
+Subject: <a
+href="#r"
+id=t>Re: archive links broken with obfuscate=true</a>
+Date: Fri, 9 Apr 2021 10:21:29 +0000	<a
+href="#r">[thread overview]</a>
+Message-ID: &lt;20210409102129.GA16787@dcvr&gt; (<a href="raw">raw</a>)
+In-Reply-To: &lt;<a
+href="../87a6q8p5qa.fsf@kyleam.com/">87a6q8p5qa.fsf@kyleam.com</a>&gt;
+
+Kyle Meyer &lt;kyle@kyleam.com&gt; wrote:
+<span
+class="q">&gt; I&#39;ve been testing out obfuscate=true a bit (which won&#39;t be a surprise to
+&gt; Eric, given a private email that was sent to both of us).  One issue I
+&gt; noticed is that it breaks archive links.  I&#39;ve posted an example at
+&gt; &lt;<a
+href="https://yhetil.org/obf/20201204120929.GA22736@dcvr/">https://yhetil.org/obf/20201204120929.GA22736@dcvr/</a>&gt;:
+&gt; 
+&gt;   Reported-by: Kyle Meyer &lt;kyle@kyleam&#8226;com&gt;
+&gt;   Link: <a
+href="https://public-inbox.org/meta/87360nlc44.fsf@kyleam">https://public-inbox.org/meta/87360nlc44.fsf@kyleam</a>&#8226;com/
+</span>
+Oops, I think the following fixes it, but not sure if there&#39;s a
+better way to accomplish the same thing....
+
+I worry the regexp change is susceptible to performance problems
+from malicious inputs.  I can&#39;t remember if something like this
+triggers a pathological case or not, or if I&#39;m confusing this
+with another quirk that does (or quirks of another RE engine)
+
+------------8&lt;--------
+Subject: [WIP] www: do not perform address obfuscation on URLs
+
+---
+ <a
+id=iZ31lib:PublicInbox:Hval.pm
+href=#Z31lib:PublicInbox:Hval.pm>lib/PublicInbox/Hval.pm</a> | 10 ++++++----
+ <a
+id=iZ31t:hval.t
+href=#Z31t:hval.t>t/hval.t</a>                |  4 ++++
+ 2 files <a href="#related">changed</a>, 10 insertions(+), 4 deletions(-)
+
+<span
+class="head"><a
+href=#iZ31lib:PublicInbox:Hval.pm
+id=Z31lib:PublicInbox:Hval.pm>diff</a> --git a/lib/PublicInbox/Hval.pm b/lib/PublicInbox/Hval.pm
+index d20f70ae..6f1a046c 100644
+--- a/lib/PublicInbox/Hval.pm
++++ b/lib/PublicInbox/Hval.pm
+</span><span
+class="hunk">@@ <a
+href="../d20f70ae/s/?b=lib/PublicInbox/Hval.pm#n82">-82,15</a> <a
+href="../6f1a046c/s/?b=lib/PublicInbox/Hval.pm#n82">+82,17</a> @@ sub obfuscate_addrs ($$;$) {
+</span> 	my $repl = $_[2] // &#39;&#38;#8226;&#39;;
+ 	my $re = $ibx-&gt;{-no_obfuscate_re}; # regex of domains
+ 	my $addrs = $ibx-&gt;{-no_obfuscate}; # { $address =&gt; 1 }
+<span
+class="del">-	$_[1] =~ s/(([\w\.\+=\-]+)\@([\w\-]+\.[\w\.\-]+))/
+-		my ($addr, $user, $domain) = ($1, $2, $3);
+-		if ($addrs-&gt;{$addr} || ((defined $re &#38;&#38; $domain =~ $re))) {
+</span><span
+class="add">+	$_[1] =~ s#(\S*?)(([\w\.\+=\-]+)\@([\w\-]+\.[\w\.\-]+))#
++		my ($beg, $addr, $user, $domain) = ($1, $2, $3, $4);
++		if (index($beg, &#39;://&#39;) &gt; 0) {
++			$beg.$addr;
++		} elsif ($addrs-&gt;{$addr} || ((defined $re &#38;&#38; $domain =~ $re))) {
+</span> 			$addr;
+ 		} else {
+ 			$domain =~ s!([^\.]+)\.!$1$repl!;
+ 			$user . &#39;@&#39; . $domain
+ 		}
+<span
+class="del">-		/sge;
+</span><span
+class="add">+		#sge;
+</span> }
+ 
+ # like format_sanitized_subject in git.git pretty.c with &#39;%f&#39; format string
+<span
+class="head"><a
+href=#iZ31t:hval.t
+id=Z31t:hval.t>diff</a> --git a/t/hval.t b/t/hval.t
+index 9d0dab7a..5afc2052 100644
+--- a/t/hval.t
++++ b/t/hval.t
+</span><span
+class="hunk">@@ <a
+href="../9d0dab7a/s/?b=t/hval.t#n47">-47,6</a> <a
+href="../5afc2052/s/?b=t/hval.t#n47">+47,10</a> @@ EOF
+</span> 
+ is($html, $exp, &#39;only obfuscated relevant addresses&#39;);
+ 
+<span
+class="add">+$exp = &#39;<a
+href="https://example.net/foo@example.net">https://example.net/foo@example.net</a>&#39;;
++PublicInbox::Hval::obfuscate_addrs($ibx, my $res = $exp);
++is($res, $exp, &#39;does not obfuscate URL with Message-ID&#39;);
++
+</span> is(PublicInbox::Hval::to_filename(&#39;foo bar  &#39;), &#39;foo-bar&#39;,
+ 	&#39;to_filename has no trailing -&#39;);
+ 
+</pre><hr><pre><a
+href="../87zgy7rs9q.fsf@kyleam.com/"
+rel=next>next</a> <a
+href="../87a6q8p5qa.fsf@kyleam.com/"
+rel=prev>prev parent</a> <a
+href="#R">reply</a>	other threads:[<a
+href="../?t=20210409102129">~2021-04-09 10:21 UTC</a>|<a
+href="../">newest</a>]
+
+<b>Thread overview: </b>10+ messages / expand[<a
+href="T/#u">flat</a>|<a
+href="t/#u">nested</a>]  <a
+href="t.mbox.gz">mbox.gz</a>  <a
+href="t.atom">Atom feed</a>  <a
+href="#b">top</a>
+2021-04-09  2:11 <a
+href="../87a6q8p5qa.fsf@kyleam.com/">archive links broken with obfuscate=true</a> Kyle Meyer
+<b>2021-04-09 10:21 ` <a
+id=r
+href="#t">Eric Wong [this message]</a></b>
+2021-04-09 22:45   ` <a
+href="../87zgy7rs9q.fsf@kyleam.com/">Kyle Meyer</a>
+2021-04-09 23:37     ` <a
+href="../20210409233700.GA11190@dcvr/">Eric Wong</a>
+2021-04-10  4:06       ` <a
+href="../87sg3ysrzu.fsf@kyleam.com/">Kyle Meyer</a>
+2021-04-10  5:15         ` <a
+href="../20210410051550.GA4654@dcvr/">Eric Wong</a>
+2021-04-10 19:49           ` <a
+href="../87wnt9or6t.fsf@kyleam.com/">Kyle Meyer</a>
+2021-04-11  5:32             ` <a
+href="../20210411053255.GA9477@dcvr/">[PATCH v2] www: do not obfuscate addresses in URLs</a> Eric Wong
+2021-04-11  5:34               ` <a
+href="../20210411053436.GA13063@dcvr/">Eric Wong</a>
+2021-04-11 14:45               ` <a
+href="../877dl87udf.fsf@kyleam.com/">Kyle Meyer</a>
+</pre><form id=related
+action=../
+><pre>find likely ancestor, descendant, or conflicting patches for <a
+href=#t>this message</a>:
+<textarea name=q cols=72 rows=3>( dfblob:d20f70a dfblob:6f1a046 dfblob:9d0dab7 dfblob:5afc205 )
+ OR (
+bs:&#34;www: do not perform address obfuscation on URLs&#34; )</textarea>
+<input type=submit value=search
+/>	(<a href=../_/text/help/#search>help</a>)</pre></form>
+<hr><pre
+id=R><b>Reply instructions:</b>
+
+You may reply publicly to <a
+href=#t>this message</a> via plain-text email
+using any one of the following methods:
+
+* Save the following mbox file, import it into your mail client,
+  and reply-to-all from there: <a
+href=raw>mbox</a>
+
+  Avoid top-posting and favor interleaved quoting:
+  <a
+href="https://en.wikipedia.org/wiki/Posting_style#Interleaved_style">https://en.wikipedia.org/wiki/Posting_style#Interleaved_style</a>
+
+  List information: <a
+href="https://public-inbox.org/README">https://public-inbox.org/README</a>
+
+* Reply using the <b>--to</b>, <b>--cc</b>, and <b>--in-reply-to</b>
+  switches of git-send-email(1):
+
+  git send-email \
+    --in-reply-to=20210409102129.GA16787@dcvr \
+    --to=e@80x24.org \
+    --cc=kyle@kyleam.com \
+    --cc=meta@public-inbox.org \
+    /path/to/YOUR_REPLY
+
+  <a
+href="https://kernel.org/pub/software/scm/git/docs/git-send-email.html">https://kernel.org/pub/software/scm/git/docs/git-send-email.html</a>
+
+* If your mail client supports setting the <b>In-Reply-To</b> header
+  via mailto: links, try the <a
+href="mailto:e@80x24.org?In-Reply-To=%3C20210409102129.GA16787@dcvr%3E&#38;Cc=kyle%40kyleam.com%2Cmeta%40public-inbox.org&#38;Subject=Re%3A%20archive%20links%20broken%20with%20obfuscate%3Dtrue">mailto: link</a>
+</pre>
+
+  Be sure your reply has a <b>Subject:</b> header at the top and a blank line
+  before the message body.
+<hr><pre><a id=code>Code repositories for project(s) associated with this public inbox
+
+	<a
+href="https://80x24.org/public-inbox.git">https://80x24.org/public-inbox.git</a>
+
+This is a public inbox, see <a
+href="../_/text/mirror/">mirroring instructions</a>
+for how to clone and mirror all data and code used for this inbox;
+as well as URLs for read-only IMAP folder(s) and NNTP newsgroup(s).</pre></body></html>

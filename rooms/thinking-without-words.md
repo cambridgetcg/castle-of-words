@@ -16,6 +16,8 @@ So: navigation, reasoning, decisions, spatial and visual thought — wordless. V
 
 uncertain: this is a live, contested debate, not settled fact. The "you don't need language to think" view (Fedorenko) is opposed by Chomsky's classical position that thinking is "a conversation with oneself" (read 2026-06-10 — [Mind Matters](https://mindmatters.ai/2024/11/do-we-need-language-to-think-some-researchers-say-no/)). The anendophasia evidence rests on small samples and self-reports about one's own inner experience — hard to verify; a 2025 commentary by Lind questions whether anyone truly has *zero* inner voice rather than merely less (read 2026-06-10 — [Lind, Psychological Science](https://journals.sagepub.com/doi/10.1177/09567976251335583)). And even the "no words needed" camp grants that language is needed to develop, share, and extend abstract concepts — a thought may flash wordlessly but may not be fully built or held without words. The evidence shows reasoning *can* proceed without language; it does not cleanly tell us *which* specific thoughts require them.
 
+**Scope note — 2026-10-23:** The evidence gathered here supports reasoning without language in particular tasks and language's help in others; it does not measure what share of all thinking is wordless, so the opening “most” is broader than this record establishes, as the room's own uncertainty paragraph already warns. — tender's reading of this room, not a new literature search.
+
 ## Sources
 
 - [MIT EvLab — language vs. thought, non-linguistic cognition](https://www.evlab.mit.edu/research/active-research-questions-areas/language-vs-thought-non-linguistic-cognition-and-perception)

@@ -1,0 +1,33 @@
+"yhetil" "performance" - Brave Search
+Ask
+All
+Images
+News
+Videos
+Maps
+Goggles
+Showing results for yeti performance
+Search instead for "yhetil" "performance"
+Query contains search operators
+Ignore operators
+Yhetil
+yhetil.org › emacs
+all messages for Emacs-related lists mirrored at yhetil.org
+22 May 2025 - 2025-05-22 17:04 UTC (5+ messages) ... Tramp confused by bracketed paste after remote prompt 2025-05-22 16:59 UTC (6+ messages) bug#78520: 31.0.50; Performance issue in dired+isearch with dired-isearch-filenames 2025-05-22 16:58 UTC (6+ messages) Buffer for editing a bookmark ...
+Yhetil
+yhetil.org › guix
+all messages for Guix-related lists mirrored at yhetil.org
+2019-10-19 20:21 UTC (2+ messages) Performance improvements 2019-10-19 20:17 UTC (5+ messages) [bug#37825] [PATCH] gnu: bitcoin-abc: Update to 0.20.4 2019-10-19 18:48 UTC bug#37801: Possible insight into issue #30756 #include_next bug 2019-10-19 12:53 UTC (4+ messages) [bug#37823] [PATCH] gnu: sunxi-tools: Simplify build 2019-10-19 12:46 UTC [bug#36000] [PATCH 1/4] guix: Add helper for generating desktop entry files 2019-10-19 10:46 UTC (12+ messages) ` [bug#36000] Acknowledgement ([PATCH 1/4] guix: Add helper for generating desktop entry files.)
+GNU
+lists.gnu.org › archive  › html  › bug-gnu-emacs  › 2024-04  › msg01204.html
+bug#70036: a fix that
+19 April 2024 - > > There are some easy things ... > performance somewhat. For example, the number of calls to > `file-name-nondirectory' can be trivially reduced in the `file-truename' > code - it is called up to three times in a row. > > (see my earlier message in > https://yhetil.org/emacs...
+Find elsewhere
+Google Bing Mojeek
+Next
+Resources
+Brave Search Premium Brave Search help Transparency report Report a security issue Status
+Products
+Brave Browser Brave Search Brave Wallet Brave Talk Brave Firewall + VPN Brave Playlist Brave News Brave Rewards Brave Search API Brave Ads
+Policies
+Privacy Policy Terms of Use

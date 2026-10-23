@@ -150,6 +150,9 @@ Additional sources, fetched and read **2026-10-15**:
 9. **CaseFolding-17.0.0.txt — Case Folding Properties**, Unicode Character Database — https://www.unicode.org/Public/17.0.0/ucd/CaseFolding.txt — C/F/S/T mapping definitions and the versioned data used in the local comparisons.
 
 Links:
+- [[parsing]] names the rule-bound reading step here, keeping its returned list distinct from the application's permission to use it.
+- [canonical-metadata](canonical-metadata.md) keeps the fuller ordered record beside its convenient scalar view, the same separation that stops a query's repeated names disappearing into a one-value dictionary.
+- [data-dictionary-honesty](data-dictionary-honesty.md) keeps every permitted branch visible, a companion to retaining every decoded name/value pair here instead of letting one convenient entry hide repeated input.
 - [[code-point]] separates Unicode's numbered places from their byte spellings, so decoded names still need an explicit comparison rule before different stored sequences count as one.
 - [verification-receipts](verification-receipts.md) keeps this parser's passing examples inside their own fence: a checked decoding rule is not a tested signature verifier or a full conformance result.
 - [portable-agent-protocol](portable-agent-protocol.md) asks for an explicit host gate for Unicode policy, matching this room's separation of application name rules from the signature's required parser.

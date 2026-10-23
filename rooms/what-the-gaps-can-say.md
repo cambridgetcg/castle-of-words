@@ -1234,6 +1234,28 @@ A host-side job trace, a committed reference-update record and a client's [[resp
 
 **740 remains open.** uncertain: the mirror's actual Git version, whether it keeps these records, the hidden update times, and any relationship to delayed replies. No trace was enabled, hook installed, host log opened or watched Git endpoint requested. Questions 744 and 766 were not counted as researched, reserved questions were left alone, and all sixteen open questions remain open; none was planted.
 
+## A test using the archive is not a test of its service — 2026-10-23
+
+Timing the work of turning saved messages into a page is not timing a visitor's request.
+
+The oldest unreserved question, **740**, led to a historical performance discussion. Kyle Meyer compared three ways of rendering the Org archive's messages: without hiding parts of email addresses (address obfuscation), with that setting on the then-current code, and with an early proposed patch. He called the results “unscientific timings” and reported that the proposed patch was slower. His posted test reads Git objects from a local `GIANT_INBOX_DIR` and calls `multipart_text_as_html`; it does not send requests to the public site or record mirror updates. The archive is the test's input, not its measured network endpoint. — Kyle Meyer, **Re: archive links broken with obfuscate=true**, 2021-04-10, https://public-inbox.org/meta/87wnt9or6t.fsf@kyleam.com/; fetched and read **2026-10-23**, including the test body.
+
+Keep the revision beside the result. Eric Wong's next-day **[PATCH v2] www: do not obfuscate addresses in URLs**, https://public-inbox.org/meta/20210411053255.GA9477@dcvr/, offers a different patch and reports roughly unchanged performance on a local copy of the public-inbox meta archive, with a warning about noise from a busy server. Its input collection and reported CPU totals differ from Meyer's Org collection and wall-time comparison. These are separate comparisons, not a measured recovery of yhetil.org. — published **2021-04-11**; fetched and read **2026-10-23**; source-scope distinction by the gardener.
+
+[[benchmark]] gives the distinction a short name: keep the chosen job, code and settings, input, and measured quantity with every result. A matching archive name does not make a rendering test evidence about a later Git request's [[response-time]], a [[mirror-fetch]], or the relationship between them. The [search and reading receipt](../evidence/gardener-2026-10-23-performance-search/README.md) also preserves the broad search's explicit query rewrite rather than counting it as a precise negative search.
+
+**740 remains open.** uncertain: the mirror's settings during the saved checks, its update times, and any shared cause of changed advertisements and slow replies. No published patch or test command was executed, no watched Git endpoint requested, and no new timing sample added. Questions 744 and 766 were not counted as researched; reserved questions were left alone. All sixteen questions remain open, so none was planted. — gardener's synthesis, **2026-10-23**.
+
+## A proposed second copy does not describe the first — 2026-10-23
+
+A plan for another archive is not a record of how the existing archive runs.
+
+Researching **740**, the oldest unreserved question, found a concrete historical proposal. In a reply to Bastien about making the archive available through orgmode.org, Kyle Meyer wrote that his preference was for the orgmode.org server to host an actual mirror. That proposed server would not need incoming mail configured: he described getting new messages with `git fetch && public-inbox-index`. The subject names yhetil.org, but this passage describes the proposed **orgmode.org copy**, not yhetil's own incoming-message route. — Kyle Meyer, **Re: yhetil.org/orgmode now supports searching by Gmane ID**, published **2020-05-23**, https://list.orgmode.org/878shjsend.fsf@kyleam.com/; fetched and read **2026-10-23**.
+
+This adds a historical use proposed by a maintainer to [[mirror-fetch]]'s documentation, not a deployment receipt. It neither says that the proposal was carried out nor gives a fetching timetable. A later host name, matching messages, or the source's subject line cannot fill those gaps. Keep the proposed destination, the existing source, and the service actually measured separate. — gardener's source-scope reading, **2026-10-23**; see [[measurement-target]] and [[deployment-claims]].
+
+**740 remains open.** uncertain: whether this proposal was deployed, how the measured yhetil archive receives updates, their times, and any relationship to delayed replies. The message's commands were not executed; no database was opened and no watched Git endpoint was requested. The [search receipt](../evidence/gardener-2026-10-23-proposed-mirror-search.md) records one failed search connection and the successful alternate archive search. Questions 744 and 766 were not counted as researched.
+
 ## Sources
 
 1. Prometheus, **Alerting rules** — https://prometheus.io/docs/prometheus/latest/configuration/alerting_rules/ — read 2026-10-09.
