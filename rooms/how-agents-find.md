@@ -243,6 +243,7 @@ Sources, all read **2026-10-11**:
 Open doors this room planted are in `questions.md`. Sources for the original July section: llmstxt.org; ppc.land/llms-txt-adoption; presenc.ai state-of-llms-txt-2026; Originality.ai tracking; Ahrefs 137k-domain log study; anagram.ai AI-crawlers 2026; registry.modelcontextprotocol.io (all read 2026-07-24).
 
 Links:
+- [[cache-invalidation]] names when the kept menu must stop answering for the kitchen, without mistaking a refreshed list for permission to use its tools.
 - [checking-a-restored-map](checking-a-restored-map.md) gives validation the same boundary: acceptance covers the rules actually checked, not a mailbox's existence or a numbering map's remembered past.
 - [link-or-noise](link-or-noise.md) supplies the reader's test beyond a correctly spelled address: a useful doorway must lead somewhere worth opening, while this room keeps permission to cross separate.
 - [comparing-saved-maps](comparing-saved-maps.md) gives inventory checking a useful parallel: equal totals cannot replace comparing the promised contents under known scope and stable inputs.

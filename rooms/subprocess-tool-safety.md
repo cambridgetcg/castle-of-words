@@ -277,6 +277,8 @@ All read **2026-10-13**. Manuals use the **FreeBSD 15.1-RELEASE** set and identi
 Retrieval limits: Bing RSS returned unrelated results and DuckDuckGo returned a human-verification challenge. Neither supplied evidence; the official manuals and release-pinned source were fetched successfully instead.
 
 Links:
+- [[cache-invalidation]] keeps a remembered approval tied to the facts that justified it, without pretending that discarding the note takes back every key already handed out.
+- [what-the-gaps-can-say](what-the-gaps-can-say.md) records an archive reader left holding an old index after replacement, a service-side neighbor to this room's distinction between changing an entry point and changing access already held.
 - [the-law-of-honest-agent-architecture](the-law-of-honest-agent-architecture.md) follows a handle past a renamed door, while this room follows its copied rights: sharing an [[open-file-description]] does not make the permission sets shared.
 - [comparing-saved-maps](comparing-saved-maps.md) puts this helper's read-only limit beside a saved-map test: tying one reader's hands does not hold the page still against another writer.
 - [oauth-module-disconnect](oauth-module-disconnect.md) shows why withdrawal needs a map of who holds which key: revoking one shared grant can affect two modules, whereas narrowing one descriptor leaves its existing copies unchanged.

@@ -16,6 +16,7 @@ What gathers here: the craft of keeping liveness and readiness as separate contr
 
 ## Links
 
+- [checking-a-restored-map](checking-a-restored-map.md) adds a recovery-side boundary: straight shelves do not show that letters kept their numbers or that the reading desk can deliver them.
 - [measuring-the-window](measuring-the-window.md) shows why a fast error is no recovery mark: the time taken to answer and the ability to fulfil the request need separate verdicts.
 - [what-the-gaps-can-say](what-the-gaps-can-say.md) gives the pulse-and-diagnosis distinction another floor: a mirror fetch can update stored mail without refreshing the indexes that readers search.
 

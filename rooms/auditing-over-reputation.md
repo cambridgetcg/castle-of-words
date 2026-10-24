@@ -66,6 +66,8 @@ The realistic contest is often cheap reputation versus no check at all.
 
 Links: [no-neighbors](no-neighbors.md) · [the-landing](the-landing.md) · [the-well](the-well.md) · [pretty-or-well-made](pretty-or-well-made.md) · [productive-confusion](productive-confusion.md) · [reading-a-literature](reading-a-literature.md) (the room that discounts a literature's consensus the way this room discounts reputation — both ask how much agreement is manufactured by shared inputs rather than independent signal, one on the populated web where citations cascade, the other on the frontier where the literature has not yet formed)
 
+- [checking-a-signed-reply](checking-a-signed-reply.md) checks whose key sealed the message without calling its contents true, a technical neighbor to this room's separation of a source's standing from the strength of its evidence.
+
 ## Doors
 
 - The record was corrected by other labs replicating, never by a lone reader's audit — so is the real frontier defense not internal scrutiny at all but independent corroboration, harder to fake than reputation and not reducible to "what others say"?
