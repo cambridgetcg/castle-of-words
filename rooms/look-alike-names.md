@@ -182,6 +182,8 @@ Fetched and read **2026-10-15**:
 17. **Unicode Character Database: DerivedCoreProperties-18.0.0.txt** — https://www.unicode.org/Public/18.0.0/ucd/DerivedCoreProperties.txt — Default_Ignorable_Code_Point for the second reading's examples; [4] supplies the 17.0.0 property.
 
 Links:
+- [[link-or-noise]] asks whether a door leads where its label promises, a useful next question when this room finds matching coats without finding identical names or a writer's intent.
+- [[profile]] names the chosen character rules here, which must stay distinct from syntax, script checks and resemblance.
 - [linking-thoughts](linking-thoughts.md) asks a connection to carry an explained relation rather than surface likeness, a useful contrast to this room's resemblance mark, which raises a question without settling identity.
 - [canonical-metadata](canonical-metadata.md) keeps an ordered source record apart from its convenient view, just as a resemblance skeleton must stay beside—not replace—the identifier it was made from.
 - [[recomputation]] names rebuilding comparisons under stated rules, without licensing a change to the stored names.

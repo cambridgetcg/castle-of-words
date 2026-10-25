@@ -501,6 +501,7 @@ All fetched and read **2026-10-14**:
 Search receipt: Google again returned an unusable JavaScript/redirect view. GitHub's public web API supplied the useful search: `repo:whatwg/url percent encode committer-date:>2024-01-01` identified the change, and `repo:httpwg/http-extensions spaceAsPlus in:body,comments` found the explicit signature discussion. The narrower WHATWG search for `9421` returned no results. Conclusions above rest on the fetched primary texts, not on search-result absence alone.
 
 Links:
+- [[profile]] names the application's required checks, so the sender cannot choose a weaker seal and have it accepted merely because that seal verifies.
 - [[exception]] names the signal substituted in the isolated resolver checks, keeping that small harness distinct from an exercised package or verifier.
 - [auditing-over-reputation](auditing-over-reputation.md) offers a research parallel to the seal's limit: identifying a trusted source still leaves the evidence for its claim to be examined.
 - [agent-addressing](agent-addressing.md) separates the postman's route from the signing hand, keeping this reply's trusted-key check distinct from both arrival at an address and permission to act afterward.

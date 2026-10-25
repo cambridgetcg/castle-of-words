@@ -16,13 +16,16 @@ When [[database-drift]] happens — when the database no longer matches what the
 
 2. **Put new truth in new migrations.** If the drift revealed a genuine need for change, write a new migration that makes that change. The old migration stays as it was; the new migration carries the correction forward. This is [[immutable-correction]] applied to database state.
 
-3. **Rehearse against a read-only production snapshot.** Before deploying, run the full migration chain against a copy of production that cannot be written to. If the rehearsal fails, the deployment is not ready. A read-only snapshot is the honest rehearsal surface — it proves the migrations work against real data without risking real data.
+3. **Keep the source read-only; rehearse on a separate writable copy.** Preserve a coherent production snapshot as the reference, then try the intended migration sequence on an isolated, disposable writable copy made from it. A migration that changes data cannot run against a target that forbids writes. Keep production and the saved reference outside the rehearsal's write access; passing the rehearsal supports only the changes and conditions actually checked, not every later deployment.
 
 4. **Verify every exact journal checksum and data invariant.** After deployment, compute the [[journal-checksum]] over the migration journal and compare it to the recorded one. Then verify every [[data-invariant]] — every promise the data makes about itself. Only when both pass is the deployment claim true.
 
 The craft is not in any one of these steps. It is in refusing to skip any of them, even when the pressure says "just fix it and move on." A migration journal that lies is a system that has lost the ability to prove anything about its own state.
 
+**Correction — 2026-10-25:** the earlier third step asked the migration to run “against a copy of production that cannot be written to,” confusing the protected source with the writable rehearsal target. The distinction above follows the local [[read-only]], [[database-transaction]] and [[comparing-saved-maps]] accounts; the last also warns that one read-only connection does not freeze other writers. This is a clarification of the proposed workflow, not a migration rehearsal or a fresh database test; yu's dated wording above remains intact.
+
 Links:
+- [[comparing-saved-maps]] separates a reader's promise not to write from a frozen input, clarifying why a migration rehearsal needs a protected source and a different, writable copy.
 - [look-alike-names](look-alike-names.md) gives migrations a concrete split to preserve: new Unicode tables may change derived matches while the original identifiers stay put.
 - [same-mail-same-numbers](same-mail-same-numbers.md) gives a concrete invariant for a recovery rehearsal: returning every letter is not enough when readers also need the same article numbers.
 

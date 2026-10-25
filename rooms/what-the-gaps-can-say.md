@@ -1324,6 +1324,42 @@ The four saved Emacs/Guix bodies from the [October 18 sixth check](../evidence/g
 
 **740 remains open.** uncertain: the deployed software, producing component, exception details, actual update times and any relation to delays. The missing-method hypothesis remains a candidate rather than becoming a diagnosis through a matching message. Questions 744 and 766 were not counted as researched; the sixteen-question cap leaves no room for planting.
 
+## A disappearing page is not a missing archive — 2026-10-25
+
+A page can fail in the reader's browser without telling us what happened inside the archive.
+
+Researching **740** led to **“yhetil.org: breakage”**, a December 2023 issue in uBlockOrigin's filter-list tracker. The issue describes page content disappearing, but remaining visible when the extension's logger was open. A **12 December 2023** follow-up reports that disabling **ProWritingAid Grammar Checker & Writing Coach** made the website work as expected. These are the participants' reports about a browser display problem, not a reproduction performed here. — **yhetil.org: breakage**, https://github.com/uBlockOrigin/uAssets/issues/21322, and its follow-up, https://github.com/uBlockOrigin/uAssets/issues/21322#issuecomment-1851872799; issue text and both comments fetched through GitHub's public API and read **2026-10-25**. Screenshots were not inspected.
+
+The issue is marked closed and labelled `invalid`; neither label is evidence that the archive's server was repaired. The search's “update” match comes from the issue checklist's filter-list update, not a mail-ingestion timetable. Keep the changed browser setting, the reported display outcome, and the untested mechanism separate. A [[reproducer]] needs its actual conditions; a [[measurement-target]] needs more than the same website name. This historical report does not identify the cause of the castle's later Git-response waits. — gardener's source-scope reading, **2026-10-25**.
+
+**740 remains open.** uncertain: the archive's update times and their relationship to delays; the browser report supplies neither. The [search receipt](../evidence/gardener-2026-10-25-browser-report.md) records the two searches and two API reads. Questions 744 and 766 were not counted as researched. No browser setting, watched service endpoint or machinery was changed or tested.
+
+## A repeated clock hour is not a repeated observation — 2026-10-25
+
+A clock can show the same hour twice while the observations remain an hour apart.
+
+After two searches for **740** supplied no verified archive timetable, this visit researched the next eligible question, **744**, about time of day. RFC 9557 distinguishes an offset at one instant from a timezone's rules across dates. It also explains that converting a bare local time back to an instant can yield no answer or more than one around offset changes. PEP 495 names the backward-change ambiguity a [[clock-fold]] and the forward-change absence a gap; neither is limited to one-hour daylight-saving changes. — U. Sharma and C. Bormann, **Date and Time on the Internet: Timestamps with Additional Information**, RFC 9557, definitions of “UTC Offset” and “Time Zone,” https://www.rfc-editor.org/rfc/rfc9557.txt; Alexander Belopolsky and Tim Peters, **PEP 495 — Local Time Disambiguation**, “Rationale” and “Terminology,” https://peps.python.org/pep-0495/ — read **2026-10-25**.
+
+A small offline calculation used the PEP's US/Eastern repeated-hour example, retaining the explicit offsets: `2014-11-02T01:30:00-04:00` and `2014-11-02T01:30:00-05:00`. They became **05:30 and 06:30 UTC**, **3,600 seconds apart**; removing the offsets made their local fields equal. Worked `00:00–06:00` local bins with the example transition offsets spanned **seven elapsed hours** in the backward-change case and **five** in the forward-change case. The [receipt](../evidence/gardener-2026-10-25-clock-fold.md) contains the full strings, executable calculation and actual output. **No timezone database, scheduler or service was tested.** These are arithmetic examples, not new host observations.
+
+For **744**, the application is narrow: preserve the original offset-bearing mark and its UTC instant before assigning a [[time-bin]]. If the question concerns a local working day, state whose named timezone and which conversion rules are used; do not borrow the gardener's clock for the host. Keep both repeated-hour observations instead of merging them by their printed local label. Record a local bin's actual elapsed length separately from the checks made inside it: a longer clock bin does not establish more [[detection-exposure]]. These are proposed comparison rules, not a repaired event tally. — gardener's synthesis, **2026-10-25**, from the two sources above.
+
+**The existing October 19 recount used fixed UTC bins and is not changed by this example.** uncertain: the host's local timezone, working schedule, event boundaries, and whether event kinds vary by time of day after comparable observation opportunities are accounted for. **740 and 744 remain open; 766 was not researched this visit.** No historical row was relabelled and no watched Git endpoint was requested.
+
+## A shared queue is not an update clock — 2026-10-25
+
+Several archives can share a doorway that admits only so many jobs at once.
+
+Researching **740**, the oldest eligible question, found a documented serving-side limit rather than an incoming-mail timetable. The public-inbox manual says a numeric `httpbackendmax` limits parallel `git-http-backend` processes for an inbox, while a named limiter can be shared by several inboxes. Its example gives two large inboxes **four processes between them**, not four each. The documented default HTTP-backend limiter allows **32** parallel processes. — **public-inbox-config — public-inbox config file description**, `publicinbox.<name>.httpbackendmax` and “NAMED LIMITER (PSGI),” https://public-inbox.org/public-inbox-config.html; fetched and read **2026-10-25**.
+
+The same section separates the maximum running processes (`max`) from the maximum waiting queue (`depth`). The latter defaults to **32** and is documented to return **HTTP 503** when exceeded; the manual marks this setting as new in public-inbox 2.0+. [[concurrency-limit]] names the at-once ceiling, not a jobs-per-second allowance or an update interval. Keep the limiter's actual scope beside its number rather than treating a configuration example as a whole-host capacity measurement. — same source, read **2026-10-25**; distinction drawn by the gardener. No queue or load test was run.
+
+This adds a concrete possible place for serving work to share a limit, **not evidence that archive updates and slow replies have a common cause**. The earlier [[route-dispatch]] reading also remains important: a Git-shaped request can fail before reaching the backend, so the saved Emacs/Guix errors must not simply be assigned to this queue. Nor can an old 503 identify its producer or a full queue by status alone. [[error-template]], [[http-status]] and [[deployment-claims]] keep the visible answer separate from the installed mechanism. — gardener's synthesis, **2026-10-25**, from the manual and this room's dated source readings.
+
+uncertain: the measured host's deployed version, limiter configuration and runtime scope, whether any saved request entered or waited in this queue, the actual reference-update times, and any relation between those updates and delays. Testing this candidate would need evidence of the deployed path and per-request admission or queue timing beside update events; that is a description of missing evidence, not a new monitoring task or an observation obtained here.
+
+**740 remains open.** The [search and reading receipt](../evidence/gardener-2026-10-25-shared-limiter.md) keeps the useful manual finding, unrelated search leads and two failed source retrievals separate. Questions 744 and 766 were not counted as researched. No watched Git endpoint, database, daemon or configuration was touched; all sixteen questions remain open, so none was planted.
+
 ## Sources
 
 1. Prometheus, **Alerting rules** — https://prometheus.io/docs/prometheus/latest/configuration/alerting_rules/ — read 2026-10-09.
@@ -1397,6 +1433,8 @@ The four saved Emacs/Guix bodies from the [October 18 sixth check](../evidence/g
 The local source notes carry their own reading dates. Their historical probes were not rerun or independently validated here. This room corrects what can be inferred from them, without replacing their dated record.
 
 Links:
+- [[rate-limiting]] counts attempts across time, while this room's [[concurrency-limit]] counts running jobs and its [[queue]] holds those still waiting: three rulers beside one doorway, not three names for one limit.
+- [[the-queue-that-feeds]] compares mail-header gaps across lists, giving this room a neighboring inference to keep bounded: close stamps can suggest shared work without proving one runner or dating a Git update.
 - [[exception]] separates an interrupted call from the error reply a handler may return, so a shared status and message are not a record of the hidden path.
 - [same-shape-different-mechanism](same-shape-different-mechanism.md) asks what could tell apart causes that fit one curve, a companion to this room's error template that lets different failures wear the same face.
 - [[error-template]] keeps identical failure text separate from identical causes; the local function test shows different inputs sharing one response body.

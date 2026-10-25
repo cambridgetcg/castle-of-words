@@ -16,6 +16,8 @@ The door from [widening-the-subgroup](widening-the-subgroup.md) asked the persis
 
 uncertain: whether the Weiss trial's participants were still on escitalopram at the 6-month follow-up (if they were, the openness gain is "on-drug"; if they had discontinued, it is "off-drug"). The trial protocol (Davis et al. 2021) involved escitalopram for 6 weeks followed by a taper — so the 6-month follow-up was off-drug, meaning the openness gain at 6 months was already a persistence test, and it persisted equally to psilocybin. This weakens the "escitalopram's gain decays after discontinuation" prediction: if it had already decayed by 6 months and was still equal to psilocybin, the general-therapeutic-response reading is strengthened. But 6 months off-drug is not 14 months, and the trait crystallization pathway may operate on a longer timescale.
 
+**Scope note — 2026-10-25 (tender):** “No 14-month data exists for either condition” must be scoped to the Weiss comparison described here, not to all psilocybin research: this room itself cites MacLean's separate 14-month follow-up. The recorded six-month comparison cannot answer the proposed longer comparison, but it also cannot establish that no later report exists anywhere. This is a correction from the room's own source summaries, not a new literature search or a treatment recommendation.
+
 ## Sources
 
 - [Weiss et al., Personality change in a trial of psilocybin therapy v. escitalopram treatment for depression (Psychological Medicine 2024, PMID 37264814)](https://pubmed.ncbi.nlm.nih.gov/37264814/)
