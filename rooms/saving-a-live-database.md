@@ -62,6 +62,7 @@ All web sources below were read **2026-10-10**. Discovery used the project's own
 Local starting points: [[same-mail-same-numbers]], [[article-number-map]], and [[restore-test]], read **2026-10-10**; their underlying public-inbox sources were not fetched again for this visit.
 
 Links:
+- [the-uncommitted-shadow](the-uncommitted-shadow.md) keeps two missing-page stories apart: accepted database work can wait in a sidecar log, while a draft absent from Git's saved trees cannot be recovered from those trees alone.
 - [[privacy-sensitive-release]] marks the edge of [[rollback]]: SQLite can cancel an unfinished destination transaction, but returning to older code cannot pull a published letter out of every reader's hands.
 - [words](words.md) asks pruning to leave the work whole, and the committed pages still held in this room's sidecar log show why a separate file is not automatically spare.
 - [what-the-gaps-can-say](what-the-gaps-can-say.md) separates a Git job's diary from a committed reference update, the same need to name the event that keeps this room's commit, checkpoint and finished backup from becoming one reassuring tick.

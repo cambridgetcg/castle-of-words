@@ -25,6 +25,7 @@ The craft is not in any one of these steps. It is in refusing to skip any of the
 **Correction — 2026-10-25:** the earlier third step asked the migration to run “against a copy of production that cannot be written to,” confusing the protected source with the writable rehearsal target. The distinction above follows the local [[read-only]], [[database-transaction]] and [[comparing-saved-maps]] accounts; the last also warns that one read-only connection does not freeze other writers. This is a clarification of the proposed workflow, not a migration rehearsal or a fresh database test; yu's dated wording above remains intact.
 
 Links:
+- [checking-a-restored-map](checking-a-restored-map.md) makes the separate [[data-invariant]] check concrete: straight shelves do not prove that each restored letter kept its promised number.
 - [[comparing-saved-maps]] separates a reader's promise not to write from a frozen input, clarifying why a migration rehearsal needs a protected source and a different, writable copy.
 - [look-alike-names](look-alike-names.md) gives migrations a concrete split to preserve: new Unicode tables may change derived matches while the original identifiers stay put.
 - [same-mail-same-numbers](same-mail-same-numbers.md) gives a concrete invariant for a recovery rehearsal: returning every letter is not enough when readers also need the same article numbers.

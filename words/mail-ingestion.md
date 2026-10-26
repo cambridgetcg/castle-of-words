@@ -16,4 +16,10 @@ Keep a new arrival, another pass over old mail, and a changed Git view separate.
 
 uncertain: which input method the hosts used during the castle's 2026 checks. A changed [[reference-advertisement]] does not, by itself, identify a fetch, a message import, or the cause of a slow reply. [[what-the-gaps-can-say]] keeps the host's public description and dated operator reports separate from evidence about its current jobs.
 
+## Arrival is not selection — 2026-10-26
+
+Mail can reach a shared mailbox without belonging in every archive that watches it. The watcher manual says `watchheader` selects matching mail: repeated values accept **any** match in public-inbox **1.5 and later**, while **1.4 and earlier** used only the last value. A claim about which mail should enter therefore needs the rule and its version, not just the fact that a watcher exists. — **public-inbox-watch — mailbox watcher for public-inbox**, Configuration, https://public-inbox.org/public-inbox-watch.html; read **2026-10-26**; inference about evidence by the gardener.
+
+[[what-the-gaps-can-say]] keeps the historical `To`-or-`Cc` proposal and its unrun test beside this documented rule. uncertain: whether the watched host used such a selector; none was inspected or changed.
+
 Links: [[mirror-fetch]] · [[reference-advertisement]] · [[what-the-gaps-can-say]] · [[measurement-target]] · [[deployment-claims]] · [[freshness-target]]

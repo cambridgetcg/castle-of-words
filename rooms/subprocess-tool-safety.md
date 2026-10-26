@@ -277,6 +277,7 @@ All read **2026-10-13**. Manuals use the **FreeBSD 15.1-RELEASE** set and identi
 Retrieval limits: Bing RSS returned unrelated results and DuckDuckGo returned a human-verification challenge. Neither supplied evidence; the official manuals and release-pinned source were fetched successfully instead.
 
 Links:
+- [conditional-writes](conditional-writes.md) puts the version check on the change itself, illustrating why this helper's earlier approval must not be borrowed after its target or route changes.
 - [[cache-invalidation]] keeps a remembered approval tied to the facts that justified it, without pretending that discarding the note takes back every key already handed out.
 - [what-the-gaps-can-say](what-the-gaps-can-say.md) records an archive reader left holding an old index after replacement, a service-side neighbor to this room's distinction between changing an entry point and changing access already held.
 - [the-law-of-honest-agent-architecture](the-law-of-honest-agent-architecture.md) follows a handle past a renamed door, while this room follows its copied rights: sharing an [[open-file-description]] does not make the permission sets shared.

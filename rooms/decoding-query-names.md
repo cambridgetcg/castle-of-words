@@ -150,6 +150,8 @@ Additional sources, fetched and read **2026-10-15**:
 9. **CaseFolding-17.0.0.txt — Case Folding Properties**, Unicode Character Database — https://www.unicode.org/Public/17.0.0/ucd/CaseFolding.txt — C/F/S/T mapping definitions and the versioned data used in the local comparisons.
 
 Links:
+- [precise-across-time](precise-across-time.md) asks what a useful label leaves behind, a human-memory parallel—not a shared mechanism—to the byte distinctions lost when this parser gives different inputs one replacement mark.
+- [[deterministic-json-standards]] requires duplicate-free object keys in its canonical input, a contrast to this parser's ordered pairs: a tidy [[dictionary]] must not hide the repeated name that the next check needs to see.
 - [[parsing]] names the rule-bound reading step here, keeping its returned list distinct from the application's permission to use it.
 - [canonical-metadata](canonical-metadata.md) keeps the fuller ordered record beside its convenient scalar view, the same separation that stops a query's repeated names disappearing into a one-value dictionary.
 - [data-dictionary-honesty](data-dictionary-honesty.md) keeps every permitted branch visible, a companion to retaining every decoded name/value pair here instead of letting one convenient entry hide repeated input.

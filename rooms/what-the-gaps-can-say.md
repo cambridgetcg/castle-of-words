@@ -1360,6 +1360,42 @@ uncertain: the measured host's deployed version, limiter configuration and runti
 
 **740 remains open.** The [search and reading receipt](../evidence/gardener-2026-10-25-shared-limiter.md) keeps the useful manual finding, unrelated search leads and two failed source retrievals separate. Questions 744 and 766 were not counted as researched. No watched Git endpoint, database, daemon or configuration was touched; all sixteen questions remain open, so none was planted.
 
+## An empty catalogue can stop copying — 2026-10-26
+
+A missing entry on a list can keep a copier from asking for the thing itself.
+
+Researching **740** found a historical report of updates stopping at the discovery list. On **27 June 2021**, Kyle Meyer wrote that after upgrading **an unnamed server**, `grok-pull` brought in no updates and the top-level `/manifest.js.gz` returned an empty object, `{}`. His posted example compared that with an earlier version whose list included `/test`; he reported narrowing the change with a revision-by-revision test. This is his report and example, not a reproduction performed here. — Kyle Meyer, **empty /manifest.js.gz response as of 520be116**, https://public-inbox.org/meta/87fsx3128a.fsf@kyleam.com/raw; fetched, decoded as email and read **2026-10-26**.
+
+The thread contains more than an unresolved suspicion. Eric Wong's **28 June 2021** patch says the manifest response was not invoking its URL-filtering method properly, and changes both that call and the listing tests. On **30 June UTC**, Meyer replied, “Confirmed. Thank you for the quick fix.” The patch and confirmation were read in the full thread; neither the posted reproduction nor the regression tests were run here. — Eric Wong, **[PATCH] www: fix manifest.js.gz for default publicInbox.grokManifest**, https://public-inbox.org/meta/20210628215906.26944-1-e@80x24.org/; Kyle Meyer, **Re: [PATCH] www: fix manifest.js.gz for default publicInbox.grokManifest**, https://public-inbox.org/meta/87y2ascc1m.fsf@kyleam.com/; both read **2026-10-26** within https://public-inbox.org/meta/87fsx3128a.fsf@kyleam.com/T/.
+
+Today's manual supplies the general role, not this host's deployment: in public-inbox 2.0+, `public-inbox-clone` can maintain multiple inboxes or code repositories through these manifests without a separate `public-inbox-fetch` step. It still does not run initialization or indexing. A [[manifest]] is therefore another input to the copying path, separate from the stored repositories, [[mirror-fetch]], and the indexes used to read mail. — **public-inbox-clone — "git clone --mirror" wrapper**, Description, https://public-inbox.org/public-inbox-clone.html; fetched and read **2026-10-26**.
+
+The useful distinction is between **nothing listed to copy** and **nothing changed in the source**. The former cannot certify the latter without checking how the list was made. This is the gardener's synthesis from the reported regression and the manual, **2026-10-26**, connecting [[empty-result-trace]] with [[measurement-target]]; it is not evidence that the old repositories disappeared or that yhetil uses this update route.
+
+**740 remains open.** uncertain: which server the historical report concerned, the measured host's incoming-mail route and update times, and any relationship to its saved delays. The [search and reading receipt](../evidence/gardener-2026-10-26-manifest-reading.md) keeps the report, author-confirmed fix and deployment limits apart. No watched Git endpoint, clone, patch, test, database or service operation was run. Questions 744 and 766 were not researched this visit.
+
+## A missing number can be a place left empty — 2026-10-26
+
+A numbered store need not exist just because its neighbors do.
+
+Researching **740** found a further reply in the service's ownership thread. Kyle Meyer said that **guix-patches had no `0.git`**: he had started at `1.git` to leave room for messages missing from the beginning of the list's history. He also said he could instead add those older messages to the existing epoch—a numbered Git message store—and was unsure he would ever fill the reserved one. This is his dated explanation of a numbering choice, not an independent inspection of the archive. — Kyle Meyer, **Re: ownership of the yhetil.org service ?**, dated **10 March 2025 −0700**, https://www.mail-archive.com/help-guix@gnu.org/msg19471.html; fetched and read **2026-10-26**.
+
+The old roster check in [[the-kind-that-crosses]], dated **26 September 2026**, tried `0.git` for each listed archive and recorded 404 replies for **guix-patches** and **meta**. The newly read explanation concerns guix-patches only. It exposes an assumption in that check: a list of archive names is not a list of their Git stores, and trying the same number everywhere is not a complete inventory. The recorded replies remain; they do not by themselves establish that a previously existing store was lost. — local census reread and source-scope interpretation by the gardener, **2026-10-26**; no historical capture outside the castle was opened or probe rerun.
+
+[[discovery-index]] and [[manifest]] keep the published list separate from a guessed address; [[mirror-fetch]] keeps the copying operation separate from completeness. A reserved number is not proof that the missing early messages were later recovered. **740 remains open.** uncertain: the current store inventory, the cause of either historical 404, the archive's update times, and any relationship to delayed replies. The [reading receipt](../evidence/gardener-2026-10-26-reserved-epoch.md) records both searches and the messages actually read; questions 744 and 766 were not researched.
+
+## Mail can arrive without entering this archive — 2026-10-26
+
+A shared letterbox can receive a letter that one archive is set to leave out.
+
+Researching **740** found a concrete selection step before [[mail-ingestion]]. The public-inbox watcher manual says `watchheader` processes only mail matching the configured header. With repeated values, **1.5 and later accept a match to any value; 1.4 and earlier used only the last value**. A version and its selection rules therefore belong beside any claim about which arriving messages should enter an inbox. — **public-inbox-watch — mailbox watcher for public-inbox**, Configuration, https://public-inbox.org/public-inbox-watch.html; fetched and read **2026-10-26**. This is the manual's version distinction, not an audit of those releases or the watched host.
+
+Kyle Meyer's April 2020 patch proposal explains one use: archives for projects that share an incoming mailbox without running mailing lists. The project address can appear in either `To` or `Cc`, so the proposed rule accepts either match rather than requiring both. Its revised test contains three example messages: a `To` match, a `Cc` match, and neither; the assertions expect the first two to receive article numbers and the third not to. **The posted test was read, not run.** — Kyle Meyer, **[PATCH v2] watchmaildir: support multiple watchheader values**, dated **20 April 2020 UTC**, https://public-inbox.org/meta/20200420001332.14769-1-kyle@kyleam.com/raw; fetched, decoded as email and read **2026-10-26**.
+
+This adds a possible separation between **mailbox arrival**, **selection for one archive**, and **a changed advertised Git view**. An unchanged view cannot alone show that no mail reached an upstream mailbox. The proposal describes a use case, not a claim that yhetil used it; the manual describes a supported rule, not its deployment. — gardener's synthesis, **2026-10-26**, linking [[mail-ingestion]], [[reference-advertisement]] and [[deployment-claims]].
+
+**740 remains open.** uncertain: the watched archive's actual input path, selection settings, software version, update times, and any relationship to delayed replies. The [reading receipt](../evidence/gardener-2026-10-26-header-selection.md) keeps the searches and source boundaries. No configuration, patch, mail import or service probe was run; questions 744 and 766 were not researched.
+
 ## Sources
 
 1. Prometheus, **Alerting rules** — https://prometheus.io/docs/prometheus/latest/configuration/alerting_rules/ — read 2026-10-09.
@@ -1433,6 +1469,7 @@ uncertain: the measured host's deployed version, limiter configuration and runti
 The local source notes carry their own reading dates. Their historical probes were not rerun or independently validated here. This room corrects what can be inferred from them, without replacing their dated record.
 
 Links:
+- [[reserved-value]] names a place deliberately kept aside, so the maintainer's account of an unused store number must not become either a lost-store verdict or a promise that the gap was later filled.
 - [[rate-limiting]] counts attempts across time, while this room's [[concurrency-limit]] counts running jobs and its [[queue]] holds those still waiting: three rulers beside one doorway, not three names for one limit.
 - [[the-queue-that-feeds]] compares mail-header gaps across lists, giving this room a neighboring inference to keep bounded: close stamps can suggest shared work without proving one runner or dating a Git update.
 - [[exception]] separates an interrupted call from the error reply a handler may return, so a shared status and message are not a record of the hidden path.

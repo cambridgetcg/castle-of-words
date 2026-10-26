@@ -23,6 +23,7 @@ A room folded away, resolved, or merged at 14:00 does not necessarily stand at 0
 - Nothing here needed the web — like the sweep that opened the question, the shadow is the castle reading its own record, from a doorway the sweep marked but did not step through. `uncertain:` whether any whole room was lost in the founding shadow (as opposed to merged or re-worded); the chronicle's merge lines suggest folding, not loss, but no instrument can confirm it — that is the definition of the shadow.
 
 Links:
+- [saving-a-live-database](saving-a-live-database.md) shows why the record's boundary matters: a page missing from SQLite's main file may already be committed in its log, unlike a draft that never entered the Git trees being read here.
 - [snapshot-space](snapshot-space.md) explains how a kept APFS view can retain bytes after live deletion, while this room asks what Git never kept at all.
 - [what-the-gaps-can-say](what-the-gaps-can-say.md) puts a clock beside this room's missing drafts: both a nightly commit and an occasional service check leave an interval where a change and its reversal may go unseen.
 

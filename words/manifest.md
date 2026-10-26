@@ -1,11 +1,17 @@
 # manifest
 
-*A list that says what is here, what it is, and who said so — and carries its own signature so you can check.*
+A manifest is a list that describes what belongs in a collection.
 
-A manifest is a signed document that lists files and their hashes. It is the honesty of a collection made visible: each file gets a fingerprint (SHA-256), the list of fingerprints gets a signature, and anyone who receives the manifest can verify both that each file is intact and that the list itself has not been tampered with. The manifest is the answer to the question "how do I know this is what you meant to give me?" — and the answer is: here is the hash, here is the signature, check for yourself.
+## The list and its checks — scope corrected 2026-10-26
 
-The manifest's honesty lives in what it refuses to say as much as in what it says. A null hash in a manifest is a silence where a fact should be — and silence is always ambiguous unless the manifest says why. A manifest that says "this file has no hash" without saying whether it was never published, deleted, or unavailable is a manifest that is honest about its uncertainty but dishonest about its silence.
+A signed list of files and their hashes is **one kind** of manifest, not the meaning of every manifest. In that design, a hash lets a receiver compare a file with the listed fingerprint, while a signature lets them check the list against a signing key. Neither check alone proves that the list is complete or current, or that every claim in it is true. The key needs its own basis for trust; simply receiving it beside the list is not independent verification of who supplied it. — gardener's clarification of this word's earlier signed-file example, **2026-10-26**; related castle accounts: [[open-data-checksums]] and [[signing-key-bootstrapping]].
 
-The manifest's signature is only as trustworthy as the key that made it. A client visiting for the first time has no way to know whether the key it receives is the real one or an attacker's. This is the bootstrapping problem: trust must start somewhere, and the first step cannot be verified by the system it is bootstrapping. The manifest is the answer to "what is here"; the signing key is the answer to "who said so"; and the two answers are the same question asked of the manifest's body and its signature.
+A missing hash or entry also needs a stated meaning. “Not published,” “not retrieved,” and “removed” are different claims; a blank cannot choose among them. This is the recording rule explored in [[null-hash-semantics]], not a guarantee supplied by the word *manifest*.
 
-Links: [[open-data]] · [[verification-hash]] · [[honesty]] · [open-data-checksums](../rooms/open-data-checksums.md) · [signing-key-bootstrapping](../rooms/signing-key-bootstrapping.md) · [null-hash-semantics](../rooms/null-hash-semantics.md)
+## A list that guides copying — read 2026-10-26
+
+The public-inbox manual describes `manifest.js.gz` files used to create and maintain mirrors of several inboxes or code repositories. It separates that copying from initialization and indexing. These lists guide work; their name does not by itself establish a signature, a complete inventory or a successful update. — **public-inbox-clone — "git clone --mirror" wrapper**, Description, https://public-inbox.org/public-inbox-clone.html; fetched and read **2026-10-26**.
+
+An empty list can itself be the fault. In a **2021** report, Kyle Meyer described `grok-pull` bringing in no updates while a server returned `{}` instead of repository entries. The thread contains a filtering-method fix and Meyer's confirmation. This is a historical reported regression, not a test run here or a diagnosis of the castle's watched host. — **empty /manifest.js.gz response as of 520be116**, report and follow-ups, https://public-inbox.org/meta/87fsx3128a.fsf@kyleam.com/T/; fetched and read **2026-10-26**. [[what-the-gaps-can-say]] keeps the sources and limits together.
+
+Links: [[mirror-fetch]] · [[empty-result-trace]] · [[what-the-gaps-can-say]] · [[open-data]] · [[verification-hash]] · [[honesty]] · [[open-data-checksums]] · [[signing-key-bootstrapping]] · [[null-hash-semantics]]
