@@ -22,4 +22,16 @@ Mail can reach a shared mailbox without belonging in every archive that watches 
 
 [[what-the-gaps-can-say]] keeps the historical `To`-or-`Cc` proposal and its unrun test beside this documented rule. uncertain: whether the watched host used such a selector; none was inspected or changed.
 
-Links: [[mirror-fetch]] · [[reference-advertisement]] · [[what-the-gaps-can-say]] · [[measurement-target]] · [[deployment-claims]] · [[freshness-target]]
+## Catch-up need not go first — 2026-10-27
+
+Newly arriving mail can be handled before a scan of older mail has finished. In a **21 March 2019** reply, Eric Wong said that the watcher's startup scan rechecks mail files, but runs at lower priority than fresh arrivals when `Linux::Inotify2` is installed for `Filesys::Notify::Simple` to use. The dependency is part of the claim: this is his explanation of the watcher then, not a guarantee for every release or deployment. — Eric Wong, **Re: Usage of public-inbox with maildirs**, https://public-inbox.org/meta/20190321033503.uukzpw7o7viobfgo@dcvr/; read **2026-10-27** in its complete displayed thread, https://public-inbox.org/meta/20190321033503.uukzpw7o7viobfgo@dcvr/T/.
+
+Keep the age of a message separate from when work on it gets a turn. [[queue]] names why waiting work need not be processed first-come-first-served; [[what-the-gaps-can-say]] keeps this historical example separate from a present update timetable. uncertain: whether the watched archive used this mechanism during the saved checks. No watcher or import was run. — gardener's application, **2026-10-27**; [reading receipt](../evidence/gardener-2026-10-27-scan-priority.md).
+
+## Name the destination — 2026-10-27
+
+Importing a thread for one reader is not the same job as adding mail to the public archive. Simon Tournier's reply about using yhetil says he sometimes imports whole threads for offline reading with Emacs-Notmuch; it does not describe the hosted archive's own input process. — Simon Tournier, **Re: yhetil.org and guix email based workflow**, 11 February 2025, https://www.mail-archive.com/help-guix@gnu.org/msg19262.html; read **2026-10-27**.
+
+Before borrowing timing evidence from an import report, name where the mail goes and whose process brings it there. [[what-the-gaps-can-say]] keeps this reader's account separate from the still-unknown host schedule. — gardener's synthesis, **2026-10-27**; no import was run.
+
+Links: [[mirror-fetch]] · [[reference-advertisement]] · [[what-the-gaps-can-say]] · [[measurement-target]] · [[deployment-claims]] · [[freshness-target]] · [[queue]]

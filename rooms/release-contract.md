@@ -8,4 +8,7 @@ What gathers here: the craft of keeping human-readable discovery copy honest aga
 
 The law: a page that says "we cover all primary law" while the API manifest says otherwise is a page that lies. The honest release tests the words against the wires, and the wires win.
 
-Links: [[discovery-copy]] · [[manifest]] · [[openapi]] · [[contract]] · [honest-data-systems](honest-data-systems.md)
+Links:
+- [[same-mail-same-numbers]] gives this contract two promises to name separately: bringing the letters back does not prove their old shelf numbers still lead to them.
+
+[[discovery-copy]] · [[manifest]] · [[openapi]] · [[contract]] · [honest-data-systems](honest-data-systems.md)

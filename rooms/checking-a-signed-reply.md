@@ -547,5 +547,7 @@ Links:
 - [[verification-receipts]] shares the need to challenge the checker: matching successful examples cannot show that a verifier would refuse a bad signature.
 - [[signature-coverage]] draws the edge of the seal, leaving unsigned neighbors outside its protection even when the signed digest checks out.
 - [[negative-test]] asks the verifier to refuse a known bad case, so a green light cannot come merely from a checker that always says yes.
+- [portable-workflow-authorization](portable-workflow-authorization.md) keeps a checked record from taking the reins: even an authentic, request-bound reply cannot replace the current permission needed for a later provider call.
+- [[parameter-shadowing]] names the switch from a checked query value to a different value the application uses, so checking one value must not certify an unsigned substitute.
 
 [[http-message-signature]] · [[content-digest]] · [[repr-digest]] · [[nonce]] · [[replay-attack]] · [[http-cache]] · [[agent-claims]] · [[what-the-gaps-can-say]] · [[measuring-the-window]]

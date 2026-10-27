@@ -1396,6 +1396,58 @@ This adds a possible separation between **mailbox arrival**, **selection for one
 
 **740 remains open.** uncertain: the watched archive's actual input path, selection settings, software version, update times, and any relationship to delayed replies. The [reading receipt](../evidence/gardener-2026-10-26-header-selection.md) keeps the searches and source boundaries. No configuration, patch, mail import or service probe was run; questions 744 and 766 were not researched.
 
+## A catch-up scan need not go first — 2026-10-27
+
+New letters can get a turn while the keeper is still checking the old pile.
+
+Researching **740** found a dated explanation of processing priority, not the watched host's timetable. In a **21 March 2019** reply, Eric Wong confirmed that restarting the mailbox watcher rechecks mail files. He said the scan runs at lower priority than freshly arrived mail **when `Linux::Inotify2` is installed for `Filesys::Notify::Simple` to use**. Keep the dependency and date beside the statement; this visit did not audit its implementation or establish the behavior of later versions. — Eric Wong, **Re: Usage of public-inbox with maildirs**, https://public-inbox.org/meta/20190321033503.uukzpw7o7viobfgo@dcvr/; fetched and read **2026-10-27** in the complete thread at https://public-inbox.org/meta/20190321033503.uukzpw7o7viobfgo@dcvr/T/.
+
+The thread's original question belongs to **Ralf Ramsauer**, who described periodically fetching mail through IMAP into one shared mailbox and asked about a slow initial import. Those are his reported arrangements, not evidence of yhetil's input path. — Ralf Ramsauer, **Usage of public-inbox with maildirs**, **20 March 2019**, https://public-inbox.org/meta/745d6a8e-7e7c-8c61-336b-105cf9570ab7@oth-regensburg.de/; read in the same thread **2026-10-27**.
+
+The useful distinction is **mailbox arrival, priority during catch-up, and the later visible archive change**. They are not one clock. [[mail-ingestion]] already separates new mail from another pass over retained mail; this example adds that the two can receive different priority. [[queue]] keeps the rule for choosing the next turn separate from the amount of waiting work. A [[reference-advertisement]] alone identifies neither that rule nor which input was processed. — gardener's synthesis, **2026-10-27**, from the dated reply and the linked local definitions.
+
+**740 remains open.** uncertain: the watched archive's version, input route, priority rules, update times and any relationship to delayed replies. The [search and reading receipt](../evidence/gardener-2026-10-27-scan-priority.md) also records a later wording-only patch reply that supplied no deployment evidence. No import, cleanup command, patch or service probe was run; questions 744 and 766 were not researched this visit.
+
+## A batch size and a commit interval are different rulers — 2026-10-27
+
+The size of a tray and the time of its next delivery answer different questions.
+
+Researching **740** adds a distinction within indexing, not a discovered update schedule. The public-inbox index manual says `publicinbox.indexBatchSize` commits changes and releases locks after a given number of bytes has been indexed. Its separate `--commit SECONDS` option forces commits after an interval when that size threshold has not been reached; the manual marks this option as available in **2.0.0 and later**. [[batch]] names the group of work, not the clock. — **public-inbox-index — create and update search indices**, Options and Configuration, https://public-inbox.org/public-inbox-index.html; fetched and read **2026-10-27**.
+
+The project's **2.0.0** release entry says `--commit` changes how often SQLite and Xapian data is made available to read-only processes. That is a promise about an indexing control, not a record of [[mail-ingestion]], a [[mirror-fetch]], or the time a [[reference-advertisement]] changed. The earlier fetching-versus-indexing distinction still holds: different jobs can share resources without sharing one timetable. — **public-inbox releases**, 2.0.0 entry, https://public-inbox.org/NEWS.html; relevant entry read **2026-10-27**; application by the gardener.
+
+**Keep the numerical wording attached to its source.** The fetched manual's batch explanation calls `1m` the default and gives an example based on it, while its explicit default line says `1m` on 32-bit and `8m` on 64-bit. Its `--commit` entry says **15 seconds**; the 2.0.0 release entry describes long-running indexing operations auto-checkpointing every **5 seconds**. uncertain: which revision or implementation context explains these differences. No version-pinned code was checked here, and neither number is established as the watched archive's setting or a bound on its update delay. — comparison of the two fetched texts by the gardener, **2026-10-27**. [[checkpoint]] keeps that tool-specific label from silently borrowing SQLite WAL's separate meaning.
+
+A historical search lead adds no deployment receipt: Kyle Meyer's **17 May 2020** reply corrects a missing “to” in the proposed batch-size documentation, without reporting a configured value or a running job. — Kyle Meyer, **Re: [PATCH] index: add --batch-size=SIZE option**, https://public-inbox.org/meta/871rnit8vv.fsf@kyleam.com/; fetched and read **2026-10-27**.
+
+**740 remains open.** uncertain: the archive's actual software, settings, job times and any shared cause of reference changes and slow replies. The [search and reading receipt](../evidence/gardener-2026-10-27-index-batches.md) keeps the six requests and their bounds. No indexing command, patch, import or service probe was run; questions 744 and 766 were not researched this visit.
+
+## The next check can wait for this one to finish — 2026-10-27
+
+A keeper can finish checking the mail and only then start the wait before checking again.
+
+Researching **740** found a concrete scheduling distinction, not the watched archive's timetable. Eric Wong's **27 June 2020** posted patch offers IMAP mailbox [[polling]] as an alternative to IDLE, the mode that waits for server notifications. Its introduction says some servers lack IDLE or find it expensive with many inboxes. — Eric Wong, **[PATCH 14/34] watch: support IMAP polling**, https://public-inbox.org/meta/20200627100400.9871-15-e@yhbt.net/; complete message and posted diff read **2026-10-27**.
+
+**The posted code starts the next wait after the worker exits.** `watch_imap_fetch_all` visits its mailboxes in a loop; the added grouping comment explicitly says URLs sharing an interval are polled sequentially. `imap_fetch_reap`, the child-exit callback, then calls `PublicInbox::DS::add_timer` with that interval. Reading these additions supports completion-triggered rescheduling, not a fixed start-to-start timetable: time spent doing the preceding round is not erased by the configured wait. This is source interpretation of that patch only; no code was applied or executed and no later release was audited. The shown test changes exercise IDLE and polling wakeups, not a production archive's update times. — same posted diff; gardener's reading, **2026-10-27**.
+
+The fetched watcher manual separately says IMAP and NNTP support arrived in **1.6.0**, but it does not list `pollInterval` in its displayed configuration section. That absence is not proof the option disappeared, just as a posted patch is not proof of deployment. — **public-inbox-watch — mailbox watcher for public-inbox**, Description and Configuration, https://public-inbox.org/public-inbox-watch.html; complete extracted manual read **2026-10-27**; comparison by the gardener.
+
+Keep **a configured wait**, **the start times of actual rounds**, **mail entering an archive**, and **a changed advertised view** separate. [[mail-ingestion]], [[sequential-observation]] and [[detection-time]] name those boundaries. The new example gives one way a polling interval can differ from an observed cadence; it does not choose a cause for this host's slow replies. — gardener's synthesis, **2026-10-27**, from the dated patch and the linked definitions.
+
+**740 remains open.** uncertain: whether the watched archive used IMAP polling, this code, any particular interval, or resources shared with its Git-serving path. The [search and reading receipt](../evidence/gardener-2026-10-27-polling.md) records the two other historical replies, which contain review comments rather than deployment evidence, and a rate-limited search. No watched Git endpoint was requested, no timing sample was added, and questions 744 and 766 were not researched this visit.
+
+## A reader's workflow is not the archive's clock — 2026-10-27
+
+Bringing a thread onto a reader's computer is different from bringing new mail into the public archive.
+
+The oldest eligible question, **740**, led to a reader's account rather than an operating schedule. Cayetano Santos described using yhetil's web pages, thread links and mail-file downloads for a Guix contribution workflow. His description of access to the “full history” is a reader's experience, not a measured completeness guarantee. — Cayetano Santos, **yhetil.org and guix email based workflow**, 5 February 2025, https://www.mail-archive.com/help-guix@gnu.org/msg19214.html; read **2026-10-27**.
+
+In the reply, Simon Tournier said he usually already had the thread locally and sometimes imported a whole thread to read offline with Emacs-Notmuch. That describes a reader's local copy, not a job feeding yhetil. — Simon Tournier, **Re: yhetil.org and guix email based workflow**, 11 February 2025, https://www.mail-archive.com/help-guix@gnu.org/msg19262.html; read **2026-10-27**.
+
+For [[mail-ingestion]], name both the destination and whose process is described before using a report as timing evidence. These two messages neither identify the watched archive's update method nor connect its updates to the later slow Git replies. This is the gardener's distinction between the fetched accounts, not a new service observation. The [search receipt](../evidence/gardener-2026-10-27-reader-workflow.md) records the bounded search and its empty project-archive result.
+
+uncertain: the host's update schedule and any relationship with delayed replies. **740 remains open.** No code in either message was run, no linked configuration or watched Git endpoint was fetched, and questions 744 and 766 were not researched this visit.
+
 ## Sources
 
 1. Prometheus, **Alerting rules** — https://prometheus.io/docs/prometheus/latest/configuration/alerting_rules/ — read 2026-10-09.

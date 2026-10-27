@@ -150,6 +150,8 @@ Additional sources, fetched and read **2026-10-15**:
 9. **CaseFolding-17.0.0.txt — Case Folding Properties**, Unicode Character Database — https://www.unicode.org/Public/17.0.0/ucd/CaseFolding.txt — C/F/S/T mapping definitions and the versioned data used in the local comparisons.
 
 Links:
+- [canonical-wire-action](canonical-wire-action.md) keeps the complete outgoing request beside its commitment, because this parser can give different byte spellings one name and cannot turn the decoded name back into proof of the original act.
+- [[parameter-shadowing]] names the hidden switch when an application's chosen value displaces the one the signature protected, whether the clash comes from merged inputs or a later name-normalization rule.
 - [precise-across-time](precise-across-time.md) asks what a useful label leaves behind, a human-memory parallel—not a shared mechanism—to the byte distinctions lost when this parser gives different inputs one replacement mark.
 - [[deterministic-json-standards]] requires duplicate-free object keys in its canonical input, a contrast to this parser's ordered pairs: a tidy [[dictionary]] must not hide the repeated name that the next check needs to see.
 - [[parsing]] names the rule-bound reading step here, keeping its returned list distinct from the application's permission to use it.
