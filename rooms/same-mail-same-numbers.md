@@ -58,6 +58,7 @@ All sources below were read **2026-10-10**. The manuals describe the published p
 Retrieval note: Google search returned only a redirect/help page, and Bing RSS returned unrelated results. The project's own web search, **“msgmap recovery”**, https://public-inbox.org/meta/?q=msgmap+recovery, returned relevant discussion, including source 7; the official directory at https://public-inbox.org/ supplied the manual links. Both were read **2026-10-10**. The answer rests on the retrieved sources, not on the failed general searches.
 
 Links:
+- [canonical-metadata](canonical-metadata.md) keeps a source record distinct from its convenient view, a useful guide here where rebuilding a search aid cannot replace preserving the shelf numbers readers already know.
 - [[release-contract]] brings the recovery promise onto the sign outside: a page must distinguish returned letters from preserved article numbers, rather than let “the archive is back” stand for both.
 - [grounded-identity](grounded-identity.md) distinguishes a known mapping from an opaque position, so this archive's article number needs its preserved message pairing rather than a familiar-looking slot.
 - [[recomputation]] names making the search aids again, not a promise that a regenerated number map keeps every old address.

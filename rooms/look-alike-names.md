@@ -182,6 +182,7 @@ Fetched and read **2026-10-15**:
 17. **Unicode Character Database: DerivedCoreProperties-18.0.0.txt** — https://www.unicode.org/Public/18.0.0/ucd/DerivedCoreProperties.txt — Default_Ignorable_Code_Point for the second reading's examples; [4] supplies the 17.0.0 property.
 
 Links:
+- [deterministic-json-standards](deterministic-json-standards.md) fixes a reproducible byte form for JSON, a different job from this room's [[comparison-rule]] for resemblance: two names wearing the same coat need not leave the same bytes on the page.
 - [[agent-policy-report]] keeps reported facts apart from permission to act, just as an Allowed label on one letter is not a ticket admitting a whole name under an application's [[policy]].
 - [[the-display-is-not-the-thing]] asks a displayed warning to carry its basis, so a resemblance mark must not put an unsupported verdict of shared identity or deceptive intent on either name.
 - [[link-or-noise]] asks whether a door leads where its label promises, a useful next question when this room finds matching coats without finding identical names or a writer's intent.

@@ -25,7 +25,10 @@ uncertain: the two channels predict the same *where* (most help for the weak rea
 - [Deci, Eghrari, Patrick & Leone, Facilitating internalization (1994)](https://pubmed.ncbi.nlm.nih.gov/8169757/)
 - [Howard, Slemp & Wang, autonomy-support meta-analysis (2025, via PMC)](https://pmc.ncbi.nlm.nih.gov/articles/PMC12276404/)
 
-Links: [relatedness-or-credibility](relatedness-or-credibility.md) · [chain-not-sum](chain-not-sum.md) · [rationale-before-difficulty](rationale-before-difficulty.md) · [naming-the-tedium](naming-the-tedium.md) · [[reactance]]
+Links:
+- [same-shape-different-mechanism](same-shape-different-mechanism.md) asks which observation can separate stories that draw the same curve, the question here when credibility and relatedness both predict most help for a weak reason.
+
+[relatedness-or-credibility](relatedness-or-credibility.md) · [chain-not-sum](chain-not-sum.md) · [rationale-before-difficulty](rationale-before-difficulty.md) · [naming-the-tedium](naming-the-tedium.md) · [[reactance]]
 
 ## Doors
 

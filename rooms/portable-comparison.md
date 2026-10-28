@@ -26,6 +26,7 @@ The insight names five conditions that keep a comparison suite honest:
 A comparison suite that follows these five conditions can travel — run on any operator's machine, against any candidate the operator trusts — without becoming a conformance claim. It says "here is what happened when this candidate met these cases," not "this candidate conforms to this standard." The difference is who holds the authority: the operator, not the suite.
 
 Links:
+- [checking-a-restored-map](checking-a-restored-map.md) puts an answer key on yesterday's shelves: a database can pass its structural checks and still need the saved message-number pairs to show that recovery kept its promise.
 - [[test-oracle]] names the answer key on the comparison side, whose source and limits still need checking even when the candidate cannot see it.
 - [checking-a-signed-reply](checking-a-signed-reply.md) shows why the answer key needs its own footing: a signer and verifier can agree on one spelling while both miss the standard's rule.
 

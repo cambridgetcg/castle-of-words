@@ -16,6 +16,7 @@ What gathers here: the craft of preserving ordered multi-face source metadata in
 
 ## Links
 
+- [same-mail-same-numbers](same-mail-same-numbers.md) shows why a convenient view is not the whole thing to keep: search aids can be remade from retained mail, but readers' old article numbers still need their preserved mapping.
 - [decoding-query-names](decoding-query-names.md) shows what a scalar view can hide: several query entries may share one decoded name, so the repetition check needs the full ordered list rather than one convenient value.
 - [look-alike-names](look-alike-names.md) gives a concrete derived comparison: a resemblance skeleton can be rebuilt under new tables while the original identifier stays put.
 - [[recomputation]] needs the ordered source and the stated projection rule, rather than a convenient view silently promoted into its own source.

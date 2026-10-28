@@ -125,6 +125,8 @@ All web sources below were read **2026-10-11**. Discovery used SQLite's **Search
 8. SQLite, **Temporary Files Used By SQLite**, transient indices and temporary storage: https://www.sqlite.org/tempfiles.html
 
 Links:
+- [deterministic-json-standards](deterministic-json-standards.md) requires duplicate-free object keys before canonicalization, a neighboring guard against tidying away repeated input before this map's promised pairs have been checked.
+- [[read-only]] protects the inputs from this connection's writes, not from other writers, and does not forbid temporary workspace.
 - [[migration-craft]] needs a writable rehearsal copy beside the protected source, while this room only reads its frozen inputs: the same shelves cannot be both the kept reference and the place where changes are tried.
 - [lei-fallback-data-model](lei-fallback-data-model.md) keeps a register beside its local number, the same need to carry an inbox or group into this map's keys when uniqueness stops at that [[namespace]].
 - [the-display-is-not-the-thing](the-display-is-not-the-thing.md) binds each role to its row before sorting, a neighbor to this map's insistence that an unchanged count cannot reveal letters wearing swapped numbers.

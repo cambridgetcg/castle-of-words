@@ -42,6 +42,8 @@ The pattern is not standardized, but it is built on a standard (JCS). The castle
 
 Links:
 
+- [look-alike-names](look-alike-names.md) keeps a resemblance mark apart from the original name, so a font's matching coats cannot stand in for this serializer's reproducible byte spelling.
+- [comparing-saved-maps](comparing-saved-maps.md) compares promised pairs rather than whole-file bytes, showing why the [[comparison-rule]] must say whether the reader needs the same letters on the same shelves or the same ink on every page.
 - [[decoding-query-names]] keeps repeated names in a list, showing why this scheme's no-duplicate-key boundary cannot be met faithfully by a [[dictionary]] conversion that silently discards one value.
 - [checking-a-signed-reply](checking-a-signed-reply.md) shows why [[serialization]] must follow the particular contract: repeatable JSON bytes do not replace an HTTP signature's component and escaping rules.
 

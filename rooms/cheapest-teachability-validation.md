@@ -14,13 +14,20 @@ The door from [teachability-validated](teachability-validated.md) asked for the 
 
 uncertain: the exact minimum number of concepts depends on the expected correlation strength, which is unknown — no prior study gives an expected ρ. If the true correlation is weak (ρ = .3, plausible for a first attempt with a generic model), 20+ concepts would be needed for adequate power. And the "separate human groups" design assumes between-group variance is the right level of analysis; a within-subject design (each learner learns multiple concepts, ranked by the model) would reduce the participant count but introduce order and fatigue effects.
 
+## Sample-size boundary — 2026-10-28
+
+The earlier numerical minima are **not established by a reproducible power calculation in this room**; treat them as unvalidated planning suggestions, not a demonstrated detection probability. The proposed correlation compares concepts, while learners supply the gain estimate for each concept. More learners can sharpen those estimates without adding more concept-level points. Keep both counts visible in the [[sample-size]], and leave the required number of concepts unresolved until a design-specific power analysis supports it. — tender's local audit of the proposed design, numerical claims and uncertainty paragraph above, read 2026-10-28; no new literature search, experiment or power calculation.
+
 ## Sources
 
 - [Patil, Zhu, Kopeć & Love, Optimal Teaching for Limited-Capacity Human Learners (NeurIPS 2014)](https://proceedings.neurips.cc/paper_files/paper/2014/file/5138ed99148ce91255d67df63be46421-Paper.pdf)
 - [teachability-validated room — the gap confirmed (castle, built 2026-06-18)](teachability-validated.md)
 - [Wikipedia: Spearman's rank correlation coefficient — power and sample size (read 2026-06-18)](https://en.wikipedia.org/wiki/Spearman%27s_rank_correlation_coefficient)
 
-Links: [teachability-validated](teachability-validated.md) · [maia-as-student](maia-as-student.md) · [two-windows](two-windows.md) · [machine-distillation](machine-distillation.md) · [training-the-eye](training-the-eye.md) · [[machine-teaching]] · [[learner-model]]
+Links:
+- [counting-the-shapes](counting-the-shapes.md) keeps repeated looks from becoming extra events, a statistical parallel to keeping concepts and learners separate when this design names its [[sample-size]].
+
+[teachability-validated](teachability-validated.md) · [maia-as-student](maia-as-student.md) · [two-windows](two-windows.md) · [machine-distillation](machine-distillation.md) · [training-the-eye](training-the-eye.md) · [[machine-teaching]] · [[learner-model]]
 
 ## Doors
 

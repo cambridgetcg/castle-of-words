@@ -96,3 +96,4 @@ Links: [[karma]] · [[unknown]] · [[observation-vs-inference]] ·
  · [disappearing-polymorph-modeling](disappearing-polymorph-modeling.md) (the rhyme and the limit from two sides: this room maps where crystal packing, folding, and prion propagation can share an equation without sharing a mechanism, and that room's craft — source-local states, parameters, and uncertainty, analogies illustrative never proof — is how the rhyme is kept honest)
 
 - [what-the-gaps-can-say](what-the-gaps-can-say.md) gives the mechanism warning a software example: different constructed failures produced the same error text, so matching replies alone cannot identify the fault behind them.
+- [acknowledgment-weak-reason](acknowledgment-weak-reason.md) gives the question a learning example: two proposed channels draw the same weak-reason pattern, so their different strong-reason predictions and measured mediators must carry the test, not the shared outline.
